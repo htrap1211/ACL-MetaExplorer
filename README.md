@@ -30,7 +30,7 @@ To set up the project locally, follow these steps:
     git clone <https://github.com/htrap1211/ACL-MetaExplorer.git>
     cd Text_technology
     ```
-    *(Replace `<https://github.com/htrap1211/ACL-MetaExplorer.git>` with the actual URL of your repository)*
+    *(Replace `<https://github.com/htrap1211/ACL-MetaExplorer/blob/main/README.md>` with the actual URL of your repository)*
 
 2.  **Create and activate a virtual environment:**
     It's recommended to use a virtual environment to manage dependencies.
