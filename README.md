@@ -27,10 +27,10 @@ To set up the project locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url>
+    git clone <https://github.com/htrap1211/ACL-MetaExplorer.git>
     cd Text_technology
     ```
-    *(Replace `<repository_url>` with the actual URL of your repository)*
+    *(Replace `<https://github.com/htrap1211/ACL-MetaExplorer.git>` with the actual URL of your repository)*
 
 2.  **Create and activate a virtual environment:**
     It's recommended to use a virtual environment to manage dependencies.
