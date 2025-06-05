@@ -1,0 +1,33 @@
+{
+  "id": "P18-1084",
+  "title": "Bridging Languages through Images with Deep Partial Canonical Correlation Analysis",
+  "authors": [
+    "Rotman, Guy  and\nVuli{\\'c}, Ivan  and\nReichart, Roi"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We present a deep neural network that leverages images to improve bilingual text embeddings. Relying on bilingual image tags and descriptions, our approach conditions text embedding induction on the shared visual information for both languages, producing highly correlated bilingual embeddings. In particular, we propose a novel model based on Partial Canonical Correlation Analysis (PCCA). While the original PCCA finds linear projections of two views in order to maximize their canonical correlation conditioned on a shared third variable, we introduce a non-linear Deep PCCA (DPCCA) model, and develop a new stochastic iterative algorithm for its optimization. We evaluate PCCA and DPCCA on multilingual word similarity and cross-lingual image description retrieval. Our models outperform a large variety of previous methods, despite not having access to any visual signal during test time inference.",
+  "keywords": [
+    "deep",
+    "variety",
+    "we",
+    "a large variety",
+    "a deep neural network",
+    "cross",
+    "embedding induction",
+    "neural",
+    "bilingual text embeddings",
+    "its optimization",
+    "retrieval",
+    "information",
+    "views",
+    "word",
+    "visual"
+  ],
+  "url": "https://aclanthology.org/P18-1084/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:11:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

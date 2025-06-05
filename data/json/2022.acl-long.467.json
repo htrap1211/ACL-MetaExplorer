@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.467",
+  "title": "Reducing Position Bias in Simultaneous Machine Translation with Length-Aware Framework",
+  "authors": [
+    "Zhang, Shaolei  and\nFeng, Yang"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Simultaneous machine translation (SiMT) starts translating while receiving the streaming source inputs, and hence the source sentence is always incomplete during translating. Different from the full-sentence MT using the conventional seq-to-seq architecture, SiMT often applies prefix-to-prefix architecture, which forces each target word to only align with a partial source prefix to adapt to the incomplete source in streaming inputs. However, the source words in the front positions are always illusoryly considered more important since they appear in more prefixes, resulting in position bias, which makes the model pay more attention on the front source positions in testing. In this paper, we first analyze the phenomenon of position bias in SiMT, and develop a Length-Aware Framework to reduce the position bias by bridging the structural gap between SiMT and full-sentence MT. Specifically, given the streaming inputs, we first predict the full-sentence length and then fill the future source position with positional encoding, thereby turning the streaming inputs into a pseudo full-sentence. The proposed framework can be integrated into most existing SiMT methods to further improve performance. Experiments on two representative SiMT methods, including the state-of-the-art adaptive policy, show that our method successfully reduces the position bias and thereby achieves better SiMT performance.",
+  "keywords": [
+    "bias",
+    "the position bias",
+    "we",
+    "translation",
+    "simultaneous machine translation",
+    "position bias",
+    "word",
+    "more attention",
+    "model",
+    "machine",
+    "attention",
+    "seq",
+    "the streaming inputs",
+    "prefix-to-prefix architecture",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.467/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:30:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

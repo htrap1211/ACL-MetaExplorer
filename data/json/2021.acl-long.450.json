@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.450",
+  "title": "A Conditional Splitting Framework for Efficient Constituency Parsing",
+  "authors": [
+    "Nguyen, Thanh-Tung  and\nNguyen, Xuan-Phi  and\nJoty, Shafiq  and\nLi, Xiaoli"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "We introduce a generic seq2seq parsing framework that casts constituency parsing problems (syntactic and discourse parsing) into a series of conditional splitting decisions. Our parsing model estimates the conditional probability distribution of possible splitting points in a given text span and supports efficient top-down decoding, which is linear in number of nodes. The conditional splitting formulation together with efficient beam search inference facilitate structural consistency without relying on expensive structured inference. Crucially, for discourse analysis we show that in our formulation, discourse segmentation can be framed as a special case of parsing which allows us to perform discourse parsing without requiring segmentation as a pre-requisite. Experiments show that our model achieves good results on the standard syntactic parsing tasks under settings with/without pre-trained representations and rivals state-of-the-art (SoTA) methods that are more computationally expensive than ours. In discourse parsing, our method outperforms SoTA by a good margin.",
+  "keywords": [
+    "parsing",
+    "efficient",
+    "series",
+    "we",
+    "discourse parsing",
+    "our parsing model",
+    "analysis",
+    "seq2seq",
+    "text",
+    "generic",
+    "constituency parsing problems",
+    "a series",
+    "model",
+    "us",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.450/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

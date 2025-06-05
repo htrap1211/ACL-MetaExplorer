@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.418",
+  "title": "Rethinking Self-Supervision Objectives for Generalizable Coherence Modeling",
+  "authors": [
+    "Jwalapuram, Prathyusha  and\nJoty, Shafiq  and\nLin, Xiang"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Given the claims of improved text generation quality across various pre-trained neural models, we consider the coherence evaluation of machine generated text to be one of the principal applications of coherence models that needs to be investigated. Prior work in neural coherence modeling has primarily focused on devising new architectures for solving the permuted document task. We instead use a basic model architecture and show significant improvements over state of the art within the same training regime. We then design a harder self-supervision objective by increasing the ratio of negative samples within a contrastive learning setup, and enhance the model further through automatic hard negative mining coupled with a large global negative queue encoded by a momentum encoder. We show empirically that increasing the density of negative samples improves the basic model, and using a global negative queue further improves and stabilizes the model while training with hard negative samples. We evaluate the coherence model on task-independent test sets that resemble real-world applications and show significant improvements in coherence evaluations of downstream tasks.",
+  "keywords": [
+    "objectives",
+    "generalizable",
+    "we",
+    "training",
+    "improved text generation quality",
+    "neural",
+    "self",
+    "a harder self-supervision objective",
+    "learning",
+    "generalizable coherence modeling",
+    "momentum",
+    "coherence evaluations",
+    "text",
+    "objective",
+    "self-supervision objectives"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.418/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:29:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

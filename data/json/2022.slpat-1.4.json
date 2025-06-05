@@ -1,0 +1,33 @@
+{
+  "id": "2022.slpat-1.4",
+  "title": "A comparison study on patient-psychologist voice diarization",
+  "authors": [
+    "Riad, Rachid  and\nTiteux, Hadrien  and\nLemoine, Laurie  and\nMontillot, Justine  and\nSliwinski, Agnes  and\nBagnou, Jennifer  and\nCao, Xuan  and\nBachoud-Levi, Anne-Catherine  and\nDupoux, Emmanuel"
+  ],
+  "year": "2022",
+  "venue": "Ninth Workshop on Speech and Language Processing for Assistive Technologies (SLPAT-2022)",
+  "abstract": "Conversations between a clinician and a patient, in natural conditions, are valuable sources of information for medical follow-up. The automatic analysis of these dialogues could help extract new language markers and speed up the clinicians’ reports. Yet, it is not clear which model is the most efficient to detect and identify the speaker turns, especially for individuals with speech disorders. Here, we proposed a split of the data that allows conducting a comparative evaluation of different diarization methods. We designed and trained end-to-end neural network architectures to directly tackle this task from the raw signal and evaluate each approach under the same metric. We also studied the effect of fine-tuning models to find the best performance. Experimental results are reported on naturalistic clinical conversations between Psychologists and Interviewees, at different stages of Huntington’s disease, displaying a large panel of speech disorders. We found out that our best end-to-end model achieved 19.5 % IER on the test set, compared to 23.6% achieved by the finetuning of the X-vector architecture. Finally, we observed that we could extract clinical markers directly from the automatic systems, highlighting the clinical relevance of our methods.",
+  "keywords": [
+    "end",
+    "efficient",
+    "ier",
+    "conversations",
+    "these dialogues",
+    "we",
+    "naturalistic clinical conversations",
+    "neural",
+    "the x-vector architecture",
+    "natural",
+    "it",
+    "information",
+    "19 5 ier",
+    "fine-tuning models",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/2022.slpat-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:46:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

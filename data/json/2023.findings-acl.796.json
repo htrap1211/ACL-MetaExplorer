@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.796",
+  "title": "Can Cross-Lingual Transferability of Multilingual Transformers Be Activated Without End-Task Data?",
+  "authors": [
+    "Chi, Zewen  and\nHuang, Heyan  and\nMao, Xian-Ling"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Pretrained multilingual Transformers have achieved great success in cross-lingual transfer learning. Current methods typically activate the cross-lingual transferability of multilingual Transformers by fine-tuning them on end-task data. However, the methods cannot perform cross-lingual transfer when end-task data are unavailable. In this work, we explore whether the cross-lingual transferability can be activated without end-task data. We propose a cross-lingual transfer method, named PlugIn-X. PlugIn-X disassembles monolingual and multilingual Transformers into sub-modules, and reassembles them to be the multilingual end-task model. After representation adaptation, PlugIn-X finally performs cross-lingual transfer in a plug-and-play style. Experimental results show that PlugIn-X successfully activates the cross-lingual transferability of multilingual Transformers without accessing end-task data. Moreover, we analyze how the cross-model representation alignment affects the cross-lingual transferability.",
+  "keywords": [
+    "work",
+    "cross",
+    "alignment",
+    "transformers",
+    "end",
+    "model",
+    "the cross-model representation alignment",
+    "-",
+    "fine",
+    "we",
+    "multilingual transformers",
+    "transfer",
+    "current",
+    "end-task data",
+    "this work"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.796/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

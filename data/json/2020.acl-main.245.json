@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.245",
+  "title": "Robust Encodings: A Framework for Combating Adversarial Typos",
+  "authors": [
+    "Jones, Erik  and\nJia, Robin  and\nRaghunathan, Aditi  and\nLiang, Percy"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Despite excellent performance on many tasks, NLP systems are easily fooled by small adversarial perturbations of inputs. Existing procedures to defend against such perturbations are either (i) heuristic in nature and susceptible to stronger attacks or (ii) provide guaranteed robustness to worst-case attacks, but are incompatible with state-of-the-art models like BERT. In this work, we introduce robust encodings (RobEn): a simple framework that confers guaranteed robustness, without making compromises on model architecture. The core component of RobEn is an encoding function, which maps sentences to a smaller, discrete space of encodings. Systems using these encodings as a bottleneck confer guaranteed robustness with standard training, and the same encodings can be used across multiple tasks. We identify two desiderata to construct robust encoding functions: perturbations of a sentence should map to a small set of encodings (stability), and models using encodings should still perform well (fidelity). We instantiate RobEn to defend against a large family of adversarial typos. Across six tasks from GLUE, our instantiation of RobEn paired with BERT achieves an average robust accuracy of 71.3% against all adversarial typos in the family considered, while previous work using a typo-corrector achieves only 35.3% accuracy against a simple greedy attack.",
+  "keywords": [
+    "an average robust accuracy",
+    "only 35 3 accuracy",
+    "we",
+    "training",
+    "core",
+    "i",
+    "bert",
+    "function",
+    "accuracy",
+    "work",
+    "nlp",
+    "model",
+    "many tasks nlp systems",
+    "excellent performance",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.245/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:45:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.nlpmc-1.8",
+  "title": "Robust Prediction of Punctuation and Truecasing for Medical {ASR",
+  "authors": [
+    "Sunkara, Monica  and\nRonanki, Srikanth  and\nDixit, Kalpit  and\nBodapati, Sravan  and\nKirchhoff, Katrin"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the First Workshop on Natural Language Processing for Medical Conversations",
+  "abstract": "Automatic speech recognition (ASR) systems in the medical domain that focus on transcribing clinical dictations and doctor-patient conversations often pose many challenges due to the complexity of the domain. ASR output typically undergoes automatic punctuation to enable users to speak naturally, without having to vocalize awkward and explicit punctuation commands, such as “period”, “add comma” or “exclamation point”, while truecasing enhances user readability and improves the performance of downstream NLP tasks. This paper proposes a conditional joint modeling framework for prediction of punctuation and truecasing using pretrained masked language models such as BERT, BioBERT and RoBERTa. We also present techniques for domain and task specific adaptation by fine-tuning masked language models with medical domain data. Finally, we improve the robustness of the model against common errors made in ASR by performing data augmentation. Experiments performed on dictation and conversational style corpora show that our proposed model achieves 5% absolute improvement on ground truth text and 10% improvement on ASR outputs over baseline models under F1 metric.",
+  "keywords": [
+    "roberta",
+    "conversations",
+    "we",
+    "biobert",
+    "fine-tuning",
+    "masked language models",
+    "downstream nlp tasks",
+    "bert biobert",
+    "tuning",
+    "bert",
+    "metric",
+    "text",
+    "fine",
+    "doctor-patient conversations",
+    "conversational style"
+  ],
+  "url": "https://aclanthology.org/2020.nlpmc-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:57:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

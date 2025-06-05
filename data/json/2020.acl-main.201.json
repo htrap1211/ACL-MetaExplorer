@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.201",
+  "title": "Why Overfitting Isn{'}t Always Bad: Retrofitting Cross-Lingual Word Embeddings to Dictionaries",
+  "authors": [
+    "Zhang, Mozhi  and\nFujinuma, Yoshinari  and\nPaul, Michael J.  and\nBoyd-Graber, Jordan"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Cross-lingual word embeddings (CLWE) are often evaluated on bilingual lexicon induction (BLI). Recent CLWE methods use linear projections, which underfit the training dictionary, to generalize on BLI. However, underfitting can hinder generalization to other downstream tasks that rely on words from the training dictionary. We address this limitation by retrofitting CLWE to the training dictionary, which pulls training translation pairs closer in the embedding space and overfits the training dictionary. This simple post-processing step often improves accuracy on two downstream tasks, despite lowering BLI test accuracy. We also retrofit to both the training dictionary and a synthetic dictionary induced from CLWE, which sometimes generalizes even better on downstream tasks. Our results confirm the importance of fully exploiting training dictionary in downstream tasks and explains why BLI is a flawed CLWE evaluation.",
+  "keywords": [
+    "cross",
+    "embeddings",
+    "a flawed clwe evaluation",
+    "dictionaries",
+    "processing",
+    "the embedding space",
+    "translation",
+    "bli test accuracy",
+    "retrofitting cross-lingual word embeddings",
+    "generalization",
+    "underfitting",
+    "word",
+    "we",
+    "cross-lingual word embeddings",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.201/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:44:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

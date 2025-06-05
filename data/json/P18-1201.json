@@ -1,0 +1,33 @@
+{
+  "id": "P18-1201",
+  "title": "Zero-Shot Transfer Learning for Event Extraction",
+  "authors": [
+    "Huang, Lifu  and\nJi, Heng  and\nCho, Kyunghyun  and\nDagan, Ido  and\nRiedel, Sebastian  and\nVoss, Clare"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Most previous supervised event extraction methods have relied on features derived from manual annotations, and thus cannot be applied to new event types without extra annotation effort. We take a fresh look at event extraction and model it as a generic grounding problem: mapping each event mention to a specific type in a target event ontology. We design a transferable architecture of structural and compositional neural networks to jointly represent and map event mentions and types into a shared semantic space. Based on this new framework, we can select, for each event mention, the event type which is semantically closest in this space as its type. By leveraging manual annotations available for a small set of existing event types, our framework can be applied to new unseen event types without additional manual annotations. When tested on 23 unseen event types, our zero-shot framework, without manual annotations, achieved performance comparable to a supervised model trained from 3,000 sentences annotated with 500 event mentions.",
+  "keywords": [
+    "neural",
+    "extraction",
+    "model",
+    "extra",
+    "it",
+    "generic",
+    "semantic",
+    "we",
+    "learning",
+    "transfer",
+    "a shared semantic space",
+    "our zero-shot framework",
+    "ontology",
+    "zero-shot transfer learning",
+    "shot"
+  ],
+  "url": "https://aclanthology.org/P18-1201/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:14:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

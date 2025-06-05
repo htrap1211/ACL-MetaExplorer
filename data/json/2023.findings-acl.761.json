@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.761",
+  "title": "S}am{T}o{N}e: Improving Contrastive Loss for Dual Encoder Retrieval Models with Same Tower Negatives",
+  "authors": [
+    "Moiseev, Fedor  and\nHernandez Abrego, Gustavo  and\nDornbach, Peter  and\nZitouni, Imed  and\nAlfonseca, Enrique  and\nDong, Zhe"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Dual encoders have been used for retrieval tasks and representation learning with good results. A standard way to train dual encoders is using a contrastive loss with in-batch negatives. In this work, we propose an improved contrastive learning objective by adding queries or documents from the same encoder towers to the negatives, for which we name it as “contrastive loss with SAMe TOwer NEgatives” (SamToNe). By evaluating on question answering retrieval benchmarks from MS MARCO and MultiReQA, and heterogenous zero-shot information retrieval benchmarks (BEIR), we demonstrate that SamToNe can effectively improve the retrieval quality for both symmetric and asymmetric dual encoders. By directly probing the embedding spaces of the two encoding towers via the t-SNE algorithm (van der Maaten and Hinton, 2008), we observe that SamToNe ensures the alignment between the embedding spaces from the two encoder towers. Based on the analysis of the embedding distance distributions of the top-1 retrieved results, we further explain the efficacy of the method from the perspective of regularisation.",
+  "keywords": [
+    "retrieval tasks",
+    "dual encoders",
+    "question",
+    "we",
+    "the retrieval quality",
+    "shot",
+    "dual encoder retrieval models",
+    "the two encoder towers",
+    "it",
+    "queries",
+    "sne",
+    "loss",
+    "retrieval",
+    "information",
+    "der"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.761/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

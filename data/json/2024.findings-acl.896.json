@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.896",
+  "title": "How Far can 100 Samples Go? Unlocking Zero-Shot Translation with Tiny Multi-Parallel Data",
+  "authors": [
+    "Wu, Di  and\nTan, Shaomu  and\nMeng, Yan  and\nStap, David  and\nMonz, Christof"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Zero-shot translation aims to translate between language pairs not seen during training in Multilingual Machine Translation (MMT) and is widely considered an open problem. A common, albeit resource-consuming, solution is to add as many related translation directions as possible to the training corpus. In this paper, we show that for an English-centric model, surprisingly large zero-shot improvements can be achieved by simply fine-tuning with a very small amount of multi-parallel data. For example, on the EC30 dataset, we obtain up to +21.7 ChrF++ non-English overall improvements (870 directions) by using only 100 multi-parallel samples while preserving English-centric translation quality. This performance exceeds M2M100 by an average of 5.9 ChrF++ in the involved non-English directions. When investigating the size effect of fine-tuning data on translation quality, we found that already a small, randomly sampled set of fine-tuning directions is sufficient to achieve comparable improvements. The resulting non-English performance is close to the complete translation upper bound. Even in a minimal setting—fine-tuning with only one single sample—the well-known off-target issue is almost completely resolved, explaining parts—but not all—of the observed improvements in translation quality.",
+  "keywords": [
+    "multilingual machine translation",
+    "we",
+    "shot",
+    "training",
+    "translation",
+    "sufficient",
+    "zero-shot translation",
+    "fine-tuning directions",
+    "tuning",
+    "translation quality",
+    "fine",
+    "fine-tuning data",
+    "the complete translation",
+    "english-centric translation quality",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.896/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:00:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

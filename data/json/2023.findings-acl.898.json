@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.898",
+  "title": "Intent Discovery with Frame-guided Semantic Regularization and Augmentation",
+  "authors": [
+    "Sun, Yajing  and\nZhang, Rui  and\nYang, Jingyuan  and\nPeng, Wei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Most existing intent discovery methods leverage representation learning and clustering to transfer the prior knowledge of known intents to unknown ones. The learned representations are limited to the syntactic forms of sentences, therefore, fall short of recognizing adequate variations under the same meaning of unknown intents. This paper proposes an approach utilizing frame knowledge as conceptual semantic guidance to bridge the gap between known intents representation learning and unknown intents clustering. Specifically, we employ semantic regularization to minimize the bidirectional KL divergence between model predictions for frame-based and sentence-based samples. Moreover, we construct a frame-guided data augmenter to capture intent-friendly semantic information and implement contrastive clustering learning for unsupervised sentence embedding. Extensive experiments on two benchmark datasets show that our method achieves substantial improvements in accuracy (5%+) compared to solid baselines.",
+  "keywords": [
+    "semantic",
+    "we",
+    "friendly",
+    "intent-friendly semantic information",
+    "information",
+    "frame-guided semantic regularization",
+    "conceptual semantic guidance",
+    "learning",
+    "semantic regularization",
+    "accuracy",
+    "knowledge",
+    "model",
+    "regularization",
+    "clustering",
+    "contrastive clustering learning"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.898/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

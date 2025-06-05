@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.262",
+  "title": "I}so{S}core: Measuring the Uniformity of Embedding Space Utilization",
+  "authors": [
+    "Rudman, William  and\nGillman, Nate  and\nRayne, Taylor  and\nEickhoff, Carsten"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "The recent success of distributed word representations has led to an increased interest in analyzing the properties of their spatial distribution. Several studies have suggested that contextualized word embedding models do not isotropically project tokens into vector space. However, current methods designed to measure isotropy, such as average random cosine similarity and the partition score, have not been thoroughly analyzed and are not appropriate for measuring isotropy. We propose IsoScore: a novel tool that quantifies the degree to which a point cloud uniformly utilizes the ambient vector space. Using rigorously designed tests, we demonstrate that IsoScore is the only tool available in the literature that accurately measures how uniformly distributed variance is across dimensions in vector space. Additionally, we use IsoScore to challenge a number of recent conclusions in the NLP literature that have been derived using brittle metrics of isotropy. We caution future studies from using existing tools to measure isotropy in contextualized embedding space as resulting conclusions will be misleading or altogether inaccurate.",
+  "keywords": [
+    "how uniformly distributed variance",
+    "the nlp literature",
+    "we",
+    "current",
+    "variance",
+    "vector space",
+    "the ambient vector space",
+    "cloud",
+    "properties",
+    "brittle metrics",
+    "several studies",
+    "future studies",
+    "word",
+    "core",
+    "embedding space utilization"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.262/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

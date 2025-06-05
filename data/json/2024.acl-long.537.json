@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.537",
+  "title": "POMP}: Probability-driven Meta-graph Prompter for {LLM}s in Low-resource Unsupervised Neural Machine Translation",
+  "authors": [
+    "Pan, Shilong  and\nTian, Zhiliang  and\nDing, Liang  and\nZheng, Haoqi  and\nHuang, Zhen  and\nWen, Zhihua  and\nLi, Dongsheng"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Low-resource languages (LRLs) face challenges in supervised neural machine translation (NMT) due to limited parallel data, prompting research in unsupervised NMT.Unsupervised NMT (UNMT), without requiring ground truth, provides solutions for LRL translations using synthetic pseudo-parallel data and parallel data from auxiliary language pairs. However, they usually encounter translation errors, including errors from synthetic data and from auxiliary language pairs with linguistic biases.We argue that large language models (LLMs) mitigate UNMT’s translation errors by dynamically organizing auxiliary languages in prompts to improve LRL translations. In this paper, we proposePrObability-drivenMeta-graphPrompter (POMP), an approach employing a dynamic graph to organize multiple auxiliary languages, to prompt LLMs in LRL translations. POMP proposes a language-specific meta-graph that dynamically samples multiple translation paths to organize auxiliary languages in constructing prompts. Following the path, POMP prompts LLMs to translate with a mixture of auxiliary languages. We achieve the meta-graph’s evolution by back-propagating evaluation scores to update probabilities on the graph.Our experimental improvements show POMP’s effectiveness on LRLs’ translation.",
+  "keywords": [
+    "llm s",
+    "pomp probability-driven meta-graph prompter",
+    "we",
+    "graph",
+    "llm",
+    "we proposeprobability-drivenmeta-graphprompter pomp",
+    "linguistic biases",
+    "translation",
+    "lrls translation",
+    "neural",
+    "graphprompter",
+    "llms",
+    "biases",
+    "prompts",
+    "translation errors"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.537/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

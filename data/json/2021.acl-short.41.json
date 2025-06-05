@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.41",
+  "title": "ROPE}: Reading Order Equivariant Positional Encoding for Graph-based Document Information Extraction",
+  "authors": [
+    "Lee, Chen-Yu  and\nLi, Chun-Liang  and\nWang, Chu  and\nWang, Renshen  and\nFujii, Yasuhisa  and\nQin, Siyang  and\nPopat, Ashok  and\nPfister, Tomas"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Natural reading orders of words are crucial for information extraction from form-like documents. Despite recent advances in Graph Convolutional Networks (GCNs) on modeling spatial layout patterns of documents, they have limited ability to capture reading orders of given word-level node representations in a graph. We propose Reading Order Equivariant Positional Encoding (ROPE), a new positional encoding technique designed to apprehend the sequential presentation of words in documents. ROPE generates unique reading order codes for neighboring words relative to the target word given a word-level graph connectivity. We study two fundamental document entity extraction tasks including word labeling and word grouping on the public FUNSD dataset and a large-scale payment dataset. We show that ROPE consistently improves existing GCNs with a margin up to 8.4% F1-score.",
+  "keywords": [
+    "extraction",
+    "natural",
+    "information",
+    "information extraction",
+    "form",
+    "we",
+    "word",
+    "graph",
+    "graph convolutional networks",
+    "convolutional",
+    "entity",
+    "documents",
+    "given word-level node representations",
+    "presentation",
+    "reading"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.41/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

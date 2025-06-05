@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.190",
+  "title": "Aerial Vision-and-Dialog Navigation",
+  "authors": [
+    "Fan, Yue  and\nChen, Winson  and\nJiang, Tongzhou  and\nZhou, Chun  and\nZhang, Yi  and\nWang, Xin"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "The ability to converse with humans and follow natural language commands is crucial for intelligent unmanned aerial vehicles (a.k.a. drones). It can relieve people’s burden of holding a controller all the time, allow multitasking, and make drone control more accessible for people with disabilities or with their hands occupied. To this end, we introduce Aerial Vision-and-Dialog Navigation (AVDN), to navigate a drone via natural language conversation. We build a drone simulator with a continuous photorealistic environment and collect a new AVDN dataset of over 3k recorded navigation trajectories with asynchronous human-human dialogs between commanders and followers. The commander provides initial navigation instruction and further guidance by request, while the follower navigates the drone in the simulator and asks questions when needed. During data collection, followers’ attention on the drone’s visual observation is also recorded. Based on the AVDN dataset, we study the tasks of aerial navigation from (full) dialog history and propose an effective Human Attention Aided Transformer model (HAA-Transformer), which learns to predict both navigation waypoints and human attention.",
+  "keywords": [
+    "end",
+    "human attention",
+    "we",
+    "instruction",
+    "natural",
+    "it",
+    "natural language conversation",
+    "visual",
+    "disabilities",
+    "navigation trajectories",
+    "transformer",
+    "data collection followers attention",
+    "language",
+    "model",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.190/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

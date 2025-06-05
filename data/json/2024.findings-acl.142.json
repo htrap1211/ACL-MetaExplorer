@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.142",
+  "title": "N}euro{P}rune: A Neuro-inspired Topological Sparse Training Algorithm for Large Language Models",
+  "authors": [
+    "Dhurandhar, Amit  and\nPedapati, Tejaswini  and\nLuss, Ronny  and\nDan, Soham  and\nLozano, Aurelie  and\nDas, Payel  and\nKollias, Georgios"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Transformer-based Language Models have become ubiquitous in Natural Language Processing (NLP) due to their impressive performance on various tasks. However, expensive training as well as inference remains a significant impediment to their widespread applicability. While enforcing sparsity at various levels of the model architecture has found promise in addressing scaling and efficiency issues, there remains a disconnect between how sparsity affects network topology. Inspired by brain neuronal networks, we explore sparsity approaches through the lens of network topology. Specifically, we exploit mechanisms seen in biological networks, such as preferential attachment and redundant synapse pruning, and show that principled, model-agnostic sparsity approaches are performant and efficient across diverse NLP tasks, spanning both classification (such as natural language inference) and generation (summarization, machine translation), despite our sole objective not being optimizing performance. NeuroPrune is competitive with (or sometimes superior to) baselines on performance and can be up to 10x faster in terms of training time for a given level of sparsity, simultaneously exhibiting measurable improvements in inference time in many cases.",
+  "keywords": [
+    "efficient",
+    "scaling and efficiency issues",
+    "efficiency",
+    "summarization",
+    "we",
+    "both classification",
+    "training",
+    "translation",
+    "classification",
+    "natural language processing nlp",
+    "diverse nlp tasks",
+    "natural",
+    "processing",
+    "generation summarization machine translation",
+    "objective"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.142/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:50:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

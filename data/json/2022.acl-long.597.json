@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.597",
+  "title": "RNS}um: A Large-Scale Dataset for Automatic Release Note Generation via Commit Logs Summarization",
+  "authors": [
+    "Kamezawa, Hisashi  and\nNishida, Noriki  and\nShimizu, Nobuyuki  and\nMiyazaki, Takashi  and\nNakayama, Hideki"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "A release note is a technical document that describes the latest changes to a software product and is crucial in open source software development. However, it still remains challenging to generate release notes automatically. In this paper, we present a new dataset called RNSum, which contains approximately 82,000 English release notes and the associated commit messages derived from the online repositories in GitHub. Then, we propose classwise extractive-then-abstractive/abstractive summarization approaches to this task, which can employ a modern transformer-based seq2seq network like BART and can be applied to various repositories without specific constraints. The experimental results on the RNSum dataset show that the proposed methods can generate less noisy release notes at higher coverage than the baselines. We also observe that there is a significant gap in the coverage of essential information when compared to human references. Our dataset and the code are publicly available.",
+  "keywords": [
+    "code",
+    "summarization",
+    "we",
+    "the online repositories",
+    "repositories",
+    "it",
+    "various repositories",
+    "information",
+    "automatic release note generation",
+    "seq2seq",
+    "transformer",
+    "generation",
+    "human",
+    "network",
+    "classwise extractive-then-abstractive abstractive summarization"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.597/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:32:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

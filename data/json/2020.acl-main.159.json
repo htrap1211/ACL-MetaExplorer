@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.159",
+  "title": "Inflecting When There{'}s No Majority: Limitations of Encoder-Decoder Neural Networks as Cognitive Models for {G}erman Plurals",
+  "authors": [
+    "McCurdy, Kate  and\nGoldwater, Sharon  and\nLopez, Adam"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Can artificial neural networks learn to represent inflectional morphology and generalize to new words as human speakers do? Kirov and Cotterell (2018) argue that the answer is yes: modern Encoder-Decoder (ED) architectures learn human-like behavior when inflecting English verbs, such as extending the regular past tense form /-(e)d/ to novel words. However, their work does not address the criticism raised by Marcus et al. (1995): that neural models may learn to extend not the regular, but the most frequent class — and thus fail on tasks like German number inflection, where infrequent suffixes like /-s/ can still be productively generalized. To investigate this question, we first collect a new dataset from German speakers (production and ratings of plural forms for novel nouns) that is designed to avoid sources of information unavailable to the ED model. The speaker data show high variability, and two suffixes evince ‘regular’ behavior, appearing more often with phonologically atypical inputs. Encoder-decoder models do generalize the most frequently produced plural class, but do not show human-like variability or ‘regular’ extension of these other plural markers. We conclude that modern neural models may still struggle with minority-class generalization.",
+  "keywords": [
+    "question",
+    "minority-class generalization",
+    "encoder-decoder neural networks",
+    "form",
+    "we",
+    "answer",
+    "neural",
+    "decoder",
+    "information",
+    "cotterell",
+    "-s",
+    "generalization",
+    "artificial neural networks",
+    "work",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.159/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:44:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

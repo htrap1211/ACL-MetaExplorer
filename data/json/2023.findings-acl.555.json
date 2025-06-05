@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.555",
+  "title": "Clustering-Aware Negative Sampling for Unsupervised Sentence Representation",
+  "authors": [
+    "Deng, Jinghao  and\nWan, Fanqi  and\nYang, Tao  and\nQuan, Xiaojun  and\nWang, Rui"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Contrastive learning has been widely studied in sentence representation learning. However, earlier works mainly focus on the construction of positive examples, while in-batch samples are often simply treated as negative examples. This approach overlooks the importance of selecting appropriate negative examples, potentially leading to a scarcity of hard negatives and the inclusion of false negatives. To address these issues, we propose ClusterNS (Clustering-aware Negative Sampling), a novel method that incorporates cluster information into contrastive learning for unsupervised sentence representation learning. We apply a modified K-means clustering algorithm to supply hard negatives and recognize in-batch false negatives during training, aiming to solve the two issues in one unified framework. Experiments on semantic textual similarity (STS) tasks demonstrate that our proposed ClusterNS compares favorably with baselines in unsupervised sentence representation learning. Our code has been made publicly available at github.com/djz233/ClusterNS.",
+  "keywords": [
+    "code",
+    "earlier",
+    "cluster",
+    "modified",
+    "however earlier works",
+    "clustering-aware negative sampling",
+    "information",
+    "clustering",
+    "semantic",
+    "we",
+    "learning",
+    "one unified framework experiments",
+    "a modified k-means",
+    "batch",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.555/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

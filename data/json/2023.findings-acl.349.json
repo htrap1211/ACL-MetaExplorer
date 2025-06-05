@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.349",
+  "title": "ECG}-{QALM}: Entity-Controlled Synthetic Text Generation using Contextual {Q}{\\&}{A} for {NER",
+  "authors": [
+    "Aggarwal, Karan  and\nJin, Henry  and\nAhmad, Aitzaz"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Named Entity Recognition (NER) state-of-the-art methods requires high-quality labeled datasets. Issues such as scarcity of labeled data, under-representation of entities, and privacy concerns with using sensitive data for training, can be significant barriers. Generating synthetic data to train models is a promising solution to mitigate these problems. We propose ECG-QALM, a contextual question and answering approach using pre-trained language models to synthetically generate entity-controlled text. Generated text is then used to augment small labeled datasets for downstream NER tasks. We evaluate our method on two publicly available datasets. We find ECG-QALM is capable of producing full text samples with desired entities appearing in a controllable way, while retaining sentence coherence closest to the real world data. Evaluations on NER tasks show significant improvements (75% - 140%) in low-labeled data regimes.",
+  "keywords": [
+    "downstream ner tasks",
+    "question",
+    "we",
+    "training",
+    "pre-trained language models",
+    "a",
+    "significant barriers",
+    "ner",
+    "text",
+    "ecg-qalm",
+    "barriers",
+    "ner tasks",
+    "entity-controlled text generated text",
+    "desired entities",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.349/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:58:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

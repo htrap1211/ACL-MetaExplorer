@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwslt-1.7",
+  "title": "THE} {IWSLT} 2021 {BUT} {SPEECH} {TRANSLATION} {SYSTEMS",
+  "authors": [
+    "Vydana, hari Krishna  and\nKarafiat, Martin  and\nBurget, Lukas  and\n{\\v{C}}ernock{\\'y}, Jan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021)",
+  "abstract": "The paper describes BUT’s English to German offline speech translation (ST) systems developed for IWSLT2021. They are based on jointly trained Automatic Speech Recognition-Machine Translation models. Their performances is evaluated on MustC-Common test set. In this work, we study their efficiency from the perspective of having a large amount of separate ASR training data and MT training data, and a smaller amount of speech-translation training data. Large amounts of ASR and MT training data are utilized for pre-training the ASR and MT models. Speech-translation data is used to jointly optimize ASR-MT models by defining an end-to-end differentiable path from speech to translations. For this purpose, we use the internal continuous representations from the ASR-decoder as the input to MT module. We show that speech translation can be further improved by training the ASR-decoder jointly with the MT-module using large amount of text-only MT training data. We also show significant improvements by training an ASR module capable of generating punctuated text, rather than leaving the punctuation task to the MT module.",
+  "keywords": [
+    "end",
+    "efficiency",
+    "we",
+    "training",
+    "translation",
+    "the asr-decoder",
+    "mt models speech-translation data",
+    "their efficiency",
+    "decoder",
+    "speech-translation training data",
+    "german offline speech translation",
+    "speech translation",
+    "text",
+    "work",
+    "machine"
+  ],
+  "url": "https://aclanthology.org/2021.iwslt-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:18:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

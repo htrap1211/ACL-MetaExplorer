@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.552",
+  "title": "Harnessing Toulmin{'}s theory for zero-shot argument explication",
+  "authors": [
+    "Gupta, Ankita  and\nZuckerman, Ethan  and\nO{'}Connor, Brendan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "To better analyze informal arguments on public forums, we propose the task of argument explication, which makes explicit a text’s argumentative structure and implicit reasoning by outputting triples of propositions ⟨claim, reason warrant⟩. The three slots, or argument components, are derived from the widely known Toulmin (1958) model of argumentation. While prior research applies Toulmin or related theories to annotate datasets and train supervised models, we develop an effective method to prompt generative large language models (LMs) to output explicitly named argument components proposed by Toulmin by prompting with the theory name (e.g., ‘According to Toulmin model’). We evaluate the outputs’ coverage and validity through a human study and automatic evaluation based on prior argumentation datasets and perform robustness checks over alternative LMs, prompts, and argumentation theories. Finally, we conduct a proof-of-concept case study to extract an interpretable argumentation (hyper)graph from a large corpus of critical public comments on whether to allow the COVID-19 vaccine for children, suggesting future directions for corpus analysis and argument visualization.",
+  "keywords": [
+    "argumentation theories",
+    "theories",
+    "we",
+    "graph",
+    "shot",
+    "hyper",
+    "automatic evaluation",
+    "alternative lms prompts",
+    "zero-shot argument explication",
+    "analysis",
+    "generative",
+    "text",
+    "toulmin or related theories",
+    "visualization",
+    "prompts"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.552/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

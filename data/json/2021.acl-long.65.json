@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.65",
+  "title": "Do Context-Aware Translation Models Pay the Right Attention?",
+  "authors": [
+    "Yin, Kayo  and\nFernandes, Patrick  and\nPruthi, Danish  and\nChaudhary, Aditi  and\nMartins, Andr{\\'e} F. T.  and\nNeubig, Graham"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Context-aware machine translation models are designed to leverage contextual information, but often fail to do so. As a result, they inaccurately disambiguate pronouns and polysemous words that require context for resolution. In this paper, we ask several questions: What contexts do human translators use to resolve ambiguous words? Are models paying large amounts of attention to the same context? What if we explicitly train them to do so? To answer these questions, we introduce SCAT (Supporting Context for Ambiguous Translations), a new English-French dataset comprising supporting context words for 14K translations that professional translators found useful for pronoun disambiguation. Using SCAT, we perform an in-depth analysis of the context used to disambiguate, examining positional and lexical characteristics of the supporting words. Furthermore, we measure the degree of alignment between the model’s attention scores and the supporting context from SCAT, and apply a guided attention strategy to encourage agreement between the two.",
+  "keywords": [
+    "alignment",
+    "14k translations",
+    "model",
+    "machine",
+    "human",
+    "ambiguous translations",
+    "information",
+    "attention",
+    "we",
+    "a guided attention strategy",
+    "translations",
+    "context-aware translation models",
+    "analysis",
+    "translation",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.65/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:00:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

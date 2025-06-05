@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-demo.43",
+  "title": "An Efficient Conversational Smart Compose System",
+  "authors": [
+    "Zhu, Yun  and\nChen, Xiayu  and\nShu, Lei  and\nTan, Bowen  and\nSong, Xinying  and\nLiu, Lijuan  and\nWang, Maria  and\nChen, Jindong  and\nRuan, Ning"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+  "abstract": "Online conversation is a ubiquitous way to share information and connect everyone but repetitive idiomatic text typing takes users a lot of time. This paper demonstrates a simple yet effective cloud based smart compose system to improve human-to-human conversation efficiency. Heuristics from different perspectives are designed to achieve the best trade-off between quality and latency. From the modeling side, the decoder-only model exploited the previous turns of conversational history in a computation lightweight manner. Besides, a novel phrase tokenizer is proposed to reduce latency without losing the composing quality further. Additionally, the caching mechanism is applied to the serving framework. The demo video of the system is available athttps://youtu.be/U1KXkaqr60g.Weopen-sourced our phrase tokenizer inhttps://github.com/tensorflow/text.",
+  "keywords": [
+    "human-to-human conversation efficiency heuristics",
+    "cloud",
+    "model",
+    "text",
+    "human",
+    "efficient",
+    "modeling",
+    "decoder",
+    "conversational history",
+    "information",
+    "conversational",
+    "efficiency",
+    "conversation",
+    "the decoder-only model",
+    "time"
+  ],
+  "url": "https://aclanthology.org/2023.acl-demo.43/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:51:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

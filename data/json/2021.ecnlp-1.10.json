@@ -1,0 +1,33 @@
+{
+  "id": "2021.ecnlp-1.10",
+  "title": "Learning Cross-Task Attribute - Attribute Similarity for Multi-task Attribute-Value Extraction",
+  "authors": [
+    "Jain, Mayank  and\nBhattacharya, Sourangshu  and\nJain, Harshit  and\nShaik, Karimulla  and\nChelliah, Muthusamy"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 4th Workshop on e-Commerce and NLP",
+  "abstract": "Automatic extraction of product attribute-value pairs from unstructured text like product descriptions is an important problem for e-commerce companies. The attribute schema typically varies from one category of products (which will be referred as vertical) to another. This leads to extreme annotation efforts for training of supervised deep sequence labeling models such as LSTM-CRF, and consequently not enough labeled data for some vertical-attribute pairs. In this work, we propose a technique for alleviating this problem by using annotated data from related verticals in a multi-task learning framework. Our approach relies on availability of similar attributes (labels) in another related vertical. Our model jointly learns the similarity between attributes of the two verticals along with the model parameters for the sequence tagging model. The main advantage of our approach is that it does not need any prior annotation of attribute similarity. Our system has been tested with datasets of size more than 10000 from a large e-commerce company in India. We perform detailed experiments to show that our method indeed increases the macro-F1 scores for attribute value extraction in general, and for labels with low training data in particular. We also report top labels from other verticals that contribute towards learning of particular labels.",
+  "keywords": [
+    "deep",
+    "extraction",
+    "e-commerce companies",
+    "the macro-f1 scores",
+    "we",
+    "lstm",
+    "training",
+    "cross",
+    "it",
+    "learning",
+    "sequence",
+    "lstm-crf",
+    "text",
+    "work",
+    "general"
+  ],
+  "url": "https://aclanthology.org/2021.ecnlp-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

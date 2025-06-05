@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.123",
+  "title": "Achilles-Bench: A Challenging Benchmark for Low-Resource Evaluation",
+  "authors": [
+    "Wang, Yudong  and\nMa, Chang  and\nDong, Qingxiu  and\nSui, Zhifang  and\nKong, Lingpeng  and\nXu, Jingjing"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "With promising yet saturated results in high-resource settings, low-resource datasets have gradually become crucial benchmarks (e.g., BigBench Hard, superGLUE) for evaluating the learning ability of advanced neural networks. In this work, we find that there exists a set of “hard examples” in low-resource settings that challenge neural networks but are not well evaluated, which causes over-estimated performance. We first give a theoretical analysis on which factors bring the difficulty of low-resource learning. It then motivates us to propose a challenging benchmark Achilles-Bench to better evaluate the learning ability, which covers 11 datasets, including 8 natural language process (NLP) datasets and 3 computer vision (CV) datasets. Experiments on a wide range of models show that neural networks, even pre-trained language models, have sharp performance drops on our benchmark, demonstrating the effectiveness of evaluating the weaknesses of neural networks. On NLP tasks, we surprisingly find that despite better results on traditional low-resource benchmarks, pre-trained networks, does not show performance improvements on our benchmarks. there is still a large robustness gap between existing models and human-level performance, highlighting the need for robust low-resource learning models.",
+  "keywords": [
+    "we",
+    "neural",
+    "natural",
+    "it",
+    "low-resource evaluation",
+    "learning",
+    "nlp tasks",
+    "analysis",
+    "advanced neural networks",
+    "neural networks",
+    "work",
+    "process",
+    "language",
+    "nlp",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.123/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:50:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

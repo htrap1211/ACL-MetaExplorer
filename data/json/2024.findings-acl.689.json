@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.689",
+  "title": "Discourse Structure-Aware Prefix for Generation-Based End-to-End Argumentation Mining",
+  "authors": [
+    "Sun, Yang  and\nChen, Guanrong  and\nYang, Caihua  and\nBao, Jianzhu  and\nLiang, Bin  and\nZeng, Xi  and\nYang, Min  and\nXu, Ruifeng"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "End-to-end argumentation mining (AM) aims to extract the argumentation structure including argumentation components and their argumentation relations from text. Recent developments in end-to-end AM models have demonstrated significant progress by redefining the AM task as a sequence generation task, exhibiting simplicity and competitive performance. Nevertheless, these models overlook the integration of supplementary discourse structure information, a crucial factor for comprehending argumentation structures, resulting in suboptimal outcomes. In this study, we propose the DENIM framework, which generates discourse structure-aware prefixes for each layer of the generation model. These prefixes imbue the generation-based AM model with discourse structures, thereby augmenting the overall generation process. Moreover, we introduce a multi-task prompt coupled with a three-step decoding strategy, aiming to optimize the efficiency and effectiveness of argumentation structure decoding. Extensive experiments and analyses on two benchmark datasets show that DENIM achieves state-of-the-art performances on two AM benchmarks.",
+  "keywords": [
+    "end",
+    "layer",
+    "efficiency",
+    "we",
+    "the efficiency",
+    "information",
+    "sequence",
+    "a multi-task prompt",
+    "the overall generation process",
+    "prompt",
+    "text",
+    "mining",
+    "process",
+    "the generation model",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.689/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

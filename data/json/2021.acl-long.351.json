@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.351",
+  "title": "How to Adapt Your Pretrained Multilingual Model to 1600 Languages",
+  "authors": [
+    "Ebrahimi, Abteen  and\nKann, Katharina"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Pretrained multilingual models (PMMs) enable zero-shot learning via cross-lingual transfer, performing best for languages seen during pretraining. While methods exist to improve performance for unseen languages, they have almost exclusively been evaluated using amounts of raw text only available for a small fraction of the world’s languages. In this paper, we evaluate the performance of existing methods to adapt PMMs to new languages using a resource available for close to 1600 languages: the New Testament. This is challenging for two reasons: (1) the small corpus size, and (2) the narrow domain. While performance drops for all approaches, we surprisingly still see gains of up to 17.69% accuracy for part-of-speech tagging and 6.29 F1 for NER on average over all languages as compared to XLM-R. Another unexpected finding is that continued pretraining, the simplest approach, performs best. Finally, we perform a case study to disentangle the effects of domain and size and to shed light on the influence of the finetuning source language.",
+  "keywords": [
+    "we",
+    "shot",
+    "cross",
+    "6 29 f1",
+    "learning",
+    "transfer",
+    "ner",
+    "text",
+    "zero-shot learning",
+    "accuracy",
+    "language",
+    "model",
+    "tagging",
+    "approach",
+    "the narrow domain"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.351/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

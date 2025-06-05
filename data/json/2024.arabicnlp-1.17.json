@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.17",
+  "title": "Investigating Linguistic Features for {A}rabic {NLI",
+  "authors": [
+    "Bassas, Yasmeen  and\nK{\\\"u}bler, Sandra"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "Native Language Identification (NLI) is concerned with predicting the native language of an author writing in a second language. We investigate NLI for Arabic, with a focus on the types of linguistic information given that Arabic is morphologically rich. We use the Arabic Learner Corpus (ALC) foro training and testing along with a linear SVM. We explore lexical, morpho-syntactic, and syntactic features. Results show that the best single type of information is character n-grams ranging from 2 to 6. Using this model, we achieve an accuracy of 61.84%, thus outperforming previous results (Ionesco, 2015) by 11.74% even though we use an additional 2 L1s. However, when using prefix and suffix sequences, we reach an accuracy of 53.95%, showing that an approximation of unlexicalized features still reaches solid results.",
+  "keywords": [
+    "svm",
+    "language",
+    "model",
+    "an accuracy",
+    "information",
+    "rich",
+    "we",
+    "learner",
+    "training",
+    "accuracy",
+    "a linear svm",
+    "identification",
+    "alc",
+    "sequences",
+    "type"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:02:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

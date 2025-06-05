@@ -1,0 +1,33 @@
+{
+  "id": "W19-5418",
+  "title": "Terminology-Aware Segmentation and Domain Feature for the {WMT}19 Biomedical Translation Task",
+  "authors": [
+    "Carrino, Casimiro Pio  and\nRafieian, Bardia  and\nCosta-juss{\\`a}, Marta R.  and\nFonollosa, Jos{\\'e} A. R."
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 3: Shared Task Papers, Day 2)",
+  "abstract": "In this work, we give a description of the TALP-UPC systems submitted for the WMT19 Biomedical Translation Task. Our proposed strategy is NMT model-independent and relies only on one ingredient, a biomedical terminology list. We first extracted such a terminology list by labelling biomedical words in our training dataset using the BabelNet API. Then, we designed a data preparation strategy to insert the terms information at a token level. Finally, we trained the Transformer model with this terms-informed data. Our best-submitted system ranked 2nd and 3rd for Spanish-English and English-Spanish translation directions, respectively.",
+  "keywords": [
+    "work",
+    "transformer",
+    "the transformer model",
+    "the wmt19 biomedical translation",
+    "model",
+    "token",
+    "one ingredient",
+    "information",
+    "we",
+    "ingredient",
+    "training",
+    "translation",
+    "our training dataset",
+    "strategy",
+    "this work"
+  ],
+  "url": "https://aclanthology.org/W19-5418/",
+  "provenance": {
+    "collected_at": "2025-06-05 02:09:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

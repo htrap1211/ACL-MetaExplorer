@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.358",
+  "title": "Dynamic Prefix-Tuning for Generative Template-based Event Extraction",
+  "authors": [
+    "Liu, Xiao  and\nHuang, Heyan  and\nShi, Ge  and\nWang, Bo"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We consider event extraction in a generative manner with template-based conditional generation. Although there is a rising trend of casting the task of event extraction as a sequence generation problem with prompts, these generation-based methods have two significant challenges, including using suboptimal prompts and static event type information. In this paper, we propose a generative template-based event extraction method with dynamic prefix (GTEE-DynPref) by integrating context information with type-specific prefixes to learn a context-specific prefix for each context. Experimental results show that our model achieves competitive results with the state-of-the-art classification-based model OneIE on ACE 2005 and achieves the best performances on ERE.Additionally, our model is proven to be portable to new types of events effectively.",
+  "keywords": [
+    "generative",
+    "prompts",
+    "ere",
+    "tuning",
+    "generation",
+    "a generative manner",
+    "these generation-based methods",
+    "extraction",
+    "model",
+    "generative template-based event extraction",
+    "information",
+    "suboptimal prompts",
+    "template-based conditional generation",
+    "we",
+    "sequence"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.358/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:29:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.splurobonlp-1.4",
+  "title": "Modeling Semantics and Pragmatics of Spatial Prepositions via Hierarchical Common-Sense Primitives",
+  "authors": [
+    "Platonov, Georgiy  and\nYang, Yifei  and\nWu, Haoyu  and\nWaxman, Jonathan  and\nHill, Marcus  and\nSchubert, Lenhart"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of Second International Combined Workshop on Spatial Language Understanding and Grounded Communication for Robotics",
+  "abstract": "Understanding spatial expressions and using them appropriately is necessary for seamless and natural human-machine interaction. However, capturing the semantics and appropriate usage of spatial prepositions is notoriously difficult, because of their vagueness and polysemy. Although modern data-driven approaches are good at capturing statistical regularities in the usage, they usually require substantial sample sizes, often do not generalize well to unseen instances and, most importantly, their structure is essentially opaque to analysis, which makes diagnosing problems and understanding their reasoning process difficult. In this work, we discuss our attempt at modeling spatial senses of prepositions in English using a combination of rule-based and statistical learning approaches. Each preposition model is implemented as a tree where each node computes certain intuitive relations associated with the preposition, with the root computing the final value of the prepositional relation itself. The models operate on a set of artificial 3D “room world” environments, designed in Blender, taking the scene itself as an input. We also discuss our annotation framework used to collect human judgments employed in the model training. Both our factored models and black-box baseline models perform quite well, but the factored models will enable reasoned explanations of spatial relation judgements.",
+  "keywords": [
+    "the semantics",
+    "we",
+    "regularities",
+    "training",
+    "natural",
+    "semantics",
+    "learning",
+    "analysis",
+    "hierarchical common-sense primitives",
+    "work",
+    "hierarchical",
+    "process",
+    "statistical regularities",
+    "machine",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2021.splurobonlp-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:22:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

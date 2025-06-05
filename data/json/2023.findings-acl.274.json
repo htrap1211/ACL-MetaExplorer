@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.274",
+  "title": "MISMATCH}: Fine-grained Evaluation of Machine-generated Text with Mismatch Error Types",
+  "authors": [
+    "Murugesan, Keerthiram  and\nSwaminathan, Sarathkrishna  and\nDan, Soham  and\nChaudhury, Subhajit  and\nGunasekara, Chulaka  and\nCrouse, Maxwell  and\nMahajan, Diwakar  and\nAbdelaziz, Ibrahim  and\nFokoue, Achille  and\nKapanipathi, Pavan  and\nRoukos, Salim  and\nGray, Alexander"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "With the growing interest in large language models, the need for evaluating the quality of machine text compared to reference (typically human-generated) text has become focal attention. Most recent works focus either on task-specific evaluation metrics or study the properties of machine-generated text captured by the existing metrics. In this work, we propose a new evaluation scheme to model human judgments in 7 NLP tasks, based on the fine-grained mismatches between a pair of texts. Inspired by the recent efforts in several NLP tasks for fine-grained evaluation, we introduce a set of 13 mismatch error types such as spatial/geographic errors, entity errors, etc, to guide the model for better prediction of human judgments. We propose a neural framework for evaluating machine texts that uses these mismatch error types as auxiliary tasks and re-purposes the existing single-number evaluation metrics as additional scalar features, in addition to textual features extracted from the machine and reference texts. Our experiments reveal key insights about the existing metrics via the mismatch errors. We show that the mismatch errors between the sentence pairs on the held-out datasets from 7 NLP tasks align well with the human evaluation.",
+  "keywords": [
+    "we",
+    "the human evaluation",
+    "several nlp tasks",
+    "human-generated text",
+    "neural",
+    "machine-generated text",
+    "properties",
+    "fine-grained evaluation",
+    "a new evaluation scheme",
+    "task-specific evaluation metrics",
+    "text",
+    "metrics",
+    "-",
+    "the properties",
+    "the existing metrics"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.274/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

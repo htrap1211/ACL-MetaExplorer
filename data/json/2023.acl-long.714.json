@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.714",
+  "title": "M}at{C}ha: Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering",
+  "authors": [
+    "Liu, Fangyu  and\nPiccinno, Francesco  and\nKrichene, Syrine  and\nPang, Chenxi  and\nLee, Kenton  and\nJoshi, Mandar  and\nAltun, Yasemin  and\nCollier, Nigel  and\nEisenschlos, Julian"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Visual language data such as plots, charts, and infographics are ubiquitous in the human world. However, state-of-the-art vision-language models do not perform well on these data. We propose MatCha (Math reasoning and Chart derendering pretraining) to enhance visual language models’ capabilities in jointly modeling charts/plots and language data. Specifically, we propose several pretraining tasks that cover plot deconstruction and numerical reasoning which are the key capabilities in visual language modeling. We perform the MatCha pretraining starting from Pix2Struct, a recently proposed image-to-text visual language model. On standard benchmarks such as PlotQA and ChartQA, the MatCha model outperforms state-of-the-art methods by as much as nearly 20%. We also examine how well MatCha pretraining transfers to domains such as screenshots, textbook diagrams, and document figures and observe overall improvement, verifying the usefulness of MatCha pretraining on broader visual language tasks.",
+  "keywords": [
+    "chartqa",
+    "plotqa",
+    "language",
+    "model",
+    "text",
+    "human",
+    "c",
+    "modeling",
+    "the key capabilities",
+    "capabilities",
+    "we",
+    "visual language modeling",
+    "visual",
+    "visual language models",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.714/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:45:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

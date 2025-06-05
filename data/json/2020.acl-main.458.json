@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.458",
+  "title": "Optimizing the Factual Correctness of a Summary: A Study of Summarizing Radiology Reports",
+  "authors": [
+    "Zhang, Yuhao  and\nMerck, Derek  and\nTsai, Emily  and\nManning, Christopher D.  and\nLanglotz, Curtis"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Neural abstractive summarization models are able to generate summaries which have high overlap with human references. However, existing models are not optimized for factual correctness, a critical metric in real-world applications. In this work, we develop a general framework where we evaluate the factual correctness of a generated summary by fact-checking it automatically against its reference using an information extraction module. We further propose a training strategy which optimizes a neural summarization model with a factual correctness reward via reinforcement learning. We apply the proposed method to the summarization of radiology reports, where factual correctness is a key requirement. On two separate datasets collected from hospitals, we show via both automatic and human evaluation that the proposed approach substantially improves the factual correctness and overall quality of outputs over a competitive neural summarization system, producing radiology summaries that approach the quality of human-authored ones.",
+  "keywords": [
+    "extraction",
+    "summarization",
+    "we",
+    "training",
+    "radiology summaries",
+    "an information extraction module",
+    "neural",
+    "it",
+    "information",
+    "learning",
+    "a generated summary",
+    "a neural summarization model",
+    "metric",
+    "a general framework",
+    "the summarization"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.458/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:48:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P19-1632",
+  "title": "Matching Article Pairs with Graphical Decomposition and Convolutions",
+  "authors": [
+    "Liu, Bang  and\nNiu, Di  and\nWei, Haojie  and\nLin, Jinghong  and\nHe, Yancheng  and\nLai, Kunfeng  and\nXu, Yu"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Identifying the relationship between two articles, e.g., whether two articles published from different sources describe the same breaking news, is critical to many document understanding tasks. Existing approaches for modeling and matching sentence pairs do not perform well in matching longer documents, which embody more complex interactions between the enclosed entities than a sentence does. To model article pairs, we propose the Concept Interaction Graph to represent an article as a graph of concepts. We then match a pair of articles by comparing the sentences that enclose the same concept vertex through a series of encoding techniques, and aggregate the matching signals through a graph convolutional network. To facilitate the evaluation of long article matching, we have created two datasets, each consisting of about 30K pairs of breaking news articles covering diverse topics in the open domain. Extensive evaluations of the proposed methods on the two datasets demonstrate significant improvements over a wide range of state-of-the-art methods for natural language matching.",
+  "keywords": [
+    "series",
+    "we",
+    "graph",
+    "convolutional",
+    "natural",
+    "the enclosed entities",
+    "e",
+    "a series",
+    "language",
+    "a graph convolutional network",
+    "entities",
+    "evaluations",
+    "modeling",
+    "network",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/P19-1632/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:46:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

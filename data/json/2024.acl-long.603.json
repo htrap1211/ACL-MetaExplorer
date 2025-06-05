@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.603",
+  "title": "Enhancing Multilingual Capabilities of Large Language Models through Self-Distillation from Resource-Rich Languages",
+  "authors": [
+    "Zhang, Yuanchi  and\nWang, Yile  and\nLiu, Zijun  and\nWang, Shuo  and\nWang, Xiaolong  and\nLi, Peng  and\nSun, Maosong  and\nLiu, Yang"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "While large language models (LLMs) have been pre-trained on multilingual corpora, their performance still lags behind in most languages compared to a few resource-rich languages. One common approach to mitigate this issue is to translate training data from resource-rich languages into other languages and then continue training. However, using the data obtained solely relying on translation while ignoring the original capabilities of LLMs across languages is not always effective, which we show will limit the performance of cross-lingual knowledge transfer. In this work, we propose SDRRL, a method based on Self-Distillation from Resource-Rich Languages that effectively improve multilingual performance by leveraging the internal capabilities of LLMs on resource-rich languages. We evaluate on different LLMs (LLaMA-2 and SeaLLM) and source languages (English and French) across various comprehension and generation tasks, experimental results demonstrate that SDRRL can significantly enhance multilingual capabilities while minimizing the impact on original performance in resource-rich languages.",
+  "keywords": [
+    "cross",
+    "work",
+    "knowledge",
+    "language",
+    "generation",
+    "different llms",
+    "the original capabilities",
+    "large language models",
+    "self",
+    "large language models llms",
+    "multilingual capabilities",
+    "capabilities",
+    "rich",
+    "the internal capabilities",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.603/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

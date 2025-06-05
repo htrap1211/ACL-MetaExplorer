@@ -1,0 +1,33 @@
+{
+  "id": "2021.ecnlp-1.8",
+  "title": "``Are you calling for the vaporizer you ordered?'' Combining Search and Prediction to Identify Orders in Contact Centers",
+  "authors": [
+    "K, Abinaya  and\nRoy, Shourya"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 4th Workshop on e-Commerce and NLP",
+  "abstract": "With the growing footprint of ecommerce worldwide, the role of contact center is becoming increasingly crucial for customer satisfaction. To effectively handle scale and manage operational cost, automation through chat-bots and voice-bots are getting rapidly adopted. With customers having multiple, often long list of active orders - the first task of a voice-bot is to identify which one they are calling about. Towards solving this problem which we refer to as order identification, we propose a two-staged real-time technique by combining search and prediction in a sequential manner. In the first stage, analogous to retrieval-based question-answering, a fuzzy search technique uses customized textual similarity measures on noisy transcripts of calls to retrieve the order of interest. The coverage of fuzzy search is limited by no or limited response from customers to voice prompts. Hence, in the second stage, a predictive solution that predict the most likely order a customer is calling about based on certain features of orders is introduced. We compare with multiple relevant techniques based on word embeddings as well as ecommerce product search to show that the proposed approach provides the best performance with 64% coverage and 87% accuracy on a large real-life data-set. A system based on the proposed technique is also deployed in production for a fraction of calls landing in the contact center of a large ecommerce provider; providing real evidence of operational benefits as well as increased customer delight.",
+  "keywords": [
+    "question",
+    "we",
+    "a sequential manner",
+    "retrieval",
+    "87 accuracy",
+    "word",
+    "manner",
+    "bot",
+    "word embeddings",
+    "chat",
+    "accuracy",
+    "embeddings",
+    "prompts",
+    "retrieval-based question",
+    "time"
+  ],
+  "url": "https://aclanthology.org/2021.ecnlp-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

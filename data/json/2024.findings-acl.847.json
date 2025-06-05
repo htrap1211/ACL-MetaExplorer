@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.847",
+  "title": "Pushing the Limits of Zero-shot End-to-End Speech Translation",
+  "authors": [
+    "Tsiamas, Ioannis  and\nG{\\'a}llego, Gerard I.  and\nFonollosa, Jos{\\'e} A. R.  and\nCosta-juss{\\`a}, Marta R."
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Data scarcity and the modality gap between the speech and text modalities are two major obstacles of end-to-end Speech Translation (ST) systems, thus hindering their performance. Prior work has attempted to mitigate these challenges by leveraging external MT data and optimizing distance metrics that bring closer the speech-text representations. However, achieving competitive results typically requires some ST data. For this reason, we introduce ZeroSwot, a method for zero-shot ST that bridges the modality gap without any paired ST data. Leveraging a novel CTC compression and Optimal Transport, we train a speech encoder using only ASR data, to align with the representation space of a massively multilingual MT model. The speech encoder seamlessly integrates with the MT model at inference, enabling direct translation from speech to text, across all languages supported by the MT model. Our experiments show that we can effectively close the modality gap without ST data, while our results on MuST-C and CoVoST demonstrate our method’s superiority over not only previous zero-shot models, but also supervised ones, achieving state-of-the-art results.",
+  "keywords": [
+    "end",
+    "we",
+    "text modalities",
+    "shot",
+    "the speech encoder",
+    "translation",
+    "a speech encoder",
+    "direct translation",
+    "text",
+    "metrics",
+    "distance metrics",
+    "work",
+    "model",
+    "modalities",
+    "encoder"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.847/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:00:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

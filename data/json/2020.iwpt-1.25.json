@@ -1,0 +1,33 @@
+{
+  "id": "2020.iwpt-1.25",
+  "title": "K}{\\o}psala: Transition-Based Graph Parsing via Efficient Training and Effective Encoding",
+  "authors": [
+    "Hershcovich, Daniel  and\nde Lhoneux, Miryam  and\nKulmizev, Artur  and\nPejhan, Elham  and\nNivre, Joakim"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies",
+  "abstract": "We present Køpsala, the Copenhagen-Uppsala system for the Enhanced Universal Dependencies Shared Task at IWPT 2020. Our system is a pipeline consisting of off-the-shelf models for everything but enhanced graph parsing, and for the latter, a transition-based graph parser adapted from Che et al. (2019). We train a single enhanced parser model per language, using gold sentence splitting and tokenization for training, and rely only on tokenized surface forms and multilingual BERT for encoding. While a bug introduced just before submission resulted in a severe drop in precision, its post-submission fix would bring us to 4th place in the official ranking, according to average ELAS. Our parser demonstrates that a unified pipeline is effective for both Meaning Representation Parsing and Enhanced Universal Dependencies.",
+  "keywords": [
+    "a unified pipeline",
+    "parsing",
+    "precision",
+    "language",
+    "tokenization",
+    "enhanced graph parsing",
+    "che",
+    "model",
+    "bert",
+    "efficient training",
+    "efficient",
+    "unified",
+    "dependencies",
+    "drop",
+    "universal dependencies"
+  ],
+  "url": "https://aclanthology.org/2020.iwpt-1.25/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:56:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

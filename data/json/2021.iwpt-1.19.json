@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwpt-1.19",
+  "title": "Biaffine Dependency and Semantic Graph Parsing for {E}nhanced{U}niversal Dependencies",
+  "authors": [
+    "Attardi, Giuseppe  and\nSartiano, Daniele  and\nSimi, Maria"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 17th International Conference on Parsing Technologies and the IWPT 2021 Shared Task on Parsing into Enhanced Universal Dependencies (IWPT 2021)",
+  "abstract": "This paper presents the system used in our submission to theIWPT 2021 Shared Task. This year the official evaluation metrics was ELAS, therefore dependency parsing might have been avoided as well as other pipeline stages like POS tagging and lemmatization. We nevertheless chose to deploy a combination of a dependency parser and a graph parser. The dependency parser is a biaffine parser, that uses transformers for representing input sentences, with no other feature. The graph parser is a semantic parser that exploits a similar architecture except for using a sigmoid crossentropy loss function to return multiple values for the predicted arcs. The final output is obtained by merging the output of the two parsers. The dependency parser achieves top or close to top LAS performance with respect to other systems that report results on such metrics, except on low resource languages (Tamil, Estonian, Latvian).",
+  "keywords": [
+    "top",
+    "transformers",
+    "parsing",
+    "the official evaluation metrics",
+    "semantic",
+    "we",
+    "graph",
+    "a semantic parser",
+    "dependencies",
+    "loss",
+    "e",
+    "las",
+    "semantic graph",
+    "elas therefore dependency parsing",
+    "pos"
+  ],
+  "url": "https://aclanthology.org/2021.iwpt-1.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

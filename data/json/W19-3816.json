@@ -1,0 +1,33 @@
+{
+  "id": "W19-3816",
+  "title": "On {GAP} Coreference Resolution Shared Task: Insights from the 3rd Place Solution",
+  "authors": [
+    "Abzaliev, Artem"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the First Workshop on Gender Bias in Natural Language Processing",
+  "abstract": "This paper presents the 3rd-place-winning solution to the GAP coreference resolution shared task. The approach adopted consists of two key components: fine-tuning the BERT language representation model (Devlin et al., 2018) and the usage of external datasets during the training process. The model uses hidden states from the intermediate BERT layers instead of the last layer. The resulting system almost eliminates the difference in log loss per gender during the cross-validation, while providing high performance.",
+  "keywords": [
+    "cross",
+    "the intermediate bert layers",
+    "process",
+    "validation",
+    "language",
+    "bert",
+    "model",
+    "-",
+    "loss",
+    "fine",
+    "layer",
+    "gap coreference resolution",
+    "coreference",
+    "log",
+    "training"
+  ],
+  "url": "https://aclanthology.org/W19-3816/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:59:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

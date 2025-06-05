@@ -1,0 +1,33 @@
+{
+  "id": "2020.iwslt-1.2",
+  "title": "ON}-{TRAC} Consortium for End-to-End and Simultaneous Speech Translation Challenge Tasks at {IWSLT} 2020",
+  "authors": [
+    "Elbayad, Maha  and\nNguyen, Ha  and\nBougares, Fethi  and\nTomashenko, Natalia  and\nCaubri{\\`e}re, Antoine  and\nLecouteux, Benjamin  and\nEst{\\`e}ve, Yannick  and\nBesacier, Laurent"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 17th International Conference on Spoken Language Translation",
+  "abstract": "This paper describes the ON-TRAC Consortium translation systems developed for two challenge tracks featured in the Evaluation Campaign of IWSLT 2020, offline speech translation and simultaneous speech translation. ON-TRAC Consortium is composed of researchers from three French academic laboratories: LIA (Avignon Université), LIG (Université Grenoble Alpes), and LIUM (Le Mans Université). Attention-based encoder-decoder models, trained end-to-end, were used for our submissions to the offline speech translation track. Our contributions focused on data augmentation and ensembling of multiple models. In the simultaneous speech translation track, we build on Transformer-based wait-k models for the text-to-text subtask. For speech-to-text simultaneous translation, we attach a wait-k MT system to a hybrid ASR system. We propose an algorithm to control the latency of the ASR+MT cascade and achieve a good latency-quality trade-off on both subtasks.",
+  "keywords": [
+    "transformer",
+    "end",
+    "lig",
+    "transformer-based wait-k models",
+    "text",
+    "trac",
+    "the evaluation campaign",
+    "encoder",
+    "decoder",
+    "the offline speech translation",
+    "three french academic laboratories",
+    "we",
+    "attention",
+    "laboratories",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/2020.iwslt-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:56:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

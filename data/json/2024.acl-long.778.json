@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.778",
+  "title": "Causal-Guided Active Learning for Debiasing Large Language Models",
+  "authors": [
+    "Sun, Zhouhao  and\nDu, Li  and\nDing, Xiao  and\nMa, Yixuan  and\nZhao, Yang  and\nQiu, Kaitao  and\nLiu, Ting  and\nQin, Bing"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Although achieving promising performance, recent analyses show that current generative large language models (LLMs) may still capture dataset biases and utilize them for generation, leading to poor generalizability and harmfulness of LLMs. However, due to the diversity of dataset biases and the over-optimization problem, previous prior-knowledge-based debiasing methods and fine-tuning-based debiasing methods may not be suitable for current LLMs.To address this issue, we explore combining active learning with the causal mechanisms and propose a casual-guided active learning (CAL) framework, which utilizes LLMs itself to automatically and autonomously identify informative biased samples and induce the bias patterns. Then a cost-effective and efficient in-context learning based method is employed to prevent LLMs from utilizing dataset biases during generation.Experimental results show that CAL can effectively recognize typical biased instances and induce various bias patterns for debiasing LLMs.",
+  "keywords": [
+    "generative",
+    "tuning",
+    "bias",
+    "knowledge",
+    "-optimization",
+    "fine-tuning-based debiasing methods",
+    "generation",
+    "previous prior-knowledge-based debiasing methods",
+    "language",
+    "poor generalizability",
+    "the bias patterns",
+    "various bias patterns",
+    "generation experimental results",
+    "typical biased instances",
+    "efficient"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.778/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:45:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

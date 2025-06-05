@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.430",
+  "title": "T}ran{SF}ormer: Slow-Fast Transformer for Machine Translation",
+  "authors": [
+    "Li, Bei  and\nJing, Yi  and\nTan, Xu  and\nXing, Zhen  and\nXiao, Tong  and\nZhu, Jingbo"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Learning multiscale Transformer models has been evidenced as a viable approach to augmenting machine translation systems. Prior research has primarily focused on treating subwords as basic units in developing such systems. However, the incorporation of fine-grained character-level features into multiscale Transformer has not yet been explored. In this work, we present aSlow-Fast two-stream learning model, referred to as TranSFormer, which utilizes a “slow” branch to deal with subword sequences and a “fast” branch to deal with longer character sequences. This model is efficient since the fast branch is very lightweight by reducing the model width, and yet provides useful fine-grained features for the slow branch. Our TranSFormer shows consistent BLEU improvements (larger than 1 BLEU point) on several machine translation benchmarks.",
+  "keywords": [
+    "work",
+    "t",
+    "transformer",
+    "ormer",
+    "1 bleu point",
+    "translation",
+    "several machine translation",
+    "model",
+    "machine",
+    "consistent bleu improvements",
+    "efficient",
+    "bleu",
+    "multiscale transformer",
+    "machine translation",
+    "our transformer"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.430/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

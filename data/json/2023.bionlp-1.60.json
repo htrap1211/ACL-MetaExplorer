@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.60",
+  "title": "VBD}-{NLP} at {B}io{L}ay{S}umm Task 1: Explicit and Implicit Key Information Selection for Lay Summarization on Biomedical Long Documents",
+  "authors": [
+    "Phan, Phuc  and\nTran, Tri  and\nTrieu, Hai-Long"
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "We describe our systems participated in the BioLaySumm 2023 Task 1, which aims at automatically generating lay summaries of scientific articles in a simplified way so that its content becomes easier to comprehend for non-expert readers. Our approaches are based on selecting key information by both explicit and implicit strategies. For explicit selection strategies, we conduct extractive summarization based on selecting key sentences for training abstractive summarization models. For implicit selection strategies, we utilize a method based on a factorized energy-based model, which is able to extract important information from long documents to generate summaries and achieve promising results. We build our systems using sequence-to-sequence models, which enable us to leverage powerful and biomedical domain pre-trained language models and apply different strategies to generate lay summaries from long documents. We conducted various experiments to carefully investigate the effects of different aspects of this long-document summarization task such as extracting different document lengths and utilizing different pre-trained language models. We achieve the third rank in the shared task (and the second rank excluding the baseline submission of the organizers).",
+  "keywords": [
+    "automatically generating lay summaries",
+    "summarization",
+    "we",
+    "information",
+    "sequence",
+    "different pre-trained language models",
+    "lay",
+    "explicit selection strategies",
+    "scientific",
+    "scientific articles",
+    "energy",
+    "this long-document summarization task",
+    "different strategies",
+    "implicit selection strategies",
+    "extractive summarization"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.60/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

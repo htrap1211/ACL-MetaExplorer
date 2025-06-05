@@ -1,0 +1,33 @@
+{
+  "id": "2020.nlp4convai-1.3",
+  "title": "C}opy{BERT}: A Unified Approach to Question Generation with Self-Attention",
+  "authors": [
+    "Varanasi, Stalin  and\nAmin, Saadullah  and\nNeumann, Guenter"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 2nd Workshop on Natural Language Processing for Conversational AI",
+  "abstract": "Contextualized word embeddings provide better initialization for neural networks that deal with various natural language understanding (NLU) tasks including Question Answering (QA) and more recently, Question Generation(QG). Apart from providing meaningful word representations, pre-trained transformer models (Vaswani et al., 2017), such as BERT (Devlin et al., 2019) also provide self-attentions which encode syntactic information that can be probed for dependency parsing (Hewitt and Manning, 2019) and POStagging (Coenen et al., 2019). In this paper, we show that the information from selfattentions of BERT are useful for language modeling of questions conditioned on paragraph and answer phrases. To control the attention span, we use semi-diagonal mask and utilize a shared model for encoding and decoding, unlike sequence-to-sequence. We further employ copy-mechanism over self-attentions to acheive state-of-the-art results for Question Generation on SQuAD v1.1 (Rajpurkar et al., 2016).",
+  "keywords": [
+    "al",
+    "the attention span",
+    "attentions",
+    "question",
+    "c opy bert",
+    "we",
+    "more recently question generation",
+    "language modeling",
+    "answer",
+    "neural",
+    "natural",
+    "a unified approach",
+    "self",
+    "unified",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2020.nlp4convai-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:57:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

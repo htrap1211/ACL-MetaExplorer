@@ -1,0 +1,33 @@
+{
+  "id": "2022.dialdoc-1.15",
+  "title": "Improving Multiple Documents Grounded Goal-Oriented Dialog Systems via Diverse Knowledge Enhanced Pretrained Language Model",
+  "authors": [
+    "Jang, Yunah  and\nLee, Dongryeol  and\nPark, Hyung Joo  and\nKang, Taegwan  and\nLee, Hwanhee  and\nBae, Hyunkyung  and\nJung, Kyomin"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Second DialDoc Workshop on Document-grounded Dialogue and Conversational Question Answering",
+  "abstract": "In this paper, we mainly discuss about our submission to MultiDoc2Dial task, which aims to model the goal-oriented dialogues grounded in multiple documents. The proposed task is split into grounding span prediction and agent response generation. The baseline for the task is the retrieval augmented generation model, which consists of a dense passage retrieval model for the retrieval part and the BART model for the generation part. The main challenge of this task is that the system requires a great amount of pre-trained knowledge to generate answers grounded in multiple documents. To overcome this challenge, we adopt model pretraining, fine-tuning, and multi-task learning to enhance our model’s coverage of pretrained knowledge. We experimented with various settings of our method to show the effectiveness of our approaches.",
+  "keywords": [
+    "goal-oriented dialog systems",
+    "tuning",
+    "knowledge",
+    "language",
+    "generation",
+    "the retrieval part",
+    "model",
+    "dialogues",
+    "the goal-oriented dialogues",
+    "dialog",
+    "the generation part",
+    "retrieval",
+    "pretrained language model",
+    "agent response generation",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2022.dialdoc-1.15/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:41:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

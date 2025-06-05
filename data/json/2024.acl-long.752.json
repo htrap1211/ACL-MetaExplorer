@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.752",
+  "title": "The {MERSA} Dataset and a Transformer-Based Approach for Speech Emotion Recognition",
+  "authors": [
+    "Zhang, Enshi  and\nTrujillo, Rafael  and\nPoellabauer, Christian"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Research in the field of speech emotion recognition (SER) relies on the availability of comprehensive datasets to make it possible to design accurate emotion detection models. This study introduces the Multimodal Emotion Recognition and Sentiment Analysis (MERSA) dataset, which includes both natural and scripted speech recordings, transcribed text, physiological data, and self-reported emotional surveys from 150 participants collected over a two-week period. This work also presents a novel emotion recognition approach that uses a transformer-based model, integrating pre-trained wav2vec 2.0 and BERT for feature extractions and additional LSTM layers to learn hidden representations from fused representations from speech and text. Our model predicts emotions on dimensions of arousal, valence, and dominance. We trained and evaluated the model on the MSP-PODCAST dataset and achieved competitive results from the best-performing model regarding the concordance correlation coefficient (CCC). Further, this paper demonstrates the effectiveness of this model through cross-domain evaluations on both IEMOCAP and MERSA datasets.",
+  "keywords": [
+    "field",
+    "we",
+    "lstm",
+    "a transformer-based model",
+    "cross",
+    "natural",
+    "the field",
+    "cross-domain evaluations",
+    "it",
+    "self",
+    "a transformer-based approach",
+    "analysis",
+    "bert",
+    "text",
+    "coefficient"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.752/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:44:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

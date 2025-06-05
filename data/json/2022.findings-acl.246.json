@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.246",
+  "title": "Improving Robustness of Language Models from a Geometry-aware Perspective",
+  "authors": [
+    "Zhu, Bin  and\nGu, Zhaoquan  and\nWang, Le  and\nChen, Jinyin  and\nXuan, Qi"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Recent studies have found that removing the norm-bounded projection and increasing search steps in adversarial training can significantly improve robustness. However, we observe that a too large number of search steps can hurt accuracy. We aim to obtain strong robustness efficiently using fewer steps. Through a toy experiment, we find that perturbing the clean data to the decision boundary but not crossing it does not degrade the test accuracy. Inspired by this, we propose friendly adversarial data augmentation (FADA) to generate friendly adversarial data. On top of FADA, we propose geometry-aware adversarial training (GAT) to perform adversarial training on friendly adversarial data so that we can save a large number of search steps. Comprehensive experiments across two widely used datasets and three pre-trained language models demonstrate that GAT can obtain stronger robustness via fewer steps. In addition, we provide extensive empirical results and in-depth analyses on robustness to facilitate future studies.",
+  "keywords": [
+    "top",
+    "the test accuracy",
+    "friendly",
+    "language",
+    "friendly adversarial data",
+    "studies",
+    "it",
+    "language models",
+    "three pre-trained language models",
+    "future studies",
+    "we",
+    "pre",
+    "norm",
+    "gat",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.246/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

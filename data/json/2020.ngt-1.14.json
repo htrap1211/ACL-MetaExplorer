@@ -1,0 +1,33 @@
+{
+  "id": "2020.ngt-1.14",
+  "title": "Meeting the 2020 {D}uolingo Challenge on a Shoestring",
+  "authors": [
+    "Nomoto, Tadashi"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the Fourth Workshop on Neural Generation and Translation",
+  "abstract": "What is given below is a brief description of the two systems, called gFCONV and c-VAE, which we built in a response to the 2020 Duolingo Challenge. Both are neural models that aim at disrupting a sentence representation the encoder generates with an eye on increasing the diversity of sentences that emerge out of the process. Importantly, we decided not to turn to external sources for extra ammunition, curious to know how far we can go while confining ourselves to the data released by Duolingo. gFCONV works by taking over a pre-trained sequence model, and intercepting the output its encoder produces on its way to the decoder. c-VAE is a conditional variational auto-encoder, seeking the diversity by blurring the representation that the encoder derives. Experiments on a corpus constructed out of the public dataset from Duolingo, containing some 4 million pairs of sentences, found that gFCONV is a consistent winner over c-VAE though both suffered heavily from a low recall.",
+  "keywords": [
+    "the decoder",
+    "extra",
+    "winner",
+    "we",
+    "a consistent winner",
+    "the encoder",
+    "its encoder",
+    "a conditional variational auto-encoder",
+    "neural",
+    "c",
+    "decoder",
+    "sequence",
+    "a brief description",
+    "-",
+    "recall"
+  ],
+  "url": "https://aclanthology.org/2020.ngt-1.14/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:57:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

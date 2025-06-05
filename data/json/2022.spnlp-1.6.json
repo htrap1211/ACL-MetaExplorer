@@ -1,0 +1,33 @@
+{
+  "id": "2022.spnlp-1.6",
+  "title": "Neural String Edit Distance",
+  "authors": [
+    "Libovick{\\'y}, Jind{\\v{r}}ich  and\nFraser, Alexander"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Sixth Workshop on Structured Prediction for NLP",
+  "abstract": "We propose the neural string edit distance model for string-pair matching and string transduction based on learnable string edit distance. We modify the original expectation-maximization learned edit distance algorithm into a differentiable loss function, allowing us to integrate it into a neural network providing a contextual representation of the input. We evaluate on cognate detection, transliteration, and grapheme-to-phoneme conversion, and show that we can trade off between performance and interpretability in a single framework. Using contextual representations, which are difficult to interpret, we match the performance of state-of-the-art string-pair matching models. Using static embeddings and a slightly different loss function, we force interpretability, at the expense of an accuracy drop.",
+  "keywords": [
+    "embeddings",
+    "a differentiable loss function",
+    "a neural network",
+    "neural",
+    "model",
+    "it",
+    "an accuracy drop",
+    "static embeddings",
+    "loss",
+    "drop",
+    "us",
+    "network",
+    "we",
+    "function",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2022.spnlp-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:46:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

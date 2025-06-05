@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.269",
+  "title": "Event Transition Planning for Open-ended Text Generation",
+  "authors": [
+    "Li, Qintong  and\nLi, Piji  and\nBi, Wei  and\nRen, Zhaochun  and\nLai, Yuxuan  and\nKong, Lingpeng"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Open-ended text generation tasks, such as dialogue generation and story completion, require models to generate a coherent continuation given limited preceding context. The open-ended nature of these tasks brings new challenges to the neural auto-regressive text generators nowadays. Despite these neural models are good at producing human-like text, it is difficult for them to arrange causalities and relations between given facts and possible ensuing events. To bridge this gap, we propose a novel two-stage method which explicitly arranges the ensuing events in open-ended text generation. Our approach can be understood as a specially-trained coarse-to-fine algorithm, where an event transition planner provides a “coarse” plot skeleton and a text generator in the second stage refines the skeleton. Experiments on two open-ended text generation tasks demonstrate that our proposed method effectively improves the quality of the generated text, especially in coherence and diversity. We will release the codes to the community for further exploration.",
+  "keywords": [
+    "we",
+    "dialogue",
+    "generators",
+    "an event transition planner",
+    "neural",
+    "the generated text",
+    "it",
+    "dialogue generation",
+    "causalities",
+    "text",
+    "open-ended text generation",
+    "fine",
+    "generation",
+    "planner",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.269/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

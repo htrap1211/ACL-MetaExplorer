@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.40",
+  "title": "Translate-Train Embracing Translationese Artifacts",
+  "authors": [
+    "Yu, Sicheng  and\nSun, Qianru  and\nZhang, Hao  and\nJiang, Jing"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Translate-train is a general training approach to multilingual tasks. The key idea is to use the translator of the target language to generate training data to mitigate the gap between the source and target languages. However, its performance is often hampered by the artifacts in the translated texts (translationese). We discover that such artifacts have common patterns in different languages and can be modeled by deep learning, and subsequently propose an approach to conduct translate-train using Translationese Embracing the effect of Artifacts (TEA). TEA learns to mitigate such effect on the training data of a source language (whose original and translationese are both available), and applies the learned module to facilitate the inference on the target language. Extensive experiments on the multilingual QA dataset TyDiQA demonstrate that TEA outperforms strong baselines.",
+  "keywords": [
+    "a general training approach",
+    "deep",
+    "general",
+    "language",
+    "translationese",
+    "deep learning",
+    "translationese artifacts",
+    "the translated texts translationese",
+    "tydiqa",
+    "train",
+    "we",
+    "learning",
+    "training",
+    "such artifacts",
+    "the translator"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.40/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:32:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

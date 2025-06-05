@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.124",
+  "title": "Improving Formality Style Transfer with Context-Aware Rule Injection",
+  "authors": [
+    "Yao, Zonghai  and\nYu, Hong"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Models pre-trained on large-scale regular text corpora often do not work well for user-generated data where the language styles differ significantly from the mainstream text. Here we present Context-Aware Rule Injection (CARI), an innovative method for formality style transfer (FST) by injecting multiple rules into an end-to-end BERT-based encoder and decoder model. CARI is able to learn to select optimal rules based on context. The intrinsic evaluation showed that CARI achieved the new highest performance on the FST benchmark dataset. Our extrinsic evaluation showed that CARI can greatly improve the regular pre-trained models’ performance on several tweet sentiment analysis tasks. Our contributions are as follows: 1.We propose a new method, CARI, to integrate rules for pre-trained language models. CARI is context-aware and can trained end-to-end with the downstream NLP applications. 2.We have achieved new state-of-the-art results for FST on the benchmark GYAFC dataset. 3.We are the first to evaluate FST methods with extrinsic evaluation and specifically on sentiment classification tasks. We show that CARI outperformed existing rule-based FST approaches for sentiment classification.",
+  "keywords": [
+    "the downstream nlp applications",
+    "end",
+    "extrinsic evaluation",
+    "user-generated data",
+    "we",
+    "classification",
+    "classification tasks",
+    "decoder",
+    "transfer",
+    "analysis",
+    "bert",
+    "text",
+    "sentiment classification",
+    "sentiment",
+    "our extrinsic evaluation"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.124/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:01:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.346",
+  "title": "Improving Disfluency Detection by Self-Training a Self-Attentive Model",
+  "authors": [
+    "Jamshid Lou, Paria  and\nJohnson, Mark"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Self-attentive neural syntactic parsers using contextualized word embeddings (e.g. ELMo or BERT) currently produce state-of-the-art results in joint parsing and disfluency detection in speech transcripts. Since the contextualized word embeddings are pre-trained on a large amount of unlabeled data, using additional unlabeled data to train a neural model might seem redundant. However, we show that self-training — a semi-supervised technique for incorporating unlabeled data — sets a new state-of-the-art for the self-attentive parser on disfluency detection, demonstrating that self-training provides benefits orthogonal to the pre-trained contextualized word representations. We also show that ensembling self-trained parsers provides further gains for disfluency detection.",
+  "keywords": [
+    "embeddings",
+    "elmo",
+    "parsing",
+    "neural",
+    "bert",
+    "joint parsing",
+    "model",
+    "self",
+    "the contextualized word embeddings",
+    "word",
+    "we",
+    "pre",
+    "training",
+    "a large amount",
+    "attentive"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.346/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:46:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

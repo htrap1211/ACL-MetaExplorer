@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.107",
+  "title": "Hi-Transformer: Hierarchical Interactive Transformer for Efficient and Effective Long Document Modeling",
+  "authors": [
+    "Wu, Chuhan  and\nWu, Fangzhao  and\nQi, Tao  and\nHuang, Yongfeng"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Transformer is important for text modeling. However, it has difficulty in handling long documents due to the quadratic complexity with input text length. In order to handle this problem, we propose a hierarchical interactive Transformer (Hi-Transformer) for efficient and effective long document modeling. Hi-Transformer models documents in a hierarchical way, i.e., first learns sentence representations and then learns document representations. It can effectively reduce the complexity and meanwhile capture global document context in the modeling of each sentence. More specifically, we first use a sentence Transformer to learn the representations of each sentence. Then we use a document Transformer to model the global document context from these sentence representations. Next, we use another sentence Transformer to enhance sentence modeling using the global document context. Finally, we use hierarchical pooling method to obtain document embedding. Extensive experiments on three benchmark datasets validate the efficiency and effectiveness of Hi-Transformer in long document modeling.",
+  "keywords": [
+    "transformer",
+    "hierarchical",
+    "hi-transformer hierarchical interactive transformer",
+    "i",
+    "text",
+    "it",
+    "a hierarchical interactive transformer",
+    "efficient",
+    "the efficiency",
+    "modeling",
+    "-",
+    "another sentence transformer",
+    "a sentence transformer",
+    "e",
+    "efficiency"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.107/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:08:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

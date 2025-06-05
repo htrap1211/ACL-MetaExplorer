@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.851",
+  "title": "Dual Cache for Long Document Neural Coreference Resolution",
+  "authors": [
+    "Guo, Qipeng  and\nHu, Xiangkun  and\nZhang, Yue  and\nQiu, Xipeng  and\nZhang, Zheng"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent works show the effectiveness of cache-based neural coreference resolution models on long documents. These models incrementally process a long document from left to right and extract relations between mentions and entities in a cache, resulting in much lower memory and computation cost compared to computing all mentions in parallel. However, they do not handle cache misses when high-quality entities are purged from the cache, which causes wrong assignments and leads to prediction errors. We propose a new hybrid cache that integrates two eviction policies to capture global and local entities separately, and effectively reduces the aggregated cache misses up to half as before, while improving F1 score of coreference by 0.7 5.7pt. As such, the hybrid policy can accelerate existing cache-based models and offer a new long document coreference resolution solution. Results show that our method outperforms existing methods on four benchmarks while saving up to 83% of inference time against non-cache-based models. Further, we achieve a new state-of-the-art on a long document coreference benchmark, LitBank.",
+  "keywords": [
+    "high-quality entities",
+    "we",
+    "two eviction policies",
+    "neural",
+    "policies",
+    "global and local entities",
+    "coreference",
+    "entities",
+    "time",
+    "f1 score",
+    "documents",
+    "state",
+    "a new state",
+    "memory",
+    "effectiveness"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.851/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:47:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

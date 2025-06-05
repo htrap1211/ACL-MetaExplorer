@@ -1,0 +1,33 @@
+{
+  "id": "2023.starsem-1.33",
+  "title": "Event Semantic Knowledge in Procedural Text Understanding",
+  "authors": [
+    "Kazeminejad, Ghazaleh  and\nPalmer, Martha"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 12th Joint Conference on Lexical and Computational Semantics (*SEM 2023)",
+  "abstract": "The task of entity state tracking aims to automatically analyze procedural texts – texts that describe a step-by-step process (e.g. a baking recipe). Specifically, the goal is to track various states of the entities participating in a given process. Some of the challenges for this NLP task include annotated data scarcity and annotators’ reliance on commonsense knowledge to annotate implicit state information. Zhang et al. (2021) successfully incorporated commonsense entity-centric knowledge from ConceptNet into their BERT-based neural-symbolic architecture. Since English mostly encodes state change information in verbs, we attempted to test whether injecting semantic knowledge of events (retrieved from the state-of-the-art VerbNet parser) into a neural model can also improve the performance on this task. To achieve this, we adapt the methodology introduced by Zhang et al. (2021) for incorporating symbolic entity information from ConceptNet to the incorporation of VerbNet event semantics. We evaluate the performance of our model on the ProPara dataset (Mishra et al., 2018). In addition, we introduce a purely symbolic model for entity state tracking that uses a simple set of case statements, and is informed mostly by linguistic knowledge retrieved from various computational lexical resources. Our approach is inherently domain-agnostic, and our model is explainable and achieves state-of-the-art results on the Recipes dataset (Bosselut et al., 2017).",
+  "keywords": [
+    "al",
+    "verbnet event semantics",
+    "semantic",
+    "we",
+    "the entities",
+    "their bert-based neural-symbolic architecture",
+    "event semantic knowledge",
+    "neural",
+    "semantics",
+    "information",
+    "semantic knowledge",
+    "et",
+    "bert",
+    "text",
+    "process"
+  ],
+  "url": "https://aclanthology.org/2023.starsem-1.33/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:32:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

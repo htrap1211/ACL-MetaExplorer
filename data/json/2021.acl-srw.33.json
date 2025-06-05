@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-srw.33",
+  "title": "Neural Machine Translation with Synchronous Latent Phrase Structure",
+  "authors": [
+    "Harada, Shintaro  and\nWatanabe, Taro"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: Student Research Workshop",
+  "abstract": "It is reported that grammatical information is useful for machine translation (MT) task. However, the annotation of grammatical information requires the highly human resources. Furthermore, it is not trivial to adapt grammatical information to MT since grammatical annotation usually adapts tokenization standards which might not be suitable to capture the relation of two languages, and the use of sub-word tokenization, e.g., Byte-Pair-Encoding, to alleviate out-of-vocabulary problem might not be compatible with those annotations. In this work, we propose two methods to explicitly incorporate grammatical information without supervising annotation; first, latent phrase structure is induced in an unsupervised fashion from a multi-head attention mechanism; second, the induced phrase structures in encoder and decoder are synchronized so that they are compatible with each other using constraints during training. We demonstrate that our approach produces better performance and explainability in two tasks, translation and alignment tasks without extra resources. Although we could not obtain the high quality phrase structure in constituency parsing when evaluated monolingually, we find that the induced phrase structures enhance the explainability of translation through the synchronization constraint.",
+  "keywords": [
+    "extra",
+    "neural machine translation",
+    "two tasks translation",
+    "we",
+    "training",
+    "translation",
+    "neural",
+    "it",
+    "decoder",
+    "information",
+    "latent",
+    "word",
+    "a multi-head attention mechanism",
+    "tokenization",
+    "tokenization standards"
+  ],
+  "url": "https://aclanthology.org/2021.acl-srw.33/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:09:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

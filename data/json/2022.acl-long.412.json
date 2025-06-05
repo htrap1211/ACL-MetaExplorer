@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.412",
+  "title": "Toward Interpretable Semantic Textual Similarity via Optimal Transport-based Contrastive Sentence Learning",
+  "authors": [
+    "Lee, Seonghyeon  and\nLee, Dongha  and\nJang, Seongbo  and\nYu, Hwanjo"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recently, finetuning a pretrained language model to capture the similarity between sentence embeddings has shown the state-of-the-art performance on the semantic textual similarity (STS) task. However, the absence of an interpretation method for the sentence similarity makes it difficult to explain the model output. In this work, we explicitly describe the sentence distance as the weighted sum of contextualized token distances on the basis of a transportation problem, and then present the optimal transport-based distance measure, named RCMD; it identifies and leverages semantically-aligned token pairs. In the end, we propose CLRCMD, a contrastive learning framework that optimizes RCMD of sentence pairs, which enhances the quality of sentence similarity and their interpretation. Extensive experiments demonstrate that our learning framework outperforms other baselines on both STS and interpretable-STS benchmarks, indicating that it computes effective sentence similarity and also provides interpretation consistent with human judgement.",
+  "keywords": [
+    "interpretable semantic textual similarity",
+    "end",
+    "semantic",
+    "we",
+    "semantically-aligned token pairs",
+    "it",
+    "token",
+    "learning",
+    "a pretrained language model",
+    "sum",
+    "embeddings",
+    "work",
+    "language",
+    "model",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.412/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:29:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

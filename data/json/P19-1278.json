@@ -1,0 +1,33 @@
+{
+  "id": "P19-1278",
+  "title": "Quantifying Similarity between Relations with Fact Distribution",
+  "authors": [
+    "Chen, Weize  and\nZhu, Hao  and\nHan, Xu  and\nLiu, Zhiyuan  and\nSun, Maosong"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We introduce a conceptually simple and effective method to quantify the similarity between relations in knowledge bases. Specifically, our approach is based on the divergence between the conditional probability distributions over entity pairs. In this paper, these distributions are parameterized by a very simple neural network. Although computing the exact similarity is in-tractable, we provide a sampling-based method to get a good approximation. We empirically show the outputs of our approach significantly correlate with human judgments. By applying our method to various tasks, we also find that (1) our approach could effectively detect redundant relations extracted by open information extraction (Open IE) models, that (2) even the most competitive models for relational classification still make mistakes among very similar relations, and that (3) our approach could be incorporated into negative sampling and softmax classification to alleviate these mistakes.",
+  "keywords": [
+    "ie models",
+    "knowledge",
+    "neural",
+    "extraction",
+    "human",
+    "open information extraction",
+    "information",
+    "network",
+    "we",
+    "entity",
+    "relational classification",
+    "softmax",
+    "classification",
+    "the divergence",
+    "good"
+  ],
+  "url": "https://aclanthology.org/P19-1278/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:37:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

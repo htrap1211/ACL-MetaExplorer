@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.746",
+  "title": "S}ci{MMIR}: Benchmarking Scientific Multi-modal Information Retrieval",
+  "authors": [
+    "Wu, Siwei  and\nLi, Yizhi  and\nZhu, Kang  and\nZhang, Ge  and\nLiang, Yiming  and\nMa, Kaijing  and\nXiao, Chenghao  and\nZhang, Haoran  and\nYang, Bohao  and\nChen, Wenhu  and\nHuang, Wenhao  and\nAl Moubayed, Noura  and\nFu, Jie  and\nLin, Chenghua"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Multi-modal information retrieval (MMIR) is a rapidly evolving field where significant progress has been made through advanced representation learning and cross-modality alignment research, particularly in image-text pairing.However, current benchmarks for evaluating MMIR performance on image-text pairings overlook the scientific domain, which has a notable gap with the generic data since the caption of scientific charts and tables usually describes the analysis of experimental results or scientific principles in contrast to human activity or scenery depicted in generic images.To bridge this gap, we develop ascientific domain-specificMMIRbenchmark (SciMMIR) by leveraging open-access research paper corpora to extract data relevant to the scientific domain. This benchmark comprises530Kmeticulously curated image-text pairs, extracted from figures and tables with detailed captions from scientific documents.We further annotate the image-text pairs with a two-level subset-subcategory hierarchy to facilitate a more comprehensive evaluation of the baselines. We conduct zero-shot and fine-tuned evaluations on prominent multi-modal image-captioning and visual language models, such as CLIP, BLIP, and BLIP-2.Our findings offer critical insights for MMIR in the scientific domain, including the impact of pre-training and fine-tuning settings and the effects of different visual and textual encoders.",
+  "keywords": [
+    "scientific documents",
+    "a two-level subset-subcategory hierarchy",
+    "field",
+    "generic images",
+    "we",
+    "a rapidly evolving field",
+    "current",
+    "shot",
+    "training",
+    "cross",
+    "scientific principles",
+    "retrieval",
+    "ascientific domain-specificmmirbenchmark scimmir",
+    "information",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.746/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

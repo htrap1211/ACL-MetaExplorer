@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.716",
+  "title": "From {E}nglish to Code-Switching: Transfer Learning with Strong Morphological Clues",
+  "authors": [
+    "Aguilar, Gustavo  and\nSolorio, Thamar"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Linguistic Code-switching (CS) is still an understudied phenomenon in natural language processing. The NLP community has mostly focused on monolingual and multi-lingual scenarios, but little attention has been given to CS in particular. This is partly because of the lack of resources and annotated data, despite its increasing occurrence in social media platforms. In this paper, we aim at adapting monolingual models to code-switched text in various tasks. Specifically, we transfer English knowledge from a pre-trained ELMo model to different code-switched language pairs (i.e., Nepali-English, Spanish-English, and Hindi-English) using the task of language identification. Our method, CS-ELMo, is an extension of ELMo with a simple yet effective position-aware attention mechanism inside its character convolutions. We show the effectiveness of this transfer learning step by outperforming multilingual BERT and homologous CS-unaware ELMo models and establishing a new state of the art in CS tasks, such as NER and POS tagging. Our technique can be expanded to more English-paired code-switched languages, providing more resources to the CS community.",
+  "keywords": [
+    "code",
+    "elmo",
+    "the nlp community",
+    "little attention",
+    "we",
+    "homologous cs-unaware elmo models",
+    "natural",
+    "understudied",
+    "transfer",
+    "natural language",
+    "ner",
+    "i",
+    "cs",
+    "bert",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.716/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:51:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

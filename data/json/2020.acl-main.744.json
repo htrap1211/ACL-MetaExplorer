@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.744",
+  "title": "Structured Tuning for Semantic Role Labeling",
+  "authors": [
+    "Li, Tao  and\nJawale, Parth Anand  and\nPalmer, Martha  and\nSrikumar, Vivek"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Recent neural network-driven semantic role labeling (SRL) systems have shown impressive improvements in F1 scores. These improvements are due to expressive input representations, which, at least at the surface, are orthogonal to knowledge-rich constrained decoding mechanisms that helped linear SRL models. Introducing the benefits of structure to inform neural models presents a methodological challenge. In this paper, we present a structured tuning framework to improve models using softened constraints only at training time. Our framework leverages the expressiveness of neural networks and provides supervision with structured loss components. We start with a strong baseline (RoBERTa) to validate the impact of our approach, and show that our framework outperforms the baseline by learning to comply with declarative constraints. Additionally, our experiments with smaller training sizes show that we can achieve consistent improvements under low-resource scenarios.",
+  "keywords": [
+    "roberta",
+    "f1 scores",
+    "semantic",
+    "we",
+    "training",
+    "a strong baseline roberta",
+    "neural",
+    "semantic role",
+    "loss",
+    "rich",
+    "tuning",
+    "neural networks",
+    "knowledge",
+    "network",
+    "time"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.744/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:52:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

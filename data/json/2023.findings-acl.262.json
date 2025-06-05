@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.262",
+  "title": "Follow the Wisdom of the Crowd: Effective Text Generation via Minimum {B}ayes Risk Decoding",
+  "authors": [
+    "Suzgun, Mirac  and\nMelas-Kyriazi, Luke  and\nJurafsky, Dan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In open-ended natural-language generation, existing text decoding methods typically struggle to produce text which is both diverse and high-quality. Greedy and beam search are known to suffer from text degeneration and linguistic diversity issues, while temperature, top-k, and nucleus sampling yield diverse but often lower-quality outputs. In this work, we build upon Minimum Bayes Risk Decoding (MBRD), a family of decoding methods based on Bayesian risk minimization, to address this diversity-quality trade-off. Inspired by the principle of the wisdom of the crowd, MBRD seeks to select a candidate from a pool of candidates that has the least expected risk under a generative model according to a given utility function. The crowd of candidates serves as an approximation for the distribution over human-generated references. We show that MBRD generalizes numerous decoding methods, including majority voting, and can be used as a drop-in replacement for existing sampling methods. Across a wide range of tasks—such as summarization, data-to-text, translation, and textual style transfer—MBRD yields 3-7 ROUGE and BLEU point improvements, including state-of-the-art results on WebNLG and WMT’16.",
+  "keywords": [
+    "text degeneration",
+    "yield",
+    "bleu",
+    "summarization",
+    "we",
+    "degeneration",
+    "bleu point improvements",
+    "translation",
+    "natural",
+    "human-generated references",
+    "transfer",
+    "yields",
+    "generative",
+    "a generative model",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.262/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

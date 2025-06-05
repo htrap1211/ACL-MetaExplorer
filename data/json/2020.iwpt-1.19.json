@@ -1,0 +1,33 @@
+{
+  "id": "2020.iwpt-1.19",
+  "title": "Adaptation of Multilingual Transformer Encoder for Robust Enhanced {U}niversal {D}ependency Parsing",
+  "authors": [
+    "He, Han  and\nChoi, Jinho D."
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies",
+  "abstract": "This paper presents our enhanced dependency parsing approach using transformer encoders, coupled with a simple yet powerful ensemble algorithm that takes advantage of both tree and graph dependency parsing. Two types of transformer encoders are compared, a multilingual encoder and language-specific encoders. Our dependency tree parsing (DTP) approach generates only primary dependencies to form trees whereas our dependency graph parsing (DGP) approach handles both primary and secondary dependencies to form graphs. Since DGP does not guarantee the generated graphs are acyclic, the ensemble algorithm is designed to add secondary arcs predicted by DGP to primary arcs predicted by DTP. Our results show that models using the multilingual encoder outperform ones using the language specific encoders for most languages. The ensemble models generally show higher labeled attachment score on enhanced dependencies (ELAS) than the DTP and DGP models. As the result, our best models rank the third place on the macro-average ELAS over 17 languages.",
+  "keywords": [
+    "ensemble",
+    "transformer",
+    "the ensemble models",
+    "language",
+    "language-specific encoders",
+    "ependency",
+    "graph dependency",
+    "enhanced dependencies elas",
+    "encoder",
+    "dependencies",
+    "transformer encoders",
+    "a multilingual encoder",
+    "only primary dependencies",
+    "dependency",
+    "the ensemble algorithm"
+  ],
+  "url": "https://aclanthology.org/2020.iwpt-1.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:56:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

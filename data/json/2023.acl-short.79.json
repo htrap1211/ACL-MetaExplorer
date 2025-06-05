@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.79",
+  "title": "With a Little Push, {NLI} Models can Robustly and Efficiently Predict Faithfulness",
+  "authors": [
+    "Steen, Julius  and\nOpitz, Juri  and\nFrank, Anette  and\nMarkert, Katja"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Conditional language models still generate unfaithful output that is not supported by their input. These unfaithful generations jeopardize trust in real-world applications such as summarization or human-machine interaction, motivating a need for automatic faithfulness metrics. To implement such metrics, NLI models seem attractive, since they solve a strongly related task that comes with a wealth of prior research and data. But recent research suggests that NLI models require costly additional machinery to perform reliably across datasets, e.g., by running inference on a cartesian product of input and generated sentences, or supporting them with a question-generation/answering step. In this work we show that pure NLI models _can_ outperform more complex metrics when combining task-adaptive data augmentation with robust inference procedures. We propose: (1) Augmenting NLI training data toadapt NL inferences to the specificities of faithfulness prediction in dialogue;(2) Making use of both entailment and contradiction probabilities in NLI, and(3) Using Monte-Carlo dropout during inference. Applied to the TRUE benchmark, which combines faithfulness datasets across diverse domains and tasks, our approach strongly improves a vanilla NLI model and significantly outperforms previous work, while showing favourable computational cost.",
+  "keywords": [
+    "costly additional machinery",
+    "automatic faithfulness metrics",
+    "question",
+    "summarization",
+    "we",
+    "dialogue",
+    "training",
+    "such metrics nli models",
+    "contradiction probabilities",
+    "dialogue 2 making use",
+    "more complex metrics",
+    "machinery",
+    "faithfulness conditional language models",
+    "these unfaithful generations",
+    "metrics"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.79/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:49:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

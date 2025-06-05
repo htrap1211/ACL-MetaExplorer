@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.536",
+  "title": "Budget-Constrained Tool Learning with Planning",
+  "authors": [
+    "Zheng, Yuanhang  and\nLi, Peng  and\nYan, Ming  and\nZhang, Ji  and\nHuang, Fei  and\nLiu, Yang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Despite intensive efforts devoted to tool learning, the problem of budget-constrained tool learning, which focuses on resolving user queries within a specific budget constraint, has been widely overlooked. This paper proposes a novel method for budget-constrained tool learning. Our approach involves creating a preferable plan under the budget constraint before utilizing the tools. This plan outlines the feasible tools and the maximum number of times they can be employed, offering a comprehensive overview of the tool learning process for large language models. This allows them to allocate the budget from a broader perspective. To devise the plan without incurring significant extra costs, we suggest initially estimating the usefulness of the candidate tools based on past experience. Subsequently, we employ dynamic programming to formulate the plan. Experimental results demonstrate that our method can be integrated with various tool learning methods, significantly enhancing their effectiveness under strict budget constraints.",
+  "keywords": [
+    "extra",
+    "past experience",
+    "overview",
+    "we",
+    "queries",
+    "learning",
+    "user queries",
+    "experience",
+    "process",
+    "a comprehensive overview",
+    "language",
+    "large language models",
+    "plan",
+    "approach",
+    "budget-constrained tool learning"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.536/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:55:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "W19-5009",
+  "title": "Domain Adaptation of {SRL} Systems for Biological Processes",
+  "authors": [
+    "Rajagopal, Dheeraj  and\nVyas, Nidhi  and\nSiddhant, Aditya  and\nRayasam, Anirudha  and\nTandon, Niket  and\nHovy, Eduard"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 18th BioNLP Workshop and Shared Task",
+  "abstract": "Domain adaptation remains one of the most challenging aspects in the wide-spread use of Semantic Role Labeling (SRL) systems. Current state-of-the-art methods are typically trained on large-scale datasets, but their performances do not directly transfer to low-resource domain-specific settings. In this paper, we propose two approaches for domain adaptation in the biological domain that involves pre-training LSTM-CRF based on existing large-scale datasets and adapting it for a low-resource corpus of biological processes. Our first approach defines a mapping between the source labels and the target labels, and the other approach modifies the final CRF layer in sequence-labeling neural network architecture. We perform our experiments on ProcessBank dataset which contains less than 200 paragraphs on biological processes. We improve over the previous state-of-the-art system on this dataset by 21 F1 points. We also show that, by incorporating event-event relationship in ProcessBank, we are able to achieve an additional 2.6 F1 gain, giving us possible insights into how to improve SRL systems for biological process using richer annotations.",
+  "keywords": [
+    "21 f1 points",
+    "layer",
+    "semantic",
+    "we",
+    "lstm",
+    "current",
+    "pre-training lstm-crf",
+    "training",
+    "neural",
+    "semantic role",
+    "it",
+    "sequence",
+    "sequence-labeling neural network architecture",
+    "process",
+    "us"
+  ],
+  "url": "https://aclanthology.org/W19-5009/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:55:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

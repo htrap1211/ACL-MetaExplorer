@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.131",
+  "title": "m{PMR}: A Multilingual Pre-trained Machine Reader at Scale",
+  "authors": [
+    "Xu, Weiwen  and\nLi, Xin  and\nLam, Wai  and\nBing, Lidong"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "We present multilingual Pre-trained Machine Reader (mPMR), a novel method for multilingual machine reading comprehension (MRC)-style pre-training. mPMR aims to guide multilingual pre-trained language models (mPLMs) to perform natural language understanding (NLU) including both sequence classification and span extraction in multiple languages. To achieve cross-lingual generalization when only source-language fine-tuning data is available, existing mPLMs solely transfer NLU capability from a source language to target languages. In contrast, mPMR allows the direct inheritance of multilingual NLU capability from the MRC-style pre-training to downstream tasks. Therefore, mPMR acquires better NLU capability for target languages. mPMR also provides a unified solver for tackling cross-lingual span extraction and sequence classification, thereby enabling the extraction of rationales to explain the sentence-pair classification process.",
+  "keywords": [
+    "only source-language fine-tuning data",
+    "cross",
+    "tuning",
+    "process",
+    "language",
+    "extraction",
+    "natural",
+    "a unified solver",
+    "machine",
+    "both sequence classification",
+    "-",
+    "unified",
+    "the sentence-pair classification process",
+    "mrc -style pre-training mpmr",
+    "cross-lingual generalization"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.131/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:50:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

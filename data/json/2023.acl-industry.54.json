@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.54",
+  "title": "Content Moderation for Evolving Policies using Binary Question Answering",
+  "authors": [
+    "Mullick, Sankha Subhra  and\nBhambhani, Mohan  and\nSinha, Suhit  and\nMathur, Akshat  and\nGupta, Somya  and\nShah, Jidnya"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "Content moderation on social media is governed by policies that are intricate and frequently updated with evolving world events. However, automated content moderation systems often restrict easy adaptation to policy changes and are expected to learn policy intricacies from limited amounts of labeled data, which make effective policy compliance challenging. We propose to model content moderation as a binary question answering problem where the questions validate the loosely coupled themes constituting a policy. A decision logic is applied on top to aggregate the theme-specific validations. This way the questions pass theme information to a transformer network as explicit policy prompts, that in turn enables explainability. This setting further allows for faster adaptation to policy updates by leveraging zero-shot capabilities of pre-trained transformers. We showcase improved recall for our proposed method at 95\\% precision on two proprietary datasets of social media posts and comments respectively annotated under curated Hate Speech and Commercial Spam policies.",
+  "keywords": [
+    "top",
+    "transformers",
+    "intricacies",
+    "precision",
+    "explicit policy prompts",
+    "zero-shot capabilities",
+    "question",
+    "we",
+    "shot",
+    "commercial spam policies",
+    "policies",
+    "information",
+    "a transformer network",
+    "improved recall",
+    "95 precision"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.54/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

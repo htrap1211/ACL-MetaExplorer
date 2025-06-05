@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.146",
+  "title": "Characterizing the Impacts of Instances on Robustness",
+  "authors": [
+    "Zheng, Rui  and\nXi, Zhiheng  and\nLiu, Qin  and\nLai, Wenbin  and\nGui, Tao  and\nZhang, Qi  and\nHuang, Xuanjing  and\nMa, Jin  and\nShan, Ying  and\nGe, Weifeng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Building robust deep neural networks (DNNs) against adversarial attacks is an important but challenging task. Previous defense approaches mainly focus on developing new model structures or training algorithms, but they do little to tap the potential of training instances, especially instances with robust patterns carring innate robustness. In this paper, we show that robust and non-robust instances in the training dataset, though are both important for test performance, have contrary impacts on robustness, which makes it possible to build a highly robust model by leveraging the training dataset in a more effective way. We propose a new method that can distinguish between robust instances from non-robust ones according to the model’s sensitivity to perturbations on individual instances during training. Surprisingly, we find that the model under standard training easily overfits the robust instances by relying on their simple patterns before the model completely learns their robust features. Finally, we propose a new mitigation algorithm to further release the potential of robust instances. Experimental results show that proper use of robust instances in the original dataset is a new line to achieve highly robust models.",
+  "keywords": [
+    "deep",
+    "we",
+    "training",
+    "neural",
+    "it",
+    "model",
+    "original",
+    "contrary impacts",
+    "test",
+    "robust instances",
+    "previous",
+    "new model structures",
+    "their simple patterns",
+    "possible",
+    "adversarial"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.146/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

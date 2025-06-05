@@ -1,0 +1,33 @@
+{
+  "id": "P18-1054",
+  "title": "Entity-Centric Joint Modeling of {J}apanese Coreference Resolution and Predicate Argument Structure Analysis",
+  "authors": [
+    "Shibata, Tomohide  and\nKurohashi, Sadao"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Predicate argument structure analysis is a task of identifying structured events. To improve this field, we need to identify a salient entity, which cannot be identified without performing coreference resolution and predicate argument structure analysis simultaneously. This paper presents an entity-centric joint model for Japanese coreference resolution and predicate argument structure analysis. Each entity is assigned an embedding, and when the result of both analyses refers to an entity, the entity embedding is updated. The analyses take the entity embedding into consideration to access the global information of entities. Our experimental results demonstrate the proposed method can improve the performance of the inter-sentential zero anaphora resolution drastically, which is a notoriously difficult task in predicate argument structure analysis.",
+  "keywords": [
+    "model",
+    "entities",
+    "salient",
+    "modeling",
+    "field",
+    "coreference resolution",
+    "information",
+    "this field",
+    "we",
+    "a salient entity",
+    "entity",
+    "coreference",
+    "analysis",
+    "the analyses",
+    "the proposed method"
+  ],
+  "url": "https://aclanthology.org/P18-1054/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:10:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.235",
+  "title": "Not Enough Data to Pre-train Your Language Model? {MT} to the Rescue!",
+  "authors": [
+    "Urbizu, Gorka  and\nSan Vicente, I{\\~n}aki  and\nSaralegi, Xabier  and\nCorral, Ander"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In recent years, pre-trained transformer-based language models (LM) have become a key resource for implementing most NLP tasks. However, pre-training such models demands large text collections not available in most languages. In this paper, we study the use of machine-translated corpora for pre-training LMs. We answer the following research questions: RQ1: Is MT-based data an alternative to real data for learning a LM?; RQ2: Can real data be complemented with translated data and improve the resulting LM? In order to validate these two questions, several BERT models for Basque have been trained, combining real data and synthetic data translated from Spanish.The evaluation carried out on 9 NLU tasks indicates that models trained exclusively on translated data offer competitive results. Furthermore, models trained with real data can be improved with synthetic data, although further research is needed on the matter.",
+  "keywords": [
+    "pre-trained transformer-based language models",
+    "transformer",
+    "language",
+    "nlp",
+    "bert",
+    "model",
+    "machine",
+    "pre-training lms",
+    "text",
+    "most nlp tasks",
+    "we",
+    "your language model",
+    "pre",
+    "evaluation",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.235/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

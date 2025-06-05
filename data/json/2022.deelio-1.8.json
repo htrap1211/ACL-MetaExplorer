@@ -1,0 +1,33 @@
+{
+  "id": "2022.deelio-1.8",
+  "title": "Fast Few-shot Debugging for {NLU} Test Suites",
+  "authors": [
+    "Malon, Christopher  and\nLi, Kai  and\nKruus, Erik"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of Deep Learning Inside Out (DeeLIO 2022): The 3rd Workshop on Knowledge Extraction and Integration for Deep Learning Architectures",
+  "abstract": "We study few-shot debugging of transformer based natural language understanding models, using recently popularized test suites to not just diagnose but correct a problem. Given a few debugging examples of a certain phenomenon, and a held-out test set of the same phenomenon, we aim to maximize accuracy on the phenomenon at a minimal cost of accuracy on the original test set. We examine several methods that are faster than full epoch retraining. We introduce a new fast method, which samples a few in-danger examples from the original training set. Compared to fast methods using parameter distance constraints or Kullback-Leibler divergence, we achieve superior original accuracy for comparable debugging accuracy.",
+  "keywords": [
+    "transformer",
+    "language",
+    "superior original accuracy",
+    "natural",
+    "fast few-shot debugging",
+    "we",
+    "comparable debugging accuracy",
+    "few-shot debugging",
+    "fast",
+    "shot",
+    "accuracy",
+    "training",
+    "parameter",
+    "that",
+    "certain"
+  ],
+  "url": "https://aclanthology.org/2022.deelio-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:41:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

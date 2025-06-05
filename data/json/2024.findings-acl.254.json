@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.254",
+  "title": "Call Me When Necessary: {LLM}s can Efficiently and Faithfully Reason over Structured Environments",
+  "authors": [
+    "Cheng, Sitao  and\nZhuang, Ziyuan  and\nXu, Yong  and\nYang, Fangkai  and\nZhang, Chaoyun  and\nQin, Xiaoting  and\nHuang, Xiang  and\nChen, Ling  and\nLin, Qingwei  and\nZhang, Dongmei  and\nRajmohan, Saravan  and\nZhang, Qi"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large Language Models (LLMs) have shown potential in reasoning over structured environments, e.g., knowledge graphs and tables. Such tasks typically require multi-hop reasoning, i.e., match natural language utterance with instances in the environment. Previous works adopt LLMs to incrementally build a reasoning path, where LLMs either invoke tools or pick up items by step-by-step interacting with the environment. We propose Reasoning-Path-Editing (Readi), a novel framework where LLMs can efficiently and faithfully reason over structured environments. In Readi, LLMs initially generate a reasoning path given a query, and edit the path only when necessary. We instantiate the path on structured environments and provide feedback to edit the path if anything goes wrong. Experimental results on three KGQA and two TableQA datasets show the effectiveness of Readi, significantly surpassing previous LLM-based methods (by 9.1% Hit@1 on WebQSP, 12.4% on MQA-3H and 9.5% on WTQ), comparable with state-of-the-art fine-tuned methods (67% on CWQ and 74.7% on WebQSP) and substantially boosting the vanilla LLMs (by 14.9% on CWQ). Our code will be available onhttps://aka.ms/readi.",
+  "keywords": [
+    "code",
+    "kgqa",
+    "feedback",
+    "we",
+    "llm",
+    "natural",
+    "llms",
+    "large language models llms",
+    "me",
+    "previous llm-based methods",
+    "mqa-3h",
+    "two tableqa datasets",
+    "the vanilla llms",
+    "efficiently and faithfully reason",
+    "three kgqa"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.254/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

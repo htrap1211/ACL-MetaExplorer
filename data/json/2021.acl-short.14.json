@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.14",
+  "title": "N-Best {ASR} Transformer: Enhancing {SLU} Performance using Multiple {ASR} Hypotheses",
+  "authors": [
+    "Ganesan, Karthik  and\nBamdev, Pakhi  and\nB, Jaivarsan  and\nVenugopal, Amresh  and\nTushar, Abhinav"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Spoken Language Understanding (SLU) systems parse speech into semantic structures like dialog acts and slots. This involves the use of an Automatic Speech Recognizer (ASR) to transcribe speech into multiple text alternatives (hypotheses). Transcription errors, ordinary in ASRs, impact downstream SLU performance negatively. Common approaches to mitigate such errors involve using richer information from the ASR, either in form of N-best hypotheses or word-lattices. We hypothesize that transformer models will learn better with a simpler utterance representation using the concatenation of the N-best ASR alternatives, where each alternative is separated by a special delimiter [SEP]. In our work, we test our hypothesis by using the concatenated N-best ASR alternatives as the input to the transformer encoder models, namely BERT and XLM-RoBERTa, and achieve equivalent performance to the prior state-of-the-art model on DSTC2 dataset. We also show that our approach significantly outperforms the prior state-of-the-art when subjected to the low data regime. Additionally, this methodology is accessible to users of third-party ASR APIs which do not provide word-lattice information.",
+  "keywords": [
+    "roberta",
+    "the transformer encoder models",
+    "form",
+    "semantic",
+    "we",
+    "information",
+    "word",
+    "semantic structures",
+    "transformer models",
+    "bert",
+    "text",
+    "work",
+    "transformer",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.14/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

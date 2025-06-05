@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.666",
+  "title": "In-sample Curriculum Learning by Sequence Completion for Natural Language Generation",
+  "authors": [
+    "Jia, Qi  and\nLiu, Yizhu  and\nTang, Haifeng  and\nZhu, Kenny"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Curriculum learning has shown promising improvements in multiple domains by training machine learning models from easy samples to hard ones. Previous works which either design rules or train models for scoring the difficulty highly rely on task-specific expertise, and cannot generalize. Inspired by the “easy-to-hard” intuition, we propose to do in-sample curriculum learning for natural language generation tasks. Our learning strategy starts training the model to generate the last few words, i.e., do sequence completion, and gradually extends to generate the whole output sequence. Comprehensive experiments show that it generalizes well to different tasks and achieves significant improvements over strong baselines.",
+  "keywords": [
+    "i",
+    "language",
+    "generation",
+    "natural",
+    "model",
+    "machine",
+    "it",
+    "machine learning models",
+    "train",
+    "we",
+    "sequence",
+    "natural language generation",
+    "learning",
+    "training",
+    "sample"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.666/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:44:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

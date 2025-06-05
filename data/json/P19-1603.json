@@ -1,0 +1,33 @@
+{
+  "id": "P19-1603",
+  "title": "Learning to Control the Fine-grained Sentiment for Story Ending Generation",
+  "authors": [
+    "Luo, Fuli  and\nDai, Damai  and\nYang, Pengcheng  and\nLiu, Tianyu  and\nChang, Baobao  and\nSui, Zhifang  and\nSun, Xu"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Automatic story ending generation is an interesting and challenging task in natural language generation. Previous studies are mainly limited to generate coherent, reasonable and diversified story endings, and few works focus on controlling the sentiment of story endings. This paper focuses on generating a story ending which meets the given fine-grained sentiment intensity. There are two major challenges to this task. First is the lack of story corpus which has fine-grained sentiment labels. Second is the difficulty of explicitly controlling sentiment intensity when generating endings. Therefore, we propose a generic and novel framework which consists of a sentiment analyzer and a sentimental generator, respectively addressing the two challenges. The sentiment analyzer adopts a series of methods to acquire sentiment intensities of the story dataset. The sentimental generator introduces the sentiment intensity into decoder via a Gaussian Kernel Layer to control the sentiment of the output. To the best of our knowledge, this is the first endeavor to control the fine-grained sentiment for story ending generation without manually annotating sentiment labels. Experiments show that our proposed framework can generate story endings which are not only more coherent and fluent but also able to meet the given sentiment intensity better.",
+  "keywords": [
+    "kernel",
+    "series",
+    "layer",
+    "we",
+    "intensities",
+    "natural",
+    "a gaussian kernel layer",
+    "decoder",
+    "natural language generation",
+    "previous studies",
+    "generic",
+    "diversified",
+    "sentiment",
+    "sentiment intensities",
+    "a series"
+  ],
+  "url": "https://aclanthology.org/P19-1603/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:46:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

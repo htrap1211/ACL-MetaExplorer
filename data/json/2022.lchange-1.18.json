@@ -1,0 +1,33 @@
+{
+  "id": "2022.lchange-1.18",
+  "title": "D}eep{M}istake at {LSCD}iscovery: Can a Multilingual Word-in-Context Model Replace Human Annotators?",
+  "authors": [
+    "Homskiy, Daniil  and\nArefyev, Nikolay"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 3rd Workshop on Computational Approaches to Historical Language Change",
+  "abstract": "In this paper we describe our solution of the LSCDiscovery shared task on Lexical Semantic Change Discovery (LSCD) in Spanish. Our solution employs a Word-in-Context (WiC) model, which is trained to determine if a particular word has the same meaning in two given contexts. We basically try to replicate the annotation of the dataset for the shared task, but replacing human annotators with a neural network. In the graded change discovery subtask, our solution has achieved the 2nd best result according to all metrics. In the main binary change detection subtask, our F1-score is 0.655 compared to 0.716 of the best submission, corresponding to the 5th place. However, in the optional sense gain detection subtask we have outperformed all other participants. During the post-evaluation experiments we compared different ways to prepare WiC data in Spanish for fine-tuning. We have found that it helps leaving only examples annotated as 1 (unrelated senses) and 4 (identical senses) rather than using 2x more examples including intermediate annotations.",
+  "keywords": [
+    "all metrics",
+    "semantic",
+    "we",
+    "the post-evaluation experiments",
+    "fine-tuning",
+    "neural",
+    "it",
+    "word",
+    "our f1-score",
+    "tuning",
+    "metrics",
+    "fine",
+    "a neural network",
+    "model",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2022.lchange-1.18/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:44:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

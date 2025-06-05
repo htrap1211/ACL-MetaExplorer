@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.583",
+  "title": "Enhancing Cross-lingual Transfer via Phonemic Transcription Integration",
+  "authors": [
+    "Nguyen, Hoang  and\nZhang, Chenwei  and\nZhang, Tao  and\nRohrbaugh, Eugene  and\nYu, Philip"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Previous cross-lingual transfer methods are restricted to orthographic representation learning via textual scripts. This limitation hampers cross-lingual transfer and is biased towards languages sharing similar well-known scripts. To alleviate the gap between languages from different writing scripts, we propose PhoneXL, a framework incorporating phonemic transcriptions as an additional linguistic modality beyond the traditional orthographic transcriptions for cross-lingual transfer. Particularly, we propose unsupervised alignment objectives to capture (1) local one-to-one alignment between the two different modalities, (2) alignment via multi-modality contexts to leverage information from additional modalities, and (3) alignment via multilingual contexts where additional bilingual dictionaries are incorporated. We also release the first phonemic-orthographic alignment dataset on two token-level tasks (Named Entity Recognition and Part-of-Speech Tagging) among the understudied but interconnected Chinese-Japanese-Korean-Vietnamese (CJKV) languages. Our pilot study reveals phonemic transcription provides essential information beyond the orthography to enhance cross-lingual transfer and bridge the gap among CJKV languages, leading to consistent improvements on cross-lingual token-level tasks over orthographic-based multilingual PLMs.",
+  "keywords": [
+    "unsupervised alignment objectives",
+    "additional modalities",
+    "objectives",
+    "additional bilingual dictionaries",
+    "we",
+    "cross",
+    "vietnamese",
+    "token",
+    "information",
+    "understudied",
+    "learning",
+    "transfer",
+    "1 local one-to-one alignment",
+    "-",
+    "3 alignment"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.583/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

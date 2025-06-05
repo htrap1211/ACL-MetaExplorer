@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.325",
+  "title": "Should We Trust This Summary? {B}ayesian Abstractive Summarization to The Rescue",
+  "authors": [
+    "Gidiotis, Alexios  and\nTsoumakas, Grigorios"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "We explore the notion of uncertainty in the context of modern abstractive summarization models, using the tools of Bayesian Deep Learning. Our approach approximates Bayesian inference by first extending state-of-the-art summarization models with Monte Carlo dropout and then using them to perform multiple stochastic forward passes. Based on Bayesian inference we are able to effectively quantify uncertainty at prediction time. Having a reliable uncertainty measure, we can improve the experience of the end user by filtering out generated summaries of high uncertainty. Furthermore, uncertainty estimation could be used as a criterion for selecting samples for annotation, and can be paired nicely with active learning and human-in-the-loop approaches. Finally, Bayesian inference enables us to find a Bayesian summary which performs better than a deterministic one and is more robust to uncertainty. In practice, we show that our Variational Bayesian equivalents of BART and PEGASUS can outperform their deterministic counterparts on multiple benchmark datasets.",
+  "keywords": [
+    "end",
+    "modern abstractive summarization models",
+    "summarization",
+    "we",
+    "b ayesian abstractive summarization",
+    "monte carlo dropout",
+    "generated summaries",
+    "learning",
+    "experience",
+    "the experience",
+    "summaries",
+    "human",
+    "us",
+    "time",
+    "dropout"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.325/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

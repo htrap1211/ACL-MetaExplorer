@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.504",
+  "title": "Deeply Coupled Cross-Modal Prompt Learning",
+  "authors": [
+    "Liu, Xuejing  and\nTang, Wei  and\nLu, Jinghui  and\nZhao, Rui  and\nGuo, Zhaojun  and\nTan, Fei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Recent advancements in multimodal foundation models (e.g., CLIP) have excelled in zero-shot generalization. Prompt tuning involved in the knowledge transfer from foundation models to downstream tasks has gained significant attention recently. Existing prompt-tuning methods in cross-modal learning, however, either solely focus on language branch, or learn vision-language interaction in a shallow mechanism. In this context, we propose a Deeply coupled Cross-modal Prompt learning (DCP) method based on CLIP. DCP flexibly accommodates the interplay between vision and language with a Cross-Modal Prompt Attention (CMPA) mechanism, which enables the mutual exchange of respective representation through a well-connected multi-head attention progressively and strongly. We then conduct comprehensive few-shot learning experiments on 11 image classification datasets and analyze the robustness to domain shift as well. Thorough experimental analysis evidently demonstrates the superb few-shot generalization and compelling domain adaption capacity of a well-executed DCP.",
+  "keywords": [
+    "cross",
+    "the superb few-shot generalization",
+    "tuning",
+    "knowledge",
+    "prompt",
+    "language",
+    "a well-connected multi-head attention",
+    "significant attention",
+    "generalization",
+    "zero-shot generalization prompt tuning",
+    "attention",
+    "we",
+    "learning",
+    "recently existing prompt-tuning methods",
+    "transfer"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.504/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

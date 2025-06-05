@@ -1,0 +1,33 @@
+{
+  "id": "P18-1039",
+  "title": "Using Intermediate Representations to Solve Math Word Problems",
+  "authors": [
+    "Huang, Danqing  and\nYao, Jin-Ge  and\nLin, Chin-Yew  and\nZhou, Qingyu  and\nYin, Jian"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "To solve math word problems, previous statistical approaches attempt at learning a direct mapping from a problem description to its corresponding equation system. However, such mappings do not include the information of a few higher-order operations that cannot be explicitly represented in equations but are required to solve the problem. The gap between natural language and equations makes it difficult for a learned model to generalize from limited data. In this work we present an intermediate meaning representation scheme that tries to reduce this gap. We use a sequence-to-sequence model with a novel attention regularization term to generate the intermediate forms, then execute them to obtain the final answers. Since the intermediate forms are latent, we propose an iterative labeling framework for learning by leveraging supervision signals from both equations and answers. Our experiments show using intermediate forms outperforms directly predicting equations.",
+  "keywords": [
+    "work",
+    "language",
+    "natural",
+    "model",
+    "it",
+    "regularization",
+    "information",
+    "latent",
+    "attention",
+    "word",
+    "we",
+    "sequence",
+    "natural language",
+    "that",
+    "such mappings"
+  ],
+  "url": "https://aclanthology.org/P18-1039/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:10:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

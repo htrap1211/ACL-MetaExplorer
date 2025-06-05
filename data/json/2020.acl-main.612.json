@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.612",
+  "title": "Improving Entity Linking through Semantic Reinforced Entity Embeddings",
+  "authors": [
+    "Hou, Feng  and\nWang, Ruili  and\nHe, Jun  and\nZhou, Yi"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Entity embeddings, which represent different aspects of each entity with a single vector like word embeddings, are a key component of neural entity linking models. Existing entity embeddings are learned from canonical Wikipedia articles and local contexts surrounding target entities. Such entity embeddings are effective, but too distinctive for linking models to learn contextual commonality. We propose a simple yet effective method, FGS2EE, to inject fine-grained semantic information into entity embeddings to reduce the distinctiveness and facilitate the learning of contextual commonality. FGS2EE first uses the embeddings of semantic type words to generate semantic embeddings, and then combines them with existing entity embeddings through linear aggregation. Extensive experiments show the effectiveness of such embeddings. Based on our entity embeddings, we achieved new sate-of-the-art performance on entity linking.",
+  "keywords": [
+    "embeddings",
+    "the embeddings",
+    "vector",
+    "fine-grained semantic information",
+    "neural",
+    "a single vector",
+    "semantic embeddings",
+    "entities",
+    "existing entity embeddings",
+    "information",
+    "target entities",
+    "semantic",
+    "word",
+    "we",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.612/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:50:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

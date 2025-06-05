@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.83",
+  "title": "PMAES}: Prompt-mapping Contrastive Learning for Cross-prompt Automated Essay Scoring",
+  "authors": [
+    "Chen, Yuan  and\nLi, Xia"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Current cross-prompt automated essay scoring (AES) is a challenging task due to the large discrepancies between different prompts, such as different genres and expressions. The main goal of current cross-prompt AES systems is to learn enough shared features between the source and target prompts to grade well on the target prompt. However, because the features are captured based on the original prompt representation, they may be limited by being extracted directly between essays. In fact, when the representations of two prompts are more similar, we can gain more shared features between them. Based on this motivation, in this paper, we propose a learning strategy called “prompt-mapping” to learn about more consistent representations of source and target prompts. In this way, we can obtain more shared features between the two prompts and use them to better represent the essays for the target prompt. Experimental results on the ASAP++ dataset demonstrate the effectiveness of our method. We also design experiments in different settings to show that our method can be applied in different scenarios. Our code is available athttps://github.com/gdufsnlp/PMAES.",
+  "keywords": [
+    "code",
+    "different prompts",
+    "current cross-prompt aes systems",
+    "gdufsnlp",
+    "the large discrepancies",
+    "we",
+    "prompt-mapping",
+    "prompt-mapping contrastive learning",
+    "the target prompt",
+    "current",
+    "cross",
+    "discrepancies",
+    "learning",
+    "the two prompts",
+    "prompt"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.83/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:36:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

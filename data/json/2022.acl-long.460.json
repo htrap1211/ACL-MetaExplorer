@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.460",
+  "title": "Accurate Online Posterior Alignments for Principled Lexically-Constrained Decoding",
+  "authors": [
+    "Chatterjee, Soumya  and\nSarawagi, Sunita  and\nJyothi, Preethi"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Online alignment in machine translation refers to the task of aligning a target word to a source word when the target sequence has only been partially decoded. Good online alignments facilitate important applications such as lexically constrained translation where user-defined dictionaries are used to inject lexical constraints into the translation model. We propose a novel posterior alignment technique that is truly online in its execution and superior in terms of alignment error rates compared to existing methods. Our proposed inference technique jointly considers alignment and token probabilities in a principled manner and can be seamlessly integrated within existing constrained beam-search decoding algorithms. On five language pairs, including two distant language pairs, we achieve consistent drop in alignment error rates. When deployed on seven lexically constrained translation tasks, we achieve significant improvements in BLEU specifically around the constrained positions.",
+  "keywords": [
+    "alignment",
+    "token probabilities",
+    "alignment error rates",
+    "dictionaries",
+    "alignments",
+    "translation",
+    "language",
+    "good online alignments",
+    "user-defined dictionaries",
+    "model",
+    "machine",
+    "token",
+    "bleu",
+    "lexically constrained translation",
+    "accurate online posterior alignments"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.460/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:30:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "W19-4214",
+  "title": "A Little Linguistics Goes a Long Way: Unsupervised Segmentation with Limited Language Specific Guidance",
+  "authors": [
+    "Erdmann, Alexander  and\nKhalifa, Salam  and\nOudah, Mai  and\nHabash, Nizar  and\nBouamor, Houda"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 16th Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "We present de-lexical segmentation, a linguistically motivated alternative to greedy or other unsupervised methods, requiring only minimal language specific input. Our technique involves creating a small grammar of closed-class affixes which can be written in a few hours. The grammar over generates analyses for word forms attested in a raw corpus which are disambiguated based on features of the linguistic base proposed for each form. Extending the grammar to cover orthographic, morpho-syntactic or lexical variation is simple, making it an ideal solution for challenging corpora with noisy, dialect-inconsistent, or otherwise non-standard content. In two evaluations, we consistently outperform competitive unsupervised baselines and approach the performance of state-of-the-art supervised models trained on large amounts of data, providing evidence for the value of linguistic input during preprocessing.",
+  "keywords": [
+    "form",
+    "we",
+    "it",
+    "word",
+    "two evaluations",
+    "language",
+    "evaluations",
+    "class",
+    "state",
+    "unsupervised",
+    "the value",
+    "a small grammar",
+    "corpus",
+    "amounts",
+    "standard"
+  ],
+  "url": "https://aclanthology.org/W19-4214/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:27:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

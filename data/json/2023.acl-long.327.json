@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.327",
+  "title": "Unifying Cross-Lingual and Cross-Modal Modeling Towards Weakly Supervised Multilingual Vision-Language Pre-training",
+  "authors": [
+    "Li, Zejun  and\nFan, Zhihao  and\nChen, Jingjing  and\nZhang, Qi  and\nHuang, Xuanjing  and\nWei, Zhongyu"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Multilingual Vision-Language Pre-training (VLP) is a promising but challenging topic due to the lack of large-scale multilingual image-text pairs. Existing works address the problem by translating English data into other languages, which is intuitive and the generated data is usually limited in form and scale. In this paper, we explore a more practical and scalable setting: weakly supervised multilingual VLP with only English image-text pairs and multilingual text corpora. We argue that the universal multilingual representation learned from texts allows the cross-modal interaction learned in English to be transferable to other languages. To this end, we propose a framework to effectively unify cross-lingual and cross-modal pre-training. For unified modeling on different data, we design an architecture with flexible modules to learn different interactions. Moreover, two unified tasks are introduced to efficiently guide the unified cross-lingual cross-modal learning. Extensive experiments demonstrate that our pre-trained model learns universal multilingual multimodal representations, allowing effective cross-lingual transfer on multimodal tasks. Code and models are available athttps://github.com/FudanDISC/weakly-supervised-mVLP.",
+  "keywords": [
+    "code",
+    "end",
+    "form",
+    "we",
+    "training",
+    "cross",
+    "unified",
+    "unified modeling",
+    "transfer",
+    "text",
+    "topic",
+    "language",
+    "model",
+    "modeling",
+    "the generated data"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.327/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

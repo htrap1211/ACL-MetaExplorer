@@ -1,0 +1,33 @@
+{
+  "id": "2022.bigscience-1.2",
+  "title": "Using {ASR}-Generated Text for Spoken Language Modeling",
+  "authors": [
+    "Herv{\\'e}, Nicolas  and\nPelloin, Valentin  and\nFavre, Benoit  and\nDary, Franck  and\nLaurent, Antoine  and\nMeignier, Sylvain  and\nBesacier, Laurent"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of BigScience Episode {\\#}5 -- Workshop on Challenges {\\&} Perspectives in Creating Large Language Models",
+  "abstract": "This papers aims at improving spoken language modeling (LM) using very large amount of automatically transcribed speech. We leverage the INA (French National Audiovisual Institute) collection and obtain 19GB of text after applying ASR on 350,000 hours of diverse TV shows. From this, spoken language models are trained either by fine-tuning an existing LM (FlauBERT) or through training a LM from scratch. The new models (FlauBERT-Oral) will be shared with the community and are evaluated not only in terms of word prediction accuracy but also for two downstream tasks : classification of TV shows and syntactic parsing of speech. Experimental results show that FlauBERT-Oral is better than its initial FlauBERT version demonstrating that, despite its inherent noisy nature, ASR-Generated text can be useful to improve spoken language modeling.",
+  "keywords": [
+    "word prediction accuracy",
+    "flaubert-oral",
+    "parsing",
+    "language",
+    "its initial flaubert version",
+    "two downstream tasks classification",
+    "asr -generated text",
+    "text",
+    "modeling",
+    "spoken language modeling",
+    "an existing lm flaubert",
+    "fine",
+    "word",
+    "we",
+    "syntactic parsing"
+  ],
+  "url": "https://aclanthology.org/2022.bigscience-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

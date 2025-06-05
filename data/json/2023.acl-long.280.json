@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.280",
+  "title": "Mixture-of-Domain-Adapters: Decoupling and Injecting Domain Knowledge to Pre-trained Language Models' Memories",
+  "authors": [
+    "Diao, Shizhe  and\nXu, Tianyang  and\nXu, Ruijia  and\nWang, Jiawei  and\nZhang, Tong"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Pre-trained language models (PLMs) demonstrate excellent abilities to understand texts in the generic domain while struggling in a specific domain. Although continued pre-training on a large domain-specific corpus is effective, it is costly to tune all the parameters on the domain. In this paper, we investigate whether we can adapt PLMs both effectively and efficiently by only tuning a few parameters. Specifically, we decouple the feed-forward networks (FFNs) of the Transformer architecture into two parts: the original pre-trained FFNs to maintain the old-domain knowledge and our novel domain-specific adapters to inject domain-specific knowledge in parallel. Then we adopt a mixture-of-adapters gate to fuse the knowledge from different domain adapters dynamically. Our proposed Mixture-of-Domain-Adapters (MixDA) employs a two-stage adapter-tuning strategy that leverages both unlabeled data and labeled data to help the domain adaptation:i) domain-specific adapter on unlabeled data; followed byii) the task-specific adapter on labeled data. MixDA can be seamlessly plugged into the pretraining-finetuning paradigm and our experiments demonstrate that MixDA achieves superior performance on in-domain tasks (GLUE), out-of-domain tasks (ChemProt, RCT, IMDB, Amazon), and knowledge-intensive tasks (KILT).Further analyses demonstrate the reliability, scalability, and efficiency of our method.",
+  "keywords": [
+    "efficiency",
+    "we",
+    "training",
+    "pre-trained language models",
+    "the generic domain",
+    "it",
+    "pre-trained language models plms",
+    "feed",
+    "abilities",
+    "tuning",
+    "excellent abilities",
+    "generic",
+    "transformer",
+    "knowledge",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.280/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

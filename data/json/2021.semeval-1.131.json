@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.131",
+  "title": "HLE}-{UPC} at {S}em{E}val-2021 Task 5: Multi-Depth {D}istil{BERT} for Toxic Spans Detection",
+  "authors": [
+    "Palliser-Sans, Rafel  and\nRial-Farr{\\`a}s, Albert"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper presents our submission to SemEval-2021 Task 5: Toxic Spans Detection. The purpose of this task is to detect the spans that make a text toxic, which is a complex labour for several reasons. Firstly, because of the intrinsic subjectivity of toxicity, and secondly, due to toxicity not always coming from single words like insults or offends, but sometimes from whole expressions formed by words that may not be toxic individually. Following this idea of focusing on both single words and multi-word expressions, we study the impact of using a multi-depth DistilBERT model, which uses embeddings from different layers to estimate the final per-token toxicity. Our quantitative results show that using information from multiple depths boosts the performance of the model. Finally, we also analyze our best model qualitatively.",
+  "keywords": [
+    "embeddings",
+    "bert",
+    "model",
+    "text",
+    "a multi-depth distilbert model",
+    "token",
+    "hle",
+    "information",
+    "e",
+    "word",
+    "we",
+    "distilbert",
+    "that",
+    "this idea",
+    "multi"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.131/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

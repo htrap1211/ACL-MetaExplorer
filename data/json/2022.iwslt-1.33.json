@@ -1,0 +1,33 @@
+{
+  "id": "2022.iwslt-1.33",
+  "title": "HW}-{TSC}{'}s Participation in the {IWSLT} 2022 Isometric Spoken Language Translation",
+  "authors": [
+    "Li, Zongyao  and\nGuo, Jiaxin  and\nWei, Daimeng  and\nShang, Hengchao  and\nWang, Minghan  and\nZhu, Ting  and\nWu, Zhanglin  and\nYu, Zhengzhe  and\nChen, Xiaoyu  and\nLei, Lizhi  and\nYang, Hao  and\nQin, Ying"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022)",
+  "abstract": "This paper presents our submissions to the IWSLT 2022 Isometric Spoken Language Translation task. We participate in all three language pairs (English-German, English-French, English-Spanish) under the constrained setting, and submit an English-German result under the unconstrained setting. We use the standard Transformer model as the baseline and obtain the best performance via one of its variants that shares the decoder input and output embedding. We perform detailed pre-processing and filtering on the provided bilingual data. Several strategies are used to train our models, such as Multilingual Translation, Back Translation, Forward Translation, R-Drop, Average Checkpoint, and Ensemble. We investigate three methods for biasing the output length: i) conditioning the output to a given target-source length-ratio class; ii) enriching the transformer positional embedding with length information and iii) length control decoding for non-autoregressive translation etc. Our submissions achieve 30.7, 41.6 and 36.7 BLEU respectively on the tst-COMMON test sets for English-German, English-French, English-Spanish tasks and 100% comply with the length requirements.",
+  "keywords": [
+    "bleu",
+    "we",
+    "translation",
+    "ensemble",
+    "decoder",
+    "information",
+    "the decoder input",
+    "36 7 bleu",
+    "processing",
+    "i",
+    "strategies",
+    "drop",
+    "the transformer",
+    "ratio",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2022.iwslt-1.33/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

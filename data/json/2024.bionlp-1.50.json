@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.50",
+  "title": "MAIRA} at {RRG}24: A specialised large multimodal model for radiology report generation",
+  "authors": [
+    "Srivastav, Shaury  and\nRanjit, Mercy  and\nP{\\'e}rez-Garc{\\'i}a, Fernando  and\nBouzid, Kenza  and\nBannur, Shruthi  and\nCastro, Daniel C.  and\nSchwaighofer, Anton  and\nSharma, Harshita  and\nIlse, Maximilian  and\nSalvatelli, Valentina  and\nBond-Taylor, Sam  and\nFalck, Fabian  and\nThieme, Anja  and\nRichardson, Hannah  and\nLungren, Matthew P.  and\nHyland, Stephanie L.  and\nAlvarez-Valle, Javier"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "This paper discusses the participation of the MSR MAIRA team in the Large-Scale Radiology Report Generation Shared Task Challenge, as part of the BioNLP workshop at ACL 2024. We present a radiology-specific multimodal model designed to generate radiological reports from chest X-Rays (CXRs). Our proposed model combines a CXR-specific image encoder RAD-DINO with a Large Language Model (LLM) based on Vicuna-7B, via a multi-layer perceptron (MLP) adapter. Both the adapter and the LLM have been fine-tuned in a single-stage training setup to generate radiology reports. Experimental results indicate that a joint training setup with findings and impression sections improves findings prediction. Additionally, incorporating lateral images alongside frontal images when available further enhances all metrics. More information and resources about MAIRA can be found on the project website: http://aka.ms/maira.",
+  "keywords": [
+    "layer",
+    "we",
+    "rad",
+    "llm",
+    "radiology report generation",
+    "training",
+    "information",
+    "metrics",
+    "bionlp",
+    "-",
+    "the llm",
+    "a large language model",
+    "generation",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.50/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

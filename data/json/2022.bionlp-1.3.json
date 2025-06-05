@@ -1,0 +1,33 @@
+{
+  "id": "2022.bionlp-1.3",
+  "title": "Position-based Prompting for Health Outcome Generation",
+  "authors": [
+    "Abaho, Micheal  and\nBollegala, Danushka  and\nWilliamson, Paula  and\nDodd, Susanna"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 21st Workshop on Biomedical Language Processing",
+  "abstract": "Probing factual knowledge in Pre-trained Language Models (PLMs) using prompts has indirectly implied that language models (LMs) can be treated as knowledge bases. To this end, this phenomenon has been effective, especially when these LMs are fine-tuned towards not just data, but also to the style or linguistic pattern of the prompts themselves. We observe that satisfying a particular linguistic pattern in prompts is an unsustainable, time-consuming constraint in the probing task, especially because they are often manually designed and the range of possible prompt template patterns can vary depending on the prompting task. To alleviate this constraint, we propose using a position-attention mechanism to capture positional information of each word in a prompt relative to the mask to be filled, hence avoiding the need to re-construct prompts when the prompts’ linguistic pattern changes. Using our approach, we demonstrate the ability of eliciting answers (in a case study on health outcome generation) to not only common prompt templates like Cloze and Prefix but also rare ones too, such as Postfix and Mixed patterns whose masks are respectively at the start and in multiple random places of the prompt. More so, using various biomedical PLMs, our approach consistently outperforms a baseline in which the default PLMs representation is used to predict masked tokens.",
+  "keywords": [
+    "end",
+    "health outcome generation",
+    "we",
+    "possible prompt template patterns",
+    "information",
+    "the prompting task",
+    "pre-trained language models plms",
+    "word",
+    "the prompts",
+    "prompt",
+    "a position-attention mechanism",
+    "prompts",
+    "knowledge",
+    "generation",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2022.bionlp-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

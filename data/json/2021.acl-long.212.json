@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.212",
+  "title": "Assessing the Representations of Idiomaticity in Vector Models with a Noun Compound Dataset Labeled at Type and Token Levels",
+  "authors": [
+    "Garcia, Marcos  and\nKramer Vieira, Tiago  and\nScarton, Carolina  and\nIdiart, Marco  and\nVillavicencio, Aline"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Accurate assessment of the ability of embedding models to capture idiomaticity may require evaluation at token rather than type level, to account for degrees of idiomaticity and possible ambiguity between literal and idiomatic usages. However, most existing resources with annotation of idiomaticity include ratings only at type level. This paper presents the Noun Compound Type and Token Idiomaticity (NCTTI) dataset, with human annotations for 280 noun compounds in English and 180 in Portuguese at both type and token level. We compiled 8,725 and 5,091 token level annotations for English and Portuguese, respectively, which are strongly correlated with the corresponding scores obtained at type level. The NCTTI dataset is used to explore how vector space models reflect the variability of idiomaticity across sentences. Several experiments using state-of-the-art contextualised models suggest that their representations are not capturing the noun compounds idiomaticity as human annotators. This new multilingual resource also contains suggestions for paraphrases of the noun compounds both at type and token levels, with uses for lexical substitution or disambiguation in context.",
+  "keywords": [
+    "we",
+    "vector models",
+    "vector space models",
+    "token",
+    "vector",
+    "human",
+    "embedding models",
+    "evaluation",
+    "uses",
+    "280 noun compounds",
+    "paraphrases",
+    "assessment",
+    "state",
+    "possible",
+    "models"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.212/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:02:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

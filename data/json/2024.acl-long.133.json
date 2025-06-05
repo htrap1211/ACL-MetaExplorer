@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.133",
+  "title": "Unlocking Data-free Low-bit Quantization with Matrix Decomposition for {KV} Cache Compression",
+  "authors": [
+    "Liu, Peiyu  and\nGao, Ze-Feng  and\nZhao, Xin  and\nMa, Yipeng  and\nWang, Tao  and\nWen, Ji-Rong"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Key-value (KV) caching is an important technique to accelerate the inference of large language models (LLMs), but incurs significant memory overhead. To compress the size of KV cache, existing methods often compromise precision or require extra data for calibration, limiting their practicality in LLM deployment. In this paper, we introduceDecoQuant, a novel data-free low-bit quantization technique based on tensor decomposition methods, to effectively compress KV cache. Our core idea is to adjust the outlier distribution of the original matrix by performing tensor decomposition, so that the quantization difficulties are migrated from the matrix to decomposed local tensors. Specially, we find that outliers mainly concentrate on small local tensors, while large tensors tend to have a narrower value range. Based on this finding, we propose to apply low-bit quantization to the large tensor, while maintaining high-precision representation for the small tensor. Furthermore, we utilize the proposed quantization method to compress the KV cache of LLMs to accelerate the inference, and develop an efficient dequantization kernel tailored specifically for DecoQuant. Through extensive experiments, DecoQuant demonstrates remarkable efficiency gains, showcasing up to a 75% reduction in memory footprint while maintaining comparable generation quality.",
+  "keywords": [
+    "precision",
+    "extra",
+    "efficient",
+    "comparable generation quality",
+    "kernel",
+    "efficiency",
+    "we",
+    "llm",
+    "the quantization difficulties",
+    "llm deployment",
+    "high-precision representation",
+    "outlier",
+    "difficulties",
+    "core",
+    "reduction"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.133/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

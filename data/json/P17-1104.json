@@ -1,0 +1,33 @@
+{
+  "id": "P17-1104",
+  "title": "A Transition-Based Directed Acyclic Graph Parser for {UCCA",
+  "authors": [
+    "Hershcovich, Daniel  and\nAbend, Omri  and\nRappoport, Ari"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We present the first parser for UCCA, a cross-linguistically applicable framework for semantic representation, which builds on extensive typological work and supports rapid annotation. UCCA poses a challenge for existing parsing techniques, as it exhibits reentrancy (resulting in DAG structures), discontinuous structures and non-terminal nodes corresponding to complex semantic units. To our knowledge, the conjunction of these formal properties is not supported by any existing parser. Our transition-based parser, which uses a novel transition set and features based on bidirectional LSTMs, has value not just for UCCA parsing: its ability to handle more general graph structures can inform the development of parsers for other semantic DAG structures, and in languages that frequently use discontinuous structures.",
+  "keywords": [
+    "cross",
+    "work",
+    "general",
+    "complex semantic units",
+    "knowledge",
+    "it",
+    "properties",
+    "lstms",
+    "other semantic dag structures",
+    "these formal properties",
+    "more general graph structures",
+    "semantic",
+    "existing parsing techniques",
+    "we",
+    "graph"
+  ],
+  "url": "https://aclanthology.org/P17-1104/",
+  "provenance": {
+    "collected_at": "2025-06-04 23:59:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

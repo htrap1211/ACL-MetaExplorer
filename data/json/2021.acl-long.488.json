@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.488",
+  "title": "Joint Biomedical Entity and Relation Extraction with Knowledge-Enhanced Collective Inference",
+  "authors": [
+    "Lai, Tuan  and\nJi, Heng  and\nZhai, ChengXiang  and\nTran, Quan Hung"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Compared to the general news domain, information extraction (IE) from biomedical text requires much broader domain knowledge. However, many previous IE methods do not utilize any external knowledge during inference. Due to the exponential growth of biomedical publications, models that do not go beyond their fixed set of parameters will likely fall behind. Inspired by how humans look up relevant information to comprehend a scientific text, we present a novel framework that utilizes external knowledge for joint entity and relation extraction named KECI (Knowledge-Enhanced Collective Inference). Given an input text, KECI first constructs an initial span graph representing its initial understanding of the text. It then uses an entity linker to form a knowledge graph containing relevant background knowledge for the the entity mentions in the text. To make the final predictions, KECI fuses the initial span graph and the knowledge graph into a more refined graph using an attention mechanism. KECI takes a collective approach to link mention spans to entities by integrating global relational information into local representations using graph convolutional networks. Our experimental results show that the framework is highly effective, achieving new state-of-the-art results in two different benchmark datasets: BioRelEx (binding interaction detection) and ADE (adverse drug event extraction). For example, KECI achieves absolute improvements of 4.59% and 4.91% in F1 scores over the state-of-the-art on the BioRelEx entity and relation extraction tasks",
+  "keywords": [
+    "extraction",
+    "the knowledge graph",
+    "f1 scores",
+    "we",
+    "an attention mechanism",
+    "graph",
+    "convolutional",
+    "many previous ie methods",
+    "it",
+    "information",
+    "a scientific text",
+    "scientific",
+    "graph convolutional networks",
+    "background",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.488/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.452",
+  "title": "B}iz{B}ench: A Quantitative Reasoning Benchmark for Business and Finance",
+  "authors": [
+    "Krumdick, Michael  and\nKoncel-Kedziorski, Rik  and\nLai, Viet Dac  and\nReddy, Varshini  and\nLovering, Charles  and\nTanner, Chris"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Answering questions within business and finance requires reasoning, precision, and a wide-breadth of technical knowledge. Together, these requirements make this domain difficult for large language models (LLMs). We introduce BizBench, a benchmark for evaluating models’ ability to reason about realistic financial problems. BizBench comprises eight quantitative reasoning tasks, focusing on question-answering (QA) over financial data via program synthesis. We include three financially-themed code-generation tasks from newly collected and augmented QA data. Additionally, we isolate the reasoning capabilities required for financial QA: reading comprehension of financial text and tables for extracting intermediate values, and understanding financial concepts and formulas needed to calculate complex solutions. Collectively, these tasks evaluate a model’s financial background knowledge, ability to parse financial documents, and capacity to solve problems with code. We conduct an in-depth evaluation of open-source and commercial LLMs, comparing and contrasting the behavior of code-focused and language-focused models. We demonstrate that the current bottleneck in performance is due to LLMs’ limited business and financial understanding, highlighting the value of a challenging benchmark for quantitative reasoning within this domain.",
+  "keywords": [
+    "code",
+    "precision",
+    "question",
+    "we",
+    "question-answering qa",
+    "current",
+    "qa data",
+    "financial qa",
+    "commercial llms",
+    "llms",
+    "the reasoning capabilities",
+    "background",
+    "text",
+    "large language models llms",
+    "three financially-themed code-generation tasks"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.452/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:40:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

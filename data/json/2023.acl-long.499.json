@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.499",
+  "title": "W}eb{CPM}: Interactive Web Search for {C}hinese Long-form Question Answering",
+  "authors": [
+    "Qin, Yujia  and\nCai, Zihan  and\nJin, Dian  and\nYan, Lan  and\nLiang, Shihao  and\nZhu, Kunlun  and\nLin, Yankai  and\nHan, Xu  and\nDing, Ning  and\nWang, Huadong  and\nXie, Ruobing  and\nQi, Fanchao  and\nLiu, Zhiyuan  and\nSun, Maosong  and\nZhou, Jie"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Long-form question answering (LFQA) aims at answering complex, open-ended questions with detailed, paragraph-length responses. The de facto paradigm of LFQA necessitates two procedures: information retrieval, which searches for relevant supporting facts, and information synthesis, which integrates these facts into a coherent answer. In this paper, we introduce WebCPM, the first Chinese LFQA dataset. One unique feature of WebCPM is that its information retrieval is based on interactive web search, which engages with a search engine in real time. Following WebGPT, we develop a web search interface. We recruit annotators to search for relevant information using our interface and then answer questions. Meanwhile, the web search behaviors of our annotators would be recorded. In total, we collect 5,500 high-quality question-answer pairs, together with 15,372 supporting facts and 125,954 web search actions. We fine-tune pre-trained language models to imitate human behaviors for web search and to generate answers based on the collected facts. Our LFQA pipeline, built on these fine-tuned models, generates answers that are no worse than human-written ones in 32.5% and 47.5% of the cases on our dataset and DuReader, respectively. The interface, dataset, and codes are publicly available athttps://github.com/thunlp/WebCPM.",
+  "keywords": [
+    "question",
+    "form",
+    "we",
+    "webgpt",
+    "the first chinese lfqa",
+    "answer",
+    "retrieval",
+    "lfqa",
+    "information",
+    "two procedures information retrieval",
+    "our lfqa pipeline",
+    "fine",
+    "its information retrieval",
+    "language",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.499/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:42:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

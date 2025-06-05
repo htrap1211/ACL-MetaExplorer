@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.61",
+  "title": "Discrete Prompt Optimization via Constrained Generation for Zero-shot Re-ranker",
+  "authors": [
+    "Cho, Sukmin  and\nJeong, Soyeong  and\nSeo, Jeong yeon  and\nPark, Jong"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Re-rankers, which order retrieved documents with respect to the relevance score on the given query, have gained attention for the information retrieval (IR) task. Rather than fine-tuning the pre-trained language model (PLM), the large-scale language model (LLM) is utilized as a zero-shot re-ranker with excellent results. While LLM is highly dependent on the prompts, the impact and the optimization of the prompts for the zero-shot re-ranker are not explored yet. Along with highlighting the impact of optimization on the zero-shot re-ranker, we propose a novel discrete prompt optimization method, Constrained Prompt generation (Co-Prompt), with the metric estimating the optimum for re-ranking. Co-Prompt guides the generated texts from PLM toward optimal prompts based on the metric without parameter update. The experimental results demonstrate that Co-Prompt leads to outstanding re-ranking performance against the baselines. Also, Co-Prompt generates more interpretable prompts for humans against other prompt optimization methods.",
+  "keywords": [
+    "prompts",
+    "the generated texts",
+    "the zero-shot re",
+    "prompt",
+    "generation",
+    "language",
+    "the pre-trained language model",
+    "zero-shot re",
+    "co",
+    "model",
+    "metric",
+    "the large-scale language model",
+    "-",
+    "more interpretable prompts",
+    "retrieval"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.61/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

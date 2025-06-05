@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.544",
+  "title": "On the Impact of Calibration Data in Post-training Quantization and Pruning",
+  "authors": [
+    "Williams, Miles  and\nAletras, Nikolaos"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Quantization and pruning form the foundation of compression for neural networks, enabling efficient inference for large language models (LLMs). Recently, various quantization and pruning techniques have demonstrated remarkable performance in a post-training setting. They rely upon calibration data, a small set of unlabeled examples that are used to generate layer activations. However, no prior work has systematically investigated how the calibration data impacts the effectiveness of model compression methods. In this paper, we present the first extensive empirical study on the effect of calibration data upon LLM performance. We trial a variety of quantization and pruning methods, datasets, tasks, and models. Surprisingly, we find substantial variations in downstream task performance, contrasting existing work that suggests a greater level of robustness to the calibration data. Finally, we make a series of recommendations for the effective use of calibration data in LLM quantization and pruning.",
+  "keywords": [
+    "variety",
+    "layer activations",
+    "efficient",
+    "series",
+    "layer",
+    "form",
+    "we",
+    "activations",
+    "efficient inference",
+    "llm",
+    "training",
+    "neural",
+    "a variety",
+    "neural networks",
+    "llm quantization"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.544/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

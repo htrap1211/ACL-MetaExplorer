@@ -1,0 +1,33 @@
+{
+  "id": "W19-4305",
+  "title": "Multilingual {NMT} with a Language-Independent Attention Bridge",
+  "authors": [
+    "V{\\'a}zquez, Ra{\\'u}l  and\nRaganato, Alessandro  and\nTiedemann, J{\\\"o}rg  and\nCreutz, Mathias"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)",
+  "abstract": "In this paper, we propose an architecture for machine translation (MT) capable of obtaining multilingual sentence representations by incorporating an intermediate attention bridge that is shared across all languages. We train the model with language-specific encoders and decoders that are connected through an inner-attention layer on the encoder side. The attention bridge exploits the semantics from each language for translation and develops into a language-agnostic meaning representation that can efficiently be used for transfer learning. We present a new framework for the efficient development of multilingual neural machine translation (NMT) using this model and scheduled training. We have tested the approach in a systematic way with a multi-parallel data set. The model achieves substantial improvements over strong bilingual models and performs well for zero-shot translation, which demonstrates its ability of abstraction and transfer learning.",
+  "keywords": [
+    "the encoder",
+    "an inner-attention layer",
+    "the attention bridge",
+    "language",
+    "neural",
+    "model",
+    "machine",
+    "semantics",
+    "the semantics",
+    "efficient",
+    "language-specific encoders",
+    "encoder",
+    "machine translation",
+    "the efficient development",
+    "layer"
+  ],
+  "url": "https://aclanthology.org/W19-4305/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:02:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

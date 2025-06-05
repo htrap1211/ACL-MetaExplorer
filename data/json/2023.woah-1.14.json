@@ -1,0 +1,33 @@
+{
+  "id": "2023.woah-1.14",
+  "title": "Concept-Based Explanations to Test for False Causal Relationships Learned by Abusive Language Classifiers",
+  "authors": [
+    "Nejadgholi, Isar  and\nKiritchenko, Svetlana  and\nFraser, Kathleen C.  and\nBalkir, Esma"
+  ],
+  "year": "2023",
+  "venue": "The 7th Workshop on Online Abuse and Harms (WOAH)",
+  "abstract": "Classifiers tend to learn a false causal relationship between an over-represented concept and a label, which can result in over-reliance on the concept and compromised classification accuracy. It is imperative to have methods in place that can compare different models and identify over-reliances on specific concepts. We consider three well-known abusive language classifiers trained on large English datasets and focus on the concept of negative emotions, which is an important signal but should not be learned as a sufficient feature for the label of abuse. Motivated by the definition of global sufficiency, we first examine the unwanted dependencies learned by the classifiers by assessing their accuracy on a challenge set across all decision thresholds. Further, recognizing that a challenge set might not always be available, we introduce concept-based explanation metrics to assess the influence of the concept on the labels. These explanations allow us to compare classifiers regarding the degree of false global sufficiency they have learned between a concept and a label.",
+  "keywords": [
+    "classifiers",
+    "global sufficiency",
+    "sufficiency",
+    "we",
+    "classification",
+    "concept-based explanation metrics",
+    "it",
+    "false global sufficiency",
+    "dependencies",
+    "sufficient",
+    "the unwanted dependencies",
+    "a sufficient feature",
+    "abusive language classifiers classifiers",
+    "classification accuracy",
+    "metrics"
+  ],
+  "url": "https://aclanthology.org/2023.woah-1.14/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:34:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

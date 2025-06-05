@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.895",
+  "title": "Enhancing Sentence Simplification in {P}ortuguese: Leveraging Paraphrases, Context, and Linguistic Features",
+  "authors": [
+    "Scalercio, Arthur  and\nFinatto, Maria  and\nPaes, Aline"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Automatic text simplification focuses on transforming texts into a more comprehensible version without sacrificing their precision. However, automatic methods usually require (paired) datasets that can be rather scarce in languages other than English. This paper presents a new approach to automatic sentence simplification that leverages paraphrases, context, and linguistic attributes to overcome the absence of paired texts in Portuguese.We frame the simplification problem as a textual style transfer task and learn a style representation using the sentences around the target sentence in the document and its linguistic attributes. Moreover, unlike most unsupervised approaches that require style-labeled training data, we fine-tune strong pre-trained models using sentence-level paraphrases instead of annotated data. Our experiments show that our model achieves remarkable results, surpassing the current state-of-the-art (BART+ACCESS) while competitively matching a Large Language Model.",
+  "keywords": [
+    "precision",
+    "we",
+    "current",
+    "training",
+    "transfer",
+    "text",
+    "a large language model",
+    "fine",
+    "their precision",
+    "language",
+    "model",
+    "pre",
+    "approach",
+    "paraphrases",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.895/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:00:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

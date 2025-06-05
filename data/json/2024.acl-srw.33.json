@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-srw.33",
+  "title": "Basreh or Basra? Geoparsing Historical Locations in the Svoboda Diaries",
+  "authors": [
+    "Zhou, Jolie  and\nCole, Camille  and\nChen, Annie"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "Geoparsing, the task of assigning coordinates to locations extracted from free text, is invaluable in enabling us to place locations in time and space. In the historical domain, many geoparsing corpora are from large news collections. We examine the Svoboda Diaries, a small historical corpus written primarily in English, with many location names in transliterated Arabic. We develop a pipeline employing named entity recognition for geotagging, and a map-based generate-and-rank approach incorporating candidate name augmentation and clustering of location context words for geocoding. Our system outperforms existing map-based geoparsers in terms of accuracy, lowest mean distance error, and number of locations correctly identified. As location names may vary from those in knowledge bases, we find that augmented candidate generation is instrumental in the system’s performance. Among our candidate generation methods, the generation of transliterated names contributed the most to increased location matches in the knowledge base. Our main contribution is proposing an integrated pipeline for geoparsing of historical corpora using augmented candidate location name generation and clustering methods – an approach that can be generalized to other texts with foreign or non-standard spellings.",
+  "keywords": [
+    "the generation",
+    "we",
+    "the svoboda diaries",
+    "map",
+    "location",
+    "geoparsing",
+    "text",
+    "clustering methods",
+    "accuracy",
+    "knowledge",
+    "generation",
+    "generate",
+    "us",
+    "clustering",
+    "diaries"
+  ],
+  "url": "https://aclanthology.org/2024.acl-srw.33/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:48:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

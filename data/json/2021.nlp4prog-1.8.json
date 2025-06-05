@@ -1,0 +1,33 @@
+{
+  "id": "2021.nlp4prog-1.8",
+  "title": "Reading {S}tack{O}verflow Encourages Cheating: Adding Question Text Improves Extractive Code Generation",
+  "authors": [
+    "Orlanski, Gabriel  and\nGittens, Alex"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Natural Language Processing for Programming (NLP4Prog 2021)",
+  "abstract": "Answering a programming question with only its title is difficult as salient contextual information is left out. To address this, we present a corpus of over 40,000 StackOverflow question texts to be used in conjunction with the corresponding intents from the CoNaLa dataset (Yin et al., 2018). Using both the intent and the question body, we use BART to establish a baseline BLEU score of 34.35 for this new task. We then find further improvements of 2.8% by combining the mined CoNaLa data with the labeled data to achieve a 35.32 BLEU score. We then evaluate the prior state-of-the-art CoNaLa models with this additional data. We find that our proposed method of using the body and mined data beats that of the previous state-of-the-art by a 71.96% BLEU score. Finally, we perform ablations that prove that BART is an unsupervised multimodal learner and examine its extractive behavior.",
+  "keywords": [
+    "extractive code generation",
+    "code",
+    "generation",
+    "text",
+    "salient",
+    "bleu",
+    "salient contextual information",
+    "question",
+    "information",
+    "an unsupervised multimodal learner",
+    "we",
+    "learner",
+    "a baseline bleu score",
+    "that",
+    "yin"
+  ],
+  "url": "https://aclanthology.org/2021.nlp4prog-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:19:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

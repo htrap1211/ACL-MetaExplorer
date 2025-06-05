@@ -1,0 +1,33 @@
+{
+  "id": "2020.iwslt-1.28",
+  "title": "Towards Stream Translation: Adaptive Computation Time for Simultaneous Machine Translation",
+  "authors": [
+    "Schneider, Felix  and\nWaibel, Alexander"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 17th International Conference on Spoken Language Translation",
+  "abstract": "Simultaneous machine translation systems rely on a policy to schedule read and write operations in order to begin translating a source sentence before it is complete. In this paper, we demonstrate the use of Adaptive Computation Time (ACT) as an adaptive, learned policy for simultaneous machine translation using the transformer model and as a more numerically stable alternative to Monotonic Infinite Lookback Attention (MILk). We achieve state-of-the-art results in terms of latency-quality tradeoffs. We also propose a method to use our model on unsegmented input, i.e. without sentence boundaries, simulating the condition of translating output from automatic speech recognition. We present first benchmark results on this task.",
+  "keywords": [
+    "transformer",
+    "simultaneous machine translation",
+    "the transformer model",
+    "i",
+    "model",
+    "machine",
+    "it",
+    "boundaries",
+    "sentence boundaries",
+    "attention",
+    "we",
+    "time",
+    "act",
+    "translation",
+    "speech"
+  ],
+  "url": "https://aclanthology.org/2020.iwslt-1.28/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:56:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

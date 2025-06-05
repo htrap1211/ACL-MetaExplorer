@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.119",
+  "title": "A Gradually Soft Multi-Task and Data-Augmented Approach to Medical Question Understanding",
+  "authors": [
+    "Mrini, Khalil  and\nDernoncourt, Franck  and\nYoon, Seunghyun  and\nBui, Trung  and\nChang, Walter  and\nFarcas, Emilia  and\nNakashole, Ndapa"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Users of medical question answering systems often submit long and detailed questions, making it hard to achieve high recall in answer retrieval. To alleviate this problem, we propose a novel Multi-Task Learning (MTL) method with data augmentation for medical question understanding. We first establish an equivalence between the tasks of question summarization and Recognizing Question Entailment (RQE) using their definitions in the medical domain. Based on this equivalence, we propose a data augmentation algorithm to use just one dataset to optimize for both tasks, with a weighted MTL loss. We introduce gradually soft parameter-sharing: a constraint for decoder parameters to be close, that is gradually loosened as we move to the highest layer. We show through ablation studies that our proposed novelties improve performance. Our method outperforms existing MTL methods across 4 datasets of medical question pairs, in ROUGE scores, RQE accuracy and human evaluation. Finally, we show that our method fares better than single-task learning under 4 low-resource settings.",
+  "keywords": [
+    "answer retrieval",
+    "ablation studies",
+    "question",
+    "layer",
+    "summarization",
+    "we",
+    "rouge scores",
+    "parameter",
+    "human evaluation",
+    "answer",
+    "it",
+    "high recall",
+    "decoder",
+    "loss",
+    "retrieval"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.119/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:01:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

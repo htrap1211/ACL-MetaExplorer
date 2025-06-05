@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.466",
+  "title": "Improving Encoder by Auxiliary Supervision Tasks for Table-to-Text Generation",
+  "authors": [
+    "Li, Liang  and\nMa, Can  and\nYue, Yinliang  and\nHu, Dayong"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Table-to-text generation aims at automatically generating natural text to help people conveniently obtain salient information in tables. Although neural models for table-to-text have achieved remarkable progress, some problems are still overlooked. Previous methods cannot deduce the factual results from the entity’s (player or team) performance and the relations between entities. To solve this issue, we first build an entity graph from the input tables and introduce a reasoning module to perform reasoning on the graph. Moreover, there are different relations (e.g., the numeric size relation and the importance relation) between records in different dimensions. And these relations may contribute to the data-to-text generation. However, it is hard for a vanilla encoder to capture these. Consequently, we propose to utilize two auxiliary tasks, Number Ranking (NR) and Importance Ranking (IR), to supervise the encoder to capture the different relations. Experimental results on ROTOWIRE and RW-FG show that our method not only has a good generalization but also outperforms previous methods on several metrics: BLEU, Content Selection, Content Ordering.",
+  "keywords": [
+    "bleu",
+    "we",
+    "graph",
+    "salient information",
+    "the encoder",
+    "neural",
+    "natural",
+    "it",
+    "a vanilla encoder",
+    "information",
+    "text",
+    "metrics",
+    "generalization",
+    "a good generalization",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.466/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

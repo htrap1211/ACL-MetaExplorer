@@ -1,0 +1,33 @@
+{
+  "id": "2024.wassa-1.46",
+  "title": "HITSZ}-{HLT} at {WASSA}-2024 Shared Task 2: Language-agnostic Multi-task Learning for Explainability of Cross-lingual Emotion Detection",
+  "authors": [
+    "Xiong, Feng  and\nWang, Jun  and\nTu, Geng  and\nXu, Ruifeng"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 14th Workshop on Computational Approaches to Subjectivity, Sentiment, {\\&} Social Media Analysis",
+  "abstract": "This paper describes the system developed by the HITSZ-HLT team for WASSA-2024 Shared Task 2, which addresses two closely linked sub-tasks: Cross-lingual Emotion Detection and Binary Trigger Word Detection in tweets. The main goal of Shared Task 2 is to simultaneously identify the emotions expressed and detect the trigger words across multiple languages. To achieve this, we introduce a Language-agnostic Multi Task Learning (LaMTL) framework that integrates emotion prediction and emotion trigger word detection tasks. By fostering synergistic interactions between task-specific and task-agnostic representations, the LaMTL aims to mutually enhance emotional cues, ultimately improving the performance of both tasks. Additionally, we leverage large-scale language models to translate the training dataset into multiple languages, thereby fostering the formation of language-agnostic representations within the model, significantly enhancing the model’s ability to transfer and perform well across multilingual data. Experimental results demonstrate the effectiveness of our framework across both tasks, with a particular highlight on its success in achieving second place in sub-task 2.",
+  "keywords": [
+    "synergistic interactions",
+    "we",
+    "training",
+    "cross",
+    "large-scale language models",
+    "word",
+    "learning",
+    "-",
+    "synergistic",
+    "formation",
+    "language",
+    "model",
+    "multi",
+    "the model s ability",
+    "effectiveness"
+  ],
+  "url": "https://aclanthology.org/2024.wassa-1.46/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:12:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

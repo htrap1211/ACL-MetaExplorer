@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.136",
+  "title": "Hybrid Semantics for Goal-Directed Natural Language Generation",
+  "authors": [
+    "Baumler, Connor  and\nRay, Soumya"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We consider the problem of generating natural language given a communicative goal and a world description. We ask the question: is it possible to combine complementary meaning representations to scale a goal-directed NLG system without losing expressiveness? In particular, we consider using two meaning representations, one based on logical semantics and the other based on distributional semantics. We build upon an existing goal-directed generation system, S-STRUCT, which models sentence generation as planning in a Markov decision process. We develop a hybrid approach, which uses distributional semantics to quickly and imprecisely add the main elements of the sentence and then uses first-order logic based semantics to more slowly add the precise details. We find that our hybrid method allows S-STRUCT’s generation to scale significantly better in early phases of generation and that the hybrid can often generate sentences with the same quality as S-STRUCT in substantially less time. However, we also observe and give insight into cases where the imprecision in distributional semantics leads to generation that is not as good as using pure logical semantics.",
+  "keywords": [
+    "process",
+    "generation",
+    "language",
+    "goal-directed natural language generation",
+    "s",
+    "natural",
+    "early",
+    "semantics",
+    "it",
+    "the imprecision",
+    "-",
+    "logical semantics",
+    "first-order logic based semantics",
+    "question",
+    "imprecision"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.136/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

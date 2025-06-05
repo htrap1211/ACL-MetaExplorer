@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.187",
+  "title": "Enabling Multimodal Generation on {CLIP} via Vision-Language Knowledge Distillation",
+  "authors": [
+    "Dai, Wenliang  and\nHou, Lu  and\nShang, Lifeng  and\nJiang, Xin  and\nLiu, Qun  and\nFung, Pascale"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "The recent large-scale vision-language pre-training (VLP) of dual-stream architectures (e.g., CLIP) with a tremendous amount of image-text pair data, has shown its superiority on various multimodal alignment tasks. Despite its success, the resulting models are not capable of multimodal generative tasks due to the weak text encoder. To tackle this problem, we propose to augment the dual-stream VLP model with a textual pre-trained language model (PLM) via vision-language knowledge distillation (VLKD), enabling the capability for multimodal generation. VLKD is pretty data- and computation-efficient compared to the pre-training from scratch. Experimental results show that the resulting model has strong zero-shot performance on multimodal generation tasks, such as open-ended visual question answering and image captioning. For example, it achieves 44.5% zero-shot accuracy on the VQAv2 dataset, surpassing the previous state-of-the-art zero-shot model with7×fewer parameters. Furthermore, the original textual language understanding and generation ability of the PLM is maintained after VLKD, which makes our model versatile for both multimodal and unimodal tasks.",
+  "keywords": [
+    "efficient",
+    "question",
+    "multimodal generation",
+    "we",
+    "various multimodal alignment tasks",
+    "shot",
+    "training",
+    "multimodal generation tasks",
+    "multimodal generation vlkd",
+    "it",
+    "44 5 zero-shot accuracy",
+    "multimodal generative tasks",
+    "strong zero-shot performance",
+    "visual",
+    "the weak text encoder"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.187/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

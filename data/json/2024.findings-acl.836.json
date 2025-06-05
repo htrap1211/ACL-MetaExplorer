@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.836",
+  "title": "Mitigating Data Scarcity in Semantic Parsing across Languages with the Multilingual Semantic Layer and its Dataset",
+  "authors": [
+    "Martinez Lorenzo, Abelardo Carlos  and\nHuguet Cabot, Pere-Llu{\\'i}s  and\nGhonim, Karim  and\nXu, Lu  and\nChoi, Hee-Soo  and\nFern{\\'a}ndez-Castro, Alberte  and\nNavigli, Roberto"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Data scarcity is a prevalent challenge in the era of Large Language Models (LLMs). The insatiable hunger of LLMs for large corpora becomes even more pronounced when dealing with non-English and low-resource languages. The issue is particularly exacerbated in Semantic Parsing (SP), i.e. the task of converting text into a formal representation. The complexity of semantic formalisms makes training human annotators and subsequent data annotation unfeasible on a large scale, especially across languages. To mitigate this, we first introduce the Multilingual Semantic Layer (MSL), a conceptual evolution of previous formalisms, which decouples from disambiguation and external inventories and simplifies the task. MSL provides the necessary tools to encode the meaning across languages, paving the way for developing a high-quality semantic parsing dataset across different languages in a semi-automatic strategy. Subsequently, we manually refine a portion of this dataset and fine-tune GPT-3.5 to propagate these refinements across the dataset. Then, we manually annotate 1,100 sentences in eleven languages, including low-resource ones. Finally, we assess our dataset’s quality, showcasing the performance gap reduction across languages in Semantic Parsing.",
+  "keywords": [
+    "parsing",
+    "layer",
+    "semantic",
+    "era",
+    "we",
+    "inventories",
+    "gpt-3",
+    "reduction",
+    "llms",
+    "i",
+    "text",
+    "the multilingual semantic layer",
+    "fine",
+    "simplifies",
+    "external inventories"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.836/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:00:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

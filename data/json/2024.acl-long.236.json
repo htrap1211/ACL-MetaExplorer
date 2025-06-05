@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.236",
+  "title": "DAPR}: A Benchmark on Document-Aware Passage Retrieval",
+  "authors": [
+    "Wang, Kexin  and\nReimers, Nils  and\nGurevych, Iryna"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The work of neural retrieval so far focuses on ranking short texts and is challenged with long documents. There are many cases where the users want to find a relevant passage within a long document from a huge corpus, e.g. Wikipedia articles, research papers, etc. We propose and name this taskDocument-Aware Passage Retrieval(DAPR). While analyzing the errors of the State-of-The-Art (SoTA) passage retrievers, we find the major errors (53.5%) are due to missing document context. This drives us to build a benchmark for this task including multiple datasets from heterogeneous domains. In the experiments, we extend the SoTA passage retrievers with document context via (1) hybrid retrieval with BM25 and (2) contextualized passage representations, which inform the passage representation with document context. We find despite that hybrid retrieval performs the strongest on the mixture of the easy and the hard queries, it completely fails on the hard queries that require document-context understanding. On the other hand, contextualized passage representations (e.g. prepending document titles) achieve good improvement on these hard queries, but overall they also perform rather poorly. Our created benchmark enables future research on developing and comparing retrieval systems for the new task. The code and the data are available.",
+  "keywords": [
+    "code",
+    "document-aware passage retrieval",
+    "neural retrieval",
+    "that hybrid retrieval",
+    "we",
+    "the hard queries",
+    "neural",
+    "it",
+    "queries",
+    "retrieval",
+    "1 hybrid retrieval",
+    "the sota passage retrievers",
+    "retrievers",
+    "these hard queries",
+    "retrieval systems"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.236/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

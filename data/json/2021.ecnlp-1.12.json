@@ -1,0 +1,33 @@
+{
+  "id": "2021.ecnlp-1.12",
+  "title": "Scalable Approach for Normalizing {E}-commerce Text Attributes ({SANTA})",
+  "authors": [
+    "Mishra, Ravi Shankar  and\nMehta, Kartik  and\nRasiwasia, Nikhil"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 4th Workshop on e-Commerce and NLP",
+  "abstract": "In this paper, we present SANTA, a scalable framework to automatically normalize E-commerce attribute values (e.g. “Win 10 Pro”) to a fixed set of pre-defined canonical values (e.g. “Windows 10”). Earlier works on attribute normalization focused on fuzzy string matching (also referred as syntactic matching in this paper). In this work, we first perform an extensive study of nine syntactic matching algorithms and establish that ‘cosine’ similarity leads to best results, showing 2.7% improvement over commonly used Jaccard index. Next, we show that string similarity alone is not sufficient for attribute normalization as many surface forms require going beyond syntactic matching (e.g. “720p” and “HD” are synonyms). While semantic techniques like unsupervised embeddings (e.g. word2vec/fastText) have shown good results in word similarity tasks, we observed that they perform poorly to distinguish between close canonical forms, as these close forms often occur in similar contexts. We propose to learn token embeddings using a twin network with triplet loss. We propose an embedding learning task leveraging raw attribute values and product titles to learn these embeddings in a self-supervised fashion. We show that providing supervision using our proposed task improves over both syntactic and unsupervised embeddings based techniques for attribute normalization. Experiments on a real-world dataset of 50 attributes show that the embeddings trained using our proposed approach obtain 2.3% improvement over best string similarity and 19.3% improvement over best unsupervised embeddings.",
+  "keywords": [
+    "semantic",
+    "we",
+    "semantic techniques",
+    "an embedding learning task",
+    "token embeddings",
+    "self",
+    "token",
+    "loss",
+    "sufficient",
+    "e",
+    "unsupervised embeddings",
+    "word",
+    "learning",
+    "these embeddings",
+    "best unsupervised embeddings"
+  ],
+  "url": "https://aclanthology.org/2021.ecnlp-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

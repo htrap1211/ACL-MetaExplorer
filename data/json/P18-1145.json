@@ -1,0 +1,33 @@
+{
+  "id": "P18-1145",
+  "title": "Nugget Proposal Networks for {C}hinese Event Detection",
+  "authors": [
+    "Lin, Hongyu  and\nLu, Yaojie  and\nHan, Xianpei  and\nSun, Le"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Neural network based models commonly regard event detection as a word-wise classification task, which suffer from the mismatch problem between words and event triggers, especially in languages without natural word delimiters such as Chinese. In this paper, we propose Nugget Proposal Networks (NPNs), which can solve the word-trigger mismatch problem by directly proposing entire trigger nuggets centered at each character regardless of word boundaries. Specifically, NPNs perform event detection in a character-wise paradigm, where a hybrid representation for each character is first learned to capture both structural and semantic information from both characters and words. Then based on learned representations, trigger nuggets are proposed and categorized by exploiting character compositional structures of Chinese event triggers. Experiments on both ACE2005 and TAC KBP 2017 datasets show that NPNs significantly outperform the state-of-the-art methods.",
+  "keywords": [
+    "word boundaries",
+    "neural",
+    "natural",
+    "boundaries",
+    "a word-wise classification task",
+    "information",
+    "semantic",
+    "network",
+    "word",
+    "we",
+    "classification",
+    "hinese",
+    "characters",
+    "state",
+    "proposal"
+  ],
+  "url": "https://aclanthology.org/P18-1145/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:12:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

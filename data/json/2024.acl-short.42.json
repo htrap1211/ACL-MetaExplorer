@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-short.42",
+  "title": "D}oc{F}in{QA}: A Long-Context Financial Reasoning Dataset",
+  "authors": [
+    "Reddy, Varshini  and\nKoncel-Kedziorski, Rik  and\nLai, Viet Dac  and\nKrumdick, Michael  and\nLovering, Charles  and\nTanner, Chris"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "For large language models (LLMs) to be effective in the financial domain – where each decision can have a significant impact – it is necessary to investigate realistic tasks and data. Financial professionals often interact with documents spanning hundreds of pages, but most financial research datasets only deal with short excerpts from these documents. To address this, we introduce a long-document financial QA task. We augment 7,437 questions from the existing FinQA dataset with full-document context, extending the average context length from under 700 words in FinQA to 123k words in DocFinQA. We conduct extensive experiments over retrieval-based QA pipelines and long-context language models. Based on our experiments, DocFinQA proves a significant challenge for even state-of-the-art systems. We also provide a case study on a subset of the longest documents in DocFinQA and find that models particularly struggle with these documents. Addressing these challenges may have a wide-reaching impact across applications where specificity and long-range contexts are critical, like gene sequences and legal document contract analysis. DocFinQA dataset is publicly accessible.",
+  "keywords": [
+    "retrieval-based qa pipelines",
+    "f",
+    "finqa",
+    "we",
+    "it",
+    "retrieval",
+    "analysis",
+    "the existing finqa dataset",
+    "docfinqa",
+    "language",
+    "gene",
+    "qa",
+    "large language models",
+    "long-context language models",
+    "documents"
+  ],
+  "url": "https://aclanthology.org/2024.acl-short.42/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:46:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.96",
+  "title": "Detection-Correction Structure via General Language Model for Grammatical Error Correction",
+  "authors": [
+    "Li, Wei  and\nWang, Houfeng"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Grammatical error correction (GEC) is a task dedicated to rectifying texts with minimal edits, which can be decoupled into two components: detection and correction. However, previous works have predominantly focused on direct correction, with no prior efforts to integrate both into a single model. Moreover, the exploration of the detection-correction paradigm by large language models (LLMs) remains underdeveloped. This paper introduces an integrated detection-correction structure, named DeCoGLM, based on the General Language Model (GLM). The detection phase employs a fault-tolerant detection template, while the correction phase leverages autoregressive mask infilling for localized error correction. Through the strategic organization of input tokens and modification of attention masks, we facilitate multi-task learning within a single model. Our model demonstrates competitive performance against the state-of-the-art models on English and Chinese GEC datasets. Further experiments present the effectiveness of the detection-correction structure in LLMs, suggesting a promising direction for GEC.",
+  "keywords": [
+    "we",
+    "learning",
+    "llms",
+    "general language model",
+    "general",
+    "language",
+    "model",
+    "large language models",
+    "attention",
+    "attention masks",
+    "promising",
+    "multi",
+    "a single model",
+    "state",
+    "template"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.96/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:35:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

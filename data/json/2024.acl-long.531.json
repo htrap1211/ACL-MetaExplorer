@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.531",
+  "title": "D}eterm{LR}: Augmenting {LLM}-based Logical Reasoning from Indeterminacy to Determinacy",
+  "authors": [
+    "Sun, Hongda  and\nXu, Weikai  and\nLiu, Wei  and\nLuan, Jian  and\nWang, Bin  and\nShang, Shuo  and\nWen, Ji-Rong  and\nYan, Rui"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent advances in large language models (LLMs) have revolutionized the landscape of reasoning tasks. To enhance the capabilities of LLMs to emulate human reasoning, prior studies have focused on modeling reasoning steps using various thought structures like chains, trees, or graphs. However, LLM-based reasoning still encounters the following challenges: (1) Limited adaptability of preset structures to diverse tasks; (2) Insufficient precision in exploiting known conditions to derive new ones; and (3) Inadequate consideration of historical reasoning experiences for subsequent reasoning steps. To this end, we propose DetermLR, a novel perspective that rethinks the reasoning process as an evolution from indeterminacy to determinacy. First, we categorize known conditions into two types: determinate and indeterminate premises, facilitating the transformation process. Subsequently, we leverage quantitative measurements to prioritize more relevant premises to explore new insights. Furthermore, we automate the storage and extraction of available premises and reasoning paths with reasoning memory, preserving historical reasoning details for subsequent reasoning steps. Comprehensive experimental results demonstrate that DetermLR surpasses all baselines on various logical reasoning benchmarks: LogiQA, ProofWriter, FOLIO, PrOntoQA, and LogicalDeduction. Compared to previous multi-step reasoning methods, DetermLR achieves higher accuracy with fewer reasoning steps, highlighting its superior efficiency and effectiveness in solving logical reasoning tasks.",
+  "keywords": [
+    "precision",
+    "end",
+    "prontoqa",
+    "extraction",
+    "efficiency",
+    "we",
+    "human reasoning prior studies",
+    "higher accuracy",
+    "the capabilities",
+    "llms",
+    "llm -based logical reasoning",
+    "however llm-based reasoning",
+    "large language models llms",
+    "its superior efficiency",
+    "insufficient"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.531/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

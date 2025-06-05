@@ -1,0 +1,33 @@
+{
+  "id": "P18-1158",
+  "title": "Multi-Granularity Hierarchical Attention Fusion Networks for Reading Comprehension and Question Answering",
+  "authors": [
+    "Wang, Wei  and\nYan, Ming  and\nWu, Chen"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "This paper describes a novel hierarchical attention network for reading comprehension style question answering, which aims to answer questions for a given narrative paragraph. In the proposed method, attention and fusion are conducted horizontally and vertically across layers at different levels of granularity between question and paragraph. Specifically, it first encode the question and paragraph with fine-grained language embeddings, to better capture the respective representations at semantic level. Then it proposes a multi-granularity fusion approach to fully fuse information from both global and attended representations. Finally, it introduces a hierarchical attention network to focuses on the answer span progressively with multi-level soft-alignment. Extensive experiments on the large-scale SQuAD, TriviaQA dataset validate the effectiveness of the proposed method. At the time of writing the paper, our model achieves state-of-the-art on the both SQuAD and TriviaQA Wiki leaderboard as well as two adversarial SQuAD datasets.",
+  "keywords": [
+    "embeddings",
+    "alignment",
+    "hierarchical",
+    "answer",
+    "language",
+    "triviaqa",
+    "model",
+    "it",
+    "triviaqa wiki leaderboard",
+    "question",
+    "information",
+    "multi-level soft-alignment extensive experiments",
+    "semantic",
+    "attention",
+    "network"
+  ],
+  "url": "https://aclanthology.org/P18-1158/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:13:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

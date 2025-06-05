@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.859",
+  "title": "End-to-end Aspect-based Sentiment Analysis with {C}ombinatory {C}ategorial {G}rammar",
+  "authors": [
+    "Tian, Yuanhe  and\nChen, Weidong  and\nHu, Bo  and\nSong, Yan  and\nXia, Fei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "End-to-end Aspect-based Sentiment Analysis (EASA) is a natural language processing (NLP) task that involves extracting aspect terms and identifying the sentiments for them, which provides a fine-grained level of text analysis and thus requires a deep understanding of the running text. Many previous studies leverage advanced text encoders to extract context information and use syntactic information, e.g., the dependency structure of the input sentence, to improve the model performance. However, such models may reach a bottleneck since the dependency structure is not designed to provide semantic information of the text, which is also important for identifying the sentiment and thus leave room for further improvement. Considering that combinatory categorial grammar (CCG) is a formalism that expresses both syntactic and semantic information of a sentence, it has the potential to be beneficial to EASA. In this paper, we propose a novel approach to improve EASA with CCG supertags, which carry the syntactic and semantic information of the associated words and serve as the most important part of the CCG derivation. Specifically, our approach proposes a CCG supertag decoding process to learn the syntactic and semantic information carried by CCG supertags and use the information to guide the attention over the input words so as to identify important contextual information for EASA. Furthermore, a gate mechanism is used in incorporating the weighted contextual information into the backbone EASA decoding process. We evaluate our approach on three publicly available English datasets for EASA, and show that it outperforms strong baselines and achieves state-of-the-art results on all datasets.",
+  "keywords": [
+    "deep",
+    "end",
+    "semantic",
+    "we",
+    "many previous studies",
+    "natural",
+    "it",
+    "information",
+    "analysis",
+    "processing",
+    "text",
+    "advanced text encoders",
+    "encoders",
+    "sentiment",
+    "process"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.859/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

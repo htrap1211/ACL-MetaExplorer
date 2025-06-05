@@ -1,0 +1,33 @@
+{
+  "id": "2021.gebnlp-1.6",
+  "title": "Sexism in the Judiciary: The Importance of Bias Definition in {NLP} and In Our Courts",
+  "authors": [
+    "Baker Gillis, Noa"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 3rd Workshop on Gender Bias in Natural Language Processing",
+  "abstract": "We analyze 6.7 million case law documents to determine the presence of gender bias within our judicial system. We find that current bias detection methods in NLP are insufficient to determine gender bias in our case law database and propose an alternative approach. We show that existing algorithms’ inconsistent results are consequences of prior research’s inconsistent definitions of biases themselves. Bias detection algorithms rely on groups of words to represent bias (e.g., ‘salary,’ ‘job,’ and ‘boss’ to represent employment as a potentially biased theme against women in text). However, the methods to build these groups of words have several weaknesses, primarily that the word lists are based on the researchers’ own intuitions. We suggest two new methods of automating the creation of word lists to represent biases. We find that our methods outperform current NLP bias detection methods. Our research improves the capabilities of NLP technology to detect bias and highlights gender biases present in influential case law. In order to test our NLP bias detection method’s performance, we regress our results of bias in case law against U.S census data of women’s participation in the workforce in the last 100 years.",
+  "keywords": [
+    "bias",
+    "we",
+    "current",
+    "word",
+    "the capabilities",
+    "current bias detection methods",
+    "biased",
+    "gender biases",
+    "text",
+    "bias definition",
+    "biases",
+    "a potentially biased theme",
+    "insufficient",
+    "nlp",
+    "gender bias"
+  ],
+  "url": "https://aclanthology.org/2021.gebnlp-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

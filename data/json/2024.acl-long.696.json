@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.696",
+  "title": "Harder Task Needs More Experts: Dynamic Routing in {M}o{E} Models",
+  "authors": [
+    "Huang, Quzhe  and\nAn, Zhenwei  and\nZhuang, Nan  and\nTao, Mingxu  and\nZhang, Chen  and\nJin, Yang  and\nXu, Kun  and\nXu, Kun  and\nChen, Liwei  and\nHuang, Songfang  and\nFeng, Yansong"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this paper, we introduce a novel dynamic expert selection framework for Mixture of Experts (MoE) models, aiming to enhance computational efficiency and model performance by adjusting the number of activated experts based on input difficulty. Unlike existing MoE approaches that rely on fixed TopK Routing, which activates a predetermined number of experts regardless of the input’s complexity, our method dynamically allocates experts based on the confidence level in expert selection for each input. This allows for more efficient utilization of computational resources, activating more experts for complex tasks requiring advanced reasoning and fewer for simpler tasks. Through extensive evaluations, our dynamic routing method demonstrates substantial improvements over Top2 Routing across various benchmarks, achieving an average improvement of 0.7% with less than 90% activated parameters. Further analysis shows our model dispatches more experts to tasks requiring complex reasoning skills, like BBH, confirming its ability to dynamically allocate computational resources in alignment with the input’s complexity.Our findings also highlight a variation in the number of experts needed across different layers of the transformer model, offering insights into the potential for designing heterogeneous MoE frameworks. The code and models are available at https://github.com/ZhenweiAn/Dynamic_MoE.",
+  "keywords": [
+    "code",
+    "efficient",
+    "efficiency",
+    "we",
+    "analysis",
+    "extensive evaluations",
+    "alignment",
+    "transformer",
+    "the transformer model",
+    "model",
+    "more efficient utilization",
+    "evaluations",
+    "computational efficiency",
+    "simpler tasks",
+    "framework"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.696/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:43:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

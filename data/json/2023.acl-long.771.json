@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.771",
+  "title": "R}ank{CSE}: Unsupervised Sentence Representations Learning via Learning to Rank",
+  "authors": [
+    "Liu, Jiduan  and\nLiu, Jiahao  and\nWang, Qifan  and\nWang, Jingang  and\nWu, Wei  and\nXian, Yunsen  and\nZhao, Dongyan  and\nChen, Kai  and\nYan, Rui"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Unsupervised sentence representation learning is one of the fundamental problems in natural language processing with various downstream applications. Recently, contrastive learning has been widely adopted which derives high-quality sentence representations by pulling similar semantics closer and pushing dissimilar ones away. However, these methods fail to capture the fine-grained ranking information among the sentences, where each sentence is only treated as either positive or negative. In many real-world scenarios, one needs to distinguish and rank the sentences based on their similarities to a query sentence, e.g., very relevant, moderate relevant, less relevant, irrelevant, etc. In this paper, we propose a novel approach, RankCSE, for unsupervised sentence representation learning, which incorporates ranking consistency and ranking distillation with contrastive learning into a unified framework. In particular, we learn semantically discriminative sentence representations by simultaneously ensuring ranking consistency between two representations with different dropout masks, and distilling listwise ranking knowledge from the teacher. An extensive set of experiments are conducted on both semantic textual similarity (STS) and transfer (TR) tasks. Experimental results demonstrate the superior performance of our approach over several state-of-the-art baselines.",
+  "keywords": [
+    "their similarities",
+    "semantic",
+    "we",
+    "natural",
+    "different dropout masks",
+    "semantics",
+    "a unified framework",
+    "unified",
+    "information",
+    "semantically discriminative sentence representations",
+    "learning",
+    "natural language processing",
+    "processing",
+    "similar semantics",
+    "similarities"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.771/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:46:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

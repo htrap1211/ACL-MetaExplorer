@@ -1,0 +1,33 @@
+{
+  "id": "2024.repl4nlp-1.9",
+  "title": "How Useful is Continued Pre-Training for Generative Unsupervised Domain Adaptation?",
+  "authors": [
+    "Uppaal, Rheeya  and\nLi, Yixuan  and\nHu, Junjie"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 9th Workshop on Representation Learning for NLP (RepL4NLP-2024)",
+  "abstract": "Recent breakthroughs in scale have enabled the emergence of powerful generative language models, and the ability to fine-tune these models on various tasks by casting them into prompts or instructions. In this landscape, the problem of Unsupervised Domain Adaptation (UDA), or the problem of leveraging knowledge from a labeled source domain to an unlabeled target domain, has been left behind, with recent UDA methods still addressing discriminative classification. In particular, two popular UDA approaches, involving Continued Pre-Training (CPT) and learning domain invariant representations, have been under-explored in the generative setting, signaling a gap. In this work, we evaluate the utility of CPT for generative UDA. We first perform an empirical evaluation to measure the trade-offs between CPT and strong methods promoting domain invariance. We further evaluate how well the benefits of CPT extend to different architectures, tuning methods and data regimes. We then motivate the use of CPT by studying to what degree it benefits classification performance on the target domain. Finally, we attempt to understand the mechanism behind which CPT improves classification performance on the unlabeled target domain. Our findings suggest that a implicitly learns the downstream task while predicting masked words informative to that task. Our work connects the body of UDA research with that of instruction tuning, enabling an initial step towards a wider applicability of modern language models.",
+  "keywords": [
+    "an empirical evaluation",
+    "discriminative classification",
+    "powerful generative language models",
+    "we",
+    "training",
+    "classification",
+    "instruction",
+    "generative uda",
+    "the generative setting",
+    "it",
+    "modern language models",
+    "generative unsupervised domain adaptation",
+    "a",
+    "generative",
+    "instruction tuning"
+  ],
+  "url": "https://aclanthology.org/2024.repl4nlp-1.9/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

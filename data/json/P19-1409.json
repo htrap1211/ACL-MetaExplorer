@@ -1,0 +1,33 @@
+{
+  "id": "P19-1409",
+  "title": "Revisiting Joint Modeling of Cross-document Entity and Event Coreference Resolution",
+  "authors": [
+    "Barhom, Shany  and\nShwartz, Vered  and\nEirew, Alon  and\nBugert, Michael  and\nReimers, Nils  and\nDagan, Ido"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Recognizing coreferring events and entities across multiple texts is crucial for many NLP applications. Despite the task’s importance, research focus was given mostly to within-document entity coreference, with rather little attention to the other variants. We propose a neural architecture for cross-document coreference resolution. Inspired by Lee et al. (2012), we jointly model entity and event coreference. We represent an event (entity) mention using its lexical span, surrounding context, and relation to entity (event) mentions via predicate-arguments structures. Our model outperforms the previous state-of-the-art event coreference model on ECB+, while providing the first entity coreference results on this corpus. Our analysis confirms that all our representation elements, including the mention span itself, its context, and the relation to other mentions contribute to the model’s success.",
+  "keywords": [
+    "cross",
+    "neural",
+    "nlp",
+    "cross-document coreference resolution",
+    "model",
+    "entities",
+    "coreference results",
+    "modeling",
+    "coreference resolution",
+    "many nlp applications",
+    "rather little attention",
+    "attention",
+    "we",
+    "entity",
+    "coreference"
+  ],
+  "url": "https://aclanthology.org/P19-1409/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:40:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

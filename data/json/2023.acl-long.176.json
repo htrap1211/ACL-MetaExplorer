@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.176",
+  "title": "Interpretable Word Sense Representations via Definition Generation: The Case of Semantic Change Analysis",
+  "authors": [
+    "Giulianelli, Mario  and\nLuden, Iris  and\nFernandez, Raquel  and\nKutuzov, Andrey"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We propose using automatically generated natural language definitions of contextualised word usages as interpretable word and word sense representations. Given a collection of usage examples for a target word, and the corresponding data-driven usage clusters (i.e., word senses), a definition is generated for each usage with a specialised Flan-T5 language model, and the most prototypical definition in a usage cluster is chosen as the sense label. We demonstrate how the resulting sense labels can make existing approaches to semantic change analysis more interpretable, and how they can allow users — historical linguists, lexicographers, or social scientists — to explore and intuitively explain diachronic trajectories of word meaning. Semantic change analysis is only one of many possible applications of the ‘definitions as representations’ paradigm. Beyond being human-readable, contextualised definitions also outperform token or usage sentence embeddings in word-in-context semantic similarity judgements, making them a new promising type of lexical representation for NLP.",
+  "keywords": [
+    "diachronic trajectories",
+    "semantic",
+    "we",
+    "cluster",
+    "natural",
+    "token",
+    "word",
+    "analysis",
+    "social scientists",
+    "usage sentence embeddings",
+    "i",
+    "scientists",
+    "embeddings",
+    "generation",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.176/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

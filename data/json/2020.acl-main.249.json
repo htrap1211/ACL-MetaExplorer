@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.249",
+  "title": "Weight Poisoning Attacks on Pretrained Models",
+  "authors": [
+    "Kurita, Keita  and\nMichel, Paul  and\nNeubig, Graham"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Recently, NLP has seen a surge in the usage of large pre-trained models. Users download weights of models pre-trained on large datasets, then fine-tune the weights on a task of their choice. This raises the question of whether downloading untrusted pre-trained weights can pose a security threat. In this paper, we show that it is possible to construct “weight poisoning” attacks where pre-trained weights are injected with vulnerabilities that expose “backdoors” after fine-tuning, enabling the attacker to manipulate the model prediction simply by injecting an arbitrary keyword. We show that by applying a regularization method which we call RIPPLe and an initialization procedure we call Embedding Surgery, such attacks are possible even with limited knowledge of the dataset and fine-tuning procedure. Our experiments on sentiment classification, toxicity detection, and spam detection show that this attack is widely applicable and poses a serious threat. Finally, we outline practical defenses against such attacks.",
+  "keywords": [
+    "a regularization method",
+    "embedding surgery",
+    "question",
+    "we",
+    "classification",
+    "fine-tuning",
+    "it",
+    "tuning",
+    "classification toxicity detection",
+    "fine",
+    "sentiment",
+    "knowledge",
+    "nlp",
+    "model",
+    "regularization"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.249/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:45:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

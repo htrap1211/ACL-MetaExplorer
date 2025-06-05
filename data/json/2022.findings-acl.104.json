@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.104",
+  "title": "Multi-Stage Prompting for Knowledgeable Dialogue Generation",
+  "authors": [
+    "Liu, Zihan  and\nPatwary, Mostofa  and\nPrenger, Ryan  and\nPrabhumoye, Shrimai  and\nPing, Wei  and\nShoeybi, Mohammad  and\nCatanzaro, Bryan"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Existing knowledge-grounded dialogue systems typically use finetuned versions of a pretrained language model (LM) and large-scale knowledge bases. These models typically fail to generalize on topics outside of the knowledge base, and require maintaining separate potentially large checkpoints each time finetuning is needed. In this paper, we aim to address these limitations by leveraging the inherent knowledge stored in the pretrained LM as well as its powerful generation ability. We propose a multi-stage prompting approach to generate knowledgeable responses from a single pretrained LM. We first prompt the LM to generate knowledge based on the dialogue context. Then, we further prompt it to generate responses based on the dialogue context and the previously generated knowledge. Results show that our knowledge generator outperforms the state-of-the-art retrieval-based model by 5.8% when combining knowledge relevance and correctness. In addition, our multi-stage prompting outperforms the finetuning-based dialogue model in terms of response knowledgeability and engagement by up to 10% and 5%, respectively. Furthermore, we scale our model up to 530 billion parameters and demonstrate that larger LMs improve the generation correctness score by up to 10%, and response relevance, knowledgeability and engagement by up to 10%. Our code is available at:https://github.com/NVIDIA/Megatron-LM.",
+  "keywords": [
+    "code",
+    "the dialogue context",
+    "knowledgeable dialogue generation",
+    "lm",
+    "we",
+    "dialogue",
+    "it",
+    "retrieval",
+    "existing knowledge-grounded dialogue systems",
+    "a pretrained language model",
+    "-",
+    "our knowledge generator",
+    "knowledge",
+    "generation",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.104/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.589",
+  "title": "S}umm{S}creen: A Dataset for Abstractive Screenplay Summarization",
+  "authors": [
+    "Chen, Mingda  and\nChu, Zewei  and\nWiseman, Sam  and\nGimpel, Kevin"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We introduce SummScreen, a summarization dataset comprised of pairs of TV series transcripts and human written recaps. The dataset provides a challenging testbed for abstractive summarization for several reasons. Plot details are often expressed indirectly in character dialogues and may be scattered across the entirety of the transcript. These details must be found and integrated to form the succinct plot descriptions in the recaps. Also, TV scripts contain content that does not directly pertain to the central plot but rather serves to develop characters or provide comic relief. This information is rarely contained in recaps. Since characters are fundamental to TV series, we also propose two entity-centric evaluation metrics. Empirically, we characterize the dataset by evaluating several methods, including neural models and those based on nearest neighbors. An oracle extractive approach outperforms all benchmarked models according to automatic metrics, showing that the neural models are unable to fully exploit the input transcripts. Human evaluation and qualitative analysis reveal that our non-oracle models are competitive with their oracle counterparts in terms of generating faithful plot events and can benefit from better content selectors. Both oracle and non-oracle models generate unfaithful facts, suggesting future research directions.",
+  "keywords": [
+    "series",
+    "summarization",
+    "we",
+    "relief",
+    "human evaluation",
+    "neural",
+    "information",
+    "analysis",
+    "a summarization dataset",
+    "s",
+    "metrics",
+    "abstractive summarization",
+    "umm",
+    "character dialogues",
+    "two entity-centric evaluation metrics"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.589/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:32:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

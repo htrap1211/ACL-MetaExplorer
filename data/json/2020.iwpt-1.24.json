@@ -1,0 +1,33 @@
+{
+  "id": "2020.iwpt-1.24",
+  "title": "The {ADAPT} Enhanced Dependency Parser at the {IWPT} 2020 Shared Task",
+  "authors": [
+    "Barry, James  and\nWagner, Joachim  and\nFoster, Jennifer"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies",
+  "abstract": "We describe the ADAPT system for the 2020 IWPT Shared Task on parsing enhanced Universal Dependencies in 17 languages. We implement a pipeline approach using UDPipe and UDPipe-future to provide initial levels of annotation. The enhanced dependency graph is either produced by a graph-based semantic dependency parser or is built from the basic tree using a small set of heuristics. Our results show that, for the majority of languages, a semantic dependency parser can be successfully applied to the task of parsing enhanced dependencies. Unfortunately, we did not ensure a connected graph as part of our pipeline approach and our competition submission relied on a last-minute fix to pass the validation script which harmed our official evaluation scores significantly. Our submission ranked eighth in the official evaluation with a macro-averaged coarse ELAS F1 of 67.23 and a treebank average of 67.49. We later implemented our own graph-connecting fix which resulted in a score of 79.53 (language average) or 79.76 (treebank average), which would have placed fourth in the competition evaluation.",
+  "keywords": [
+    "enhanced dependencies",
+    "the official evaluation",
+    "validation",
+    "language",
+    "the competition evaluation",
+    "dependencies",
+    "our official evaluation scores",
+    "the enhanced dependency graph",
+    "a semantic dependency parser",
+    "enhanced universal dependencies",
+    "dependency",
+    "semantic",
+    "we",
+    "evaluation",
+    "graph"
+  ],
+  "url": "https://aclanthology.org/2020.iwpt-1.24/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:56:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

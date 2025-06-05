@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.399",
+  "title": "Target-Oriented Relation Alignment for Cross-Lingual Stance Detection",
+  "authors": [
+    "Zhang, Ruike  and\nXu, Nan  and\nYang, Hanxuan  and\nTian, Yuan  and\nMao, Wenji"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Stance detection is an important task in text mining and social media analytics, aiming to automatically identify the user’s attitude toward a specific target from text, and has wide applications in a variety of domains. Previous work on stance detection has mainly focused on monolingual setting. To address the problem of imbalanced language resources, cross-lingual stance detection is proposed to transfer the knowledge learned from a high-resource (source) language (typically English) to another low-resource (target) language. However, existing research on cross-lingual stance detection has ignored the inconsistency in the occurrences and distributions of targets between languages, which consequently degrades the performance of stance detection in low-resource languages. In this paper, we first identify the target inconsistency issue in cross-lingual stance detection, and propose a fine-grained Target-oriented Relation Alignment (TaRA) method for the task, which considers both target-level associations and language-level alignments. Specifically, we propose the Target Relation Graph to learn the in-language and cross-language target associations. We further devise the relation alignment strategy to enable knowledge transfer between semantically correlated targets across languages. Experimental results on the representative datasets demonstrate the effectiveness of our method compared to competitive methods under variant settings.",
+  "keywords": [
+    "variety",
+    "alignments",
+    "we",
+    "graph",
+    "cross",
+    "transfer",
+    "a variety",
+    "language-level alignments",
+    "text",
+    "semantically correlated targets",
+    "mining",
+    "work",
+    "alignment",
+    "knowledge",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.399/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

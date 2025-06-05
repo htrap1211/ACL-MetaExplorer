@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.82",
+  "title": "Robust Knowledge Graph Completion with Stacked Convolutions and a Student Re-Ranking Network",
+  "authors": [
+    "Lovelace, Justin  and\nNewman-Griffis, Denis  and\nVashishth, Shikhar  and\nLehman, Jill Fain  and\nRos{\\'e}, Carolyn"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Knowledge Graph (KG) completion research usually focuses on densely connected benchmark datasets that are not representative of real KGs. We curate two KG datasets that include biomedical and encyclopedic knowledge and use an existing commonsense KG dataset to explore KG completion in the more realistic setting where dense connectivity is not guaranteed. We develop a deep convolutional network that utilizes textual entity representations and demonstrate that our model outperforms recent KG completion methods in this challenging setting. We find that our model’s performance improvements stem primarily from its robustness to sparsity. We then distill the knowledge from the convolutional network into a student network that re-ranks promising candidate entities. This re-ranking stage leads to further improvements in performance and demonstrates the effectiveness of entity re-ranking for KG completion.",
+  "keywords": [
+    "deep",
+    "knowledge",
+    "real kgs",
+    "model",
+    "entities",
+    "two kg datasets",
+    "recent kg completion methods",
+    "network",
+    "we",
+    "promising candidate entities",
+    "graph",
+    "the convolutional network",
+    "kg completion",
+    "entity",
+    "kgs"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.82/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:00:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

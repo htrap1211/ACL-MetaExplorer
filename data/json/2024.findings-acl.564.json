@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.564",
+  "title": "Beyond Single-Event Extraction: Towards Efficient Document-Level Multi-Event Argument Extraction",
+  "authors": [
+    "Liu, Wanlong  and\nZhou, Li  and\nZeng, DingYi  and\nXiao, Yichen  and\nCheng, Shaohuan  and\nZhang, Chen  and\nLee, Grandee  and\nZhang, Malu  and\nChen, Wenyu"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Recent mainstream event argument extraction methods process each event in isolation, resulting in inefficient inference and ignoring the correlations among multiple events. To address these limitations, here we propose a multiple-event argument extraction model DEEIA (Dependency-guided Encoding and Event-specific Information Aggregation), capable of extracting arguments from all events within a document simultaneously. The proposed DEEIA model employs a multi-event prompt mechanism, comprising DE and EIA modules. The DE module is designed to improve the correlation between prompts and their corresponding event contexts, whereas the EIA module provides event-specific information to improve contextual understanding. Extensive experiments show that our method achieves new state-of-the-art performance on four public datasets (RAMS, WikiEvents, MLEE, and ACE05), while significantly saving the inference time compared to the baselines. Further analyses demonstrate the effectiveness of the proposed modules.",
+  "keywords": [
+    "extraction",
+    "inefficient",
+    "efficient",
+    "we",
+    "a multi-event prompt mechanism",
+    "information",
+    "prompt",
+    "prompts",
+    "model",
+    "wikievents mlee",
+    "dependency",
+    "inefficient inference",
+    "efficient document-level multi-event argument",
+    "time",
+    "wikievents"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.564/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:56:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.31",
+  "title": "H}amilton{D}inggg at {S}em{E}val-2021 Task 5: Investigating Toxic Span Detection using {R}o{BERT}a Pre-training",
+  "authors": [
+    "Ding, Huiyang  and\nJurgens, David"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper presents our system submission to task 5: Toxic Spans Detection of the SemEval-2021 competition. The competition aims at detecting the spans that make a toxic span toxic. In this paper, we demonstrate our system for detecting toxic spans, which includes expanding the toxic training set with Local Interpretable Model-Agnostic Explanations (LIME), fine-tuning RoBERTa model for detection, and error analysis. We found that feeding the model with an expanded training set using Reddit comments of polarized-toxicity and labeling with LIME on top of logistic regression classification could help RoBERTa more accurately learn to recognize toxic spans. We achieved a span-level F1 score of 0.6715 on the testing phase. Our quantitative and qualitative results show that the predictions from our system could be a good supplement to the gold training set’s annotations.",
+  "keywords": [
+    "top",
+    "roberta",
+    "logistic regression classification",
+    "r o bert",
+    "bert",
+    "model",
+    "we",
+    "pre",
+    "a span-level f1 score",
+    "training",
+    "analysis",
+    "classification",
+    "that",
+    "h amilton d inggg",
+    "reddit comments"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.31/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:20:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

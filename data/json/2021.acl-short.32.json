@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.32",
+  "title": "Higher-order Derivatives of Weighted Finite-state Machines",
+  "authors": [
+    "Zmigrod, Ran  and\nVieira, Tim  and\nCotterell, Ryan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Weighted finite-state machines are a fundamental building block of NLP systems. They have withstood the test of time—from their early use in noisy channel models in the 1990s up to modern-day neurally parameterized conditional random fields. This work examines the computation of higher-order derivatives with respect to the normalization constant for weighted finite-state machines. We provide a general algorithm for evaluating derivatives of all orders, which has not been previously described in the literature. In the case of second-order derivatives, our scheme runs in the optimal O(Aˆ2 Nˆ4) time where A is the alphabet size and N is the number of states. Our algorithm is significantly faster than prior algorithms. Additionally, our approach leads to a significantly faster algorithm for computing second-order expectations, such as covariance matrices and gradients of first-order expectations.",
+  "keywords": [
+    "we",
+    "fields",
+    "a general algorithm",
+    "a",
+    "covariance matrices",
+    "normalization",
+    "early",
+    "work",
+    "general",
+    "random",
+    "nlp",
+    "gradients",
+    "covariance",
+    "nlp systems",
+    "time"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.32/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

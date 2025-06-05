@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.414",
+  "title": "Unsupervised Alignment-based Iterative Evidence Retrieval for Multi-hop Question Answering",
+  "authors": [
+    "Yadav, Vikas  and\nBethard, Steven  and\nSurdeanu, Mihai"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Evidence retrieval is a critical stage of question answering (QA), necessary not only to improve performance, but also to explain the decisions of the QA method. We introduce a simple, fast, and unsupervised iterative evidence retrieval method, which relies on three ideas: (a) an unsupervised alignment approach to soft-align questions and answers with justification sentences using only GloVe embeddings, (b) an iterative process that reformulates queries focusing on terms that are not covered by existing justifications, which (c) stops when the terms in the given question and candidate answers are covered by the retrieved justifications. Despite its simplicity, our approach outperforms all the previous methods (including supervised methods) on the evidence selection task on two datasets: MultiRC and QASC. When these evidence sentences are fed into a RoBERTa answer classification component, we achieve state-of-the-art QA performance on these two datasets.",
+  "keywords": [
+    "glove",
+    "alignment",
+    "embeddings",
+    "process",
+    "align",
+    "roberta",
+    "answer",
+    "the retrieved justifications",
+    "qa",
+    "queries",
+    "c",
+    "retrieval",
+    "question",
+    "qasc",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.414/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:47:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

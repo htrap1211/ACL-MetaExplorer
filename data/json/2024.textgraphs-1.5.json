@@ -1,0 +1,33 @@
+{
+  "id": "2024.textgraphs-1.5",
+  "title": "Prompt Me One More Time: A Two-Step Knowledge Extraction Pipeline with Ontology-Based Verification",
+  "authors": [
+    "Chepurova, Alla  and\nKuratov, Yuri  and\nBulatov, Aydar  and\nBurtsev, Mikhail"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of TextGraphs-17: Graph-based Methods for Natural Language Processing",
+  "abstract": "This study explores a method for extending real-world knowledge graphs (specifically, Wikidata) by extracting triplets from texts with the aid of Large Language Models (LLMs). We propose a two-step pipeline that includes the initial extraction of entity candidates, followed by their refinement and linkage to the canonical entities and relations of the knowledge graph. Finally, we utilize Wikidata relation constraints to select only verified triplets. We compare our approach to a model that was fine-tuned on a machine-generated dataset and demonstrate that it performs better on natural data. Our results suggest that LLM-based triplet extraction from texts, with subsequent verification, is a viable method for real-world applications.",
+  "keywords": [
+    "a machine-generated dataset",
+    "knowledge",
+    "ontology-based verification",
+    "language",
+    "real-world knowledge graphs",
+    "extraction",
+    "natural",
+    "model",
+    "machine",
+    "entities",
+    "it",
+    "llm-based triplet extraction",
+    "large language models",
+    "the knowledge graph",
+    "the canonical entities"
+  ],
+  "url": "https://aclanthology.org/2024.textgraphs-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:11:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

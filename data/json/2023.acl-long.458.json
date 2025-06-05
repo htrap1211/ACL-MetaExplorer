@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.458",
+  "title": "Comparative evaluation of boundary-relaxed annotation for Entity Linking performance",
+  "authors": [
+    "Herman Bernardim Andrade, Gabriel  and\nYada, Shuntaro  and\nAramaki, Eiji"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Entity Linking performance has a strong reliance on having a large quantity of high-quality annotated training data available. Yet, manual annotation of named entities, especially their boundaries, is ambiguous, error-prone, and raises many inconsistencies between annotators. While imprecise boundary annotation can degrade a model’s performance, there are applications where accurate extraction of entities’ surface form is not necessary. For those cases, a lenient annotation guideline could relieve the annotators’ workload and speed up the process. This paper presents a case study designed to verify the feasibility of such annotation process and evaluate the impact of boundary-relaxed annotation in an Entity Linking pipeline. We first generate a set of noisy versions of the widely used AIDA CoNLL-YAGO dataset by expanding the boundaries subsets of annotated entity mentions and then train three Entity Linking models on this data and evaluate the relative impact of imprecise annotation on entity recognition and disambiguation performances. We demonstrate that the magnitude of effects caused by noise in the Named Entity Recognition phase is dependent on both model complexity and noise ratio, while Entity Disambiguation components are susceptible to entity boundary imprecision due to strong vocabulary dependency.",
+  "keywords": [
+    "extraction",
+    "form",
+    "entities surface form",
+    "we",
+    "a lenient annotation guideline",
+    "training",
+    "lenient",
+    "especially their boundaries",
+    "many inconsistencies",
+    "ratio",
+    "strong vocabulary dependency",
+    "named entities",
+    "inconsistencies",
+    "process",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.458/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:41:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

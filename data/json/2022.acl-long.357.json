@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.357",
+  "title": "R}e{CLIP}: A Strong Zero-Shot Baseline for Referring Expression Comprehension",
+  "authors": [
+    "Subramanian, Sanjay  and\nMerrill, William  and\nDarrell, Trevor  and\nGardner, Matt  and\nSingh, Sameer  and\nRohrbach, Anna"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Training a referring expression comprehension (ReC) model for a new visual domain requires collecting referring expressions, and potentially corresponding bounding boxes, for images in the domain. While large-scale pre-trained models are useful for image classification across domains, it remains unclear if they can be applied in a zero-shot manner to more complex tasks like ReC. We present ReCLIP, a simple but strongzero-shotbaseline that repurposes CLIP, a state-of-the-art large-scale model, for ReC. Motivated by the close connection between ReC and CLIP’s contrastive pre-training objective, the first component of ReCLIP is a region-scoring method that isolates object proposals via cropping and blurring, and passes them to CLIP. However, through controlled experiments on a synthetic dataset, we find that CLIP is largely incapable of performing spatial reasoning off-the-shelf. We reduce the gap between zero-shot baselines from prior work and supervised models by as much as 29% on RefCOCOg, and on RefGTA (video game imagery), ReCLIP’s relative improvement over supervised ReC models trained on real images is 8%.",
+  "keywords": [
+    "contrastive pre-training objective",
+    "a zero-shot manner",
+    "we",
+    "shot",
+    "training",
+    "classification",
+    "it",
+    "a simple but strongzero-shotbaseline",
+    "visual",
+    "manner",
+    "image classification",
+    "object",
+    "objective",
+    "rec",
+    "a strong zero-shot baseline"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.357/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:29:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

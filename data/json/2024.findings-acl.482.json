@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.482",
+  "title": "Latent Learningscape Guided In-context Learning",
+  "authors": [
+    "Zhou, Anlai  and\nJiang, Sunshine  and\nLiu, Yifei  and\nWu, Yiquan  and\nKuang, Kun  and\nXiao, Jun"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "The growing interest in leveraging large language models is driven by their exceptional imitation and reasoning capabilities. In-context learning (ICL), a streamlined method, has shown potential in boosting these models’ performance without modifying their underlying parameters, especially when supplied with suitable demonstrations. However, existing methods mainly choose demonstrations by comparing surface-level semantic similarities (e.g., based on embedding) and fall short of identifying the most fitting ones. This paper introduces the concept of a “latent learningscape”, a more nuanced representation that describes the characteristic of the demonstrations. Building on this concept, we develop a results-driven approach to characterize the latent learningscape features of demonstrations, which then inform the creation of more effective prompts. Through comprehensive testing across datasets in arithmetic, commonsense, and symbolic reasoning tasks, our approach outperforms leading models, showing an average increase in scores by 7.4 percentage points.",
+  "keywords": [
+    "more effective prompts",
+    "semantic",
+    "we",
+    "surface-level semantic similarities",
+    "latent",
+    "fitting",
+    "prompts",
+    "e g",
+    "similarities",
+    "language",
+    "large language models",
+    "capabilities",
+    "approach",
+    "suitable demonstrations",
+    "percentage"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.482/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:55:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

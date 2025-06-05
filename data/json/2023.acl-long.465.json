@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.465",
+  "title": "H}erm{E}s: Interactive Spreadsheet Formula Prediction via Hierarchical Formulet Expansion",
+  "authors": [
+    "He, Wanrong  and\nDong, Haoyu  and\nGao, Yihuai  and\nFan, Zhichao  and\nGuo, Xingzhuo  and\nHou, Zhitao  and\nLv, Xiao  and\nJia, Ran  and\nHan, Shi  and\nZhang, Dongmei"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We propose HermEs, the first approach for spreadsheet formula prediction via HiEraRchical forMulet ExpanSion, where hierarchical expansion means generating formulas following the underlying parse tree structure, and Formulet refers to commonly-used multi-level patterns mined from real formula parse trees. HermEs improves the formula prediction accuracy by (1) guaranteeing correct grammar by hierarchical generation rather than left-to-right generation and (2) significantly streamlining the token-level decoding with high-level Formulet. Notably, instead of generating formulas in a pre-defined fixed order, we propose a novel sampling strategy to systematically exploit a variety of hierarchical and multi-level expansion orders and provided solid mathematical proof, with the aim of meeting diverse human needs of the formula writing order in real applications. We further develop an interactive formula completion interface based on HermEs, which shows a new user experience inhttps://github.com/formulet/HERMES.",
+  "keywords": [
+    "variety",
+    "hierarchical",
+    "generation",
+    "hierarchical expansion",
+    "human",
+    "the formula prediction accuracy",
+    "token",
+    "hierarchical formulet expansion",
+    "hierarchical generation",
+    "we",
+    "experience",
+    "a variety",
+    "pre",
+    "accuracy",
+    "applications"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.465/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:41:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

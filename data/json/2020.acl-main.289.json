@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.289",
+  "title": "Effective Inter-Clause Modeling for End-to-End Emotion-Cause Pair Extraction",
+  "authors": [
+    "Wei, Penghui  and\nZhao, Jiahao  and\nMao, Wenji"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Emotion-cause pair extraction aims to extract all emotion clauses coupled with their cause clauses from a given document. Previous work employs two-step approaches, in which the first step extracts emotion clauses and cause clauses separately, and the second step trains a classifier to filter out negative pairs. However, such pipeline-style system for emotion-cause pair extraction is suboptimal because it suffers from error propagation and the two steps may not adapt to each other well. In this paper, we tackle emotion-cause pair extraction from a ranking perspective, i.e., ranking clause pair candidates in a document, and propose a one-step neural approach which emphasizes inter-clause modeling to perform end-to-end extraction. It models the interrelations between the clauses in a document to learn clause representations with graph attention, and enhances clause pair representations with kernel-based relative position embedding for effective ranking. Experimental results show that our approach significantly outperforms the current two-step systems, especially in the condition of extracting multiple pairs in one document.",
+  "keywords": [
+    "end",
+    "extraction",
+    "classifier",
+    "kernel",
+    "kernel-based relative position",
+    "we",
+    "graph",
+    "current",
+    "graph attention",
+    "neural",
+    "it",
+    "work",
+    "modeling",
+    "propagation",
+    "attention"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.289/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:46:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

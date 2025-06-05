@@ -1,0 +1,33 @@
+{
+  "id": "P17-1158",
+  "title": "CANE}: Context-Aware Network Embedding for Relation Modeling",
+  "authors": [
+    "Tu, Cunchao  and\nLiu, Han  and\nLiu, Zhiyuan  and\nSun, Maosong"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Network embedding (NE) is playing a critical role in network analysis, due to its ability to represent vertices with efficient low-dimensional embedding vectors. However, existing NE models aim to learn a fixed context-free embedding for each vertex and neglect the diverse roles when interacting with other vertices. In this paper, we assume that one vertex usually shows different aspects when interacting with different neighbor vertices, and should own different embeddings respectively. Therefore, we present Context-Aware Network Embedding (CANE), a novel NE model to address this issue. CANE learns context-aware embeddings for vertices with mutual attention mechanism and is expected to model the semantic relationships between vertices more precisely. In experiments, we compare our model with existing NE models on three real-world datasets. Experimental results show that CANE achieves significant improvement than state-of-the-art methods on link prediction and comparable performance on vertex classification. The source code and datasets can be obtained fromhttps://github.com/thunlp/CANE.",
+  "keywords": [
+    "code",
+    "ne",
+    "efficient",
+    "semantic",
+    "we",
+    "classification",
+    "the semantic relationships",
+    "context-aware embeddings",
+    "analysis",
+    "efficient low-dimensional embedding vectors",
+    "different embeddings",
+    "dimensional",
+    "embeddings",
+    "vertex classification",
+    "mutual attention mechanism"
+  ],
+  "url": "https://aclanthology.org/P17-1158/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:00:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P19-1256",
+  "title": "A Simple Recipe towards Reducing Hallucination in Neural Surface Realisation",
+  "authors": [
+    "Nie, Feng  and\nYao, Jin-Ge  and\nWang, Jinpeng  and\nPan, Rong  and\nLin, Chin-Yew"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Recent neural language generation systems oftenhallucinatecontents (i.e., producing irrelevant or contradicted facts), especially when trained on loosely corresponding pairs of the input structure and text. To mitigate this issue, we propose to integrate a language understanding module for data refinement with self-training iterations to effectively induce strong equivalence between the input data and the paired text. Experiments on the E2E challenge dataset show that our proposed framework can reduce more than 50% relative unaligned noise from the original data-text pairs. A vanilla sequence-to-sequence neural NLG model trained on the refined data has improved on content correctness compared with the current state-of-the-art ensemble generator.",
+  "keywords": [
+    "ensemble",
+    "i",
+    "language",
+    "generation",
+    "neural",
+    "model",
+    "text",
+    "self",
+    "generator",
+    "we",
+    "sequence",
+    "current",
+    "this issue",
+    "recipe",
+    "self-training iterations"
+  ],
+  "url": "https://aclanthology.org/P19-1256/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:36:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.221",
+  "title": "Enhancing Out-of-Vocabulary Estimation with Subword Attention",
+  "authors": [
+    "Patel, Raj  and\nDomeniconi, Carlotta"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Word embedding methods like word2vec and GloVe have been shown to learn strong representations of words. However, these methods only learn representations for words in the training corpus and therefore struggle to handle unknown and new words, known as out-of-vocabulary (OOV) words. As a result, there have been multiple attempts to learn OOV word representations in a similar fashion to how humans learn new words, using word roots/subwords and/or surrounding words. However, while most of these approaches use advanced architectures like attention on the context of the OOV word, they tend to use simple structures like ngram addition or character based convolutional neural networks (CNN) to handle processing subword information. In response to this, we propose SubAtt, a transformer based OOV estimation model that uses attention mechanisms on both the context and the subwords. In addition to attention, we also show that pretraining subword representations also leads to improvement in OOV estimation. We show SubAtt outperforms current state-of-the-art OOV estimation models.",
+  "keywords": [
+    "glove",
+    "transformer",
+    "neural",
+    "cnn",
+    "model",
+    "information",
+    "attention mechanisms",
+    "attention",
+    "word",
+    "we",
+    "word2vec",
+    "convolutional",
+    "current",
+    "training",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.221/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

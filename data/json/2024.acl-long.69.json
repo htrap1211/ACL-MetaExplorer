@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.69",
+  "title": "T}a{SL}: Continual Dialog State Tracking via Task Skill Localization and Consolidation",
+  "authors": [
+    "Feng, Yujie  and\nChu, Xu  and\nXu, Yongxin  and\nShi, Guangyuan  and\nLiu, Bo  and\nWu, Xiao-Ming"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "A practical dialogue system requires the capacity for ongoing skill acquisition and adaptability to new tasks while preserving prior knowledge. However, current methods for Continual Dialogue State Tracking (DST), a crucial function of dialogue systems, struggle with the catastrophic forgetting issue and knowledge transfer between tasks. We present TaSL, a novel framework for task skill localization and consolidation that enables effective knowledge transfer without relying on memory replay. TaSL uses a novel group-wise technique to pinpoint task-specific and task-shared areas. Additionally, a fine-grained skill consolidation strategy protects task-specific knowledge from being forgotten while updating shared knowledge for bi-directional knowledge transfer. As a result, TaSL strikes a balance between preserving previous knowledge and excelling at new tasks. Comprehensive experiments on various backbones highlight the significant performance improvements of TaSL, with a 7.6% absolute increase in Avg. JGA and an 11% absolute rise in BWT metrics over existing state-of-the-art methods. The source code is provided for reproducibility.",
+  "keywords": [
+    "code",
+    "continual dialogue state",
+    "we",
+    "dialogue",
+    "current",
+    "bwt metrics",
+    "dialogue systems",
+    "transfer",
+    "metrics",
+    "function",
+    "knowledge",
+    "dialog",
+    "a practical dialogue system",
+    "backbones",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.69/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:35:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

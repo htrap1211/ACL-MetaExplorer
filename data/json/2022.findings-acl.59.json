@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.59",
+  "title": "Question Answering Infused Pre-training of General-Purpose Contextualized Representations",
+  "authors": [
+    "Jia, Robin  and\nLewis, Mike  and\nZettlemoyer, Luke"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "We propose a pre-training objective based on question answering (QA) for learning general-purpose contextual representations, motivated by the intuition that the representation of a phrase in a passage should encode all questions that the phrase can answer in context. To this end, we train a bi-encoder QA model, which independently encodes passages and questions, to match the predictions of a more accurate cross-encoder model on 80 million synthesized QA pairs. By encoding QA-relevant information, the bi-encoder’s token-level representations are useful for non-QA downstream tasks without extensive (or in some cases, any) fine-tuning. We show large improvements over both RoBERTa-large and previous state-of-the-art results on zero-shot and few-shot paraphrase detection on four datasets, few-shot named entity recognition on two datasets, and zero-shot sentiment analysis on three datasets.",
+  "keywords": [
+    "cross",
+    "tuning",
+    "general",
+    "roberta",
+    "end",
+    "general-purpose contextualized representations",
+    "model",
+    "non-qa downstream tasks",
+    "objective",
+    "qa",
+    "a pre-training objective",
+    "token",
+    "a bi-encoder qa model",
+    "-",
+    "encoder"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.59/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

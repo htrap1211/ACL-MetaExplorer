@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.209",
+  "title": "Can We Predict New Facts with Open Knowledge Graph Embeddings? A Benchmark for Open Link Prediction",
+  "authors": [
+    "Broscheit, Samuel  and\nGashteovski, Kiril  and\nWang, Yanjie  and\nGemulla, Rainer"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Open Information Extraction systems extract (“subject text”, “relation text”, “object text”) triples from raw text. Some triples are textual versions of facts, i.e., non-canonicalized mentions of entities and relations. In this paper, we investigate whether it is possible to infer new facts directly from the open knowledge graph without any canonicalization or any supervision from curated knowledge. For this purpose, we propose the open link prediction task,i.e., predicting test facts by completing (“subject text”, “relation text”, ?) questions. An evaluation in such a setup raises the question if a correct prediction is actually a new fact that was induced by reasoning over the open knowledge graph or if it can be trivially explained. For example, facts can appear in different paraphrased textual variants, which can lead to test leakage. To this end, we propose an evaluation protocol and a methodology for creating the open link prediction benchmark OlpBench. We performed experiments with a prototypical knowledge graph embedding model for openlink prediction. While the task is very challenging, our results suggests that it is possible to predict genuinely new facts, which can not be trivially explained.",
+  "keywords": [
+    "the open knowledge graph",
+    "end",
+    "extraction",
+    "question",
+    "we",
+    "graph",
+    "it",
+    "an evaluation protocol",
+    "information",
+    "an evaluation",
+    "i",
+    "object",
+    "text",
+    "open knowledge graph embeddings",
+    "embeddings"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.209/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:45:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

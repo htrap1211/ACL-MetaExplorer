@@ -1,0 +1,33 @@
+{
+  "id": "P19-1007",
+  "title": "Semantic Parsing with Dual Learning",
+  "authors": [
+    "Cao, Ruisheng  and\nZhu, Su  and\nLiu, Chen  and\nLi, Jieyu  and\nYu, Kai"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Semantic parsing converts natural language queries into structured logical forms. The lack of training data is still one of the most serious problems in this area. In this work, we develop a semantic parsing framework with the dual learning algorithm, which enables a semantic parser to make full use of data (labeled and even unlabeled) through a dual-learning game. This game between a primal model (semantic parsing) and a dual model (logical form to query) forces them to regularize each other, and can achieve feedback signals from some prior-knowledge. By utilizing the prior-knowledge of logical form structures, we propose a novel reward signal at the surface and semantic levels which tends to generate complete and reasonable logical forms. Experimental results show that our approach achieves new state-of-the-art performance on ATIS dataset and gets competitive performance on OVERNIGHT dataset.",
+  "keywords": [
+    "work",
+    "parsing",
+    "knowledge",
+    "language",
+    "natural",
+    "model",
+    "a semantic parser",
+    "feedback",
+    "form",
+    "a semantic parsing framework",
+    "semantic",
+    "we",
+    "semantic parsing",
+    "learning",
+    "training"
+  ],
+  "url": "https://aclanthology.org/P19-1007/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:28:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.214",
+  "title": "ASSIST}: Towards Label Noise-Robust Dialogue State Tracking",
+  "authors": [
+    "Ye, Fanghua  and\nFeng, Yue  and\nYilmaz, Emine"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "The MultiWOZ 2.0 dataset has greatly boosted the research on dialogue state tracking (DST). However, substantial noise has been discovered in its state annotations. Such noise brings about huge challenges for training DST models robustly. Although several refined versions, including MultiWOZ 2.1-2.4, have been published recently, there are still lots of noisy labels, especially in the training set. Besides, it is costly to rectify all the problematic annotations. In this paper, instead of improving the annotation quality further, we propose a general framework, named ASSIST (lAbel noiSe-robuSt dIalogue State Tracking), to train DST models robustly from noisy labels. ASSIST first generates pseudo labels for each sample in the training set by using an auxiliary model trained on a small clean dataset, then puts the generated pseudo labels and vanilla noisy labels together to train the primary model. We show the validity of ASSIST theoretically. Experimental results also demonstrate that ASSIST improves the joint goal accuracy of DST by up to 28.16% on MultiWOZ 2.0 and 8.41% on MultiWOZ 2.4, compared to using only the vanilla noisy labels.",
+  "keywords": [
+    "general",
+    "model",
+    "a general framework",
+    "it",
+    "label noise-robust dialogue state",
+    "dialogue state tracking",
+    "the joint goal accuracy",
+    "we",
+    "dialogue",
+    "the generated pseudo labels",
+    "training",
+    "accuracy",
+    "sample",
+    "2 0 dataset",
+    "the annotation quality"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.214/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

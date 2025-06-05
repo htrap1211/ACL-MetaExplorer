@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-demos.29",
+  "title": "Fundus: A Simple-to-Use News Scraper Optimized for High Quality Extractions",
+  "authors": [
+    "Dallabetta, Max  and\nDobberstein, Conrad  and\nBreiding, Adrian  and\nAkbik, Alan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+  "abstract": "This paper introduces Fundus, a user-friendly news scraper that enables users to obtain millions of high-quality news articles with just a few lines of code. Unlike existing news scrapers, we use manually crafted, bespoke content extractors that are specifically tailored to the formatting guidelines of each supported online newspaper. This allows us to optimize our scraping for quality such that retrieved news articles are textually complete and without HTML artifacts. Further, our framework combines both crawling (retrieving HTML from the web or large web archives) and content extraction into a single pipeline. By providing a unified interface for a predefined collection of newspapers, we aim to make Fundus broadly usable even for non-technical users. This paper gives an overview of the framework, discusses our design choices, and presents a comparative evaluation against other popular news scrapers. Our evaluation shows that Fundus yields significantly higher quality extractions (complete and artifact-free news articles) than prior work.The framework is available on GitHub under https://github.com/flairNLP/fundus and can be simply installed using pip.",
+  "keywords": [
+    "code",
+    "extraction",
+    "a user-friendly news scraper",
+    "overview",
+    "we",
+    "flairnlp",
+    "friendly",
+    "an overview",
+    "a unified interface",
+    "unified",
+    "yields",
+    "flairnlp fundus",
+    "our evaluation",
+    "work",
+    "retrieving html"
+  ],
+  "url": "https://aclanthology.org/2024.acl-demos.29/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:47:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

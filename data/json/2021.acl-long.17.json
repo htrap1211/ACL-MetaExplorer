@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.17",
+  "title": "Modularized Interaction Network for Named Entity Recognition",
+  "authors": [
+    "Li, Fei  and\nWang, Zheng  and\nHui, Siu Cheung  and\nLiao, Lejian  and\nSong, Dandan  and\nXu, Jing  and\nHe, Guoxiu  and\nJia, Meihuizi"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Although the existing Named Entity Recognition (NER) models have achieved promising performance, they suffer from certain drawbacks. The sequence labeling-based NER models do not perform well in recognizing long entities as they focus only on word-level information, while the segment-based NER models which focus on processing segment instead of single word are unable to capture the word-level dependencies within the segment. Moreover, as boundary detection and type prediction may cooperate with each other for the NER task, it is also important for the two sub-tasks to mutually reinforce each other by sharing their information. In this paper, we propose a novel Modularized Interaction Network (MIN) model which utilizes both segment-level information and word-level dependencies, and incorporates an interaction mechanism to support information sharing between boundary detection and type prediction to enhance the performance for the NER task. We have conducted extensive experiments based on three NER benchmark datasets. The performance results have shown that the proposed MIN model has outperformed the current state-of-the-art models.",
+  "keywords": [
+    "ner",
+    "processing",
+    "the word-level dependencies",
+    "long entities",
+    "model",
+    "named entity recognition",
+    "entities",
+    "it",
+    "three ner benchmark datasets",
+    "-",
+    "dependencies",
+    "word-level dependencies",
+    "information",
+    "min",
+    "network"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:59:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

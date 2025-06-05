@@ -1,0 +1,33 @@
+{
+  "id": "P19-1120",
+  "title": "Effective Cross-lingual Transfer of Neural Machine Translation Models without Shared Vocabularies",
+  "authors": [
+    "Kim, Yunsu  and\nGao, Yingbo  and\nNey, Hermann"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Transfer learning or multilingual model is essential for low-resource neural machine translation (NMT), but the applicability is limited to cognate languages by sharing their vocabularies. This paper shows effective techniques to transfer a pretrained NMT model to a new, unrelated language without shared vocabularies. We relieve the vocabulary mismatch by using cross-lingual word embedding, train a more language-agnostic encoder by injecting artificial noises, and generate synthetic data easily from the pretraining data without back-translation. Our methods do not require restructuring the vocabulary or retraining the model. We improve plain NMT transfer by up to +5.1% BLEU in five low-resource translation tasks, outperforming multilingual joint training by a large margin. We also provide extensive ablation studies on pretrained embedding, synthetic data, vocabulary size, and parameter freezing for a better understanding of NMT transfer.",
+  "keywords": [
+    "cross",
+    "language",
+    "translation",
+    "neural",
+    "machine",
+    "model",
+    "studies",
+    "vocabularies",
+    "bleu",
+    "encoder",
+    "five low-resource translation tasks",
+    "extensive ablation studies",
+    "back-translation",
+    "train",
+    "word"
+  ],
+  "url": "https://aclanthology.org/P19-1120/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:32:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

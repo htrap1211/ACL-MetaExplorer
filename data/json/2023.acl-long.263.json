@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.263",
+  "title": "Hidden Schema Networks",
+  "authors": [
+    "Sanchez, Ramses  and\nConrads, Lukas  and\nWelke, Pascal  and\nCvejoski, Kostadin  and\nOjeda Marin, Cesar"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large, pretrained language models infer powerful representations that encode rich semantic and syntactic content, albeit implicitly. In this work we introduce a novel neural language model that enforces, via inductive biases, explicit relational structures which allow for compositionality onto the output representations of pretrained language models. Specifically, the model encodes sentences into sequences of symbols (composed representations), which correspond to the nodes visited by biased random walkers on a global latent graph, and infers the posterior distribution of the latter. We first demonstrate that the model is able to uncover ground-truth graphs from artificially generated datasets of random token sequences. Next, we leverage pretrained BERT and GPT-2 language models as encoder and decoder, respectively, to infer networks of symbols (schemata) from natural language datasets. Our experiments show that (i) the inferred symbols can be interpreted as encoding different aspects of language, as e.g. topics or sentiments, and that (ii) GPT-2-like models can effectively be conditioned on symbolic representations. Finally, we explore training autoregressive, random walk “reasoning” models on schema networks inferred from commonsense knowledge databases, and using the sampled paths to enhance the performance of pretrained language models on commonsense If-Then reasoning tasks.",
+  "keywords": [
+    "biased random walkers",
+    "ii gpt-2-like models",
+    "encode",
+    "semantic",
+    "we",
+    "graph",
+    "neural",
+    "natural",
+    "inductive biases",
+    "token",
+    "decoder",
+    "artificially generated datasets",
+    "latent",
+    "e",
+    "rich"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.263/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:38:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

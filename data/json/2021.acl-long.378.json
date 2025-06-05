@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.378",
+  "title": "Parameter-Efficient Transfer Learning with Diff Pruning",
+  "authors": [
+    "Guo, Demi  and\nRush, Alexander  and\nKim, Yoon"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "The large size of pretrained networks makes them difficult to deploy for multiple tasks in storage-constrained settings. Diff pruning enables parameter-efficient transfer learning that scales well with new tasks. The approach learns a task-specific “diff” vector that extends the original pretrained parameters. This diff vector is adaptively pruned during training with a differentiable approximation to the L0-norm penalty to encourage sparsity. As the number of tasks increases, diff pruning remains parameter-efficient, as it requires storing only a small diff vector for each task. Since it does not require access to all tasks during training, it is attractive in on-device deployment settings where tasks arrive in stream or even from different providers. Diff pruning can match the performance of finetuned baselines on the GLUE benchmark while only modifying 0.5% of the pretrained model’s parameters per task and scales favorably in comparison to popular pruning approaches.",
+  "keywords": [
+    "vector",
+    "model",
+    "it",
+    "efficient",
+    "transfer",
+    "norm",
+    "a task-specific diff vector",
+    "this diff vector",
+    "parameter",
+    "training",
+    "that",
+    "stream",
+    "approach",
+    "original",
+    "the l0-norm penalty"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.378/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

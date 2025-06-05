@@ -1,0 +1,33 @@
+{
+  "id": "2024.sdp-1.9",
+  "title": "Cited Text Spans for Scientific Citation Text Generation",
+  "authors": [
+    "Li, Xiangci  and\nLee, Yi-Hui  and\nOuyang, Jessica"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024)",
+  "abstract": "An automatic citation generation system aims to concisely and accurately describe the relationship between two scientific articles. To do so, such a system must ground its outputs to the content of the cited paper to avoid non-factual hallucinations. Due to the length of scientific documents, existing abstractive approaches have conditioned only on cited paperabstracts. We demonstrate empirically that the abstract is not always the most appropriate input for citation generation and that models trained in this way learn to hallucinate. We propose to condition instead on thecited text span(CTS) as an alternative to the abstract. Because manual CTS annotation is extremely time- and labor-intensive, we experiment with distant labeling of candidate CTS sentences, achieving sufficiently strong performance to substitute for expensive human annotations in model training, and we propose a human-in-the-loop, keyword-based CTS retrieval approach that makes generating citation texts grounded in the full text of cited papers both promising and practical.",
+  "keywords": [
+    "scientific documents",
+    "we",
+    "training",
+    "retrieval",
+    "scientific",
+    "citation generation",
+    "sufficiently strong performance",
+    "text",
+    "two scientific articles",
+    "generation",
+    "model",
+    "scientific citation text generation",
+    "human",
+    "documents",
+    "promising"
+  ],
+  "url": "https://aclanthology.org/2024.sdp-1.9/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

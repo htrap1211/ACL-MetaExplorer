@@ -1,0 +1,33 @@
+{
+  "id": "2024.iwslt-1.7",
+  "title": "Improving the Quality of {IWLST} 2024 Cascade Offline Speech Translation and Speech-to-Speech Translation via Translation Hypothesis Ensembling with {NMT} models and Large Language Models",
+  "authors": [
+    "Wu, Zhanglin  and\nGuo, Jiaxin  and\nWei, Daimeng  and\nRao, Zhiqiang  and\nLi, Zongyao  and\nShang, Hengchao  and\nLuo, Yuanchang  and\nLi, Shaojun  and\nYang, Hao"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 21st International Conference on Spoken Language Translation (IWSLT 2024)",
+  "abstract": "This paper presents HW-TSC’s submission to the IWSLT 2024 Offline Speech Translation Task and Speech-to-Speech Translation Task. The former includes three translation directions: English to German, English to Chinese, and English to Japanese, while the latter only includes the translation direction of English to Chinese. We attend all three tracks (Constraint training, Constrained with Large Language Models training, and Unconstrained training) of offline speech translation task, using the cascade model architecture. Under the constrained training track, we train an ASR model from scratch, and then employ R-Drop and domain data selection to train the NMT model. In the constrained with Large Language Models training track, we use Wav2vec 2.0 and mBART50 for ASR model training initialization, and then train the LLama2-7B-based MT model using continuous training with sentence-aligned parallel data, supervised fine-tuning, and contrastive preference optimization. In the unconstrained training track, we fine-tune the whisper model for speech recognition, and then ensemble the translation results of NMT models and LLMs to produce superior translation output. For the speech-to-speech translation Task, we initially employ the offline speech translation system described above to generate the translated text. Then, we utilize the VITS model to generate the corresponding speech and employ the OpenVoice model for timbre cloning.",
+  "keywords": [
+    "the translation results",
+    "we",
+    "training",
+    "translation",
+    "translation hypothesis",
+    "llms",
+    "tuning",
+    "three translation directions",
+    "superior translation output",
+    "large language models training",
+    "text",
+    "drop",
+    "fine",
+    "offline speech translation task",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.iwslt-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:06:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

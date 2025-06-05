@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.533",
+  "title": "Fixed Input Parameterization for Efficient Prompting",
+  "authors": [
+    "Choi, Eunbi  and\nJo, Yongrae  and\nJang, Joel  and\nJang, Joonwon  and\nSeo, Minjoon"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Recent works have shown that attaching prompts to the input is effective at conditioning Language Models (LM) to perform specific tasks. However, prompts are always included in the input text during inference, even when they are fixed, thus incurring substantial computational and memory overhead. Also, there is currently no straightforward method of utilizing prompts that are longer than the maximum input length of the LMs without incurring additional costs during inference. We formally define Fixed Input Parameterization (FIP) problem that focuses on injecting the fixed prompt into the parameters of an LM to be an efficient alternative to attaching fixed prompts to the input. We show that in scenarios with long fixed prompts, FIP can be up to 280 times more efficient in terms of total FLOPs than previous approaches. We further explore methodologies for FIP and show promising results in persona-dependent conversation, semantic parsing, and zero-shot learning with task instructions. Through these explorations, we show that FIP can be a promising direction for conditioning language models, in scenarios with long and fixed prompts.",
+  "keywords": [
+    "parsing",
+    "efficient",
+    "the fixed prompt",
+    "semantic",
+    "we",
+    "shot",
+    "fixed prompts",
+    "learning",
+    "long and fixed prompts",
+    "prompt",
+    "text",
+    "language models",
+    "long fixed prompts",
+    "zero-shot learning",
+    "prompts"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.533/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

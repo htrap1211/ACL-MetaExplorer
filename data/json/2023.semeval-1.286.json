@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.286",
+  "title": "YNU}-{HPCC} at {S}em{E}val-2023 Task 6: {LEGAL}-{BERT} Based Hierarchical {B}i{LSTM} with {CRF} for Rhetorical Roles Prediction",
+  "authors": [
+    "Chen, Yu  and\nZhang, You  and\nWang, Jin  and\nZhang, Xuejie"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "To understand a legal document for real-world applications, SemEval-2023 Task 6 proposes a shared Subtask A, rhetorical roles (RRs) prediction, which requires a system to automatically assign a RR label for each semantical segment in a legal text. In this paper, we propose a LEGAL-BERT based hierarchical BiLSTM model with conditional random field (CRF) for RR prediction, which primarily consists of two parts: word-level and sentence-level encoders. The word-level encoder first adopts a legal-domain pre-trained language model, LEGAL-BERT, initially word-embedding words in each sentence in a document and a word-level BiLSTM further encoding such sentence representation. The sentence-level encoder then uses an attentive pooling method for sentence embedding and a sentence-level BiLSTM for document modeling. Finally, a CRF is utilized to predict RRs for each sentence. The officially released results show that our method outperformed the baseline systems. Our team won 7th rank out of 27 participants in Subtask A.",
+  "keywords": [
+    "conditional random field crf",
+    "field",
+    "each semantical segment",
+    "we",
+    "lstm",
+    "the word-level encoder",
+    "the sentence-level encoder",
+    "bilstm",
+    "word",
+    "semantical",
+    "bert",
+    "text",
+    "a sentence-level bilstm",
+    "encoders",
+    "hierarchical"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.286/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:30:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

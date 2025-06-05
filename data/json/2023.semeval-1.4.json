@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.4",
+  "title": "Lexicools at {S}em{E}val-2023 Task 10: Sexism Lexicon Construction via {XAI",
+  "authors": [
+    "Nakwijit, Pakawat  and\nSamir, Mahmoud  and\nPurver, Matthew"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper presents our work on the SemEval-2023 Task 10 Explainable Detection of Online Sexism (EDOS) using lexicon-based models. Our approach consists of three main steps: lexicon construction based on Pointwise Mutual Information (PMI) and Shapley value, lexicon augmentation using an unannotated corpus and Large Language Models (LLMs), and, lastly, lexical incorporation for Bag-of-Word (BoW) logistic regression and fine-tuning LLMs. Our results demonstrate that our Shapley approach effectively produces a high-quality lexicon. We also show that by simply counting the presence of certain words in our lexicons and comparing the count can outperform a BoW logistic regression in task B/C and fine-tuning BERT in task C. In the end, our classifier achieved F1-scores of 53.34\\% and 27.31\\% on the official blind test sets for tasks B and C, respectively. We, additionally, provide in-depth analysis highlighting model limitation and bias. We also present our attempts to understand the model’s behaviour based on our constructed lexicons. Our code and the resulting lexicons are open-sourced in our GitHub repositoryhttps://github.com/SirBadr/SemEval2022-Task10.",
+  "keywords": [
+    "code",
+    "bias",
+    "end",
+    "classifier",
+    "we",
+    "our classifier",
+    "bag",
+    "information",
+    "word",
+    "analysis",
+    "llms",
+    "tuning",
+    "bert",
+    "large language models llms",
+    "fine-tuning llms"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

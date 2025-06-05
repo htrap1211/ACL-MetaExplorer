@@ -1,0 +1,33 @@
+{
+  "id": "P19-1594",
+  "title": "Interpolated Spectral {NG}ram Language Models",
+  "authors": [
+    "Quattoni, Ariadna  and\nCarreras, Xavier"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Spectral models for learning weighted non-deterministic automata have nice theoretical and algorithmic properties. Despite this, it has been challenging to obtain competitive results in language modeling tasks, for two main reasons. First, in order to capture long-range dependencies of the data, the method must use statistics from long substrings, which results in very large matrices that are difficult to decompose. The second is that the loss function behind spectral learning, based on moment matching, differs from the probabilistic metrics used to evaluate language models. In this work we employ a technique for scaling up spectral learning, and use interpolated predictions that are optimized to maximize perplexity. Our experiments in character-based language modeling show that our method matches the performance of state-of-the-art ngram models, while being very fast to train.",
+  "keywords": [
+    "work",
+    "language",
+    "language modeling tasks",
+    "it",
+    "the probabilistic metrics",
+    "metrics",
+    "language models",
+    "perplexity",
+    "modeling",
+    "properties",
+    "dependencies",
+    "loss",
+    "we",
+    "learning",
+    "moment"
+  ],
+  "url": "https://aclanthology.org/P19-1594/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:45:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

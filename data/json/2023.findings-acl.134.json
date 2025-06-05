@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.134",
+  "title": "Speaking Multiple Languages Affects the Moral Bias of Language Models",
+  "authors": [
+    "H{\\\"a}mmerl, Katharina  and\nDeiseroth, Bjoern  and\nSchramowski, Patrick  and\nLibovick{\\'y}, Jind{\\v{r}}ich  and\nRothkopf, Constantin  and\nFraser, Alexander  and\nKersting, Kristian"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Pre-trained multilingual language models (PMLMs) are commonly used when dealing with data from multiple languages and cross-lingual transfer. However, PMLMs are trained on varying amounts of data for each language. In practice this means their performance is often much better on English than many other languages. We explore to what extent this also applies to moral norms. Do the models capture moral norms from English and impose them on other languages? Do the models exhibit random and thus potentially harmful beliefs in certain languages? Both these issues could negatively impact cross-lingual transfer and potentially lead to harmful outcomes. In this paper, we (1) apply the MORALDIRECTION framework to multilingual models, comparing results in German, Czech, Arabic, Chinese, and English, (2) analyse model behaviour on filtered parallel subtitles corpora, and (3) apply the models to a Moral Foundations Questionnaire, comparing with human responses from different countries. Our experiments demonstrate that, indeed, PMLMs encode differing moral biases, but these do not necessarily correspond to cultural differences or commonalities in human opinions. We release our code and models.",
+  "keywords": [
+    "code",
+    "bias",
+    "encode differing moral biases",
+    "encode",
+    "different countries",
+    "we",
+    "the moral bias",
+    "cross",
+    "transfer",
+    "commonalities",
+    "language models",
+    "beliefs",
+    "biases",
+    "countries",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.134/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

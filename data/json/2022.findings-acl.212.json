@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.212",
+  "title": "More Than Words: Collocation Retokenization for {L}atent {D}irichlet {A}llocation Models",
+  "authors": [
+    "Cheevaprawatdomrong, Jin  and\nSchofield, Alexandra  and\nRutherford, Attapol"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Traditionally, Latent Dirichlet Allocation (LDA) ingests words in a collection of documents to discover their latent topics using word-document co-occurrences. Previous studies show that representing bigrams collocations in the input can improve topic coherence in English. However, it is unclear how to achieve the best results for languages without marked word boundaries such as Chinese and Thai. Here, we explore the use of retokenization based on chi-squared measures,t-statistics, and raw frequency to merge frequent token ngrams into collocations when preparing input to the LDA model. Based on the goodness of fit and the coherence metric, we show that topics trained with merged tokens result in topic keys that are clearer, more coherent, and more effective at distinguishing topics than those of unmerged models.",
+  "keywords": [
+    "dirichlet allocation lda",
+    "fit",
+    "the lda model",
+    "atent",
+    "we",
+    "allocation",
+    "it",
+    "token",
+    "latent",
+    "word",
+    "words collocation retokenization",
+    "metric",
+    "marked word boundaries",
+    "topic",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.212/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

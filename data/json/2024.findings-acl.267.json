@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.267",
+  "title": "The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation ({RAG})",
+  "authors": [
+    "Zeng, Shenglai  and\nZhang, Jiankun  and\nHe, Pengfei  and\nLiu, Yiding  and\nXing, Yue  and\nXu, Han  and\nRen, Jie  and\nChang, Yi  and\nWang, Shuaiqiang  and\nYin, Dawei  and\nTang, Jiliang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Retrieval-augmented generation (RAG) is a powerful technique to facilitate language model generation with proprietary and private data, where data privacy is a pivotal concern. Whereas extensive research has demonstrated the privacy risks of large language models (LLMs), the RAG technique could potentially reshape the inherent behaviors of LLM generation, posing new privacy issues that are currently under-explored. To this end, we conduct extensive empirical studies with novel attack methods, which demonstrate the vulnerability of RAG systems on leaking the private retrieval database. Despite the new risks brought by RAG on the retrieval data, we further discover that RAG can be used to mitigate the old risks, i.e., the leakage of the LLMs’ training data. In general, we reveal many new insights in this paper for privacy protection of retrieval-augmented LLMs, which could benefit both LLMs and RAG systems builders.",
+  "keywords": [
+    "general",
+    "retrieval-augmented llms",
+    "i",
+    "generation",
+    "language",
+    "end",
+    "proprietary and private data",
+    "model",
+    "studies",
+    "llms",
+    "large language models",
+    "the llms",
+    "retrieval",
+    "extensive empirical studies",
+    "language model generation"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.267/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

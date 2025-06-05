@@ -1,0 +1,33 @@
+{
+  "id": "W18-3709",
+  "title": "Ling@{CASS} Solution to the {NLP}-{TEA} {CGED} Shared Task 2018",
+  "authors": [
+    "Hu, Qinan  and\nZhang, Yongwei  and\nLiu, Fang  and\nGu, Yueguo"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 5th Workshop on Natural Language Processing Techniques for Educational Applications",
+  "abstract": "In this study, we employ the sequence to sequence learning to model the task of grammar error correction. The system takes potentially erroneous sentences as inputs, and outputs correct sentences. To breakthrough the bottlenecks of very limited size of manually labeled data, we adopt a semi-supervised approach. Specifically, we adapt correct sentences written by native Chinese speakers to generate pseudo grammatical errors made by learners of Chinese as a second language. We use the pseudo data to pre-train the model, and the CGED data to fine-tune it. Being aware of the significance of precision in a grammar error correction system in real scenarios, we use ensembles to boost precision. When using inputs as simple as Chinese characters, the ensembled system achieves a precision at 86.56% in the detection of erroneous sentences, and a precision at 51.53% in the correction of errors of Selection and Missing types.",
+  "keywords": [
+    "the ensembled system",
+    "ensembles",
+    "precision",
+    "language",
+    "learners",
+    "nlp",
+    "it",
+    "model",
+    "a precision",
+    "fine",
+    "we",
+    "sequence",
+    "learning",
+    "fine-tune",
+    "the correction"
+  ],
+  "url": "https://aclanthology.org/W18-3709/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:23:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

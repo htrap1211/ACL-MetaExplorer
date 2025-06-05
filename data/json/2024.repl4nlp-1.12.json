@@ -1,0 +1,33 @@
+{
+  "id": "2024.repl4nlp-1.12",
+  "title": "Learn it or Leave it: Module Composition and Pruning for Continual Learning",
+  "authors": [
+    "Wang, Mingyang  and\nAdel, Heike  and\nLange, Lukas  and\nStr{\\\"o}tgen, Jannik  and\nSchuetze, Hinrich"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 9th Workshop on Representation Learning for NLP (RepL4NLP-2024)",
+  "abstract": "In real-world environments, continual learning is essential for machine learning models, as they need to acquire new knowledge incrementally without forgetting what they have already learned. While pretrained language models have shown impressive capabilities on various static tasks, applying them to continual learning poses significant challenges, including avoiding catastrophic forgetting, facilitating knowledge transfer, and maintaining parameter efficiency. In this paper, we introduce MoCL-P, a novel lightweight continual learning method that addresses these challenges simultaneously. Unlike traditional approaches that continuously expand parameters for newly arriving tasks, MoCL-P integrates task representation-guided module composition with adaptive pruning, effectively balancing knowledge integration and computational overhead. Our evaluation across three continual learning benchmarks with up to 176 tasks shows that MoCL-P achieves state-of-the-art performance and improves parameter efficiency by up to three times, demonstrating its potential for practical applications where resource requirements are constrained.",
+  "keywords": [
+    "efficiency",
+    "we",
+    "parameter",
+    "it",
+    "machine learning models",
+    "learning",
+    "transfer",
+    "impressive capabilities",
+    "parameter efficiency",
+    "while pretrained language models",
+    "our evaluation",
+    "knowledge",
+    "language",
+    "machine",
+    "capabilities"
+  ],
+  "url": "https://aclanthology.org/2024.repl4nlp-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

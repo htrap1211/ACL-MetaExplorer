@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.279",
+  "title": "Rethinking Document-level Neural Machine Translation",
+  "authors": [
+    "Sun, Zewei  and\nWang, Mingxuan  and\nZhou, Hao  and\nZhao, Chengqi  and\nHuang, Shujian  and\nChen, Jiajun  and\nLi, Lei"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "This paper does not aim at introducing a novel model for document-level neural machine translation. Instead, we head back to the original Transformer model and hope to answer the following question: Is the capacity of current models strong enough for document-level translation? Interestingly, we observe that the original Transformer with appropriate training techniques can achieve strong results for document translation, even with a length of 2000 words. We evaluate this model and several recent approaches on nine document-level datasets and two sentence-level datasets across six languages. Experiments show that document-level Transformer models outperforms sentence-level ones and many previous methods in a comprehensive set of metrics, including BLEU, four lexical indices, three newly proposed assistant linguistic indicators, and human evaluation.",
+  "keywords": [
+    "transformer",
+    "document translation",
+    "human evaluation",
+    "human",
+    "document-level translation",
+    "neural",
+    "model",
+    "machine",
+    "the original transformer",
+    "document-level neural machine translation",
+    "metrics",
+    "bleu",
+    "question",
+    "the original transformer model",
+    "document-level transformer models"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.279/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

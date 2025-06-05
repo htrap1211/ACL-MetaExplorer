@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.144",
+  "title": "Are Sample-Efficient {NLP} Models More Robust?",
+  "authors": [
+    "Liu, Nelson F.  and\nKumar, Ananya  and\nLiang, Percy  and\nJia, Robin"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Recent results in image classification and extractive question answering have observed that pre-trained models trained on less in-distribution data have better out-ofdistribution performance. However, it is unclear how broadly these trends hold. We conduct a large empirical study across three tasks, three broadly-applicable modeling interventions (increasing model size, using a different adaptation method, and pre-training on more data), and 14 diverse datasets to investigate the relationship between sample efficiency (amount of data needed to reach a given ID accuracy) and robustness (how models fare on OOD evaluation). We find that higher sample efficiency is only correlated with better average OOD robustness on some modeling interventions and tasks, but not others. On individual datasets, models with lower sample efficiency can even be more robust. These results suggest that general-purpose methods for improving sample efficiency are unlikely to yield universal OOD robustness improvements, since such improvements are highly dataset- and task-dependent. Even in an era of large, multi-purpose pre-trained models, task-specific decisions may often be necessary for OOD generalization.",
+  "keywords": [
+    "efficient",
+    "higher sample efficiency",
+    "question",
+    "efficiency",
+    "era",
+    "we",
+    "training",
+    "classification",
+    "it",
+    "sample-efficient nlp models",
+    "ood evaluation",
+    "general-purpose methods",
+    "image classification",
+    "answering",
+    "sample efficiency"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.144/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:50:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

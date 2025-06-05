@@ -1,0 +1,33 @@
+{
+  "id": "P17-2087",
+  "title": "Disfluency Detection using a Noisy Channel Model and a Deep Neural Language Model",
+  "authors": [
+    "Jamshid Lou, Paria  and\nJohnson, Mark"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "This paper presents a model for disfluency detection in spontaneous speech transcripts called LSTM Noisy Channel Model. The model uses a Noisy Channel Model (NCM) to generate n-best candidate disfluency analyses and a Long Short-Term Memory (LSTM) language model to score the underlying fluent sentences of each analysis. The LSTM language model scores, along with other features, are used in a MaxEnt reranker to identify the most plausible analysis. We show that using an LSTM language model in the reranking process of noisy channel disfluency model improves the state-of-the-art in disfluency detection.",
+  "keywords": [
+    "deep",
+    "process",
+    "language",
+    "an lstm language model",
+    "neural",
+    "lstm noisy channel model",
+    "model",
+    "we",
+    "lstm",
+    "analysis",
+    "speech",
+    "term",
+    "the reranking process",
+    "other features",
+    "state"
+  ],
+  "url": "https://aclanthology.org/P17-2087/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:04:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

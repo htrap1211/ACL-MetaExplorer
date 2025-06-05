@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.283",
+  "title": "SEAG}: Structure-Aware Event Causality Generation",
+  "authors": [
+    "Tao, Zhengwei  and\nJin, Zhi  and\nBai, Xiaoying  and\nZhao, Haiyan  and\nDou, Chengfeng  and\nZhao, Yongqiang  and\nWang, Fang  and\nTao, Chongyang"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Extracting event causality underlies a broad spectrum of natural language processing applications. Cutting-edge methods break this task into Event Detection and Event Causality Identification. Although the pipelined solutions succeed in achieving acceptable results, the inherent nature of separating the task incurs limitations. On the one hand, it suffers from the lack of cross-task dependencies and may cause error propagation. On the other hand, it predicts events and relations separately, undermining the integrity of the event causality graph (ECG). To address such issues, in this paper, we propose an approach for Structure-Aware Event Causality Generation (SEAG). With a graph linearization module, we generate the ECG structure in a way of text2text generation based on a pre-trained language model. To foster the structural representation of the ECG, we introduce the novel Causality Structural Discrimination training paradigm in which we perform structural discriminative training alongside auto-regressive generation enabling the model to distinguish from constructed incorrect ECGs. We conduct experiments on three datasets. The experimental results demonstrate the effectiveness of structural event causality generation and the causality structural discrimination training.",
+  "keywords": [
+    "auto-regressive generation",
+    "a pre-trained language model",
+    "we",
+    "structural event causality generation",
+    "graph",
+    "training",
+    "cross",
+    "edge",
+    "text2text generation",
+    "natural",
+    "it",
+    "cross-task dependencies",
+    "dependencies",
+    "processing",
+    "structure-aware event causality generation"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.283/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

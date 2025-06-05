@@ -1,0 +1,33 @@
+{
+  "id": "2023.trustnlp-1.10",
+  "title": "A Keyword Based Approach to Understanding the Overpenalization of Marginalized Groups by {E}nglish Marginal Abuse Models on {T}witter",
+  "authors": [
+    "Yee, Kyra  and\nSchoenauer Sebag, Alice  and\nRedfield, Olivia  and\nEck, Matthias  and\nSheng, Emily  and\nBelli, Luca"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 3rd Workshop on Trustworthy Natural Language Processing (TrustNLP 2023)",
+  "abstract": "Harmful content detection models tend to have higher false positive rates for content from marginalized groups. In the context of marginal abuse modeling on Twitter, such disproportionate penalization poses the risk of reduced visibility, where marginalized communities lose the opportunity to voice their opinion on the platform. Current approaches to algorithmic harm mitigation, and bias detection for NLP models are often very ad hoc and subject to human bias. We make two main contributions in this paper. First, we design a novel methodology, which provides a principled approach to detecting and measuring the severity of potential harms associated with a text-based model. Second, we apply our methodology to audit Twitter’s English marginal abuse model, which is used for removing amplification eligibility of marginally abusive content. Without utilizing demographic labels or dialect classifiers, we are still able to detect and measure the severity of issues related to the over-penalization of the speech of marginalized communities, such as the use of reclaimed speech, counterspeech, and identity related terms. In order to mitigate the associated harms, we experiment with adding additional true negative examples and find that doing so provides improvements to our fairness metrics without large degradations in model performance.",
+  "keywords": [
+    "bias",
+    "communities",
+    "classifiers",
+    "our fairness metrics",
+    "we",
+    "current",
+    "human bias",
+    "nlp models",
+    "bias detection",
+    "dialect classifiers",
+    "text",
+    "metrics",
+    "nlp",
+    "model",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2023.trustnlp-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:32:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

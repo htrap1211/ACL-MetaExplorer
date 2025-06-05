@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.587",
+  "title": "Revisiting Knowledge Distillation for Autoregressive Language Models",
+  "authors": [
+    "Zhong, Qihuang  and\nDing, Liang  and\nShen, Li  and\nLiu, Juhua  and\nDu, Bo  and\nTao, Dacheng"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Knowledge distillation (KD) is a common approach to compress a teacher model to reduce its inference cost and memory footprint, by training a smaller student model. However, in the context of autoregressive language models (LMs), we empirically find that larger teacher LMs might dramatically result in a poorer student. In response to this problem, we conduct a series of analyses and reveal that different tokens have different teaching modes, neglecting which will lead to performance degradation. Motivated by this, we propose a simple yet effective adaptive teaching approach (ATKD) to improve the KD. The core of ATKD is to reduce rote learning and make teaching more diverse and flexible. Extensive experiments on 8 LM tasks show that, with the help of ATKD, various baseline KD methods can achieve consistent and significant performance gains (up to +3.04% average score) across all model types and sizes. More encouragingly, ATKD can improve the student model generalization effectively.",
+  "keywords": [
+    "a series",
+    "autoregressive language models lms",
+    "knowledge",
+    "language",
+    "model",
+    "series",
+    "generalization",
+    "we",
+    "learning",
+    "core",
+    "the student model generalization",
+    "poorer",
+    "the core",
+    "approach",
+    "this"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.587/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

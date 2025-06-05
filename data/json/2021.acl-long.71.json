@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.71",
+  "title": "Integrated Directional Gradients: Feature Interaction Attribution for Neural {NLP} Models",
+  "authors": [
+    "Sikdar, Sandipan  and\nBhattacharya, Parantapa  and\nHeese, Kieran"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "In this paper, we introduce Integrated Directional Gradients (IDG), a method for attributing importance scores to groups of features, indicating their relevance to the output of a neural network model for a given input. The success of Deep Neural Networks has been attributed to their ability to capture higher level feature interactions. Hence, in the last few years capturing the importance of these feature interactions has received increased prominence in ML interpretability literature. In this paper, we formally define the feature group attribution problem and outline a set of axioms that any intuitive feature group attribution method should satisfy. Earlier, cooperative game theory inspired axiomatic methods only borrowed axioms from solution concepts (such as Shapley value) for individual feature attributions and introduced their own extensions to model interactions. In contrast, our formulation is inspired by axioms satisfied by characteristic functions as well as solution concepts in cooperative game theory literature. We believe that characteristic functions are much better suited to model importance of groups compared to just solution concepts. We demonstrate that our proposed method, IDG, satisfies all the axioms. Using IDG we analyze two state-of-the-art text classifiers on three benchmark datasets for sentiment analysis. Our experiments show that IDG is able to effectively capture semantic interactions in linguistic models via negations and conjunctions.",
+  "keywords": [
+    "deep",
+    "classifiers",
+    "deep neural networks",
+    "semantic",
+    "we",
+    "neural",
+    "semantic interactions",
+    "analysis",
+    "integrated directional gradients",
+    "text",
+    "earlier cooperative game theory",
+    "sentiment",
+    "earlier",
+    "nlp",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.71/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:00:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

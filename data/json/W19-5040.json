@@ -1,0 +1,33 @@
+{
+  "id": "W19-5040",
+  "title": "PANLP} at {MEDIQA} 2019: Pre-trained Language Models, Transfer Learning and Knowledge Distillation",
+  "authors": [
+    "Zhu, Wei  and\nZhou, Xiaofeng  and\nWang, Keqiang  and\nLuo, Xun  and\nLi, Xiepeng  and\nNi, Yuan  and\nXie, Guotong"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 18th BioNLP Workshop and Shared Task",
+  "abstract": "This paper describes the models designated for the MEDIQA 2019 shared tasks by the team PANLP. We take advantages of the recent advances in pre-trained bidirectional transformer language models such as BERT (Devlin et al., 2018) and MT-DNN (Liu et al., 2019b). We find that pre-trained language models can significantly outperform traditional deep learning models. Transfer learning from the NLI task to the RQE task is also experimented, which proves to be useful in improving the results of fine-tuning MT-DNN large. A knowledge distillation process is implemented, to distill the knowledge contained in a set of models and transfer it into an single model, whose performance turns out to be comparable with that obtained by the ensemble of that set of models. Finally, for test submissions, model ensemble and a re-ranking process are implemented to boost the performances. Our models participated in all three tasks and ranked the 1st place for the RQE task, and the 2nd place for the NLI task, and also the 2nd place for the QA task.",
+  "keywords": [
+    "panlp",
+    "deep",
+    "transformer",
+    "ensemble",
+    "the team panlp",
+    "process",
+    "knowledge",
+    "language",
+    "pre-trained language models",
+    "bert",
+    "model",
+    "it",
+    "the qa task",
+    "mediqa",
+    "fine-tuning mt-dnn"
+  ],
+  "url": "https://aclanthology.org/W19-5040/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:56:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

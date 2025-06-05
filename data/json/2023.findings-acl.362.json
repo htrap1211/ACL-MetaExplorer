@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.362",
+  "title": "Improving Knowledge Graph Completion with Generative Hard Negative Mining",
+  "authors": [
+    "Qiao, Zile  and\nYe, Wei  and\nYu, Dingyao  and\nMo, Tong  and\nLi, Weiping  and\nZhang, Shikun"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Contrastive learning has recently shown great potential to improve text-based knowledge graph completion (KGC). In this paper, we propose to learn a more semantically structured entity representation space in text-based KGC via hard negatives mining. Specifically, we novelly leverage a sequence-to-sequence architecture to generate high-quality hard negatives. These negatives are sampled from the same decoding distributions as the anchor (or correct entity), inherently being semantically close to the anchor and thus enjoying good hardness. A self-information-enhanced contrasting strategy is further incorporated into the Seq2Seq generator to systematically diversify the produced negatives. Extensive experiments on three KGC benchmarks demonstrate the sound hardness and diversity of our generated negatives and the resulting performance superiority on KGC.",
+  "keywords": [
+    "generative",
+    "seq2seq",
+    "knowledge",
+    "our generated negatives",
+    "text",
+    "knowledge graph completion",
+    "self",
+    "the seq2seq generator",
+    "information",
+    "generator",
+    "kgc",
+    "we",
+    "sequence",
+    "learning",
+    "graph"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.362/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

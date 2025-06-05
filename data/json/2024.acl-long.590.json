@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.590",
+  "title": "Chat Vector: A Simple Approach to Equip {LLM}s with Instruction Following and Model Alignment in New Languages",
+  "authors": [
+    "Huang, Shih-Cheng  and\nLi, Pin-Zu  and\nHsu, Yu-chi  and\nChen, Kuang-Ming  and\nLin, Yu Tung  and\nHsiao, Shih-Kai  and\nTsai, Richard  and\nLee, Hung-yi"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recently, the development of open-source large language models (LLMs) has advanced rapidly. Nevertheless, due to data constraints, the capabilities of most open-source LLMs are primarily focused on English. To address this issue, we introduce the concept ofchat vectorto equip pre-trained language models with instruction following and human value alignment via simple model arithmetic. The chat vector is derived by subtracting the weights of a pre-trained base model (e.g. LLaMA2) from those of its corresponding chat model (e.g. LLaMA2-chat). By simply adding the chat vector to a continual pre-trained model’s weights, we can endow the model with chat capabilities in new languages without the need for further training.Our empirical studies demonstrate the superior efficacy of the chat vector from three different aspects: instruction following, toxicity mitigation, and multi-turn dialogue. Moreover, to showcase the adaptability of our approach, we extend our experiments to encompass various languages, base models, and chat vectors. The results underscore the chat vector’s simplicity, effectiveness, and wide applicability, making it a compelling solution for efficiently enabling conversational capabilities in pre-trained language models. Our code is available at https://github.com/aqweteddy/ChatVector.",
+  "keywords": [
+    "code",
+    "multi-turn dialogue",
+    "conversational capabilities",
+    "our empirical studies",
+    "most open-source llms",
+    "we",
+    "dialogue",
+    "llm",
+    "instruction",
+    "pre-trained language models",
+    "it",
+    "model alignment",
+    "chat capabilities",
+    "the capabilities",
+    "llms"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.590/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

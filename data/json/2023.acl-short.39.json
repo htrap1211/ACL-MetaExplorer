@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.39",
+  "title": "Zero-shot Cross-lingual Transfer With Learned Projections Using Unlabeled Target-Language Data",
+  "authors": [
+    "Deb, Ujan  and\nParab, Ridayesh  and\nJyothi, Preethi"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Adapters have emerged as a parameter-efficient Transformer-based framework for cross-lingual transfer by inserting lightweight language-specific modules (language adapters) and task-specific modules (task adapters) within pretrained multilingual models. Zero-shot transfer is enabled by pairing the language adapter in the target language with an appropriate task adapter in a source language. If our target languages are known apriori, we explore how zero-shot transfer can be further improved within the adapter framework by utilizing unlabeled text during task-specific finetuning. We construct language-specific subspaces using standard linear algebra constructs and selectively project source-language representations into the target language subspace during task-specific finetuning using two schemes. Our experiments on three cross-lingual tasks, Named Entity Recognition (NER), Question Answering (QA) and Natural Language Inference (NLI) yield consistent benefits compared to adapter baselines over a wide variety of target languages with up to 11% relative improvement in NER, 2% relative improvement in QA and 5% relative improvement in NLI.",
+  "keywords": [
+    "variety",
+    "entity recognition ner question",
+    "efficient",
+    "question",
+    "we",
+    "a wide variety",
+    "parameter",
+    "shot",
+    "cross",
+    "natural",
+    "zero-shot cross-lingual transfer",
+    "transfer",
+    "zero-shot transfer",
+    "ner",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.39/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:48:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

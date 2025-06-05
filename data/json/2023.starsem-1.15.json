@@ -1,0 +1,33 @@
+{
+  "id": "2023.starsem-1.15",
+  "title": "Can Pretrained Language Models Derive Correct Semantics from Corrupt Subwords under Noise?",
+  "authors": [
+    "Li, Xinzhe  and\nLiu, Ming  and\nGao, Shang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 12th Joint Conference on Lexical and Computational Semantics (*SEM 2023)",
+  "abstract": "For Pretrained Language Models (PLMs), their susceptibility to noise has recently been linked to subword segmentation. However, it is unclear which aspects of segmentation affect their understanding. This study assesses the robustness of PLMs against various disrupted segmentation caused by noise. An evaluation framework for subword segmentation, named Contrastive Lexical Semantic (CoLeS) probe, is proposed. It provides a systematic categorization of segmentation corruption under noise and evaluation protocols by generating contrastive datasets with canonical-noisy word pairs. Experimental results indicate that PLMs are unable to accurately compute word meanings if the noise introduces completely different subwords, small subword fragments, or a large number of additional subwords, particularly when they are inserted within other subwords.",
+  "keywords": [
+    "noise and evaluation protocols",
+    "language",
+    "semantics",
+    "it",
+    "pretrained language models",
+    "language models",
+    "semantic",
+    "word",
+    "correct semantics",
+    "evaluation",
+    "an evaluation framework",
+    "a systematic categorization",
+    "susceptibility",
+    "corrupt",
+    "subword segmentation"
+  ],
+  "url": "https://aclanthology.org/2023.starsem-1.15/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:31:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

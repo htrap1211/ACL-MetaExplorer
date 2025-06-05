@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.294",
+  "title": "Geo-Seq2seq: {T}witter User Geolocation on Noisy Data through Sequence to Sequence Learning",
+  "authors": [
+    "Zhang, Jingyu  and\nDeLucia, Alexandra  and\nZhang, Chenyu  and\nDredze, Mark"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Location information can support social media analyses by providing geographic context. Some of the most accurate and popular Twitter geolocation systems rely on rule-based methods that examine the user-provided profile location, which fail to handle informal or noisy location names. We propose Geo-Seq2seq, a sequence-to-sequence (seq2seq) model for Twitter user geolocation that rewrites noisy, multilingual user-provided location strings into structured English location names. We train our system on tens of millions of multilingual location string and geotagged-tweet pairs. Compared to leading methods, our model vastly increases coverage (i.e., the number of users we can geolocate) while achieving comparable or superior accuracy. Our error analysis reveals that constrained decoding helps the model produce valid locations according to a location database. Finally, we measure biases across language, country of origin, and time to evaluate fairness, and find that while our model can generalize well to unseen temporal data, performance does vary by language and country.",
+  "keywords": [
+    "we",
+    "valid",
+    "information",
+    "location",
+    "sequence",
+    "comparable or superior accuracy",
+    "analysis",
+    "seq2seq",
+    "i",
+    "biases",
+    "accuracy",
+    "language",
+    "model",
+    "time",
+    "media"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.294/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

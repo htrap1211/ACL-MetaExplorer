@@ -1,0 +1,33 @@
+{
+  "id": "W19-4315",
+  "title": "Auto-Encoding Variational Neural Machine Translation",
+  "authors": [
+    "Eikema, Bryan  and\nAziz, Wilker"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)",
+  "abstract": "We present a deep generative model of bilingual sentence pairs for machine translation. The model generates source and target sentences jointly from a shared latent representation and is parameterised by neural networks. We perform efficient training using amortised variational inference and reparameterised gradients. Additionally, we discuss the statistical implications of joint modelling and propose an efficient approximation to maximum a posteriori decoding for fast test-time predictions. We demonstrate the effectiveness of our model in three machine translation scenarios: in-domain training, mixed-domain training, and learning from a mix of gold-standard and synthetic data. Our experiments show consistently that our joint formulation outperforms conditional modelling (i.e. standard neural machine translation) in all such scenarios.",
+  "keywords": [
+    "deep",
+    "generative",
+    "i",
+    "neural",
+    "neural networks",
+    "gradients",
+    "machine",
+    "model",
+    "efficient training",
+    "efficient",
+    "machine translation",
+    "a deep generative model",
+    "latent",
+    "we",
+    "time"
+  ],
+  "url": "https://aclanthology.org/W19-4315/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:03:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.ecnlp-1.19",
+  "title": "Improving Factual Consistency of Abstractive Summarization on Customer Feedback",
+  "authors": [
+    "Liu, Yang  and\nSun, Yifei  and\nGao, Vincent"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 4th Workshop on e-Commerce and NLP",
+  "abstract": "E-commerce stores collect customer feedback to let sellers learn about customer concerns and enhance customer order experience. Because customer feedback often contains redundant information, a concise summary of the feedback can be generated to help sellers better understand the issues causing customer dissatisfaction. Previous state-of-the-art abstractive text summarization models make two major types of factual errors when producing summaries from customer feedback, which are wrong entity detection (WED) and incorrect product-defect description (IPD). In this work, we introduce a set of methods to enhance the factual consistency of abstractive summarization on customer feedback. We augment the training data with artificially corrupted summaries, and use them as counterparts of the target summaries. We add a contrastive loss term into the training objective so that the model learns to avoid certain factual errors. Evaluation results show that a large portion of WED and IPD errors are alleviated for BART and T5. Furthermore, our approaches do not depend on the structure of the summarization model and thus are generalizable to any abstractive summarization systems.",
+  "keywords": [
+    "feedback",
+    "artificially corrupted summaries",
+    "generalizable",
+    "the training objective",
+    "summarization",
+    "we",
+    "training",
+    "loss",
+    "information",
+    "the target summaries",
+    "customer order experience",
+    "text",
+    "objective",
+    "abstractive summarization",
+    "the summarization model"
+  ],
+  "url": "https://aclanthology.org/2021.ecnlp-1.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-srw.4",
+  "title": "Prompt-based Zero-shot Text Classification with Conceptual Knowledge",
+  "authors": [
+    "Wang, Yuqi  and\nWang, Wei  and\nChen, Qi  and\nHuang, Kaizhu  and\nNguyen, Anh  and\nDe, Suparna"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "In recent years, pre-trained language models have garnered significant attention due to their effectiveness, which stems from the rich knowledge acquired during pre-training. To mitigate the inconsistency issues between pre-training tasks and downstream tasks and to facilitate the resolution of language-related issues, prompt-based approaches have been introduced, which are particularly useful in low-resource scenarios. However, existing approaches mostly rely on verbalizers to translate the predicted vocabulary to task-specific labels. The major limitations of this approach are the ignorance of potentially relevant domain-specific words and being biased by the pre-training data. To address these limitations, we propose a framework that incorporates conceptual knowledge for text classification in the extreme zero-shot setting. The framework includes prompt-based keyword extraction, weight assignment to each prompt keyword, and final representation estimation in the knowledge graph embedding space. We evaluated the method on four widely-used datasets for sentiment analysis and topic detection, demonstrating that it consistently outperforms recently-developed prompt-based approaches in the same experimental settings.",
+  "keywords": [
+    "pre-training tasks",
+    "extraction",
+    "we",
+    "graph",
+    "shot",
+    "training",
+    "classification",
+    "recently-developed prompt-based approaches",
+    "pre-trained language models",
+    "the pre-training data",
+    "it",
+    "the extreme zero-shot",
+    "rich",
+    "text classification",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/2023.acl-srw.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:51:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

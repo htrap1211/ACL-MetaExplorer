@@ -1,0 +1,33 @@
+{
+  "id": "2022.constraint-1.9",
+  "title": "M}-{BAD}: A Multilabel Dataset for Detecting Aggressive Texts and Their Targets",
+  "authors": [
+    "Sharif, Omar  and\nHossain, Eftekhar  and\nHoque, Mohammed Moshiul"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Workshop on Combating Online Hostile Posts in Regional Languages during Emergency Situations",
+  "abstract": "Recently, detection and categorization of undesired (e. g., aggressive, abusive, offensive, hate) content from online platforms has grabbed the attention of researchers because of its detrimental impact on society. Several attempts have been made to mitigate the usage and propagation of such content. However, most past studies were conducted primarily for English, where low-resource languages like Bengali remained out of the focus. Therefore, to facilitate research in this arena, this paper introduces a novel multilabel Bengali dataset (named M-BAD) containing 15650 texts to detect aggressive texts and their targets. Each text of M-BAD went through rigorous two-level annotations. At the primary level, each text is labelled as either aggressive or non-aggressive. In the secondary level, the aggressive texts have been further annotated into five fine-grained target classes: religion, politics, verbal, gender and race. Baseline experiments are carried out with different machine learning (ML), deep learning (DL) and transformer models, where Bangla-BERT acquired the highest weightedf1-score in both detection (0.92) and target identification (0.83) tasks. Error analysis of the models exhibits the difficulty to identify context-dependent aggression, and this work argues that further research is required to address these issues.",
+  "keywords": [
+    "deep",
+    "bangla-bert",
+    "weightedf1",
+    "different machine learning",
+    "most past studies",
+    "learning",
+    "m",
+    "analysis",
+    "transformer models",
+    "bert",
+    "text",
+    "the highest weightedf1-score",
+    "society",
+    "work",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2022.constraint-1.9/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:40:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

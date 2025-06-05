@@ -1,0 +1,33 @@
+{
+  "id": "P18-1103",
+  "title": "Multi-Turn Response Selection for Chatbots with Deep Attention Matching Network",
+  "authors": [
+    "Zhou, Xiangyang  and\nLi, Lu  and\nDong, Daxiang  and\nLiu, Yi  and\nChen, Ying  and\nZhao, Wayne Xin  and\nYu, Dianhai  and\nWu, Hua"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Human generates responses relying on semantic and functional dependencies, including coreference relation, among dialogue elements and their context. In this paper, we investigate matching a response with its multi-turn context using dependency information based entirely on attention. Our solution is inspired by the recently proposed Transformer in machine translation (Vaswani et al., 2017) and we extend the attention mechanism in two ways. First, we construct representations of text segments at different granularities solely with stacked self-attention. Second, we try to extract the truly matched segment pairs with attention across the context and response. We jointly introduce those two kinds of attention in one uniform neural network. Experiments on two large-scale multi-turn response selection tasks show that our proposed model significantly outperforms the state-of-the-art models.",
+  "keywords": [
+    "deep",
+    "transformer",
+    "chatbots",
+    "neural",
+    "the recently proposed transformer",
+    "model",
+    "machine",
+    "text",
+    "human",
+    "stacked self-attention second",
+    "self",
+    "machine translation vaswani",
+    "different granularities",
+    "dependencies",
+    "granularities"
+  ],
+  "url": "https://aclanthology.org/P18-1103/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:11:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.ngt-1.5",
+  "title": "Meta-Learning for Few-Shot {NMT} Adaptation",
+  "authors": [
+    "Sharaf, Amr  and\nHassan, Hany  and\nDaum{\\'e} III, Hal"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the Fourth Workshop on Neural Generation and Translation",
+  "abstract": "We present META-MT, a meta-learning approach to adapt Neural Machine Translation (NMT) systems in a few-shot setting. META-MT provides a new approach to make NMT models easily adaptable to many target do- mains with the minimal amount of in-domain data. We frame the adaptation of NMT systems as a meta-learning problem, where we learn to adapt to new unseen domains based on simulated offline meta-training domain adaptation tasks. We evaluate the proposed meta-learning strategy on ten domains with general large scale NMT systems. We show that META-MT significantly outperforms classical domain adaptation when very few in- domain examples are available. Our experiments shows that META-MT can outperform classical fine-tuning by up to 2.5 BLEU points after seeing only 4, 000 translated words (300 parallel sentences).",
+  "keywords": [
+    "tuning",
+    "general",
+    "neural",
+    "machine",
+    "bleu",
+    "fine",
+    "a few-shot setting meta-mt",
+    "classical fine-tuning",
+    "we",
+    "learning",
+    "few-shot nmt adaptation",
+    "shot",
+    "training",
+    "translation",
+    "strategy"
+  ],
+  "url": "https://aclanthology.org/2020.ngt-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:56:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

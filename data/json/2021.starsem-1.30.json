@@ -1,0 +1,33 @@
+{
+  "id": "2021.starsem-1.30",
+  "title": "Adversarial Training for Machine Reading Comprehension with Virtual Embeddings",
+  "authors": [
+    "Yang, Ziqing  and\nCui, Yiming  and\nSi, Chenglei  and\nChe, Wanxiang  and\nLiu, Ting  and\nWang, Shijin  and\nHu, Guoping"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of *SEM 2021: The Tenth Joint Conference on Lexical and Computational Semantics",
+  "abstract": "Adversarial training (AT) as a regularization method has proved its effectiveness on various tasks. Though there are successful applications of AT on some NLP tasks, the distinguishing characteristics of NLP tasks have not been exploited. In this paper, we aim to apply AT on machine reading comprehension (MRC) tasks. Furthermore, we adapt AT for MRC tasks by proposing a novel adversarial training method called PQAT that perturbs the embedding matrix instead of word vectors. To differentiate the roles of passages and questions, PQAT uses additional virtual P/Q-embedding matrices to gather the global perturbations of words from passages and questions separately. We test the method on a wide range of MRC tasks, including span-based extractive RC and multiple-choice RC. The results show that adversarial training is effective universally, and PQAT further improves the performance.",
+  "keywords": [
+    "embeddings",
+    "a regularization method",
+    "nlp",
+    "some nlp tasks",
+    "questions pqat",
+    "matrix",
+    "machine",
+    "word vectors",
+    "vectors",
+    "the embedding matrix",
+    "regularization",
+    "virtual embeddings adversarial training",
+    "we",
+    "word",
+    "nlp tasks"
+  ],
+  "url": "https://aclanthology.org/2021.starsem-1.30/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

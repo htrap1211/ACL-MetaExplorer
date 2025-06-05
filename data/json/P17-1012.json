@@ -1,0 +1,33 @@
+{
+  "id": "P17-1012",
+  "title": "A Convolutional Encoder Model for Neural Machine Translation",
+  "authors": [
+    "Gehring, Jonas  and\nAuli, Michael  and\nGrangier, David  and\nDauphin, Yann"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The prevalent approach to neural machine translation relies on bi-directional LSTMs to encode the source sentence. We present a faster and simpler architecture based on a succession of convolutional layers. This allows to encode the source sentence simultaneously compared to recurrent networks for which computation is constrained by temporal dependencies. On WMT’16 English-Romanian translation we achieve competitive accuracy to the state-of-the-art and on WMT’15 English-German we outperform several recently published results. Our models obtain almost the same accuracy as a very deep LSTM setup on WMT’14 English-French translation. We speed up CPU decoding by more than two times at the same or higher accuracy as a strong bi-directional LSTM.",
+  "keywords": [
+    "deep",
+    "14 english-french translation",
+    "competitive accuracy",
+    "translation",
+    "neural",
+    "model",
+    "machine",
+    "16 english-romanian translation",
+    "neural machine translation",
+    "temporal dependencies",
+    "encoder",
+    "dependencies",
+    "lstms",
+    "convolutional layers",
+    "we"
+  ],
+  "url": "https://aclanthology.org/P17-1012/",
+  "provenance": {
+    "collected_at": "2025-06-04 23:56:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

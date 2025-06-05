@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.568",
+  "title": "Speaker Sensitive Response Evaluation Model",
+  "authors": [
+    "Bak, JinYeong  and\nOh, Alice"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Automatic evaluation of open-domain dialogue response generation is very challenging because there are many appropriate responses for a given context. Existing evaluation models merely compare the generated response with the ground truth response and rate many of the appropriate responses as inappropriate if they deviate from the ground truth. One approach to resolve this problem is to consider the similarity of the generated response with the conversational context. In this paper, we propose an automatic evaluation model based on that idea and learn the model parameters from an unlabeled conversation corpus. Our approach considers the speakers in defining the different levels of similar context. We use a Twitter conversation corpus that contains many speakers and conversations to test our evaluation model. Experiments show that our model outperforms the other existing evaluation metrics in terms of high correlation with human annotation scores. We also show that our model trained on Twitter can be applied to movie dialogues without any additional training. We provide our code and the learned parameters so that they can be used for automatic evaluation of dialogue response generation models.",
+  "keywords": [
+    "code",
+    "a twitter conversation corpus",
+    "conversations",
+    "we",
+    "dialogue",
+    "training",
+    "our evaluation model experiments",
+    "dialogue response generation models",
+    "automatic evaluation",
+    "the conversational context",
+    "metrics",
+    "open-domain dialogue response generation",
+    "the generated response",
+    "an automatic evaluation model",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.568/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:49:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

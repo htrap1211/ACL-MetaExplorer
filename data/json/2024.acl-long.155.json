@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.155",
+  "title": "Enhancing In-Context Learning via Implicit Demonstration Augmentation",
+  "authors": [
+    "Zhou, Xiaoling  and\nYe, Wei  and\nWang, Yidong  and\nJiang, Chaoya  and\nLee, Zhemg  and\nXie, Rui  and\nZhang, Shikun"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The emergence of in-context learning (ICL) enables large pre-trained language models (PLMs) to make predictions for unseen inputs without updating parameters. Despite its potential, ICL’s effectiveness heavily relies on the quality, quantity, and permutation of demonstrations, commonly leading to suboptimal and unstable performance. In this paper, we tackle this challenge for the first time from the perspective of demonstration augmentation. Specifically, we start with enriching representations of demonstrations by leveraging their deep feature distribution. We then theoretically reveal that when the number of augmented copies approaches infinity, the augmentation is approximately equal to a novel logit calibration mechanism integrated with specific statistical properties. This insight results in a simple yet highly efficient method that significantly improves the average and worst-case accuracy across diverse PLMs and tasks. Moreover, our method effectively reduces performance variance among varying demonstrations, permutations, and templates, and displays the capability to address imbalanced class distributions.",
+  "keywords": [
+    "deep",
+    "efficient",
+    "we",
+    "variance",
+    "properties",
+    "learning",
+    "copies",
+    "augmented copies",
+    "accuracy",
+    "language",
+    "class",
+    "performance variance",
+    "pre",
+    "time",
+    "specific statistical properties"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.155/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

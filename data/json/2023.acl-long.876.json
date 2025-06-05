@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.876",
+  "title": "An Empirical Analysis of Parameter-Efficient Methods for Debiasing Pre-Trained Language Models",
+  "authors": [
+    "Xie, Zhongbin  and\nLukasiewicz, Thomas"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The increasingly large size of modern pre-trained language models not only makes them inherit more human-like biases from the training corpora, but also makes it computationally expensive to mitigate such biases. In this paper, we investigate recent parameter-efficient methods in combination with counterfactual data augmentation (CDA) for bias mitigation. We conduct extensive experiments with prefix tuning, prompt tuning, and adapter tuning on different language models and bias types to evaluate their debiasing performance and abilities to preserve the internal knowledge of a pre-trained model. We find that the parameter-efficient methods (i) are effective in mitigating gender bias, where adapter tuning is consistently the most effective one and prompt tuning is more suitable for GPT-2 than BERT, (ii) areless effective when it comes to racial and religious bias, which may be attributed to the limitations of CDA, and (iii) can perform similarly to or sometimes better than full fine-tuning with improved time and memory efficiency, as well as maintain the internal knowledge in BERT and GPT-2, evaluated via fact retrieval and downstream fine-tuning.",
+  "keywords": [
+    "different language models",
+    "bias",
+    "efficient",
+    "efficiency",
+    "we",
+    "modern pre-trained language models",
+    "parameter",
+    "training",
+    "pre-trained language models",
+    "it",
+    "retrieval",
+    "gpt-2",
+    "analysis",
+    "abilities",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.876/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:47:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P19-1520",
+  "title": "Neural Aspect and Opinion Term Extraction with Mined Rules as Weak Supervision",
+  "authors": [
+    "Dai, Hongliang  and\nSong, Yangqiu"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Lack of labeled training data is a major bottleneck for neural network based aspect and opinion term extraction on product reviews. To alleviate this problem, we first propose an algorithm to automatically mine extraction rules from existing training examples based on dependency parsing results. The mined rules are then applied to label a large amount of auxiliary data. Finally, we study training procedures to train a neural model which can learn from both the data automatically labeled by the rules and a small amount of data accurately annotated by human. Experimental results show that although the mined rules themselves do not perform well due to their limited flexibility, the combination of human annotated data and rule labeled auxiliary data can improve the neural model and allow it to achieve performance better than or comparable with the current state-of-the-art.",
+  "keywords": [
+    "parsing",
+    "neural",
+    "extraction",
+    "model",
+    "it",
+    "human",
+    "dependency",
+    "network",
+    "we",
+    "neural network based aspect",
+    "product reviews",
+    "current",
+    "reviews",
+    "training",
+    "a large amount"
+  ],
+  "url": "https://aclanthology.org/P19-1520/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:43:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.426",
+  "title": "``Low-Resource'' Text Classification: A Parameter-Free Classification Method with Compressors",
+  "authors": [
+    "Jiang, Zhiying  and\nYang, Matthew  and\nTsirlin, Mikhail  and\nTang, Raphael  and\nDai, Yiqin  and\nLin, Jimmy"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Deep neural networks (DNNs) are often used for text classification due to their high accuracy. However, DNNs can be computationally intensive, requiring millions of parameters and large amounts of labeled data, which can make them expensive to use, to optimize, and to transfer to out-of-distribution (OOD) cases in practice. In this paper, we propose a non-parametric alternative to DNNs that’s easy, lightweight, and universal in text classification: a combination of a simple compressor likegzipwith ak-nearest-neighbor classifier. Without any training parameters, our method achieves results that are competitive with non-pretrained deep learning methods on six in-distribution datasets.It even outperforms BERT on all five OOD datasets, including four low-resource languages. Our method also excels in the few-shot setting, where labeled data are too scarce to train DNNs effectively.",
+  "keywords": [
+    "deep",
+    "non-pretrained deep learning methods",
+    "the few-shot setting",
+    "low-resource text classification",
+    "neural",
+    "bert",
+    "classifier",
+    "text",
+    "it",
+    "ak-nearest-neighbor classifier",
+    "their high accuracy",
+    "deep neural networks dnns",
+    "a parameter-free classification method",
+    "we",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.426/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

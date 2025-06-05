@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.141",
+  "title": "D}a{LC}: Domain Adaptation Learning Curve Prediction for Neural Machine Translation",
+  "authors": [
+    "Park, Cheonbok  and\nKim, Hantae  and\nCalapodescu, Ioan  and\nCho, Hyun Chang  and\nNikoulina, Vassilina"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Domain Adaptation (DA) of Neural Machine Translation (NMT) model often relies on a pre-trained general NMT model which is adapted to the new domain on a sample of in-domain parallel data. Without parallel data, there is no way to estimate the potential benefit of DA, nor the amount of parallel samples it would require. It is however a desirable functionality that could help MT practitioners to make an informed decision before investing resources in dataset creation. We propose a Domain adaptation Learning Curve prediction (DaLC) model that predicts prospective DA performance based on in-domain monolingual samples in the source language. Our model relies on the NMT encoder representations combined with various instance and corpus-level features. We demonstrate that instance-level is better able to distinguish between different domains compared to corpus-level frameworks proposed in previous studies Finally, we perform in-depth analyses of the results highlighting the limitations of our approach, and provide directions for future research.",
+  "keywords": [
+    "we",
+    "da",
+    "translation",
+    "neural",
+    "it",
+    "mt practitioners",
+    "previous studies",
+    "the nmt encoder representations",
+    "practitioners",
+    "general",
+    "language",
+    "model",
+    "machine",
+    "studies",
+    "encoder"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.141/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

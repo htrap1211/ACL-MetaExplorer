@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.682",
+  "title": "Masked Audio Text Encoders are Effective Multi-Modal Rescorers",
+  "authors": [
+    "Cai, Jinglun  and\nSunkara, Monica  and\nLi, Xilai  and\nBhatia, Anshu  and\nPan, Xiao  and\nBodapati, Sravan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Masked Language Models (MLMs) have proven to be effective for second-pass rescoring in Automatic Speech Recognition (ASR) systems. In this work, we propose Masked Audio Text Encoder (MATE), a multi-modal masked language model rescorer which incorporates acoustic representations into the input space of MLM. We adopt contrastive learning for effectively aligning the modalities by learning shared representations. We show that using a multi-modal rescorer is beneficial for domain generalization of the ASR system when target domain data is unavailable. MATE reduces word error rate (WER) by 4%-16% on in-domain, and 3%-7% on out-of-domain datasets, over the text-only baseline. Additionally, with very limited amount of training data (0.8 hours) MATE achieves a WER reduction of 8%-23% over the first-pass baseline.",
+  "keywords": [
+    "work",
+    "domain generalization",
+    "the modalities",
+    "audio text encoders",
+    "language",
+    "model",
+    "text",
+    "language models mlms",
+    "rate",
+    "wer",
+    "modalities",
+    "encoder",
+    "generalization",
+    "word",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.682/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

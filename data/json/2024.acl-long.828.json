@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.828",
+  "title": "Steering Llama 2 via Contrastive Activation Addition",
+  "authors": [
+    "Rimsky, Nina  and\nGabrieli, Nick  and\nSchulz, Julian  and\nTong, Meg  and\nHubinger, Evan  and\nTurner, Alexander"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We introduce Contrastive Activation Addition (CAA), a method for steering language models by modifying their activations during forward passes. CAA computes “steering vectors” by averaging the difference in residual stream activations between pairs of positive and negative examples of a particular behavior, such as factual versus hallucinatory responses. During inference, these steering vectors are added at all token positions after the user’s prompt with either a positive or negative coefficient, allowing precise control over the degree of the targeted behavior. We evaluate CAA’s effectiveness on Llama 2 Chat using multiple-choice behavioral question datasets and open-ended generation tasks. We demonstrate that CAA significantly alters model behavior, is effective over and on top of traditional methods like finetuning and system prompt design, and minimally reduces capabilities. Moreover, we gain deeper insights into CAA’s mechanisms by employing various activation space interpretation methods. CAA accurately steers model outputs and sheds light on how high-level concepts are represented in Large Language Models (LLMs).",
+  "keywords": [
+    "top",
+    "question",
+    "steering vectors",
+    "we",
+    "activations",
+    "token",
+    "residual stream activations",
+    "prompt",
+    "language models",
+    "activation",
+    "the user s prompt",
+    "contrastive activation addition",
+    "coefficient",
+    "chat",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.828/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:45:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

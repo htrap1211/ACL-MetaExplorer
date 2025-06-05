@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.204",
+  "title": "Rutgers Multimedia Image Processing Lab at {S}em{E}val-2023 Task-1: Text-Augmentation-based Approach for Visual Word Sense Disambiguation",
+  "authors": [
+    "Li, Keyi  and\nYang, Sen  and\nGao, Chenyang  and\nMarsic, Ivan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper describes our system used in SemEval-2023 Task-1: Visual Word Sense Disambiguation (VWSD). The VWSD task is to identify the correct image that corresponds to an ambiguous target word given limited textual context. To reduce word ambiguity and enhance image selection, we proposed several text augmentation techniques, such as prompting, WordNet synonyms, and text generation. We experimented with different vision-language pre-trained models to capture the joint features of the augmented text and image. Our approach achieved the best performance using a combination of GPT-3 text generation and the CLIP model. On the multilingual test sets, our system achieved an average hit rate (at top-1) of 51.11 and a mean reciprocal rank of 65.69.",
+  "keywords": [
+    "rate",
+    "we",
+    "text generation",
+    "gpt-3",
+    "word",
+    "visual",
+    "gpt-3 text generation",
+    "processing",
+    "text",
+    "wordnet",
+    "wordnet synonyms",
+    "generation",
+    "language",
+    "model",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.204/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

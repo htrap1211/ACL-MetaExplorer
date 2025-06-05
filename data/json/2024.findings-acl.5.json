@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.5",
+  "title": "Overcoming Catastrophic Forgetting by Exemplar Selection in Task-oriented Dialogue System",
+  "authors": [
+    "Chen, Chen  and\nLi, Ruizhe  and\nHu, Yuchen  and\nChen, Yuanyuan  and\nQin, Chengwei  and\nZhang, Qiang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Intelligent task-oriented dialogue systems (ToDs) are expected to continuously acquire new knowledge, also known as Continual Learning (CL), which is crucial to fit ever-changing user needs. However, catastrophic forgetting dramatically degrades the model performance in face of a long streamed curriculum. In this paper, we aim to overcome the forgetting problem in ToDs and propose a method (HESIT) with hyper-gradient-based exemplar strategy, which samples influential exemplars for periodic retraining. Instead of unilaterally observing data or models, HESIT adopts a profound exemplar selection strategy that considers the general performance of the trained model when selecting exemplars for each task domain. Specifically, HESIT analyzes the training data influence by tracing their hyper-gradient in the optimization process. Furthermore, HESIT avoids estimating Hessian to make it compatible for ToDs with a large pre-trained model. Experimental results show that HESIT effectively alleviates catastrophic forgetting by exemplar selection, and achieves state-of-the-art performance on the largest CL benchmark of ToDs in terms of all metrics.",
+  "keywords": [
+    "we",
+    "dialogue",
+    "training",
+    "the optimization process",
+    "hyper",
+    "it",
+    "learning",
+    "hyper-gradient-based exemplar strategy",
+    "metrics",
+    "-",
+    "the general performance",
+    "general",
+    "process",
+    "knowledge",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:48:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

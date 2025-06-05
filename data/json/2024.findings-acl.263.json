@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.263",
+  "title": "L}ora{R}etriever: Input-Aware {L}o{RA} Retrieval and Composition for Mixed Tasks in the Wild",
+  "authors": [
+    "Zhao, Ziyu  and\nGan, Leilei  and\nWang, Guoyin  and\nZhou, Wangchunshu  and\nYang, Hongxia  and\nKuang, Kun  and\nWu, Fei"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Low-Rank Adaptation (LoRA) provides an effective yet efficient solution for fine-tuning large language models (LLMs). The modular and plug-and-play nature of LoRA enables the integration of diverse domain-specific LoRAs to enhance the capabilities of LLMs. Previous research on exploiting multiple LoRAs either focuses on specific isolated downstream tasks or fixes the selection of LoRAs during training. However, in real-world scenarios, LLMs receive diverse prompts covering different tasks, and the pool of candidate LoRAs is often dynamically updated. To bridge this gap, we propose LoraRetriever, a retrieve-then-compose framework that adaptively retrieves and composes multiple LoRAs according to the input prompts. LoraRetriever contains three main components: firstly, identifying and retrieving LoRAs relevant to the given input; secondly, formulating strategies for effectively integrating the retrieved LoRAs; and thirdly, developing efficient batch inference to accommodate heterogeneous requests. Experimental results indicate that LoraRetriever consistently outperforms the baselines, highlighting its practical effectiveness and versatility. Our code is available at https://github.com/StyxXuan/LoraRetriever.",
+  "keywords": [
+    "code",
+    "retrieve",
+    "efficient",
+    "real-world scenarios llms",
+    "a retrieve-then-compose framework",
+    "we",
+    "training",
+    "loraretriever",
+    "retrieval",
+    "diverse prompts",
+    "the capabilities",
+    "fine-tuning large language models",
+    "llms",
+    "the retrieved loras",
+    "strategies"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.263/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

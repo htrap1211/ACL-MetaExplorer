@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.349",
+  "title": "To Copy Rather Than Memorize: A Vertical Learning Paradigm for Knowledge Graph Completion",
+  "authors": [
+    "Li, Rui  and\nChen, Xu  and\nLi, Chaozhuo  and\nShen, Yanming  and\nZhao, Jianan  and\nWang, Yujing  and\nHan, Weihao  and\nSun, Hao  and\nDeng, Weiwei  and\nZhang, Qi  and\nXie, Xing"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Embedding models have shown great power in knowledge graph completion (KGC) task. By learning structural constraints for each training triple, these methods implicitly memorize intrinsic relation rules to infer missing links. However, this paper points out that the multi-hop relation rules are hard to be reliably memorized due to the inherent deficiencies of such implicit memorization strategy, making embedding models underperform in predicting links between distant entity pairs. To alleviate this problem, we present Vertical Learning Paradigm (VLP), which extends embedding models by allowing to explicitly copy target information from related factual triples for more accurate prediction. Rather than solely relying on the implicit memory, VLP directly provides additional cues to improve the generalization ability of embedding models, especially making the distant link prediction significantly easier. Moreover, we also propose a novel relative distance based negative sampling technique (ReD) for more effective optimization. Experiments demonstrate the validity and generality of our proposals on two standard benchmarks. Our code is available athttps://github.com/rui9812/VLP.",
+  "keywords": [
+    "code",
+    "more effective optimization experiments",
+    "the generalization ability",
+    "kgc",
+    "we",
+    "graph",
+    "training",
+    "red",
+    "knowledge graph completion",
+    "generality",
+    "information",
+    "learning",
+    "generalization",
+    "knowledge",
+    "embedding models"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.349/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:40:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

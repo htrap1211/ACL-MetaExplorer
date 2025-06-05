@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.335",
+  "title": "Biomedical Entity Representations with Synonym Marginalization",
+  "authors": [
+    "Sung, Mujeen  and\nJeon, Hwisang  and\nLee, Jinhyuk  and\nKang, Jaewoo"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Biomedical named entities often play important roles in many biomedical text mining tools. However, due to the incompleteness of provided synonyms and numerous variations in their surface forms, normalization of biomedical entities is very challenging. In this paper, we focus on learning representations of biomedical entities solely based on the synonyms of entities. To learn from the incomplete synonyms, we use a model-based candidate selection and maximize the marginal likelihood of the synonyms present in top candidates. Our model-based candidates are iteratively updated to contain more difficult negative samples as our model evolves. In this way, we avoid the explicit pre-selection of negative samples from more than 400K candidates. On four biomedical entity normalization datasets having three different entity types (disease, chemical, adverse reaction), our model BioSyn consistently outperforms previous state-of-the-art models almost reaching the upper bound on each dataset.",
+  "keywords": [
+    "we",
+    "normalization",
+    "text",
+    "-",
+    "mining",
+    "model",
+    "entities",
+    "pre",
+    "biomedical entities",
+    "entity",
+    "disease",
+    "upper",
+    "state",
+    "the explicit pre",
+    "tools"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.335/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:46:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

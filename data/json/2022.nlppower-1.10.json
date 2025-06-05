@@ -1,0 +1,33 @@
+{
+  "id": "2022.nlppower-1.10",
+  "title": "DACT}-{BERT}: Differentiable Adaptive Computation Time for an Efficient {BERT} Inference",
+  "authors": [
+    "Eyzaguirre, Cristobal  and\ndel Rio, Felipe  and\nAraujo, Vladimir  and\nSoto, Alvaro"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of NLP Power! The First Workshop on Efficient Benchmarking in NLP",
+  "abstract": "Large-scale pre-trained language models have shown remarkable results in diverse NLP applications. However, these performance gains have been accompanied by a significant increase in computation time and model size, stressing the need to develop new or complementary strategies to increase the efficiency of these models. This paper proposes DACT-BERT, a differentiable adaptive computation time strategy for BERT-like models. DACT-BERT adds an adaptive computational mechanism to BERT’s regular processing pipeline, which controls the number of Transformer blocks that need to be executed at inference time. By doing this, the model learns to combine the most appropriate intermediate representations for the task at hand. Our experiments demonstrate that our approach, when compared to the baselines, excels on a reduced computational regime and is competitive in other less restrictive ones. Code available athttps://github.com/ceyzaguirre4/dact_bert.",
+  "keywords": [
+    "code",
+    "efficient",
+    "dact_bert",
+    "transformer blocks",
+    "efficiency",
+    "diverse nlp applications",
+    "bert-like models",
+    "the efficiency",
+    "dact-bert",
+    "processing",
+    "bert",
+    "strategies",
+    "new or complementary strategies",
+    "transformer",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2022.nlppower-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:45:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

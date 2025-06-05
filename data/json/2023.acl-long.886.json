@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.886",
+  "title": "DICE}: Data-Efficient Clinical Event Extraction with Generative Models",
+  "authors": [
+    "Ma, Mingyu Derek  and\nTaylor, Alexander  and\nWang, Wei  and\nPeng, Nanyun"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Event extraction for the clinical domain is an under-explored research area. The lack of training data along with the high volume of domain-specific terminologies with vague entity boundaries makes the task especially challenging. In this paper, we introduce DICE, a robust and data-efficient generative model for clinical event extraction. DICE frames event extraction as a conditional generation problem and introduces a contrastive learning objective to accurately decide the boundaries of biomedical mentions. DICE also trains an auxiliary mention identification task jointly with event extraction tasks to better identify entity mention boundaries, and further introduces special markers to incorporate identified entity mentions as trigger and argument candidates for their respective tasks. To benchmark clinical event extraction, we compose MACCROBAT-EE, the first clinical event extraction dataset with argument annotation, based on an existing clinical information extraction dataset MACCROBAT. Our experiments demonstrate state-of-the-art performances of DICE for clinical and news domain event extraction, especially under low data settings.",
+  "keywords": [
+    "generative models",
+    "extraction",
+    "efficient",
+    "we",
+    "terminologies",
+    "training",
+    "the boundaries",
+    "information",
+    "domain-specific terminologies",
+    "learning",
+    "generative",
+    "vague entity boundaries",
+    "objective",
+    "identified entity mentions",
+    "a conditional generation problem"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.886/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:47:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

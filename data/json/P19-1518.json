@@ -1,0 +1,33 @@
+{
+  "id": "P19-1518",
+  "title": "A Deep Reinforced Sequence-to-Set Model for Multi-Label Classification",
+  "authors": [
+    "Yang, Pengcheng  and\nLuo, Fuli  and\nMa, Shuming  and\nLin, Junyang  and\nSun, Xu"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Multi-label classification (MLC) aims to predict a set of labels for a given instance. Based on a pre-defined label order, the sequence-to-sequence (Seq2Seq) model trained via maximum likelihood estimation method has been successfully applied to the MLC task and shows powerful ability to capture high-order correlations between labels. However, the output labels are essentially an unordered set rather than an ordered sequence. This inconsistency tends to result in some intractable problems, e.g., sensitivity to the label order. To remedy this, we propose a simple but effective sequence-to-set model. The proposed model is trained via reinforcement learning, where reward feedback is designed to be independent of the label order. In this way, we can reduce the dependence of the model on the label order, as well as capture high-order correlations between labels. Extensive experiments show that our approach can substantially outperform competitive baselines, as well as effectively reduce the sensitivity to the label order.",
+  "keywords": [
+    "deep",
+    "seq2seq",
+    "reinforcement",
+    "feedback",
+    "model",
+    "sequence",
+    "we",
+    "learning",
+    "pre",
+    "reinforcement learning",
+    "classification",
+    "likelihood",
+    "multi",
+    "a given instance",
+    "the dependence"
+  ],
+  "url": "https://aclanthology.org/P19-1518/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:43:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

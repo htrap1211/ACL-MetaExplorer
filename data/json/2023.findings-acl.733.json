@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.733",
+  "title": "Detecting Edit Failures In Large Language Models: An Improved Specificity Benchmark",
+  "authors": [
+    "Hoelscher-Obermaier, Jason  and\nPersson, Julia  and\nKran, Esben  and\nKonstas, Ioannis  and\nBarez, Fazl"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Recent model editing techniques promise to mitigate the problem of memorizing false or outdated associations during LLM training. However, we show that these techniques can introduce large unwanted side effects which are not detected by existing specificity benchmarks. We extend the existing CounterFact benchmark to include a dynamic component and dub our benchmark CounterFact+. Additionally, we extend the metrics used for measuring specificity by a principled KL divergence-based metric. We use this improved benchmark to evaluate recent model editing techniques and find that they suffer from low specificity. Our findings highlight the need for improved specificity benchmarks that identify and prevent unwanted side effects.",
+  "keywords": [
+    "language",
+    "model",
+    "llm training",
+    "metric",
+    "metrics",
+    "large language models",
+    "we",
+    "the metrics",
+    "llm",
+    "training",
+    "that",
+    "specificity",
+    "edit failures",
+    "techniques",
+    "recent model editing techniques"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.733/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

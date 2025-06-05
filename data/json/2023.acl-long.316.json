@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.316",
+  "title": "Unsupervised Discontinuous Constituency Parsing with Mildly Context-Sensitive Grammars",
+  "authors": [
+    "Yang, Songlin  and\nLevy, Roger  and\nKim, Yoon"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We study grammar induction with mildly context-sensitive grammars for unsupervised discontinuous parsing. Using the probabilistic linear context-free rewriting system (LCFRS) formalism, our approach fixes the rule structure in advance and focuses on parameter learning with maximum likelihood. To reduce the computational complexity of both parsing and parameter estimation, we restrict the grammar formalism to LCFRS-2 (i.e., binary LCFRS with fan-out two) and further discard rules that requireO(l6)time to parse, reducing inference toO(l5). We find that using a large number of nonterminals is beneficial and thus make use of tensor decomposition-based rank-space dynamic programming with an embedding-based parameterization of rule probabilities to scale up the number of nonterminals. Experiments on German and Dutch show that our approach is able to induce linguistically meaningful trees with continuous and discontinuous structures.",
+  "keywords": [
+    "parsing",
+    "rule probabilities",
+    "we",
+    "unsupervised discontinuous parsing",
+    "parameter",
+    "learning",
+    "an embedding-based parameterization",
+    "probabilities",
+    "time",
+    "a large number",
+    "approach",
+    "probabilistic",
+    "german",
+    "unsupervised",
+    "rules"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.316/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

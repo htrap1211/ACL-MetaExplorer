@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.720",
+  "title": "CFL}: Causally Fair Language Models Through Token-level Attribute Controlled Generation",
+  "authors": [
+    "Madhavan, Rahul  and\nGarg, Rishabh  and\nWadhawan, Kahini  and\nMehta, Sameep"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "We propose a method to control the attributes of Language Models (LMs) for the text generation task using Causal Average Treatment Effect (ATE) scores and counterfactual augmentation. We explore this method, in the context of LM detoxification, and propose the Causally Fair Language (CFL) architecture for detoxifying pre-trained LMs in a plug-and-play manner. Our architecture is based on a Structural Causal Model (SCM) that is mathematically transparent and computationally efficient as compared with many existing detoxification techniques. We also propose several new metrics that aim to better understand the behaviour of LMs in the context of toxic text generation. Further, we achieve state of the art performance for toxic degeneration, which are computed using Real Toxicity Prompts. Our experiments show that CFL achieves such a detoxification without much impact on the model perplexity. We also show that CFL mitigates the unintended bias problem through experiments on the BOLD dataset.",
+  "keywords": [
+    "bias",
+    "a plug-and-play manner",
+    "efficient",
+    "we",
+    "degeneration",
+    "several new metrics",
+    "token",
+    "token-level attribute controlled generation",
+    "manner",
+    "toxic degeneration",
+    "text",
+    "metrics",
+    "perplexity",
+    "the unintended bias problem",
+    "toxic text generation"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.720/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

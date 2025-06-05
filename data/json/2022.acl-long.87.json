@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.87",
+  "title": "L}ex{S}ub{C}on: Integrating Knowledge from Lexical Resources into Contextual Embeddings for Lexical Substitution",
+  "authors": [
+    "Michalopoulos, George  and\nMcKillop, Ian  and\nWong, Alexander  and\nChen, Helen"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Lexical substitution is the task of generating meaningful substitutes for a word in a given textual context. Contextual word embedding models have achieved state-of-the-art results in the lexical substitution task by relying on contextual information extracted from the replaced word within the sentence. However, such models do not take into account structured knowledge that exists in external lexical databases. We introduce LexSubCon, an end-to-end lexical substitution framework based on contextual embedding models that can identify highly-accurate substitute candidates. This is achieved by combining contextual information with knowledge from structured lexical resources. Our approach involves: (i) introducing a novel mix-up embedding strategy to the target word’s embedding through linearly interpolating the pair of the target input embedding and the average embedding of its probable synonyms; (ii) considering the similarity of the sentence-definition embeddings of the target word and its proposed candidates; and, (iii) calculating the effect of each substitution on the semantics of the sentence through a fine-tuned sentence similarity model. Our experiments show that LexSubCon outperforms previous state-of-the-art methods by at least 2% over all the official lexical substitution metrics on LS07 and CoInCo benchmark datasets that are widely used for lexical substitution tasks.",
+  "keywords": [
+    "end",
+    "the semantics",
+    "we",
+    "contextual embedding models",
+    "semantics",
+    "c",
+    "information",
+    "word",
+    "i",
+    "metrics",
+    "contextual embeddings",
+    "embeddings",
+    "knowledge",
+    "the sentence-definition embeddings",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.87/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

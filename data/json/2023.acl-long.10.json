@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.10",
+  "title": "Subset Retrieval Nearest Neighbor Machine Translation",
+  "authors": [
+    "Deguchi, Hiroyuki  and\nWatanabe, Taro  and\nMatsui, Yusuke  and\nUtiyama, Masao  and\nTanaka, Hideki  and\nSumita, Eiichiro"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "k-nearest-neighbor machine translation (kNN-MT) (Khandelwal et al., 2021) boosts the translation performance of trained neural machine translation (NMT) models by incorporating example-search into the decoding algorithm. However, decoding is seriously time-consuming, i.e., roughly 100 to 1,000 times slower than standard NMT, because neighbor tokens are retrieved from all target tokens of parallel data in each timestep. In this paper, we propose “Subset kNN-MT”, which improves the decoding speed of kNN-MT by two methods: (1) retrieving neighbor target tokens from a subset that is the set of neighbor sentences of the input sentence, not from all sentences, and (2) efficient distance computation technique that is suitable for subset neighbor search using a look-up table. Our proposed method achieved a speed-up of up to 132.2 times and an improvement in BLEU score of up to 1.6 compared with kNN-MT in the WMT’19 De-En translation task and the domain adaptation tasks in De-En and En-Ja.",
+  "keywords": [
+    "efficient",
+    "bleu",
+    "we",
+    "subset retrieval",
+    "translation",
+    "de",
+    "the translation performance",
+    "neural",
+    "retrieval",
+    "bleu score",
+    "-",
+    "machine",
+    "retrieving neighbor target tokens",
+    "time",
+    "et al"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:35:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

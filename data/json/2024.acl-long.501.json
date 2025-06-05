@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.501",
+  "title": "Reward-based Input Construction for Cross-document Relation Extraction",
+  "authors": [
+    "Na, Byeonghu  and\nJo, Suhyeon  and\nKim, Yeongmin  and\nMoon, Il-chul"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Relation extraction (RE) is a fundamental task in natural language processing, aiming to identify relations between target entities in text. While many RE methods are designed for a single sentence or document, cross-document RE has emerged to address relations across multiple long documents. Given the nature of long documents in cross-document RE, extracting document embeddings is challenging due to the length constraints of pre-trained language models. Therefore, we propose REward-based Input Construction (REIC), the first learning-based sentence selector for cross-document RE. REIC extracts sentences based on relational evidence, enabling the RE module to effectively infer relations. Since supervision of evidence sentences is generally unavailable, we train REIC using reinforcement learning with RE prediction scores as rewards. Experimental results demonstrate the superiority of our method over heuristic methods for different RE structures and backbones in cross-document RE. Our code is publicly available at https://github.com/aailabkaist/REIC.",
+  "keywords": [
+    "code",
+    "extraction",
+    "document embeddings",
+    "we",
+    "cross",
+    "pre-trained language models",
+    "natural",
+    "learning",
+    "natural language processing",
+    "processing",
+    "text",
+    "-",
+    "target entities",
+    "embeddings",
+    "reinforcement"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.501/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

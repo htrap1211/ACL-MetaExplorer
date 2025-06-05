@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-srw.14",
+  "title": "F}eature {D}ifference {M}akes {S}ense: {A} medical image captioning model exploiting feature difference and tag information",
+  "authors": [
+    "Park, Hyeryun  and\nKim, Kyungmo  and\nYoon, Jooyoung  and\nPark, Seongkeun  and\nChoi, Jinwook"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "Medical image captioning can reduce the workload of physicians and save time and expense by automatically generating reports. However, current datasets are small and limited, creating additional challenges for researchers. In this study, we propose a feature difference and tag information combined long short-term memory (LSTM) model for chest x-ray report generation. A feature vector extracted from the image conveys visual information, but its ability to describe the image is limited. Other image captioning studies exhibited improved performance by exploiting feature differences, so the proposed model also utilizes them. First, we propose a difference and tag (DiTag) model containing the difference between the patient and normal images. Then, we propose a multi-difference and tag (mDiTag) model that also contains information about low-level differences, such as contrast, texture, and localized area. Evaluation of the proposed models demonstrates that the mDiTag model provides more information to generate captions and outperforms all other models.",
+  "keywords": [
+    "we",
+    "lstm",
+    "current",
+    "localized area evaluation",
+    "chest x-ray report generation",
+    "information",
+    "tag",
+    "visual",
+    "normal",
+    "a feature vector",
+    "vector",
+    "-",
+    "automatically generating reports",
+    "generation",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2020.acl-srw.14/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:53:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.308",
+  "title": "On the Safety of Conversational Models: Taxonomy, Dataset, and Benchmark",
+  "authors": [
+    "Sun, Hao  and\nXu, Guangxuan  and\nDeng, Jiawen  and\nCheng, Jiale  and\nZheng, Chujie  and\nZhou, Hao  and\nPeng, Nanyun  and\nZhu, Xiaoyan  and\nHuang, Minlie"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Dialogue safety problems severely limit the real-world deployment of neural conversational models and have attracted great research interests recently. However, dialogue safety problems remain under-defined and the corresponding dataset is scarce. We propose a taxonomy for dialogue safety specifically designed to capture unsafe behaviors in human-bot dialogue settings, with focuses on context-sensitive unsafety, which is under-explored in prior works. To spur research in this direction, we compile DiaSafety, a dataset with rich context-sensitive unsafe examples. Experiments show that existing safety guarding tools fail severely on our dataset. As a remedy, we train a dialogue safety classifier to provide a strong baseline for context-sensitive dialogue unsafety detection. With our classifier, we perform safety evaluations on popular conversational models and show that existing dialogue systems still exhibit concerning context-sensitive safety problems.",
+  "keywords": [
+    "human-bot dialogue settings",
+    "conversational models",
+    "a dialogue safety classifier",
+    "dialogue safety",
+    "neural",
+    "neural conversational models",
+    "popular conversational models",
+    "context-sensitive dialogue unsafety detection",
+    "classifier",
+    "existing dialogue systems",
+    "human",
+    "evaluations",
+    "bot",
+    "conversational",
+    "benchmark dialogue safety problems"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.308/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

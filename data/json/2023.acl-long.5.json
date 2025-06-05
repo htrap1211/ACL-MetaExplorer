@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.5",
+  "title": "Binary and Ternary Natural Language Generation",
+  "authors": [
+    "Liu, Zechun  and\nOguz, Barlas  and\nPappu, Aasish  and\nShi, Yangyang  and\nKrishnamoorthi, Raghuraman"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Ternary and binary neural networks enable multiplication-free computation and promise multiple orders of magnitude efficiency gains over full-precision networks if implemented on specialized hardware. However, since both the parameter and the output space are highly discretized, such networks have proven very difficult to optimize. The difficulties are compounded for the class of transformer text generation models due to the sensitivity of the attention operation to quantization and the noise-compounding effects of autoregressive decoding in the high-cardinality output space. We approach the problem with a mix of statistics-based quantization for the weights and elastic quantization of the activations and demonstrate the first ternary and binary transformer models on the downstream tasks of summarization and machine translation. Our ternary BART base achieves an R1 score of 41 on the CNN/DailyMail benchmark, which is merely 3.9 points behind the full model while being 16x more efficient. Our binary model, while less accurate, achieves a highly non-trivial score of 35.6. For machine translation, we achieved BLEU scores of 21.7 and 17.6 on the WMT16 En-Ro benchmark, compared with a full precision mBART model score of 26.8. We also compare our approach in the 8-bit activation setting, where our ternary and even binary weight models can match or outperform the best existing 8-bit weight models in the literature. Our code and models are available at:https://github.com/facebookresearch/Ternary_Binary_Transformer.",
+  "keywords": [
+    "code",
+    "precision",
+    "efficient",
+    "bleu",
+    "machine translation",
+    "the cnn dailymail benchmark",
+    "efficiency",
+    "ternary_binary_transformer",
+    "summarization",
+    "we",
+    "activations",
+    "the difficulties",
+    "parameter",
+    "translation",
+    "neural"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:35:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

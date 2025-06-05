@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.86",
+  "title": "MATE}-{KD}: Masked Adversarial {TE}xt, a Companion to Knowledge Distillation",
+  "authors": [
+    "Rashid, Ahmad  and\nLioutas, Vasileios  and\nRezagholizadeh, Mehdi"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "The advent of large pre-trained language models has given rise to rapid progress in the field of Natural Language Processing (NLP). While the performance of these models on standard benchmarks has scaled with size, compression techniques such as knowledge distillation have been key in making them practical. We present MATE-KD, a novel text-based adversarial training algorithm which improves the performance of knowledge distillation. MATE-KD first trains a masked language model-based generator to perturb text by maximizing the divergence between teacher and student logits. Then using knowledge distillation a student is trained on both the original and the perturbed training samples. We evaluate our algorithm, using BERT-based models, on the GLUE benchmark and demonstrate that MATE-KD outperforms competitive adversarial learning and data augmentation baselines. On the GLUE test set our 6 layer RoBERTa based model outperforms BERT-large.",
+  "keywords": [
+    "processing",
+    "knowledge",
+    "roberta",
+    "language",
+    "large pre-trained language models",
+    "nlp",
+    "the field",
+    "natural",
+    "model",
+    "bert",
+    "text",
+    "field",
+    "layer",
+    "bert-based models",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.86/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:00:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

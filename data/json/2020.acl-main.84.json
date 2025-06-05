@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.84",
+  "title": "A Methodology for Creating Question Answering Corpora Using Inverse Data Annotation",
+  "authors": [
+    "Deriu, Jan  and\nMlynchyk, Katsiaryna  and\nSchl{\\\"a}pfer, Philippe  and\nRodrigo, Alvaro  and\nvon Gr{\\\"u}nigen, Dirk  and\nKaiser, Nicolas  and\nStockinger, Kurt  and\nAgirre, Eneko  and\nCieliebak, Mark"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "In this paper, we introduce a novel methodology to efficiently construct a corpus for question answering over structured data. For this, we introduce an intermediate representation that is based on the logical query plan in a database, called Operation Trees (OT). This representation allows us to invert the annotation process without loosing flexibility in the types of queries that we generate. Furthermore, it allows for fine-grained alignment of the tokens to the operations. Thus, we randomly generate OTs from a context free grammar and annotators just have to write the appropriate question and assign the tokens. We compare our corpus OTTA (Operation Trees and Token Assignment), a large semantic parsing corpus for evaluating natural language interfaces to databases, to Spider and LC-QuaD 2.0 and show that our methodology more than triples the annotation speed while maintaining the complexity of the queries. Finally, we train a state-of-the-art semantic parsing model on our data and show that our dataset is a challenging dataset and that the token alignment can be leveraged to significantly increase the performance.",
+  "keywords": [
+    "question",
+    "semantic",
+    "we",
+    "natural",
+    "it",
+    "queries",
+    "token",
+    "fine-grained alignment",
+    "the token alignment",
+    "the queries",
+    "alignment",
+    "process",
+    "language",
+    "model",
+    "us"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.84/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:43:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

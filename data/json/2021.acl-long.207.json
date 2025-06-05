@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.207",
+  "title": "Multi-View Cross-Lingual Structured Prediction with Minimum Supervision",
+  "authors": [
+    "Hu, Zechuan  and\nJiang, Yong  and\nBach, Nguyen  and\nWang, Tao  and\nHuang, Zhongqiang  and\nHuang, Fei  and\nTu, Kewei"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "In structured prediction problems, cross-lingual transfer learning is an efficient way to train quality models for low-resource languages, and further improvement can be obtained by learning from multiple source languages. However, not all source models are created equal and some may hurt performance on the target language. Previous work has explored the similarity between source and target sentences as an approximate measure of strength for different source models. In this paper, we propose a multi-view framework, by leveraging a small number of labeled target sentences, to effectively combine multiple source models into an aggregated source view at different granularity levels (language, sentence, or sub-structure), and transfer it to a target view based on a task-specific model. By encouraging the two views to interact with each other, our framework can dynamically adjust the confidence level of each source model and improve the performance of both views during training. Experiments for three structured prediction tasks on sixteen data sets show that our framework achieves significant improvement over all existing approaches, including these with access to additional source language data.",
+  "keywords": [
+    "an aggregated source view",
+    "cross-lingual transfer learning",
+    "efficient",
+    "we",
+    "the two views",
+    "training",
+    "cross",
+    "it",
+    "an efficient way",
+    "a target view",
+    "views",
+    "learning",
+    "transfer",
+    "-",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.207/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:02:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.327",
+  "title": "Translation Error Detection as Rationale Extraction",
+  "authors": [
+    "Fomicheva, Marina  and\nSpecia, Lucia  and\nAletras, Nikolaos"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Recent Quality Estimation (QE) models based on multilingual pre-trained representations have achieved very competitive results in predicting the overall quality of translated sentences. However, detecting specifically which translated words are incorrect is a more challenging task, especially when dealing with limited amounts of training data. We hypothesize that, not unlike humans, successful QE models rely on translation errors to predict overall sentence quality. By exploring a set of feature attribution methods that assign relevance scores to the inputs to explain model predictions, we study the behaviour of state-of-the-art sentence-level QE models and show that explanations (i.e. rationales) extracted from these models can indeed be used to detect translation errors. We therefore (i) introduce a novel semi-supervised method for word-level QE; and (ii) propose to use the QE task as a new benchmark for evaluating the plausibility of feature attribution, i.e. how interpretable model explanations are to humans.",
+  "keywords": [
+    "extraction",
+    "we",
+    "training",
+    "translation",
+    "word",
+    "i",
+    "translation errors",
+    "model",
+    "pre",
+    "limited amounts",
+    "state",
+    "behaviour",
+    "error",
+    "explanations",
+    "word-level qe"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.327/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

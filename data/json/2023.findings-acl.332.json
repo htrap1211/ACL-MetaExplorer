@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.332",
+  "title": "Towards Robust Ranker for Text Retrieval",
+  "authors": [
+    "Zhou, Yucheng  and\nShen, Tao  and\nGeng, Xiubo  and\nTao, Chongyang  and\nXu, Can  and\nLong, Guodong  and\nJiao, Binxing  and\nJiang, Daxin"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "A neural ranker plays an indispensable role in the de facto ‘retrieval & rerank’ pipeline, but its training still lags behind due to the weak negative mining during contrastive learning. Compared to retrievers boosted by self-adversarial (i.e., in-distribution) negative mining, the ranker’s heavy structure suffers from query-document combinatorial explosions, so it can only resort to the negative sampled by the fast yet out-of-distribution retriever. Thereby, the moderate negatives compose ineffective contrastive learning samples, becoming the main barrier to learning a robust ranker. To alleviate this, we propose a multi-adversarial training strategy that leverages multiple retrievers as generators to challenge a ranker, where i) diverse hard negatives from a joint distribution are prone to fool the ranker for more effective adversarial learning and ii) involving extensive out-of-distribution label noises renders the ranker against each noise distribution, leading to more challenging and robust contrastive learning. To evaluate our robust ranker (dubbed R2anker), we conduct experiments in various settings on the passage retrieval benchmarks, including BM25-reranking, full-ranking, retriever distillation, etc. The empirical results verify the new state-of-the-art effectiveness of our model.",
+  "keywords": [
+    "multiple retrievers",
+    "we",
+    "generators",
+    "barrier",
+    "training",
+    "neural",
+    "it",
+    "self",
+    "retrieval",
+    "learning",
+    "text retrieval",
+    "i",
+    "text",
+    "retrievers",
+    "fast"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.332/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

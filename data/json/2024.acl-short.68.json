@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-short.68",
+  "title": "RAM}-{EHR}: Retrieval Augmentation Meets Clinical Predictions on Electronic Health Records",
+  "authors": [
+    "Xu, Ran  and\nShi, Wenqi  and\nYu, Yue  and\nZhuang, Yuchen  and\nJin, Bowen  and\nWang, May Dongmei  and\nHo, Joyce  and\nYang, Carl"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "We present RAM-EHR, a Retrieval AugMentation pipeline to improve clinical predictions on Electronic Health Records (EHRs). RAM-EHR first collects multiple knowledge sources, converts them into text format, and uses dense retrieval to obtain information related to medical concepts. This strategy addresses the difficulties associated with complex names for the concepts. RAM-EHR then augments the local EHR predictive model co-trained with consistency regularization to capture complementary information from patient visits and summarized knowledge. Experiments on two EHR datasets show the efficacy of RAM-EHR over previous knowledge-enhanced baselines (3.4% gain in AUROC and 7.2% gain in AUPR), emphasizing the effectiveness of the summarized knowledge from RAM-EHR for clinical prediction tasks.",
+  "keywords": [
+    "knowledge",
+    "model",
+    "text",
+    "consistency regularization",
+    "retrieval",
+    "regularization",
+    "information",
+    "format",
+    "patient",
+    "we",
+    "dense retrieval",
+    "patient visits",
+    "difficulties",
+    "the difficulties",
+    "ram"
+  ],
+  "url": "https://aclanthology.org/2024.acl-short.68/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:47:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

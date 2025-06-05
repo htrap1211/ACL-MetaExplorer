@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-srw.24",
+  "title": "Edit Distance Based Curriculum Learning for Paraphrase Generation",
+  "authors": [
+    "Kadotani, Sora  and\nKajiwara, Tomoyuki  and\nArase, Yuki  and\nOnizuka, Makoto"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: Student Research Workshop",
+  "abstract": "Curriculum learning has improved the quality of neural machine translation, where only source-side features are considered in the metrics to determine the difficulty of translation. In this study, we apply curriculum learning to paraphrase generation for the first time. Different from machine translation, paraphrase generation allows a certain level of discrepancy in semantics between source and target, which results in diverse transformations from lexical substitution to reordering of clauses. Hence, the difficulty of transformations requires considering both source and target contexts. Experiments on formality transfer using GYAFC showed that our curriculum learning with edit distance improves the quality of paraphrase generation. Additionally, the proposed method improves the quality of difficult samples, which was not possible for previous methods.",
+  "keywords": [
+    "paraphrase generation curriculum learning",
+    "generation",
+    "paraphrase generation",
+    "neural",
+    "machine",
+    "semantics",
+    "neural machine translation",
+    "metrics",
+    "machine translation paraphrase generation",
+    "we",
+    "learning",
+    "transfer",
+    "the metrics",
+    "time",
+    "translation"
+  ],
+  "url": "https://aclanthology.org/2021.acl-srw.24/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:09:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

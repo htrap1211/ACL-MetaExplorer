@@ -1,0 +1,33 @@
+{
+  "id": "W18-3023",
+  "title": "Multilingual Seq2seq Training with Similarity Loss for Cross-Lingual Document Classification",
+  "authors": [
+    "Yu, Katherine  and\nLi, Haoran  and\nOguz, Barlas"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the Third Workshop on Representation Learning for {NLP}",
+  "abstract": "In this paper we continue experiments where neural machine translation training is used to produce joint cross-lingual fixed-dimensional sentence embeddings. In this framework we introduce a simple method of adding a loss to the learning objective which penalizes distance between representations of bilingually aligned sentences. We evaluate cross-lingual transfer using two approaches, cross-lingual similarity search on an aligned corpus (Europarl) and cross-lingual document classification on a recently published benchmark Reuters corpus, and we find the similarity loss significantly improves performance on both. Furthermore, we notice that while our Reuters results are very competitive, our English results are not as competitive, showing room for improvement in the current cross-lingual state-of-the-art. Our results are based on a set of 6 European languages.",
+  "keywords": [
+    "embeddings",
+    "cross",
+    "seq2seq",
+    "neural machine translation training",
+    "neural",
+    "machine",
+    "objective",
+    "loss",
+    "dimensional",
+    "we",
+    "transfer",
+    "cross-lingual document classification",
+    "current",
+    "the learning objective",
+    "training"
+  ],
+  "url": "https://aclanthology.org/W18-3023/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:25:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

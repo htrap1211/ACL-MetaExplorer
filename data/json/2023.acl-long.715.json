@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.715",
+  "title": "MGR}: Multi-generator Based Rationalization",
+  "authors": [
+    "Liu, Wei  and\nWang, Haozhao  and\nWang, Jun  and\nLi, Ruixuan  and\nLi, Xinyang  and\nZhang, YuanKai  and\nQiu, Yang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Rationalization is to employ a generator and a predictor to construct a self-explaining NLP model in which the generator selects a subset of human-intelligible pieces of the input text to the following predictor. However, rationalization suffers from two key challenges, i.e., spurious correlation and degeneration, where the predictor overfits the spurious or meaningless pieces solely selected by the not-yet well-trained generator and in turn deteriorates the generator. Although many studies have been proposed to address the two challenges, they are usually designed separately and do not take both of them into account. In this paper, we propose a simple yet effective method named MGR to simultaneously solve the two problems. The key idea of MGR is to employ multiple generators such that the occurrence stability of real pieces is improved and more meaningful pieces are delivered to the predictor. Empirically, we show that MGR improves the F1 score by up to 20.9% as compared to state-of-the-art methods.",
+  "keywords": [
+    "the generator",
+    "the f1 score",
+    "i",
+    "a generator",
+    "nlp",
+    "model",
+    "studies",
+    "text",
+    "human",
+    "a self-explaining nlp model",
+    "more meaningful pieces",
+    "self",
+    "real pieces",
+    "pieces",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.715/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:45:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.474",
+  "title": "Length Control in Abstractive Summarization by Pretraining Information Selection",
+  "authors": [
+    "Liu, Yizhu  and\nJia, Qi  and\nZhu, Kenny"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Previous length-controllable summarization models mostly control lengths at the decoding stage, whereas the encoding or the selection of information from the source document is not sensitive to the designed length. They also tend to generate summaries as long as those in the training data. In this paper, we propose a length-aware attention mechanism (LAAM) to adapt the encoding of the source based on the desired length. Our approach works by training LAAM on a summary length balanced dataset built from the original training data, and then fine-tuning as usual. Results show that this approach is effective in generating high-quality summaries with desired lengths and even those short lengths never seen in the original training set.",
+  "keywords": [
+    "tuning",
+    "summaries",
+    "high-quality summaries",
+    "abstractive summarization",
+    "information",
+    "summarization",
+    "we",
+    "attention",
+    "previous length-controllable summarization models",
+    "then fine-tuning",
+    "training",
+    "length control",
+    "approach",
+    "original",
+    "even those short lengths"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.474/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:30:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

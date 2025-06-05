@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.827",
+  "title": "Language Complexity and Speech Recognition Accuracy: Orthographic Complexity Hurts, Phonological Complexity Doesn{'}t",
+  "authors": [
+    "Taguchi, Chihiro  and\nChiang, David"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We investigate what linguistic factors affect the performance of Automatic Speech Recognition (ASR) models. We hypothesize that orthographic and phonological complexities both degrade accuracy. To examine this, we fine-tune the multilingual self-supervised pretrained model Wav2Vec2-XLSR-53 on 25 languages with 15 writing systems, and we compare their ASR accuracy, number of graphemes, unigram grapheme entropy, logographicity (how much word/morpheme-level information is encoded in the writing system), and number of phonemes. The results demonstrate that a high logographicity correlates with low ASR accuracy, while phonological complexity has no significant effect.",
+  "keywords": [
+    "low asr accuracy",
+    "language",
+    "model",
+    "self",
+    "information",
+    "orthographic and phonological complexities",
+    "fine",
+    "word",
+    "we",
+    "their asr accuracy number",
+    "complexities",
+    "accuracy",
+    "entropy",
+    "speech",
+    "recognition"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.827/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:45:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

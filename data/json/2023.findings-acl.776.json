@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.776",
+  "title": "Response-conditioned Turn-taking Prediction",
+  "authors": [
+    "Jiang, Bing{'}er  and\nEkstedt, Erik  and\nSkantze, Gabriel"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Previous approaches to turn-taking and response generation in conversational systems have treated it as a two-stage process: First, the end of a turn is detected (based on conversation history), then the system generates an appropriate response. Humans, however, do not take the turn just because it is likely, but also consider whether what they want to say fits the position. In this paper, we present a model (an extension of TurnGPT) that conditions the end-of-turn prediction on both conversation history and what the next speaker wants to say. We found that our model consistently outperforms the baseline model in a variety of metrics. The improvement is most prominent in two scenarios where turn predictions can be ambiguous solely from the conversation history: 1) when the current utterance contains a statement followed by a question; 2) when the end of the current utterance semantically matches the response. Treating the turn-prediction and response-ranking as a one-stage process, our findings suggest that our model can be used as an incremental response ranker, which can be applied in various settings.",
+  "keywords": [
+    "the conversation history",
+    "variety",
+    "end",
+    "conversation history",
+    "turngpt",
+    "question",
+    "we",
+    "both conversation history",
+    "current",
+    "it",
+    "a variety",
+    "metrics",
+    "response generation",
+    "conversational systems",
+    "process"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.776/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

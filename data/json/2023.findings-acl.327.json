@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.327",
+  "title": "Communication Efficient Federated Learning for Multilingual Neural Machine Translation with Adapter",
+  "authors": [
+    "Liu, Yi  and\nBi, Xiaohan  and\nLi, Lei  and\nChen, Sishuo  and\nYang, Wenkai  and\nSun, Xu"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Federated Multilingual Neural Machine Translation (Fed-MNMT) has emerged as a promising paradigm for institutions with limited language resources. This approach allows multiple institutions to act as clients and train a unified model through model synchronization, rather than collecting sensitive data for centralized training. This significantly reduces the cost of corpus collection and preserves data privacy. However, as pre-trained language models (PLMs) continue to increase in size, the communication cost for transmitting parameters during synchronization has become a training speed bottleneck. In this paper, we propose a communication-efficient Fed-MNMT framework that addresses this issue by keeping PLMs frozen and only transferring lightweight adapter modules between clients. Since different language pairs exhibit substantial discrepancies in data distributions, adapter parameters of clients may conflict with each other. To tackle this, we explore various clustering strategies to group parameters for integration and mitigate the negative effects of conflicting parameters. Experimental results demonstrate that our framework reduces communication cost by over 98% while achieving similar or even better performance compared to competitive baselines. Further analysis reveals that clustering strategies effectively solve the problem of linguistic discrepancy and pruning adapter modules further improves communication efficiency.",
+  "keywords": [
+    "communication efficient federated learning",
+    "efficient",
+    "substantial discrepancies",
+    "clients",
+    "efficiency",
+    "we",
+    "various clustering strategies",
+    "clustering strategies",
+    "training",
+    "translation",
+    "neural",
+    "unified",
+    "discrepancies",
+    "pre-trained language models plms",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.327/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.137",
+  "title": "AMR}s Assemble! Learning to Ensemble with Autoregressive Models for {AMR} Parsing",
+  "authors": [
+    "Mart{\\'i}nez Lorenzo, Abelardo Carlos  and\nHuguet Cabot, Pere Llu{\\'i}s  and\nNavigli, Roberto"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "In this paper, we examine the current state-of-the-art in AMR parsing, which relies on ensemble strategies by merging multiple graph predictions. Our analysis reveals that the present models often violate AMR structural constraints. To address this issue, we develop a validation method, and show how ensemble models can exploit SMATCH metric weaknesses to obtain higher scores, but sometimes result in corrupted graphs. Additionally, we highlight the demanding need to compute the SMATCH score among all possible predictions. To overcome these challenges, we propose two novel ensemble strategies based on Transformer models, improving robustness to structural constraints, while also reducing the computational time. Our methods provide new insights for enhancing AMR parsers and metrics. Our code is available at [https://www.github.com/babelscape/AMRs-Assemble](https://www.github.com/babelscape/AMRs-Assemble).",
+  "keywords": [
+    "code",
+    "parsing",
+    "validation",
+    "we",
+    "graph",
+    "amr parsing",
+    "current",
+    "ensemble",
+    "analysis",
+    "transformer models",
+    "metric",
+    "ensemble strategies",
+    "metrics",
+    "strategies",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.137/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:50:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

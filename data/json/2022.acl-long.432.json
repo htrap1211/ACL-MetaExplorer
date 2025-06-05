@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.432",
+  "title": "Does Recommend-Revise Produce Reliable Annotations? An Analysis on Missing Instances in {D}oc{RED",
+  "authors": [
+    "Huang, Quzhe  and\nHao, Shibo  and\nYe, Yuan  and\nZhu, Shengqi  and\nFeng, Yansong  and\nZhao, Dongyan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "DocRED is a widely used dataset for document-level relation extraction. In the large-scale annotation, a recommend-revise scheme is adopted to reduce the workload. Within this scheme, annotators are provided with candidate relation instances from distant supervision, and they then manually supplement and remove relational facts based on the recommendations. However, when comparing DocRED with a subset relabeled from scratch, we find that this scheme results in a considerable amount of false negative samples and an obvious bias towards popular entities and relations. Furthermore, we observe that the models trained on DocRED have low recall on our relabeled dataset and inherit the same bias in the training data. Through the analysis of annotators’ behaviors, we figure out the underlying reason for the problems above: the scheme actually discourages annotators from supplementing adequate instances in the revision phase. We appeal to future research to take into consideration the issues with the recommend-revise scheme when designing new models and annotation schemes. The relabeled dataset is released athttps://github.com/AndrewZhe/Revisit-DocRED, to serve as a more reliable test set of document RE models.",
+  "keywords": [
+    "bias",
+    "extraction",
+    "we",
+    "training",
+    "red",
+    "low recall",
+    "popular entities",
+    "analysis",
+    "an obvious bias",
+    "d",
+    "recall",
+    "the same bias",
+    "entities",
+    "andrewzhe revisit",
+    "adequate instances"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.432/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:30:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

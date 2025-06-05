@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.721",
+  "title": "P}u{M}er: Pruning and Merging Tokens for Efficient Vision Language Models",
+  "authors": [
+    "Cao, Qingqing  and\nParanjape, Bhargavi  and\nHajishirzi, Hannaneh"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large-scale vision language (VL) models use Transformers to perform cross-modal interactions between the input text and image. These cross-modal interactions are computationally expensive and memory-intensive due to the quadratic complexity of processing the input image and text. We present PuMer: a token reduction framework that uses text-informed Pruning and modality-aware Merging strategies to progressively reduce the tokens of input image and text, improving model inference speed and reducing memory footprint. PuMer learns to keep salient image tokens related to the input text and merges similar textual and visual tokens by adding lightweight token reducer modules at several cross-modal layers in the VL model. Training PuMer is mostly the same as finetuning the original VL model but faster. Our evaluation for two vision language models on four downstream VL tasks shows PuMer increases inference throughput by up to 2x and reduces memory footprint by over 50% while incurring less than a 1% accuracy drop.",
+  "keywords": [
+    "our evaluation",
+    "cross",
+    "transformers",
+    "salient image tokens",
+    "language",
+    "efficient vision language",
+    "model",
+    "text",
+    "efficient",
+    "strategies",
+    "token",
+    "salient",
+    "drop",
+    "u",
+    "a 1 accuracy drop"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.721/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:45:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.dialdoc-1.12",
+  "title": "U}{G}ent-{T2K} at the 2nd {D}ial{D}oc Shared Task: A Retrieval-Focused Dialog System Grounded in Multiple Documents",
+  "authors": [
+    "Jiang, Yiwei  and\nHadifar, Amir  and\nDeleu, Johannes  and\nDemeester, Thomas  and\nDevelder, Chris"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Second DialDoc Workshop on Document-grounded Dialogue and Conversational Question Answering",
+  "abstract": "This work presents the contribution from the Text-to-Knowledge team of Ghent University (UGent-T2K) to the MultiDoc2Dial shared task on modeling dialogs grounded in multiple documents. We propose a pipeline system, comprising (1) document retrieval, (2) passage retrieval, and (3) response generation. We engineered these individual components mainly by, for (1)-(2), combining multiple ranking models and adding a final LambdaMART reranker, and, for (3), by adopting a Fusion-in-Decoder (FiD) model. We thus significantly boost the baseline system’s performance (over +10 points for both F1 and SacreBLEU). Further, error analysis reveals two major failure cases, to be addressed in future work: (i) in case of topic shift within the dialog, retrieval often fails to select the correct grounding document(s), and (ii) generation sometimes fails to use the correctly retrieved grounding passage. Our code is released at this link.",
+  "keywords": [
+    "code",
+    "the dialog retrieval",
+    "we",
+    "ii generation",
+    "fusion",
+    "ial",
+    "both f1",
+    "decoder",
+    "retrieval",
+    "u",
+    "analysis",
+    "i",
+    "1 document retrieval",
+    "text",
+    "topic"
+  ],
+  "url": "https://aclanthology.org/2022.dialdoc-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:41:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

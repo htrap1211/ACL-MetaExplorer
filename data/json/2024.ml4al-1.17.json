@@ -1,0 +1,33 @@
+{
+  "id": "2024.ml4al-1.17",
+  "title": "Adapting transformer models to morphological tagging of two highly inflectional languages: a case study on {A}ncient {G}reek and {L}atin",
+  "authors": [
+    "Keersmaekers, Alek  and\nMercelis, Wouter"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Machine Learning for Ancient Languages (ML4AL 2024)",
+  "abstract": "Natural language processing for Greek and Latin, inflectional languages with small corpora, requires special techniques. For morphological tagging, transformer models show promising potential, but the best approach to use these models is unclear. For both languages, this paper examines the impact of using morphological lexica, training different model types (a single model with a combined feature tag, multiple models for separate features, and a multi-task model for all features), and adding linguistic constraints. We find that, although simply fine-tuning transformers to predict a monolithic tag may already yield decent results, each of these adaptations can further improve tagging accuracy.",
+  "keywords": [
+    "transformer",
+    "tuning",
+    "transformers",
+    "processing",
+    "transformer models",
+    "language",
+    "natural",
+    "model",
+    "tag",
+    "tagging",
+    "fine",
+    "we",
+    "tagging accuracy",
+    "a ncient g reek",
+    "morphological tagging transformer models"
+  ],
+  "url": "https://aclanthology.org/2024.ml4al-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

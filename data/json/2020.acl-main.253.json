@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.253",
+  "title": "On The Evaluation of Machine Translation Systems Trained With Back-Translation",
+  "authors": [
+    "Edunov, Sergey  and\nOtt, Myle  and\nRanzato, Marc{'}Aurelio  and\nAuli, Michael"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Back-translation is a widely used data augmentation technique which leverages target monolingual data. However, its effectiveness has been challenged since automatic metrics such as BLEU only show significant improvements for test examples where the source itself is a translation, or translationese. This is believed to be due to translationese inputs better matching the back-translated training data. In this work, we show that this conjecture is not empirically supported and that back-translation improves translation quality of both naturally occurring text as well as translationese according to professional human translators. We provide empirical evidence to support the view that back-translation is preferred by humans because it produces more fluent outputs. BLEU cannot capture human preferences because references are translationese when source sentences are natural text. We recommend complementing BLEU with a language model score to measure fluency.",
+  "keywords": [
+    "work",
+    "language",
+    "translationese inputs",
+    "natural",
+    "model",
+    "translationese",
+    "machine",
+    "text",
+    "it",
+    "human",
+    "metrics",
+    "view",
+    "bleu",
+    "back-translation back-translation",
+    "translation quality"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.253/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:45:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

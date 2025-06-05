@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-short.24",
+  "title": "On the Semantic Latent Space of Diffusion-Based Text-To-Speech Models",
+  "authors": [
+    "Varshavsky-Hassid, Miri  and\nHirsch, Roy  and\nCohen, Regev  and\nGolany, Tomer  and\nFreedman, Daniel  and\nRivlin, Ehud"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "The incorporation of Denoising Diffusion Models (DDMs) in the Text-to-Speech (TTS) domain is rising, providing great value in synthesizing high quality speech. Although they exhibit impressive audio quality, the extent of their semantic capabilities is unknown, and controlling their synthesized speech’s vocal properties remains a challenge. Inspired by recent advances in image synthesis, we explore the latent space of frozen TTS models, which is composed of the latent bottleneck activations of the DDM’s denoiser. We identify that this space contains rich semantic information, and outline several novel methods for finding semantic directions within it, both supervised and unsupervised. We then demonstrate how these enable off-the-shelf audio editing, without any further training, architectural changes or data requirements. We present evidence of the semantic and acoustic qualities of the edited audio, and provide supplemental samples: https://latent-analysis-grad-tts.github.io/speech-samples/.",
+  "keywords": [
+    "semantic",
+    "we",
+    "qualities",
+    "activations",
+    "training",
+    "it",
+    "properties",
+    "information",
+    "latent",
+    "rich",
+    "the semantic latent space",
+    "analysis",
+    "rich semantic information",
+    "text",
+    "their semantic capabilities"
+  ],
+  "url": "https://aclanthology.org/2024.acl-short.24/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:46:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.76",
+  "title": "Don{'}t Let Discourse Confine Your Model: Sequence Perturbations for Improved Event Language Models",
+  "authors": [
+    "Koupaee, Mahnaz  and\nDurrett, Greg  and\nChambers, Nathanael  and\nBalasubramanian, Niranjan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Event language models represent plausible sequences of events. Most existing approaches train autoregressive models on text, which successfully capture event co-occurrence but unfortunately constrain the model to follow the discourse order in which events are presented. Other domains may employ different discourse orders, and for many applications, we may care about different notions of ordering (e.g., temporal) or not care about ordering at all (e.g., when predicting related events in a schema). We propose a simple yet surprisingly effective strategy for improving event language models by perturbing event sequences so we can relax model dependence on text order. Despite generating completely synthetic event orderings, we show that this technique improves the performance of the event language models on both applications and out-of-domain events data.",
+  "keywords": [
+    "language",
+    "co",
+    "model",
+    "text",
+    "language models",
+    "-",
+    "e",
+    "event language models",
+    "improved event language models",
+    "we",
+    "sequence",
+    "the event language models",
+    "g",
+    "your model sequence perturbations",
+    "autoregressive models"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.76/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:08:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.574",
+  "title": "The Magic of {IF}: Investigating Causal Reasoning Abilities in Large Language Models of Code",
+  "authors": [
+    "Liu, Xiao  and\nYin, Da  and\nZhang, Chen  and\nFeng, Yansong  and\nZhao, Dongyan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Causal reasoning, the ability to identify cause-and-effect relationship, is crucial in human thinking. Although large language models (LLMs) succeed in many NLP tasks, it is still challenging for them to conduct complex causal reasoning like abductive reasoning and counterfactual reasoning. Given the fact that programming code may express causal relations more often and explicitly with conditional statements like “if“, we want to explore whether Code-LLMs acquire better causal reasoning abilities. Our experiments show that compared to text-only LLMs, Code-LLMs with code prompts are better causal reasoners. We further intervene on the prompts from different aspects, and discover that the key point is the programming structure. Code and data are available athttps://github.com/xxxiaol/magic-if.",
+  "keywords": [
+    "abilities",
+    "code",
+    "prompts",
+    "code-llms",
+    "language",
+    "causal reasoning abilities",
+    "nlp",
+    "text-only llms code-llms",
+    "code prompts",
+    "it",
+    "human",
+    "text",
+    "reasoners",
+    "large language models",
+    "many nlp tasks"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.574/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

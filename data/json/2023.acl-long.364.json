@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.364",
+  "title": "Retrieval-free Knowledge Injection through Multi-Document Traversal for Dialogue Models",
+  "authors": [
+    "Wang, Rui  and\nBao, Jianzhu  and\nMi, Fei  and\nChen, Yi  and\nWang, Hongru  and\nWang, Yasheng  and\nLi, Yitong  and\nShang, Lifeng  and\nWong, Kam-Fai  and\nXu, Ruifeng"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Dialogue models are often enriched with extensive external knowledge to provide informative responses through a retrieval-augmented pipeline. Nevertheless, retrieval-augmented approaches rely on finely annotated retrieval training data and knowledge-grounded response generation data, making it costly to transfer. To tackle this challenge, this paper proposed a retrieval-free approach, KiDG, by automatically turning knowledge documents into simulated multi-turn dialogues through a Multi-Document Traversal algorithm. The simulated knowledge-intensive dialogues constructed by KiDG in one domain can be easily used to train and enhance pre-trained dialogue models’ knowledge w.r.t. this domain without costly annotation. We conduct extensive experiments comparing retrieval-augmented models and a variety of retrieval-free models. We found that dialogue models enhanced with data simulated with KiDG largely outperform state-of-the-art retrieval-free methods, and it achieves comparable performance compared to retrieval-augmented methods while being better, and cheaper at domain transfer.",
+  "keywords": [
+    "variety",
+    "knowledge-grounded response generation data",
+    "knowledge",
+    "generation",
+    "dialogues",
+    "it",
+    "a retrieval-free approach kidg",
+    "retrieval",
+    "retrieval-augmented methods",
+    "dialogue models dialogue models",
+    "pre-trained dialogue models knowledge",
+    "we",
+    "nevertheless retrieval-augmented approaches",
+    "retrieval-free models",
+    "transfer"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.364/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:40:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

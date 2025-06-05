@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.276",
+  "title": "Shifting Attention to Relevance: Towards the Predictive Uncertainty Quantification of Free-Form Large Language Models",
+  "authors": [
+    "Duan, Jinhao  and\nCheng, Hao  and\nWang, Shiqi  and\nZavalny, Alex  and\nWang, Chenan  and\nXu, Renjing  and\nKailkhura, Bhavya  and\nXu, Kaidi"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large Language Models (LLMs) show promising results in language generation and instruction following but frequently “hallucinate”, making their outputs less reliable. Despite Uncertainty Quantification’s (UQ) potential solutions, implementing it accurately within LLMs is challenging. Our research introduces a simple heuristic: not all tokens in auto-regressive LLM text equally represent the underlying meaning, as “linguistic redundancy” often allows a few keywords to convey the essence of long sentences. However, current methods underestimate this inequality when assessing uncertainty, causing tokens with limited semantics to be equally or excessively weighted in UQ. To correct this, we propose Shifting Attention to more Relevant (SAR) components at both token- and sentence-levels for better UQ. We conduct extensive experiments involving a range of popular “off-the-shelf” LLMs, such as Vicuna, WizardLM, and LLaMA-2-chat, with model sizes extending up to 33B parameters. We evaluate various free-form question-answering tasks, encompassing domains such as reading comprehension, science Q&A, and medical Q&A. Our experimental results, coupled with a comprehensive demographic analysis, demonstrate the superior performance of SAR. The code is available at https://github.com/jinhaoduan/SAR.",
+  "keywords": [
+    "code",
+    "question",
+    "form",
+    "we",
+    "current",
+    "llm",
+    "instruction",
+    "language generation",
+    "semantics",
+    "it",
+    "science",
+    "comprehension science",
+    "limited semantics",
+    "auto-regressive llm text",
+    "a"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.276/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.104",
+  "title": "Bias Mitigation in Machine Translation Quality Estimation",
+  "authors": [
+    "Behnke, Hanna  and\nFomicheva, Marina  and\nSpecia, Lucia"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Machine Translation Quality Estimation (QE) aims to build predictive models to assess the quality of machine-generated translations in the absence of reference translations. While state-of-the-art QE models have been shown to achieve good results, they over-rely on features that do not have a causal impact on the quality of a translation. In particular, there appears to be a partial input bias, i.e., a tendency to assign high-quality scores to translations that are fluent and grammatically correct, even though they do not preserve the meaning of the source. We analyse the partial input bias in further detail and evaluate four approaches to use auxiliary tasks for bias mitigation. Two approaches use additional data to inform and support the main task, while the other two are adversarial, actively discouraging the model from learning the bias. We compare the methods with respect to their ability to reduce the partial input bias while maintaining the overall performance. We find that training a multitask architecture with an auxiliary binary classification task that utilises additional augmented data best achieves the desired effects and generalises well to different languages and quality metrics.",
+  "keywords": [
+    "the bias",
+    "bias",
+    "the partial input bias",
+    "we",
+    "translation",
+    "classification",
+    "machine-generated translations",
+    "reference translations",
+    "i",
+    "metrics",
+    "bias mitigation",
+    "reference",
+    "generalises",
+    "model",
+    "machine"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.104/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

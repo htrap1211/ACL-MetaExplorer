@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.37",
+  "title": "Listen Again and Choose the Right Answer: A New Paradigm for Automatic Speech Recognition with Large Language Models",
+  "authors": [
+    "Hu, Yuchen  and\nChen, Chen  and\nQin, Chengwei  and\nZhu, Qiushi  and\nChng, EngSiong  and\nLi, Ruizhe"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Recent advances in large language models (LLMs) have promoted generative error correction (GER) for automatic speech recognition (ASR), which aims to predict the ground-truth transcription from the decoded N-best hypotheses. Thanks to the strong language generation ability of LLMs and rich information in the N-best list, GER shows great effectiveness in enhancing ASR results. However, it still suffers from two limitations: 1) LLMs are unaware of the source speech during GER, which may lead to results that are grammatically correct but violate the source speech content, 2) N-best hypotheses usually only vary in a few tokens, making it redundant to send all of them for GER, which could confuse LLM about which tokens to focus on and thus lead to increased miscorrection. In this paper, we propose ClozeGER, a new paradigm for ASR generative error correction. First, we introduce a multimodal LLM (i.e., SpeechGPT) to receive source speech as extra input to improve the fidelity of correction output. Then, we reformat GER as a cloze test with logits calibration to remove the input information redundancy and simplify GER with clear instructions. Experiments show that ClozeGER achieves a new breakthrough over vanilla GER on 9 popular ASR datasets.",
+  "keywords": [
+    "generative error correction ger",
+    "extra",
+    "all",
+    "we",
+    "llm",
+    "answer",
+    "it",
+    "information",
+    "rich",
+    "speechgpt",
+    "llms",
+    "generative",
+    "i",
+    "a multimodal llm",
+    "large language models llms"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.37/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:49:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

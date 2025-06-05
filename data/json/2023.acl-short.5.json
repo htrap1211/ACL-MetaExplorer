@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.5",
+  "title": "Bootstrapping Neural Relation and Explanation Classifiers",
+  "authors": [
+    "Tang, Zheng  and\nSurdeanu, Mihai"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "We introduce a method that self trains (or bootstraps) neural relation and explanation classifiers. Our work expands the supervised approach of CITATION, which jointly trains a relation classifier with an explanation classifier that identifies context words important for the relation at hand, to semi-supervised scenarios. In particular, our approach iteratively converts the explainable models’ outputs to rules and applies them to unlabeled text to produce new annotations. Our evaluation on the TACRED dataset shows that our method outperforms the rule-based model we started from by 15 F1 points, outperforms traditional self-training that relies just on the relation classifier by 5 F1 points, and performs comparatively with the prompt-based approach of CITATION (without requiring an additional natural language inference component).",
+  "keywords": [
+    "our evaluation",
+    "work",
+    "an explanation classifier",
+    "5 f1 points",
+    "prompt",
+    "language",
+    "neural",
+    "natural",
+    "classifier",
+    "model",
+    "text",
+    "self",
+    "classifiers",
+    "a relation classifier",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:48:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

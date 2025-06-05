@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.913",
+  "title": "What Makes Language Models Good-enough?",
+  "authors": [
+    "Asami, Daiki  and\nSugawara, Saku"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Psycholinguistic research suggests that humans may build a representation of linguistic input that is ‘good-enough’ for the task at hand. This study examines what architectural features make language models learn human-like good-enough language processing. We focus on the number of layers and self-attention heads in Transformers. We create a good-enough language processing (GELP) evaluation dataset (7,680 examples), which is designed to test the effects of two plausibility types, eight construction types, and three degrees of memory cost on language processing. To annotate GELP, we first conduct a crowdsourcing experiment whose design follows prior psycholinguistic studies. Our model evaluation against the annotated GELP then reveals that the full model as well as models with fewer layers and/or self-attention heads exhibit a good-enough performance. This result suggests that models with shallower depth and fewer heads can learn good-enough language processing.",
+  "keywords": [
+    "transformers",
+    "processing",
+    "language",
+    "studies",
+    "model",
+    "human",
+    "self",
+    "language models",
+    "self-attention heads",
+    "attention",
+    "we",
+    "our model evaluation",
+    "language processing",
+    "evaluation",
+    "prior psycholinguistic studies"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.913/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

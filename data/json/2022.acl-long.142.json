@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.142",
+  "title": "Towards Robustness of Text-to-{SQL} Models Against Natural and Realistic Adversarial Table Perturbation",
+  "authors": [
+    "Pi, Xinyu  and\nWang, Bing  and\nGao, Yan  and\nGuo, Jiaqi  and\nLi, Zhoujun  and\nLou, Jian-Guang"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The robustness of Text-to-SQL parsers against adversarial perturbations plays a crucial role in delivering highly reliable applications. Previous studies along this line primarily focused on perturbations in the natural language question side, neglecting the variability of tables. Motivated by this, we propose the Adversarial Table Perturbation (ATP) as a new attacking paradigm to measure robustness of Text-to-SQL models. Following this proposition, we curate ADVETA, the first robustness evaluation benchmark featuring natural and realistic ATPs. All tested state-of-the-art models experience dramatic performance drops on ADVETA, revealing significant room of improvement. To defense against ATP, we build a systematic adversarial training example generation framework tailored for better contextualization of tabular data. Experiments show that our approach brings models best robustness improvement against ATP, while also substantially boost model robustness against NL-side perturbations. We will release ADVETA and code to facilitate future research.",
+  "keywords": [
+    "code",
+    "question",
+    "all",
+    "we",
+    "training",
+    "natural",
+    "previous studies",
+    "text",
+    "language",
+    "generation",
+    "model",
+    "studies",
+    "evaluation",
+    "approach",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.142/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

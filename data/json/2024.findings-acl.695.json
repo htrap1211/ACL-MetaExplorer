@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.695",
+  "title": "B}ranch{N}orm: Robustly Scaling Extremely Deep Transformers",
+  "authors": [
+    "Liu, Yijin  and\nZeng, Xianfeng  and\nMeng, Fandong  and\nZhou, Jie"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Recently, DeepNorm scales Transformers into extremely deep (i.e., 1000 layers) and reveals the promising potential of deep scaling. To stabilize the training of deep models, DeepNorm attempts to constrain the model update to a constant value. Although applying such a constraint can benefit the early stage of model training, it may lead to undertrained models during the whole training procedure. In this paper, we propose BranchNorm, which dynamically rescales the non-residual branch of Transformer in accordance with the training period. BranchNorm not only theoretically stabilizes the training with smooth gradient norms at the early stage, but also encourages better convergence in the subsequent training stage. Experimental results on multiple translation tasks demonstrate that BranchNorm achieves a better trade-off between training stability and converge performance.",
+  "keywords": [
+    "deep",
+    "transformer",
+    "extremely deep transformers",
+    "transformers",
+    "i",
+    "translation",
+    "early",
+    "model",
+    "multiple translation tasks",
+    "it",
+    "smooth gradient norms",
+    "gradient",
+    "b",
+    "scales transformers",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.695/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

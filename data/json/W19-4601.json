@@ -1,0 +1,33 @@
+{
+  "id": "W19-4601",
+  "title": "Incremental Domain Adaptation for Neural Machine Translation in Low-Resource Settings",
+  "authors": [
+    "Kalimuthu, Marimuthu  and\nBarz, Michael  and\nSonntag, Daniel"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Arabic Natural Language Processing Workshop",
+  "abstract": "We study the problem of incremental domain adaptation of a generic neural machine translation model with limited resources (e.g., budget and time) for human translations or model training. In this paper, we propose a novel query strategy for selecting “unlabeled” samples from a new domain based on sentence embeddings for Arabic. We accelerate the fine-tuning process of the generic model to the target domain. Specifically, our approach estimates the informativeness of instances from the target domain by comparing the distance of their sentence embeddings to embeddings from the generic domain. We perform machine translation experiments (Ar-to-En direction) for comparing a random sampling baseline with our new approach, similar to active learning, using two small update sets for simulating the work of human translators. For the prescribed setting we can save more than 50% of the annotation costs without loss in quality, demonstrating the effectiveness of our approach.",
+  "keywords": [
+    "their sentence embeddings",
+    "neural machine translation",
+    "the generic model",
+    "we",
+    "training",
+    "translation",
+    "neural",
+    "the generic domain",
+    "the fine-tuning process",
+    "loss",
+    "learning",
+    "human translations",
+    "machine translation experiments",
+    "tuning",
+    "generic"
+  ],
+  "url": "https://aclanthology.org/W19-4601/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:04:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

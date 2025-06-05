@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.917",
+  "title": "Textless Acoustic Model with Self-Supervised Distillation for Noise-Robust Expressive Speech-to-Speech Translation",
+  "authors": [
+    "Hwang, Min-Jae  and\nKulikov, Ilia  and\nPeloquin, Benjamin  and\nGong, Hongyu  and\nChen, Peng-Jen  and\nLee, Ann"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "In this paper, we propose a textless acoustic model with a self-supervised distillation strategy for noise-robust expressive speech-to-speech translation (S2ST).Recently proposed expressive S2ST systems have achieved impressive expressivity preservation performances by cascading unit-to-speech (U2S) generator to the speech-to-unit translation model. However, these systems are vulnerable to the presence of noise in input speech, which is an assumption in real-world translation scenarios. To address this limitation, we propose a U2S generator that incorporates a distillation with no label (DINO) self-supervised training strategy into it’s pretraining process.Because the proposed method captures noise-agnostic expressivity representation, it can generate qualified speech even in noisy environment.Objective and subjective evaluation results verified that the proposed method significantly improved the performance of the expressive S2ST system in noisy environments while maintaining competitive performance in clean environments.",
+  "keywords": [
+    "subjective evaluation results",
+    "we",
+    "training",
+    "translation",
+    "a u2s generator",
+    "qualified",
+    "it",
+    "self",
+    "real-world translation scenarios",
+    "noisy environment objective",
+    "vulnerable",
+    "objective",
+    "qualified speech",
+    "process",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.917/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.82",
+  "title": "NLP}{\\_}{DI} at {NADI} 2024 shared task: Multi-label {A}rabic Dialect Classifications with an Unsupervised Cross-Encoder",
+  "authors": [
+    "Kanjirangat, Vani  and\nSamardzic, Tanja  and\nDolamic, Ljiljana  and\nRinaldi, Fabio"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "We report the approaches submitted to the NADI 2024 Subtask 1: Multi-label country-level Dialect Identification (MLDID). The core part was to adapt the information from multi-class data for a multi-label dialect classification task. We experimented with supervised and unsupervised strategies to tackle the task in this challenging setting. Under the supervised setup, we used the model trained using NADI 2023 data and devised approaches to convert the multi-class predictions to multi-label by using information from the confusion matrix or using calibrated probabilities. Under unsupervised settings, we used the Arabic-based sentence encoders and multilingual cross-encoders to retrieve similar samples from the training set, considering each test input as a query. The associated labels are then assigned to the input query. We also tried different variations, such as co-occurring dialects derived from the provided development set. We obtained the best validation performance of 48.5% F-score using one of the variations with an unsupervised approach and the same approach yielded the best test result of 43.27% (Ranked 2).",
+  "keywords": [
+    "validation",
+    "we",
+    "confusion",
+    "a rabic dialect classifications",
+    "training",
+    "classification",
+    "cross",
+    "information",
+    "core",
+    "strategies",
+    "-",
+    "calibrated probabilities",
+    "encoders",
+    "the arabic-based sentence encoders",
+    "nlp"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.82/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:03:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

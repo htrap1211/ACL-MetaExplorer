@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.141",
+  "title": "Cold-Start Data Selection for Better Few-shot Language Model Fine-tuning: A Prompt-based Uncertainty Propagation Approach",
+  "authors": [
+    "Yu, Yue  and\nZhang, Rongzhi  and\nXu, Ran  and\nZhang, Jieyu  and\nShen, Jiaming  and\nZhang, Chao"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We present PATRON, a prompt-based data selection method for pre-trained language model fine-tuning under cold-start scenarios, i.e., no initial labeled data are available. In PATRON, we design (1) a prompt-based uncertainty propagation approach to estimate the importance of data points and (2) a partition-then-rewrite (PTR) strategy to promote sample diversity when querying for annotations. Experiments on six text classification datasets show that PATRON outperforms the strongest cold-start data selection baselines by up to 6.9%. Besides, with 128 labels only, PATRON achieves 91.0% and 92.1% of the fully supervised performance based on vanilla fine-tuning and prompt-based learning respectively. Our implementation of PATRON will be published upon acceptance.",
+  "keywords": [
+    "tuning",
+    "prompt",
+    "language",
+    "six text classification datasets",
+    "model",
+    "text",
+    "propagation",
+    "better few-shot language model",
+    "fine",
+    "we",
+    "pre",
+    "pre-trained language model fine-tuning",
+    "shot",
+    "classification",
+    "sample"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.141/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

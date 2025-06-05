@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.23",
+  "title": "An Improved Model for Voicing Silent Speech",
+  "authors": [
+    "Gaddy, David  and\nKlein, Dan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "In this paper, we present an improved model for voicing silent speech, where audio is synthesized from facial electromyography (EMG) signals. To give our model greater flexibility to learn its own input features, we directly use EMG signals as input in the place of hand-designed features used by prior work. Our model uses convolutional layers to extract features from the signals and Transformer layers to propagate information across longer distances. To provide better signal for learning, we also introduce an auxiliary task of predicting phoneme labels in addition to predicting speech audio features. On an open vocabulary intelligibility evaluation, our model improves the state of the art for this task by an absolute 25.8%.",
+  "keywords": [
+    "work",
+    "transformer",
+    "model",
+    "transformer layers",
+    "information",
+    "convolutional layers",
+    "we",
+    "evaluation",
+    "convolutional",
+    "speech",
+    "emg signals",
+    "distances",
+    "state",
+    "greater flexibility",
+    "task"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.23/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

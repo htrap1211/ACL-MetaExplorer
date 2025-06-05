@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.646",
+  "title": "Query-Efficient Black-Box Red Teaming via {B}ayesian Optimization",
+  "authors": [
+    "Lee, Deokjae  and\nLee, JunYeong  and\nHa, Jung-Woo  and\nKim, Jin-Hwa  and\nLee, Sang-Woo  and\nLee, Hwaran  and\nSong, Hyun Oh"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The deployment of large-scale generative models is often restricted by their potential risk of causing harm to users in unpredictable ways. We focus on the problem of black-box red teaming, where a red team generates test cases and interacts with the victim model to discover a diverse set of failures with limited query access. Existing red teaming methods construct test cases based on human supervision or language model (LM) and query all test cases in a brute-force manner without incorporating any information from past evaluations, resulting in a prohibitively large number of queries. To this end, we proposeBayesian red teaming(BRT), novel query-efficient black-box red teaming methods based on Bayesian optimization, which iteratively identify diverse positive test cases leading to model failures by utilizing the pre-defined user input pool and the past evaluations. Experimental results on various user input pools demonstrate that our method consistently finds a significantly larger number of diverse positive test cases under the limited query budget than the baseline methods.The source code is available athttps://github.com/snu-mllab/Bayesian-Red-Teaming.",
+  "keywords": [
+    "code",
+    "end",
+    "efficient",
+    "we",
+    "past evaluations",
+    "force",
+    "query-efficient black-box red teaming",
+    "b ayesian optimization",
+    "red",
+    "bayesian optimization",
+    "queries",
+    "information",
+    "manner",
+    "generative",
+    "language model"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.646/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:44:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

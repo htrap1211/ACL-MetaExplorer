@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.624",
+  "title": "A}lign{B}ench: Benchmarking {C}hinese Alignment of Large Language Models",
+  "authors": [
+    "Liu, Xiao  and\nLei, Xuanyu  and\nWang, Shengyuan  and\nHuang, Yue  and\nFeng, Andrew  and\nWen, Bosi  and\nCheng, Jiale  and\nKe, Pei  and\nXu, Yifan  and\nTam, Weng Lam  and\nZhang, Xiaohan  and\nSun, Lichao  and\nGu, Xiaotao  and\nWang, Hongning  and\nZhang, Jing  and\nHuang, Minlie  and\nDong, Yuxiao  and\nTang, Jie"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Alignment has become a critical step for instruction-tuned Large Language Models (LLMs) to become helpful assistants. However, effective evaluation of alignment for emerging Chinese LLMs is still significantly lacking, calling for real-scenario grounded, open-ended, challenging and automatic evaluations tailored for alignment. To fill in this gap, we introduce AlignBench, a comprehensive multi-dimensional benchmark for evaluating LLMs’ alignment in Chinese. We tailor a human-in-the-loop data curation pipeline, containing 8 main categories, 683 real-scenario rooted queries and corresponding human verified references.To ensure references’ correctness, each knowledge-intensive query is accompanied with evidences collected from reliable webpages (including the url and quotation) by our annotators.For automatic evaluation, our benchmark employs a rule-calibrated multi-dimensional LLM-as-Judge (CITATION) with Chain-of-Thought to generate explanations and final ratings as evaluations, ensuring high reliability and interpretability.All evaluation codes and data are publicly available athttps://github.com/THUDM/AlignBench",
+  "keywords": [
+    "chain",
+    "c hinese alignment",
+    "we",
+    "llm",
+    "instruction",
+    "queries",
+    "automatic evaluation",
+    "llms",
+    "large language models alignment",
+    "categories",
+    "dimensional",
+    "emerging chinese llms",
+    "however effective evaluation",
+    "683 real-scenario rooted queries",
+    "all evaluation codes"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.624/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

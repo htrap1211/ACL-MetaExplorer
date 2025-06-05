@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.863",
+  "title": "Explicating the Implicit: Argument Detection Beyond Sentence Boundaries",
+  "authors": [
+    "Roit, Paul  and\nSlobodkin, Aviv  and\nHirsch, Eran  and\nCattan, Arie  and\nKlein, Ayal  and\nPyatkin, Valentina  and\nDagan, Ido"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Detecting semantic arguments of a predicate word has been conventionally modeled as a sentence-level task. The typical reader, however, perfectly interprets predicate-argument relations in a much wider context than just the sentence where the predicate was evoked. In this work, we reformulate the problem of argument detection through textual entailment to capture semantic relations across sentence boundaries. We propose a method that tests whether some semantic relation can be inferred from a full passage by first encoding it into a simple and standalone proposition and then testing for entailment against the passage. Our method does not require direct supervision, which is generally absent due to dataset scarcity, but instead builds on existing NLI and sentence-level SRL resources. Such a method can potentially explicate pragmatically understood relations into a set of explicit sentences. We demonstrate it on a recent document-level benchmark, outperforming some supervised methods and contemporary language models.",
+  "keywords": [
+    "work",
+    "contemporary language models",
+    "language",
+    "some semantic relation",
+    "it",
+    "boundaries",
+    "sentence boundaries",
+    "semantic arguments",
+    "semantic",
+    "word",
+    "we",
+    "semantic relations",
+    "that",
+    "srl",
+    "this work"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.863/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:46:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

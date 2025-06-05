@@ -1,0 +1,33 @@
+{
+  "id": "W19-3815",
+  "title": "Fill the {GAP}: Exploiting {BERT} for Pronoun Resolution",
+  "authors": [
+    "Yang, Kai-Chou  and\nNiven, Timothy  and\nChou, Tzu Hsuan  and\nKao, Hung-Yu"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the First Workshop on Gender Bias in Natural Language Processing",
+  "abstract": "In this paper, we describe our entry in the gendered pronoun resolution competition which achieved fourth place without data augmentation. Our method is an ensemble system of BERTs which resolves co-reference in an interaction space. We report four insights from our work: BERT’s representations involve significant redundancy; modeling interaction effects similar to natural language inference models is useful for this task; there is an optimal BERT layer to extract representations for pronoun resolution; and the difference between the attention weights from the pronoun to the candidate entities was highly correlated with the correct label, with interesting implications for future work.",
+  "keywords": [
+    "work",
+    "ensemble",
+    "reference",
+    "language",
+    "natural",
+    "co",
+    "bert",
+    "an optimal bert layer",
+    "entities",
+    "the candidate entities",
+    "-",
+    "an ensemble system",
+    "berts",
+    "layer",
+    "attention"
+  ],
+  "url": "https://aclanthology.org/W19-3815/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:59:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

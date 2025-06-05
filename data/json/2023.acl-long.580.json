@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.580",
+  "title": "The Benefits of Bad Advice: Autocontrastive Decoding across Model Layers",
+  "authors": [
+    "Gera, Ariel  and\nFriedman, Roni  and\nArviv, Ofir  and\nGunasekara, Chulaka  and\nSznajder, Benjamin  and\nSlonim, Noam  and\nShnarch, Eyal"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Applying language models to natural language processing tasks typically relies on the representations in the final model layer, as intermediate hidden layer representations are presumed to be less informative. In this work, we argue that due to the gradual improvement across model layers, additional information can be gleaned from the contrast between higher and lower layers during inference. Specifically, in choosing between the probable next token predictions of a generative model, the predictions of lower layers can be used to highlight which candidates are best avoided. We propose a novel approach that utilizes the contrast between layers to improve text generation outputs, and show that it mitigates degenerative behaviors of the model in open-ended generation, significantly improving the quality of generated texts. Furthermore, our results indicate that contrasting between model layers at inference time can yield substantial benefits to certain aspects of general language model capabilities, more effectively extracting knowledge during inference from a given set of model parameters.",
+  "keywords": [
+    "natural language processing tasks",
+    "layer",
+    "text generation outputs",
+    "we",
+    "degenerative behaviors",
+    "degenerative",
+    "natural",
+    "generated texts",
+    "it",
+    "token",
+    "information",
+    "general language model capabilities",
+    "generative",
+    "a generative model",
+    "processing"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.580/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

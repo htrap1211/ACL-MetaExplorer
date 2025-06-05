@@ -1,0 +1,33 @@
+{
+  "id": "2024.sighan-1.5",
+  "title": "Incremental pre-training from smaller language models",
+  "authors": [
+    "Zhang, Han  and\nWang, Hui  and\nXu, Ruifeng"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 10th SIGHAN Workshop on Chinese Language Processing (SIGHAN-10)",
+  "abstract": "Large language models have recently become a new learning paradigm and led to state-of-the-art performance across a range of tasks. As explosive open-source pre-trained models are available, it is worth investigating how to better utilize existing models. We propose a simple yet effective method, Incr-Pretrain, for incrementally pre-training language models from smaller well-trained source models. Different layer-wise transfer strategies were introduced for model augmentation including parameter copying, initial value padding, and model distillation. Experiments on multiple zero-shot learning tasks demonstrate satisfying inference performance upon transferring and promising training efficiency during continuing pre-training. Compared to training from scratch, Incr-Pretrain can save up to half the training time to get a similar testing loss.",
+  "keywords": [
+    "language",
+    "model",
+    "smaller language models",
+    "it",
+    "multiple zero-shot learning tasks",
+    "large language models",
+    "different layer-wise transfer strategies",
+    "strategies",
+    "-",
+    "loss",
+    "incrementally pre-training language models",
+    "layer",
+    "efficiency",
+    "we",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2024.sighan-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:10:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

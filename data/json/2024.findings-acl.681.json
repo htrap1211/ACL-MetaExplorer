@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.681",
+  "title": "wav2vec-{S}: Adapting Pre-trained Speech Models for Streaming",
+  "authors": [
+    "Fu, Biao  and\nFan, Kai  and\nLiao, Minpeng  and\nChen, Yidong  and\nShi, Xiaodong  and\nHuang, Zhongqiang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Pre-trained speech models, such as wav2vec 2.0, have significantly advanced speech-related tasks, including speech recognition and translation. However, their applicability in streaming scenarios is limited because these models are trained on complete utterances, leading to a mismatch with incremental streaming inputs. This paper identifies three critical design aspects within the architecture of wav2vec 2.0 and proposes a novel model, wav2vec-S, which incorporates simple modifications to ensure consistent speech representations during both training and inference phases for streaming speech inputs. Furthermore, we demonstrate that wav2vec-S models can be efficiently adapted from pre-trained wav2vec 2.0 models through continued pre-training and effectively finetuned to meet various latency requirements in downstream applications. Experiments on speech recognition and translation tasks show that wav2vec-S outperforms strong baseline models and achieves a superior balance between quality and latency.",
+  "keywords": [
+    "translation tasks",
+    "model",
+    "we",
+    "pre",
+    "training",
+    "translation",
+    "speech",
+    "applications",
+    "speech recognition",
+    "recognition",
+    "streaming scenarios",
+    "modifications",
+    "streaming",
+    "pre-trained speech models",
+    "architecture"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.681/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

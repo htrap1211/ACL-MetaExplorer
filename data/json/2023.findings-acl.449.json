@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.449",
+  "title": "Leveraging Denoised {A}bstract {M}eaning {R}epresentation for Grammatical Error Correction",
+  "authors": [
+    "Cao, Hejing  and\nZhao, Dongyan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Grammatical Error Correction (GEC) is the task of correcting errorful sentences into grammatically correct, semantically consistent, and coherent sentences. Popular GEC models either use large-scale synthetic corpora or use a large number of human-designed rules. The former is costly to train, while the latter requires quite a lot of human expertise. In recent years, AMR, a semantic representation framework, has been widely used by many natural language tasks due to its completeness and flexibility. A non-negligible concern is that AMRs of grammatically incorrect sentences may not be exactly reliable. In this paper, we propose the AMR-GEC, a seq-to-seq model that incorporates denoised AMR as additional knowledge. Specifically, We design a semantic aggregated GEC model and explore denoising methods to get AMRs more reliable. Experiments on the BEA-2019 shared task and the CoNLL-2014 shared task have shown that AMR-GEC performs comparably to a set of strong baselines with a large number of synthetic data. Compared with the T5 model with synthetic data, AMR-GEC can reduce the training time by 32% while inference time is comparable. To the best of our knowledge, we are the first to incorporate AMR for grammatical error correction.",
+  "keywords": [
+    "semantic",
+    "we",
+    "training",
+    "natural",
+    "a semantic representation framework",
+    "-",
+    "knowledge",
+    "language",
+    "model",
+    "human",
+    "seq",
+    "time",
+    "a large number",
+    "coherent",
+    "error"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.449/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

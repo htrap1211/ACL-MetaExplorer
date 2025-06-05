@@ -1,0 +1,33 @@
+{
+  "id": "2024.repl4nlp-1.4",
+  "title": "Learning from Others: Similarity-based Regularization for Mitigating Dataset Bias.",
+  "authors": [
+    "Igbaria, Reda  and\nBelinkov, Yonatan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 9th Workshop on Representation Learning for NLP (RepL4NLP-2024)",
+  "abstract": "Common methods for mitigating spurious correlations in natural language understanding (NLU) usually operate in the output space, encouraging a main model to behave differently from a bias model by down-weighing examples where the bias model is confident.While improving out of distribution (OOD) performance, it was recently observed that the internal representations of the presumably debiased models are actually more, rather than less biased. We propose SimgReg, a new method for debiasing internal model components via similarity-based regularization, in representation space: We encourage the model to learn representations that are either similar to an unbiased model or different from a biased model. We experiment with three NLU tasks and different kinds of biases.We find that SimReg improves OOD performance, with little in-distribution degradation. Moreover, the representations learned by SimReg are less biased than in other methods.",
+  "keywords": [
+    "bias",
+    "a biased model",
+    "language",
+    "unbiased",
+    "natural",
+    "the presumably debiased models",
+    "dataset bias common methods",
+    "model",
+    "an unbiased model",
+    "it",
+    "a bias model",
+    "the bias model",
+    "regularization",
+    "we",
+    "biased"
+  ],
+  "url": "https://aclanthology.org/2024.repl4nlp-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

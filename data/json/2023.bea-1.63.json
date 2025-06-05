@@ -1,0 +1,33 @@
+{
+  "id": "2023.bea-1.63",
+  "title": "NAIST}eacher: A Prompt and Rerank Approach to Generating Teacher Utterances in Educational Dialogues",
+  "authors": [
+    "Vasselli, Justin  and\nVasselli, Christopher  and\nNohejl, Adam  and\nWatanabe, Taro"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 18th Workshop on Innovative Use of NLP for Building Educational Applications (BEA 2023)",
+  "abstract": "This paper presents our approach to the BEA 2023 shared task of generating teacher responses in educational dialogues, using the Teacher-Student Chatroom Corpus. Our system prompts GPT-3.5-turbo to generate initial suggestions, which are then subjected to reranking. We explore multiple strategies for candidate generation, including prompting for multiple candidates and employing iterative few-shot prompts with negative examples. We aggregate all candidate responses and rerank them based on DialogRPT scores. To handle consecutive turns in the dialogue data, we divide the task of generating teacher utterances into two components: teacher replies to the student and teacher continuations of previously sent messages. Through our proposed methodology, our system achieved the top score on both automated metrics and human evaluation, surpassing the reference human teachers on the latter.",
+  "keywords": [
+    "candidate generation",
+    "reference",
+    "prompts",
+    "human evaluation",
+    "both automated metrics",
+    "prompt",
+    "iterative few-shot prompts",
+    "generation",
+    "the dialogue data",
+    "dialogues",
+    "human",
+    "metrics",
+    "educational dialogues",
+    "strategies",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.bea-1.63/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

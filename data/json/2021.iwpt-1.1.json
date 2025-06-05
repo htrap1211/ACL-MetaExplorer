@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwpt-1.1",
+  "title": "Generic Oracles for Structured Prediction",
+  "authors": [
+    "Teichmann, Christoph  and\nVenant, Antoine"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 17th International Conference on Parsing Technologies and the IWPT 2021 Shared Task on Parsing into Enhanced Universal Dependencies (IWPT 2021)",
+  "abstract": "When learned without exploration, local models for structured prediction tasks are subject to exposure bias and cannot be trained without detailed guidance. Active Imitation Learning (AIL), also known in NLP as Dynamic Oracle Learning, is a general technique for working around these issues by allowing the exploration of different outputs at training time. AIL requires oracle feedback: an oracle is any algorithm which can, given a partial candidate solution and gold annotation, find the correct (minimum loss) next output to produce. This paper describes a general finite state technique for deriving oracles. The technique describe is also efficient and will greatly expand the tasks for which AIL can be used.",
+  "keywords": [
+    "general",
+    "bias",
+    "nlp",
+    "feedback",
+    "generic oracles",
+    "efficient",
+    "generic",
+    "exposure bias",
+    "loss",
+    "learning",
+    "a general technique",
+    "time",
+    "training",
+    "exploration",
+    "detailed"
+  ],
+  "url": "https://aclanthology.org/2021.iwpt-1.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

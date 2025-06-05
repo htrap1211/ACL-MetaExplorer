@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.281",
+  "title": "RA}-{ISF}: Learning to Answer and Understand from Retrieval Augmentation via Iterative Self-Feedback",
+  "authors": [
+    "Liu, Yanming  and\nPeng, Xinyue  and\nZhang, Xuhong  and\nLiu, Weihao  and\nYin, Jianwei  and\nCao, Jiannan  and\nDu, Tianyu"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large language models (LLMs) demonstrate exceptional performance in numerous tasks but still heavily rely on knowledge stored in their parameters. Moreover, updating this knowledge incurs high training costs. Retrieval-augmented generation (RAG) methods address this issue by integrating external knowledge. The model can answer questions it couldn’t previously by retrieving knowledge relevant to the query. This approach improves performance in certain scenarios for specific tasks. However, if irrelevant texts are retrieved, it may impair model performance. In this paper, we propose Retrieval Augmented Iterative Self-Feedback (RA-ISF), a framework that iteratively decomposes tasks and processes them in three submodules to enhance the model’s problem-solving capabilities. Experiments show that our method outperforms existing benchmarks, performing well on models like GPT3.5, Llama2, significantly enhancing factual reasoning capabilities and reducing hallucinations.",
+  "keywords": [
+    "retrieval augmentation",
+    "knowledge",
+    "language",
+    "generation",
+    "ra",
+    "feedback",
+    "model",
+    "it",
+    "retrieval augmented iterative self-feedback",
+    "self",
+    "retrieval",
+    "factual reasoning capabilities",
+    "capabilities",
+    "we",
+    "retrieval-augmented generation rag methods"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.281/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

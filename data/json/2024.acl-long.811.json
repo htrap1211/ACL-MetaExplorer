@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.811",
+  "title": "Disentangled Learning with Synthetic Parallel Data for Text Style Transfer",
+  "authors": [
+    "Han, Jingxuan  and\nWang, Quan  and\nGuo, Zikang  and\nXu, Benfeng  and\nZhang, Licheng  and\nMao, Zhendong"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Text style transfer (TST) is an important task in natural language generation, which aims to transfer the text style (e.g., sentiment) while keeping its semantic information. Due to the absence of parallel datasets for supervision, most existing studies have been conducted in an unsupervised manner, where the generated sentences often suffer from high semantic divergence and thus low semantic preservation. In this paper, we propose a novel disentanglement-based framework for TST named DisenTrans, where disentanglement means that we separate the attribute and content components in the natural language corpus and consider this task from these two perspectives. Concretely, we first create a disentangled Chain-of-Thought prompting procedure to synthesize parallel data and corresponding attribute components for supervision. Then we develop a disentanglement learning method with synthetic data, where two losses are designed to enhance the focus on attribute properties and constrain the semantic space, thereby benefiting style control and semantic preservation respectively. Instructed by the disentanglement concept, our framework creates valuable supervised information and utilizes it effectively in TST tasks. Extensive experiments on mainstream datasets present that our framework achieves significant performance with great sample efficiency.",
+  "keywords": [
+    "chain",
+    "most existing studies",
+    "efficiency",
+    "semantic",
+    "we",
+    "the semantic space",
+    "natural",
+    "it",
+    "properties",
+    "information",
+    "learning",
+    "natural language generation",
+    "transfer",
+    "attribute properties",
+    "manner"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.811/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:45:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

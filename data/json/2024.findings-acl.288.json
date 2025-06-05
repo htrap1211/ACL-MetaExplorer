@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.288",
+  "title": "Unraveling and Mitigating Retriever Inconsistencies in Retrieval-Augmented Large Language Models",
+  "authors": [
+    "Li, Mingda  and\nLi, Xinyu  and\nChen, Yifan  and\nXuan, Wenfeng  and\nZhang, Weinan"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Although Retrieval-Augmented Large Language Models (RALMs) demonstrate their superiority in terms of factuality, they do not consistently outperform the original retrieval-free Language Models (LMs). Our experiments reveal that this example-level performance inconsistency exists not only between retrieval-augmented and retrieval-free LM but also among different retrievers. To understand this phenomenon, we investigate the degeneration behavior of RALMs and theoretically decompose it into four categories. Further analysis based on our decomposition reveals that the innate difference in knowledge sources and the unpredictable degeneration of the reader model contribute most to the inconsistency. Drawing from our analysis, we introduce Ensemble of Retrievers (EoR), a trainable framework that can adaptively retrieve from different knowledge sources and effectively decrease unpredictable reader errors. Our experiments on Open Domain Question Answering show that EoR substantially improves performance over the RALM with a single retriever by considerably reducing inconsistent behaviors.",
+  "keywords": [
+    "ensemble",
+    "inconsistencies",
+    "retrieval-augmented large language models",
+    "knowledge",
+    "language",
+    "answering",
+    "categories",
+    "model",
+    "different retrievers",
+    "it",
+    "a single retriever",
+    "four categories",
+    "retrievers",
+    "retrieval",
+    "question"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.288/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

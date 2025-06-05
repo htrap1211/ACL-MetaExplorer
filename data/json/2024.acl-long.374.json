@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.374",
+  "title": "Robust Frame-Semantic Models with Lexical Unit Trees and Negative Samples",
+  "authors": [
+    "Devasier, Jacob  and\nGurjar, Yogesh  and\nLi, Chengkai"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We present novel advancements in frame-semantic parsing, specifically focusing on target identification and frame identification. Our target identification model employs a novel prefix tree modification to enable robust support for multi-word lexical units, resulting in a coverage of 99.4% of the targets in the FrameNet 1.7 fulltext annotations. It utilizes a RoBERTa-based filter to achieve an F1 score of 0.775, surpassing the previous state-of-the-art solution by +0.012. For frame identification, we introduce a modification to the standard multiple-choice classification paradigm by incorporating additional negative frames for targets with limited candidate frames, resulting in a +0.014 accuracy improvement over the frame-only model of FIDO, the previous state-of-the-art system, and +0.002 over its full system. Our approach significantly enhances performance on rare frames, exhibiting an improvement of +0.044 over FIDO’s accuracy on frames with 5 or fewer samples, and on under-utilized frames, with an improvement of +0.139 on targets with a single candidate frame. Overall, our contributions address critical challenges and advance the state-of-the-art in frame-semantic parsing.",
+  "keywords": [
+    "parsing",
+    "roberta",
+    "support",
+    "semantic",
+    "we",
+    "classification",
+    "it",
+    "robust frame-semantic models",
+    "word",
+    "fido s accuracy",
+    "a roberta-based filter",
+    "frame-semantic parsing",
+    "accuracy",
+    "an f1 score",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.374/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

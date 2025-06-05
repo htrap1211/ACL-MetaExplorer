@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.630",
+  "title": "An Entropy-based Text Watermarking Detection Method",
+  "authors": [
+    "Lu, Yijian  and\nLiu, Aiwei  and\nYu, Dianzhi  and\nLi, Jingjing  and\nKing, Irwin"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Text watermarking algorithms for large language models (LLMs) can effectively identify machine-generated texts by embedding and detecting hidden features in the text. Although the current text watermarking algorithms perform well in most high-entropy scenarios, its performance in low-entropy scenarios still needs to be improved. In this work, we opine that the influence of token entropy should be fully considered in the watermark detection process,i.e., the weight of each token during watermark detection should be customized according to its entropy, rather than setting the weights of all tokens to the same value as in previous methods. Specifically, we proposeEntropy-based TextWatermarkingDetection (EWD) that gives higher-entropy tokens higher influence weights during watermark detection, so as to better reflect the degree of watermarking. Furthermore, the proposed detection process is training-free and fully automated. From the experiments, we demonstrate that our EWD can achieve better detection performance in low-entropy scenarios, and our method is also general and can be applied to texts with different entropy distributions. Our code and data is available. Additionally, our algorithm could be accessed through MarkLLM (CITATION).",
+  "keywords": [
+    "code",
+    "we",
+    "markllm",
+    "current",
+    "training",
+    "token",
+    "machine-generated texts",
+    "llms",
+    "i",
+    "text",
+    "large language models llms",
+    "work",
+    "process",
+    "general",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.630/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

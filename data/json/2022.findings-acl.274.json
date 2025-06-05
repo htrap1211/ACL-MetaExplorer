@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.274",
+  "title": "Two Birds with One Stone: Unified Model Learning for Both Recall and Ranking in News Recommendation",
+  "authors": [
+    "Wu, Chuhan  and\nWu, Fangzhao  and\nQi, Tao  and\nHuang, Yongfeng"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Recall and ranking are two critical steps in personalized news recommendation. Most existing news recommender systems conduct personalized news recall and ranking separately with different models. However, maintaining multiple models leads to high computational cost and poses great challenges to meeting the online latency requirement of news recommender systems. In order to handle this problem, in this paper we propose UniRec, a unified method for recall and ranking in news recommendation. In our method, we first infer user embedding for ranking from the historical news click behaviors of a user using a user encoder model. Then we derive the user embedding for recall from the obtained user embedding for ranking by using it as the attention query to select a set of basis user embeddings which encode different general user interests and synthesize them into a user embedding for recall. The extensive experiments on benchmark dataset demonstrate that our method can improve both efficiency and effectiveness for recall and ranking in news recommendation.",
+  "keywords": [
+    "efficiency",
+    "a unified method",
+    "we",
+    "basis user embeddings",
+    "it",
+    "both recall",
+    "unified",
+    "learning",
+    "both efficiency",
+    "a user encoder model",
+    "the attention query",
+    "different general user interests",
+    "embeddings",
+    "recall",
+    "general"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.274/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

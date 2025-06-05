@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.755",
+  "title": "Disentangled Phonetic Representation for {C}hinese Spelling Correction",
+  "authors": [
+    "Liang, Zihong  and\nQuan, Xiaojun  and\nWang, Qifan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Chinese Spelling Correction (CSC) aims to detect and correct erroneous characters in Chinese texts. Although efforts have been made to introduce phonetic information (Hanyu Pinyin) in this task, they typically merge phonetic representations with character representations, which tends to weaken the representation effect of normal texts. In this work, we propose to disentangle the two types of features to allow for direct interaction between textual and phonetic information. To learn useful phonetic representations, we introduce a pinyin-to-character objective to ask the model to predict the correct characters based solely on phonetic information, where a separation mask is imposed to disable attention from phonetic input to text. To avoid overfitting the phonetics, we further design a self-distillation module to ensure that semantic information plays a major role in the prediction. Extensive experiments on three CSC benchmarks demonstrate the superiority of our method in using phonetic information.",
+  "keywords": [
+    "semantic",
+    "we",
+    "self",
+    "information",
+    "normal",
+    "objective",
+    "work",
+    "model",
+    "attention",
+    "semantic information",
+    "major",
+    "characters",
+    "interaction",
+    "role",
+    "the correct characters"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.755/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:45:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

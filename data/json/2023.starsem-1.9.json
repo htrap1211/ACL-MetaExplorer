@@ -1,0 +1,33 @@
+{
+  "id": "2023.starsem-1.9",
+  "title": "Evaluating Factual Consistency of Texts with Semantic Role Labeling",
+  "authors": [
+    "Fan, Jing  and\nAumiller, Dennis  and\nGertz, Michael"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 12th Joint Conference on Lexical and Computational Semantics (*SEM 2023)",
+  "abstract": "Automated evaluation of text generation systems has recently seen increasing attention, particularly checking whether generated text stays truthful to input sources. Existing methods frequently rely on an evaluation using task-specific language models, which in turn allows for little interpretability of generated scores. We introduce SRLScore, a reference-free evaluation metric designed with text summarization in mind. Our approach generates fact tuples constructed from Semantic Role Labels, applied to both input and summary texts.A final factuality score is computed by an adjustable scoring mechanism, which allows for easy adaption of the method across domains. Correlation with human judgments on English summarization datasets shows that SRLScore is competitive with state-of-the-art methods and exhibits stable generalization across datasets without requiring further training or hyperparameter tuning. We experiment with an optional co-reference resolution step, but find that the performance boost is mostly outweighed by the additional compute required. Our metric is available online at:https://github.com/heyjing/SRLScore",
+  "keywords": [
+    "text summarization",
+    "semantic",
+    "summarization",
+    "we",
+    "stable generalization",
+    "training",
+    "semantic role",
+    "english summarization datasets",
+    "boost",
+    "an evaluation",
+    "generated text",
+    "generated scores",
+    "text generation systems",
+    "metric",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2023.starsem-1.9/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:31:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

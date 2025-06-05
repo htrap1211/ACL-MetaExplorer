@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.389",
+  "title": "The Power of Summary-Source Alignments",
+  "authors": [
+    "Ernst, Ori  and\nShapira, Ori  and\nSlobodkin, Aviv  and\nAdar, Sharon  and\nBansal, Mohit  and\nGoldberger, Jacob  and\nLevy, Ran  and\nDagan, Ido"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Multi-document summarization (MDS) is a challenging task, often decomposed to subtasks of salience and redundancy detection, followed by text generation.In this context, alignment of corresponding sentences between a reference summary and its source documents has been leveraged to generate training data for some of the component tasks. Yet, this enabling alignment step has usually been applied heuristically on the sentence level on a limited number of subtasks.In this paper, we propose extending the summary-source alignment framework by (1) applying it at the more fine-grained proposition span level, (2) annotating alignment manually in a multi-document setup, and (3) revealing the great potential of summary-source alignments to yield several datasets for at least six different tasks. Specifically, for each of the tasks, we release a manually annotated test set that was derived automatically from the alignment annotation. We also release development and train sets in the same way, but from automatically derived alignments.Using the datasets, each task is demonstrated with baseline models and corresponding evaluation metrics to spur future research on this broad challenge.",
+  "keywords": [
+    "salience and redundancy detection",
+    "alignments",
+    "summarization",
+    "we",
+    "corresponding evaluation metrics",
+    "text generation",
+    "training",
+    "it",
+    "salience",
+    "this enabling alignment step",
+    "automatically derived alignments",
+    "text",
+    "metrics",
+    "the alignment annotation",
+    "2 annotating alignment"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.389/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:53:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

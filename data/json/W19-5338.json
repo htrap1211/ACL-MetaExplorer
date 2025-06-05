@@ -1,0 +1,33 @@
+{
+  "id": "W19-5338",
+  "title": "The {RWTH} {A}achen {U}niversity Machine Translation Systems for {WMT} 2019",
+  "authors": [
+    "Rosendahl, Jan  and\nHerold, Christian  and\nKim, Yunsu  and\nGra{\\c{c}}a, Miguel  and\nWang, Weiyue  and\nBahar, Parnia  and\nGao, Yingbo  and\nNey, Hermann"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1)",
+  "abstract": "This paper describes the neural machine translation systems developed at the RWTH Aachen University for the German-English, Chinese-English and Kazakh-English news translation tasks of the Fourth Conference on Machine Translation (WMT19). For all tasks, the final submitted system is based on the Transformer architecture. We focus on improving data filtering and fine-tuning as well as systematically evaluating interesting approaches like unigram language model segmentation and transfer learning. For the De-En task, none of the tested methods gave a significant improvement over last years winning system and we end up with the same performance, resulting in 39.6% BLEU on newstest2019. In the Zh-En task, we show 1.3% BLEU improvement over our last year’s submission, which we mostly attribute to the splitting of long sentences during translation. We further report results on the Kazakh-English task where we gain improvements of 11.1% BLEU over our baseline system. On the same task we present a recent transfer learning approach, which uses half of the free parameters of our submission system and performs on par with it.",
+  "keywords": [
+    "bleu",
+    "11 1 bleu",
+    "we",
+    "translation",
+    "fine-tuning",
+    "neural",
+    "it",
+    "u",
+    "learning",
+    "transfer",
+    "tuning",
+    "39 6 bleu",
+    "par",
+    "fine",
+    "1 3 bleu improvement"
+  ],
+  "url": "https://aclanthology.org/W19-5338/",
+  "provenance": {
+    "collected_at": "2025-06-05 02:07:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

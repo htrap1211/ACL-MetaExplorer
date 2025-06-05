@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.279",
+  "title": "Bag-of-Words vs. Graph vs. Sequence in Text Classification: Questioning the Necessity of Text-Graphs and the Surprising Strength of a Wide {MLP",
+  "authors": [
+    "Galke, Lukas  and\nScherp, Ansgar"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Graph neural networks have triggered a resurgence of graph-based text classification methods, defining today’s state of the art. We show that a wide multi-layer perceptron (MLP) using a Bag-of-Words (BoW) outperforms the recent graph-based models TextGCN and HeteGCN in an inductive text classification setting and is comparable with HyperGAT. Moreover, we fine-tune a sequence-based BERT and a lightweight DistilBERT model, which both outperform all state-of-the-art models. These results question the importance of synthetic graphs used in modern text classifiers. In terms of efficiency, DistilBERT is still twice as large as our BoW-based wide MLP, while graph-based models like TextGCN require setting up an𝒪(N2)graph, whereNis the vocabulary plus corpus size. Finally, since Transformers need to compute𝒪(L2)attention weights with sequence lengthL, the MLP models show higher training and inference speeds on datasets with long sequences.",
+  "keywords": [
+    "transformers",
+    "classifiers",
+    "layer",
+    "efficiency",
+    "we",
+    "graph",
+    "efficiency distilbert",
+    "training",
+    "classification",
+    "bag",
+    "neural",
+    "graph-based text classification methods",
+    "sequence",
+    "text classification",
+    "bert"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.279/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:28:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

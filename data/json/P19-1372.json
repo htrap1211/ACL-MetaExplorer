@@ -1,0 +1,33 @@
+{
+  "id": "P19-1372",
+  "title": "Are Training Samples Correlated? Learning to Generate Dialogue Responses with Multiple References",
+  "authors": [
+    "Qiu, Lisong  and\nLi, Juntao  and\nBi, Wei  and\nZhao, Dongyan  and\nYan, Rui"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Due to its potential applications, open-domain dialogue generation has become popular and achieved remarkable progress in recent years, but sometimes suffers from generic responses. Previous models are generally trained based on 1-to-1 mapping from an input query to its response, which actually ignores the nature of 1-to-n mapping in dialogue that there may exist multiple valid responses corresponding to the same query. In this paper, we propose to utilize the multiple references by considering the correlation of different valid responses and modeling the 1-to-n mapping with a novel two-step generation architecture. The first generation phase extracts the common features of different responses which, combined with distinctive features obtained in the second phase, can generate multiple diverse and appropriate responses. Experimental results show that our proposed model can effectively improve the quality of response and outperform existing neural dialogue models on both automatic and human evaluations.",
+  "keywords": [
+    "generation",
+    "neural",
+    "n",
+    "model",
+    "human",
+    "evaluations",
+    "generic",
+    "existing neural dialogue models",
+    "generic responses",
+    "we",
+    "valid",
+    "dialogue",
+    "the first generation phase",
+    "dialogue responses",
+    "training"
+  ],
+  "url": "https://aclanthology.org/P19-1372/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:39:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.408",
+  "title": "D}ual{GAT}s: Dual Graph Attention Networks for Emotion Recognition in Conversations",
+  "authors": [
+    "Zhang, Duzhen  and\nChen, Feilong  and\nChen, Xiuyi"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Capturing complex contextual dependencies plays a vital role in Emotion Recognition in Conversations (ERC). Previous studies have predominantly focused on speaker-aware context modeling, overlooking the discourse structure of the conversation. In this paper, we introduce Dual Graph ATtention networks (DualGATs) to concurrently consider the complementary aspects of discourse structure and speaker-aware context, aiming for more precise ERC. Specifically, we devise a Discourse-aware GAT (DisGAT) module to incorporate discourse structural information by analyzing the discourse dependencies between utterances. Additionally, we develop a Speaker-aware GAT (SpkGAT) module to incorporate speaker-aware contextual information by considering the speaker dependencies between utterances. Furthermore, we design an interaction module that facilitates the integration of the DisGAT and SpkGAT modules, enabling the effective interchange of relevant information between the two modules. We extensively evaluate our method on four datasets, and experimental results demonstrate that our proposed DualGATs surpass state-of-the-art baselines on the majority of the datasets.",
+  "keywords": [
+    "erc previous studies",
+    "conversations",
+    "complex contextual dependencies",
+    "we",
+    "graph",
+    "the discourse dependencies",
+    "ual",
+    "dependencies",
+    "information",
+    "the conversation",
+    "spkgat",
+    "studies",
+    "modeling",
+    "attention",
+    "conversation"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.408/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:40:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

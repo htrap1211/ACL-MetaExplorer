@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.94",
+  "title": "Learning to Robustly Aggregate Labeling Functions for Semi-supervised Data Programming",
+  "authors": [
+    "Maheshwari, Ayush  and\nKillamsetty, Krishnateja  and\nRamakrishnan, Ganesh  and\nIyer, Rishabh  and\nDanilevsky, Marina  and\nPopa, Lucian"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "A critical bottleneck in supervised machine learning is the need for large amounts of labeled data which is expensive and time-consuming to obtain. Although a small amount of labeled data cannot be used to train a model, it can be used effectively for the generation of humaninterpretable labeling functions (LFs). These LFs, in turn, have been used to generate a large amount of additional noisy labeled data in a paradigm that is now commonly referred to as data programming. Previous methods of generating LFs do not attempt to use the given labeled data further to train a model, thus missing opportunities for improving performance. Additionally, since the LFs are generated automatically, they are likely to be noisy, and naively aggregating these LFs can lead to suboptimal results. In this work, we propose an LF-based bi-level optimization framework WISDOM to solve these two critical limitations. WISDOM learns a joint model on the (same) labeled dataset used for LF induction along with any unlabeled data in a semi-supervised manner, and more critically, reweighs each LF according to its goodness, influencing its contribution to the semi-supervised loss using a robust bi-level optimization algorithm. We show that WISDOM significantly outperforms prior approaches on several text classification datasets.",
+  "keywords": [
+    "opportunities",
+    "several text classification datasets",
+    "the generation",
+    "we",
+    "classification",
+    "it",
+    "supervised machine learning",
+    "loss",
+    "learning",
+    "a robust bi-level optimization",
+    "manner",
+    "text",
+    "work",
+    "generation",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.94/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

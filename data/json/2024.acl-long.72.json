@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.72",
+  "title": "Advancing Abductive Reasoning in Knowledge Graphs through Complex Logical Hypothesis Generation",
+  "authors": [
+    "Bai, Jiaxin  and\nWang, Yicheng  and\nZheng, Tianshi  and\nGuo, Yue  and\nLiu, Xin  and\nSong, Yangqiu"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Abductive reasoning is the process of making educated guesses to provide explanations for observations. Although many applications require the use of knowledge for explanations, the utilization of abductive reasoning in conjunction with structured knowledge, such as a knowledge graph, remains largely unexplored. To fill this gap, this paper introduces the task of complex logical hypothesis generation, as an initial step towards abductive logical reasoning with KG. In this task, we aim to generate a complex logical hypothesis so that it can explain a set of observations. We find that the supervised trained generative model can generate logical hypotheses that are structurally closer to the reference hypothesis. However, when generalized to unseen observations, this training objective does not guarantee better hypothesis generation. To address this, we introduce the Reinforcement Learning from Knowledge Graph (RLF-KG) method, which minimizes differences between observations and conclusions drawn from generated hypotheses according to the KG. Experiments show that, with RLF-KG’s assistance, the generated hypotheses provide better explanations, and achieve state-of-the-art results on three widely used KGs.",
+  "keywords": [
+    "we",
+    "graph",
+    "training",
+    "complex logical hypothesis generation",
+    "it",
+    "knowledge graphs",
+    "learning",
+    "better hypothesis generation",
+    "the reinforcement learning",
+    "kgs",
+    "this training objective",
+    "generative",
+    "knowledge graph rlf-kg method",
+    "objective",
+    "generated"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.72/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:35:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

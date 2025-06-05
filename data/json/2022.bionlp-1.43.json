@@ -1,0 +1,33 @@
+{
+  "id": "2022.bionlp-1.43",
+  "title": "D}o{SSIER} at {M}ed{V}id{QA} 2022: Text-based Approaches to Medical Video Answer Localization Problem",
+  "authors": [
+    "Kusa, Wojciech  and\nPeikos, Georgios  and\nEspitia, {\\'O}scar  and\nHanbury, Allan  and\nPasi, Gabriella"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 21st Workshop on Biomedical Language Processing",
+  "abstract": "This paper describes our contribution to the Answer Localization track of the MedVidQA 2022 Shared Task. We propose two answer localization approaches that use only textual information extracted from the video. In particular, our approaches exploit the text extracted from the video’s transcripts along with the text displayed in the video’s frames to create a set of features. Having created a set of features that represents a video’s textual information, we employ four different models to measure the similarity between a video’s segment and a corresponding question. Then, we employ two different methods to obtain the start and end times of the identified answer. One of them is based on a random forest regressor, whereas the other one uses an unsupervised peak detection model to detect the answer’s start time. Our findings suggest that for this task, leveraging only text-related features (transmitted either verbally or visually) and using a small amount of training data, lead to significant improvements over the benchmark Video Span Localization model that is based on deep neural networks.",
+  "keywords": [
+    "deep",
+    "question",
+    "deep neural networks",
+    "we",
+    "the identified answer",
+    "ssier",
+    "training",
+    "answer",
+    "neural",
+    "information",
+    "m",
+    "i",
+    "text",
+    "a random forest regressor",
+    "medvidqa"
+  ],
+  "url": "https://aclanthology.org/2022.bionlp-1.43/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:40:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

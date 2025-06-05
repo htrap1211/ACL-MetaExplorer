@@ -1,0 +1,33 @@
+{
+  "id": "P17-2092",
+  "title": "Chunk-Based Bi-Scale Decoder for Neural Machine Translation",
+  "authors": [
+    "Zhou, Hao  and\nTu, Zhaopeng  and\nHuang, Shujian  and\nLiu, Xiaohua  and\nLi, Hang  and\nChen, Jiajun"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "In typical neural machine translation (NMT), the decoder generates a sentence word by word, packing all linguistic granularities in the same time-scale of RNN. In this paper, we propose a new type of decoder for NMT, which splits the decode state into two parts and updates them in two different time-scales. Specifically, we first predict a chunk time-scale state for phrasal modeling, on top of which multiple word time-scale states are generated. In this way, the target sentence is translated hierarchically from chunks to words, with information in different granularities being leveraged. Experiments show that our proposed model significantly improves the translation performance over the state-of-the-art NMT model.",
+  "keywords": [
+    "top",
+    "the translation performance",
+    "neural",
+    "the decoder",
+    "model",
+    "machine",
+    "all linguistic granularities",
+    "neural machine translation",
+    "chunk-based bi-scale decoder",
+    "modeling",
+    "decode",
+    "granularities",
+    "decoder",
+    "different granularities",
+    "information"
+  ],
+  "url": "https://aclanthology.org/P17-2092/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:04:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

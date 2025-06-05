@@ -1,0 +1,33 @@
+{
+  "id": "2021.spnlp-1.5",
+  "title": "Mode recovery in neural autoregressive sequence modeling",
+  "authors": [
+    "Kulikov, Ilia  and\nWelleck, Sean  and\nCho, Kyunghyun"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 5th Workshop on Structured Prediction for NLP (SPNLP 2021)",
+  "abstract": "Despite its wide use, recent studies have revealed unexpected and undesirable properties of neural autoregressive sequence models trained with maximum likelihood, such as an unreasonably high affinity to short sequences after training and to infinitely long sequences at decoding time. We propose to study these phenomena by investigating how the modes, or local maxima, of a distribution are maintained throughout the fulllearning chainof the ground-truth, empirical, learned and decoding-induced distributions, via the newly proposedmode recovery cost. We design a tractable testbed where we build three types of ground-truth distributions: (1) an LSTM based structured distribution, (2) an unstructured distribution where probability of a sequence does not depend on its content, and (3) a product of these two which we call a semi-structured distribution. Our study reveals both expected and unexpected findings. First, starting with data collection, mode recovery cost strongly relies on the ground-truth distribution and is most costly with the semi-structured distribution. Second, after learning, mode recovery cost from the ground-truth distribution may increase or decrease compared to data collection, with the largest cost degradation occurring with the semi-structured ground-truth distribution. Finally, the ability of the decoding-induced distribution to recover modes from the learned distribution is highly impacted by the choices made earlier in the learning chain. We conclude that future research must consider the entire learning chain in order to fully understand the potentials and perils and to further improve neural autoregressive sequence models.",
+  "keywords": [
+    "chain",
+    "we",
+    "lstm",
+    "unexpected and undesirable properties",
+    "training",
+    "neural",
+    "properties",
+    "sequence",
+    "learning",
+    "recent studies",
+    "mode",
+    "studies",
+    "modeling",
+    "time",
+    "a distribution"
+  ],
+  "url": "https://aclanthology.org/2021.spnlp-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:22:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

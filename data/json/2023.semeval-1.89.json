@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.89",
+  "title": "USTC}-{NELSLIP} at {S}em{E}val-2023 Task 2: Statistical Construction and Dual Adaptation of Gazetteer for Multilingual Complex {NER",
+  "authors": [
+    "Ma, Jun-Yu  and\nGu, Jia-Chen  and\nQi, Jiajun  and\nLing, Zhenhua  and\nLiu, Quan  and\nZhao, Xiaoyi"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper describes the system developed by the USTC-NELSLIP team for SemEval-2023 Task 2 Multilingual Complex Named Entity Recognition (MultiCoNER II). We propose a method named Statistical Construction and Dual Adaptation of Gazetteer (SCDAG) for Multilingual Complex NER. The method first utilizes a statistics-based approach to construct a gazetteer. Secondly, the representations of gazetteer networks and language models are adapted by minimizing the KL divergence between them at the sentence-level and entity-level. Finally, these two networks are then integrated for supervised named entity recognition (NER) training. The proposed method is applied to several state-of-the-art Transformer-based NER models with a gazetteer built from Wikidata, and shows great generalization ability across them. The final predictions are derived from an ensemble of these trained models. Experimental results and detailed analysis verify the effectiveness of the proposed method. The official results show that our system ranked 1st on one track (Hindi) in this task.",
+  "keywords": [
+    "multiconer",
+    "we",
+    "training",
+    "ensemble",
+    "multilingual complex ner",
+    "an ensemble",
+    "analysis",
+    "ner",
+    "language models",
+    "generalization",
+    "transformer",
+    "language",
+    "great generalization ability",
+    "entity",
+    "detailed"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.89/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:27:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

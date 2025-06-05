@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.99",
+  "title": "Deriving Language Models from Masked Language Models",
+  "authors": [
+    "Torroba Hennigen, Lucas  and\nKim, Yoon"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Masked language models (MLM) do not explicitly define a distribution over language, i.e., they are not language models per se. However, recent work has implicitly treated them as such for the purposes of generation and scoring. This paper studies methods for deriving explicit joint distributions from MLMs, focusing on distributions over two tokens, which makes it possible to calculate exact distributional properties. We find that an approach based on identifying joints whose conditionals are closest to those of the MLM works well and outperforms existing Markov random field-based approaches. We further find that this derived model’s conditionals can even occasionally outperform the original MLM’s conditionals.",
+  "keywords": [
+    "work",
+    "i",
+    "language",
+    "generation",
+    "random",
+    "this paper studies methods",
+    "masked language models",
+    "studies",
+    "model",
+    "it",
+    "language models",
+    "field",
+    "properties",
+    "we",
+    "exact distributional properties"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.99/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:49:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

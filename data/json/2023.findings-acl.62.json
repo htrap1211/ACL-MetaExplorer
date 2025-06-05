@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.62",
+  "title": "Triggering Multi-Hop Reasoning for Question Answering in Language Models using Soft Prompts and Random Walks",
+  "authors": [
+    "Misra, Kanishka  and\nNogueira dos Santos, Cicero  and\nShakeri, Siamak"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Despite readily memorizing world knowledge about entities, pre-trained language models (LMs) struggle to compose together two or more facts to perform multi-hop reasoning in question-answering tasks. In this work, we propose techniques that improve upon this limitation by relying on random-walks over structured knowledge graphs. Specifically, we use soft-prompts to guide LMs to chain together their encoded knowledge by learning to map multi-hop questions to random-walk paths that lead to the answer. Applying our methods on two T5 LMs shows substantial improvements over standard tuning approaches in answering questions that require multi-hop reasoning.",
+  "keywords": [
+    "work",
+    "prompts",
+    "tuning",
+    "knowledge",
+    "answer",
+    "language",
+    "random",
+    "entities",
+    "language models",
+    "question",
+    "we",
+    "pre",
+    "soft prompts",
+    "structured knowledge graphs",
+    "soft"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.62/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

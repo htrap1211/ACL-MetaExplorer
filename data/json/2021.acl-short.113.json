@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.113",
+  "title": "Constructing Multi-Modal Dialogue Dataset by Replacing Text with Semantically Relevant Images",
+  "authors": [
+    "Lee, Nyoungwoo  and\nShin, Suwon  and\nChoo, Jaegul  and\nChoi, Ho-Jin  and\nMyaeng, Sung-Hyon"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "In multi-modal dialogue systems, it is important to allow the use of images as part of a multi-turn conversation. Training such dialogue systems generally requires a large-scale dataset consisting of multi-turn dialogues that involve images, but such datasets rarely exist. In response, this paper proposes a 45k multi-modal dialogue dataset created with minimal human intervention. Our method to create such a dataset consists of (1) preparing and pre-processing text dialogue datasets, (2) creating image-mixed dialogues by using a text-to-image replacement technique, and (3) employing a contextual-similarity-based filtering step to ensure the contextual coherence of the dataset. To evaluate the validity of our dataset, we devise a simple retrieval model for dialogue sentence prediction tasks. Automatic metrics and human evaluation results on such tasks show that our dataset can be effectively used as training data for multi-modal dialogue systems which require an understanding of images and text in a context-aware manner. Our dataset and generation code is available athttps://github.com/shh1574/multi-modal-dialogue-dataset.",
+  "keywords": [
+    "a context-aware manner",
+    "code",
+    "pre-processing text dialogue datasets",
+    "a simple retrieval model",
+    "human evaluation results",
+    "we",
+    "dialogue",
+    "training",
+    "multi-modal dialogue systems",
+    "it",
+    "retrieval",
+    "manner",
+    "processing",
+    "text",
+    "image-mixed dialogues"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.113/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:08:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

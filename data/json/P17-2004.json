@@ -1,0 +1,33 @@
+{
+  "id": "P17-2004",
+  "title": "Alternative Objective Functions for Training {MT} Evaluation Metrics",
+  "authors": [
+    "Stanojevi{\\'c}, Milo{\\v{s}}  and\nSima{'}an, Khalil"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "MT evaluation metrics are tested for correlation with human judgments either at the sentence- or the corpus-level. Trained metrics ignore corpus-level judgments and are trained for high sentence-level correlation only. We show that training only for one objective (sentence or corpus level), can not only harm the performance on the other objective, but it can also be suboptimal for the objective being optimized. To this end we present a metric trained for corpus-level and show empirical comparison against a metric trained for sentence-level exemplifying how their performance may vary per language pair, type and level of judgment. Subsequently we propose a model trained to optimize both objectives simultaneously and show that it is far more stable than–and on average outperforms–both models on both objectives.",
+  "keywords": [
+    "alternative objective functions",
+    "one objective sentence",
+    "the other objective",
+    "objectives",
+    "end",
+    "language",
+    "model",
+    "metric",
+    "both objectives",
+    "it",
+    "objective",
+    "human",
+    "the objective",
+    "metrics",
+    "the corpus-level trained metrics"
+  ],
+  "url": "https://aclanthology.org/P17-2004/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:01:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

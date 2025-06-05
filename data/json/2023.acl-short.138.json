@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.138",
+  "title": "M}ol{XPT}: Wrapping Molecules with Text for Generative Pre-training",
+  "authors": [
+    "Liu, Zequn  and\nZhang, Wei  and\nXia, Yingce  and\nWu, Lijun  and\nXie, Shufang  and\nQin, Tao  and\nZhang, Ming  and\nLiu, Tie-Yan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Generative pre-trained Transformer (GPT) has demonstrates its great success in natural language processing and related techniques have been adapted into molecular modeling. Considering that text is the most important record for scientific discovery, in this paper, we propose MolXPT, a unified language model of text and molecules pre-trained on SMILES (a sequence representation of molecules) wrapped by text. Briefly, we detect the molecule names in each sequence and replace them to the corresponding SMILES. In this way, the SMILES could leverage the information from surrounding text, and vice versa. The above wrapped sequences, text sequences from PubMed and SMILES sequences from PubChem are all fed into a language model for pre-training. Experimental results demonstrate that MolXPT outperforms strong baselines of molecular property prediction on MoleculeNet, performs comparably to the best model in text-molecule translation while using less than half of its parameters, and enables zero-shot molecular generation without finetuning.",
+  "keywords": [
+    "scientific discovery",
+    "we",
+    "pre-training experimental results",
+    "training",
+    "translation",
+    "natural",
+    "zero-shot molecular generation",
+    "unified",
+    "information",
+    "sequence",
+    "natural language processing",
+    "scientific",
+    "a language model",
+    "generative",
+    "processing"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.138/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:50:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

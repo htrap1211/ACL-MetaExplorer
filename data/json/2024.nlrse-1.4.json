@@ -1,0 +1,33 @@
+{
+  "id": "2024.nlrse-1.4",
+  "title": "Applying {RLAIF} for Code Generation with {API}-usage in Lightweight {LLM}s",
+  "authors": [
+    "Dutta, Sujan  and\nMahinder, Sayantan  and\nAnantha, Raviteja  and\nBandyopadhyay, Bortik"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 2nd Workshop on Natural Language Reasoning and Structured Explanations (@ACL 2024)",
+  "abstract": "Reinforcement Learning from AI Feedback (RLAIF) has demonstrated significant potential across various domains, including mitigating harm in LLM outputs, enhancing text summarization, and mathematical reasoning. This paper introduces an RLAIF framework for improving the code generation abilities of lightweight (<1B parameters) LLMs. We specifically focus on code generation tasks that require writing appropriate API calls, which is challenging due to the well-known issue of hallucination in LLMs. Our framework extracts AI feedback from a larger LLM (e.g., GPT-3.5) through a specialized prompting strategy and uses this data to train a reward model towards better alignment from smaller LLMs. We run our experiments on the Gorilla dataset and meticulously assess the quality of the model-generated code across various metrics, including AST, ROUGE, and Code-BLEU, and develop a pipeline to compute its executability rate accurately. Our approach significantly enhances the fine-tuned LLM baseline’s performance, achieving a 4.5% improvement in executability rate. Notably, a smaller LLM model (780M parameters) trained with RLAIF surpasses a much larger fine-tuned baseline with 7B parameters, achieving a 1.0% higher code executability rate.",
+  "keywords": [
+    "code",
+    "code generation tasks",
+    "feedback",
+    "rate",
+    "llm outputs",
+    "llm s reinforcement learning",
+    "bleu",
+    "text summarization",
+    "ast",
+    "code-bleu",
+    "summarization",
+    "we",
+    "llm",
+    "better alignment",
+    "smaller llms"
+  ],
+  "url": "https://aclanthology.org/2024.nlrse-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

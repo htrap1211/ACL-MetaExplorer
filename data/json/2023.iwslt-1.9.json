@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.9",
+  "title": "Length-Aware {NMT} and Adaptive Duration for Automatic Dubbing",
+  "authors": [
+    "Rao, Zhiqiang  and\nShang, Hengchao  and\nYang, Jinlong  and\nWei, Daimeng  and\nLi, Zongyao  and\nGuo, Jiaxin  and\nLi, Shaojun  and\nYu, Zhengzhe  and\nWu, Zhanglin  and\nXie, Yuhao  and\nWei, Bin  and\nZheng, Jiawei  and\nLei, Lizhi  and\nYang, Hao"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "This paper presents the submission of Huawei Translation Services Center for the IWSLT 2023 dubbing task in the unconstrained setting. The proposed solution consists of a Transformer-based machine translation model and a phoneme duration predictor. The Transformer is deep and multiple target-to-source length-ratio class labels are used to control target lengths. The variation predictor in FastSpeech2 is utilized to predict phoneme durations. To optimize the isochrony in dubbing, re-ranking and scaling are performed. The source audio duration is used as a reference to re-rank the translations of different length-ratio labels, and the one with minimum time deviation is preferred. Additionally, the phoneme duration outputs are scaled within a defined threshold to narrow the duration gap with the source audio.",
+  "keywords": [
+    "deep",
+    "transformer",
+    "reference",
+    "huawei translation services center",
+    "the translations",
+    "model",
+    "machine",
+    "class",
+    "the transformer",
+    "ratio",
+    "translations",
+    "time",
+    "re",
+    "translation",
+    "automatic dubbing"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.9/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:24:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

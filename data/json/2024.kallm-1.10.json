@@ -1,0 +1,33 @@
+{
+  "id": "2024.kallm-1.10",
+  "title": "STAGE}: Simplified Text-Attributed Graph Embeddings using Pre-trained {LLM}s",
+  "authors": [
+    "Zolnai-Lucas, Aaron  and\nBoylan, Jack  and\nHokamp, Chris  and\nGhaffari, Parsa"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Knowledge Graphs and Large Language Models (KaLLM 2024)",
+  "abstract": "We present STAGE, a straightforward yet effective method for enhancing node features in Graph Neural Network (GNN) models that encode Text-Attributed Graphs (TAGs). Our approach leverages Large-Language Models (LLMs) to generate embeddings for textual attributes. STAGE achieves competitive results on various node classification benchmarks while also maintaining a simplicity in implementation relative to current state-of-the-art (SoTA) techniques. We show that utilizing pre-trained LLMs as embedding generators provides robust features for ensemble GNN training, enabling pipelines that are simpler than current SoTA approaches which require multiple expensive training and prompting stages. We also implement diffusion-pattern GNNs in an effort to make this pipeline scalable to graphs beyond academic benchmarks.",
+  "keywords": [
+    "embeddings",
+    "various node classification benchmarks",
+    "ensemble",
+    "pre-trained llm",
+    "language",
+    "neural",
+    "text",
+    "encode",
+    "pre-trained llms",
+    "embedding generators",
+    "text-attributed graph embeddings",
+    "network",
+    "we",
+    "generators",
+    "graph"
+  ],
+  "url": "https://aclanthology.org/2024.kallm-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:07:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

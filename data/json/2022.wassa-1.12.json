@@ -1,0 +1,33 @@
+{
+  "id": "2022.wassa-1.12",
+  "title": "E}nglish-{M}alay Word Embeddings Alignment for Cross-lingual Emotion Classification with Hierarchical Attention Network",
+  "authors": [
+    "Lim, Ying Hao  and\nLiew, Jasy Suet Yan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 12th Workshop on Computational Approaches to Subjectivity, Sentiment {\\&} Social Media Analysis",
+  "abstract": "The main challenge in English-Malay cross-lingual emotion classification is that there are no Malay training emotion corpora. Given that machine translation could fall short in contextually complex tweets, we only limited machine translation to the word level. In this paper, we bridge the language gap between English and Malay through cross-lingual word embeddings constructed using singular value decomposition. We pre-trained our hierarchical attention model using English tweets and fine-tuned it using a set of gold standard Malay tweets. Our model uses significantly less computational resources compared to the language models. Experimental results show that the performance of our model is better than mBERT in zero-shot learning by 2.4% and Malay BERT by 0.8% when a limited number of Malay tweets is available. In exchange for 6 – 7 times less in computational time, our model only lags behind mBERT and XLM-RoBERTa by a margin of 0.9 – 4.3 % in few-shot learning. Also, the word-level attention could be transferred to the Malay tweets accurately using the cross-lingual word embeddings.",
+  "keywords": [
+    "roberta",
+    "mbert",
+    "english-malay cross-lingual emotion classification",
+    "that machine translation",
+    "few-shot learning",
+    "we",
+    "shot",
+    "training",
+    "translation",
+    "classification",
+    "-roberta",
+    "cross",
+    "it",
+    "cross-lingual emotion classification",
+    "word"
+  ],
+  "url": "https://aclanthology.org/2022.wassa-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:46:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

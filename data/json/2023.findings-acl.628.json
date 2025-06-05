@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.628",
+  "title": "Local Temperature Beam Search: Avoid Neural Text {D}e{G}eneration via Enhanced Calibration",
+  "authors": [
+    "Lee, Dongkyu  and\nKim, Gyeonghun  and\nHan, Janghoon  and\nHong, Taesuk  and\nKim, Yi-Reun  and\nChoi, Stanley Jungkyu  and\nZhang, Nevin L."
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Previous studies have constantly observed that a language model repeats itself, creating repetitions in an output sequence. To cope with the issue, stochastic decoding schemes have been the de facto approaches; the strategies add randomness in inference, hence avoiding the “self-loop”. However, the remedy comes at the cost of sacrificing output quality due to the randomness involved. In this work, we introduce a deterministic decoding scheme, local temperature beam search. This inference algorithm is an embarrassingly simple variant of beam search, yet it reduces repetition, whose level is superior to that of a sampling-based decoding algorithm, while maintaining the level of coherence as in beam search. Our idea is rooted in the concept of model calibration; we view a repetition as a casualty from overconfidence in a model. Therefore, our work mitigates the miscalibration present in the course of inference with a post-calibration approach applied in beam-specific manner. Our inference scheme is validated on text completion tasks, in which the repetition problem is seen most clearly, and is exhaustively compared with existing inference schemes.",
+  "keywords": [
+    "eneration",
+    "we",
+    "neural",
+    "the strategies",
+    "it",
+    "self",
+    "sequence",
+    "a language model",
+    "manner",
+    "d e g eneration",
+    "previous studies",
+    "text",
+    "strategies",
+    "work",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.628/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

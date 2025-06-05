@@ -1,0 +1,33 @@
+{
+  "id": "2021.dialdoc-1.13",
+  "title": "Team {JARS}: {D}ial{D}oc Subtask 1 - Improved Knowledge Identification with Supervised Out-of-Domain Pretraining",
+  "authors": [
+    "Khosla, Sopan  and\nLovelace, Justin  and\nDutt, Ritam  and\nPratapa, Adithya"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Document-grounded Dialogue and Conversational Question Answering (DialDoc 2021)",
+  "abstract": "In this paper, we discuss our submission for DialDoc subtask 1. The subtask requires systems to extract knowledge from FAQ-type documents vital to reply to a user’s query in a conversational setting. We experiment with pretraining a BERT-based question-answering model on different QA datasets from MRQA, as well as conversational QA datasets like CoQA and QuAC. Our results show that models pretrained on CoQA and QuAC perform better than their counterparts that are pretrained on MRQA datasets. Our results also indicate that adding more pretraining data does not necessarily result in improved performance. Our final model, which is an ensemble of AlBERT-XL pretrained on CoQA and QuAC independently, with the chosen answer having the highest average probability score, achieves an F1-Score of 70.9% on the official test-set.",
+  "keywords": [
+    "ial",
+    "ensemble",
+    "knowledge",
+    "answer",
+    "an f1-score",
+    "bert",
+    "model",
+    "different qa datasets",
+    "a bert-based question-answering model",
+    "albert",
+    "question",
+    "albert-xl",
+    "conversational",
+    "we",
+    "mrqa datasets"
+  ],
+  "url": "https://aclanthology.org/2021.dialdoc-1.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.664",
+  "title": "M}ulti{C}ap{CLIP}: Auto-Encoding Prompts for Zero-Shot Multilingual Visual Captioning",
+  "authors": [
+    "Yang, Bang  and\nLiu, Fenglin  and\nWu, Xian  and\nWang, Yaowei  and\nSun, Xu  and\nZou, Yuexian"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Supervised visual captioning models typically require a large scale of images or videos paired with descriptions in a specific language (i.e., the vision-caption pairs) for training. However, collecting and labeling large-scale datasets is time-consuming and expensive for many scenarios and languages. Therefore, sufficient labeled pairs are usually not available. To deal with the label shortage problem, we present a simple yet effective zero-shot approach MultiCapCLIP that can generate visual captions for different scenarios and languages without any labeled vision-caption pairs of downstream datasets. In the training stage, MultiCapCLIP only requires text data for input. Then it conducts two main steps: 1) retrieving concept prompts that preserve the corresponding domain knowledge of new scenarios; 2) auto-encoding the prompts to learn writing styles to output captions in a desired language. In the testing stage, MultiCapCLIP instead takes visual data as input directly to retrieve the concept prompts to generate the final visual descriptions. The extensive experiments on image and video captioning across four benchmarks and four languages (i.e., English, Chinese, German, and French) confirm the effectiveness of our approach. Compared with state-of-the-art zero-shot and weakly-supervised methods, our method achieves 4.8% and 21.5% absolute improvements in terms of BLEU@4 and CIDEr metrics. Our code is available athttps://github.com/yangbang18/MultiCapCLIP.",
+  "keywords": [
+    "code",
+    "concept prompts",
+    "bleu",
+    "we",
+    "shot",
+    "training",
+    "cider metrics",
+    "it",
+    "sufficient",
+    "visual",
+    "the prompts",
+    "i",
+    "text",
+    "metrics",
+    "auto-encoding prompts"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.664/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:44:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

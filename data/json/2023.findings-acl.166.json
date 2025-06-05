@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.166",
+  "title": "Multimodal Prompt Learning for Product Title Generation with Extremely Limited Labels",
+  "authors": [
+    "Yang, Bang  and\nLiu, Fenglin  and\nLi, Zheng  and\nYin, Qingyu  and\nYou, Chenyu  and\nYin, Bing  and\nZou, Yuexian"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Generating an informative and attractive title for the product is a crucial task for e-commerce. Most existing works follow the standard multimodal natural language generation approaches, e.g., image captioning, and employ the large scale of human-labelled datasets to train desirable models. However, for novel products, especially in a different domain, there are few existing labelled data. In this paper, we propose a prompt-based approach, i.e., the Multimodal Prompt Learning framework, to accurately and efficiently generate titles for novel products with limited labels. We observe that the core challenges of novel product title generation are the understanding of novel product characteristics and the generation of titles in a novel writing style. To this end, we build a set of multimodal prompts from different modalities to preserve the corresponding characteristics and writing styles of novel products. As a result, with extremely limited labels for training, the proposed method can retrieve the multimodal prompts to generate desirable titles for novel products. The experiments and analyses are conducted on five novel product categories under both the in-domain and out-of-domain experimental settings. The results show that, with only 1% of downstream labelled data for training, our proposed approach achieves the best few-shot results and even achieves competitive results with fully-supervised methods trained on 100% of training data; With the full labelled data for training, our method achieves state-of-the-art results.",
+  "keywords": [
+    "end",
+    "the generation",
+    "we",
+    "shot",
+    "training",
+    "multimodal prompt learning",
+    "a prompt-based approach",
+    "natural",
+    "novel product title generation",
+    "e",
+    "learning",
+    "multimodal prompts",
+    "the multimodal prompts",
+    "different modalities",
+    "core"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.166/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

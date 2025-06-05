@@ -1,0 +1,33 @@
+{
+  "id": "2024.knowledgenlp-1.6",
+  "title": "DSLR}: Document Refinement with Sentence-Level Re-ranking and Reconstruction to Enhance Retrieval-Augmented Generation",
+  "authors": [
+    "Hwang, Taeho  and\nJeong, Soyeong  and\nCho, Sukmin  and\nHan, SeungYoon  and\nPark, Jong"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 3rd Workshop on Knowledge Augmented Methods for NLP",
+  "abstract": "Recent advancements in Large Language Models (LLMs) have significantly improved their performance across various Natural Language Processing (NLP) tasks.However, LLMs still struggle with generating non-factual responses due to limitations in their parametric memory.Retrieval-Augmented Generation (RAG) systems address this issue by incorporating external knowledge with a retrieval module.Despite their successes, however, current RAG systems face challenges with retrieval failures and the limited ability of LLMs to filter out irrelevant information.Therefore, in this work, we proposeDSLR(Document Refinement withSentence-LevelRe-ranking and Reconstruction), an unsupervised framework that decomposes retrieved documents into sentences, filters out irrelevant sentences, and reconstructs them again into coherent passages.We experimentally validateDSLRon multiple open-domain QA datasets and the results demonstrate thatDSLRsignificantly enhances the RAG performance over conventional fixed-size passage.Furthermore, ourDSLRenhances performance in specific, yet realistic scenarios without the need for additional training, providing an effective and efficient solution for refining retrieved documents in RAG systems.",
+  "keywords": [
+    "efficient",
+    "we",
+    "current",
+    "retrieval-augmented generation recent advancements",
+    "training",
+    "retrieval failures",
+    "natural",
+    "retrieval",
+    "information",
+    "llms",
+    "a retrieval module",
+    "processing",
+    "work",
+    "knowledge",
+    "retrieved documents"
+  ],
+  "url": "https://aclanthology.org/2024.knowledgenlp-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:07:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

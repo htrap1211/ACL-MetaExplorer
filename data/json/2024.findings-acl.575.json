@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.575",
+  "title": "Pushing the Limits of Low-Resource {NER} Using {LLM} Artificial Data Generation",
+  "authors": [
+    "Santoso, Joan  and\nSutanto, Patrick  and\nCahyadi, Billy  and\nSetiawan, Esther"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Named Entity Recognition (NER) is an important task, but to achieve great performance, it is usually necessary to collect a large amount of labeled data, incurring high costs. In this paper, we propose using open-source Large Language Models (LLM) to generate NER data with only a few labeled examples, reducing the cost of human annotations. Our proposed method is very simple and can perform well using only a few labeled data points. Experimental results on diverse low-resource NER datasets show that our proposed data generation method can significantly improve the baseline. Additionally, our method can be used to augment datasets with class-imbalance problems and consistently improves model performance on macro-F1 metrics.",
+  "keywords": [
+    "ner",
+    "generation",
+    "language",
+    "model",
+    "llm artificial data generation",
+    "ner data",
+    "it",
+    "human",
+    "low-resource ner",
+    "class",
+    "metrics",
+    "entity recognition ner",
+    "diverse low-resource ner datasets",
+    "we",
+    "macro-f1 metrics"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.575/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:56:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

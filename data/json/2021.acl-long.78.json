@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.78",
+  "title": "To {POS} Tag or Not to {POS} Tag: The Impact of {POS} Tags on Morphological Learning in Low-Resource Settings",
+  "authors": [
+    "Moeller, Sarah  and\nLiu, Ling  and\nHulden, Mans"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Part-of-Speech (POS) tags are routinely included as features in many NLP tasks. However, the importance and usefulness of POS tags needs to be examined as NLP expands to low-resource languages because linguists who provide many annotated resources do not place priority on early identification and tagging of POS. This paper describes an empirical study about the effect that POS tags have on two computational morphological tasks with the Transformer architecture. Each task is tested twice on identical data except for the presence/absence of POS tags, using published data in ten high- to low-resource languages or unpublished linguistic field data in five low-resource languages. We find that the presence or absence of POS tags does not have a significant bearing on performance. In joint segmentation and glossing, the largest average difference is an .09 improvement in F1-scores by removing POS tags. In reinflection, the greatest average difference is 1.2% in accuracy for published data and 5% for unpublished and noisy field data.",
+  "keywords": [
+    "field",
+    "we",
+    "pos tag",
+    "many nlp tasks",
+    "tag",
+    "learning",
+    "unpublished linguistic field data",
+    "early",
+    "pos",
+    "accuracy",
+    "transformer",
+    "nlp",
+    "tagging",
+    "f1-scores",
+    "the transformer architecture"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.78/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:00:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

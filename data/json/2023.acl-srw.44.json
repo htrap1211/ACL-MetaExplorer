@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-srw.44",
+  "title": "Authorship Attribution of Late 19th Century Novels using {GAN}-{BERT",
+  "authors": [
+    "Silva, Kanishka  and\nCan, Burcu  and\nBlain, Fr{\\'e}d{\\'e}ric  and\nSarwar, Raheem  and\nUgolini, Laura  and\nMitkov, Ruslan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "Authorship attribution aims to identify the author of an anonymous text. The task becomes even more worthwhile when it comes to literary works. For example, pen names were commonly used by female authors in the 19th century resulting in some literary works being incorrectly attributed or claimed. With this motivation, we collated a dataset of late 19th century novels in English. Due to the imbalance in the dataset and the unavailability of enough data per author, we employed the GANBERT model along with data sampling strategies to fine-tune a transformer-based model for authorship attribution. Differently from the earlier studies on the GAN-BERT model, we conducted transfer learning on comparatively smaller author subsets to train more focused author-specific models yielding performance over 0.88 accuracy and F1 scores. Furthermore, we observed that increasing the sample size has a negative impact on the model’s performance. Our research mainly contributes to the ongoing authorship attribution research using GAN-BERT architecture, especially in attributing disputed novelists in the late 19th century.",
+  "keywords": [
+    "ganbert",
+    "we",
+    "the ganbert model",
+    "fine-tune a transformer-based model",
+    "data sampling strategies",
+    "it",
+    "learning",
+    "transfer",
+    "transfer learning",
+    "the gan-bert model",
+    "pen",
+    "bert",
+    "the earlier studies",
+    "text",
+    "strategies"
+  ],
+  "url": "https://aclanthology.org/2023.acl-srw.44/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:51:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

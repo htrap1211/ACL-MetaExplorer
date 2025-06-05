@@ -1,0 +1,33 @@
+{
+  "id": "P19-3006",
+  "title": "Rapid Customization for Event Extraction",
+  "authors": [
+    "Chan, Yee Seng  and\nFasching, Joshua  and\nQiu, Haoling  and\nMin, Bonan"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: System Demonstrations",
+  "abstract": "Extracting events in the form of who is involved in what at when and where from text, is one of the core information extraction tasks that has many applications such as web search and question answering. We present a system for rapidly customizing event extraction capability to find new event types (what happened) and their arguments (who, when, and where). To enable extracting events of new types, we develop a novel approach to allow a user to find, expand and filter event triggers by exploring an unannotated development corpus. The system will then generate mention level event annotation automatically and train a neural network model for finding the corresponding events. To enable extracting arguments for new event types, the system makes novel use of the ACE annotation dataset to train a generic argument attachment model for extracting Actor, Place, and Time. We demonstrate that with less than 10 minutes of human effort per event type, the system achieves good performance for 67 novel event types. Experiments also show that the generic argument attachment model performs well on the novel event types. Our system (code, UI, documentation, demonstration video) is released as open source.",
+  "keywords": [
+    "code",
+    "extraction",
+    "question",
+    "form",
+    "we",
+    "neural",
+    "information",
+    "core",
+    "text",
+    "generic",
+    "model",
+    "human",
+    "a neural network model",
+    "network",
+    "time"
+  ],
+  "url": "https://aclanthology.org/P19-3006/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:49:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

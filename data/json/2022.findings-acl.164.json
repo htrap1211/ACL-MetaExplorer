@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.164",
+  "title": "Richer Countries and Richer Representations",
+  "authors": [
+    "Zhou, Kaitlyn  and\nEthayarajh, Kawin  and\nJurafsky, Dan"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "We examine whether some countries are more richly represented in embedding space than others. We find that countries whose names occur with low frequency in training corpora are more likely to be tokenized into subwords, are less semantically distinct in embedding space, and are less likely to be correctly predicted: e.g., Ghana (the correct answer and in-vocabulary) is not predicted for, “The country producing the most cocoa is [MASK].”. Although these performance discrepancies and representational harms are due to frequency, we find that frequency is highly correlated with a country’s GDP; thus perpetuating historic power and wealth inequalities. We analyze the effectiveness of mitigation strategies; recommend that researchers report training word frequencies; and recommend future work for the community to define and design representational guarantees.",
+  "keywords": [
+    "work",
+    "answer",
+    "wealth inequalities",
+    "richer countries",
+    "strategies",
+    "mitigation strategies",
+    "inequalities",
+    "frequencies",
+    "discrepancies",
+    "some countries",
+    "we",
+    "training word frequencies",
+    "word",
+    "these performance discrepancies",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.164/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

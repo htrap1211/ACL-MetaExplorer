@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.869",
+  "title": "Pre-trained Language Models Can be Fully Zero-Shot Learners",
+  "authors": [
+    "Zhao, Xuandong  and\nOuyang, Siqi  and\nYu, Zhiguo  and\nWu, Ming  and\nLi, Lei"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "How can we extend a pre-trained model to many language understanding tasks, without labeled or additional unlabeled data? Pre-trained language models (PLMs) have been effective for a wide range of NLP tasks. However, existing approaches either require fine-tuning on downstream labeled datasets or manually constructing proper prompts. In this paper, we propose nonparametric prompting PLM (NPPrompt) for fully zero-shot language understanding. Unlike previous methods, NPPrompt uses only pre-trained language models and does not require any labeled data or additional raw corpus for further fine-tuning, nor does it rely on humans to construct a comprehensive set of prompt label words. We evaluate NPPrompt against previous major few-shot and zero-shot learning methods on diverse NLP tasks: including text classification, text entailment, similar text retrieval, paraphrasing, and multiple-choice question answering. Experimental results demonstrate that our NPPrompt outperforms the previous best fully zero-shot method by big margins, with absolute gains of 12.8% in accuracy on text classification and 15.6% on the GLUE benchmark. Our source code is available athttps://anonymous.4open.science/r/NPPrompt.",
+  "keywords": [
+    "code",
+    "our npprompt outperforms",
+    "fully zero-shot language understanding",
+    "prompt label words",
+    "question",
+    "we",
+    "shot",
+    "classification",
+    "fine-tuning",
+    "diverse nlp tasks",
+    "pre-trained language models",
+    "proper prompts",
+    "it",
+    "npprompt",
+    "fully zero-shot learners"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.869/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:47:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

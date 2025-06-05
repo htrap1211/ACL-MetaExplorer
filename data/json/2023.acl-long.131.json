@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.131",
+  "title": "Better Simultaneous Translation with Monotonic Knowledge Distillation",
+  "authors": [
+    "Wang, Shushu  and\nWu, Jing  and\nFan, Kai  and\nLuo, Wei  and\nXiao, Jun  and\nHuang, Zhongqiang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Simultaneous machine translation (SiMT) presents a unique challenge as it requires generating target tokens before the source sentence is fully consumed. This can lead to the hallucination problem, where target tokens are generated without support from the source sentence. The prefix-to-prefix training data used to train SiMT models are not always parallel, due to divergent word order between the source and target languages, and can contribute to the problem. In this paper, we propose a novel approach that leverages traditional translation models as teachers and employs a two-stage beam search algorithm to generate monotonic yet accurate reference translations for sequence-level knowledge distillation. Experimental results demonstrate the significant improvements achieved by our approach over multiple strong SiMT baselines, leading to new state-of-the-art performance across various language pairs. Notably, when evaluated on a monotonic version of the WMT15 De-En test set, which includes references generated in a more monotonic style by professional translators, our approach achieves even more substantial improvement over the baselines. The source code and data are publicly available for further exploration.",
+  "keywords": [
+    "code",
+    "support",
+    "we",
+    "training",
+    "translation",
+    "it",
+    "word",
+    "sequence",
+    "traditional translation models",
+    "reference",
+    "knowledge",
+    "language",
+    "machine",
+    "better simultaneous translation",
+    "translations"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.131/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

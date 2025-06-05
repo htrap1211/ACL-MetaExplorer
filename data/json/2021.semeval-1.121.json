@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.121",
+  "title": "UA}ntwerp at {S}em{E}val-2021 Task 5: Spans are Spans, stacking a binary word level approach to toxic span detection",
+  "authors": [
+    "Burtenshaw, Ben  and\nKestemont, Mike"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper describes the system developed by the Antwerp Centre for Digital humanities and literary Criticism [UAntwerp] for toxic span detection. We used a stacked generalisation ensemble of five component models, with two distinct interpretations of the task. Two models attempted to predict binary word toxicity based on ngram sequences, whilst 3 categorical span based models were trained to predict toxic token labels based on complete sequence tokens. The five models’ predictions were ensembled within an LSTM model. As well as describing the system, we perform error analysis to explore model performance in relation to textual features. The system described in this paper scored 0.6755 and ranked 26th.",
+  "keywords": [
+    "ensemble",
+    "a stacked generalisation ensemble",
+    "em",
+    "model",
+    "ua",
+    "an lstm model",
+    "generalisation",
+    "digital humanities",
+    "humanities",
+    "token",
+    "e",
+    "word",
+    "we",
+    "sequence",
+    "lstm"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.121/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

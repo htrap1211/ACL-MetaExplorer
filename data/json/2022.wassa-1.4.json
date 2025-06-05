@@ -1,0 +1,33 @@
+{
+  "id": "2022.wassa-1.4",
+  "title": "``splink'' is happy and ``phrouth'' is scary: Emotion Intensity Analysis for Nonsense Words",
+  "authors": [
+    "Sabbatino, Valentino  and\nTroiano, Enrica  and\nSchweitzer, Antje  and\nKlinger, Roman"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 12th Workshop on Computational Approaches to Subjectivity, Sentiment {\\&} Social Media Analysis",
+  "abstract": "People associate affective meanings to words - “death” is scary and sad while “party” is connotated with surprise and joy. This raises the question if the association is purely a product of the learned affective imports inherent to semantic meanings, or is also an effect of other features of words, e.g., morphological and phonological patterns. We approach this question with an annotation-based analysis leveraging nonsense words. Specifically, we conduct a best-worst scaling crowdsourcing study in which participants assign intensity scores for joy, sadness, anger, disgust, fear, and surprise to 272 non-sense words and, for comparison of the results to previous work, to 68 real words. Based on this resource, we develop character-level and phonology-based intensity regressors. We evaluate them on both nonsense words and real words (making use of the NRC emotion intensity lexicon of 7493 words), across six emotion categories. The analysis of our data reveals that some phonetic patterns show clear differences between emotion intensities. For instance, s as a first phoneme contributes to joy, sh to surprise, p as last phoneme more to disgust than to anger and fear. In the modelling experiments, a regressor trained on real words from the NRC emotion intensity lexicon shows a higher performance (r = 0.17) than regressors that aim at learning the emotion connotation purely from nonsense words. We conclude that humans do associate affective meaning to words based on surface patterns, but also based on similarities to existing words (“juy” to “joy”, or “flike” to “like”).",
+  "keywords": [
+    "question",
+    "semantic",
+    "we",
+    "emotion intensities",
+    "intensities",
+    "analysis",
+    "sh",
+    "s",
+    "categories",
+    "work",
+    "p",
+    "similarities",
+    "six emotion categories",
+    "semantic meanings",
+    "clear differences"
+  ],
+  "url": "https://aclanthology.org/2022.wassa-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:46:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

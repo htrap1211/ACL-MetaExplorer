@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-demos.30",
+  "title": "C}har{P}oet: A {C}hinese Classical Poetry Generation System Based on Token-free {LLM",
+  "authors": [
+    "Yu, Chengyue  and\nZang, Lei  and\nWang, Jiaotuan  and\nZhuang, Chenyi  and\nGu, Jinjie"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+  "abstract": "Automatic Chinese classical poetry generation has attracted much research interest, but achieving effective control over format and content simultaneously remains challenging. Traditional systems usually accept keywords as user inputs, resulting in limited control over content. Large language models (LLMs) improve content control by allowing unrestricted user instructions, but the token-by-token generation process frequently makes format errors. Motivated by this, we propose CharPoet, a Chinese classical poetry generation system based on token-free LLM, which provides effective control over both format and content. Our token-free architecture generates in a character-by-character manner, enabling precise control over the number of characters. Pruned from existing token-based LLMs, CharPoet inherits their pretrained capabilities and can generate poetry following instructions like �Write me a poem for my mother’s birthday.� CharPoet achieves format accuracy above 0.96, outperforming Jiuge-GPT-2 (0.91) and GPT-4 (0.38). In terms of content quality, CharPoet surpasses traditional systems including Jiuge, and is comparable to other LLMs. Our system is open source and available at https://modelscope.cn/models/CharPoet/CharPoet. A video demonstration of CharPoet is available at https://youtu.be/voZ25qEp3Dc.",
+  "keywords": [
+    "existing token-based llms",
+    "achieves",
+    "achieves format accuracy",
+    "we",
+    "llm",
+    "content large language models",
+    "other llms",
+    "token",
+    "format",
+    "gpt-2",
+    "the token-by-token generation process",
+    "manner",
+    "llms",
+    "their pretrained capabilities",
+    "gpt-4"
+  ],
+  "url": "https://aclanthology.org/2024.acl-demos.30/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:47:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

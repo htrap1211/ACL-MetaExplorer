@@ -1,0 +1,33 @@
+{
+  "id": "2021.wat-1.29",
+  "title": "IITP}-{MT} at {WAT}2021: Indic-{E}nglish Multilingual Neural Machine Translation using {R}omanized Vocabulary",
+  "authors": [
+    "Appicharla, Ramakrishna  and\nGupta, Kamal Kumar  and\nEkbal, Asif  and\nBhattacharyya, Pushpak"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 8th Workshop on Asian Translation (WAT2021)",
+  "abstract": "This paper describes the systems submitted to WAT 2021 MultiIndicMT shared task by IITP-MT team. We submit two multilingual Neural Machine Translation (NMT) systems (Indic-to-English and English-to-Indic). We romanize all Indic data and create subword vocabulary which is shared between all Indic languages. We use back-translation approach to generate synthetic data which is appended to parallel corpus and used to train our models. The models are evaluated using BLEU, RIBES and AMFM scores with Indic-to-English model achieving 40.08 BLEU for Hindi-English pair and English-to-Indic model achieving 34.48 BLEU for English-Hindi pair. However, we observe that the shared romanized subword vocabulary is not helping English-to-Indic model at the time of generation, leading it to produce poor quality translations for Tamil, Telugu and Malayalam to English pairs with BLEU score of 8.51, 6.25 and 3.79 respectively.",
+  "keywords": [
+    "34 48 bleu",
+    "generation",
+    "translation",
+    "neural",
+    "model",
+    "machine",
+    "it",
+    "bleu",
+    "poor quality translations",
+    "we",
+    "bleu ribes",
+    "translations",
+    "time",
+    "bleu score",
+    "back-translation approach"
+  ],
+  "url": "https://aclanthology.org/2021.wat-1.29/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "W19-4419",
+  "title": "CUNI} System for the Building Educational Applications 2019 Shared Task: Grammatical Error Correction",
+  "authors": [
+    "N{\\'a}plava, Jakub  and\nStraka, Milan"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourteenth Workshop on Innovative Use of NLP for Building Educational Applications",
+  "abstract": "Our submitted models are NMT systems based on the Transformer model, which we improve by incorporating several enhancements: applying dropout to whole source and target words, weighting target subwords, averaging model checkpoints, and using the trained model iteratively for correcting the intermediate translations. The system in the Restricted Track is trained on the provided corpora with oversampled “cleaner” sentences and reaches 59.39 F0.5 score on the test set. The system in the Low-Resource Track is trained from Wikipedia revision histories and reaches 44.13 F0.5 score. Finally, we finetune the system from the Low-Resource Track on restricted data and achieve 64.55 F0.5 score.",
+  "keywords": [
+    "transformer",
+    "the transformer model",
+    "model",
+    "wikipedia revision histories",
+    "the intermediate translations",
+    "we",
+    "cleaner",
+    "dropout",
+    "oversampled cleaner sentences",
+    "histories",
+    "translations",
+    "applications",
+    "task",
+    "whole source",
+    "error"
+  ],
+  "url": "https://aclanthology.org/W19-4419/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:54:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

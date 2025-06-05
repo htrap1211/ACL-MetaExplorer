@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.230",
+  "title": "Transferable Embedding Inversion Attack: Uncovering Privacy Risks in Text Embeddings without Model Queries",
+  "authors": [
+    "Huang, Yu-Hsiang  and\nTsai, Yuche  and\nHsiao, Hsiang  and\nLin, Hong-Yi  and\nLin, Shou-De"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "This study investigates the privacy risks associated with text embeddings, focusing on the scenario where attackers cannot access the original embedding model. Contrary to previous research requiring direct model access, we explore a more realistic threat model by developing a transfer attack method. This approach uses a surrogate model to mimic the victim model’s behavior, allowing the attacker to infer sensitive information from text embeddings without direct access. Our experiments across various embedding models and a clinical dataset demonstrate that our transfer attack significantly outperforms traditional methods, revealing the potential privacy vulnerabilities in embedding technologies and emphasizing the need for enhanced security measures.",
+  "keywords": [
+    "embeddings",
+    "the potential privacy vulnerabilities",
+    "the original embedding model",
+    "text embeddings",
+    "model",
+    "text",
+    "queries",
+    "embedding technologies",
+    "information",
+    "technologies",
+    "we",
+    "model queries",
+    "transfer",
+    "various embedding models",
+    "transferable embedding inversion attack"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.230/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.504",
+  "title": "Semi-Supervised Spoken Language Glossification",
+  "authors": [
+    "Yao, Huijie  and\nZhou, Wengang  and\nZhou, Hao  and\nLi, Houqiang"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Spoken language glossification (SLG) aims to translate the spoken language text into the sign language gloss, i.e., a written record of sign language. In this work, we present a framework namedSemi-SupervisedSpokenLanguageGlossification (S3LG) for SLG. To tackle the bottleneck of limited parallel data in SLG, ourS3LG incorporates large-scale monolingual spoken language text into SLG training. The proposed framework follows the self-training structure that iteratively annotates and learns from pseudo labels. Considering the lexical similarity and syntactic difference between sign language and spoken language, ourS3LG adopts both the rule-based heuristic and model-based approach for auto-annotation. During training, we randomly mix these complementary synthetic datasets and mark their differences with a special token. As the synthetic data may be less quality, theS3LG further leverages consistency regularization to reduce the negative impact of noise in the synthetic data. Extensive experiments are conducted on public benchmarks to demonstrate the effectiveness of theS3LG. Our code is available athttps://github.com/yaohj11/S3LG.",
+  "keywords": [
+    "code",
+    "we",
+    "training",
+    "self",
+    "token",
+    "i",
+    "text",
+    "consistency regularization",
+    "work",
+    "language",
+    "model",
+    "regularization",
+    "auto-annotation",
+    "the sign",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.504/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

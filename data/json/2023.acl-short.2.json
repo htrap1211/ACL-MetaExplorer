@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.2",
+  "title": "Back to Patterns: Efficient {J}apanese Morphological Analysis with Feature-Sequence Trie",
+  "authors": [
+    "Yoshinaga, Naoki"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Accurate neural models are much less efficient than non-neural models and are useless for processing billions of social media posts or handling user queries in real time with a limited budget. This study revisits the fastest pattern-based NLP methods to make them as accurate as possible, thus yielding a strikingly simple yet surprisingly accurate morphological analyzer for Japanese. The proposed method induces reliable patterns from a morphological dictionary and annotated data. Experimental results on two standard datasets confirm that the method exhibits comparable accuracy to learning-based baselines, while boasting a remarkable throughput of over 1,000,000 sentences per second on a single modern CPU. The source code is available athttps://www.tkl.iis.u-tokyo.ac.jp/ynaga/jagger/",
+  "keywords": [
+    "code",
+    "efficient",
+    "neural",
+    "queries",
+    "u",
+    "sequence",
+    "learning",
+    "analysis",
+    "-",
+    "user queries",
+    "accuracy",
+    "nlp",
+    "comparable accuracy",
+    "trie",
+    "time"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:48:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

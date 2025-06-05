@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.525",
+  "title": "Learning to Generate Programs for Table Fact Verification via Structure-Aware Semantic Parsing",
+  "authors": [
+    "Ou, Suixin  and\nLiu, Yongmei"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Table fact verification aims to check the correctness of textual statements based on given semi-structured data. Most existing methods are devoted to better comprehending logical operations and tables, but they hardly study generating latent programs from statements, with which we can not only retrieve evidences efficiently but also explain reasons behind verifications naturally. However, it is challenging to get correct programs with existing weakly supervised semantic parsers due to the huge search space with lots of spurious programs. In this paper, we address the challenge by leveraging both lexical features and structure features for program generation. Through analyzing the connection between the program tree and the dependency tree, we define a unified concept, operation-oriented tree, to mine structure features, and introduce Structure-Aware Semantic Parsing to integrate structure features into program generation. Moreover, we design a refined objective function with lexical features and violation punishments to further avoid spurious programs. Experimental results show that our proposed method generates programs more accurately than existing semantic parsers, and achieves comparable performance to the SOTA on the large-scale benchmark TABFACT.",
+  "keywords": [
+    "parsing",
+    "semantic",
+    "we",
+    "a refined objective function",
+    "it",
+    "generating latent programs",
+    "unified",
+    "latent",
+    "program generation",
+    "existing semantic parsers",
+    "objective",
+    "structure-aware semantic parsing",
+    "function",
+    "generation",
+    "dependency"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.525/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.350",
+  "title": "Syntax-augmented Multilingual {BERT} for Cross-lingual Transfer",
+  "authors": [
+    "Ahmad, Wasi  and\nLi, Haoran  and\nChang, Kai-Wei  and\nMehdad, Yashar"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "In recent years, we have seen a colossal effort in pre-training multilingual text encoders using large-scale corpora in many languages to facilitate cross-lingual transfer learning. However, due to typological differences across languages, the cross-lingual transfer is challenging. Nevertheless, language syntax, e.g., syntactic dependencies, can bridge the typological gap. Previous works have shown that pre-trained multilingual encoders, such as mBERT (CITATION), capture language syntax, helping cross-lingual transfer. This work shows that explicitly providing language syntax and training mBERT using an auxiliary objective to encode the universal dependency tree structure helps cross-lingual transfer. We perform rigorous experiments on four NLP tasks, including text classification, question answering, named entity recognition, and task-oriented semantic parsing. The experiment results show that syntax-augmented mBERT improves cross-lingual transfer on popular benchmarks, such as PAWS-X and MLQA, by 1.4 and 1.6 points on average across all languages. In thegeneralizedtransfer setting, the performance boosted significantly, with 3.9 and 3.1 points on average in PAWS-X and MLQA.",
+  "keywords": [
+    "mbert",
+    "cross-lingual transfer learning",
+    "pre-training multilingual text encoders",
+    "an auxiliary objective",
+    "question",
+    "semantic",
+    "we",
+    "syntax",
+    "training",
+    "classification",
+    "cross",
+    "text classification question",
+    "dependencies",
+    "learning",
+    "transfer"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.350/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.391",
+  "title": "Encoder-Decoder Models Can Benefit from Pre-trained Masked Language Models in Grammatical Error Correction",
+  "authors": [
+    "Kaneko, Masahiro  and\nMita, Masato  and\nKiyono, Shun  and\nSuzuki, Jun  and\nInui, Kentaro"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "This paper investigates how to effectively incorporate a pre-trained masked language model (MLM), such as BERT, into an encoder-decoder (EncDec) model for grammatical error correction (GEC). The answer to this question is not as straightforward as one might expect because the previous common methods for incorporating a MLM into an EncDec model have potential drawbacks when applied to GEC. For example, the distribution of the inputs to a GEC model can be considerably different (erroneous, clumsy, etc.) from that of the corpora used for pre-training MLMs; however, this issue is not addressed in the previous methods. Our experiments show that our proposed method, where we first fine-tune a MLM with a given GEC corpus and then use the output of the fine-tuned MLM as additional features in the GEC model, maximizes the benefit of the MLM. The best-performing model achieves state-of-the-art performances on the BEA-2019 and CoNLL-2014 benchmarks. Our code is publicly available at:https://github.com/kanekomasahiro/bert-gec.",
+  "keywords": [
+    "code",
+    "question",
+    "we",
+    "training",
+    "answer",
+    "decoder",
+    "pre-trained masked language models",
+    "bert",
+    "fine",
+    "encoder-decoder models",
+    "language",
+    "model",
+    "encoder",
+    "pre",
+    "an encoder-decoder encdec model"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.391/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:47:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.61",
+  "title": "Canary Extraction in Natural Language Understanding Models",
+  "authors": [
+    "Parikh, Rahil  and\nDupuy, Christophe  and\nGupta, Rahul"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Natural Language Understanding (NLU) models can be trained on sensitive information such as phone numbers, zip-codes etc. Recent literature has focused on Model Inversion Attacks (ModIvA) that can extract training data from model parameters. In this work, we present a version of such an attack by extracting canaries inserted in NLU training data. In the attack, an adversary with open-box access to the model reconstructs the canaries contained in the model’s training set. We evaluate our approach by performing text completion on canaries and demonstrate that by using the prefix (non-sensitive) tokens of the canary, we can generate the full canary. As an example, our attack is able to reconstruct a four digit code in the training dataset of the NLU model with a probability of 0.5 in its best configuration. As countermeasures, we identify several defense mechanisms that, when combined, effectively eliminate the risk of ModIvA in our experiments.",
+  "keywords": [
+    "code",
+    "extraction",
+    "we",
+    "training",
+    "the canaries",
+    "canaries",
+    "natural",
+    "information",
+    "natural language",
+    "text",
+    "work",
+    "language",
+    "model",
+    "a four digit code",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.61/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:33:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

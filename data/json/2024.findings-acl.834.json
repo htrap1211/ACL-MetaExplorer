@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.834",
+  "title": "Length Generalization of Causal Transformers without Position Encoding",
+  "authors": [
+    "Wang, Jie  and\nJi, Tao  and\nWu, Yuanbin  and\nYan, Hang  and\nGui, Tao  and\nZhang, Qi  and\nHuang, Xuanjing  and\nWang, Xiaoling"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Generalizing to longer sentences is important for recent Transformer-based language models. Besides algorithms manipulating explicit position features, the success of Transformers without position encodings (NoPE) provides a new way to overcome the challenge. In this paper, we study the length generalization property of NoPE. We find that although NoPE can extend to longer sequences than the commonly used explicit position encodings, it still has a limited context length. We identify a connection between the failure of NoPE’s generalization and the distraction of attention distributions. We propose a parameter-efficient tuning for searching attention heads’ best temperature hyper-parameters, which substantially expands NoPE’s context size. Experiments on long sequence language modeling, the synthetic passkey retrieval task and real-world long context tasks show that NoPE can achieve competitive performances with state-of-the-art length generalization algorithms. The source code is publicly accessible",
+  "keywords": [
+    "code",
+    "causal transformers",
+    "transformers",
+    "efficient",
+    "length generalization",
+    "we",
+    "parameter",
+    "hyper",
+    "it",
+    "retrieval",
+    "nope s generalization",
+    "sequence",
+    "generalizing",
+    "tuning",
+    "the length generalization property"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.834/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:59:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

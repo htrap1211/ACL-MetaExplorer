@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.113",
+  "title": "End-to-End Speech Translation for Code Switched Speech",
+  "authors": [
+    "Weller, Orion  and\nSperber, Matthias  and\nPires, Telmo  and\nSetiawan, Hendra  and\nGollan, Christian  and\nTelaar, Dominic  and\nPaulik, Matthias"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Code switching (CS) refers to the phenomenon of interchangeably using words and phrases from different languages. CS can pose significant accuracy challenges to NLP, due to the often monolingual nature of the underlying systems. In this work, we focus on CS in the context of English/Spanish conversations for the task of speech translation (ST), generating and evaluating both transcript and translation. To evaluate model performance on this task, we create a novel ST corpus derived from existing public data sets. We explore various ST architectures across two dimensions: cascaded (transcribe then translate) vs end-to-end (jointly transcribe and translate) and unidirectional (source -> target) vs bidirectional (source <-> target). We show that our ST architectures, and especially our bidirectional end-to-end architecture, perform well on CS speech, even when no CS training data is used.",
+  "keywords": [
+    "work",
+    "code",
+    "significant accuracy challenges",
+    "end",
+    "generating",
+    "cs",
+    "speech translation st generating",
+    "model",
+    "conversations",
+    "english spanish conversations",
+    "we",
+    "training",
+    "translation",
+    "accuracy",
+    "speech"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.113/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

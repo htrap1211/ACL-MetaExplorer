@@ -1,0 +1,33 @@
+{
+  "id": "2021.splurobonlp-1.9",
+  "title": "Multi-Level Gazetteer-Free Geocoding",
+  "authors": [
+    "Kulkarni, Sayali  and\nJain, Shailee  and\nHosseini, Mohammad Javad  and\nBaldridge, Jason  and\nIe, Eugene  and\nZhang, Li"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of Second International Combined Workshop on Spatial Language Understanding and Grounded Communication for Robotics",
+  "abstract": "We present a multi-level geocoding model (MLG) that learns to associate texts to geographic coordinates. The Earth’s surface is represented using space-filling curves that decompose the sphere into a hierarchical grid. MLG balances classification granularity and accuracy by combining losses across multiple levels and jointly predicting cells at different levels simultaneously. It obtains large gains without any gazetteer metadata, demonstrating that it can effectively learn the connection between text spans and coordinates—and thus makes it a gazetteer-free geocoder. Furthermore, MLG obtains state-of-the-art results for toponym resolution on three English datasets without any dataset-specific tuning.",
+  "keywords": [
+    "hierarchical",
+    "tuning",
+    "model",
+    "text",
+    "it",
+    "we",
+    "a hierarchical grid mlg",
+    "accuracy",
+    "classification",
+    "classification granularity",
+    "that",
+    "the sphere",
+    "granularity",
+    "connection",
+    "multiple levels"
+  ],
+  "url": "https://aclanthology.org/2021.splurobonlp-1.9/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:22:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

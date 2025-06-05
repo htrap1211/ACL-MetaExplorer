@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.387",
+  "title": "Writing by Memorizing: Hierarchical Retrieval-based Medical Report Generation",
+  "authors": [
+    "Yang, Xingyi  and\nYe, Muchao  and\nYou, Quanzeng  and\nMa, Fenglong"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Medical report generation is one of the most challenging tasks in medical image analysis. Although existing approaches have achieved promising results, they either require a predefined template database in order to retrieve sentences or ignore the hierarchical nature of medical report generation. To address these issues, we propose MedWriter that incorporates a novel hierarchical retrieval mechanism to automatically extract both report and sentence-level templates for clinically accurate report generation. MedWriter first employs the Visual-Language Retrieval (VLR) module to retrieve the most relevant reports for the given images. To guarantee the logical coherence between generated sentences, the Language-Language Retrieval (LLR) module is introduced to retrieve relevant sentences based on the previous generated description. At last, a language decoder fuses image features and features from retrieved reports and sentences to generate meaningful medical reports. We verified the effectiveness of our model by automatic evaluation and human evaluation on two datasets, i.e., Open-I and MIMIC-CXR.",
+  "keywords": [
+    "last a language decoder",
+    "medical report generation",
+    "we",
+    "the previous generated description",
+    "human evaluation",
+    "decoder",
+    "retrieval",
+    "automatic evaluation",
+    "visual",
+    "generated sentences",
+    "analysis",
+    "i",
+    "hierarchical",
+    "generation",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.387/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

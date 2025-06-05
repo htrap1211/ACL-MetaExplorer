@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.375",
+  "title": "Unlearning Bias in Language Models by Partitioning Gradients",
+  "authors": [
+    "Yu, Charles  and\nJeoung, Sullam  and\nKasi, Anish  and\nYu, Pengfei  and\nJi, Heng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Recent research has shown that large-scale pretrained language models, specifically transformers, tend to exhibit issues relating to racism, sexism, religion bias, and toxicity in general. Unfortunately, these pretrained language models are used almost universally in downstream tasks, and natural language processing is often applied to make real-world predictions. Thus, debiasing these language models as early in development as possible is increasingly crucial for preventing unintentional harms caused by natural language systems. To this end, we propose a new technique called partitioned contrastive gradient unlearning (PCGU), a gray-box method for debiasing pretrained masked language models. PCGU aims to optimize only the weights that contribute most to a specific domain of bias, doing so by computing a first-order approximation based on the gradients of contrastive sentence pairs. Our experiments show that PCGU is both low-cost and seems particularly effective at pinpointing the sources of implicit social bias in large pretrained transformers. Although we train using PCGU in the gender-profession domain only, we find that doing so can also partially mitigate bias across other domains. All code for our implementation and experiments can be found athttps://github.com/CharlesYu2000/PCGU-UnlearningBias.",
+  "keywords": [
+    "code",
+    "transformers",
+    "bias",
+    "end",
+    "we",
+    "natural",
+    "unlearning bias",
+    "unlearningbias",
+    "natural language processing",
+    "processing",
+    "large pretrained transformers",
+    "specifically transformers",
+    "language models",
+    "large-scale pretrained language models",
+    "general"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.375/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

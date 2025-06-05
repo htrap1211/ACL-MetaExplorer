@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.73",
+  "title": "Distinguishing Non-natural from Natural Adversarial Samples for More Robust Pre-trained Language Model",
+  "authors": [
+    "Wang, Jiayi  and\nBao, Rongzhou  and\nZhang, Zhuosheng  and\nZhao, Hai"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Recently, the problem of robustness of pre-trained language models (PrLMs) has received increasing research interest. Latest studies on adversarial attacks achieve high attack success rates against PrLMs, claiming that PrLMs are not robust. However, we find that the adversarial samples that PrLMs fail are mostly non-natural and do not appear in reality. We question the validity of the current evaluation of robustness of PrLMs based on these non-natural adversarial samples and propose an anomaly detector to evaluate the robustness of PrLMs with more natural adversarial samples. We also investigate two applications of the anomaly detector: (1) In data augmentation, we employ the anomaly detector to force generating augmented data that are distinguished as non-natural, which brings larger gains to the accuracy of PrLMs. (2) We apply the anomaly detector to a defense framework to enhance the robustness of PrLMs. It can be used to defend all types of attacks and achieves higher accuracy on both adversarial samples and compliant samples than other defense frameworks.",
+  "keywords": [
+    "the accuracy",
+    "pre-trained language models prlms",
+    "language",
+    "natural",
+    "model",
+    "studies",
+    "it",
+    "the current evaluation",
+    "higher accuracy",
+    "we",
+    "evaluation",
+    "pre",
+    "force",
+    "latest studies",
+    "current"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.73/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

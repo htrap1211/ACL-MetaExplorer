@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.189",
+  "title": "Discovering Dialogue Slots with Weak Supervision",
+  "authors": [
+    "Hude{\\v{c}}ek, Vojt{\\v{e}}ch  and\nDu{\\v{s}}ek, Ond{\\v{r}}ej  and\nYu, Zhou"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Task-oriented dialogue systems typically require manual annotation of dialogue slots in training data, which is costly to obtain. We propose a method that eliminates this requirement: We use weak supervision from existing linguistic annotation models to identify potential slot candidates, then automatically identify domain-relevant slots by using clustering algorithms. Furthermore, we use the resulting slot annotation to train a neural-network-based tagger that is able to perform slot tagging with no human intervention. This tagger is trained solely on the outputs of our method and thus does not rely on any labeled data. Our model demonstrates state-of-the-art performance in slot tagging without labeled training data on four different dialogue domains. Moreover, we find that slot annotations discovered by our model significantly improve the performance of an end-to-end dialogue response generation model, compared to using no slot annotation at all.",
+  "keywords": [
+    "dialogue slots",
+    "end",
+    "generation",
+    "neural",
+    "model",
+    "human",
+    "four different dialogue domains",
+    "tagging",
+    "clustering algorithms",
+    "clustering",
+    "network",
+    "we",
+    "dialogue",
+    "training",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.189/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:01:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

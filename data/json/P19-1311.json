@@ -1,0 +1,33 @@
+{
+  "id": "P19-1311",
+  "title": "Cross-Lingual Syntactic Transfer through Unsupervised Adaptation of Invertible Projections",
+  "authors": [
+    "He, Junxian  and\nZhang, Zhisong  and\nBerg-Kirkpatrick, Taylor  and\nNeubig, Graham"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Cross-lingual transfer is an effective way to build syntactic analysis tools in low-resource languages. However, transfer is difficult when transferring to typologically distant languages, especially when neither annotated target data nor parallel corpora are available. In this paper, we focus on methods for cross-lingual transfer to distant languages and propose to learn a generative model with a structured prior that utilizes labeled source data and unlabeled target data jointly. The parameters of source model and target model are softly shared through a regularized log likelihood objective. An invertible projection is employed to learn a new interlingual latent embedding space that compensates for imperfect cross-lingual word embedding input. We evaluate our method on two syntactic tasks: part-of-speech (POS) tagging and dependency parsing. On the Universal Dependency Treebanks, we use English as the only source corpus and transfer to a wide range of target languages. On the 10 languages in this dataset that are distant from English, our method yields an average of 5.2% absolute improvement on POS tagging and 8.3% absolute improvement on dependency parsing over a direct transfer method using state-of-the-art discriminative models.",
+  "keywords": [
+    "we",
+    "cross",
+    "latent",
+    "word",
+    "transfer",
+    "analysis",
+    "log",
+    "generative",
+    "a generative model",
+    "objective",
+    "pos",
+    "pos tagging",
+    "model",
+    "the universal dependency treebanks",
+    "tagging"
+  ],
+  "url": "https://aclanthology.org/P19-1311/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:37:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

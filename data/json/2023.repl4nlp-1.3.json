@@ -1,0 +1,33 @@
+{
+  "id": "2023.repl4nlp-1.3",
+  "title": "Grammatical information in {BERT} sentence embeddings as two-dimensional arrays",
+  "authors": [
+    "Nastase, Vivi  and\nMerlo, Paola"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 8th Workshop on Representation Learning for NLP (RepL4NLP 2023)",
+  "abstract": "Sentence embeddings induced with various transformer architectures encode much semantic and syntactic information in a distributed manner in a one-dimensional array. We investigate whether specific grammatical information can be accessed in these distributed representations. Using data from a task developed to test rule-like generalizations, our experiments on detecting subject-verb agreement yield several promising results. First, we show that while the usual sentence representations encoded as one-dimensional arrays do not easily support extraction of rule-like regularities, a two-dimensional reshaping of these vectors allows various learning architectures to access such information. Next, we show that various architectures can detect patterns in these two-dimensional reshaped sentence embeddings and successfully learn a model based on smaller amounts of simpler training data, which performs well on more complex test data. This indicates that current sentence embeddings contain information that is regularly distributed, and which can be captured when the embeddings are reshaped into higher dimensional arrays. Our results cast light on representations produced by language models and help move towards developing few-shot learning approaches.",
+  "keywords": [
+    "extraction",
+    "encode",
+    "a distributed manner",
+    "few-shot learning approaches",
+    "rule-like generalizations",
+    "semantic",
+    "we",
+    "regularities",
+    "current",
+    "shot",
+    "training",
+    "two-dimensional arrays sentence embeddings",
+    "generalizations",
+    "information",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2023.repl4nlp-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

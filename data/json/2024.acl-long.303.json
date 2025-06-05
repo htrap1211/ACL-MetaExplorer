@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.303",
+  "title": "S}afe{D}ecoding: Defending against Jailbreak Attacks via Safety-Aware Decoding",
+  "authors": [
+    "Xu, Zhangchen  and\nJiang, Fengqing  and\nNiu, Luyao  and\nJia, Jinyuan  and\nLin, Bill Yuchen  and\nPoovendran, Radha"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "As large language models (LLMs) become increasingly integrated into real-world applications such as code generation and chatbot assistance, extensive efforts have been made to align LLM behavior with human values, including safety. Jailbreak attacks, which aim to provoke unintended and unsafe behaviors from LLMs, remain a significant LLM safety threat. We analyze tokens, which are the smallest unit of text that can be processed by LLMs and make the following observations: (1) probabilities of tokens representing harmful responses are higher than those of harmless responses, and (2) responses containing safety disclaimers appear among the top tokens when token probabilities are sorted in descending order. In this paper, we leverage (1) and (2) to develop SafeDecoding, a safety-aware decoding strategy for LLMs, to defend against jailbreak attacks. We perform extensive experiments to evaluate SafeDecoding against six SOTA jailbreak attacks (GCG, AutoDAN, PAIR, DeepInception, SAP30, and template based attack) on five LLMs (Vicuna, Llama2, Guanaco, falcon, and Dolphin) using four benchmark datasets (AdvBench, HEx-PHI, MT-Bench, and Just-Eval). Our results show that SafeDecoding significantly reduces attack success rate and harmfulness of jailbreak attacks without compromising the helpfulness of responses to benign user queries while outperforming six defense methods (Perpelexity, Paraphrase, Retokenization, Self-Reminder, ICD, and Self-Examination).",
+  "keywords": [
+    "code",
+    "token probabilities",
+    "rate",
+    "we",
+    "llm",
+    "chatbot",
+    "queries",
+    "token",
+    "self",
+    "1 probabilities",
+    "llms",
+    "s",
+    "text",
+    "eval",
+    "llm behavior"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.303/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

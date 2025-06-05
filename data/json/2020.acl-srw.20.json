@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-srw.20",
+  "title": "Pointwise Paraphrase Appraisal is Potentially Problematic",
+  "authors": [
+    "Chen, Hannah  and\nJi, Yangfeng  and\nEvans, David"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "The prevailing approach for training and evaluating paraphrase identification models is constructed as a binary classification problem: the model is given a pair of sentences, and is judged by how accurately it classifies pairs as either paraphrases or non-paraphrases. This pointwise-based evaluation method does not match well the objective of most real world applications, so the goal of our work is to understand how models which perform well under pointwise evaluation may fail in practice and find better methods for evaluating paraphrase identification models. As a first step towards that goal, we show that although the standard way of fine-tuning BERT for paraphrase identification by pairing two sentences as one sequence results in a model with state-of-the-art performance, that model may perform poorly on simple tasks like identifying pairs with two identical sentences. Moreover, we show that these models may even predict a pair of randomly-selected sentences with higher paraphrase score than a pair of identical ones.",
+  "keywords": [
+    "this pointwise-based evaluation method",
+    "we",
+    "training",
+    "classification",
+    "it",
+    "the objective",
+    "fine-tuning bert",
+    "sequence",
+    "a binary classification problem",
+    "tuning",
+    "bert",
+    "objective",
+    "-",
+    "fine",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2020.acl-srw.20/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:53:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

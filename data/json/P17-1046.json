@@ -1,0 +1,33 @@
+{
+  "id": "P17-1046",
+  "title": "Sequential Matching Network: A New Architecture for Multi-turn Response Selection in Retrieval-Based Chatbots",
+  "authors": [
+    "Wu, Yu  and\nWu, Wei  and\nXing, Chen  and\nZhou, Ming  and\nLi, Zhoujun"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We study response selection for multi-turn conversation in retrieval based chatbots. Existing work either concatenates utterances in context or matches a response with a highly abstract context vector finally, which may lose relationships among the utterances or important information in the context. We propose a sequential matching network (SMN) to address both problems. SMN first matches a response with each utterance in the context on multiple levels of granularity, and distills important matching information from each pair as a vector with convolution and pooling operations. The vectors are then accumulated in a chronological order through a recurrent neural network (RNN) which models relationships among the utterances. The final matching score is calculated with the hidden states of the RNN. Empirical study on two public data sets shows that SMN can significantly outperform state-of-the-art methods for response selection in multi-turn conversation.",
+  "keywords": [
+    "work",
+    "chatbots",
+    "vector",
+    "neural",
+    "retrieval-based chatbots",
+    "convolution",
+    "vectors",
+    "retrieval",
+    "information",
+    "network",
+    "conversation",
+    "we",
+    "rnn",
+    "turn conversation",
+    "recurrent"
+  ],
+  "url": "https://aclanthology.org/P17-1046/",
+  "provenance": {
+    "collected_at": "2025-06-04 23:57:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

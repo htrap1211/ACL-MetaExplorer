@@ -1,0 +1,33 @@
+{
+  "id": "2021.repl4nlp-1.1",
+  "title": "Improving Cross-lingual Text Classification with Zero-shot Instance-Weighting",
+  "authors": [
+    "Li, Irene  and\nSen, Prithviraj  and\nZhu, Huaiyu  and\nLi, Yunyao  and\nRadev, Dragomir"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 6th Workshop on Representation Learning for NLP (RepL4NLP-2021)",
+  "abstract": "Cross-lingual text classification (CLTC) is a challenging task made even harder still due to the lack of labeled data in low-resource languages. In this paper, we propose zero-shot instance-weighting, a general model-agnostic zero-shot learning framework for improving CLTC by leveraging source instance weighting. It adds a module on top of pre-trained language models for similarity computation of instance weights, thus aligning each source instance to the target language. During training, the framework utilizes gradient descent that is weighted by instance weights to update parameters. We evaluate this framework over seven target languages on three fundamental tasks and show its effectiveness and extensibility, by improving on F1 score up to 4% in single-source transfer and 8% in multi-source transfer. To the best of our knowledge, our method is the first to apply instance weighting in zero-shot CLTC. It is simple yet effective and easily extensible into multi-source transfer.",
+  "keywords": [
+    "top",
+    "we",
+    "shot",
+    "classification",
+    "cross",
+    "pre-trained language models",
+    "it",
+    "gradient descent",
+    "transfer",
+    "cross-lingual text classification",
+    "text",
+    "zero-shot",
+    "general",
+    "knowledge",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2021.repl4nlp-1.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:19:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

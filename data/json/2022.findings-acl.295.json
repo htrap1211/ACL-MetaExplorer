@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.295",
+  "title": "ED}2{LM}: Encoder-Decoder to Language Model for Faster Document Re-ranking Inference",
+  "authors": [
+    "Hui, Kai  and\nZhuang, Honglei  and\nChen, Tao  and\nQin, Zhen  and\nLu, Jing  and\nBahri, Dara  and\nMa, Ji  and\nGupta, Jai  and\nNogueira dos Santos, Cicero  and\nTay, Yi  and\nMetzler, Donald"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "State-of-the-art neural models typically encode document-query pairs using cross-attention for re-ranking. To this end, models generally utilize an encoder-only (like BERT) paradigm or an encoder-decoder (like T5) approach. These paradigms, however, are not without flaws, i.e., running the model on all query-document pairs at inference-time incurs a significant computational cost. This paper proposes a new training and inference paradigm for re-ranking. We propose to finetune a pretrained encoder-decoder model using in the form of document to query generation. Subsequently, we show that this encoder-decoder architecture can be decomposed into a decoder-only language model during inference. This results in significant inference time speedups since the decoder-only architecture only needs to learn to interpret static encoder embeddings during inference. Our experiments show that this new paradigm achieves results that are comparable to the more expensive cross-attention ranking approaches while being up to 6.8X faster. We believe this work paves the way for more efficient neural rankers that leverage large pretrained models.",
+  "keywords": [
+    "an encoder-decoder",
+    "end",
+    "this encoder-decoder architecture",
+    "encode",
+    "efficient",
+    "form",
+    "an",
+    "we",
+    "a pretrained encoder-decoder model",
+    "encoder-decoder",
+    "training",
+    "cross",
+    "neural",
+    "decoder",
+    "i"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.295/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

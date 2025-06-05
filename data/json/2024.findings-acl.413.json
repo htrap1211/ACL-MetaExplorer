@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.413",
+  "title": "C}hinese Spelling Corrector Is Just a Language Learner",
+  "authors": [
+    "Jiang, Lai  and\nWu, Hongqiu  and\nZhao, Hai  and\nZhang, Min"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "This paper emphasizes Chinese spelling correction by means of self-supervised learning, which means there are no annotated errors within the training data. Our intuition is that humans are naturally good correctors with exposure to error-free sentences, which contrasts with current unsupervised methods that strongly rely on the usage of confusion sets to produce parallel sentences. In this paper, we demonstrate that learning a spelling correction model is identical to learning a language model from error-free data alone, with decoding it in a greater search space. We proposeDenoising Decoding Correction (D2C), which selectively imposes noise upon the source sentence to determine the underlying correct characters. Our method is largely inspired by the ability of language models to perform correction, including both BERT-based models and large language models (LLMs). We show that the self-supervised learning manner generally outperforms the confusion set in specific domains because it bypasses the need to introduce error characters to the training data which can impair the error patterns not included in the introduced error characters.",
+  "keywords": [
+    "the self-supervised learning manner",
+    "we",
+    "confusion",
+    "current",
+    "training",
+    "means",
+    "it",
+    "self",
+    "learning",
+    "both bert-based models",
+    "a language model",
+    "manner",
+    "just a language learner",
+    "bert",
+    "language models"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.413/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

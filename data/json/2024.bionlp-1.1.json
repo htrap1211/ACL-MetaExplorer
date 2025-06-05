@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.1",
+  "title": "Improving Self-training with Prototypical Learning for Source-Free Domain Adaptation on Clinical Text",
+  "authors": [
+    "Shimizu, Seiji  and\nYada, Shuntaro  and\nRaithel, Lisa  and\nAramaki, Eiji"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "Domain adaptation is crucial in the clinical domain since the performance of a model trained on one domain (source) degrades seriously when applied to another domain (target). However, conventional domain adaptation methods often cannot be applied due to data sharing restrictions on source data. Source-Free Domain Adaptation (SFDA) addresses this issue by only utilizing a source model and unlabeled target data to adapt to the target domain. In SFDA, self-training is the most widely applied method involving retraining models with target data using predictions from the source model as pseudo-labels. Nevertheless, this approach is prone to contain substantial numbers of errors in pseudo-labeling and might limit model performance in the target domain. In this paper, we propose a Source-Free Prototype-based Self-training (SFPS) aiming to improve the performance of self-training. SFPS generates prototypes without accessing source data and utilizes them for prototypical learning, namely prototype-based pseudo-labeling and contrastive learning. Also, we compare entropy-based, centroid-based, and class-weights-based prototype generation methods to identify the most effective formulation of the proposed method. Experimental results across various datasets demonstrate the effectiveness of the proposed method, consistently outperforming vanilla self-training. The comparison of various prototype-generation methods identifies the most reliable generation method that improves the source model persistently. Additionally, our analysis illustrates SFPS can successfully alleviate errors in pseudo-labeling.",
+  "keywords": [
+    "we",
+    "training",
+    "self",
+    "learning",
+    "analysis",
+    "text",
+    "-",
+    "various prototype-generation methods",
+    "generation",
+    "model",
+    "class",
+    "entropy",
+    "approach",
+    "the proposed method",
+    "the target domain"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:03:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

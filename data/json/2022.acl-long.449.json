@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.449",
+  "title": "ASPECTNEWS}: Aspect-Oriented Summarization of News Documents",
+  "authors": [
+    "Ahuja, Ojas  and\nXu, Jiacheng  and\nGupta, Akshay  and\nHorecka, Kevin  and\nDurrett, Greg"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Generic summaries try to cover an entire document and query-based summaries try to answer document-specific questions. But real users’ needs often fall in between these extremes and correspond to aspects, high-level topics discussed among similar types of documents. In this paper, we collect a dataset of realistic aspect-oriented summaries, AspectNews, which covers different subtopics about articles in news sub-domains. We annotate data across two domains of articles, earthquakes and fraud investigations, where each article is annotated with two distinct summaries focusing on different aspects for each domain. A system producing a single generic summary cannot concisely satisfy both aspects. Our focus in evaluation is how well existing techniques can generalize to these domains without seeing in-domain training data, so we turn to techniques to construct synthetic training data that have been used in query-focused summarization work. We compare several training schemes that differ in how strongly keywords are used and how oracle summaries are extracted. Our evaluation shows that our final approach yields (a) focused summaries, better than those from a generic summarization system or from keyword matching; (b) a system sensitive to the choice of keywords.",
+  "keywords": [
+    "query-focused summarization work",
+    "a generic summarization system",
+    "summarization",
+    "we",
+    "query-based summaries",
+    "training",
+    "generic summaries",
+    "aspectnews aspect-oriented summarization",
+    "a single generic summary",
+    "a focused summaries",
+    "two distinct summaries",
+    "generic",
+    "-",
+    "realistic aspect-oriented summaries aspectnews",
+    "our evaluation"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.449/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:30:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

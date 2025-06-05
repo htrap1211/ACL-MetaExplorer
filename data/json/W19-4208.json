@@ -1,0 +1,33 @@
+{
+  "id": "W19-4208",
+  "title": "CMU}-01 at the {SIGMORPHON} 2019 Shared Task on Crosslinguality and Context in Morphology",
+  "authors": [
+    "Chaudhary, Aditi  and\nSalesky, Elizabeth  and\nBhat, Gayatri  and\nMortensen, David R.  and\nCarbonell, Jaime  and\nTsvetkov, Yulia"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 16th Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "This paper presents the submission by the CMU-01 team to the SIGMORPHON 2019 task 2 of Morphological Analysis and Lemmatization in Context. This task requires us to produce the lemma and morpho-syntactic description of each token in a sequence, for 107 treebanks. We approach this task with a hierarchical neural conditional random field (CRF) model which predicts each coarse-grained feature (eg. POS, Case, etc.) independently. However, most treebanks are under-resourced, thus making it challenging to train deep neural models for them. Hence, we propose a multi-lingual transfer training regime where we transfer from multiple related languages that share similar typology.",
+  "keywords": [
+    "deep",
+    "hierarchical",
+    "random",
+    "neural",
+    "model",
+    "it",
+    "pos",
+    "field",
+    "us",
+    "we",
+    "sequence",
+    "transfer",
+    "training",
+    "analysis",
+    "that"
+  ],
+  "url": "https://aclanthology.org/W19-4208/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:27:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

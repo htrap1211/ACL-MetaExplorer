@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.374",
+  "title": "SKEP}: Sentiment Knowledge Enhanced Pre-training for Sentiment Analysis",
+  "authors": [
+    "Tian, Hao  and\nGao, Can  and\nXiao, Xinyan  and\nLiu, Hao  and\nHe, Bolei  and\nWu, Hua  and\nWang, Haifeng  and\nWu, Feng"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Recently, sentiment analysis has seen remarkable advance with the help of pre-training approaches. However, sentiment knowledge, such as sentiment words and aspect-sentiment pairs, is ignored in the process of pre-training, despite the fact that they are widely used in traditional sentiment analysis approaches. In this paper, we introduce Sentiment Knowledge Enhanced Pre-training (SKEP) in order to learn a unified sentiment representation for multiple sentiment analysis tasks. With the help of automatically-mined knowledge, SKEP conducts sentiment masking and constructs three sentiment knowledge prediction objectives, so as to embed sentiment information at the word, polarity and aspect level into pre-trained sentiment representation. In particular, the prediction of aspect-sentiment pairs is converted into multi-label classification, aiming to capture the dependency between words in a pair. Experiments on three kinds of sentiment tasks show that SKEP significantly outperforms strong pre-training baseline, and achieves new state-of-the-art results on most of the test datasets. We release our code athttps://github.com/baidu/Senta.",
+  "keywords": [
+    "code",
+    "objectives",
+    "pre-training approaches",
+    "enhanced pre-training skep",
+    "we",
+    "multiple sentiment analysis tasks",
+    "training",
+    "classification",
+    "multi-label classification",
+    "unified",
+    "information",
+    "word",
+    "a unified sentiment representation",
+    "analysis",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.374/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:47:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

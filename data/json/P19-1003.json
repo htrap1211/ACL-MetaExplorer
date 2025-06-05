@@ -1,0 +1,33 @@
+{
+  "id": "P19-1003",
+  "title": "Improving Multi-turn Dialogue Modelling with Utterance {R}e{W}riter",
+  "authors": [
+    "Su, Hui  and\nShen, Xiaoyu  and\nZhang, Rongzhi  and\nSun, Fei  and\nHu, Pengwei  and\nNiu, Cheng  and\nZhou, Jie"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Recent research has achieved impressive results in single-turn dialogue modelling. In the multi-turn setting, however, current models are still far from satisfactory. One major challenge is the frequently occurred coreference and information omission in our daily conversation, making it hard for machines to understand the real intention. In this paper, we propose rewriting the human utterance as a pre-process to help multi-turn dialgoue modelling. Each utterance is first rewritten to recover all coreferred and omitted information. The next processing steps are then performed based on the rewritten utterance. To properly train the utterance rewriter, we collect a new dataset with human annotations and introduce a Transformer-based utterance rewriting architecture using the pointer network. We show the proposed architecture achieves remarkably good performance on the utterance rewriting task. The trained utterance rewriter can be easily integrated into online chatbots and brings general improvement over different domains.",
+  "keywords": [
+    "all",
+    "we",
+    "online chatbots",
+    "dialogue",
+    "single-turn dialogue modelling",
+    "current",
+    "it",
+    "information",
+    "multi-turn dialogue modelling",
+    "chatbots",
+    "processing",
+    "-",
+    "our daily conversation",
+    "general improvement",
+    "the frequently occurred coreference"
+  ],
+  "url": "https://aclanthology.org/P19-1003/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:28:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

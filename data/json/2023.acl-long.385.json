@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.385",
+  "title": "Few-shot In-context Learning on Knowledge Base Question Answering",
+  "authors": [
+    "Li, Tianle  and\nMa, Xueguang  and\nZhuang, Alex  and\nGu, Yu  and\nSu, Yu  and\nChen, Wenhu"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Question answering over knowledge bases is considered a difficult problem due to the challenge of generalizing to a wide variety of possible natural language questions. Additionally, the heterogeneity of knowledge base schema items between different knowledge bases often necessitates specialized training for different knowledge base question-answering (KBQA) datasets. To handle questions over diverse KBQA datasets with a unified training-free framework, we propose KB-BINDER, which for the first time enables few-shot in-context learning over KBQA tasks. Firstly, KB-BINDER leverages large language models like Codex to generate logical forms as the draft for a specific question by imitating a few demonstrations. Secondly, KB-BINDER grounds on the knowledge base to bind the generated draft to an executable one with BM25 score matching. The experimental results on four public heterogeneous KBQA datasets show that KB-BINDER can achieve a strong performance with only a few in-context demonstrations. Especially on GraphQA and 3-hop MetaQA, KB-BINDER can even outperform the state-of-the-art trained models. On GrailQA and WebQSP, our model is also on par with other fully-trained models. We believe KB-BINDER can serve as an important baseline for future research. We plan to release all the code and data. Our code is available athttps://github.com/ltl3A87/KB-BINDER.",
+  "keywords": [
+    "variety",
+    "code",
+    "diverse kbqa datasets",
+    "question",
+    "we",
+    "metaqa",
+    "kbqa",
+    "a wide variety",
+    "shot",
+    "training",
+    "the generated draft",
+    "natural",
+    "unified",
+    "learning",
+    "graphqa"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.385/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:40:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

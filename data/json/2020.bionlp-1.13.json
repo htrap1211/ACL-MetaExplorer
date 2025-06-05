@@ -1,0 +1,33 @@
+{
+  "id": "2020.bionlp-1.13",
+  "title": "Evidence Inference 2.0: More Data, Better Models",
+  "authors": [
+    "DeYoung, Jay  and\nLehman, Eric  and\nNye, Benjamin  and\nMarshall, Iain  and\nWallace, Byron C."
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 19th SIGBioMed Workshop on Biomedical Language Processing",
+  "abstract": "How do we most effectively treat a disease or condition? Ideally, we could consult a database of evidence gleaned from clinical trials to answer such questions. Unfortunately, no such database exists; clinical trial results are instead disseminated primarily via lengthy natural language articles. Perusing all such articles would be prohibitively time-consuming for healthcare practitioners; they instead tend to depend on manually compiledsystematic reviewsof medical literature to inform care. NLP may speed this process up, and eventually facilitate immediate consult of published evidence. TheEvidence Inferencedataset was recently released to facilitate research toward this end. This task entails inferring the comparative performance of two treatments, with respect to a given outcome, from a particular article (describing a clinical trial) and identifying supporting evidence. For instance: Does this article report thatchemotherapyperformed better thansurgeryforfive-year survival ratesof operable cancers? In this paper, we collect additional annotations to expand the Evidence Inference dataset by 25%, provide stronger baseline models, systematically inspect the errors that these make, and probe dataset quality. We also release anabstract only(as opposed to full-texts) version of the task for rapid model prototyping. The updated corpus, documentation, and code for new baselines and evaluations are available athttp://evidence-inference.ebm-nlp.com/.",
+  "keywords": [
+    "code",
+    "end",
+    "we",
+    "natural",
+    "reviewsof",
+    "healthcare practitioners",
+    "practitioners",
+    "process",
+    "language",
+    "nlp",
+    "model",
+    "evaluations",
+    "time",
+    "disease",
+    "healthcare"
+  ],
+  "url": "https://aclanthology.org/2020.bionlp-1.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:54:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

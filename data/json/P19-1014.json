@@ -1,0 +1,33 @@
+{
+  "id": "P19-1014",
+  "title": "A Joint Named-Entity Recognizer for Heterogeneous Tag-sets Using a Tag Hierarchy",
+  "authors": [
+    "Beryozkin, Genady  and\nDrori, Yoel  and\nGilon, Oren  and\nHartman, Tzvika  and\nSzpektor, Idan"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We study a variant of domain adaptation for named-entity recognition where multiple, heterogeneously tagged training sets are available. Furthermore, the test tag-set is not identical to any individual training tag-set. Yet, the relations between all tags are provided in a tag hierarchy, covering the test tags as a combination of training tags. This setting occurs when various datasets are created using different annotation schemes. This is also the case of extending a tag-set with a new tag by annotating only the new tag in a new dataset. We propose to use the given tag hierarchy to jointly learn a neural network that shares its tagging layer among all tag-sets. We compare this model to combining independent models and to a model based on the multitasking approach. Our experiments show the benefit of the tag-hierarchy model, especially when facing non-trivial consolidation of tag-sets.",
+  "keywords": [
+    "a neural network",
+    "neural",
+    "the given tag hierarchy",
+    "model",
+    "tag",
+    "tagging",
+    "layer",
+    "the tag-hierarchy model",
+    "hierarchy",
+    "network",
+    "we",
+    "entity",
+    "a tag hierarchy",
+    "training",
+    "that"
+  ],
+  "url": "https://aclanthology.org/P19-1014/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:28:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

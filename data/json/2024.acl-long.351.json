@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.351",
+  "title": "Benchmarking and Improving Compositional Generalization of Multi-aspect Controllable Text Generation",
+  "authors": [
+    "Zhong, Tianqi  and\nLi, Zhaoyi  and\nWang, Quan  and\nSong, Linqi  and\nWei, Ying  and\nLian, Defu  and\nMao, Zhendong"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Compositional generalization, representing the model’s ability to generate text with new attribute combinations obtained by recombining single attributes from the training data, is a crucial property for multi-aspect controllable text generation (MCTG) methods. Nonetheless, a comprehensive compositional generalization evaluation benchmark of MCTG is still lacking. We propose CompMCTG, a benchmark encompassing diverse multi-aspect labeled datasets and a crafted three-dimensional evaluation protocol, to holistically evaluate the compositional generalization of MCTG approaches. We observe that existing MCTG works generally confront a noticeable performance drop in compositional testing. To mitigate this issue, we introduce Meta-MCTG, a training framework incorporating meta-learning, where we enable models to learn how to generalize by simulating compositional generalization scenarios in the training phase. We demonstrate the effectiveness of Meta-MCTG through achieving obvious improvement (by at most 3.64%) for compositional testing performance in 94.4%.",
+  "keywords": [
+    "generation",
+    "model",
+    "text",
+    "drop",
+    "generalization",
+    "dimensional",
+    "we",
+    "learning",
+    "the compositional generalization",
+    "evaluation",
+    "compositional generalization",
+    "training",
+    "compositional generalization scenarios",
+    "this issue",
+    "mctg approaches"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.351/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

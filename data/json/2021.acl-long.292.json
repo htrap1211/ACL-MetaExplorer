@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.292",
+  "title": "Self-Attention Networks Can Process Bounded Hierarchical Languages",
+  "authors": [
+    "Yao, Shunyu  and\nPeng, Binghui  and\nPapadimitriou, Christos  and\nNarasimhan, Karthik"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Despite their impressive performance in NLP, self-attention networks were recently proved to be limited for processing formal languages with hierarchical structure, such as Dyck-k, the language consisting of well-nested parentheses of k types. This suggested that natural language can be approximated well with models that are too weak for formal languages, or that the role of hierarchy and recursion in natural language might be limited. We qualify this implication by proving that self-attention networks can process Dyck-(k, D), the subset of Dyck-k with depth bounded by D, which arguably better captures the bounded hierarchical structure of natural language. Specifically, we construct a hard-attention network with D+1 layers and O(log k) memory size (per token per layer) that recognizes Dyck-(k, D), and a soft-attention network with two layers and O(log k) memory size that generates Dyck-(k, D). Experiments show that self-attention networks trained on Dyck-(k, D) generalize to longer inputs with near-perfect accuracy, and also verify the theoretical memory advantage of self-attention networks over recurrent networks.",
+  "keywords": [
+    "hierarchical",
+    "nlp self-attention networks",
+    "language",
+    "nlp",
+    "natural",
+    "near-perfect accuracy",
+    "self",
+    "token",
+    "hierarchical structure",
+    "layer",
+    "hierarchy",
+    "attention",
+    "network",
+    "we",
+    "d"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.292/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

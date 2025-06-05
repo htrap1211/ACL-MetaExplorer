@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.732",
+  "title": "MULFE}: A Multi-Level Benchmark for Free Text Model Editing",
+  "authors": [
+    "Wang, Chenhao  and\nCao, Pengfei  and\nJin, Zhuoran  and\nChen, Yubo  and\nZeng, Daojian  and\nLiu, Kang  and\nZhao, Jun"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Adjusting the outdated behaviors of large langugae models (LLMs) after deployment remains a significant challenge. It motivates the model editing research, which is however mainly explored in a restricted task form with triple-based edit requests. Recent works have initiated a transition to a more practical and unified editing task that takes free-form text as edit requests. However, there are gaps in nuanced benchmark designs and re-evaluation of existing methods. To bridge the gaps, we introduce a multi-level benchmark for free text model editing (MULFE). The benchmark categorizes probe queries into three levels of generalization, ranging from basic literal memory to deeper understanding and reasoning. Based on the benchmark, we conduct extensive experiments across various base models, edit sizes, and editing methods, including adaptations of mainstream locate-and-edit and hypernetwork methods. The results highlight the inconsistent behaviors of edited models on different generalization levels. Higher-level generalization remains a significant challenge. Based on the findings, we propose SIDE, a simple yet effective method based on in-context distillation to enhance the generalization performance. The benchmark dataset and evaluation scripts are publicly available at http://github.com/wchrepo/mulfe.",
+  "keywords": [
+    "form",
+    "we",
+    "it",
+    "unified",
+    "llms",
+    "large langugae models llms",
+    "text",
+    "-",
+    "generalization",
+    "the generalization performance",
+    "re",
+    "model",
+    "evaluation",
+    "nuanced benchmark designs",
+    "free-form text"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.732/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:44:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

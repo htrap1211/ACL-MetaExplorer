@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.783",
+  "title": "Evaluating Structural Generalization in Neural Machine Translation",
+  "authors": [
+    "Kumon, Ryoma  and\nMatsuoka, Daiki  and\nYanaka, Hitomi"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Compositional generalization refers to the ability to generalize to novel combinations of previously observed words and syntactic structures.Since it is regarded as a desired property of neural models, recent work has assessed compositional generalization in machine translation as well as semantic parsing.However, previous evaluations with machine translation have focused mostly on lexical generalization (i.e., generalization to unseen combinations of known words).Thus, it remains unclear to what extent models can translate sentences that require structural generalization (i.e., generalization to different sorts of syntactic structures).To address this question, we construct SGET, a machine translation dataset covering various types of compositional generalization with control of words and sentence structures.We evaluate neural machine translation models on SGET and show that they struggle more in structural generalization than in lexical generalization.We also find different performance trends in semantic parsing and machine translation, which indicates the importance of evaluations across various tasks.",
+  "keywords": [
+    "work",
+    "i e generalization",
+    "parsing",
+    "however previous evaluations",
+    "i",
+    "neural",
+    "machine",
+    "it",
+    "evaluations",
+    "machine translation",
+    "question",
+    "generalization",
+    "lexical generalization",
+    "semantic",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.783/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:59:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

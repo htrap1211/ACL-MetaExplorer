@@ -1,0 +1,33 @@
+{
+  "id": "2022.iwslt-1.4",
+  "title": "Locality-Sensitive Hashing for Long Context Neural Machine Translation",
+  "authors": [
+    "Petrick, Frithjof  and\nRosendahl, Jan  and\nHerold, Christian  and\nNey, Hermann"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022)",
+  "abstract": "After its introduction the Transformer architecture quickly became the gold standard for the task of neural machine translation. A major advantage of the Transformer compared to previous architectures is the faster training speed achieved by complete parallelization across timesteps due to the use of attention over recurrent layers. However, this also leads to one of the biggest problems of the Transformer, namely the quadratic time and memory complexity with respect to the input length. In this work we adapt the locality-sensitive hashing approach of Kitaev et al. (2020) to self-attention in the Transformer, we extended it to cross-attention and apply this memory efficient framework to sentence- and document-level machine translation. Our experiments show that the LSH attention scheme for sentence-level comes at the cost of slightly reduced translation quality. For document-level NMT we are able to include much bigger context sizes than what is possible with the baseline Transformer. However, more context does neither improve translation quality nor improve scores on targeted test suites.",
+  "keywords": [
+    "efficient",
+    "neural machine translation",
+    "self-attention",
+    "we",
+    "this memory efficient framework",
+    "training",
+    "translation",
+    "neural",
+    "it",
+    "self",
+    "recurrent",
+    "slightly reduced translation quality",
+    "the baseline transformer",
+    "-",
+    "translation quality"
+  ],
+  "url": "https://aclanthology.org/2022.iwslt-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

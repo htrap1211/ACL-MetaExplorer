@@ -1,0 +1,33 @@
+{
+  "id": "2022.bionlp-1.13",
+  "title": "Auxiliary Learning for Named Entity Recognition with Multiple Auxiliary Biomedical Training Data",
+  "authors": [
+    "Watanabe, Taiki  and\nIchikawa, Tomoya  and\nTamura, Akihiro  and\nIwakura, Tomoya  and\nMa, Chunpeng  and\nKato, Tsuneo"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 21st Workshop on Biomedical Language Processing",
+  "abstract": "Named entity recognition (NER) is one of the elemental technologies, which has been used for knowledge extraction from biomedical text. As one of the NER improvement approaches, multi-task learning that learns a model from multiple training data has been used. Among multi-task learning, an auxiliary learning method, which uses an auxiliary task for improving its target task, has shown higher NER performance than conventional multi-task learning for improving all the tasks simultaneously by using only one auxiliary task in the auxiliary learning. We propose Multiple Utilization of NER Corpora Helpful for Auxiliary BLESsing (MUNCH ABLES). MUNCHABLES utilizes multiple training datasets as auxiliary training data by the following methods; the first one is to finetune the NER model of the target task by sequentially performing auxiliary learning for each auxiliary training dataset, and the other is to use all training datasets in one auxiliary learning. We evaluate MUNCHABLES on eight biomedical-related domain NER tasks, where seven training datasets are used as auxiliary training data. The experiment results show that MUNCHABLES achieves higher accuracy than conventional multi-task learning methods on average while showing state-of-the-art accuracy.",
+  "keywords": [
+    "extraction",
+    "we",
+    "training",
+    "technologies",
+    "higher accuracy",
+    "learning",
+    "ner",
+    "text",
+    "the elemental technologies",
+    "-",
+    "the ner improvement",
+    "ner corpora",
+    "higher ner performance",
+    "accuracy",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2022.bionlp-1.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

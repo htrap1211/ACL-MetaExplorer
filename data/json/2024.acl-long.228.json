@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.228",
+  "title": "In-context Mixing ({ICM}): Code-mixed Prompts for Multilingual {LLM}s",
+  "authors": [
+    "Shankar, Bhavani  and\nJyothi, Preethi  and\nBhattacharyya, Pushpak"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We introduce a simple and effective prompting technique called in-context mixing (ICM) for effective in-context learning (ICL) with multilingual large language models (MLLMs). With ICM, we modify the few-shot examples within ICL prompts to be intra-sententially code-mixed by randomly swapping content words in the target languages with their English translations. We observe that ICM prompts yield superior performance in NLP tasks such as disfluency correction, grammar error correction and text simplification that demand a close correspondence between the input and output sequences. Significant improvements are observed mainly for low-resource languages that are under-represented during the pretraining and finetuning of MLLMs. We present an extensive set of experiments to analyze when ICM is effective and what design choices contribute towards its effectiveness. ICM works consistently and significantly better than other prompting techniques across models of varying capacity such as mT0-XXL, BloomZ and GPT-4.",
+  "keywords": [
+    "code",
+    "the few-shot examples",
+    "we",
+    "llm",
+    "shot",
+    "their english translations",
+    "icm code-mixed prompts",
+    "nlp tasks",
+    "multilingual llm",
+    "text",
+    "gpt-4",
+    "mllms",
+    "prompts",
+    "language",
+    "nlp"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.228/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

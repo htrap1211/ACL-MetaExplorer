@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.22",
+  "title": "A Sentence is Worth 128 Pseudo Tokens: A Semantic-Aware Contrastive Learning Framework for Sentence Embeddings",
+  "authors": [
+    "Tan, Haochen  and\nShao, Wei  and\nWu, Han  and\nYang, Ke  and\nSong, Linqi"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Contrastive learning has shown great potential in unsupervised sentence embedding tasks, e.g., SimCSE (CITATION).However, these existing solutions are heavily affected by superficial features like the length of sentences or syntactic structures. In this paper, we propose a semantic-aware contrastive learning framework for sentence embeddings, termed Pseudo-Token BERT (PT-BERT), which is able to explore the pseudo-token space (i.e., latent semantic space) representation of a sentence while eliminating the impact of superficial features such as sentence length and syntax. Specifically, we introduce an additional pseudo token embedding layer independent of the BERT encoder to map each sentence into a sequence of pseudo tokens in a fixed length. Leveraging these pseudo sequences, we are able to construct same-length positive and negative pairs based on the attention mechanism to perform contrastive learning. In addition, we utilize both the gradient-updating and momentum-updating encoders to encode instances while dynamically maintaining an additional queue to store the representation of sentence embeddings, enhancing the encoder’s learning performance for negative examples. Experiments show that our model outperforms the state-of-the-art baselines on six standard semantic textual similarity (STS) tasks. Furthermore, experiments on alignments and uniformity losses, as well as hard examples with different sentence lengths and syntax, consistently verify the effectiveness of our method.",
+  "keywords": [
+    "embedding tasks",
+    "pseudo-token bert pt-bert",
+    "alignments",
+    "encode",
+    "layer",
+    "semantic",
+    "we",
+    "syntax",
+    "the bert encoder",
+    "token",
+    "latent",
+    "learning",
+    "sequence",
+    "momentum",
+    "bert"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.22/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

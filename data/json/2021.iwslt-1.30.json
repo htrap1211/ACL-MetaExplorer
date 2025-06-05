@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwslt-1.30",
+  "title": "Tag Assisted Neural Machine Translation of Film Subtitles",
+  "authors": [
+    "Siekmeier, Aren  and\nLee, WonKee  and\nKwon, Hongseok  and\nLee, Jong-Hyeok"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021)",
+  "abstract": "We implemented a neural machine translation system that uses automatic sequence tagging to improve the quality of translation. Instead of operating on unannotated sentence pairs, our system uses pre-trained tagging systems to add linguistic features to source and target sentences. Our proposed neural architecture learns a combined embedding of tokens and tags in the encoder, and simultaneous token and tag prediction in the decoder. Compared to a baseline with unannotated training, this architecture increased the BLEU score of German to English film subtitle translation outputs by 1.61 points using named entity tags; however, the BLEU score decreased by 0.38 points using part-of-speech tags. This demonstrates that certain token-level tag outputs from off-the-shelf tagging systems can improve the output of neural translation systems using our combined embedding and simultaneous decoding extensions.",
+  "keywords": [
+    "the encoder",
+    "neural",
+    "the decoder",
+    "machine",
+    "neural translation systems",
+    "the bleu score",
+    "token",
+    "bleu",
+    "encoder",
+    "decoder",
+    "a combined embedding",
+    "tag",
+    "tagging",
+    "embedding",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2021.iwslt-1.30/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:18:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

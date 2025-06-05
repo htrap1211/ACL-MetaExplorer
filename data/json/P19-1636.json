@@ -1,0 +1,33 @@
+{
+  "id": "P19-1636",
+  "title": "Large-Scale Multi-Label Text Classification on {EU} Legislation",
+  "authors": [
+    "Chalkidis, Ilias  and\nFergadiotis, Emmanouil  and\nMalakasiotis, Prodromos  and\nAndroutsopoulos, Ion"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We consider Large-Scale Multi-Label Text Classification (LMTC) in the legal domain. We release a new dataset of 57k legislative documents from EUR-LEX, annotated with ∼4.3k EUROVOC labels, which is suitable for LMTC, few- and zero-shot learning. Experimenting with several neural classifiers, we show that BIGRUs with label-wise attention perform better than other current state of the art methods. Domain-specific WORD2VEC and context-sensitive ELMO embeddings further improve performance. We also find that considering only particular zones of the documents is sufficient. This allows us to bypass BERT’s maximum text length limit and fine-tune BERT, obtaining the best results in all but zero-shot learning cases.",
+  "keywords": [
+    "embeddings",
+    "eur",
+    "elmo",
+    "several neural classifiers",
+    "neural",
+    "bert",
+    "text",
+    "classifiers",
+    "context-sensitive elmo embeddings",
+    "us",
+    "sufficient",
+    "fine",
+    "attention",
+    "we",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/P19-1636/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:47:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

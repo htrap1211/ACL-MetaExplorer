@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.159",
+  "title": "Interpreting Conversational Dense Retrieval by Rewriting-Enhanced Inversion of Session Embedding",
+  "authors": [
+    "Cheng, Yiruo  and\nMao, Kelong  and\nDou, Zhicheng"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Conversational dense retrieval has shown to be effective in conversational search. However, a major limitation of conversational dense retrieval is their lack of interpretability, hindering intuitive understanding of model behaviors for targeted improvements. This paper presents CONVINV, a simple yet effective approach to shed light on interpretable conversational dense retrieval models. CONVINV transforms opaque conversational session embeddings into explicitly interpretable text while faithfully maintaining their original retrieval performance as much as possible. Such transformation is achieved by training a recently proposed Vec2Text model based on the ad-hoc query encoder, leveraging the fact that the session and query embeddings share the same space in existing conversational dense retrieval.To further enhance interpretability, we propose to incorporate external interpretable query rewrites into the transformation process. Extensive evaluations on three conversational search benchmarks demonstrate that CONVINV can yield more interpretable text and faithfully preserve original retrieval performance than baselines. Our work connects opaque session embeddings with transparent query rewriting, paving the way toward trustworthy conversational search.",
+  "keywords": [
+    "existing conversational dense retrieval",
+    "embeddings",
+    "work",
+    "original retrieval performance",
+    "query embeddings",
+    "process",
+    "the ad-hoc query encoder",
+    "their original retrieval performance",
+    "model",
+    "text",
+    "evaluations",
+    "encoder",
+    "retrieval",
+    "conversational",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.159/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

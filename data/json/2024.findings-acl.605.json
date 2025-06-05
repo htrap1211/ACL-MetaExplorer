@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.605",
+  "title": "From Discrimination to Generation: Low-Resource Intent Detection with Language Model Instruction Tuning",
+  "authors": [
+    "Zhang, Feng  and\nChen, Wei  and\nDing, Fei  and\nGao, Meng  and\nWang, Tengjiao  and\nYao, Jiahui  and\nZheng, Jiabin"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Intent detection aims to identify user goals from utterances, and is a ubiquitous step towards the satisfaction of user desired needs in many interaction systems. As dynamic and varied intents arise, models that are capable of identifying new intents promptly are required. However, existing studies usually fine-tune discriminative models on the specific defined intent classes, precluding them from being directly adopted to new intent domains. In this paper, we introduce a generative pre-trained intent model that can recognize new intents from different domains in low-resource scenarios. We reformulate intent detection into a generation task and design descriptive and regularized instructions to guide the model effectively to detect new intents in open domains with no parameter updates. To validate the proposed method, we introduce a new intent detection benchmark, including the Meta-Intent Dataset and three types of representative evaluation settings. We conduct extensive experiments which demonstrate that our method outperforms a range of strong baselines that needs further fine-tuning or domain-specific samples.",
+  "keywords": [
+    "varied",
+    "dynamic and varied intents",
+    "representative evaluation settings",
+    "a generation task",
+    "we",
+    "parameter",
+    "instruction",
+    "generative",
+    "tuning",
+    "however existing studies",
+    "fine",
+    "generation low-resource intent detection",
+    "generation",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.605/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:56:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

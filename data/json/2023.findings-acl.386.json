@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.386",
+  "title": "Modular and On-demand Bias Mitigation with Attribute-Removal Subnetworks",
+  "authors": [
+    "Hauzenberger, Lukas  and\nMasoudian, Shahed  and\nKumar, Deepak  and\nSchedl, Markus  and\nRekabsaz, Navid"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Societal biases are reflected in large pre-trained language models and their fine-tuned versions on downstream tasks. Common in-processing bias mitigation approaches, such as adversarial training and mutual information removal, introduce additional optimization criteria, and update the model to reach a new debiased state. However, in practice, end-users and practitioners might prefer to switch back to the original model, or apply debiasing only on a specific subset of protected attributes. To enable this, we propose a novel modular bias mitigation approach, consisting of stand-alone highly sparse debiasing subnetworks, where each debiasing module can be integrated into the core model on-demand at inference time. Our approach draws from the concept of diff pruning, and proposes a novel training regime adaptable to various representation disentanglement optimizations. We conduct experiments on three classification tasks with gender, race, and age as protected attributes. The results show that our modular approach, while maintaining task performance, improves (or at least remains on-par with) the effectiveness of bias mitigation in comparison with baseline finetuning. Particularly on a two-attribute dataset, our approach with separately learned debiasing subnetworks shows effective utilization of either or both the subnetworks for selective bias mitigation.",
+  "keywords": [
+    "bias",
+    "end",
+    "additional optimization criteria",
+    "selective bias mitigation",
+    "we",
+    "training",
+    "classification",
+    "separately learned debiasing subnetworks",
+    "large pre-trained language models",
+    "information",
+    "various representation disentanglement optimizations",
+    "core",
+    "par",
+    "age",
+    "practitioners"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.386/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

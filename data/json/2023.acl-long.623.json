@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.623",
+  "title": "OD}-{RTE}: A One-Stage Object Detection Framework for Relational Triple Extraction",
+  "authors": [
+    "Ning, Jinzhong  and\nYang, Zhihao  and\nSun, Yuanyuan  and\nWang, Zhizheng  and\nLin, Hongfei"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The Relational Triple Extraction (RTE) task is a fundamental and essential information extraction task. Recently, the table-filling RTE methods have received lots of attention. Despite their success, they suffer from some inherent problems such as underutilizing regional information of triple. In this work, we treat the RTE task based on table-filling method as an Object Detection task and propose a one-stage Object Detection framework for Relational Triple Extraction (OD-RTE). In this framework, the vertices-based bounding box detection, coupled with auxiliary global relational triple region detection, ensuring that regional information of triple could be fully utilized. Besides, our proposed decoding scheme could extract all types of triples. In addition, the negative sampling strategy of relations in the training stage improves the training efficiency while alleviating the imbalance of positive and negative relations. The experimental results show that 1) OD-RTE achieves the state-of-the-art performance on two widely used datasets (i.e., NYT and WebNLG). 2) Compared with the best performing table-filling method, OD-RTE achieves faster training and inference speed with lower GPU memory usage. To facilitate future research in this area, the codes are publicly available athttps://github.com/NingJinzhong/ODRTE.",
+  "keywords": [
+    "extraction",
+    "efficiency",
+    "we",
+    "training",
+    "information",
+    "i",
+    "object",
+    "the training efficiency",
+    "work",
+    "attention",
+    "area",
+    "this framework",
+    "relational triple extraction od-rte",
+    "nyt",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.623/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:44:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

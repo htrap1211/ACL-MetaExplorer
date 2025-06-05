@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.85",
+  "title": "Explaining Classes through Stable Word Attributions",
+  "authors": [
+    "R{\\\"o}nnqvist, Samuel  and\nKyr{\\\"o}l{\\\"a}inen, Aki-Juhani  and\nMyntti, Amanda  and\nGinter, Filip  and\nLaippala, Veronika"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Input saliency methods have recently become a popular tool for explaining predictions of deep learning models in NLP. Nevertheless, there has been little work investigating methods for aggregating prediction-level explanations to the class level, nor has a framework for evaluating such class explanations been established. We explore explanations based on XLM-R and the Integrated Gradients input attribution method, and propose 1) the Stable Attribution Class Explanation method (SACX) to extract keyword lists of classes in text classification tasks, and 2) a framework for the systematic evaluation of the keyword lists. We find that explanations of individual predictions are prone to noise, but that stable explanations can be effectively identified through repeated training and explanation. We evaluate on web register data and show that the class explanations are linguistically meaningful and distinguishing of the classes.",
+  "keywords": [
+    "deep",
+    "deep learning models",
+    "work",
+    "nlp",
+    "gradients",
+    "text",
+    "class",
+    "saliency",
+    "word",
+    "we",
+    "text classification tasks",
+    "learning",
+    "evaluation",
+    "the integrated gradients",
+    "the systematic evaluation"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.85/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

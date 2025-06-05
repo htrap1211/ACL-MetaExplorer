@@ -1,0 +1,33 @@
+{
+  "id": "2021.dialdoc-1.3",
+  "title": "A Template-guided Hybrid Pointer Network for Knowledge-based Task-oriented Dialogue Systems",
+  "authors": [
+    "Wang, Dingmin  and\nChen, Ziyao  and\nHe, Wanwei  and\nZhong, Li  and\nTao, Yunzhe  and\nYang, Min"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Document-grounded Dialogue and Conversational Question Answering (DialDoc 2021)",
+  "abstract": "Most existing neural network based task-oriented dialog systems follow encoder-decoder paradigm, where the decoder purely depends on the source texts to generate a sequence of words, usually suffering from instability and poor readability. Inspired by the traditional template-based generation approaches, we propose a template-guided hybrid pointer network for knowledge-based task-oriented dialog systems, which retrieves several potentially relevant answers from a pre-constructed domain-specific conversational repository as guidance answers, and incorporates the guidance answers into both the encoding and decoding processes. Specifically, we design a memory pointer network model with a gating mechanism to fully exploit the semantic correlation between the retrieved answers and the ground-truth response. We evaluate our model on four widely used task-oriented datasets, including one simulated and three manually created datasets. The experimental results demonstrate that the proposed model achieves significantly better performance than the state-of-the-art methods over different automatic evaluation metrics.",
+  "keywords": [
+    "the decoder",
+    "the retrieved answers",
+    "semantic",
+    "we",
+    "dialogue",
+    "neural",
+    "decoder",
+    "sequence",
+    "knowledge-based task-oriented dialogue systems",
+    "encoder-decoder paradigm",
+    "different automatic evaluation metrics",
+    "knowledge-based task-oriented dialog systems",
+    "metrics",
+    "the traditional template-based generation",
+    "the semantic correlation"
+  ],
+  "url": "https://aclanthology.org/2021.dialdoc-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

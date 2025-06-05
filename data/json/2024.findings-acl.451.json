@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.451",
+  "title": "A Semantic Distance Metric Learning approach for Lexical Semantic Change Detection",
+  "authors": [
+    "Aida, Taichi  and\nBollegala, Danushka"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Detecting temporal semantic changes of words is an important task for various NLP applications that must make time-sensitive predictions.Lexical Semantic Change Detection (SCD) task involves predicting whether a given target word,w, changes its meaning between two different text corpora,C1andC2.For this purpose, we propose a supervised two-staged SCD method that uses existing Word-in-Context (WiC) datasets.In the first stage, for a target wordw, we learn two sense-aware encoders that represent the meaning ofwin a given sentence selected from a corpus.Next, in the second stage, we learn a sense-aware distance metric that compares the semantic representations of a target word across all of its occurrences inC1andC2.Experimental results on multiple benchmark datasets for SCD show that our proposed method achieves strong performance in multiple languages.Additionally, our method achieves significant improvements on WiC benchmarks compared to a sense-aware encoder with conventional distance functions.",
+  "keywords": [
+    "the semantic representations",
+    "semantic",
+    "all",
+    "we",
+    "various nlp applications",
+    "word",
+    "learning",
+    "two sense-aware encoders",
+    "w",
+    "metric",
+    "text",
+    "encoders",
+    "nlp",
+    "temporal semantic changes",
+    "encoder"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.451/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-short.17",
+  "title": "DDP}rompt: Differential Diversity Prompting in Large Language Models",
+  "authors": [
+    "Mu, Lin  and\nZhang, Wenhao  and\nZhang, Yiwen  and\nJin, Peiquan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Large Language Models (LLMs) have shown that their reasoning ability could be enhanced through approaches like Chain-of-Thought (CoT) prompting. However, these methods use single prompts for different types of questions and do not design appropriate prompts for questions with different characteristics. In this paper, we aim to explore a methodology that generates differentially diverse reasoning paths for different types of questions. To achieve this, we propose a novel prompting strategy called Differential Diversity Prompting (DDPrompt). Firstly, we generate the optimal prompts collection based on question characteristics. Then, we use this optimal prompts collection to generate multiple answers for a question and choose the final answer by voting. We evaluated DDPrompt on twelve reasoning benchmarks and significant improvement in the performance of LLMs on complex reasoning tasks (e.g., GSM8K 75%->84%, Tracking Shuffled Objects (68.8%->83.9%))",
+  "keywords": [
+    "prompts",
+    "language",
+    "answer",
+    "single prompts",
+    "thought",
+    "appropriate prompts",
+    "cot",
+    "chain",
+    "large language models",
+    "ddprompt",
+    "this optimal prompts collection",
+    "a novel prompting strategy",
+    "large language models llms",
+    "question",
+    "rompt"
+  ],
+  "url": "https://aclanthology.org/2024.acl-short.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:46:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

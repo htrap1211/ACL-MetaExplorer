@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.472",
+  "title": "BASS}: Boosting Abstractive Summarization with Unified Semantic Graph",
+  "authors": [
+    "Wu, Wenhao  and\nLi, Wei  and\nXiao, Xinyan  and\nLiu, Jiachen  and\nCao, Ziqiang  and\nLi, Sujian  and\nWu, Hua  and\nWang, Haifeng"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Abstractive summarization for long-document or multi-document remains challenging for the Seq2Seq architecture, as Seq2Seq is not good at analyzing long-distance relations in text. In this paper, we present BASS, a novel framework for Boosting Abstractive Summarization based on a unified Semantic graph, which aggregates co-referent phrases distributing across a long range of context and conveys rich relations between phrases. Further, a graph-based encoder-decoder model is proposed to improve both the document representation and summary generation process by leveraging the graph structure. Specifically, several graph augmentation methods are designed to encode both the explicit and implicit relations in the text while the graph-propagation attention mechanism is developed in the decoder to select salient content into the summary. Empirical results show that the proposed architecture brings substantial improvements for both long-document and multi-document summarization tasks.",
+  "keywords": [
+    "seq2seq",
+    "the graph-propagation attention mechanism",
+    "process",
+    "salient content",
+    "generation",
+    "summary generation process",
+    "the decoder",
+    "model",
+    "text",
+    "the seq2seq architecture",
+    "salient",
+    "abstractive summarization",
+    "encoder",
+    "unified",
+    "decoder"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.472/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

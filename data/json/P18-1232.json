@@ -1,0 +1,33 @@
+{
+  "id": "P18-1232",
+  "title": "Learning Domain-Sensitive and Sentiment-Aware Word Embeddings",
+  "authors": [
+    "Shi, Bei  and\nFu, Zihao  and\nBing, Lidong  and\nLam, Wai"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Word embeddings have been widely used in sentiment classification because of their efficacy for semantic representations of words. Given reviews from different domains, some existing methods for word embeddings exploit sentiment information, but they cannot produce domain-sensitive embeddings. On the other hand, some other existing methods can generate domain-sensitive word embeddings, but they cannot distinguish words with similar contexts but opposite sentiment polarity. We propose a new method for learning domain-sensitive and sentiment-aware embeddings that simultaneously capture the information of sentiment semantics and domain sensitivity of individual words. Our method can automatically determine and produce domain-common embeddings and domain-specific embeddings. The differentiation of domain-common and domain-specific words enables the advantage of data augmentation of common semantics from multiple domains and capture the varied semantics of specific words from different domains at the same time. Experimental results show that our model provides an effective way to learn domain-sensitive and sentiment-aware word embeddings which benefit sentiment classification at both sentence level and lexicon term level.",
+  "keywords": [
+    "varied",
+    "semantic",
+    "we",
+    "domain-sensitive word embeddings",
+    "classification",
+    "domain-sensitive embeddings",
+    "semantics",
+    "information",
+    "word",
+    "reviews",
+    "domain-common embeddings",
+    "domain-specific embeddings",
+    "semantic representations",
+    "sentiment semantics",
+    "common semantics"
+  ],
+  "url": "https://aclanthology.org/P18-1232/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:15:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.672",
+  "title": "Deep Span Representations for Named Entity Recognition",
+  "authors": [
+    "Zhu, Enwei  and\nLiu, Yiyang  and\nLi, Jinpeng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Span-based models are one of the most straightforward methods for named entity recognition (NER). Existing span-based NER systems shallowly aggregate the token representations to span representations. However, this typically results in significant ineffectiveness for long entities, a coupling between the representations of overlapping spans, and ultimately a performance degradation. In this study, we propose DSpERT (Deep Span Encoder Representations from Transformers), which comprises a standard Transformer and a span Transformer. The latter uses low-layered span representations as queries, and aggregates the token representations as keys and values, layer by layer from bottom to top. Thus, DSpERT produces span representations of deep semantics. With weight initialization from pretrained language models, DSpERT achieves performance higher than or competitive with recent state-of-the-art systems on six NER benchmarks. Experimental results verify the importance of the depth for span representations, and show that DSpERT performs particularly well on long-span entities and nested structures. Further, the deep span representations are well structured and easily separable in the feature space.",
+  "keywords": [
+    "deep",
+    "top",
+    "transformers",
+    "deep semantics",
+    "layer",
+    "we",
+    "six ner benchmarks",
+    "semantics",
+    "queries",
+    "token",
+    "long-span entities",
+    "ner",
+    "long entities",
+    "a standard transformer",
+    "a span transformer"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.672/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

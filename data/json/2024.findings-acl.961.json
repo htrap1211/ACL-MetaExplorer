@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.961",
+  "title": "C}ontext{BLIP}: Doubly Contextual Alignment for Contrastive Image Retrieval from Linguistically Complex Descriptions",
+  "authors": [
+    "Lin, Honglin  and\nLi, Siyu  and\nNan, Guoshun  and\nTang, Chaoyue  and\nWang, Xueting  and\nXu, Jingxin  and\nYankai, Rong  and\nZhouzhili, Zhouzhili  and\nGao, Yutong  and\nCui, Qimei  and\nTao, Xiaofeng"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Image retrieval from contextual descriptions (IRCD) aims to identify an image within a set of minimally contrastive candidates based on linguistically complex text. Despite the success of VLMs, they still significantly lag behind human performance in IRCD. The main challenges lie in aligning key contextual cues in two modalities, where these subtle cues are concealed in tiny areas of multiple contrastive images and within the complex linguistics of textual descriptions. This motivates us to propose ContextBLIP, a simple yet effective method that relies on a doubly contextual alignment scheme for challenging IRCD. Specifically, 1) our model comprises a multi-scale adapter, a matching loss, and a text-guided masking loss. The adapter learns to capture fine-grained visual cues. The two losses enable iterative supervision for the adapter, gradually highlighting the focal patches of a single image to the key textual cues. We term such a way as intra-contextual alignment. 2) Then, ContextBLIP further employs an inter-context encoder to learn dependencies among candidates, facilitating alignment between the text to multiple images. We term this step as inter-contextual alignment. Consequently, the nuanced cues concealed in each modality can be effectively aligned. Experiments on two benchmarks show the superiority of our method. We observe that ContextBLIP can yield comparable results with GPT-4V, despite involving about 7,500 times fewer parameters.",
+  "keywords": [
+    "gpt-4v",
+    "we",
+    "inter-contextual alignment",
+    "contrastive image retrieval",
+    "two modalities",
+    "dependencies",
+    "retrieval",
+    "loss",
+    "visual",
+    "intra-contextual alignment",
+    "an inter-context encoder",
+    "text",
+    "alignment",
+    "model",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.961/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

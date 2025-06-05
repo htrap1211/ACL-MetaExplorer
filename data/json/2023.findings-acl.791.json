@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.791",
+  "title": "Lexical Translation Inconsistency-Aware Document-Level Translation Repair",
+  "authors": [
+    "Zhang, Zhen  and\nLi, Junhui  and\nTao, Shimin  and\nYang, Hao"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Following the idea of “one translation per discourse”, in this paper we aim to improve translation consistency via document-level translation repair (DocRepair), i.e., automatic post-editing on translations of documents. To this end, we propose a lexical translation inconsistency-aware DocRepair to explicitly model translation inconsistency. First we locate the inconsistency in automatic translation. Then we provide translation candidates for those inconsistency. Finally, we propose lattice-like input to properly model inconsistent tokens and phrases and their candidates. Experimental results on three document-level translation datasets show that based on G-Transformer, a state-of-the-art document-to-document (Doc2Doc) translation model, our Doc2Doc DocRepair achieves significant improvement on translation quality in BLEU scores, but also greatly improves lexical translation consistency.",
+  "keywords": [
+    "translation inconsistency",
+    "transformer",
+    "lexical translation consistency",
+    "i",
+    "end",
+    "translation",
+    "one translation",
+    "model",
+    "translation consistency",
+    "automatic translation",
+    "-",
+    "bleu",
+    "translation quality",
+    "we",
+    "document-level translation repair"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.791/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

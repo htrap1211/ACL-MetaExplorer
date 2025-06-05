@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.80",
+  "title": "Continual Prompt Tuning for Dialog State Tracking",
+  "authors": [
+    "Zhu, Qi  and\nLi, Bing  and\nMi, Fei  and\nZhu, Xiaoyan  and\nHuang, Minlie"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "A desirable dialog system should be able to continually learn new skills without forgetting old ones, and thereby adapt to new domains or tasks in its life cycle. However, continually training a model often leads to a well-known catastrophic forgetting issue. In this paper, we present Continual Prompt Tuning, a parameter-efficient framework that not only avoids forgetting but also enables knowledge transfer between tasks. To avoid forgetting, we only learn and store a few prompt tokens’ embeddings for each task while freezing the backbone pre-trained model. To achieve bi-directional knowledge transfer among tasks, we propose several techniques (continual prompt initialization, query fusion, and memory replay) to transfer knowledge from preceding tasks and a memory-guided technique to transfer knowledge from subsequent tasks. Extensive experiments demonstrate the effectiveness and efficiency of our proposed method on continual learning for dialog state tracking, compared with state-of-the-art baselines.",
+  "keywords": [
+    "embeddings",
+    "tuning",
+    "knowledge",
+    "prompt",
+    "continual prompt tuning",
+    "model",
+    "efficient",
+    "dialog",
+    "efficiency",
+    "we",
+    "transfer",
+    "a parameter-efficient framework",
+    "learning",
+    "pre",
+    "fusion"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.80/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

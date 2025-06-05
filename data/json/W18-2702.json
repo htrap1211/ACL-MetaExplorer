@@ -1,0 +1,33 @@
+{
+  "id": "W18-2702",
+  "title": "A Shared Attention Mechanism for Interpretation of Neural Automatic Post-Editing Systems",
+  "authors": [
+    "Jauregi Unanue, Inigo  and\nZare Borzeshi, Ehsan  and\nPiccardi, Massimo"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 2nd Workshop on Neural Machine Translation and Generation",
+  "abstract": "Automatic post-editing (APE) systems aim to correct the systematic errors made by machine translators. In this paper, we propose a neural APE system that encodes the source (src) and machine translated (mt) sentences with two separate encoders, but leverages a shared attention mechanism to better understand how the two inputs contribute to the generation of the post-edited (pe) sentences. Our empirical observations have showed that when the mt is incorrect, the attention shifts weight toward tokens in the src sentence to properly edit the incorrect translation. The model has been trained and evaluated on the official data from the WMT16 and WMT17 APE IT domain English-German shared tasks. Additionally, we have used the extra 500K artificial data provided by the shared task. Our system has been able to reproduce the accuracies of systems trained with the same data, while at the same time providing better interpretability.",
+  "keywords": [
+    "extra",
+    "the generation",
+    "the accuracies",
+    "we",
+    "translation",
+    "neural",
+    "it",
+    "the attention shifts weight",
+    "two separate encoders",
+    "a shared attention mechanism",
+    "encoders",
+    "the incorrect translation",
+    "accuracies",
+    "generation",
+    "model"
+  ],
+  "url": "https://aclanthology.org/W18-2702/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:22:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

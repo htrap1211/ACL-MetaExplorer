@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-short.28",
+  "title": "Soft Self-Consistency Improves Language Models Agents",
+  "authors": [
+    "Wang, Han  and\nPrasad, Archiki  and\nStengel-Eskin, Elias  and\nBansal, Mohit"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Generations from large language models (LLMs) can be improved by sampling and scoring multiple solutions to select a final answer. Current “sample and select” methods such as self-consistency (SC) rely on majority voting to score answers. However, when tasks have many distinct and valid answers, selection by voting requires a large number of samples. This makes SC prohibitively expensive for interactive tasks that involve generating multiple actions (answers) sequentially. After establishing that majority voting fails to provide consistent gains on such tasks, we demonstrate how to increase success rates by softening the scoring criterion. We introduce Soft Self-Consistency (SOFT-SC), which replaces SC’s discontinuous scoring with a continuous score computed from model likelihoods, allowing for selection even when actions are sparsely distributed. SOFT-SC improves both performance and efficiency on long-horizon interactive tasks, requiring half as many samples as SC for comparable or better performance. For a fixed number of samples, SOFT-SC leads to a 1.3% increase over SC in absolute success rate on writing bash programs, a 6.6% increase on online shopping (WebShop), and a 4.7% increase for an interactive household game (ALFWorld). Finally, we show that SOFT-SC can be applied to both open-source and black-box models.",
+  "keywords": [
+    "rate",
+    "sc",
+    "efficiency",
+    "we",
+    "valid",
+    "current",
+    "answer",
+    "self",
+    "llms",
+    "language models",
+    "large language models llms",
+    "generations",
+    "soft",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.acl-short.28/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:46:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

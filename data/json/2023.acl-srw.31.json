@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-srw.31",
+  "title": "Towards Efficient Dialogue Processing in the Emergency Response Domain",
+  "authors": [
+    "Anikina, Tatiana"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "In this paper we describe the task of adapting NLP models to dialogue processing in the emergency response domain. Our goal is to provide a recipe for building a system that performs dialogue act classification and domain-specific slot tagging while being efficient, flexible and robust. We show that adapter models Pfeiffer et al. (2020) perform well in the emergency response domain and benefit from additional dialogue context and speaker information. Comparing adapters to standard fine-tuned Transformer models we show that they achieve competitive results and can easily accommodate new tasks without significant memory increase since the base model can be shared between the adapters specializing on different tasks. We also address the problem of scarce annotations in the emergency response domain and evaluate different data augmentation techniques in a low-resource setting.",
+  "keywords": [
+    "transformer",
+    "efficient dialogue processing",
+    "processing",
+    "al",
+    "nlp",
+    "model",
+    "efficient",
+    "dialogue processing",
+    "information",
+    "tagging",
+    "we",
+    "nlp models",
+    "dialogue",
+    "standard fine-tuned transformer models",
+    "classification"
+  ],
+  "url": "https://aclanthology.org/2023.acl-srw.31/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:51:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

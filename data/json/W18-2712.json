@@ -1,0 +1,33 @@
+{
+  "id": "W18-2712",
+  "title": "Towards one-shot learning for rare-word translation with external experts",
+  "authors": [
+    "Pham, Ngoc-Quan  and\nNiehues, Jan  and\nWaibel, Alexander"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 2nd Workshop on Neural Machine Translation and Generation",
+  "abstract": "Neural machine translation (NMT) has significantly improved the quality of automatic translation models. One of the main challenges in current systems is the translation of rare words. We present a generic approach to address this weakness by having external models annotate the training data as Experts, and control the model-expert interaction with a pointer network and reinforcement learning. Our experiments using phrase-based models to simulate Experts to complement neural machine translation models show that the model can be trained to copy the annotations into the output consistently. We demonstrate the benefit of our proposed framework in outof domain translation scenarios with only lexical resources, improving more than 1.0 BLEU point in both translation directions English-Spanish and German-English.",
+  "keywords": [
+    "reinforcement",
+    "the translation",
+    "neural",
+    "model",
+    "machine",
+    "generic",
+    "bleu",
+    "a generic approach",
+    "outof domain translation scenarios",
+    "rare-word translation",
+    "network",
+    "word",
+    "we",
+    "learning",
+    "both translation directions"
+  ],
+  "url": "https://aclanthology.org/W18-2712/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:23:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

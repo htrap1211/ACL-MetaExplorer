@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.524",
+  "title": "Towards Distribution-shift Robust Text Classification of Emotional Content",
+  "authors": [
+    "Bulla, Luana  and\nGangemi, Aldo  and\nMongiovi{'}, Misael"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Supervised models based on Transformers have been shown to achieve impressive performances in many natural language processing tasks. However, besides requiring a large amount of costly manually annotated data, supervised models tend to adapt to the characteristics of the training dataset, which are usually created ad-hoc and whose data distribution often differs from the one in real applications, showing significant performance degradation in real-world scenarios. We perform an extensive assessment of the out-of-distribution performances of supervised models for classification in the emotion and hate-speech detection tasks and show that NLI-based zero-shot models often outperform them, making task-specific annotation useless when the characteristics of final-user data are not known in advance. To benefit from both supervised and zero-shot approaches, we propose to fine-tune an NLI-based model on the task-specific dataset. The resulting model often outperforms all available supervised models both in distribution and out of distribution, with only a few thousand training samples.",
+  "keywords": [
+    "transformers",
+    "processing",
+    "language",
+    "natural",
+    "model",
+    "text",
+    "nli-based zero-shot models",
+    "fine",
+    "we",
+    "distribution-shift robust text classification",
+    "shot",
+    "training",
+    "classification",
+    "a large amount",
+    "applications"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.524/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

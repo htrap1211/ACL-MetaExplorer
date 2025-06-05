@@ -1,0 +1,33 @@
+{
+  "id": "2023.repl4nlp-1.18",
+  "title": "Mixed Orthographic/Phonemic Language Modeling: Beyond Orthographically Restricted Transformers ({BORT})",
+  "authors": [
+    "Gale, Robert C.  and\nSalem, Alexandra C.  and\nFergadiotis, Gerasimos  and\nBedrick, Steven"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 8th Workshop on Representation Learning for NLP (RepL4NLP 2023)",
+  "abstract": "Speech language pathologists rely on information spanning the layers of language, often drawing from multiple layers (e.g. phonology & semantics) at once. Recent innovations in large language models (LLMs) have been shown to build powerful representations for many complex language structures, especially syntax and semantics, unlocking the potential of large datasets through self-supervised learning techniques. However, these datasets are overwhelmingly orthographic, favoring writing systems like the English alphabet, a natural but phonetically imprecise choice. Meanwhile, LLM support for the international phonetic alphabet (IPA) ranges from poor to absent. Further, LLMs encode text at a word- or near-word level, and pre-training tasks have little to gain from phonetic/phonemic representations. In this paper, we introduce BORT, an LLM for mixed orthography/IPA meant to overcome these limitations. To this end, we extend the pre-training of an existing LLM with our own self-supervised pronunciation tasks. We then fine-tune for a clinical task that requires simultaneous phonological and semantic analysis. For an “easy” and “hard” version of these tasks, we show that fine-tuning from our models is more accurate by a relative 24% and 29%, and improved on character error rates by a relative 75% and 31%, respectively, than those starting from the original model.",
+  "keywords": [
+    "transformers",
+    "pre-training tasks",
+    "end",
+    "support",
+    "encode",
+    "an llm",
+    "e g phonology semantics",
+    "semantic",
+    "we",
+    "an existing llm",
+    "syntax",
+    "llm",
+    "training",
+    "natural",
+    "semantics"
+  ],
+  "url": "https://aclanthology.org/2023.repl4nlp-1.18/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

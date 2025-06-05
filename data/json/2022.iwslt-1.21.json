@@ -1,0 +1,33 @@
+{
+  "id": "2022.iwslt-1.21",
+  "title": "The {HW}-{TSC}{'}s Simultaneous Speech Translation System for {IWSLT} 2022 Evaluation",
+  "authors": [
+    "Wang, Minghan  and\nGuo, Jiaxin  and\nLi, Yinglu  and\nQiao, Xiaosong  and\nWang, Yuxia  and\nLi, Zongyao  and\nSu, Chang  and\nChen, Yimeng  and\nZhang, Min  and\nTao, Shimin  and\nYang, Hao  and\nQin, Ying"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022)",
+  "abstract": "This paper presents our work in the participation of IWSLT 2022 simultaneous speech translation evaluation. For the track of text-to-text (T2T), we participate in three language pairs and build wait-k based simultaneous MT (SimulMT) model for the task. The model was pretrained on WMT21 news corpora, and was further improved with in-domain fine-tuning and self-training. For the speech-to-text (S2T) track, we designed both cascade and end-to-end form in three language pairs. The cascade system is composed of a chunking-based streaming ASR model and the SimulMT model used in the T2T track. The end-to-end system is a simultaneous speech translation (SimulST) model based on wait-k strategy, which is directly trained on a synthetic corpus produced by translating all texts of ASR corpora into specific target language with an offline MT model. It also contains a heuristic sentence breaking strategy, preventing it from finishing the translation before the the end of the speech. We evaluate our systems on the MUST-C tst-COMMON dataset and show that the end-to-end system is competitive to the cascade one. Meanwhile, we also demonstrate that the SimulMT model can be efficiently optimized by these approaches, resulting in the improvements of 1-2 BLEU points.",
+  "keywords": [
+    "end",
+    "bleu",
+    "form",
+    "we",
+    "training",
+    "translation",
+    "it",
+    "a simultaneous speech translation",
+    "self",
+    "tuning",
+    "the translation",
+    "text",
+    "fine",
+    "work",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2022.iwslt-1.21/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.765",
+  "title": "Holistic Prediction on a Time-Evolving Attributed Graph",
+  "authors": [
+    "Yamasaki, Shohei  and\nSasaki, Yuya  and\nKarras, Panagiotis  and\nOnizuka, Makoto"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Graph-based prediction is essential in NLP tasks such as temporal knowledge graph completion. A cardinal question in this field is, how to predict the future links, nodes, and attributes of a time-evolving attributed graph? Unfortunately, existing techniques assume that each link, node, and attribute prediction is independent, and fall short of predicting the appearance of new nodes that were not observed in the past. In this paper, we address two interrelated questions; (1) can we exploit task interdependence to improve prediction accuracy? and (2) can we predict new nodes with their attributes? We propose a unified framework that predicts node attributes and topology changes such as the appearance and disappearance of links and the emergence and loss of nodes. This frame-work comprises components for independent and interactive prediction and for predicting new nodes. Our experimental study using real-world data confirms that our interdependent prediction framework achieves higher accuracy than methods based on independent prediction.",
+  "keywords": [
+    "prediction accuracy",
+    "field",
+    "question",
+    "we",
+    "graph",
+    "temporal knowledge graph completion",
+    "a unified framework",
+    "unified",
+    "loss",
+    "higher accuracy",
+    "nlp tasks",
+    "accuracy",
+    "work",
+    "knowledge",
+    "nlp"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.765/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:46:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

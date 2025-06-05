@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.322",
+  "title": "Structural Supervision for Word Alignment and Machine Translation",
+  "authors": [
+    "Li, Lei  and\nFan, Kai  and\nLi, Hongjia  and\nYuan, Chun"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Syntactic structure has long been argued to be potentially useful for enforcing accurate word alignment and improving generalization performance of machine translation. Unfortunately, existing wisdom demonstrates its significance by considering only the syntactic structure of source tokens, neglecting the rich structural information from target tokens and the structural similarity between the source and target sentences. In this work, we propose to incorporate the syntactic structure of both source and target tokens into the encoder-decoder framework, tightly correlating the internal logic of word alignment and machine translation for multi-task learning. Particularly, we won’t leverage any annotated syntactic graph of the target side during training, so we introduce Dynamic Graph Convolution Networks (DGCN) on observed target tokens to sequentially and simultaneously generate the target tokens and the corresponding syntactic graphs, and further guide the word alignment. On this basis, Hierarchical Graph Random Walks (HGRW) are performed on the syntactic graphs of both source and target sides, for incorporating structured constraints on machine translation outputs. Experiments on four publicly available language pairs verify that our method is highly effective in capturing syntactic structure in different languages, consistently outperforming baselines in alignment accuracy and demonstrating promising results in translation quality.",
+  "keywords": [
+    "alignment accuracy",
+    "machine translation",
+    "we",
+    "graph",
+    "training",
+    "translation",
+    "accurate word alignment",
+    "the encoder-decoder framework",
+    "decoder",
+    "information",
+    "rich",
+    "word",
+    "learning",
+    "word alignment",
+    "translation quality"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.322/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

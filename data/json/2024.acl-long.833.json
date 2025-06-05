@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.833",
+  "title": "R}oman{S}etu: Efficiently unlocking multilingual capabilities of Large Language Models via {R}omanization",
+  "authors": [
+    "J, Jaavid  and\nDabre, Raj  and\nM, Aswanth  and\nGala, Jay  and\nJayakumar, Thanmay  and\nPuduppully, Ratish  and\nKunchukuttan, Anoop"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "This study addresses the challenge of extending Large Language Models (LLMs) to non-English languages, specifically those using non-Roman scripts. We propose an approach that utilizes the romanized form of text as an interface for LLMs, hypothesizing that its frequent informal use and shared tokens with English enhance cross-lingual alignment. Our approach involve the continual pretraining of a English LLM like Llama 2 on romanized text of non-English, non-Roman script languages, followed by instruction tuning on romanized data. The results indicate that romanized text not only reduces token fertility by 2x-4x but also matches if not outperforms native script representation across various NLU, NLG and MT tasks. Moreover, the embeddings computed on romanized text exhibit closer alignment with their English translations than those from the native script. Our approach presents a promising direction for leveraging the power of English LLMs in languages traditionally underrepresented in NLP research.",
+  "keywords": [
+    "english llms",
+    "a english llm",
+    "multilingual capabilities",
+    "form",
+    "we",
+    "llm",
+    "cross",
+    "instruction",
+    "their english translations",
+    "token",
+    "llms",
+    "instruction tuning",
+    "tuning",
+    "the embeddings",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.833/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:45:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.817",
+  "title": "Combating Label Sparsity in Short Text Topic Modeling via Nearest Neighbor Augmentation",
+  "authors": [
+    "Lin, Yang  and\nMa, Xinyu  and\nGao, Xin  and\nLi, Ruiqing  and\nWang, Yasha  and\nChu, Xu"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Extracting semantic topics from short texts presents a significant challenge in the field of data mining. While efforts have been made to mitigate data sparsity issue, the limited length of short documents also results in the absence of semantically relevant words, causing biased evidence lower bound and incomplete labels for likelihood maximization. We refer to this issue as the label sparsity problem. To combat this problem, we propose kNNTM, a neural short text topic model that incorporates ak-Nearest-Neighbor-based label completion algorithm by augmenting the reconstruction label withk-nearest documents to complement these relevant but unobserved words. Furthermore, seeking a precise reflection of distances between documents, we propose a fused multi-view distances metric that takes both local word similarities and global topic semantics into consideration. Extensive experiments on multiple public short-text datasets show that kNNTM model outperforms the state-of-the-art baseline models and can derive both high-quality topics and document representations.",
+  "keywords": [
+    "global topic semantics",
+    "field",
+    "semantic",
+    "we",
+    "both local word similarities",
+    "neural",
+    "the field",
+    "semantics",
+    "semantic topics",
+    "word",
+    "a fused multi-view distances",
+    "biased",
+    "semantically relevant words",
+    "metric",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.817/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:59:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

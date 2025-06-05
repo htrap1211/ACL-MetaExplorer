@@ -1,0 +1,33 @@
+{
+  "id": "2020.ngt-1.20",
+  "title": "Growing Together: Modeling Human Language Learning With n-Best Multi-Checkpoint Machine Translation",
+  "authors": [
+    "Nagoudi, El Moatez Billah  and\nAbdul-Mageed, Muhammad  and\nCavusoglu, Hasan"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the Fourth Workshop on Neural Generation and Translation",
+  "abstract": "We describe our submission to the 2020 Duolingo Shared Task on Simultaneous Translation And Paraphrase for Language Education (STAPLE). We view MT models at various training stages (i.e., checkpoints) as human learners at different levels. Hence, we employ an ensemble of multi-checkpoints from the same model to generate translation sequences with various levels of fluency. From each checkpoint, for our best model, we sample n-Best sequences (n=10) with a beam width =100. We achieve an 37.57 macro F1 with a 6 checkpoint model ensemble on the official shared task test data, outperforming a baseline Amazon translation system of 21.30 macro F1 and ultimately demonstrating the utility of our intuitive method.",
+  "keywords": [
+    "ensemble",
+    "language",
+    "n-best multi-checkpoint machine translation",
+    "learners",
+    "machine",
+    "model",
+    "human",
+    "21 30 macro f1",
+    "simultaneous translation",
+    "-",
+    "human learners",
+    "translation sequences",
+    "we",
+    "an ensemble",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2020.ngt-1.20/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:57:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.556",
+  "title": "EX}-{FEVER}: A Dataset for Multi-hop Explainable Fact Verification",
+  "authors": [
+    "Ma, Huanhuan  and\nXu, Weizhi  and\nWei, Yifan  and\nChen, Liuji  and\nWang, Liang  and\nLiu, Qiang  and\nWu, Shu  and\nWang, Liang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Fact verification aims to automatically probe the veracity of a claim based on several pieces of evidence. Existing works are always engaging in accuracy improvement, let alone explainability, a critical capability of fact verification systems.Constructing an explainable fact verification system in a complex multi-hop scenario is consistently impeded by the absence of a relevant, high-quality dataset. Previous datasets either suffer from excessive simplification or fail to incorporate essential considerations for explainability. To address this, we present EX-FEVER, a pioneering dataset for multi-hop explainable fact verification. With over 60,000 claims involving 2-hop and 3-hop reasoning, each is created by summarizing and modifying information from hyperlinked Wikipedia documents. Each instance is accompanied by a veracity label and an explanation that outlines the reasoning path supporting the veracity classification. Additionally, we demonstrate a novel baseline system on our EX-FEVER dataset, showcasing document retrieval, explanation generation, and claim verification, and validate the significance of our dataset. Furthermore, we highlight the potential of utilizing Large Language Models in the fact verification task. We hope our dataset could make a significant contribution by providing ample opportunities to explore the integration of natural language explanations in the domain of fact verification.",
+  "keywords": [
+    "opportunities",
+    "several pieces",
+    "we",
+    "accuracy improvement",
+    "classification",
+    "natural",
+    "retrieval",
+    "information",
+    "pieces",
+    "the veracity classification",
+    "-",
+    "accuracy",
+    "generation",
+    "language",
+    "large language models"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.556/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:56:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

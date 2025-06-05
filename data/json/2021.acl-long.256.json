@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.256",
+  "title": "Evidence-based Factual Error Correction",
+  "authors": [
+    "Thorne, James  and\nVlachos, Andreas"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "This paper introduces the task of factual error correction: performing edits to a claim so that the generated rewrite is better supported by evidence. This extends the well-studied task of fact verification by providing a mechanism to correct written texts that are refuted or only partially supported by evidence. We demonstrate that it is feasible to train factual error correction systems from existing fact checking datasets which only contain labeled claims accompanied by evidence, but not the correction. We achieve this by employing a two-stage distant supervision approach that incorporates evidence into masked claims when generating corrections. Our approach, based on the T5 transformer and using retrieved evidence, achieved better results than existing work which used a pointer copy network and gold evidence, producing accurate factual error corrections for 5x more instances in human evaluation and a .125 increase in SARI score. The evaluation is conducted on a dataset of 65,000 instances based on a recent fact verification shared task and we release it to enable further work on the task.",
+  "keywords": [
+    "we",
+    "the well-studied task",
+    "human evaluation",
+    "it",
+    "the t5 transformer",
+    "retrieved evidence",
+    "work",
+    "transformer",
+    "human",
+    "the generated rewrite",
+    "network",
+    "evaluation",
+    "the evaluation",
+    "supervision",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.256/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:02:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

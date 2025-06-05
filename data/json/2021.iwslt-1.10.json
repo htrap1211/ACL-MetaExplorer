@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwslt-1.10",
+  "title": "ESP}net-{ST} {IWSLT} 2021 Offline Speech Translation System",
+  "authors": [
+    "Inaguma, Hirofumi  and\nYan, Brian  and\nDalmia, Siddharth  and\nGuo, Pengcheng  and\nShi, Jiatong  and\nDuh, Kevin  and\nWatanabe, Shinji"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021)",
+  "abstract": "This paper describes the ESPnet-ST group’s IWSLT 2021 submission in the offline speech translation track. This year we made various efforts on training data, architecture, and audio segmentation. On the data side, we investigated sequence-level knowledge distillation (SeqKD) for end-to-end (E2E) speech translation. Specifically, we used multi-referenced SeqKD from multiple teachers trained on different amounts of bitext. On the architecture side, we adopted the Conformer encoder and the Multi-Decoder architecture, which equips dedicated decoders for speech recognition and translation tasks in a unified encoder-decoder model and enables search in both source and target language spaces during inference. We also significantly improved audio segmentation by using the pyannote.audio toolkit and merging multiple short segments for long context modeling. Experimental evaluations showed that each of them contributed to large improvements in translation performance. Our best E2E system combined all the above techniques with model ensembling and achieved 31.4 BLEU on the 2-ref of tst2021 and 21.2 BLEU and 19.3 BLEU on the two single references of tst2021.",
+  "keywords": [
+    "end",
+    "21 2 bleu",
+    "bleu",
+    "we",
+    "translation",
+    "translation tasks",
+    "ref",
+    "unified",
+    "31 4 bleu",
+    "decoder",
+    "decoders",
+    "sequence",
+    "the multi-decoder architecture",
+    "the conformer encoder",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2021.iwslt-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:18:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

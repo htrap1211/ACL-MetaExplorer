@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.142",
+  "title": "Aristoxenus at {S}em{E}val-2023 Task 4: A Domain-Adapted Ensemble Approach to the Identification of Human Values behind Arguments",
+  "authors": [
+    "Zaikis, Dimitrios  and\nStefanidis, Stefanos D.  and\nAnagnostopoulos, Konstantinos  and\nVlahavas, Ioannis"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper presents our system for the SemEval-2023 Task 4, which aims to identify human values behind arguments by classifying whether or not an argument draws on a specific category. Our approach leverages a second-phase pre-training method to adapt a RoBERTa Language Model (LM) and tackles the problem using a One-Versus-All strategy. Final predictions are determined by a majority voting module that combines the outputs of an ensemble of three sets of per-label models. We conducted experiments to evaluate the impact of different pre-trained LMs on the task, comparing their performance in both pre-trained and task-adapted settings. Our findings show that fine-tuning the RoBERTa LM on the task-specific dataset improves its performance, outperforming the best-performing baseline BERT approach. Overall, our approach achieved a macro-F1 score of 0.47 on the official test set, demonstrating its potential in identifying human values behind arguments.",
+  "keywords": [
+    "roberta",
+    "a macro-f1 score",
+    "a roberta language model",
+    "we",
+    "the roberta",
+    "training",
+    "ensemble",
+    "a domain-adapted ensemble approach",
+    "an ensemble",
+    "bert",
+    "fine",
+    "language",
+    "model",
+    "human",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.142/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:28:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

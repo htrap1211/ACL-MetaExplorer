@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.320",
+  "title": "Attention as Grounding: Exploring Textual and Cross-Modal Attention on Entities and Relations in Language-and-Vision Transformer",
+  "authors": [
+    "Ilinykh, Nikolai  and\nDobnik, Simon"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "We explore how a multi-modal transformer trained for generation of longer image descriptions learns syntactic and semantic representations about entities and relations grounded in objects at the level of masked self-attention (text generation) and cross-modal attention (information fusion). We observe that cross-attention learns the visual grounding of noun phrases into objects and high-level semantic information about spatial relations, while text-to-text attention captures low-level syntactic knowledge between words. This concludes that language models in a multi-modal task learn different semantic information about objects and relations cross-modally and uni-modally (text-only). Our code is available here:https://github.com/GU-CLASP/attention-as-grounding.",
+  "keywords": [
+    "masked self-attention text generation",
+    "cross",
+    "transformer",
+    "code",
+    "knowledge",
+    "language-and-vision transformer",
+    "generation",
+    "language",
+    "uni",
+    "different semantic information",
+    "entities",
+    "text",
+    "textual and cross-modal attention",
+    "self",
+    "language models"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.320/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

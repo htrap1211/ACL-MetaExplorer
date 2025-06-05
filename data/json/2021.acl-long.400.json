@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.400",
+  "title": "A}uto{T}iny{BERT}: Automatic Hyper-parameter Optimization for Efficient Pre-trained Language Models",
+  "authors": [
+    "Yin, Yichun  and\nChen, Cheng  and\nShang, Lifeng  and\nJiang, Xin  and\nChen, Xiao  and\nLiu, Qun"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Pre-trained language models (PLMs) have achieved great success in natural language processing. Most of PLMs follow the default setting of architecture hyper-parameters (e.g., the hidden dimension is a quarter of the intermediate dimension in feed-forward sub-networks) in BERT. Few studies have been conducted to explore the design of architecture hyper-parameters in BERT, especially for the more efficient PLMs with tiny sizes, which are essential for practical deployment on resource-constrained devices. In this paper, we adopt the one-shot Neural Architecture Search (NAS) to automatically search architecture hyper-parameters. Specifically, we carefully design the techniques of one-shot learning and the search space to provide an adaptive and efficient development way of tiny PLMs for various latency constraints. We name our method AutoTinyBERT and evaluate its effectiveness on the GLUE and SQuAD benchmarks. The extensive experiments show that our method outperforms both the SOTA search-based baseline (NAS-BERT) and the SOTA distillation-based methods (such as DistilBERT, TinyBERT, MiniLM, and MobileBERT). In addition, based on the obtained architectures, we propose a more efficient development method that is even faster than the development of a single PLM. The source code and models will be publicly available upon publication.",
+  "keywords": [
+    "code",
+    "efficient",
+    "the more efficient plms",
+    "we",
+    "parameter",
+    "shot",
+    "bert few studies",
+    "hyper",
+    "neural",
+    "natural",
+    "autotinybert",
+    "e",
+    "learning",
+    "natural language processing",
+    "feed"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.400/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

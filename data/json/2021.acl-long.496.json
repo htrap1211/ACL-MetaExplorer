@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.496",
+  "title": "Argument Pair Extraction via Attention-guided Multi-Layer Multi-Cross Encoding",
+  "authors": [
+    "Cheng, Liying  and\nWu, Tianyu  and\nBing, Lidong  and\nSi, Luo"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Argument pair extraction (APE) is a research task for extracting arguments from two passages and identifying potential argument pairs. Prior research work treats this task as a sequence labeling problem and a binary classification problem on two passages that are directly concatenated together, which has a limitation of not fully utilizing the unique characteristics and inherent relations of two different passages. This paper proposes a novel attention-guided multi-layer multi-cross encoding scheme to address the challenges. The new model processes two passages with two individual sequence encoders and updates their representations using each other’s representations through attention. In addition, the pair prediction part is formulated as a table-filling problem by updating the representations of two sequences’ Cartesian product. Furthermore, an auxiliary attention loss is introduced to guide each argument to align to its paired argument. An extensive set of experiments show that the new model significantly improves the APE performance over several alternatives.",
+  "keywords": [
+    "two individual sequence encoders",
+    "extraction",
+    "layer",
+    "classification",
+    "cross",
+    "loss",
+    "sequence",
+    "a binary classification problem",
+    "an auxiliary attention loss",
+    "encoders",
+    "work",
+    "model",
+    "attention",
+    "cartesian",
+    "multi"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.496/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

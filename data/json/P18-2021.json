@@ -1,0 +1,33 @@
+{
+  "id": "P18-2021",
+  "title": "A dataset for identifying actionable feedback in collaborative software development",
+  "authors": [
+    "Meyers, Benjamin S.  and\nMunaiah, Nuthan  and\nPrud{'}hommeaux, Emily  and\nMeneely, Andrew  and\nOvesdotter Alm, Cecilia  and\nWolff, Josephine  and\nMurukannaiah, Pradeep K."
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Software developers and testers have long struggled with how to elicit proactive responses from their coworkers when reviewing code for security vulnerabilities and errors. For a code review to be successful, it must not only identify potential problems but also elicit an active response from the colleague responsible for modifying the code. To understand the factors that contribute to this outcome, we analyze a novel dataset of more than one million code reviews for the Google Chromium project, from which we extract linguistic features of feedback that elicited responsive actions from coworkers. Using a manually-labeled subset of reviewer comments, we trained a highly accurate classifier to identify acted-upon comments (AUC = 0.85). Our results demonstrate the utility of our dataset, the feasibility of using NLP for this new task, and the potential of NLP to improve our understanding of how communications between colleagues can be authored to elicit positive, proactive responses.",
+  "keywords": [
+    "code",
+    "feedback",
+    "classifier",
+    "we",
+    "it",
+    "reviews",
+    "a code review",
+    "security vulnerabilities",
+    "reviewer comments",
+    "a highly accurate classifier",
+    "nlp",
+    "reviewer",
+    "review",
+    "vulnerabilities",
+    "their coworkers"
+  ],
+  "url": "https://aclanthology.org/P18-2021/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:16:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

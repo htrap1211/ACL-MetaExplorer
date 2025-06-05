@@ -1,0 +1,33 @@
+{
+  "id": "W18-3012",
+  "title": "Unsupervised Random Walk Sentence Embeddings: A Strong but Simple Baseline",
+  "authors": [
+    "Ethayarajh, Kawin"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the Third Workshop on Representation Learning for {NLP}",
+  "abstract": "Using a random walk model of text generation, Arora et al. (2017) proposed a strong baseline for computing sentence embeddings: take a weighted average of word embeddings and modify with SVD. This simple method even outperforms far more complex approaches such as LSTMs on textual similarity tasks. In this paper, we first show that word vector length has a confounding effect on the probability of a sentence being generated in Arora et al.’s model. We propose a random walk model that is robust to this confound, where the probability of word generation is inversely related to the angular distance between the word and sentence embeddings. Our approach beats Arora et al.’s by up to 44.4% on textual similarity tasks and is competitive with state-of-the-art methods. Unlike Arora et al.’s method, ours requires no hyperparameter tuning, which means it can be used when there is no labelled data.",
+  "keywords": [
+    "embeddings",
+    "et",
+    "tuning",
+    "vector",
+    "random",
+    "generation",
+    "al",
+    "model",
+    "text",
+    "word vector length",
+    "word generation",
+    "it",
+    "no hyperparameter tuning",
+    "lstms",
+    "word"
+  ],
+  "url": "https://aclanthology.org/W18-3012/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:24:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

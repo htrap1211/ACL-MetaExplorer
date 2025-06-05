@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.46",
+  "title": "Augmentation Invariant Discrete Representation for Generative Spoken Language Modeling",
+  "authors": [
+    "Gat, Itai  and\nKreuk, Felix  and\nAnh Nguyen, Tu  and\nLee, Ann  and\nCopet, Jade  and\nSynnaeve, Gabriel  and\nDupoux, Emmanuel  and\nAdi, Yossi"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "Generative Spoken Language Modeling research focuses on optimizing speech Language Models (LMs) using raw audio recordings without accessing any textual supervision. Such speech LMs usually operate over discrete units obtained from quantizing internal representations of self-supervised models. Although such units show impressive modeling results, their robustness capabilities have not been extensively investigated. This work focuses on improving the robustness of discrete input representations for generative spoken language modeling. First, we formally define how to measure the robustness of such representations to various signal variations that do not alter the spoken information (e.g., time-stretch). Next, we empirically demonstrate how current state-of-the-art representation models lack robustness to such variations. To overcome this, we propose an effective and efficient method to learn robust discrete speech representation for generative spoken language modeling. The proposed approach is based on applying a set of signal transformations to the speech signal and optimizing the model using an iterative pseudo-labeling scheme. Our method significantly improves over the evaluated baselines when considering encoding and modeling metrics. We additionally evaluate our method on the speech-to-speech translation task, considering Spanish-English and French-English translations, and show the proposed approach outperforms the evaluated baselines.",
+  "keywords": [
+    "efficient",
+    "speech language models lms",
+    "spanish-english and french-english translations",
+    "their robustness capabilities",
+    "we",
+    "current",
+    "translation",
+    "self",
+    "information",
+    "generative",
+    "metrics",
+    "generative spoken language modeling",
+    "work",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.46/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:25:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

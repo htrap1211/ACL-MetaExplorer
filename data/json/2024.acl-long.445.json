@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.445",
+  "title": "Full Parameter Fine-tuning for Large Language Models with Limited Resources",
+  "authors": [
+    "Lv, Kai  and\nYang, Yuqing  and\nLiu, Tengxiao  and\nGuo, Qipeng  and\nQiu, Xipeng"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large Language Models (LLMs) have revolutionized Natural Language Processing (NLP) but demand massive GPU resources for training. Lowering the threshold for LLMs training would encourage greater participation from researchers, benefiting both academia and society. While existing approaches have focused on parameter-efficient fine-tuning, which tunes or adds a small number of parameters, few have addressed the challenge of tuning the full parameters of LLMs with limited resources. In this work, we propose a new optimizer, LOw-Memory Optimization (LOMO), which fuses the gradient computation and the parameter update in one step to reduce memory usage. By integrating LOMO with existing memory saving techniques, we reduce memory usage to 10.8% compared to the standard approach (DeepSpeed solution). Consequently, our approach enables the full parameter fine-tuning of a 65B model on a single machine with 8×RTX 3090, each with 24GB memory. Code and data are available at https://github.com/OpenLMLab/LOMO.",
+  "keywords": [
+    "code",
+    "efficient",
+    "the gradient computation",
+    "we",
+    "parameter",
+    "training",
+    "natural language processing nlp",
+    "natural",
+    "llms",
+    "tuning",
+    "processing",
+    "parameter-efficient fine-tuning",
+    "fine",
+    "the full parameter fine-tuning",
+    "society"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.445/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:40:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

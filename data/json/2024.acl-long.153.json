@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.153",
+  "title": "On Context Utilization in Summarization with Large Language Models",
+  "authors": [
+    "Ravaut, Mathieu  and\nSun, Aixin  and\nChen, Nancy  and\nJoty, Shafiq"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large language models (LLMs) excel in abstractive summarization tasks, delivering fluent and pertinent summaries. Recent advancements have extended their capabilities to handle long-input contexts, exceeding 100k tokens. However, in question answering, language models exhibit uneven utilization of their input context. They tend to favor the initial and final segments, resulting in a U-shaped performance pattern concerning where the answer is located within the input. This bias raises concerns, particularly in summarization where crucial content may be dispersed throughout the source document(s). Besides, in summarization, mapping facts from the source to the summary is not trivial as salient content is usually re-phrased. In this paper, we conduct the first comprehensive study on context utilization and position bias in summarization. Our analysis encompasses 6 LLMs, 10 datasets, and 5 evaluation metrics. We introduce a new evaluation benchmark called MiddleSum on the which we benchmark two alternative inference methods to alleviate position bias: hierarchical summarization and incremental summarization. Our code and data can be found here: https://github.com/ntunlp/MiddleSum.",
+  "keywords": [
+    "code",
+    "bias",
+    "summarization mapping facts",
+    "question",
+    "fluent and pertinent summaries",
+    "summarization",
+    "we",
+    "a new evaluation benchmark",
+    "salient content",
+    "answer",
+    "5 evaluation metrics",
+    "analysis",
+    "llms",
+    "incremental summarization",
+    "metrics"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.153/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

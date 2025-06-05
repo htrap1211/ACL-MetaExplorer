@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.159",
+  "title": "BREAK}: Breaking the Dialogue State Tracking Barrier with Beam Search and Re-ranking",
+  "authors": [
+    "Won, Seungpil  and\nKwak, Heeyoung  and\nShin, Joongbo  and\nHan, Janghoon  and\nJung, Kyomin"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Despite the recent advances in dialogue state tracking (DST), the joint goal accuracy (JGA) of the existing methods on MultiWOZ 2.1 still remains merely 60%. In our preliminary error analysis, we find that beam search produces a pool of candidates that is likely to include the correct dialogue state. Motivated by this observation, we introduce a novel framework, called BREAK (Beam search and RE-rAnKing), that achieves outstanding performance on DST. BREAK performs DST in two stages: (i) generating k-best dialogue state candidates with beam search and (ii) re-ranking the candidates to select the correct dialogue state. This simple yet powerful framework shows state-of-the-art performance on all versions of MultiWOZ and M2M datasets. Most notably, we push the joint goal accuracy to 80-90% on MultiWOZ 2.1-2.4, which is an improvement of 23.6%, 26.3%, 21.7%, and 10.8% over the previous best-performing models, respectively. The data and code will be available athttps://github.com/tony-won/DST-BREAK",
+  "keywords": [
+    "k-best dialogue state candidates",
+    "code",
+    "i",
+    "the correct dialogue state",
+    "dialogue state tracking",
+    "the joint goal accuracy",
+    "we",
+    "dialogue",
+    "analysis",
+    "barrier",
+    "accuracy",
+    "that",
+    "all versions",
+    "candidates",
+    "the candidates"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.159/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

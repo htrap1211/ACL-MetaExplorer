@@ -1,0 +1,33 @@
+{
+  "id": "2024.sdp-1.4",
+  "title": "Controllable Citation Sentence Generation with Language Models",
+  "authors": [
+    "Gu, Nianlong  and\nHahnloser, Richard"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024)",
+  "abstract": "Citation generation aims to generate a citation sentence that refers to a chosen paper in the context of a manuscript. However, a rigid citation generation process is at odds with an author’s desire to control specific attributes, such as 1) the citation intent, e.g., either introducing background information or comparing results, and 2) keywords that should appear in the citation text. To provide these degrees of controllability during citation generation, we propose to integrate the manuscript context, the context of the referenced paper, and the desired control attributes into a structured template and use it to fine-tune a language model (LM) via next-token prediction. We then utilize Proximal Policy Optimization to directly optimize the LM in favor of a high score of our proposed controllability metric. The proposed workflow harmoniously combines citation attribute suggestion and conditional citation generation into one LM, allowing for better user control.",
+  "keywords": [
+    "fine-tune a language model",
+    "process",
+    "proximal policy optimization",
+    "generation",
+    "language",
+    "background",
+    "model",
+    "metric",
+    "text",
+    "it",
+    "token",
+    "language models",
+    "information",
+    "conditional citation generation",
+    "fine"
+  ],
+  "url": "https://aclanthology.org/2024.sdp-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

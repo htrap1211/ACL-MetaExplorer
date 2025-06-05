@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.48",
+  "title": "Token-wise Influential Training Data Retrieval for Large Language Models",
+  "authors": [
+    "Lin, Huawei  and\nLong, Jikai  and\nXu, Zhaozhuo  and\nZhao, Weijie"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Given a Large Language Model (LLM) generation, how can we identify which training data led to this generation? In this paper, we proposed RapidIn, a scalable framework adapting to LLMs for estimating the influence of each training data. The proposed framework consists of two stages: caching and retrieval. First, we compress the gradient vectors by over 200,000x, allowing them to be cached on disk or in GPU/CPU memory. Then, given a generation, RapidIn efficiently traverses the cached gradients to estimate the influence within minutes, achieving over a 6,326x speedup. Moreover, RapidIn supports multi-GPU parallelization to substantially accelerate caching and retrieval. Our empirical result confirms the efficiency and effectiveness of RapidIn.",
+  "keywords": [
+    "language",
+    "generation",
+    "model",
+    "gradients",
+    "vectors",
+    "large language models",
+    "token",
+    "the efficiency",
+    "retrieval",
+    "gradient",
+    "this generation",
+    "a large language model",
+    "efficiency",
+    "a generation",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.48/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:34:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

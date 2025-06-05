@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.25",
+  "title": "MR}-{P}: A Parallel Decoding Algorithm for Iterative Refinement Non-Autoregressive Translation",
+  "authors": [
+    "Cheng, Hao  and\nZhang, Zhihua"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Non-autoregressive translation (NAT) predicts all the target tokens in parallel and significantly speeds up the inference process. The Conditional Masked Language Model (CMLM) is a strong baseline of NAT. It decodes with the Mask-Predict algorithm which iteratively refines the output. Most works about CMLM focus on the model structure and the training objective. However, the decoding algorithm is equally important. We propose a simple, effective, and easy-to-implement decoding algorithm that we call MaskRepeat-Predict (MR-P). The MR-P algorithm gives higher priority to consecutive repeated tokens when selecting tokens to mask for the next iteration and stops the iteration after target tokens converge. We conduct extensive experiments on six translation directions with varying data sizes. The results show that MR-P significantly improves the performance with the same model parameters. Specifically, we achieve a BLEU increase of 1.39 points in the WMT’14 En-De translation task.",
+  "keywords": [
+    "a bleu increase",
+    "bleu",
+    "the training objective",
+    "we",
+    "training",
+    "translation",
+    "it",
+    "six translation directions",
+    "nat",
+    "objective",
+    "-",
+    "iterative refinement non-autoregressive translation",
+    "p",
+    "process",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.25/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

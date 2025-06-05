@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.299",
+  "title": "TAN}-{NTM}: {T}opic Attention Networks for Neural Topic Modeling",
+  "authors": [
+    "Panwar, Madhur  and\nShailabh, Shashank  and\nAggarwal, Milan  and\nKrishnamurthy, Balaji"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Topic models have been widely used to learn text representations and gain insight into document corpora. To perform topic discovery, most existing neural models either take document bag-of-words (BoW) or sequence of tokens as input followed by variational inference and BoW reconstruction to learn topic-word distribution. However, leveraging topic-word distribution for learning better features during document encoding has not been explored much. To this end, we develop a framework TAN-NTM, which processes document as a sequence of tokens through a LSTM whose contextual outputs are attended in a topic-aware manner. We propose a novel attention mechanism which factors in topic-word distribution to enable the model to attend on relevant words that convey topic related cues. The output of topic attention module is then used to carry out variational inference. We perform extensive ablations and experiments resulting in ~9-15 percentage improvement over score of existing SOTA topic models in NPMI coherence on several benchmark datasets - 20Newsgroups, Yelp Review Polarity and AGNews. Further, we show that our method learns better latent document-topic features compared to existing topic models through improvement on two downstream tasks: document classification and topic guided keyphrase generation.",
+  "keywords": [
+    "end",
+    "we",
+    "lstm",
+    "classification",
+    "bag",
+    "neural",
+    "a topic-aware manner",
+    "a lstm",
+    "latent",
+    "word",
+    "sequence",
+    "manner",
+    "opic",
+    "text",
+    "topic"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.299/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.bionlp-1.12",
+  "title": "Entity-Enriched Neural Models for Clinical Question Answering",
+  "authors": [
+    "Rawat, Bhanu Pratap Singh  and\nWeng, Wei-Hung  and\nMin, So Yeon  and\nRaghavan, Preethi  and\nSzolovits, Peter"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 19th SIGBioMed Workshop on Biomedical Language Processing",
+  "abstract": "We explore state-of-the-art neural models for question answering on electronic medical records and improve their ability to generalize better on previously unseen (paraphrased) questions at test time. We enable this by learning to predict logical forms as an auxiliary task along with the main task of answer span detection. The predicted logical forms also serve as a rationale for the answer. Further, we also incorporate medical entity information in these models via the ERNIE architecture. We train our models on the large-scale emrQA dataset and observe that our multi-task entity-enriched models generalize to paraphrased questions ~5% better than the baseline BERT model.",
+  "keywords": [
+    "the baseline bert model",
+    "answer",
+    "neural",
+    "bert",
+    "model",
+    "question",
+    "information",
+    "the ernie architecture",
+    "the large-scale emrqa dataset",
+    "ernie",
+    "we",
+    "entity",
+    "time",
+    "emrqa",
+    "medical"
+  ],
+  "url": "https://aclanthology.org/2020.bionlp-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:54:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

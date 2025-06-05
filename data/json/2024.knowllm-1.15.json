@@ -1,0 +1,33 @@
+{
+  "id": "2024.knowllm-1.15",
+  "title": "Retrieval-augmented generation in multilingual settings",
+  "authors": [
+    "Chirkova, Nadezhda  and\nRau, David  and\nD{\\'e}jean, Herv{\\'e}  and\nFormal, Thibault  and\nClinchant, St{\\'e}phane  and\nNikoulina, Vassilina"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Towards Knowledgeable Language Models (KnowLLM 2024)",
+  "abstract": "Retrieval-augmented generation (RAG) has recently emerged as a promising solution for incorporating up-to-date or domain-specific knowledge into large language models (LLMs) and improving LLM factuality, but is predominantly studied in English-only settings. In this work, we consider RAG in the multilingual setting (mRAG), i.e. with user queries and the datastore in 13 languages, and investigate which components and with which adjustments are needed to build a well-performing mRAG pipeline, that can be used as a strong baseline in future works. Our findings highlight that despite the availability of high-quality off-the-shelf multilingual retrievers and generators, task-specific prompt engineering is needed to enable generation in user languages. Moreover, current evaluation metrics need adjustments for multilingual setting, to account for variations in spelling named entities. The main limitations to be addressed in future works include frequent code-switching in non-Latin alphabet languages, occasional fluency errors, wrong reading of the provided documents, or irrelevant retrieval. We release the code for the resulting mRAG baseline pipeline at https://github.com/naver/bergen, Documentation: https://github.com/naver/bergen/blob/main/documentations/multilingual.md.",
+  "keywords": [
+    "code",
+    "retrieval-augmented generation",
+    "we",
+    "generators",
+    "current",
+    "llm",
+    "queries",
+    "retrieval",
+    "retrieval-augmented generation rag",
+    "prompt",
+    "irrelevant retrieval",
+    "metrics",
+    "retrievers",
+    "user queries",
+    "task-specific prompt engineering"
+  ],
+  "url": "https://aclanthology.org/2024.knowllm-1.15/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:07:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

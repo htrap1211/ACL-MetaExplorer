@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.140",
+  "title": "Towards Open Environment Intent Prediction",
+  "authors": [
+    "Zhou, Yunhua  and\nHong, Jiawei  and\nQiu, Xipeng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Out-of-Domain (OOD) Intent Classification and New Intent Discovering are two basic and critical tasks in the Task-Oriented Dialogue System, which are typically treated two independent tasks. Classification focuses on identifying intents beyond the predefined set of the dialog system, but it will not further differentiate detected OOD intents in fine granularity. Discovering focuses on how to cluster unlabeled samples according to their semantic representation, which relies heavily on prior knowledge and can not provide label information for the formed clusters. To be closer to the real user-facing scenarios, we introduce a task paradigm to extend Classification with Discovering referred as Open Environment Intent Prediction, which is to make a further fine-grained discovery of OOD based on OOD Intent Classification. Using various widely-used generative models as an archetype, we propose a general scheme for Open Environment Intent Prediction. In a nutshell, we first perform intent detection to identify the In-domain (IND) samples and then generate labels for those identified as OOD. With these generated labels, we can discover new general intents and provide label information for them. We develop a suite of benchmarks on the existing intent datasets and present a simple yet effective implementation. Extensive experiments demonstrate that our method establishes substantial improvement compared to the baselines.",
+  "keywords": [
+    "the task-oriented dialogue system",
+    "semantic",
+    "we",
+    "dialogue",
+    "classification",
+    "their semantic representation",
+    "new general intents",
+    "it",
+    "a general scheme",
+    "information",
+    "generative",
+    "various widely-used generative models",
+    "fine",
+    "these generated labels",
+    "ood intent classification"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.140/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

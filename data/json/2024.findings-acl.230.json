@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.230",
+  "title": "Just Ask One More Time! Self-Agreement Improves Reasoning of Language Models in (Almost) All Scenarios",
+  "authors": [
+    "Lin, Lei  and\nFu, Jiayi  and\nLiu, Pengli  and\nLi, Qingyang  and\nGong, Yan  and\nWan, Junchen  and\nZhang, Fuzheng  and\nWang, Zhongyuan  and\nZhang, Di  and\nGai, Kun"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Although chain-of-thought (CoT) prompting combined with language models has achieved encouraging results on complex reasoning tasks, the naive greedy decoding used in CoT prompting usually causes the repetitiveness and local optimality. To address this shortcoming, ensemble-optimization tries to obtain multiple reasoning paths to get the final answer assembly. However, current ensemble-optimization methods either simply employ rule-based post-processing such as self-consistency, or train an additional model based on several task-related human annotations to select the best one among multiple reasoning paths, yet fail to generalize to realistic settings where the type of input questions is unknown or the answer format of reasoning paths is unknown. To avoid their limitations, we propose Self-Agreement, a generalizable ensemble-optimization method applying in almost all scenarios where the type of input questions and the answer format of reasoning paths may be known or unknown. Self-agreement firstly samples from language model’s decoder to generate a diverse set of reasoning paths, and subsequently prompts the language model one more time to determine the optimal answer by selecting the most agreed answer among the sampled reasoning paths. Self-agreement simultaneously achieves remarkable performance on six public reasoning benchmarks and superior generalization capabilities.",
+  "keywords": [
+    "chain",
+    "generalizable",
+    "we",
+    "current",
+    "ensemble",
+    "answer",
+    "cot",
+    "self",
+    "decoder",
+    "superior generalization capabilities",
+    "format",
+    "the language model",
+    "a generalizable ensemble-optimization method",
+    "processing",
+    "language models"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.230/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

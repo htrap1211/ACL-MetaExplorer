@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.336",
+  "title": "XMC}-Agent : Dynamic Navigation over Scalable Hierarchical Index for Incremental Extreme Multi-label Classification",
+  "authors": [
+    "Liu, Yanjiang  and\nZhong, Tianyun  and\nLu, Yaojie  and\nLin, Hongyu  and\nHe, Ben  and\nZhou, Shuheng  and\nZhu, Huijia  and\nWang, Weiqiang  and\nLiu, Zhongyi  and\nHan, Xianpei  and\nSun, Le"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "The eXtreme Multi-label Classification (XMC) aims at accurately assigning large-scale labels to instances, and is challenging for learning, managing, and predicting over the large-scale and rapidly growing set of labels. Traditional XMC methods, like one-vs-all and tree-based methods struggle with the growing set of labels due to their static label assumptions, and embedding-based methods struggle with the complex mapping relationships due to their late-interaction paradigm. In this paper, we propose a large language model (LLM) powered agent framework for extreme multi-label classification – XMC-Agent, which can effectively learn, manage and predict the extremely large and dynamically increasing set of labels. Specifically, XMC-Agent models the extreme multi-label classification task as a dynamic navigation problem, employing a scalable hierarchical label index to effectively manage the unified label space. Additionally, we propose two algorithms to enhance the dynamic navigation capabilities of XMC-Agent: a self-construction algorithm for building the scalable hierarchical index, and an iterative feedback learning algorithm for adjusting the agent to specific tasks. Experiments show that XMC-Agentachieves the state-of-the-art performance on three standard datasets.",
+  "keywords": [
+    "feedback",
+    "the unified label space",
+    "we",
+    "llm",
+    "the extreme multi-label classification",
+    "classification",
+    "self",
+    "unified",
+    "incremental extreme multi-label classification",
+    "embedding-based methods",
+    "scalable hierarchical index",
+    "llm powered agent framework",
+    "a large language model",
+    "the scalable hierarchical index",
+    "late"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.336/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:53:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.655",
+  "title": "Enhancing Event Causality Identification with Event Causal Label and Event Pair Interaction Graph",
+  "authors": [
+    "Pu, Ruili  and\nLi, Yang  and\nWang, Suge  and\nLi, Deyu  and\nZheng, Jianxing  and\nLiao, Jian"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Most existing event causality identification (ECI) methods rarely consider the event causal label information and the interaction information between event pairs. In this paper, we propose a framework to enrich the representation of event pairs by introducing the event causal label information and the event pair interaction information. In particular, 1) we design an event-causal-label-aware module to model the event causal label information, in which we design the event causal label prediction task as an auxiliary task of ECI, aiming to predict which events are involved in the causal relationship (we call them causality-related events) by mining the dependencies between events. 2) We further design an event pair interaction graph module to model the interaction information between event pairs, in which we construct the interaction graph with event pairs as nodes and leverage graph attention mechanism to model the degree of dependency between event pairs. The experimental results show that our approach outperforms previous state-of-the-art methods on two benchmark datasets EventStoryLine and Causal-TimeBank.",
+  "keywords": [
+    "eci",
+    "dependencies",
+    "information",
+    "dependency",
+    "the dependencies",
+    "attention",
+    "we",
+    "graph",
+    "leverage graph attention mechanism",
+    "identification",
+    "approach",
+    "the interaction information",
+    "state",
+    "the-art",
+    "two benchmark datasets eventstoryline"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.655/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

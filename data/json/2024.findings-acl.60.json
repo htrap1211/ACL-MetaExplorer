@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.60",
+  "title": "Finding and Editing Multi-Modal Neurons in Pre-Trained Transformers",
+  "authors": [
+    "Pan, Haowen  and\nCao, Yixin  and\nWang, Xiaozhi  and\nYang, Xun  and\nWang, Meng"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Understanding the internal mechanisms by which multi-modal large language models (LLMs) interpret different modalities and integrate cross-modal representations is becoming increasingly critical for continuous improvements in both academia and industry. In this paper, we propose a novel method to identify key neurons for interpretability — how multi-modal LLMs bridge visual and textual concepts for captioning. Our method improves conventional works upon efficiency and applied range by removing needs of costly gradient computation. Based on those identified neurons, we further design a multi-modal knowledge editing method, beneficial to mitigate sensitive words or hallucination. For rationale of our design, we provide theoretical assumption. For empirical evaluation, we have conducted extensive quantitative and qualitative experiments. The results not only validate the effectiveness of our methods, but also offer insightful findings that highlight three key properties of multi-modal neurons: sensitivity, specificity and causal-effect, to shed light for future research.",
+  "keywords": [
+    "transformers",
+    "three key properties",
+    "those identified neurons",
+    "efficiency",
+    "we",
+    "costly gradient computation",
+    "cross",
+    "empirical evaluation",
+    "properties",
+    "visual",
+    "different modalities",
+    "llms",
+    "knowledge",
+    "language",
+    "modalities"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.60/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:49:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

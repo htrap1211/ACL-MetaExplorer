@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.171",
+  "title": "Detoxifying Large Language Models via Knowledge Editing",
+  "authors": [
+    "Wang, Mengru  and\nZhang, Ningyu  and\nXu, Ziwen  and\nXi, Zekun  and\nDeng, Shumin  and\nYao, Yunzhi  and\nZhang, Qishen  and\nYang, Linyi  and\nWang, Jindong  and\nChen, Huajun"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "This paper investigates using knowledge editing techniques to detoxify Large Language Models (LLMs). We construct a benchmark, SafeEdit, which covers nine unsafe categories with various powerful attack prompts and equips comprehensive metrics for systematic evaluation. We conduct experiments with several knowledge editing approaches, indicating that knowledge editing has the potential to efficiently detoxify LLMs with limited impact on general performance. Then, we propose a simple yet effective baseline, dubbed Detoxifying with Intraoperative Neural Monitoring (DINM), to diminish the toxicity of LLMs within a few tuning steps via only one instance. We further provide an in-depth analysis of the internal mechanism for various detoxifying approaches, demonstrating that previous methods like SFT and DPO may merely suppress the activations of toxic parameters, while DINM mitigates the toxicity of the toxic parameters to a certain extent, making permanent adjustments. We hope that these insights could shed light on future work of developing detoxifying approaches and the underlying knowledge mechanisms of LLMs.",
+  "keywords": [
+    "we",
+    "activations",
+    "neural",
+    "comprehensive metrics",
+    "various powerful attack prompts",
+    "analysis",
+    "llms",
+    "tuning",
+    "the activations",
+    "nine unsafe categories",
+    "categories",
+    "metrics",
+    "large language models llms",
+    "work",
+    "prompts"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.171/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

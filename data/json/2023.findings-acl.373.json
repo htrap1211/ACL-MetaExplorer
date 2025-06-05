@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.373",
+  "title": "C}o{M}ave: Contrastive Pre-training with Multi-scale Masking for Attribute Value Extraction",
+  "authors": [
+    "Guo, Xinnan  and\nDeng, Wentao  and\nChen, Yongrui  and\nLi, Yang  and\nZhou, Mengdi  and\nQi, Guilin  and\nWu, Tianxing  and\nYang, Dong  and\nWang, Liubin  and\nPan, Yong"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Attribute Value Extraction (AVE) aims to automatically obtain attribute value pairs from product descriptions to aid e-commerce. Despite the progressive performance of existing approaches in e-commerce platforms, they still suffer from two challenges: 1) difficulty in identifying values at different scales simultaneously; 2) easy confusion by some highly similar fine-grained attributes. This paper proposes a pre-training technique for AVE to address these issues. In particular, we first improve the conventional token-level masking strategy, guiding the language model to understand multi-scale values by recovering spans at the phrase and sentence level. Second, we apply clustering to build a challenging negative set for each example and design a pre-training objective based on contrastive learning to force the model to discriminate similar attributes. Comprehensive experiments show that our solution provides a significant improvement over traditional pre-trained models in the AVE task, and achieves state-of-the-art on four benchmarks.",
+  "keywords": [
+    "extraction",
+    "a pre-training objective",
+    "we",
+    "confusion",
+    "training",
+    "a pre-training technique",
+    "token",
+    "e",
+    "learning",
+    "the language model",
+    "objective",
+    "-",
+    "language",
+    "model",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.373/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

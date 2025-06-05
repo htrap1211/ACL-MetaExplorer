@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.160",
+  "title": "MELM}: Data Augmentation with Masked Entity Language Modeling for Low-Resource {NER",
+  "authors": [
+    "Zhou, Ran  and\nLi, Xin  and\nHe, Ruidan  and\nBing, Lidong  and\nCambria, Erik  and\nSi, Luo  and\nMiao, Chunyan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Data augmentation is an effective solution to data scarcity in low-resource scenarios. However, when applied to token-level tasks such as NER, data augmentation methods often suffer from token-label misalignment, which leads to unsatsifactory performance. In this work, we propose Masked Entity Language Modeling (MELM) as a novel data augmentation framework for low-resource NER. To alleviate the token-label misalignment issue, we explicitly inject NER labels into sentence context, and thus the fine-tuned MELM is able to predict masked entity tokens by explicitly conditioning on their labels. Thereby, MELM generates high-quality augmented data with novel entities, which provides rich entity regularity knowledge and boosts NER performance. When training data from multiple languages are available, we also integrate MELM with code-mixing for further improvement. We demonstrate the effectiveness of MELM on monolingual, cross-lingual and multilingual NER across various low-resource levels. Experimental results show that our MELM consistently outperforms the baseline methods.",
+  "keywords": [
+    "code",
+    "ner labels",
+    "we",
+    "training",
+    "masked entity language modeling",
+    "misalignment",
+    "cross",
+    "token",
+    "ner data augmentation methods",
+    "low-resource ner data augmentation",
+    "rich",
+    "the token-label misalignment issue",
+    "ner",
+    "novel entities",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.160/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

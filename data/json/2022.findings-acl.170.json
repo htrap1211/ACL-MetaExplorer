@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.170",
+  "title": "Hierarchical Recurrent Aggregative Generation for Few-Shot {NLG",
+  "authors": [
+    "Zhou, Giulio  and\nLampouras, Gerasimos  and\nIacobacci, Ignacio"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Large pretrained models enable transfer learning to low-resource domains for language generation tasks. However, previous end-to-end approaches do not account for the fact that some generation sub-tasks, specifically aggregation and lexicalisation, can benefit from transfer learning in different extents. To exploit these varying potentials for transfer learning, we propose a new hierarchical approach for few-shot and zero-shot generation. Our approach consists of a three-moduled jointly trained architecture: the first module independently lexicalises the distinct units of information in the input as sentence sub-units (e.g. phrases), the second module recurrently aggregates these sub-units to generate a unified intermediate output, while the third module subsequently post-edits it to generate a coherent and fluent final text. We perform extensive empirical analysis and ablation studies on few-shot and zero-shot settings across 4 datasets. Automatic and human evaluation shows that the proposed hierarchical approach is consistently capable of achieving state-of-the-art results when compared to previous work.",
+  "keywords": [
+    "end",
+    "ablation studies",
+    "language generation tasks",
+    "the proposed hierarchical approach",
+    "we",
+    "few-shot and zero-shot generation",
+    "shot",
+    "automatic and human evaluation",
+    "it",
+    "some generation",
+    "unified",
+    "information",
+    "hierarchical recurrent aggregative generation",
+    "learning",
+    "transfer"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.170/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

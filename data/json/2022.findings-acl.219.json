@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.219",
+  "title": "Mitigating Contradictions in Dialogue Based on Contrastive Learning",
+  "authors": [
+    "Li, Weizhao  and\nKong, Junsheng  and\nLiao, Ben  and\nCai, Yi"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Chatbot models have achieved remarkable progress in recent years but tend to yield contradictory responses. In this paper, we exploit the advantage of contrastive learning technique to mitigate this issue. To endow the model with the ability of discriminating contradictory patterns, we minimize the similarity between the target response and contradiction related negative example. The negative example is generated with learnable latent noise, which receives contradiction related feedback from the pretrained critic. Experimental results show that our method helps to avoid contradictions in response generation while preserving response fluency, outperforming existing methods on both automatic and human evaluation.",
+  "keywords": [
+    "chatbot",
+    "generation",
+    "feedback",
+    "model",
+    "human",
+    "latent",
+    "we",
+    "learning",
+    "dialogue",
+    "evaluation",
+    "response generation",
+    "contrastive learning chatbot models",
+    "this issue",
+    "the advantage",
+    "contradiction"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.219/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

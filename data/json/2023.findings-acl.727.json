@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.727",
+  "title": "Generating Labeled Data for Relation Extraction: A Meta Learning Approach with Joint {GPT}-2 Training",
+  "authors": [
+    "Pouran Ben Veyseh, Amir  and\nDernoncourt, Franck  and\nMin, Bonan  and\nNguyen, Thien"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Relation Extraction (RE) is the task of identifying semantic relation between real-world entities mentioned in text. Despite significant progress in RE research, a remaining challenge for RE concerns the lack of training data for data-hungry deep learning models. Cost of annotation and difficulty of the task are among hindrance to collect a large-scale RE dataset in different domains. To address this limitation, we propose a novel framework to automatically generate labeled data for RE. Our framework presents the pre-trained language model GPT-2 for data generation. In addition, to optimize the generated samples for an RE model, we introduce a meta learning approach to allow the GPT-2 model to be updated during the training process for RE. In particular, to leverage the feedback from the RE model to improve the data generation from GPT-2, we propose a novel reward function to update the GPT-2 model with REINFORCE, seeking to promote the similarity of the RE loss function’s gradients computed for generated data and a meta development set. We conduct extensive experiments on two benchmark datasets to produce state-of-the-art performance for RE.",
+  "keywords": [
+    "deep",
+    "the pre-trained language model",
+    "extraction",
+    "feedback",
+    "semantic",
+    "we",
+    "generated data",
+    "training",
+    "data generation",
+    "reinforce",
+    "loss",
+    "learning",
+    "gpt-2",
+    "text",
+    "the gpt-2 model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.727/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

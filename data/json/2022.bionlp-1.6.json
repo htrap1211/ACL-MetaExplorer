@@ -1,0 +1,33 @@
+{
+  "id": "2022.bionlp-1.6",
+  "title": "Data Augmentation for Biomedical Factoid Question Answering",
+  "authors": [
+    "Pappas, Dimitris  and\nMalakasiotis, Prodromos  and\nAndroutsopoulos, Ion"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 21st Workshop on Biomedical Language Processing",
+  "abstract": "We study the effect of seven data augmentation (DA) methods in factoid question answering, focusing on the biomedical domain, where obtaining training instances is particularly difficult. We experiment with data from the BIOASQ challenge, which we augment with training instances obtained from an artificial biomedical machine reading comprehension dataset, or via back-translation, information retrieval, word substitution based on WORD2VEC embeddings, or masked language modeling, question generation, or extending the given passage with additional context. We show that DA can lead to very significant performance gains, even when using large pre-trained Transformers, contributing to a broader discussion of if/when DA benefits large pre-trained models. One of the simplest DA methods, WORD2VEC-based word substitution, performed best and is recommended. We release our artificial training instances and code.",
+  "keywords": [
+    "embeddings",
+    "code",
+    "transformers",
+    "language",
+    "generation",
+    "machine",
+    "large pre-trained transformers",
+    "modeling",
+    "retrieval",
+    "question",
+    "information",
+    "word2vec embeddings",
+    "word",
+    "we",
+    "language modeling question generation"
+  ],
+  "url": "https://aclanthology.org/2022.bionlp-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

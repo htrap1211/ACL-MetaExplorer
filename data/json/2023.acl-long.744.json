@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.744",
+  "title": "CTC}-based Non-autoregressive Speech Translation",
+  "authors": [
+    "Xu, Chen  and\nLiu, Xiaoqian  and\nLiu, Xiaowen  and\nSun, Qingxuan  and\nZhang, Yuhao  and\nYang, Murun  and\nDong, Qianqian  and\nKo, Tom  and\nWang, Mingxuan  and\nXiao, Tong  and\nMa, Anxiang  and\nZhu, Jingbo"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Combining end-to-end speech translation (ST) and non-autoregressive (NAR) generation is promising in language and speech processing for their advantages of less error propagation and low latency. In this paper, we investigate the potential of connectionist temporal classification (CTC) for non-autoregressive speech translation (NAST).In particular, we develop a model consisting of two encoders that are guided by CTC to predict the source and target texts, respectively. Introducing CTC into NAST on both language sides has obvious challenges: 1) the conditional independent generation somewhat breaks the interdependency among tokens, and 2) the monotonic alignment assumption in standard CTC does not hold in translation tasks. In response, we develop a prediction-aware encoding approach and a cross-layer attention approach to address these issues. We also use curriculum learning to improve convergence of training. Experiments on the MuST-C ST benchmarks show that our NAST model achieves an average BLEU score of 29.5 with a speed-up of 5.67×, which is comparable to the autoregressive counterpart and even outperforms the previous best result of 0.9 BLEU points.",
+  "keywords": [
+    "end",
+    "9 bleu",
+    "a cross-layer attention approach",
+    "bleu",
+    "non-autoregressive speech translation nast",
+    "interdependency",
+    "layer",
+    "the interdependency",
+    "we",
+    "two encoders",
+    "training",
+    "translation",
+    "classification",
+    "cross",
+    "translation tasks"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.744/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:45:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

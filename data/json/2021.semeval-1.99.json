@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.99",
+  "title": "LU}-{BZU} at {S}em{E}val-2021 Task 2: {W}ord2{V}ec and {L}emma2{V}ec performance in {A}rabic Word-in-Context disambiguation",
+  "authors": [
+    "Al-Hajj, Moustafa  and\nJarrar, Mustafa"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper presents a set of experiments to evaluate and compare between the performance of using CBOW Word2Vec and Lemma2Vec models for Arabic Word-in-Context (WiC) disambiguation without using sense inventories or sense embeddings. As part of the SemEval-2021 Shared Task 2 on WiC disambiguation, we used the dev.ar-ar dataset (2k sentence pairs) to decide whether two words in a given sentence pair carry the same meaning. We used two Word2Vec models: Wiki-CBOW, a pre-trained model on Arabic Wikipedia, and another model we trained on large Arabic corpora of about 3 billion tokens. Two Lemma2Vec models was also constructed based on the two Word2Vec models. Each of the four models was then used in the WiC disambiguation task, and then evaluated on the SemEval-2021 test.ar-ar dataset. At the end, we reported the performance of different models and compared between using lemma-based and word-based models.",
+  "keywords": [
+    "embeddings",
+    "inventories",
+    "cbow word2vec",
+    "end",
+    "model",
+    "the two word2vec models",
+    "e",
+    "word",
+    "we",
+    "pre",
+    "word2vec",
+    "sense inventories",
+    "ar",
+    "lemma",
+    "disambiguation"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.99/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.275",
+  "title": "The Butterfly Effect of Altering Prompts: How Small Changes and Jailbreaks Affect Large Language Model Performance",
+  "authors": [
+    "Salinas, Abel  and\nMorstatter, Fred"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large Language Models (LLMs) are regularly being used to label data across many domains and for myriad tasks. By simply asking the LLM for an answer, or “prompting,” practitioners are able to use LLMs to quickly get a response for an arbitrary task. This prompting is done through a series of decisions by the practitioner, from simple wording of the prompt, to requesting the output in a certain data format, to jailbreaking in the case of prompts that address more sensitive topics. In this work, we ask: do variations in the way a prompt is constructed change the ultimate decision of the LLM? We answer this using a series of prompt variations across a variety of text classification tasks. We find that even the smallest of perturbations, such as adding a space at the end of a prompt, can cause the LLM to change its answer. Further, we find that requesting responses in XML and commonly used jailbreaks can have cataclysmic effects on the data labeled by LLMs.",
+  "keywords": [
+    "variety",
+    "end",
+    "series",
+    "prompt variations",
+    "we",
+    "text classification tasks",
+    "llm",
+    "classification",
+    "answer",
+    "the practitioner",
+    "format",
+    "a variety",
+    "llms",
+    "prompt",
+    "a prompt"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.275/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

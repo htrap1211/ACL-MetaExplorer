@@ -1,0 +1,33 @@
+{
+  "id": "P19-2052",
+  "title": "De-Mixing Sentiment from Code-Mixed Text",
+  "authors": [
+    "Lal, Yash Kumar  and\nKumar, Vaibhav  and\nDhar, Mrinal  and\nShrivastava, Manish  and\nKoehn, Philipp"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "Code-mixing is the phenomenon of mixing the vocabulary and syntax of multiple languages in the same sentence. It is an increasingly common occurrence in today’s multilingual society and poses a big challenge when encountered in different downstream tasks. In this paper, we present a hybrid architecture for the task of Sentiment Analysis of English-Hindi code-mixed data. Our method consists of three components, each seeking to alleviate different issues. We first generate subword level representations for the sentences using a CNN architecture. The generated representations are used as inputs to a Dual Encoder Network which consists of two different BiLSTMs - the Collective and Specific Encoder. The Collective Encoder captures the overall sentiment of the sentence, while the Specific Encoder utilizes an attention mechanism in order to focus on individual sentiment-bearing sub-words. This, combined with a Feature Network consisting of orthographic features and specially trained word embeddings, achieves state-of-the-art results - 83.54% accuracy and 0.827 F1 score - on a benchmark dataset.",
+  "keywords": [
+    "code",
+    "we",
+    "an attention mechanism",
+    "syntax",
+    "today s multilingual society",
+    "cnn",
+    "it",
+    "0 827 f1 score",
+    "the generated representations",
+    "word",
+    "two different bilstms",
+    "a cnn architecture",
+    "the specific encoder",
+    "analysis",
+    "text"
+  ],
+  "url": "https://aclanthology.org/P19-2052/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:49:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

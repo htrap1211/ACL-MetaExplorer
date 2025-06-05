@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.592",
+  "title": "Sentence Ordering with a Coherence Verifier",
+  "authors": [
+    "Jia, Sainan  and\nSong, Wei  and\nGong, Jiefu  and\nWang, Shijin  and\nLiu, Ting"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "This paper presents a novel sentence ordering method by plugging a coherence verifier (CoVer) into pair-wise ranking-based and sequence generation-based methods. It does not change the model parameters of the baseline, and only verifies the coherence of candidate (partial) orders produced by the baseline and reranks them in beam search. We also propose a coherence model as CoVer with a novel graph formulation and a novel data construction strategy for contrastive pre-training independently of the sentence ordering task. Experimental results on four benchmarks demonstrate the effectiveness of our method with topological sorting-based and pointer network-based methods as the baselines. Detailed analyses illustrate how CoVer improves the baselines and confirm the importance of its graph formulation and training strategy. Our code is available athttps://github.com/SN-Jia/SO_with_CoVer.",
+  "keywords": [
+    "code",
+    "generation",
+    "model",
+    "it",
+    "verifier",
+    "a coherence verifier",
+    "network",
+    "we",
+    "sequence",
+    "graph",
+    "pre",
+    "training",
+    "the coherence",
+    "the effectiveness",
+    "coherence"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.592/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

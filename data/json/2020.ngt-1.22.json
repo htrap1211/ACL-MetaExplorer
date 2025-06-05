@@ -1,0 +1,33 @@
+{
+  "id": "2020.ngt-1.22",
+  "title": "The {JHU} Submission to the 2020 {D}uolingo Shared Task on Simultaneous Translation and Paraphrase for Language Education",
+  "authors": [
+    "Khayrallah, Huda  and\nBremerman, Jacob  and\nMcCarthy, Arya D.  and\nMurray, Kenton  and\nWu, Winston  and\nPost, Matt"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the Fourth Workshop on Neural Generation and Translation",
+  "abstract": "This paper presents the Johns Hopkins University submission to the 2020 Duolingo Shared Task on Simultaneous Translation and Paraphrase for Language Education (STAPLE). We participated in all five language tasks, placing first in each. Our approach involved a language-agnostic pipeline of three components: (1) building strong machine translation systems on general-domain data, (2) fine-tuning on Duolingo-provided data, and (3) generating n-best lists which are then filtered with various score-based techniques. In addi- tion to the language-agnostic pipeline, we attempted a number of linguistically-motivated approaches, with, unfortunately, little success. We also find that improving BLEU performance of the beam-search generated translation does not necessarily improve on the task metric—weighted macro F1 of an n-best list.",
+  "keywords": [
+    "general",
+    "tuning",
+    "generating",
+    "general-domain data",
+    "language",
+    "3 generating n-best lists",
+    "machine",
+    "metric",
+    "simultaneous translation",
+    "bleu",
+    "bleu performance",
+    "fine",
+    "tion",
+    "the beam-search generated translation",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2020.ngt-1.22/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:57:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

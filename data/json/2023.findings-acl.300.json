@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.300",
+  "title": "Sampling Better Negatives for Distantly Supervised Named Entity Recognition",
+  "authors": [
+    "Xu, Lu  and\nBing, Lidong  and\nLu, Wei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Distantly supervised named entity recognition (DS-NER) has been proposed to exploit the automatically labeled training data instead of human annotations. The distantly annotated datasets are often noisy and contain a considerable number of false negatives. The recent approach uses a weighted sampling approach to select a subset of negative samples for training. However, it requires a good classifier to assign weights to the negative samples. In this paper, we propose a simple and straightforward approach for selecting the top negative samples that have high similarities with all the positive samples for training. Our method achieves consistent performance improvements on four distantly supervised NER datasets. Our analysis also shows that it is critical to differentiate the true negatives from the false negatives.",
+  "keywords": [
+    "ner",
+    "similarities",
+    "classifier",
+    "high similarities",
+    "it",
+    "human",
+    "a good classifier",
+    "we",
+    "named entity recognition ds-ner",
+    "entity",
+    "analysis",
+    "training",
+    "that",
+    "recognition",
+    "the false negatives"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.300/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

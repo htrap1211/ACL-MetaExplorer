@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.442",
+  "title": "A}lign{STS}: Speech-to-Singing Conversion via Cross-Modal Alignment",
+  "authors": [
+    "Li, Ruiqi  and\nHuang, Rongjie  and\nZhang, Lichao  and\nLiu, Jinglin  and\nZhao, Zhou"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "The speech-to-singing (STS) voice conversion task aims to generate singing samples corresponding to speech recordings while facing a major challenge: the alignment between the target (singing) pitch contour and the source (speech) content is difficult to learn in a text-free situation. This paper proposes AlignSTS, an STS model based on explicit cross-modal alignment, which views speech variance such as pitch and content as different modalities. Inspired by the mechanism of how humans will sing the lyrics to the melody, AlignSTS: 1) adopts a novel rhythm adaptor to predict the target rhythm representation to bridge the modality gap between content and pitch, where the rhythm representation is computed in a simple yet effective way and is quantized into a discrete space; and 2) uses the predicted rhythm representation to re-align the content based on cross-attention and conducts a cross-modal fusion for re-synthesize. Extensive experiments show that AlignSTS achieves superior performance in terms of both objective and subjective metrics. Audio samples are available athttps://alignsts.github.io.",
+  "keywords": [
+    "fusion",
+    "variance",
+    "cross",
+    "cross-modal alignment",
+    "different modalities",
+    "explicit cross-modal alignment",
+    "text",
+    "objective",
+    "metrics",
+    "-",
+    "subjective metrics",
+    "re",
+    "speech variance",
+    "alignment",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.442/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

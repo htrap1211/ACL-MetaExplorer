@@ -1,0 +1,33 @@
+{
+  "id": "2021.case-1.2",
+  "title": "Keynote Abstract: Events on a Global Scale: Towards Language-Agnostic Event Extraction",
+  "authors": [
+    "Boschee, Elizabeth"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 4th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE 2021)",
+  "abstract": "Event extraction is a challenging and exciting task in the world of machine learning & natural language processing. The breadth of events of possible interest, the speed at which surrounding socio-political event contexts evolve, and the complexities involved in generating representative annotated data all contribute to this challenge. One particular dimension of difficulty is the intrinsically global nature of events: many downstream use cases for event extraction involve reporting not just in a few major languages but in a much broader context. The languages of interest for even a fixed task may still shift from day to day, e.g. when a disease emerges in an unexpected location. Early approaches to multi-lingual event extraction (e.g. ACE) relied wholly on supervised data provided in each language of interest. Later approaches leveraged the success of machine translation to side-step the issue, simply translating foreign-language content to English and deploying English models on the result (often leaving some significant portion of the original content behind). Most recently, however, the community has begun to shown significant progress applying zero-shot transfer techniques to the problem, developing models using supervised English data but decoding in a foreign language without translation, typically using embedding spaces specifically designed to capture multi-lingual semantic content. In this talk I will discuss multiple dimensions of these promising new approaches and the linguistic representations that underlie them. I will compare them with approaches based on machine translation (as well as with models trained using in-language training data, where available), and discuss their strengths and weaknesses in different contexts, including the amount of English/foreign bitext available and the nature of the target event ontology. I will also discuss possible future directions with an eye to improving the quality of event extraction no matter its source around the globe.",
+  "keywords": [
+    "extraction",
+    "machine translation",
+    "semantic",
+    "complexities",
+    "shot",
+    "training",
+    "translation",
+    "natural",
+    "multi-lingual semantic content",
+    "location",
+    "transfer",
+    "natural language",
+    "the target event ontology",
+    "i",
+    "early"
+  ],
+  "url": "https://aclanthology.org/2021.case-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

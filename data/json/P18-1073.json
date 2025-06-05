@@ -1,0 +1,33 @@
+{
+  "id": "P18-1073",
+  "title": "A robust self-learning method for fully unsupervised cross-lingual mappings of word embeddings",
+  "authors": [
+    "Artetxe, Mikel  and\nLabaka, Gorka  and\nAgirre, Eneko"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent work has managed to learn cross-lingual word embeddings without parallel data by mapping monolingual embeddings to a shared space through adversarial training. However, their evaluation has focused on favorable conditions, using comparable corpora or closely-related languages, and we show that they often fail in more realistic scenarios. This work proposes an alternative approach based on a fully unsupervised initialization that explicitly exploits the structural similarity of the embeddings, and a robust self-learning algorithm that iteratively improves this solution. Our method succeeds in all tested scenarios and obtains the best published results in standard datasets, even surpassing previous supervised systems. Our implementation is released as an open source project athttps://github.com/artetxem/vecmap.",
+  "keywords": [
+    "cross",
+    "embeddings",
+    "work",
+    "the embeddings",
+    "their evaluation",
+    "self",
+    "monolingual embeddings",
+    "we",
+    "word",
+    "cross-lingual word embeddings",
+    "evaluation",
+    "word embeddings",
+    "training",
+    "that",
+    "the best published results"
+  ],
+  "url": "https://aclanthology.org/P18-1073/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:10:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

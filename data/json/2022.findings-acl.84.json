@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.84",
+  "title": "When Chosen Wisely, More Data Is What You Need: A Universal Sample-Efficient Strategy For Data Augmentation",
+  "authors": [
+    "Kamalloo, Ehsan  and\nRezagholizadeh, Mehdi  and\nGhodsi, Ali"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Data Augmentation (DA) is known to improve the generalizability of deep neural networks. Most existing DA techniques naively add a certain number of augmented samples without considering the quality and the added computational cost of these samples. To tackle this problem, a common strategy, adopted by several state-of-the-art DA methods, is to adaptively generate or re-weight augmented samples with respect to the task objective during training. However, these adaptive DA methods: (1) are computationally expensive and not sample-efficient, and (2) are designed merely for a specific setting. In this work, we present a universal DA technique, called Glitter, to overcome both issues. Glitter can be plugged into any DA method, making training sample-efficient without sacrificing performance. From a pre-generated pool of augmented samples, Glitter adaptively selects a subset of worst-case samples with maximal loss, analogous to adversarial DA. Without altering the training strategy, the task objective can be optimized on the selected subset. Our thorough experiments on the GLUE benchmark, SQuAD, and HellaSwag in three widely used training setups including consistency training, self-distillation and knowledge distillation reveal that Glitter is substantially faster to train and achieves a competitive performance, compared to strong baselines.",
+  "keywords": [
+    "deep",
+    "a pre-generated pool",
+    "efficient",
+    "deep neural networks",
+    "we",
+    "generalizability",
+    "training",
+    "a universal sample-efficient strategy",
+    "neural",
+    "the generalizability",
+    "self",
+    "loss",
+    "the task objective",
+    "objective",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.84/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

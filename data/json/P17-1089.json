@@ -1,0 +1,33 @@
+{
+  "id": "P17-1089",
+  "title": "Learning a Neural Semantic Parser from User Feedback",
+  "authors": [
+    "Iyer, Srinivasan  and\nKonstas, Ioannis  and\nCheung, Alvin  and\nKrishnamurthy, Jayant  and\nZettlemoyer, Luke"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We present an approach to rapidly and easily build natural language interfaces to databases for new domains, whose performance improves over time based on user feedback, and requires minimal intervention. To achieve this, we adapt neural sequence models to map utterances directly to SQL with its full expressivity, bypassing any intermediate meaning representations. These models are immediately deployed online to solicit feedback from real users to flag incorrect queries. Finally, the popularity of SQL facilitates gathering annotations for incorrect predictions using the crowd, which is directly used to improve our models. This complete feedback loop, without intermediate representations or database specific engineering, opens up new ways of building high quality semantic parsers. Experiments suggest that this approach can be deployed quickly for any new target domain, as we show by learning a semantic parser for an online academic database from scratch.",
+  "keywords": [
+    "feedback",
+    "semantic",
+    "we",
+    "neural",
+    "natural",
+    "a semantic parser",
+    "queries",
+    "sequence",
+    "incorrect queries",
+    "a neural semantic parser",
+    "language",
+    "time",
+    "incorrect predictions",
+    "user feedback",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/P17-1089/",
+  "provenance": {
+    "collected_at": "2025-06-04 23:58:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

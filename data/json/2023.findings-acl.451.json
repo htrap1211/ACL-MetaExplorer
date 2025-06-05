@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.451",
+  "title": "Prompt-Based Metric Learning for Few-Shot {NER",
+  "authors": [
+    "Chen, Yanru  and\nZheng, Yanan  and\nYang, Zhilin"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Few-shot named entity recognition (NER) targets generalizing to unseen labels and/or domains with few labeled examples. Existing metric learning methods compute token-level similarities between query and support sets, but are not able to fully incorporate label semantics into modeling. To address this issue, we propose a simple method to largely improve metric learning for NER: 1) multiple prompt schemas are designed to enhance label semantics; 2) we propose a novel architecture to effectively combine multiple prompt-based representations. Empirically, our method achieves new state-of-the-art (SOTA) results under 16 of the 18 considered settings, substantially outperforming the previous SOTA by an average of 9.12% and a maximum of 34.51% in relative gains of micro F1.",
+  "keywords": [
+    "multiple prompt-based representations",
+    "ner",
+    "similarities",
+    "prompt",
+    "token-level similarities",
+    "support",
+    "metric",
+    "semantics",
+    "token",
+    "modeling",
+    "we",
+    "learning",
+    "micro f1",
+    "entity",
+    "shot"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.451/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

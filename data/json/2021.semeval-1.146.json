@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.146",
+  "title": "FPAI} at {S}em{E}val-2021 Task 6: {BERT}-{MRC} for Propaganda Techniques Detection",
+  "authors": [
+    "Hou, Xiaolong  and\nRen, Junsong  and\nRao, Gang  and\nLian, Lianxin  and\nRuan, Zhihao  and\nMo, Yang  and\nShen, JIanping"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "The objective of subtask 2 of SemEval-2021 Task 6 is to identify techniques used together with the span(s) of text covered by each technique. This paper describes the system and model we developed for the task. We first propose a pipeline system to identify spans, then to classify the technique in the input sequence. But it severely suffers from handling the overlapping in nested span. Then we propose to formulize the task as a question answering task by MRC framework which achieves a better result compared to the pipeline method. Moreover, data augmentation and loss design techniques are also explored to alleviate the problem of data sparse and imbalance. Finally, we attain the 3rd place in the final evaluation phase.",
+  "keywords": [
+    "bert",
+    "model",
+    "text",
+    "it",
+    "objective",
+    "the objective",
+    "bert - mrc",
+    "loss",
+    "question",
+    "e",
+    "the final evaluation phase",
+    "we",
+    "sequence",
+    "evaluation",
+    "a pipeline system"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.146/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

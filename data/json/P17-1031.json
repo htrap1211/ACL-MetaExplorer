@@ -1,0 +1,33 @@
+{
+  "id": "P17-1031",
+  "title": "Learning attention for historical text normalization by learning to pronounce",
+  "authors": [
+    "Bollmann, Marcel  and\nBingel, Joachim  and\nS{\\o}gaard, Anders"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Automated processing of historical texts often relies on pre-normalization to modern word forms. Training encoder-decoder architectures to solve such problems typically requires a lot of training data, which is not available for the named task. We address this problem by using several novel encoder-decoder architectures, including a multi-task learning (MTL) architecture using a grapheme-to-phoneme dictionary as auxiliary data, pushing the state-of-the-art by an absolute 2% increase in performance. We analyze the induced models across 44 different texts from Early New High German. Interestingly, we observe that, as previously conjectured, multi-task learning can learn to focus attention during decoding, in ways remarkably similar to recently proposed attention mechanisms. This, we believe, is an important step toward understanding how MTL works.",
+  "keywords": [
+    "normalization",
+    "processing",
+    "recently proposed attention mechanisms",
+    "early",
+    "text",
+    "-",
+    "encoder",
+    "decoder",
+    "attention",
+    "we",
+    "word",
+    "learning",
+    "pre",
+    "several novel encoder-decoder architectures",
+    "encoder-decoder"
+  ],
+  "url": "https://aclanthology.org/P17-1031/",
+  "provenance": {
+    "collected_at": "2025-06-04 23:57:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

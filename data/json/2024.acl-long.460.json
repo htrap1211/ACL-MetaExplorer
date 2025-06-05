@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.460",
+  "title": "B}v{SP}: Broad-view Soft Prompting for Few-Shot Aspect Sentiment Quad Prediction",
+  "authors": [
+    "Bai, Yinhao  and\nXie, Yalan  and\nLiu, Xiaoyi  and\nZhao, Yuhua  and\nHan, Zhixin  and\nHu, Mengting  and\nGao, Hang  and\nCheng, Renhong"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Aspect sentiment quad prediction (ASQP) aims to predict four aspect-based elements, including aspect term, opinion term, aspect category, and sentiment polarity. In practice, unseen aspects, due to distinct data distribution, impose many challenges for a trained neural model. Motivated by this, this work formulates ASQP into the few-shot scenario, which aims for fast adaptation in real applications. Therefore, we first construct a few-shot ASQP dataset (FSQP) that contains richer categories and is more balanced for the few-shot study. Moreover, recent methods extract quads through a generation paradigm, which involves converting the input sentence into a templated target sequence. However, they primarily focus on the utilization of a single template or the consideration of different template orders, thereby overlooking the correlations among various templates. To tackle this issue, we further propose a Broad-view Soft Prompting (BvSP) method that aggregates multiple templates with a broader view by taking into account the correlation between the different templates. Specifically, BvSP uses the pre-trained language model to select the most relevant k templates with Jensen–Shannon divergence. BvSP further introduces soft prompts to guide the pre-trained language model using the selected templates. Then, we aggregate the results of multi-templates by voting mechanism. Empirical results demonstrate that BvSP significantly outperforms the state-of-the-art methods under four few-shot settings and other public datasets. Our code and dataset are available at https://github.com/byinhao/BvSP.",
+  "keywords": [
+    "code",
+    "the pre-trained language model",
+    "we",
+    "richer categories",
+    "shot",
+    "neural",
+    "four few-shot settings",
+    "the few-shot study",
+    "sequence",
+    "the few-shot scenario",
+    "categories",
+    "a broader view",
+    "-",
+    "soft prompts",
+    "soft"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.460/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:40:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.sigmorphon-1.10",
+  "title": "Improving Automated Prediction of {E}nglish Lexical Blends Through the Use of Observable Linguistic Features",
+  "authors": [
+    "Saunders, Jarem"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th SIGMORPHON workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "The process of lexical blending is difficult to reliably predict. This difficulty has been shown by machine learning approaches in blend modeling, including attempts using then state-of-the-art LSTM deep neural networks trained on character embeddings, which were able to predict lexical blends given the ordered constituent words in less than half of cases, at maximum. This project introduces a novel model architecture which dramatically increases the correct prediction rates for lexical blends, using only Polynomial regression and Random Forest models. This is achieved by generating multiple possible blend candidates for each input word pairing and evaluating them based on observable linguistic features. The success of this model architecture illustrates the potential usefulness of observable linguistic features for problems that elude more advanced models which utilize only features discovered in the latent space.",
+  "keywords": [
+    "deep",
+    "machine learning approaches",
+    "lstm",
+    "neural",
+    "latent",
+    "word",
+    "learning",
+    "character embeddings",
+    "random forest models",
+    "embeddings",
+    "process",
+    "random",
+    "forest",
+    "model",
+    "machine"
+  ],
+  "url": "https://aclanthology.org/2023.sigmorphon-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:31:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.iwslt-1.19",
+  "title": "The {N}iu{T}rans{'}s Submission to the {IWSLT}22 {E}nglish-to-{C}hinese Offline Speech Translation Task",
+  "authors": [
+    "Zhang, Yuhao  and\nHuang, Canan  and\nXu, Chen  and\nLiu, Xiaoqian  and\nLi, Bei  and\nMa, Anxiang  and\nXiao, Tong  and\nZhu, Jingbo"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022)",
+  "abstract": "This paper describes NiuTrans’s submission to the IWSLT22 English-to-Chinese (En-Zh) offline speech translation task. The end-to-end and bilingual system is built by constrained English and Chinese data and translates the English speech to Chinese text without intermediate transcription. Our speech translation models are composed of different pre-trained acoustic models and machine translation models by two kinds of adapters. We compared the effect of the standard speech feature (e.g. log Mel-filterbank) and the pre-training speech feature and try to make them interact. The final submission is an ensemble of three potential speech translation models. Our single best and ensemble model achieves 18.66 BLEU and 19.35 BLEU separately on MuST-C En-Zh tst-COMMON set.",
+  "keywords": [
+    "ensemble",
+    "offline speech translation task",
+    "end",
+    "model",
+    "machine",
+    "18 66 bleu",
+    "text",
+    "bleu",
+    "our speech translation models",
+    "rans",
+    "we",
+    "19 35 bleu",
+    "pre",
+    "machine translation models",
+    "an ensemble"
+  ],
+  "url": "https://aclanthology.org/2022.iwslt-1.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

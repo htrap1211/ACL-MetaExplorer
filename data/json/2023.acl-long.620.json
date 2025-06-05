@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.620",
+  "title": "Multitask Pretraining with Structured Knowledge for Text-to-{SQL} Generation",
+  "authors": [
+    "Giaquinto, Robert  and\nZhang, Dejiao  and\nKleiner, Benjamin  and\nLi, Yang  and\nTan, Ming  and\nBhatia, Parminder  and\nNallapati, Ramesh  and\nMa, Xiaofei"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Many machine learning-based low-code or no-code applications involve generating code that interacts with structured knowledge. For example, one of the most studied tasks in this area is generating SQL code from a natural language statement. Prior work shows that incorporating context information from the database schema, such as table and column names, is beneficial to model performance on this task. In this work we present a large pretraining dataset and strategy for learning representations of text, tables, and SQL code that leverages the entire context of the problem. Specifically, we build on existing encoder-decoder architecture by introducing a multitask pretraining framework that complements the unique attributes of our diverse pretraining data. Our work represents the first study on large-scale pretraining of encoder-decoder models for interacting with structured knowledge, and offers a new state-of-the-art foundation model in text-to-SQL generation. We validate our approach with experiments on two SQL tasks, showing improvement over existing methods, including a 1.7 and 2.2 percentage point improvement over prior state-of-the-arts on Spider and CoSQL.",
+  "keywords": [
+    "code",
+    "text-to-sql generation",
+    "we",
+    "existing encoder-decoder architecture",
+    "natural",
+    "decoder",
+    "information",
+    "learning",
+    "studied",
+    "text",
+    "work",
+    "encoder-decoder models",
+    "knowledge",
+    "generation",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.620/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

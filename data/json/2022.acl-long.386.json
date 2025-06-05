@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.386",
+  "title": "Flooding-{X}: Improving {BERT}{'}s Resistance to Adversarial Attacks via Loss-Restricted Fine-Tuning",
+  "authors": [
+    "Liu, Qin  and\nZheng, Rui  and\nRong, Bao  and\nLiu, Jingyi  and\nLiu, ZhiHua  and\nCheng, Zhanzhan  and\nQiao, Liang  and\nGui, Tao  and\nZhang, Qi  and\nHuang, Xuanjing"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Adversarial robustness has attracted much attention recently, and the mainstream solution is adversarial training. However, the tradition of generating adversarial perturbations for each input embedding (in the settings of NLP) scales up the training computational complexity by the number of gradient steps it takes to obtain the adversarial samples. To address this problem, we leverage Flooding method which primarily aims at better generalization and we find promising in defending adversarial attacks. We further propose an effective criterion to bring hyper-parameter-dependent flooding into effect with a narrowed-down search space by measuring how the gradient steps taken within one epoch affect the loss of each batch. Our approach requires zero adversarial sample for training, and its time consumption is equivalent to fine-tuning, which can be 2-15 times faster than standard adversarial training. We experimentally show that our method improves BERT’s resistance to textual adversarial attacks by a large margin, and achieves state-of-the-art robust accuracy on various text classification and GLUE tasks.",
+  "keywords": [
+    "much attention",
+    "gradient steps",
+    "bert s resistance",
+    "we",
+    "parameter",
+    "training",
+    "classification",
+    "fine-tuning",
+    "hyper",
+    "it",
+    "loss",
+    "tuning",
+    "bert",
+    "text",
+    "generalization"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.386/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:29:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.219",
+  "title": "A + {B}: A General Generator-Reader Framework for Optimizing {LLM}s to Unleash Synergy Potential",
+  "authors": [
+    "Tang, Wei  and\nCao, Yixin  and\nYing, Jiahao  and\nWang, Bo  and\nZhao, Yuyue  and\nLiao, Yong  and\nZhou, Peng"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Retrieval-Augmented Generation (RAG) is an effective solution to supplement necessary knowledge to large language models (LLMs). Targeting its bottleneck of retriever performance, “generate-then-read” pipeline is proposed to replace the retrieval stage with generation from the LLM itself. Although promising, this research direction is underexplored and still cannot work in the scenario when source knowledge is given. In this paper, we formalize a general “A + B” framework with varying combinations of foundation models and types for systematic investigation. We explore the efficacy of the base and chat versions of LLMs and found their different functionalities suitable for generator A and reader B, respectively. Their combinations consistently outperform single models, especially in complex scenarios. Furthermore, we extend the application of the “A + B” framework to scenarios involving source documents through continuous learning, enabling the direct integration of external knowledge into LLMs. This approach not only facilitates effective acquisition of new knowledge but also addresses the challenges of safety and helpfulness post-adaptation. The paper underscores the versatility of the “A + B” framework, demonstrating its potential to enhance the practical application of LLMs across various domains.",
+  "keywords": [
+    "functionalities",
+    "we",
+    "llm",
+    "synergy",
+    "retrieval",
+    "learning",
+    "llms",
+    "-",
+    "the llm",
+    "general",
+    "knowledge",
+    "generation",
+    "language",
+    "large language models",
+    "their different functionalities"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.219/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.441",
+  "title": "``My Answer is {C}'': First-Token Probabilities Do Not Match Text Answers in Instruction-Tuned Language Models",
+  "authors": [
+    "Wang, Xinpeng  and\nMa, Bolei  and\nHu, Chengzhi  and\nWeber-Genzel, Leon  and\nR{\\\"o}ttger, Paul  and\nKreuter, Frauke  and\nHovy, Dirk  and\nPlank, Barbara"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "The open-ended nature of language generation makes the evaluation of autoregressive large language models (LLMs) challenging. One common evaluation approach uses multiple-choice questions to limit the response space. The model is then evaluated by ranking the candidate answers by the log probability of the first token prediction. However, first-tokens may not consistently reflect the final response output, due to model’s diverse response styles such as starting with “Sure” or refusing to answer. Consequently, first-token evaluation is not indicative of model behaviour when interacting with users. But by how much? We evaluate how aligned first-token evaluation is with the text output along several dimensions, namely final option choice, refusal rate, choice distribution and robustness under prompt perturbation. Our results show that the two approaches are severely misalignedon all dimensions, reaching mismatch rates over 60%. Models heavily fine-tuned on conversational or safety data are especially impacted. Crucially, models remain misaligned even when we increasingly constrain prompts, i.e., force them to start with an option letter or example template. Our findings i) underscore the importance of inspecting the text output as well and ii) caution against relying solely on first-token evaluation.",
+  "keywords": [
+    "c first-token probabilities",
+    "rate",
+    "we",
+    "instruction-tuned language models",
+    "conversational or safety data",
+    "one common evaluation approach",
+    "instruction",
+    "how aligned first-token evaluation",
+    "language generation",
+    "answer",
+    "token",
+    "prompt perturbation",
+    "e",
+    "first-token evaluation",
+    "consequently first-token evaluation"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.441/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

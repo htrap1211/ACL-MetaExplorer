@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.214",
+  "title": "Exploring Automatically Perturbed Natural Language Explanations in Relation Extraction",
+  "authors": [
+    "Cui, Wanyun  and\nChen, Xingran"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Previous research has demonstrated that natural language explanations provide valuable inductive biases that guide models, thereby improving the generalization ability and data efficiency. In this paper, we undertake a systematic examination of the effectiveness of these explanations. Remarkably, we find that corrupted explanations with diminished inductive biases can achieve competitive or superior performance compared to the original explanations. Our findings furnish novel insights into the characteristics of natural language explanations in the following ways: (1) the impact of explanations varies across different training styles and datasets, with previously believed improvements primarily observed in frozen language models. (2) While previous research has attributed the effect of explanations solely to their inductive biases, our study shows that the effect persists even when the explanations are completely corrupted. We propose that the main effect is due to the provision of additional context space. (3) Utilizing the proposed automatic perturbed context, we were able to attain comparable results to annotated explanations, but with a significant increase in computational efficiency, 20-30 times faster.",
+  "keywords": [
+    "the generalization ability",
+    "extraction",
+    "diminished inductive biases",
+    "data efficiency",
+    "efficiency",
+    "we",
+    "previously believed improvements",
+    "training",
+    "natural",
+    "frozen language models",
+    "their inductive biases",
+    "generalization",
+    "biases",
+    "valuable inductive biases",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.214/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

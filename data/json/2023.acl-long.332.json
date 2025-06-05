@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.332",
+  "title": "Understanding and Improving the Robustness of Terminology Constraints in Neural Machine Translation",
+  "authors": [
+    "Zhang, Huaao  and\nWang, Qiang  and\nQin, Bo  and\nShi, Zelin  and\nWang, Haibo  and\nChen, Ming"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this work, we study the robustness of two typical terminology translation methods: Placeholder (PH) and Code-Switch (CS), concerning (1) the number of constraints and (2) the target constraint length. We identify that existing terminology constraint test sets, such as IATE, Wiktionary, and TICO, are blind to this issue due to oversimplified constraint settings. To solve it, we create a new challenging test set of English-German, increasing the average constraint count per sentence from 1.1~1.7 to 6.1 and the length per target constraint from 1.1~1.2 words to 3.4 words. Then we find that PH and CS methods degrade as the number of constraints increases, but they have complementary strengths. Specifically, PH is better at retaining high constraint accuracy but lower translation quality as measured by BLEU and COMET scores. In contrast, CS has the opposite results. Based on these observations, we propose a simple but effective method combining the advantages of PH and CS. This approach involves training a model like PH to predict the term labels, and then during inference replacing those labels with target terminology text like CS, so that the subsequent generation is aware of the target term content. Extensive experimental results show that this approach can achieve high constraint accuracy and translation quality simultaneously, regardless of the number or length of constraints.",
+  "keywords": [
+    "code",
+    "neural machine translation",
+    "bleu",
+    "we",
+    "translation",
+    "neural",
+    "it",
+    "bleu and comet scores",
+    "oversimplified",
+    "ph",
+    "lower translation quality",
+    "cs",
+    "text",
+    "high constraint accuracy",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.332/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

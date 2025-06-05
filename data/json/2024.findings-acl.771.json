@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.771",
+  "title": "XL}-{H}ead{T}ags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags",
+  "authors": [
+    "Shohan, Faisal Tareque  and\nNayeem, Mir Tafseer  and\nIslam, Samsul  and\nAkash, Abu Ubaida  and\nJoty, Shafiq"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Millions of news articles published online daily can overwhelm readers. Headlines and entity (topic) tags are essential for guiding readers to decide if the content is worth their time. While headline generation has been extensively studied, tag generation remains largely unexplored, yet it offers readers better access to topics of interest. The need for conciseness in capturing readers’ attention necessitates improved content selection strategies for identifying salient and relevant segments within lengthy articles, thereby guiding language models effectively. To address this, we propose to leverage auxiliary information such as images and captions embedded in the articles to retrieve relevant sentences and utilize instruction tuning with variations to generate both headlines and tags for news articles in a multilingual context. To make use of the auxiliary information, we have compiled a dataset named XL-HeadTags, which includes 20 languages across 6 diverse language families. Through extensive evaluation, we demonstrate the effectiveness of our plug-and-play multimodal-multilingual retrievers for both tasks. Additionally, we have developed a suite of tools for processing and evaluating multilingual texts, significantly contributing to the research community by enabling more accurate and efficient analysis across languages.",
+  "keywords": [
+    "families",
+    "efficient",
+    "we",
+    "instruction",
+    "extensive evaluation",
+    "multimodal retrieval augmentation",
+    "it",
+    "retrieval",
+    "tag",
+    "information",
+    "the multilingual generation",
+    "analysis",
+    "instruction tuning",
+    "tuning",
+    "processing"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.771/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:59:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

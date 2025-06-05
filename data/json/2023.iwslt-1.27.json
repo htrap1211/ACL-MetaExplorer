@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.27",
+  "title": "Learning Nearest Neighbour Informed Latent Word Embeddings to Improve Zero-Shot Machine Translation",
+  "authors": [
+    "Kambhatla, Nishant  and\nBorn, Logan  and\nSarkar, Anoop"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "Multilingual neural translation models exploit cross-lingual transfer to perform zero-shot translation between unseen language pairs. Past efforts to improve cross-lingual transfer have focused on aligning contextual sentence-level representations. This paper introduces three novel contributions to allow exploiting nearest neighbours at the token level during training, including: (i) an efficient, gradient-friendly way to share representations between neighboring tokens; (ii) an attentional semantic layer which extracts latent features from shared embeddings; and (iii) an agreement loss to harmonize predictions across different sentence representations. Experiments on two multilingual datasets demonstrate consistent gains in zero shot translation over strong baselines.",
+  "keywords": [
+    "embeddings",
+    "cross",
+    "friendly",
+    "an attentional semantic layer",
+    "i",
+    "language",
+    "translation",
+    "neural",
+    "machine",
+    "efficient",
+    "token",
+    "loss",
+    "gradient",
+    "latent",
+    "layer"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.27/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:24:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

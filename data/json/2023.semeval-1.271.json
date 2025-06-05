@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.271",
+  "title": "Attention at {S}em{E}val-2023 Task 10: Explainable Detection of Online Sexism ({EDOS})",
+  "authors": [
+    "Roy, Debashish  and\nShrivastava, Manish"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "In this paper, we have worked on explainability and understanding of the decisions made by models in the form of classification tasks. The task is divided into 3 subtasks. The first task consists of determining Binary Sexism Detection. The second task describes the Category of Sexism. The third task describes a more Fine-grained Category of Sexism. Our work explores solving these tasks as a classification problem by fine-tuning transformer-based architecture. We have performed several experiments with our architecture, including combining multiple transformers, using domain adaptive pretraining on the unlabelled dataset provided by Reddit and Gab, Joint learning, and taking different layers of transformers as input to a classification head. Our system (with the team name Attention’) was able to achieve a macro F1 score of 0.839 for task A, 0.5835 macro F1 score for task B and 0.3356 macro F1 score for task C at the Codalab SemEval Competition. Later we improved the accuracy of Task B to 0.6228 and Task C to 0.3693 in the test set.",
+  "keywords": [
+    "the accuracy",
+    "transformers",
+    "form",
+    "we",
+    "multiple transformers",
+    "classification",
+    "classification tasks",
+    "the team name attention",
+    "learning",
+    "a macro f1 score",
+    "tuning",
+    "fine-tuning transformer-based architecture",
+    "a classification problem",
+    "accuracy",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.271/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:30:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

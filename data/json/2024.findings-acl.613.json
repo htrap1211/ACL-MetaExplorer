@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.613",
+  "title": "Contrastive Instruction Tuning",
+  "authors": [
+    "Yan, Tianyi  and\nWang, Fei  and\nHuang, James Y.  and\nZhou, Wenxuan  and\nYin, Fan  and\nGalstyan, Aram  and\nYin, Wenpeng  and\nChen, Muhao"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Instruction tuning has been used as a promising approach to improve the performance of large language models (LLMs) on unseen tasks. However, current LLMs exhibit limited robustness to unseen instructions, generating inconsistent outputs when the same instruction is phrased with slightly varied forms or language styles. This behavior indicates LLMs’ lack of robustness to textual variations and generalizability to unseen instructions, potentially leading to trustworthiness issues. Accordingly, we propose Contrastive Instruction Tuning, which maximizes the similarity between the hidden representations of semantically equivalent instruction-instance pairs while minimizing the similarity between semantically different ones. To facilitate this approach, we augment the existing FLAN collection by paraphrasing task instructions. Experiments on the PromptBench benchmark show that CoIN consistently improves LLMs’ robustness to unseen instructions with variations across character, word, sentence, and semantic levels by an average of +2.5% in accuracy.",
+  "keywords": [
+    "varied",
+    "contrastive instruction tuning",
+    "semantic",
+    "we",
+    "generalizability",
+    "current",
+    "current llms",
+    "instruction",
+    "llms lack",
+    "slightly varied forms",
+    "word",
+    "semantically different ones",
+    "llms",
+    "the promptbench benchmark show",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.613/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:56:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

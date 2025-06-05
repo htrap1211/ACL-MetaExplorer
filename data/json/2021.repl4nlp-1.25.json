@@ -1,0 +1,33 @@
+{
+  "id": "2021.repl4nlp-1.25",
+  "title": "Simultaneously Self-Attending to Text and Entities for Knowledge-Informed Text Representations",
+  "authors": [
+    "Thai, Dung  and\nThirukovalluru, Raghuveer  and\nBansal, Trapit  and\nMcCallum, Andrew"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 6th Workshop on Representation Learning for NLP (RepL4NLP-2021)",
+  "abstract": "Pre-trained language models have emerged as highly successful methods for learning good text representations. However, the amount of structured knowledge retained in such models, and how (if at all) it can be extracted, remains an open question. In this work, we aim at directly learning text representations which leverage structured knowledge about entities mentioned in the text. This can be particularly beneficial for downstream tasks which are knowledge-intensive. Our approach utilizes self-attention between words in the text and knowledge graph (KG) entities mentioned in the text. While existing methods require entity-linked data for pre-training, we train using a mention-span masking objective and a candidate ranking objective – which doesn’t require any entity-links and only assumes access to an alias table for retrieving candidates, enabling large-scale pre-training. We show that the proposed model learns knowledge-informed text representations that yield improvements on the downstream tasks over existing methods.",
+  "keywords": [
+    "work",
+    "knowledge",
+    "language",
+    "model",
+    "entities",
+    "text",
+    "it",
+    "objective",
+    "self",
+    "-",
+    "question",
+    "self-attention",
+    "attention",
+    "we",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2021.repl4nlp-1.25/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:19:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

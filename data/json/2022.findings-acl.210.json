@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.210",
+  "title": "Cross-domain Named Entity Recognition via Graph Matching",
+  "authors": [
+    "Zheng, Junhao  and\nChen, Haibin  and\nMa, Qianli"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Cross-domain NER is a practical yet challenging problem since the data scarcity in the real-world scenario. A common practice is first to learn a NER model in a rich-resource general domain and then adapt the model to specific domains. Due to the mismatch problem between entity types across domains, the wide knowledge in the general domain can not effectively transfer to the target domain NER model. To this end, we model the label relationship as a probability distribution and construct label graphs in both source and target label spaces. To enhance the contextual representation with label structures, we fuse the label graph into the word embedding output by BERT. By representing label relationships as graphs, we formulate cross-domain NER as a graph matching problem. Furthermore, the proposed method has good applicability with pre-training methods and is potentially capable of other cross-domain prediction tasks. Empirical results on four datasets show that our method outperforms a series of transfer learning, multi-task learning, and few-shot learning methods.",
+  "keywords": [
+    "end",
+    "series",
+    "cross-domain ner",
+    "we",
+    "graph",
+    "shot",
+    "training",
+    "cross",
+    "a rich-resource general domain",
+    "the general domain",
+    "rich",
+    "word",
+    "learning",
+    "transfer",
+    "pre-training methods"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.210/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

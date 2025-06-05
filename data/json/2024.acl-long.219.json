@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.219",
+  "title": "Instruct Once, Chat Consistently in Multiple Rounds: An Efficient Tuning Framework for Dialogue",
+  "authors": [
+    "Wang, Jian  and\nLeong, Chak Tou  and\nWang, Jiashuo  and\nLin, Dongding  and\nLi, Wenjie  and\nWei, Xiaoyong"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Tuning language models for dialogue generation has been a prevalent paradigm for building capable dialogue agents. Yet, traditional tuning narrowly views dialogue generation as resembling other language generation tasks, ignoring the role disparities between two speakers and the multi-round interactive process that dialogues ought to be. Such a manner often leads to unsatisfactory chat consistency for the built agent. In this work, we emphasize the interactive, communicative nature of dialogue and argue that it is more feasible to model the speaker roles of agent and user separately, enabling the agent to adhere to its role consistently. With this in mind, we propose an efficient Multi-round Interactive Dialogue Tuning (Midi-Tuning) framework. It models the agent and user individually with two adapters built upon large language models. The adapters make use of respective utterances round by round in alternating order and they are tuned via a round-level memory caching mechanism. Extensive experiments demonstrate that, our framework performs superior to traditional fine-tuning and harbors the tremendous potential for improving dialogue consistency.",
+  "keywords": [
+    "other language generation tasks",
+    "capable dialogue agents",
+    "efficient",
+    "disparities",
+    "dialogue tuning language models",
+    "we",
+    "dialogue",
+    "it",
+    "dialogue generation",
+    "such a manner",
+    "manner",
+    "traditional fine-tuning",
+    "tuning",
+    "fine",
+    "the role disparities"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.219/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

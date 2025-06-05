@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.308",
+  "title": "VECO}: Variable and Flexible Cross-lingual Pre-training for Language Understanding and Generation",
+  "authors": [
+    "Luo, Fuli  and\nWang, Wei  and\nLiu, Jiahao  and\nLiu, Yijia  and\nBi, Bin  and\nHuang, Songfang  and\nHuang, Fei  and\nSi, Luo"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Existing work in multilingual pretraining has demonstrated the potential of cross-lingual transferability by training a unified Transformer encoder for multiple languages. However, much of this work only relies on the shared vocabulary and bilingual contexts to encourage the correlation across languages, which is loose and implicit for aligning the contextual representations between languages. In this paper, we plug a cross-attention module into the Transformer encoder to explicitly build the interdependence between languages. It can effectively avoid the degeneration of predicting masked words only conditioned on the context in its own language. More importantly, when fine-tuning on downstream tasks, the cross-attention module can be plugged in or out on-demand, thus naturally benefiting a wider range of cross-lingual tasks, from language understanding to generation. As a result, the proposed cross-lingual model delivers new state-of-the-art results on various cross-lingual understanding tasks of the XTREME benchmark, covering text classification, sequence labeling, question answering, and sentence retrieval. For cross-lingual generation tasks, it also outperforms all existing cross-lingual models and state-of-the-art Transformer variants on WMT14 English-to-German and English-to-French translation datasets, with gains of up to 1 2 BLEU.",
+  "keywords": [
+    "the degeneration",
+    "bleu",
+    "question",
+    "the cross-attention module",
+    "we",
+    "degeneration",
+    "training",
+    "translation",
+    "classification",
+    "cross-lingual generation tasks",
+    "cross",
+    "it",
+    "unified",
+    "retrieval",
+    "sequence"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.308/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

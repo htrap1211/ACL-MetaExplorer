@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.406",
+  "title": "Can {LLM}s Reason with Rules? Logic Scaffolding for Stress-Testing and Improving {LLM}s",
+  "authors": [
+    "Wang, Siyuan  and\nWei, Zhongyu  and\nChoi, Yejin  and\nRen, Xiang"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large language models (LLMs) have achieved impressive human-like performance across various reasoning tasks. However, their mastery of underlying inferential rules still falls short of human capabilities. To investigate this, we propose a logic scaffolding inferential rule generation framework, to construct an inferential rule base, ULogic, comprising both primitive and compositional rules across five domains. Our analysis of GPT-series models over a rule subset reveals significant gaps in LLMs’ logic understanding compared to human performance, especially in compositional and structural complex rules with certain bias patterns. We further distill these rules into a smaller-scale inference engine for flexible rule generation and enhancing downstream reasoning. Through a multi-judger evaluation, our inference engine proves effective in generating accurate, complex and abstract conclusions and premises, and improve various commonsense reasoning tasks. Overall, our work sheds light on LLMs’ limitations in grasping inferential rule and suggests ways to enhance their logical reasoning abilities .",
+  "keywords": [
+    "bias",
+    "their logical reasoning abilities",
+    "certain bias patterns",
+    "series",
+    "gpt-series models",
+    "we",
+    "llm",
+    "analysis",
+    "llms",
+    "abilities",
+    "inferential rule generation framework",
+    "llms limitations",
+    "a multi-judger evaluation",
+    "llm s reason",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.406/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

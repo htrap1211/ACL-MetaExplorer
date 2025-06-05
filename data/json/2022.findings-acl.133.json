@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.133",
+  "title": "Calibration of Machine Reading Systems at Scale",
+  "authors": [
+    "Dhuliawala, Shehzaad  and\nAdolphs, Leonard  and\nDas, Rajarshi  and\nSachan, Mrinmaya"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "In typical machine learning systems, an estimate of the probability of the prediction is used to assess the system’s confidence in the prediction. This confidence measure is usually uncalibrated; i.e. the system’s confidence in the prediction does not match the true probability of the predicted output. In this paper, we present an investigation into calibrating open setting machine reading systemssuch as open-domain question answering and claim verification systems. We show that calibrating such complex systems which contain discrete retrieval and deep reading components is challenging and current calibration techniques fail to scale to these settings. We propose simple extensions to existing calibration approaches that allows us to adapt them to these settings. Our experimental results reveal that the approach works well, and can be useful to selectively predict answers when question answering systems are posed with unanswerable or out-of-the-training distribution questions.",
+  "keywords": [
+    "deep",
+    "machine",
+    "discrete retrieval",
+    "retrieval",
+    "question",
+    "question answering systems",
+    "us",
+    "we",
+    "current",
+    "typical machine learning systems",
+    "training",
+    "that",
+    "existing calibration approaches",
+    "approach",
+    "reading"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.133/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

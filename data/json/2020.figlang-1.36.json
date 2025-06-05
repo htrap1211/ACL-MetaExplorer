@@ -1,0 +1,33 @@
+{
+  "id": "2020.figlang-1.36",
+  "title": "Sarcasm Detection Using an Ensemble Approach",
+  "authors": [
+    "Lemmens, Jens  and\nBurtenshaw, Ben  and\nLotfi, Ehsan  and\nMarkov, Ilia  and\nDaelemans, Walter"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the Second Workshop on Figurative Language Processing",
+  "abstract": "We present an ensemble approach for the detection of sarcasm in Reddit and Twitter responses in the context of The Second Workshop on Figurative Language Processing held in conjunction with ACL 2020. The ensemble is trained on the predicted sarcasm probabilities of four component models and on additional features, such as the sentiment of the comment, its length, and source (Reddit or Twitter) in order to learn which of the component models is the most reliable for which input. The component models consist of an LSTM with hashtag and emoji representations; a CNN-LSTM with casing, stop word, punctuation, and sentiment representations; an MLP based on Infersent embeddings; and an SVM trained on stylometric and emotion-based features. All component models use the two conversational turns preceding the response as context, except for the SVM, which only uses features extracted from the response. The ensemble itself consists of an adaboost classifier with the decision tree algorithm as base estimator and yields F1-scores of 67% and 74% on the Reddit and Twitter test data, respectively.",
+  "keywords": [
+    "classifier",
+    "infersent embeddings",
+    "an lstm",
+    "we",
+    "lstm",
+    "ensemble",
+    "svm",
+    "an adaboost classifier",
+    "a cnn-lstm",
+    "cnn",
+    "word",
+    "the ensemble",
+    "the two conversational turns",
+    "processing",
+    "sentiment"
+  ],
+  "url": "https://aclanthology.org/2020.figlang-1.36/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:56:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

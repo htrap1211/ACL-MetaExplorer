@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.105",
+  "title": "Unified Speech-Text Pre-training for Speech Translation and Recognition",
+  "authors": [
+    "Tang, Yun  and\nGong, Hongyu  and\nDong, Ning  and\nWang, Changhan  and\nHsu, Wei-Ning  and\nGu, Jiatao  and\nBaevski, Alexei  and\nLi, Xian  and\nMohamed, Abdelrahman  and\nAuli, Michael  and\nPino, Juan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this work, we describe a method to jointly pre-train speech and text in an encoder-decoder modeling framework for speech translation and recognition. The proposed method utilizes multi-task learning to integrate four self-supervised and supervised subtasks for cross modality learning. A self-supervised speech subtask, which leverages unlabelled speech data, and a (self-)supervised text to text subtask, which makes use of abundant text training data, take up the majority of the pre-training time. Two auxiliary supervised speech tasks are included to unify speech and text modeling space. Detailed analysis reveals learning interference among subtasks. In order to alleviate the subtask interference, two pre-training configurations are proposed for speech translation and speech recognition respectively. Our experiments show the proposed method can effectively fuse speech and text information into one model. It achieves between 1.7 and 2.3 BLEU improvement above the state of the art on the MuST-C speech translation dataset and comparable WERs to wav2vec 2.0 on the Librispeech speech recognition task.",
+  "keywords": [
+    "work",
+    "cross",
+    "2 3 bleu improvement",
+    "the pre-training time",
+    "self-",
+    "model",
+    "text",
+    "it",
+    "self",
+    "modeling",
+    "bleu",
+    "encoder",
+    "two pre-training configurations",
+    "decoder",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.105/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

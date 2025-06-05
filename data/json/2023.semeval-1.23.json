@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.23",
+  "title": "RGAT} at {S}em{E}val-2023 Task 2: Named Entity Recognition Using Graph Attention Network",
+  "authors": [
+    "Chakraborty, Abir"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "In this paper, we (team RGAT) describe our approach for the SemEval 2023 Task 2: Multilingual Complex Named Entity Recognition (MultiCoNER II). The goal of this task is to locate and classify named entities in unstructured short complex texts in 12 different languages and one multilingual setup. We use the dependency tree of the input query as additional feature in a Graph Attention Network along with the token and part-of-speech features. We also experiment with additional layers like BiLSTM and Transformer in addition to the CRF layer. However, we have not included any external Knowledge base like Wikipedia to enrich our inputs. We evaluated our proposed approach on the English NER dataset that resulted in a clean-subset F1 of 61.29\\% and overall F1 of 56.91\\%. However, other approaches that used external knowledge base performed significantly better.",
+  "keywords": [
+    "transformer",
+    "ner",
+    "knowledge",
+    "graph attention network",
+    "entities",
+    "bilstm",
+    "the english ner dataset",
+    "token",
+    "a clean-subset f1",
+    "layer",
+    "multiconer",
+    "dependency",
+    "attention",
+    "the dependency tree",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.23/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

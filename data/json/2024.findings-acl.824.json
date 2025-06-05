@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.824",
+  "title": "Towards Demonstration-Aware Large Language Models for Machine Translation",
+  "authors": [
+    "Li, Chen  and\nZhang, Meishan  and\nLiu, Xuebo  and\nLi, Zhaocong  and\nWong, Derek  and\nZhang, Min"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Tuning-based large language models for machine translation (aka large translation model, LTM) have demonstrated significant performance in the field of machine translation. Despite their success, these models often face difficulties in leveraging demonstrations to further improve their performance. To tackle this challenge, we introduce a novel approach that integrates demonstration-aware training and inference strategies within the framework of tuning-based LTMs, hereby referred to as demonstration-aware LTMs. During training, we enrich the model’s learning process by incorporating both sentence- and document-level demonstrations derived from its original training dataset. During inference, the model synergizes its own contextual translations with retrieved high-quality demonstrations, leading to more precise and contextually appropriate outputs. Empirical results reveal that our demonstration-aware LTM not only mitigates the negative impacts traditionally associated with demonstrations but also secures substantial improvements in translation accuracy, particularly in domain-specific and document-level translation tasks. Source code and scripts are freely available at https://github.com/ChenLi0620/Demo-Aware-LLM-MT.",
+  "keywords": [
+    "code",
+    "demonstration-aware large language models",
+    "its own contextual translations",
+    "field",
+    "machine translation",
+    "we",
+    "llm",
+    "training",
+    "translation",
+    "the field",
+    "retrieved high-quality demonstrations",
+    "learning",
+    "difficulties",
+    "translation accuracy",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.824/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:59:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

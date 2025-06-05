@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-demo.30",
+  "title": "Ecco: An Open Source Library for the Explainability of Transformer Language Models",
+  "authors": [
+    "Alammar, J"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: System Demonstrations",
+  "abstract": "Our understanding of why Transformer-based NLP models have been achieving their recent success lags behind our ability to continue scaling these models. To increase the transparency of Transformer-based language models, we present Ecco – an open-source library for the explainability of Transformer-based NLP models. Ecco provides a set of tools to capture, analyze, visualize, and interactively explore the inner mechanics of these models. This includes (1) gradient-based feature attribution for natural language generation (2) hidden states and their evolution between model layers (3) convenient access and examination tools for neuron activations in the under-explored Feed-Forward Neural Network sublayer of Transformer layers. (4) convenient examination of activation vectors via canonical correlation analysis (CCA), non-negative matrix factorization (NMF), and probing classifiers. We find that syntactic information can be retrieved from BERT’s FFNN representations in levels comparable to those in hidden state representations. More curiously, we find that the model builds up syntactic information in its hidden states even when intermediate FFNNs indicate diminished levels of syntactic information. Ecco is available athttps://www.eccox.io/",
+  "keywords": [
+    "classifiers",
+    "bert s ffnn representations",
+    "we",
+    "4 convenient examination",
+    "activations",
+    "neural",
+    "natural",
+    "information",
+    "3 convenient access",
+    "convenient",
+    "inner",
+    "natural language generation",
+    "transformer-based nlp models",
+    "neuron activations",
+    "feed"
+  ],
+  "url": "https://aclanthology.org/2021.acl-demo.30/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:09:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

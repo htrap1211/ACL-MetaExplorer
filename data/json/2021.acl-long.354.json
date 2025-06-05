@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.354",
+  "title": "O}ne2{S}et: {G}enerating Diverse Keyphrases as a Set",
+  "authors": [
+    "Ye, Jiacheng  and\nGui, Tao  and\nLuo, Yichao  and\nXu, Yige  and\nZhang, Qi"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Recently, the sequence-to-sequence models have made remarkable progress on the task of keyphrase generation (KG) by concatenating multiple keyphrases in a predefined order as a target sequence during training. However, the keyphrases are inherently an unordered set rather than an ordered sequence. Imposing a predefined order will introduce wrong bias during training, which can highly penalize shifts in the order between keyphrases. In this work, we propose a new training paradigm One2Set without predefining an order to concatenate the keyphrases. To fit this paradigm, we propose a novel model that utilizes a fixed set of learned control codes as conditions to generate a set of keyphrases in parallel. To solve the problem that there is no correspondence between each prediction and target during training, we propose a K-step label assignment mechanism via bipartite matching, which greatly increases the diversity and reduces the repetition rate of generated keyphrases. The experimental results on multiple benchmarks demonstrate that our approach significantly outperforms the state-of-the-art methods.",
+  "keywords": [
+    "bias",
+    "rate",
+    "we",
+    "training",
+    "sequence",
+    "wrong bias",
+    "keyphrase generation kg",
+    "work",
+    "generation",
+    "model",
+    "approach",
+    "repetition",
+    "state",
+    "an unordered set",
+    "bipartite matching"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.354/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

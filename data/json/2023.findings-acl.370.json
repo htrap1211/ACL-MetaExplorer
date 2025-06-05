@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.370",
+  "title": "Focal Training and Tagger Decouple for Grammatical Error Correction",
+  "authors": [
+    "Tan, Minghuan  and\nYang, Min  and\nXu, Ruifeng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In this paper, we investigate how to improve tagging-based Grammatical Error Correction models. We address two issues of current tagging-based approaches, label imbalance issue, and tagging entanglement issue. Then we propose to down-weight the loss of well-classified labels using Focal Loss and decouple the error detection layer from the label tagging layer through an extra self-attention-based matching module. Experiments over three latest Chinese Grammatical Error Correction datasets show that our proposed methods are effective. We further analyze choices of hyper-parameters for Focal Loss and inference tweaking.",
+  "keywords": [
+    "hyper",
+    "extra",
+    "self",
+    "-",
+    "loss",
+    "tagging",
+    "layer",
+    "attention",
+    "we",
+    "well-classified labels",
+    "current",
+    "training",
+    "focal",
+    "the error detection layer",
+    "error"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.370/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

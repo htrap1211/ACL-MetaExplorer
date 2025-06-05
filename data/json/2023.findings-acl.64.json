@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.64",
+  "title": "Label Agnostic Pre-training for Zero-shot Text Classification",
+  "authors": [
+    "Clarke, Christopher  and\nHeng, Yuzhao  and\nKang, Yiping  and\nFlautner, Krisztian  and\nTang, Lingjia  and\nMars, Jason"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Conventional approaches to text classification typically assume the existence of a fixed set of predefined labels to which a given text can be classified. However, in real-world applications, there exists an infinite label space for describing a given text. In addition, depending on the aspect (sentiment, topic, etc.) and domain of the text (finance, legal, etc.), the interpretation of the label can vary greatly. This makes the task of text classification, particularly in the zero-shot scenario, extremely challenging. In this paper, we investigate the task of zero-shot text classification with the aim of improving the ability of pre-trained language models (PLMs) to generalize to both seen and unseen data across varying aspects and domains. To solve this we introduce two new simple yet effective pre-training strategies, Implicit and Explicit pre-training. These methods inject aspect-level understanding into the model at train time with the goal of conditioning the model to build task-level understanding. To evaluate this, we construct and release UTCD, a new benchmark dataset for evaluating text classification in zero-shot settings. Experimental results on UTCD show that our approach achieves improved zero-shot generalization on a suite of challenging datasets across an array of zero-shot formalizations.",
+  "keywords": [
+    "to text classification",
+    "we",
+    "shot",
+    "training",
+    "classification",
+    "zero-shot formalizations",
+    "pre-trained language models plms",
+    "zero-shot text classification",
+    "the zero-shot scenario",
+    "text classification",
+    "text",
+    "strategies",
+    "topic",
+    "-",
+    "zero-shot settings"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.64/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.96",
+  "title": "Better Language Model with Hypernym Class Prediction",
+  "authors": [
+    "Bai, He  and\nWang, Tong  and\nSordoni, Alessandro  and\nShi, Peng"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Class-based language models (LMs) have been long devised to address context sparsity inn-gram LMs. In this study, we revisit this approach in the context of neural LMs. We hypothesize that class-based prediction leads to an implicit context aggregation for similar words and thus can improve generalization for rare words. We map words that have a common WordNet hypernym to the same class and train large neural LMs by gradually annealing from predicting the class to token prediction during training. Empirically, this curriculum learning strategy consistently improves perplexity over various large, highly-performant state-of-the-art Transformer-based models on two datasets, WikiText-103 and ARXIV. Our analysis shows that the performance improvement is achieved without sacrificing performance on rare words. Finally, we document other attempts that failed to yield empirical gains, and discuss future directions for the adoption of class-based LMs on a larger scale.",
+  "keywords": [
+    "transformer",
+    "language",
+    "neural",
+    "model",
+    "class",
+    "perplexity",
+    "a common wordnet hypernym",
+    "generalization",
+    "wordnet",
+    "we",
+    "better language model",
+    "analysis",
+    "that",
+    "inn",
+    "implicit"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.96/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

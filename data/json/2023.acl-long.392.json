@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.392",
+  "title": "Are Machine Rationales (Not) Useful to Humans? Measuring and Improving Human Utility of Free-text Rationales",
+  "authors": [
+    "Joshi, Brihi  and\nLiu, Ziyi  and\nRamnath, Sahana  and\nChan, Aaron  and\nTong, Zhewei  and\nNie, Shaoliang  and\nWang, Qifan  and\nChoi, Yejin  and\nRen, Xiang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Among the remarkable emergent capabilities of large language models (LMs) is free-text rationalization; beyond certain scale, large LMs are capable of generating seemingly useful rationalizations, which in turn, can dramatically enhance their performances on leaderboards. This phenomenon raises a question: can machine generated rationales also be useful for humans, especially when lay humans try to answer questions based on those machine rationales? We observe that human utility of existing rationales is far from satisfactory and expensive to estimate with human studies. Existing metrics like task performance of the LM generating the rationales or similarity between generated and gold rationales are not good indicators of their human utility. While we observe that certain properties of rationales like conciseness and novelty are correlated with their human utility, estimating them without human involvement is challenging. We show that, by estimating a rationale’s helpfulness in answering similar unseen instances, we can measure its human utility to a better extent. We also translate this finding into an automated score, Gen-U, that we propose, which can help improve LMs’ ability to generate rationales with better human utility, while maintaining most of its task performance. Lastly, we release all code and collected data with this project.",
+  "keywords": [
+    "code",
+    "question",
+    "we",
+    "the remarkable emergent capabilities",
+    "properties",
+    "u",
+    "human studies existing metrics",
+    "text",
+    "metrics",
+    "gen",
+    "-",
+    "generated and gold rationales",
+    "certain properties",
+    "large language models lms",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.392/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:40:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.sigmorphon-1.25",
+  "title": "SIGMORPHON} 2021 Shared Task on Morphological Reinflection: Generalization Across Languages",
+  "authors": [
+    "Pimentel, Tiago  and\nRyskina, Maria  and\nMielke, Sabrina J.  and\nWu, Shijie  and\nChodroff, Eleanor  and\nLeonard, Brian  and\nNicolai, Garrett  and\nGhanggo Ate, Yustinus  and\nKhalifa, Salam  and\nHabash, Nizar  and\nEl-Khaissi, Charbel  and\nGoldman, Omer  and\nGasser, Michael  and\nLane, William  and\nColer, Matt  and\nOncevay, Arturo  and\nMontoya Samame, Jaime Rafael  and\nSilva Villegas, Gema Celeste  and\nEk, Adam  and\nBernardy, Jean-Philippe  and\nShcherbakov, Andrey  and\nBayyr-ool, Aziyana  and\nSheifer, Karina  and\nGanieva, Sofya  and\nPlugaryov, Matvey  and\nKlyachko, Elena  and\nSalehi, Ali  and\nKrizhanovsky, Andrew  and\nKrizhanovsky, Natalia  and\nVania, Clara  and\nIvanova, Sardana  and\nSalchak, Aelita  and\nStraughn, Christopher  and\nLiu, Zoey  and\nWashington, Jonathan North  and\nAtaman, Duygu  and\nKiera{\\'s}, Witold  and\nWoli{\\'n}ski, Marcin  and\nSuhardijanto, Totok  and\nStoehr, Niklas  and\nNuriah, Zahroh  and\nRatan, Shyam  and\nTyers, Francis M.  and\nPonti, Edoardo M.  and\nAiton, Grant  and\nHatcher, Richard J.  and\nPrud{'}hommeaux, Emily  and\nKumar, Ritesh  and\nHulden, Mans  and\nBarta, Botond  and\nLakatos, Dorina  and\nSzolnok, G{\\'a}bor  and\n{\\'A}cs, Judit  and\nRaj, Mohit  and\nYarowsky, David  and\nCotterell, Ryan  and\nAmbridge, Ben  and\nVylomova, Ekaterina"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 18th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "This year’s iteration of the SIGMORPHON Shared Task on morphological reinflection focuses on typological diversity and cross-lingual variation of morphosyntactic features. In terms of the task, we enrich UniMorph with new data for 32 languages from 13 language families, with most of them being under-resourced: Kunwinjku, Classical Syriac, Arabic (Modern Standard, Egyptian, Gulf), Hebrew, Amharic, Aymara, Magahi, Braj, Kurdish (Central, Northern, Southern), Polish, Karelian, Livvi, Ludic, Veps, Võro, Evenki, Xibe, Tuvan, Sakha, Turkish, Indonesian, Kodi, Seneca, Asháninka, Yanesha, Chukchi, Itelmen, Eibela. We evaluate six systems on the new data and conduct an extensive error analysis of the systems’ predictions. Transformer-based models generally demonstrate superior performance on the majority of languages, achieving >90% accuracy on 65% of them. The languages on which systems yielded low accuracy are mainly under-resourced, with a limited amount of data. Most errors made by the systems are due to allomorphy, honorificity, and form variation. In addition, we observe that systems especially struggle to inflect multiword lemmas. The systems also produce misspelled forms or end up in repetitive loops (e.g., RNN-based models). Finally, we report a large drop in systems’ performance on previously unseen lemmas.",
+  "keywords": [
+    "families",
+    "form",
+    "we",
+    "cross",
+    "analysis",
+    "drop",
+    "generalization",
+    "morphological reinflection generalization",
+    "rnn",
+    "accuracy",
+    "90 accuracy",
+    "transformer",
+    "language",
+    "13 language families",
+    "low accuracy"
+  ],
+  "url": "https://aclanthology.org/2021.sigmorphon-1.25/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:22:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.woah-1.15",
+  "title": "Context Sensitivity Estimation in Toxicity Detection",
+  "authors": [
+    "Xenos, Alexandros  and\nPavlopoulos, John  and\nAndroutsopoulos, Ion"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 5th Workshop on Online Abuse and Harms (WOAH 2021)",
+  "abstract": "User posts whose perceived toxicity depends on the conversational context are rare in current toxicity detection datasets. Hence, toxicity detectors trained on current datasets will also disregard context, making the detection of context-sensitive toxicity a lot harder when it occurs. We constructed and publicly release a dataset of 10k posts with two kinds of toxicity labels per post, obtained from annotators who considered (i) both the current post and the previous one as context, or (ii) only the current post. We introduce a new task, context-sensitivity estimation, which aims to identify posts whose perceived toxicity changes if the context (previous post) is also considered. Using the new dataset, we show that systems can be developed for this task. Such systems could be used to enhance toxicity detection datasets with more context-dependent posts or to suggest when moderators should consider the parent posts, which may not always be necessary and may introduce additional costs.",
+  "keywords": [
+    "i",
+    "it",
+    "conversational",
+    "we",
+    "current",
+    "the conversational context",
+    "post",
+    "toxicity",
+    "new",
+    "additional costs",
+    "user",
+    "the parent posts",
+    "task",
+    "annotators",
+    "current datasets"
+  ],
+  "url": "https://aclanthology.org/2021.woah-1.15/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:24:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

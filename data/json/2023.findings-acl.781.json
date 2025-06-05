@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.781",
+  "title": "H}ua{SLIM}: Human Attention Motivated Shortcut Learning Identification and Mitigation for Large Language models",
+  "authors": [
+    "Ren, Yuqi  and\nXiong, Deyi"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Large language models have made remarkable progress on a variety of NLP tasks. However, it has been found that they tend to rely on shortcut features that spuriously correlate with labels for prediction, which weakens their generalization on out-of-distribution samples. In this paper, we propose a human attention guided approach to identifying and mitigating shortcut learning, which encourages the LLM-based target model to learn relevant features. We define an attention-based measurement to capture both model and data bias and identify shortcut tokens by exploring both human and neural attention. In a self-distillation framework, we mitigate shortcut learning by dynamically adjusting the distillation temperature according to the detected shortcut tokens and estimated shortcut degree. Additionally, we utilize human attention as a supervisory signal to constrain large language models to pay more attention to relevant tokens. Experimental results on multiple NLP tasks show that our proposed method can effectively identify shortcut tokens, and significantly improve the robustness of large language models on OOD samples, while not undermining the performance on IID data.",
+  "keywords": [
+    "variety",
+    "bias",
+    "human attention",
+    "an attention-based measurement",
+    "multiple nlp tasks",
+    "we",
+    "neural",
+    "the llm-based target model",
+    "it",
+    "self",
+    "learning",
+    "a variety",
+    "nlp tasks",
+    "more attention",
+    "generalization"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.781/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

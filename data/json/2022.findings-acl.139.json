@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.139",
+  "title": "Weighted self Distillation for {C}hinese word segmentation",
+  "authors": [
+    "He, Rian  and\nCai, Shubin  and\nMing, Zhong  and\nZhang, Jialei"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Recent researches show that multi-criteria resources and n-gram features are beneficial to Chinese Word Segmentation (CWS). However, these methods rely heavily on such additional information mentioned above and focus less on the model itself. We thus propose a novel neural framework, named Weighted self Distillation for Chinese word segmentation (WeiDC). The framework, which only requires unigram features, adopts self-distillation technology with four hand-crafted weight modules and two teacher models configurations. Experiment results show that WeiDC can make use of character features to learn contextual knowledge and successfully achieve state-of-the-art or competitive performance in terms of strictly closed test settings on SIGHAN Bakeoff benchmark datasets. Moreover, further experiments and analyses also demonstrate the robustness of WeiDC. Source codes of this paper are available on Github.",
+  "keywords": [
+    "we",
+    "neural",
+    "self",
+    "information",
+    "word",
+    "knowledge",
+    "model",
+    "multi",
+    "state",
+    "technology",
+    "test",
+    "settings",
+    "recent",
+    "framework",
+    "sighan bakeoff benchmark datasets"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.139/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

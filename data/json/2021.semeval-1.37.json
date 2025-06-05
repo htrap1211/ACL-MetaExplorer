@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.37",
+  "title": "R}o{M}a at {S}em{E}val-2021 Task 7: A Transformer-based Approach for Detecting and Rating Humor and Offense",
+  "authors": [
+    "Labadie, Roberto  and\nRodriguez, Mariano Jason  and\nOrtega, Reynier  and\nRosso, Paolo"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "In this paper we describe the systems used by the RoMa team in the shared task on Detecting and Rating Humor and Offense (HaHackathon) at SemEval 2021. Our systems rely on data representations learned through fine-tuned neural language models. Particularly, we explore two distinct architectures. The first one is based on a Siamese Neural Network (SNN) combined with a graph-based clustering method. The SNN model is used for learning a latent space where instances of humor and non-humor can be distinguished. The clustering method is applied to build prototypes of both classes which are used for training and classifying new messages. The second one combines neural language model representations with a linear regression model which makes the final ratings. Our systems achieved the best results for humor classification using model one, whereas for offensive and humor rating the second model obtained better performance. In the case of the controversial humor prediction, the most significant improvement was achieved by a fine-tuning of the neural language model. In general, the results achieved are encouraging and give us a starting point for further improvements.",
+  "keywords": [
+    "em",
+    "we",
+    "graph",
+    "neural language model representations",
+    "training",
+    "classification",
+    "the clustering method",
+    "neural",
+    "the neural language model",
+    "e",
+    "latent",
+    "a transformer-based approach",
+    "a",
+    "humor classification",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.37/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:20:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

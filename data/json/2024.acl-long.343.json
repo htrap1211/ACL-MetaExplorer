@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.343",
+  "title": "Unlearning Traces the Influential Training Data of Language Models",
+  "authors": [
+    "Isonuma, Masaru  and\nTitov, Ivan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Identifying the training datasets that influence a language model’s outputs is essential for minimizing the generation of harmful content and enhancing its performance. Ideally, we can measure the influence of each dataset by removing it from training; however, it is prohibitively expensive to retrain a model multiple times. This paper presents UnTrac: unlearning traces the influence of a training dataset on the model’s performance. UnTrac is extremely simple; each training dataset is unlearned by gradient ascent, and we evaluate how much the model’s predictions change after unlearning. Furthermore, we propose a more scalable approach, UnTrac-Inv, which unlearns a test dataset and evaluates the unlearned model on training datasets. UnTrac-Inv resembles UnTrac, while being efficient for massive training datasets. In the experiments, we examine if our methods can assess the influence of pretraining datasets on generating toxic, biased, and untruthful content. Our methods estimate their influence much more accurately than existing methods while requiring neither excessive memory space nor multiple checkpoints.",
+  "keywords": [
+    "language",
+    "generation",
+    "model",
+    "it",
+    "efficient",
+    "language models",
+    "gradient ascent",
+    "the generation",
+    "gradient",
+    "we",
+    "biased",
+    "training",
+    "that",
+    "simple",
+    "unlearned"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.343/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

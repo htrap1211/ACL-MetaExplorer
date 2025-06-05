@@ -1,0 +1,33 @@
+{
+  "id": "2022.iwslt-1.12",
+  "title": "A}mazon {A}lexa {AI}{'}s System for {IWSLT} 2022 Offline Speech Translation Shared Task",
+  "authors": [
+    "Shanbhogue, Akshaya Vishnu Kudlu  and\nXue, Ran  and\nChang, Ching-Yun  and\nCampbell, Sarah"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022)",
+  "abstract": "This paper describes Amazon Alexa AI’s submission to the IWSLT 2022 Offline Speech Translation Task. Our system is an end-to-end speech translation model that leverages pretrained models and cross modality transfer learning. We detail two improvements to the knowledge transfer schema. First, we implemented a new loss function that reduces knowledge gap between audio and text modalities in translation task effectively. Second, we investigate multiple finetuning strategies including sampling loss, language grouping and domain adaption. These strategies aims to bridge the gaps between speech and text translation tasks. We also implement a multi-stage segmentation and merging strategy that yields improvements on the unsegmented development datasets. Results show that the proposed loss function consistently improves BLEU scores on the development datasets for both English-German and multilingual models. Additionally, certain language pairs see BLEU score improvements with specific finetuning strategies.",
+  "keywords": [
+    "end",
+    "these strategies",
+    "bleu",
+    "we",
+    "text modalities",
+    "the proposed loss function",
+    "translation",
+    "loss",
+    "translation task",
+    "transfer",
+    "bleu scores",
+    "text translation tasks",
+    "text",
+    "strategies",
+    "function"
+  ],
+  "url": "https://aclanthology.org/2022.iwslt-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

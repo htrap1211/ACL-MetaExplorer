@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.397",
+  "title": "From Paraphrasing to Semantic Parsing: Unsupervised Semantic Parsing via Synchronous Semantic Decoding",
+  "authors": [
+    "Wu, Shan  and\nChen, Bo  and\nXin, Chunlei  and\nHan, Xianpei  and\nSun, Le  and\nZhang, Weipeng  and\nChen, Jiansong  and\nYang, Fan  and\nCai, Xunliang"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Semantic parsing is challenging due to the structure gap and the semantic gap between utterances and logical forms. In this paper, we propose an unsupervised semantic parsing method - Synchronous Semantic Decoding (SSD), which can simultaneously resolve the semantic gap and the structure gap by jointly leveraging paraphrasing and grammar-constrained decoding. Specifically, we reformulate semantic parsing as a constrained paraphrasing problem: given an utterance, our model synchronously generates its canonical utterancel and meaning representation. During synchronously decoding: the utterance paraphrasing is constrained by the structure of the logical form, therefore the canonical utterance can be paraphrased controlledly; the semantic decoding is guided by the semantics of the canonical utterance, therefore its logical form can be generated unsupervisedly. Experimental results show that SSD is a promising approach and can achieve state-of-the-art unsupervised semantic parsing performance on multiple datasets.",
+  "keywords": [
+    "parsing",
+    "model",
+    "semantics",
+    "the semantics",
+    "the semantic gap",
+    "form",
+    "semantic",
+    "we",
+    "semantic parsing",
+    "the semantic decoding",
+    "promising",
+    "grammar",
+    "logical",
+    "approach",
+    "synchronous"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.397/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

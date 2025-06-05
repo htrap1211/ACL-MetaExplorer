@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.57",
+  "title": "shs-nlp at {R}ad{S}um23: Domain-Adaptive Pre-training of Instruction-tuned {LLM}s for Radiology Report Impression Generation",
+  "authors": [
+    "Karn, Sanjeev Kumar  and\nGhosh, Rikhiya  and\nP, Kusuma  and\nFarri, Oladimeji"
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "Instruction-tuned generative large language models (LLMs), such as ChatGPT and Bloomz, possess excellent generalization abilities. However, they face limitations in understanding radiology reports, particularly when generating the IMPRESSIONS section from the FINDINGS section. These models tend to produce either verbose or incomplete IMPRESSIONS, mainly due to insufficient exposure to medical text data during training. We present a system that leverages large-scale medical text data for domain-adaptive pre-training of instruction-tuned LLMs, enhancing their medical knowledge and performance on specific medical tasks. We demonstrate that this system performs better in a zero-shot setting compared to several pretrain-and-finetune adaptation methods on the IMPRESSIONS generation task. Furthermore, it ranks 1st among participating systems in Task 1B: Radiology Report Summarization.",
+  "keywords": [
+    "instruction",
+    "generative",
+    "abilities",
+    "instruction-tuned llms",
+    "knowledge",
+    "insufficient exposure",
+    "generation",
+    "language",
+    "nlp",
+    "the impressions generation task",
+    "it",
+    "instruction-tuned llm s",
+    "text",
+    "llms",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.57/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

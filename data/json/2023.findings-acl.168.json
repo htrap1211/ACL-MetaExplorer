@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.168",
+  "title": "Beyond Triplet: Leveraging the Most Data for Multimodal Machine Translation",
+  "authors": [
+    "Zhu, Yaoming  and\nSun, Zewei  and\nCheng, Shanbo  and\nHuang, Luyang  and\nWu, Liwei  and\nWang, Mingxuan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Multimodal machine translation (MMT) aims to improve translation quality by incorporating information from other modalities, such as vision. Previous MMT systems focus on better access and use of visual information and tend to validate their methods on image-related datasets. However, these studies face two challenges. First, they can only utilize a limited amount of data that is composed of bilingual texts and images (referred to as “triple data”), which is scarce. Second, current benchmarks for MMT are restricted and do not correspond to realistic scenarios. Therefore, this paper correspondingly establishes new methods and a new dataset for MMT. We propose a novel framework for MMT that addresses these challenges by utilizing large-scale non-triple data, such as monolingual image-text and parallel text-only data. Additionally, we construct a new e-commercial multimodal translation dataset, named EMMT, of which the test set is specifically designed to include ambiguous words that require visual context for accurate translation. Experiments show that our method is well-suited for real-world scenarios and can significantly improve translation performance with more non-triple data. In addition, our model also rivals or surpasses various SOTA models in conventional multimodal translation benchmarks.",
+  "keywords": [
+    "these studies",
+    "we",
+    "current",
+    "other modalities",
+    "conventional multimodal translation",
+    "translation",
+    "information",
+    "accurate translation experiments",
+    "visual",
+    "text",
+    "translation quality",
+    "model",
+    "machine",
+    "studies",
+    "modalities"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.168/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

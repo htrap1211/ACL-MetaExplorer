@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.58",
+  "title": "UTSA}-{NLP} at {R}ad{S}um23: Multi-modal Retrieval-Based Chest {X}-Ray Report Summarization",
+  "authors": [
+    "Wang, Tongnian  and\nZhao, Xingmeng  and\nRios, Anthony"
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "Radiology report summarization aims to automatically provide concise summaries of radiology findings, reducing time and errors in manual summaries. However, current methods solely summarize the text, which overlooks critical details in the images. Unfortunately, directly using the images in a multimodal model is difficult. Multimodal models are susceptible to overfitting due to their increased capacity, and modalities tend to overfit and generalize at different rates. Thus, we propose a novel retrieval-based approach that uses image similarities to generate additional text features. We further employ few-shot with chain-of-thought and ensemble techniques to boost performance. Overall, our method achieves state-of-the-art performance in the F1RadGraph score, which measures the factual correctness of summaries. We rank second place in both MIMIC-CXR and MIMIC-III hidden tests among 11 teams.",
+  "keywords": [
+    "chain",
+    "summarization",
+    "we",
+    "f1radgraph",
+    "current",
+    "shot",
+    "utsa - nlp",
+    "ensemble",
+    "few-shot",
+    "retrieval",
+    "manual summaries",
+    "concise summaries",
+    "a novel retrieval-based approach",
+    "text",
+    "similarities"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.58/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

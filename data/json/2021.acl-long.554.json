@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.554",
+  "title": "R}ead{O}nce Transformers: Reusable Representations of Text for Transformers",
+  "authors": [
+    "Lin, Shih-Ting  and\nSabharwal, Ashish  and\nKhot, Tushar"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "We present ReadOnce Transformers, an approach to convert a transformer-based model into one that can build an information-capturing, task-independent, and compressed representation of text. The resulting representation is reusable across different examples and tasks, thereby requiring a document shared across many examples or tasks to only be read once. This leads to faster training and evaluation of models. Additionally, we extend standard text-to-text transformer models to Representation+Text-to-text models, and evaluate on multiple downstream tasks: multi-hop QA, abstractive QA, and long-document summarization. Our one-time computed representation results in a 2x-5x speedup compared to standard text-to-text models, while the compression also allows existing language models to handle longer documents without the need for designing new pre-trained models.",
+  "keywords": [
+    "transformer",
+    "transformers",
+    "nce",
+    "language",
+    "readonce transformers",
+    "model",
+    "text",
+    "information",
+    "summarization",
+    "we",
+    "existing language models",
+    "evaluation",
+    "pre",
+    "time",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.554/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

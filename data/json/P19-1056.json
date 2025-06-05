@@ -1,0 +1,33 @@
+{
+  "id": "P19-1056",
+  "title": "DOER}: Dual Cross-Shared {RNN} for Aspect Term-Polarity Co-Extraction",
+  "authors": [
+    "Luo, Huaishao  and\nLi, Tianrui  and\nLiu, Bing  and\nZhang, Junbo"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "This paper focuses on two related subtasks of aspect-based sentiment analysis, namely aspect term extraction and aspect sentiment classification, which we call aspect term-polarity co-extraction. The former task is to extract aspects of a product or service from an opinion document, and the latter is to identify the polarity expressed in the document about these extracted aspects. Most existing algorithms address them as two separate tasks and solve them one by one, or only perform one task, which can be complicated for real applications. In this paper, we treat these two tasks as two sequence labeling problems and propose a novel Dual crOss-sharEd RNN framework (DOER) to generate all aspect term-polarity pairs of the input sentence simultaneously. Specifically, DOER involves a dual recurrent neural network to extract the respective representation of each task, and a cross-shared unit to consider the relationship between them. Experimental results demonstrate that the proposed framework outperforms state-of-the-art baselines on three benchmark datasets.",
+  "keywords": [
+    "extraction",
+    "we",
+    "dual cross-shared rnn",
+    "classification",
+    "cross",
+    "neural",
+    "co",
+    "sequence",
+    "recurrent",
+    "analysis",
+    "-",
+    "sentiment classification",
+    "rnn",
+    "sentiment",
+    "network"
+  ],
+  "url": "https://aclanthology.org/P19-1056/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:29:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

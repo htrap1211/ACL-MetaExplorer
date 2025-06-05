@@ -1,0 +1,33 @@
+{
+  "id": "W19-4327",
+  "title": "Best Practices for Learning Domain-Specific Cross-Lingual Embeddings",
+  "authors": [
+    "Shakurova, Lena  and\nNyari, Beata  and\nLi, Chao  and\nRotaru, Mihai"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)",
+  "abstract": "Cross-lingual embeddings aim to represent words in multiple languages in a shared vector space by capturing semantic similarities across languages. They are a crucial component for scaling tasks to multiple languages by transferring knowledge from languages with rich resources to low-resource languages. A common approach to learning cross-lingual embeddings is to train monolingual embeddings separately for each language and learn a linear projection from the monolingual spaces into a shared space, where the mapping relies on a small seed dictionary. While there are high-quality generic seed dictionaries and pre-trained cross-lingual embeddings available for many language pairs, there is little research on how they perform on specialised tasks. In this paper, we investigate the best practices for constructing the seed dictionary for a specific domain. We evaluate the embeddings on the sequence labelling task of Curriculum Vitae parsing and show that the size of a bilingual dictionary, the frequency of the dictionary words in the domain corpora and the source of data (task-specific vs generic) influence performance. We also show that the less training data is available in the low-resource language, the more the construction of the bilingual dictionary matters, and demonstrate that some of the choices are crucial in the zero-shot transfer learning case.",
+  "keywords": [
+    "parsing",
+    "a shared vector space",
+    "semantic similarities",
+    "semantic",
+    "we",
+    "domain-specific cross-lingual embeddings",
+    "shot",
+    "training",
+    "cross",
+    "rich",
+    "sequence",
+    "learning",
+    "transfer",
+    "pre-trained cross-lingual embeddings",
+    "the embeddings"
+  ],
+  "url": "https://aclanthology.org/W19-4327/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:03:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

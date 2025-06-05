@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.767",
+  "title": "Controlled Text Generation for Black-box Language Models via Score-based Progressive Editor",
+  "authors": [
+    "Yu, Sangwon  and\nLee, Changmin  and\nLee, Hojin  and\nYoon, Sungroh"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Controlled text generation, aiming to ensure that language models produce text containing only the desired domain or corpus attributes, is immensely crucial in the practical application of language models. Existing methods, however, are inapplicable to black-box models or suffer a significant trade-off between control and fluency in text generation. This paper introduces the Score-based Progressive Editor (ScoPE), a novel approach designed to overcome these issues. ScoPE modifies the context at the token level during the generation process of a backbone language model. This modification guides the subsequent text to naturally include the target attributes. To facilitate this process, ScoPE employs a training objective that maximizes a target score, comprehensively considering both control and fluency. Experimental results on diverse controlled generation tasks demonstrate that ScoPE can effectively regulate the attributes of the generated text while effectively utilizing the capability of the backbone large language models.",
+  "keywords": [
+    "process",
+    "generation",
+    "language",
+    "the generation process",
+    "the generated text",
+    "model",
+    "text",
+    "objective",
+    "black-box language models",
+    "token",
+    "language models",
+    "diverse controlled generation tasks",
+    "controlled text generation",
+    "a training objective",
+    "a backbone language model"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.767/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:44:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.117",
+  "title": "HITMI}{\\&}{T} at {S}em{E}val-2021 Task 5: Integrating Transformer and {CRF} for Toxic Spans Detection",
+  "authors": [
+    "Wang, Chenyi  and\nLiu, Tianshu  and\nZhao, Tiejun"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper introduces our system at SemEval-2021 Task 5: Toxic Spans Detection. The task aims to accurately locate toxic spans within a text. Using BIO tagging scheme, we model the task as a token-level sequence labeling task. Our system uses a single model built on the model of multi-layer bidirectional transformer encoder. And we introduce conditional random field (CRF) to make the model learn the constraints between tags. We use ERNIE as pre-trained model, which is more suitable for the task accroding to our experiments. In addition, we use adversarial training with the fast gradient method (FGM) to improve the robustness of the system. Our system obtains 69.85% F1 score, ranking 3rd for the official evaluation.",
+  "keywords": [
+    "transformer",
+    "conditional random field crf",
+    "the official evaluation",
+    "em",
+    "random",
+    "model",
+    "text",
+    "token",
+    "field",
+    "encoder",
+    "gradient",
+    "tagging",
+    "layer",
+    "ernie",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.117/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

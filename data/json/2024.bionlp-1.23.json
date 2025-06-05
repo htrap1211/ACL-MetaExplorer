@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.23",
+  "title": "Large Language Models for Biomedical Knowledge Graph Construction: Information extraction from {EMR} notes",
+  "authors": [
+    "Arsenyan, Vahan  and\nBughdaryan, Spartak  and\nShaya, Fadi  and\nSmall, Kent Wilson  and\nShahnazaryan, Davit"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "The automatic construction of knowledge graphs (KGs) is an important research area in medicine, with far-reaching applications spanning drug discovery and clinical trial design. These applications hinge on the accurate identification of interactions among medical and biological entities. In this study, we propose an end-to-end machine learning solution based on large language models (LLMs) that utilize electronic medical record notes to construct KGs. The entities used in the KG construction process are diseases, factors, treatments, as well as manifestations that coexist with the patient while experiencing the disease. Given the critical need for high-quality performance in medical applications, we embark on a comprehensive assessment of 12 LLMs of various architectures, evaluating their performance and safety attributes. To gauge the quantitative efficacy of our approach by assessing both precision and recall, we manually annotate a dataset provided by the Macula and Retina Institute. We also assess the qualitative performance of LLMs, such as the ability to generate structured outputs or the tendency to hallucinate. The results illustrate that in contrast to encoder-only and encoder-decoder, decoder-only LLMs require further investigation. Additionally, we provide guided prompt design to utilize such LLMs. The application of the proposed methodology is demonstrated on age-related macular degeneration.",
+  "keywords": [
+    "end",
+    "precision",
+    "extraction",
+    "the kg construction process",
+    "we",
+    "degeneration",
+    "graph",
+    "medical and biological entities",
+    "the entities",
+    "the patient",
+    "decoder",
+    "information",
+    "knowledge graphs",
+    "learning",
+    "kgs"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.23/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

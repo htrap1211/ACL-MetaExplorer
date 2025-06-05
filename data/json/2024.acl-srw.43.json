@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-srw.43",
+  "title": "Improving Sentence Embeddings with Automatic Generation of Training Data Using Few-shot Examples",
+  "authors": [
+    "Sato, Soma  and\nTsukagoshi, Hayato  and\nSasano, Ryohei  and\nTakeda, Koichi"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "Decoder-based large language models (LLMs) have shown high performance on many tasks in natural language processing. This is also true for sentence embedding learning, where a decoder-based model, PromptEOL, has achieved the best performance on semantic textual similarity (STS) tasks. However, PromptEOL requires a manually annotated natural language inference (NLI) dataset for fine-tuning.We aim to improve sentence embeddings without using large manually annotated datasets by automatically generating an NLI dataset with an LLM and using it for fine-tuning of PromptEOL. To achieve this, we explore methods of data generation suitable for sentence embedding learning in this study. Specifically, we will focus on automatic dataset generation through few-shot learning and explore the appropriate methods to leverage few-shot examples. Experimental results on the STS tasks demonstrate that our approach outperforms existing models in settings without large manually annotated datasets.",
+  "keywords": [
+    "embeddings",
+    "data generation",
+    "tuning",
+    "processing",
+    "generation",
+    "language",
+    "natural",
+    "model",
+    "few-shot examples",
+    "it",
+    "llms",
+    "few-shot learning",
+    "an llm",
+    "automatic dataset generation",
+    "few-shot examples experimental results"
+  ],
+  "url": "https://aclanthology.org/2024.acl-srw.43/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:48:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

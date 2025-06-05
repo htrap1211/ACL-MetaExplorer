@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.344",
+  "title": "Factually Consistent Summarization via Reinforcement Learning with Textual Entailment Feedback",
+  "authors": [
+    "Roit, Paul  and\nFerret, Johan  and\nShani, Lior  and\nAharoni, Roee  and\nCideron, Geoffrey  and\nDadashi, Robert  and\nGeist, Matthieu  and\nGirgin, Sertan  and\nHussenot, Leonard  and\nKeller, Orgad  and\nMomchev, Nikola  and\nRamos Garea, Sabela  and\nStanczyk, Piotr  and\nVieillard, Nino  and\nBachem, Olivier  and\nElidan, Gal  and\nHassidim, Avinatan  and\nPietquin, Olivier  and\nSzpektor, Idan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Despite the seeming success of contemporary grounded text generation systems, they often tend to generate factually inconsistent text with respect to their input. This phenomenon is emphasized in tasks like summarization, in which the generated summaries should be corroborated by their source article. In this work we leverage recent progress on textual entailment models to directly address this problem for abstractive summarization systems. We use reinforcement learning with reference-free, textual-entailment rewards to optimize for factual consistency and explore the ensuing trade-offs, as improved consistency may come at the cost of less informative or more extractive summaries. Our results, according to both automatic metrics and human evaluation, show that our method considerably improves the faithfulness, salience and conciseness of the generated summaries.",
+  "keywords": [
+    "work",
+    "both automatic metrics",
+    "reference",
+    "human evaluation",
+    "reinforcement",
+    "summaries",
+    "generation",
+    "feedback",
+    "text",
+    "human",
+    "metrics",
+    "abstractive summarization systems",
+    "the faithfulness salience",
+    "the generated summaries",
+    "salience"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.344/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:40:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

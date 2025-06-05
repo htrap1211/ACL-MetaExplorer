@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.64",
+  "title": "Compressing Sentence Representation for Semantic Retrieval via Homomorphic Projective Distillation",
+  "authors": [
+    "Zhao, Xuandong  and\nYu, Zhiguo  and\nWu, Ming  and\nLi, Lei"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "How to learn highly compact yet effective sentence representation? Pre-trained language models have been effective in many NLP tasks. However, these models are often huge and produce large sentence embeddings. Moreover, there is a big performance gap between large and small models. In this paper, we propose Homomorphic Projective Distillation (HPD) to learn compressed sentence embeddings. Our method augments a small Transformer encoder model with learnable projection layers to produce compact representations while mimicking a large pre-trained language model to retain the sentence representation quality. We evaluate our method with different model sizes on both semantic textual similarity (STS) and semantic retrieval (SR) tasks. Experiments show that our method achieves 2.7-4.5 points performance gain on STS tasks compared with previous best representations of the same size. In SR tasks, our method improves retrieval speed (8.2×) and memory usage (8.0×) compared with state-of-the-art large models. Our implementation is available athttps://github.com/XuandongZhao/HPD.",
+  "keywords": [
+    "large sentence embeddings",
+    "semantic",
+    "we",
+    "semantic retrieval",
+    "many nlp tasks",
+    "retrieval",
+    "compressed sentence embeddings",
+    "embeddings",
+    "transformer",
+    "language",
+    "nlp",
+    "model",
+    "retrieval speed",
+    "encoder",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.64/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

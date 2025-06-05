@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.103",
+  "title": "E}-{NER}: Evidential Deep Learning for Trustworthy Named Entity Recognition",
+  "authors": [
+    "Zhang, Zhen  and\nHu, Mengting  and\nZhao, Shiwan  and\nHuang, Minlie  and\nWang, Haotian  and\nLiu, Lemao  and\nZhang, Zhirui  and\nLiu, Zhe  and\nWu, Bingzhe"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Most named entity recognition (NER) systems focus on improving model performance, ignoring the need to quantify model uncertainty, which is critical to the reliability of NER systems in open environments. Evidential deep learning (EDL) has recently been proposed as a promising solution to explicitly model predictive uncertainty for classification tasks. However, directly applying EDL to NER applications faces two challenges, i.e., the problems of sparse entities and OOV/OOD entities in NER tasks. To address these challenges, we propose a trustworthy NER framework named E-NER by introducing two uncertainty-guided loss terms to the conventional EDL, along with a series of uncertainty-guided training strategies. Experiments show that E-NER can be applied to multiple NER paradigms to obtain accurate uncertainty estimation. Furthermore, compared to state-of-the-art baselines, the proposed method achieves a better OOV/OOD detection performance and better generalization ability on OOV entities.",
+  "keywords": [
+    "deep",
+    "series",
+    "we",
+    "oov entities",
+    "training",
+    "classification",
+    "classification tasks",
+    "loss",
+    "better generalization ability",
+    "e",
+    "learning",
+    "sparse entities",
+    "ner",
+    "i",
+    "multiple ner paradigms"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.103/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.562",
+  "title": "A}ctive{AED}: A Human in the Loop Improves Annotation Error Detection",
+  "authors": [
+    "Weber, Leon  and\nPlank, Barbara"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Manually annotated datasets are crucial for training and evaluating Natural Language Processing models. However, recent work has discovered that even widely-used benchmark datasets contain a substantial number of erroneous annotations. This problem has been addressed with Annotation Error Detection (AED) models, which can flag such errors for human re-annotation. However, even though many of these AED methods assume a final curation step in which a human annotator decides whether the annotation is erroneous, they have been developed as static models without any human-in-the-loop component. In this work, we propose ActiveAED, an AED method that can detect errors more accurately by repeatedly querying a human for error corrections in its prediction loop. We evaluate ActiveAED on eight datasets spanning five different tasks and find that it leads to improvements over the state of the art on seven of them, with gains of up to six percentage points in average precision.",
+  "keywords": [
+    "precision",
+    "we",
+    "training",
+    "natural",
+    "it",
+    "natural language processing models",
+    "ctive",
+    "processing",
+    "average precision",
+    "-",
+    "work",
+    "language",
+    "human",
+    "a human",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.562/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

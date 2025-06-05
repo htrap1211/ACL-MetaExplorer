@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.144",
+  "title": "Boosting Neural Machine Translation with Similar Translations",
+  "authors": [
+    "Xu, Jitao  and\nCrego, Josep  and\nSenellart, Jean"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "This paper explores data augmentation methods for training Neural Machine Translation to make use of similar translations, in a comparable way a human translator employs fuzzy matches. In particular, we show how we can simply present the neural model with information of both source and target sides of the fuzzy matches, we also extend the similarity to include semantically related translations retrieved using sentence distributed representations. We show that translations based on fuzzy matching provide the model with “copy” information while translations based on embedding similarities tend to extend the translation “context”. Results indicate that the effect from both similar sentences are adding up to further boost accuracy, combine naturally with model fine-tuning and are providing dynamic adaptation for unseen translation pairs. Tests on multiple data sets and domains show consistent accuracy improvements. To foster research around these techniques, we also release an Open-Source toolkit with efficient and flexible fuzzy-match implementation.",
+  "keywords": [
+    "efficient",
+    "neural machine translation",
+    "we",
+    "training",
+    "translation",
+    "neural",
+    "consistent accuracy improvements",
+    "the translation context results",
+    "information",
+    "embedding similarities",
+    "tuning",
+    "fine",
+    "similar translations",
+    "accuracy",
+    "similarities"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.144/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:44:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

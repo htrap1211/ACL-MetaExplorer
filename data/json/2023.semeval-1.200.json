@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.200",
+  "title": "FMI}-{SU} at {S}em{E}val-2023 Task 7: Two-level Entailment Classification of Clinical Trials Enhanced by Contextual Data Augmentation",
+  "authors": [
+    "Vassileva, Sylvia  and\nGrazhdanski, Georgi  and\nBoytcheva, Svetla  and\nKoychev, Ivan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "The paper presents an approach for solving SemEval 2023 Task 7 - identifying the inference relation in a clinical trials dataset. The system has two levels for retrieving relevant clinical trial evidence for a statement and then classifying the inference relation based on the relevant sentences. In the first level, the system classifies the evidence-statement pairs as relevant or not using a BERT-based classifier and contextual data augmentation (subtask 2). Using the relevant parts of the clinical trial from the first level, the system uses an additional BERT-based classifier to determine whether the relation is entailment or contradiction (subtask 1). In both levels, the contextual data augmentation is showing a significant improvement in the F1 score on the test set of 3.7% for subtask 2 and 7.6% for subtask 1, achieving final F1 scores of 82.7% for subtask 2 and 64.4% for subtask 1.",
+  "keywords": [
+    "the f1 score",
+    "bert",
+    "classifier",
+    "final f1 scores",
+    "an additional bert-based classifier",
+    "7 two-level entailment classification",
+    "a bert-based classifier",
+    "classification",
+    "clinical trials",
+    "approach",
+    "contradiction",
+    "trial",
+    "the contextual data augmentation",
+    "task",
+    "two levels"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.200/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

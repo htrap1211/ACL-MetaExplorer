@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.612",
+  "title": "Improving Conversational Abilities of Quantized Large Language Models via Direct Preference Alignment",
+  "authors": [
+    "Lee, Janghwan  and\nPark, Seongmin  and\nHong, Sukjin  and\nKim, Minsoo  and\nChang, Du-Seong  and\nChoi, Jungwook"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The rapid advancement of large language models (LLMs) has facilitated their transformation into conversational chatbots that can grasp contextual nuances and generate pertinent sentences, closely mirroring human values through advanced techniques such as instruction tuning and reinforcement learning from human feedback (RLHF). However, the computational efficiency required for LLMs, achieved through techniques like post-training quantization (PTQ), presents challenges such as token-flipping that can impair chatbot performance. In response, we propose a novel preference alignment approach, quantization-aware direct preference optimization (QDPO), that aligns quantized LLMs with their full-precision counterparts, improving conversational abilities. Evaluated on two instruction-tuned LLMs in various languages, QDPO demonstrated superior performance in improving conversational abilities compared to established PTQ and knowledge-distillation fine-tuning techniques, marking a significant step forward in the development of efficient and effective conversational LLMs.",
+  "keywords": [
+    "chatbot performance",
+    "precision",
+    "feedback",
+    "two instruction-tuned llms",
+    "efficient",
+    "conversational abilities",
+    "efficiency",
+    "we",
+    "human feedback rlhf",
+    "training",
+    "instruction",
+    "chatbot",
+    "quantized large language models",
+    "rlhf",
+    "token"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.612/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

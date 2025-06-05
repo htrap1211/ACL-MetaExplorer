@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.13",
+  "title": "S}aying {N}o is {A}n {A}rt: {C}ontextualized {F}allback {R}esponses for {U}nanswerable {D}ialogue {Q}ueries",
+  "authors": [
+    "Shrivastava, Ashish  and\nDhole, Kaustubh  and\nBhatt, Abhinav  and\nRaghunath, Sharvani"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Despite end-to-end neural systems making significant progress in the last decade for task-oriented as well as chit-chat based dialogue systems, most dialogue systems rely on hybrid approaches which use a combination of rule-based, retrieval and generative approaches for generating a set of ranked responses. Such dialogue systems need to rely on a fallback mechanism to respond to out-of-domain or novel user queries which are not answerable within the scope of the dialogue system. While, dialogue systems today rely on static and unnatural responses like “I don’t know the answer to that question” or “I’m not sure about that”, we design a neural approach which generates responses which are contextually aware with the user query as well as say no to the user. Such customized responses provide paraphrasing ability and contextualization as well as improve the interaction with the user and reduce dialogue monotonicity. Our simple approach makes use of rules over dependency parses and a text-to-text transformer fine-tuned on synthetic data of question-response pairs generating highly relevant, grammatical as well as diverse questions. We perform automatic and manual evaluations to demonstrate the efficacy of the system.",
+  "keywords": [
+    "rule-based retrieval",
+    "end",
+    "n",
+    "question",
+    "we",
+    "dialogue",
+    "answer",
+    "neural",
+    "dialogue systems",
+    "queries",
+    "retrieval",
+    "ueries",
+    "generative",
+    "generative approaches",
+    "i"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

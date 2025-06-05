@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.49",
+  "title": "O}o{MM}ix: Out-of-manifold Regularization in Contextual Embedding Space for Text Classification",
+  "authors": [
+    "Lee, Seonghyeon  and\nLee, Dongha  and\nYu, Hwanjo"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Recent studies on neural networks with pre-trained weights (i.e., BERT) have mainly focused on a low-dimensional subspace, where the embedding vectors computed from input words (or their contexts) are located. In this work, we propose a new approach, called OoMMix, to finding and regularizing the remainder of the space, referred to as out-of-manifold, which cannot be accessed through the words. Specifically, we synthesize the out-of-manifold embeddings based on two embeddings obtained from actually-observed words, to utilize them for fine-tuning the network. A discriminator is trained to detect whether an input embedding is located inside the manifold or not, and simultaneously, a generator is optimized to produce new embeddings that can be easily identified as out-of-manifold by the discriminator. These two modules successfully collaborate in a unified and end-to-end manner for regularizing the out-of-manifold. Our extensive evaluation on various text classification benchmarks demonstrates the effectiveness of our approach, as well as its good compatibility with existing data augmentation techniques which aim to enhance the manifold.",
+  "keywords": [
+    "end",
+    "various text classification benchmarks",
+    "new embeddings",
+    "out-of-manifold regularization",
+    "text classification recent studies",
+    "we",
+    "classification",
+    "neural",
+    "e bert",
+    "unified",
+    "manner",
+    "i",
+    "neural networks",
+    "bert",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.49/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:00:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

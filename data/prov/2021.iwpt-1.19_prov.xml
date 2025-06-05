@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prov:Document xmlns:prov="http://www.w3.org/ns/prov#">
+  <prov:entities>
+    <prov:Entity>
+      <prov:id>paper_2021.iwpt-1.19</prov:id>
+      <prov:type>Paper</prov:type>
+    </prov:Entity>
+    <prov:Entity>
+      <prov:id>bibtex_2021.iwpt-1.19</prov:id>
+      <prov:type>BibTeX</prov:type>
+    </prov:Entity>
+  </prov:entities>
+  <prov:activities>
+    <prov:Activity>
+      <prov:id>collection_2021.iwpt-1.19</prov:id>
+      <prov:type>DataCollection</prov:type>
+      <prov:startTime>2025-05-28 18:38:27</prov:startTime>
+      <prov:endTime>2025-05-28 18:38:27</prov:endTime>
+    </prov:Activity>
+  </prov:activities>
+  <prov:agents>
+    <prov:Agent>
+      <prov:id>system</prov:id>
+      <prov:type>SoftwareAgent</prov:type>
+    </prov:Agent>
+  </prov:agents>
+  <prov:relationships>
+    <prov:WasGeneratedBy>
+      <prov:entity>paper_2021.iwpt-1.19</prov:entity>
+      <prov:activity>collection_2021.iwpt-1.19</prov:activity>
+      <prov:time>2025-05-28 18:38:27</prov:time>
+    </prov:WasGeneratedBy>
+    <prov:WasDerivedFrom>
+      <prov:generatedEntity>paper_2021.iwpt-1.19</prov:generatedEntity>
+      <prov:usedEntity>bibtex_2021.iwpt-1.19</prov:usedEntity>
+      <prov:activity>collection_2021.iwpt-1.19</prov:activity>
+      <prov:time>2025-05-28 18:38:27</prov:time>
+    </prov:WasDerivedFrom>
+    <prov:WasAttributedTo>
+      <prov:entity>paper_2021.iwpt-1.19</prov:entity>
+      <prov:agent>system</prov:agent>
+    </prov:WasAttributedTo>
+  </prov:relationships>
+</prov:Document>

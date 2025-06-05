@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.620",
+  "title": "Improving Multilingual Neural Machine Translation by Utilizing Semantic and Linguistic Features",
+  "authors": [
+    "Bu, Mengyu  and\nGu, Shuhao  and\nFeng, Yang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "The many-to-many multilingual neural machine translation can be regarded as the process of integrating semantic features from the source sentences and linguistic features from the target sentences. To enhance zero-shot translation, models need to share knowledge across languages, which can be achieved through auxiliary tasks for learning a universal representation or cross-lingual mapping. To this end, we propose to exploit both semantic and linguistic features between multiple languages to enhance multilingual translation. On the encoder side, we introduce a disentangling learning task that aligns encoder representations by disentangling semantic and linguistic features, thus facilitating knowledge transfer while preserving complete information. On the decoder side, we leverage a linguistic encoder to integrate low-level linguistic features to assist in the target language generation. Experimental results on multilingual datasets demonstrate significant improvement in zero-shot translation compared to the baseline system, while maintaining performance in supervised translation. Further analysis validates the effectiveness of our method in leveraging both semantic and linguistic features.",
+  "keywords": [
+    "end",
+    "semantic",
+    "we",
+    "multilingual translation",
+    "shot",
+    "translation",
+    "cross",
+    "neural",
+    "zero-shot translation models",
+    "decoder",
+    "information",
+    "learning",
+    "transfer",
+    "zero-shot translation",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.620/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

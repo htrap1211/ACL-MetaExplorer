@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.12",
+  "title": "How Abilities in Large Language Models are Affected by Supervised Fine-tuning Data Composition",
+  "authors": [
+    "Dong, Guanting  and\nYuan, Hongyi  and\nLu, Keming  and\nLi, Chengpeng  and\nXue, Mingfeng  and\nLiu, Dayiheng  and\nWang, Wei  and\nYuan, Zheng  and\nZhou, Chang  and\nZhou, Jingren"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large language models (LLMs) with enormous pre-training tokens and parameters emerge diverse abilities, including math reasoning, codegeneration, and instruction following. These abilities are further enhanced by supervised fine-tuning (SFT). While the open-source community has explored ad-hoc SFT for enhancing individual capabilities, proprietary LLMs exhibit versatility across various skills. Therefore, understanding the facilitation of multiple abilities via SFT is paramount. In this study, we specificially focuses on the interplay of data composition between mathematical reasoning, code generation, and general human-aligning abilities during SFT. We propose four intriguing research questions to explore the association between model performance and various factors including data amount, composition ratio, model size and SFT strategies. Our experiments reveal that distinct capabilities scale differently and larger models generally show superior performance with same amount of data. Mathematical reasoning and code generation consistently improve with increasing data amount, whereas general abilities plateau after roughly a thousand samples. Moreover, we observe data composition appears to enhance various abilities under limited data conditions, yet can lead to performance conflicts when data is plentiful. Our findings also suggest the amount of composition data influences performance more than the composition ratio. In analysis of SFT strategies, we find that sequentially learning multiple skills risks catastrophic forgetting. Our proposed Dual-stage Mixed Fine-tuning (DMT) strategy offers a promising solution to learn multiple abilities with different scaling patterns.",
+  "keywords": [
+    "code",
+    "multiple abilities",
+    "codegeneration",
+    "we",
+    "training",
+    "instruction",
+    "diverse abilities",
+    "sft strategies",
+    "various abilities",
+    "these abilities",
+    "general human-aligning abilities",
+    "analysis",
+    "llms",
+    "enormous pre-training tokens",
+    "abilities"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:34:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

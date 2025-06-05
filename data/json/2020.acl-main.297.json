@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.297",
+  "title": "Syntax-Aware Opinion Role Labeling with Dependency Graph Convolutional Networks",
+  "authors": [
+    "Zhang, Bo  and\nZhang, Yue  and\nWang, Rui  and\nLi, Zhenghua  and\nZhang, Min"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Opinion role labeling (ORL) is a fine-grained opinion analysis task and aims to answer “who expressed what kind of sentiment towards what?”. Due to the scarcity of labeled data, ORL remains challenging for data-driven methods. In this work, we try to enhance neural ORL models with syntactic knowledge by comparing and integrating different representations. We also propose dependency graph convolutional networks (DEPGCN) to encode parser information at different processing levels. In order to compensate for parser inaccuracy and reduce error propagation, we introduce multi-task learning (MTL) to train the parser and the ORL model simultaneously. We verify our methods on the benchmark MPQA corpus. The experimental results show that syntactic information is highly valuable for ORL, and our final MTL model effectively boosts the F1 score by 9.29 over the syntax-agnostic baseline. In addition, we find that the contributions from syntactic knowledge do not fully overlap with contextualized word representations (BERT). Our best model achieves 4.34 higher F1 score than the current state-ofthe-art.",
+  "keywords": [
+    "encode",
+    "syntax-aware opinion role",
+    "we",
+    "graph",
+    "convolutional",
+    "syntax",
+    "current",
+    "neural",
+    "information",
+    "word",
+    "the syntax-agnostic baseline",
+    "mpqa",
+    "analysis",
+    "processing",
+    "the f1 score"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.297/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:46:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

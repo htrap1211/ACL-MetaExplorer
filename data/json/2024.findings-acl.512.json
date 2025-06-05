@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.512",
+  "title": "Generalized Category Discovery with Large Language Models in the Loop",
+  "authors": [
+    "An, Wenbin  and\nShi, Wenkai  and\nTian, Feng  and\nLin, Haonan  and\nWang, QianYing  and\nWu, Yaqiang  and\nCai, Mingxiang  and\nWang, Luyan  and\nChen, Yan  and\nZhu, Haiping  and\nChen, Ping"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Generalized Category Discovery (GCD) is a crucial task that aims to recognize both known and novel categories from a set of unlabeled data by utilizing a few labeled data with only known categories. Due to the lack of supervision and category information, current methods usually perform poorly on novel categories and struggle to reveal semantic meanings of the discovered clusters, which limits their applications in the real world. To mitigate the above issues, we propose Loop, an end-to-end active-learning framework that introduces Large Language Models (LLMs) into the training loop, which can boost model performance and generate category names without relying on any human efforts. Specifically, we first propose Local Inconsistent Sampling (LIS) to select samples that have a higher probability of falling to wrong clusters, based on neighborhood prediction consistency and entropy of cluster assignment probabilities. Then we propose a Scalable Query strategy to allow LLMs to choose true neighbors of the selected samples from multiple candidate samples. Based on the feedback from LLMs, we perform Refined Neighborhood Contrastive Learning (RNCL) to pull samples and their neighbors closer to learn clustering-friendly representations. Finally, we select representative samples from clusters corresponding to novel categories to allow LLMs to generate category names for them. Extensive experiments on three benchmark datasets show that Loop outperforms SOTA models by a large margin and generates accurate category names for the discovered clusters. Code and data are available at https://github.com/Lackel/LOOP.",
+  "keywords": [
+    "code",
+    "end",
+    "feedback",
+    "clustering-friendly representations",
+    "semantic",
+    "we",
+    "current",
+    "training",
+    "novel categories",
+    "friendly",
+    "cluster",
+    "information",
+    "cluster assignment probabilities",
+    "learning",
+    "llms"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.512/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:55:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

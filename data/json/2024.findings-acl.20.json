@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.20",
+  "title": "I}mplicit{AVE}: An Open-Source Dataset and Multimodal {LLM}s Benchmark for Implicit Attribute Value Extraction",
+  "authors": [
+    "Zou, Henry  and\nSamuel, Vinay  and\nZhou, Yue  and\nZhang, Weizhi  and\nFang, Liancheng  and\nSong, Zihe  and\nYu, Philip  and\nCaragea, Cornelia"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Existing datasets for attribute value extraction (AVE) predominantly focus on explicit attribute values while neglecting the implicit ones, lack product images, are often not publicly available, and lack an in-depth human inspection across diverse domains. To address these limitations, we present ImplicitAVE, the first, publicly available multimodal dataset for implicit attribute value extraction. ImplicitAVE, sourced from the MAVE dataset, is carefully curated and expanded to include implicit AVE and multimodality, resulting in a refined dataset of 68k training and 1.6k testing data across five domains. We also explore the application of multimodal large language models (MLLMs) to implicit AVE, establishing a comprehensive benchmark for MLLMs on the ImplicitAVE dataset. Six recent MLLMs with eleven variants are evaluated across diverse settings, revealing that implicit value extraction remains a challenging task for MLLMs. The contributions of this work include the development and release of ImplicitAVE, and the exploration and benchmarking of various MLLMs for implicit AVE, providing valuable insights and potential future research directions. Dataset and code are available at https://github.com/HenryPengZou/ImplicitAVE.",
+  "keywords": [
+    "code",
+    "extraction",
+    "we",
+    "llm",
+    "training",
+    "six recent mllms",
+    "i",
+    "various mllms",
+    "llm s benchmark",
+    "work",
+    "mllms",
+    "language",
+    "human",
+    "images",
+    "settings"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.20/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:48:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

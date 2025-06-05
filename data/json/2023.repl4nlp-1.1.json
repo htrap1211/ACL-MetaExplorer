@@ -1,0 +1,33 @@
+{
+  "id": "2023.repl4nlp-1.1",
+  "title": "Adversarial Clean Label Backdoor Attacks and Defenses on Text Classification Systems",
+  "authors": [
+    "Gupta, Ashim  and\nKrishna, Amrith"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 8th Workshop on Representation Learning for NLP (RepL4NLP 2023)",
+  "abstract": "Clean-label (CL) attack is a form of data poisoning attack where an adversary modifies only the textual input of the training data, without requiring access to the labeling function. CL attacks are relatively unexplored in NLP, as compared to label flipping (LF) attacks, where the latter additionally requires access to the labeling function as well. While CL attacks are more resilient to data sanitization and manual relabeling methods than LF attacks, they often demand as high as ten times the poisoning budget than LF attacks. In this work, we first introduce an Adversarial Clean Label attack which can adversarially perturb in-class training examples for poisoning the training set. We then show that an adversary can significantly bring down the data requirements for a CL attack, using the aforementioned approach, to as low as 20 % of the data otherwise required. We then systematically benchmark and analyze a number of defense methods, for both LF and CL attacks, some previously employed solely for LF attacks in the textual domain and others adapted from computer vision. We find that text-specific defenses greatly vary in their effectiveness depending on their properties.",
+  "keywords": [
+    "form",
+    "we",
+    "training",
+    "classification",
+    "resilient",
+    "their properties",
+    "properties",
+    "text",
+    "function",
+    "work",
+    "nlp",
+    "class",
+    "approach",
+    "poisoning",
+    "low"
+  ],
+  "url": "https://aclanthology.org/2023.repl4nlp-1.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

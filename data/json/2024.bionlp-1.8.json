@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.8",
+  "title": "e-Health {CSIRO} at {RRG}24: Entropy-Augmented Self-Critical Sequence Training for Radiology Report Generation",
+  "authors": [
+    "Nicolson, Aaron  and\nLiu, Jinghui  and\nDowling, Jason  and\nNguyen, Anthony  and\nKoopman, Bevan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "The core novelty of our approach lies in the addition of entropy regularisation to self-critical sequence training. This helps maintain a higher entropy in the token distribution, preventing overfitting to common phrases and ensuring a broader exploration of the vocabulary during training, which is essential for handling the diversity of the radiology reports in the RRG24 datasets. We apply this to a multimodal language model with RadGraph as the reward. Additionally, our model incorporates several other aspects. We use token type embeddings to differentiate between findings and impression section tokens, as well as image embeddings. To handle missing sections, we employ special tokens. We also utilise an attention mask with non-causal masking for the image embeddings and a causal mask for the report token embeddings.",
+  "keywords": [
+    "image embeddings",
+    "a multimodal language model",
+    "we",
+    "radiology report generation",
+    "training",
+    "token embeddings",
+    "self",
+    "token",
+    "sequence",
+    "core",
+    "entropy",
+    "token type embeddings",
+    "the image embeddings",
+    "embeddings",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

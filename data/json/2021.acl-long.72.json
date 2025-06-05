@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.72",
+  "title": "D}e{CLUTR}: Deep Contrastive Learning for Unsupervised Textual Representations",
+  "authors": [
+    "Giorgi, John  and\nNitski, Osvald  and\nWang, Bo  and\nBader, Gary"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Sentence embeddings are an important component of many natural language processing (NLP) systems. Like word embeddings, sentence embeddings are typically learned on large text corpora and then transferred to various downstream tasks, such as clustering and retrieval. Unlike word embeddings, the highest performing solutions for learning sentence embeddings require labelled data, limiting their usefulness to languages and domains where labelled data is abundant. In this paper, we present DeCLUTR: Deep Contrastive Learning for Unsupervised Textual Representations. Inspired by recent advances in deep metric learning (DML), we carefully design a self-supervised objective for learning universal sentence embeddings that does not require labelled training data. When used to extend the pretraining of transformer-based language models, our approach closes the performance gap between unsupervised and supervised pretraining for universal sentence encoders. Importantly, our experiments suggest that the quality of the learned embeddings scale with both the number of trainable parameters and the amount of unlabelled training data. Our code and pretrained models are publicly available and can be easily adapted to new domains or used to embed unseen text.",
+  "keywords": [
+    "deep",
+    "code",
+    "we",
+    "training",
+    "a self-supervised objective",
+    "natural",
+    "self",
+    "retrieval",
+    "word",
+    "universal sentence embeddings",
+    "learning",
+    "processing",
+    "metric",
+    "text",
+    "objective"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.72/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:00:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

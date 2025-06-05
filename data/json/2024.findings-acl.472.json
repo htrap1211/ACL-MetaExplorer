@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.472",
+  "title": "LLMC}rit: Teaching Large Language Models to Use Criteria",
+  "authors": [
+    "Yuan, Weizhe  and\nLiu, Pengfei  and\nGall{\\'e}, Matthias"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Humans follow criteria when they execute tasks, and these criteria are directly used to assess the quality of task completion. Therefore, having models learn to use criteria to provide feedback can help humans or models to perform tasks better. However, current research in this area tends to consider only a limited number of criteria, or only a limited number of quality assessment aspects. To fill this gap, we propose a general framework that enables large language models (LLMs) to use comprehensive criteria for a task in delivering natural language feedback on task execution. In particular, we present a model-in-the-loop framework that semi-automatically derives criteria from collected guidelines for different writing tasks and constructs in-context demonstrations for each criterion. We choose three tasks from real-world scenarios to operationalize this idea: paper introduction writing, Python code writing, and Reddit post writing, and evaluate our feedback generation framework using different LLMs. The results reveal the fine-grained effects of adding criteria and demonstrations and provide valuable guidance on how to teach LLMs to use criteria more effectively.",
+  "keywords": [
+    "code",
+    "feedback",
+    "we",
+    "llmc rit",
+    "current",
+    "different llms",
+    "natural",
+    "llmc",
+    "llms",
+    "a general framework",
+    "our feedback generation framework",
+    "general",
+    "language",
+    "generation",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.472/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:55:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

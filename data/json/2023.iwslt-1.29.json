@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.29",
+  "title": "The {NPU}-{MSXF} Speech-to-Speech Translation System for {IWSLT} 2023 Speech-to-Speech Translation Task",
+  "authors": [
+    "Song, Kun  and\nLei, Yi  and\nChen, Peikun  and\nCao, Yiqing  and\nWei, Kun  and\nZhang, Yongmao  and\nXie, Lei  and\nJiang, Ning  and\nZhao, Guoqing"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "This paper describes the NPU-MSXF system for the IWSLT 2023 speech-to-speech translation (S2ST) task which aims to translate from English speech of multi-source to Chinese speech. The system is built in a cascaded manner consisting of automatic speech recognition (ASR), machine translation (MT), and text-to-speech (TTS). We make tremendous efforts to handle the challenging multi-source input. Specifically, to improve the robustness to multi-source speech input, we adopt various data augmentation strategies and a ROVER-based score fusion on multiple ASR model outputs. To better handle the noisy ASR transcripts, we introduce a three-stage fine-tuning strategy to improve translation accuracy. Finally, we build a TTS model with high naturalness and sound quality, which leverages a two-stage framework, using network bottleneck features as a robust intermediate representation for speaker timbre and linguistic content disentanglement. Based on the two-stage framework, pre-trained speaker embedding is leveraged as a condition to transfer the speaker timbre in the source English speech to the translated Chinese speech. Experimental results show that our system has high translation accuracy, speech naturalness, sound quality, and speaker similarity. Moreover, it shows good robustness to multi-source data.",
+  "keywords": [
+    "we",
+    "fusion",
+    "translation",
+    "it",
+    "a cascaded manner",
+    "a three-stage fine-tuning strategy",
+    "translation accuracy",
+    "manner",
+    "tuning",
+    "text",
+    "strategies",
+    "-",
+    "fine",
+    "accuracy",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.29/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:25:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

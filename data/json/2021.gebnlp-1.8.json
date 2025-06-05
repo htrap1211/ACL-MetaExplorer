@@ -1,0 +1,33 @@
+{
+  "id": "2021.gebnlp-1.8",
+  "title": "Using Gender- and Polarity-Informed Models to Investigate Bias",
+  "authors": [
+    "Touileb, Samia  and\n{\\O}vrelid, Lilja  and\nVelldal, Erik"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 3rd Workshop on Gender Bias in Natural Language Processing",
+  "abstract": "In this work we explore the effect of incorporating demographic metadata in a text classifier trained on top of a pre-trained transformer language model. More specifically, we add information about the gender of critics and book authors when classifying the polarity of book reviews, and the polarity of the reviews when classifying the genders of authors and critics. We use an existing data set of Norwegian book reviews with ratings by professional critics, which has also been augmented with gender information, and train a document-level sentiment classifier on top of a recently released Norwegian BERT-model. We show that gender-informed models obtain substantially higher accuracy, and that polarity-informed models obtain higher accuracy when classifying the genders of book authors. For this particular data set, we take this result as a confirmation of the gender bias in the underlying label distribution, but in other settings we believe a similar approach can be used for mitigating bias in the model.",
+  "keywords": [
+    "work",
+    "book reviews",
+    "transformer",
+    "top",
+    "a document-level sentiment classifier",
+    "bias",
+    "language",
+    "bert",
+    "classifier",
+    "model",
+    "norwegian book reviews",
+    "text",
+    "substantially higher accuracy",
+    "information",
+    "higher accuracy"
+  ],
+  "url": "https://aclanthology.org/2021.gebnlp-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

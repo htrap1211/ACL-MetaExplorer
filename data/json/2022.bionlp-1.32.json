@@ -1,0 +1,33 @@
+{
+  "id": "2022.bionlp-1.32",
+  "title": "ICDB}ig{B}ird: A Contextual Embedding Model for {ICD} Code Classification",
+  "authors": [
+    "Michalopoulos, George  and\nMalyska, Michal  and\nSahar, Nicola  and\nWong, Alexander  and\nChen, Helen"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 21st Workshop on Biomedical Language Processing",
+  "abstract": "The International Classification of Diseases (ICD) system is the international standard for classifying diseases and procedures during a healthcare encounter and is widely used for healthcare reporting and management purposes. Assigning correct codes for clinical procedures is important for clinical, operational and financial decision-making in healthcare. Contextual word embedding models have achieved state-of-the-art results in multiple NLP tasks. However, these models have yet to achieve state-of-the-art results in the ICD classification task since one of their main disadvantages is that they can only process documents that contain a small number of tokens which is rarely the case with real patient notes. In this paper, we introduce ICDBigBird a BigBird-based model which can integrate a Graph Convolutional Network (GCN), that takes advantage of the relations between ICD codes in order to create ‘enriched’ representations of their embeddings, with a BigBird contextual model that can process larger documents. Our experiments on a real-world clinical dataset demonstrate the effectiveness of our BigBird-based model on the ICD classification task as it outperforms the previous state-of-the-art models.",
+  "keywords": [
+    "code",
+    "icd code classification",
+    "multiple nlp tasks",
+    "we",
+    "graph",
+    "convolutional",
+    "classification",
+    "their embeddings",
+    "it",
+    "the icd classification task",
+    "real patient notes",
+    "a contextual embedding model",
+    "word",
+    "ig",
+    "the international classification"
+  ],
+  "url": "https://aclanthology.org/2022.bionlp-1.32/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

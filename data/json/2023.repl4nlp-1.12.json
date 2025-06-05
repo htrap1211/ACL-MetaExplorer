@@ -1,0 +1,33 @@
+{
+  "id": "2023.repl4nlp-1.12",
+  "title": "Extracting Multi-valued Relations from Language Models",
+  "authors": [
+    "Singhania, Sneha  and\nRazniewski, Simon  and\nWeikum, Gerhard"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 8th Workshop on Representation Learning for NLP (RepL4NLP 2023)",
+  "abstract": "The widespread usage of latent language representations via pre-trained language models (LMs) suggests that they are a promising source of structured knowledge. However, existing methods focus only on a single object per subject-relation pair, even though often multiple objects are correct. To overcome this limitation, we analyze these representations for their potential to yield materialized multi-object relational knowledge. We formulate the problem as a rank-then-select task. For ranking candidate objects, we evaluate existing prompting techniques and propose new ones incorporating domain knowledge. Among the selection methods, we find that choosing objects with a likelihood above a learned relation-specific threshold gives a 49.5% F1 score. Our results highlight the difficulty of employing LMs for the multi-valued slot-filling task, and pave the way for further research on extracting relational knowledge from latent language representations.",
+  "keywords": [
+    "we",
+    "pre-trained language models lms",
+    "latent",
+    "object",
+    "language models",
+    "knowledge",
+    "language",
+    "existing prompting techniques",
+    "pre",
+    "promising",
+    "multi",
+    "the widespread usage",
+    "single",
+    "models",
+    "difficulty"
+  ],
+  "url": "https://aclanthology.org/2023.repl4nlp-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

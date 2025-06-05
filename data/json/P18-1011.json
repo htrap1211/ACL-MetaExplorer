@@ -1,0 +1,33 @@
+{
+  "id": "P18-1011",
+  "title": "Improving Knowledge Graph Embedding Using Simple Constraints",
+  "authors": [
+    "Ding, Boyang  and\nWang, Quan  and\nWang, Bin  and\nGuo, Li"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Embedding knowledge graphs (KGs) into continuous vector spaces is a focus of current research. Early works performed this task via simple models developed over KG triples. Recent attempts focused on either designing more complicated triple scoring models, or incorporating extra information beyond triples. This paper, by contrast, investigates the potential of using very simple constraints to improve KG embedding. We examine non-negativity constraints on entity representations and approximate entailment constraints on relation representations. The former help to learn compact and interpretable representations for entities. The latter further encode regularities of logical entailment between relations into their distributed representations. These constraints impose prior beliefs upon the structure of the embedding space, without negative impacts on efficiency or scalability. Evaluation on WordNet, Freebase, and DBpedia shows that our approach is simple yet surprisingly effective, significantly and consistently outperforming competitive baselines. The constraints imposed indeed improve model interpretability, leading to a substantially increased structuring of the embedding space. Code and data are available athttps://github.com/iieir-km/ComplEx-NNE_AER.",
+  "keywords": [
+    "wordnet freebase",
+    "code",
+    "the embedding space code",
+    "extra",
+    "encode",
+    "knowledge graph",
+    "efficiency",
+    "we",
+    "graph",
+    "regularities",
+    "current",
+    "prior beliefs",
+    "information",
+    "scalability evaluation",
+    "iieir-km"
+  ],
+  "url": "https://aclanthology.org/P18-1011/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:09:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

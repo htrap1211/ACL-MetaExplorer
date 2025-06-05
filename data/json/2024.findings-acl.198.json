@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.198",
+  "title": "Red Teaming Visual Language Models",
+  "authors": [
+    "Li, Mukai  and\nLi, Lei  and\nYin, Yuwei  and\nAhmed, Masood  and\nLiu, Zhenguang  and\nLiu, Qi"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "VLMs (Vision-Language Models) extend the capabilities of LLMs (Large Language Models) to accept multimodal inputs. Since it has been verified that LLMs can be induced to generate harmful or inaccurate content through specific test cases (termed as Red Teaming), how VLMs perform in similar scenarios, especially with their combination of textual and visual inputs, remains a question. To explore this problem, we present a novel red teaming dataset RTVLM, which encompasses 12 subtasks (e.g., image misleading, multi-modal jailbreaking, face fairness, etc) under 4 primary aspects (faithfulness, privacy, safety, fairness). Our RTVLM is the first red teaming dataset to benchmark current VLMs in terms of these 4 different aspects. Detailed analysis shows that 10 prominent open-sourced VLMs struggle with the red teaming in different degrees and have up to 31% performance gap with GPT-4V. Additionally, we simply apply red teaming alignment to LLaVA-v1.5 with Supervised Fine-tuning (SFT) using RTVLM, and this bolsters the models’ performance with 10% in RTVLM test set, 13% in MM-hallu, and without noticeable decline in MM-Bench, overpassing other LLaVA-based models in similar size with regular alignment data. This reveals that current open-sourced VLMs still lack red teaming alignment. Our code and datasets will be open-sourced.",
+  "keywords": [
+    "code",
+    "gpt-4v",
+    "question",
+    "we",
+    "current",
+    "red",
+    "it",
+    "the capabilities",
+    "visual",
+    "analysis",
+    "llms",
+    "tuning",
+    "mm",
+    "red teaming alignment",
+    "regular alignment data"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.198/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

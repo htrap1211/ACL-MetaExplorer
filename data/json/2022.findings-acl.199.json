@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.199",
+  "title": "Single Model Ensemble for Subword Regularized Models in Low-Resource Machine Translation",
+  "authors": [
+    "Takase, Sho  and\nHiraoka, Tatsuya  and\nOkazaki, Naoaki"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Subword regularizations use multiple subword segmentations during training to improve the robustness of neural machine translation models. In previous subword regularizations, we use multiple segmentations in the training process but use only one segmentation in the inference. In this study, we propose an inference strategy to address this discrepancy. The proposed strategy approximates the marginalized likelihood by using multiple segmentations including the most plausible segmentation and several sampled segmentations. Because the proposed strategy aggregates predictions from several segmentations, we can regard it as a single model ensemble that does not require any additional cost for training. Experimental results show that the proposed strategy improves the performance of models trained with subword regularization in low-resource machine translation tasks.",
+  "keywords": [
+    "ensemble",
+    "process",
+    "neural",
+    "model",
+    "machine",
+    "it",
+    "low-resource machine translation tasks",
+    "a single model ensemble",
+    "single model ensemble",
+    "regularization",
+    "low-resource machine translation",
+    "we",
+    "regularizations",
+    "subword regularization",
+    "subword regularizations"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.199/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

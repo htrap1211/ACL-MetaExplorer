@@ -1,0 +1,33 @@
+{
+  "id": "2024.alvr-1.10",
+  "title": "Vision Language Models for Spreadsheet Understanding: Challenges and Opportunities",
+  "authors": [
+    "Xia, Shiyu  and\nXiong, Junyu  and\nDong, Haoyu  and\nZhao, Jianbo  and\nTian, Yuzhang  and\nZhou, Mengyu  and\nHe, Yeye  and\nHan, Shi  and\nZhang, Dongmei"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 3rd Workshop on Advances in Language and Vision Research (ALVR)",
+  "abstract": "This paper explores capabilities of Vision Language Models on spreadsheet comprehension. We propose three self-supervised challenges with corresponding evaluation metrics to comprehensively evaluate VLMs on Optical Character Recognition (OCR), spatial perception, and visual format recognition. Additionally, we utilize the spreadsheet table detection task to assess the overall performance of VLMs by integrating these challenges. To probe VLMs more finely, we propose three spreadsheet-to-image settings: column width adjustment, style change, and address augmentation. We propose variants of prompts to address the above tasks in different settings. Notably, to leverage the strengths of VLMs in understanding text rather than two-dimensional positioning, we propose to decode cell values on the four boundaries of the table in spreadsheet boundary detection. Our findings reveal that VLMs demonstrate promising OCR capabilities but produce unsatisfactory results due to cell omission and misalignment, and they notably exhibit insufficient spatial and format recognition skills, motivating future work to enhance VLMs’ spreadsheet data comprehension capabilities using our methods to generate extensive spreadsheet-image pairs in various settings.",
+  "keywords": [
+    "ocr capabilities",
+    "opportunities",
+    "decode",
+    "we",
+    "corresponding evaluation metrics",
+    "misalignment",
+    "self",
+    "format",
+    "visual",
+    "text",
+    "metrics",
+    "dimensional",
+    "insufficient",
+    "work",
+    "prompts"
+  ],
+  "url": "https://aclanthology.org/2024.alvr-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:02:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

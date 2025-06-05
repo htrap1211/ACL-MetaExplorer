@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.58",
+  "title": "YNU}-{HPCC} at {S}em{E}val-2021 Task 11: Using a {BERT} Model to Extract Contributions from {NLP} Scholarly Articles",
+  "authors": [
+    "Ma, Xinge  and\nWang, Jin  and\nZhang, Xuejie"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper describes the system we built as the YNU-HPCC team in the SemEval-2021 Task 11: NLPContributionGraph. This task involves first identifying sentences in the given natural language processing (NLP) scholarly articles that reflect research contributions through binary classification; then identifying the core scientific terms and their relation phrases from these contribution sentences by sequence labeling; and finally, these scientific terms and relation phrases are categorized, identified, and organized into subject-predicate-object triples to form a knowledge graph with the help of multiclass classification and multi-label classification. We developed a system for this task using a pre-trained language representation model called BERT that stands for Bidirectional Encoder Representations from Transformers, and achieved good results. The average F1-score for Evaluation Phase 2, Part 1 was 0.4562 and ranked 7th, and the average F1-score for Evaluation Phase 2, Part 2 was 0.6541, and also ranked 7th.",
+  "keywords": [
+    "the core scientific terms",
+    "transformers",
+    "em",
+    "binary classification",
+    "we",
+    "graph",
+    "nlp scholarly articles",
+    "classification",
+    "natural",
+    "evaluation phase",
+    "multi-label classification",
+    "bidirectional encoder representations",
+    "sequence",
+    "scientific",
+    "core"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.58/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:20:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

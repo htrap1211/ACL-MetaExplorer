@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.607",
+  "title": "Draft {\\&} Verify: Lossless Large Language Model Acceleration via Self-Speculative Decoding",
+  "authors": [
+    "Zhang, Jun  and\nWang, Jue  and\nLi, Huan  and\nShou, Lidan  and\nChen, Ke  and\nChen, Gang  and\nMehrotra, Sharad"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We present a novel inference scheme, self-speculative decoding, for accelerating Large Language Models (LLMs) without the need for an auxiliary model. This approach is characterized by a two-stage process: drafting and verification. The drafting stage generates draft tokens at a slightly lower quality but more quickly, which is achieved by selectively skipping certain intermediate layers during drafting. Subsequently, the verification stage employs the original LLM to validate those draft output tokens in one forward pass. This process ensures the final output remains identical to that produced by the unaltered LLM. Moreover, the proposed method requires no additional neural network training and no extra memory footprint, making it a plug-and-play and cost-effective solution for inference acceleration. Benchmarks with LLaMA-2 and its variants demonstrated a speedup up to 1.99×.",
+  "keywords": [
+    "process",
+    "language",
+    "neural",
+    "model",
+    "it",
+    "extra",
+    "large language models",
+    "self",
+    "the original llm",
+    "network",
+    "we",
+    "large language model acceleration",
+    "llm",
+    "training",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.607/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

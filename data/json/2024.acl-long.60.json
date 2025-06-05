@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.60",
+  "title": "RORA}: Robust Free-Text Rationale Evaluation",
+  "authors": [
+    "Jiang, Zhengping  and\nLu, Yining  and\nChen, Hanjie  and\nKhashabi, Daniel  and\nVan Durme, Benjamin  and\nLiu, Anqi"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Free-text rationales play a pivotal role in explainable NLP, bridging the knowledge and reasoning gaps behind a model’s decision-making. However, due to the diversity of potential reasoning paths and a corresponding lack of definitive ground truth, their evaluation remains a challenge. Existing metrics rely on the degree to which a rationalesupportsa target label, but we find these fall short in evaluating rationales that inadvertentlyleak the label. To address this problem, we propose RORA, a RObust free-text RAtionale evaluation against label leakage. RORA quantifies the new information supplied by a rationale to justify the label. This is achieved by assessing the conditional𝒱-information (Hewitt et al., 2021) with a predictive family robust against leaky features that can be exploited by a small model. RORA consistently outperforms existing approaches in evaluating human-written, synthetic, or model-generated rationales, particularly demonstrating robustness against label leakage. We also show that RORA aligns well with human judgment, providing a more reliable and accurate measurement across diverse free-text rationales.",
+  "keywords": [
+    "we",
+    "label leakage rora quantifies",
+    "information",
+    "quantifies",
+    "text",
+    "metrics",
+    "explainable nlp",
+    "knowledge",
+    "nlp",
+    "model",
+    "human",
+    "their evaluation",
+    "evaluation",
+    "existing metrics",
+    "leaky"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.60/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:35:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.368",
+  "title": "BERTRAM}: Improved Word Embeddings Have Big Impact on Contextualized Model Performance",
+  "authors": [
+    "Schick, Timo  and\nSch{\\\"u}tze, Hinrich"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Pretraining deep language models has led to large performance gains in NLP. Despite this success, Schick and Schütze (2020) recently showed that these models struggle to understand rare words. For static word embeddings, this problem has been addressed by separately learning representations for rare words. In this work, we transfer this idea to pretrained language models: We introduce BERTRAM, a powerful architecture based on BERT that is capable of inferring high-quality embeddings for rare words that are suitable as input representations for deep language models. This is achieved by enabling the surface form and contexts of a word to interact with each other in a deep architecture. Integrating BERTRAM into BERT leads to large performance increases due to improved representations of rare and medium frequency words on both a rare word probing task and three downstream tasks.",
+  "keywords": [
+    "embeddings",
+    "deep",
+    "work",
+    "bertram",
+    "language",
+    "nlp",
+    "bert",
+    "model",
+    "static word embeddings",
+    "language models",
+    "deep language models",
+    "form",
+    "we",
+    "word",
+    "high-quality embeddings"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.368/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:47:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

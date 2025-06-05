@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.481",
+  "title": "Deterministic Reversible Data Augmentation for Neural Machine Translation",
+  "authors": [
+    "Yao, Jiashu  and\nHuang, Heyan  and\nLiu, Zeming  and\nGuo, Yuhang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Data augmentation is an effective way to diversify corpora in machine translation, but previous methods may introduce semantic inconsistency between original and augmented data because of irreversible operations and random subword sampling procedures. To generate both symbolically diverse and semantically consistent augmentation data, we propose Deterministic Reversible Data Augmentation (DRDA), a simple but effective data augmentation method for neural machine translation. DRDA adopts deterministic segmentations and reversible operations to generate multi-granularity subword representations and pulls them closer together with multi-view techniques. With no extra corpora or model changes required, DRDA outperforms strong baselines on several translation tasks with a clear margin (up to 4.3 BLEU gain over Transformer) and exhibits good robustness in noisy, low-resource, and cross-domain datasets.",
+  "keywords": [
+    "cross",
+    "transformer",
+    "random",
+    "neural",
+    "neural machine translation drda",
+    "semantic inconsistency",
+    "model",
+    "machine",
+    "extra",
+    "multi-view techniques",
+    "view",
+    "bleu",
+    "machine translation",
+    "semantic",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.481/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:55:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

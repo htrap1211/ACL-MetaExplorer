@@ -1,0 +1,33 @@
+{
+  "id": "W18-3005",
+  "title": "Text Completion using Context-Integrated Dependency Parsing",
+  "authors": [
+    "Salama, Amr Rekaby  and\nAla{\\c{c}}am, {\\\"O}zge  and\nMenzel, Wolfgang"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the Third Workshop on Representation Learning for {NLP}",
+  "abstract": "Incomplete linguistic input, i.e. due to a noisy environment, is one of the challenges that a successful communication system has to deal with. In this paper, we study text completion with a data set composed of sentences with gaps where a successful completion cannot be achieved through a uni-modal (language-based) approach. We present a solution based on a context-integrating dependency parser incorporating an additional non-linguistic modality. An incompleteness in one channel is compensated by information from another one and the parser learns the association between the two modalities from a multiple level knowledge representation. We examined several model variations by adjusting the degree of influence of different modalities in the decision making on possible filler words and their exact reference to a non-linguistic context element. Our model is able to fill the gap with 95.4% word and 95.2% exact reference accuracy hence the successful prediction can be achieved not only on the word level (such as mug) but also with respect to the correct identification of its context reference (such as mug 2 among several mug instances).",
+  "keywords": [
+    "uni",
+    "we",
+    "information",
+    "word",
+    "different modalities",
+    "text",
+    "context-integrated dependency",
+    "the two modalities",
+    "accuracy",
+    "reference",
+    "knowledge",
+    "language",
+    "a context-integrating dependency parser",
+    "model",
+    "modalities"
+  ],
+  "url": "https://aclanthology.org/W18-3005/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:24:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

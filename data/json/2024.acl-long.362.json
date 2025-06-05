@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.362",
+  "title": "Decoupled Vocabulary Learning Enables Zero-Shot Translation from Unseen Languages",
+  "authors": [
+    "Mullov, Carlos  and\nPham, Quan  and\nWaibel, Alexander"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Multilingual neural machine translation systems learn to map sentences of different languages into a common representation space. Intuitively, with a growing number of seen languages the encoder sentence representation grows more flexible and easily adaptable to new languages. In this work, we test this hypothesis by zero-shot translating from unseen languages. To deal with unknown vocabularies from unknown languages we propose a setup where we decouple learning of vocabulary and syntax, i.e. for each language we learn word representations in a separate step (using cross-lingual word embeddings), and then train to translate while keeping those word representations frozen. We demonstrate that this setup enables zero-shot translation from entirely unseen languages. Zero-shot translating with a model trained on Germanic and Romance languages we achieve scores of 42.6 BLEU for Portuguese-English and 20.7 BLEU for Russian-English on TED domain. We explore how this zero-shot translation capability develops with varying number of languages seen by the encoder. Lastly, we explore the effectiveness of our decoupled learning strategy for unsupervised machine translation. By exploiting our model’s zero-shot translation capability for iterative back-translation we attain near parity with a supervised setting.",
+  "keywords": [
+    "the encoder sentence representation",
+    "bleu",
+    "we",
+    "this zero-shot translation capability",
+    "syntax",
+    "20 7 bleu",
+    "shot",
+    "translation",
+    "cross",
+    "the encoder",
+    "neural",
+    "unsupervised machine translation",
+    "zero-shot translating",
+    "word",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.362/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

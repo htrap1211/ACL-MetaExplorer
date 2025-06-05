@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.172",
+  "title": "Redistributing Low-Frequency Words: Making the Most of Monolingual Data in Non-Autoregressive Translation",
+  "authors": [
+    "Ding, Liang  and\nWang, Longyue  and\nShi, Shuming  and\nTao, Dacheng  and\nTu, Zhaopeng"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Knowledge distillation (KD) is the preliminary step for training non-autoregressive translation (NAT) models, which eases the training of NAT models at the cost of losing important information for translating low-frequency words. In this work, we provide an appealing alternative for NAT –monolingual KD, which trains NAT student on external monolingual data with AT teacher trained on the original bilingual data. Monolingual KD is able to transfer both the knowledge of the original bilingual data (implicitly encoded in the trained AT teacher model) and that of the new monolingual data to the NAT student model. Extensive experiments on eight WMT benchmarks over two advanced NAT models show that monolingual KD consistently outperforms the standard KD by improving low-frequency word translation, without introducing any computational cost. Monolingual KD enjoys desirable expandability, which can be further enhanced (when given more computational budget) by combining with the standard KD, a reverse monolingual KD, or enlarging the scale of monolingual data. Extensive analyses demonstrate that these techniques can be used together profitably to further recall the useful information lost in the standard KD. Encouragingly, combining with standard KD, our approach achieves 30.4 and 34.1 BLEU points on the WMT14 English-German and German-English datasets, respectively. Our code and trained models are freely available athttps://github.com/alphadl/RLFW-NAT.mono.",
+  "keywords": [
+    "code",
+    "bleu",
+    "we",
+    "training",
+    "translation",
+    "low-frequency word translation",
+    "information",
+    "word",
+    "nat",
+    "non-autoregressive translation nat models",
+    "work",
+    "knowledge",
+    "model",
+    "approach",
+    "frequency"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.172/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

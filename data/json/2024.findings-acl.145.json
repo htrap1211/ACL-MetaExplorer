@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.145",
+  "title": "LM}-Cocktail: Resilient Tuning of Language Models via Model Merging",
+  "authors": [
+    "Xiao, Shitao  and\nLiu, Zheng  and\nZhang, Peitian  and\nXing, Xingrun"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "The pre-trained language models are continually fine-tuned to better support downstream applications. However, this operation may result in significant performance degeneration on general tasks beyond the targeted domain. To overcome this problem, we propose LM-Cocktail which enables the fine-tuned model to stay resilient in general perspectives. Our method is conducted in the form of model merging, where the fine-tuned language model is merged with the pre-trained base model or the peer models from other domains through weighted average. Despite simplicity, LM-Cocktail is surprisingly effective: the resulted model is able to achieve a strong empirical performance in the whole scope of general tasks while preserving a superior capacity in its targeted domain.",
+  "keywords": [
+    "resilient",
+    "tuning",
+    "general",
+    "language",
+    "model",
+    "the pre-trained language models",
+    "language models",
+    "general tasks",
+    "-",
+    "form",
+    "we",
+    "significant performance degeneration",
+    "degeneration",
+    "pre",
+    "the fine-tuned language model"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.145/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:50:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P19-1045",
+  "title": "Adversarial Attention Modeling for Multi-dimensional Emotion Regression",
+  "authors": [
+    "Zhu, Suyang  and\nLi, Shoushan  and\nZhou, Guodong"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "In this paper, we propose a neural network-based approach, namely Adversarial Attention Network, to the task of multi-dimensional emotion regression, which automatically rates multiple emotion dimension scores for an input text. Especially, to determine which words are valuable for a particular emotion dimension, an attention layer is trained to weight the words in an input sequence. Furthermore, adversarial training is employed between two attention layers to learn better word weights via a discriminator. In particular, a shared attention layer is incorporated to learn public word weights between two emotion dimensions. Empirical evaluation on the EMOBANK corpus shows that our approach achieves notable improvements in r-values on both EMOBANK Reader’s and Writer’s multi-dimensional emotion regression tasks in all domains over the state-of-the-art baselines.",
+  "keywords": [
+    "a shared attention layer",
+    "neural",
+    "text",
+    "two attention layers",
+    "modeling",
+    "a neural network-based approach",
+    "layer",
+    "dimensional",
+    "attention",
+    "network",
+    "we",
+    "sequence",
+    "word",
+    "namely adversarial attention network",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/P19-1045/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:29:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

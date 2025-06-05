@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.205",
+  "title": "Compositional Generalization with Grounded Language Models",
+  "authors": [
+    "Wold, Sondre  and\nSimon, {\\'E}tienne  and\nCharpentier, Lucas  and\nKostylev, Egor  and\nVelldal, Erik  and\n{\\O}vrelid, Lilja"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Grounded language models use external sources of information, such as knowledge graphs, to meet some of the general challenges associated with pre-training. By extending previous work on compositional generalization in semantic parsing, we allow for a controlled evaluation of the degree to which these models learn and generalize from patterns in knowledge graphs. We develop a procedure for generating natural language questions paired with knowledge graphs that targets different aspects of compositionality and further avoids grounding the language models in information already encoded implicitly in their weights. We evaluate existing methods for combining language models with knowledge graphs and find them to struggle with generalization to sequences of unseen lengths and to novel combinations of seen base components. While our experimental results provide some insight into the expressive power of these models, we hope our work and released datasets motivate future research on how to better combine language models with structured knowledge representations.",
+  "keywords": [
+    "grounded language models",
+    "work",
+    "the general challenges",
+    "general",
+    "knowledge",
+    "parsing",
+    "language",
+    "natural",
+    "a controlled evaluation",
+    "language models",
+    "-",
+    "information",
+    "generalization",
+    "knowledge graphs",
+    "semantic"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.205/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

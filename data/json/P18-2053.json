@@ -1,0 +1,33 @@
+{
+  "id": "P18-2053",
+  "title": "Bag-of-Words as Target for Neural Machine Translation",
+  "authors": [
+    "Ma, Shuming  and\nSun, Xu  and\nWang, Yizhong  and\nLin, Junyang"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "A sentence can be translated into more than one correct sentences. However, most of the existing neural machine translation models only use one of the correct translations as the targets, and the other correct sentences are punished as the incorrect sentences in the training stage. Since most of the correct translations for one sentence share the similar bag-of-words, it is possible to distinguish the correct translations from the incorrect ones by the bag-of-words. In this paper, we propose an approach that uses both the sentences and the bag-of-words as targets in the training stage, in order to encourage the model to generate the potentially correct sentences that are not appeared in the training set. We evaluate our model on a Chinese-English translation dataset, and experiments show our model outperforms the strong baselines by the BLEU score of 4.55.",
+  "keywords": [
+    "bag",
+    "neural",
+    "machine",
+    "model",
+    "it",
+    "the bleu score",
+    "neural machine translation",
+    "bleu",
+    "we",
+    "translations",
+    "the correct translations",
+    "a chinese-english translation dataset",
+    "training",
+    "translation",
+    "that"
+  ],
+  "url": "https://aclanthology.org/P18-2053/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:17:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

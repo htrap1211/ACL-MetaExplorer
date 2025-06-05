@@ -1,0 +1,33 @@
+{
+  "id": "W19-4321",
+  "title": "Investigating Sub-Word Embedding Strategies for the Morphologically Rich and Free Phrase-Order {H}ungarian",
+  "authors": [
+    "D{\\\"o}br{\\\"o}ssy, B{\\'a}lint  and\nMakrai, M{\\'a}rton  and\nTarj{\\'a}n, Bal{\\'a}zs  and\nSzasz{\\'a}k, Gy{\\\"o}rgy"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)",
+  "abstract": "For morphologically rich languages, word embeddings provide less consistent semantic representations due to higher variance in word forms. Moreover, these languages often allow for less constrained word order, which further increases variance. For the highly agglutinative Hungarian, semantic accuracy of word embeddings measured on word analogy tasks drops by 50-75% compared to English. We observed that embeddings learn morphosyntax quite well instead. Therefore, we explore and evaluate several sub-word unit based embedding strategies – character n-grams, lemmatization provided by an NLP-pipeline, and segments obtained in unsupervised learning (morfessor) – to boost semantic consistency in Hungarian word vectors. The effect of changing embedding dimension and context window size have also been considered. Morphological analysis based lemmatization was found to be the best strategy to improve embeddings’ semantic accuracy, whereas adding character n-grams was found consistently counterproductive in this regard.",
+  "keywords": [
+    "embeddings",
+    "nlp",
+    "strategies",
+    "sub-word embedding strategies",
+    "semantic accuracy",
+    "higher variance",
+    "semantic consistency",
+    "less consistent semantic representations",
+    "an nlp-pipeline",
+    "rich",
+    "semantic",
+    "word",
+    "we",
+    "word embeddings",
+    "variance"
+  ],
+  "url": "https://aclanthology.org/W19-4321/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:03:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

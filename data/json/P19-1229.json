@@ -1,0 +1,33 @@
+{
+  "id": "P19-1229",
+  "title": "Semi-supervised Domain Adaptation for Dependency Parsing",
+  "authors": [
+    "Li, Zhenghua  and\nPeng, Xue  and\nZhang, Min  and\nWang, Rui  and\nSi, Luo"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "During the past decades, due to the lack of sufficient labeled data, most studies on cross-domain parsing focus on unsupervised domain adaptation, assuming there is no target-domain training data. However, unsupervised approaches make limited progress so far due to the intrinsic difficulty of both domain adaptation and parsing. This paper tackles the semi-supervised domain adaptation problem for Chinese dependency parsing, based on two newly-annotated large-scale domain-aware datasets. We propose a simple domain embedding approach to merge the source- and target-domain training data, which is shown to be more effective than both direct corpus concatenation and multi-task learning. In order to utilize unlabeled target-domain data, we employ the recent contextualized word representations and show that a simple fine-tuning procedure can further boost cross-domain parsing accuracy by large margin.",
+  "keywords": [
+    "cross",
+    "tuning",
+    "cross-domain parsing focus",
+    "parsing",
+    "cross-domain parsing accuracy",
+    "a simple fine-tuning procedure",
+    "studies",
+    "chinese dependency parsing",
+    "sufficient",
+    "fine",
+    "dependency",
+    "word",
+    "we",
+    "learning",
+    "sufficient labeled data"
+  ],
+  "url": "https://aclanthology.org/P19-1229/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:35:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

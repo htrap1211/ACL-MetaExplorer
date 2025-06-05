@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.94",
+  "title": "Emotion Cause Extraction on Social Media without Human Annotation",
+  "authors": [
+    "Xiao, Debin  and\nXia, Rui  and\nYu, Jianfei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In social media, there is a vast amount of information pertaining to people’s emotions and the corresponding causes. The emotion cause extraction (ECE) from social media data is an important research area that has not been thoroughly explored due to the lack of fine-grained annotations. Early studies referred to either unsupervised rule-based methods or supervised machine learning methods using a number of manually annotated data in specific domains. However, the former suffers from limitations in extraction performance, while the latter is constrained by the availability of fine-grained annotations and struggles to generalize to diverse domains. To address these issues, this paper proposes a new ECE framework on Chinese social media that achieves high extraction performance and generalizability without relying on human annotation. Specifically, we design a more dedicated rule-based system based on constituency parsing tree to discover causal patterns in social media. This system enables us to acquire large amounts of fine-grained annotated data. Next, we train a neural model on the rule-annotated dataset with a specific training strategy to further improve the model’s generalizability. Extensive experiments demonstrate the superiority of our approach over other methods in unsupervised and weakly-supervised settings.",
+  "keywords": [
+    "extraction",
+    "we",
+    "generalizability",
+    "training",
+    "neural",
+    "information",
+    "early",
+    "machine learning methods",
+    "model",
+    "studies",
+    "machine",
+    "human",
+    "us",
+    "early studies",
+    "area"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.94/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

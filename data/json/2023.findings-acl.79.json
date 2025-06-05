@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.79",
+  "title": "Hypothetical Training for Robust Machine Reading Comprehension of Tabular Context",
+  "authors": [
+    "Li, Moxin  and\nWang, Wenjie  and\nFeng, Fuli  and\nZhang, Hanwang  and\nWang, Qifan  and\nChua, Tat-Seng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Machine Reading Comprehension (MRC) models easily learn spurious correlations from complex contexts such as tabular data. Counterfactual training—using the factual and counterfactual data by augmentation—has become a promising solution. However, it is costly to construct faithful counterfactual examples because it is tricky to maintain the consistency and dependency of the tabular data. In this paper, we take a more efficient fashion to askhypothetical questionslike“in which year would the net profit be larger if the revenue in 2019 were $38,298?”, whose effects on the answers are equivalent to those expensive counterfactual tables. We propose a hypothetical training framework that uses paired examples with different hypothetical questions to supervise the direction of model gradient towards the counterfactual answer change. The superior generalization results on tabular MRC datasets, including a newly constructed stress test and MultiHiertt, validate our effectiveness.",
+  "keywords": [
+    "efficient",
+    "a more efficient fashion",
+    "we",
+    "training",
+    "answer",
+    "net",
+    "it",
+    "multihiertt",
+    "generalization",
+    "model",
+    "machine",
+    "gradient",
+    "dependency",
+    "the superior generalization results",
+    "model gradient"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.79/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

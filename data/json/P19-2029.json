@@ -1,0 +1,33 @@
+{
+  "id": "P19-2029",
+  "title": "Multiple Character Embeddings for {C}hinese Word Segmentation",
+  "authors": [
+    "Zhou, Jianing  and\nWang, Jingkang  and\nLiu, Gongshen"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "Chinese word segmentation (CWS) is often regarded as a character-based sequence labeling task in most current works which have achieved great success with the help of powerful neural networks. However, these works neglect an important clue: Chinese characters incorporate both semantic and phonetic meanings. In this paper, we introduce multiple character embeddings including Pinyin Romanization and Wubi Input, both of which are easily accessible and effective in depicting semantics of characters. We propose a novel shared Bi-LSTM-CRF model to fuse linguistic features efficiently by sharing the LSTM network during the training procedure. Extensive experiments on five corpora show that extra embeddings help obtain a significant improvement in labeling accuracy. Specifically, we achieve the state-of-the-art performance in AS and CityU corpora with F1 scores of 96.9 and 97.3, respectively without leveraging any external lexical resources.",
+  "keywords": [
+    "extra",
+    "f1 scores",
+    "semantic",
+    "we",
+    "multiple character embeddings",
+    "powerful neural networks",
+    "lstm",
+    "current",
+    "training",
+    "neural",
+    "semantics",
+    "word",
+    "sequence",
+    "extra embeddings",
+    "shared bi-lstm-crf model"
+  ],
+  "url": "https://aclanthology.org/P19-2029/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:48:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

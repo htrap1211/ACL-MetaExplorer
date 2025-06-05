@@ -1,0 +1,33 @@
+{
+  "id": "P19-1297",
+  "title": "Multilingual Unsupervised {NMT} using Shared Encoder and Language-Specific Decoders",
+  "authors": [
+    "Sen, Sukanta  and\nGupta, Kamal Kumar  and\nEkbal, Asif  and\nBhattacharyya, Pushpak"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "In this paper, we propose a multilingual unsupervised NMT scheme which jointly trains multiple languages with a shared encoder and multiple decoders. Our approach is based on denoising autoencoding of each language and back-translating between English and multiple non-English languages. This results in a universal encoder which can encode any language participating in training into an inter-lingual representation, and language-specific decoders. Our experiments using only monolingual corpora show that multilingual unsupervised model performs better than the separately trained bilingual models achieving improvement of up to 1.48 BLEU points on WMT test sets. We also observe that even if we do not train the network for all possible translation directions, the network is still able to translate in a many-to-many fashion leveraging encoder’s ability to generate interlingual representation.",
+  "keywords": [
+    "language",
+    "translation",
+    "model",
+    "language-specific decoders",
+    "bleu",
+    "encoder",
+    "a shared encoder",
+    "decoders",
+    "we",
+    "network",
+    "a universal encoder",
+    "all possible translation directions",
+    "training",
+    "multiple decoders",
+    "fashion"
+  ],
+  "url": "https://aclanthology.org/P19-1297/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:37:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

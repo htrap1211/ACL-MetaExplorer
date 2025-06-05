@@ -1,0 +1,33 @@
+{
+  "id": "P19-1519",
+  "title": "Joint Slot Filling and Intent Detection via Capsule Neural Networks",
+  "authors": [
+    "Zhang, Chenwei  and\nLi, Yaliang  and\nDu, Nan  and\nFan, Wei  and\nYu, Philip"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Being able to recognize words as slots and detect the intent of an utterance has been a keen issue in natural language understanding. The existing works either treat slot filling and intent detection separately in a pipeline manner, or adopt joint models which sequentially label slots while summarizing the utterance-level intent without explicitly preserving the hierarchical relationship among words, slots, and intents. To exploit the semantic hierarchy for effective modeling, we propose a capsule-based neural network model which accomplishes slot filling and intent detection via a dynamic routing-by-agreement schema. A re-routing schema is proposed to further synergize the slot filling performance using the inferred intent representation. Experiments on two real-world datasets show the effectiveness of our model when compared with other alternative model architectures, as well as existing natural language understanding services.",
+  "keywords": [
+    "hierarchical",
+    "capsule neural networks",
+    "language",
+    "neural",
+    "natural",
+    "model",
+    "a pipeline manner",
+    "the semantic hierarchy",
+    "modeling",
+    "hierarchy",
+    "semantic",
+    "the hierarchical relationship",
+    "we",
+    "network",
+    "natural language"
+  ],
+  "url": "https://aclanthology.org/P19-1519/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:43:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.546",
+  "title": "Learning to Generalize to More: Continuous Semantic Augmentation for Neural Machine Translation",
+  "authors": [
+    "Wei, Xiangpeng  and\nYu, Heng  and\nHu, Yue  and\nWeng, Rongxiang  and\nLuo, Weihua  and\nJin, Rong"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The principal task in supervised neural machine translation (NMT) is to learn to generate target sentences conditioned on the source inputs from a set of parallel sentence pairs, and thus produce a model capable of generalizing to unseen instances. However, it is commonly observed that the generalization performance of the model is highly influenced by the amount of parallel data used in training. Although data augmentation is widely used to enrich the training data, conventional methods with discrete manipulations fail to generate diverse and faithful training samples. In this paper, we present a novel data augmentation paradigm termed Continuous Semantic Augmentation (CsaNMT), which augments each training instance with an adjacency semantic region that could cover adequate variants of literal expression under the same meaning. We conduct extensive experiments on both rich-resource and low-resource settings involving various language pairs, including WMT14 English→{German,French}, NIST Chinese→English and multiple low-resource IWSLT translation tasks. The provided empirical evidences show that CsaNMT sets a new level of performance among existing augmentation techniques, improving on the state-of-the-art by a large margin. The core codes are contained in Appendix E.",
+  "keywords": [
+    "more continuous semantic augmentation",
+    "neural machine translation",
+    "semantic",
+    "we",
+    "continuous semantic augmentation csanmt",
+    "training",
+    "translation",
+    "neural",
+    "it",
+    "rich",
+    "core",
+    "generalization",
+    "an adjacency semantic region",
+    "the generalization performance",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.546/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

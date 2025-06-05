@@ -1,0 +1,33 @@
+{
+  "id": "2020.sigmorphon-1.17",
+  "title": "Leveraging Principal Parts for Morphological Inflection",
+  "authors": [
+    "Liu, Ling  and\nHulden, Mans"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 17th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "This paper presents the submission by the CU Ling team from the University of Colorado to SIGMORPHON 2020 shared task 0 on morphological inflection. The task is to generate the target inflected word form given a lemma form and a target morphosyntactic description. Our system uses the Transformer architecture. Our overall approach is to treat the morphological inflection task as a paradigm cell filling problem and to design the system to leverage principal parts information for better morphological inflection when the training data is limited. We train one model for each language separately without external data. The overall average performance of our submission ranks the first in both average accuracy and Levenshtein distance from the gold inflection among all submissions including those using external resources.",
+  "keywords": [
+    "transformer",
+    "language",
+    "model",
+    "information",
+    "form",
+    "word",
+    "we",
+    "ling",
+    "both average accuracy",
+    "the transformer architecture",
+    "training",
+    "accuracy",
+    "lemma",
+    "2020 shared task",
+    "the submission"
+  ],
+  "url": "https://aclanthology.org/2020.sigmorphon-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:58:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

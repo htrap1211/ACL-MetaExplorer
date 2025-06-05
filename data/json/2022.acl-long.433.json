@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.433",
+  "title": "U}ni{PELT}: A Unified Framework for Parameter-Efficient Language Model Tuning",
+  "authors": [
+    "Mao, Yuning  and\nMathias, Lambert  and\nHou, Rui  and\nAlmahairi, Amjad  and\nMa, Hao  and\nHan, Jiawei  and\nYih, Scott  and\nKhabsa, Madian"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent parameter-efficient language model tuning (PELT) methods manage to match the performance of fine-tuning with much fewer trainable parameters and perform especially well when training data is limited. However, different PELT methods may perform rather differently on the same task, making it nontrivial to select the most appropriate method for a specific task, especially considering the fast-growing number of new PELT methods and tasks. In light of model diversity and the difficulty of model selection, we propose a unified framework, UniPELT, which incorporates different PELT methods as submodules and learns to activate the ones that best suit the current data or task setup via gating mechanism. On the GLUE benchmark, UniPELT consistently achieves 1 4% gains compared to the best individual PELT method that it incorporates and even outperforms fine-tuning under different setups. Moreover, UniPELT generally surpasses the upper bound that takes the best performance of all its submodules used individually on each task, indicating that a mixture of multiple PELT methods may be inherently more effective than single methods.",
+  "keywords": [
+    "efficient",
+    "we",
+    "current",
+    "parameter",
+    "training",
+    "fine-tuning",
+    "parameter-efficient language model",
+    "it",
+    "a unified framework",
+    "unified",
+    "u",
+    "recent parameter-efficient language model",
+    "tuning",
+    "fine",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.433/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:30:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

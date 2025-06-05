@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-srw.50",
+  "title": "Seed-Free Synthetic Data Generation Framework for Instruction-Tuning {LLM}s: A Case Study in {T}hai",
+  "authors": [
+    "Pengpun, Parinthapat  and\nUdomcharoenchaikit, Can  and\nBuaphet, Weerayut  and\nLimkonchotiwat, Peerat"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "We present a synthetic data approach for instruction-tuning large language models (LLMs) for low-resource languages in a data-efficient manner, specifically focusing on Thai. We identify three key properties that contribute to the effectiveness of instruction-tuning datasets: fluency, diversity, and cultural context. We propose a seed-data-free framework for generating synthetic instruction-tuning data that incorporates these essential properties. Our framework employs an LLM to generate diverse topics, retrieve relevant contexts from Wikipedia, and create instructions for various tasks, such as question answering, summarization, and conversation. The experimental results show that our best-performing synthetic dataset, which incorporates all three key properties, achieves competitive performance using only 5,000 instructions when compared to state-of-the-art Thai LLMs trained on hundreds of thousands of instructions. Our code and dataset are publicly available at https://github.com/parinzee/seed-free-synthetic-instruct.",
+  "keywords": [
+    "code",
+    "three key properties",
+    "efficient",
+    "an llm",
+    "question",
+    "all three key properties",
+    "summarization",
+    "we",
+    "question answering summarization",
+    "llm",
+    "instruction",
+    "properties",
+    "these essential properties",
+    "instruction-tuning llm",
+    "manner"
+  ],
+  "url": "https://aclanthology.org/2024.acl-srw.50/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:48:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

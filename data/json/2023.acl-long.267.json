@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.267",
+  "title": "Pre-Training to Learn in Context",
+  "authors": [
+    "Gu, Yuxian  and\nDong, Li  and\nWei, Furu  and\nHuang, Minlie"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In-context learning, where pre-trained language models learn to perform tasks from task examples and instructions in their contexts, has attracted much attention in the NLP community. However, the ability of in-context learning is not fully exploited because language models are not explicitly trained to learn in context. To this end, we propose PICL (Pre-training for In-Context Learning), a framework to enhance the language models’ in-context learning ability by pre-training the model on a large collection of “intrinsic tasks” in the general plain-text corpus using the simple language modeling objective. PICL encourages the model to infer and perform tasks by conditioning on the contexts while maintaining task generalization of pre-trained models. We evaluate the in-context learning performance of the model trained with PICL on seven widely-used text classification datasets and the Super-NaturalInstrctions benchmark, which contains 100+ NLP tasks formulated to text generation. Our experiments show that PICL is more effective and task-generalizable than a range of baselines, outperforming larger language models with nearly 4x parameters. The code is publicly available athttps://github.com/thu-coai/PICL.",
+  "keywords": [
+    "much attention",
+    "code",
+    "end",
+    "the nlp community",
+    "generalizable",
+    "we",
+    "text generation",
+    "training",
+    "classification",
+    "pre-trained language models",
+    "learning",
+    "the general plain-text corpus",
+    "text",
+    "objective",
+    "language models"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.267/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

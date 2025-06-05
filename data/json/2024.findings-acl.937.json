@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.937",
+  "title": "Mitigating Hallucinations in Large Vision-Language Models with Instruction Contrastive Decoding",
+  "authors": [
+    "Wang, Xintong  and\nPan, Jingheng  and\nDing, Liang  and\nBiemann, Chris"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large Vision-Language Models (LVLMs) are increasingly adept at generating contextually detailed and coherent responses from visual inputs. However, their application in multimodal decision-making and open-ended generation is hindered by a notable rate of hallucinations, where generated text inaccurately represents the visual contents. To address this issue, this paper introduces the Instruction Contrastive Decoding (ICD) method, a novel approach designed to reduce hallucinations during LVLM inference. Our method is inspired by our observation that what we call disturbance instructions significantly exacerbate hallucinations in multimodal fusion modules. ICD contrasts distributions from standard and instruction disturbance, thereby increasing alignment uncertainty and effectively subtracting hallucinated concepts from the original distribution. Through comprehensive experiments on discriminative benchmarks (POPE and MME) and a generative benchmark (LLaVa-Bench), we demonstrate that ICD significantly mitigates both object-level and attribute-level hallucinations. Moreover, our method not only addresses hallucinations but also significantly enhances the general perception and recognition capabilities of LVLMs.",
+  "keywords": [
+    "rate",
+    "we",
+    "fusion",
+    "instruction",
+    "large vision-language models",
+    "visual",
+    "generated text",
+    "generative",
+    "object",
+    "text",
+    "alignment uncertainty",
+    "open-ended generation",
+    "a generative benchmark llava-bench",
+    "the general perception",
+    "alignment"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.937/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

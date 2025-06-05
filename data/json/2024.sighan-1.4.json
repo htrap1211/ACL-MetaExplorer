@@ -1,0 +1,33 @@
+{
+  "id": "2024.sighan-1.4",
+  "title": "Adversarial Learning for Multi-Lingual Entity Linking",
+  "authors": [
+    "Wang, Bingbing  and\nLiang, Bin  and\nBai, Zhixin  and\nMa, Yongzhuo"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 10th SIGHAN Workshop on Chinese Language Processing (SIGHAN-10)",
+  "abstract": "Entity linking aims to identify mentions from the text and link them to a knowledge base. Further, Multi-lingual Entity Linking (MEL) is a more challenging task, where the language-specific mentions need to be linked to a multi-lingual knowledge base. To tackle the MEL task, we propose a novel model that employs the merit of adversarial learning and few-shot learning to generalize the learning ability across languages. Specifically, we first randomly select a fraction of language-agnostic unlabeled data as the language signal to construct the language discriminator. Based on it, we devise a simple and effective adversarial learning framework with two characteristic branches, including an entity classifier and a language discriminator with adversarial training. Experimental results on two benchmark datasets indicate the excellent performance in few-shot learning and the effectiveness of the proposed adversarial learning framework.",
+  "keywords": [
+    "knowledge",
+    "language",
+    "classifier",
+    "model",
+    "text",
+    "it",
+    "few-shot learning",
+    "an entity classifier",
+    "we",
+    "learning",
+    "entity",
+    "shot",
+    "training",
+    "that",
+    "the effectiveness"
+  ],
+  "url": "https://aclanthology.org/2024.sighan-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:10:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

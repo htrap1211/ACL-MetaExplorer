@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.478",
+  "title": "Learn to Resolve Conversational Dependency: A Consistency Training Framework for Conversational Question Answering",
+  "authors": [
+    "Kim, Gangwoo  and\nKim, Hyunjae  and\nPark, Jungsoo  and\nKang, Jaewoo"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "One of the main challenges in conversational question answering (CQA) is to resolve the conversational dependency, such as anaphora and ellipsis. However, existing approaches do not explicitly train QA models on how to resolve the dependency, and thus these models are limited in understanding human dialogues. In this paper, we propose a novel framework, ExCorD (Explicit guidance on how to resolve Conversational Dependency) to enhance the abilities of QA models in comprehending conversational context. ExCorD first generates self-contained questions that can be understood without the conversation history, then trains a QA model with the pairs of original and self-contained questions using a consistency-based regularizer. In our experiments, we demonstrate that ExCorD significantly improves the QA models’ performance by up to 1.2 F1 on QuAC, and 5.2 F1 on CANARD, while addressing the limitations of the existing approaches.",
+  "keywords": [
+    "the conversation history",
+    "abilities",
+    "conversational dependency",
+    "5 2 f1",
+    "qa models",
+    "model",
+    "human dialogues",
+    "dialogues",
+    "human",
+    "the conversational dependency",
+    "self",
+    "question",
+    "conversational",
+    "a qa model",
+    "the qa models performance"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.478/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

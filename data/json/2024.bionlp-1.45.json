@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.45",
+  "title": "Low Resource {ICD} Coding of Hospital Discharge Summaries",
+  "authors": [
+    "Williamson, Ashton  and\nde Hilster, David  and\nMeyers, Amnon  and\nHubig, Nina  and\nApon, Amy"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "Medical coding is the process by which standardized medical codes are assigned to patient health records. This is a complex and challenging task that typically requires an expert human coder to review health records and assign codes from a classification system based on a standard set of rules. Since health records typically consist of a large proportion of free-text documents, this problem has traditionally been approached as a natural language processing (NLP) task. While machine learning-based methods have seen recent popularity on this task, they tend to struggle with codes that are assigned less frequently, for which little or no training data exists. In this work we utilize the open-source NLP programming language, NLP++, to design and build an automated system to assign International Classification of Diseases (ICD) codes to discharge summaries that functions in the absence of labeled training data. We evaluate our system using the MIMIC-III dataset and find that for codes with little training data, our approach achieves competitive performance compared to state-of-the-art machine learning approaches.",
+  "keywords": [
+    "we",
+    "training",
+    "classification",
+    "natural",
+    "a classification system",
+    "international classification",
+    "machine learning-based methods",
+    "learning",
+    "coder",
+    "processing",
+    "text",
+    "work",
+    "process",
+    "summaries",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.45/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.702",
+  "title": "Continual Few-shot Relation Extraction via Adaptive Gradient Correction and Knowledge Decomposition",
+  "authors": [
+    "Hu, Jianpeng  and\nTan, Chengxiang  and\nXu, JiaCheng  and\nXiangyunKong, XiangyunKong"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Continual few-shot relation extraction (CFRE) aims to continually learn new relations with limited samples. However, current methods neglect the instability of embeddings in the process of different task training, which leads to serious catastrophic forgetting. In this paper, we propose the concept of the following degree from the perspective of instability to analyze catastrophic forgetting and design a novel method based on adaptive gradient correction and knowledge decomposition to alleviate catastrophic forgetting. Specifically, the adaptive gradient correction algorithm is designed to limit the instability of embeddings, which adaptively constrains the current gradient to be orthogonal to the embedding space learned from previous tasks. To reduce the instability between samples and prototypes, the knowledge decomposition module decomposes knowledge into general and task-related knowledge from the perspective of model architecture, which is asynchronously optimized during training. Experimental results on two standard benchmarks show that our method outperforms the state-of-the-art CFRE model and effectively improves the following degree of embeddings.",
+  "keywords": [
+    "embeddings",
+    "adaptive gradient correction",
+    "knowledge",
+    "process",
+    "general and task-related knowledge",
+    "the embedding space",
+    "extraction",
+    "general",
+    "model",
+    "the current gradient",
+    "gradient",
+    "continual few-shot relation extraction",
+    "we",
+    "current",
+    "shot"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.702/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

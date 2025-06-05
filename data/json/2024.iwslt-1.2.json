@@ -1,0 +1,33 @@
+{
+  "id": "2024.iwslt-1.2",
+  "title": "Pause-Aware Automatic Dubbing using {LLM} and Voice Cloning",
+  "authors": [
+    "Li, Yuang  and\nGuo, Jiaxin  and\nZhang, Min  and\nMiaomiao, Ma  and\nRao, Zhiqiang  and\nZhang, Weidong  and\nHe, Xianghui  and\nWei, Daimeng  and\nYang, Hao"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 21st International Conference on Spoken Language Translation (IWSLT 2024)",
+  "abstract": "Automatic dubbing aims to translate the speech of a video into another language, ensuring the new speech naturally fits the original video. This paper details Huawei Translation Services Center’s (HW-TSC) submission for IWSLT 2024’s automatic dubbing task, under an unconstrained setting. Our system’s machine translation (MT) component utilizes a Transformer-based MT model and an LLM-based post-editor to produce translations of varying lengths. The text-to-speech (TTS) component employs a VITS-based TTS model and a voice cloning module to emulate the original speaker’s vocal timbre. For enhanced dubbing synchrony, we introduce a parsing-informed pause selector. Finally, we rerank multiple results based on lip-sync error distance (LSE-D) and character error rate (CER). Our system achieves LSE-D of 10.75 and 12.19 on subset1 and subset2 of DE-EN test sets respectively, superior to last year’s best system.",
+  "keywords": [
+    "parsing",
+    "a parsing-informed pause selector",
+    "rate",
+    "we",
+    "llm",
+    "translation",
+    "an llm-based post",
+    "a transformer-based mt model",
+    "text",
+    "-",
+    "transformer",
+    "language",
+    "model",
+    "machine",
+    "translations"
+  ],
+  "url": "https://aclanthology.org/2024.iwslt-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:06:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

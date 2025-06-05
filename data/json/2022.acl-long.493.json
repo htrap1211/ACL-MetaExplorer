@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.493",
+  "title": "Hyperlink-induced Pre-training for Passage Retrieval in Open-domain Question Answering",
+  "authors": [
+    "Zhou, Jiawei  and\nLi, Xiaoguang  and\nShang, Lifeng  and\nLuo, Lan  and\nZhan, Ke  and\nHu, Enrui  and\nZhang, Xinyu  and\nJiang, Hao  and\nCao, Zhao  and\nYu, Fan  and\nJiang, Xin  and\nLiu, Qun  and\nChen, Lei"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "To alleviate the data scarcity problem in training question answering systems, recent works propose additional intermediate pre-training for dense passage retrieval (DPR). However, there still remains a large discrepancy between the provided upstream signals and the downstream question-passage relevance, which leads to less improvement. To bridge this gap, we propose the HyperLink-induced Pre-training (HLP), a method to pre-train the dense retriever with the text relevance induced by hyperlink-based topology within Web documents. We demonstrate that the hyperlink-based structures of dual-link and co-mention can provide effective relevance signals for large-scale pre-training that better facilitate downstream passage retrieval. We investigate the effectiveness of our approach across a wide range of open-domain QA datasets under zero-shot, few-shot, multi-hop, and out-of-domain scenarios. The experiments show our HLP outperforms the BM25 by up to 7 points as well as other pre-training methods by more than 10 points in terms of top-20 retrieval accuracy under the zero-shot scenario. Furthermore, HLP significantly outperforms other pre-training methods under the other scenarios.",
+  "keywords": [
+    "passage retrieval",
+    "open-domain qa datasets",
+    "question",
+    "we",
+    "shot",
+    "training",
+    "co",
+    "retrieval",
+    "the zero-shot scenario",
+    "zero-shot few-shot multi",
+    "text",
+    "other pre-training methods",
+    "-",
+    "top-20 retrieval accuracy",
+    "dense passage retrieval dpr"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.493/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:30:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

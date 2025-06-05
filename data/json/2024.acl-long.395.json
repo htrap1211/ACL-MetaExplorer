@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.395",
+  "title": "Prompt Optimization via Adversarial In-Context Learning",
+  "authors": [
+    "Do, Xuan Long  and\nZhao, Yiran  and\nBrown, Hannah  and\nXie, Yuxi  and\nZhao, James Xu  and\nChen, Nancy F.  and\nKawaguchi, Kenji  and\nShieh, Michael  and\nHe, Junxian"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We propose a new method, Adversarial In-Context Learning (adv-ICL), to optimize prompts for in-context learning (ICL). Inspired by adversarial learning, adv-ICL is implemented as a two-player game between a generator and discriminator, with LLMs acting as both. In each round, given an input prefixed by task instructions and several exemplars, the generator produces an output. The discriminator then classifies the generator’s input-output pair as model-generated or real data. Based on the discriminator’s loss, a prompt modifier LLM proposes possible edits to the generator and discriminator prompts, and the edits that most improve the adversarial loss are selected. We show that applying adv-ICL results in significant improvements over state-of-the-art prompt optimization techniques for both open and closed-source models on 13 generation and classification tasks including summarization, arithmetic reasoning, machine translation, data-to-text generation, and the MMLU and big-bench hard benchmarks. In addition, our method is computationally efficient, easily extensible to other LLMs and tasks, and effective in low-resource settings.",
+  "keywords": [
+    "model-generated or real data",
+    "efficient",
+    "summarization",
+    "we",
+    "llm",
+    "translation",
+    "classification",
+    "the generator",
+    "other llms",
+    "a prompt modifier llm",
+    "loss",
+    "learning",
+    "modifier",
+    "llms",
+    "prompt"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.395/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

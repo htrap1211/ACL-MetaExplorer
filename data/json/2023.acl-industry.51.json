@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.51",
+  "title": "Domain-Agnostic Neural Architecture for Class Incremental Continual Learning in Document Processing Platform",
+  "authors": [
+    "W{\\'o}jcik, Mateusz  and\nKo{\\'s}ciukiewicz, Witold  and\nBaran, Mateusz  and\nKajdanowicz, Tomasz  and\nGonczarek, Adam"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "Production deployments in complex systems require ML architectures to be highly efficient and usable against multiple tasks. Particularly demanding are classification problems in which data arrives in a streaming fashion and each class is presented separately. Recent methods with stochastic gradient learning have been shown to struggle in such setups or have limitations like memory buffers, and being restricted to specific domains that disable its usage in real-world scenarios. For this reason, we present a fully differentiable architecture based on the Mixture of Experts model, that enables the training of high-performance classifiers when examples from each class are presented separately. We conducted exhaustive experiments that proved its applicability in various domains and ability to learn online in production environments. The proposed technique achieves SOTA results without a memory buffer and clearly outperforms the reference methods.",
+  "keywords": [
+    "efficient",
+    "classifiers",
+    "we",
+    "training",
+    "classification",
+    "classification problems",
+    "neural",
+    "learning",
+    "processing",
+    "reference",
+    "high-performance classifiers",
+    "stochastic gradient learning",
+    "model",
+    "class",
+    "gradient"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.51/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

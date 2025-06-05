@@ -1,0 +1,33 @@
+{
+  "id": "2020.iwpt-1.18",
+  "title": "Hybrid Enhanced {U}niversal {D}ependencies Parsing",
+  "authors": [
+    "Heinecke, Johannes"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies",
+  "abstract": "This paper describes our system to predict enhanced dependencies for Universal Dependencies (UD) treebanks, which ranked 2nd in the Shared Task on Enhanced Dependency Parsing with an average ELAS of 82.60%. Our system uses a hybrid two-step approach. First, we use a graph-based parser to extract a basic syntactic dependency tree. Then, we use a set of linguistic rules which generate the enhanced dependencies for the syntactic tree. The application of these rules is optimized using a classifier which predicts their suitability in the given context. A key advantage of this approach is its language independence, as rules rely solely on dependency trees and UPOS tags which are shared across all languages.",
+  "keywords": [
+    "enhanced dependencies",
+    "language",
+    "the enhanced dependencies",
+    "dependency trees",
+    "classifier",
+    "ependencies",
+    "dependencies",
+    "universal dependencies",
+    "dependency",
+    "we",
+    "a classifier",
+    "graph",
+    "basic",
+    "2nd",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2020.iwpt-1.18/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:56:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

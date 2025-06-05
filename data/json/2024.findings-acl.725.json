@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.725",
+  "title": "STSPL}-{SSC}: Semi-Supervised Few-Shot Short Text Clustering with Semantic text similarity Optimized Pseudo-Labels",
+  "authors": [
+    "Nie, Wenhua  and\nDeng, Lin  and\nLiu, Chang-Bo  and\nJialingWei, JialingWei  and\nHan, Ruitong  and\nZheng, Haoran"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "This study introduces the Semantic Textual Similarity Pseudo-Label Semi-Supervised Clustering (STSPL-SSC) framework. The STSPL-SSC framework is designed to tackle the prevalent issue of scarce labeled data by combining a Semantic Textual Similarity Pseudo-Label Generation process with a Robust Contrastive Learning module. The process begins with employing k-means clustering on embeddings for initial pseudo-Label allocation. Then we use a Semantic Text Similarity-enhanced module to supervise the secondary clustering of pseudo-labels using labeled data to better align with the real clustering centers. Subsequently, an Adaptive Optimal Transport (AOT) approach fine-tunes the pseudo-labels. Finally, a Robust Contrastive Learning module is employed to foster the learning of classification and instance-level distinctions, aiding clusters to better separate. Experiments conducted on multiple real-world datasets demonstrate that with just one label per class, clustering performance can be significantly improved, outperforming state-of-the-art models with an increase of 1-6% in both accuracy and normalized mutual information, approaching the results of fully-labeled classification.",
+  "keywords": [
+    "semantic",
+    "we",
+    "semantic text similarity",
+    "shot",
+    "classification",
+    "means",
+    "allocation",
+    "the real clustering centers",
+    "the secondary clustering",
+    "information",
+    "k-means",
+    "learning",
+    "both accuracy",
+    "text",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.725/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

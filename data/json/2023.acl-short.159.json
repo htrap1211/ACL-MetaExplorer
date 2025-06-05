@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.159",
+  "title": "Task-Aware Specialization for Efficient and Robust Dense Retrieval for Open-Domain Question Answering",
+  "authors": [
+    "Cheng, Hao  and\nFang, Hao  and\nLiu, Xiaodong  and\nGao, Jianfeng"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Given its effectiveness on knowledge-intensive natural language processing tasks, dense retrieval models have become increasingly popular. Specifically, the de-facto architecture for open-domain question answering uses two isomorphic encoders that are initialized from the same pretrained model but separately parameterized for questions and passages. This biencoder architecture is parameter-inefficient in that there is no parameter sharing between encoders. Further, recent studies show that such dense retrievers underperform BM25 in various settings. We thus propose a new architecture, Task-Aware Specialization for dEnse Retrieval (TASER), which enables parameter sharing by interleaving shared and specialized blocks in a single encoder. Our experiments on five question answering datasets show that TASER can achieve superior accuracy, surpassing BM25, while using about 60% of the parameters as bi-encoder dense retrievers. In out-of-domain evaluations, TASER is also empirically more robust than bi-encoder dense retrievers. Our code is available athttps://github.com/microsoft/taser.",
+  "keywords": [
+    "code",
+    "inefficient",
+    "efficient",
+    "question",
+    "we",
+    "dense retrieval taser",
+    "parameter",
+    "further recent studies",
+    "natural",
+    "a single encoder",
+    "retrieval",
+    "open-domain question answering",
+    "biencoder",
+    "two isomorphic encoders",
+    "processing"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.159/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:50:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

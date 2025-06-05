@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.74",
+  "title": "A}dam-Smith at {S}em{E}val-2023 Task 4: Discovering Human Values in Arguments with Ensembles of Transformer-based Models",
+  "authors": [
+    "Schroter, Daniel  and\nDementieva, Daryna  and\nGroh, Georg"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper presents the best-performing approach alias “Adam Smith” for the SemEval-2023 Task 4: “Identification of Human Values behind Arguments”. The goal of the task was to create systems that automatically identify the values within textual arguments. We train transformer-based models until they reach their loss minimum or f1-score maximum. Ensembling the models by selecting one global decision threshold that maximizes the f1-score leads to the best-performing system in the competition. Ensembling based on stacking with logistic regressions shows the best performance on an additional dataset provided to evaluate the robustness (“Nahj al-Balagha”). Apart from outlining the submitted system, we demonstrate that the use of the large ensemble model is not necessary and that the system size can be significantly reduced.",
+  "keywords": [
+    "ensembles",
+    "the f1-score",
+    "transformer",
+    "ensemble",
+    "al",
+    "model",
+    "human",
+    "the large ensemble model",
+    "transformer-based models",
+    "-",
+    "loss",
+    "adam",
+    "dam",
+    "we",
+    "adam smith"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.74/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:27:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

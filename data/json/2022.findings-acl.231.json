@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.231",
+  "title": "Learning to Describe Solutions for Bug Reports Based on Developer Discussions",
+  "authors": [
+    "Panthaplackel, Sheena  and\nLi, Junyi Jessy  and\nGligoric, Milos  and\nMooney, Ray"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "When a software bug is reported, developers engage in a discussion to collaboratively resolve it. While the solution is likely formulated within the discussion, it is often buried in a large amount of text, making it difficult to comprehend and delaying its implementation. To expedite bug resolution, we propose generating a concise natural language description of the solution by synthesizing relevant content within the discussion, which encompasses both natural language and source code. We build a corpus for this task using a novel technique for obtaining noisy supervision from repository changes linked to bug reports, with which we establish benchmarks. We also design two systems for generating a description during an ongoing discussion by classifying when sufficient context for performing the task emerges in real-time. With automated and human evaluation, we find this task to form an ideal testbed for complex reasoning in long, bimodal dialogue context.",
+  "keywords": [
+    "automated and human evaluation",
+    "code",
+    "human",
+    "language",
+    "long bimodal dialogue context",
+    "natural",
+    "text",
+    "it",
+    "sufficient",
+    "we",
+    "dialogue",
+    "evaluation",
+    "time",
+    "sufficient context",
+    "a large amount"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.231/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

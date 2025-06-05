@@ -1,0 +1,33 @@
+{
+  "id": "P19-1121",
+  "title": "Improved Zero-shot Neural Machine Translation via Ignoring Spurious Correlations",
+  "authors": [
+    "Gu, Jiatao  and\nWang, Yong  and\nCho, Kyunghyun  and\nLi, Victor O.K."
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Zero-shot translation, translating between language pairs on which a Neural Machine Translation (NMT) system has never been trained, is an emergent property when training the system in multilingual settings. However, naive training for zero-shot NMT easily fails, and is sensitive to hyper-parameter setting. The performance typically lags far behind the more conventional pivot-based approach which translates twice using a third language as a pivot. In this work, we address the degeneracy problem due to capturing spurious correlations by quantitatively analyzing the mutual information between language IDs of the source and decoded sentences. Inspired by this analysis, we propose to use two simple but effective approaches: (1) decoder pre-training; (2) back-translation. These methods show significant improvement (4 22 BLEU points) over the vanilla zero-shot translation on three challenging multilingual datasets, and achieve similar or better results than the pivot-based approach.",
+  "keywords": [
+    "bleu",
+    "we",
+    "zero-shot neural machine translation",
+    "parameter",
+    "shot",
+    "training",
+    "translation",
+    "zero-shot nmt",
+    "1 decoder",
+    "hyper",
+    "neural",
+    "decoder",
+    "information",
+    "zero-shot translation translating",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/P19-1121/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:32:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

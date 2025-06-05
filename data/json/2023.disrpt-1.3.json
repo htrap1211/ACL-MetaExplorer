@@ -1,0 +1,33 @@
+{
+  "id": "2023.disrpt-1.3",
+  "title": "D}is{C}ut and {D}isc{R}e{T}: {MELODI} at {DISRPT} 2023",
+  "authors": [
+    "Metheniti, Eleni  and\nBraud, Chlo{\\'e}  and\nMuller, Philippe  and\nRivi{\\`e}re, Laura"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 3rd Shared Task on Discourse Relation Parsing and Treebanking (DISRPT 2023)",
+  "abstract": "This paper presents the results obtained by the MELODI team for the three tasks proposed within the DISRPT 2023 shared task on discourse: segmentation, connective identification, and relation classification. The competition involves corpora in various languages in several underlying frameworks, and proposes two tracks depending on the presence or not of annotations of sentence boundaries and syntactic information. For these three tasks, we rely on a transformer-based architecture, and investigate several optimizations of the models, including hyper-parameter search and layer freezing. For discourse relations, we also explore the use of adapters—a lightweight solution for model fine-tuning—and introduce relation mappings to partially deal with the label set explosion we are facing within the setting of the shared task in a multi-corpus perspective. In the end, we propose one single architecture for segmentation and connectives, based on XLM-RoBERTa large, freezed at lower layers, with new state-of-the-art results for segmentation, and we propose 3 different models for relations, since the task makes it harder to generalize across all corpora.",
+  "keywords": [
+    "roberta",
+    "end",
+    "xlm-roberta large freezed",
+    "layer",
+    "several optimizations",
+    "all",
+    "we",
+    "parameter",
+    "classification",
+    "hyper",
+    "it",
+    "information",
+    "tuning",
+    "fine",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2023.disrpt-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:24:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

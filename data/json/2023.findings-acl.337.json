@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.337",
+  "title": "T}ext{O}bfuscator: Making Pre-trained Language Model a Privacy Protector via Obfuscating Word Representations",
+  "authors": [
+    "Zhou, Xin  and\nLu, Yi  and\nMa, Ruotian  and\nGui, Tao  and\nWang, Yuran  and\nDing, Yong  and\nZhang, Yibo  and\nZhang, Qi  and\nHuang, Xuanjing"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In real-world applications, pre-trained language models are typically deployed on the cloud, allowing clients to upload data and perform compute-intensive inference remotely. To avoid sharing sensitive data directly with service providers, clients can upload numerical representations rather than plain text to the cloud. However, recent text reconstruction techniques have demonstrated that it is possible to transform representations into original words, suggesting that privacy risk remains. In this paper, we propose TextObfuscator, a novel framework for protecting inference privacy by applying random perturbations to clustered representations. The random perturbations make the representations indistinguishable from surrounding clustered representations, thus obscuring word information while retaining the original word functionality. To achieve this, we utilize prototypes to learn clustered representation, where tokens of similar functionality are encouraged to be closer to the same prototype during training. Additionally, we design different methods to find prototypes for token-level and sentence-level tasks, which can improve performance by incorporating semantic and task information. Experimental results on token and sentence classification tasks show that TextObfuscator achieves improvement over compared methods without increasing inference cost.",
+  "keywords": [
+    "ext",
+    "clients",
+    "semantic",
+    "we",
+    "training",
+    "classification",
+    "cloud",
+    "it",
+    "token",
+    "information",
+    "word",
+    "pre-trained language model",
+    "text",
+    "service providers clients",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.337/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.971",
+  "title": "EHR}-{S}eq{SQL} : A Sequential Text-to-{SQL} Dataset For Interactively Exploring Electronic Health Records",
+  "authors": [
+    "Ryu, Jaehee  and\nCho, Seonhee  and\nLee, Gyubok  and\nChoi, Edward"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "In this paper, we introduce EHR-SeqSQL, a novel sequential text-to-SQL dataset for Electronic Health Record (EHR) databases. EHR-SeqSQL is designed to address critical yet underexplored aspects in text-to-SQL parsing: interactivity, compositionality, and efficiency. To the best of our knowledge, EHR-SeqSQL is not only the largest but also the first medical text-to-SQL dataset benchmark to include sequential and contextual questions. We provide a data split and the new test set designed to assess compositional generalization ability. Our experiments demonstrate the superiority of a multi-turn approach over a single-turn approach in learning compositionality. Additionally, our dataset integrates specially crafted tokens into SQL queries to improve execution efficiency. With EHR-SeqSQL, we aim to bridge the gap between practical needs and academic research in the text-to-SQL domain.",
+  "keywords": [
+    "text-to-sql parsing interactivity compositionality",
+    "knowledge",
+    "sql queries",
+    "text",
+    "queries",
+    "compositional generalization ability",
+    "generalization",
+    "efficiency",
+    "we",
+    "execution efficiency",
+    "practical",
+    "medical",
+    "electronic health record ehr",
+    "split",
+    "multi"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.971/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

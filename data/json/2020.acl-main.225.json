@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.225",
+  "title": "Enabling Language Models to Fill in the Blanks",
+  "authors": [
+    "Donahue, Chris  and\nLee, Mina  and\nLiang, Percy"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We present a simple approach fortext infilling, the task of predicting missing spans of text at any position in a document. While infilling could enable rich functionality especially for writing assistance tools, more attention has been devoted to language modeling—a special case of infilling where text is predicted at the end of a document. In this paper, we aim to extend the capabilities of language models (LMs) to the more general task of infilling. To this end, we train (or fine tune) off-the-shelf LMs on sequences containing the concatenation of artificially-masked text and the text which was masked. We show that this approach, which we callinfilling by language modeling, can enable LMs to infill entire sentences effectively on three different domains: short stories, scientific abstracts, and lyrics. Furthermore, we show that humans have difficulty identifying sentences infilled by our approach as machine-generated in the domain of short stories.",
+  "keywords": [
+    "general",
+    "end",
+    "language",
+    "machine",
+    "text",
+    "short stories",
+    "language models",
+    "modeling",
+    "capabilities",
+    "stories",
+    "fine",
+    "rich",
+    "attention",
+    "we",
+    "language models lms"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.225/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:45:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

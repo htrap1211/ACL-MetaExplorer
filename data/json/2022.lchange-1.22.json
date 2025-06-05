@@ -1,0 +1,33 @@
+{
+  "id": "2022.lchange-1.22",
+  "title": "G}loss{R}eader at {LSCD}iscovery: Train to Select a Proper Gloss in {E}nglish {--} Discover Lexical Semantic Change in {S}panish",
+  "authors": [
+    "Rachinskiy, Maxim  and\nArefyev, Nikolay"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 3rd Workshop on Computational Approaches to Historical Language Change",
+  "abstract": "The contextualized embeddings obtained from neural networks pre-trained as Language Models (LM) or Masked Language Models (MLM) are not well suitable for solving the Lexical Semantic Change Detection (LSCD) task because they are more sensitive to changes in word forms rather than word meaning, a property previously known as the word form bias or orthographic bias. Unlike many other NLP tasks, it is also not obvious how to fine-tune such models for LSCD. In order to conclude if there are any differences between senses of a particular word in two corpora, a human annotator or a system shall analyze many examples containing this word from both corpora. This makes annotation of LSCD datasets very labour-consuming. The existing LSCD datasets contain up to 100 words that are labeled according to their semantic change, which is hardly enough for fine-tuning. To solve these problems we fine-tune the XLM-R MLM as part of a gloss-based WSD system on a large WSD dataset in English. Then we employ zero-shot cross-lingual transferability of XLM-R to build the contextualized embeddings for examples in Spanish. In order to obtain the graded change score for each word, we calculate the average distance between our improved contextualized embeddings of its old and new occurrences. For the binary change detection subtask, we apply thresholding to the same scores. Our solution has shown the best results among all other participants in all subtasks except for the optional sense gain detection subtask.",
+  "keywords": [
+    "bias",
+    "form",
+    "semantic",
+    "we",
+    "their semantic change",
+    "fine-tuning",
+    "cross",
+    "neural",
+    "it",
+    "loss",
+    "zero-shot cross-lingual transferability",
+    "word",
+    "our improved contextualized embeddings",
+    "the contextualized embeddings",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2022.lchange-1.22/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:44:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

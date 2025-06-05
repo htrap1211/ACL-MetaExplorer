@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.851",
+  "title": "Uncertainty-Aware Unlikelihood Learning Improves Generative Aspect Sentiment Quad Prediction",
+  "authors": [
+    "Hu, Mengting  and\nBai, Yinhao  and\nWu, Yike  and\nZhang, Zhen  and\nZhang, Liqi  and\nGao, Hang  and\nZhao, Shiwan  and\nHuang, Minlie"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Recently, aspect sentiment quad prediction has received widespread attention in the field of aspect-based sentiment analysis. Existing studies extract quadruplets via pre-trained generative language models to paraphrase the original sentence into a templated target sequence. However, previous works only focus on what to generate but ignore what not to generate. We argue that considering the negative samples also leads to potential benefits. In this work, we propose a template-agnostic method to control the token-level generation, which boosts original learning and reduces mistakes simultaneously. Specifically, we introduce Monte Carlo dropout to understand the built-in uncertainty of pre-trained language models, acquiring the noises and errors. We further propose marginalized unlikelihood learning to suppress the uncertainty-aware mistake tokens. Finally, we introduce minimization entropy to balance the effects of marginalized unlikelihood learning. Extensive experiments on four public datasets demonstrate the effectiveness of our approach on various generation templates.",
+  "keywords": [
+    "field",
+    "we",
+    "various generation templates",
+    "monte carlo dropout",
+    "pre-trained language models",
+    "the field",
+    "token",
+    "learning",
+    "sequence",
+    "existing studies",
+    "analysis",
+    "widespread attention",
+    "generative",
+    "pre-trained generative language models",
+    "the token-level generation"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.851/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

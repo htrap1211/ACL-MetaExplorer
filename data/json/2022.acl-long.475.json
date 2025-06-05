@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.475",
+  "title": "CQG}: A Simple and Effective Controlled Generation Framework for Multi-hop Question Generation",
+  "authors": [
+    "Fei, Zichu  and\nZhang, Qi  and\nGui, Tao  and\nLiang, Di  and\nWang, Sirui  and\nWu, Wei  and\nHuang, Xuanjing"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Multi-hop question generation focuses on generating complex questions that require reasoning over multiple pieces of information of the input passage. Current models with state-of-the-art performance have been able to generate the correct questions corresponding to the answers. However, most models can not ensure the complexity of generated questions, so they may generate shallow questions that can be answered without multi-hop reasoning. To address this challenge, we propose the CQG, which is a simple and effective controlled framework. CQG employs a simple method to generate the multi-hop questions that contain key entities in multi-hop reasoning chains, which ensure the complexity and quality of the questions. In addition, we introduce a novel controlled Transformer-based decoder to guarantee that key entities appear in the questions. Experiment results show that our model greatly improves performance, which also outperforms the state-of-the-art model about 25% by 5 BLEU points on HotpotQA.",
+  "keywords": [
+    "transformer",
+    "multi-hop question generation",
+    "generation",
+    "model",
+    "entities",
+    "hotpotqa",
+    "bleu",
+    "decoder",
+    "question",
+    "information",
+    "pieces",
+    "5 bleu points",
+    "we",
+    "generated questions",
+    "current"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.475/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:30:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

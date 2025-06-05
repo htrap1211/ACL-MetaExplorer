@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.505",
+  "title": "Opinion Tree Parsing for Aspect-based Sentiment Analysis",
+  "authors": [
+    "Bao, Xiaoyi  and\nJiang, Xiaotong  and\nWang, Zhongqing  and\nZhang, Yue  and\nZhou, Guodong"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Extracting sentiment elements using pre-trained generative models has recently led to large improvements in aspect-based sentiment analysis benchmarks. These models avoid explicit modeling of structure between sentiment elements, which are succinct yet lack desirable properties such as structure well-formedness guarantees or built-in elements alignments. In this study, we propose an opinion tree parsing model, aiming to parse all the sentiment elements from an opinion tree, which can explicitly reveal a more comprehensive and complete aspect-level sentiment structure. In particular, we first introduce a novel context-free opinion grammar to normalize the sentiment structure. We then employ a neural chart-based opinion tree parser to fully explore the correlations among sentiment elements and parse them in the opinion tree form. Extensive experiments show the superiority of our proposed model and the capacity of the opinion tree parser with the proposed context-free opinion grammar. More importantly, our model is much faster than previous models.",
+  "keywords": [
+    "generative",
+    "alignments",
+    "neural",
+    "model",
+    "modeling",
+    "properties",
+    "desirable properties",
+    "we",
+    "pre-trained generative models",
+    "pre",
+    "aspect-based sentiment analysis",
+    "built-in elements alignments",
+    "analysis",
+    "sentiment",
+    "grammar"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.505/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

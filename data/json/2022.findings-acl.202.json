@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.202",
+  "title": "H}i{CLRE}: A Hierarchical Contrastive Learning Framework for Distantly Supervised Relation Extraction",
+  "authors": [
+    "Li, Dongyang  and\nZhang, Taolin  and\nHu, Nan  and\nWang, Chengyu  and\nHe, Xiaofeng"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Distant supervision assumes that any sentence containing the same entity pairs reflects identical relationships. Previous works of distantly supervised relation extraction (DSRE) task generally focus on sentence-level or bag-level de-noising techniques independently, neglecting the explicit interaction with cross levels. In this paper, we propose a hierarchical contrastive learning Framework for Distantly Supervised relation extraction (HiCLRE) to reduce noisy sentences, which integrate the global structural information and local fine-grained interaction. Specifically, we propose a three-level hierarchical learning framework to interact with cross levels, generating the de-noising context-aware representations via adapting the existing multi-head self-attention, named Multi-Granularity Recontextualization. Meanwhile, pseudo positive samples are also provided in the specific level for contrastive learning via a dynamic gradient-based data augmentation strategy, named Dynamic Gradient Adversarial Perturbation. Experiments demonstrate that HiCLRE significantly outperforms strong baselines in various mainstream DSRE datasets.",
+  "keywords": [
+    "extraction",
+    "we",
+    "cross",
+    "bag",
+    "self",
+    "information",
+    "learning",
+    "i",
+    "hierarchical",
+    "the existing multi-head self-attention",
+    "gradient",
+    "attention",
+    "entity",
+    "multi",
+    "supervision"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.202/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

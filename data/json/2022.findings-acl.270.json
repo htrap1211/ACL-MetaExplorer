@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.270",
+  "title": "Comprehensive Multi-Modal Interactions for Referring Image Segmentation",
+  "authors": [
+    "Jain, Kanishk  and\nGandhi, Vineet"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "We investigate Referring Image Segmentation (RIS), which outputs a segmentation map corresponding to the natural language description. Addressing RIS efficiently requires considering the interactions happening across visual and linguistic modalities and the interactions within each modality. Existing methods are limited because they either compute different forms of interactions sequentially (leading to error propagation) or ignore intra-modal interactions. We address this limitation by performing all three interactions simultaneously through a Synchronous Multi-Modal Fusion Module (SFM). Moreover, to produce refined segmentation masks, we propose a novel Hierarchical Cross-Modal Aggregation Module (HCAM), where linguistic features facilitate the exchange of contextual information across the visual hierarchy. We present thorough ablation studies and validate our approach’s performance on four benchmark datasets, showing considerable performance gains over the existing state-of-the-art (SOTA) methods.",
+  "keywords": [
+    "cross",
+    "hierarchical",
+    "thorough ablation studies",
+    "language",
+    "natural",
+    "studies",
+    "map",
+    "modalities",
+    "visual and linguistic modalities",
+    "information",
+    "propagation",
+    "hierarchy",
+    "we",
+    "visual",
+    "the visual hierarchy"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.270/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

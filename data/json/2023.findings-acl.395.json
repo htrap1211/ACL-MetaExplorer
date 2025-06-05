@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.395",
+  "title": "Disentangling Text Representation With Counter-Template For Unsupervised Opinion Summarization",
+  "authors": [
+    "Zhang, Yanyue  and\nZhou, Deyu"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Approaches for unsupervised opinion summarization are generally based on the reconstruction model and generate a summary by decoding the aggregated representation of inputs. Recent work has shown that aggregating via simple average leads to vector degeneration, generating the generic summary. To tackle the challenge, some approaches select the inputs before aggregating. However, we argue that the selection is too coarse as not all information in each input is equally essential for the summary. For example, the content information such as “great coffee maker, easy to set up” is more valuable than the pattern such as “this is a great product”. Therefore, we propose a novel framework for unsupervised opinion summarization based on text representation disentanglement with counter-template. In specific, a disentangling module is added to the encoder-decoder architecture which decouples the input text representation into two parts: content and pattern. To capture the pattern information, a counter-template is utilized as supervision, which is automatically generated based on contrastive learning. Experimental results on two benchmark datasets show that the proposed approach outperforms the state-of-the-art baselines on both quality and stability.",
+  "keywords": [
+    "summarization",
+    "we",
+    "degeneration",
+    "unsupervised opinion summarization",
+    "decoder",
+    "information",
+    "the generic summary",
+    "vector",
+    "text",
+    "generic",
+    "vector degeneration",
+    "-",
+    "work",
+    "the encoder-decoder architecture",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.395/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

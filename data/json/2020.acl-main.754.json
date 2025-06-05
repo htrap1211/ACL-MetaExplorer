@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.754",
+  "title": "Balancing Training for Multilingual Neural Machine Translation",
+  "authors": [
+    "Wang, Xinyi  and\nTsvetkov, Yulia  and\nNeubig, Graham"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "When training multilingual machine translation (MT) models that can translate to/from multiple languages, we are faced with imbalanced training sets: some languages have much more training data than others. Standard practice is to up-sample less resourced languages to increase representation, and the degree of up-sampling has a large effect on the overall performance. In this paper, we propose a method that instead automatically learns how to weight training data through a data scorer that is optimized to maximize performance on all test languages. Experiments on two sets of languages under both one-to-many and many-to-one MT settings show our method not only consistently outperforms heuristic baselines in terms of average performance, but also offers flexible control over the performance of which languages are optimized.",
+  "keywords": [
+    "neural",
+    "machine",
+    "multilingual machine translation",
+    "we",
+    "multilingual neural machine translation",
+    "training",
+    "translation",
+    "that",
+    "sample",
+    "average performance",
+    "baselines",
+    "multiple languages",
+    "sampling",
+    "others",
+    "practice"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.754/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:52:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwslt-1.4",
+  "title": "The {U}niversity of {E}dinburgh{'}s Submission to the {IWSLT}21 Simultaneous Translation Task",
+  "authors": [
+    "Sen, Sukanta  and\nGermann, Ulrich  and\nHaddow, Barry"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021)",
+  "abstract": "We describe our submission to the IWSLT 2021 shared task on simultaneous text-to-text English-German translation. Our system is based on the re-translation approach where the agent re-translates the whole source prefix each time it receives a new source token. This approach has the advantage of being able to use a standard neural machine translation (NMT) inference engine with beam search, however, there is a risk that incompatibility between successive re-translations will degrade the output. To improve the quality of the translations, we experiment with various approaches: we use a fixed size wait at the beginning of the sentence, we use a language model score to detect translatable units, and we apply dynamic masking to determine when the translation is unstable. We find that a combination of dynamic masking and language model score obtains the best latency-quality trade-off.",
+  "keywords": [
+    "a language model score",
+    "we",
+    "translation",
+    "neural",
+    "it",
+    "the translation",
+    "the translations",
+    "text",
+    "-",
+    "the re-translation approach",
+    "language",
+    "model",
+    "machine",
+    "time",
+    "translations"
+  ],
+  "url": "https://aclanthology.org/2021.iwslt-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:18:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

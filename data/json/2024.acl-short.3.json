@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-short.3",
+  "title": "Revisiting Code Similarity Evaluation with Abstract Syntax Tree Edit Distance",
+  "authors": [
+    "Song, Yewei  and\nLothritz, Cedric  and\nTang, Xunzhu  and\nBissyand{\\'e}, Tegawend{\\'e}  and\nKlein, Jacques"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "This paper revisits recent code similarity evaluation metrics, particularly focusing on the application of Abstract Syntax Tree (AST) editing distance in diverse programming languages. In particular, we explore the usefulness of these metrics and compare them to traditional sequence similarity metrics. Our experiments showcase the effectiveness of AST editing distance in capturing intricate code structures, revealing a high correlation with established metrics. Furthermore, we explore the strengths and weaknesses of AST editing distance and prompt-based GPT similarity scores in comparison to BLEU score, execution match, and Jaccard Similarity. We propose, optimize, and publish an adaptable metric that demonstrates effectiveness across all tested languages, representing an enhanced version of Tree Similarity of Edit Distance (TSED).",
+  "keywords": [
+    "code",
+    "code similarity evaluation",
+    "prompt",
+    "metric",
+    "abstract syntax tree",
+    "metrics",
+    "bleu",
+    "bleu score execution match",
+    "ast",
+    "prompt-based gpt similarity scores",
+    "gpt",
+    "established metrics",
+    "we",
+    "sequence",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/2024.acl-short.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:46:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

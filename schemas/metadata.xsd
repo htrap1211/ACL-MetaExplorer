@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:prov="http://www.w3.org/ns/prov#"
+           elementFormDefault="qualified">
+
+    <!-- Paper metadata schema -->
+    <xs:element name="papers">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="paper" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="xs:string"/>
+                            <xs:element name="authors">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="author" type="xs:string" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="year" type="xs:integer"/>
+                            <xs:element name="venue" type="xs:string"/>
+                            <xs:element name="abstract" type="xs:string"/>
+                            <xs:element name="keywords">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="keyword" type="xs:string" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="url" type="xs:anyURI"/>
+                            <xs:element name="provenance">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="collected_at" type="xs:dateTime"/>
+                                        <xs:element name="source" type="xs:string"/>
+                                        <xs:element name="version" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema> 

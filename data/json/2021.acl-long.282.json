@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.282",
+  "title": "Measuring Fine-Grained Domain Relevance of Terms: A Hierarchical Core-Fringe Approach",
+  "authors": [
+    "Huang, Jie  and\nChang, Kevin  and\nXiong, JinJun  and\nHwu, Wen-mei"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "We propose to measure fine-grained domain relevance– the degree that a term is relevant to a broad (e.g., computer science) or narrow (e.g., deep learning) domain. Such measurement is crucial for many downstream tasks in natural language processing. To handle long-tail terms, we build a core-anchored semantic graph, which uses core terms with rich description information to bridge the vast remaining fringe terms semantically. To support a fine-grained domain without relying on a matching corpus for supervision, we develop hierarchical core-fringe learning, which learns core and fringe terms jointly in a semi-supervised manner contextualized in the hierarchy of the domain. To reduce expensive human efforts, we employ automatic annotation and hierarchical positive-unlabeled learning. Our approach applies to big or small domains, covers head or tail terms, and requires little human effort. Extensive experiments demonstrate that our methods outperform strong baselines and even surpass professional human performance.",
+  "keywords": [
+    "deep",
+    "the hierarchy",
+    "semantic",
+    "we",
+    "graph",
+    "g deep learning domain",
+    "hierarchical core-fringe learning",
+    "natural",
+    "a semi-supervised manner",
+    "information",
+    "science",
+    "rich",
+    "learning",
+    "natural language processing",
+    "core"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.282/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

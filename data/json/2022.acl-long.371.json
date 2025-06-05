@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.371",
+  "title": "Prix-{LM}: Pretraining for Multilingual Knowledge Base Construction",
+  "authors": [
+    "Zhou, Wenxuan  and\nLiu, Fangyu  and\nVuli{\\'c}, Ivan  and\nCollier, Nigel  and\nChen, Muhao"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Knowledge bases (KBs) contain plenty of structured world and commonsense knowledge. As such, they often complement distributional text-based information and facilitate various downstream tasks. Since their manual construction is resource- and time-intensive, recent efforts have tried leveraging large pretrained language models (PLMs) to generate additional monolingual knowledge facts for KBs. However, such methods have not been attempted for building and enriching multilingual KBs. Besides wider application, such multilingual KBs can provide richer combined knowledge than monolingual (e.g., English) KBs. Knowledge expressed in different languages may be complementary and unequally distributed: this implies that the knowledge available in high-resource languages can be transferred to low-resource ones. To achieve this, it is crucial to represent multilingual knowledge in a shared/unified space. To this end, we propose a unified representation model, Prix-LM, for multilingual KB construction and completion. We leverage two types of knowledge, monolingual triples and cross-lingual links, extracted from existing multilingual KBs, and tune a multilingual language encoder XLM-R via a causal language modeling objective. Prix-LM integrates useful multilingual and KB-based factual knowledge into a single model. Experiments on standard entity-related tasks, such as link prediction in multiple languages, cross-lingual entity linking and bilingual lexicon induction, demonstrate its effectiveness, with gains reported over strong task-specialised baselines.",
+  "keywords": [
+    "end",
+    "we",
+    "cross",
+    "it",
+    "a unified representation model",
+    "unified",
+    "information",
+    "a multilingual language encoder",
+    "text",
+    "objective",
+    "a shared unified space",
+    "knowledge",
+    "language",
+    "model",
+    "encoder"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.371/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:29:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

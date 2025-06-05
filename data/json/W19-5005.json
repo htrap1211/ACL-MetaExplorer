@@ -1,0 +1,33 @@
+{
+  "id": "W19-5005",
+  "title": "Analysing Representations of Memory Impairment in a Clinical Notes Classification Model",
+  "authors": [
+    "Ormerod, Mark  and\nMart{\\'i}nez-del-Rinc{\\'o}n, Jes{\\'u}s  and\nRobertson, Neil  and\nMcGuinness, Bernadette  and\nDevereux, Barry"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 18th BioNLP Workshop and Shared Task",
+  "abstract": "Despite recent advances in the application of deep neural networks to various kinds of medical data, extracting information from unstructured textual sources remains a challenging task. The challenges of training and interpreting document classification models are amplified when dealing with small and highly technical datasets, as are common in the clinical domain. Using a dataset of de-identified clinical letters gathered at a memory clinic, we construct several recurrent neural network models for letter classification, and evaluate them on their ability to build meaningful representations of the documents and predict patients’ diagnoses. Additionally, we probe sentence embedding models in order to build a human-interpretable representation of the neural network’s features, using a simple and intuitive technique based on perturbative approaches to sentence importance. In addition to showing which sentences in a document are most informative about the patient’s condition, this method reveals the types of sentences that lead the model to make incorrect diagnoses. Furthermore, we identify clusters of sentences in the embedding space that correlate strongly with importance scores for each clinical diagnosis class.",
+  "keywords": [
+    "deep",
+    "deep neural networks",
+    "we",
+    "training",
+    "classification",
+    "neural",
+    "patients",
+    "information",
+    "recurrent",
+    "letter classification",
+    "document classification models",
+    "the patient s condition",
+    "the embedding space",
+    "model",
+    "human"
+  ],
+  "url": "https://aclanthology.org/W19-5005/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:55:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

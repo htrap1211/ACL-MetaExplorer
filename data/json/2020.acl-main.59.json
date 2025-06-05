@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.59",
+  "title": "Multi-Agent Task-Oriented Dialog Policy Learning with Role-Aware Reward Decomposition",
+  "authors": [
+    "Takanobu, Ryuichi  and\nLiang, Runze  and\nHuang, Minlie"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Many studies have applied reinforcement learning to train a dialog policy and show great promise these years. One common approach is to employ a user simulator to obtain a large number of simulated user experiences for reinforcement learning algorithms. However, modeling a realistic user simulator is challenging. A rule-based simulator requires heavy domain expertise for complex tasks, and a data-driven simulator requires considerable data and it is even unclear how to evaluate a simulator. To avoid explicitly building a user simulator beforehand, we propose Multi-Agent Dialog Policy Learning, which regards both the system and the user as the dialog agents. Two agents interact with each other and are jointly learned simultaneously. The method uses the actor-critic framework to facilitate pretraining and improve scalability. We also propose Hybrid Value Network for the role-aware reward decomposition to integrate role-specific domain knowledge of each agent in the task-oriented dialog. Results show that our method can successfully build a system policy and a user policy simultaneously, and two agents can achieve a high task success rate through conversational interaction.",
+  "keywords": [
+    "reinforcement learning algorithms",
+    "rate",
+    "we",
+    "many studies",
+    "it",
+    "learning",
+    "simulated user experiences",
+    "conversational interaction",
+    "reinforcement",
+    "knowledge",
+    "the task-oriented dialog results",
+    "studies",
+    "experiences",
+    "dialog",
+    "conversational"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.59/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:43:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

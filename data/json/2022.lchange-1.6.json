@@ -1,0 +1,33 @@
+{
+  "id": "2022.lchange-1.6",
+  "title": "Do Not Fire the Linguist: Grammatical Profiles Help Language Models Detect Semantic Change",
+  "authors": [
+    "Giulianelli, Mario  and\nKutuzov, Andrey  and\nPivovarova, Lidia"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 3rd Workshop on Computational Approaches to Historical Language Change",
+  "abstract": "Morphological and syntactic changes in word usage — as captured, e.g., by grammatical profiles — have been shown to be good predictors of a word’s meaning change. In this work, we explore whether large pre-trained contextualised language models, a common tool for lexical semantic change detection, are sensitive to such morphosyntactic changes. To this end, we first compare the performance of grammatical profiles against that of a multilingual neural language model (XLM-R) on 10 datasets, covering 7 languages, and then combine the two approaches in ensembles to assess their complementarity. Our results show that ensembling grammatical profiles with XLM-R improves semantic change detection performance for most datasets and languages. This indicates that language models do not fully cover the fine-grained morphological and syntactic signals that are explicitly represented in grammatical profiles. An interesting exception are the test sets where the time spans under analysis are much longer than the time gap between them (for example, century-long spans with a one-year gap between them). Morphosyntactic change is slow so grammatical profiles do not detect in such cases. In contrast, language models, thanks to their access to lexical information, are able to detect fast topical changes.",
+  "keywords": [
+    "end",
+    "semantic",
+    "we",
+    "neural",
+    "information",
+    "word",
+    "analysis",
+    "contrast language models",
+    "ensembles",
+    "language models",
+    "fast",
+    "work",
+    "e g",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2022.lchange-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:44:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

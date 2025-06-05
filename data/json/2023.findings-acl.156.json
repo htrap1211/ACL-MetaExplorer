@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.156",
+  "title": "Unsupervised Keyphrase Extraction by Learning Neural Keyphrase Set Function",
+  "authors": [
+    "Song, Mingyang  and\nJiang, Haiyun  and\nLiu, Lemao  and\nShi, Shuming  and\nJing, Liping"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "We create aparadigm shiftconcerning building unsupervised keyphrase extraction systems in this paper. Instead of modeling the relevance between an individual candidate phrase and the document as in the commonly used framework, we formulate the unsupervised keyphrase extraction task as a document-set matching problem froma set-wise perspective, in which the document and the candidate set are globally matched in the semantic space to particularly take into account the interactions among all candidate phrases. Since it is intractable to exactly extract the keyphrase set by the matching function during the inference, we propose an approximate approach, which obtains the candidate subsets via a set extractor agent learned by reinforcement learning. Exhaustive experimental results demonstrate the effectiveness of our model, which outperforms the recent state-of-the-art unsupervised keyphrase extraction baselines by a large margin.",
+  "keywords": [
+    "reinforcement",
+    "neural",
+    "the semantic space",
+    "extraction",
+    "it",
+    "model",
+    "semantic",
+    "we",
+    "function",
+    "approximate",
+    "interactions",
+    "the effectiveness",
+    "approach",
+    "the document",
+    "froma set-wise perspective"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.156/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

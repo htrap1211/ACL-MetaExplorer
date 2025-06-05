@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.191",
+  "title": "PROTAUGMENT}: Unsupervised diverse short-texts paraphrasing for intent detection meta-learning",
+  "authors": [
+    "Dopierre, Thomas  and\nGravier, Christophe  and\nLogerais, Wilfried"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Recent research considers few-shot intent detection as a meta-learning problem: the model is learning to learn from a consecutive set of small tasks named episodes. In this work, we propose ProtAugment, a meta-learning algorithm for short texts classification (the intent detection task). ProtAugment is a novel extension of Prototypical Networks, that limits overfitting on the bias introduced by the few-shots classification objective at each episode. It relies on diverse paraphrasing: a conditional language model is first fine-tuned for paraphrasing, and diversity is later introduced at the decoding stage at each meta-learning episode. The diverse paraphrasing is unsupervised as it is applied to unlabelled data, and then fueled to the Prototypical Network training objective as a consistency loss. ProtAugment is the state-of-the-art method for intent detection meta-learning, at no extra labeling efforts and without the need to fine-tune a conditional language model on a given application domain.",
+  "keywords": [
+    "few-shot intent detection",
+    "the bias",
+    "bias",
+    "extra",
+    "we",
+    "the few-shots classification objective",
+    "shot",
+    "training",
+    "classification",
+    "a conditional language model",
+    "it",
+    "loss",
+    "learning",
+    "objective",
+    "fine"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.191/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:01:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

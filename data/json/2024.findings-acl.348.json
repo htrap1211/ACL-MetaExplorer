@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.348",
+  "title": "B}io{M}istral: A Collection of Open-Source Pretrained Large Language Models for Medical Domains",
+  "authors": [
+    "Labrak, Yanis  and\nBazoge, Adrien  and\nMorin, Emmanuel  and\nGourraud, Pierre-Antoine  and\nRouvier, Mickael  and\nDufour, Richard"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large Language Models (LLMs) have demonstrated remarkable versatility in recent years, offering potential applications across specialized domains such as healthcare and medicine. Despite the availability of various open-source LLMs tailored for health contexts, adapting general-purpose LLMs to the medical domain presents significant challenges.In this paper, we introduce BioMistral, an open-source LLM tailored for the biomedical domain, utilizing Mistral as its foundation model and further pre-trained on PubMed Central. We conduct a comprehensive evaluation of BioMistral on a benchmark comprising 10 established medical question-answering (QA) tasks in English. We also explore lightweight models obtained through quantization and model merging approaches. Our results demonstrate BioMistral’s superior performance compared to existing open-source medical models and its competitive edge against proprietary counterparts. Finally, to address the limited availability of data beyond English and to assess the multilingual generalization of medical LLMs, we automatically translated and evaluated this benchmark into 7 other languages. This marks the first large-scale multilingual evaluation of LLMs in the medical domain. Datasets, multilingual evaluation benchmarks, scripts, and all the models obtained during our experiments are freely released.",
+  "keywords": [
+    "proprietary counterparts",
+    "question",
+    "medical llms",
+    "the multilingual generalization",
+    "we",
+    "llm",
+    "edge",
+    "a comprehensive evaluation",
+    "multilingual evaluation benchmarks scripts",
+    "llms",
+    "large language models llms",
+    "generalization",
+    "general-purpose llms",
+    "an open-source llm",
+    "general"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.348/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:53:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

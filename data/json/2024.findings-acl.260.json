@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.260",
+  "title": "Do Androids Know They{'}re Only Dreaming of Electric Sheep?",
+  "authors": [
+    "CH-Wang, Sky  and\nVan Durme, Benjamin  and\nEisner, Jason  and\nKedzie, Chris"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "We design probes trained on the internal representations of a transformer language model to predict its hallucinatory behavior on three grounded generation tasks. To train the probes, we annotate for span-level hallucination on both sampled (organic) and manually edited (synthetic) reference outputs. Our probes are narrowly trained and we find that they are sensitive to their training domain: they generalize poorly from one task to another or from synthetic to organic hallucinations. However, on in-domain data, they can reliably detect hallucinations at many transformer layers, achieving 95% of their peak performance as early as layer 4. Here, probing proves accurate for evaluating hallucination, outperforming several contemporary baselines and even surpassing an expert human annotator in response-level detection F1. Similarly, on span-level labeling, probes are on par or better than the expert annotator on two out of three generation tasks. Overall, we find that probing is a feasible and efficient alternative to language model hallucination evaluation when model states are available.",
+  "keywords": [
+    "transformer",
+    "reference",
+    "response-level detection f1",
+    "language",
+    "generation",
+    "model",
+    "human",
+    "efficient",
+    "par",
+    "layer",
+    "a transformer language model",
+    "we",
+    "three grounded generation tasks",
+    "language model hallucination evaluation",
+    "many transformer layers"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.260/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.749",
+  "title": "Hierarchical Entity Typing via Multi-level Learning to Rank",
+  "authors": [
+    "Chen, Tongfei  and\nChen, Yunmo  and\nVan Durme, Benjamin"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We propose a novel method for hierarchical entity classification that embraces ontological structure at both training and during prediction. At training, our novel multi-level learning-to-rank loss compares positive types against negative siblings according to the type tree. During prediction, we define a coarse-to-fine decoder that restricts viable candidates at each level of the ontology based on already predicted parent type(s). Our approach significantly outperform prior work on strict accuracy, demonstrating the effectiveness of our method.",
+  "keywords": [
+    "work",
+    "hierarchical",
+    "decoder",
+    "loss",
+    "the ontology",
+    "fine",
+    "we",
+    "learning",
+    "entity",
+    "strict accuracy",
+    "ontology",
+    "hierarchical entity classification",
+    "accuracy",
+    "training",
+    "classification"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.749/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:52:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

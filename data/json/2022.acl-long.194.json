@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.194",
+  "title": "Efficient Hyper-parameter Search for Knowledge Graph Embedding",
+  "authors": [
+    "Zhang, Yongqi  and\nZhou, Zhanke  and\nYao, Quanming  and\nLi, Yong"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "While hyper-parameters (HPs) are important for knowledge graph (KG) learning, existing methods fail to search them efficiently. To solve this problem, we first analyze the properties of different HPs and measure the transfer ability from small subgraph to the full graph. Based on the analysis, we propose an efficient two-stage search algorithm KGTuner, which efficiently explores HP configurations on small subgraph at the first stage and transfers the top-performed configurations for fine-tuning on the large full graph at the second stage. Experiments show that our method can consistently find better HPs than the baseline algorithms within the same time budget, which achieves 9.1% average relative improvement for four embedding models on the large-scale KGs in open graph benchmark. Our code is released inhttps://github.com/AutoML-Research/KGTuner.",
+  "keywords": [
+    "code",
+    "efficient",
+    "knowledge graph",
+    "we",
+    "graph",
+    "parameter",
+    "fine-tuning",
+    "hyper",
+    "kgtuner",
+    "properties",
+    "transfer",
+    "kgs",
+    "analysis",
+    "the large-scale kgs",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.194/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

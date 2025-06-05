@@ -1,0 +1,33 @@
+{
+  "id": "2024.knowllm-1.13",
+  "title": "Safe-Embed: Unveiling the Safety-Critical Knowledge of Sentence Encoders",
+  "authors": [
+    "Kim, Jinseok  and\nJung, Jaewon  and\nKim, Sangyeop  and\nPark, Sohhyung  and\nCho, Sungzoon"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Towards Knowledgeable Language Models (KnowLLM 2024)",
+  "abstract": "Despite the impressive capabilities of Large Language Models (LLMs) in various tasks, their vulnerability to unsafe prompts remains a critical issue. These prompts can lead LLMs to generate responses on illegal or sensitive topics, posing a significant threat to their safe and ethical use. Existing approaches address this issue using classification models, divided into LLM-based and API-based methods. LLM based models demand substantial resources and large datasets, whereas API-based models are cost-effective but might overlook linguistic nuances. With the increasing complexity of unsafe prompts, similarity search-based techniques that identify specific features of unsafe content provide a more robust and effective solution to this evolving problem. This paper investigates the potential of sentence encoders to distinguish safe from unsafe content. We introduce new pairwise datasets and the Cate021 gorical Purity (CP) metric to measure this capability. Our findings reveal both the effectiveness and limitations of existing sentence encoders, proposing directions to improve sentence encoders to operate as robust safety detectors.",
+  "keywords": [
+    "embed",
+    "we",
+    "llm",
+    "classification",
+    "unsafe prompts",
+    "llm-based and api-based methods",
+    "llms",
+    "classification models",
+    "existing sentence encoders",
+    "metric",
+    "encoders",
+    "vulnerability",
+    "prompts",
+    "knowledge",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.knowllm-1.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:07:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

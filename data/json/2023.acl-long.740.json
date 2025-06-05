@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.740",
+  "title": "KGA}: A General Machine Unlearning Framework Based on Knowledge Gap Alignment",
+  "authors": [
+    "Wang, Lingzhi  and\nChen, Tong  and\nYuan, Wei  and\nZeng, Xingshan  and\nWong, Kam-Fai  and\nYin, Hongzhi"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent legislation of the “right to be forgotten” has led to the interest in machine unlearning, where the learned models are endowed with the function to forget information about specific training instances as if they have never existed in the training set. Previous work mainly focuses on computer vision scenarios and largely ignores the essentials of unlearning in NLP field, where text data contains more explicit and sensitive personal information than images. In this paper, we propose a general unlearning framework called KGA to induce forgetfulness. Different from previous work that tries to recover gradients or forces models to perform close to one specific distribution, KGA maintains distribution differences (i.e., knowledge gap). This relaxes the distribution assumption. Furthermore, we first apply the unlearning method to various NLP tasks (i.e., classification, translation, response generation) and propose several unlearning evaluation metrics with pertinence. Experiments on large-scale datasets show that KGA yields comprehensive improvements over baselines, where extensive analyses further validate the effectiveness of KGA and provide insight into unlearning for NLP tasks.",
+  "keywords": [
+    "a general unlearning framework",
+    "field",
+    "we",
+    "training",
+    "translation",
+    "classification",
+    "information",
+    "nlp tasks",
+    "nlp field",
+    "kga",
+    "i",
+    "text",
+    "several unlearning evaluation metrics",
+    "metrics",
+    "function"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.740/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:45:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

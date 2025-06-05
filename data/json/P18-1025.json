@@ -1,0 +1,33 @@
+{
+  "id": "P18-1025",
+  "title": "Probabilistic Embedding of Knowledge Graphs with Box Lattice Measures",
+  "authors": [
+    "Vilnis, Luke  and\nLi, Xiang  and\nMurty, Shikhar  and\nMcCallum, Andrew"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Embedding methods which enforce a partial order or lattice structure over the concept space, such as Order Embeddings (OE), are a natural way to model transitive relational data (e.g. entailment graphs). However, OE learns a deterministic knowledge base, limiting expressiveness of queries and the ability to use uncertainty for both prediction and learning (e.g. learning from expectations). Probabilistic extensions of OE have provided the ability to somewhat calibrate these denotational probabilities while retaining the consistency and inductive bias of ordered models, but lack the ability to model the negative correlations found in real-world knowledge. In this work we show that a broad class of models that assign probability measures to OE can never capture negative correlation, which motivates our construction of a novel box lattice and accompanying probability measure to capture anti-correlation and even disjoint concepts, while still providing the benefits of probabilistic modeling, such as the ability to perform rich joint and conditional queries over arbitrary sets of concepts, and both learning from and predicting calibrated uncertainty. We show improvements over previous approaches in modeling the Flickr and WordNet entailment graphs, and investigate the power of the model.",
+  "keywords": [
+    "order embeddings",
+    "bias",
+    "we",
+    "embedding methods",
+    "inductive bias",
+    "wordnet entailment graphs",
+    "natural",
+    "queries",
+    "knowledge graphs",
+    "rich",
+    "these denotational probabilities",
+    "wordnet",
+    "embedding",
+    "anti",
+    "g"
+  ],
+  "url": "https://aclanthology.org/P18-1025/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:09:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

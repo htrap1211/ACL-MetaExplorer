@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.870",
+  "title": "S}kill{QG}: Learning to Generate Question for Reading Comprehension Assessment",
+  "authors": [
+    "Wang, Xiaoqiang  and\nLiu, Bang  and\nTang, Siliang  and\nWu, Lingfei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "We present SkillQG: a question generation framework with controllable comprehension types for assessing and improving machine reading comprehension models. Existing question generation systems widely differentiate questions by literal information such as question words and answer types to generate semantically relevant questions for a given context. However, they rarely consider the comprehension nature of questions, i.e., the different comprehension capabilities embodied by different questions. In comparison, our SkillQG is able to tailor a fine-grained assessment and improvement to the capabilities of questions answering models built on it. Specifically, we first frame the comprehension type of questions based on a hierarchical skill-based schema. We then formulate SkillQG as a skill-conditioned question generator. Furthermore, to improve the controllability of generation, we augment the input text with skill-specific question focus and knowledge, which are constructed by iteratively prompting the pre-trained language models. Empirical results demonstrate that SkillQG outperforms baselines in terms of quality, relevance, and skill-controllability while showing a promising performance boost in downstream question answering task.",
+  "keywords": [
+    "a skill-conditioned question generator",
+    "the different comprehension capabilities",
+    "question",
+    "we",
+    "a question generation framework",
+    "it",
+    "information",
+    "boost",
+    "the capabilities",
+    "semantically relevant questions",
+    "a hierarchical skill-based schema",
+    "i",
+    "text",
+    "existing question generation systems",
+    "hierarchical"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.870/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

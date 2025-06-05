@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.23",
+  "title": "Eider: Empowering Document-level Relation Extraction with Efficient Evidence Extraction and Inference-stage Fusion",
+  "authors": [
+    "Xie, Yiqing  and\nShen, Jiaming  and\nLi, Sha  and\nMao, Yuning  and\nHan, Jiawei"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Document-level relation extraction (DocRE) aims to extract semantic relations among entity pairs in a document. Typical DocRE methods blindly take the full document as input, while a subset of the sentences in the document, noted as the evidence, are often sufficient for humans to predict the relation of an entity pair. In this paper, we propose an evidence-enhanced framework, Eider, that empowers DocRE by efficiently extracting evidence and effectively fusing the extracted evidence in inference. We first jointly train an RE model with a lightweight evidence extraction model, which is efficient in both memory and runtime. Empirically, even training the evidence model on silver labels constructed by our heuristic rules can lead to better RE performance. We further design a simple yet effective inference process that makes RE predictions on both extracted evidence and the full document, then fuses the predictions through a blending layer. This allows Eider to focus on important sentences while still having access to the complete information in the document. Extensive experiments show that Eider outperforms state-of-the-art methods on three benchmark datasets (e.g., by 1.37/1.26 Ign F1/F1 on DocRED).",
+  "keywords": [
+    "extraction",
+    "efficient",
+    "layer",
+    "semantic",
+    "we",
+    "fusion",
+    "information",
+    "sufficient",
+    "ign",
+    "efficient evidence extraction",
+    "e g",
+    "process",
+    "model",
+    "entity",
+    "semantic relations"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.23/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

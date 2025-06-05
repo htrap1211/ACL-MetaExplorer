@@ -1,0 +1,33 @@
+{
+  "id": "2021.starsem-1.26",
+  "title": "Learning Embeddings for Rare Words Leveraging {I}nternet Search Engine and Spatial Location Relationships",
+  "authors": [
+    "Li, Xiaotao  and\nYou, Shujuan  and\nNiu, Yawen  and\nChen, Wai"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of *SEM 2021: The Tenth Joint Conference on Lexical and Computational Semantics",
+  "abstract": "Word embedding techniques depend heavily on the frequencies of words in the corpus, and are negatively impacted by failures in providing reliable representations for low-frequency words or unseen words during training. To address this problem, we propose an algorithm to learn embeddings for rare words based on an Internet search engine and the spatial location relationships. Our algorithm proceeds in two steps. We firstly retrieve webpages corresponding to the rare word through the search engine and parse the returned results to extract a set of most related words. We average the vectors of the related words as the initial vector of the rare word. Then, the location of the rare word in the vector space is iteratively fine-tuned according to the order of its relevances to the related words. Compared to other approaches, our algorithm can learn more accurate representations for a wider range of vocabulary. We evaluate our learned rare-word embeddings on the word relatedness task, and the experimental results show that our algorithm achieves state-of-the-art performance.",
+  "keywords": [
+    "the initial vector",
+    "the frequencies",
+    "we",
+    "training",
+    "the vector space",
+    "our learned rare-word embeddings",
+    "location",
+    "word",
+    "the vectors",
+    "vector",
+    "embeddings",
+    "vectors",
+    "frequencies",
+    "frequency",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2021.starsem-1.26/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

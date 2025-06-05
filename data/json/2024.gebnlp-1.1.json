@@ -1,0 +1,33 @@
+{
+  "id": "2024.gebnlp-1.1",
+  "title": "A Parameter-Efficient Multi-Objective Approach to Mitigate Stereotypical Bias in Language Models",
+  "authors": [
+    "Wang, Yifan  and\nDemberg, Vera"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 5th Workshop on Gender Bias in Natural Language Processing (GeBNLP)",
+  "abstract": "Pre-trained language models have shown impressive abilities of understanding and generating natural languages. However, they typically inherit undesired human-like bias and stereotypes from training data, which raises concerns about putting these models into use in real-world scenarios. Although prior research has proposed to reduce bias using different fairness objectives, they usually fail to capture different representations of bias and, therefore, struggle with fully debiasing models. In this work, we introduce a multi-objective probability alignment approach to overcome current challenges by incorporating multiple debiasing losses to locate and penalize bias in different forms. Compared to existing methods, our proposed method can more effectively and comprehensively reduce stereotypical bias, and maintains the language ability of pre-trained models at the same time. Besides, we adopt prefix-tuning to optimize fairness objectives, and results show that it can achieve better bias removal than full fine-tuning while requiring much fewer computational resources. Our code and data are available at https://github.com/Ewanwong/debias_NLG.",
+  "keywords": [
+    "better bias removal",
+    "code",
+    "bias",
+    "objectives",
+    "efficient",
+    "fully debiasing models",
+    "different fairness objectives",
+    "we",
+    "full fine-tuning",
+    "current",
+    "parameter",
+    "training",
+    "stereotypical bias",
+    "pre-trained language models",
+    "natural"
+  ],
+  "url": "https://aclanthology.org/2024.gebnlp-1.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:06:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

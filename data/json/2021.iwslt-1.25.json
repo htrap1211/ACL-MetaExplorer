@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwslt-1.25",
+  "title": "Self-Guided Curriculum Learning for Neural Machine Translation",
+  "authors": [
+    "Zhou, Lei  and\nDing, Liang  and\nDuh, Kevin  and\nWatanabe, Shinji  and\nSasano, Ryohei  and\nTakeda, Koichi"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021)",
+  "abstract": "In supervised learning, a well-trained model should be able to recover ground truth accurately, i.e. the predicted labels are expected to resemble the ground truth labels as much as possible. Inspired by this, we formulate a difficulty criterion based on the recovery degrees of training examples. Motivated by the intuition that after skimming through the training corpus, the neural machine translation (NMT) model “knows” how to schedule a suitable curriculum according to learning difficulty, we propose a self-guided curriculum learning strategy that encourages the NMT model to learn from easy to hard on the basis of recovery degrees. Specifically, we adopt sentence-level BLEU score as the proxy of recovery degree. Experimental results on translation benchmarks including WMT14 English-German and WMT17 Chinese-English demonstrate that our proposed method considerably improves the recovery degree, thus consistently improving the translation performance.",
+  "keywords": [
+    "i",
+    "the translation performance",
+    "neural",
+    "machine",
+    "model",
+    "neural machine translation",
+    "self",
+    "bleu",
+    "sentence-level bleu score",
+    "we",
+    "training",
+    "translation benchmarks",
+    "translation",
+    "that",
+    "basis"
+  ],
+  "url": "https://aclanthology.org/2021.iwslt-1.25/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:18:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

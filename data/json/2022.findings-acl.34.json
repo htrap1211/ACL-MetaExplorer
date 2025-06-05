@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.34",
+  "title": "MDER}ank: A Masked Document Embedding Rank Approach for Unsupervised Keyphrase Extraction",
+  "authors": [
+    "Zhang, Linhan  and\nChen, Qian  and\nWang, Wen  and\nDeng, Chong  and\nZhang, ShiLiang  and\nLi, Bing  and\nWang, Wei  and\nCao, Xin"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Keyphrase extraction (KPE) automatically extracts phrases in a document that provide a concise summary of the core content, which benefits downstream information retrieval and NLP tasks. Previous state-of-the-art methods select candidate keyphrases based on the similarity between learned representations of the candidates and the document. They suffer performance degradation on long documents due to discrepancy between sequence lengths which causes mismatch between representations of keyphrase candidates and the document. In this work, we propose a novel unsupervised embedding-based KPE approach, Masked Document Embedding Rank (MDERank), to address this problem by leveraging a mask strategy and ranking candidates by the similarity between embeddings of the source document and the masked document. We further develop a KPE-oriented BERT (KPEBERT) model by proposing a novel self-supervised contrastive learning method, which is more compatible to MDERank than vanilla BERT. Comprehensive evaluations on six KPE benchmarks demonstrate that the proposed MDERank outperforms state-of-the-art unsupervised KPE approach by average 1.80F1@15improvement. MDERank further benefits from KPEBERT and overall achieves average 3.53F1@15improvement over SIFRank.",
+  "keywords": [
+    "achieves",
+    "extraction",
+    "we",
+    "kpebert",
+    "self",
+    "retrieval",
+    "information",
+    "sequence",
+    "learning",
+    "nlp tasks",
+    "core",
+    "bert",
+    "vanilla bert comprehensive evaluations",
+    "embeddings",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.34/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

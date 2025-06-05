@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.222",
+  "title": "Learning Global Controller in Latent Space for Parameter-Efficient Fine-Tuning",
+  "authors": [
+    "Tan, Zeqi  and\nShen, Yongliang  and\nCheng, Xiaoxia  and\nZong, Chang  and\nZhang, Wenqi  and\nShao, Jian  and\nLu, Weiming  and\nZhuang, Yueting"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "While large language models (LLMs) have showcased remarkable prowess in various natural language processing tasks, their training costs are exorbitant. Consequently, a plethora of parameter-efficient fine-tuning methods have emerged to tailor large models for downstream tasks, including low-rank training. Recent approaches either amalgamate existing fine-tuning methods or dynamically adjust rank allocation. Nonetheless, these methods continue to grapple with issues like local optimization, inability to train with full rank and lack of focus on specific tasks. In this paper, we introduce an innovative parameter-efficient method for exploring optimal solutions within latent space. More specifically, we introduce a set of latent units designed to iteratively extract input representations from LLMs, continuously refining informative features that enhance downstream task performance. Due to the small and independent nature of the latent units in relation to input size, this significantly reduces training memory requirements. Additionally, we employ an asymmetric attention mechanism to facilitate bidirectional interaction between latent units and freezed LLM representations, thereby mitigating issues associated with non-full-rank training. Furthermore, we apply distillation over hidden states during the interaction, which guarantees a trimmed number of trainable parameters.Experimental results demonstrate that our approach achieves state-of-the-art performance on a range of natural language understanding, generation and reasoning tasks.",
+  "keywords": [
+    "local optimization inability",
+    "efficient",
+    "we",
+    "parameter-efficient fine-tuning methods",
+    "llm",
+    "parameter",
+    "training",
+    "allocation",
+    "natural",
+    "latent",
+    "llms",
+    "tuning",
+    "processing",
+    "an asymmetric attention mechanism",
+    "parameter-efficient fine-tuning"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.222/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

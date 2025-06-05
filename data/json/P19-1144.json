@@ -1,0 +1,33 @@
+{
+  "id": "P19-1144",
+  "title": "Improving Neural Language Models by Segmenting, Attending, and Predicting the Future",
+  "authors": [
+    "Luo, Hongyin  and\nJiang, Lan  and\nBelinkov, Yonatan  and\nGlass, James"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Common language models typically predict the next word given the context. In this work, we propose a method that improves language modeling by learning to align the given context and the following phrase. The model does not require any linguistic annotation of phrase segmentation. Instead, we define syntactic heights and phrase segmentation rules, enabling the model to automatically induce phrases, recognize their task-specific heads, and generate phrase embeddings in an unsupervised learning manner. Our method can easily be applied to language models with different network architectures since an independent module is used for phrase induction and context-phrase alignment, and no change is required in the underlying language modeling network. Experiments have shown that our model outperformed several strong baseline models on different data sets. We achieved a new state-of-the-art performance of 17.4 perplexity on the Wikitext-103 dataset. Additionally, visualizing the outputs of the phrase induction module showed that our model is able to learn approximate phrase-level structural knowledge without any annotation.",
+  "keywords": [
+    "phrase embeddings",
+    "we",
+    "neural language models",
+    "context-phrase alignment",
+    "language modeling",
+    "neural",
+    "word",
+    "learning",
+    "manner",
+    "language models",
+    "perplexity",
+    "an unsupervised learning manner",
+    "17 4 perplexity",
+    "work",
+    "embeddings"
+  ],
+  "url": "https://aclanthology.org/P19-1144/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:33:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

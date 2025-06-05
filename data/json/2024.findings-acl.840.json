@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.840",
+  "title": "Synergizing Large Language Models and Pre-Trained Smaller Models for Conversational Intent Discovery",
+  "authors": [
+    "Liang, Jinggui  and\nLiao, Lizi  and\nFei, Hao  and\nJiang, Jing"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "In Conversational Intent Discovery (CID), Small Language Models (SLMs) struggle with overfitting to familiar intents and fail to label newly discovered ones. This issue stems from their limited grasp of semantic nuances and their intrinsically discriminative framework. Therefore, we propose Synergizing Large Language Models (LLMs) with pre-trained SLMs for CID (SynCID). It harnesses the profound semantic comprehension of LLMs alongside the operational agility of SLMs. By utilizing LLMs to refine both utterances and existing intent labels, SynCID significantly enhances the semantic depth, subsequently realigning these enriched descriptors within the SLMs’ feature space to correct cluster distortion and promote robust learning of representations. A key advantage is its capacity for the early identification of new intents, a critical aspect for deploying conversational agents successfully. Additionally, SynCID leverages the in-context learning strengths of LLMs to generate labels for new intents. Thorough evaluations across a wide array of datasets have demonstrated its superior performance over traditional CID methods.",
+  "keywords": [
+    "semantic nuances",
+    "semantic",
+    "the semantic depth",
+    "we",
+    "cluster",
+    "it",
+    "learning",
+    "llms",
+    "early",
+    "the profound semantic comprehension",
+    "small language models",
+    "conversational intent discovery",
+    "language",
+    "thorough evaluations",
+    "evaluations"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.840/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:00:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

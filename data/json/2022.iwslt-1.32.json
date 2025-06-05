@@ -1,0 +1,33 @@
+{
+  "id": "2022.iwslt-1.32",
+  "title": "Improving Machine Translation Formality Control with Weakly-Labelled Data Augmentation and Post Editing Strategies",
+  "authors": [
+    "Zhang, Daniel  and\nYu, Jiang  and\nVerma, Pragati  and\nGanesan, Ashwinkumar  and\nCampbell, Sarah"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022)",
+  "abstract": "This paper describes Amazon Alexa AI’s implementation for the IWSLT 2022 shared task on formality control. We focus on the unconstrained and supervised task for en→hi (Hindi) and en→ja (Japanese) pairs where very limited formality annotated data is available. We propose three simple yet effective post editing strategies namely, T-V conversion, utilizing a verb conjugator and seq2seq models in order to rewrite the translated phrases into formal or informal language. Considering nuances for formality and informality in different languages, our analysis shows that a language-specific post editing strategy achieves the best performance. To address the unique challenge of limited formality annotations, we further develop a formality classifier to perform weakly labelled data augmentation which automatically generates synthetic formality labels from large parallel corpus. Empirical results on the IWSLT formality testset have shown that proposed system achieved significant improvements in terms of formality accuracy while retaining BLEU score on-par with baseline.",
+  "keywords": [
+    "classifier",
+    "bleu",
+    "we",
+    "translation",
+    "analysis",
+    "bleu score",
+    "seq2seq",
+    "a formality classifier",
+    "strategies",
+    "par",
+    "post editing strategies",
+    "accuracy",
+    "language",
+    "machine",
+    "formality accuracy"
+  ],
+  "url": "https://aclanthology.org/2022.iwslt-1.32/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

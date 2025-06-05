@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.193",
+  "title": "ASCM}: An Answer Space Clustered Prompting Method without Answer Engineering",
+  "authors": [
+    "Wang, Zhen  and\nYang, Yating  and\nXi, Zhou  and\nMa, Bo  and\nWang, Lei  and\nDong, Rui  and\nAnwar, Azmat"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Prompt-based learning, which exploits knowledge from pre-trained language models by providing textual prompts and designing appropriate answer-category mapping methods, has achieved impressive successes on few-shot text classification and natural language inference (NLI). Because of the diverse linguistic expression, there exist many answer tokens for the same category. However, both manual answer design and automatic answer search constrain answer space and therefore hardly achieve ideal performance. To address this issue, we propose an answer space clustered prompting model (ASCM) together with a synonym initialization method (SI) which automatically categorizes all answer tokens in a semantic-clustered embedding space. We also propose a stable semi-supervised method named stair learning (SL) that orderly distills knowledge from better models to weaker models. Extensive experiments demonstrate that our ASCM+SL significantly outperforms existing state-of-the-art techniques in few-shot settings.",
+  "keywords": [
+    "answer engineering prompt-based learning",
+    "semantic",
+    "we",
+    "shot",
+    "classification",
+    "textual prompts",
+    "answer",
+    "pre-trained language models",
+    "natural",
+    "learning",
+    "natural language",
+    "prompt",
+    "text",
+    "few-shot text classification",
+    "prompts"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.193/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

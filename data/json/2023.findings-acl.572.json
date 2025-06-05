@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.572",
+  "title": "Dual-Gated Fusion with Prefix-Tuning for Multi-Modal Relation Extraction",
+  "authors": [
+    "Li, Qian  and\nGuo, Shu  and\nJi, Cheng  and\nPeng, Xutan  and\nCui, Shiyao  and\nLi, Jianxin  and\nWang, Lihong"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Multi-Modal Relation Extraction (MMRE) aims at identifying the relation between two entities in texts that contain visual clues. Rich visual content is valuable for the MMRE task, but existing works cannot well model finer associations among different modalities, failing to capture the truly helpful visual information and thus limiting relation extraction performance. In this paper, we propose a novel MMRE framework to better capture the deeper correlations of text, entity pair, and image/objects, so as to mine more helpful information for the task, termed as DGF-PT. We first propose a prompt-based autoregressive encoder, which builds the associations of intra-modal and inter-modal features related to the task, respectively by entity-oriented and object-oriented prefixes. To better integrate helpful visual information, we design a dual-gated fusion module to distinguish the importance of image/objects and further enrich text representations. In addition, a generative decoder is introduced with entity type restriction on relations, better filtering out candidates. Extensive experiments conducted on the benchmark dataset show that our approach achieves excellent performance compared to strong competitors, even in the few-shot situation.",
+  "keywords": [
+    "finer",
+    "the few-shot situation",
+    "extraction",
+    "we",
+    "finer associations",
+    "entity-oriented and object-oriented prefixes",
+    "fusion",
+    "a prompt-based autoregressive encoder",
+    "shot",
+    "a generative decoder",
+    "decoder",
+    "information",
+    "two entities",
+    "rich",
+    "visual"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.572/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

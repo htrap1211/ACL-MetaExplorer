@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.201",
+  "title": "PRAM}: An End-to-end Prototype-based Representation Alignment Model for Zero-resource Cross-lingual Named Entity Recognition",
+  "authors": [
+    "Huang, Yucheng  and\nLiu, Wenqiang  and\nZhang, Xianli  and\nLang, Jun  and\nGong, Tieliang  and\nLi, Chen"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Zero-resource cross-lingual named entity recognition (ZRCL-NER) aims to leverage rich labeled source language data to address the NER problem in the zero-resource target language. Existing methods are built either based on data transfer or representation transfer. However, the former usually leads to additional computation costs, and the latter lacks explicit optimization specific to the NER task. To overcome the above limitations, we propose a novel prototype-based representation alignment model (PRAM) for the challenging ZRCL-NER task. PRAM models the cross-lingual (CL) NER task and transfers knowledge from source languages to target languages in a unified neural network, and performs end-to-end training, avoiding additional computation costs. Moreover, PRAM borrows the CL inference ability of multilingual language models and enhances it with a novel training objective—attribution-prediction consistency (APC)—for explicitly enforcing the entity-level alignment between entity representations and predictions, as well as that across languages using prototypes as bridges. The experimental results show that PRAM significantly outperforms existing state-of-the-art methods, especially in some challenging scenarios.",
+  "keywords": [
+    "end",
+    "the ner problem",
+    "we",
+    "training",
+    "a unified neural network",
+    "cross",
+    "neural",
+    "it",
+    "unified",
+    "rich",
+    "transfer",
+    "the ner task",
+    "ner",
+    "multilingual language models",
+    "objective"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.201/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

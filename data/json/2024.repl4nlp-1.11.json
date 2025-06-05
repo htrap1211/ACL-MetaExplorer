@@ -1,0 +1,33 @@
+{
+  "id": "2024.repl4nlp-1.11",
+  "title": "Beyond Link Prediction: On Pre-Training Knowledge Graph Embeddings",
+  "authors": [
+    "Ruffinelli, Daniel  and\nGemulla, Rainer"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 9th Workshop on Representation Learning for NLP (RepL4NLP-2024)",
+  "abstract": "Knowledge graph embeddings (KGEs) provide low-dimensional representations of the entities and relations in a knowledge graph (KG) in order to reason about the KG and to inject structured knowledge into various downstream applications. Most prior work, however, focuses almost exclusively on training and evaluating KGE models for the task of link prediction. In this work, we explore KGE models as general-purpose representations of KGs and study their suitability (i) for more generally capturing properties of the KG and (ii) for downstream tasks such as entity classification and regression. For (i), we designed a new set of graph-structure prediction tasks to assess whether models capture different structures in the graph. For (ii), we investigate whether models provide useful features for a variety of downstream tasks. We found that strong link prediction performance was neither an indication that models generally capture patterns in the graph, nor that they were more useful in downstream tasks. As a result, we included our proposed graph-structure prediction tasks as additional training objectives and found that models trained with this multi-task approach generally, but not always, performed better at both graph-structure prediction and downstream tasks. However, the most suitable choice of pre-training tasks varies across KGE models and types of downstream tasks, suggesting opportunities for more research into the relation between pre-training KGE models and their usability on downstream applications.",
+  "keywords": [
+    "variety",
+    "objectives",
+    "pre-training kge models",
+    "pre-training tasks",
+    "opportunities",
+    "we",
+    "graph",
+    "training",
+    "classification",
+    "the entities",
+    "kge",
+    "properties",
+    "entity classification",
+    "kges",
+    "a variety"
+  ],
+  "url": "https://aclanthology.org/2024.repl4nlp-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

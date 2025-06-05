@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.231",
+  "title": "i{L}ab at {S}em{E}val-2023 Task 11 Le-Wi-Di: Modelling Disagreement or Modelling Perspectives?",
+  "authors": [
+    "Vitsakis, Nikolas  and\nParekh, Amit  and\nDinkar, Tanvi  and\nAbercrombie, Gavin  and\nKonstas, Ioannis  and\nRieser, Verena"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "There are two competing approaches for modelling annotator disagreement: distributional soft-labelling approaches (which aim to capture the level of disagreement) or modelling perspectives of individual annotators or groups thereof. We adapt a multi-task architecture which has previously shown success in modelling perspectives to evaluate its performance on the SEMEVAL Task 11. We do so by combining both approaches, i.e. predicting individual annotator perspectives as an interim step towards predicting annotator disagreement. Despite its previous success, we found that a multi-task approach performed poorly on datasets which contained distinct annotator opinions, suggesting that this approach may not always be suitable when modelling perspectives. Furthermore, our results explain that while strongly perspectivist approaches might not achieve state-of-the-art performance according to evaluation metrics used by distributional approaches, our approach allows for a more nuanced understanding of individual perspectives present in the data. We argue that perspectivist approaches are preferable because they enable decision makers to amplify minority views, and that it is important to re-evaluate metrics to reflect this goal.",
+  "keywords": [
+    "we",
+    "it",
+    "views",
+    "i",
+    "metrics",
+    "evaluation metrics",
+    "soft",
+    "evaluation",
+    "minority views",
+    "both approaches",
+    "multi",
+    "approach",
+    "this goal",
+    "state",
+    "makers"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.231/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

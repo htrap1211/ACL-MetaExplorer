@@ -1,0 +1,33 @@
+{
+  "id": "P18-1171",
+  "title": "Sequence-to-sequence Models for Cache Transition Systems",
+  "authors": [
+    "Peng, Xiaochang  and\nSong, Linfeng  and\nGildea, Daniel  and\nSatta, Giorgio"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this paper, we present a sequence-to-sequence based approach for mapping natural language sentences to AMR semantic graphs. We transform the sequence to graph mapping problem to a word sequence to transition action sequence problem using a special transition system called a cache transition system. To address the sparsity issue of neural AMR parsing, we feed feature embeddings from the transition state to provide relevant local information for each decoder state. We present a monotonic hard attention model for the transition framework to handle the strictly left-to-right alignment between each transition state and the current buffer input focus. We evaluate our neural transition model on the AMR parsing task, and our parser outperforms other sequence-to-sequence approaches and achieves competitive results in comparison with the best-performing models.",
+  "keywords": [
+    "embeddings",
+    "the strictly left-to-right alignment",
+    "feature embeddings",
+    "alignment",
+    "parsing",
+    "language",
+    "neural",
+    "natural",
+    "model",
+    "amr semantic graphs",
+    "each decoder state",
+    "neural amr parsing",
+    "decoder",
+    "information",
+    "semantic"
+  ],
+  "url": "https://aclanthology.org/P18-1171/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:13:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

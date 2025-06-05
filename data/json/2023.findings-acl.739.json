@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.739",
+  "title": "A}xomiya{BERT}a: A Phonologically-aware Transformer Model for {A}ssamese",
+  "authors": [
+    "Nath, Abhijnan  and\nMannan, Sheikh  and\nKrishnaswamy, Nikhil"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Despite their successes in NLP, Transformer-based language models still require extensive computing resources and suffer in low-resource or low-compute settings. In this paper, we present AxomiyaBERTa, a novel BERT model for Assamese, a morphologically-rich low-resource language (LRL) of Eastern India. AxomiyaBERTa is trained only on the masked language modeling (MLM) task, without the typical additional next sentence prediction (NSP) objective, and our results show that in resource-scarce settings for very low-resource languages like Assamese, MLM alone can be successfully leveraged for a range of tasks. AxomiyaBERTa achieves SOTA on token-level tasks like Named Entity Recognition and also performs well on “longer-context” tasks like Cloze-style QA and Wiki Title Prediction, with the assistance of a novel embedding disperser and phonological signals respectively. Moreover, we show that AxomiyaBERTa can leverage phonological signals for even more challenging tasks, such as a novel cross-document coreference task on a translated version of the ECB+ corpus, where we present a new SOTA result for an LRL. Our source code and evaluation scripts may be found athttps://github.com/csu-signal/axomiyaberta.",
+  "keywords": [
+    "cloze-style qa",
+    "code",
+    "we",
+    "cross",
+    "token",
+    "rich",
+    "a novel bert model",
+    "bert",
+    "objective",
+    "evaluation scripts",
+    "coreference",
+    "a xomiya bert",
+    "transformer",
+    "eastern india axomiyaberta",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.739/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

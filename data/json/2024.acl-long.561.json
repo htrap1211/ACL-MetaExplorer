@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.561",
+  "title": "Re-Tuning: Overcoming the Compositionality Limits of Large Language Models with Recursive Tuning",
+  "authors": [
+    "Pasewark, Eric  and\nMontgomery, Kyle  and\nDuan, Kefei  and\nSong, Dawn  and\nWang, Chenguang"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We present a new method for large language models to solve compositional tasks. Although they have shown strong performance on traditional language understanding tasks, large language models struggle to solve compositional tasks, where the solution depends on solving smaller instances of the same problem. We propose a natural approach to solve compositional tasks recursively. Our method, Re-Tuning, tunes models to break down a problem into subproblems, solve those subproblems, and combine the results. We show that our method significantly improves model performance on three representative compositional tasks: integer addition, dynamic programming, and parity. Compared to state-of-the-art methods that keep intermediate steps towards solving the problems, Re-Tuning achieves significantly higher accuracy and is more GPU memory efficient.",
+  "keywords": [
+    "significantly higher accuracy",
+    "accuracy",
+    "tuning",
+    "language",
+    "natural",
+    "model",
+    "efficient",
+    "large language models",
+    "we",
+    "re",
+    "that",
+    "addition dynamic programming",
+    "traditional",
+    "approach",
+    "new"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.561/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

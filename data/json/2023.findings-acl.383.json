@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.383",
+  "title": "Numeric Magnitude Comparison Effects in Large Language Models",
+  "authors": [
+    "Shah, Raj  and\nMarupudi, Vijay  and\nKoenen, Reba  and\nBhardwaj, Khushi  and\nVarma, Sashank"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Large Language Models (LLMs) do not differentially represent numbers, which are pervasive in text. In contrast, neuroscience research has identified distinct neural representations for numbers and words. In this work, we investigate how well popular LLMs capture the magnitudes of numbers (e.g., that 4<5) from a behavioral lens. Prior research on the representational capabilities of LLMs evaluates whether they show human-level performance, for instance, high overall accuracy on standard benchmarks. Here, we ask a different question, one inspired by cognitive science: How closely do the number representations of LLMscorrespond to those of human language users, who typically demonstrate the distance, size, and ratio effects? We depend on a linking hypothesis to map the similarities among the model embeddings of number words and digits to human response times. The results reveal surprisingly human-like representations across language models of different architectures, despite the absence of the neural circuitry that directly supports these representations in the human brain. This research shows the utility of understanding LLMs using behavioral benchmarks and points the way to future work on the number of representations of LLMs and their cognitive plausibility.",
+  "keywords": [
+    "high overall accuracy",
+    "the similarities",
+    "question",
+    "we",
+    "how well popular llms",
+    "neural",
+    "llmscorrespond",
+    "science",
+    "llms",
+    "neuroscience",
+    "text",
+    "language models",
+    "large language models llms",
+    "ratio",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.383/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

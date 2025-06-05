@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-srw.23",
+  "title": "Knowledge Editing of Large Language Models Unconstrained by Word Order",
+  "authors": [
+    "Ishigaki, Ryoma  and\nSuzuki, Jundai  and\nShuzo, Masaki  and\nMaeda, Eisaku"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "Large Language Models (LLMs) are considered to have potentially extensive knowledge, but because their internal processing is black-boxed, it has been difficult to directly edit the knowledge held by the LLMs themselves. To address this issue, a method called local modification-based knowledge editing has been developed. This method identifies the knowledge neurons that encode the target knowledge and adjusts the parameters associated with these neurons to update the knowledge. Knowledge neurons are identified by masking theopart from sentences representing relational triplets (s, r, o), having the LLM predict the masked part, and observing the LLM's activation during the prediction. When the architecture is decoder-based, the predictedoneeds to be located at the end of the sentence. Previous local modification-based knowledge editing methods for decoder-based models have assumed SVO languages and faced challenges when applied to SOV languages such as Japanese. In this study, we propose a knowledge editing method that eliminates the need for word order constraints by converting the input for identifying knowledge neurons into a question whereois the answer. We conducted validation experiments on 500 examples and confirmed that the proposed method is effective for Japanese, a non-SVO language. We also applied this method to English, an SVO language, and demonstrated that it outperforms conventional methods.",
+  "keywords": [
+    "end",
+    "validation",
+    "the llms",
+    "the llm s activation",
+    "question",
+    "decoder-based models",
+    "we",
+    "llm",
+    "answer",
+    "it",
+    "decoder",
+    "word",
+    "llms",
+    "processing",
+    "activation"
+  ],
+  "url": "https://aclanthology.org/2024.acl-srw.23/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:48:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

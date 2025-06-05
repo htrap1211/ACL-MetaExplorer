@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.348",
+  "title": "Educational Question Generation of Children Storybooks via Question Type Distribution Learning and Event-centric Summarization",
+  "authors": [
+    "Zhao, Zhenjie  and\nHou, Yufang  and\nWang, Dakuo  and\nYu, Mo  and\nLiu, Chengzhong  and\nMa, Xiaojuan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Generating educational questions of fairytales or storybooks is vital for improving children’s literacy ability. However, it is challenging to generate questions that capture the interesting aspects of a fairytale story with educational meaningfulness. In this paper, we propose a novel question generation method that first learns the question type distribution of an input story paragraph, and then summarizes salient events which can be used to generate high-cognitive-demand questions. To train the event-centric summarizer, we finetune a pre-trained transformer-based sequence-to-sequence model using silver samples composed by educational question-answer pairs. On a newly proposed educational question-answering dataset FairytaleQA, we show good performance of our method on both automatic and human evaluation metrics. Our work indicates the necessity of decomposing question type distribution learning and event-centric summary generation for educational question generation.",
+  "keywords": [
+    "event-centric summarization",
+    "question",
+    "summarization",
+    "we",
+    "answer",
+    "it",
+    "fairytaleqa",
+    "sequence",
+    "learning",
+    "educational question generation",
+    "event-centric summary generation",
+    "metrics",
+    "salient events",
+    "work",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.348/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:29:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.765",
+  "title": "Explanation Regeneration via Information Bottleneck",
+  "authors": [
+    "Li, Qintong  and\nWu, Zhiyong  and\nKong, Lingpeng  and\nBi, Wei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Explaining the black-box predictions of NLP models naturally and accurately is an important open problem in natural language generation. These free-text explanations are expected to contain sufficient and carefully-selected evidence to form supportive arguments for predictions. Thanks to the superior generative capacity of large pretrained language models (PLM), recent work built on prompt engineering enables explanations generated without specific training. However, explanations generated through single-pass prompting often lack sufficiency and conciseness, due to the prompt complexity and hallucination issues. To discard the dross and take the essence of current PLM’s results, we propose to produce sufficient and concise explanations via the information bottleneck (EIB) theory. EIB regenerates explanations by polishing the single-pass output of PLM but retaining the information that supports the contents being explained by balancing two information bottleneck objectives. Experiments on two different tasks verify the effectiveness of EIB through automatic evaluation and thoroughly-conducted human evaluation.",
+  "keywords": [
+    "explanation regeneration",
+    "sufficient and concise explanations",
+    "sufficiency",
+    "we",
+    "current",
+    "training",
+    "natural",
+    "information",
+    "sufficient",
+    "automatic evaluation",
+    "natural language generation",
+    "nlp models",
+    "the superior generative capacity",
+    "generative",
+    "prompt"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.765/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

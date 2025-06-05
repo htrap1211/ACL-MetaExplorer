@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.624",
+  "title": "I} Cast Detect Thoughts: Learning to Converse and Guide with Intents and Theory-of-Mind in Dungeons and Dragons",
+  "authors": [
+    "Zhou, Pei  and\nZhu, Andrew  and\nHu, Jennifer  and\nPujara, Jay  and\nRen, Xiang  and\nCallison-Burch, Chris  and\nChoi, Yejin  and\nAmmanabrolu, Prithviraj"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We propose a novel task, G4C, to study teacher-student natural language interactions in a goal-driven and grounded environment. Dungeons and Dragons (D&D), a role-playing game, provides an ideal setting to investigate such interactions. Here, the Dungeon Master (DM), i.e., the teacher, guides the actions of several players—students, each with their own personas and abilities—to achieve shared goals grounded in a fantasy world. Our approach is to decompose and model these interactions into (1) the DM’s intent to guide players toward a given goal; (2) the DM’s guidance utterance to the players expressing this intent; and (3) a theory-of-mind (ToM) model that anticipates the players’ reaction to the guidance one turn into the future. We develop a novel reinforcement learning (RL) method for training a DM that generates guidance for players by rewarding utterances where the intent matches the ToM-anticipated player actions. Human and automated evaluations show that a DM trained to explicitly model intents and incorporate ToM of the players using RL generates better-quality guidance that is 3x more likely to fulfill the DM’s intent than a vanilla natural language generation (NLG) approach.",
+  "keywords": [
+    "human and automated evaluations",
+    "we",
+    "natural",
+    "learning",
+    "abilities",
+    "i",
+    "a novel reinforcement learning",
+    "reinforcement",
+    "language",
+    "generation",
+    "model",
+    "human",
+    "evaluations",
+    "theory",
+    "mind"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.624/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:44:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

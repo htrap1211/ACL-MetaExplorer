@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.763",
+  "title": "Revisiting Non-Autoregressive Translation at Scale",
+  "authors": [
+    "Wang, Zhihao  and\nWang, Longyue  and\nSu, Jinsong  and\nYao, Junfeng  and\nTu, Zhaopeng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In real-world systems, scaling has been critical for improving the translation quality in autoregressive translation (AT), which however has not been well studied for non-autoregressive translation (NAT). In this work, we bridge the gap by systematically studying the impact of scaling on NAT behaviors. Extensive experiments on six WMT benchmarks over two advanced NAT models show that scaling can alleviate the commonly-cited weaknesses of NAT models, resulting in better translation performance. To reduce the side-effect of scaling on decoding speed, we empirically investigate the impact of NAT encoder and decoder on the translation performance. Experimental results on the large-scale WMT20 En-De show that the asymmetric architecture (e.g. bigger encoder and smaller decoder) can achieve comparable performance with the scaling model, while maintaining the superiority of decoding speed with standard NAT models. To this end, we establish a new benchmark by validating scaled NAT models on the scaled dataset, which can be regarded as a strong baseline for future works. We release code and system outputs athttps://github.com/DeepLearnXMU/Scaling4NAT.",
+  "keywords": [
+    "code",
+    "end",
+    "non-autoregressive translation nat",
+    "we",
+    "translation",
+    "decoder",
+    "e",
+    "nat",
+    "better translation performance",
+    "nat encoder",
+    "smaller decoder",
+    "work",
+    "model",
+    "non-autoregressive translation",
+    "encoder"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.763/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

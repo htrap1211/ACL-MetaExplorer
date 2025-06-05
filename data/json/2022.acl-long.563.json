@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.563",
+  "title": "Flexible Generation from Fragmentary Linguistic Input",
+  "authors": [
+    "Qian, Peng  and\nLevy, Roger"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The dominant paradigm for high-performance models in novel NLP tasks today is direct specialization for the task via training from scratch or fine-tuning large pre-trained models. But does direct specialization capture how humans approach novel language tasks? We hypothesize that human performance is better characterized by flexible inference through composition of basic computational motifs available to the human language user. To test this hypothesis, we formulate a set of novel fragmentary text completion tasks, and compare the behavior of three direct-specialization models against a new model we introduce, GibbsComplete, which composes two basic computational motifs central to contemporary models: masked and autoregressive word prediction. We conduct three types of evaluation: human judgments of completion quality, satisfaction of syntactic constraints imposed by the input fragment, and similarity to human behavior in the structural statistics of the completions. With no task-specific parameter tuning, GibbsComplete performs comparably to direct-specialization models in the first two evaluations, and outperforms all direct-specialization models in the third evaluation. These results support our hypothesis that human behavior in novel language tasks and environments may be better characterized by flexible composition of basic computational motifs rather than by direct specialization.",
+  "keywords": [
+    "evaluation human judgments",
+    "the third evaluation",
+    "we",
+    "flexible generation",
+    "parameter",
+    "training",
+    "the first two evaluations",
+    "word",
+    "novel nlp tasks",
+    "tuning",
+    "text",
+    "generation",
+    "language",
+    "nlp",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.563/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

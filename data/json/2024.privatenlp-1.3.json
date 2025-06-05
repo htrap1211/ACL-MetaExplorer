@@ -1,0 +1,33 @@
+{
+  "id": "2024.privatenlp-1.3",
+  "title": "Characterizing Stereotypical Bias from Privacy-preserving Pre-Training",
+  "authors": [
+    "Arnold, Stefan  and\nGr{\\\"o}bner, Rene  and\nSchreiner, Annika"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Fifth Workshop on Privacy in Natural Language Processing",
+  "abstract": "Differential Privacy (DP) can be applied to raw text by exploiting the spatial arrangement of words in an embedding space. We investigate the implications of such text privatization on Language Models (LMs) and their tendency towards stereotypical associations. Since previous studies documented that linguistic proficiency correlates with stereotypical bias, one could assume that techniques for text privatization, which are known to degrade language modeling capabilities, would cancel out undesirable biases. By testing BERT models trained on texts containing biased statements primed with varying degrees of privacy, our study reveals that while stereotypical bias generally diminishes when privacy is tightened, text privatization does not uniformly equate to diminishing bias across all social domains. This highlights the need for careful diagnosis of bias in LMs that undergo text privatization.",
+  "keywords": [
+    "proficiency",
+    "biased statements",
+    "bias",
+    "language",
+    "previous studies",
+    "bert",
+    "privacy-preserving pre-training differential privacy",
+    "studies",
+    "text",
+    "modeling",
+    "bert models",
+    "capabilities",
+    "we",
+    "an embedding space",
+    "language models lms"
+  ],
+  "url": "https://aclanthology.org/2024.privatenlp-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

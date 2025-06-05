@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.595",
+  "title": "Bilingual alignment transfers to multilingual alignment for unsupervised parallel text mining",
+  "authors": [
+    "Tien, Chih-chan  and\nSteinert-Threlkeld, Shane"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "This work presents methods for learning cross-lingual sentence representations using paired or unpaired bilingual texts. We hypothesize that the cross-lingual alignment strategy is transferable, and therefore a model trained to align only two languages can encode multilingually more aligned representations. We thus introduce dual-pivot transfer: training on one language pair and evaluating on other pairs. To study this theory, we design unsupervised models trained on unpaired sentences and single-pair supervised models trained on bitexts, both based on the unsupervised language model XLM-R with its parameters frozen. The experiments evaluate the models as universal sentence encoders on the task of unsupervised bitext mining on two datasets, where the unsupervised model reaches the state of the art of unsupervised retrieval, and the alternative single-pair supervised model approaches the performance of multilingually supervised models. The results suggest that bilingual training techniques as proposed can be applied to get sentence representations with multilingual alignment.",
+  "keywords": [
+    "the unsupervised language model",
+    "we",
+    "bilingual alignment transfers",
+    "training",
+    "cross",
+    "retrieval",
+    "transfer",
+    "multilingual alignment",
+    "unsupervised retrieval",
+    "the cross-lingual alignment strategy",
+    "text",
+    "unsupervised parallel text mining",
+    "universal sentence encoders",
+    "encoders",
+    "mining"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.595/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:32:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

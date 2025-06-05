@@ -1,0 +1,33 @@
+{
+  "id": "2022.bionlp-1.7",
+  "title": "Slot Filling for Biomedical Information Extraction",
+  "authors": [
+    "Papanikolaou, Yannis  and\nStaib, Marlene  and\nGrace, Justin Joshua  and\nBennett, Francine"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 21st Workshop on Biomedical Language Processing",
+  "abstract": "Information Extraction (IE) from text refers to the task of extracting structured knowledge from unstructured text. The task typically consists of a series of sub-tasks such as Named Entity Recognition and Relation Extraction. Sourcing entity and relation type specific training data is a major bottleneck in domains with limited resources such as biomedicine. In this work we present a slot filling approach to the task of biomedical IE, effectively replacing the need for entity and relation-specific training data, allowing us to deal with zero-shot settings. We follow the recently proposed paradigm of coupling a Tranformer-based bi-encoder, Dense Passage Retrieval, with a Transformer-based reading comprehension model to extract relations from biomedical text. We assemble a biomedical slot filling dataset for both retrieval and reading comprehension and conduct a series of experiments demonstrating that our approach outperforms a number of simpler baselines. We also evaluate our approach end-to-end for standard as well as zero-shot settings. Our work provides a fresh perspective on how to solve biomedical IE tasks, in the absence of relevant training data. Our code, models and datasets are available athttps://github.com/tba.",
+  "keywords": [
+    "code",
+    "end",
+    "extraction",
+    "series",
+    "we",
+    "shot",
+    "training",
+    "retrieval",
+    "information",
+    "text",
+    "-",
+    "zero-shot settings",
+    "work",
+    "transformer",
+    "a series"
+  ],
+  "url": "https://aclanthology.org/2022.bionlp-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

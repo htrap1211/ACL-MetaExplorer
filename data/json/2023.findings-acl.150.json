@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.150",
+  "title": "Attribute Controlled Dialogue Prompting",
+  "authors": [
+    "Liu, Runcheng  and\nRashid, Ahmad  and\nKobyzev, Ivan  and\nRezagholizadeh, Mehdi  and\nPoupart, Pascal"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Prompt-tuning has become an increasingly popular parameter-efficient method for adapting large pretrained language models to downstream tasks. However, both discrete prompting and continuous prompting assume fixed prompts for all data samples within a task, neglecting the fact that inputs vary greatly in some tasks such as open-domain dialogue generation. In this paper, we present a novel, instance-specific prompt-tuning algorithm for dialogue generation. Specifically, we generate prompts based on instance-level control code, rather than the conversation history, to explore their impact on controlled dialogue generation. Experiments on popular open-domain dialogue datasets, evaluated on both automated metrics and human evaluation, demonstrate that our method is superior to prompting baselines and comparable to fine-tuning with only 5%-6% of total parameters.",
+  "keywords": [
+    "the conversation history",
+    "prompts",
+    "code",
+    "human evaluation",
+    "tuning",
+    "both automated metrics",
+    "open-domain dialogue generation",
+    "prompt",
+    "language",
+    "generation",
+    "human",
+    "efficient",
+    "dialogue generation",
+    "metrics",
+    "controlled dialogue"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.150/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

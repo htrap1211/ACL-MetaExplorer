@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.864",
+  "title": "W}asserstein-Fisher-{R}ao Embedding: Logical Query Embeddings with Local Comparison and Global Transport",
+  "authors": [
+    "Wang, Zihao  and\nFei, Weizhi  and\nYin, Hang  and\nSong, Yangqiu  and\nWong, Ginny  and\nSee, Simon"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Answering complex queries on knowledge graphs is important but particularly challenging because of the data incompleteness. Query embedding methods address this issue by learningbased models and simulating logical reasoning with set operators. Previous works focus on specific forms of embeddings, but scoring functions between embeddings are underexplored. In contrast to existing scorning functions motivated by local comparison or global transport, this work investigates the local and global trade-off with unbalanced optimal transport theory. Specifically, we embed sets as bounded measures in R endowed with a scoring function motivated by the Wasserstein-Fisher-Rao metric. Such a design also facilitates closed-form set operators in the embedding space. Moreover, we introduce a convolution-based algorithm for linear time computation and a block diagonal kernel to enforce the trade-off. Results show that WFRE is capable of outperforming existing query embedding methods on standard datasets, evaluation sets with combinatorially complex queries, and hierarchical knowledge graphs. Ablation study shows that finding a better local and global trade-off is essential for performance improvement.",
+  "keywords": [
+    "combinatorially complex queries",
+    "kernel",
+    "form",
+    "we",
+    "embedding methods",
+    "queries",
+    "r",
+    "knowledge graphs",
+    "metric",
+    "complex queries",
+    "function",
+    "logical query embeddings",
+    "embeddings",
+    "work",
+    "hierarchical"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.864/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

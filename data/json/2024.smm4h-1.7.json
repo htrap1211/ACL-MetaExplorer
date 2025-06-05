@@ -1,0 +1,33 @@
+{
+  "id": "2024.smm4h-1.7",
+  "title": "G}olden{\\_}{D}uck at {\\#}{SMM}4{H} 2024: A Transformer-based Approach to Social Media Text Classification",
+  "authors": [
+    "Mia, Md Ayon  and\nYahan, Mahshar  and\nMurad, Hasan  and\nKhan, Muhammad"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 9th Social Media Mining for Health Research and Applications (SMM4H 2024) Workshop and Shared Tasks",
+  "abstract": "In this paper, we have addressed Task 3 on social anxiety disorder identification and Task 5 on mental illness recognition organized by the SMM4H 2024 workshop. In Task 3, a multi-classification problem has been presented to classify Reddit posts about outdoor spaces into four categories: Positive, Neutral, Negative, or Unrelated. Using the pre-trained RoBERTa-base model along with techniques like Mean pooling, CLS, and Attention Head, we have scored an F1-Score of 0.596 on the test dataset for Task 3. Task 5 aims to classify tweets into two categories: those describing a child with conditions like ADHD, ASD, delayed speech, or asthma (class 1), and those merely mentioning a disorder (class 0). Using the pre-trained RoBERTa-large model, incorporating a weighted ensemble of the last 4 hidden layers through concatenation and mean pooling, we achieved an F1 Score of 0.928 on the test data for Task 5.",
+  "keywords": [
+    "roberta",
+    "a multi-classification problem",
+    "we",
+    "four categories",
+    "classification",
+    "social anxiety disorder identification",
+    "ensemble",
+    "a weighted ensemble",
+    "attention head",
+    "social media text classification",
+    "an f1-score",
+    "categories",
+    "text",
+    "the pre-trained roberta-base model",
+    "two categories"
+  ],
+  "url": "https://aclanthology.org/2024.smm4h-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:10:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

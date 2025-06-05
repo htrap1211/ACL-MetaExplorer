@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.590",
+  "title": "Sparsifying Transformer Models with Trainable Representation Pooling",
+  "authors": [
+    "Pietruszka, Micha{\\l}  and\nBorchmann, {\\L}ukasz  and\nGarncarek, {\\L}ukasz"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We propose a novel method to sparsify attention in the Transformer model by learning to select the most-informative token representations during the training process, thus focusing on the task-specific parts of an input. A reduction of quadratic time and memory complexity to sublinear was achieved due to a robust trainable top-koperator.Our experiments on a challenging long document summarization task show that even our simple baseline performs comparably to the current SOTA, and with trainable pooling we can retain its top quality, while being1.8×faster during training,4.5×faster during inference, and up to13×more computationally efficient in the decoder.",
+  "keywords": [
+    "transformer",
+    "process",
+    "the transformer model",
+    "the decoder",
+    "model",
+    "efficient",
+    "sparsifying transformer models",
+    "token",
+    "decoder",
+    "attention",
+    "summarization",
+    "we",
+    "time",
+    "current",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.590/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:32:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

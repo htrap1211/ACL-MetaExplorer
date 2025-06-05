@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.461",
+  "title": "Multi-perspective Coherent Reasoning for Helpfulness Prediction of Multimodal Reviews",
+  "authors": [
+    "Liu, Junhao  and\nHai, Zhen  and\nYang, Min  and\nBing, Lidong"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "As more and more product reviews are posted in both text and images, Multimodal Review Analysis (MRA) becomes an attractive research topic. Among the existing review analysis tasks, helpfulness prediction on review text has become predominant due to its importance for e-commerce platforms and online shops, i.e. helping customers quickly acquire useful product information. This paper proposes a new task Multimodal Review Helpfulness Prediction (MRHP) aiming to analyze the review helpfulness from text and visual modalities. Meanwhile, a novel Multi-perspective Coherent Reasoning method (MCR) is proposed to solve the MRHP task, which conducts joint reasoning over texts and images from both the product and the review, and aggregates the signals to predict the review helpfulness. Concretely, we first propose a product-review coherent reasoning module to measure the intra- and inter-modal coherence between the target product and the review. In addition, we also devise an intra-review coherent reasoning module to identify the coherence between the text content and images of the review, which is a piece of strong evidence for review helpfulness prediction. To evaluate the effectiveness of MCR, we present two newly collected multimodal review datasets as benchmark evaluation resources for the MRHP task. Experimental results show that our MCR method can lead to a performance increase of up to 8.5% as compared to the best performing text-only model. The source code and datasets can be obtained fromhttps://github.com/jhliu17/MCR.",
+  "keywords": [
+    "code",
+    "benchmark evaluation resources",
+    "multimodal reviews",
+    "we",
+    "text and visual modalities",
+    "review text",
+    "information",
+    "visual",
+    "a piece",
+    "piece",
+    "review helpfulness prediction",
+    "analysis",
+    "reviews",
+    "i",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.461/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

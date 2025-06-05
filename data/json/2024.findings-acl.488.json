@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.488",
+  "title": "LLM}s Beyond {E}nglish: Scaling the Multilingual Capability of {LLM}s with Cross-Lingual Feedback",
+  "authors": [
+    "Lai, Wen  and\nMesgar, Mohsen  and\nFraser, Alexander"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "To democratize large language models (LLMs) to most natural languages, it is imperative to make these models capable of understanding and generating texts in many languages, in particular low-resource ones. While recent multilingual LLMs demonstrate remarkable performance in such capabilities, these LLMs still support a limited number of human languages due to the lack of training data for low resource languages. Moreover, these LLMs are not yet aligned with human preference for downstream tasks, which is crucial for the success of LLMs in English. In this paper, we introduce xLLaMA-100 and xBLOOM-100 (collectively xLLMs-100), which scale the multilingual capabilities of LLaMA and BLOOM to 100 languages. To do so, we construct two datasets: a multilingual instruction dataset including 100 languages, which represents the largest language coverage to date, and a cross-lingual human feedback dataset encompassing 30 languages. We perform multilingual instruction tuning on the constructed instruction data and further align the LLMs with human feedback using the DPO algorithm on our cross-lingual human feedback dataset. We evaluate the multilingual understanding and generating capabilities of xLLMs-100 on five multilingual benchmarks. Experimental results show that xLLMs-100 consistently outperforms its peers across the benchmarks by considerable margins, defining a new state-of-the-art multilingual LLM that supports 100 languages.",
+  "keywords": [
+    "multilingual instruction tuning",
+    "feedback",
+    "llm s",
+    "the llms",
+    "we",
+    "human feedback",
+    "llm",
+    "training",
+    "cross",
+    "instruction",
+    "generating capabilities",
+    "the multilingual capabilities",
+    "natural",
+    "recent multilingual llms",
+    "it"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.488/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:55:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

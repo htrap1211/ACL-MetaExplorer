@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.594",
+  "title": "Exploring Hybrid Question Answering via Program-based Prompting",
+  "authors": [
+    "Shi, Qi  and\nCui, Han  and\nWang, Haofeng  and\nZhu, Qingfu  and\nChe, Wanxiang  and\nLiu, Ting"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Question answering over heterogeneous data requires reasoning over diverse sources of data, which is challenging due to the large scale of information and organic coupling of heterogeneous data. Various approaches have been proposed to address these challenges. One approach involves training specialized retrievers to select relevant information, thereby reducing the input length. Another approach is to transform diverse modalities of data into a single modality, simplifying the task difficulty and enabling more straightforward processing. In this paper, we propose HProPro, a novel program-based prompting framework for the hybrid question answering task. HProPro follows the code generation and execution paradigm. In addition, HProPro integrates various functions to tackle the hybrid reasoning scenario. Specifically, HProPro contains function declaration and function implementation to perform hybrid information-seeking over data from various sources and modalities, which enables reasoning over such data without training specialized retrievers or performing modal transformations. Experimental results on two typical hybrid question answering benchmarks HybridQA and MultiModalQA demonstrate the effectiveness of HProPro: it surpasses all baseline systems and achieves the best performances in the few-shot settings on both datasets.",
+  "keywords": [
+    "code",
+    "question",
+    "we",
+    "shot",
+    "hybridqa",
+    "it",
+    "diverse modalities",
+    "information",
+    "processing",
+    "multimodalqa",
+    "retrievers",
+    "specialized retrievers",
+    "benchmarks hybridqa",
+    "function",
+    "the few-shot settings"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.594/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

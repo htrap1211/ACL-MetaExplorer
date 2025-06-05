@@ -1,0 +1,33 @@
+{
+  "id": "2020.bionlp-1.10",
+  "title": "Noise Pollution in Hospital Readmission Prediction: Long Document Classification with Reinforcement Learning",
+  "authors": [
+    "Xu, Liyan  and\nHogan, Julien  and\nPatzer, Rachel E.  and\nChoi, Jinho D."
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 19th SIGBioMed Workshop on Biomedical Language Processing",
+  "abstract": "This paper presents a reinforcement learning approach to extract noise in long clinical documents for the task of readmission prediction after kidney transplant. We face the challenges of developing robust models on a small dataset where each document may consist of over 10K tokens with full of noise including tabular text and task-irrelevant sentences. We first experiment four types of encoders to empirically decide the best document representation, and then apply reinforcement learning to remove noisy text from the long documents, which models the noise extraction process as a sequential decision problem. Our results show that the old bag-of-words encoder outperforms deep learning-based encoders on this task, and reinforcement learning is able to improve upon baseline while pruning out 25% text segments. Our analysis depicts that reinforcement learning is able to identify both typical noisy tokens and task-specific noisy text.",
+  "keywords": [
+    "deep",
+    "extraction",
+    "we",
+    "deep learning-based encoders",
+    "classification",
+    "bag",
+    "learning",
+    "analysis",
+    "text",
+    "a reinforcement learning approach",
+    "encoders",
+    "process",
+    "reinforcement",
+    "long document classification",
+    "encoder"
+  ],
+  "url": "https://aclanthology.org/2020.bionlp-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:54:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.762",
+  "title": "Conjunct Resolution in the Face of Verbal Omissions",
+  "authors": [
+    "Rassin, Royi  and\nGoldberg, Yoav  and\nTsarfaty, Reut"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Verbal omissions are complex syntactic phenomena in VP coordination structures. They occur when verbs and (some of) their arguments are omitted from subsequent clauses after being explicitly stated in an initial clause. Recovering these omitted elements is necessary for accurate interpretation of the sentence, and while humans easily and intuitively fill in the missing information, state-of-the-art models continue to struggle with this task. Previous work is limited to small-scale datasets, synthetic data creation methods, and to resolution methods in the dependency-graph level. In this work we propose aconjunct resolutiontask that operates directly on the text and makes use of asplit-and-rephraseparadigm in order to recover the missing elements in the coordination structure. To this end, we first formulate a pragmatic framework of verbal omissions which describes the different types of omissions, and develop an automatic scalable collection method. Based on this method, we curate a large dataset, containing over 10K examples of naturally-occurring verbal omissions with crowd-sourced annotations of the resolved conjuncts. We train various neural baselines for this task, and show that while our best method obtains decent performance, it leaves ample space for improvement. We propose our dataset, metrics and models as a starting point for future research on this topic.",
+  "keywords": [
+    "end",
+    "we",
+    "graph",
+    "neural",
+    "it",
+    "the dependency-graph level",
+    "information",
+    "text",
+    "metrics",
+    "topic",
+    "our dataset metrics",
+    "work",
+    "dependency",
+    "these omitted elements",
+    "this method"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.762/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:46:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

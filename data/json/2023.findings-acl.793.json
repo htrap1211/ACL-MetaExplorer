@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.793",
+  "title": "Towards Unified Spoken Language Understanding Decoding via Label-aware Compact Linguistics Representations",
+  "authors": [
+    "Zhu, Zhihong  and\nCheng, Xuxin  and\nHuang, Zhiqi  and\nChen, Dongsheng  and\nZou, Yuexian"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Joint intent detection and slot filling models have shown promising success in recent years due to the high correlations between the two tasks. However, previous works independently decode the two tasks, which could result in misaligned predictions for both tasks. To address this shortcoming, we propose a novel method named Label-aware Compact Linguistics Representation (LCLR), which leverages label embeddings to jointly guide the decoding process. Concretely, LCLR projects both task-specific hidden states into a joint label latent space, where both task-specific hidden states could be concisely represented as linear combinations of label embeddings. Such feature decomposition of task-specific hidden states increases the representing power for the linguistics of utterance. Extensive experiments on two single- and multi-intent SLU benchmarks prove that LCLR can learn more discriminative label information than previous separate decoders, and consistently outperform previous state-of-the-art methods across all metrics. More encouragingly, LCLR can be applied to boost the performance of existing approaches, making it easy to be incorporated into any existing SLU models.",
+  "keywords": [
+    "label embeddings",
+    "we",
+    "it",
+    "unified",
+    "information",
+    "latent",
+    "decoders",
+    "metrics",
+    "previous separate decoders",
+    "embeddings",
+    "unified spoken language understanding",
+    "process",
+    "language",
+    "all metrics",
+    "states"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.793/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.823",
+  "title": "Better Language Models of Code through Self-Improvement",
+  "authors": [
+    "To, Hung  and\nBui, Nghi  and\nGuo, Jin L.C.  and\nNguyen, Tien"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Pre-trained language models for code (PLMCs) have gained attention in recent research. These models are pre-trained on large-scale datasets using multi-modal objectives. However, fine-tuning them requires extensive supervision and is limited by the size of the dataset provided. We aim to improve this issue by proposing a data augmentation framework using knowledge distillation. Our framework utilizes knowledge gained during the pre-training and fine-tuning stage to augment training data, which is then used for the next step. We incorporate this framework into the state-of-the-art language models, such as CodeT5, CodeBERT, and UnixCoder. The results show that our framework significantly improves PLMCs’ performance in sequence-generation tasks, such as code summarization and code generation in the CodeXGLUE benchmark.",
+  "keywords": [
+    "code",
+    "tuning",
+    "knowledge",
+    "objectives",
+    "language",
+    "generation",
+    "code summarization",
+    "self",
+    "codet5 codebert",
+    "multi-modal objectives",
+    "self-improvement pre-trained language models",
+    "fine",
+    "attention",
+    "codebert",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.823/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

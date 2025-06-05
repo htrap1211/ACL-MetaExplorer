@@ -1,0 +1,33 @@
+{
+  "id": "2020.iwpt-1.5",
+  "title": "Semi-supervised Parsing with a Variational Autoencoding Parser",
+  "authors": [
+    "Zhang, Xiao  and\nGoldwasser, Dan"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies",
+  "abstract": "We propose an end-to-end variational autoencoding parsing (VAP) model for semi-supervised graph-based projective dependency parsing. It encodes the input using continuous latent variables in a sequential manner by deep neural networks (DNN) that can utilize the contextual information, and reconstruct the input using a generative model. The VAP model admits a unified structure with different loss functions for labeled and unlabeled data with shared parameters. We conducted experiments on the WSJ data sets, showing the proposed model can use the unlabeled data to increase the performance on a limited amount of labeled data, on a par with a recently proposed semi-supervised parser with faster inference.",
+  "keywords": [
+    "deep",
+    "generative",
+    "a generative model",
+    "a unified structure",
+    "semi-supervised parsing",
+    "parsing",
+    "end",
+    "neural",
+    "model",
+    "it",
+    "par",
+    "unified",
+    "loss",
+    "information",
+    "deep neural networks"
+  ],
+  "url": "https://aclanthology.org/2020.iwpt-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:56:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

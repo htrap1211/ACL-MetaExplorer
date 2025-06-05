@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.125",
+  "title": "Self-Attention Guided Copy Mechanism for Abstractive Summarization",
+  "authors": [
+    "Xu, Song  and\nLi, Haoran  and\nYuan, Peng  and\nWu, Youzheng  and\nHe, Xiaodong  and\nZhou, Bowen"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Copy module has been widely equipped in the recent abstractive summarization models, which facilitates the decoder to extract words from the source into the summary. Generally, the encoder-decoder attention is served as the copy distribution, while how to guarantee that important words in the source are copied remains a challenge. In this work, we propose a Transformer-based model to enhance the copy mechanism. Specifically, we identify the importance of each source word based on the degree centrality with a directed graph built by the self-attention layer in the Transformer. We use the centrality of each source word to guide the copy process explicitly. Experimental results show that the self-attention graph provides useful guidance for the copy distribution. Our proposed models significantly outperform the baseline methods on the CNN/Daily Mail dataset and the Gigaword dataset.",
+  "keywords": [
+    "work",
+    "the self-attention layer",
+    "transformer",
+    "process",
+    "cnn",
+    "the decoder",
+    "model",
+    "abstractive summarization copy module",
+    "self",
+    "encoder",
+    "decoder",
+    "the encoder-decoder attention",
+    "layer",
+    "the transformer",
+    "attention"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.125/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:43:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

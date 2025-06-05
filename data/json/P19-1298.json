@@ -1,0 +1,33 @@
+{
+  "id": "P19-1298",
+  "title": "Lattice-Based Transformer Encoder for Neural Machine Translation",
+  "authors": [
+    "Xiao, Fengshun  and\nLi, Jiangtong  and\nZhao, Hai  and\nWang, Rui  and\nChen, Kehai"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Neural machine translation (NMT) takes deterministic sequences for source representations. However, either word-level or subword-level segmentations have multiple choices to split a source sequence with different word segmentors or different subword vocabulary sizes. We hypothesize that the diversity in segmentations may affect the NMT performance. To integrate different segmentations with the state-of-the-art NMT model, Transformer, we propose lattice-based encoders to explore effective word or subword representation in an automatic way during training. We propose two methods: 1) lattice positional encoding and 2) lattice-aware self-attention. These two methods can be used together and show complementary to each other to further improve translation performance. Experiment results show superiorities of lattice-based encoders in word-level and subword-level representations over conventional Transformer encoder.",
+  "keywords": [
+    "superiorities",
+    "transformer",
+    "lattice-based encoders",
+    "conventional transformer encoder",
+    "neural",
+    "model",
+    "machine",
+    "self",
+    "encoder",
+    "translation performance experiment results",
+    "2 lattice-aware self-attention",
+    "attention",
+    "word",
+    "we",
+    "sequence"
+  ],
+  "url": "https://aclanthology.org/P19-1298/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:37:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

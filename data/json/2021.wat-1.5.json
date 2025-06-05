@@ -1,0 +1,33 @@
+{
+  "id": "2021.wat-1.5",
+  "title": "Machine Translation with Pre-specified Target-side Words Using a Semi-autoregressive Model",
+  "authors": [
+    "Kondo, Seiichiro  and\nKoyama, Aomi  and\nKiyuna, Tomoshige  and\nHirasawa, Tosho  and\nKomachi, Mamoru"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 8th Workshop on Asian Translation (WAT2021)",
+  "abstract": "We introduce our TMU Japanese-to-English system, which employs a semi-autoregressive model, to tackle the WAT 2021 restricted translation task. In this task, we translate an input sentence with the constraint that some words, called restricted target vocabularies (RTVs), must be contained in the output sentence. To satisfy this constraint, we use a semi-autoregressive model, namely, RecoverSAT, due to its ability (known as “forced translation”) to insert specified words into the output sentence. When using “forced translation,” the order of inserting RTVs is a critical problem. In this work, we aligned the source sentence and the corresponding RTVs using GIZA++. In our system, we obtain word alignment between a source sentence and the corresponding RTVs and then sort the RTVs in the order of their corresponding words or phrases in the source sentence. Using the model with sorted order RTVs, we succeeded in inserting all the RTVs into output sentences in more than 96% of the test sentences. Moreover, we confirmed that sorting RTVs improved the BLEU score compared with random order RTVs.",
+  "keywords": [
+    "work",
+    "alignment",
+    "specified",
+    "specified words",
+    "random",
+    "word alignment",
+    "translation",
+    "machine",
+    "model",
+    "restricted target vocabularies rtvs",
+    "the bleu score",
+    "vocabularies",
+    "bleu",
+    "machine translation",
+    "translation task"
+  ],
+  "url": "https://aclanthology.org/2021.wat-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

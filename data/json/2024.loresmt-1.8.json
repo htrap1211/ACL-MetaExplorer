@@ -1,0 +1,33 @@
+{
+  "id": "2024.loresmt-1.8",
+  "title": "Leveraging {M}andarin as a Pivot Language for Low-Resource Machine Translation between {C}antonese and {E}nglish",
+  "authors": [
+    "Suen, King Yiu  and\nChow, Rudolf  and\nLam, Albert Y.S."
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Seventh Workshop on Technologies for Machine Translation of Low-Resource Languages (LoResMT 2024)",
+  "abstract": "Cantonese, the second most prevalent Chinese dialect after Mandarin, has been relatively overlooked in machine translation (MT) due to a scarcity of bilingual resources. In this paper, we propose to leverage Mandarin, a high-resource language, as a pivot language for translating between Cantonese and English. Our method utilizes transfer learning from pre-trained Bidirectional and Auto-Regressive Transformer (BART) models to initialize auxiliary source-pivot and pivot-target MT models. The parameters of the trained auxiliary models are then used to initialize the source-target model. Based on our experiments, our proposed method outperforms several baseline initialization strategies, naive pivot translation, and two commercial translation systems in both translation directions.",
+  "keywords": [
+    "transformer",
+    "machine translation mt",
+    "language",
+    "machine",
+    "model",
+    "strategies",
+    "two commercial translation systems",
+    "low-resource machine translation",
+    "we",
+    "transfer",
+    "pre",
+    "both translation directions",
+    "translation",
+    "nglish",
+    "naive"
+  ],
+  "url": "https://aclanthology.org/2024.loresmt-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

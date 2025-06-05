@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.190",
+  "title": "Enhancing the generalization for Intent Classification and Out-of-Domain Detection in {SLU",
+  "authors": [
+    "Shen, Yilin  and\nHsu, Yen-Chang  and\nRay, Avik  and\nJin, Hongxia"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Intent classification is a major task in spoken language understanding (SLU). Since most models are built with pre-collected in-domain (IND) training utterances, their ability to detect unsupported out-of-domain (OOD) utterances has a critical effect in practical use. Recent works have shown that using extra data and labels can improve the OOD detection performance, yet it could be costly to collect such data. This paper proposes to train a model with only IND data while supporting both IND intent classification and OOD detection. Our method designs a novel domain-regularized module (DRM) to reduce the overconfident phenomenon of a vanilla classifier, achieving a better generalization in both cases. Besides, DRM can be used as a drop-in replacement for the last layer in any neural network-based intent classifier, providing a low-cost strategy for a significant improvement. The evaluation on four datasets shows that our method built on BERT and RoBERTa models achieves state-of-the-art performance against existing approaches and the strong baselines we created for the comparisons.",
+  "keywords": [
+    "roberta",
+    "classifier",
+    "extra",
+    "a vanilla classifier",
+    "layer",
+    "a better generalization",
+    "we",
+    "training",
+    "classification",
+    "bert and roberta models",
+    "neural",
+    "it",
+    "bert",
+    "generalization",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.190/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:01:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

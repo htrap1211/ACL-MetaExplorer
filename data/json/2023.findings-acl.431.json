@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.431",
+  "title": "Mitigating the Learning Bias towards Repetition by Self-Contrastive Training for Open-Ended Generation",
+  "authors": [
+    "Guan, Jian  and\nHuang, Minlie"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Despite the huge progress in myriad generation tasks, pretrained language models (LMs) such as GPT2 still tend to generate repetitive texts with maximization-based decoding algorithms for open-ended generation. We attribute their overestimation of token-level repetition probabilities to the learning bias: LMs capture simple repetitive patterns faster with the MLE loss. We propose self-contrastive training to penalize the output of a premature checkpoint of the same model when it incorrectly predicts repetition, which is shown to mitigate repetition effectively while maintaining fluency on two datasets. Furthermore, we find that LMs use longer-range dependencies to predict repetitive tokens than non-repetitive ones, which may be the cause of sentence-level repetition loops.",
+  "keywords": [
+    "bias",
+    "generation",
+    "language",
+    "longer-range dependencies",
+    "gpt2",
+    "model",
+    "it",
+    "myriad generation tasks",
+    "self",
+    "token",
+    "dependencies",
+    "loss",
+    "the learning bias lms",
+    "probabilities",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.431/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

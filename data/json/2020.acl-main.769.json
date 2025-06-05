@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.769",
+  "title": "End-to-End Bias Mitigation by Modelling Biases in Corpora",
+  "authors": [
+    "Karimi Mahabadi, Rabeeh  and\nBelinkov, Yonatan  and\nHenderson, James"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Several recent studies have shown that strong natural language understanding (NLU) models are prone to relying on unwanted dataset biases without learning the underlying task, resulting in models that fail to generalize to out-of-domain datasets and are likely to perform poorly in real-world scenarios. We propose two learning strategies to train neural models, which are more robust to such biases and transfer better to out-of-domain datasets. The biases are specified in terms of one or more bias-only models, which learn to leverage the dataset biases. During training, the bias-only models’ predictions are used to adjust the loss of the base model to reduce its reliance on biases by down-weighting the biased examples and focusing the training on the hard examples. We experiment on large-scale natural language inference and fact verification benchmarks, evaluating on out-of-domain datasets that are specifically designed to assess the robustness of models against known biases in the training data. Results show that our debiasing methods greatly improve robustness in all settings and better transfer to other textual entailment datasets. Our code and data are publicly available inhttps://github.com/rabeehk/robust-nli.",
+  "keywords": [
+    "code",
+    "bias",
+    "end",
+    "several recent studies",
+    "we",
+    "training",
+    "neural",
+    "natural",
+    "the dataset biases",
+    "loss",
+    "transfer",
+    "biased",
+    "modelling biases",
+    "the bias-only models predictions",
+    "unwanted dataset biases"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.769/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:52:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

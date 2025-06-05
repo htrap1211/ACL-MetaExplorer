@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.287",
+  "title": "Locating and Extracting Relational Concepts in Large Language Models",
+  "authors": [
+    "Wang, Zijian  and\nWhyte, Britney  and\nXu, Chang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Relational concepts are indeed foundational to the structure of knowledge representation, as they facilitate the association between various entity concepts, allowing us to express and comprehend complex world knowledge.By expressing relational concepts in natural language prompts, people can effortlessly interact with large language models (LLMs) and recall desired factual knowledge. However, the process of knowledge recall lacks interpretability, and representations of relational concepts within LLMs remain unknown to us. In this paper, we identify hidden states that can express entity and relational concepts through causal mediation analysis in fact recall processes. Our finding reveals that at the last token position of the input prompt, there are hidden states that solely express the causal effects of relational concepts. Based on this finding, we assume that these hidden states can be treated as relational representations and we can successfully extract them from LLMs. The experimental results demonstrate high credibility of the relational representations: they can be flexibly transplanted into other fact recall processes, and can also be used as robust entity connectors. Moreover, we also show that the relational representations exhibit significant potential for controllable fact recall through relation rewriting.",
+  "keywords": [
+    "we",
+    "other fact recall processes",
+    "natural",
+    "token",
+    "the input prompt",
+    "analysis",
+    "llms",
+    "prompt",
+    "natural language prompts",
+    "large language models llms",
+    "recall",
+    "prompts",
+    "process",
+    "knowledge",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.287/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

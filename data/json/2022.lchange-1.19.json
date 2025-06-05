@@ -1,0 +1,33 @@
+{
+  "id": "2022.lchange-1.19",
+  "title": "UA}lberta at {LSCD}iscovery: Lexical Semantic Change Detection via Word Sense Disambiguation",
+  "authors": [
+    "Teodorescu, Daniela  and\nvon der Ohe, Spencer  and\nKondrak, Grzegorz"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 3rd Workshop on Computational Approaches to Historical Language Change",
+  "abstract": "We describe our two systems for the shared task on Lexical Semantic Change Discovery in Spanish. For binary change detection, we frame the task as a word sense disambiguation (WSD) problem. We derive sense frequency distributions for target words in both old and modern corpora. We assume that the word semantics have changed if a sense is observed in only one of the two corpora, or the relative change for any sense exceeds a tuned threshold. For graded change discovery, we follow the design of CIRCE (Pömsl and Lyapin, 2020) by combining both static and contextual embeddings. For contextual embeddings, we use XLM-RoBERTa instead of BERT, and train the model to predict a masked token instead of the time period. Our language-independent methods achieve results that are close to the best-performing systems in the shared task.",
+  "keywords": [
+    "embeddings",
+    "roberta",
+    "language",
+    "bert",
+    "model",
+    "semantics",
+    "ua",
+    "token",
+    "contextual embeddings",
+    "lexical semantic change discovery",
+    "lberta",
+    "semantic",
+    "we",
+    "the word semantics",
+    "xlm-roberta"
+  ],
+  "url": "https://aclanthology.org/2022.lchange-1.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:44:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

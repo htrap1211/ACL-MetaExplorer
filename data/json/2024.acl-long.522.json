@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.522",
+  "title": "C}ofi{P}ara: A Coarse-to-fine Paradigm for Multimodal Sarcasm Target Identification with Large Multimodal Models",
+  "authors": [
+    "Chen, Zixin  and\nLin, Hongzhan  and\nLuo, Ziyang  and\nCheng, Mingfei  and\nMa, Jing  and\nChen, Guang"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Social media abounds with multimodal sarcasm, and identifying sarcasm targets is particularly challenging due to the implicit incongruity not directly evident in the text and image modalities. Current methods for Multimodal Sarcasm Target Identification (MSTI) predominantly focus on superficial indicators in an end-to-end manner, overlooking the nuanced understanding of multimodal sarcasm conveyed through both the text and image. This paper proposes a versatile MSTI framework with a coarse-to-fine paradigm, by augmenting sarcasm explainability with reasoning and pre-training knowledge. Inspired by the powerful capacity of Large Multimodal Models (LMMs) on multimodal reasoning, we first engage LMMs to generate competing rationales for coarser-grained pre-training of a small language model on multimodal sarcasm detection. We then propose fine-tuning the model for finer-grained sarcasm target identification. Our framework is thus empowered to adeptly unveil the intricate targets within multimodal sarcasm and mitigate the negative impact posed by potential noise inherently in LMMs. Experimental results demonstrate that our model far outperforms state-of-the-art MSTI methods, and markedly exhibits explainability in deciphering sarcasm as well.",
+  "keywords": [
+    "end",
+    "pre-training knowledge",
+    "a small language model",
+    "the implicit incongruity",
+    "we",
+    "current",
+    "training",
+    "manner",
+    "incongruity",
+    "finer-grained sarcasm target identification",
+    "text",
+    "-",
+    "fine",
+    "knowledge",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.522/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

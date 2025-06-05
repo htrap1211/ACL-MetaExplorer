@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.197",
+  "title": "Parallel Data Helps Neural Entity Coreference Resolution",
+  "authors": [
+    "Tang, Gongbo  and\nHardmeier, Christian"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Coreference resolution is the task of finding expressions that refer to the same entity in a text. Coreference models are generally trained on monolingual annotated data but annotating coreference is expensive and challenging. Hardmeier et al. (2013) have shown that parallel data contains latent anaphoric knowledge, but it has not been explored in end-to-end neural models yet. In this paper, we propose a simple yet effective model to exploit coreference knowledge from parallel data. In addition to the conventional modules learning coreference from annotations, we introduce an unsupervised module to capture cross-lingual coreference knowledge. Our proposed cross-lingual model achieves consistent improvements, up to 1.74 percentage points, on the OntoNotes 5.0 English dataset using 9 different synthetic parallel datasets. These experimental results confirm that parallel data can provide additional coreference knowledge which is beneficial to coreference resolution tasks.",
+  "keywords": [
+    "cross",
+    "knowledge",
+    "end",
+    "hardmeier",
+    "neural",
+    "additional coreference knowledge",
+    "model",
+    "cross-lingual coreference knowledge",
+    "text",
+    "it",
+    "annotating coreference",
+    "coreference knowledge",
+    "latent",
+    "we",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.197/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

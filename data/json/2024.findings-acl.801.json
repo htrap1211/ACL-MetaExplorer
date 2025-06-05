@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.801",
+  "title": "I}nstruct{G}raph: Boosting Large Language Models via Graph-centric Instruction Tuning and Preference Alignment",
+  "authors": [
+    "Wang, Jianing  and\nWu, Junda  and\nHou, Yupeng  and\nLiu, Yao  and\nGao, Ming  and\nMcAuley, Julian"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Do current large language models (LLMs) better solve graph reasoning and generation tasks with parameter updates? In this paper, we proposeInstructGraph, a framework that empowers LLMs with the abilities of graph reasoning and generation by instruction tuning and preference alignment. Specifically, we first propose a structured format verbalizer to unify all graph data into a universal code-like format, which can simply represent the graph without any external graph-specific encoders. Furthermore, a graph instruction tuning stage is introduced to guide LLMs in solving graph reasoning and generation tasks. Finally, we identify potential hallucination problems in graph tasks and sample negative instances for preference alignment, the target of which is to enhance the output’s reliability of the model. Extensive experiments across multiple graph-centric tasks exhibit that InstructGraph can achieve the best performance and outperform GPT-4 and LLaMA2 by more than 13% and 38%, respectively.",
+  "keywords": [
+    "instruction",
+    "alignment",
+    "abilities",
+    "code",
+    "raph",
+    "tuning",
+    "i",
+    "generation",
+    "language",
+    "the abilities",
+    "model",
+    "large language models",
+    "preference alignment",
+    "gpt-4",
+    "generation tasks"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.801/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:59:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

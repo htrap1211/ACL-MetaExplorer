@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.234",
+  "title": "T}oxi{G}en: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection",
+  "authors": [
+    "Hartvigsen, Thomas  and\nGabriel, Saadia  and\nPalangi, Hamid  and\nSap, Maarten  and\nRay, Dipankar  and\nKamar, Ece"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Toxic language detection systems often falsely flag text that contains minority group mentions as toxic, as those groups are often the targets of online hate. Such over-reliance on spurious correlations also causes systems to struggle with detecting implicitly toxic language. To help mitigate these issues, we create ToxiGen, a new large-scale and machine-generated dataset of 274k toxic and benign statements about 13 minority groups. We develop a demonstration-based prompting framework and an adversarial classifier-in-the-loop decoding method to generate subtly toxic and benign text with a massive pretrained language model. Controlling machine generation in this way allows ToxiGen to cover implicitly toxic text at a larger scale, and about more demographic groups, than previous resources of human-written text. We conduct a human evaluation on a challenging subset of ToxiGen and find that annotators struggle to distinguish machine-generated text from human-written language. We also find that 94.5% of toxic examples are labeled as hate speech by human annotators. Using three publicly-available datasets, we show that finetuning a toxicity classifier on our data improves its performance on human-written data substantially. We also demonstrate that ToxiGen can be used to fight machine-generated toxicity as finetuning improves the classifier significantly on our evaluation subset.",
+  "keywords": [
+    "machine-generated toxicity",
+    "classifier",
+    "a human evaluation",
+    "our evaluation subset",
+    "we",
+    "the classifier",
+    "machine-generated text",
+    "a large-scale machine-generated dataset",
+    "a toxicity classifier",
+    "text",
+    "g",
+    "language",
+    "generation",
+    "model",
+    "machine"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.234/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:27:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

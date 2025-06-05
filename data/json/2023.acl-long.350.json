@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.350",
+  "title": "C}o{AD}: Automatic Diagnosis through Symptom and Disease Collaborative Generation",
+  "authors": [
+    "Wang, Huimin  and\nKwan, Wai Chung  and\nWong, Kam-Fai  and\nZheng, Yefeng"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Automatic diagnosis (AD), a critical application of AI in healthcare, employs machine learning techniques to assist doctors in gathering patient symptom information for precise disease diagnosis. The Transformer-based method utilizes an input symptom sequence, predicts itself through auto-regression, and employs the hidden state of the final symptom to determine the disease. Despite its simplicity and superior performance demonstrated, a decline in disease diagnosis accuracy is observed caused by 1) a mismatch between symptoms observed during training and generation, and 2) the effect of different symptom orders on disease prediction. To address the above obstacles, we introduce the CoAD, a novel disease and symptom collaborative generation framework, which incorporates several key innovations to improve AD: 1) aligning sentence-level disease labels with multiple possible symptom inquiry steps to bridge the gap between training and generation; 2) expanding symptom labels for each sub-sequence of symptoms to enhance annotation and eliminate the effect of symptom order; 3) developing a repeated symptom input schema to effectively and efficiently learn the expanded disease and symptom labels. We evaluate the CoAD framework using four datasets, including three public and one private, and demonstrate that it achieves an average 2.3% improvement over previous state-of-the-art results in automatic disease diagnosis. For reproducibility, we release the code and data athttps://github.com/KwanWaiChung/coad.",
+  "keywords": [
+    "code",
+    "disease diagnosis accuracy",
+    "we",
+    "training",
+    "it",
+    "information",
+    "sequence",
+    "the transformer-based method",
+    "-",
+    "symptom collaborative generation framework",
+    "accuracy",
+    "transformer",
+    "patient symptom information",
+    "generation",
+    "ai"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.350/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:40:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

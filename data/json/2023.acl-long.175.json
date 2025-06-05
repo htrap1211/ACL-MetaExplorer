@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.175",
+  "title": "Exploring How Generative Adversarial Networks Learn Phonological Representations",
+  "authors": [
+    "Chen, Jingyi  and\nElsner, Micha"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "This paper explores how Generative Adversarial Networks (GANs) learn representations of phonological phenomena. We analyze how GANs encode contrastive and non-contrastive nasality in French and English vowels by applying the ciwGAN architecture (Begus, 2021). Begus claims that ciwGAN encodes linguistically meaningful representations with categorical variables in its latent space and manipulating the latent variables shows an almost one to one corresponding control of the phonological features in ciwGAN’s generated outputs. However, our results show an interactive effect of latent variables on the features in the generated outputs, which suggests the learned representations in neural networks are different from the phonological representations proposed by linguists. On the other hand, ciwGAN is able to distinguish contrastive and noncontrastive features in English and French by encoding them differently. Comparing the performance of GANs learning from different languages results in a better understanding of what language specific features contribute to developing language specific phonological representations. We also discuss the role of training data frequencies in phonological feature learning.",
+  "keywords": [
+    "we",
+    "neural",
+    "latent",
+    "ciwgan s generated outputs",
+    "data frequencies",
+    "generative",
+    "the generated outputs",
+    "neural networks",
+    "language",
+    "frequencies",
+    "the features",
+    "linguists",
+    "phonological representations",
+    "gans",
+    "role"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.175/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P19-1082",
+  "title": "Coupling Retrieval and Meta-Learning for Context-Dependent Semantic Parsing",
+  "authors": [
+    "Guo, Daya  and\nTang, Duyu  and\nDuan, Nan  and\nZhou, Ming  and\nYin, Jian"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "In this paper, we present an approach to incorporate retrieved datapoints as supporting evidence for context-dependent semantic parsing, such as generating source code conditioned on the class environment. Our approach naturally combines a retrieval model and a meta-learner, where the former learns to find similar datapoints from the training data, and the latter considers retrieved datapoints as a pseudo task for fast adaptation. Specifically, our retriever is a context-aware encoder-decoder model with a latent variable which takes context environment into consideration, and our meta-learner learns to utilize retrieved datapoints in a model-agnostic meta-learning paradigm for fast adaptation. We conduct experiments on CONCODE and CSQA datasets, where the context refers to class environment in JAVA codes and conversational history, respectively. We use sequence-to-action model as the base semantic parser, which performs the state-of-the-art accuracy on both datasets. Results show that both the context-aware retriever and the meta-learning strategy improve accuracy, and our approach performs better than retrieve-and-edit baselines.",
+  "keywords": [
+    "code",
+    "parsing",
+    "csqa",
+    "our meta-learner learns",
+    "the base semantic parser",
+    "semantic",
+    "we",
+    "a retrieval model",
+    "our retriever",
+    "training",
+    "context-dependent semantic parsing",
+    "retrieval",
+    "decoder",
+    "latent",
+    "a context-aware encoder-decoder model"
+  ],
+  "url": "https://aclanthology.org/P19-1082/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:31:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

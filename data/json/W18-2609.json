@@ -1,0 +1,33 @@
+{
+  "id": "W18-2609",
+  "title": "Neural Models for Key Phrase Extraction and Question Generation",
+  "authors": [
+    "Subramanian, Sandeep  and\nWang, Tong  and\nYuan, Xingdi  and\nZhang, Saizheng  and\nTrischler, Adam  and\nBengio, Yoshua"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the Workshop on Machine Reading for Question Answering",
+  "abstract": "We propose a two-stage neural model to tackle question generation from documents. First, our model estimates the probability that word sequences in a document are ones that a human would pick when selecting candidate answers by training a neural key-phrase extractor on the answers in a question-answering corpus. Predicted key phrases then act as target answers and condition a sequence-to-sequence question-generation model with a copy mechanism. Empirically, our key-phrase extraction model significantly outperforms an entity-tagging baseline and existing rule-based approaches. We further demonstrate that our question generation system formulates fluent, answerable questions from key phrases. This two-stage system could be used to augment or generate reading comprehension datasets, which may be leveraged to improve machine reading systems or in educational settings.",
+  "keywords": [
+    "question generation",
+    "generation",
+    "neural",
+    "extraction",
+    "model",
+    "human",
+    "question",
+    "machine",
+    "we",
+    "sequence",
+    "word",
+    "our question generation system",
+    "entity",
+    "documents",
+    "that"
+  ],
+  "url": "https://aclanthology.org/W18-2609/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:06:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

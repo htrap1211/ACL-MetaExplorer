@@ -1,0 +1,33 @@
+{
+  "id": "P19-1295",
+  "title": "Leveraging Local and Global Patterns for Self-Attention Networks",
+  "authors": [
+    "Xu, Mingzhou  and\nWong, Derek F.  and\nYang, Baosong  and\nZhang, Yue  and\nChao, Lidia S."
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Self-attention networks have received increasing research attention. By default, the hidden states of each word are hierarchically calculated by attending to all words in the sentence, which assembles global information. However, several studies pointed out that taking all signals into account may lead to overlooking neighboring information (e.g. phrase pattern). To address this argument, we propose a hybrid attention mechanism to dynamically leverage both of the local and global information. Specifically, our approach uses a gating scalar for integrating both sources of the information, which is also convenient for quantifying their contributions. Experiments on various neural machine translation tasks demonstrate the effectiveness of the proposed method. The extensive analyses verify that the two types of contexts are complementary to each other, and our method gives highly effective improvements in their integration.",
+  "keywords": [
+    "a hybrid attention mechanism",
+    "translation",
+    "neural",
+    "studies",
+    "machine",
+    "self",
+    "self-attention networks self-attention networks",
+    "several studies",
+    "information",
+    "convenient",
+    "attention",
+    "word",
+    "we",
+    "increasing research attention",
+    "states"
+  ],
+  "url": "https://aclanthology.org/P19-1295/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:37:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

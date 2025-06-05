@@ -1,0 +1,33 @@
+{
+  "id": "P18-1004",
+  "title": "Explicit Retrofitting of Distributional Word Vectors",
+  "authors": [
+    "Glava{\\v{s}}, Goran  and\nVuli{\\'c}, Ivan"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Semantic specialization of distributional word vectors, referred to as retrofitting, is a process of fine-tuning word vectors using external lexical knowledge in order to better embed some semantic relation. Existing retrofitting models integrate linguistic constraints directly into learning objectives and, consequently, specialize only the vectors of words from the constraints. In this work, in contrast, we transform external lexico-semantic relations into training examples which we use to learn an explicit retrofitting model (ER). The ER model allows us to learn a global specialization function and specialize the vectors of words unobserved in the training data as well. We report large gains over original distributional vector spaces in (1) intrinsic word similarity evaluation and on (2) two downstream tasks − lexical simplification and dialog state tracking. Finally, we also successfully specialize vector spaces of new languages (i.e., unseen in the training data) by coupling ER with shared multilingual distributional vector spaces.",
+  "keywords": [
+    "work",
+    "tuning",
+    "process",
+    "knowledge",
+    "fine-tuning word vectors",
+    "distributional word vectors",
+    "i",
+    "objectives",
+    "vector spaces",
+    "model",
+    "vectors",
+    "vector",
+    "semantic specialization",
+    "dialog",
+    "learning objectives"
+  ],
+  "url": "https://aclanthology.org/P18-1004/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:09:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

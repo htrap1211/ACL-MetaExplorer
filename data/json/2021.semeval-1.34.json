@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.34",
+  "title": "Grenzlinie at {S}em{E}val-2021 Task 7: Detecting and Rating Humor and Offense",
+  "authors": [
+    "Liu, Renyuan  and\nZhou, Xiaobing"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper introduces the result of Team Grenzlinie’s experiment in SemEval-2021 task 7: HaHackathon: Detecting and Rating Humor and Offense. This task has two subtasks. Subtask1 includes the humor detection task, the humor rating prediction task, and the humor controversy detection task. Subtask2 is an offensive rating prediction task. Detection task is a binary classification task, and the rating prediction task is a regression task between 0 to 5. 0 means the task is not humorous or not offensive, 5 means the task is very humorous or very offensive. For all the tasks, this paper chooses RoBERTa as the pre-trained model. In classification tasks, Bi-LSTM and adversarial training are adopted. In the regression task, the Bi-LSTM is also adopted. And then we propose a new approach named compare method. Finally, our system achieves an F1-score of 95.05% in the humor detection task, F1-score of 61.74% in the humor controversy detection task, 0.6143 RMSE in humor rating task, 0.4761 RMSE in the offensive rating task on the test datasets.",
+  "keywords": [
+    "roberta",
+    "em",
+    "classification tasks",
+    "an f1-score",
+    "model",
+    "grenzlinie",
+    "-",
+    "team grenzlinie s experiment",
+    "we",
+    "lstm",
+    "pre",
+    "a binary classification task",
+    "training",
+    "bi",
+    "classification"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.34/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:20:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

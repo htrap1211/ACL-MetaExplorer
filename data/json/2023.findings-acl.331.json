@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.331",
+  "title": "Automatic Readability Assessment for Closely Related Languages",
+  "authors": [
+    "Imperial, Joseph Marvin  and\nKochmar, Ekaterina"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In recent years, the main focus of research on automatic readability assessment (ARA) has shifted towards using expensive deep learning-based methods with the primary goal of increasing models’ accuracy. This, however, is rarely applicable for low-resource languages where traditional handcrafted features are still widely used due to the lack of existing NLP tools to extract deeper linguistic representations. In this work, we take a step back from the technical component and focus on how linguistic aspects such as mutual intelligibility or degree of language relatedness can improve ARA in a low-resource setting. We collect short stories written in three languages in the Philippines—Tagalog, Bikol, and Cebuano—to train readability assessment models and explore the interaction of data and features in various cross-lingual setups. Our results show that the inclusion of CrossNGO, a novel specialized feature exploiting n-gram overlap applied to languages with high mutual intelligibility, significantly improves the performance of ARA models compared to the use of off-the-shelf large multilingual language models alone. Consequently, when both linguistic representations are combined, we achieve state-of-the-art results for Tagalog and Cebuano, and baseline scores for ARA in Bikol.",
+  "keywords": [
+    "deep",
+    "we",
+    "cross",
+    "expensive deep learning-based methods",
+    "learning",
+    "stories",
+    "accuracy",
+    "existing nlp tools",
+    "work",
+    "increasing models accuracy",
+    "language",
+    "nlp",
+    "short stories",
+    "ara",
+    "assessment"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.331/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

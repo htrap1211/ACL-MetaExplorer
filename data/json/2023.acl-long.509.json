@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.509",
+  "title": "Preserving Commonsense Knowledge from Pre-trained Language Models via Causal Inference",
+  "authors": [
+    "Zheng, Junhao  and\nMa, Qianli  and\nQiu, Shengjie  and\nWu, Yue  and\nMa, Peitian  and\nLiu, Junlong  and\nFeng, Huawen  and\nShang, Xichen  and\nChen, Haibin"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Fine-tuning has been proven to be a simple and effective technique to transfer the learned knowledge of Pre-trained Language Models (PLMs) to downstream tasks. However, vanilla fine-tuning easily overfits the target data and degrades the generalization ability. Most existing studies attribute it to catastrophic forgetting, and they retain the pre-trained knowledge indiscriminately without identifying what knowledge is transferable. Motivated by this, we frame fine-tuning into a causal graph and discover that the crux of catastrophic forgetting lies in the missing causal effects from the pre-trained data. Based on the causal view, we propose a unified objective for fine-tuning to retrieve the causality back. Intriguingly, the unified objective can be seen as the sum of the vanilla fine-tuning objective, which learns new knowledge from target data, and the causal objective, which preserves old knowledge from PLMs. Therefore, our method is flexible and can mitigate negative transfer while preserving knowledge. Since endowing models with commonsense is a long-standing challenge, we implement our method on commonsense QA with a proposed heuristic estimation to verify its effectiveness. In the experiments, our method outperforms state-of-the-art fine-tuning methods on all six commonsense QA datasets and can be implemented as a plug-in module to inflate the performance of existing QA models.",
+  "keywords": [
+    "the generalization ability",
+    "the unified objective",
+    "causal inference fine-tuning",
+    "most existing studies",
+    "we",
+    "graph",
+    "fine-tuning",
+    "pre-trained language models",
+    "it",
+    "unified",
+    "the causal view",
+    "pre-trained language models plms",
+    "transfer",
+    "the causal objective",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.509/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:42:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

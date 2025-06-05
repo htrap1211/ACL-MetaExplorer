@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.341",
+  "title": "Which side are you on? Insider-Outsider classification in conspiracy-theoretic social media",
+  "authors": [
+    "Holur, Pavan  and\nWang, Tianyi  and\nShahsavari, Shadi  and\nTangherlini, Timothy  and\nRoychowdhury, Vwani"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Social media is a breeding ground for threat narratives and related conspiracy theories. In these, anoutsidegroup threatens the integrity of aninsidegroup, leading to the emergence of sharply defined group identities:Insiders– agents with whom the authors identify andOutsiders– agents who threaten the insiders. Inferring the members of these groups constitutes a challenging new NLP task: (i) Information is distributed over many poorly-constructed posts; (ii) Threats and threat agents are highly contextual, with the same post potentially having multiple agents assigned to membership in either group; (iii) An agent’s identity is often implicit and transitive; and (iv) Phrases used to imply Outsider status often do not follow common negative sentiment patterns. To address these challenges, we define a novel Insider-Outsider classification task. Because we are not aware of any appropriate existing datasets or attendant models, we introduce a labeled dataset (CT5K) and design a model (NP2IO) to address this task. NP2IO leverages pretrained language modeling to classify Insiders and Outsiders. NP2IO is shown to be robust, generalizing to noun phrases not seen during training, and exceeding the performance of non-trivial baseline models by 20%.",
+  "keywords": [
+    "identities",
+    "theories",
+    "we",
+    "language modeling",
+    "training",
+    "classification",
+    "information",
+    "generalizing",
+    "robust generalizing",
+    "insider-outsider classification",
+    "sentiment",
+    "language",
+    "nlp",
+    "related conspiracy theories",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.341/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:28:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

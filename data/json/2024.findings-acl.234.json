@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.234",
+  "title": "Discerning and Resolving Knowledge Conflicts through Adaptive Decoding with Contextual Information-Entropy Constraint",
+  "authors": [
+    "Yuan, Xiaowei  and\nYang, Zhao  and\nWang, Yequan  and\nLiu, Shengping  and\nZhao, Jun  and\nLiu, Kang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large language models (LLMs) internalize enormousparametric knowledgeduring pre-training. Concurrently, realistic applications necessitate externalcontextual knowledgeto aid models on the underlying tasks. This raises a crucial dilemma known asknowledge conflicts, where the contextual knowledge clashes with the parametric knowledge. However, existing decoding works are specialized in resolving knowledge conflicts and could inadvertently deteriorate performance in absence of conflicts. In this paper, we propose an adaptive decoding method, termed as contextual information-entropy constraint decoding (COIECD), to discern whether the knowledge conflicts occur and resolve them. It can improve the model’s faithfulness to conflicting context, and simultaneously maintain high performance among non-conflicting context. Our experiments show that COIECD exhibits strong performance and robustness over knowledge conflicts in realistic datasets.",
+  "keywords": [
+    "knowledge",
+    "language",
+    "model",
+    "it",
+    "coiecd",
+    "information",
+    "we",
+    "pre",
+    "training",
+    "llms",
+    "entropy",
+    "applications",
+    "knowledgeto",
+    "necessitate",
+    "this"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.234/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

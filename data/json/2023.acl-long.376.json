@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.376",
+  "title": "Rethinking Multimodal Entity and Relation Extraction from a Translation Point of View",
+  "authors": [
+    "Zheng, Changmeng  and\nFeng, Junhao  and\nCai, Yi  and\nWei, Xiaoyong  and\nLi, Qing"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We revisit the multimodal entity and relation extraction from a translation point of view. Special attention is paid on the misalignment issue in text-image datasets which may mislead the learning. We are motivated by the fact that the cross-modal misalignment is a similar problem of cross-lingual divergence issue in machine translation. The problem can then be transformed and existing solutions can be borrowed by treating a text and its paired image as the translation to each other. We implement a multimodal back-translation using diffusion-based generative models for pseudo-paralleled pairs and a divergence estimator by constructing a high-resource corpora as a bridge for low-resource learners. Fine-grained confidence scores are generated to indicate both types and degrees of alignments with which better representations are obtained. The method has been validated in the experiments by outperforming 14 state-of-the-art methods in both entity and relation extraction tasks. The source code is available athttps://github.com/thecharm/TMR.",
+  "keywords": [
+    "code",
+    "alignments",
+    "extraction",
+    "machine translation",
+    "we",
+    "translation",
+    "misalignment",
+    "cross",
+    "learning",
+    "low-resource learners",
+    "generative",
+    "the translation",
+    "the cross-modal misalignment",
+    "special attention",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.376/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:40:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

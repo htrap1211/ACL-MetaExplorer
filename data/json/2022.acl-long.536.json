@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.536",
+  "title": "Can Unsupervised Knowledge Transfer from Social Discussions Help Argument Mining?",
+  "authors": [
+    "Dutta, Subhabrata  and\nJuneja, Jeevesh  and\nDas, Dipankar  and\nChakraborty, Tanmoy"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Identifying argument components from unstructured texts and predicting the relationships expressed among them are two primary steps of argument mining. The intrinsic complexity of these tasks demands powerful learning models. While pretrained Transformer-based Language Models (LM) have been shown to provide state-of-the-art results over different NLP tasks, the scarcity of manually annotated data and the highly domain-dependent nature of argumentation restrict the capabilities of such models. In this work, we propose a novel transfer learning strategy to overcome these challenges. We utilize argumentation-rich social discussions from theChangeMyViewsubreddit as a source of unsupervised, argumentative discourse-aware knowledge by finetuning pretrained LMs on a selectively masked language modeling task. Furthermore, we introduce a novel prompt-based strategy for inter-component relation prediction that compliments our proposed finetuning method while leveraging on the discourse context. Exhaustive experiments show the generalization capability of our method on these two tasks over within-domain as well as out-of-domain datasets, outperforming several existing and employed strong baselines.",
+  "keywords": [
+    "we",
+    "rich",
+    "learning",
+    "transfer",
+    "the capabilities",
+    "different nlp tasks",
+    "a novel prompt-based strategy",
+    "prompt",
+    "the generalization capability",
+    "thechangemyviewsubreddit",
+    "generalization",
+    "transformer-based language models",
+    "mining",
+    "work",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.536/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

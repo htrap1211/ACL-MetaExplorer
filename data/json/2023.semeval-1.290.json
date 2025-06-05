@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.290",
+  "title": "T}eam{EC} at {S}em{E}val-2023 Task 4: Transformers vs. Low-Resource Dictionaries, Expert Dictionary vs. Learned Dictionary",
+  "authors": [
+    "Stefanovitch, Nicolas  and\nDe Longueville, Bertrand  and\nScharfbillig, Mario"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper describes the system we used to participate in the shared task, as well as additional experiments beyond the scope of the shared task, but using its data. Our primary goal is to compare the effectiveness of transformers model compared to low-resource dictionaries. Secondly, we compare the difference in performance of a learned dictionary and of a dictionary designed by experts in the field of values. Our findings surprisingly show that transformers perform on par with a dictionary containing less than 1k words, when evaluated with 19 fine-grained categories, and only outperform a dictionary-based approach in a coarse setting with 10 categories. Interestingly, the expert dictionary has a precision on par with the learned one, while its recall is clearly lower, potentially an indication of overfitting of topics to values in the shared task’s dataset. Our findings should be of interest to both the NLP and Value scientific communities on the use of automated approaches for value classification",
+  "keywords": [
+    "t",
+    "ec",
+    "transformers",
+    "precision",
+    "communities",
+    "field",
+    "we",
+    "classification",
+    "a precision",
+    "the field",
+    "value classification",
+    "scientific",
+    "overfitting",
+    "categories",
+    "par"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.290/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:30:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

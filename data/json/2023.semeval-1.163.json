@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.163",
+  "title": "GMNLP} at {S}em{E}val-2023 Task 12: Sentiment Analysis with Phylogeny-Based Adapters",
+  "authors": [
+    "Alam, Md Mahfuz Ibn  and\nXie, Ruoyu  and\nFaisal, Fahim  and\nAnastasopoulos, Antonios"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This report describes GMU’s sentiment analysis system for the SemEval-2023 shared task AfriSenti-SemEval. We participated in all three sub-tasks: Monolingual, Multilingual, and Zero-Shot. Our approach uses models initialized with AfroXLMR-large, a pre-trained multilingual language model trained on African languages and fine-tuned correspondingly. We also introduce augmented training data along with original training data. Alongside finetuning, we perform phylogeny-based adapter-tuning to create several models and ensemble the best models for the final submission. Our system achieves the best F1-score on track 5: Amharic, with 6.2 points higher F1-score than the second-best performing system on this track. Overall, our system ranks 5th among the 10 systems participating in all 15 tracks.",
+  "keywords": [
+    "the best f1-score",
+    "gmnlp",
+    "tuning",
+    "language",
+    "model",
+    "-",
+    "we",
+    "pre",
+    "analysis",
+    "training",
+    "sentiment",
+    "12 sentiment analysis",
+    "shared task afrisenti",
+    "approach",
+    "all three sub"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.163/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:28:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

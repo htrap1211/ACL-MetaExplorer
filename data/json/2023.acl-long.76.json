@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.76",
+  "title": "DIONYSUS}: A Pre-trained Model for Low-Resource Dialogue Summarization",
+  "authors": [
+    "Li, Yu  and\nPeng, Baolin  and\nHe, Pengcheng  and\nGalley, Michel  and\nYu, Zhou  and\nGao, Jianfeng"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Dialogue summarization has recently garnered significant attention due to its wide range of applications. However, existing methods for summarizing dialogues have limitations because they do not take into account the inherent structure of dialogue and rely heavily on labeled data, which can lead to poor performance in new domains. In this work, we propose DIONYSUS (dynamic input optimization in pre-training for dialogue summarization), a pre-trained encoder-decoder model for summarizing dialogues in any new domain. To pre-train DIONYSUS, we create two pseudo summaries for each dialogue example: one from a fine-tuned summarization model and the other from important dialogue turns. We then choose one of these pseudo summaries based on information distribution differences in different types of dialogues. This selected pseudo summary serves as the objective for pre-training DIONYSUS using a self-supervised approach on a large dialogue corpus. Our experiments show that DIONYSUS outperforms existing methods on six datasets, as demonstrated by its ROUGE scores in zero-shot and few-shot settings",
+  "keywords": [
+    "important dialogue",
+    "pre-training dionysus",
+    "summarization",
+    "we",
+    "dialogue",
+    "shot",
+    "training",
+    "the objective",
+    "self",
+    "decoder",
+    "information",
+    "each dialogue example",
+    "dionysus dynamic input optimization",
+    "a fine-tuned summarization model",
+    "objective"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.76/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:36:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

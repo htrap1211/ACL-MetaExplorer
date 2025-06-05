@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.153",
+  "title": "LANS}: A Layout-Aware Neural Solver for Plane Geometry Problem",
+  "authors": [
+    "Li, Zhong-Zhi  and\nZhang, Ming-Liang  and\nYin, Fei  and\nLiu, Cheng-Lin"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Geometry problem solving (GPS) is a challenging mathematical reasoning task requiring multi-modal understanding, fusion, and reasoning. Existing neural solvers take GPS as a vision-language task but are short in the representation of geometry diagrams that carry rich and complex layout information. In this paper, we propose a layout-aware neural solver named LANS, integrated with two new modules: multimodal layout-aware pre-trained language module (MLA-PLM) and layout-aware fusion attention (LA-FA). MLA-PLM adopts structural-semantic pre-training (SSP) to implement global relationship modeling, and point-match pre-training (PMP) to achieve alignment between visual points and textual points. LA-FA employs a layout-aware attention mask to realize point-guided cross-modal fusion for further boosting layout awareness of LANS. Extensive experiments on datasets Geometry3K and PGPS9K validate the effectiveness of the layout-aware modules and superior problem-solving performance of our LANS solver, over existing symbolic and neural solvers. We have made our code and data publicly available.",
+  "keywords": [
+    "code",
+    "semantic",
+    "we",
+    "a layout-aware attention mask",
+    "fusion",
+    "training",
+    "cross",
+    "neural",
+    "information",
+    "rich",
+    "visual",
+    "pre-training pmp",
+    "structural-semantic pre-training ssp",
+    "alignment",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.153/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:50:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

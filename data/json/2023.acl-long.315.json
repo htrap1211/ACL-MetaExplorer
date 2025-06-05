@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.315",
+  "title": "Cross-View Language Modeling: Towards Unified Cross-Lingual Cross-Modal Pre-training",
+  "authors": [
+    "Zeng, Yan  and\nZhou, Wangchunshu  and\nLuo, Ao  and\nCheng, Ziming  and\nZhang, Xinsong"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this paper, we introduce Cross-View Language Modeling, a simple and effective pre-training framework that unifies cross-lingual and cross-modal pre-training with shared architectures and objectives. Our approach is motivated by a key observation that cross-lingual and cross-modal pre-training share the same goal of aligning two different views of the same object into a common semantic space. To this end, the cross-view language modeling framework considers both multi-modal data (i.e., image-caption pairs) and multi-lingual data (i.e., parallel sentence pairs) as two different views of the same object, and trains the model to align the two views by maximizing the mutual information between them with conditional masked language modeling and contrastive learning. We pre-train CCLM, a Cross-lingual Cross-modal Language Model, with the cross-view language modeling framework. Empirical results on IGLUE, a multi-lingual multi-modal benchmark, and two multi-lingual image-text retrieval datasets show that while conceptually simpler, CCLM significantly outperforms the prior state-of-the-art with an average absolute improvement of over 10%. Moreover, CCLM is the first multi-lingual multi-modal pre-trained model that surpasses the translate-test performance of representative English vision-language models by zero-shot cross-lingual transfer.",
+  "keywords": [
+    "end",
+    "cross-view language modeling",
+    "cross-view language",
+    "semantic",
+    "we",
+    "the two views",
+    "training",
+    "cross",
+    "zero-shot cross-lingual transfer",
+    "unified",
+    "retrieval",
+    "information",
+    "views",
+    "learning",
+    "transfer"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.315/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

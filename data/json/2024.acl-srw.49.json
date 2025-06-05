@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-srw.49",
+  "title": "In-Context Symbolic Regression: Leveraging Large Language Models for Function Discovery",
+  "authors": [
+    "Merler, Matteo  and\nHaitsiukevich, Katsiaryna  and\nDainese, Nicola  and\nMarttinen, Pekka"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "State of the art Symbolic Regression (SR) methods currently build specialized models, while the application of Large Language Models (LLMs) remains largely unexplored. In this work, we introduce the first comprehensive framework that utilizes LLMs for the task of SR.We propose In-Context Symbolic Regression (ICSR), an SR method which iteratively refines a functional form with an LLM and determines its coefficients with an external optimizer. ICSR leverages LLMs’ strong mathematical prior both to propose an initial set of possible functions given the observations and to refine them based on their errors.Our findings reveal that LLMs are able to successfully find symbolic equations that fit the given data, matching or outperforming the overall performance of the best SR baselines on four popular benchmarks, while yielding simpler equations with better out of distribution generalization.",
+  "keywords": [
+    "distribution generalization",
+    "an llm",
+    "form",
+    "we",
+    "llm",
+    "llms",
+    "generalization",
+    "function",
+    "work",
+    "language",
+    "large language models",
+    "its coefficients",
+    "coefficients",
+    "state",
+    "the given data matching"
+  ],
+  "url": "https://aclanthology.org/2024.acl-srw.49/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:48:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

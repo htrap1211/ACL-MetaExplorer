@@ -1,0 +1,33 @@
+{
+  "id": "P18-4022",
+  "title": "RETURNN} as a Generic Flexible Neural Toolkit with Application to Translation and Speech Recognition",
+  "authors": [
+    "Zeyer, Albert  and\nAlkhouli, Tamer  and\nNey, Hermann"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of {ACL} 2018, System Demonstrations",
+  "abstract": "We compare the fast training and decoding speed of RETURNN of attention models for translation, due to fast CUDA LSTM kernels, and a fast pure TensorFlow beam search decoder. We show that a layer-wise pretraining scheme for recurrent attention models gives over 1% BLEU improvement absolute and it allows to train deeper recurrent encoder networks. Promising preliminary results on max. expected BLEU training are presented. We are able to train state-of-the-art models for translation and end-to-end models for speech recognition and show results on WMT 2017 and Switchboard. The flexibility of RETURNN allows a fast research feedback loop to experiment with alternative architectures, and its generality allows to use it on a wide range of applications.",
+  "keywords": [
+    "end",
+    "neural",
+    "returnn",
+    "feedback",
+    "attention models",
+    "it",
+    "generality",
+    "generic",
+    "bleu",
+    "encoder",
+    "decoder",
+    "fast cuda lstm kernels",
+    "layer",
+    "we",
+    "max expected bleu training"
+  ],
+  "url": "https://aclanthology.org/P18-4022/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:21:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

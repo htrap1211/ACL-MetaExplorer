@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.333",
+  "title": "Semi-Supervised Domain Adaptation for Emotion-Related Tasks",
+  "authors": [
+    "Hosseini, Mahshid  and\nCaragea, Cornelia"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Semi-supervised domain adaptation (SSDA) adopts a model trained from a label-rich source domain to a new but related domain with a few labels of target data. It is shown that, in an SSDA setting, a simple combination of domain adaptation (DA) with semi-supervised learning (SSL) techniques often fails to effectively utilize the target supervision and cannot address distribution shifts across different domains due to the training data bias toward the source-labeled samples. In this paper, inspired by the co-learning of multiple classifiers for the computer vision tasks, we propose to decompose the SSDA framework for emotion-related tasks into two subcomponents of unsupervised domain adaptation (UDA) from the source to the target domain and semi-supervised learning (SSL) in the target domain where the two models iteratively teach each other by interchanging their high confident predictions. We further propose a novel data cartography-based regularization technique for pseudo-label denoising that employs training dynamics to further hone our models’ performance. We publicly release our code.",
+  "keywords": [
+    "code",
+    "bias",
+    "classifiers",
+    "we",
+    "training",
+    "it",
+    "rich",
+    "learning",
+    "the training data bias",
+    "multiple classifiers",
+    "-",
+    "model",
+    "regularization",
+    "supervision",
+    "the source"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.333/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

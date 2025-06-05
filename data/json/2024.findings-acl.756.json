@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.756",
+  "title": "Empowering Large Language Models for Textual Data Augmentation",
+  "authors": [
+    "Li, Yichuan  and\nDing, Kaize  and\nWang, Jianling  and\nLee, Kyumin"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "With the capabilities of understanding and executing natural language instructions, Large language models (LLMs) can potentially act as a powerful tool for textual data augmentation. However, the quality of augmented data depends heavily on the augmentation instructions provided, and the effectiveness can fluctuate across different downstream tasks. While manually crafting and selecting instructions can offer some improvement, this approach faces scalability and consistency issues in practice due to the diversity of downstream tasks. In this work, we address these limitations by proposing a new solution, which can automatically generate a large pool of augmentation instructions and select the most suitable task-informed instructions, thereby empowering LLMs to create high-quality augmented data for different downstream tasks. Empirically, the proposed approach consistently generates augmented data with better quality compared to non-LLM and LLM-based data augmentation methods, leading to the best performance on 26 few-shot learning tasks sourced from a wide range of application domains.",
+  "keywords": [
+    "we",
+    "llm",
+    "shot",
+    "natural",
+    "learning",
+    "the capabilities",
+    "llms",
+    "large language models llms",
+    "work",
+    "26 few-shot learning tasks",
+    "language",
+    "large language models",
+    "capabilities",
+    "the quality",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.756/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

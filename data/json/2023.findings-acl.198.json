@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.198",
+  "title": "Towards Open-Domain {T}witter User Profile Inference",
+  "authors": [
+    "Wen, Haoyang  and\nXiao, Zhenxin  and\nHovy, Eduard  and\nHauptmann, Alexander"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Twitter user profile inference utilizes information from Twitter to predict user attributes (e.g., occupation, location), which is controversial because of its usefulness for downstream applications and its potential to reveal users’ privacy. Therefore, it is important for researchers to determine the extent of profiling in a safe environment to facilitate proper use and make the public aware of the potential risks. Contrary to existing approaches on limited attributes, we explore open-domain Twitter user profile inference. We conduct a case study where we collect publicly available WikiData public figure profiles and use diverse WikiData predicates for profile inference. After removing sensitive attributes, our data contains over 150K public figure profiles from WikiData, over 50 different attribute predicates, and over 700K attribute values. We further propose a prompt-based generation method, which can infer values that are implicitly mentioned in the Twitter information. Experimental results show that the generation-based approach can infer more comprehensive user profiles than baseline extraction-based methods, but limitations still remain to be applied for real-world use. We also enclose a detailed ethical statement for our data, potential benefits and risks from this work, and our efforts to mitigate the risks.",
+  "keywords": [
+    "the generation-based approach",
+    "extraction",
+    "we",
+    "it",
+    "information",
+    "location",
+    "a prompt-based generation method",
+    "prompt",
+    "work",
+    "generation",
+    "diverse wikidata predicates",
+    "detailed",
+    "approach",
+    "profile inference",
+    "benefits"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.198/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

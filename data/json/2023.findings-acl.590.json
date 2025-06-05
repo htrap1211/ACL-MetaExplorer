@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.590",
+  "title": "Zero-shot Visual Question Answering with Language Model Feedback",
+  "authors": [
+    "Du, Yifan  and\nLi, Junyi  and\nTang, Tianyi  and\nZhao, Wayne Xin  and\nWen, Ji-Rong"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In this paper, we propose a novel language model guided captioning approach, LAMOC, for knowledge-based visual question answering (VQA). Our approach employs the generated captions by a captioning model as the context of an answer prediction model, which is a Pre-Trained Language model (PLM). As the major contribution, we leverage the guidance and feedback of the prediction model to improve the capability of the captioning model. In this way, the captioning model can become aware of the task goal and information need from the PLM. To develop our approach, we design two specific training stages, where the first stage adapts the captioning model to the prediction model (selecting more suitable caption propositions for training) and the second stage tunes the captioning model according to the task goal (learning from feedback of the PLM). Extensive experiments demonstrate the effectiveness of the proposed approach on the knowledge-based VQA task. Specifically, on the challenging A-OKVQA dataset, LAMOC outperforms several competitive zero-shot methods and even achieves comparable results to a fine-tuned VLP model. Our code is publicly available athttps://github.com/RUCAIBox/LAMOC.",
+  "keywords": [
+    "the knowledge-based vqa task",
+    "code",
+    "feedback",
+    "several competitive zero-shot methods",
+    "question",
+    "we",
+    "shot",
+    "training",
+    "the generated captions",
+    "answer",
+    "information",
+    "visual",
+    "okvqa",
+    "zero-shot visual question",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.590/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

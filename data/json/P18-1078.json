@@ -1,0 +1,33 @@
+{
+  "id": "P18-1078",
+  "title": "Simple and Effective Multi-Paragraph Reading Comprehension",
+  "authors": [
+    "Clark, Christopher  and\nGardner, Matt"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We introduce a method of adapting neural paragraph-level question answering models to the case where entire documents are given as input. Most current question answering models cannot scale to document or multi-document input, and naively applying these models to each paragraph independently often results in them being distracted by irrelevant text. We show that it is possible to significantly improve performance by using a modified training scheme that teaches the model to ignore non-answer containing paragraphs. Our method involves sampling multiple paragraphs from each document, and using an objective function that requires the model to produce globally correct output. We additionally identify and improve upon a number of other design decisions that arise when working with document-level data. Experiments on TriviaQA and SQuAD shows our method advances the state of the art, including a 10 point gain on TriviaQA.",
+  "keywords": [
+    "answer",
+    "triviaqa",
+    "neural",
+    "model",
+    "it",
+    "text",
+    "objective",
+    "question",
+    "a modified training scheme",
+    "we",
+    "current",
+    "function",
+    "training",
+    "an objective function",
+    "that"
+  ],
+  "url": "https://aclanthology.org/P18-1078/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:11:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

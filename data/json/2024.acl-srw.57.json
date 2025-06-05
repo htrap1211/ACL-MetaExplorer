@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-srw.57",
+  "title": "Plot Retrieval as an Assessment of Abstract Semantic Association",
+  "authors": [
+    "Xu, Shicheng  and\nPang, Liang  and\nLi, Jiangnan  and\nYu, Mo  and\nMeng, Fandong  and\nShen, Huawei  and\nCheng, Xueqi  and\nZhou, Jie"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "Retrieving relevant plots from the book for a query is a critical task, which can improve the reading experience and efficiency of readers. Readers usually only give an abstract and vague description as the query based on their own understanding, summaries, or speculations of the plot, which requires the retrieval model to have a strong ability to estimate the abstract semantic associations between the query and candidate plots. However, existing information retrieval (IR) datasets cannot reflect this ability well. In this paper, we propose PlotRetrieval, a labeled dataset to train and evaluate the performance of IR models on the novel task Plot Retrieval. Text pairs in PlotRetrieval have less word overlap and more abstract semantic association, which can reflect the ability of the IR models to estimate the abstract semantic association, rather than just traditional lexical or semantic matching. Extensive experiments across various lexical retrieval, sparse retrieval, dense retrieval, and cross-encoder methods compared with human studies on PlotRetrieval show current IR models still struggle in capturing abstract semantic association between texts. PlotRetrieval can be the benchmark for further research on the semantic association modeling ability of IR models.",
+  "keywords": [
+    "efficiency",
+    "semantic",
+    "we",
+    "current",
+    "cross",
+    "their own understanding summaries",
+    "cross-encoder methods",
+    "retrieval",
+    "more abstract semantic association",
+    "information",
+    "word",
+    "plotretrieval",
+    "the reading experience",
+    "plotretrieval show",
+    "human studies"
+  ],
+  "url": "https://aclanthology.org/2024.acl-srw.57/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:48:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

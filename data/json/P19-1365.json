@@ -1,0 +1,33 @@
+{
+  "id": "P19-1365",
+  "title": "Comparison of Diverse Decoding Methods from Conditional Language Models",
+  "authors": [
+    "Ippolito, Daphne  and\nKriz, Reno  and\nSedoc, Jo{\\~a}o  and\nKustikova, Maria  and\nCallison-Burch, Chris"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "While conditional language models have greatly improved in their ability to output high quality natural language, many NLP applications benefit from being able to generate a diverse set of candidate sequences. Diverse decoding strategies aim to, within a given-sized candidate list, cover as much of the space of high-quality outputs as possible, leading to improvements for tasks that rerank and combine candidate outputs. Standard decoding methods, such as beam search, optimize for generating high likelihood sequences rather than diverse ones, though recent work has focused on increasing diversity in these methods. In this work, we perform an extensive survey of decoding-time strategies for generating diverse outputs from a conditional language model. In addition, we present a novel method where we over-sample candidates, then use clustering to remove similar sequences, thus achieving high diversity without sacrificing quality.",
+  "keywords": [
+    "work",
+    "decoding-time strategies",
+    "diverse decoding strategies",
+    "language",
+    "a conditional language model",
+    "nlp",
+    "natural",
+    "model",
+    "strategies",
+    "many nlp applications",
+    "clustering",
+    "we",
+    "time",
+    "conditional language models",
+    "that"
+  ],
+  "url": "https://aclanthology.org/P19-1365/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:39:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.359",
+  "title": "R}etina{QA}: A Robust Knowledge Base Question Answering Model for both Answerable and Unanswerable Questions",
+  "authors": [
+    "Faldu, Prayushi  and\nBhattacharya, Indrajit  and\n., Mausam"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "An essential requirement for a real-world Knowledge Base Question Answering (KBQA) system is the ability to detect the answerability of questions when generating logical forms. However, state-of-the-art KBQA models assume all questions to be answerable. Recent research has found that such models, when superficially adapted to detect answerability, struggle to satisfactorily identify the different categories of unanswerable questions, and simultaneously preserve good performance for answerable questions. Towards addressing this issue, we propose RetinaQA, a new KBQA model that unifies two key ideas in a single KBQA architecture: (a) discrimination over candidate logical forms, rather than generating these, for handling schema-related unanswerability, and (b) sketch-filling-based construction of candidate logical forms for handling data-related unaswerability. Our results show that RetinaQA significantly outperforms adaptations of state-of-the-art KBQA models in handling both answerable and unanswerable questions and demonstrates robustness across all categories of unanswerability. Notably, RetinaQA also sets a new state-of-the-art for answerable KBQA, surpassing existing models. We release our code base for further research: https://github.com/dair-iitd/RetinaQA.",
+  "keywords": [
+    "all categories",
+    "code",
+    "question",
+    "we",
+    "kbqa",
+    "kbqa system",
+    "the different categories",
+    "categories",
+    "answerable kbqa",
+    "knowledge",
+    "model",
+    "retinaqa",
+    "a single kbqa architecture",
+    "a new kbqa model",
+    "existing models"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.359/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

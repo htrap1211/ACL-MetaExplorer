@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.26",
+  "title": "Event-Event Relation Extraction using Probabilistic Box Embedding",
+  "authors": [
+    "Hwang, EunJeong  and\nLee, Jay-Yoon  and\nYang, Tianyi  and\nPatel, Dhruvesh  and\nZhang, Dongxu  and\nMcCallum, Andrew"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "To understand a story with multiple events, it is important to capture the proper relations across these events. However, existing event relation extraction (ERE) framework regards it as a multi-class classification task and do not guarantee any coherence between different relation types, such as anti-symmetry. If a phone line “died” after “storm”, then it is obvious that the “storm” happened before the “died”. Current framework of event relation extraction do not guarantee this coherence and thus enforces it via constraint loss function (Wang et al., 2020). In this work, we propose to modify the underlying ERE model to guarantee coherence by representing each event as a box representation (BERE) without applying explicit constraints. From our experiments, BERE also shows stronger conjunctive constraint satisfaction while performing on par or better in F1 compared to previous models with constraint injection.",
+  "keywords": [
+    "work",
+    "ere",
+    "a multi-class classification task",
+    "extraction",
+    "f1",
+    "model",
+    "it",
+    "class",
+    "par",
+    "-",
+    "loss",
+    "constraint loss function wang",
+    "we",
+    "anti",
+    "current"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.26/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:32:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

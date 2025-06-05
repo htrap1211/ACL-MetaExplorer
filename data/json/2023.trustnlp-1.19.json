@@ -1,0 +1,33 @@
+{
+  "id": "2023.trustnlp-1.19",
+  "title": "Enhancing textual counterfactual explanation intelligibility through Counterfactual Feature Importance",
+  "authors": [
+    "Bhan, Milan  and\nVittaut, Jean-noel  and\nChesneau, Nicolas  and\nLesot, Marie-jeanne"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 3rd Workshop on Trustworthy Natural Language Processing (TrustNLP 2023)",
+  "abstract": "Textual counterfactual examples explain a prediction by modifying the tokens of an initial instance in order to flip the outcome of a classifier. Even under sparsity constraint, counterfactual generation can lead to numerous changes from the initial text, making the explanation hard to understand. We propose Counterfactual Feature Importance, a method to make non-sparse counterfactual explanations more intelligible. Counterfactual Feature Importance assesses token change importance between an instance to explain and its counterfactual example. We develop two ways of computing Counterfactual Feature Importance, respectively based on classifier gradient computation and counterfactual generator loss evolution during counterfactual search. Then we design a global version of Counterfactual Feature Importance, providing rich information about semantic fields globally impacting classifier predictions. Counterfactual Feature Importance enables to focus on impacting parts of counterfactual explanations, making counterfactual explanations involving numerous changes more understandable.",
+  "keywords": [
+    "generation",
+    "classifier",
+    "text",
+    "classifier gradient computation",
+    "semantic fields",
+    "token",
+    "loss",
+    "gradient",
+    "information",
+    "generator",
+    "rich",
+    "semantic",
+    "we",
+    "sparsity constraint counterfactual generation",
+    "fields"
+  ],
+  "url": "https://aclanthology.org/2023.trustnlp-1.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:32:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

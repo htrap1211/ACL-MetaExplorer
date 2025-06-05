@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.955",
+  "title": "Chain-of-History Reasoning for Temporal Knowledge Graph Forecasting",
+  "authors": [
+    "Xia, Yuwei  and\nWang, Ding  and\nLiu, Qiang  and\nWang, Liang  and\nWu, Shu  and\nZhang, Xiao-Yu"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Temporal Knowledge Graph (TKG) forecasting aims to predict future facts based on given histories. Most recent graph-based models excel at capturing structural information within TKGs but lack semantic comprehension abilities. Nowadays, with the surge of LLMs, the LLM-based TKG prediction model has emerged. However, the existing LLM-based model exhibits three shortcomings: (1) It only focuses on the first-order history for prediction while ignoring high-order historical information, resulting in the provided information for LLMs being extremely limited. (2) LLMs struggle with optimal reasoning performance under heavy historical information loads. (3) For TKG prediction, the temporal reasoning capability of LLM alone is limited. To address the first two challenges, we propose Chain-of-History (CoH) reasoning which explores high-order histories step-by-step, achieving effective utilization of high-order historical information for LLMs on TKG prediction. To address the third issue, we design CoH as a plug-and-play module to enhance the performance of graph-based models for TKG prediction. Extensive experiments on three datasets and backbones demonstrate the effectiveness of CoH.",
+  "keywords": [
+    "abilities",
+    "knowledge",
+    "extremely limited 2 llms",
+    "model",
+    "it",
+    "chain",
+    "semantic comprehension abilities",
+    "the existing llm-based model",
+    "information",
+    "high-order histories",
+    "semantic",
+    "we",
+    "tkg prediction",
+    "tkg forecasting",
+    "tkg prediction extensive experiments"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.955/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

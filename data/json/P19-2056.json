@@ -1,0 +1,33 @@
+{
+  "id": "P19-2056",
+  "title": "Using Semantic Similarity as Reward for Reinforcement Learning in Sentence Generation",
+  "authors": [
+    "Yasui, Go  and\nTsuruoka, Yoshimasa  and\nNagata, Masaaki"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "Traditional model training for sentence generation employs cross-entropy loss as the loss function. While cross-entropy loss has convenient properties for supervised learning, it is unable to evaluate sentences as a whole, and lacks flexibility. We present the approach of training the generation model using the estimated semantic similarity between the output and reference sentences to alleviate the problems faced by the training with cross-entropy loss. We use the BERT-based scorer fine-tuned to the Semantic Textual Similarity (STS) task for semantic similarity estimation, and train the model with the estimated scores through reinforcement learning (RL). Our experiments show that reinforcement learning with semantic similarity reward improves the BLEU scores from the baseline LSTM NMT model.",
+  "keywords": [
+    "semantic similarity reward",
+    "cross",
+    "reference",
+    "convenient properties",
+    "reinforcement",
+    "the generation model",
+    "generation",
+    "bert",
+    "model",
+    "it",
+    "semantic similarity estimation",
+    "bleu",
+    "properties",
+    "the bleu scores",
+    "loss"
+  ],
+  "url": "https://aclanthology.org/P19-2056/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:49:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.328",
+  "title": "Towards Collaborative Neural-Symbolic Graph Semantic Parsing via Uncertainty",
+  "authors": [
+    "Lin, Zi  and\nLiu, Jeremiah Zhe  and\nShang, Jingbo"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Recent work in task-independent graph semantic parsing has shifted from grammar-based symbolic approaches to neural models, showing strong performance on different types of meaning representations. However, it is still unclear that what are the limitations of these neural parsers, and whether these limitations can be compensated by incorporating symbolic knowledge into model inference. In this paper, we address these questions by taking English Resource Grammar (ERG) parsing as a case study. Specifically, we first develop a state-of-the-art, T5-based neural ERG parser, and conduct detail analyses of parser performance within fine-grained linguistic categories. The neural parser attains superior performance on in-distribution test set, but degrades significantly on long-tail situations, while the symbolic parser performs more robustly. To address this, we further propose a simple yet principled collaborative framework for neural-symbolic semantic parsing, by designing a decision criterion for beam search that incorporates the prior knowledge from a symbolic parser and accounts for model uncertainty. Experimental results show that the proposed framework yields comprehensive improvement over neural baseline across long-tail categories, yielding the best known Smatch score (97.01) on the well-studied DeepBank benchmark.",
+  "keywords": [
+    "parsing",
+    "semantic",
+    "we",
+    "graph",
+    "fine-grained linguistic categories",
+    "neural",
+    "it",
+    "task-independent graph semantic parsing",
+    "categories",
+    "neural-symbolic semantic parsing",
+    "work",
+    "knowledge",
+    "the well-studied deepbank benchmark",
+    "model",
+    "long-tail categories"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.328/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

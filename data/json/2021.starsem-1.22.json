@@ -1,0 +1,33 @@
+{
+  "id": "2021.starsem-1.22",
+  "title": "Inducing Language-Agnostic Multilingual Representations",
+  "authors": [
+    "Zhao, Wei  and\nEger, Steffen  and\nBjerva, Johannes  and\nAugenstein, Isabelle"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of *SEM 2021: The Tenth Joint Conference on Lexical and Computational Semantics",
+  "abstract": "Cross-lingual representations have the potential to make NLP techniques available to the vast majority of languages in the world. However, they currently require large pretraining corpora or access to typologically similar languages. In this work, we address these obstacles by removing language identity signals from multilingual embeddings. We examine three approaches for this: (i) re-aligning the vector spaces of target languages (all together) to a pivot source language; (ii) removing language-specific means and variances, which yields better discriminativeness of embeddings as a by-product; and (iii) increasing input similarity across languages by removing morphological contractions and sentence reordering. We evaluate on XNLI and reference-free MT evaluation across 19 typologically diverse languages. Our findings expose the limitations of these approaches—unlike vector normalization, vector space re-alignment and text normalization do not achieve consistent gains across encoders and languages. Due to the approaches’ additive effects, their combination decreases the cross-lingual transfer gap by 8.9 points (m-BERT) and 18.2 points (XLM-R) on average across all tasks and languages, however.",
+  "keywords": [
+    "we",
+    "reference-free mt evaluation",
+    "means",
+    "cross",
+    "multilingual embeddings",
+    "the vector spaces",
+    "transfer",
+    "m",
+    "normalization",
+    "vector",
+    "i",
+    "bert",
+    "text",
+    "nlp techniques",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2021.starsem-1.22/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

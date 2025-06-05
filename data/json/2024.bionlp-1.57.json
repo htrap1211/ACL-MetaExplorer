@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.57",
+  "title": "Ixa-{M}ed at Discharge Me! Retrieval-Assisted Generation for Streamlining Discharge Documentation",
+  "authors": [
+    "Koontz, Jordan C.  and\nOronoz, Maite  and\nP{\\'e}rez, Alicia"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "In this paper we present our system for the BioNLP ACL’24 “Discharge Me!” task on automating discharge summary section generation. Using Retrieval-Augmented Generation, we combine a Large Language Model (LLM) with external knowledge to guide the generation of the target sections. Our approach generates structured patient summaries from discharge notes using an instructed LLM, retrieves relevant “Brief Hospital Course” and “Discharge Instructions” examples via BM25 and SentenceBERT, and provides this context to a frozen LLM for generation. Our top system using SentenceBERT retrieval achieves an overall score of 0.183, outperforming zero-shot baselines. We analyze performance across different aspects, discussing limitations and future research directions.",
+  "keywords": [
+    "structured patient summaries",
+    "knowledge",
+    "summaries",
+    "generation",
+    "language",
+    "ed",
+    "model",
+    "brief",
+    "retrieval-assisted generation",
+    "an instructed llm",
+    "bionlp",
+    "the generation",
+    "retrieval",
+    "discharge summary section generation",
+    "relevant brief hospital course"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.57/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

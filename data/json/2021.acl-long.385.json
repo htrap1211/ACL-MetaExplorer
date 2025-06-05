@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.385",
+  "title": "Tail-to-Tail Non-Autoregressive Sequence Prediction for {C}hinese Grammatical Error Correction",
+  "authors": [
+    "Li, Piji  and\nShi, Shuming"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "We investigate the problem of Chinese Grammatical Error Correction (CGEC) and present a new framework named Tail-to-Tail (TtT) non-autoregressive sequence prediction to address the deep issues hidden in CGEC. Considering that most tokens are correct and can be conveyed directly from source to target, and the error positions can be estimated and corrected based on the bidirectional context information, thus we employ a BERT-initialized Transformer Encoder as the backbone model to conduct information modeling and conveying. Considering that only relying on the same position substitution cannot handle the variable-length correction cases, various operations such substitution, deletion, insertion, and local paraphrasing are required jointly. Therefore, a Conditional Random Fields (CRF) layer is stacked on the up tail to conduct non-autoregressive sequence prediction by modeling the token dependencies. Since most tokens are correct and easily to be predicted/conveyed to the target, then the models may suffer from a severe class imbalance issue. To alleviate this problem, focal loss penalty strategies are integrated into the loss functions. Moreover, besides the typical fix-length error correction datasets, we also construct a variable-length corpus to conduct experiments. Experimental results on standard datasets, especially on the variable-length datasets, demonstrate the effectiveness of TtT in terms of sentence-level Accuracy, Precision, Recall, and F1-Measure on tasks of error Detection and Correction.",
+  "keywords": [
+    "deep",
+    "precision",
+    "sentence-level accuracy precision recall",
+    "layer",
+    "we",
+    "fields",
+    "the loss functions",
+    "token",
+    "dependencies",
+    "loss",
+    "information",
+    "sequence",
+    "focal loss penalty strategies",
+    "f1-measure",
+    "bert"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.385/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

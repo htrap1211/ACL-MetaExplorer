@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.693",
+  "title": "Prompt-Guided Retrieval Augmentation for Non-Knowledge-Intensive Tasks",
+  "authors": [
+    "Guo, Zhicheng  and\nCheng, Sijie  and\nWang, Yile  and\nLi, Peng  and\nLiu, Yang"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Retrieval-augmented methods have received increasing attention to support downstream tasks by leveraging useful information from external resources. Recent studies mainly focus on exploring retrieval to solve knowledge-intensive (KI) tasks. However, the potential of retrieval for most non-knowledge-intensive (NKI) tasks remains under-explored. There are two main challenges to leveraging retrieval-augmented methods for NKI tasks: 1) the demand for diverse relevance score functions and 2) the dilemma between training cost and task performance. To address these challenges, we propose a two-stage framework for NKI tasks, named PGRA. In the first stage, we adopt a task-agnostic retriever to build a shared static index and select candidate evidence efficiently. In the second stage, we design a prompt-guided reranker to rerank the nearest evidence according to task-specific relevance for the reader. Experimental results show that PGRA outperforms other state-of-the-art retrieval-augmented methods. Our analyses further investigate the influence factors to model performance and demonstrate the generality of PGRA. The code and model will be released for further research.",
+  "keywords": [
+    "code",
+    "we",
+    "training",
+    "increasing attention",
+    "generality",
+    "retrieval",
+    "prompt-guided retrieval augmentation",
+    "information",
+    "a prompt-guided reranker",
+    "prompt",
+    "the generality",
+    "recent studies",
+    "knowledge",
+    "non-knowledge-intensive tasks retrieval-augmented methods",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.693/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

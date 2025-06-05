@@ -1,0 +1,33 @@
+{
+  "id": "P18-2076",
+  "title": "Linear-time Constituency Parsing with {RNN}s and Dynamic Programming",
+  "authors": [
+    "Hong, Juneki  and\nHuang, Liang"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Recently, span-based constituency parsing has achieved competitive accuracies with extremely simple models by using bidirectional RNNs to model “spans”. However, the minimal span parser of Stern et al. (2017a) which holds the current state of the art accuracy is a chart parser running in cubic time,O(n3), which is too slow for longer sentences and for applications beyond sentence boundaries such as end-to-end discourse parsing and joint sentence boundary detection and parsing. We propose a linear-time constituency parser with RNNs and dynamic programming using graph-structured stack and beam search, which runs in timeO(n b2)wherebis the beam size. We further speed this up toO(n b log b)by integrating cube pruning. Compared with chart parsing baselines, this linear-time parser is substantially faster for long sentences on the Penn Treebank and orders of magnitude faster for discourse parsing, and achieves the highest F1 accuracy on the Penn Treebank among single model end-to-end systems.",
+  "keywords": [
+    "the art accuracy",
+    "parsing",
+    "end",
+    "rnns",
+    "rnn s",
+    "we",
+    "graph",
+    "current",
+    "discourse parsing",
+    "bidirectional rnns",
+    "the highest f1 accuracy",
+    "span-based constituency parsing",
+    "log",
+    "rnn",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/P18-2076/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:18:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

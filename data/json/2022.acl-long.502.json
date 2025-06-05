@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.502",
+  "title": "Transkimmer: Transformer Learns to Layer-wise Skim",
+  "authors": [
+    "Guan, Yue  and\nLi, Zhengyi  and\nLeng, Jingwen  and\nLin, Zhouhan  and\nGuo, Minyi"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Transformer architecture has become the de-facto model for many machine learning tasks from natural language processing and computer vision. As such, improving its computational efficiency becomes paramount. One of the major computational inefficiency of Transformer based models is that they spend the identical amount of computation throughout all layers. Prior works have proposed to augment the Transformer model with the capability of skimming tokens to improve its computational efficiency. However, they suffer from not having effectual and end-to-end optimization of the discrete skimming predictor. To address the above limitations, we propose the Transkimmer architecture, which learns to identify hidden state tokens that are not required by each layer. The skimmed tokens are then forwarded directly to the final output, thus reducing the computation of the successive layers. The key idea in Transkimmer is to add a parameterized predictor before each layer that learns to make the skimming decision. We also propose to adopt reparameterization trick and add skim loss for the end-to-end training of Transkimmer. Transkimmer achieves 10.97x average speedup on GLUE benchmark compared with vanilla BERT-base baseline with less than 1% accuracy degradation.",
+  "keywords": [
+    "end",
+    "layer",
+    "efficiency",
+    "we",
+    "training",
+    "natural",
+    "loss",
+    "transkimmer transformer",
+    "many machine learning tasks",
+    "processing",
+    "bert",
+    "inefficiency",
+    "accuracy",
+    "transformer",
+    "its computational efficiency"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.502/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

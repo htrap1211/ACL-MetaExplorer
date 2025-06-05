@@ -1,0 +1,33 @@
+{
+  "id": "P19-2023",
+  "title": "A Strong and Robust Baseline for Text-Image Matching",
+  "authors": [
+    "Liu, Fangyu  and\nYe, Rongtian"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "We review the current schemes of text-image matching models and propose improvements for both training and inference. First, we empirically show limitations of two popular loss (sum and max-margin loss) widely used in training text-image embeddings and propose a trade-off: a kNN-margin loss which 1) utilizes information from hard negatives and 2) is robust to noise as all K-most hardest samples are taken into account, tolerating pseudo negatives and outliers. Second, we advocate the use of Inverted Softmax (IS) and Cross-modal Local Scaling (CSLS) during inference to mitigate the so-called hubness problem in high-dimensional embedding space, enhancing scores of all metrics by a large margin.",
+  "keywords": [
+    "embeddings",
+    "cross",
+    "text",
+    "metrics",
+    "loss",
+    "inverted softmax",
+    "information",
+    "text-image embeddings",
+    "sum",
+    "dimensional",
+    "we",
+    "max",
+    "outliers",
+    "current",
+    "softmax"
+  ],
+  "url": "https://aclanthology.org/P19-2023/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:48:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

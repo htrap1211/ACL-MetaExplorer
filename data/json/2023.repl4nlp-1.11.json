@@ -1,0 +1,33 @@
+{
+  "id": "2023.repl4nlp-1.11",
+  "title": "Friendly Neighbors: Contextualized Sequence-to-Sequence Link Prediction",
+  "authors": [
+    "Kochsiek, Adrian  and\nSaxena, Apoorv  and\nNair, Inderjeet  and\nGemulla, Rainer"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 8th Workshop on Representation Learning for NLP (RepL4NLP 2023)",
+  "abstract": "We propose KGT5-context, a simple sequence-to-sequence model for link prediction (LP) in knowledge graphs (KG). Our work expands on KGT5, a recent LP model that exploits textual features of the KG, has small model size, and is scalable. To reach good predictive performance, however, KGT5 relies on an ensemble with a knowledge graph embedding model, which itself is excessively large and costly to use. In this short paper, we show empirically that adding contextual information — i.e., information about the direct neighborhood of the query entity — alleviates the need for a separate KGE model to obtain good performance. The resulting KGT5-context model is simple, reduces model size significantly, and obtains state-of-the-art performance in our experimental study.",
+  "keywords": [
+    "work",
+    "ensemble",
+    "kgt5",
+    "friendly",
+    "knowledge",
+    "model",
+    "kge",
+    "friendly neighbors",
+    "information",
+    "the kg",
+    "knowledge graphs",
+    "the resulting kgt5-context model",
+    "sequence",
+    "we",
+    "graph"
+  ],
+  "url": "https://aclanthology.org/2023.repl4nlp-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

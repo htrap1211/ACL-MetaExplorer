@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.539",
+  "title": "Dissecting Generation Modes for Abstractive Summarization Models via Ablation and Attribution",
+  "authors": [
+    "Xu, Jiacheng  and\nDurrett, Greg"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Despite the prominence of neural abstractive summarization models, we know little about how they actually form summaries and how to understand where their decisions come from. We propose a two-step method to interpret summarization model decisions. We first analyze the model’s behavior by ablating the full model to categorize each decoder decision into one of several generation modes: roughly, is the model behaving like a language model, is it relying heavily on the input, or is it somewhere in between? After isolating decisions that do depend on the input, we explore interpreting these decisions using several different attribution methods. We compare these techniques based on their ability to select content and reconstruct the model’s predicted token from perturbations of the input, thus revealing whether highlighted attributions are truly important for the generation of the next token. While this machinery can be broadly useful even beyond summarization, we specifically demonstrate its capability to identify phrases the summarization model has memorized and determine where in the training pipeline this memorization happened, as well as study complex generation phenomena like sentence fusion on a per-instance basis.",
+  "keywords": [
+    "summarization model decisions",
+    "summaries",
+    "generation",
+    "language",
+    "neural",
+    "model",
+    "it",
+    "token",
+    "the generation",
+    "decoder",
+    "several generation modes",
+    "this machinery",
+    "the summarization model",
+    "summarization",
+    "abstractive summarization models"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.539/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

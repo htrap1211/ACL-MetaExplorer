@@ -1,0 +1,33 @@
+{
+  "id": "W19-4423",
+  "title": "A Neural Grammatical Error Correction System Built On Better Pre-training and Sequential Transfer Learning",
+  "authors": [
+    "Choe, Yo Joong  and\nHam, Jiyeon  and\nPark, Kyubyong  and\nYoon, Yeoil"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourteenth Workshop on Innovative Use of NLP for Building Educational Applications",
+  "abstract": "Grammatical error correction can be viewed as a low-resource sequence-to-sequence task, because publicly available parallel corpora are limited. To tackle this challenge, we first generate erroneous versions of large unannotated corpora using a realistic noising function. The resulting parallel corpora are sub-sequently used to pre-train Transformer models. Then, by sequentially applying transfer learning, we adapt these models to the domain and style of the test set. Combined with a context-aware neural spellchecker, our system achieves competitive results in both restricted and low resource tracks in ACL 2019 BEAShared Task. We release all of our code and materials for reproducibility.",
+  "keywords": [
+    "transformer",
+    "code",
+    "neural",
+    "sequentially applying transfer learning",
+    "pre-train transformer models",
+    "train",
+    "all",
+    "sequence",
+    "we",
+    "transfer",
+    "learning",
+    "pre",
+    "function",
+    "training",
+    "large unannotated corpora"
+  ],
+  "url": "https://aclanthology.org/W19-4423/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:54:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

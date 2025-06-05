@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.283",
+  "title": "Chain-of-Question: A Progressive Question Decomposition Approach for Complex Knowledge Base Question Answering",
+  "authors": [
+    "Yixing, Peng  and\nWang, Quan  and\nZhang, Licheng  and\nLiu, Yi  and\nMao, Zhendong"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Complex KBQA leverages the knowledge base (KB) to answer complex natural questions involving complicated semantics like multi-hop reasoning. Existing methods involve a question decomposition process, i.e., breaking a complex question into several simpler sub-questions, to assist obtaining logical forms for querying the KB. However, existing question decomposition process derives all sub-questions directly according to the original question, resulting in limitations when one sub-question relies on the answer from a previous one. In this work, we propose Chain-of-Question, a progressive question decomposition approach to address complex KBQA challenges. First, inspired by chain-of-thought, we design a prompt to guide LLM to sequentially decompose multiple semantically clear sub-questions and provide corresponding reference answers, where each step of the decomposition relies on the previous results. Next, we utilize the decomposition result to select relevant patterns (relation-entity pairs) as accurate and faithful auxiliary information for the following logical form generation. Finally, we jointly perform logical form generation and answer prediction, utilizing the predicted answer to supplement non-executable logical forms. Experimental results demonstrate that our method achieves state-of-the-art performance on multiple datasets.",
+  "keywords": [
+    "semantically clear sub",
+    "chain",
+    "question",
+    "form",
+    "complex kbqa leverages",
+    "logical form generation",
+    "we",
+    "kbqa",
+    "answer",
+    "natural",
+    "semantics",
+    "information",
+    "complicated semantics",
+    "i",
+    "prompt"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.283/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

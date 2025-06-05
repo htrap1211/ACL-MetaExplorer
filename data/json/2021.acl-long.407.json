@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.407",
+  "title": "A Knowledge-Guided Framework for Frame Identification",
+  "authors": [
+    "Su, Xuefeng  and\nLi, Ru  and\nLi, Xiaoli  and\nPan, Jeff Z.  and\nZhang, Hu  and\nChai, Qinghua  and\nHan, Xiaoqi"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Frame Identification (FI) is a fundamental and challenging task in frame semantic parsing. The task aims to find the exact frame evoked by a target word in a given sentence. It is generally regarded as a classification task in existing work, where frames are treated as discrete labels or represented using onehot embeddings. However, the valuable knowledge about frames is neglected. In this paper, we propose a Knowledge-Guided Frame Identification framework (KGFI) that integrates three types frame knowledge, including frame definitions, frame elements and frame-to-frame relations, to learn better frame representation, which guides the KGFI to jointly map target words and frames into the same embedding space and subsequently identify the best frame by calculating the dot-product similarity scores between the target word embedding and all of the frame embeddings. The extensive experimental results demonstrate KGFI significantly outperforms the state-of-the-art methods on two benchmark datasets.",
+  "keywords": [
+    "work",
+    "embeddings",
+    "kgfi",
+    "knowledge",
+    "a classification task",
+    "it",
+    "semantic",
+    "all",
+    "we",
+    "word",
+    "onehot embeddings",
+    "the kgfi",
+    "the same embedding space",
+    "classification",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.407/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

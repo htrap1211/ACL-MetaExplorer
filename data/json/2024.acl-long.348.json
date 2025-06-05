@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.348",
+  "title": "Error-preserving Automatic Speech Recognition of Young {E}nglish Learners' Language",
+  "authors": [
+    "Michot, Janick  and\nH{\\\"u}rlimann, Manuela  and\nDeriu, Jan  and\nSauer, Luzia  and\nMlynchyk, Katsiaryna  and\nCieliebak, Mark"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "One of the central skills that language learners need to practice is speaking the language. Currently, students in school do not get enough speaking opportunities and lack conversational practice. The recent advances in speech technology and natural language processing allow the creation of novel tools to practice their speaking skills. In this work, we tackle the first component of such a pipeline, namely, the automated speech recognition module (ASR). State-of-the-art models are often trained on adult read-aloud data by native speakers and do not transfer well to young language learners’ speech. Second, most ASR systems contain a powerful language model, which smooths out mistakes made by the speakers. To give corrective feedback, which is a crucial part of language learning, the ASR systems in our setting need to preserve the mistakes made by the language learners. In this work, we build an ASR system that satisfies these requirements: it works on spontaneous speech by young language learners and preserves their mistakes. For this, we collected a corpus containing around 85 hours of English audio spoken by Swiss learners from grades 4 to 6 on different language learning tasks, which we used to train an ASR model. Our experiments show that our model benefits from direct fine-tuning of children’s voices and has a much higher error preservation rate.",
+  "keywords": [
+    "feedback",
+    "opportunities",
+    "rate",
+    "conversational practice",
+    "we",
+    "young language learners",
+    "language learners",
+    "young language learners speech",
+    "the language learners",
+    "natural",
+    "it",
+    "direct fine-tuning",
+    "natural language processing",
+    "tuning",
+    "processing"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.348/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

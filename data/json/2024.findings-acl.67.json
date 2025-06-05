@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.67",
+  "title": "Modelling Variability in Human Annotator Simulation",
+  "authors": [
+    "Wu, Wen  and\nChen, Wenlin  and\nZhang, Chao  and\nWoodland, Phil"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Human annotator simulation (HAS) serves as a cost-effective substitute for human evaluation tasks such as data annotation and system assessment. It is important to incorporate the variability present in human evaluation into HAS, since it helps capture diverse subjective interpretations and mitigate potential biases and over-representation. This work introduces a novel framework for modelling variability in HAS. Conditional softmax flow (S-CNF) is proposed to model the distribution of subjective human annotations, which leverages diverse human annotations via meta-learning. This enables efficient generation of annotations that exhibit human variability for unlabelled input. In addition, a wide range of evaluation metrics are adopted to assess the capability and efficiency of HAS systems in predicting the aggregated behaviours of human annotators, matching the distribution of human annotations, and simulating the inter-annotator disagreements. Results demonstrate that the proposed method achieves state-of-the-art performance on two real-world human evaluation tasks: emotion recognition and toxic speech detection.",
+  "keywords": [
+    "efficient",
+    "efficiency",
+    "softmax",
+    "efficient generation",
+    "potential biases",
+    "human evaluation",
+    "it",
+    "conditional softmax flow s",
+    "metrics",
+    "evaluation metrics",
+    "biases",
+    "work",
+    "generation",
+    "human",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.67/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:49:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

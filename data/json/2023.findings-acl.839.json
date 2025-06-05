@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.839",
+  "title": "Causal interventions expose implicit situation models for commonsense language understanding",
+  "authors": [
+    "Yamakoshi, Takateru  and\nMcClelland, James  and\nGoldberg, Adele  and\nHawkins, Robert"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Accounts of human language processing have long appealed to implicit “situation models” that enrich comprehension with relevant but unstated world knowledge. Here, we apply causal intervention techniques to recent transformer models to analyze performance on the Winograd Schema Challenge (WSC), where a single context cue shifts interpretation of an ambiguous pronoun. We identify a relatively small circuit of attention heads that are responsible for propagating information from the context word that guides which of the candidate noun phrases the pronoun ultimately attends to. We then compare how this circuit behaves in a closely matched “syntactic” control where the situation model is not strictly necessary. These analyses suggest a distinct pathway through which implicit situation models may be constructed to guide pronoun resolution",
+  "keywords": [
+    "transformer",
+    "knowledge",
+    "processing",
+    "language",
+    "attention heads",
+    "model",
+    "human",
+    "recent transformer models",
+    "information",
+    "we",
+    "attention",
+    "word",
+    "that",
+    "cue shifts interpretation",
+    "this circuit"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.839/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

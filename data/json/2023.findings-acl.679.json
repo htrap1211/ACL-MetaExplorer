@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.679",
+  "title": "Hybrid Hierarchical Retrieval for Open-Domain Question Answering",
+  "authors": [
+    "Arivazhagan, Manoj Ghuhan  and\nLiu, Lan  and\nQi, Peng  and\nChen, Xinchi  and\nWang, William Yang  and\nHuang, Zhiheng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Retrieval accuracy is crucial to the performance of open-domain question answering (ODQA) systems. Recent work has demonstrated that dense hierarchical retrieval (DHR), which retrieves document candidates first and then relevant passages from the refined document set, can significantly outperform the single stage dense passage retriever (DPR). While effective, this approach requires document structure information to learn document representation and is hard to adopt to other domains without this information. Additionally, the dense retrievers tend to generalize poorly on out-of-domain data comparing with sparse retrievers such as BM25. In this paper, we propose Hybrid Hierarchical Retrieval (HHR) to address the existing limitations. Instead of relying solely on dense retrievers, we can apply sparse retriever, dense retriever, and a combination of them in both stages of document and passage retrieval. We perform extensive experiments on ODQA benchmarks and observe that our framework not only brings in-domain gains, but also generalizes better to zero-shot TriviaQA and Web Questions datasets with an average of 4.69% improvement on recall@100 over DHR. We also offer practical insights to trade off between retrieval accuracy, latency, and storage cost. The code is available on github.",
+  "keywords": [
+    "code",
+    "hybrid hierarchical retrieval",
+    "passage retrieval",
+    "dense retrievers",
+    "question",
+    "we",
+    "sparse retrievers",
+    "shot",
+    "odqa benchmarks",
+    "odqa systems",
+    "retrieval",
+    "information",
+    "retrieval accuracy latency",
+    "odqa",
+    "retrievers"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.679/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

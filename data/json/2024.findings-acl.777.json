@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.777",
+  "title": "PAT}-Questions: A Self-Updating Benchmark for Present-Anchored Temporal Question-Answering",
+  "authors": [
+    "Meem, Jannat  and\nRashid, Muhammad  and\nDong, Yue  and\nHristidis, Vagelis"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Existing work on Temporal Question Answering (TQA) has predominantly focused on questions anchored to specific timestamps or events (e.g. ‘Who was the US president in 1970?’). Little work has studied questions whose temporal context is relative to the present time (e.g. ‘Who was the previous US president?’). We refer to this problem as Present-Anchored Temporal QA (PATQA). PATQA poses unique challenges: (1) large language models (LLMs) may have outdated knowledge, (2) complex temporal relationships (e.g. ‘before’, ‘previous’) are hard to reason, (3) multi-hop reasoning may be required, and (4) the gold answers of benchmarks must be continuously updated. To address these challenges, we introduce the PAT-Questions benchmark, which includes single and multi-hop temporal questions. The answers in PAT-Questions can be automatically refreshed by re-running SPARQL queries on a knowledge graph, if available. We evaluate several state-of-the-art LLMs and a SOTA temporal reasoning model (TEMPREASON-T5) on PAT-Questions through direct prompting and retrieval-augmented generation (RAG). The results highlight the limitations of existing solutions in PATQA and motivate the need for new methods to improve PATQA reasoning capabilities.",
+  "keywords": [
+    "question",
+    "we",
+    "patqa reasoning capabilities",
+    "graph",
+    "self",
+    "patqa",
+    "retrieval",
+    "tqa",
+    "llms",
+    "-",
+    "re",
+    "work",
+    "e g",
+    "knowledge",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.777/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:59:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

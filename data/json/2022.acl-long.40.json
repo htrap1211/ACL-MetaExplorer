@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.40",
+  "title": "T}able{F}ormer: Robust Transformer Modeling for Table-Text Encoding",
+  "authors": [
+    "Yang, Jingfeng  and\nGupta, Aditya  and\nUpadhyay, Shyam  and\nHe, Luheng  and\nGoel, Rahul  and\nPaul, Shachi"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Understanding tables is an important aspect of natural language understanding. Existing models for table understanding require linearization of the table structure, where row or column order is encoded as an unwanted bias. Such spurious biases make the model vulnerable to row and column order perturbations. Additionally, prior work has not thoroughly modeled the table structures or table-text alignments, hindering the table-text understanding ability. In this work, we propose a robust and structurally aware table-text encoding architecture TableFormer, where tabular structural biases are incorporated completely through learnable attention biases. TableFormer is (1) strictly invariant to row and column orders, and, (2) could understand tables better due to its tabular inductive biases. Our evaluations showed that TableFormer outperforms strong baselines in all settings on SQA, WTQ and TabFact table reasoning datasets, and achieves state-of-the-art performance on SQA, especially when facing answer-invariant row and column order perturbations (6% improvement over the best baseline), because previous SOTA models’ performance drops by 4% - 6% when facing such perturbations while TableFormer is not affected.",
+  "keywords": [
+    "learnable attention biases tableformer",
+    "bias",
+    "alignments",
+    "tabular structural biases",
+    "we",
+    "table-text alignments",
+    "sqa wtq",
+    "answer",
+    "natural",
+    "natural language",
+    "vulnerable",
+    "its tabular inductive biases",
+    "text",
+    "such spurious biases",
+    "sqa"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.40/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:24:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

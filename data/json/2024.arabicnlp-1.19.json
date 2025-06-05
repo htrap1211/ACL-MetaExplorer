@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.19",
+  "title": "Qalam: A Multimodal {LLM} for {A}rabic Optical Character and Handwriting Recognition",
+  "authors": [
+    "Bhatia, Gagan  and\nNagoudi, El Moatez Billah  and\nAlwajih, Fakhraddin  and\nAbdul-Mageed, Muhammad"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "Arabic Optical Character Recognition (OCR) and Handwriting Recognition (HWR) pose unique challenges due to the cursive and context-sensitive nature of the Arabic script. This study introduces ***Qalam***, a novel foundation model designed for Arabic OCR and HWR, built on a SwinV2 encoder and RoBERTa decoder architecture. Our model significantly outperforms existing methods, achieving a Word Error Rate (WER) of just 0.80% in HWR tasks and 1.18% in OCR tasks. We train ***Qalam*** on a diverse dataset, including over 4.5 million images from Arabic manuscripts and a synthetic dataset comprising 60k image-text pairs. Notably, ***Qalam*** demonstrates exceptional handling of Arabic diacritics, a critical feature in Arabic scripts. Furthermore, it shows a remarkable ability to process high-resolution inputs, addressing a common limitation in current OCR systems. These advancements underscore ***Qalam***’s potential as a leading solution for Arabic script recognition, offering a significant leap in accuracy and efficiency.",
+  "keywords": [
+    "roberta",
+    "rate",
+    "wer",
+    "efficiency",
+    "we",
+    "current",
+    "llm",
+    "a swinv2 encoder",
+    "it",
+    "decoder",
+    "word",
+    "text",
+    "a multimodal llm",
+    "qalam",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:02:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.708",
+  "title": "Analyze, Generate and Refine: Query Expansion with {LLM}s for Zero-Shot Open-Domain {QA",
+  "authors": [
+    "Chen, Xinran  and\nChen, Xuanang  and\nHe, Ben  and\nWen, Tengfei  and\nSun, Le"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Query expansion (QE) is a critical component in the open-domain question answering (OpenQA) pipeline, enhancing the retrieval performance by broadening the scope of queries with additional relevant texts. However, existing methods like GAR and EAR rely heavily on supervised training and often struggle to maintain effectiveness across domains and datasets. Meanwhile, although large language models (LLMs) have demonstrated QE capability for information retrieval (IR) tasks, their application in OpenQA is hindered by the inadequate analysis of query’s informational needs and the lack of quality control for generated QEs, failing to meet the unique requirements of OpenQA. To bridge this gap, we propose a novel LLM-based QE approach named AGR for the OpenQA task, leveraging a three-step prompting strategy. AGR begins with an analysis of the query, followed by the generation of answer-oriented expansions, and culminates with a refinement process for better query formulation. Extensive experiments on four OpenQA datasets reveal that AGR not only rivals in-domain supervised methods in retrieval accuracy, but also outperforms state-of-the-art baselines in out-domain zero-shot scenarios. Moreover, it exhibits enhanced performance in end-to-end QA evaluations, underscoring the superiority of AGR for OpenQA.",
+  "keywords": [
+    "generated qes",
+    "answer-oriented expansions",
+    "end",
+    "the retrieval performance",
+    "llm s",
+    "the generation",
+    "question",
+    "we",
+    "llm",
+    "shot",
+    "training",
+    "answer",
+    "it",
+    "queries",
+    "retrieval"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.708/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

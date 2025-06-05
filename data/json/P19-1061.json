@@ -1,0 +1,33 @@
+{
+  "id": "P19-1061",
+  "title": "Data Programming for Learning Discourse Structure",
+  "authors": [
+    "Badene, Sonia  and\nThompson, Kate  and\nLorr{\\'e}, Jean-Pierre  and\nAsher, Nicholas"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "This paper investigates the advantages and limits of data programming for the task of learning discourse structure. The data programming paradigm implemented in the Snorkel framework allows a user to label training data using expert-composed heuristics, which are then transformed via the “generative step” into probability distributions of the class labels given the training candidates. These results are later generalized using a discriminative model. Snorkel’s attractive promise to create a large amount of annotated data from a smaller set of training data by unifying the output of a set of heuristics has yet to be used for computationally difficult tasks, such as that of discourse attachment, in which one must decide where a given discourse unit attaches to other units in a text in order to form a coherent discourse structure. Although approaching this problem using Snorkel requires significant modifications to the structure of the heuristics, we show that weak supervision methods can be more than competitive with classical supervised learning approaches to the attachment problem.",
+  "keywords": [
+    "we",
+    "training",
+    "learning",
+    "generative",
+    "text",
+    "model",
+    "class",
+    "the generative step",
+    "coherent",
+    "supervision",
+    "paradigm",
+    "framework",
+    "discourse",
+    "data programming",
+    "training data"
+  ],
+  "url": "https://aclanthology.org/P19-1061/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:29:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

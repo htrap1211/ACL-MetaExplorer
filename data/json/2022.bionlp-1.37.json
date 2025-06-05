@@ -1,0 +1,33 @@
+{
+  "id": "2022.bionlp-1.37",
+  "title": "Comparing Encoder-Only and Encoder-Decoder Transformers for Relation Extraction from Biomedical Texts: An Empirical Study on Ten Benchmark Datasets",
+  "authors": [
+    "Sarrouti, Mourad  and\nTao, Carson  and\nMamy Randriamihaja, Yoann"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 21st Workshop on Biomedical Language Processing",
+  "abstract": "Biomedical relation extraction, aiming to automatically discover high-quality and semantic relations between the entities from free text, is becoming a vital step for automated knowledge discovery. Pretrained language models have achieved impressive performance on various natural language processing tasks, including relation extraction. In this paper, we perform extensive empirical comparisons of encoder-only transformers with the encoder-decoder transformer, specifically T5, on ten public biomedical relation extraction datasets. We study the relation extraction task from four major biomedical tasks, namely chemical-protein relation extraction, disease-protein relation extraction, drug-drug interaction, and protein-protein interaction. We also explore the use of multi-task fine-tuning to investigate the correlation among major biomedical relation extraction tasks. We report performance (micro F-score) using T5, BioBERT and PubMedBERT, demonstrating that T5 and multi-task learning can improve the performance of the biomedical relation extraction task.",
+  "keywords": [
+    "transformers",
+    "extraction",
+    "t5 biobert",
+    "semantic",
+    "we",
+    "biobert",
+    "encoder-only transformers",
+    "the entities",
+    "natural",
+    "decoder",
+    "multi-task fine-tuning",
+    "learning",
+    "encoder-only and encoder-decoder transformers",
+    "tuning",
+    "processing"
+  ],
+  "url": "https://aclanthology.org/2022.bionlp-1.37/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:40:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.26",
+  "title": "Event-Arguments Extraction Corpus and Modeling using {BERT} for {A}rabic",
+  "authors": [
+    "Aljabari, Alaa  and\nDuaibes, Lina  and\nJarrar, Mustafa  and\nKhalilia, Mohammed"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "Event-argument extraction is a challenging task, particularly in Arabic due to sparse linguistic resources. To fill this gap, we introduce the corpus (550k tokens) as an extension of Wojood, enriched with event-argument annotations. We used three types of event arguments:agent,location, anddate, which we annotated as relation types. Our inter-annotator agreement evaluation resulted in 82.23%Kappascore and 87.2%F1-score. Additionally, we propose a novel method for event relation extraction using BERT, in which we treat the task as text entailment. This method achieves anF1-score of 94.01%.To further evaluate the generalization of our proposed method, we collected and annotated another out-of-domain corpus (about 80k tokens) called and used it as a second test set, on which our approach achieved promising results (83.59%F1-score). Last but not least, we propose an end-to-end system for event-arguments extraction. This system is implemented as part of SinaTools, and both corpora are publicly available athttps://sina.birzeit.edu/wojood",
+  "keywords": [
+    "end",
+    "extraction",
+    "83 59 f1-score",
+    "anf1",
+    "we",
+    "87 2 f1-score",
+    "it",
+    "location",
+    "anf1-score",
+    "bert",
+    "text",
+    "our inter-annotator agreement evaluation",
+    "edu",
+    "generalization",
+    "the generalization"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.26/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:02:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

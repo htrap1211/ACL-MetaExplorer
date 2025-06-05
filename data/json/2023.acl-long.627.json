@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.627",
+  "title": "Multi-Grained Knowledge Retrieval for End-to-End Task-Oriented Dialog",
+  "authors": [
+    "Wan, Fanqi  and\nShen, Weizhou  and\nYang, Ke  and\nQuan, Xiaojun  and\nBi, Wei"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Retrieving proper domain knowledge from an external database lies at the heart of end-to-end task-oriented dialog systems to generate informative responses. Most existing systems blend knowledge retrieval with response generation and optimize them with direct supervision from reference responses, leading to suboptimal retrieval performance when the knowledge base becomes large-scale. To address this, we propose to decouple knowledge retrieval from response generation and introduce a multi-grained knowledge retriever (MAKER) that includes an entity selector to search for relevant entities and an attribute selector to filter out irrelevant attributes. To train the retriever, we propose a novel distillation objective that derives supervision signals from the response generator. Experiments conducted on three standard benchmarks with both small and large-scale knowledge bases demonstrate that our retriever performs knowledge retrieval more effectively than existing methods. Our code has been made publicly available athttps://github.com/18907305772/MAKER.",
+  "keywords": [
+    "code",
+    "suboptimal retrieval performance",
+    "end",
+    "we",
+    "our retriever",
+    "relevant entities",
+    "a novel distillation objective",
+    "retrieval",
+    "multi-grained knowledge retrieval",
+    "knowledge retrieval",
+    "the retriever",
+    "objective",
+    "response generation",
+    "reference",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.627/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:44:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.54",
+  "title": "Gla-{AI}4{B}io{M}ed at {RRG}24: Visual Instruction-tuned Adaptation for Radiology Report Generation",
+  "authors": [
+    "Zhang, Xi  and\nMeng, Zaiqiao  and\nLever, Jake  and\nHo, Edmond S.L."
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "This paper introduces a radiology-focused visual language model designed to generate radiology reports from chest X-rays. Building on previous findings that large language models can acquire multimodal capabilities when aligned with pretrained vision encoders, we demonstrate similar potential with chest X-ray images. The model combines an image encoder (CLIP) with a fine-tuned large language model (LLM) based on the Vicuna-7B architecture. The training process involves a two-stage approach: initial alignment of chest X-ray features with the LLM, followed by fine-tuning for radiology report generation. The study highlights the importance of generating both FINDINGS and IMPRESSIONS sections in radiology reports and evaluates the model’s performance using various metrics, achieving notable accuracy in generating high-quality medical reports. The research also addresses the need for domain-specific fine-tuning to capture the intricate details necessary for accurate medical interpretations and reports.",
+  "keywords": [
+    "domain-specific fine-tuning",
+    "an image encoder clip",
+    "we",
+    "llm",
+    "radiology report generation",
+    "training",
+    "fine-tuning",
+    "instruction",
+    "various metrics",
+    "visual",
+    "multimodal capabilities",
+    "m",
+    "tuning",
+    "ed",
+    "metrics"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.54/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P17-2047",
+  "title": "E}vi{N}ets: Neural Networks for Combining Evidence Signals for Factoid Question Answering",
+  "authors": [
+    "Savenkov, Denis  and\nAgichtein, Eugene"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "A critical task for question answering is the final answer selection stage, which has to combine multiple signals available about each answer candidate. This paper proposes EviNets: a novel neural network architecture for factoid question answering. EviNets scores candidate answer entities by combining the available supporting evidence, e.g., structured knowledge bases and unstructured text documents. EviNets represents each piece of evidence with a dense embeddings vector, scores their relevance to the question, and aggregates the support for each candidate to predict their final scores. Each of the components is generic and allows plugging in a variety of models for semantic similarity scoring and information aggregation. We demonstrate the effectiveness of EviNets in experiments on the existing TREC QA and WikiMovies benchmarks, and on the new Yahoo! Answers dataset introduced in this paper. EviNets can be extended to other information types and could facilitate future work on combining evidence signals for joint reasoning in question answering.",
+  "keywords": [
+    "variety",
+    "support",
+    "the existing trec qa",
+    "a dense embeddings vector",
+    "question",
+    "semantic",
+    "we",
+    "answer",
+    "neural",
+    "question answering",
+    "information",
+    "each piece",
+    "a variety",
+    "semantic similarity scoring",
+    "piece"
+  ],
+  "url": "https://aclanthology.org/P17-2047/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:03:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

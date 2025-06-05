@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.311",
+  "title": "End-to-End Lexically Constrained Machine Translation for Morphologically Rich Languages",
+  "authors": [
+    "Jon, Josef  and\nAires, Jo{\\~a}o Paulo  and\nVaris, Dusan  and\nBojar, Ond{\\v{r}}ej"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Lexically constrained machine translation allows the user to manipulate the output sentence by enforcing the presence or absence of certain words and phrases. Although current approaches can enforce terms to appear in the translation, they often struggle to make the constraint word form agree with the rest of the generated output. Our manual analysis shows that 46% of the errors in the output of a baseline constrained model for English to Czech translation are related to agreement. We investigate mechanisms to allow neural machine translation to infer the correct word inflection given lemmatized constraints. In particular, we focus on methods based on training the model with constraints provided as part of the input sequence. Our experiments on English-Czech language pair show that this approach improves translation of constrained terms in both automatic and manual evaluation by reducing errors in agreement. Our approach thus eliminates inflection errors, without introducing new errors or decreasing overall quality of the translation.",
+  "keywords": [
+    "rest",
+    "end",
+    "the translation",
+    "language",
+    "neural",
+    "model",
+    "machine",
+    "the generated output",
+    "neural machine translation",
+    "form",
+    "rich",
+    "word",
+    "we",
+    "sequence",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.311/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.820",
+  "title": "Do Llamas Work in {E}nglish? On the Latent Language of Multilingual Transformers",
+  "authors": [
+    "Wendler, Chris  and\nVeselovsky, Veniamin  and\nMonea, Giovanni  and\nWest, Robert"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We ask whether multilingual language models trained on unbalanced, English-dominated corpora use English as an internal pivot language—-a question of key importance for understanding how language models function and the origins of linguistic bias. Focusing on the Llama-2 family of transformer models, our study is based on carefully constructed non-English prompts with a unique correct single-token continuation. From layer to layer, transformers gradually map an input embedding of the final prompt token to an output embedding from which next-token probabilities are computed. Tracking intermediate embeddings through their high-dimensional space reveals three distinct phases, whereby intermediate embeddings (1) start far away from output token embeddings; (2) already in middle layers allow for decoding a semantically correct next token, but giving higher probability to its version in English than in the input language; (3) move into an input-language-specific region of the embedding space. We cast these results into a conceptual model where the three phases operate in ”input space”, ”concept space”, and ”output space”, respectively. Crucially, our evidence suggests that the abstract ”concept space” lies closer to English than to other input languages, which may have important consequences regarding the biases embodied by multilingual language models.",
+  "keywords": [
+    "transformers",
+    "bias",
+    "output token embeddings",
+    "question",
+    "layer",
+    "we",
+    "the final prompt",
+    "linguistic bias",
+    "token",
+    "carefully constructed non-english prompts",
+    "latent",
+    "multilingual language models",
+    "transformer models",
+    "prompt",
+    "language models"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.820/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:45:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

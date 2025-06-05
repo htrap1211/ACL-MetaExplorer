@@ -1,0 +1,33 @@
+{
+  "id": "2024.knowledgenlp-1.7",
+  "title": "Enhancing Robustness of Retrieval-Augmented Language Models with In-Context Learning",
+  "authors": [
+    "Park, SeongIl  and\nChoi, Seungwoo  and\nKim, Nahyun  and\nLee, Jay-Yoon"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 3rd Workshop on Knowledge Augmented Methods for NLP",
+  "abstract": "Retrieval-Augmented Language Models (RALMs) have significantly improved performance in open-domain question answering (QA) by leveraging external knowledge. However, RALMs still struggle with unanswerable queries, where the retrieved contexts do not contain the correct answer, and with conflicting information, where different sources provide contradictory answers due to imperfect retrieval. This study introduces an in-context learning-based approach to enhance the reasoning capabilities of RALMs, making them more robust in imperfect retrieval scenarios. Our method incorporates Machine Reading Comprehension (MRC) demonstrations, referred to ascases, to boost the model’s capabilities to identify unanswerabilities and conflicts among the retrieved contexts. Experiments on two open-domain QA datasets show that our approach increases accuracy in identifying unanswerable and conflicting scenarios without requiring additional fine-tuning. This work demonstrates that in-context learning can effectively enhance the robustness of RALMs in open-domain QA tasks.",
+  "keywords": [
+    "work",
+    "the retrieved contexts",
+    "the retrieved contexts experiments",
+    "accuracy",
+    "the model s capabilities",
+    "knowledge",
+    "retrieved",
+    "retrieval-augmented language models ralms",
+    "language",
+    "retrieval-augmented language models",
+    "answer",
+    "model",
+    "machine",
+    "unanswerabilities",
+    "qa"
+  ],
+  "url": "https://aclanthology.org/2024.knowledgenlp-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:07:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

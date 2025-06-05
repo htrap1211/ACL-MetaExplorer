@@ -1,0 +1,33 @@
+{
+  "id": "2024.textgraphs-1.3",
+  "title": "Uniform Meaning Representation Parsing as a Pipelined Approach",
+  "authors": [
+    "Chun, Jayeol  and\nXue, Nianwen"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of TextGraphs-17: Graph-based Methods for Natural Language Processing",
+  "abstract": "Uniform Meaning Representation (UMR) is the next phase of semantic formalism following Abstract Meaning Representation (AMR), with added focus on inter-sentential relations allowing the representational scope of UMR to cover a full document. This, in turn, greatly increases the complexity of its parsing task with the additional requirement of capturing document-level linguistic phenomena such as coreference, modal and temporal dependencies. In order to establish a strong baseline despite the small size of recently released UMR v1.0 corpus, we introduce a pipeline model that does not require any training. At the core of our method is a two-track strategy of obtaining UMR’s sentence and document graphs separately, with the document-level triples being compiled at the token level and the sentence graph being converted from AMR graphs. By leveraging alignment between AMR and its sentence, we are able to generate the first automatic English UMR parses.",
+  "keywords": [
+    "its parsing task",
+    "semantic",
+    "we",
+    "graph",
+    "training",
+    "token",
+    "dependencies",
+    "semantic formalism",
+    "core",
+    "coreference",
+    "alignment",
+    "model",
+    "approach",
+    "a strong baseline",
+    "amr"
+  ],
+  "url": "https://aclanthology.org/2024.textgraphs-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:11:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

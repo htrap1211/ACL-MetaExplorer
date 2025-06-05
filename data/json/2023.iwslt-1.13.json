@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.13",
+  "title": "Improving Neural Machine Translation Formality Control with Domain Adaptation and Reranking-based Transductive Learning",
+  "authors": [
+    "Wu, Zhanglin  and\nLi, Zongyao  and\nWei, Daimeng  and\nShang, Hengchao  and\nGuo, Jiaxin  and\nChen, Xiaoyu  and\nRao, Zhiqiang  and\nYu, Zhengzhe  and\nYang, Jinlong  and\nLi, Shaojun  and\nXie, Yuhao  and\nWei, Bin  and\nZheng, Jiawei  and\nZhu, Ming  and\nLei, Lizhi  and\nYang, Hao  and\nJiang, Yanfei"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "This paper presents Huawei Translation Service Center (HW-TSC)’s submission on the IWSLT 2023 formality control task, which provides two training scenarios: supervised and zero-shot, each containing two language pairs, and sets constrained and unconstrained conditions. We train the formality control models for these four language pairs under these two conditions respectively, and submit the corresponding translation results. Our efforts are divided into two fronts: enhancing general translation quality and improving formality control capability. According to the different requirements of the formality control task, we use a multi-stage pre-training method to train a bilingual or multilingual neural machine translation (NMT) model as the basic model, which can improve the general translation quality of the base model to a relatively high level. Then, under the premise of affecting the general translation quality of the basic model as little as possible, we adopt domain adaptation and reranking-based transductive learning methods to improve the formality control capability of the model.",
+  "keywords": [
+    "the corresponding translation",
+    "general",
+    "language",
+    "translation",
+    "neural",
+    "general translation quality",
+    "model",
+    "machine",
+    "a multi-stage pre-training method",
+    "we",
+    "learning",
+    "pre",
+    "training",
+    "the general translation quality",
+    "reranking-based transductive"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:24:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

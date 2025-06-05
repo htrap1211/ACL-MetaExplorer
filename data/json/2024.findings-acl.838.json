@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.838",
+  "title": "Learning Fine-Grained Grounded Citations for Attributed Large Language Models",
+  "authors": [
+    "Huang, Lei  and\nFeng, Xiaocheng  and\nMa, Weitao  and\nGu, Yuxuan  and\nZhong, Weihong  and\nFeng, Xiachong  and\nYu, Weijiang  and\nPeng, Weihua  and\nTang, Duyu  and\nTu, Dandan  and\nQin, Bing"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Despite the impressive performance on information-seeking tasks, large language models (LLMs) still struggle with hallucinations. Attributed LLMs, which augment generated text with in-line citations, demonstrate potential in mitigating hallucinations and improving verifiability. However, current approaches suffer from suboptimal citation quality due to their reliance on in-context learning. Furthermore, the practice of merely citing document identifiers complicates the process for users to pinpoint specific supporting evidence. In this work, we introduce FRONT, a training framework that teaches LLMs to generate Fine-grained grounded citations. By initially grounding fine-grained supporting quotes, which then guide the generation process, these quotes not only provide supervision signals to improve citation quality but also serve as fine-grained attributions. Experiments on the ALCE benchmark demonstrate the efficacy of FRONT in generating superior grounded responses and highly supportive citations. With LLaMA-2-7B, the framework significantly outperforms all the baselines, achieving an average of 14.21% improvement in citation quality across all datasets, even surpassing ChatGPT.",
+  "keywords": [
+    "we",
+    "current",
+    "training",
+    "attributed large language models",
+    "identifiers",
+    "information",
+    "chatgpt",
+    "llms",
+    "text",
+    "large language models llms",
+    "work",
+    "process",
+    "language",
+    "generation",
+    "the generation process"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.838/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:00:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

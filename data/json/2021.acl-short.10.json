@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.10",
+  "title": "Are {VQA} Systems {RAD}? {M}easuring Robustness to Augmented Data with Focused Interventions",
+  "authors": [
+    "Rosenberg, Daniel  and\nGat, Itai  and\nFeder, Amir  and\nReichart, Roi"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Deep learning algorithms have shown promising results in visual question answering (VQA) tasks, but a more careful look reveals that they often do not understand the rich signal they are being fed with. To understand and better measure the generalization capabilities of VQA systems, we look at their robustness to counterfactually augmented data. Our proposed augmentations are designed to make a focused intervention on a specific property of the question such that the answer changes. Using these augmentations, we propose a new robustness measure, Robustness to Augmented Data (RAD), which measures the consistency of model predictions between original and augmented examples. Through extensive experimentation, we show that RAD, unlike classical accuracy measures, can quantify when state-of-the-art systems are not robust to counterfactuals. We find substantial failure cases which reveal that current VQA systems are still brittle. Finally, we connect between robustness and generalization, demonstrating the predictive power of RAD for performance on unseen augmentations.",
+  "keywords": [
+    "deep",
+    "vqa systems rad",
+    "current vqa systems",
+    "vqa tasks",
+    "question",
+    "we",
+    "rad",
+    "current",
+    "the generalization capabilities",
+    "answer",
+    "vqa systems",
+    "rich",
+    "learning",
+    "visual",
+    "generalization"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

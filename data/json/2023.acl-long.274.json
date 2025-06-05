@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.274",
+  "title": "C}onv{GQR}: Generative Query Reformulation for Conversational Search",
+  "authors": [
+    "Mo, Fengran  and\nMao, Kelong  and\nZhu, Yutao  and\nWu, Yihong  and\nHuang, Kaiyu  and\nNie, Jian-Yun"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In conversational search, the user’s real search intent for the current conversation turn is dependent on the previous conversation history. It is challenging to determine a good search query from the whole conversation context. To avoid the expensive re-training of the query encoder, most existing methods try to learn a rewriting model to de-contextualize the current query by mimicking the manual query rewriting. However, manually rewritten queries are not always the best search queries. Thus, training a rewriting model on them would lead to sub-optimal queries. Another useful information to enhance the search query is the potential answer to the question. In this paper, we propose ConvGQR, a new framework to reformulate conversational queries based on generative pre-trained language models (PLMs), one for query rewriting and another for generating potential answers. By combining both, ConvGQR can produce better search queries. In addition, to relate query reformulation to the retrieval task, we propose a knowledge infusion mechanism to optimize both query reformulation and retrieval. Extensive experiments on four conversational search datasets demonstrate the effectiveness of ConvGQR.",
+  "keywords": [
+    "onv",
+    "retrieval extensive experiments",
+    "the query encoder",
+    "question",
+    "we",
+    "however manually rewritten queries",
+    "current",
+    "generative pre-trained language models",
+    "training",
+    "de",
+    "answer",
+    "it",
+    "queries",
+    "retrieval",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.274/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

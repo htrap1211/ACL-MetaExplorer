@@ -1,0 +1,33 @@
+{
+  "id": "P19-1532",
+  "title": "A Prism Module for Semantic Disentanglement in Name Entity Recognition",
+  "authors": [
+    "Liu, Kun  and\nLi, Shen  and\nZheng, Daqi  and\nLu, Zhengdong  and\nGao, Sheng  and\nLi, Si"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Natural Language Processing has been perplexed for many years by the problem that multiple semantics are mixed inside a word, even with the help of context. To solve this problem, we propose a prism module to disentangle the semantic aspects of words and reduce noise at the input layer of a model. In the prism module, some words are selectively replaced with task-related semantic aspects, then these denoised word representations can be fed into downstream tasks to make them easier. Besides, we also introduce a structure to train this module jointly with the downstream model without additional data. This module can be easily integrated into the downstream model and significantly improve the performance of baselines on named entity recognition (NER) task. The ablation analysis demonstrates the rationality of the method. As a side effect, the proposed method also provides a way to visualize the contribution of each word.",
+  "keywords": [
+    "semantic disentanglement",
+    "ner",
+    "processing",
+    "language",
+    "natural",
+    "model",
+    "semantics",
+    "entity recognition ner task",
+    "multiple semantics",
+    "layer",
+    "semantic",
+    "we",
+    "word",
+    "easier",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/P19-1532/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:44:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

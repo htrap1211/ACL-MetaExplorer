@@ -1,0 +1,33 @@
+{
+  "id": "W19-5414",
+  "title": "USAAR}-{DFKI} {--} The Transference Architecture for {E}nglish{--}{G}erman Automatic Post-Editing",
+  "authors": [
+    "Pal, Santanu  and\nXu, Hongfei  and\nHerbig, Nico  and\nKr{\\\"u}ger, Antonio  and\nvan Genabith, Josef"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 3: Shared Task Papers, Day 2)",
+  "abstract": "In this paper we present an English–German Automatic Post-Editing (APE) system called transference, submitted to the APE Task organized at WMT 2019. Our transference model is based on a multi-encoder transformer architecture. Unlike previous approaches, it (i) uses a transformer encoder block for src, (ii) followed by a transformer decoder block, but without masking, for self-attention on mt, which effectively acts as second encoder combining src –> mt, and (iii) feeds this representation into a final decoder block generating pe. Our model improves over the raw black-box neural machine translation system by 0.9 and 1.0 absolute BLEU points on the WMT 2019 APE development and test set. Our submission ranked 3rd, however compared to the two top systems, performance differences are not statistically significant.",
+  "keywords": [
+    "transformer",
+    "a multi-encoder transformer architecture",
+    "i",
+    "generating",
+    "neural",
+    "model",
+    "machine",
+    "a transformer decoder block",
+    "self",
+    "bleu",
+    "encoder",
+    "decoder",
+    "self-attention",
+    "attention",
+    "we"
+  ],
+  "url": "https://aclanthology.org/W19-5414/",
+  "provenance": {
+    "collected_at": "2025-06-05 02:09:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

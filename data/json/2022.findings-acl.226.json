@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.226",
+  "title": "O}ne{A}ligner: Zero-shot Cross-lingual Transfer with One Rich-Resource Language Pair for Low-Resource Sentence Retrieval",
+  "authors": [
+    "Niu, Tong  and\nHashimoto, Kazuma  and\nZhou, Yingbo  and\nXiong, Caiming"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Aligning parallel sentences in multilingual corpora is essential to curating data for downstream applications such as Machine Translation. In this work, we present OneAligner, an alignment model specially designed for sentence retrieval tasks. This model is able to train on only one language pair and transfers, in a cross-lingual fashion, to low-resource language pairs with negligible degradation in performance. When trained with all language pairs of a large-scale parallel multilingual corpus (OPUS-100), this model achieves the state-of-the-art result on the Tateoba dataset, outperforming an equally-sized previous model by 8.0 points in accuracy while using less than 0.6% of their parallel data. When finetuned on a single rich-resource language pair, be it English-centered or not, our model is able to match the performance of the ones finetuned on all language pairs under the same data budget with less than 2.0 points decrease in accuracy. Furthermore, with the same setup, scaling up the number of rich-resource language pairs monotonically improves the performance, reaching a minimum of 0.4 points discrepancy in accuracy, making it less mandatory to collect any low-resource parallel data. Finally, we conclude through empirical results and analyses that the performance of the sentence alignment task depends mostly on the monolingual and parallel data size, up to a certain size threshold, rather than on what language pairs are used for training or evaluation.",
+  "keywords": [
+    "sentence retrieval tasks",
+    "low-resource sentence retrieval",
+    "machine translation",
+    "we",
+    "training",
+    "translation",
+    "cross",
+    "an alignment model",
+    "ligner",
+    "it",
+    "the sentence alignment task",
+    "retrieval",
+    "rich",
+    "transfer",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.226/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.91",
+  "title": "Knowledge Graph Embedding by Adaptive Limit Scoring Loss Using Dynamic Weighting Strategy",
+  "authors": [
+    "Yang, Jinfa  and\nYing, Xianghua  and\nShi, Yongjie  and\nTong, Xin  and\nWang, Ruibin  and\nChen, Taiyan  and\nXing, Bowei"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Knowledge graph embedding aims to represent entities and relations as low-dimensional vectors, which is an effective way for predicting missing links in knowledge graphs. Designing a strong and effective loss framework is essential for knowledge graph embedding models to distinguish between correct and incorrect triplets. The classic margin-based ranking loss limits the scores of positive and negative triplets to have a suitable margin. The recently proposed Limit-based Scoring Loss independently limits the range of positive and negative triplet scores. However, these loss frameworks use equal or fixed penalty terms to reduce the scores of positive and negative sample pairs, which is inflexible in optimization. Our intuition is that if a triplet score deviates far from the optimum, it should be emphasized. To this end, we propose Adaptive Limit Scoring Loss, which simply re-weights each triplet to highlight the less-optimized triplet scores. We apply this loss framework to several knowledge graph embedding models such as TransE, TransH and ComplEx. The experimental results on link prediction and triplet classification show that our proposed method has achieved performance on par with the state of the art.",
+  "keywords": [
+    "end",
+    "knowledge graph",
+    "we",
+    "graph",
+    "low-dimensional vectors",
+    "classification",
+    "it",
+    "loss",
+    "knowledge graphs",
+    "par",
+    "dimensional",
+    "knowledge",
+    "entities",
+    "vectors",
+    "optimization"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.91/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

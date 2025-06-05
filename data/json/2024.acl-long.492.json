@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.492",
+  "title": "Revisiting Demonstration Selection Strategies in In-Context Learning",
+  "authors": [
+    "Peng, Keqin  and\nDing, Liang  and\nYuan, Yancheng  and\nLiu, Xuebo  and\nZhang, Min  and\nOuyang, Yuanxin  and\nTao, Dacheng"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large language models (LLMs) have shown an impressive ability to perform a wide range of tasks using in-context learning (ICL), where a few examples are used to describe a task to the model. However, the performance of ICL varies significantly with the choice of demonstrations, and previous research usually focuses on the data aspect ignoring the model’s effect. In this work, we first revisit the factors contributing to this variance from the model aspect, and find that the demonstration choice is both data- and model-dependent. We further propose a conjecture that the performance of a demonstration positively correlates with its contribution to the model’s understanding of the test samples, and accordingly propose a data- and model-dependent demonstration selection method, TopK + ConE. Empirically, our method yields consistent improvements in both language understanding and generation tasks with different model scales. Further analyses confirm that, besides the generality and stability under different circumstances, our method provides a unified explanation for the effectiveness of previous methods. Code is publicly available at https://github.com/Romainpkq/revisit_demon_selection_in_ICL.",
+  "keywords": [
+    "code",
+    "we",
+    "variance",
+    "generality",
+    "unified",
+    "generation tasks",
+    "llms",
+    "a unified explanation",
+    "strategies",
+    "large language models llms",
+    "the generality",
+    "this variance",
+    "work",
+    "language",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.492/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

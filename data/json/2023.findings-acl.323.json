@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.323",
+  "title": "Text Generation Model Enhanced with Semantic Information in Aspect Category Sentiment Analysis",
+  "authors": [
+    "Tran, Tu  and\nShirai, Kiyoaki  and\nKertkeidkachorn, Natthawut"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Aspect Category Sentiment Analysis (ACSA) is one of the main subtasks of sentiment analysis, which aims at predicting polarity over a given aspect category. Recently, generative methods emerge as an efficient way to utilize a pre-trained language model for solving ACSA. However, those methods fail to model relations of target words and opinion words in a sentence including multiple aspects. To tackle this problem, this paper proposes a method to incorporate Abstract Meaning Representation (AMR), which describes semantic representation of a sentence as a directed graph, into a text generation model. Furthermore, two regularizers are designed to guide cross attention weights allocation over AMR graphs. One is the identical regularizer that constrains attention weights of aligned nodes, the other is the entropy regularizer that helps the decoder generate tokens by heavily considering only a few related nodes in the AMR graph. Experimental results on three datasets show that the proposed method outperforms state-of-the-art methods, proving the effectiveness of our model.",
+  "keywords": [
+    "the decoder",
+    "efficient",
+    "text generation model",
+    "a pre-trained language model",
+    "attention weights",
+    "semantic",
+    "graph",
+    "semantic representation",
+    "allocation",
+    "an efficient way",
+    "decoder",
+    "information",
+    "analysis",
+    "entropy",
+    "generative"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.323/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

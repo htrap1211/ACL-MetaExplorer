@@ -1,0 +1,33 @@
+{
+  "id": "2022.insights-1.6",
+  "title": "How Much Do Modifications to Transformer Language Models Affect Their Ability to Learn Linguistic Knowledge?",
+  "authors": [
+    "Sun, Simeng  and\nDillon, Brian  and\nIyyer, Mohit"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Third Workshop on Insights from Negative Results in NLP",
+  "abstract": "Recent progress in large pretrained language models (LMs) has led to a growth of analyses examining what kinds of linguistic knowledge are encoded by these models. Due to computational constraints, existing analyses are mostly conducted on publicly-released LM checkpoints, which makes it difficult to study how various factors duringtrainingaffect the models’ acquisition of linguistic knowledge. In this paper, we train a suite of small-scale Transformer LMs that differ from each other with respect to architectural decisions (e.g., self-attention configuration) or training objectives (e.g., multi-tasking, focal loss). We evaluate these LMs on BLiMP, a targeted evaluation benchmark of multiple English linguistic phenomena. Our experiments show that while none of these modifications yields significant improvements on aggregate, changes to the loss function result in promising improvements on several subcategories (e.g., detecting adjunct islands, correctly scoping negative polarity items). We hope our work offers useful insights for future research into designing Transformer LMs that more effectively learn linguistic knowledge.",
+  "keywords": [
+    "objectives",
+    "several subcategories",
+    "we",
+    "training",
+    "it",
+    "designing transformer lms",
+    "self",
+    "loss",
+    "language models",
+    "function",
+    "work",
+    "transformer",
+    "e g",
+    "knowledge",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2022.insights-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

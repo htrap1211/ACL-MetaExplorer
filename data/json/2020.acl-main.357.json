@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.357",
+  "title": "Pre-training Is (Almost) All You Need: An Application to Commonsense Reasoning",
+  "authors": [
+    "Tamborrino, Alexandre  and\nPellican{\\`o}, Nicola  and\nPannier, Baptiste  and\nVoitot, Pascal  and\nNaudin, Louise"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Fine-tuning of pre-trained transformer models has become the standard approach for solving common NLP tasks. Most of the existing approaches rely on a randomly initialized classifier on top of such networks. We argue that this fine-tuning procedure is sub-optimal as the pre-trained model has no prior on the specific classifier labels, while it might have already learned an intrinsic textual representation of the task. In this paper, we introduce a new scoring method that casts a plausibility ranking task in a full-text format and leverages the masked language modeling head tuned during the pre-training phase. We study commonsense reasoning tasks where the model must rank a set of hypotheses given a premise, focusing on the COPA, Swag, HellaSwag and CommonsenseQA datasets. By exploiting our scoring method without fine-tuning, we are able to produce strong baselines (e.g. 80% test accuracy on COPA) that are comparable to supervised approaches. Moreover, when fine-tuning directly on the proposed scoring function, we show that our method provides a much more stable training phase across random restarts (e.g x10 standard deviation reduction on COPA test accuracy) and requires less annotated data than the standard classifier approach to reach equivalent performances.",
+  "keywords": [
+    "top",
+    "classifier",
+    "the specific classifier labels",
+    "the standard classifier approach",
+    "we",
+    "training",
+    "fine-tuning",
+    "commonsenseqa",
+    "it",
+    "format",
+    "copa test accuracy",
+    "the pre-training phase",
+    "reduction",
+    "tuning",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.357/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:47:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

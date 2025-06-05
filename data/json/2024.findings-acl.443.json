@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.443",
+  "title": "A Comprehensive Study of Jailbreak Attack versus Defense for Large Language Models",
+  "authors": [
+    "Xu, Zihao  and\nLiu, Yi  and\nDeng, Gelei  and\nLi, Yuekang  and\nPicek, Stjepan"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large Language Models (LLMs) have increasingly become central to generating content with potential societal impacts. Notably, these models have demonstrated capabilities for generating content that could be deemed harmful. To mitigate these risks, researchers have adopted safety training techniques to align model outputs with societal values to curb the generation of malicious content. However, the phenomenon of “jailbreaking” — where carefully crafted prompts elicit harmful responses from models — persists as a significant challenge. This research conducts a comprehensive analysis of existing studies on jailbreaking LLMs and their defense techniques. We meticulously investigate nine attack techniques and seven defense techniques applied across three distinct language models: Vicuna, LLama, and GPT-3.5 Turbo. We aim to evaluate the effectiveness of these attack and defense techniques. Our findings reveal that existing white-box attacks underperform compared to universal techniques and that including special tokens in the input significantly affects the likelihood of successful attacks. This research highlights the need to concentrate on the security facets of LLMs. Additionally, we contribute to the field by releasing our datasets and testing framework, aiming to foster further research into LLM security. We believe these contributions will facilitate the exploration of security measures within this domain.",
+  "keywords": [
+    "gpt-3 5 turbo",
+    "field",
+    "the generation",
+    "we",
+    "where carefully crafted prompts",
+    "llm",
+    "training",
+    "llm security",
+    "the field",
+    "societal values",
+    "gpt-3",
+    "existing studies",
+    "analysis",
+    "llms",
+    "large language models llms"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.443/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.62",
+  "title": "Language-agnostic {BERT} Sentence Embedding",
+  "authors": [
+    "Feng, Fangxiaoyu  and\nYang, Yinfei  and\nCer, Daniel  and\nArivazhagan, Naveen  and\nWang, Wei"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "While BERT is an effective method for learning monolingual sentence embeddings for semantic similarity and embedding based transfer learning BERT based cross-lingual sentence embeddings have yet to be explored. We systematically investigate methods for learning multilingual sentence embeddings by combining the best methods for learning monolingual and cross-lingual representations including: masked language modeling (MLM), translation language modeling (TLM), dual encoder translation ranking, and additive margin softmax. We show that introducing a pre-trained multilingual language model dramatically reduces the amount of parallel training data required to achieve good performance by 80%. Composing the best of these methods produces a model that achieves 83.7% bi-text retrieval accuracy over 112 languages on Tatoeba, well above the 65.5% achieved by LASER, while still performing competitively on monolingual transfer learning benchmarks. Parallel data mined from CommonCrawl using our best model is shown to train competitive NMT models for en-zh and en-de. We publicly release our best multilingual sentence embedding model for 109+ languages athttps://tfhub.dev/google/LaBSE.",
+  "keywords": [
+    "embeddings",
+    "cross",
+    "cross-lingual sentence embeddings",
+    "language",
+    "bert",
+    "model",
+    "text",
+    "language-agnostic bert sentence",
+    "retrieval",
+    "encoder",
+    "embedding model",
+    "multilingual sentence embeddings",
+    "semantic",
+    "en",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.62/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

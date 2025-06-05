@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.273",
+  "title": "LLM} Knows Body Language, Too: Translating Speech Voices into Human Gestures",
+  "authors": [
+    "Xu, Chenghao  and\nLyu, Guangtao  and\nYan, Jiexi  and\nYang, Muli  and\nDeng, Cheng"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In response to the escalating demand for digital human representations, progress has been made in the generation of realistic human gestures from given speeches. Despite the remarkable achievements of recent research, the generation process frequently includes unintended, meaningless, or non-realistic gestures. To address this challenge, we propose a gesture translation paradigm, GesTran, which leverages large language models (LLMs) to deepen the understanding of the connection between speech and gesture and sequentially generates human gestures by interpreting gestures as a unique form of body language. The primary stage of the proposed framework employs a transformer-based auto-encoder network to encode human gestures into discrete symbols. Following this, the subsequent stage utilizes a pre-trained LLM to decipher the relationship between speech and gesture, translating the speech into gesture by interpreting the gesture as unique language tokens within the LLM. Our method has demonstrated state-of-the-art performance improvement through extensive and impartial experiments conducted on public TED and TED-Expressive datasets.",
+  "keywords": [
+    "the generation",
+    "form",
+    "we",
+    "llm",
+    "translation",
+    "a pre-trained llm",
+    "the llm",
+    "the remarkable achievements",
+    "transformer",
+    "process",
+    "language",
+    "generation",
+    "the generation process",
+    "human",
+    "large language models"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.273/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

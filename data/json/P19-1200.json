@@ -1,0 +1,33 @@
+{
+  "id": "P19-1200",
+  "title": "Towards Generating Long and Coherent Text with Multi-Level Latent Variable Models",
+  "authors": [
+    "Shen, Dinghan  and\nCelikyilmaz, Asli  and\nZhang, Yizhe  and\nChen, Liqun  and\nWang, Xin  and\nGao, Jianfeng  and\nCarin, Lawrence"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Variational autoencoders (VAEs) have received much attention recently as an end-to-end architecture for text generation with latent variables. However, previous works typically focus on synthesizing relatively short sentences (up to 20 words), and the posterior collapse issue has been widely identified in text-VAEs. In this paper, we propose to leverage several multi-level structures to learn a VAE model for generating long, and coherent text. In particular, a hierarchy of stochastic layers between the encoder and decoder networks is employed to abstract more informative and semantic-rich latent codes. Besides, we utilize a multi-level decoder structure to capture the coherent long-term structure inherent in long-form texts, by generating intermediate sentence representations as high-level plan vectors. Extensive experimental results demonstrate that the proposed multi-level VAE model produces more coherent and less repetitive long text compared to baselines as well as can mitigate the posterior-collapse issue.",
+  "keywords": [
+    "much attention",
+    "end",
+    "form",
+    "semantic",
+    "we",
+    "text generation",
+    "autoencoders",
+    "decoder",
+    "latent",
+    "rich",
+    "text",
+    "hierarchy",
+    "a hierarchy",
+    "generation",
+    "a multi-level decoder structure"
+  ],
+  "url": "https://aclanthology.org/P19-1200/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:34:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

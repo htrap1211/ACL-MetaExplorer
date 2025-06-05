@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.503",
+  "title": "Understanding Retrieval Robustness for Retrieval-augmented Image Captioning",
+  "authors": [
+    "Li, Wenyan  and\nLi, Jiaang  and\nRamos, Rita  and\nTang, Raphael  and\nElliott, Desmond"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent advances in retrieval-augmented models for image captioning highlight the benefit of retrieving related captions for efficient, lightweight models with strong domain-transfer capabilities. While these models demonstrate the success of retrieval augmentation, retrieval models are still far from perfect in practice: the retrieved information can sometimes mislead the model, resulting in incorrect generation and worse performance. In this paper, we analyze the robustness of a retrieval-augmented captioning model SmallCap. Our analysis shows that the model is sensitive to tokens that appear in the majority of the retrieved captions, and the input attribution shows that those tokens are likely copied into the generated output. Given these findings, we propose to train the model by sampling retrieved captions from more diverse sets. This decreases the chance that the model learns to copy majority tokens, and improves both in-domain and cross-domain performance.",
+  "keywords": [
+    "cross",
+    "the retrieved captions",
+    "strong domain-transfer capabilities",
+    "generation",
+    "model",
+    "the generated output",
+    "efficient",
+    "retrieval-augmented image",
+    "retrieval",
+    "information",
+    "the retrieved information",
+    "capabilities",
+    "incorrect generation",
+    "retrieved captions",
+    "retrieval augmentation retrieval models"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.503/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

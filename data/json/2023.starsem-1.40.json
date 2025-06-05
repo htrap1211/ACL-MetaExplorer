@@ -1,0 +1,33 @@
+{
+  "id": "2023.starsem-1.40",
+  "title": "Empirical Sufficiency Lower Bounds for Language Modeling with Locally-Bootstrapped Semantic Structures",
+  "authors": [
+    "Prange, Jakob  and\nChersoni, Emmanuele"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 12th Joint Conference on Lexical and Computational Semantics (*SEM 2023)",
+  "abstract": "In this work we build upon negative results from an attempt at language modeling with predicted semantic structure, in order to establish empirical lower bounds on what could have made the attempt successful. More specifically, we design a concise binary vector representation of semantic structure at the lexical level and evaluate in-depth how good an incremental tagger needs to be in order to achieve better-than-baseline performance with an end-to-end semantic-bootstrapping language model. We envision such a system as consisting of a (pretrained) sequential-neural component and a hierarchical-symbolic component working together to generate text with low surprisal and high linguistic interpretability. We find that (a) dimensionality of the semantic vector representation can be dramatically reduced without losing its main advantages and (b) lower bounds on prediction quality cannot be established via a single score alone, but need to take the distributions of signal and noise into account.",
+  "keywords": [
+    "end",
+    "dimensionality",
+    "a hierarchical-symbolic component",
+    "semantic",
+    "sufficiency",
+    "we",
+    "language modeling",
+    "locally-bootstrapped semantic structures",
+    "neural",
+    "the semantic vector representation",
+    "vector",
+    "text",
+    "empirical sufficiency",
+    "predicted semantic structure",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2023.starsem-1.40/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:32:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

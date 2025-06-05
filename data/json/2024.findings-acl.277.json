@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.277",
+  "title": "SPIN}: Sparsifying and Integrating Internal Neurons in Large Language Models for Text Classification",
+  "authors": [
+    "Jiao, Difan  and\nLiu, Yilun  and\nTang, Zhenwei  and\nMatter, Daniel  and\nPfeffer, J{\\\"u}rgen  and\nAnderson, Ashton"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Among the many tasks that Large Language Models (LLMs) have revolutionized is text classification. Current text classification paradigms, however, rely solely on the output of the final layer in the LLM, with the rich information contained in internal neurons largely untapped. In this study, we present SPIN: a model-agnostic framework that sparsifies and integrates internal neurons of intermediate layers of LLMs for text classification. Specifically, SPIN sparsifies internal neurons by linear probing-based salient neuron selection layer by layer, avoiding noise from unrelated neurons and ensuring efficiency. The cross-layer salient neurons are then integrated to serve as multi-layered features for the classification head. Extensive experimental results show our proposed SPIN significantly improves text classification accuracy, efficiency, and interpretability.",
+  "keywords": [
+    "cross",
+    "accuracy",
+    "language",
+    "model",
+    "text",
+    "llms",
+    "large language models",
+    "salient",
+    "the llm",
+    "large language models llms",
+    "information",
+    "the classification head",
+    "layer",
+    "efficiency",
+    "the cross-layer salient neurons"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.277/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

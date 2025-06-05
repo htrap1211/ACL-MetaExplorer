@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.552",
+  "title": "Extractive Summarization as Text Matching",
+  "authors": [
+    "Zhong, Ming  and\nLiu, Pengfei  and\nChen, Yiran  and\nWang, Danqing  and\nQiu, Xipeng  and\nHuang, Xuanjing"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "This paper creates a paradigm shift with regard to the way we build neural extractive summarization systems. Instead of following the commonly used framework of extracting sentences individually and modeling the relationship between sentences, we formulate the extractive summarization task as a semantic text matching problem, in which a source document and candidate summaries will be (extracted from the original text) matched in a semantic space. Notably, this paradigm shift to semantic matching framework is well-grounded in our comprehensive analysis of the inherent gap between sentence-level and summary-level extractors based on the property of the dataset. Besides, even instantiating the framework with a simple form of a matching model, we have driven the state-of-the-art extractive result on CNN/DailyMail to a new level (44.41 in ROUGE-1). Experiments on the other five datasets also show the effectiveness of the matching framework. We believe the power of this matching-based summarization framework has not been fully exploited. To encourage more instantiations in the future, we have released our codes, processed dataset, as well as generated summaries inhttps://github.com/maszhongming/MatchSum.",
+  "keywords": [
+    "form",
+    "semantic",
+    "summarization",
+    "we",
+    "rouge-1 experiments",
+    "neural",
+    "cnn",
+    "the extractive summarization task",
+    "analysis",
+    "a semantic space",
+    "text",
+    "extractive summarization",
+    "this matching-based summarization framework",
+    "cnn dailymail",
+    "semantic matching framework"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.552/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:49:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

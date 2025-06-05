@@ -1,0 +1,33 @@
+{
+  "id": "2024.repl4nlp-1.8",
+  "title": "Unified Interpretation of Smoothing Methods for Negative Sampling Loss Functions in Knowledge Graph Embedding",
+  "authors": [
+    "Feng, Xincan  and\nKamigaito, Hidetaka  and\nHayashi, Katsuhiko  and\nWatanabe, Taro"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 9th Workshop on Representation Learning for NLP (RepL4NLP-2024)",
+  "abstract": "Knowledge Graphs (KGs) are fundamental resources in knowledge-intensive tasks in NLP. Due to the limitation of manually creating KGs, KG Completion (KGC) has an important role in automatically completing KGs by scoring their links with KG Embedding (KGE). To handle many entities in training, KGE relies on Negative Sampling (NS) loss that can reduce the computational cost by sampling. Since the appearance frequencies for each link are at most one in KGs, sparsity is an essential and inevitable problem. The NS loss is no exception. As a solution, the NS loss in KGE relies on smoothing methods like Self-Adversarial Negative Sampling (SANS) and subsampling. However, it is uncertain what kind of smoothing method is suitable for this purpose due to the lack of theoretical understanding. This paper provides theoretical interpretations of the smoothing methods for the NS loss in KGE and induces a new NS loss, Triplet Adaptive Negative Sampling (TANS), that can cover the characteristics of the conventional smoothing methods. Experimental results of TransE, DistMult, ComplEx, RotatE, HAKE, and HousE on FB15k-237, WN18RR, and YAGO3-10 datasets and their sparser subsets show the soundness of our interpretation and performance improvement by our TANS.",
+  "keywords": [
+    "knowledge graph",
+    "kgc",
+    "negative sampling loss functions",
+    "graph",
+    "unified interpretation",
+    "it",
+    "kge",
+    "self",
+    "unified",
+    "loss",
+    "kgs",
+    "kge relies",
+    "kgs sparsity",
+    "many entities",
+    "knowledge graphs kgs"
+  ],
+  "url": "https://aclanthology.org/2024.repl4nlp-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

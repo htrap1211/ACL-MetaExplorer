@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.520",
+  "title": "An Imitation Learning Curriculum for Text Editing with Non-Autoregressive Models",
+  "authors": [
+    "Agrawal, Sweta  and\nCarpuat, Marine"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We propose a framework for training non-autoregressive sequence-to-sequence models for editing tasks, where the original input sequence is iteratively edited to produce the output. We show that the imitation learning algorithms designed to train such models for machine translation introduces mismatches between training and inference that lead to undertraining and poor generalization in editing scenarios. We address this issue with two complementary strategies: 1) a roll-in policy that exposes the model to intermediate training sequences that it is more likely to encounter during inference, 2) a curriculum that presents easy-to-learn edit operations first, gradually increasing the difficulty of training samples as the model becomes competent. We show the efficacy of these strategies on two challenging English editing tasks: controllable text simplification and abstractive summarization. Our approach significantly improves output quality on both tasks and controls output complexity better on the simplification task.",
+  "keywords": [
+    "these strategies",
+    "model",
+    "machine",
+    "text",
+    "it",
+    "strategies",
+    "abstractive summarization",
+    "undertraining and poor generalization",
+    "machine translation",
+    "generalization",
+    "summarization",
+    "we",
+    "sequence",
+    "two complementary strategies",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.520/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

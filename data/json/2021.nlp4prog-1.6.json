@@ -1,0 +1,33 @@
+{
+  "id": "2021.nlp4prog-1.6",
+  "title": "DIRECT} : A Transformer-based Model for Decompiled Identifier Renaming",
+  "authors": [
+    "Nitin, Vikram  and\nSaieva, Anthony  and\nRay, Baishakhi  and\nKaiser, Gail"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Natural Language Processing for Programming (NLP4Prog 2021)",
+  "abstract": "Decompiling binary executables to high-level code is an important step in reverse engineering scenarios, such as malware analysis and legacy code maintenance. However, the generated high-level code is difficult to understand since the original variable names are lost. In this paper, we leverage transformer models to reconstruct the original variable names from decompiled code. Inherent differences between code and natural language present certain challenges in applying conventional transformer-based architectures to variable name recovery. We propose DIRECT, a novel transformer-based architecture customized specifically for the task at hand. We evaluate our model on a dataset of decompiled functions and find that DIRECT outperforms the previous state-of-the-art model by up to 20%. We also present ablation studies evaluating the impact of each of our modifications. We make the source code of DIRECT available to encourage reproducible research.",
+  "keywords": [
+    "code",
+    "ablation studies",
+    "we",
+    "a transformer-based model",
+    "natural",
+    "the generated high-level code",
+    "conventional transformer-based architectures",
+    "natural language",
+    "analysis",
+    "transformer models",
+    "identifier",
+    "a novel transformer-based architecture",
+    "transformer",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2021.nlp4prog-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:19:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

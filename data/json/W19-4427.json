@@ -1,0 +1,33 @@
+{
+  "id": "W19-4427",
+  "title": "Neural Grammatical Error Correction Systems with Unsupervised Pre-training on Synthetic Data",
+  "authors": [
+    "Grundkiewicz, Roman  and\nJunczys-Dowmunt, Marcin  and\nHeafield, Kenneth"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourteenth Workshop on Innovative Use of NLP for Building Educational Applications",
+  "abstract": "Considerable effort has been made to address the data sparsity problem in neural grammatical error correction. In this work, we propose a simple and surprisingly effective unsupervised synthetic error generation method based on confusion sets extracted from a spellchecker to increase the amount of training data. Synthetic data is used to pre-train a Transformer sequence-to-sequence model, which not only improves over a strong baseline trained on authentic error-annotated data, but also enables the development of a practical GEC system in a scenario where little genuine error-annotated data is available. The developed systems placed first in the BEA19 shared task, achieving 69.47 and 64.24 F0.5in the restricted and low-resource tracks respectively, both on the W&I+LOCNESS test set. On the popular CoNLL 2014 test set, we report state-of-the-art results of 64.16 M² for the submitted system, and 61.30 M² for the constrained system trained on the NUCLE and Lang-8 data.",
+  "keywords": [
+    "we",
+    "confusion",
+    "training",
+    "neural",
+    "sequence",
+    "-",
+    "work",
+    "transformer",
+    "generation",
+    "model",
+    "pre",
+    "scenario",
+    "state",
+    "a strong baseline",
+    "error"
+  ],
+  "url": "https://aclanthology.org/W19-4427/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:54:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

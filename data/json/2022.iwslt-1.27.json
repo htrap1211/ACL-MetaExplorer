@@ -1,0 +1,33 @@
+{
+  "id": "2022.iwslt-1.27",
+  "title": "CMU}{'}s {IWSLT} 2022 Dialect Speech Translation System",
+  "authors": [
+    "Yan, Brian  and\nFernandes, Patrick  and\nDalmia, Siddharth  and\nShi, Jiatong  and\nPeng, Yifan  and\nBerrebbi, Dan  and\nWang, Xinyi  and\nNeubig, Graham  and\nWatanabe, Shinji"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022)",
+  "abstract": "This paper describes CMU’s submissions to the IWSLT 2022 dialect speech translation (ST) shared task for translating Tunisian-Arabic speech to English text. We use additional paired Modern Standard Arabic data (MSA) to directly improve the speech recognition (ASR) and machine translation (MT) components of our cascaded systems. We also augment the paired ASR data with pseudo translations via sequence-level knowledge distillation from an MT model and use these artificial triplet ST data to improve our end-to-end (E2E) systems. Our E2E models are based on the Multi-Decoder architecture with searchable hidden intermediates. We extend the Multi-Decoder by orienting the speech encoder towards the target language by applying ST supervision as hierarchical connectionist temporal classification (CTC) multi-task. During inference, we apply joint decoding of the ST CTC and ST autoregressive decoder branches of our modified Multi-Decoder. Finally, we apply ROVER voting, posterior combination, and minimum bayes-risk decoding with combined N-best lists to ensemble our various cascaded and E2E systems. Our best systems reached 20.8 and 19.5 BLEU on test2 (blind) and test1 respectively. Without any additional MSA data, we reached 20.4 and 19.2 on the same test sets.",
+  "keywords": [
+    "end",
+    "bleu",
+    "machine translation",
+    "we",
+    "the speech encoder",
+    "translation",
+    "classification",
+    "decoder",
+    "sequence",
+    "the multi-decoder architecture",
+    "19 5 bleu",
+    "text",
+    "our modified multi",
+    "-",
+    "hierarchical"
+  ],
+  "url": "https://aclanthology.org/2022.iwslt-1.27/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

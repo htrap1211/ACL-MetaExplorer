@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.15",
+  "title": "GKD}: A General Knowledge Distillation Framework for Large-scale Pre-trained Language Model",
+  "authors": [
+    "Tan, Shicheng  and\nTam, Weng Lam  and\nWang, Yuanchun  and\nGong, Wenwen  and\nZhao, Shu  and\nZhang, Peng  and\nTang, Jie"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "Currently, the reduction in the parameter scale of large-scale pre-trained language models (PLMs) through knowledge distillation has greatly facilitated their widespread deployment on various devices. However, the deployment of knowledge distillation systems faces great challenges in real-world industrial-strength applications, which require the use of complex distillation methods on even larger-scale PLMs (over 10B), limited by memory on GPUs and the switching of methods. To overcome these challenges, we propose GKD, a general knowledge distillation framework that supports distillation on larger-scale PLMs using various distillation methods. With GKD, developers can build larger distillation models on memory-limited GPUs and easily switch and combine different distillation methods within a single framework. Experimental results show that GKD can support the distillation of at least 100B-scale PLMs and 25 mainstream methods on 8 NVIDIA A100 (40GB) GPUs.",
+  "keywords": [
+    "general",
+    "knowledge",
+    "language",
+    "model",
+    "we",
+    "pre",
+    "parameter",
+    "large-scale pre-trained language model",
+    "reduction",
+    "that",
+    "applications",
+    "25 mainstream methods",
+    "great",
+    "even larger-scale plms",
+    "larger"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.15/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

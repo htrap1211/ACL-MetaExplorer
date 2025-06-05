@@ -1,0 +1,33 @@
+{
+  "id": "W19-3714",
+  "title": "JRC} {TMA}-{CC}: {S}lavic Named Entity Recognition and Linking. Participation in the {BSNLP}-2019 shared task",
+  "authors": [
+    "Jacquet, Guillaume  and\nPiskorski, Jakub  and\nTanev, Hristo  and\nSteinberger, Ralf"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 7th Workshop on Balto-Slavic Natural Language Processing",
+  "abstract": "We report on the participation of the JRC Text Mining and Analysis Competence Centre (TMA-CC) in the BSNLP-2019 Shared Task, which focuses on named-entity recognition, lemmatisation and cross-lingual linking. We propose a hybrid system combining a rule-based approach and light ML techniques. We use multilingual lexical resources such as JRC-NAMES and BABELNET together with a named entity guesser to recognise names. In a second step, we combine known names with wild cards to increase recognition recall by also capturing inflection variants. In a third step, we increase precision by filtering these name candidates with automatically learnt inflection patterns derived from name occurrences in large news article collections. Our major requirement is to achieve high precision. We achieved an average of 65% F-measure with 93% precision on the four languages.",
+  "keywords": [
+    "recognition recall",
+    "the bsnlp-2019 shared task",
+    "tma",
+    "precision",
+    "high precision",
+    "we",
+    "a named entity guesser",
+    "cross",
+    "bsnlp",
+    "analysis",
+    "text",
+    "mining",
+    "recall",
+    "the bsnlp",
+    "93 precision"
+  ],
+  "url": "https://aclanthology.org/W19-3714/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:58:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

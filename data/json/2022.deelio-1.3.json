@@ -1,0 +1,33 @@
+{
+  "id": "2022.deelio-1.3",
+  "title": "Query Generation with External Knowledge for Dense Retrieval",
+  "authors": [
+    "Cho, Sukmin  and\nJeong, Soyeong  and\nYang, Wonsuk  and\nPark, Jong"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of Deep Learning Inside Out (DeeLIO 2022): The 3rd Workshop on Knowledge Extraction and Integration for Deep Learning Architectures",
+  "abstract": "Dense retrieval aims at searching for the most relevant documents to the given query by encoding texts in the embedding space, requiring a large amount of query-document pairs to train. Since manually constructing such training data is challenging, recent work has proposed to generate synthetic queries from documents and use them to train a dense retriever. However, compared to the manually composed queries, synthetic queries do not generally ask for implicit information, therefore leading to a degraded retrieval performance. In this work, we propose Query Generation with External Knowledge (QGEK), a novel method for generating queries with external information related to the corresponding document. Specifically, we convert a query into a triplet-based template form to accommodate external information and transmit it to a pre-trained language model (PLM). We validate QGEK on both in-domain and out-domain dense retrieval settings. The dense retriever with the queries requiring implicit information is found to make good performance improvement. Also, such queries are similar to manually composed queries, confirmed by both human evaluation and unique & non-unique words distribution.",
+  "keywords": [
+    "work",
+    "such queries",
+    "knowledge",
+    "generation",
+    "language",
+    "the embedding space",
+    "model",
+    "it",
+    "human",
+    "both human evaluation",
+    "queries",
+    "a degraded retrieval performance",
+    "retrieval",
+    "information",
+    "form"
+  ],
+  "url": "https://aclanthology.org/2022.deelio-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:41:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

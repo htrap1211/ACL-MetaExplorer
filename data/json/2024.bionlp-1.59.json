@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.59",
+  "title": "e-Health {CSIRO} at ``Discharge Me!'' 2024: Generating Discharge Summary Sections with Fine-tuned Language Models",
+  "authors": [
+    "Liu, Jinghui  and\nNicolson, Aaron  and\nDowling, Jason  and\nKoopman, Bevan  and\nNguyen, Anthony"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "Clinical documentation is an important aspect of clinicians’ daily work and often demands a significant amount of time. The BioNLP 2024 Shared Task on Streamlining Discharge Documentation (Discharge Me!) aims to alleviate this documentation burden by automatically generating discharge summary sections, including brief hospital course and discharge instruction, which are often time-consuming to synthesize and write manually. We approach the generation task by fine-tuning multiple open-sourced language models (LMs), including both decoder-only and encoder-decoder LMs, with various configurations on input context. We also examine different setups for decoding algorithms, model ensembling or merging, and model specialization. Our results show that conditioning on the content of discharge summary prior to the target sections is effective for the generation task. Furthermore, we find that smaller encoder-decoder LMs can work as well or even slightly better than larger decoder-based LMs fine-tuned through LoRA. The model checkpoints from our team (aehrc) are openly available.",
+  "keywords": [
+    "we",
+    "instruction",
+    "decoder",
+    "brief hospital course",
+    "the bionlp",
+    "larger decoder-based lms",
+    "bionlp",
+    "the generation task",
+    "fine-tuned language models",
+    "me",
+    "smaller encoder-decoder lms",
+    "work",
+    "language",
+    "generation",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.59/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

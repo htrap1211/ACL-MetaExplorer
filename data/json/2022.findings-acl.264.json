@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.264",
+  "title": "From Stance to Concern: Adaptation of Propositional Analysis to New Tasks and Domains",
+  "authors": [
+    "Mather, Brodie  and\nDorr, Bonnie  and\nDalton, Adam  and\nde Beaumont, William  and\nRambow, Owen  and\nSchmer-Galunder, Sonja"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "We present a generalized paradigm for adaptation of propositional analysis (predicate-argument pairs) to new tasks and domains. We leverage an analogy between stances (belief-driven sentiment) and concerns (topical issues with moral dimensions/endorsements) to produce an explanatory representation. A key contribution is the combination of semi-automatic resource building for extraction of domain-dependent concern types (with 2-4 hours of human labor per domain) and an entirely automatic procedure for extraction of domain-independent moral dimensions and endorsement values. Prudent (automatic) selection of terms from propositional structures for lexical expansion (via semantic similarity) produces new moral dimension lexicons at three levels of granularity beyond a strong baseline lexicon. We develop a ground truth (GT) based on expert annotators and compare our concern detection output to GT, to yield 231% improvement in recall over baseline, with only a 10% loss in precision. F1 yields 66% improvement over baseline and 97.8% of human performance. Our lexically based approach yields large savings over approaches that employ costly human labor and model building. We provide to the community a newly expanded moral dimension/value lexicon, annotation guidelines, and GT.",
+  "keywords": [
+    "precision",
+    "extraction",
+    "generalized",
+    "semantic",
+    "we",
+    "semantic similarity",
+    "a generalized paradigm",
+    "stances belief-driven sentiment",
+    "loss",
+    "analysis",
+    "sentiment",
+    "recall",
+    "model",
+    "human",
+    "precision f1"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.264/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

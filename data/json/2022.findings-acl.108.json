@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.108",
+  "title": "Graph Neural Networks for Multiparallel Word Alignment",
+  "authors": [
+    "Imani, Ayyoob  and\nSenel, L{\\\"u}tfi Kerem  and\nJalili Sabet, Masoud  and\nYvon, Fran{\\c{c}}ois  and\nSchuetze, Hinrich"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "After a period of decrease, interest in word alignments is increasing again for their usefulness in domains such as typological research, cross-lingual annotation projection and machine translation. Generally, alignment algorithms only use bitext and do not make use of the fact that many parallel corpora are multiparallel. Here, we compute high-quality word alignments between multiple language pairs by considering all language pairs together. First, we create a multiparallel word alignment graph, joining all bilingual word alignment pairs in one graph. Next, we use graph neural networks (GNNs) to exploit the graph structure. Our GNN approach (i) utilizes information about the meaning, position and language of the input words, (ii) incorporates information from multiple parallel sentences, (iii) adds and removes edges from the initial alignments, and (iv) yields a prediction model that can generalize beyond the training sentences. We show that community detection algorithms can provide valuable information for multiparallel word alignment. Our method outperforms previous work on three word alignment datasets and on a downstream task.",
+  "keywords": [
+    "graph neural networks gnns",
+    "alignments",
+    "multiparallel word alignment",
+    "we",
+    "graph",
+    "training",
+    "translation",
+    "cross",
+    "neural",
+    "word alignments",
+    "information",
+    "word",
+    "the initial alignments",
+    "yields",
+    "i"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.108/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

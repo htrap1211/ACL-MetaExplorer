@@ -1,0 +1,33 @@
+{
+  "id": "2020.nlpcovid19-acl.5",
+  "title": "Self-supervised context-aware {COVID-19} document exploration through atlas grounding",
+  "authors": [
+    "Grujicic, Dusan  and\nRadevski, Gorjan  and\nTuytelaars, Tinne  and\nBlaschko, Matthew"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 1st Workshop on {NLP} for {COVID-19} at {ACL} 2020",
+  "abstract": "In this paper, we aim to develop a self-supervised grounding of Covid-related medical text based on the actual spatial relationships between the referred anatomical concepts. More specifically, we learn to project sentences into a physical space defined by a three-dimensional anatomical atlas, allowing for a visual approach to navigating Covid-related literature. We design a straightforward and empirically effective training objective to reduce the curated data dependency issue. We use BERT as the main building block of our model and perform a quantitative analysis that demonstrates that the model learns a context-aware mapping. We illustrate two potential use-cases for our approach, one in interactive, 3D data exploration, and the other in document retrieval. To accelerate research in this direction, we make public all trained models, codebase and the developed tools, which can be accessed athttps://github.com/gorjanradevski/macchina/.",
+  "keywords": [
+    "we",
+    "training",
+    "self",
+    "retrieval",
+    "visual",
+    "document retrieval",
+    "analysis",
+    "bert",
+    "text",
+    "objective",
+    "dimensional",
+    "model",
+    "dependency",
+    "the main building block",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2020.nlpcovid19-acl.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:54:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

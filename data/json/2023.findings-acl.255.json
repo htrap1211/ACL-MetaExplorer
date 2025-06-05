@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.255",
+  "title": "Q}uery{F}orm: A Simple Zero-shot Form Entity Query Framework",
+  "authors": [
+    "Wang, Zifeng  and\nZhang, Zizhao  and\nDevlin, Jacob  and\nLee, Chen-Yu  and\nSu, Guolong  and\nZhang, Hao  and\nDy, Jennifer  and\nPerot, Vincent  and\nPfister, Tomas"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Zero-shot transfer learning for document understanding is a crucial yet under-investigated scenario to help reduce the high cost involved in annotating document entities. We present a novel query-based framework, QueryForm, that extracts entity values from form-like documents in a zero-shot fashion. QueryForm contains a dual prompting mechanism that composes both the document schema and a specific entity type into a query, which is used to prompt a Transformer model to perform a single entity extraction task. Furthermore, we propose to leverage large-scale query-entity pairs generated from form-like webpages with weak HTML annotations to pre-train QueryForm. By unifying pre-training and fine-tuning into the same query-based framework, QueryForm enables models to learn from structured documents containing various entities and layouts, leading to better generalization to target document types without the need for target-specific training data. QueryForm sets new state-of-the-art average F1 score on both the XFUND (+4.6% 10.1%) and the Payment (+3.2% 9.5%) zero-shot benchmark, with a smaller model size and no additional image input.",
+  "keywords": [
+    "extraction",
+    "form",
+    "we",
+    "shot",
+    "training",
+    "various entities",
+    "learning",
+    "transfer",
+    "a dual prompting mechanism",
+    "a transformer model",
+    "a zero-shot fashion queryform",
+    "tuning",
+    "pre-training and fine-tuning",
+    "generalization",
+    "fine"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.255/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

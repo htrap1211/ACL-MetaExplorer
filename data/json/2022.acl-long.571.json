@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.571",
+  "title": "ODE} Transformer: An Ordinary Differential Equation-Inspired Model for Sequence Generation",
+  "authors": [
+    "Li, Bei  and\nDu, Quan  and\nZhou, Tao  and\nJing, Yi  and\nZhou, Shuhan  and\nZeng, Xin  and\nXiao, Tong  and\nZhu, JingBo  and\nLiu, Xuebo  and\nZhang, Min"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Residual networks are an Euler discretization of solutions to Ordinary Differential Equations (ODE). This paper explores a deeper relationship between Transformer and numerical ODE methods. We first show that a residual block of layers in Transformer can be described as a higher-order solution to ODE. Inspired by this, we design a new architecture,ODE Transformer, which is analogous to the Runge-Kutta method that is well motivated in ODE. As a natural extension to Transformer, ODE Transformer is easy to implement and efficient to use. Experimental results on the large-scale machine translation, abstractive summarization, and grammar error correction tasks demonstrate the high genericity of ODE Transformer. It can gain large improvements in model performance over strong baselines (e.g., 30.77 and 44.11 BLEU scores on the WMT’14 English-German and English-French benchmarks) at a slight cost in inference efficiency.",
+  "keywords": [
+    "efficient",
+    "bleu",
+    "inference efficiency",
+    "efficiency",
+    "summarization",
+    "we",
+    "genericity",
+    "ode",
+    "translation",
+    "the high genericity",
+    "natural",
+    "it",
+    "sequence",
+    "ode transformer",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.571/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.123",
+  "title": "DEEP}: {DE}noising Entity Pre-training for Neural Machine Translation",
+  "authors": [
+    "Hu, Junjie  and\nHayashi, Hiroaki  and\nCho, Kyunghyun  and\nNeubig, Graham"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "It has been shown that machine translation models usually generate poor translations for named entities that are infrequent in the training corpus. Earlier named entity translation methods mainly focus on phonetic transliteration, which ignores the sentence context for translation and is limited in domain and language coverage. To address this limitation, we propose DEEP, a DEnoising Entity Pre-training method that leverages large amounts of monolingual data and a knowledge base to improve named entity translation accuracy within sentences. Besides, we investigate a multi-task learning strategy that finetunes a pre-trained neural machine translation model on both entity-augmented monolingual data and parallel data to further improve entity translation. Experimental results on three language pairs demonstrate that DEEP results in significant improvements over strong denoising auto-encoding baselines, with a gain of up to 1.3 BLEU and up to 9.2 entity accuracy points for English-Russian translation.",
+  "keywords": [
+    "deep",
+    "neural machine translation",
+    "bleu",
+    "we",
+    "training",
+    "translation",
+    "neural",
+    "it",
+    "learning",
+    "english-russian translation",
+    "entity translation experimental results",
+    "that machine translation models",
+    "entity translation accuracy",
+    "poor translations",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.123/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

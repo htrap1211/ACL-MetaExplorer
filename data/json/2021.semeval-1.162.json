@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.162",
+  "title": "M}agic{P}ai at {S}em{E}val-2021 Task 7: Method for Detecting and Rating Humor Based on Multi-Task Adversarial Training",
+  "authors": [
+    "Ma, Jian  and\nXie, Shuyi  and\nYang, Haiqin  and\nJiang, Lianxin  and\nZhou, Mengyuan  and\nRuan, Xiaoyi  and\nMo, Yang"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper describes MagicPai’s system for SemEval 2021 Task 7, HaHackathon: Detecting and Rating Humor and Offense. This task aims to detect whether the text is humorous and how humorous it is. There are four subtasks in the competition. In this paper, we mainly present our solution, a multi-task learning model based on adversarial examples, for task 1a and 1b. More specifically, we first vectorize the cleaned dataset and add the perturbation to obtain more robust embedding representations. We then correct the loss via the confidence level. Finally, we perform interactive joint learning on multiple tasks to capture the relationship between whether the text is humorous and how humorous it is. The final result shows the effectiveness of our system.",
+  "keywords": [
+    "em",
+    "model",
+    "text",
+    "it",
+    "loss",
+    "we",
+    "learning",
+    "more robust embedding representations",
+    "training",
+    "7 hahackathon",
+    "task 1a",
+    "the effectiveness",
+    "multi",
+    "task",
+    "magicpai"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.162/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

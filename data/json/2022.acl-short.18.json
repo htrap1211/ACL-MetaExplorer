@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.18",
+  "title": "Data Contamination: From Memorization to Exploitation",
+  "authors": [
+    "Magar, Inbal  and\nSchwartz, Roy"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Pretrained language models are typically trained on massive web-based datasets, which are often “contaminated” with downstream test sets. It is not clear to what extent models exploit the contaminated data for downstream tasks. We present a principled method to study this question. We pretrain BERT models on joint corpora of Wikipedia and labeled downstream datasets, and fine-tune them on the relevant task. Comparing performance between samples seen and unseen during pretraining enables us to define and quantify levels of memorization and exploitation. Experiments with two models and three downstream tasks show that exploitation exists in some cases, but in others the models memorize the contaminated data, but do not exploit it. We show that these two measures are affected by different factors such as the number of duplications of the contaminated data and the model size. Our results highlight the importance of analyzing massive web-scale datasets to verify that progress in NLP is obtained by better language understanding and not better data exploitation.",
+  "keywords": [
+    "question",
+    "we",
+    "it",
+    "bert",
+    "fine",
+    "language",
+    "nlp",
+    "model",
+    "bert models",
+    "us",
+    "exploitation pretrained language models",
+    "measures",
+    "wikipedia",
+    "test",
+    "models"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.18/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:32:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

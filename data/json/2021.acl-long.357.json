@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.357",
+  "title": "F}orecast{QA}: A Question Answering Challenge for Event Forecasting with Temporal Text Data",
+  "authors": [
+    "Jin, Woojeong  and\nKhanna, Rahul  and\nKim, Suji  and\nLee, Dong-Ho  and\nMorstatter, Fred  and\nGalstyan, Aram  and\nRen, Xiang"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Event forecasting is a challenging, yet important task, as humans seek to constantly plan for the future. Existing automated forecasting studies rely mostly on structured data, such as time-series or event-based knowledge graphs, to help predict future events. In this work, we aim to formulate a task, construct a dataset, and provide benchmarks for developing methods for event forecasting with large volumes of unstructured text data. To simulate the forecasting scenario on temporal news documents, we formulate the problem as a restricted-domain, multiple-choice, question-answering (QA) task. Unlike existing QA tasks, our task limits accessible information, and thus a model has to make a forecasting judgement. To showcase the usefulness of this task formulation, we introduce ForecastQA, a question-answering dataset consisting of 10,392 event forecasting questions, which have been collected and verified via crowdsourcing efforts. We present our experiments on ForecastQA using BERTbased models and find that our best model achieves 61.0% accuracy on the dataset, which still lags behind human performance by about 19%. We hope ForecastQA will support future research efforts in bridging this gap.",
+  "keywords": [
+    "forecastqa",
+    "series",
+    "question",
+    "we",
+    "information",
+    "text",
+    "bertbased",
+    "existing qa tasks",
+    "time-series",
+    "accuracy",
+    "work",
+    "knowledge",
+    "model",
+    "studies",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.357/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

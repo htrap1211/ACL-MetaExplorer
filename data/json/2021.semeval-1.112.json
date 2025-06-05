@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.112",
+  "title": "YNU}-{HPCC} at {S}em{E}val-2021 Task 5: Using a Transformer-based Model with Auxiliary Information for Toxic Span Detection",
+  "authors": [
+    "Chen, Ruijun  and\nWang, Jin  and\nZhang, Xuejie"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "Toxic span detection requires the detection of spans that make a text toxic instead of simply classifying the text. In this paper, a transformer-based model with auxiliary information is proposed for SemEval-2021 Task 5. The proposed model was implemented based on the BERT-CRF architecture. It consists of three parts: a transformer-based model that can obtain the token representation, an auxiliary information module that combines features from different layers, and an output layer used for the classification. Various BERT-based models, such as BERT, ALBERT, RoBERTa, and XLNET, were used to learn contextual representations. The predictions of these models were assembled to improve the sequence labeling tasks by using a voting strategy. Experimental results showed that the introduced auxiliary information can improve the performance of toxic spans detection. The proposed model ranked 5th of 91 in the competition. The code of this study is available athttps://github.com/Chenrj233/semeval2021_task5",
+  "keywords": [
+    "code",
+    "roberta",
+    "em",
+    "layer",
+    "the bert-crf architecture",
+    "a transformer-based model",
+    "classification",
+    "bert albert roberta",
+    "it",
+    "albert",
+    "token",
+    "information",
+    "sequence",
+    "bert",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.112/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

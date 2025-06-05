@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.513",
+  "title": "VAEGPT}-Sim: Improving Sentence Representation with Limited Corpus Using Gradually-Denoising {VAE",
+  "authors": [
+    "Wang, Zhenyi  and\nNing, Haiyan  and\nLing, Qing  and\nWang, Dan"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Text embedding requires a highly efficient method for training domain-specific models on limited data, as general models trained on large corpora lack universal applicability in highly specific fields. Therefore, we have introduced VAEGPT-Sim, an innovative model for generating synonyms that combines a denoising variational autoencoder with a target-specific discriminator to generate synonymous sentences that closely resemble human language. Even when trained with completely unsupervised settings, it maintains a harmonious balance between semantic similarity and lexical diversity, as shown by a comprehensive evaluation metric system with the highest average scores compared to other generative models. When VAEGPT-Sim is utilized as a module for contrastive learning in text representation, it delivers state-of-the-art results in small-dataset training on STS benchmarks, surpassing ConSERT by 2.8 points. This approach optimizes the effectiveness of text representation despite a limited corpus, signifying an advancement in domain-specific embedding technology.",
+  "keywords": [
+    "a denoising variational autoencoder",
+    "domain-specific embedding technology",
+    "efficient",
+    "autoencoder",
+    "highly specific fields",
+    "semantic",
+    "we",
+    "fields",
+    "semantic similarity",
+    "training",
+    "it",
+    "other generative models",
+    "learning",
+    "generative",
+    "metric"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.513/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:55:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

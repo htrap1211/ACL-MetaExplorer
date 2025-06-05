@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.563",
+  "title": "Domain-Aware $k$-Nearest-Neighbor Knowledge Distillation for Machine Translation",
+  "authors": [
+    "Wang, Zhexuan  and\nLiu, Shudong  and\nLiu, Xuebo  and\nZhang, Miao  and\nWong, Derek  and\nZhang, Min"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "kNN-MT has utilized neighborhood knowledge for auxiliary decoding, significantly improving translation performance. Subsequently,kNN-KD transitions the use of neighborhood knowledge from the decoding phase to the training phase, to address the temporal and spatial inefficiencies inherent inkNN-MT. However,kNN-KD transfers all thekNN knowledge arbitrarily, which has the potential to restrict the learning of student models. In this paper, we propose a novel domain-awarekNN-KD method, which filters out domain-relevant neighborhood knowledge for learning in the distillation process. Notably, this entire process exclusively utilizes the neighborhood knowledge of the original model, eliminating the need for establishing any additional datastores. Experiments on four domain translation tasks demonstrate that our method achieves state-of-the-art performance, realizing an average gain of 1.55 COMET and 1.42 BLEU scores, by further enhancing the translation of rare words. Source code can be accessed at https://github.com/wangzx1219/Dk-KD.",
+  "keywords": [
+    "four domain translation tasks",
+    "code",
+    "inefficiencies",
+    "bleu",
+    "we",
+    "1 42 bleu scores",
+    "training",
+    "translation",
+    "machine translation knn-mt",
+    "learning",
+    "the translation",
+    "process",
+    "knowledge",
+    "model",
+    "machine"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.563/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:56:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

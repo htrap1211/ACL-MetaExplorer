@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-srw.36",
+  "title": "Synchronous Syntactic Attention for Transformer Neural Machine Translation",
+  "authors": [
+    "Deguchi, Hiroyuki  and\nTamura, Akihiro  and\nNinomiya, Takashi"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: Student Research Workshop",
+  "abstract": "This paper proposes a novel attention mechanism for Transformer Neural Machine Translation, “Synchronous Syntactic Attention,” inspired by synchronous dependency grammars. The mechanism synchronizes source-side and target-side syntactic self-attentions by minimizing the difference between target-side self-attentions and the source-side self-attentions mapped by the encoder-decoder attention matrix. The experiments show that the proposed method improves the translation performance on WMT14 En-De, WMT16 En-Ro, and ASPEC Ja-En (up to +0.38 points in BLEU).",
+  "keywords": [
+    "transformer",
+    "synchronous syntactic attention",
+    "the translation performance",
+    "neural",
+    "target-side self-attentions",
+    "machine",
+    "the source-side self-attentions",
+    "self",
+    "attentions",
+    "bleu",
+    "-",
+    "transformer neural machine translation",
+    "encoder",
+    "decoder",
+    "dependency"
+  ],
+  "url": "https://aclanthology.org/2021.acl-srw.36/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:09:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.484",
+  "title": "Double-Hard Debias: Tailoring Word Embeddings for Gender Bias Mitigation",
+  "authors": [
+    "Wang, Tianlu  and\nLin, Xi Victoria  and\nRajani, Nazneen Fatema  and\nMcCann, Bryan  and\nOrdonez, Vicente  and\nXiong, Caiming"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Word embeddings derived from human-generated corpora inherit strong gender bias which can be further amplified by downstream models. Some commonly adopted debiasing approaches, including the seminal Hard Debias algorithm, apply post-processing procedures that project pre-trained word embeddings into a subspace orthogonal to an inferred gender subspace. We discover that semantic-agnostic corpus regularities such as word frequency captured by the word embeddings negatively impact the performance of these algorithms. We propose a simple but effective technique, Double Hard Debias, which purifies the word embeddings against such corpus regularities prior to inferring and removing the gender subspace. Experiments on three bias mitigation benchmarks show that our approach preserves the distributional semantics of the pre-trained word embeddings while reducing gender bias to a significantly larger degree than prior approaches.",
+  "keywords": [
+    "embeddings",
+    "bias",
+    "that semantic-agnostic corpus regularities",
+    "processing",
+    "such corpus regularities",
+    "semantics",
+    "human",
+    "three bias mitigation benchmarks",
+    "gender bias",
+    "debias",
+    "pre-trained word embeddings",
+    "double-hard debias",
+    "debiasing approaches",
+    "word",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.484/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:48:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

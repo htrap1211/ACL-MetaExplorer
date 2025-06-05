@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.139",
+  "title": "Co-training for Low Resource Scientific Natural Language Inference",
+  "authors": [
+    "Sadat, Mobashir  and\nCaragea, Cornelia"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Scientific Natural Language Inference (NLI) is the task of predicting the semantic relation between a pair of sentences extracted from research articles. The automatic annotation method based on distant supervision for the training set of SciNLI, the first and most popular dataset for this task, results in label noise which inevitably degenerates the performance of classifiers. In this paper, we propose a novel co-training method that assigns weights based on the training dynamics of the classifiers to the distantly supervised labels, reflective of the manner they are used in the subsequent training epochs. That is, unlike the existing semi-supervised learning (SSL) approaches, we consider the historical behavior of the classifiers to evaluate the quality of the automatically annotated labels. Furthermore, by assigning importance weights instead of filtering out examples based on an arbitrary threshold on the predicted confidence, we maximize the usage of automatically labeled data, while ensuring that the noisy labels have a minimal impact on model training. The proposed method obtains an improvement of 1.5% in Macro F1 over the distant supervision baseline, and substantial improvements over several other strong SSL baselines. We make our code and data available on Github.",
+  "keywords": [
+    "code",
+    "the semantic relation",
+    "the manner",
+    "classifiers",
+    "semantic",
+    "we",
+    "training",
+    "macro f1",
+    "natural",
+    "co",
+    "learning",
+    "scientific",
+    "manner",
+    "-",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.139/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

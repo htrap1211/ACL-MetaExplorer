@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.30",
+  "title": "Is That the Right Dose? Investigating Generative Language Model Performance on Veterinary Prescription Text Analysis",
+  "authors": [
+    "Hur, Brian  and\nWang, Lucy Lu  and\nHardefeldt, Laura  and\nYetisgen, Meliha"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "Optimizing antibiotic dosing recommendations is a vital aspect of antimicrobial stewardship (AMS) programs aimed at combating antimicrobial resistance (AMR), a significant public health concern, where inappropriate dosing contributes to the selection of AMR pathogens. A key challenge is the extraction of dosing information, which is embedded in free-text clinical records and necessitates numerical transformations. This paper assesses the utility of Large Language Models (LLMs) in extracting essential prescription attributes such as dose, duration, active ingredient, and indication. We evaluate methods to optimize LLMs on this task against a baseline BERT-based ensemble model. Our findings reveal that LLMs can achieve exceptional accuracy by combining probabilistic predictions with deterministic calculations, enforced through functional prompting, to ensure data types and execute necessary arithmetic. This research demonstrates new prospects for automating aspects of AMS when no training data is available.",
+  "keywords": [
+    "extraction",
+    "generative language model performance",
+    "we",
+    "training",
+    "ensemble",
+    "information",
+    "ingredient",
+    "analysis",
+    "llms",
+    "generative",
+    "bert",
+    "text",
+    "dose duration active ingredient",
+    "accuracy",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.30/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

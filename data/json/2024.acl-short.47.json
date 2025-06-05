@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-short.47",
+  "title": "AGR}: Reinforced Causal Agent-Guided Self-explaining Rationalization",
+  "authors": [
+    "Zhao, Yunxiao  and\nWang, Zhiqiang  and\nLi, Xiaoli  and\nLiang, Jiye  and\nLi, Ru"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Most existing rationalization approaches are susceptible to degeneration accumulation due to a lack of effective control over the learning direction of the model during training. To address this issue, we propose a novel approach AGR (Agent-GuidedRationalization), guiding the next action of the model based on its current training state. Specifically, we introduce causal intervention calculus to quantify the causal effects inherent during rationale training, and utilize reinforcement learning process to refine the learning bias of them. Furthermore, we pretrain an agent within this reinforced causal environment to guide the next step of the model. Wetheoreticallydemonstrate that a good model needs the desired guidance, andempiricallyshow the effectiveness of our approach, outperforming existing state-of-the-art methods on BeerAdvocate and HotelReview datasets.",
+  "keywords": [
+    "reinforcement",
+    "process",
+    "bias",
+    "model",
+    "degeneration accumulation",
+    "beeradvocate and hotelreview datasets",
+    "self",
+    "hotelreview",
+    "we",
+    "learning",
+    "reinforcement learning process",
+    "degeneration",
+    "action",
+    "the learning bias",
+    "current"
+  ],
+  "url": "https://aclanthology.org/2024.acl-short.47/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:46:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

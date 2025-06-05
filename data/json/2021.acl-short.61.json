@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.61",
+  "title": "Zero-shot Fact Verification by Claim Generation",
+  "authors": [
+    "Pan, Liangming  and\nChen, Wenhu  and\nXiong, Wenhan  and\nKan, Min-Yen  and\nWang, William Yang"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Neural models for automated fact verification have achieved promising results thanks to the availability of large, human-annotated datasets. However, for each new domain that requires fact verification, creating a dataset by manually writing claims and linking them to their supporting evidence is expensive. We develop QACG, a framework for training a robust fact verification model by using automatically generated claims that can be supported, refuted, or unverifiable from evidence from Wikipedia. QACG generates question-answer pairs from the evidence and then converts them into different types of claims. Experiments on the FEVER dataset show that our QACG framework significantly reduces the demand for human-annotated training data. In a zero-shot scenario, QACG improves a RoBERTa model’s F1 from 50% to 77%, equivalent in performance to 2K+ manually-curated examples. Our QACG code is publicly available.",
+  "keywords": [
+    "code",
+    "roberta",
+    "generation",
+    "answer",
+    "a zero-shot scenario qacg",
+    "neural",
+    "model",
+    "our qacg code",
+    "human",
+    "claim generation neural models",
+    "zero-shot fact verification",
+    "question",
+    "we",
+    "wikipedia qacg",
+    "automatically generated claims"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.61/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

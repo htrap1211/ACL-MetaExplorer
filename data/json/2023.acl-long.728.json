@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.728",
+  "title": "m{CLIP}: Multilingual {CLIP} via Cross-lingual Transfer",
+  "authors": [
+    "Chen, Guanhua  and\nHou, Lu  and\nChen, Yun  and\nDai, Wenliang  and\nShang, Lifeng  and\nJiang, Xin  and\nLiu, Qun  and\nPan, Jia  and\nWang, Wenping"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large-scale vision-language pretrained (VLP) models like CLIP have shown remarkable performance on various downstream cross-modal tasks. However, they are usually biased towards English due to the lack of sufficient non-English image-text pairs. Existing multilingual VLP methods often learn retrieval-inefficient single-stream models by translation-augmented non-English image-text pairs. In this paper, we introduce mCLIP, a retrieval-efficient dual-stream multilingual VLP model, trained by aligning the CLIP model and a Multilingual Text Encoder (MTE) through a novel Triangle Cross-modal Knowledge Distillation (TriKD) method. It is parameter-efficient as only two light projectors on the top of them are updated during distillation. Furthermore, to enhance the token- and sentence-level multilingual representation of the MTE, we propose to train it with machine translation and contrastive learning jointly before the TriKD to provide a better initialization. Empirical results show that mCLIP achieves new state-of-the-art performance for both zero-shot and finetuned multilingual image-text retrieval task.",
+  "keywords": [
+    "both zero-shot",
+    "inefficient",
+    "efficient",
+    "machine translation",
+    "we",
+    "retrieval-inefficient single-stream models",
+    "parameter",
+    "shot",
+    "translation",
+    "translation-augmented non-english image-text pairs",
+    "cross",
+    "multilingual image-text retrieval task",
+    "it",
+    "retrieval",
+    "sufficient"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.728/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:45:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

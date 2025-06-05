@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.41",
+  "title": "U}ni{S}-{MMC}: Multimodal Classification via Unimodality-supervised Multimodal Contrastive Learning",
+  "authors": [
+    "Zou, Heqing  and\nShen, Meng  and\nChen, Chen  and\nHu, Yuchen  and\nRajan, Deepu  and\nChng, Eng Siong"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Multimodal learning aims to imitate human beings to acquire complementary information from multiple modalities for various downstream tasks. However, traditional aggregation-based multimodal fusion methods ignore the inter-modality relationship, treat each modality equally, suffer sensor noise, and thus reduce multimodal learning performance. In this work, we propose a novel multimodal contrastive method to explore more reliable multimodal representations under the weak supervision of unimodal predicting. Specifically, we first capture task-related unimodal representations and the unimodal predictions from the introduced unimodal predicting task. Then the unimodal representations are aligned with the more effective one by the designed multimodal contrastive method under the supervision of the unimodal predictions. Experimental results with fused features on two image-text classification benchmarks UPMC-Food-101 and N24News show that our proposed Unimodality-Supervised MultiModal Contrastive UniS-MMC learning method outperforms current state-of-the-art multimodal methods. The detailed ablation study and analysis further demonstrate the advantage of our proposed method.",
+  "keywords": [
+    "we",
+    "fusion",
+    "current",
+    "classification",
+    "u",
+    "information",
+    "learning",
+    "analysis",
+    "text",
+    "multiple modalities",
+    "two image-text classification",
+    "work",
+    "human",
+    "modalities",
+    "ni"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.41/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

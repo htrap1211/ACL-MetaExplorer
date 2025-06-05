@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.202",
+  "title": "S}tream{A}tt: Direct Streaming Speech-to-Text Translation with Attention-based Audio History Selection",
+  "authors": [
+    "Papi, Sara  and\nGaido, Marco  and\nNegri, Matteo  and\nBentivogli, Luisa"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Streaming speech-to-text translation (StreamST) is the task of automatically translating speech while incrementally receiving an audio stream. Unlike simultaneous ST (SimulST), which deals with pre-segmented speech, StreamST faces the challenges of handling continuous and unbounded audio streams. This requires additional decisions about what to retain of the previous history, which is impractical to keep entirely due to latency and computational constraints. Despite the real-world demand for real-time ST, research on streaming translation remains limited, with existing works solely focusing on SimulST. To fill this gap, we introduce StreamAtt, the first StreamST policy, and propose StreamLAAL, the first StreamST latency metric designed to be comparable with existing metrics for SimulST. Extensive experiments across all 8 languages of MuST-C v1.0 show the effectiveness of StreamAtt compared to a naive streaming baseline and the related state-of-the-art SimulST policy, providing a first step in StreamST research.",
+  "keywords": [
+    "we",
+    "translation",
+    "metric",
+    "text",
+    "metrics",
+    "streaming translation",
+    "attention",
+    "pre",
+    "existing metrics",
+    "time",
+    "the real-world demand",
+    "state",
+    "effectiveness",
+    "previous",
+    "comparable"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.202/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

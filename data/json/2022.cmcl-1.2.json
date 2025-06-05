@@ -1,0 +1,33 @@
+{
+  "id": "2022.cmcl-1.2",
+  "title": "A Neural Model for Compositional Word Embeddings and Sentence Processing",
+  "authors": [
+    "Lappin, Shalom  and\nBernardy, Jean-Philippe"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics",
+  "abstract": "We propose a new neural model for word embeddings, which uses Unitary Matrices as the primary device for encoding lexical information. It uses simple matrix multiplication to derive matrices for large units, yielding a sentence processing model that is strictly compositional, does not lose information over time steps, and is transparent, in the sense that word embeddings can be analysed regardless of context. This model does not employ activation functions, and so the network is fully accessible to analysis by the methods of linear algebra at each point in its operation on an input sequence. We test it in two NLP agreement tasks and obtain rule like perfect accuracy, with greater stability than current state-of-the-art systems. Our proposed model goes some way towards offering a class of computationally powerful deep learning systems that can be fully understood and compared to human cognitive processes for natural language learning and representation.",
+  "keywords": [
+    "deep",
+    "compositional word embeddings",
+    "we",
+    "current",
+    "activation functions",
+    "neural",
+    "natural",
+    "it",
+    "information",
+    "word",
+    "sequence",
+    "learning",
+    "analysis",
+    "processing",
+    "activation"
+  ],
+  "url": "https://aclanthology.org/2022.cmcl-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:40:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

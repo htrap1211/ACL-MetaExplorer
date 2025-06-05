@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.104",
+  "title": "Hierarchy-Aware Global Model for Hierarchical Text Classification",
+  "authors": [
+    "Zhou, Jie  and\nMa, Chunping  and\nLong, Dingkun  and\nXu, Guangwei  and\nDing, Ning  and\nZhang, Haoyu  and\nXie, Pengjun  and\nLiu, Gongshen"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Hierarchical text classification is an essential yet challenging subtask of multi-label text classification with a taxonomic hierarchy. Existing methods have difficulties in modeling the hierarchical label structure in a global view. Furthermore, they cannot make full use of the mutual interactions between the text feature space and the label space. In this paper, we formulate the hierarchy as a directed graph and introduce hierarchy-aware structure encoders for modeling label dependencies. Based on the hierarchy encoder, we propose a novel end-to-end hierarchy-aware global model (HiAGM) with two variants. A multi-label attention variant (HiAGM-LA) learns hierarchy-aware label embeddings through the hierarchy encoder and conducts inductive fusion of label-aware text features. A text feature propagation model (HiAGM-TP) is proposed as the deductive variant that directly feeds text features into hierarchy encoders. Compared with previous works, both HiAGM-LA and HiAGM-TP achieve significant and consistent improvements on three benchmark datasets.",
+  "keywords": [
+    "embeddings",
+    "hierarchical",
+    "the hierarchical label structure",
+    "a global view",
+    "end",
+    "hierarchy-aware label embeddings",
+    "model",
+    "hierarchy-aware structure encoders",
+    "text",
+    "multi-label text classification",
+    "view",
+    "encoder",
+    "hierarchy encoders",
+    "dependencies",
+    "the hierarchy"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.104/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:43:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

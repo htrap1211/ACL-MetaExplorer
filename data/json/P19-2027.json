@@ -1,0 +1,33 @@
+{
+  "id": "P19-2027",
+  "title": "Dialogue-Act Prediction of Future Responses Based on Conversation History",
+  "authors": [
+    "Tanaka, Koji  and\nTakayama, Junya  and\nArase, Yuki"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "Sequence-to-sequence models are a common approach to develop a chatbot. They can train a conversational model in an end-to-end manner. One significant drawback of such a neural network based approach is that the response generation process is a black-box, and how a specific response is generated is unclear. To tackle this problem, an interpretable response generation mechanism is desired. As a step toward this direction, we focus on dialogue-acts (DAs) that may provide insight to understand the response generation process. In particular, we propose a method to predict a DA of the next response based on the history of previous utterances and their DAs. Experiments using a Switch Board Dialogue Act corpus show that compared to the baseline considering only a single utterance, our model achieves 10.8% higher F1-score and 3.0% higher accuracy on DA prediction.",
+  "keywords": [
+    "chatbot",
+    "process",
+    "3 0 higher accuracy",
+    "end",
+    "generation",
+    "10 8 higher f1-score",
+    "neural",
+    "a chatbot",
+    "model",
+    "dialogue-act prediction",
+    "dialogue-acts das",
+    "conversational",
+    "conversation",
+    "network",
+    "sequence"
+  ],
+  "url": "https://aclanthology.org/P19-2027/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:48:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

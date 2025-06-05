@@ -1,0 +1,33 @@
+{
+  "id": "P19-2026",
+  "title": "Joint Learning of Named Entity Recognition and Entity Linking",
+  "authors": [
+    "Martins, Pedro Henrique  and\nMarinho, Zita  and\nMartins, Andr{\\'e} F. T."
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "Named entity recognition (NER) and entity linking (EL) are two fundamentally related tasks, since in order to perform EL, first the mentions to entities have to be detected. However, most entity linking approaches disregard the mention detection part, assuming that the correct mentions have been previously detected. In this paper, we perform joint learning of NER and EL to leverage their relatedness and obtain a more robust and generalisable system. For that, we introduce a model inspired by the Stack-LSTM approach. We observe that, in fact, doing multi-task learning of NER and EL improves the performance in both tasks when comparing with models trained with individual objectives. Furthermore, we achieve results competitive with the state-of-the-art in both NER and EL.",
+  "keywords": [
+    "generalisable",
+    "ner",
+    "objectives",
+    "individual objectives",
+    "model",
+    "named entity recognition",
+    "entities",
+    "both ner",
+    "entity recognition ner",
+    "el",
+    "we",
+    "learning",
+    "the stack-lstm approach",
+    "lstm",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/P19-2026/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:48:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

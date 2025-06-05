@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.121",
+  "title": "Attend, Translate and Summarize: An Efficient Method for Neural Cross-Lingual Summarization",
+  "authors": [
+    "Zhu, Junnan  and\nZhou, Yu  and\nZhang, Jiajun  and\nZong, Chengqing"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Cross-lingual summarization aims at summarizing a document in one language (e.g., Chinese) into another language (e.g., English). In this paper, we propose a novel method inspired by the translation pattern in the process of obtaining a cross-lingual summary. We first attend to some words in the source text, then translate them into the target language, and summarize to get the final summary. Specifically, we first employ the encoder-decoder attention distribution to attend to the source words. Second, we present three strategies to acquire the translation probability, which helps obtain the translation candidates for each source word. Finally, each summary word is generated either from the neural distribution or from the translation candidates of source words. Experimental results on Chinese-to-English and English-to-Chinese summarization tasks have shown that our proposed method can significantly outperform the baselines, achieving comparable performance with the state-of-the-art.",
+  "keywords": [
+    "cross",
+    "process",
+    "the translation probability",
+    "language",
+    "neural",
+    "text",
+    "efficient",
+    "strategies",
+    "encoder",
+    "the translation candidates",
+    "decoder",
+    "we",
+    "summarization",
+    "attention",
+    "word"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.121/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:43:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.c3nlp-1.5",
+  "title": "Does Cross-Cultural Alignment Change the Commonsense Morality of Language Models?",
+  "authors": [
+    "Jinnai, Yuu"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 2nd Workshop on Cross-Cultural Considerations in NLP",
+  "abstract": "Alignment of the language model with human preferences is a common approach to making a language model useful to end users.However, most alignment work is done in English, and human preference datasets are dominated by English, reflecting only the preferences of English-speaking annotators.Nevertheless, it is common practice to use the English preference data, either directly or by translating it into the target language, when aligning a multilingual language model.The question is whether such an alignment strategy marginalizes the preference of non-English speaking users.To this end, we investigate the effect of aligning Japanese language models with (mostly) English resources.In particular, we focus on evaluating whether the commonsense morality of the resulting fine-tuned models is aligned with Japanese culture using the JCommonsenseMorality (JCM) and ETHICS datasets.The experimental results show that the fine-tuned model outperforms the SFT model. However, it does not demonstrate the same level of improvement as a model fine-tuned using the JCM, suggesting that while some aspects of commonsense morality are transferable, others may not be.",
+  "keywords": [
+    "end",
+    "question",
+    "we",
+    "cross",
+    "cross-cultural alignment",
+    "it",
+    "most alignment work",
+    "a language model",
+    "the language model",
+    "japanese language models",
+    "a multilingual language model",
+    "language models",
+    "work",
+    "alignment",
+    "such an alignment strategy"
+  ],
+  "url": "https://aclanthology.org/2024.c3nlp-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:05:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

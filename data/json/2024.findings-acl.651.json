@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.651",
+  "title": "PANDA}: Preference Adaptation for Enhancing Domain-Specific Abilities of {LLM}s",
+  "authors": [
+    "Liu, An  and\nYang, Zonghan  and\nZhang, Zhenhe  and\nHu, Qingyuan  and\nLi, Peng  and\nYan, Ming  and\nZhang, Ji  and\nHuang, Fei  and\nLiu, Yang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "While Large language models (LLMs) have demonstrated considerable capabilities across various natural language tasks, they often fall short of the performance achieved by domain-specific state-of-the-art models. One potential approach to enhance domain-specific capabilities of LLMs involves fine-tuning them using corresponding datasets. However, this method can be both resource and time-intensive, and not applicable to closed-source commercial LLMs. In this paper, we propose Preference Adaptation for Enhancing Domain-specific Abilities of LLMs (PANDA), a method designed to augment the domain-specific capabilities of LLMs by leveraging insights from the response preference of expert models without requiring fine-tuning. Our experimental results reveal that PANDA significantly enhances the domain-specific ability of LLMs on text classification and interactive decision tasks. Moreover, LLM with PANDA even outperforms the expert model that being learned on 4 tasks of ScienceWorld. This finding highlights the potential of exploring tuning-free approaches to achieve weak-to-strong generalization.",
+  "keywords": [
+    "the domain-specific capabilities",
+    "we",
+    "llm",
+    "classification",
+    "natural",
+    "text classification",
+    "llms",
+    "scienceworld",
+    "abilities",
+    "domain-specific capabilities",
+    "tuning",
+    "closed-source commercial llms",
+    "text",
+    "domain-specific abilities",
+    "large language models llms"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.651/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

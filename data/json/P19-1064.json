@@ -1,0 +1,33 @@
+{
+  "id": "P19-1064",
+  "title": "End-to-end Deep Reinforcement Learning Based Coreference Resolution",
+  "authors": [
+    "Fei, Hongliang  and\nLi, Xu  and\nLi, Dingcheng  and\nLi, Ping"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Recent neural network models have significantly advanced the task of coreference resolution. However, current neural coreference models are usually trained with heuristic loss functions that are computed over a sequence of local decisions. In this paper, we introduce an end-to-end reinforcement learning based coreference resolution model to directly optimize coreference evaluation metrics. Specifically, we modify the state-of-the-art higher-order mention ranking approach in Lee et al. (2018) to a reinforced policy gradient model by incorporating the reward associated with a sequence of coreference linking actions. Furthermore, we introduce maximum entropy regularization for adequate exploration to prevent the model from prematurely converging to a bad local optimum. Our proposed model achieves new state-of-the-art performance on the English OntoNotes v5.0 benchmark.",
+  "keywords": [
+    "deep",
+    "reinforcement",
+    "end",
+    "heuristic loss functions",
+    "neural",
+    "model",
+    "metrics",
+    "coreference evaluation metrics",
+    "loss",
+    "current neural coreference models",
+    "coreference resolution",
+    "gradient",
+    "coreference linking actions",
+    "regularization",
+    "maximum entropy regularization"
+  ],
+  "url": "https://aclanthology.org/P19-1064/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:29:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

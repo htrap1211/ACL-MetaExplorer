@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.153",
+  "title": "Combining Feature and Instance Attribution to Detect Artifacts",
+  "authors": [
+    "Pezeshkpour, Pouya  and\nJain, Sarthak  and\nSingh, Sameer  and\nWallace, Byron"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Training the deep neural networks that dominate NLP requires large datasets. These are often collected automatically or via crowdsourcing, and may exhibit systematic biases or annotation artifacts. By the latter we mean spurious correlations between inputs and outputs that do not represent a generally held causal relationship between features and classes; models that exploit such correlations may appear to perform a given task well, but fail on out of sample data. In this paper, we evaluate use of different attribution methods for aiding identification of training data artifacts. We propose new hybrid approaches that combine saliency maps (which highlight important input features) with instance attribution methods (which retrieve training samples influential to a given prediction). We show that this proposed training-feature attribution can be used to efficiently uncover artifacts in training data when a challenging validation set is available. We also carry out a small user study to evaluate whether these methods are useful to NLP researchers in practice, with promising results. We make code for all methods and experiments in this paper available.",
+  "keywords": [
+    "deep",
+    "code",
+    "validation",
+    "we",
+    "training",
+    "neural",
+    "saliency maps",
+    "saliency",
+    "systematic biases",
+    "biases",
+    "nlp",
+    "the deep neural networks",
+    "promising",
+    "correlations",
+    "large datasets"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.153/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "W19-4312",
+  "title": "Towards Robust Named Entity Recognition for Historic {G}erman",
+  "authors": [
+    "Schweter, Stefan  and\nBaiter, Johannes"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)",
+  "abstract": "In this paper we study the influence of using language model pre-training for named entity recognition for Historic German. We achieve new state-of-the-art results using carefully chosen training data for language models. For a low-resource domain like named entity recognition for Historic German, language model pre-training can be a strong competitor to CRF-only methods. We show that language model pre-training can be more effective than using transfer-learning with labeled datasets. Furthermore, we introduce a new language model pre-training objective, synthetic masked language model pre-training (SMLM), that allows a transfer from one domain (contemporary texts) to another domain (historical texts) by using only the same (character) vocabulary. Results show that using SMLM can achieve comparable results for Historic named entity recognition, even when they are only trained on contemporary texts. Our pre-trained character-based language models improve upon classical CRF-based methods and previous work on Bi-LSTMs by boosting F1 score performance by up to 6%.",
+  "keywords": [
+    "robust named entity recognition",
+    "we",
+    "training",
+    "historic german language model",
+    "learning",
+    "transfer",
+    "that language model pre",
+    "language model",
+    "named entity recognition",
+    "objective",
+    "language models",
+    "-",
+    "lstms",
+    "bi",
+    "work"
+  ],
+  "url": "https://aclanthology.org/W19-4312/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:03:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

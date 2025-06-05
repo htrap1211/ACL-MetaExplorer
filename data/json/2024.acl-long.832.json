@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.832",
+  "title": "M}4{LE}: A Multi-Ability Multi-Range Multi-Task Multi-Domain Long-Context Evaluation Benchmark for Large Language Models",
+  "authors": [
+    "Kwan, Wai-Chung  and\nZeng, Xingshan  and\nWang, Yufei  and\nSun, Yusen  and\nLi, Liangyou  and\nJiang, Yuxin  and\nShang, Lifeng  and\nLiu, Qun  and\nWong, Kam-Fai"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Managing long sequences has become an important and necessary feature for large language models (LLMs). However, assessing their ability to handle long contexts remains a challenge. This paper introduces M4LE, aMulti-ability,Multi-range,Multi-task,Multi-domain benchmark forLong-contextEvaluation. It encompasses 36 NLP datasets, covering 11 types of tasks and 12 domains, providing a comprehensive test bed. To address the lack of tasks featuring naturally long sequences, we propose an automatic approach to convert short-sequence tasks into long-sequence scenarios. These scenarios evaluate LLMs’ long-context understanding across five key abilities: understanding of single or multiple relevant spans in long contexts based on explicit or semantic hints, and global context understanding. This automatic approach allows us to create instances evenly distributed from 1k to 8k input length. Our evaluation of 11 prominent LLMs reveals that 1) Current LLMs struggle to understand long context, particularly when tasks require multiple-span attention. 2) Semantic retrieval is more difficult for competent LLMs. 3) Models fine-tuned on longer text with position interpolation have comparable performance to those using Neural Tangent Kernel (NTK) aware scaling methods without fine-tuning. We make our benchmark publicly available to encourage future research in this challenging area.",
+  "keywords": [
+    "kernel",
+    "competent llms",
+    "1 current llms",
+    "semantic",
+    "we",
+    "current",
+    "fine-tuning",
+    "neural",
+    "it",
+    "11 prominent llms",
+    "retrieval",
+    "contextevaluation",
+    "sequence",
+    "bed",
+    "llms"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.832/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:45:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

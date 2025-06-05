@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.146",
+  "title": "Sentence-T5: Scalable Sentence Encoders from Pre-trained Text-to-Text Models",
+  "authors": [
+    "Ni, Jianmo  and\nHernandez Abrego, Gustavo  and\nConstant, Noah  and\nMa, Ji  and\nHall, Keith  and\nCer, Daniel  and\nYang, Yinfei"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "We provide the first exploration of sentence embeddings from text-to-text transformers (T5) including the effects of scaling up sentence encoders to 11B parameters. Sentence embeddings are broadly useful for language processing tasks. While T5 achieves impressive performance on language tasks, it is unclear how to produce sentence embeddings from encoder-decoder models. We investigate three methods to construct Sentence-T5 (ST5) models: two utilize only the T5 encoder and one using the full T5 encoder-decoder. We establish a new sentence representation transfer benchmark, SentGLUE, which extends the SentEval toolkit to nine tasks from the GLUE benchmark. Our encoder-only models outperform the previous best models on both SentEval and SentGLUE transfer tasks, including semantic textual similarity (STS). Scaling up ST5 from millions to billions of parameters shown to consistently improve performance. Finally, our encoder-decoder method achieves a new state-of-the-art on STS when using sentence embeddings.",
+  "keywords": [
+    "embeddings",
+    "transformers",
+    "encoder-decoder models",
+    "the full t5 encoder-decoder",
+    "processing",
+    "language",
+    "text",
+    "sentence encoders",
+    "it",
+    "our encoder-only models",
+    "encoder",
+    "decoder",
+    "semantic textual similarity sts",
+    "our encoder-decoder method",
+    "semantic"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.146/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

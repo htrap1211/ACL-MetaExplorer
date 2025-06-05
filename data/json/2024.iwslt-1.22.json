@@ -1,0 +1,33 @@
+{
+  "id": "2024.iwslt-1.22",
+  "title": "CMU}{'}s {IWSLT} 2024 Offline Speech Translation System: A Cascaded Approach For Long-Form Robustness",
+  "authors": [
+    "Yan, Brian  and\nFernandes, Patrick  and\nTian, Jinchuan  and\nOuyang, Siqi  and\nChen, William  and\nLivescu, Karen  and\nLi, Lei  and\nNeubig, Graham  and\nWatanabe, Shinji"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 21st International Conference on Spoken Language Translation (IWSLT 2024)",
+  "abstract": "This work describes CMU’s submission to the IWSLT 2024 Offline Speech Translation (ST) Shared Task for translating English speech to German, Chinese, and Japanese text. We are the first participants to employ a long-form strategy which directly processes unsegmented recordings without the need for a separate voice-activity detection stage (VAD). We show that the Whisper automatic speech recognition (ASR) model has a hallucination problem when applied out-of-the-box to recordings containing non-speech noises, but a simple noisy fine-tuning approach can greatly enhance Whisper’s long-form robustness across multiple domains. Then, we feed English ASR outputs into fine-tuned NLLB machine translation (MT) models which are decoded using COMET-based Minimum Bayes Risk. Our VAD-free ASR+MT cascade is tested on TED talks, TV series, and workout videos and shown to outperform prior winning IWSLT submissions and large open-source models.",
+  "keywords": [
+    "series",
+    "form",
+    "we",
+    "translation",
+    "ted talks tv series",
+    "tuning",
+    "text",
+    "fine",
+    "work",
+    "model",
+    "machine",
+    "bayes",
+    "approach",
+    "whisper",
+    "english speech"
+  ],
+  "url": "https://aclanthology.org/2024.iwslt-1.22/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:06:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.87",
+  "title": "nm{T}5 - Is parallel data still relevant for pre-training massively multilingual language models?",
+  "authors": [
+    "Kale, Mihir  and\nSiddhant, Aditya  and\nAl-Rfou, Rami  and\nXue, Linting  and\nConstant, Noah  and\nJohnson, Melvin"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Recently, mT5 - a massively multilingual version of T5 - leveraged a unified text-to-text format to attain state-of-the-art results on a wide variety of multilingual NLP tasks. In this paper, we investigate the impact of incorporating parallel data into mT5 pre-training. We find that multi-tasking language modeling with objectives such as machine translation during pre-training is a straightforward way to improve performance on downstream multilingual and cross-lingual tasks. However, the gains start to diminish as the model capacity increases, suggesting that parallel data might not be as essential for larger models. At the same time, even at larger model sizes, we find that pre-training with parallel data still provides benefits in the limited labelled data regime",
+  "keywords": [
+    "cross",
+    "t",
+    "variety",
+    "multilingual nlp tasks",
+    "objectives",
+    "language",
+    "nlp",
+    "machine",
+    "model",
+    "text",
+    "-",
+    "unified",
+    "machine translation",
+    "format",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.87/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:08:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

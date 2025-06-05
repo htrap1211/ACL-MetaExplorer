@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.398",
+  "title": "T}a{P}as: Weakly Supervised Table Parsing via Pre-training",
+  "authors": [
+    "Herzig, Jonathan  and\nNowak, Pawel Krzysztof  and\nM{\\\"u}ller, Thomas  and\nPiccinno, Francesco  and\nEisenschlos, Julian"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Answering natural language questions over tables is usually seen as a semantic parsing task. To alleviate the collection cost of full logical forms, one popular approach focuses on weak supervision consisting of denotations instead of logical forms. However, training semantic parsers from weak supervision poses difficulties, and in addition, the generated logical forms are only used as an intermediate step prior to retrieving the denotation. In this paper, we present TaPas, an approach to question answering over tables without generating logical forms. TaPas trains from weak supervision, and predicts the denotation by selecting table cells and optionally applying a corresponding aggregation operator to such selection. TaPas extends BERT’s architecture to encode tables as input, initializes from an effective joint pre-training of text segments and tables crawled from Wikipedia, and is trained end-to-end. We experiment with three different semantic parsing datasets, and find that TaPas outperforms or rivals semantic parsing models by improving state-of-the-art accuracy on SQA from 55.1 to 67.2 and performing on par with the state-of-the-art on WikiSQL and WikiTQ, but with a simpler model architecture. We additionally find that transfer learning, which is trivial in our setting, from WikiSQL to WikiTQ, yields 48.7 accuracy, 4.2 points above the state-of-the-art.",
+  "keywords": [
+    "semantic parsers",
+    "parsing",
+    "end",
+    "encode",
+    "semantic",
+    "we",
+    "training",
+    "natural",
+    "bert s architecture",
+    "learning",
+    "transfer",
+    "wikitq yields",
+    "difficulties",
+    "yields",
+    "the generated logical forms"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.398/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:47:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

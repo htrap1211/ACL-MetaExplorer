@@ -1,0 +1,33 @@
+{
+  "id": "P18-1010",
+  "title": "Hierarchical Losses and New Resources for Fine-grained Entity Typing and Linking",
+  "authors": [
+    "Murty, Shikhar  and\nVerga, Patrick  and\nVilnis, Luke  and\nRadovanovic, Irena  and\nMcCallum, Andrew"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Extraction from raw text to a knowledge base of entities and fine-grained types is often cast as prediction into a flat set of entity and type labels, neglecting the rich hierarchies over types and entities contained in curated ontologies. Previous attempts to incorporate hierarchical structure have yielded little benefit and are restricted to shallow ontologies. This paper presents new methods using real and complex bilinear mappings for integrating hierarchical information, yielding substantial improvement over flat predictions in entity linking and fine-grained entity typing, and achieving new state-of-the-art results for end-to-end models on the benchmark FIGER dataset. We also present two new human-annotated datasets containing wide and deep hierarchies which we will release to the community to encourage further research in this direction:MedMentions, a collection of PubMed abstracts in which 246k mentions have been mapped to the massive UMLS ontology; andTypeNet, which aligns Freebase types with the WordNet hierarchy to obtain nearly 2k entity types. In experiments on all three datasets we show substantial gains from hierarchy-aware training.",
+  "keywords": [
+    "deep",
+    "the wordnet hierarchy",
+    "curated ontologies",
+    "end",
+    "extraction",
+    "we",
+    "training",
+    "wide and deep hierarchies",
+    "shallow ontologies",
+    "ontologies",
+    "information",
+    "rich",
+    "text",
+    "hierarchical information",
+    "hierarchy"
+  ],
+  "url": "https://aclanthology.org/P18-1010/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:09:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

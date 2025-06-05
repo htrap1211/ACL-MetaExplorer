@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.420",
+  "title": "Syntax-Enhanced Pre-trained Model",
+  "authors": [
+    "Xu, Zenan  and\nGuo, Daya  and\nTang, Duyu  and\nSu, Qinliang  and\nShou, Linjun  and\nGong, Ming  and\nZhong, Wanjun  and\nQuan, Xiaojun  and\nJiang, Daxin  and\nDuan, Nan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "We study the problem of leveraging the syntactic structure of text to enhance pre-trained models such as BERT and RoBERTa. Existing methods utilize syntax of text either in the pre-training stage or in the fine-tuning stage, so that they suffer from discrepancy between the two stages. Such a problem would lead to the necessity of having human-annotated syntactic information, which limits the application of existing methods to broader scenarios. To address this, we present a model that utilizes the syntax of text in both pre-training and fine-tuning stages. Our model is based on Transformer with a syntax-aware attention layer that considers the dependency tree of the text. We further introduce a new pre-training task of predicting the syntactic distance among tokens in the dependency tree. We evaluate the model on three downstream tasks, including relation classification, entity typing, and question answering. Results show that our model achieves state-of-the-art performance on six public benchmark datasets. We have two major findings. First, we demonstrate that infusing automatically produced syntax of text improves pre-trained models. Second, global syntactic distances among tokens bring larger performance gains compared to local head relations between contiguous tokens.",
+  "keywords": [
+    "roberta",
+    "syntax-enhanced pre-trained model",
+    "layer",
+    "the fine-tuning stage",
+    "we",
+    "syntax",
+    "relation classification entity",
+    "training",
+    "classification",
+    "automatically produced syntax",
+    "information",
+    "a syntax-aware attention layer",
+    "the syntax",
+    "tuning",
+    "bert"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.420/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

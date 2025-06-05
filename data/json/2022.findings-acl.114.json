@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.114",
+  "title": "A Transformational Biencoder with In-Domain Negative Sampling for Zero-Shot Entity Linking",
+  "authors": [
+    "Sun, Kai  and\nZhang, Richong  and\nMensah, Samuel  and\nMao, Yongyi  and\nLiu, Xudong"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Recent interest in entity linking has focused in the zero-shot scenario, where at test time the entity mention to be labelled is never seen during training, or may belong to a different domain from the source domain. Current work leverage pre-trained BERT with the implicit assumption that it bridges the gap between the source and target domain distributions. However, fine-tuned BERT has a considerable underperformance at zero-shot when applied in a different domain. We solve this problem by proposing a Transformational Biencoder that incorporates a transformation into BERT to perform a zero-shot transfer from the source domain during training. As like previous work, we rely on negative entities to encourage our model to discriminate the golden entities during training. To generate these negative entities, we propose a simple but effective strategy that takes the domain of the golden entity into perspective. Our experimental results on the benchmark dataset Zeshel show effectiveness of our approach and achieve new state-of-the-art.",
+  "keywords": [
+    "negative entities",
+    "we",
+    "the golden entities",
+    "zero-shot entity",
+    "a transformational biencoder",
+    "current",
+    "shot",
+    "training",
+    "it",
+    "biencoder",
+    "transfer",
+    "the zero-shot scenario",
+    "bert",
+    "a zero-shot transfer",
+    "zero-shot"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.114/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

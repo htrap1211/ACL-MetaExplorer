@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.111",
+  "title": "Effective Unsupervised Constrained Text Generation based on Perturbed Masking",
+  "authors": [
+    "Fu, Yingwen  and\nOu, Wenjie  and\nYu, Zhou  and\nLin, Yue"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Unsupervised constrained text generation aims to generate text under a given set of constraints without any supervised data. Current state-of-the-art methods stochastically sample edit positions and actions, which may cause unnecessary search steps. In this paper, we propose PMCTG to improve effectiveness by searching for the best edit position and action in each step. Specifically, PMCTG extends perturbed masking technique to effectively search for the most incongruent token to edit. Then it introduces four multi-aspect scoring functions to select edit action to further reduce search difficulty. Since PMCTG does not require supervised data, it could be applied to different generation tasks. We show that under the unsupervised setting, PMCTG achieves new state-of-the-art results in two representative tasks, namely keywords- to-sentence generation and paraphrasing.",
+  "keywords": [
+    "generation",
+    "text",
+    "it",
+    "different generation tasks",
+    "we",
+    "unsupervised constrained text generation",
+    "action",
+    "incongruent",
+    "current",
+    "the most incongruent",
+    "sample",
+    "supervised",
+    "multi",
+    "scoring",
+    "given"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.111/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

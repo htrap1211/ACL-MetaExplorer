@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.456",
+  "title": "DSEE}: Dually Sparsity-embedded Efficient Tuning of Pre-trained Language Models",
+  "authors": [
+    "Chen, Xuxi  and\nChen, Tianlong  and\nChen, Weizhu  and\nAwadallah, Ahmed Hassan  and\nWang, Zhangyang  and\nCheng, Yu"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Gigantic pre-trained models have become central to natural language processing (NLP), serving as the starting point for fine-tuning towards a range of downstream tasks. However, two pain points persist for this paradigm: (a) as the pre-trained models grow bigger (e.g., 175B parameters for GPT-3), even the fine-tuning process can be time-consuming and computationally expensive; (b) the fine-tuned model has the same size as its starting point by default, which is neither sensible due to its more specialized functionality, nor practical since many fine-tuned models will be deployed in resource-constrained environments. To address these pain points, we propose a framework for resource- and parameter-efficient fine-tuning by leveraging the sparsity prior in both weight updates and the final model weights. Our proposed framework, dubbed Dually Sparsity-Embedded Efficient Tuning (DSEE), aims to achieve two key objectives: (i) parameter efficient fine-tuning - by enforcing sparsity-aware low-rank updates on top of the pre-trained weights; and (ii) resource-efficient inference - by encouraging a sparse weight structure towards the final fine-tuned model. We leverage sparsity in these two directions by exploiting both unstructured and structured sparse patterns in pre-trained language models viaa unified approach. Extensive experiments and in-depth investigations, with diverse network backbones (i.e., BERT, RoBERTa, and GPT-2) on dozens of datasets, consistently demonstrate impressive parameter-/inference-efficiency, while maintaining competitive downstream performance. For instance, DSEE saves about 25% inference FLOPs while achieving comparable performance, with 0.5% trainable parameters on BERT. Codes are available athttps://github.com/VITA-Group/DSEE.",
+  "keywords": [
+    "top",
+    "roberta",
+    "objectives",
+    "efficient",
+    "ii resource-efficient inference",
+    "efficiency",
+    "we",
+    "even the fine-tuning process",
+    "parameter",
+    "unified approach extensive experiments",
+    "two key objectives",
+    "natural language processing nlp",
+    "fine-tuning",
+    "i e bert roberta",
+    "pre-trained language models"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.456/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:41:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

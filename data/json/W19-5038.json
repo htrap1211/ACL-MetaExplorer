@@ -1,0 +1,33 @@
+{
+  "id": "W19-5038",
+  "title": "Extracting relations between outcomes and significance levels in Randomized Controlled Trials ({RCT}s) publications",
+  "authors": [
+    "Koroleva, Anna  and\nParoubek, Patrick"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 18th BioNLP Workshop and Shared Task",
+  "abstract": "Randomized controlled trials assess the effects of an experimental intervention by comparing it to a control intervention with regard to some variables - trial outcomes. Statistical hypothesis testing is used to test if the experimental intervention is superior to the control. Statistical significance is typically reported for the measured outcomes and is an important characteristic of the results. We propose a machine learning approach to automatically extract reported outcomes, significance levels and the relation between them. We annotated a corpus of 663 sentences with 2,552 outcome - significance level relations (1,372 positive and 1,180 negative relations). We compared several classifiers, using a manually crafted feature set, and a number of deep learning models. The best performance (F-measure of 94%) was shown by the BioBERT fine-tuned model.",
+  "keywords": [
+    "deep",
+    "deep learning models",
+    "machine",
+    "f",
+    "model",
+    "it",
+    "classifiers",
+    "several classifiers",
+    "the biobert fine-tuned model",
+    "we",
+    "a machine learning approach",
+    "learning",
+    "biobert",
+    "approach",
+    "trial"
+  ],
+  "url": "https://aclanthology.org/W19-5038/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:56:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

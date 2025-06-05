@@ -1,0 +1,33 @@
+{
+  "id": "2021.starsem-1.17",
+  "title": "Multilingual Neural Semantic Parsing for Low-Resourced Languages",
+  "authors": [
+    "Xia, Menglin  and\nMonti, Emilio"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of *SEM 2021: The Tenth Joint Conference on Lexical and Computational Semantics",
+  "abstract": "Multilingual semantic parsing is a cost-effective method that allows a single model to understand different languages. However, researchers face a great imbalance of availability of training data, with English being resource rich, and other languages having much less data. To tackle the data limitation problem, we propose using machine translation to bootstrap multilingual training data from the more abundant English data. To compensate for the data quality of machine translated training data, we utilize transfer learning from pretrained multilingual encoders to further improve the model. To evaluate our multilingual models on human-written sentences as opposed to machine translated ones, we introduce a new multilingual semantic parsing dataset in English, Italian and Japanese based on the Facebook Task Oriented Parsing (TOP) dataset. We show that joint multilingual training with pretrained encoders substantially outperforms our baselines on the TOP dataset and outperforms the state-of-the-art model on the public NLMaps dataset. We also establish a new baseline for zero-shot learning on the TOP dataset. We find that a semantic parser trained only on English data achieves a zero-shot performance of 44.9% exact-match accuracy on Italian sentences.",
+  "keywords": [
+    "parsing",
+    "machine translation",
+    "semantic",
+    "we",
+    "shot",
+    "training",
+    "translation",
+    "pretrained encoders",
+    "neural",
+    "a semantic parser",
+    "multilingual semantic parsing",
+    "rich",
+    "learning",
+    "transfer",
+    "multilingual neural semantic parsing"
+  ],
+  "url": "https://aclanthology.org/2021.starsem-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

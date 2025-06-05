@@ -1,0 +1,33 @@
+{
+  "id": "2024.sdp-1.22",
+  "title": "Guiding Large Language Models via External Attention Prompting for Scientific Extreme Summarization",
+  "authors": [
+    "Chang, Yuan  and\nLi, Ziyue  and\nLe, Xiaoqiu"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024)",
+  "abstract": "Scientific extreme summarization, the task of generating concise one-sentence summaries (TLDRs) for scientific papers, presents significant challenges due to the need for deep domain-specific understanding and the ability to distill salient information. This study identifies the critical role of titles and keywords in enhancing TLDR generation through quantitative analysis. We propose a novel method, External Attention Prompting (EAP), which leverages LLMs by guiding them to focus on the most critical parts of the source text through varying degrees of attention signals. Our method employs Markdown emphasis syntax to annotate attention levels, enabling LLMs to prioritize salient information effectively. Extensive experiments demonstrate that EAP significantly outperforms baseline methods across various LLMs and metrics in both zero-shot and few-shot settings. Further evaluations by GPT-4 demonstrate that EAP can enable LLMs to generate TLDRs of higher human-aligned quality.",
+  "keywords": [
+    "deep",
+    "attention levels",
+    "summarization",
+    "we",
+    "syntax",
+    "salient information",
+    "shot",
+    "markdown emphasis syntax",
+    "tldr generation",
+    "information",
+    "scientific",
+    "analysis",
+    "llms",
+    "text",
+    "metrics"
+  ],
+  "url": "https://aclanthology.org/2024.sdp-1.22/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

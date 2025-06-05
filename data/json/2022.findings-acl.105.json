@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.105",
+  "title": "$\\textrm{DuReader}_{\\textrm{vis}}$: A {C}hinese Dataset for Open-domain Document Visual Question Answering",
+  "authors": [
+    "Qi, Le  and\nLv, Shangwen  and\nLi, Hongyu  and\nLiu, Jing  and\nZhang, Yu  and\nShe, Qiaoqiao  and\nWu, Hua  and\nWang, Haifeng  and\nLiu, Ting"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Open-domain question answering has been used in a wide range of applications, such as web search and enterprise search, which usually takes clean texts extracted from various formats of documents (e.g., web pages, PDFs, or Word documents) as the information source. However, designing different text extraction approaches is time-consuming and not scalable. In order to reduce human cost and improve the scalability of QA systems, we propose and study anOpen-domainDocumentVisualQuestionAnswering (Open-domain DocVQA) task, which requires answering questions based on a collection of document images directly instead of only document texts, utilizing layouts and visual features additionally. Towards this end, we introduce the first Chinese Open-domain DocVQA dataset calledDuReadervis, containing about 15K question-answering pairs and 158K document images from the Baidu search engine. There are three main challenges inDuReadervis: (1) long document understanding, (2) noisy texts, and (3) multi-span answer extraction. The extensive experiments demonstrate that the dataset is challenging. Additionally, we propose a simple approach that incorporates the layout and visual features, and the experimental results show the effectiveness of the proposed approach. The dataset and code will be publicly available athttps://github.com/baidu/DuReader/tree/master/DuReader-vis.",
+  "keywords": [
+    "code",
+    "end",
+    "extraction",
+    "question",
+    "we",
+    "anopen-domaindocumentvisualquestionanswering open-domain docvqa task",
+    "answer",
+    "docvqa",
+    "open-domain question answering",
+    "information",
+    "word",
+    "visual",
+    "answering",
+    "text",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.105/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

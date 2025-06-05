@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.763",
+  "title": "Tracking the Newsworthiness of Public Documents",
+  "authors": [
+    "Spangher, Alexander  and\nTumgoren, Serdar  and\nWelsh, Ben  and\nPeng, Nanyun  and\nFerrara, Emilio  and\nMay, Jonathan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Journalists regularly make decisions on whether or not to report stories, based on “news values”. In this work, we wish to explicitly model these decisions to explore _when_ and _why_ certain stories get press attention. This is challenging because very few labelled links between source documents and news articles exist and language use between corpora is very different. We address this problem by implementing a novel _probabilistic relational modeling_ framework, which we show is a low-annotation linking methodology that outperforms other, more state-of-the-art retrieval-based baselines. Next, we define a new task: __newsworthiness prediction__, to predict if a policy item will get covered. We focus on news coverage of local public policy in the San Francisco Bay Area by the _San Francisco Chronicle_. We gather 15k policies discussed across 10 years of public policy meetings, and transcribe over 3,200 hours of public discussion. In general, we find limited impact of public discussion on newsworthiness prediction accuracy, suggesting that some of the most important stories barely get discussed in public.Finally, we show that newsworthiness predictions can be a useful assistive tool for journalists seeking to keep abreast of local government. We perform human evaluation with expert journalists and show our systems identify policies they consider newsworthy with 68% F1 and our coverage recommendations are helpful with an 84% win-rate against baseline. We release all code and data to our work here: https://github.com/alex2awesome/newsworthiness-public.",
+  "keywords": [
+    "code",
+    "newsworthiness prediction accuracy",
+    "rate",
+    "we",
+    "human evaluation",
+    "68 f1",
+    "policies",
+    "retrieval",
+    "certain stories",
+    "stories",
+    "accuracy",
+    "work",
+    "press attention",
+    "general",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.763/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:44:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

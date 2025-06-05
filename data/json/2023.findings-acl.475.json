@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.475",
+  "title": "Multilingual Pre-training with Self-supervision from Global Co-occurrence Information",
+  "authors": [
+    "Ai, Xi  and\nFang, Bin"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Global co-occurrence information is the primary source of structural information on multilingual corpora, and we find that analogical/parallel compound words across languages have similar co-occurrence counts/frequencies (normalized) giving weak but stable self-supervision for cross-lingual transfer. Following the observation, we aim at associating contextualized representations with relevant (contextualized) representations across languages with the help of co-occurrence counts. The result is MLM-GC (MLM with Global Co-occurrence) pre-training that the model learns local bidirectional information from MLM and global co-occurrence information from a log-bilinear regression. Experiments show that MLM-GC pre-training substantially outperforms MLM pre-training for 4 downstream cross-lingual tasks and 1 additional monolingual task, showing the advantages of forming isomorphic spaces across languages.",
+  "keywords": [
+    "cross",
+    "co",
+    "model",
+    "self",
+    "similar co-occurrence counts frequencies",
+    "-",
+    "frequencies",
+    "information",
+    "we",
+    "transfer",
+    "pre",
+    "log",
+    "training",
+    "occurrence",
+    "contextualized representations"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.475/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.544",
+  "title": "RRN}orm: A Novel Framework for {C}hinese Disease Diagnoses Normalization via {LLM}-Driven Terminology Component Recognition and Reconstruction",
+  "authors": [
+    "Fan, Yongqi  and\nZhu, Yansha  and\nXue, Kui  and\nLiu, Jingping  and\nRuan, Tong"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "The Clinical Terminology Normalization aims at finding standard terms from a given termbase for mentions extracted from clinical texts. However, we found that extracted mentions suffer from the multi-implication problem, especially disease diagnoses. The reason for this is that physicians often use abbreviations, conjunctions, and juxtapositions when writing diagnoses, and it is difficult to manually decompose. To address this problem, we propose a Terminology Component Recognition and Reconstruction strategy that leverages the reasoning capability of large language models (LLMs) to recognize the components of terms, enabling automated decomposition and transforming original mentions into multiple atomic mentions. Furthermore, we adopt the mainstream “Recall and Rank” framework to apply the benefits of the above strategy to the task flow. By leveraging the LLM incorporating the advanced sampling strategies, we design a sampling algorithm for atomic mentions and train the recall model using contrastive learning. Besides the information about the components is also used as knowledge to guide the final term ranking and selection. The experimental results show that our proposed strategy effectively improves the performance of the terminology normalization task and our proposed approach achieves state-of-the-art on the experimental dataset. We release our code and data on the repository https://github.com/yuugaochyan/RRNorm.",
+  "keywords": [
+    "code",
+    "we",
+    "llm",
+    "it",
+    "information",
+    "learning",
+    "the recall model",
+    "normalization",
+    "strategies",
+    "the llm",
+    "the advanced sampling strategies",
+    "recall",
+    "knowledge",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.544/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:56:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

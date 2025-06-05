@@ -1,0 +1,33 @@
+{
+  "id": "2021.nlp4prog-1.2",
+  "title": "C}on{T}est: A Unit Test Completion Benchmark featuring Context",
+  "authors": [
+    "Villmow, Johannes  and\nDepoix, Jonas  and\nUlges, Adrian"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Natural Language Processing for Programming (NLP4Prog 2021)",
+  "abstract": "We introduce CONTEST, a benchmark for NLP-based unit test completion, the task of predicting a test’s assert statements given its setup and focal method, i.e. the method to be tested. ConTest is large-scale (with 365k datapoints). Besides the test code and tested code, it also features context code called by either. We found context to be crucial for accurately predicting assertions. We also introduce baselines based on transformer encoder-decoders, and study the effects of including syntactic information and context. Overall, our models achieve a BLEU score of 38.2, while only generating unparsable code in 1.92% of cases.",
+  "keywords": [
+    "t",
+    "code",
+    "transformer",
+    "i",
+    "a bleu score",
+    "est",
+    "nlp",
+    "it",
+    "bleu",
+    "encoder",
+    "information",
+    "decoders",
+    "we",
+    "transformer encoder-decoders",
+    "nlp-based unit test completion"
+  ],
+  "url": "https://aclanthology.org/2021.nlp4prog-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:19:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

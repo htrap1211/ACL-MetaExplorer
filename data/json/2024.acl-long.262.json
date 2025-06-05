@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.262",
+  "title": "Planning Like Human: A Dual-process Framework for Dialogue Planning",
+  "authors": [
+    "He, Tao  and\nLiao, Lizi  and\nCao, Yixin  and\nLiu, Yuanxing  and\nLiu, Ming  and\nChen, Zerui  and\nQin, Bing"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In proactive dialogue, the challenge lies not just in generating responses but in steering conversations toward predetermined goals, a task where Large Language Models (LLMs) typically struggle due to their reactive nature. Traditional approaches to enhance dialogue planning in LLMs, ranging from elaborate prompt engineering to the integration of policy networks, either face efficiency issues or deliver suboptimal performance. Inspired by the dual-process theory in psychology, which identifies two distinct modes of thinking—intuitive (fast) and analytical (slow), we propose the Dual-Process Dialogue Planning (DPDP) framework. DPDP embodies this theory through two complementary planning systems: an instinctive policy model for familiar contexts and a deliberative Monte Carlo Tree Search (MCTS) mechanism for complex, novel scenarios. This dual strategy is further coupled with a novel two-stage training regimen: offline Reinforcement Learning for robust initial policy model formation followed by MCTS-enhanced on-the-fly learning, which ensures a dynamic balance between efficiency and strategic depth. Our empirical evaluations across diverse dialogue tasks affirm DPDP’s superiority in achieving both high-quality dialogues and operational efficiency, outpacing existing methods.",
+  "keywords": [
+    "elaborate prompt engineering",
+    "conversations",
+    "diverse dialogue tasks",
+    "dialogue planning",
+    "efficiency",
+    "we",
+    "dialogue",
+    "efficiency issues",
+    "training",
+    "operational efficiency",
+    "learning",
+    "llms",
+    "prompt",
+    "large language models llms",
+    "fast"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.262/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

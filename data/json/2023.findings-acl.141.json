@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.141",
+  "title": "Teamwork Is Not Always Good: An Empirical Study of Classifier Drift in Class-incremental Information Extraction",
+  "authors": [
+    "Liu, Minqian  and\nHuang, Lifu"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Class-incremental learning (CIL) aims to develop a learning system that can continually learn new classes from a data stream without forgetting previously learned classes. When learning classes incrementally, the classifier must be constantly updated to incorporate new classes, and the drift in decision boundary may lead to severe forgetting. This fundamental challenge, however, has not yet been studied extensively, especially in the setting where no samples from old classes are stored for rehearsal. In this paper, we take a closer look at how the drift in the classifier leads to forgetting, and accordingly, design four simple yet (super-) effective solutions to alleviate the classifier drift: an Individual Classifiers with Frozen Feature Extractor (ICE) framework where we individually train a classifier for each learning session, and its three variants ICE-PL, ICE-O, and ICE-PL&O which further take the logits of previously learned classes from old sessions or a constant logit of an Other class as constraint to the learning of new classifiers. Extensive experiments and analysis on 6 class-incremental information extraction tasks demonstrate that our solutions, especially ICE-O, consistently show significant improvement over the previous state-of-the-art approaches with up to 44.7% absolute F-score gain, providing a strong baseline and insights for future research on class-incremental learning.",
+  "keywords": [
+    "classifier drift",
+    "extraction",
+    "classifier",
+    "classifiers",
+    "we",
+    "the classifier",
+    "information",
+    "learning",
+    "new classifiers extensive experiments",
+    "analysis",
+    "an individual classifiers",
+    "class",
+    "the classifier drift",
+    "a classifier",
+    "the logits"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.141/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

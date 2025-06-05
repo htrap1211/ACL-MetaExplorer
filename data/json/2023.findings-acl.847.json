@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.847",
+  "title": "Discovering Language Model Behaviors with Model-Written Evaluations",
+  "authors": [
+    "Perez, Ethan  and\nRinger, Sam  and\nLukosiute, Kamile  and\nNguyen, Karina  and\nChen, Edwin  and\nHeiner, Scott  and\nPettit, Craig  and\nOlsson, Catherine  and\nKundu, Sandipan  and\nKadavath, Saurav  and\nJones, Andy  and\nChen, Anna  and\nMann, Benjamin  and\nIsrael, Brian  and\nSeethor, Bryan  and\nMcKinnon, Cameron  and\nOlah, Christopher  and\nYan, Da  and\nAmodei, Daniela  and\nAmodei, Dario  and\nDrain, Dawn  and\nLi, Dustin  and\nTran-Johnson, Eli  and\nKhundadze, Guro  and\nKernion, Jackson  and\nLandis, James  and\nKerr, Jamie  and\nMueller, Jared  and\nHyun, Jeeyoon  and\nLandau, Joshua  and\nNdousse, Kamal  and\nGoldberg, Landon  and\nLovitt, Liane  and\nLucas, Martin  and\nSellitto, Michael  and\nZhang, Miranda  and\nKingsland, Neerav  and\nElhage, Nelson  and\nJoseph, Nicholas  and\nMercado, Noemi  and\nDasSarma, Nova  and\nRausch, Oliver  and\nLarson, Robin  and\nMcCandlish, Sam  and\nJohnston, Scott  and\nKravec, Shauna  and\nEl Showk, Sheer  and\nLanham, Tamera  and\nTelleen-Lawton, Timothy  and\nBrown, Tom  and\nHenighan, Tom  and\nHume, Tristan  and\nBai, Yuntao  and\nHatfield-Dodds, Zac  and\nClark, Jack  and\nBowman, Samuel R.  and\nAskell, Amanda  and\nGrosse, Roger  and\nHernandez, Danny  and\nGanguli, Deep  and\nHubinger, Evan  and\nSchiefer, Nicholas  and\nKaplan, Jared"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "As language models (LMs) scale, they develop many novel behaviors, good and bad, exacerbating the need to evaluate how they behave. Prior work creates evaluations with crowdwork (which is time-consuming and expensive) or existing data sources (which are not always available). Here, we automatically generate evaluations with LMs. We explore approaches with varying amounts of human effort, from instructing LMs to write yes/no questions to making complex Winogender schemas with multiple stages of LM-based generation and filtering. Crowdworkers rate the examples as highly relevant and agree with 90-100% of labels, sometimes more so than corresponding human-written datasets. We generate 154 datasets and discover new cases of inverse scaling where LMs get worse with size. Larger LMs repeat back a dialog user’s preferred answer (“sycophancy”) and express greater desire to pursue concerning goals like resource acquisition and goal preservation. We also find some of the first examples of inverse scaling in RL from Human Feedback (RLHF), where more RLHF makes LMs worse. For example, RLHF makes LMs express stronger political views (on gun rights and immigration) and a greater desire to avoid shut down. Overall, LM-written evaluations are high-quality and let us quickly discover many novel LM behaviors.",
+  "keywords": [
+    "more rlhf",
+    "feedback",
+    "we",
+    "human feedback rlhf",
+    "answer",
+    "rlhf",
+    "lm-based generation",
+    "model-written evaluations",
+    "views",
+    "language model behaviors",
+    "work",
+    "stronger political views",
+    "language",
+    "generation",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.847/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

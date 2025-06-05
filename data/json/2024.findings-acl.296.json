@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.296",
+  "title": "ML}e{VLM}: Improve Multi-level Progressive Capabilities based on Multimodal Large Language Model for Medical Visual Question Answering",
+  "authors": [
+    "Xu, Dexuan  and\nChen, Yanyuan  and\nWang, Jieyi  and\nHuang, Yue  and\nWang, Hanpin  and\nJin, Zhi  and\nWang, Hongxing  and\nYue, Weihua  and\nHe, Jing  and\nLi, Hang  and\nHuang, Yu"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Medical visual question answering (MVQA) requires in-depth understanding of medical images and questions to provide reliable answers. We summarize multi-level progressive capabilities that models need to focus on in MVQA: recognition, details, diagnosis, knowledge, and reasoning. Existing MVQA models tend to ignore the above capabilities due to unspecific data and plain architecture. To address these issues, this paper proposes Multi-level Visual Language Model (MLeVLM) for MVQA. On the data side, we construct a high-quality multi-level instruction dataset MLe-VQA via GPT-4, which covers multi-level questions and answers as well as reasoning processes from visual clues to semantic cognition. On the architecture side, we propose a multi-level feature alignment module, including attention-based token selector and context merger, which can efficiently align features at different levels from visual to semantic. To better evaluate the model’s capabilities, we manually construct a multi-level MVQA evaluation benchmark named MLe-Bench. Extensive experiments demonstrate the effectiveness of our constructed multi-level instruction dataset and the multi-level feature alignment module. It also proves that MLeVLM outperforms existing medical multimodal large language models.",
+  "keywords": [
+    "question",
+    "semantic",
+    "we",
+    "multi-level progressive capabilities",
+    "instruction",
+    "it",
+    "token",
+    "visual",
+    "existing mvqa models",
+    "multi-level visual language model",
+    "the above capabilities",
+    "gpt-4",
+    "alignment",
+    "the model s capabilities",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.296/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

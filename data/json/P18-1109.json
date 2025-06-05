@@ -1,0 +1,33 @@
+{
+  "id": "P18-1109",
+  "title": "G}aussian Mixture Latent Vector Grammars",
+  "authors": [
+    "Zhao, Yanpeng  and\nZhang, Liwen  and\nTu, Kewei"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We introduce Latent Vector Grammars (LVeGs), a new framework that extends latent variable grammars such that each nonterminal symbol is associated with a continuous vector space representing the set of (infinitely many) subtypes of the nonterminal. We show that previous models such as latent variable grammars and compositional vector grammars can be interpreted as special cases of LVeGs. We then present Gaussian Mixture LVeGs (GM-LVeGs), a new special case of LVeGs that uses Gaussian mixtures to formulate the weights of production rules over subtypes of nonterminals. A major advantage of using Gaussian mixtures is that the partition function and the expectations of subtype rules can be computed using an extension of the inside-outside algorithm, which enables efficient inference and learning. We apply GM-LVeGs to part-of-speech tagging and constituency parsing and show that GM-LVeGs can achieve competitive accuracies.",
+  "keywords": [
+    "compositional vector grammars",
+    "a continuous vector space",
+    "accuracies",
+    "vector",
+    "efficient",
+    "tagging",
+    "latent",
+    "competitive accuracies",
+    "we",
+    "efficient inference",
+    "function",
+    "g",
+    "that",
+    "the partition function",
+    "speech"
+  ],
+  "url": "https://aclanthology.org/P18-1109/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:11:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

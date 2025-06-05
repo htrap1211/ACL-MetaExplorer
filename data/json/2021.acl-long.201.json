@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.201",
+  "title": "L}ayout{LM}v2: Multi-modal Pre-training for Visually-rich Document Understanding",
+  "authors": [
+    "Xu, Yang  and\nXu, Yiheng  and\nLv, Tengchao  and\nCui, Lei  and\nWei, Furu  and\nWang, Guoxin  and\nLu, Yijuan  and\nFlorencio, Dinei  and\nZhang, Cha  and\nChe, Wanxiang  and\nZhang, Min  and\nZhou, Lidong"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Pre-training of text and layout has proved effective in a variety of visually-rich document understanding tasks due to its effective model architecture and the advantage of large-scale unlabeled scanned/digital-born documents. We propose LayoutLMv2 architecture with new pre-training tasks to model the interaction among text, layout, and image in a single multi-modal framework. Specifically, with a two-stream multi-modal Transformer encoder, LayoutLMv2 uses not only the existing masked visual-language modeling task but also the new text-image alignment and text-image matching tasks, which make it better capture the cross-modality interaction in the pre-training stage. Meanwhile, it also integrates a spatial-aware self-attention mechanism into the Transformer architecture so that the model can fully understand the relative positional relationship among different text blocks. Experiment results show that LayoutLMv2 outperforms LayoutLM by a large margin and achieves new state-of-the-art results on a wide variety of downstream visually-rich document understanding tasks, including FUNSD (0.7895 to 0.8420), CORD (0.9493 to 0.9601), SROIE (0.9524 to 0.9781), Kleister-NDA (0.8340 to 0.8520), RVL-CDIP (0.9443 to 0.9564), and DocVQA (0.7295 to 0.8672).",
+  "keywords": [
+    "variety",
+    "we",
+    "a wide variety",
+    "training",
+    "cross",
+    "it",
+    "docvqa",
+    "self",
+    "new pre-training tasks",
+    "rich",
+    "a variety",
+    "visual",
+    "text",
+    "the pre-training stage",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.201/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:02:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

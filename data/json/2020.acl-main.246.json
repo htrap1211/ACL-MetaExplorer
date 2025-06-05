@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.246",
+  "title": "Showing Your Work Doesn{'}t Always Work",
+  "authors": [
+    "Tang, Raphael  and\nLee, Jaejun  and\nXin, Ji  and\nLiu, Xinyu  and\nYu, Yaoliang  and\nLin, Jimmy"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "In natural language processing, a recently popular line of work explores how to best report the experimental results of neural networks. One exemplar publication, titled “Show Your Work: Improved Reporting of Experimental Results” (Dodge et al., 2019), advocates for reporting the expected validation effectiveness of the best-tuned model, with respect to the computational budget. In the present work, we critically examine this paper. As far as statistical generalizability is concerned, we find unspoken pitfalls and caveats with this approach. We analytically show that their estimator is biased and uses error-prone assumptions. We find that the estimator favors negative errors and yields poor bootstrapped confidence intervals. We derive an unbiased alternative and bolster our claims with empirical evidence from statistical simulation. Our codebase is athttps://github.com/castorini/meanmax.",
+  "keywords": [
+    "statistical generalizability",
+    "validation",
+    "unbiased",
+    "we",
+    "generalizability",
+    "neural",
+    "natural",
+    "biased",
+    "yields",
+    "an unbiased alternative",
+    "neural networks",
+    "work",
+    "language",
+    "model",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.246/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:45:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

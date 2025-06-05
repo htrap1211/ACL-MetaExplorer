@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.499",
+  "title": "Improving {LLM} Generations via Fine-Grained Self-Endorsement",
+  "authors": [
+    "Wang, Ante  and\nSong, Linfeng  and\nPeng, Baolin  and\nJin, Lifeng  and\nTian, Ye  and\nMi, Haitao  and\nSu, Jinsong  and\nYu, Dong"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "This work studies mitigating fact-conflicting hallucinations for large language model (LLM) at inference time.Particularly, we propose a self-endorsement framework that leverages the fine-grained fact-level comparisons across multiple sampled responses.Compared with prior ensemble methods (e.g., self-consistency) that perform response-level selection, our approach can better alleviate hallucinations for knowledge-intensive tasks.Our approach can broadly benefit smaller and open-source LLMs as it mainly conducts simple content-based comparisons.Experiments on Biographies show that our method can effectively improve the factuality of generations with simple and intuitive prompts across different scales of LLMs.Besides, comprehensive analyses on TriviaQA and GSM8K demonstrate the potential of self-endorsement for broader application.",
+  "keywords": [
+    "this work studies",
+    "work",
+    "llm generations",
+    "ensemble",
+    "prompts",
+    "biographies",
+    "knowledge",
+    "language",
+    "triviaqa",
+    "model",
+    "studies",
+    "it",
+    "self",
+    "smaller and open-source llms",
+    "large language model"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.499/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:55:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

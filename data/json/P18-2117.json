@@ -1,0 +1,33 @@
+{
+  "id": "P18-2117",
+  "title": "On the Practical Computational Power of Finite Precision {RNN}s for Language Recognition",
+  "authors": [
+    "Weiss, Gail  and\nGoldberg, Yoav  and\nYahav, Eran"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "While Recurrent Neural Networks (RNNs) are famously known to be Turing complete, this relies on infinite precision in the states and unbounded computation time. We consider the case of RNNs with finite precision whose computation time is linear in the input length. Under these limitations, we show that different RNN variants have different computational power. In particular, we show that the LSTM and the Elman-RNN with ReLU activation are strictly stronger than the RNN with a squashing activation and the GRU. This is achieved because LSTMs and ReLU-RNNs can easily implement counting behavior. We show empirically that the LSTM does indeed learn to effectively use the counting mechanism.",
+  "keywords": [
+    "the elman-rnn",
+    "finite precision",
+    "precision",
+    "language",
+    "different rnn variants",
+    "neural",
+    "a squashing activation",
+    "rnns",
+    "the rnn",
+    "activation",
+    "lstms",
+    "the gru",
+    "lstms and relu-rnns",
+    "we",
+    "rnn"
+  ],
+  "url": "https://aclanthology.org/P18-2117/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:19:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

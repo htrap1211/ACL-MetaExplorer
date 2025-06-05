@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.741",
+  "title": "F}luent{S}peech: Stutter-Oriented Automatic Speech Editing with Context-Aware Diffusion Models",
+  "authors": [
+    "Jiang, Ziyue  and\nYang, Qian  and\nZuo, Jialong  and\nYe, Zhenhui  and\nHuang, Rongjie  and\nRen, Yi  and\nZhao, Zhou"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Stutter removal is an essential scenario in the field of speech editing. However, when the speech recording contains stutters, the existing text-based speech editing approaches still suffer from: 1) the over-smoothing problem in the edited speech; 2) lack of robustness due to the noise introduced by stutter; 3) to remove the stutters, users are required to determine the edited region manually. To tackle the challenges in stutter removal, we propose FluentSpeech, a stutter-oriented automatic speech editing model. Specifically, 1) we propose a context-aware diffusion model that iteratively refines the modified mel-spectrogram with the guidance of context features; 2) we introduce a stutter predictor module to inject the stutter information into the hidden sequence; 3) we also propose a stutter-oriented automatic speech editing (SASE) dataset that contains spontaneous speech recordings with time-aligned stutter labels to train the automatic stutter localization model. Experimental results on VCTK and LibriTTS datasets demonstrate that our model achieves state-of-the-art performance on speech editing. Further experiments on our SASE dataset show that FluentSpeech can effectively improve the fluency of stuttering speech in terms of objective and subjective metrics. Code and audio samples can be found athttps://github.com/Zain-Jiang/Speech-Editing-Toolkit.",
+  "keywords": [
+    "the modified mel-spectrogram",
+    "code",
+    "field",
+    "we",
+    "the field",
+    "information",
+    "sequence",
+    "subjective metrics code",
+    "text",
+    "objective",
+    "metrics",
+    "model",
+    "time",
+    "scenario",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.741/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

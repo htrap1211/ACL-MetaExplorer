@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.60",
+  "title": "SRCB} at {S}em{E}val-2023 Task 1: Prompt Based and Cross-Modal Retrieval Enhanced Visual Word Sense Disambiguation",
+  "authors": [
+    "Zhang, Xudong  and\nZhen, Tiange  and\nZhang, Jing  and\nWang, Yujin  and\nLiu, Song"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "The Visual Word Sense Disambiguation (VWSD) shared task aims at selecting the image among candidates that best interprets the semantics of a target word with a short-length phrase for English, Italian, and Farsi. The limited phrase context, which only contains 2-3 words, challenges the model’s understanding ability, and the visual label requires image-text matching performance across different modalities. In this paper, we propose a prompt based and multimodal retrieval enhanced VWSD system, which uses the rich potential knowledge of large-scale pretrained models by prompting and additional text-image information from knowledge bases and open datasets. Under the English situation and given an input phrase, (1) the context retrieval module predicts the correct definition from sense inventory by matching phrase and context through a biencoder architecture. (2) The image retrieval module retrieves the relevant images from an image dataset.(3) The matching module decides that either text or image is used to pair with image labels by a rule-based strategy, then ranks the candidate images according to the similarity score. Our system ranks first in the English track and second in the average of all languages (English, Italian, and Farsi).",
+  "keywords": [
+    "the semantics",
+    "we",
+    "cross",
+    "semantics",
+    "retrieval",
+    "information",
+    "rich",
+    "word",
+    "biencoder",
+    "visual",
+    "different modalities",
+    "prompt",
+    "text",
+    "the context retrieval module",
+    "the image retrieval module"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.60/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:27:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwslt-1.12",
+  "title": "VUS} at {IWSLT} 2021: A Finetuned Pipeline for Offline Speech Translation",
+  "authors": [
+    "Jo, Yong Rae  and\nMoon, Youngki  and\nJung, Minji  and\nChoi, Jungyoon  and\nMoon, Jihyung  and\nCho, Won Ik"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021)",
+  "abstract": "In this technical report, we describe the fine-tuned ASR-MT pipeline used for the IWSLT shared task. We remove less useful speech samples by checking WER with an ASR model, and further train a wav2vec and Transformers-based ASR module based on the filtered data. In addition, we cleanse the errata that can interfere with the machine translation process and use it for Transformer-based MT module training. Finally, in the actual inference phase, we use a sentence boundary detection model trained with constrained data to properly merge fragment ASR outputs into full sentences. The merged sentences are post-processed using part of speech. The final result is yielded by the trained MT module. The performance using the dev set displays BLEU 20.37, and this model records the performance of BLEU 20.9 with the test set.",
+  "keywords": [
+    "transformer-based mt module training",
+    "transformer",
+    "transformers",
+    "process",
+    "translation",
+    "model",
+    "machine",
+    "the machine translation process",
+    "it",
+    "wer",
+    "bleu",
+    "offline speech translation",
+    "we",
+    "training",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2021.iwslt-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:18:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

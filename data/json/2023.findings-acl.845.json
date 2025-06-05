@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.845",
+  "title": "Enhancing Neural Topic Model with Multi-Level Supervisions from Seed Words",
+  "authors": [
+    "Lin, Yang  and\nGao, Xin  and\nChu, Xu  and\nWang, Yasha  and\nZhao, Junfeng  and\nChen, Chao"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Efforts have been made to apply topic seed words to improve the topic interpretability of topic models. However, due to the semantic diversity of natural language, supervisions from seed words could be ambiguous, making it hard to be incorporated into the current neural topic models. In this paper, we propose SeededNTM, a neural topic model enhanced with supervisions from seed words on both word and document levels. We introduce a context-dependency assumption to alleviate the ambiguities with context document information, and an auto-adaptation mechanism to automatically balance between multi-level information. Moreover, an intra-sample consistency regularizer is proposed to deal with noisy supervisions via encouraging perturbation and semantic consistency. Extensive experiments on multiple datasets show that SeededNTM can derive semantically meaningful topics and outperforms the state-of-the-art seeded topic models in terms of topic quality and classification accuracy.",
+  "keywords": [
+    "semantic consistency extensive experiments",
+    "semantically meaningful topics",
+    "language",
+    "neural",
+    "natural",
+    "model",
+    "it",
+    "topic",
+    "information",
+    "semantic",
+    "the semantic diversity",
+    "dependency",
+    "word",
+    "we",
+    "ambiguities"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.845/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

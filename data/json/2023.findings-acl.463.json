@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.463",
+  "title": "Cost-effective Distillation of Large Language Models",
+  "authors": [
+    "Dasgupta, Sayantan  and\nCohn, Trevor  and\nBaldwin, Timothy"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Knowledge distillation (KD) involves training a small “student” model to replicate the strong performance of a high-capacity “teacher” model, enabling efficient deployment in resource-constrained settings. Top-performing methods tend to be task- or architecture-specific and lack generalizability. Several existing approaches require pretraining of the teacher on task-specific datasets, which can be costly for large and unstable for small datasets. Here we propose an approach for improving KD through a novel distillation loss agnostic to the task and model architecture. We successfully apply our method to the distillation of the BERT-base and achieve highly competitive results from the distilled student across a range of GLUE tasks, especially for tasks with smaller datasets.",
+  "keywords": [
+    "the bert-base",
+    "knowledge",
+    "language",
+    "bert",
+    "model",
+    "efficient",
+    "loss",
+    "we",
+    "generalizability",
+    "efficient deployment",
+    "kd",
+    "a novel distillation loss",
+    "base",
+    "resource-constrained settings top-performing methods",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.463/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

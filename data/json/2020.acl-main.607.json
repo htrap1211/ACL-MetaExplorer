@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.607",
+  "title": "Semi-Supervised Semantic Dependency Parsing Using {CRF} Autoencoders",
+  "authors": [
+    "Jia, Zixia  and\nMa, Youmi  and\nCai, Jiong  and\nTu, Kewei"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Semantic dependency parsing, which aims to find rich bi-lexical relationships, allows words to have multiple dependency heads, resulting in graph-structured representations. We propose an approach to semi-supervised learning of semantic dependency parsers based on the CRF autoencoder framework. Our encoder is a discriminative neural semantic dependency parser that predicts the latent parse graph of the input sentence. Our decoder is a generative neural model that reconstructs the input sentence conditioned on the latent parse graph. Our model is arc-factored and therefore parsing and learning are both tractable. Experiments show our model achieves significant and consistent improvement over the supervised baseline.",
+  "keywords": [
+    "generative",
+    "semi-supervised semantic dependency parsing",
+    "parsing",
+    "a generative neural model",
+    "autoencoders",
+    "neural",
+    "model",
+    "multiple dependency heads",
+    "our encoder",
+    "autoencoder",
+    "encoder",
+    "decoder",
+    "latent",
+    "rich",
+    "dependency"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.607/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:50:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P17-1184",
+  "title": "From Characters to Words to in Between: Do We Capture Morphology?",
+  "authors": [
+    "Vania, Clara  and\nLopez, Adam"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Words can be represented by composing the representations of subword units such as word segments, characters, and/or character n-grams. While such representations are effective and may capture the morphological regularities of words, they have not been systematically compared, and it is not understood how they interact with different morphological typologies. On a language modeling task, we present experiments that systematically vary (1) the basic unit of representation, (2) the composition of these representations, and (3) the morphological typology of the language modeled. Our results extend previous findings that character representations are effective across typologies, and we find that a previously unstudied combination of character trigram representations composed with bi-LSTMs outperforms most others. But we also find room for improvement: none of the character-level models match the predictive accuracy of a model with access to true morphological analyses, even when learned from an order of magnitude more data.",
+  "keywords": [
+    "a previously unstudied combination",
+    "we",
+    "unstudied",
+    "regularities",
+    "it",
+    "word",
+    "a language modeling task",
+    "different morphological typologies",
+    "lstms",
+    "bi-lstms outperforms",
+    "accuracy",
+    "language",
+    "model",
+    "modeling",
+    "typologies"
+  ],
+  "url": "https://aclanthology.org/P17-1184/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:01:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

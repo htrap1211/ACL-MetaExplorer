@@ -1,0 +1,33 @@
+{
+  "id": "P19-1016",
+  "title": "Reliability-aware Dynamic Feature Composition for Name Tagging",
+  "authors": [
+    "Lin, Ying  and\nLiu, Liyuan  and\nJi, Heng  and\nYu, Dong  and\nHan, Jiawei"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Word embeddings are widely used on a variety of tasks and can substantially improve the performance. However, their quality is not consistent throughout the vocabulary due to the long-tail distribution of word frequency. Without sufficient contexts, rare word embeddings are usually less reliable than those of common words. However, current models typically trust all word embeddings equally regardless of their reliability and thus may introduce noise and hurt the performance. Since names often contain rare and uncommon words, this problem is particularly critical for name tagging. In this paper, we propose a novel reliability-aware name tagging model to tackle this issue. We design a set of word frequency-based reliability signals to indicate the quality of each word embedding. Guided by the reliability signals, the model is able to dynamically select and compose features such as word embedding and character-level representation using gating mechanisms. For example, if an input word is rare, the model relies less on its word embedding and assigns higher weights to its character and contextual features. Experiments on OntoNotes 5.0 show that our model outperforms the baseline model by 2.7% absolute gain in F-score. In cross-genre experiments on five genres in OntoNotes, our model improves the performance for most genre pairs and obtains up to 5% absolute F-score gain.",
+  "keywords": [
+    "variety",
+    "we",
+    "current",
+    "cross",
+    "sufficient",
+    "word",
+    "a variety",
+    "name tagging word embeddings",
+    "embeddings",
+    "model",
+    "tagging",
+    "all word embeddings",
+    "the quality",
+    "frequency",
+    "absolute"
+  ],
+  "url": "https://aclanthology.org/P19-1016/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:28:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.103",
+  "title": "NITS}{\\_}{L}egal at {S}em{E}val-2023 Task 6: Rhetorical Roles Prediction of {I}ndian Legal Documents via Sentence Sequence Labeling Approach",
+  "authors": [
+    "Jain, Deepali  and\nBorah, Malaya Dutta  and\nBiswas, Anupam"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "Legal documents are notorious for their complexity and domain-specific language, making them challenging for legal practitioners as well as non-experts to comprehend. To address this issue, the LegalEval 2023 track proposed several shared tasks, including the task of Rhetorical Roles Prediction (Task A). We participated as NITS_Legal team in Task A and conducted exploratory experiments to improve our understanding of the task. Our results suggest that sequence context is crucial in performing rhetorical roles prediction. Given the lengthy nature of legal documents, we propose a BiLSTM-based sentence sequence labeling approach that uses a local context-incorporated dataset created from the original dataset. To better represent the sentences during training, we extract legal domain-specific sentence embeddings from a Legal BERT model. Our experimental findings emphasize the importance of considering local context instead of treating each sentence independently to achieve better performance in this task. Our approach has the potential to improve the accessibility and usability of legal documents.",
+  "keywords": [
+    "em",
+    "we",
+    "training",
+    "bilstm",
+    "sequence",
+    "a",
+    "legal domain-specific sentence embeddings",
+    "bert",
+    "legal practitioners",
+    "a legal bert model",
+    "-",
+    "practitioners",
+    "embeddings",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.103/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:28:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

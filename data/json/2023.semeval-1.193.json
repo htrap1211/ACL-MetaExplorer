@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.193",
+  "title": "Kb at {S}em{E}val-2023 Task 3: On Multitask Hierarchical {BERT} Base Neural Network for Multi-label Persuasion Techniques Detection",
+  "authors": [
+    "Baraniak, Katarzyna  and\nSydow, M"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper presents a solution for Semeval 2023 subtask3 of task 3: persuasion techniques in paragraphs detection. The aim of this task is to identify all persuasion techniques in each paragraph of a given news article. We use hierarchical multitask neural networks combined with transformers. Span detection is an auxiliary task that helps in the main task: identifying propaganda techniques. Our experiments show that if we change the index of BERT embedding from the first token of the whole input to the first token of the identified span, it can improve performance. Span and label detection can be performed using one network, so we save data and, when data is limited, we can use more of it for training.",
+  "keywords": [
+    "hierarchical multitask neural networks",
+    "hierarchical",
+    "transformers",
+    "the identified span",
+    "neural",
+    "bert",
+    "it",
+    "token",
+    "network",
+    "we",
+    "transformers span detection",
+    "training",
+    "that",
+    "multitask",
+    "news"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.193/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

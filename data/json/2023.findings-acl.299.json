@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.299",
+  "title": "N}oisywiki{H}ow: A Benchmark for Learning with Real-world Noisy Labels in Natural Language Processing",
+  "authors": [
+    "Wu, Tingting  and\nDing, Xiao  and\nTang, Minji  and\nZhang, Hao  and\nQin, Bing  and\nLiu, Ting"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Large-scale datasets in the real world inevitably involve label noise. Deep models can gradually overfit noisy labels and thus degrade model generalization. To mitigate the effects of label noise, learning with noisy labels (LNL) methods are designed to achieve better generalization performance. Due to the lack of suitable datasets, previous studies have frequently employed synthetic label noise to mimic real-world label noise. However, synthetic noise is not instance-dependent, making this approximation not always effective in practice. Recent research has proposed benchmarks for learning with real-world noisy labels. However, the noise sources within may be single or fuzzy, making benchmarks different from data with heterogeneous label noises in the real world. To tackle these issues, we contribute NoisywikiHow, the largest NLP benchmark built with minimal supervision. Specifically, inspired by human cognition, we explicitly construct multiple sources of label noise to imitate human errors throughout the annotation, replicating real-world noise, whose corruption is affected by both ground-truth labels and instances. Moreover, we provide a variety of noise levels to support controlled experiments on noisy data, enabling us to evaluate LNL methods systematically and comprehensively. After that, we conduct extensive multi-dimensional experiments on a broad range of LNL methods, obtaining new and intriguing findings.",
+  "keywords": [
+    "deep",
+    "variety",
+    "model generalization",
+    "we",
+    "natural",
+    "learning",
+    "a variety",
+    "natural language",
+    "previous studies",
+    "generalization",
+    "dimensional",
+    "better generalization performance",
+    "language",
+    "nlp",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.299/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

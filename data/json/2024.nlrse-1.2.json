@@ -1,0 +1,33 @@
+{
+  "id": "2024.nlrse-1.2",
+  "title": "PROC}2{PDDL}: Open-Domain Planning Representations from Texts",
+  "authors": [
+    "Zhang, Tianyi  and\nZhang, Li  and\nHou, Zhaoyi  and\nWang, Ziyu  and\nGu, Yuling  and\nClark, Peter  and\nCallison-Burch, Chris  and\nTandon, Niket"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 2nd Workshop on Natural Language Reasoning and Structured Explanations (@ACL 2024)",
+  "abstract": "Planning in a text-based environment continues to be a significant challenge for AI systems. Recent approaches have utilized language models to predict planning domain definitions (e.g., PDDL) but have only been evaluated in closed-domain simulated environments. To address this, we present Proc2PDDL, the first dataset containing open-domain procedural texts paired with expert-annotated PDDL representations. Using this dataset, we evaluate the task of predicting domain actions (parameters, preconditions, and effects). We experiment with various large language models (LLMs) and prompting mechanisms, including a novel instruction inspired by the zone of proximal development (ZPD), which reconstructs the task as incremental basic skills. Our results demonstrate that Proc2PDDL is highly challenging for end-to-end LLMs, with GPT-3.5’s success rate close to 0% and GPT-4o’s 38%. With ZPD instructions, GPT-4o’s success rate increases to 45%, outperforming regular chain-of-thought prompting’s 34%. Our analysis systematically examines both syntactic and semantic errors, providing insights into the strengths and weaknesses of language models in generating domain-specific programs.",
+  "keywords": [
+    "end",
+    "chain",
+    "rate",
+    "semantic",
+    "we",
+    "instruction",
+    "various large language models",
+    "gpt-3",
+    "proc",
+    "analysis",
+    "llms",
+    "gpt-4o",
+    "text",
+    "language models",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.nlrse-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

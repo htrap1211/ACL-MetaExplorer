@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.457",
+  "title": "Hierarchy-aware Biased Bound Margin Loss Function for Hierarchical Text Classification",
+  "authors": [
+    "Kim, Gibaeg  and\nIm, SangHun  and\nOh, Heung-Seon"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Hierarchical text classification (HTC) is a challenging problem with two key issues: utilizing structural information and mitigating label imbalance. Recently, the unit-based approach generating unit-based feature representations has outperformed the global approach focusing on a global feature representation. Nevertheless, unit-based models using BCE and ZLPR losses still face static thresholding and label imbalance challenges. Those challenges become more critical in large-scale hierarchies. This paper introduces a novel hierarchy-aware loss function for unit-based HTC models: Hierarchy-aware Biased Bound Margin (HBM) loss. HBM integrates learnable bounds, biases, and a margin to address static thresholding and mitigate label imbalance adaptively. Experimental results on benchmark datasets demonstrate the superior performance of HBM compared to competitive HTC models.",
+  "keywords": [
+    "hierarchical",
+    "learnable bounds biases",
+    "text",
+    "hierarchies",
+    "loss",
+    "information",
+    "large-scale hierarchies",
+    "hierarchy",
+    "classification",
+    "function",
+    "biases",
+    "bce and zlpr losses",
+    "label imbalance",
+    "unit",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.457/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

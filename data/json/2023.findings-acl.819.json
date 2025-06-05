@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.819",
+  "title": "Using Collostructional Analysis to evaluate {BERT}{'}s representation of linguistic constructions",
+  "authors": [
+    "Veenboer, Tim  and\nBloem, Jelke"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Collostructional analysis is a technique devised to find correlations between particular words and linguistic constructions in order to analyse meaning associations of these constructions. Contrasting collostructional analysis results with output from BERT might provide insights into the way BERT represents the meaning of linguistic constructions. This study tests to what extent English BERT’s meaning representations correspond to known constructions from the linguistics literature by means of two tasks that we propose. Firstly, by predicting the words that can be used in open slots of constructions, the meaning associations of more lexicalized constructions can be observed. Secondly, by finding similar sequences using BERT’s output embeddings and manually reviewing the resulting sentences, we can observe whether instances of less lexicalized constructions are clustered together in semantic space. These two methods show that BERT represents constructional meaning to a certain extent, but does not separate instances of a construction from a near-synonymous construction that has a different form.",
+  "keywords": [
+    "form",
+    "semantic",
+    "we",
+    "english bert",
+    "means",
+    "analysis",
+    "bert s representation",
+    "bert",
+    "bert s output embeddings",
+    "embeddings",
+    "semantic space",
+    "correlations",
+    "the resulting sentences",
+    "constructional",
+    "open slots"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.819/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

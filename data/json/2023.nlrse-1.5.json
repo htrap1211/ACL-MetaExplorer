@@ -1,0 +1,33 @@
+{
+  "id": "2023.nlrse-1.5",
+  "title": "Using Planning to Improve Semantic Parsing of Instructional Texts",
+  "authors": [
+    "Cohen, Vanya  and\nMooney, Raymond"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 1st Workshop on Natural Language Reasoning and Structured Explanations (NLRSE)",
+  "abstract": "We develop a symbolic planning-based decoder to improve the few-shot semantic parsing of instructional texts. The system takes long-form instructional texts as input and produces sequences of actions in a formal language that enable execution of the instructions. This task poses unique challenges since input texts may contain long context dependencies and ambiguous and domain-specific language. Valid semantic parses also require sequences of steps that constitute an executable plan. We build on recent progress in semantic parsing by leveraging large language models to learn parsers from small amounts of training data. During decoding, our method employs planning methods and domain information to rank and correct candidate parses. To validate our method, we evaluate on four domains: two household instruction-following domains and two cooking recipe interpretation domains. We present results for few-shot semantic parsing using leave-one-out cross-validation. We show that utilizing planning domain information improves the quality of generated plans. Through ablations we also explore the effects of our decoder design choices.",
+  "keywords": [
+    "a symbolic planning-based decoder",
+    "parsing",
+    "validation",
+    "few-shot semantic parsing",
+    "form",
+    "semantic",
+    "we",
+    "valid",
+    "shot",
+    "training",
+    "instruction",
+    "cross",
+    "dependencies",
+    "decoder",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2023.nlrse-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

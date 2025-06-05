@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.381",
+  "title": "Deep Model Compression Also Helps Models Capture Ambiguity",
+  "authors": [
+    "Park, Hancheol  and\nPark, Jong"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Natural language understanding (NLU) tasks face a non-trivial amount of ambiguous samples where veracity of their labels is debatable among annotators. NLU models should thus account for such ambiguity, but they approximate the human opinion distributions quite poorly and tend to produce over-confident predictions. To address this problem, we must consider how to exactly capture the degree of relationship between each sample and its candidate classes. In this work, we propose a novel method with deep model compression and show how such relationship can be accounted for. We see that more reasonably represented relationships can be discovered in the lower layers and that validation accuracies are converging at these layers, which naturally leads to layer pruning. We also see that distilling the relationship knowledge from a lower layer helps models produce better distribution. Experimental results demonstrate that our method makes substantial improvement on quantifying ambiguity without gold distribution labels. As positive side-effects, our method is found to reduce the model size significantly and improve latency, both attractive aspects of NLU products.",
+  "keywords": [
+    "deep",
+    "validation",
+    "layer",
+    "we",
+    "natural",
+    "work",
+    "accuracies",
+    "knowledge",
+    "language",
+    "model",
+    "human",
+    "validation accuracies",
+    "the lower layers",
+    "more reasonably represented relationships",
+    "ambiguity natural language"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.381/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:40:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

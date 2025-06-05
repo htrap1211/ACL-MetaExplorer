@@ -1,0 +1,33 @@
+{
+  "id": "2023.dialdoc-1.4",
+  "title": "Position Matters! Empirical Study of Order Effect in Knowledge-grounded Dialogue",
+  "authors": [
+    "Su, Hsuan  and\nH. Kumar, Shachi  and\nMazumder, Sahisnu  and\nChen, Wenda  and\nManuvinakurike, Ramesh  and\nOkur, Eda  and\nSahay, Saurav  and\nNachman, Lama  and\nChen, Shang-Tse  and\nLee, Hung-yi"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the Third DialDoc Workshop on Document-grounded Dialogue and Conversational Question Answering",
+  "abstract": "With the power of large pretrained language models, various research works have integrated knowledge into dialogue systems. The traditional techniques treat knowledge as part of the input sequence for the dialogue system, prepending a set of knowledge statements in front of dialogue history. However, such a mechanism forces knowledge sets to be concatenated in an ordered manner, making models implicitly pay imbalanced attention to the sets during training. In this paper, we first investigate how the order of the knowledge set can influence autoregressive dialogue systems’ responses. We conduct experiments on two commonly used dialogue datasets with two types of transformer-based models and find that models view the input knowledge unequally. To this end, we propose a simple and novel technique to alleviate the order effect by modifying the position embeddings of knowledge input in these models. With the proposed position embedding method, the experimental results show that each knowledge statement is uniformly considered to generate responses.",
+  "keywords": [
+    "end",
+    "we",
+    "dialogue",
+    "training",
+    "dialogue systems",
+    "sequence",
+    "manner",
+    "the position embeddings",
+    "transformer-based models",
+    "knowledge-grounded dialogue",
+    "large pretrained language models",
+    "embeddings",
+    "dialogue history",
+    "transformer",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2023.dialdoc-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:24:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

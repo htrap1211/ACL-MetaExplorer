@@ -1,0 +1,33 @@
+{
+  "id": "P19-1158",
+  "title": "Stochastic Tokenization with a Language Model for Neural Text Classification",
+  "authors": [
+    "Hiraoka, Tatsuya  and\nShindo, Hiroyuki  and\nMatsumoto, Yuji"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "For unsegmented languages such as Japanese and Chinese, tokenization of a sentence has a significant impact on the performance of text classification. Sentences are usually segmented with words or subwords by a morphological analyzer or byte pair encoding and then encoded with word (or subword) representations for neural networks. However, segmentation is potentially ambiguous, and it is unclear whether the segmented tokens achieve the best performance for the target task. In this paper, we propose a method to simultaneously learn tokenization and text classification to address these problems. Our model incorporates a language model for unsupervised tokenization into a text classifier and then trains both models simultaneously. To make the model robust against infrequent tokens, we sampled segmentation for each sentence stochastically during training, which resulted in improved performance of text classification. We conducted experiments on sentiment analysis as a text classification task and show that our method achieves better performance than previous methods.",
+  "keywords": [
+    "classifier",
+    "we",
+    "text classification sentences",
+    "training",
+    "classification",
+    "neural",
+    "it",
+    "word",
+    "a text classifier",
+    "text classification",
+    "analysis",
+    "a language model",
+    "tokenization",
+    "neural networks",
+    "sentiment analysis"
+  ],
+  "url": "https://aclanthology.org/P19-1158/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:33:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

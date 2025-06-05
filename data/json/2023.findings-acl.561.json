@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.561",
+  "title": "Defending against Insertion-based Textual Backdoor Attacks via Attribution",
+  "authors": [
+    "Li, Jiazhao  and\nWu, Zhuofeng  and\nPing, Wei  and\nXiao, Chaowei  and\nVydiswaran, V.G.Vinod"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Textual backdoor attack, as a novel attack model, has been shown to be effective in adding a backdoor to the model during training. Defending against such backdoor attacks has become urgent and important. In this paper, we propose AttDef, an efficient attribution-based pipeline to defend against two insertion-based poisoning attacks, BadNL and InSent. Specifically, we regard the tokens with larger attribution scores as potential triggers since larger attribution words contribute more to the false prediction results and therefore are more likely to be poison triggers. Additionally, we further utilize an external pre-trained language model to distinguish whether input is poisoned or not. We show that our proposed method can generalize sufficiently well in two common attack scenarios (poisoning training data and testing data), which consistently improves previous methods. For instance, AttDef can successfully mitigate both attacks with an average accuracy of 79.97% (56.59% up) and 48.34% (3.99% up) under pre-training and post-training attack defense respectively, achieving the new state-of-the-art performance on prediction recovery over four benchmark datasets.",
+  "keywords": [
+    "efficient",
+    "we",
+    "training",
+    "an efficient attribution-based pipeline",
+    "an average accuracy",
+    "accuracy",
+    "language",
+    "model",
+    "pre",
+    "larger",
+    "state",
+    "poisoning",
+    "previous",
+    "poison triggers",
+    "the false prediction results"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.561/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

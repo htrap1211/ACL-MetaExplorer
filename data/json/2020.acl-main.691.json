@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.691",
+  "title": "Translationese as a Language in ``Multilingual'' {NMT",
+  "authors": [
+    "Riley, Parker  and\nCaswell, Isaac  and\nFreitag, Markus  and\nGrangier, David"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Machine translation has an undesirable propensity to produce “translationese” artifacts, which can lead to higher BLEU scores while being liked less by human raters. Motivated by this, we model translationese and original (i.e. natural) text as separate languages in a multilingual model, and pose the question: can we perform zero-shot translation between original source text and original target text? There is no data with original source and original target, so we train a sentence-level classifier to distinguish translationese from original target text, and use this classifier to tag the training data for an NMT model. Using this technique we bias the model to produce more natural outputs at test time, yielding gains in human evaluation scores on both accuracy and fluency. Additionally, we demonstrate that it is possible to bias the model to produce translationese and game the BLEU score, increasing it while decreasing human-rated quality. We analyze these outputs using metrics measuring the degree of translationese, and present an analysis of the volatility of heuristic-based train-data tagging.",
+  "keywords": [
+    "classifier",
+    "translationese",
+    "the bleu score",
+    "bleu",
+    "question",
+    "we",
+    "shot",
+    "training",
+    "translation",
+    "human evaluation scores",
+    "natural",
+    "it",
+    "a sentence-level classifier",
+    "zero-shot translation",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.691/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:51:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.186",
+  "title": "Learning to Predict Persona Information for Dialogue Personalization without Explicit Persona Description",
+  "authors": [
+    "Zhou, Wangchunshu  and\nLi, Qifei  and\nLi, Chenle"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Personalizing dialogue agents is important for dialogue systems to generate more specific,consistent, and engaging responses. However, most current dialogue personalization approaches rely on explicit persona descriptions during inference, which severely restricts its application. In this paper, we propose a novel approach that learns to predict persona information based on the dialogue history to personalize the dialogue agent without relying on any explicit persona descriptions during inference. Experimental results on the PersonaChat dataset show that the proposed method can improve the consistency of generated responses when conditioning on the predicted profile of the dialogue agent (i.e. “self persona”), and improve the engagingness of the generated responses when conditioning on the predicted persona of the dialogue partner (i.e. “their persona”). We also find that a trained persona prediction model can be successfully transferred to other datasets and help generate more relevant responses.",
+  "keywords": [
+    "generated responses",
+    "i",
+    "model",
+    "the dialogue agent",
+    "dialogue systems",
+    "self",
+    "information",
+    "the generated responses",
+    "partner",
+    "dialogue agents",
+    "dialogue personalization",
+    "we",
+    "dialogue",
+    "the dialogue history",
+    "current"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.186/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

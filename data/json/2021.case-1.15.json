@@ -1,0 +1,33 @@
+{
+  "id": "2021.case-1.15",
+  "title": "FKIE}{\\_}itf{\\_}2021 at {CASE} 2021 Task 1: Using Small Densely Fully Connected Neural Nets for Event Detection and Clustering",
+  "authors": [
+    "Becker, Nils  and\nKrumbiegel, Theresa"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 4th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE 2021)",
+  "abstract": "In this paper we present multiple approaches for event detection on document and sentence level, as well as a technique for event sentence co-reference resolution. The advantage of our co-reference resolution approach, which handles the task as a clustering problem, is that we use a single neural net to solve the task, which stands in contrast to other clustering algorithms that often are build on more complex models. This means that we can set our focus on the optimization of a single neural network instead of having to optimize numerous different parameters. We use small densely connected neural networks and pre-trained multilingual transformer embeddings in all subtasks. We use either document or sentence embeddings, depending on the task, and refrain from using word embeddings, so that the implementation of complicated network structures and unfolding of RNNs, which can deal with input of different sizes, is not necessary. We achieved an average macro F1 of 0.65 in subtask 1 (i.e., document level classification), and a macro F1 of 0.70 in subtask 2 (i.e., sentence level classification). For the co-reference resolution subtask, we achieved an average CoNLL-2012 score across all languages of 0.83.",
+  "keywords": [
+    "rnns",
+    "a macro f1",
+    "we",
+    "the optimization",
+    "classification",
+    "neural",
+    "net",
+    "a single neural network",
+    "fkie",
+    "word",
+    "an average macro f1",
+    "word embeddings",
+    "embeddings",
+    "reference",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2021.case-1.15/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

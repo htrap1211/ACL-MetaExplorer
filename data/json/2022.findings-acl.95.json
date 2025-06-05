@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.95",
+  "title": "Multi-Granularity Semantic Aware Graph Model for Reducing Position Bias in Emotion Cause Pair Extraction",
+  "authors": [
+    "Bao, Yinan  and\nMa, Qianwen  and\nWei, Lingwei  and\nZhou, Wei  and\nHu, Songlin"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "The emotion cause pair extraction (ECPE) task aims to extract emotions and causes as pairs from documents. We observe that the relative distance distribution of emotions and causes is extremely imbalanced in the typical ECPE dataset. Existing methods have set a fixed size window to capture relations between neighboring clauses. However, they neglect the effective semantic connections between distant clauses, leading to poor generalization ability towards position-insensitive data. To alleviate the problem, we propose a novelMulti-GranularitySemanticAwareGraph model (MGSAG) to incorporate fine-grained and coarse-grained semantic features jointly, without regard to distance limitation. In particular, we first explore semantic dependencies between clauses and keywords extracted from the document that convey fine-grained semantic features, obtaining keywords enhanced clause representations. Besides, a clause graph is also established to model coarse-grained semantic relations between clauses. Experimental results indicate that MGSAG surpasses the existing state-of-the-art ECPE models. Especially, MGSAG outperforms other models significantly in the condition of position-insensitive data.",
+  "keywords": [
+    "bias",
+    "extraction",
+    "semantic",
+    "we",
+    "graph",
+    "a novelmulti-granularitysemanticawaregraph model",
+    "position bias",
+    "dependencies",
+    "poor generalization ability",
+    "generalization",
+    "coarse-grained semantic relations",
+    "granularitysemanticawaregraph",
+    "fine-grained semantic features",
+    "model",
+    "semantic dependencies"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.95/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

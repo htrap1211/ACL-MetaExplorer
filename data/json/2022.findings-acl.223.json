@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.223",
+  "title": "u{FACT}: Unfaithful Alien-Corpora Training for Semantically Consistent Data-to-Text Generation",
+  "authors": [
+    "Anders, Tisha  and\nCoca, Alexandru  and\nByrne, Bill"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "We propose uFACT (Un-Faithful Alien Corpora Training), a training corpus construction method for data-to-text (d2t) generation models. We show that d2t models trained on uFACT datasets generate utterances which represent the semantic content of the data sources more accurately compared to models trained on the target corpus alone. Our approach is to augment the training set of a given target corpus with alien corpora which have different semantic representations. We show that while it is important to have faithful data from the target corpus, the faithfulness of additional corpora only plays a minor role. Consequently, uFACT datasets can be constructed with large quantities of unfaithful data. We show how uFACT can be leveraged to obtain state-of-the-art results on the WebNLG benchmark using METEOR as our performance metric. Furthermore, we investigate the sensitivity of the generation faithfulness to the training corpus structure using the PARENT metric, and provide a baseline for this metric on the WebNLG (Gardent et al., 2017) benchmark to facilitate comparisons with future work.",
+  "keywords": [
+    "un-faithful alien corpora",
+    "different semantic representations",
+    "semantic",
+    "we",
+    "quantities",
+    "training",
+    "it",
+    "the generation faithfulness",
+    "u",
+    "metric",
+    "text",
+    "large quantities",
+    "meteor",
+    "work",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.223/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.266",
+  "title": "Cross-Lingual {UMLS} Named Entity Linking using {UMLS} Dictionary Fine-Tuning",
+  "authors": [
+    "Galperin, Rina  and\nSchnapp, Shachar  and\nElhadad, Michael"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "We study cross-lingual UMLS named entity linking, where mentions in a given source language are mapped to UMLS concepts, most of which are labeled in English. Our cross-lingual framework includes an offline unsupervised construction of a translated UMLS dictionary and a per-document pipeline which identifies UMLS candidate mentions and uses a fine-tuned pretrained transformer language model to filter candidates according to context. Our method exploits a small dataset of manually annotated UMLS mentions in the source language and uses this supervised data in two ways: to extend the unsupervised UMLS dictionary and to fine-tune the contextual filtering of candidate mentions in full documents. We demonstrate results of our approach on both Hebrew and English. We achieve new state-of-the-art (SOTA) results on the Hebrew Camoni corpus, +8.9 F1 on average across three communities in the dataset. We also achieve new SOTA on the English dataset MedMentions with +7.3 F1.",
+  "keywords": [
+    "cross",
+    "transformer",
+    "tuning",
+    "language",
+    "three communities",
+    "model",
+    "8 9 f1",
+    "communities",
+    "fine",
+    "we",
+    "entity",
+    "umls dictionary fine-tuning",
+    "7 3 f1",
+    "documents",
+    "candidates"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.266/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

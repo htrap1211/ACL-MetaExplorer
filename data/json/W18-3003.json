@@ -1,0 +1,33 @@
+{
+  "id": "W18-3003",
+  "title": "E}xtrofitting: Enriching Word Representation and its Vector Space with Semantic Lexicons",
+  "authors": [
+    "Jo, Hwiyeol  and\nChoi, Stanley Jungkyu"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the Third Workshop on Representation Learning for {NLP}",
+  "abstract": "We propose post-processing method for enriching not only word representation but also its vector space using semantic lexicons, which we call extrofitting. The method consists of 3 steps as follows: (i) Expanding 1 or more dimension(s) on all the word vectors, filling with their representative value. (ii) Transferring semantic knowledge by averaging each representative values of synonyms and filling them in the expanded dimension(s). These two steps make representations of the synonyms close together. (iii) Projecting the vector space using Linear Discriminant Analysis, which eliminates the expanded dimension(s) with semantic knowledge. When experimenting with GloVe, we find that our method outperforms Faruqui’s retrofitting on some of word similarity task. We also report further analysis on our method in respect to word vector dimensions, vocabulary size as well as other well-known pretrained word vectors (e.g., Word2Vec, Fasttext).",
+  "keywords": [
+    "glove",
+    "knowledge",
+    "processing",
+    "vector",
+    "i",
+    "the vector space",
+    "e g word2vec fasttext",
+    "all the word vectors",
+    "vectors",
+    "its vector space",
+    "fasttext",
+    "semantic",
+    "we",
+    "semantic lexicons",
+    "word"
+  ],
+  "url": "https://aclanthology.org/W18-3003/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:24:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

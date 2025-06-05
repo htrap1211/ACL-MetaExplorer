@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.89",
+  "title": "A Confidence-based Partial Label Learning Model for Crowd-Annotated Named Entity Recognition",
+  "authors": [
+    "Xiong, Limao  and\nZhou, Jie  and\nZhu, Qunxi  and\nWang, Xiao  and\nWu, Yuanbin  and\nZhang, Qi  and\nGui, Tao  and\nHuang, Xuanjing  and\nMa, Jin  and\nShan, Ying"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Existing models for named entity recognition (NER) are mainly based on large-scale labeled datasets, which always obtain using crowdsourcing. However, it is hard to obtain a unified and correct label via majority voting from multiple annotators for NER due to the large labeling space and complexity of this task. To address this problem, we aim to utilize the original multi-annotator labels directly. Particularly, we propose a CONfidence-based partial Label Learning (CONLL) method to integrate the prior confidence (given by annotators) and posterior confidences (learned by models) for crowd-annotated NER. This model learns a token- and content-dependent confidence via an Expectation–Maximization (EM) algorithm by minimizing empirical risk. The true posterior estimator and confidence estimator perform iteratively to update the true posterior and confidence respectively. We conduct extensive experimental results on both real-world and synthetic datasets, which show that our model can improve performance effectively compared with strong baselines.",
+  "keywords": [
+    "em",
+    "we",
+    "crowd-annotated ner",
+    "named entity recognition ner",
+    "it",
+    "unified",
+    "learning",
+    "ner",
+    "model",
+    "entity",
+    "multi",
+    "original",
+    "existing models",
+    "annotator",
+    "models"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.89/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

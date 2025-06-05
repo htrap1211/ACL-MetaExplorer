@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.274",
+  "title": "Q}uery{A}gent: A Reliable and Efficient Reasoning Framework with Environmental Feedback based Self-Correction",
+  "authors": [
+    "Huang, Xiang  and\nCheng, Sitao  and\nHuang, Shanshan  and\nShen, Jiayu  and\nXu, Yong  and\nZhang, Chaoyun  and\nQu, Yuzhong"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Employing Large Language Models (LLMs) for semantic parsing has achieved remarkable success. However, we find existing methods fall short in terms of reliability and efficiency when hallucinations are encountered. In this paper, we address these challenges with a framework called QueryAgent, which solves a question step-by-step and performs stepwise self-correction. We introduce an environmental feedback-based self-correction method called ERASER. Unlike traditional approaches, ERASER leverages rich environmental feedback in the intermediate steps to perform selective and differentiated self-correction only when necessary. Experimental results demonstrate that QueryAgent notably outperforms all previous few-shot methods using only one example on GrailQA and GraphQ by 5.7 and 15.0 points. Furthermore, our approach exhibits superiority in terms of efficiency, including run-time, query overhead, and API invocation costs. By leveraging ERASER, we further improve another baseline (i.e., AgentBench) by approximately 10 points, validating the strong transferability of our approach.",
+  "keywords": [
+    "parsing",
+    "feedback",
+    "efficient",
+    "question",
+    "efficiency",
+    "semantic",
+    "we",
+    "all previous few-shot methods",
+    "shot",
+    "self",
+    "rich",
+    "i",
+    "grailqa",
+    "language",
+    "large language models"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.274/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

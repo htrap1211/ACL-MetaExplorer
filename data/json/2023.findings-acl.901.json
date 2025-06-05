@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.901",
+  "title": "Decouple knowledge from paramters for plug-and-play language modeling",
+  "authors": [
+    "Cheng, Xin  and\nLin, Yankai  and\nChen, Xiuying  and\nZhao, Dongyan  and\nYan, Rui"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Pre-trained language models (PLM) have made impressive results in a wide range of NLP tasks and it has been revealed that one of the key factors to their success is the parameters of these models implicitly learn various types of knowledge in the pre-training corpus. However, encoding knowledge implicitly in the model parameters has two fundamental drawbacks. First, the knowledge is neither editable nor scalable once the model is trained, which is especially problematic in that knowledge is consistently evolving. Second, it lacks interpretability and prevents us from understanding what kind of knowledge PLM needs to solve a certain task. In this paper, we introduce {pasted macro ‘MODEL’}, a pre-training model with differentiable plug-in memory (DPM). The key intuition behind is to decouple the knowledge storage from model parameters with an editable and scalable key-value memory and leverage knowledge in an explainable manner by knowledge retrieval in the {pasted macro ‘MEMORY’}. We conduct extensive experiments under various settings to justify this design choice. In domain adaptation setting, {pasted macro ‘MODEL’} could be easily adapted to different domains with pluggable in-domain memory—obtaining 3.95 F1 improvements across four domains, without any in-domain training. {pasted macro ‘MODEL’} could also keep absorbing new knowledge after pre-training is done by knowledge updating operation in the {pasted macro ‘MEMORY’} without re-training. Finally, we show that by incorporating training samples into {pasted macro ‘MEMORY’} with knowledge prompting, {pasted macro ‘MODEL’} could further be improved by the instruction of in-task knowledge.",
+  "keywords": [
+    "a pre-training model",
+    "3 95 f1 improvements",
+    "we",
+    "training",
+    "instruction",
+    "an explainable manner",
+    "it",
+    "retrieval",
+    "nlp tasks",
+    "manner",
+    "the pre-training corpus",
+    "knowledge retrieval",
+    "-",
+    "re",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.901/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

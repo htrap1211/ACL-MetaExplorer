@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.40",
+  "title": "C}ode{M}: Less Data Yields More Versatility via Ability Matrix",
+  "authors": [
+    "Zan, Daoguang  and\nYu, Ailun  and\nLiu, Wei  and\nShen, Bo  and\nLin, Shaoxin  and\nGong, Yongshun  and\nYao, Yafen  and\nLiu, Yan  and\nGuan, Bei  and\nLuo, Weihua  and\nWang, Yongji  and\nWang, Qianxiang  and\nCui, Lizhen"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "In the era of code large language models (code LLMs), data engineering plays a pivotal role during the instruction fine-tuning phase. To train a versatile model, previous efforts devote tremendous efforts into crafting instruction data covering all the downstream scenarios. Nonetheless, this will incur significant expenses in constructing data and training model. Therefore, this paper introduces CodeM, a novel data construction strategy, which can efficiently train a versatile model using less data via our newly proposed ability matrix. CodeM uses ability matrix to decouple code LLMs’ abilities into two dimensions, constructing a lightweight training corpus that only covers a subset of target scenarios. Extensive experiments on HumanEvalPack and MultiPL-E imply that code LLMs can combine the single-dimensional abilities to master composed abilities, validating the effectiveness of CodeM.",
+  "keywords": [
+    "code",
+    "era",
+    "ode",
+    "training",
+    "instruction",
+    "llms data engineering",
+    "e",
+    "code llms",
+    "the single-dimensional abilities",
+    "code large language models",
+    "yields",
+    "llms",
+    "abilities",
+    "tuning",
+    "dimensional"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.40/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:49:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

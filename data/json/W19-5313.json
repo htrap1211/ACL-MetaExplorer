@@ -1,0 +1,33 @@
+{
+  "id": "W19-5313",
+  "title": "NICT}{'}s Supervised Neural Machine Translation Systems for the {WMT}19 News Translation Task",
+  "authors": [
+    "Dabre, Raj  and\nChen, Kehai  and\nMarie, Benjamin  and\nWang, Rui  and\nFujita, Atsushi  and\nUtiyama, Masao  and\nSumita, Eiichiro"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1)",
+  "abstract": "In this paper, we describe our supervised neural machine translation (NMT) systems that we developed for the news translation task for Kazakh↔English, Gujarati↔English, Chinese↔English, and English→Finnish translation directions. We focused on leveraging multilingual transfer learning and back-translation for the extremely low-resource language pairs: Kazakh↔English and Gujarati↔English translation. For the Chinese↔English translation, we used the provided parallel data augmented with a large quantity of back-translated monolingual data to train state-of-the-art NMT systems. We then employed techniques that have been proven to be most effective, such as back-translation, fine-tuning, and model ensembling, to generate the primary submissions of Chinese↔English. For English→Finnish, our submission from WMT18 remains a strong baseline despite the increase in parallel corpora for this year’s task.",
+  "keywords": [
+    "the news translation task",
+    "tuning",
+    "language",
+    "s",
+    "neural",
+    "model",
+    "gujarati english translation",
+    "machine",
+    "back-translation",
+    "the chinese english translation",
+    "fine",
+    "back-translation fine-tuning",
+    "we",
+    "learning",
+    "multilingual transfer learning"
+  ],
+  "url": "https://aclanthology.org/W19-5313/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:55:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.132",
+  "title": "Avoiding Overlap in Data Augmentation for {AMR}-to-Text Generation",
+  "authors": [
+    "Du, Wenchao  and\nFlanigan, Jeffrey"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Leveraging additional unlabeled data to boost model performance is common practice in machine learning and natural language processing. For generation tasks, if there is overlap between the additional data and the target text evaluation data, then training on the additional data is training on answers of the test set. This leads to overly-inflated scores with the additional data compared to real-world testing scenarios and problems when comparing models. We study the AMR dataset and Gigaword, which is popularly used for improving AMR-to-text generators, and find significant overlap between Gigaword and a subset of the AMR dataset. We propose methods for excluding parts of Gigaword to remove this overlap, and show that our approach leads to a more realistic evaluation of the task of AMR-to-text generation. Going forward, we give simple best-practice recommendations for leveraging additional data in AMR-to-text generation.",
+  "keywords": [
+    "processing",
+    "generation",
+    "language",
+    "natural",
+    "a more realistic evaluation",
+    "model",
+    "text",
+    "machine",
+    "generation tasks",
+    "machine learning",
+    "we",
+    "learning",
+    "generators",
+    "natural language processing",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.132/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:08:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

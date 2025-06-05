@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.648",
+  "title": "Investigating and Mitigating the Multimodal Hallucination Snowballing in Large Vision-Language Models",
+  "authors": [
+    "Zhong, Weihong  and\nFeng, Xiaocheng  and\nZhao, Liang  and\nLi, Qiming  and\nHuang, Lei  and\nGu, Yuxuan  and\nMa, Weitao  and\nXu, Yuan  and\nQin, Bing"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Though advanced in understanding visual information with human languages, Large Vision-Language Models (LVLMs) still suffer from multimodal hallucinations. A natural concern is that during multimodal interaction, the generated hallucinations could influence the LVLMs’ subsequent generation. Thus, we raise a question:When presented with a query relevant to the previously generated hallucination, will LVLMs be misled and respond incorrectly, even though the ground visual information exists?To answer this, we propose a framework called\\\\textitMMHalSnowballto evaluate LVLMs’ behaviors when encountering generated hallucinations, where LVLMs are required to answer specific visual questions within a curated hallucinatory conversation. Crucially, our experiment shows that the performance of open-source LVLMs drops by at least31\\\\%, indicating that LVLMs are prone to accept the generated hallucinations and make false claims that they would not have supported without distractions. We term thisMultimodal Hallucination Snowballing. To mitigate this issue, we further propose a training-free method calledResidual Visual Decoding,where we revise the output distribution of LVLMs with the one derived from the residual visual input, providing models with direct access to the visual information. Experiments show that our method can mitigate more than24\\\\%of the snowballed multimodal hallucination while maintaining capabilities.",
+  "keywords": [
+    "the previously generated hallucination",
+    "question",
+    "we",
+    "training",
+    "generated hallucinations",
+    "natural",
+    "information",
+    "large vision-language models",
+    "visual",
+    "language",
+    "generation",
+    "the generated hallucinations",
+    "human",
+    "capabilities",
+    "subsequent generation"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.648/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:43:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

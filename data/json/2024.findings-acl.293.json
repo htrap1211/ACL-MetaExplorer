@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.293",
+  "title": "On the Language Encoder of Contrastive Cross-modal Models",
+  "authors": [
+    "Zhao, Mengjie  and\nOno, Junya  and\nZhong, Zhi  and\nLai, Chieh-Hsin  and\nTakida, Yuhta  and\nMurata, Naoki  and\nLiao, Wei-Hsiang  and\nShibuya, Takashi  and\nWakaki, Hiromi  and\nMitsufuji, Yuki"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Contrastive cross-modal models such as CLIP and CLAP aid various vision-language (VL) and audio-language (AL) tasks. However, there has been limited investigation of and improvement in their language encoder – the central component of encoding natural language descriptions of image/audio into vector representations. We extensively evaluate how unsupervised and supervised sentence embedding training affect language encoder quality and cross-modal task performance. In VL pretraining, we found that sentence embedding training enhances language encoder quality and aids in cross-modal tasks, improving contrastive VL models such as CyCLIP. Sentence embedding training benefits AL tasks when the amount of training data is large. We analyze the representation spaces to understand the strengths of sentence embedding training, and find that it improves text-space uniformity, at the cost of decreased cross-modal alignment.",
+  "keywords": [
+    "cross",
+    "alignment",
+    "the language encoder",
+    "their language encoder",
+    "vector",
+    "language",
+    "natural",
+    "language encoder quality",
+    "text",
+    "it",
+    "encoder",
+    "decreased cross-modal alignment",
+    "we",
+    "training",
+    "vector representations"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.293/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

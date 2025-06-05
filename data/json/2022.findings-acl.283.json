@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.283",
+  "title": "EICO}: Improving Few-Shot Text Classification via Explicit and Implicit Consistency Regularization",
+  "authors": [
+    "Zhao, Lei  and\nYao, Cheng"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "While the prompt-based fine-tuning methods had advanced few-shot natural language understanding tasks, self-training methods are also being explored. This work revisits the consistency regularization in self-training and presents explicit and implicit consistency regularization enhanced language model (EICO). By employing both explicit and implicit consistency regularization, EICO advances the performance of prompt-based few-shot text classification. For implicit consistency regularization, we generate pseudo-label from the weakly-augmented view and predict pseudo-label from the strongly-augmented view. For explicit consistency regularization, we minimize the difference between the prediction of the augmentation view and the prediction of the original view. We conducted extensive experiments on six text classification datasets and found that with sixteen labeled examples, EICO achieves competitive performance compared to existing self-training few-shot learning methods.",
+  "keywords": [
+    "work",
+    "implicit consistency regularization",
+    "the prompt-based fine-tuning methods",
+    "tuning",
+    "the original view",
+    "the augmentation view",
+    "prompt",
+    "language",
+    "six text classification datasets",
+    "natural",
+    "model",
+    "text",
+    "few-shot text classification",
+    "explicit consistency regularization",
+    "self"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.283/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

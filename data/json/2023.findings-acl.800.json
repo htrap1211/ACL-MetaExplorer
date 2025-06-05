@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.800",
+  "title": "A Diffusion Model for Event Skeleton Generation",
+  "authors": [
+    "Zhu, Fangqi  and\nZhang, Lin  and\nGao, Jun  and\nQin, Bing  and\nXu, Ruifeng  and\nYang, Haiqin"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Event skeleton generation, aiming to induce an event schema skeleton graph with abstracted event nodes and their temporal relations from a set of event instance graphs, is a critical step in the temporal complex event schema induction task. Existing methods effectively address this task from a graph generation perspective but suffer from noise-sensitive and error accumulation, e.g., the inability to correct errors while generating schema. We, therefore, propose a novel Diffusion Event Graph Model (DEGM) to address these issues. Our DEGM is the first workable diffusion model for event skeleton generation, where the embedding and rounding techniques with a custom edge-based loss are introduced to transform a discrete event graph into learnable latent representations. Furthermore, we propose a denoising training process to maintain the model’s robustness. Consequently, DEGM derives the final schema, where error correction is guaranteed by iteratively refining the latent representations during the schema generation process. Experimental results on three IED bombing datasets demonstrate that our DEGM achieves better results than other state-of-the-art baselines. Our code and data are available athttps://github.com/zhufq00/EventSkeletonGeneration.",
+  "keywords": [
+    "code",
+    "we",
+    "a graph generation perspective",
+    "graph",
+    "training",
+    "edge",
+    "loss",
+    "latent",
+    "three ied bombing datasets",
+    "eventskeletongeneration",
+    "process",
+    "event skeleton generation",
+    "generation",
+    "model",
+    "induction task"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.800/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

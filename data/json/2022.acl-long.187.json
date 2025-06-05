@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.187",
+  "title": "Learning Disentangled Textual Representations via Statistical Measures of Similarity",
+  "authors": [
+    "Colombo, Pierre  and\nStaerman, Guillaume  and\nNoiry, Nathan  and\nPiantanida, Pablo"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "When working with textual data, a natural application of disentangled representations is the fair classification where the goal is to make predictions without being biased (or influenced) by sensible attributes that may be present in the data (e.g., age, gender or race). Dominant approaches to disentangle a sensitive attribute from textual representations rely on learning simultaneously a penalization term that involves either an adversary loss (e.g., a discriminator) or an information measure (e.g., mutual information). However, these methods require the training of a deep neural network with several parameter updates for each update of the representation model. As a matter of fact, the resulting nested optimization loop is both times consuming, adding complexity to the optimization dynamic, and requires a fine hyperparameter selection (e.g., learning rates, architecture). In this work, we introduce a family of regularizers for learning disentangled representations that do not require training. These regularizers are based on statistical measures of similarity between the conditional probability distributions with respect to the sensible attributes. Our novel regularizers do not require additional training, are faster and do not involve additional tuning while achieving better results both when combined with pretrained and randomly initialized text encoders.",
+  "keywords": [
+    "deep",
+    "we",
+    "the optimization",
+    "a deep neural network",
+    "parameter",
+    "training",
+    "classification",
+    "neural",
+    "natural",
+    "loss",
+    "information",
+    "tuning",
+    "text",
+    "fine",
+    "age"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.187/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

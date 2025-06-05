@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.621",
+  "title": "Mixture-of-Supernets: Improving Weight-Sharing Supernet Training with Architecture-Routed Mixture-of-Experts",
+  "authors": [
+    "Jawahar, Ganesh  and\nYang, Haichuan  and\nXiong, Yunyang  and\nLiu, Zechun  and\nWang, Dilin  and\nSun, Fei  and\nLi, Meng  and\nPappu, Aasish  and\nOguz, Barlas  and\nAbdul-Mageed, Muhammad  and\nLakshmanan, Laks  and\nKrishnamoorthi, Raghuraman  and\nChandra, Vikas"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Weight-sharing supernets are crucial for performance estimation in cutting-edge neural architecture search (NAS) frameworks. Despite their ability to generate diverse subnetworks without retraining, the quality of these subnetworks is not guaranteed due to weight sharing. In NLP tasks like machine translation and pre-trained language modeling, there is a significant performance gap between supernet and training from scratch for the same model architecture, necessitating retraining post optimal architecture identification.This study introduces a solution called mixture-of-supernets, a generalized supernet formulation leveraging mixture-of-experts (MoE) to enhance supernet model expressiveness with minimal training overhead. Unlike conventional supernets, this method employs an architecture-based routing mechanism, enabling indirect sharing of model weights among subnetworks. This customization of weights for specific architectures, learned through gradient descent, minimizes retraining time, significantly enhancing training efficiency in NLP. The proposed method attains state-of-the-art (SoTA) performance in NAS for fast machine translation models, exhibiting a superior latency-BLEU tradeoff compared to HAT, the SoTA NAS framework for machine translation. Furthermore, it excels in NAS for building memory-efficient task-agnostic BERT models, surpassing NAS-BERT and AutoDistil across various model sizes. The code can be found at: https://github.com/UBC-NLP/MoS.",
+  "keywords": [
+    "code",
+    "efficient",
+    "generalized",
+    "bleu",
+    "machine translation",
+    "efficiency",
+    "fast machine translation models",
+    "training",
+    "translation",
+    "edge",
+    "neural",
+    "it",
+    "gradient descent",
+    "pre-trained language modeling",
+    "nlp tasks"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.621/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

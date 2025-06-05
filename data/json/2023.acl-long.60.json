@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.60",
+  "title": "ALERT}: Adapt Language Models to Reasoning Tasks",
+  "authors": [
+    "Yu, Ping  and\nWang, Tianlu  and\nGolovneva, Olga  and\nAlKhamissi, Badr  and\nVerma, Siddharth  and\nJin, Zhijing  and\nGhosh, Gargi  and\nDiab, Mona  and\nCelikyilmaz, Asli"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent advancements in large language models have enabled them to perform well on complex tasks that require step-by-step reasoning with few-shot learning. However, it is unclear whether these models are applying reasoning skills they have learnt during pre-training , or if they are simply memorizing their training corpus at finer granularity and have learnt to better understand their context. To address this question, we introduce {pasted macro ‘OUR’}model, a benchmark and suite of analyses for evaluating reasoning skills of language models. {pasted macro ‘OUR’}model enables comparing pre-trained and finetuned models on complex tasks that require reasoning skills to solve. Our benchmark provides a test bed to asses any language model on fine-grained reasoning skills, which spans over 20 datasets and covers 10 different reasoning skills. By using {pasted macro ‘OUR’}model we further investigatethe role of finetuning. Our extensive empirical analysis shows that language models learn more reasoning skills such as textual entailment, abductive reasoning, and analogical reasoning during the finetuning stage compared to pretraining stage. However, we also find that when language models are finetuned they tend to overfit to the prompt template, which hurts the robustness of models causing generalization problems.",
+  "keywords": [
+    "finer",
+    "few-shot learning",
+    "question",
+    "we",
+    "shot",
+    "training",
+    "the prompt template",
+    "it",
+    "learning",
+    "bed",
+    "analysis",
+    "prompt",
+    "language models",
+    "generalization",
+    "any language model"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.60/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:36:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

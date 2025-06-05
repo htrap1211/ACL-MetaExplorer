@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.806",
+  "title": "GLUE}-{X}: Evaluating Natural Language Understanding Models from an Out-of-Distribution Generalization Perspective",
+  "authors": [
+    "Yang, Linyi  and\nZhang, Shuibai  and\nQin, Libo  and\nLi, Yafu  and\nWang, Yidong  and\nLiu, Hanmeng  and\nWang, Jindong  and\nXie, Xing  and\nZhang, Yue"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Pre-trained language models (PLMs) are known to improve the generalization performance of natural language understanding models by leveraging large amounts of data during the pre-training phase. However, the out-of-distribution (OOD) generalization problem remains a challenge in many NLP tasks, limiting the real-world deployment of these methods. This paper presents the first attempt at creating a unified benchmark named GLUE-X for evaluating OOD robustness in NLP models, highlighting the importance of OOD robustness and providing insights on how to measure the robustness of a model and how to improve it. The benchmark includes 13 publicly available datasets for OOD testing, and evaluations are conducted on 8 classic NLP tasks over 21 popularly used PLMs. Our findings confirm the need for improved OOD accuracy in NLP tasks, as significant performance degradation was observed in all settings compared to in-distribution (ID) accuracy.",
+  "keywords": [
+    "8 classic nlp tasks",
+    "language",
+    "improved ood accuracy",
+    "natural",
+    "nlp",
+    "model",
+    "it",
+    "evaluations",
+    "many nlp tasks",
+    "unified",
+    "generalization",
+    "pre-trained language models plms",
+    "a unified benchmark",
+    "nlp models",
+    "nlp tasks"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.806/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

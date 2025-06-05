@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.238",
+  "title": "nancy-hicks-gribble at {S}em{E}val-2023 Task 5: Classifying and generating clickbait spoilers with {R}o{BERT}a",
+  "authors": [
+    "Keller, J{\\\"u}ri  and\nRehbach, Nicolas  and\nZafar, Ibrahim"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "Clickbait spoiling and spoiler type classification in the setting of the SemEval2023 shared task five was used to explore transformer based text classification in comparison to conventional, shallow learned classifying models. Additionally, an initial model for spoiler creation was explored. The task was to classify or create spoilers for clickbait social media posts. The classification task was addressed by comparing different classifiers trained on hand crafted features to pre-trained and fine-tuned RoBERTa transformer models. The spoiler generation task was formulated as a question answering task, using the clickbait posts as questions and the articles as foundation to retrieve the answer from. The results show that even of the shelve transformer models outperform shallow learned models in the classification task. The spoiler generation task is more complex and needs an advanced system.",
+  "keywords": [
+    "transformer",
+    "roberta",
+    "generation",
+    "answer",
+    "r o bert",
+    "the classification task",
+    "bert",
+    "model",
+    "text",
+    "classifiers",
+    "question",
+    "the spoiler generation task",
+    "different classifiers",
+    "pre",
+    "transformer based text classification"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.238/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

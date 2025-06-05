@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.14",
+  "title": "D}yna{M}i{TE}: Discovering Explosive Topic Evolutions with User Guidance",
+  "authors": [
+    "Balepur, Nishant  and\nAgarwal, Shivam  and\nVenkat Ramanan, Karthik  and\nYoon, Susik  and\nYang, Diyi  and\nHan, Jiawei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Dynamic topic models (DTMs) analyze text streams to capture the evolution of topics. Despite their popularity, existing DTMs are either fully supervised, requiring expensive human annotations, or fully unsupervised, producing topic evolutions that often do not cater to a user’s needs. Further, the topic evolutions produced by DTMs tend to contain generic terms that are not indicative of their designated time steps. To address these issues, we propose the task of discriminative dynamic topic discovery. This task aims to discover topic evolutions from temporal corpora that distinctly align with a set of user-provided category names and uniquely capture topics at each time step. We solve this task by developing DynaMiTE, a framework that ensembles semantic similarity, category indicative, and time indicative scores to produce informative topic evolutions. Through experiments on three diverse datasets, including the use of a newly-designed human evaluation experiment, we demonstrate that DynaMiTE is a practical and efficient framework for helping users discover high-quality topic evolutions suited to their interests.",
+  "keywords": [
+    "efficient",
+    "semantic",
+    "we",
+    "i",
+    "text",
+    "generic",
+    "topic",
+    "generic terms",
+    "human",
+    "evaluation",
+    "time",
+    "unsupervised",
+    "framework",
+    "models",
+    "experiment"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.14/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

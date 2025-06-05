@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.325",
+  "title": "How is {BERT} surprised? Layerwise detection of linguistic anomalies",
+  "authors": [
+    "Li, Bai  and\nZhu, Zining  and\nThomas, Guillaume  and\nXu, Yang  and\nRudzicz, Frank"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Transformer language models have shown remarkable ability in detecting when a word is anomalous in context, but likelihood scores offer no information about the cause of the anomaly. In this work, we use Gaussian models for density estimation at intermediate layers of three language models (BERT, RoBERTa, and XLNet), and evaluate our method on BLiMP, a grammaticality judgement benchmark. In lower layers, surprisal is highly correlated to low token frequency, but this correlation diminishes in upper layers. Next, we gather datasets of morphosyntactic, semantic, and commonsense anomalies from psycholinguistic studies; we find that the best performing model RoBERTa exhibits surprisal in earlier layers when the anomaly is morphosyntactic than when it is semantic, while commonsense anomalies do not exhibit surprisal at any intermediate layer. These results suggest that language models employ separate mechanisms to detect different types of linguistic anomalies.",
+  "keywords": [
+    "roberta",
+    "linguistic anomalies",
+    "bert roberta",
+    "layer",
+    "semantic",
+    "we",
+    "three language models",
+    "it",
+    "token",
+    "bert surprised layerwise detection",
+    "information",
+    "word",
+    "bert",
+    "psycholinguistic studies",
+    "language models"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.325/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

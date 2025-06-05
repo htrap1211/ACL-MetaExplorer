@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.112",
+  "title": "Combining (Second-Order) Graph-Based and Headed-Span-Based Projective Dependency Parsing",
+  "authors": [
+    "Yang, Songlin  and\nTu, Kewei"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Graph-based methods, which decompose the score of a dependency tree into scores of dependency arcs, are popular in dependency parsing for decades. Recently, (CITATION) propose a headed-span-based method that decomposes the score of a dependency tree into scores of headed spans. They show improvement over first-order graph-based methods. However, their method does not score dependency arcs at all, and dependency arcs are implicitly induced by their cubic-time algorithm, which is possibly sub-optimal since modeling dependency arcs is intuitively useful. In this work, we aim to combine graph-based and headed-span-based methods, incorporating both arc scores and headed span scores into our model. First, we show a direct way to combine withO(n4)parsing complexity. To decrease complexity, inspired by the classical head-splitting trick, we show twoO(n3)dynamic programming algorithms to combine first- and second-order graph-based and headed-span-based methods. Our experiments on PTB, CTB, and UD show that combining first-order graph-based and headed-span-based methods is effective. We also confirm the effectiveness of second-order graph-based parsing in the deep learning age, however, we observe marginal or no improvement when combining second-order graph-based and headed-span-based methods .",
+  "keywords": [
+    "work",
+    "deep",
+    "second-order graph-based parsing",
+    "a dependency tree",
+    "parsing",
+    "model",
+    "dependency arcs",
+    "modeling",
+    "dependency",
+    "we",
+    "the deep learning age",
+    "learning",
+    "age",
+    "graph",
+    "time"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.112/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

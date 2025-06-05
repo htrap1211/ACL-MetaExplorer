@@ -1,0 +1,33 @@
+{
+  "id": "2021.repl4nlp-1.11",
+  "title": "Revisiting Pretraining with Adapters",
+  "authors": [
+    "Kim, Seungwon  and\nShum, Alex  and\nSusanj, Nathan  and\nHilgart, Jonathan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 6th Workshop on Representation Learning for NLP (RepL4NLP-2021)",
+  "abstract": "Pretrained language models have served as the backbone for many state-of-the-art NLP results. These models are large and expensive to train. Recent work suggests that continued pretraining on task-specific data is worth the effort as pretraining leads to improved performance on downstream tasks. We explore alternatives to full-scale task-specific pretraining of language models through the use of adapter modules, a parameter-efficient approach to transfer learning. We find that adapter-based pretraining is able to achieve comparable results to task-specific pretraining while using a fraction of the overall trainable parameters. We further explore direct use of adapters without pretraining and find that the direct fine-tuning performs mostly on par with pretrained adapter models, contradicting previously proposed benefits of continual pretraining in full pretraining fine-tuning strategies. Lastly, we perform an ablation study on task-adaptive pretraining to investigate how different hyperparameter settings can change the effectiveness of the pretraining.",
+  "keywords": [
+    "efficient",
+    "we",
+    "parameter",
+    "how different hyperparameter settings",
+    "learning",
+    "the direct fine-tuning",
+    "tuning",
+    "strategies",
+    "par",
+    "language models",
+    "fine",
+    "a parameter-efficient approach",
+    "work",
+    "language",
+    "nlp"
+  ],
+  "url": "https://aclanthology.org/2021.repl4nlp-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:19:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

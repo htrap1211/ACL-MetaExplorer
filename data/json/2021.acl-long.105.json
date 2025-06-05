@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.105",
+  "title": "Exploiting Language Relatedness for Low Web-Resource Language Model Adaptation: {A}n {I}ndic Languages Study",
+  "authors": [
+    "Khemchandani, Yash  and\nMehtani, Sarvesh  and\nPatil, Vaidehi  and\nAwasthi, Abhijeet  and\nTalukdar, Partha  and\nSarawagi, Sunita"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Recent research in multilingual language models (LM) has demonstrated their ability to effectively handle multiple languages in a single model. This holds promise for low web-resource languages (LRL) as multilingual models can enable transfer of supervision from high resource languages to LRLs. However, incorporating a new language in an LM still remains a challenge, particularly for languages with limited corpora and in unseen scripts. In this paper we argue that relatedness among languages in a language family may be exploited to overcome some of the corpora limitations of LRLs, and propose RelateLM. We focus on Indian languages, and exploit relatedness along two dimensions: (1) script (since many Indic scripts originated from the Brahmic script), and (2) sentence structure. RelateLM uses transliteration to convert the unseen script of limited LRL text into the script of a Related Prominent Language (RPL) (Hindi in our case). While exploiting similar sentence structures, RelateLM utilizes readily available bilingual dictionaries to pseudo translate RPL text into LRL corpora. Experiments on multiple real-world benchmark datasets provide validation to our hypothesis that using a related language as pivot, along with transliteration and pseudo translation based data augmentation, can be an effective way to adapt LMs for LRLs, rather than direct training or pivoting through English.",
+  "keywords": [
+    "validation",
+    "we",
+    "training",
+    "translation",
+    "readily available bilingual dictionaries",
+    "transfer",
+    "multilingual language models",
+    "text",
+    "rpl",
+    "pseudo translation",
+    "dictionaries",
+    "language",
+    "model",
+    "supervision",
+    "a single model"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.105/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:00:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

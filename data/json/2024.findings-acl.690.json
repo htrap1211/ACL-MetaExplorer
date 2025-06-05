@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.690",
+  "title": "Poor-Supervised Evaluation for {S}uper{LLM} via Mutual Consistency",
+  "authors": [
+    "Yuan, Peiwen  and\nFeng, Shaoxiong  and\nLi, Yiwei  and\nWang, Xinglin  and\nPan, Boyuan  and\nWang, Heda  and\nHu, Yao  and\nLi, Kan"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "The guidance from capability evaluations has greatly propelled the progress of human society and the development of Artificial Intelligence. However, as LLMs evolve, it becomes challenging to construct evaluation benchmark with accurate labels for SuperLLMs whose capabilities approach or even surpass those of humans. To credibly conduct poor-supervised evaluation without accurate labels, we first prove that the consistency between the model under evaluation and the reference model, when their prediction distributions are independent and the sample size is infinite, can equivalently assess the true capabilities of the model to be evaluated. However, using either humans or LLMs as the reference model cannot sufficiently meet the conditions, for which we propose the PEEM algorithm. By treating all models under evaluation as reference models, PEEM alternately optimizes model weights and filters reference models based on EM algorithm to maximally alleviate the insufficiency of the conditions. Comprehensive experiments across 3 types of tasks with 16 mainstream LLMs validate the efficiency, universality, and effectiveness of PEEM. More generally, PEEM has advanced the evaluation paradigm evolution from human-centric to human&model-centric, alleviating the limitations of human capabilities for evaluating SuperLLMs.",
+  "keywords": [
+    "superllms",
+    "em",
+    "insufficiency",
+    "efficiency",
+    "we",
+    "human society",
+    "llm",
+    "the true capabilities",
+    "capability evaluations",
+    "it",
+    "the efficiency universality",
+    "whose capabilities",
+    "llms",
+    "the insufficiency",
+    "the evaluation paradigm evolution"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.690/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

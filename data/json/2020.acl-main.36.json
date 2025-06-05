@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.36",
+  "title": "Jointly Masked Sequence-to-Sequence Model for Non-Autoregressive Neural Machine Translation",
+  "authors": [
+    "Guo, Junliang  and\nXu, Linli  and\nChen, Enhong"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "The masked language model has received remarkable attention due to its effectiveness on various natural language processing tasks. However, few works have adopted this technique in the sequence-to-sequence models. In this work, we introduce a jointly masked sequence-to-sequence model and explore its application on non-autoregressive neural machine translation~(NAT). Specifically, we first empirically study the functionalities of the encoder and the decoder in NAT models, and find that the encoder takes a more important role than the decoder regarding the translation quality. Therefore, we propose to train the encoder more rigorously by masking the encoder input while training. As for the decoder, we propose to train it based on the consecutive masking of the decoder input with ann-gram loss function to alleviate the problem of translating duplicate words. The two types of masks are applied to the model jointly at the training stage. We conduct experiments on five benchmark machine translation tasks, and our model can achieve 27.69/32.24 BLEU scores on WMT14 English-German/German-English tasks with5+times speed up compared with an autoregressive model.",
+  "keywords": [
+    "functionalities",
+    "the decoder",
+    "bleu",
+    "we",
+    "the masked language model",
+    "training",
+    "translation",
+    "the encoder",
+    "neural",
+    "natural",
+    "it",
+    "decoder",
+    "loss",
+    "sequence",
+    "the decoder input"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.36/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:42:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

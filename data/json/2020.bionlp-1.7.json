@@ -1,0 +1,33 @@
+{
+  "id": "2020.bionlp-1.7",
+  "title": "A {BERT}-based One-Pass Multi-Task Model for Clinical Temporal Relation Extraction",
+  "authors": [
+    "Lin, Chen  and\nMiller, Timothy  and\nDligach, Dmitriy  and\nSadeque, Farig  and\nBethard, Steven  and\nSavova, Guergana"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 19th SIGBioMed Workshop on Biomedical Language Processing",
+  "abstract": "Recently BERT has achieved a state-of-the-art performance in temporal relation extraction from clinical Electronic Medical Records text. However, the current approach is inefficient as it requires multiple passes through each input sequence. We extend a recently-proposed one-pass model for relation classification to a one-pass model for relation extraction. We augment this framework by introducing global embeddings to help with long-distance relation inference, and by multi-task learning to increase model performance and generalizability. Our proposed model produces results on par with the state-of-the-art in temporal relation extraction on the THYME corpus and is much “greener” in computational cost.",
+  "keywords": [
+    "embeddings",
+    "relation classification",
+    "extraction",
+    "bert",
+    "model",
+    "inefficient",
+    "text",
+    "it",
+    "par",
+    "greener",
+    "global embeddings",
+    "we",
+    "sequence",
+    "learning",
+    "generalizability"
+  ],
+  "url": "https://aclanthology.org/2020.bionlp-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:54:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

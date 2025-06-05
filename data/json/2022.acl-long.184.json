@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.184",
+  "title": "Measuring and Mitigating Name Biases in Neural Machine Translation",
+  "authors": [
+    "Wang, Jun  and\nRubinstein, Benjamin  and\nCohn, Trevor"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Neural Machine Translation (NMT) systems exhibit problematic biases, such as stereotypical gender bias in the translation of occupation terms into languages with grammatical gender. In this paper we describe a new source of bias prevalent in NMT systems, relating to translations of sentences containing person names. To correctly translate such sentences, a NMT system needs to determine the gender of the name. We show that leading systems are particularly poor at this task, especially for female given names. This bias is deeper than given name gender: we show that the translation of terms with ambiguous sentiment can also be affected by person names, and the same holds true for proper nouns denoting race. To mitigate these biases we propose a simple but effective data augmentation method based on randomly switching entities during translation, which effectively eliminates the problem without any effect on translation quality.",
+  "keywords": [
+    "bias",
+    "the translation",
+    "translation",
+    "these biases",
+    "problematic biases",
+    "neural",
+    "machine",
+    "stereotypical gender bias",
+    "entities",
+    "bias prevalent",
+    "translation quality",
+    "we",
+    "biases",
+    "name biases",
+    "translations"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.184/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

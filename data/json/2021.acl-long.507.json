@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.507",
+  "title": "CCM}atrix: Mining Billions of High-Quality Parallel Sentences on the Web",
+  "authors": [
+    "Schwenk, Holger  and\nWenzek, Guillaume  and\nEdunov, Sergey  and\nGrave, Edouard  and\nJoulin, Armand  and\nFan, Angela"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "We show that margin-based bitext mining in a multilingual sentence space can be successfully scaled to operate on monolingual corpora of billions of sentences. We use 32 snapshots of a curated common crawl corpus (Wenzel et al, 2019) totaling 71 billion unique sentences. Using one unified approach for 90 languages, we were able to mine 10.8 billion parallel sentences, out of which only 2.9 billions are aligned with English. We illustrate the capability of our scalable mining system to create high quality training sets from one language to any other by training hundreds of different machine translation models and evaluating them on the many-to-many TED benchmark. Further, we evaluate on competitive translation benchmarks such as WMT and WAT. Using only mined bitext, we set a new state of the art for a single system on the WMT’19 test set for English-German/Russian/Chinese. In particular, our English/German and English/Russian systems outperform the best single ones by over 4 BLEU points and are on par with best WMT’19 systems, which train on the WMT training data and augment it with backtranslation. We also achieve excellent results for distant languages pairs like Russian/Japanese, outperforming the best submission at the 2020 WAT workshop. All of the mined bitext will be freely available.",
+  "keywords": [
+    "one unified approach",
+    "bleu",
+    "all",
+    "we",
+    "training",
+    "translation",
+    "competitive translation benchmarks",
+    "backtranslation",
+    "it",
+    "unified",
+    "over 4 bleu points",
+    "par",
+    "mining",
+    "language",
+    "machine"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.507/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

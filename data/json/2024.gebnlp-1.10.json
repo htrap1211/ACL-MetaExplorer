@@ -1,0 +1,33 @@
+{
+  "id": "2024.gebnlp-1.10",
+  "title": "Towards Fairer {NLP} Models: Handling Gender Bias In Classification Tasks",
+  "authors": [
+    "Sobhani, Nasim  and\nDelany, Sarah"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 5th Workshop on Gender Bias in Natural Language Processing (GeBNLP)",
+  "abstract": "Measuring and mitigating gender bias in natural language processing (NLP) systems is crucial to ensure fair and ethical AI. However, a key challenge is the lack of explicit gender information in many textual datasets. This paper proposes two techniques, Identity Term Sampling (ITS) and Identity Term Pattern Extraction (ITPE), as alternatives to template-based approaches for measuring gender bias in text data. These approaches identify test data for measuring gender bias in the dataset itself and can be used to measure gender bias on any NLP classifier. We demonstrate the use of these approaches for measuring gender bias across various NLP classification tasks, including hate speech detection, fake news identification, and sentiment analysis. Additionally, we show how these techniques can benefit gender bias mitigation, proposing a variant of Counterfactual Data Augmentation (CDA), called Gender-Selective CDA (GS-CDA), which reduces the amount of data augmentation required in training data while effectively mitigating gender bias and maintaining overall classification performance.",
+  "keywords": [
+    "fairer nlp models",
+    "bias",
+    "gender bias mitigation",
+    "extraction",
+    "classifier",
+    "any nlp classifier",
+    "we",
+    "training",
+    "classification",
+    "classification tasks",
+    "natural",
+    "information",
+    "analysis",
+    "processing",
+    "overall classification performance"
+  ],
+  "url": "https://aclanthology.org/2024.gebnlp-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:06:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

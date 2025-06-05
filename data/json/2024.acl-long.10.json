@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.10",
+  "title": "CSCD}-{NS}: a {C}hinese Spelling Check Dataset for Native Speakers",
+  "authors": [
+    "Hu, Yong  and\nMeng, Fandong  and\nZhou, Jie"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this paper, we present CSCD-NS, the first Chinese spelling check (CSC) dataset designed for native speakers, containing 40,000 samples from a Chinese social platform. Compared with existing CSC datasets aimed at Chinese learners, CSCD-NS is ten times larger in scale and exhibits a distinct error distribution, with a significantly higher proportion of word-level errors. To further enhance the data resource, we propose a novel method that simulates the input process through an input method, generating large-scale and high-quality pseudo data that closely resembles the actual error distribution and outperforms existing methods. Moreover, we investigate the performance of various models in this scenario, including large language models (LLMs), such as ChatGPT. The result indicates that generative models underperform BERT-like classification models due to strict length and pronunciation constraints. The high prevalence of word-level errors also makes CSC for native speakers challenging enough, leaving substantial room for improvement.",
+  "keywords": [
+    "generative models",
+    "bert-like classification models",
+    "we",
+    "chinese learners",
+    "classification",
+    "chatgpt",
+    "word",
+    "llms",
+    "generative",
+    "bert",
+    "large language models llms",
+    "process",
+    "language",
+    "learners",
+    "scenario"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:34:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

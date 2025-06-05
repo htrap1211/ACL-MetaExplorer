@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.700",
+  "title": "Generalizability of Mixture of Domain-Specific Adapters from the Lens of Signed Weight Directions and its Application to Effective Model Pruning",
+  "authors": [
+    "Nguyen, Tuc  and\nLe, Thai"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Several parameter-efficient fine-tuning methods based on adapters have been proposed as a streamlined approach to incorporate not only a single specialized knowledge into existing Pre-Trained Language Models (PLMs) but also multiple of them at once. Recent works such as AdapterSoup propose to mix not all but only a selective sub-set of domain-specific adapters during inference via model weight averaging to optimize performance on novel, unseen domains with excellent computational efficiency. However, the essential generalizability of this emerging weight-space adapter mixing mechanism onunseen, in-domain examplesremains unexplored. Thus, in this study, we conduct a comprehensive analysis to elucidate the generalizability of domain-specific adapter mixtures in in-domain evaluation. We also provide investigations into the inner workings of the mixture of domain-specific adapters by analyzing their weight signs, yielding critical analysis on the negative correlation between their fraction of weight sign difference and their mixtures’ generalizability. The code is available at Github.",
+  "keywords": [
+    "code",
+    "efficient",
+    "several parameter-efficient fine-tuning methods",
+    "efficiency",
+    "we",
+    "generalizability",
+    "parameter",
+    "the essential generalizability",
+    "the inner workings",
+    "the generalizability",
+    "inner",
+    "analysis",
+    "their mixtures generalizability",
+    "tuning",
+    "fine"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.700/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:43:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

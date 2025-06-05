@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.299",
+  "title": "Jailbreak Open-Sourced Large Language Models via Enforced Decoding",
+  "authors": [
+    "Zhang, Hangfan  and\nGuo, Zhimeng  and\nZhu, Huaisheng  and\nCao, Bochuan  and\nLin, Lu  and\nJia, Jinyuan  and\nChen, Jinghui  and\nWu, Dinghao"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large Language Models (LLMs) have achieved unprecedented performance in Natural Language Generation (NLG) tasks. However, many existing studies have shown that they could be misused to generate undesired content. In response, before releasing LLMs for public access, model developers usually align those language models through Supervised Fine-Tuning (SFT) or Reinforcement Learning with Human Feedback (RLHF). Consequently, those aligned large language models refuse to generate undesired content when facing potentially harmful/unethical requests. A natural question is “could alignment really prevent those open-sourced large language models from being misused to generate undesired content?”. In this work, we provide a negative answer to this question. In particular, we show those open-sourced, aligned large language models could be easily misguided to generate undesired content without heavy computations or careful prompt designs. Our key idea is to directly manipulate the generation process of open-sourced LLMs to misguide it to generate undesired content including harmful or biased information and even private data. We evaluate our method on 4 open-sourced LLMs accessible publicly and our finding highlights the need for more advanced mitigation strategies for open-sourced LLMs.",
+  "keywords": [
+    "those language models",
+    "harmful or biased information",
+    "feedback",
+    "open-sourced large language models",
+    "question",
+    "we",
+    "human feedback rlhf",
+    "answer",
+    "natural",
+    "rlhf",
+    "it",
+    "information",
+    "learning",
+    "careful prompt designs",
+    "biased"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.299/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.111",
+  "title": "Logical Transformers: Infusing Logical Structures into Pre-Trained Language Models",
+  "authors": [
+    "Wang, Borui  and\nHuang, Qiuyuan  and\nDeb, Budhaditya  and\nHalfaker, Aaron  and\nShao, Liqun  and\nMcDuff, Daniel  and\nAwadallah, Ahmed Hassan  and\nRadev, Dragomir  and\nGao, Jianfeng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Natural language contains rich logical structures and logical information, and correctly detecting and accurately understanding these logical structures and information underlying natural language texts is very crucial for NLP models’ performance on many important NLU and NLG tasks. Existing pre-trained language models based on the transformer architecture mostly adopt a classical design for constructing their input embeddings that ignores the logical structures underlying natural language texts, thus limiting their ability to better capture and encode key logical information in the input sequences. To overcome such limitations, in this paper we first propose a novel approach to construct logic-aware input embeddings for transformer language models through a combination of logic detection, logic mapping and hierarchical logical projections, and then develop a corresponding new modeling paradigm that can upgrade existing transformer language models into logical transformers to boost their performance on different NLU and NLG tasks. Our empirical experiments on four important and challenging NLU and NLG tasks demonstrate that our proposed logical transformer language models can achieve superior performance over their baseline transformer models through a deeper understanding of the logical structures of texts.",
+  "keywords": [
+    "transformers",
+    "encode",
+    "we",
+    "pre-trained language models",
+    "natural",
+    "transformer language models",
+    "information",
+    "existing pre-trained language models",
+    "rich",
+    "natural language",
+    "logic-aware input embeddings",
+    "their baseline transformer models",
+    "hierarchical logical projections",
+    "embeddings",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.111/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.121",
+  "title": "Enhancing Contrastive Learning with Noise-Guided Attack: Towards Continual Relation Extraction in the Wild",
+  "authors": [
+    "Wu, Ting  and\nLiu, Jingyi  and\nZheng, Rui  and\nGui, Tao  and\nZhang, Qi  and\nHuang, Xuanjing"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The principle of continual relation extraction (CRE) involves adapting to emerging novel relations while preserving old knowledge. Existing CRE approaches excel in preserving old knowledge but falter when confronted with contaminated data streams, likely due to an artificial assumption of no annotation errors. Recognizing the prevalence of noisy labels in real-world datasets, we introduce a more practical learning scenario, termed asnoisy-CRE. In response to this challenge, we propose a noise-resistant contrastive framework called Noise-guided Attack in Contrastive Learning (NaCL), aimed at learning incremental corrupted relations. Diverging from conventional approaches like sample discarding or relabeling in the presence of noisy labels, NaCL takes a transformative route by modifying the feature space through targeted attack. This attack aims to align the feature space with the provided, albeit inaccurate, labels, thereby enhancing contrastive representations. Extensive empirical validations demonstrate the consistent performance improvement of NaCL with increasing noise rates, surpassing state-of-the-art methods.",
+  "keywords": [
+    "extraction",
+    "we",
+    "learning",
+    "knowledge",
+    "scenario",
+    "state",
+    "asnoisy",
+    "noise-guided attack",
+    "framework",
+    "noise",
+    "falter",
+    "diverging",
+    "contrastive",
+    "this attack",
+    "this challenge"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.121/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:35:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

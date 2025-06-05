@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.555",
+  "title": "Artifacts or Abduction: How Do {LLM}s Answer Multiple-Choice Questions Without the Question?",
+  "authors": [
+    "Balepur, Nishant  and\nRavichander, Abhilasha  and\nRudinger, Rachel"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Multiple-choice question answering (MCQA) is often used to evaluate large language models (LLMs). To see if MCQA assesses LLMs as intended, we probe if LLMs can perform MCQA with choices-only prompts, where models must select the correct answer only from the choices. In three MCQA datasets and four LLMs, this prompt bests a majority baseline in 11/12 cases, with up to 0.33 accuracy gain. To help explain this behavior, we conduct an in-depth, black-box analysis on memorization, choice dynamics, and question inference. Our key findings are threefold. First, we find no evidence that the choices-only accuracy stems from memorization alone. Second, priors over individual choices do not fully explain choices-only accuracy, hinting that LLMs use the group dynamics of choices. Third, LLMs have some ability to infer a relevant question from choices, and surprisingly can sometimes even match the original question. We hope to motivate the use of stronger baselines in MCQA benchmarks, the design of robust MCQA datasets, and further efforts to explain LLM decision-making.",
+  "keywords": [
+    "robust mcqa datasets",
+    "question",
+    "we",
+    "only accuracy",
+    "llm",
+    "answer",
+    "choices-only prompts",
+    "analysis",
+    "llms",
+    "prompt",
+    "third llms",
+    "accuracy",
+    "prompts",
+    "four llms",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.555/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

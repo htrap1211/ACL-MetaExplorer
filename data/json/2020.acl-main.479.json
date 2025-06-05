@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.479",
+  "title": "Harnessing the linguistic signal to predict scalar inferences",
+  "authors": [
+    "Schuster, Sebastian  and\nChen, Yuxing  and\nDegen, Judith"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Pragmatic inferences often subtly depend on the presence or absence of linguistic features. For example, the presence of a partitive construction (of the) increases the strength of a so-called scalar inference: listeners perceive the inference that Chris did not eat all of the cookies to be stronger after hearing “Chris ate some of the cookies” than after hearing the same utterance without a partitive, “Chris ate some cookies”. In this work, we explore to what extent neural network sentence encoders can learn to predict the strength of scalar inferences. We first show that an LSTM-based sentence encoder trained on an English dataset of human inference strength ratings is able to predict ratings with high accuracy (r = 0.78). We then probe the model’s behavior using manually constructed minimal sentence pairs and corpus data. We first that the model inferred previously established associations between linguistic features and inference strength, suggesting that the model learns to use linguistic features to predict pragmatic inferences.",
+  "keywords": [
+    "work",
+    "high accuracy r",
+    "cookies",
+    "neural",
+    "model",
+    "an lstm-based sentence encoder",
+    "human",
+    "the cookies",
+    "encoder",
+    "all",
+    "network",
+    "we",
+    "lstm",
+    "encoders",
+    "some cookies"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.479/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:48:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

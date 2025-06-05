@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.164",
+  "title": "Selective Prefix Tuning for Pre-trained Language Models",
+  "authors": [
+    "Zhang, Hongyi  and\nLi, Zuchao  and\nWang, Ping  and\nZhao, Hai"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "The prevalent approach for optimizing pre-trained language models in downstream tasks is fine-tuning. However, it is both time-consuming and memory-inefficient. In response, a more efficient method called Prefix Tuning, which insert learnable vectors into each Transformer layers, has been proposed and proven effective. Recent investigations reveal that prefix tokens carry context-specific information, prompting the hypothesis that enhancing their specialization can improve model performance. To address this, we propose Selective Prefix Tuning (SPT), integrating a selective mechanism inspired by selective self-attention. Additionally, we introduce Selective Loss (SL) to encourage diversity in prefix tokens. Extensive experiments validate the effectiveness of SPT in sentence and token classification tasks. We contribute insight into understanding the role of prefix in model adaptation.",
+  "keywords": [
+    "transformer",
+    "tuning",
+    "a more efficient method",
+    "language",
+    "classification tasks",
+    "pre-trained language models",
+    "model",
+    "inefficient",
+    "selective self-attention",
+    "it",
+    "efficient",
+    "vectors",
+    "self",
+    "loss",
+    "each transformer layers"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.164/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:50:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

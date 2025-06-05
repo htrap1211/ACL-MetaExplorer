@@ -1,0 +1,33 @@
+{
+  "id": "W19-3622",
+  "title": "How does Grammatical Gender Affect Noun Representations in Gender-Marking Languages?",
+  "authors": [
+    "Gonen, Hila  and\nKementchedjhieva, Yova  and\nGoldberg, Yoav"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 2019 Workshop on Widening NLP",
+  "abstract": "Many natural languages assign grammatical gender also to inanimate nouns in the language. In such languages, words that relate to the gender-marked nouns are inflected to agree with the noun’s gender. We show that this affects the word representations of inanimate nouns, resulting in nouns with the same gender being closer to each other than nouns with different gender. While “embedding debiasing” methods fail to remove the effect, we demonstrate that a careful application of methods that neutralize grammatical gender signals from the words’ context when training word embeddings is effective in removing it. Fixing the grammatical gender bias results in a positive effect on the quality of the resulting word embeddings, both in monolingual and cross lingual settings. We note that successfully removing gender signals, while achievable, is not trivial to do and that a language-specific morphological analyzer, together with careful usage of it, are essential for achieving good results.",
+  "keywords": [
+    "embeddings",
+    "bias",
+    "language",
+    "achievable",
+    "natural",
+    "it",
+    "training word embeddings",
+    "debiasing methods",
+    "word",
+    "we",
+    "the resulting word embeddings",
+    "training",
+    "that",
+    "the same gender",
+    "gender signals"
+  ],
+  "url": "https://aclanthology.org/W19-3622/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:21:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

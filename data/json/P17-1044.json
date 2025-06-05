@@ -1,0 +1,33 @@
+{
+  "id": "P17-1044",
+  "title": "Deep Semantic Role Labeling: What Works and What{'}s Next",
+  "authors": [
+    "He, Luheng  and\nLee, Kenton  and\nLewis, Mike  and\nZettlemoyer, Luke"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We introduce a new deep learning model for semantic role labeling (SRL) that significantly improves the state of the art, along with detailed analyses to reveal its strengths and limitations. We use a deep highway BiLSTM architecture with constrained decoding, while observing a number of recent best practices for initialization and regularization. Our 8-layer ensemble model achieves 83.2 F1 on theCoNLL 2005 test set and 83.4 F1 on CoNLL 2012, roughly a 10% relative error reduction over the previous state of the art. Extensive empirical analysis of these gains show that (1) deep models excel at recovering long-distance dependencies but can still make surprisingly obvious errors, and (2) that there is still room for syntactic parsers to improve these results.",
+  "keywords": [
+    "deep",
+    "83 4 f1",
+    "ensemble",
+    "83 2 f1",
+    "semantic role",
+    "model",
+    "bilstm",
+    "reduction",
+    "dependencies",
+    "regularization",
+    "layer",
+    "our 8-layer ensemble model",
+    "semantic",
+    "we",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/P17-1044/",
+  "provenance": {
+    "collected_at": "2025-06-04 23:57:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

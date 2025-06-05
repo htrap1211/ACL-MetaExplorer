@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.140",
+  "title": "What Are You Token About? Dense Retrieval as Distributions Over the Vocabulary",
+  "authors": [
+    "Ram, Ori  and\nBezalel, Liat  and\nZicher, Adi  and\nBelinkov, Yonatan  and\nBerant, Jonathan  and\nGloberson, Amir"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Dual encoders are now the dominant architecture for dense retrieval. Yet, we have little understanding of how they represent text, and why this leads to good performance. In this work, we shed light on this question via distributions over the vocabulary. We propose to interpret the vector representations produced by dual encoders by projecting them into the model’s vocabulary space. We show that the resulting projections contain rich semantic information, and draw connection between them and sparse retrieval. We find that this view can offer an explanation for some of the failure cases of dense retrievers. For example, we observe that the inability of models to handle tail entities is correlated with a tendency of the token distributions to forget some of the tokens of those entities. We leverage this insight and propose a simple way to enrich query and passage representations with lexical information at inference time, and show that this significantly improves performance compared to the original model in zero-shot settings, and specifically on the BEIR benchmark.",
+  "keywords": [
+    "tail entities",
+    "dual encoders",
+    "dense retrievers",
+    "question",
+    "semantic",
+    "we",
+    "shot",
+    "token",
+    "retrieval",
+    "information",
+    "rich",
+    "this view",
+    "rich semantic information",
+    "those entities",
+    "vector"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.140/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

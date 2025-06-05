@@ -1,0 +1,33 @@
+{
+  "id": "W19-4310",
+  "title": "Specializing Distributional Vectors of All Words for Lexical Entailment",
+  "authors": [
+    "Kamath, Aishwarya  and\nPfeiffer, Jonas  and\nPonti, Edoardo Maria  and\nGlava{\\v{s}}, Goran  and\nVuli{\\'c}, Ivan"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)",
+  "abstract": "Semantic specialization methods fine-tune distributional word vectors using lexical knowledge from external resources (e.g. WordNet) to accentuate a particular relation between words. However, such post-processing methods suffer from limited coverage as they affect only vectors of words seen in the external resources. We present the first post-processing method that specializes vectors of all vocabulary words – including those unseen in the resources – for the asymmetric relation of lexical entailment (LE) (i.e., hyponymy-hypernymy relation). Leveraging a partially LE-specialized distributional space, our POSTLE (i.e., post-specialization for LE) model learns an explicit global specialization function, allowing for specialization of vectors of unseen words, as well as word vectors from other languages via cross-lingual transfer. We capture the function as a deep feed-forward neural network: its objective re-scales vector norms to reflect the concept hierarchy while simultaneously attracting hyponymy-hypernymy pairs to better reflect semantic similarity. An extended model variant augments the basic architecture with an adversarial discriminator. We demonstrate the usefulness and versatility of POSTLE models with different input distributional spaces in different scenarios (monolingual LE and zero-shot cross-lingual LE transfer) and tasks (binary and graded LE). We report consistent gains over state-of-the-art LE-specialization methods, and successfully LE-specialize word vectors for languages without any external lexical knowledge.",
+  "keywords": [
+    "deep",
+    "the concept hierarchy",
+    "word vectors",
+    "semantic",
+    "we",
+    "semantic similarity",
+    "shot",
+    "specializing distributional vectors",
+    "cross",
+    "neural",
+    "e",
+    "word",
+    "transfer",
+    "feed",
+    "processing"
+  ],
+  "url": "https://aclanthology.org/W19-4310/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:02:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

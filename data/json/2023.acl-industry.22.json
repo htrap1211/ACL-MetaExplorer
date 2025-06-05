@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.22",
+  "title": "Improving Knowledge Production Efficiency With Question Answering on Conversation",
+  "authors": [
+    "Yang, Changlin  and\nLiu, Siye  and\nHu, Sen  and\nZhang, Wangshu  and\nXu, Teng  and\nZheng, Jing"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "Through an online customer service application, we have collected many conversations between customer service agents and customers. Building a knowledge production system can help reduce the labor cost of maintaining the FAQ database for the customer service chatbot, whose core module is question answering (QA) on these conversations. However, most existing researches focus on document-based QA tasks, and there is a lack of researches on conversation-based QA and related datasets, especially in Chinese language. The challenges of conversation-based QA include: 1) answers may be scattered among multiple dialogue turns; 2) understanding complex dialogue contexts is more complicated than documents. To address these challenges, we propose a multi-span extraction model on this task and introduce continual pre-training and multi-task learning schemes to further improve model performance. To validate our approach, we construct two Chinese datasets using dialogues as the knowledge source, namely cs-qaconv and kd-qaconv, respectively. Experimental results demonstrate that the proposed model outperforms the baseline on both datasets. The online application also verifies the effectiveness of our method. The dataset kd-qaconv will be released publicly for research purposes.",
+  "keywords": [
+    "extraction",
+    "the customer service chatbot",
+    "conversations",
+    "question",
+    "efficiency",
+    "we",
+    "dialogue",
+    "these conversations",
+    "training",
+    "the dataset kd-qaconv",
+    "chatbot",
+    "qaconv",
+    "core",
+    "conversation-based qa",
+    "multiple dialogue"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.22/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

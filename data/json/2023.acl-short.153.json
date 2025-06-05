@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.153",
+  "title": "A Simple Concatenation can Effectively Improve Speech Translation",
+  "authors": [
+    "Zhang, Linlin  and\nFan, Kai  and\nChen, Boxing  and\nSi, Luo"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "A triple speech translation data comprises speech, transcription, and translation. In the end-to-end paradigm, text machine translation (MT) usually plays the role of a teacher model for the speech translation (ST) via knowledge distillation. Parameter sharing with the teacher is often adopted to construct the ST model architecture, however, the two modalities are independently fed and trained via different losses. This situation does not match ST’s properties across two modalities and also limits the upper bound of the performance. Inspired by the works of video Transformer, we propose a simple unified cross-modal ST method, which concatenates speech and text as the input, and builds a teacher that can utilize both cross-modal information simultaneously. Experimental results show that in our unified ST framework, models can effectively utilize the auxiliary information from speech and text, and achieve compelling results on MuST-C datasets.",
+  "keywords": [
+    "cross",
+    "transformer",
+    "knowledge",
+    "end",
+    "two modalities",
+    "model",
+    "machine",
+    "st s properties",
+    "text",
+    "modalities",
+    "properties",
+    "unified",
+    "information",
+    "the two modalities",
+    "the speech translation st"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.153/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:50:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

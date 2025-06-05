@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.458",
+  "title": "Tucker Decomposition with Frequency Attention for Temporal Knowledge Graph Completion",
+  "authors": [
+    "Xiao, Likang  and\nZhang, Richong  and\nChen, Zijie  and\nChen, Junfan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Temporal Knowledge Graph Completion aims to complete missing entities or relations under temporal constraints. Previous tensor decomposition-based models for TKGC only independently consider the combination of one single relation with one single timestamp, ignoring the global nature of the embedding. We propose a Frequency Attention (FA) model to capture the global temporal dependencies between one relation and the entire timestamp. Specifically, we use Discrete Cosine Transform (DCT) to capture the frequency of the timestamp embedding and further compute the frequency attention weight to scale embedding. Meanwhile, the previous temporal tucker decomposition method uses a simple norm regularization to constrain the core tensor, which limits the optimization performance. Thus, we propose Orthogonal Regularization (OR) variants for the core tensor, which can limit the non-superdiagonal elements of the 3-rd core tensor. Experiments on three standard TKGC datasets demonstrate that our method outperforms the state-of-the-art results on several metrics. The results suggest that the direct-current component is not the best feature for TKG representation learning. Additional analysis shows the effectiveness of our FA and OR models, even with smaller embedding dimensions.",
+  "keywords": [
+    "the frequency attention weight",
+    "smaller embedding dimensions",
+    "we",
+    "the global temporal dependencies",
+    "graph",
+    "norm",
+    "orthogonal regularization",
+    "current",
+    "dependencies",
+    "core",
+    "analysis",
+    "metrics",
+    "the optimization performance",
+    "three standard tkgc datasets",
+    "several metrics"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.458/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

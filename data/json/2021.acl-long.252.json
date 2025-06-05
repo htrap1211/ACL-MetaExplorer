@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.252",
+  "title": "Joint Models for Answer Verification in Question Answering Systems",
+  "authors": [
+    "Zhang, Zeyu  and\nVu, Thuy  and\nMoschitti, Alessandro"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "This paper studies joint models for selecting correct answer sentences among the top k provided by answer sentence selection (AS2) modules, which are core components of retrieval-based Question Answering (QA) systems. Our work shows that a critical step to effectively exploiting an answer set regards modeling the interrelated information between pair of answers. For this purpose, we build a three-way multi-classifier, which decides if an answer supports, refutes, or is neutral with respect to another one. More specifically, our neural architecture integrates a state-of-the-art AS2 module with the multi-classifier, and a joint layer connecting all components. We tested our models on WikiQA, TREC-QA, and a real-world dataset. The results show that our models obtain the new state of the art in AS2.",
+  "keywords": [
+    "work",
+    "answer",
+    "neural",
+    "classifier",
+    "-",
+    "question",
+    "retrieval",
+    "qa systems",
+    "information",
+    "layer",
+    "wikiqa",
+    "we",
+    "retrieval-based question",
+    "wikiqa trec-qa",
+    "core"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.252/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:02:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

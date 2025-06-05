@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.275",
+  "title": "RHO}: Reducing Hallucination in Open-domain Dialogues with Knowledge Grounding",
+  "authors": [
+    "Ji, Ziwei  and\nLiu, Zihan  and\nLee, Nayeon  and\nYu, Tiezheng  and\nWilie, Bryan  and\nZeng, Min  and\nFung, Pascale"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Dialogue systems can leverage large pre-trained language models and knowledge to generate fluent and informative responses. However, these models are still prone to produce hallucinated responses not supported by the input source, which greatly hinders their application. The heterogeneity between external knowledge and dialogue context challenges representation learning and source integration, which further contributes to unfaithfulness. To handle this challenge and generate more faithful responses, this paper presents RHO (ρ) utilizing the representations of linked entities and relation predicates from a knowledge graph (KG). We propose (1) local knowledge grounding to combine textual embeddings with the corresponding KG embeddings; and (2) global knowledge grounding to equip RHO with multi-hop reasoning abilities via the attention mechanism. In addition, we devise a response re-ranking technique based on walks over KG sub-graphs for better conversational reasoning. Experimental results on OpenDialKG (Moon et al., 2019) show that our approach significantly outperforms state-of-the-art methods on both automatic and human evaluation by a large margin, especially in hallucination reduction (17.54% in FeQA (Durmus et al., 2020)).",
+  "keywords": [
+    "al",
+    "linked entities",
+    "we",
+    "dialogue",
+    "opendialkg",
+    "graph",
+    "large pre-trained language models",
+    "dialogue systems",
+    "learning",
+    "open-domain dialogues",
+    "dialogue context",
+    "textual embeddings",
+    "feqa durmus",
+    "reduction",
+    "abilities"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.275/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

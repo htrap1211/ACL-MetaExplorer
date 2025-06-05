@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.228",
+  "title": "Modeling Intensification for Sign Language Generation: A Computational Approach",
+  "authors": [
+    "Inan, Mert  and\nZhong, Yang  and\nHassan, Sabit  and\nQuandt, Lorna  and\nAlikhani, Malihe"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "End-to-end sign language generation models do not accurately represent the prosody in sign language. A lack of temporal and spatial variations leads to poor-quality generated presentations that confuse human interpreters. In this paper, we aim to improve the prosody in generated sign languages by modeling intensification in a data-driven manner. We present different strategies grounded in linguistics of sign language that inform how intensity modifiers can be represented in gloss annotations. To employ our strategies, we first annotate a subset of the benchmark PHOENIX-14T, a German Sign Language dataset, with different levels of intensification. We then use a supervised intensity tagger to extend the annotated dataset and obtain labels for the remaining portion of it. This enhanced dataset is then used to train state-of-the-art transformer models for sign language generation. We find that our efforts in intensification modeling yield better results when evaluated with automatic metrics. Human evaluation also indicates a higher preference of the videos generated using our model.",
+  "keywords": [
+    "end",
+    "yield",
+    "we",
+    "poor-quality generated presentations",
+    "generated sign languages",
+    "it",
+    "manner",
+    "different strategies",
+    "sign language generation",
+    "a data-driven manner",
+    "metrics",
+    "strategies",
+    "modifiers",
+    "automatic metrics human evaluation",
+    "intensification modeling yield"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.228/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

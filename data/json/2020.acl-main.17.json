@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.17",
+  "title": "F}act-based {T}ext {E}diting",
+  "authors": [
+    "Iso, Hayate  and\nQiao, Chao  and\nLi, Hang"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We propose a novel text editing task, referred to asfact-based text editing, in which the goal is to revise a given document to better describe the facts in a knowledge base (e.g., several triples). The task is important in practice because reflecting the truth is a common requirement in text editing. First, we propose a method for automatically generating a dataset for research on fact-based text editing, where each instance consists of a draft text, a revised text, and several facts represented in triples. We apply the method into two public table-to-text datasets, obtaining two new datasets consisting of 233k and 37k instances, respectively. Next, we propose a new neural network architecture for fact-based text editing, called FactEditor, which edits a draft text by referring to given facts using a buffer, a stream, and a memory. A straightforward approach to address the problem would be to employ an encoder-decoder model. Our experimental results on the two datasets show that FactEditor outperforms the encoder-decoder approach in terms of fidelity and fluency. The results also show that FactEditor conducts inference faster than the encoder-decoder approach.",
+  "keywords": [
+    "ext",
+    "we",
+    "neural",
+    "decoder",
+    "the encoder-decoder approach",
+    "an encoder-decoder model",
+    "text",
+    "knowledge",
+    "model",
+    "encoder",
+    "network",
+    "act",
+    "approach",
+    "memory",
+    "straightforward"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:42:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

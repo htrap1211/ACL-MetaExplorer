@@ -1,0 +1,33 @@
+{
+  "id": "P19-1574",
+  "title": "Probing for Semantic Classes: Diagnosing the Meaning Content of Word Embeddings",
+  "authors": [
+    "Yaghoobzadeh, Yadollah  and\nKann, Katharina  and\nHazen, T. J.  and\nAgirre, Eneko  and\nSch{\\\"u}tze, Hinrich"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Word embeddings typically represent different meanings of a word in a single conflated vector. Empirical analysis of embeddings of ambiguous words is currently limited by the small size of manually annotated resources and by the fact that word senses are treated as unrelated individual concepts. We present a large dataset based on manual Wikipedia annotations and word senses, where word senses from different words are related by semantic classes. This is the basis for novel diagnostic tests for an embedding’s content: we probe word embeddings for semantic classes and analyze the embedding space by classifying embeddings into semantic classes. Our main findings are: (i) Information about a sense is generally represented well in a single-vector embedding – if the sense is frequent. (ii) A classifier can accurately predict whether a word is single-sense or multi-sense, based only on its embedding. (iii) Although rare senses are not well represented in single-vector embeddings, this does not have negative impact on an NLP application whose performance depends on frequent senses.",
+  "keywords": [
+    "an nlp application",
+    "classifier",
+    "semantic classes",
+    "semantic",
+    "a single-vector",
+    "we",
+    "information",
+    "single-vector embeddings",
+    "word",
+    "word embeddings word embeddings",
+    "analysis",
+    "vector",
+    "i",
+    "word embeddings",
+    "embeddings"
+  ],
+  "url": "https://aclanthology.org/P19-1574/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:45:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

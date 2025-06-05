@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.430",
+  "title": "Debiasing In-Context Learning by Instructing {LLM}s How to Follow Demonstrations",
+  "authors": [
+    "Li, Lvxue  and\nChen, Jiaqi  and\nLu, Xinyu  and\nLu, Yaojie  and\nLin, Hongyu  and\nZhou, Shuheng  and\nZhu, Huijia  and\nWang, Weiqiang  and\nLiu, Zhongyi  and\nHan, Xianpei  and\nSun, Le"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "In-context learning(ICL) has gained considerable attention due to its data efficiency and task adaptability. Unfortunately, ICL suffers from the demonstration bias, i.e., its performance and robustness are severely affected by the selection and ordering of demonstrations. In this paper, we identify that such demonstration bias may primarily stem from the semantic ambiguity induced by demonstrations, i.e., a demonstration may indicate multiple input-to-label mappings and its mapping can be interpreted differently in different contexts by LLMs. Such semantic ambiguity disrupts task comprehension during ICL and results in performance fluctuations. To resolve the semantic ambiguity problem, this paper further proposes two de-biasing strategies to mitigate demonstration bias in in-context learning. Experiments on six datasets show that our methods can effectively alleviate demonstration bias and significantly improve task performance.",
+  "keywords": [
+    "the semantic ambiguity problem",
+    "bias",
+    "the semantic ambiguity",
+    "i",
+    "the demonstration bias",
+    "its data efficiency",
+    "such semantic ambiguity",
+    "considerable attention",
+    "biasing",
+    "strategies",
+    "efficiency",
+    "semantic",
+    "demonstration bias",
+    "attention",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.430/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

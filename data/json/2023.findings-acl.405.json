@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.405",
+  "title": "PEER}: Pre-training {ELECTRA} Extended by Ranking",
+  "authors": [
+    "He, Ru  and\nWang, Wei  and\nHuang, Songfang  and\nHuang, Fei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "The BERT model and its variants have made great achievements in many downstream natural language processing tasks. The achievements of these models, however, demand highly expensive pre-training computation cost. To address this pre-training efficiency issue, the ELECTRA model is proposed to use a discriminator to perform replaced token detection (RTD) task, that is, to classify whether each input token is original or replaced by a generator. The RTD task performed by the ELECTRA accelerates pre-training so substantially, such that it is very challenging to further improve the pre-training efficiency established by the ELECTRA by using or adding other pre-training tasks, as the recent comprehensive study of Bajaj et al. (2022) summarizes. To further advance this pre-training efficiency frontier, in this paper we propose to extend the RTD task into a task of ranking input tokens according to K different quality levels. Essentially, we generalize the binary classifier in the ELECTRA into a K-level ranker to undertake a more precise task with negligible additional computation cost. Our extensive experiments show that our proposed method is able to outperform the state-of-the-art pre-training efficient models including ELECTRA in downstream GLUE tasks given the same computation cost.",
+  "keywords": [
+    "this pre-training efficiency frontier",
+    "the pre-training efficiency",
+    "al",
+    "classifier",
+    "efficient",
+    "efficiency",
+    "we",
+    "training",
+    "other pre-training tasks",
+    "the achievements",
+    "natural",
+    "it",
+    "token",
+    "frontier",
+    "peer pre-training electra"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.405/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

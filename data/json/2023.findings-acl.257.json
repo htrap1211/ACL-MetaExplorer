@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.257",
+  "title": "TAPIR}: Learning Adaptive Revision for Incremental Natural Language Understanding with a Two-Pass Model",
+  "authors": [
+    "Kahardipraja, Patrick  and\nMadureira, Brielen  and\nSchlangen, David"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Language is by its very nature incremental in how it is produced and processed. This property can be exploited by NLP systems to produce fast responses, which has been shown to be beneficial for real-time interactive applications. Recent neural network-based approaches for incremental processing mainly use RNNs or Transformers. RNNs are fast but monotonic (cannot correct earlier output, which can be necessary in incremental processing). Transformers, on the other hand, consume whole sequences, and hence are by nature non-incremental. A restart-incremental interface that repeatedly passes longer input prefixes can be used to obtain partial outputs, while providing the ability to revise. However, this method becomes costly as the sentence grows longer. In this work, we propose the Two-pass model for AdaPtIve Revision (TAPIR) and introduce a method to obtain an incremental supervision signal for learning an adaptive revision policy. Experimental results on sequence labelling show that our model has better incremental performance and faster inference speed compared to restart-incremental Transformers, while showing little degradation on full sequences.",
+  "keywords": [
+    "transformers",
+    "incremental processing transformers",
+    "rnns",
+    "we",
+    "earlier output",
+    "restart-incremental transformers",
+    "neural",
+    "natural",
+    "it",
+    "sequence",
+    "processing",
+    "fast",
+    "work",
+    "recent neural network-based approaches",
+    "earlier"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.257/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

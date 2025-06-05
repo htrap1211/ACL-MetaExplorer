@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.521",
+  "title": "A}ny{GPT}: Unified Multimodal {LLM} with Discrete Sequence Modeling",
+  "authors": [
+    "Zhan, Jun  and\nDai, Junqi  and\nYe, Jiasheng  and\nZhou, Yunhua  and\nZhang, Dong  and\nLiu, Zhigeng  and\nZhang, Xin  and\nYuan, Ruibin  and\nZhang, Ge  and\nLi, Linyang  and\nYan, Hang  and\nFu, Jie  and\nGui, Tao  and\nSun, Tianxiang  and\nJiang, Yu-Gang  and\nQiu, Xipeng"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We introduce AnyGPT, an any-to-any multimodal language model that utilizes discrete representations for the unified processing of various modalities, including speech, text, images, and music. AnyGPT can be trained stably without any alterations to the current large language model (LLM) architecture or training paradigms. Instead, it relies exclusively on data-level preprocessing, facilitating the seamless integration of new modalities into LLMs, akin to the incorporation of new languages.We build a multimodal text-centric dataset for multimodal alignment pre-training. Utilizing generative models, we synthesize the first large-scale any-to-any multimodal instruction dataset. It consists of 108k samples of multi-turn conversations that intricately interweave various modalities, thus equipping the model to handle arbitrary combinations of multimodal inputs and outputs.Experimental results demonstrate that AnyGPT is capable of facilitating any-to-any multimodal conversation while achieving performance comparable to specialized models across all modalities, proving that discrete representations can effectively and conveniently unify multiple modalities within a language model. Demos are shown in https://junzhan2000.github.io/AnyGPT.github.io/.",
+  "keywords": [
+    "all modalities",
+    "any multimodal conversation",
+    "conversations",
+    "we",
+    "current",
+    "llm",
+    "training",
+    "instruction",
+    "it",
+    "unified",
+    "various modalities",
+    "that anygpt",
+    "sequence",
+    "a language model",
+    "llms"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.521/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

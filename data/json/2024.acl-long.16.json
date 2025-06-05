@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.16",
+  "title": "M}in{P}rompt: Graph-based Minimal Prompt Data Augmentation for Few-shot Question Answering",
+  "authors": [
+    "Chen, Xiusi  and\nJiang, Jyun-Yu  and\nChang, Wei-Cheng  and\nHsieh, Cho-Jui  and\nYu, Hsiang-Fu  and\nWang, Wei"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent advances in few-shot question answering (QA) mostly rely on the power of pre-trained large language models (LLMs) and fine-tuning in specific settings. Although the pre-training stage has already equipped LLMs with powerful reasoning capabilities, LLMs still need to be fine-tuned to adapt to specific domains to achieve the best results. In this paper, we propose to select the most informative data for fine-tuning, thereby improving the efficiency of the fine-tuning process with comparative or even better accuracy on the open-domain QA task. We present MinPrompt, a minimal data augmentation framework for open-domain QA based on an approximate graph algorithm and unsupervised question generation. We transform the raw text into a graph structure to build connections between different factual sentences, then apply graph algorithms to identify the minimal set of sentences needed to cover the most information in the raw text. We then generate QA pairs based on the identified sentence subset and train the model on the selected sentences to obtain the final model. Empirical results on several benchmark datasets and theoretical analysis show that MinPrompt is able to achieve comparable or better results than baselines with a high degree of efficiency, bringing consistent improvements in F-1 scores.",
+  "keywords": [
+    "question",
+    "efficiency",
+    "we",
+    "graph",
+    "the open-domain qa task",
+    "the identified sentence subset",
+    "shot",
+    "training",
+    "fine-tuning",
+    "the fine-tuning process",
+    "the efficiency",
+    "qa pairs",
+    "information",
+    "open-domain qa",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.16/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:34:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

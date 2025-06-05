@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.393",
+  "title": "A multi-level multi-label text classification dataset of 19th century Ottoman and {R}ussian literary and critical texts",
+  "authors": [
+    "Gokceoglu, Gokcen  and\n{\\c{C}}avu{\\c{s}}o{\\u{g}}lu, Devrim  and\nAkbas, Emre  and\nDolcerocca, {\\\"O}zen"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "This paper introduces a multi-level, multi-label text classification dataset comprising over 3000 documents. The dataset features literary and critical texts from 19th-century Ottoman Turkish and Russian. It is the first study to apply large language models (LLMs) to this dataset, sourced from prominent literary periodicals of the era. The texts have been meticulously organized and labeled. This was done according to a taxonomic framework that takes into account both their structural and semantic attributes. Articles are categorized and tagged with bibliometric metadata by human experts. We present baseline classification results using a classical bag-of-words (BoW) naive Bayes model and three modern LLMs: multilingual BERT, Falcon, and Llama-v2. We found that in certain cases, Bag of Words (BoW) outperforms Large Language Models (LLMs), emphasizing the need for additional research, especially in low-resource language settings. This dataset is expected to be a valuable resource for researchers in natural language processing and machine learning, especially for historical and low-resource languages. The dataset is publicly available.",
+  "keywords": [
+    "semantic",
+    "era",
+    "we",
+    "classification",
+    "bag",
+    "natural",
+    "it",
+    "natural language processing",
+    "llms",
+    "processing",
+    "bert",
+    "text",
+    "large language models llms",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.393/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:53:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.sigmorphon-1.22",
+  "title": "S}ig{M}ore{F}un Submission to the {SIGMORPHON} Shared Task on Interlinear Glossing",
+  "authors": [
+    "He, Taiqi  and\nTjuatja, Lindia  and\nRobinson, Nathaniel  and\nWatanabe, Shinji  and\nMortensen, David R.  and\nNeubig, Graham  and\nLevin, Lori"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th SIGMORPHON workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "In our submission to the SIGMORPHON 2023 Shared Task on interlinear glossing (IGT), we explore approaches to data augmentation and modeling across seven low-resource languages. For data augmentation, we explore two approaches: creating artificial data from the provided training data and utilizing existing IGT resources in other languages. On the modeling side, we test an enhanced version of the provided token classification baseline as well as a pretrained multilingual seq2seq model. Additionally, we apply post-correction using a dictionary for Gitksan, the language with the smallest amount of data. We find that our token classification models are the best performing, with the highest word-level accuracy for Arapaho and highest morpheme-level accuracy for Gitksan out of all submissions. We also show that data augmentation is an effective strategy, though applying artificial data pretraining has very different effects across both models tested.",
+  "keywords": [
+    "seq2seq",
+    "the highest word-level accuracy",
+    "accuracy",
+    "ore",
+    "language",
+    "model",
+    "token",
+    "modeling",
+    "-",
+    "word",
+    "we",
+    "highest morpheme-level accuracy",
+    "classification",
+    "training",
+    "our token classification models"
+  ],
+  "url": "https://aclanthology.org/2023.sigmorphon-1.22/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:31:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

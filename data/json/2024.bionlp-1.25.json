@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.25",
+  "title": "B}i{CAL}: Bi-directional Contrastive Active Learning for Clinical Report Generation",
+  "authors": [
+    "Wu, Tianyi  and\nZhang, Jingqing  and\nBai, Wenjia  and\nSun, Kai"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "State-of-the-art performance by large pre-trained models in computer vision (CV) and natural language processing (NLP) suggests their potential for domain-specific tasks. However, training these models requires vast amounts of labelled data, a challenge in many domains due to the cost and expertise required for data labelling. Active Learning (AL) can mitigate this by selecting minimal yet informative data for model training. While AL has been mainly applied to single-modal tasks in the fields of NLP and CV, its application in multi-modal tasks remains underexplored. In this work, we proposed a novel AL strategy, Bidirectional Contrastive Active Learning strategy (BiCAL), that used both image and text latent spaces to identify contrastive samples to select batches to query for labels. BiCAL was robust to class imbalance data problems by its design, which is a problem that is commonly seen in training domain-specific models. We assessed BiCAL’s performance in domain-specific learning on the clinical report generation tasks from chest X-ray images. Our experiments showed that BiCAL outperforms State-of-the-art methods in clinical efficacy metrics, improving recall by 2.4% and F1 score by 9.5%, showcasing its effectiveness in actively training domain-specific multi-modal models.",
+  "keywords": [
+    "al",
+    "we",
+    "fields",
+    "training",
+    "natural language processing nlp",
+    "natural",
+    "clinical efficacy metrics",
+    "latent",
+    "learning",
+    "processing",
+    "text",
+    "metrics",
+    "the fields",
+    "work",
+    "recall"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.25/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

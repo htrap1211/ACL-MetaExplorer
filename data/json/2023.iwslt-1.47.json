@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.47",
+  "title": "D}e{PA}: Improving Non-autoregressive Translation with Dependency-Aware Decoder",
+  "authors": [
+    "Zhan, Jiaao  and\nChen, Qian  and\nChen, Boxing  and\nWang, Wen  and\nBai, Yu  and\nGao, Yang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "Non-autoregressive machine translation (NAT) models have lower translation quality than autoregressive translation (AT) models because NAT decoders do not depend on previous target tokens in the decoder input. We propose a novel and general Dependency-Aware Decoder (DePA) to enhance target dependency modeling in the decoder of fully NAT models from two perspectives: decoder self-attention and decoder input. First, we propose an autoregressive forward-backward pre-training phase before NAT training, which enables the NAT decoder to gradually learn bidirectional target dependencies for the final NAT training. Second, we transform the decoder input from the source language representation space to the target language representation space through a novel attentive transformation process, which enables the decoder to better capture target dependencies. DePA can be applied to any fully NAT models. Extensive experiments show that DePA consistently improves highly competitive and state-of-the-art fully NAT models on widely used WMT and IWSLT benchmarks by up to 1.88 BLEU gain, while maintaining the inference latency comparable to other fully NAT models.",
+  "keywords": [
+    "nat decoders",
+    "general",
+    "process",
+    "language",
+    "nat",
+    "the decoder",
+    "machine",
+    "target dependency modeling",
+    "non-autoregressive translation",
+    "self",
+    "target dependencies",
+    "modeling",
+    "dependencies",
+    "decoder",
+    "bleu"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.47/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:25:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.621",
+  "title": "Language Models can Exploit Cross-Task In-context Learning for Data-Scarce Novel Tasks",
+  "authors": [
+    "Chatterjee, Anwoy  and\nTanwar, Eshaan  and\nDutta, Subhabrata  and\nChakraborty, Tanmoy"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large Language Models (LLMs) have transformed NLP with their remarkable In-context Learning (ICL) capabilities. Automated assistants based on LLMs are gaining popularity; however, adapting them to novel tasks is still challenging. While colossal models excel in zero-shot performance, their computational demands limit widespread use, and smaller language models struggle without context. This paper investigates whether LLMs can generalize from labeled examples of predefined tasks to novel tasks. Drawing inspiration from biological neurons and the mechanistic interpretation of the Transformer architecture, we explore the potential for information sharing across tasks. We design a cross-task prompting setup with three LLMs and show that LLMs achieve significant performance improvements despite no examples from the target task in the context. Cross-task prompting leads to a remarkable performance boost of 107% for LLaMA-2 7B, 18.6% for LLaMA-2 13B, and 3.2% for GPT 3.5 on average over zero-shot prompting, and performs comparable to standard in-context learning. The effectiveness of generating pseudo-labels for in-task examples is demonstrated, and our analyses reveal a strong correlation between the effect of cross-task examples and model activation similarities in source and target input tokens. This paper offers a first-of-its-kind exploration of LLMs’ ability to solve novel tasks based on contextual signals from different task examples.",
+  "keywords": [
+    "cross-task prompting",
+    "smaller language models",
+    "three llms",
+    "zero-shot prompting",
+    "we",
+    "model activation similarities",
+    "shot",
+    "cross",
+    "zero-shot performance",
+    "information",
+    "boost",
+    "learning",
+    "llms",
+    "language models",
+    "activation"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.621/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

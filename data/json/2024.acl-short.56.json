@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-short.56",
+  "title": "Exploring Conditional Variational Mechanism to {P}inyin Input Method for Addressing One-to-Many Mappings in Low-Resource Scenarios",
+  "authors": [
+    "Sun, Bin  and\nLi, Jianfeng  and\nZhou, Hao  and\nMeng, Fandong  and\nLi, Kan  and\nZhou, Jie"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Pinyin input method engine (IME) refers to the transformation tool from pinyin sequence to Chinese characters, which is widely used on mobile phone applications. Due to the homophones, Pinyin IME suffers from the one-to-many mapping problem in the process of pinyin sequences to Chinese characters. To solve the above issue, this paper makes the first exploration to leverage an effective conditional variational mechanism (CVM) for pinyin IME. However, to ensure the stable and smooth operation of Pinyin IME under low-resource conditions (e.g., on offline mobile devices), we should balance diversity, accuracy, and efficiency with CVM, which is still challenging. To this end, we employ a novel strategy that simplifies the complexity of semantic encoding by facilitating the interaction between pinyin and the Chinese character information during the construction of continuous latent variables. Concurrently, the accuracy of the outcomes is enhanced by capitalizing on the discrete latent variables. Experimental results demonstrate the superior performance of our method.",
+  "keywords": [
+    "the accuracy",
+    "end",
+    "ime",
+    "diversity accuracy",
+    "efficiency",
+    "semantic",
+    "we",
+    "information",
+    "latent",
+    "sequence",
+    "semantic encoding",
+    "accuracy",
+    "e g",
+    "process",
+    "characters"
+  ],
+  "url": "https://aclanthology.org/2024.acl-short.56/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:46:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

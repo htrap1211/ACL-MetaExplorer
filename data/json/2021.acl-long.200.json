@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.200",
+  "title": "Beyond Sentence-Level End-to-End Speech Translation: Context Helps",
+  "authors": [
+    "Zhang, Biao  and\nTitov, Ivan  and\nHaddow, Barry  and\nSennrich, Rico"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Document-level contextual information has shown benefits to text-based machine translation, but whether and how context helps end-to-end (E2E) speech translation (ST) is still under-studied. We fill this gap through extensive experiments using a simple concatenation-based context-aware ST model, paired with adaptive feature selection on speech encodings for computational efficiency. We investigate several decoding approaches, and introduce in-model ensemble decoding which jointly performs document- and sentence-level translation using the same model. Our results on the MuST-C benchmark with Transformer demonstrate the effectiveness of context to E2E ST. Compared to sentence-level ST, context-aware ST obtains better translation quality (+0.18-2.61 BLEU), improves pronoun and homophone translation, shows better robustness to (artificial) audio segmentation errors, and reduces latency and flicker to deliver higher quality for simultaneous translation.",
+  "keywords": [
+    "ensemble",
+    "transformer",
+    "end",
+    "model",
+    "machine",
+    "text",
+    "simultaneous translation",
+    "bleu",
+    "homophone translation",
+    "information",
+    "text-based machine translation",
+    "efficiency",
+    "we",
+    "18-2 61 bleu",
+    "computational efficiency"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.200/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:02:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

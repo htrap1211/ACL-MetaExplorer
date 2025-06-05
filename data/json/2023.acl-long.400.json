@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.400",
+  "title": "Learning Better Masking for Better Language Model Pre-training",
+  "authors": [
+    "Yang, Dongjie  and\nZhang, Zhuosheng  and\nZhao, Hai"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Masked Language Modeling (MLM) has been widely used as the denoising objective in pre-training language models (PrLMs). Existing PrLMs commonly adopt a Random-Token Masking strategy where a fixed masking ratio is applied and different contents are masked by an equal probability throughout the entire training. However, the model may receive complicated impact from pre-training status, which changes accordingly as training time goes on. In this paper, we show that such time-invariant MLM settings on masking ratio and masked content are unlikely to deliver an optimal outcome, which motivates us to explore the influence of time-variant MLM settings. We propose two scheduled masking approaches that adaptively tune the masking ratio and masked content in different training stages, which improves the pre-training efficiency and effectiveness verified on the downstream tasks. Our work is a pioneer study on time-variant masking strategy on ratio and content and gives a better understanding of how masking ratio and masked content influence the MLM pre-training.",
+  "keywords": [
+    "the pre-training efficiency",
+    "training masked language modeling",
+    "efficiency",
+    "we",
+    "the denoising objective",
+    "training",
+    "token",
+    "objective",
+    "-",
+    "ratio",
+    "pre-training language models",
+    "work",
+    "language",
+    "random",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.400/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:40:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

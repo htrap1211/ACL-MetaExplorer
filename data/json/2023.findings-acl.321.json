@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.321",
+  "title": "Coupling Large Language Models with Logic Programming for Robust and General Reasoning from Text",
+  "authors": [
+    "Yang, Zhun  and\nIshay, Adam  and\nLee, Joohyung"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "While large language models (LLMs), such as GPT-3, appear to be robust and general, their reasoning ability is not at a level to compete with the best models trained for specific natural language reasoning problems. In this study, we observe that a large language model can serve as a highly effective few-shot semantic parser. It can convert natural language sentences into a logical form that serves as input for answer set programs, a logic-based declarative knowledge representation formalism. The combination results in a robust and general system that can handle multiple question-answering tasks without requiring retraining for each new task. It only needs a few examples to guide the LLM’s adaptation to a specific task, along with reusable ASP knowledge modules that can be applied to multiple tasks. We demonstrate that this method achieves state-of-the-art performance on several NLP benchmarks, including bAbI, StepGame, CLUTRR, and gSCAN. Additionally, it successfully tackles robot planning tasks that an LLM alone fails to solve.",
+  "keywords": [
+    "an llm",
+    "question",
+    "form",
+    "semantic",
+    "we",
+    "llm",
+    "answer",
+    "several nlp benchmarks",
+    "natural",
+    "it",
+    "gpt-3",
+    "llms",
+    "text",
+    "robust and general reasoning",
+    "a large language model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.321/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

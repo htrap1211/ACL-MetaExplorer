@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.93",
+  "title": "PALI} at {S}em{E}val-2021 Task 2: Fine-Tune {XLM}-{R}o{BERT}a for Word in Context Disambiguation",
+  "authors": [
+    "Xie, Shuyi  and\nMa, Jian  and\nYang, Haiqin  and\nJiang, Lianxin  and\nMo, Yang  and\nShen, Jianping"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper presents the PALI team’s winning system for SemEval-2021 Task 2: Multilingual and Cross-lingual Word-in-Context Disambiguation. We fine-tune XLM-RoBERTa model to solve the task of word in context disambiguation, i.e., to determine whether the target word in the two contexts contains the same meaning or not. In implementation, we first specifically design an input tag to emphasize the target word in the contexts. Second, we construct a new vector on the fine-tuned embeddings from XLM-RoBERTa and feed it to a fully-connected network to output the probability of whether the target word in the context has the same meaning or not. The new vector is attained by concatenating the embedding of the [CLS] token and the embeddings of the target word in the contexts. In training, we explore several tricks, such as the Ranger optimizer, data augmentation, and adversarial training, to improve the model prediction. Consequently, we attain the first place in all four cross-lingual tasks.",
+  "keywords": [
+    "embeddings",
+    "cross",
+    "the embeddings",
+    "roberta",
+    "vector",
+    "i",
+    "the embedding",
+    "bert",
+    "model",
+    "it",
+    "the new vector",
+    "tag",
+    "fine",
+    "word",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.93/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

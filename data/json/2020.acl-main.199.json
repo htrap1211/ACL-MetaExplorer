@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.199",
+  "title": "Taxonomy Construction of Unseen Domains via Graph-based Cross-Domain Knowledge Transfer",
+  "authors": [
+    "Shang, Chao  and\nDash, Sarthak  and\nChowdhury, Md. Faisal Mahbub  and\nMihindukulasooriya, Nandana  and\nGliozzo, Alfio"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Extracting lexico-semantic relations as graph-structured taxonomies, also known as taxonomy construction, has been beneficial in a variety of NLP applications. Recently Graph Neural Network (GNN) has shown to be powerful in successfully tackling many tasks. However, there has been no attempt to exploit GNN to create taxonomies. In this paper, we propose Graph2Taxo, a GNN-based cross-domain transfer framework for the taxonomy construction task. Our main contribution is to learn the latent features of taxonomy construction from existing domains to guide the structure learning of an unseen domain. We also propose a novel method of directed acyclic graph (DAG) generation for taxonomy construction. Specifically, our proposed Graph2Taxo uses a noisy graph constructed from automatically extracted noisy hyponym hypernym candidate pairs, and a set of taxonomies for some known domains for training. The learned model is then used to generate taxonomy for a new unknown domain given a set of terms for that domain. Experiments on benchmark datasets from science and environment domains show that our approach attains significant improvements correspondingly over the state of the art.",
+  "keywords": [
+    "variety",
+    "semantic",
+    "we",
+    "graph",
+    "cross",
+    "neural",
+    "science",
+    "latent",
+    "learning",
+    "transfer",
+    "a variety",
+    "nlp applications",
+    "taxonomies",
+    "neural network gnn",
+    "graph-structured taxonomies"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.199/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:44:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

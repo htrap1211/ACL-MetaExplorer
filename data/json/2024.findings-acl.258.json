@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.258",
+  "title": "Evaluating the Smooth Control of Attribute Intensity in Text Generation with {LLM}s",
+  "authors": [
+    "Zhou, Shang  and\nYao, Feng  and\nDong, Chengyu  and\nWang, Zihan  and\nShang, Jingbo"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Controlling the attribute intensity of text generation is crucial across scenarios (e.g., writing conciseness, chatting emotion, and explanation clarity). The remarkable capabilities of large language models (LLMs) have revolutionized text generation, prompting us to explore suchsmooth controlof LLM generation. Specifically, we propose metrics to assess the range, calibration, and consistency of the generated text’s attribute intensity in response to varying control values, as well as its relevance to the intended context. To quantify the attribute intensity and context relevance, we leverage an Elo rating system and GPT4, respectively, both renowned for their robust alignment with human judgment. We look into two viable training-free methods for achieving smooth control of LLMs: (1) Prompting with semantic shifters, and (2) Modifying internal model representations. The evaluations of these two methods are conducted on 5 different attributes with various models.",
+  "keywords": [
+    "semantic",
+    "we",
+    "llm",
+    "text generation",
+    "training",
+    "the evaluations",
+    "llms",
+    "text",
+    "metrics",
+    "semantic shifters",
+    "large language models llms",
+    "their robust alignment",
+    "llm generation",
+    "alignment",
+    "e g"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.258/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

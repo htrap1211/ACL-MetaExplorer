@@ -1,0 +1,33 @@
+{
+  "id": "P18-1006",
+  "title": "Triangular Architecture for Rare Language Translation",
+  "authors": [
+    "Ren, Shuo  and\nChen, Wenhu  and\nLiu, Shujie  and\nLi, Mu  and\nZhou, Ming  and\nMa, Shuai"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Neural Machine Translation (NMT) performs poor on the low-resource language pair (X,Z), especially when Z is a rare language. By introducing another rich language Y, we propose a novel triangular training architecture (TA-NMT) to leverage bilingual data (Y,Z) (may be small) and (X,Y) (can be rich) to improve the translation performance of low-resource pairs. In this triangular architecture, Z is taken as the intermediate latent variable, and translation models of Z are jointly optimized with an unified bidirectional EM algorithm under the goal of maximizing the translation likelihood of (X,Y). Empirical results demonstrate that our method significantly improves the translation quality of rare languages on MultiUN and IWSLT2012 datasets, and achieves even better performance combining back-translation methods.",
+  "keywords": [
+    "language",
+    "em",
+    "the translation performance",
+    "neural",
+    "machine",
+    "unified",
+    "the translation likelihood",
+    "the translation quality",
+    "latent",
+    "z",
+    "rich",
+    "back-translation methods",
+    "we",
+    "an unified bidirectional",
+    "y"
+  ],
+  "url": "https://aclanthology.org/P18-1006/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:09:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.10",
+  "title": "x{SIM}++: An Improved Proxy to Bitext Mining Performance for Low-Resource Languages",
+  "authors": [
+    "Chen, Mingda  and\nHeffernan, Kevin  and\n{\\c{C}}elebi, Onur  and\nMourachko, Alexandre  and\nSchwenk, Holger"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "We introduce a new proxy score for evaluating bitext mining based on similarity in a multilingual embedding space: xsim++. In comparison to xsim, this improved proxy leverages rule-based approaches to extend English sentences in any evaluation set with synthetic, hard-to-distinguish examples which more closely mirror the scenarios we encounter during large-scale mining. We validate this proxy by running a significant number of bitext mining experiments for a set of low-resource languages, and subsequently train NMT systems on the mined data. In comparison to xsim, we show that xsim++ is better correlated with the downstream BLEU scores of translation systems trained on mined bitexts, providing a reliable proxy of bitext mining performance without needing to run expensive bitext mining pipelines. xsim++ also reports performance for different error types, offering more fine-grained feedbacks for model development.",
+  "keywords": [
+    "any evaluation",
+    "bleu",
+    "we",
+    "translation",
+    "bitext mining performance",
+    "translation systems",
+    "bitext mining",
+    "the downstream bleu scores",
+    "bitext mining experiments",
+    "mining",
+    "model",
+    "evaluation",
+    "this proxy",
+    "error",
+    "low"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:48:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.ltedi-1.5",
+  "title": "Using {BERT} Embeddings to Model Word Importance in Conversational Transcripts for Deaf and Hard of Hearing Users",
+  "authors": [
+    "Amin, Akhter Al  and\nHassan, Saad  and\nAlm, Cecilia  and\nHuenerfauth, Matt"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Second Workshop on Language Technology for Equality, Diversity and Inclusion",
+  "abstract": "Deaf and hard of hearing individuals regularly rely on captioning while watching live TV. Live TV captioning is evaluated by regulatory agencies using various caption evaluation metrics. However, caption evaluation metrics are often not informed by preferences of DHH users or how meaningful the captions are. There is a need to construct caption evaluation metrics that take the relative importance of words in transcript into account. We conducted correlation analysis between two types of word embeddings and human-annotated labelled word-importance scores in existing corpus. We found that normalized contextualized word embeddings generated using BERT correlated better with manually annotated importance scores than word2vec-based word embeddings. We make available a pairing of word embeddings and their human-annotated importance scores. We also provide proof-of-concept utility by training word importance models, achieving an F1-score of 0.57 in the 6-class word importance classification task.",
+  "keywords": [
+    "embeddings",
+    "agencies",
+    "regulatory agencies",
+    "an f1-score",
+    "bert",
+    "human",
+    "class",
+    "metrics",
+    "normalized contextualized word embeddings",
+    "conversational transcripts",
+    "conversational",
+    "caption evaluation metrics",
+    "word",
+    "we",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/2022.ltedi-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:44:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

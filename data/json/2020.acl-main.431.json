@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.431",
+  "title": "I}nterpreting {P}retrained {C}ontextualized {R}epresentations via {R}eductions to {S}tatic {E}mbeddings",
+  "authors": [
+    "Bommasani, Rishi  and\nDavis, Kelly  and\nCardie, Claire"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Contextualized representations (e.g. ELMo, BERT) have become the default pretrained representations for downstream NLP applications. In some settings, this transition has rendered their static embedding predecessors (e.g. Word2Vec, GloVe) obsolete. As a side-effect, we observe that older interpretability methods for static embeddings — while more diverse and mature than those available for their dynamic counterparts — are underutilized in studying newer contextualized representations. Consequently, we introduce simple and fully general methods for converting from contextualized representations to static lookup-table embeddings which we apply to 5 popular pretrained models and 9 sets of pretrained weights. Our analysis of the resulting static embeddings notably reveals that pooling over many contexts significantly improves representational quality under intrinsic evaluation. Complementary to analyzing representational quality, we consider social biases encoded in pretrained representations with respect to gender, race/ethnicity, and religion and find that bias is encoded disparately across pretrained models and internal layers even for models with the same training data. Concerningly, we find dramatic inconsistencies between social bias estimators for word embeddings.",
+  "keywords": [
+    "glove",
+    "the resulting static embeddings",
+    "elmo",
+    "bias",
+    "social biases",
+    "static lookup-table embeddings",
+    "static embeddings",
+    "we",
+    "dramatic inconsistencies",
+    "intrinsic evaluation",
+    "their static embedding predecessors",
+    "training",
+    "downstream nlp applications",
+    "word",
+    "that bias"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.431/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:47:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

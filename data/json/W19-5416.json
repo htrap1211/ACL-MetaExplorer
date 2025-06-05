@@ -1,0 +1,33 @@
+{
+  "id": "W19-5416",
+  "title": "Effort-Aware Neural Automatic Post-Editing",
+  "authors": [
+    "Tebbifakhr, Amirhossein  and\nNegri, Matteo  and\nTurchi, Marco"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 3: Shared Task Papers, Day 2)",
+  "abstract": "For this round of the WMT 2019 APE shared task, our submission focuses on addressing the “over-correction” problem in APE. Over-correction occurs when the APE system tends to rephrase an already correct MT output, and the resulting sentence is penalized by a reference-based evaluation against human post-edits. Our intuition is that this problem can be prevented by informing the system about the predicted quality of the MT output or, in other terms, the expected amount of needed corrections. For this purpose, following the common approach in multilingual NMT, we prepend a special token to the beginning of both the source text and the MT output indicating the required amount of post-editing. Following the best submissions to the WMT 2018 APE shared task, our backbone architecture is based on multi-source Transformer to encode both the MT output and the corresponding source text. We participated both in the English-German and English-Russian subtasks. In the first subtask, our best submission improved the original MT output quality up to +0.98 BLEU and -0.47 TER. In the second subtask, where the higher quality of the MT output increases the risk of over-correction, none of our submitted runs was able to improve the MT output.",
+  "keywords": [
+    "bleu",
+    "we",
+    "neural",
+    "token",
+    "multi-source transformer",
+    "ter",
+    "text",
+    "-",
+    "a reference-based evaluation",
+    "reference",
+    "transformer",
+    "human",
+    "evaluation",
+    "multi",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/W19-5416/",
+  "provenance": {
+    "collected_at": "2025-06-05 02:09:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

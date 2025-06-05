@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.213",
+  "title": "Billie-Newman at {S}em{E}val-2023 Task 5: Clickbait Classification and Question Answering with Pre-Trained Language Models, Named Entity Recognition and Rule-Based Approaches",
+  "authors": [
+    "Kruff, Andreas  and\nTran, Anh Huy"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "In this paper, we describe the implementations of our systems for the SemEval-2023 Task 5 ‘Clickbait Spoiling’, which involves the classification of clickbait posts in sub-task 1 and the spoiler generation and question answering of clickbait posts in sub-task 2, ultimately achieving a balanced accuracy of 0.593 and a BLEU score of 0.322 on the test datasets in sub-task 1 and sub-task 2 respectively. For this, we propose the usage of RoBERTa transformer models and modify them for each specific downstream task. In sub-task 1, we use the pre-trained RoBERTa model and use it in conjunction with NER, a spoiler-title ratio, a regex check for enumerations and lists and the use of input reformulation. In sub-task 2, we propose the usage of the RoBERTa-SQuAD2.0 model for extractive question answering in combination with a contextual rule-based approach for multi-type spoilers in order to generate spoiler answers.",
+  "keywords": [
+    "roberta",
+    "bleu",
+    "the pre-trained roberta model",
+    "question",
+    "we",
+    "classification",
+    "billie-newman",
+    "billie",
+    "the roberta-squad2 0 model",
+    "a bleu score",
+    "pre-trained language models",
+    "it",
+    "ner",
+    "answering",
+    "the spoiler generation"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.213/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

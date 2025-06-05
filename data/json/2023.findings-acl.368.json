@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.368",
+  "title": "Commonsense Knowledge Transfer for Pre-trained Language Models",
+  "authors": [
+    "Zhou, Wangchunshu  and\nLe Bras, Ronan  and\nChoi, Yejin"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Despite serving as the foundation models for a wide range of NLP benchmarks, pre-trained language models have shown limited capabilities of acquiring implicit commonsense knowledge from self-supervision alone, compared to learning linguistic and factual knowledge that appear more explicitly in the surface patterns in text. In this work, we introduce commonsense knowledge transfer, a framework to transfer the commonsense knowledge stored in a neural commonsense knowledge model to a general-purpose pre-trained language model. It first exploits general texts to form queries for extracting commonsense knowledge from the neural commonsense knowledge model and then refines the language model with two self-supervised objectives: commonsense mask infilling and commonsense relation prediction, which align human language with the underlying commonsense knowledge. Empirical results show that our approach consistently improves the model’s performance on downstream tasks that require commonsense reasoning. Moreover, we find that the improvement is more significant in the few-shot setting. This suggests that our approach helps language models better transfer to downstream tasks without extensive supervision by injecting commonsense knowledge into their parameters.",
+  "keywords": [
+    "objectives",
+    "we",
+    "shot",
+    "neural",
+    "pre-trained language models",
+    "it",
+    "queries",
+    "self",
+    "transfer",
+    "limited capabilities",
+    "the language model",
+    "general texts",
+    "text",
+    "language models",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.368/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.211",
+  "title": "Exploiting Hierarchically Structured Categories in Fine-grained {C}hinese Named Entity Recognition",
+  "authors": [
+    "Yang, Jiuding  and\nLuo, Jinwen  and\nGuo, Weidong  and\nNiu, Di  and\nXu, Yu"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Chinese Named Entity Recognition (CNER) is a widely used technology in various applications. While recent studies have focused on utilizing additional information of the Chinese language and characters to enhance CNER performance, this paper focuses on a specific aspect of CNER known as fine-grained CNER (FG-CNER). FG-CNER involves the use of hierarchical, fine-grained categories (e.g. Person-MovieStar) to label named entities. To promote research in this area, we introduce the FiNE dataset, a dataset for FG-CNER consisting of 30,000 sentences from various domains and containing 67,651 entities in 54 fine-grained flattened hierarchical categories. Additionally, we propose SoftFiNE, a novel approach for FG-CNER that utilizes a custom-designed relevance scoring function based on label structures to learn the potential relevance between different flattened hierarchical labels. Our experimental results demonstrate that the proposed SoftFiNE method outperforms the state-of-the-art baselines on the FiNE dataset. Furthermore, we conduct extensive experiments on three other datasets, including OntoNotes 4.0, Weibo, and Resume, where SoftFiNE achieved state-of-the-art performance on all three datasets.",
+  "keywords": [
+    "we",
+    "information",
+    "flattened hierarchical categories",
+    "hierarchical fine-grained categories",
+    "hierarchically structured categories",
+    "categories",
+    "67 651 entities",
+    "cner",
+    "fg-cner",
+    "fine",
+    "fg-cner consisting",
+    "recent studies",
+    "fine-grained cner fg-cner fg-cner",
+    "function",
+    "cner performance"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.211/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

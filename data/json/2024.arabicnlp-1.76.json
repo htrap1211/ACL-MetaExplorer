@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.76",
+  "title": "MISSION} at {KSAA}-{CAD} 2024: {A}ra{T}5 with {A}rabic Reverse Dictionary",
+  "authors": [
+    "Alharbi, Thamer"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "This research paper presents our approach for the KSAA-CAD 2024 competition, focusing on Arabic Reverse Dictionary (RD) task (Alshammari et al., 2024). Leveraging the functionalities of the Arabic Reverse Dictionary, our system allows users to input glosses and retrieve corresponding words. We provide all associated notebooks and developed models on GitHub and Hugging face, respectively. Our task entails working with a dataset comprising dictionary data and word embedding vectors, utilizing three different architectures of contextualized word embeddings: AraELECTRA, AraBERTv2, and camelBERT-MSA. We fine-tune the AraT5v2-base-1024 model for predicting each embedding, considering various hyperparameters for training and validation. Evaluation metrics include ranking accuracy, mean squared error (MSE), and cosine similarity. The results demonstrate the effectiveness of our approach on both development and test datasets, showcasing promising performance across different embedding types.",
+  "keywords": [
+    "functionalities",
+    "validation",
+    "we",
+    "training",
+    "hyperparameters",
+    "various hyperparameters",
+    "word",
+    "different embedding types",
+    "camelbert",
+    "arabertv2",
+    "embedding vectors",
+    "metrics",
+    "fine",
+    "accuracy",
+    "embeddings"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.76/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:03:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

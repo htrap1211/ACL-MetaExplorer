@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.204",
+  "title": "D}ee{BERT}: Dynamic Early Exiting for Accelerating {BERT} Inference",
+  "authors": [
+    "Xin, Ji  and\nTang, Raphael  and\nLee, Jaejun  and\nYu, Yaoliang  and\nLin, Jimmy"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Large-scale pre-trained language models such as BERT have brought significant improvements to NLP applications. However, they are also notorious for being slow in inference, which makes them difficult to deploy in real-time applications. We propose a simple but effective method, DeeBERT, to accelerate BERT inference. Our approach allows samples to exit earlier without passing through the entire model. Experiments show that DeeBERT is able to save up to ~40% inference time with minimal degradation in model quality. Further analyses show different behaviors in the BERT transformer layers and also reveal their redundancy. Our work provides new ideas to efficiently apply deep transformer-based models to downstream tasks. Code is available athttps://github.com/castorini/DeeBERT.",
+  "keywords": [
+    "work",
+    "deep",
+    "transformer",
+    "code",
+    "language",
+    "bert",
+    "early",
+    "model",
+    "bert inference",
+    "deep transformer-based models",
+    "deebert",
+    "we",
+    "pre",
+    "time",
+    "the bert transformer layers"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.204/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:44:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

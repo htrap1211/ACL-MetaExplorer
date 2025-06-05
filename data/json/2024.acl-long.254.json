@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.254",
+  "title": "A Chain-of-Thought Is as Strong as Its Weakest Link: A Benchmark for Verifiers of Reasoning Chains",
+  "authors": [
+    "Jacovi, Alon  and\nBitton, Yonatan  and\nBohnet, Bernd  and\nHerzig, Jonathan  and\nHonovich, Or  and\nTseng, Michael  and\nCollins, Michael  and\nAharoni, Roee  and\nGeva, Mor"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Prompting language models to provide step-by-step answers (e.g., “Chain-of-Thought”) is the prominent approach for complex reasoning tasks, where more accurate reasoning chains typically improve downstream task performance. Recent literature discusses automatic methods to verify reasoning to evaluate and improve their correctness. However, no fine-grained step-level datasets are available to enable thorough evaluation of such verification methods, hindering progress in this direction. We introduce REVEAL: Reasoning Verification Evaluation, a dataset to benchmark automatic verifiers of complex Chain-of-Thought reasoning in open-domain question-answering settings. REVEAL includes comprehensive labels for the relevance, attribution to evidence passages, and logical correctness of each reasoning step in a language model’s answer, across a variety of datasets and state-of-the-art language models. Evaluation on REVEAL shows that verifiers struggle at verifying reasoning chains - in particular, verifying logical correctness and detecting contradictions. Available at https://reveal-dataset.github.io/ .",
+  "keywords": [
+    "variety",
+    "chain",
+    "question",
+    "we",
+    "answer",
+    "reveal reasoning verification evaluation",
+    "automatic verifiers",
+    "verifiers",
+    "thorough evaluation",
+    "a variety",
+    "language models",
+    "language",
+    "thought",
+    "model",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.254/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

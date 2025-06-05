@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.703",
+  "title": "A Class-Rebalancing Self-Training Framework for Distantly-Supervised Named Entity Recognition",
+  "authors": [
+    "Li, Qi  and\nXie, Tingyu  and\nPeng, Peng  and\nWang, Hongwei  and\nWang, Gaoang"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Distant supervision reduces the reliance on human annotation in the named entity recognition tasks. The class-level imbalanced distant annotation is a realistic and unexplored problem, and the popular method of self-training can not handle class-level imbalanced learning. More importantly, self-training is dominated by the high-performance class in selecting candidates, and deteriorates the low-performance class with the bias of generated pseudo label. To address the class-level imbalance performance, we propose a class-rebalancing self-training framework for improving the distantly-supervised named entity recognition. In candidate selection, a class-wise flexible threshold is designed to fully explore other classes besides the high-performance class. In label generation, injecting the distant label, a hybrid pseudo label is adopted to provide straight semantic information for the low-performance class. Experiments on five flat and two nested datasets show that our model achieves state-of-the-art results. We also conduct extensive research to analyze the effectiveness of the flexible threshold and the hybrid pseudo label.",
+  "keywords": [
+    "the bias",
+    "bias",
+    "generation",
+    "model",
+    "human",
+    "class",
+    "straight semantic information",
+    "self",
+    "information",
+    "semantic",
+    "generated pseudo label",
+    "we",
+    "label generation",
+    "entity",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.703/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

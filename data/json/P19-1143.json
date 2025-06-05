@@ -1,0 +1,33 @@
+{
+  "id": "P19-1143",
+  "title": "Training Hybrid Language Models by Marginalizing over Segmentations",
+  "authors": [
+    "Grave, Edouard  and\nSukhbaatar, Sainbayar  and\nBojanowski, Piotr  and\nJoulin, Armand"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "In this paper, we study the problem of hybrid language modeling, that is using models which can predict both characters and larger units such as character ngrams or words. Using such models, multiple potential segmentations usually exist for a given string, for example one using words and one using characters only. Thus, the probability of a string is the sum of the probabilities of all the possible segmentations. Here, we show how it is possible to marginalize over the segmentations efficiently, in order to compute the true probability of a sequence. We apply our technique on three datasets, comprising seven languages, showing improvements over a strong character level language model.",
+  "keywords": [
+    "hybrid language modeling",
+    "hybrid language models",
+    "language",
+    "model",
+    "it",
+    "modeling",
+    "sum",
+    "probabilities",
+    "the probabilities",
+    "we",
+    "sequence",
+    "that",
+    "characters",
+    "ngrams",
+    "multiple potential segmentations"
+  ],
+  "url": "https://aclanthology.org/P19-1143/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:33:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

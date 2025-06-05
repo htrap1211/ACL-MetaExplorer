@@ -1,0 +1,33 @@
+{
+  "id": "2021.dialdoc-1.11",
+  "title": "Summary-Oriented Question Generation for Informational Queries",
+  "authors": [
+    "Yin, Xusen  and\nZhou, Li  and\nSmall, Kevin  and\nMay, Jonathan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Document-grounded Dialogue and Conversational Question Answering (DialDoc 2021)",
+  "abstract": "Users frequently ask simple factoid questions for question answering (QA) systems, attenuating the impact of myriad recent works that support more complex questions. Prompting users with automatically generated suggested questions (SQs) can improve user understanding of QA system capabilities and thus facilitate more effective use. We aim to produce self-explanatory questions that focus on main document topics and are answerable with variable length passages as appropriate. We satisfy these requirements by using a BERT-based Pointer-Generator Network trained on the Natural Questions (NQ) dataset. Our model shows SOTA performance of SQ generation on the NQ dataset (20.1 BLEU-4). We further apply our model on out-of-domain news articles, evaluating with a QA system due to the lack of gold questions and demonstrate that our model produces better SQs for news articles – with further confirmation via a human evaluation.",
+  "keywords": [
+    "a human evaluation",
+    "question",
+    "we",
+    "a bert-based pointer-generator network",
+    "a qa system",
+    "natural",
+    "queries",
+    "self",
+    "summary-oriented question generation",
+    "sq generation",
+    "bert",
+    "automatically generated suggested questions",
+    "qa system capabilities",
+    "generation",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2021.dialdoc-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

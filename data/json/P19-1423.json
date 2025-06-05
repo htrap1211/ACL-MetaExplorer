@@ -1,0 +1,33 @@
+{
+  "id": "P19-1423",
+  "title": "Inter-sentence Relation Extraction with Document-level Graph Convolutional Neural Network",
+  "authors": [
+    "Sahu, Sunil Kumar  and\nChristopoulou, Fenia  and\nMiwa, Makoto  and\nAnaniadou, Sophia"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Inter-sentence relation extraction deals with a number of complex semantic relationships in documents, which require local, non-local, syntactic and semantic dependencies. Existing methods do not fully exploit such dependencies. We present a novel inter-sentence relation extraction model that builds a labelled edge graph convolutional neural network model on a document-level graph. The graph is constructed using various inter- and intra-sentence dependencies to capture local and non-local dependency information. In order to predict the relation of an entity pair, we utilise multi-instance learning with bi-affine pairwise scoring. Experimental results show that our model achieves comparable performance to the state-of-the-art neural models on two biochemistry datasets. Our analysis shows that all the types in the graph are effective for inter-sentence relation extraction.",
+  "keywords": [
+    "edge",
+    "such dependencies",
+    "neural",
+    "extraction",
+    "model",
+    "dependencies",
+    "information",
+    "dependency",
+    "semantic",
+    "network",
+    "we",
+    "learning",
+    "complex semantic relationships",
+    "graph",
+    "convolutional"
+  ],
+  "url": "https://aclanthology.org/P19-1423/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:41:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

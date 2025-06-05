@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.722",
+  "title": "Prefix Text as a Yarn: Eliciting Non-{E}nglish Alignment in Foundation Language Model",
+  "authors": [
+    "Zhan, Runzhe  and\nYang, Xinyi  and\nWong, Derek  and\nChao, Lidia  and\nZhang, Yue"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "While supervised fine-tuning (SFT) has been a straightforward approach for tailoring the output of foundation large language model (LLM) to specific preferences, concerns have been raised about the depth of this alignment, with some critiques suggesting it is merely “superficial”. We critically examine this hypothesis within the scope of cross-lingual generation tasks, proposing that the effectiveness of SFT may be constrained by its reliance on prior tokens to guide cross-lingual generation. Based on this crucial insight, and in response to the challenges posed by the costly and limited availability of non-English data for SFT, we introduce a novel training-free alignment method named PreTTY, which employs minimal task-related prior tokens to bridge the foundation LLM and the SFT LLM, achieving comparable performance without training. Experiments on machine translation and part-of-speech tagging across seven languages demonstrate the efficacy of PreTTY in cross-lingual settings. Remarkably, by initiating the decoding process with only one or two prior tokens, foundation LLMs can attain up to 98% of the performance metrics of their SFT counterparts. This method presents a cost-effective alternative to traditional SFT and advances the democratization of multilingual LLMs.",
+  "keywords": [
+    "this alignment",
+    "machine translation",
+    "we",
+    "foundation language model",
+    "llm",
+    "training",
+    "cross-lingual generation",
+    "translation",
+    "cross-lingual generation tasks",
+    "cross",
+    "it",
+    "e nglish alignment",
+    "llms",
+    "tuning",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.722/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

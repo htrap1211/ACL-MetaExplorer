@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.65",
+  "title": "Click: Controllable Text Generation with Sequence Likelihood Contrastive Learning",
+  "authors": [
+    "Zheng, Chujie  and\nKe, Pei  and\nZhang, Zheng  and\nHuang, Minlie"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "It has always been an important yet challenging problem to control language models to avoid generating texts with undesirable attributes, such as toxic language and unnatural repetition. We introduce Leo for controllable text generation, which needs no modification to the model architecture and facilitates out-of-the-box use of trained models. It employs a contrastive loss on sequence likelihood, which fundamentally decreases the generation probability of negative samples (i.e., generations with undesirable attributes). It also adopts a novel likelihood ranking-based strategy to construct contrastive samples from model generations. On the tasks of language detoxification, sentiment steering, and repetition reduction, we show that Leo outperforms strong baselines of controllable text generation and demonstrate the superiority of Leo’s sample construction strategy.",
+  "keywords": [
+    "i",
+    "generation",
+    "language",
+    "the generation probability",
+    "model",
+    "model generations",
+    "text",
+    "it",
+    "controllable text generation",
+    "language models",
+    "loss",
+    "generations",
+    "we",
+    "sequence",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.65/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

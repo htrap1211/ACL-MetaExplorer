@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-demo.25",
+  "title": "XMD}: An End-to-End Framework for Interactive Explanation-Based Debugging of {NLP} Models",
+  "authors": [
+    "Lee, Dong-Ho  and\nKadakia, Akshen  and\nJoshi, Brihi  and\nChan, Aaron  and\nLiu, Ziyi  and\nNarahari, Kiran  and\nShibuya, Takashi  and\nMitani, Ryosuke  and\nSekiya, Toshiyuki  and\nPujara, Jay  and\nRen, Xiang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+  "abstract": "NLP models are susceptible to learning spurious biases (i.e., bugs) that work on some datasets but do not properly reflect the underlying task. Explanation-based model debugging aims to resolve spurious biases by showing human users explanations of model behavior, asking users to give feedback on the behavior, thenusing the feedback to update the model. While existing model debugging methods have shown promise, their prototype-level implementations provide limited practical utility. Thus, we propose XMD: the first open-source, end-to-end framework for explanation-based model debugging. Given task- or instance-level explanations,users can flexibly provide various forms of feedback via an intuitive, web-based UI. After receiving user feedback, XMD automatically updates the model in real time, by regularizing the model so that its explanationsalign with the user feedback. The new model can then be easily deployed into real-world applications via Hugging Face. Using XMD, we can improve the model’s OOD performance on text classification tasks by up to 18%.",
+  "keywords": [
+    "end",
+    "feedback",
+    "we",
+    "text classification tasks",
+    "nlp models nlp models",
+    "classification",
+    "spurious biases",
+    "text",
+    "biases",
+    "nlp",
+    "model",
+    "human",
+    "time",
+    "various forms",
+    "existing model debugging methods"
+  ],
+  "url": "https://aclanthology.org/2023.acl-demo.25/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:50:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

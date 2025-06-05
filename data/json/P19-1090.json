@@ -1,0 +1,33 @@
+{
+  "id": "P19-1090",
+  "title": "Towards Automating Healthcare Question Answering in a Noisy Multilingual Low-Resource Setting",
+  "authors": [
+    "Daniel, Jeanne E.  and\nBrink, Willie  and\nEloff, Ryan  and\nCopley, Charles"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We discuss ongoing work into automating a multilingual digital helpdesk service available via text messaging to pregnant and breastfeeding mothers in South Africa. Our anonymized dataset consists of short informal questions, often in low-resource languages, with unreliable language labels, spelling errors and code-mixing, as well as template answers with some inconsistencies. We explore cross-lingual word embeddings, and train parametric and non-parametric models on 90K samples for answer selection from a set of 126 templates. Preliminary results indicate that LSTMs trained end-to-end perform best, with a test accuracy of 62.13% and a recall@5 of 89.56%, and demonstrate that we can accelerate response time by several orders of magnitude.",
+  "keywords": [
+    "work",
+    "inconsistencies",
+    "cross",
+    "code",
+    "embeddings",
+    "recall",
+    "some inconsistencies",
+    "end",
+    "language",
+    "answer",
+    "text",
+    "a recall",
+    "question",
+    "lstms",
+    "train"
+  ],
+  "url": "https://aclanthology.org/P19-1090/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:31:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

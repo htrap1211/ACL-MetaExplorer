@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.310",
+  "title": "On the Robustness of Language Encoders against Grammatical Errors",
+  "authors": [
+    "Yin, Fan  and\nLong, Quanyu  and\nMeng, Tao  and\nChang, Kai-Wei"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We conduct a thorough study to diagnose the behaviors of pre-trained language encoders (ELMo, BERT, and RoBERTa) when confronted with natural grammatical errors. Specifically, we collect real grammatical errors from non-native speakers and conduct adversarial attacks to simulate these errors on clean text data. We use this approach to facilitate debugging models on downstream applications. Results confirm that the performance of all tested models is affected but the degree of impact varies. To interpret model behaviors, we further design a linguistic acceptability task to reveal their abilities in identifying ungrammatical sentences and the position of errors. We find that fixed contextual encoders with a simple classifier trained on the prediction of sentence correctness are able to locate error positions. We also design a cloze test for BERT and discover that BERT captures the interaction between errors and specific tokens in context. Our results shed light on understanding the robustness and behaviors of language encoders against grammatical errors.",
+  "keywords": [
+    "roberta",
+    "classifier",
+    "we",
+    "a simple classifier",
+    "natural",
+    "abilities",
+    "bert",
+    "text",
+    "encoders",
+    "language",
+    "their abilities",
+    "model",
+    "language encoders",
+    "pre",
+    "fixed contextual encoders"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.310/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:46:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

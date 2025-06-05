@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.380",
+  "title": "Demographics Should Not Be the Reason of Toxicity: Mitigating Discrimination in Text Classifications with Instance Weighting",
+  "authors": [
+    "Zhang, Guanhua  and\nBai, Bing  and\nZhang, Junqi  and\nBai, Kun  and\nZhu, Conghui  and\nZhao, Tiejun"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "With the recent proliferation of the use of text classifications, researchers have found that there are certain unintended biases in text classification datasets. For example, texts containing some demographic identity-terms (e.g., “gay”, “black”) are more likely to be abusive in existing abusive language detection datasets. As a result, models trained with these datasets may consider sentences like “She makes me happy to be gay” as abusive simply because of the word “gay.” In this paper, we formalize the unintended biases in text classification datasets as a kind of selection bias from the non-discrimination distribution to the discrimination distribution. Based on this formalization, we further propose a model-agnostic debiasing training framework by recovering the non-discrimination distribution using instance weighting, which does not require any extra resources or annotations apart from a pre-defined set of demographic identity-terms. Experiments demonstrate that our method can effectively alleviate the impacts of the unintended biases without significantly hurting models’ generalization ability.",
+  "keywords": [
+    "bias",
+    "models generalization ability",
+    "text classification datasets",
+    "extra",
+    "we",
+    "selection bias",
+    "training",
+    "classification",
+    "certain unintended biases",
+    "word",
+    "the unintended biases",
+    "text classifications",
+    "text",
+    "generalization",
+    "me"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.380/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:47:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

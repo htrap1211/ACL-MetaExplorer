@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.5",
+  "title": "TA}-{MAMC} at {S}em{E}val-2021 Task 4: Task-adaptive Pretraining and Multi-head Attention for Abstract Meaning Reading Comprehension",
+  "authors": [
+    "Zhang, Jing  and\nZhuang, Yimeng  and\nSu, Yinpei"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper describes our system used in the SemEval-2021 Task4 Reading Comprehension of Abstract Meaning, achieving 1st for subtask 1 and 2nd for subtask 2 on the leaderboard. We propose an ensemble of ELECTRA-based models with task-adaptive pretraining and a multi-head attention multiple-choice classifier on top of the pre-trained model. The main contributions of our system are 1) revealing the performance discrepancy of different transformer-based pretraining models on the downstream task, 2) presentation of an efficient method to generate large task-adaptive corpora for pretraining. We also investigated several pretraining strategies and contrastive learning objectives. Our system achieves a test accuracy of 95.11 and 94.89 on subtask 1 and subtask 2 respectively.",
+  "keywords": [
+    "ensemble",
+    "transformer",
+    "top",
+    "accuracy",
+    "classifier",
+    "model",
+    "efficient",
+    "strategies",
+    "different transformer-based pretraining models",
+    "e",
+    "attention",
+    "we",
+    "several pretraining strategies",
+    "learning",
+    "an efficient method"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:19:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.726",
+  "title": "Enhancing Unsupervised Semantic Parsing with Distributed Contextual Representations",
+  "authors": [
+    "Ling, Zixuan  and\nZheng, Xiaoqing  and\nXu, Jianhan  and\nLin, Jinshu  and\nChang, Kai-Wei  and\nHsieh, Cho-Jui  and\nHuang, Xuanjing"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "We extend a non-parametric Bayesian model of (Titov and Klementiev, 2011) to deal with homonymy and polysemy by leveraging distributed contextual word and phrase representations pre-trained on a large collection of unlabelled texts. Then, unsupervised semantic parsing is performed by decomposing sentences into fragments, clustering the fragments to abstract away syntactic variations of the same meaning, and predicting predicate-argument relations between the fragments. To better model the statistical dependencies between predicates and their arguments, we further conduct a hierarchical Pitman-Yor process. An improved Metropolis-Hastings merge-split sampler is proposed to speed up the mixing and convergence of Markov chains by leveraging pre-trained distributed representations. The experimental results show that the models achieve better accuracy on both question-answering and relation extraction tasks.",
+  "keywords": [
+    "hierarchical",
+    "process",
+    "parsing",
+    "extraction",
+    "model",
+    "dependencies",
+    "question",
+    "semantic",
+    "klementiev",
+    "word",
+    "we",
+    "better accuracy",
+    "the statistical dependencies",
+    "unsupervised semantic parsing",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.726/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.754",
+  "title": "Easy-to-Hard Learning for Information Extraction",
+  "authors": [
+    "Gao, Chang  and\nZhang, Wenxuan  and\nLam, Wai  and\nBing, Lidong"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Information extraction (IE) systems aim to automatically extract structured information, such as named entities, relations between entities, and events, from unstructured texts. While most existing work addresses a particular IE task, universally modeling various IE tasks with one model has achieved great success recently. Despite their success, they employ a one-stage learning strategy, i.e., directly learning to extract the target structure given the input text, which contradicts the human learning process. In this paper, we propose a unified easy-to-hard learning framework consisting of three stages, i.e., the easy stage, the hard stage, and the main stage, for IE by mimicking the human learning process. By breaking down the learning process into multiple stages, our framework facilitates the model to acquire general IE task knowledge and improve its generalization ability. Extensive experiments across four IE tasks demonstrate the effectiveness of our framework. We achieve new state-of-the-art results on 13 out of 17 datasets.",
+  "keywords": [
+    "extraction",
+    "information extraction information extraction",
+    "four ie tasks",
+    "we",
+    "general ie task knowledge",
+    "unified",
+    "a particular ie task",
+    "information",
+    "learning",
+    "named entities relations",
+    "i",
+    "text",
+    "generalization",
+    "ie systems",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.754/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.ecnlp-1.3",
+  "title": "ASR} Adaptation for {E}-commerce Chatbots using Cross-Utterance Context and Multi-Task Language Modeling",
+  "authors": [
+    "Shenoy, Ashish  and\nBodapati, Sravan  and\nKirchhoff, Katrin"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 4th Workshop on e-Commerce and NLP",
+  "abstract": "Automatic Speech Recognition (ASR) robustness toward slot entities are critical in e-commerce voice assistants that involve monetary transactions and purchases. Along with effective domain adaptation, it is intuitive that cross utterance contextual cues play an important role in disambiguating domain specific content words from speech. In this paper, we investigate various techniques to improve contextualization, content word robustness and domain adaptation of a Transformer-XL neural language model (NLM) to rescore ASR N-best hypotheses. To improve contextualization, we utilize turn level dialogue acts along with cross utterance context carry over. Additionally, to adapt our domain-general NLM towards e-commerce on-the-fly, we use embeddings derived from a finetuned masked LM on in-domain data. Finally, to improve robustness towards in-domain content words, we propose a multi-task model that can jointly perform content word detection and language modeling tasks. Compared to a non-contextual LSTM LM baseline, our best performing NLM rescorer results in a content WER reduction of 19.2% on e-commerce audio test set and a slot labeling F1 improvement of 6.4%.",
+  "keywords": [
+    "f1 improvement",
+    "wer",
+    "a non-contextual lstm",
+    "we",
+    "dialogue",
+    "lstm",
+    "our domain-general nlm",
+    "cross",
+    "neural",
+    "it",
+    "slot entities",
+    "e",
+    "word",
+    "reduction",
+    "chatbots"
+  ],
+  "url": "https://aclanthology.org/2021.ecnlp-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

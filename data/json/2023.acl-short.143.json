@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.143",
+  "title": "Event Extraction as Question Generation and Answering",
+  "authors": [
+    "Lu, Di  and\nRan, Shihao  and\nTetreault, Joel  and\nJaimes, Alejandro"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Recent work on Event Extraction has reframed the task as Question Answering (QA), with promising results. The advantage of this approach is that it addresses the error propagation issue found in traditional token-based classification approaches by directly predicting event arguments without extracting candidates first. However, the questions are typically based on fixed templates and they rarely leverage contextual information such as relevant arguments. In addition, prior QA-based approaches have difficulty handling cases where there are multiple arguments for the same role. In this paper, we propose QGA-EE, which enables a Question Generation (QG) model to generate questions that incorporate rich contextual information instead of using fixed templates. We also propose dynamic templates to assist the training of QG model. Experiments show that QGA-EE outperforms all prior single-task-based models on the ACE05 English dataset.",
+  "keywords": [
+    "extraction",
+    "question",
+    "we",
+    "training",
+    "classification",
+    "it",
+    "qa-based approaches",
+    "a question generation",
+    "token",
+    "information",
+    "rich",
+    "work",
+    "question generation",
+    "generation",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.143/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:50:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

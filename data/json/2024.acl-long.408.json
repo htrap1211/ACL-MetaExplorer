@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.408",
+  "title": "Unlocking the Power of Large Language Models for Entity Alignment",
+  "authors": [
+    "Jiang, Xuhui  and\nShen, Yinghan  and\nShi, Zhichao  and\nXu, Chengjin  and\nLi, Wei  and\nLi, Zixuan  and\nGuo, Jian  and\nShen, Huawei  and\nWang, Yuanzhuo"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Entity Alignment (EA) is vital for integrating diverse knowledge graph (KG) data, playing a crucial role in data-driven AI applications. Traditional EA methods primarily rely on comparing entity embeddings, but their effectiveness is constrained by the limited input KG data and the capabilities of the representation learning techniques. Against this backdrop, we introduce ChatEA, an innovative framework that incorporates large language models (LLMs) to improve EA. To address the constraints of limited input KG data, ChatEA introduces a KG-code translation module that translates KG structures into a format understandable by LLMs, thereby allowing LLMs to utilize their extensive background knowledge to improve EA accuracy. To overcome the over-reliance on entity embedding comparisons, ChatEA implements a two-stage EA strategy that capitalizes on LLMs’ capability for multi-step reasoning in a dialogue format, thereby enhancing accuracy while preserving efficiency. Our experimental results affirm ChatEA’s superior performance, highlighting LLMs’ potential in facilitating EA tasks.The source code is available at https://anonymous.4open.science/r/ChatEA/.",
+  "keywords": [
+    "code",
+    "entity alignment entity alignment",
+    "llms capability",
+    "efficiency",
+    "we",
+    "dialogue",
+    "graph",
+    "translation",
+    "a kg-code translation module",
+    "science",
+    "format",
+    "the capabilities",
+    "llms",
+    "background",
+    "ea accuracy"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.408/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

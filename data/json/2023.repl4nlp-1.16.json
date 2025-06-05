@@ -1,0 +1,33 @@
+{
+  "id": "2023.repl4nlp-1.16",
+  "title": "Improving Zero-shot Relation Classification via Automatically-acquired Entailment Templates",
+  "authors": [
+    "Rahimi, Mahdi  and\nSurdeanu, Mihai"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 8th Workshop on Representation Learning for NLP (RepL4NLP 2023)",
+  "abstract": "While fully supervised relation classification (RC) models perform well on large-scale datasets, their performance drops drastically in low-resource settings. As generating annotated examples are expensive, recent zero-shot methods have been proposed that reformulate RC into other NLP tasks for which supervision exists such as textual entailment. However, these methods rely on templates that are manually created which is costly and requires domain expertise. In this paper, we present a novel strategy for template generation for relation classification, which is based on adapting Harris’ distributional similarity principle to templates encoded using contextualized representations. Further, we perform empirical evaluation of different strategies for combining the automatically acquired templates with manual templates. The experimental results on TACRED show that our approach not only performs better than the zero-shot RC methods that only use manual templates, but also that it achieves state-of-the-art performance for zero-shot TACRED at 64.3 F1 score.",
+  "keywords": [
+    "zero-shot relation classification",
+    "64 3 f1 score",
+    "we",
+    "shot",
+    "classification",
+    "it",
+    "empirical evaluation",
+    "expensive recent zero-shot methods",
+    "different strategies",
+    "the zero-shot rc methods",
+    "relation classification",
+    "strategies",
+    "zero-shot",
+    "template generation",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2023.repl4nlp-1.16/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

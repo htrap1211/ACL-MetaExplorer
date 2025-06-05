@@ -1,0 +1,33 @@
+{
+  "id": "2024.langmol-1.7",
+  "title": "C}hat{M}ol Copilot: An Agent for Molecular Modeling and Computation Powered by {LLM}s",
+  "authors": [
+    "Sun, Jinyuan  and\nLi, Auston  and\nDeng, Yifan  and\nLi, Jiabo"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Language + Molecules (L+M 2024)",
+  "abstract": "Large Language Models (LLMs) like ChatGPT excel at diverse tasks when given explicit instructions, yet they often struggle with specialized domains such as molecular science, lacking in-depth reasoning and sophisticated planning capabilities. To address these limitations, we introduce ChatMol Copilot, a chatbot-like agent specifically engineered for protein design and small molecule computations. ChatMol Copilot employs a multi-level abstraction framework to expand the LLM‘s capability. At the basic level, it integrates external computational tools through function calls, thus offloading complex tasks and enabling a focus on strategic decision-making. The second level is data abstraction. Large data sets (such as a large number of molecules created by a generative model) are stored in Redis cache, and the redis keys are referenced by LLMs for data sources involved in computation. The third level of abstraction allows the LLM to orchestrate these tools, either directly or via dynamically generated Python executables. Our evaluations demonstrate that ChatMol Copilot can adeptly manage molecular modeling tasks, effectively utilizing a variety of tools as directed. By simplifying access to sophisticated molecular modeling resources, ChatMol Copilot stands to significantly accelerate drug discovery and biotechnological innovation, empowering biochemists with advanced, user-friendly AI capabilities. The open-sourced code is available at https://github.com/ChatMol/ChatMol",
+  "keywords": [
+    "variety",
+    "code",
+    "molecular science",
+    "the llm s capability",
+    "we",
+    "llm",
+    "chatbot",
+    "friendly",
+    "it",
+    "science",
+    "chatgpt",
+    "a variety",
+    "llms",
+    "generative",
+    "a generative model"
+  ],
+  "url": "https://aclanthology.org/2024.langmol-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:07:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

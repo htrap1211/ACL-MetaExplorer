@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.35",
+  "title": "Improving Syntactic Probing Correctness and Robustness with Control Tasks",
+  "authors": [
+    "Ma, Weicheng  and\nWang, Brian  and\nZhang, Hefan  and\nWang, Lili  and\nCoto-Solano, Rolando  and\nHassanpour, Saeed  and\nVosoughi, Soroush"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Syntactic probing methods have been used to examine whether and how pre-trained language models (PLMs) encode syntactic features. However, the probing methods are usually biased by the PLMs’ memorization of common word co-occurrences, even if they do not form syntactic relations. This paper presents a random-word-substitution and random-label-matching control task to reduce these biases and improve the robustness of syntactic probing methods. Our control tasks are also shown to notably improve the consistency of probing results between different probing methods and make the methods more robust with respect to the text attributes of the probing instances. Our control tasks make syntactic probing methods better at reconstructing syntactic features and more generalizable to unseen text domains. Our experiments show that our proposed control tasks are effective on different PLMs, probing methods, and syntactic features.",
+  "keywords": [
+    "language",
+    "random",
+    "these biases",
+    "encode",
+    "text",
+    "generalizable",
+    "word",
+    "pre",
+    "biases",
+    "our proposed control tasks",
+    "syntactic features",
+    "correctness",
+    "syntactic probing methods",
+    "task",
+    "our experiments"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.35/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:48:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

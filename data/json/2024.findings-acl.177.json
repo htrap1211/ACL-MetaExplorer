@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.177",
+  "title": "Towards Precise Localization of Critical Errors in Machine Translation",
+  "authors": [
+    "Jung, Dahyun  and\nEo, Sugyeong  and\nLim, Heuiseok"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "The advent of large language models has experienced a remarkable improvement in the field of machine translation. However, machine translation is still vulnerable to critical meaning deviations, which may incur catastrophic issues in social or ethical contexts. In particular, existing critical error detection primarily focuses on identifying sentence-level errors, leaving the precise localization of such errors within the sentence unaddressed. In this paper, we introduce a new task, word-level critical error detection (WCED), to detect critical errors at a fine-grained level in machine translation sentences. The task aims to identify the parts of a machine translation that contain catastrophic meaning distortions. We hypothesize that the ability to determine errors at the sentence level will positively influence the detection of more granular errors. We propose a sentence-level error detection module to predict which words in a sentence have critical errors. Experimental results demonstrate that our method outperforms existing methodologies and LLM in En-De, Zh-En, En-Ru, and En-Ko. Our method is helpful for determining the fine-grained location of errors. We hope that such studies will improve the capacity to address critical errors adeptly.",
+  "keywords": [
+    "field",
+    "such studies",
+    "machine translation",
+    "we",
+    "llm",
+    "translation",
+    "the field",
+    "machine translation sentences",
+    "location",
+    "word",
+    "vulnerable",
+    "a machine translation",
+    "existing methodologies",
+    "ru",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.177/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

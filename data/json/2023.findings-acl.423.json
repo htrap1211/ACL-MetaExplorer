@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.423",
+  "title": "Medical Dialogue Generation via Dual Flow Modeling",
+  "authors": [
+    "Xu, Kaishuai  and\nHou, Wenjun  and\nCheng, Yi  and\nWang, Jian  and\nLi, Wenjie"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Medical dialogue systems (MDS) aim to provide patients with medical services, such as diagnosis and prescription. Since most patients cannot precisely describe their symptoms, dialogue understanding is challenging for MDS. Previous studies mainly addressed this by extracting the mentioned medical entities as critical dialogue history information. In this work, we argue that it is also essential to capture the transitions of the medical entities and the doctor’s dialogue acts in each turn, as they help the understanding of how the dialogue flows and enhance the prediction of the entities and dialogue acts to be adopted in the following turn. Correspondingly, we propose a Dual Flow enhanced Medical (DFMed) dialogue generation framework. It extracts the medical entities and dialogue acts used in the dialogue history and models their transitions with an entity-centric graph flow and a sequential act flow, respectively. We employ two sequential models to encode them and devise an interweaving component to enhance their interactions. Experiments on two datasets demonstrate that our method exceeds baselines in both automatic and manual evaluations.",
+  "keywords": [
+    "work",
+    "generation",
+    "previous studies",
+    "the medical entities",
+    "studies",
+    "entities",
+    "it",
+    "evaluations",
+    "patients",
+    "critical dialogue history information",
+    "dialogue acts",
+    "most patients",
+    "information",
+    "dialogue understanding",
+    "the mentioned medical entities"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.423/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

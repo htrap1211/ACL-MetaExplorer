@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.444",
+  "title": "Improving Language Model Integration for Neural Machine Translation",
+  "authors": [
+    "Herold, Christian  and\nGao, Yingbo  and\nZeineldeen, Mohammad  and\nNey, Hermann"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "The integration of language models for neural machine translation has been extensively studied in the past. It has been shown that an external language model, trained on additional target-side monolingual data, can help improve translation quality. However, there has always been the assumption that the translation model also learns an implicit target-side language model during training, which interferes with the external language model at decoding time. Recently, some works on automatic speech recognition have demonstrated that, if the implicit language model is neutralized in decoding, further improvements can be gained when integrating an external language model. In this work, we transfer this concept to the task of machine translation and compare with the most prominent way of including additional monolingual data - namely back-translation. We find that accounting for the implicit language model significantly boosts the performance of language model fusion, although this approach is still outperformed by back-translation.",
+  "keywords": [
+    "work",
+    "language model fusion",
+    "language",
+    "neural",
+    "model",
+    "machine",
+    "it",
+    "neural machine translation",
+    "language models",
+    "machine translation",
+    "namely back-translation",
+    "translation quality",
+    "back-translation",
+    "language model integration",
+    "the external language model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.444/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

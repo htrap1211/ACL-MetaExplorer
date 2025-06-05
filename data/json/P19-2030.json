@@ -1,0 +1,33 @@
+{
+  "id": "P19-2030",
+  "title": "Attention over Heads: A Multi-Hop Attention for Neural Machine Translation",
+  "authors": [
+    "Iida, Shohei  and\nKimura, Ryuichiro  and\nCui, Hongyi  and\nHung, Po-Hsuan  and\nUtsuro, Takehito  and\nNagata, Masaaki"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "In this paper, we propose a multi-hop attention for the Transformer. It refines the attention for an output symbol by integrating that of each head, and consists of two hops. The first hop attention is the scaled dot-product attention which is the same attention mechanism used in the original Transformer. The second hop attention is a combination of multi-layer perceptron (MLP) attention and head gate, which efficiently increases the complexity of the model by adding dependencies between heads. We demonstrate that the translation accuracy of the proposed multi-hop attention outperforms the baseline Transformer significantly, +0.85 BLEU point for the IWSLT-2017 German-to-English task and +2.58 BLEU point for the WMT-2017 German-to-English task. We also find that the number of parameters required for a multi-hop attention is smaller than that for stacking another self-attention layer and the proposed model converges significantly faster than the original Transformer.",
+  "keywords": [
+    "a multi-hop attention",
+    "transformer",
+    "85 bleu point",
+    "the second hop attention",
+    "2 58 bleu point",
+    "neural",
+    "multi-layer perceptron mlp attention",
+    "the proposed multi-hop attention",
+    "the first hop attention",
+    "machine",
+    "model",
+    "it",
+    "the translation accuracy",
+    "the baseline transformer",
+    "the original transformer"
+  ],
+  "url": "https://aclanthology.org/P19-2030/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:48:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

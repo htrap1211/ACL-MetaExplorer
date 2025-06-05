@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.274",
+  "title": "Document-level Event Extraction via Heterogeneous Graph-based Interaction Model with a Tracker",
+  "authors": [
+    "Xu, Runxin  and\nLiu, Tianyu  and\nLi, Lei  and\nChang, Baobao"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Document-level event extraction aims to recognize event information from a whole piece of article. Existing methods are not effective due to two challenges of this task: a) the target event arguments are scattered across sentences; b) the correlation among events in a document is non-trivial to model. In this paper, we propose Heterogeneous Graph-based Interaction Model with a Tracker (GIT) to solve the aforementioned two challenges. For the first challenge, GIT constructs a heterogeneous graph interaction network to capture global interactions among different sentences and entity mentions. For the second, GIT introduces a Tracker module to track the extracted events and hence capture the interdependency among the events. Experiments on a large-scale dataset (Zheng et al, 2019) show GIT outperforms the previous methods by 2.8 F1. Further analysis reveals is effective in extracting multiple correlated events and event arguments that scatter across the document.",
+  "keywords": [
+    "extraction",
+    "model",
+    "a whole piece",
+    "interdependency",
+    "information",
+    "the interdependency",
+    "network",
+    "we",
+    "graph",
+    "entity",
+    "piece",
+    "analysis",
+    "that",
+    "interactions",
+    "the document"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.274/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

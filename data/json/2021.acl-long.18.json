@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.18",
+  "title": "Capturing Event Argument Interaction via A Bi-Directional Entity-Level Recurrent Decoder",
+  "authors": [
+    "Xiangyu, Xi  and\nYe, Wei  and\nZhang, Shikun  and\nWang, Quanxiu  and\nJiang, Huixing  and\nWu, Wei"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Capturing interactions among event arguments is an essential step towards robust event argument extraction (EAE). However, existing efforts in this direction suffer from two limitations: 1) The argument role type information of contextual entities is mainly utilized as training signals, ignoring the potential merits of directly adopting it as semantically rich input features; 2) The argument-level sequential semantics, which implies the overall distribution pattern of argument roles over an event mention, is not well characterized. To tackle the above two bottlenecks, we formalize EAE as a Seq2Seq-like learning problem for the first time, where a sentence with a specific event trigger is mapped to a sequence of event argument roles. A neural architecture with a novel Bi-directional Entity-level Recurrent Decoder (BERD) is proposed to generate argument roles by incorporating contextual entities’ argument role predictions, like a word-by-word text generation process, thereby distinguishing implicit argument distribution patterns within an event more accurately.",
+  "keywords": [
+    "bi-directional entity-level recurrent decoder",
+    "we",
+    "training",
+    "a seq2seq-like learning problem",
+    "neural",
+    "semantics",
+    "it",
+    "decoder",
+    "information",
+    "semantically rich input",
+    "rich",
+    "word",
+    "learning",
+    "sequence",
+    "recurrent"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.18/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:59:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

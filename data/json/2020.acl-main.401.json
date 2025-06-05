@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.401",
+  "title": "Sentiment and Emotion help Sarcasm? A Multi-task Learning Framework for Multi-Modal Sarcasm, Sentiment and Emotion Analysis",
+  "authors": [
+    "Chauhan, Dushyant Singh  and\nS R, Dhanush  and\nEkbal, Asif  and\nBhattacharyya, Pushpak"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "In this paper, we hypothesize that sarcasm is closely related to sentiment and emotion, and thereby propose a multi-task deep learning framework to solve all these three problems simultaneously in a multi-modal conversational scenario. We, at first, manually annotate the recently released multi-modal MUStARD sarcasm dataset with sentiment and emotion classes, both implicit and explicit. For multi-tasking, we propose two attention mechanisms, viz. Inter-segment Inter-modal Attention (Ie-Attention) and Intra-segment Inter-modal Attention (Ia-Attention). The main motivation of Ie-Attention is to learn the relationship between the different segments of the sentence across the modalities. In contrast, Ia-Attention focuses within the same segment of the sentence across the modalities. Finally, representations from both the attentions are concatenated and shared across the five classes (i.e., sarcasm, implicit sentiment, explicit sentiment, implicit emotion, explicit emotion) for multi-tasking. Experimental results on the extended version of the MUStARD dataset show the efficacy of our proposed approach for sarcasm detection over the existing state-of-the-art systems. The evaluation also shows that the proposed multi-task framework yields better performance for the primary task, i.e., sarcasm detection, with the help of two secondary tasks, emotion and sentiment analysis.",
+  "keywords": [
+    "deep",
+    "the modalities",
+    "attentions",
+    "we",
+    "both the attentions",
+    "two attention mechanisms",
+    "inter-segment inter-modal attention",
+    "learning",
+    "analysis",
+    "intra-segment inter-modal attention",
+    "ie",
+    "i",
+    "sentiment analysis",
+    "-",
+    "sentiment"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.401/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:47:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

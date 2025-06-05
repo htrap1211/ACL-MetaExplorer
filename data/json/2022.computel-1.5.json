@@ -1,0 +1,33 @@
+{
+  "id": "2022.computel-1.5",
+  "title": "One Wug, Two Wug+s Transformer Inflection Models Hallucinate Affixes",
+  "authors": [
+    "Samir, Farhan  and\nSilfverberg, Miikka"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Fifth Workshop on the Use of Computational Methods in the Study of Endangered Languages",
+  "abstract": "Data augmentation strategies are increasingly important in NLP pipelines for low-resourced and endangered languages, and in neural morphological inflection, augmentation by so called data hallucination is a popular technique. This paper presents a detailed analysis of inflection models trained with and without data hallucination for the low-resourced Canadian Indigenous language Gitksan. Our analysis reveals evidence for a concatenative inductive bias in augmented models—in contrast to models trained without hallucination, they strongly prefer affixing inflection patterns over suppletive ones. We find that preference for affixation in general improves inflection performance in “wug test” like settings, where the model is asked to inflect lexemes missing from the training set. However, data hallucination dramatically reduces prediction accuracy for reduplicative forms due to a misanalysis of reduplication as affixation. While the overall impact of data hallucination for unseen lexemes remains positive, our findings call for greater qualitative analysis and more varied evaluation conditions in testing automatic inflection systems. Our results indicate that further innovations in data augmentation for computational morphology are desirable.",
+  "keywords": [
+    "bias",
+    "varied",
+    "prediction accuracy",
+    "we",
+    "more varied evaluation conditions",
+    "a concatenative inductive bias",
+    "nlp pipelines",
+    "training",
+    "neural",
+    "analysis",
+    "strategies",
+    "accuracy",
+    "transformer",
+    "general",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2022.computel-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:40:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

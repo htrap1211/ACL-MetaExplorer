@@ -1,0 +1,33 @@
+{
+  "id": "W19-4306",
+  "title": "Efficient Language Modeling with Automatic Relevance Determination in Recurrent Neural Networks",
+  "authors": [
+    "Kodryan, Maxim  and\nGrachev, Artem  and\nIgnatov, Dmitry  and\nVetrov, Dmitry"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)",
+  "abstract": "Reduction of the number of parameters is one of the most important goals in Deep Learning. In this article we propose an adaptation of Doubly Stochastic Variational Inference for Automatic Relevance Determination (DSVI-ARD) for neural networks compression. We find this method to be especially useful in language modeling tasks, where large number of parameters in the input and output layers is often excessive. We also show that DSVI-ARD can be applied together with encoder-decoder weight tying allowing to achieve even better sparsity and performance. Our experiments demonstrate that more than 90% of the weights in both encoder and decoder layers can be removed with a minimal quality loss.",
+  "keywords": [
+    "deep",
+    "recurrent neural networks reduction",
+    "encoder-decoder weight tying",
+    "language",
+    "neural",
+    "language modeling tasks",
+    "deep learning",
+    "efficient",
+    "modeling",
+    "encoder",
+    "decoder",
+    "loss",
+    "neural networks compression",
+    "we",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/W19-4306/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:02:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

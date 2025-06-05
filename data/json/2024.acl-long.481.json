@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.481",
+  "title": "Defending Large Language Models Against Jailbreaking Attacks Through Goal Prioritization",
+  "authors": [
+    "Zhang, Zhexin  and\nYang, Junxiao  and\nKe, Pei  and\nMi, Fei  and\nWang, Hongning  and\nHuang, Minlie"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "While significant attention has been dedicated to exploiting weaknesses in LLMs through jailbreaking attacks, there remains a paucity of effort in defending against these attacks. We point out a pivotal factor contributing to the success of jailbreaks: the intrinsic conflict between the goals of being helpful and ensuring safety. Accordingly, we propose to integrate goal prioritization at both training and inference stages to counteract. Implementing goal prioritization during inference substantially diminishes the Attack Success Rate (ASR) of jailbreaking from 66.4% to 3.6% for ChatGPT. And integrating goal prioritization into model training reduces the ASR from 71.0% to 6.6% for Llama2-13B. Remarkably, even in scenarios where no jailbreaking samples are included during training, our approach slashes the ASR by half. Additionally, our findings reveal that while stronger LLMs face greater safety risks, they also possess a greater capacity to be steered towards defending against such attacks, both because of their stronger ability in instruction following. Our work thus contributes to the comprehension of jailbreaking attacks and defenses, and sheds light on the relationship between LLMs’ capability and safety. Our code is available at https://github.com/thu-coai/JailbreakDefense_GoalPriority.",
+  "keywords": [
+    "code",
+    "llms capability",
+    "rate",
+    "we",
+    "training",
+    "instruction",
+    "a paucity",
+    "paucity",
+    "chatgpt",
+    "llms",
+    "work",
+    "language",
+    "model",
+    "large language models",
+    "significant attention"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.481/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:40:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

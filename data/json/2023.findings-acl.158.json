@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.158",
+  "title": "Retrieving Multimodal Prompts for Generative Visual Question Answering",
+  "authors": [
+    "Ossowski, Timothy  and\nHu, Junjie"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Recent years have witnessed impressive results of pre-trained vision-language models on knowledge-intensive tasks such as visual question answering (VQA). Despite the recent advances in VQA, existing methods mainly adopt a discriminative formulation that predicts answers within a pre-defined label set, leading to easy overfitting on low-resource domains (e.g., medicine) and poor generalization under domain shift to another dataset. To tackle this limitation, we propose a novel generative model enhanced by multimodal prompt retrieval (MPR) that integrates retrieved prompts and multimodal features to generate answers in free text. Our generative model enables rapid zero-shot dataset adaptation to unseen data distributions and open-set answer labels across datasets. Our experiments on medical VQA tasks show that MPR outperforms its non-retrieval counterpart by up to 30% accuracy points in a few-shot domain adaptation setting.",
+  "keywords": [
+    "multimodal prompt retrieval mpr",
+    "question",
+    "we",
+    "its non-retrieval counterpart",
+    "poor generalization",
+    "shot",
+    "vqa existing methods",
+    "answer",
+    "rapid zero-shot dataset adaptation",
+    "retrieval",
+    "generative visual question",
+    "multimodal prompts",
+    "visual",
+    "medical vqa tasks",
+    "overfitting"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.158/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.40",
+  "title": "Recursion of Thought: A Divide-and-Conquer Approach to Multi-Context Reasoning with Language Models",
+  "authors": [
+    "Lee, Soochan  and\nKim, Gunhee"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Generating intermediate steps, or Chain of Thought (CoT), is an effective way to significantly improve language models’ (LM) multi-step reasoning capability. However, the CoT lengths can grow rapidly with the problem complexity, easily exceeding the maximum context size. Instead of increasing the context limit, which has already been heavily investigated, we explore an orthogonal direction: making LMs divide a problem into multiple contexts. We propose a new inference framework, called Recursion of Thought (RoT), which introduces several special tokens that the models can output to trigger context-related operations. Extensive experiments with multiple architectures including GPT-3 show that RoT dramatically improves LMs’ inference capability to solve problems, whose solution consists of hundreds of thousands of tokens.",
+  "keywords": [
+    "language",
+    "thought",
+    "cot",
+    "chain",
+    "language models",
+    "gpt-3",
+    "we",
+    "the cot lengths",
+    "that",
+    "limit",
+    "a new inference framework",
+    "multi",
+    "approach",
+    "an orthogonal direction",
+    "new"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.40/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

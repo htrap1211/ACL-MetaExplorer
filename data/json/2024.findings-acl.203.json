@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.203",
+  "title": "$\\texttt{DARA}$: Decomposition-Alignment-Reasoning Autonomous Language Agent for Question Answering over Knowledge Graphs",
+  "authors": [
+    "Fang, Haishuo  and\nZhu, Xiaodan  and\nGurevych, Iryna"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Answering Questions over Knowledge Graphs (KGQA) is key to well-functioning autonomous language agents in various real-life applications. To improve the neural-symbolic reasoning capabilities of language agents powered by Large Language Models (LLMs) in KGQA, we propose the Decomposition-Alignment-Reasoning Agent (DARA) framework. DARA effectively parses questions into formal queries through a dual mechanism: high-level iterative task decomposition and low-level task grounding. Importantly, DARA can be efficiently trained with a small number of high-quality reasoning trajectories. Our experimental results demonstrate that DARA fine-tuned on LLMs (e.g. Llama-2-7B, Mistral) outperforms both in-context learning-based agents with GPT-4 and alternative fine-tuned agents, across different benchmarks, making such models more accessible for real-life applications. We also show that DARA attains performance comparable to state-of-the-art enumerating-and-ranking-based methods for KGQA.",
+  "keywords": [
+    "kgqa",
+    "question",
+    "decomposition-alignment-reasoning autonomous language agent",
+    "we",
+    "neural",
+    "high-quality reasoning trajectories",
+    "formal queries",
+    "queries",
+    "knowledge graphs",
+    "learning",
+    "llms",
+    "the neural-symbolic reasoning capabilities",
+    "gpt-4",
+    "alignment",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.203/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

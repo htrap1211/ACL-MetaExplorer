@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.66",
+  "title": "Search Query Spell Correction with Weak Supervision in {E}-commerce",
+  "authors": [
+    "Kakkar, Vishal  and\nSharma, Chinmay  and\nPande, Madhura  and\nKumar, Surender"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "Misspelled search queries in e-commerce can lead to empty or irrelevant products. Besides inadvertent typing mistakes, most spell mistakes occur because the user does not know the correct spelling, hence typing it as it is pronounced colloquially. This colloquial typing creates countless misspelling patterns for a single correct query. In this paper, we first systematically analyze and group different spell errors into error classes and then leverage the state-of-the-art Transformer model for contextual spell correction. We overcome the constraint of limited human labelled data by proposing novel synthetic data generation techniques for voluminous generation of training pairs needed by data hungry Transformers, without any human intervention. We further utilize weakly supervised data coupled with curriculum learning strategies to improve on tough spell mistakes without regressing on the easier ones. We show significant improvements from our model on human labeled data and online A/B experiments against multiple state-of-art models.",
+  "keywords": [
+    "transformers",
+    "voluminous generation",
+    "we",
+    "data hungry transformers",
+    "training",
+    "it",
+    "queries",
+    "e",
+    "strategies",
+    "-",
+    "the easier ones",
+    "easier",
+    "transformer",
+    "generation",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.66/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

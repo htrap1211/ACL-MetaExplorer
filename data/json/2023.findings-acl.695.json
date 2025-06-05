@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.695",
+  "title": "Unsupervised Dense Retrieval with Relevance-Aware Contrastive Pre-Training",
+  "authors": [
+    "Lei, Yibin  and\nDing, Liang  and\nCao, Yu  and\nZan, Changtong  and\nYates, Andrew  and\nTao, Dacheng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Dense retrievers have achieved impressive performance, but their demand for abundant training data limits their application scenarios. Contrastive pre-training, which constructs pseudo-positive examples from unlabeled data, has shown great potential to solve this problem. However, the pseudo-positive examples crafted by data augmentations can be irrelevant. To this end, we propose relevance-aware contrastive learning. It takes the intermediate-trained model itself as an imperfect oracle to estimate the relevance of positive pairs and adaptively weighs the contrastive loss of different pairs according to the estimated relevance. Our method consistently improves the SOTA unsupervised Contriever model on the BEIR and open-domain QA retrieval benchmarks. Further exploration shows that our method can not only beat BM25 after further pre-training on the target corpus but also serves as a good few-shot learner. Our code is publicly available athttps://github.com/Yibin-Lei/ReContriever.",
+  "keywords": [
+    "code",
+    "end",
+    "unsupervised contriever model",
+    "we",
+    "recontriever",
+    "shot",
+    "training",
+    "contriever",
+    "it",
+    "unsupervised dense retrieval",
+    "retrieval",
+    "loss",
+    "learning",
+    "a good few-shot learner",
+    "retrievers"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.695/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

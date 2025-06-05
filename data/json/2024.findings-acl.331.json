@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.331",
+  "title": "SSS}: Editing Factual Knowledge in Language Models towards Semantic Sparse Space",
+  "authors": [
+    "Wang, Huazheng  and\nSun, Haifeng  and\nWang, Jingyu  and\nQi, Qi  and\nXia, Zixuan  and\nZhang, Menghao  and\nLiao, Jianxin"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Language Models (LMs) acquire factual knowledge during pre-training and store it in the parameters, which can be valuable for downstream tasks. As world evolves, some facts may be incorrectly induced or become obsolete over time. Various model editing methods have been proposed to modify specific examples in LMs. However, existing training-based methods still suffer from sub-optimal locality, where irrelevant neighborhood examples can be adversely influenced. Model’s gradients are still struggling to identify the appropriate direction when updating the parameters. To address this issue, we find that directing the hidden state of the edit example towards spaces where semantics are sparse tends to help preserve the semantics of irrelevant neighborhood examples. Based on this hypothesis, we propose a novel metric, named SSS, to evaluate the degree of sparsity around a sentence embedding in the semantic space without any human or machine annotation. Subsequently, we incorporate SSS into the original loss function of the existing training-based methods to enhance locality. Experiments conducted on two datasets across various models demonstrate that SSS is effective in improving both locality and reasoning capability.",
+  "keywords": [
+    "the semantics",
+    "semantic",
+    "we",
+    "pre-training",
+    "training",
+    "the semantic space",
+    "semantics",
+    "it",
+    "loss",
+    "metric",
+    "language models",
+    "function",
+    "the original loss function",
+    "knowledge",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.331/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:53:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

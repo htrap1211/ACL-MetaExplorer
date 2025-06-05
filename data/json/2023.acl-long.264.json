@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.264",
+  "title": "Towards Robust Low-Resource Fine-Tuning with Multi-View Compressed Representations",
+  "authors": [
+    "Liu, Linlin  and\nLi, Xingxuan  and\nThakkar, Megh  and\nLi, Xin  and\nJoty, Shafiq  and\nSi, Luo  and\nBing, Lidong"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Due to the huge amount of parameters, finetuning of pretrained language models (PLMs) is prone to overfitting in the low resource scenarios. In this work, we present a novel method that operates on the hidden representations of a PLM to reduce overfitting. During fine-tuning, our method inserts random autoencoders between the hidden layers of a PLM, which transform activations from the previous layers into multi-view compressed representations before feeding them into the upper layers. The autoencoders are plugged out after fine-tuning, so our method does not add extra parameters or increase computation cost during inference. Our method demonstrates promising performance improvement across a wide range of sequence- and token-level lowresource NLP tasks.",
+  "keywords": [
+    "work",
+    "multi-view compressed representations",
+    "tuning",
+    "language",
+    "random",
+    "autoencoders",
+    "extra",
+    "nlp",
+    "random autoencoders",
+    "token",
+    "view",
+    "fine",
+    "the autoencoders",
+    "we",
+    "pretrained language models plms"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.264/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

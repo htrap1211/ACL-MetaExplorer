@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.794",
+  "title": "Z}ero{S}tance: Leveraging {C}hat{GPT} for Open-Domain Stance Detection via Dataset Generation",
+  "authors": [
+    "Zhao, Chenye  and\nLi, Yingjie  and\nCaragea, Cornelia  and\nZhang, Yue"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Zero-shot stance detection that aims to detect the stance (typically against, favor, or neutral) towards unseen targets has attracted considerable attention. However, most previous studies only focus on targets from a single or limited text domains (e.g., financial domain), and thus zero-shot models cannot generalize well to unseen targets of diverse domains (e.g., political domain). In this paper, we consider a more realistic task, i.e., open-domain stance detection, which aims at training a model that is able to generalize well to unseen targets across multiple domains of interest. Particularly, we propose a novel dataset generation method ZeroStance, which leverages ChatGPT to construct a synthetic open-domain dataset CHATStance that covers a wide range of domains. We then train an open-domain model on our synthetic dataset after proper data filtering. Extensive results indicate that our model, when trained on this synthetic dataset, shows superior generalization to unseen targets of diverse domains over baselines on most benchmarks. Our method requires only a task description in the form of a prompt and is much more cost-effective and data-efficient than previous methods. We will release our code and data to facilitate future research.",
+  "keywords": [
+    "zero-shot models",
+    "code",
+    "efficient",
+    "form",
+    "we",
+    "shot",
+    "considerable attention",
+    "chatgpt",
+    "prompt",
+    "a prompt",
+    "text",
+    "ero",
+    "superior generalization",
+    "generalization",
+    "most previous studies"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.794/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:59:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

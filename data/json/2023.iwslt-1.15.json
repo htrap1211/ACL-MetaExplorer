@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.15",
+  "title": "Submission of {USTC}{'}s System for the {IWSLT} 2023 - Offline Speech Translation Track",
+  "authors": [
+    "Zhou, Xinyuan  and\nCui, Jianwei  and\nYe, Zhongyi  and\nWang, Yichi  and\nXu, Luzhen  and\nZhang, Hanyi  and\nZhang, Weitai  and\nDai, Lirong"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "This paper describes the submissions of the research group USTC-NELSLIP to the 2023 IWSLT Offline Speech Translation competition, which involves translating spoken English into written Chinese. We utilize both cascaded models and end-to-end models for this task. To improve the performance of the cascaded models, we introduce Whisper to reduce errors in the intermediate source language text, achieving a significant improvement in ASR recognition performance. For end-to-end models, we propose Stacked Acoustic-and-Textual En- coding extension (SATE-ex), which feeds the output of the acoustic decoder into the textual decoder for information fusion and to prevent error propagation. Additionally, we improve the performance of the end-to-end system in translating speech by combining the SATE-ex model with the encoder-decoder model through ensembling.",
+  "keywords": [
+    "end",
+    "language",
+    "model",
+    "text",
+    "the acoustic decoder",
+    "encoder",
+    "the textual decoder",
+    "decoder",
+    "information",
+    "propagation",
+    "we",
+    "the encoder-decoder model",
+    "fusion",
+    "translation",
+    "speech"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.15/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:24:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

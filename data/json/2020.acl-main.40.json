@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.40",
+  "title": "Multiscale Collaborative Deep Models for Neural Machine Translation",
+  "authors": [
+    "Wei, Xiangpeng  and\nYu, Heng  and\nHu, Yue  and\nZhang, Yue  and\nWeng, Rongxiang  and\nLuo, Weihua"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Recent evidence reveals that Neural Machine Translation (NMT) models with deeper neural networks can be more effective but are difficult to train. In this paper, we present a MultiScale Collaborative (MSC) framework to ease the training of NMT models that are substantially deeper than those used previously. We explicitly boost the gradient back-propagation from top to bottom levels by introducing a block-scale collaboration mechanism into deep NMT models. Then, instead of forcing the whole encoder stack directly learns a desired representation, we let each encoder block learns a fine-grained representation and enhance it by encoding spatial dependencies using a context-scale collaboration. We provide empirical evidence showing that the MSC nets are easy to optimize and can obtain improvements of translation quality from considerably increased depth. On IWSLT translation tasks with three translation directions, our extremely deep models (with 72-layer encoders) surpass strong baselines by +2.2 +3.1 BLEU points. In addition, our deep MSC achieves a BLEU score of 30.56 on WMT14 English-to-German task that significantly outperforms state-of-the-art deep NMT models. We have included the source code in supplementary materials.",
+  "keywords": [
+    "deep",
+    "code",
+    "top",
+    "spatial dependencies",
+    "neural machine translation",
+    "bleu",
+    "the whole encoder",
+    "layer",
+    "we",
+    "training",
+    "translation",
+    "a bleu score",
+    "neural",
+    "it",
+    "dependencies"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.40/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:42:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

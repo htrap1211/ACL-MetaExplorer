@@ -1,0 +1,33 @@
+{
+  "id": "2023.starsem-1.23",
+  "title": "Does Character-level Information Always Improve {DRS}-based Semantic Parsing?",
+  "authors": [
+    "Kurosawa, Tomoya  and\nYanaka, Hitomi"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 12th Joint Conference on Lexical and Computational Semantics (*SEM 2023)",
+  "abstract": "Even in the era of massive language models, it has been suggested that character-level representations improve the performance of neural models. The state-of-the-art neural semantic parser for Discourse Representation Structures uses character-level representations, improving performance in the four languages (i.e., English, German, Dutch, and Italian) in the Parallel Meaning Bank dataset. However, how and why character-level information improves the parser’s performance remains unclear. This study provides an in-depth analysis of performance changes by order of character sequences. In the experiments, we compare F1-scores by shuffling the order and randomizing character sequences after testing the performance of character-level information. Our results indicate that incorporating character-level information does not improve the performance in English and German. In addition, we find that the parser is not sensitive to correct character order in Dutch. Nevertheless, performance improvements are observed when using character-level information.",
+  "keywords": [
+    "parsing",
+    "massive language models",
+    "i",
+    "language",
+    "neural",
+    "drs -based semantic parsing",
+    "it",
+    "information",
+    "semantic",
+    "era",
+    "we",
+    "f1-scores",
+    "analysis",
+    "our results",
+    "the parser"
+  ],
+  "url": "https://aclanthology.org/2023.starsem-1.23/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:31:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

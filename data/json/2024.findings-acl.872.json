@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.872",
+  "title": "Measuring Retrieval Complexity in Question Answering Systems",
+  "authors": [
+    "Gabburo, Matteo  and\nJedema, Nicolaas Paul  and\nGarg, Siddhant  and\nRibeiro, Leonardo F. R.  and\nMoschitti, Alessandro"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "In this paper, we investigate which questions are challenging for retrieval-based Question Answering (QA). We (i) propose retrieval complexity (RC), a novel metric conditioned on the completeness of retrieved documents, which measures the difficulty of answering questions, and (ii) propose an unsupervised pipeline to measure RC given an arbitrary retrieval system.Our proposed pipeline measures RC more accurately than alternative estimators, including LLMs, on six challenging QA benchmarks. Further investigation reveals that RC scores strongly correlate with both QA performance and expert judgment across five of the six studied benchmarks, indicating that RC is an effective measure of question difficulty.Subsequent categorization of high-RC questions shows that they span a broad set of question shapes, including multi-hop, compositional, and temporal QA, indicating that RC scores can categorize a new subset of complex questions. Our system can also have a major impact on retrieval-based systems by helping to identify more challenging questions on existing datasets.",
+  "keywords": [
+    "six challenging qa",
+    "question",
+    "we",
+    "an arbitrary retrieval system",
+    "retrieval",
+    "the six studied benchmarks",
+    "llms",
+    "i",
+    "metric",
+    "retrieval complexity",
+    "retrieval-based systems",
+    "retrieved documents",
+    "rc",
+    "qa",
+    "both qa performance"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.872/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:00:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

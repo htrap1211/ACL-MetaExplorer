@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.44",
+  "title": "How do you know that? Teaching Generative Language Models to Reference Answers to Biomedical Questions",
+  "authors": [
+    "Ba{\\v{s}}aragin, Bojana  and\nLjaji{\\'c}, Adela  and\nMedvecki, Darija  and\nCassano, Lorenzo  and\nKo{\\v{s}}prdi{\\'c}, Milo{\\v{s}}  and\nMilo{\\v{s}}evi{\\'c}, Nikola"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "Large language models (LLMs) have recently become the leading source of answers for users’ questions online. Despite their ability to offer eloquent answers, their accuracy and reliability can pose a significant challenge. This is especially true for sensitive domains such as biomedicine, where there is a higher need for factually correct answers. This paper introduces a biomedical retrieval-augmented generation (RAG) system designed to enhance the reliability of generated responses. The system is based on a fine-tuned LLM for the referenced question-answering, where retrieved relevant abstracts from PubMed are passed to LLM’s context as input through a prompt. Its output is an answer based on PubMed abstracts, where each statement is referenced accordingly, allowing the users to verify the answer. Our retrieval system achieves an absolute improvement of 23% compared to the PubMed search engine. Based on the manual evaluation on a small sample, our fine-tuned LLM component achieves comparable results to GPT-4 Turbo in referencing relevant abstracts. We make the dataset used to fine-tune the models and the fine-tuned models based on Mistral-7B-instruct-v0.1 and v0.2 publicly available.",
+  "keywords": [
+    "generated responses",
+    "our retrieval system",
+    "a fine-tuned llm",
+    "question",
+    "we",
+    "the manual evaluation",
+    "llm",
+    "answer",
+    "our fine-tuned llm component",
+    "generative language models",
+    "retrieval",
+    "llms",
+    "generative",
+    "prompt",
+    "answering"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.44/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

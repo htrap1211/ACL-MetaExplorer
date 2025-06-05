@@ -1,0 +1,33 @@
+{
+  "id": "P19-2060",
+  "title": "A {J}apanese Word Segmentation Proposal",
+  "authors": [
+    "Aguirre, Stalin  and\nAguiar, Josaf{\\'a}"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "Current Japanese word segmentation methods, that use a morpheme-based approach, may produce different segmentations for the same strings. This occurs when these strings appear in different sentences. The cause is the influence of different contexts around these strings affecting the probabilistic models used in segmentation algorithms. This paper presents an alternative to the current morpheme-based scheme for Japanese word segmentation. The proposed scheme focuses on segmenting inflections as single words instead of separating the auxiliary verbs and other morphemes from the stems. Some morphological segmentation rules are presented for each type of word and these rules are implemented in a program which is properly described. The program is used to generate a segmentation of a sentence corpus, whose consistency is calculated and compared with the current morpheme-based segmentation of the same corpus. The experiments show that this method produces a much more consistent segmentation than the morpheme-based one.",
+  "keywords": [
+    "word",
+    "current",
+    "that",
+    "the auxiliary verbs",
+    "this method",
+    "approach",
+    "contexts",
+    "this",
+    "alternative",
+    "proposal",
+    "probabilistic",
+    "type",
+    "words",
+    "other morphemes",
+    "the current morpheme-based scheme"
+  ],
+  "url": "https://aclanthology.org/P19-2060/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:49:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

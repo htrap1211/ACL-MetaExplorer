@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-srw.22",
+  "title": "Can {LM}s Store and Retrieve 1-to-N Relational Knowledge?",
+  "authors": [
+    "Nagasawa, Haruki  and\nHeinzerling, Benjamin  and\nKokuta, Kazuma  and\nInui, Kentaro"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "It has been suggested that pretrained language models can be viewed as knowledge bases. One of the prerequisites for using language models as knowledge bases is how accurately they can store and retrieve world knowledge. It is already revealed that language models can store much 1-to-1 relational knowledge, such as ”country and its capital,” with high memorization accuracy. On the other hand, world knowledge includes not only 1-to-1 but also 1-to-N relational knowledge, such as ”parent and children.”However, it is not clear how accurately language models can handle 1-to-N relational knowledge. To investigate language models’ abilities toward 1-to-N relational knowledge, we start by designing the problem settings. Specifically, we organize the character of 1-to-N relational knowledge and define two essential skills: (i) memorizing multiple objects individually and (ii) retrieving multiple stored objects without excesses or deficiencies at once. We inspect LMs’ ability to handle 1-to-N relational knowledge on the controlled synthesized data. As a result, we report that it is possible to memorize multiple objects with high accuracy, but generalizing the retrieval ability (expressly, enumeration) is challenging.",
+  "keywords": [
+    "high memorization accuracy",
+    "abilities",
+    "knowledge",
+    "i",
+    "language",
+    "n",
+    "it",
+    "pretrained language models",
+    "high accuracy",
+    "language models",
+    "language models abilities",
+    "retrieval",
+    "lm",
+    "deficiencies",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.acl-srw.22/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:51:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

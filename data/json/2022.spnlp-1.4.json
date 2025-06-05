@@ -1,0 +1,33 @@
+{
+  "id": "2022.spnlp-1.4",
+  "title": "S}lot{GAN}: Detecting Mentions in Text via Adversarial Distant Learning",
+  "authors": [
+    "Daza, Daniel  and\nCochez, Michael  and\nGroth, Paul"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Sixth Workshop on Structured Prediction for NLP",
+  "abstract": "We present SlotGAN, a framework for training a mention detection model that only requires unlabeled text and a gazetteer. It consists of a generator trained to extract spans from an input sentence, and a discriminator trained to determine whether a span comes from the generator, or from the gazetteer. We evaluate the method on English newswire data and compare it against supervised, weakly-supervised, and unsupervised methods. We find that the performance of the method is lower than these baselines, because it tends to generate more and longer spans, and in some cases it relies only on capitalization. In other cases, it generates spans that are valid but differ from the benchmark. When evaluated with metrics based on overlap, we find that SlotGAN performs within 95% of the precision of a supervised method, and 84% of its recall. Our results suggest that the model can generate spans that overlap well, but an additional filtering mechanism is required.",
+  "keywords": [
+    "the generator",
+    "recall",
+    "precision",
+    "a generator",
+    "model",
+    "text",
+    "it",
+    "metrics",
+    "generator",
+    "we",
+    "learning",
+    "valid",
+    "the precision",
+    "its recall",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2022.spnlp-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:46:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

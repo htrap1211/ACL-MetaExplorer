@@ -1,0 +1,33 @@
+{
+  "id": "P18-2075",
+  "title": "Policy Gradient as a Proxy for Dynamic Oracles in Constituency Parsing",
+  "authors": [
+    "Fried, Daniel  and\nKlein, Dan"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Dynamic oracles provide strong supervision for training constituency parsers with exploration, but must be custom defined for a given parser’s transition system. We explore using a policy gradient method as a parser-agnostic alternative. In addition to directly optimizing for a tree-level metric such as F1, policy gradient has the potential to reduce exposure bias by allowing exploration during training; moreover, it does not require a dynamic oracle for supervision. On four constituency parsers in three languages, the method substantially outperforms static oracle likelihood training in almost all settings. For parsers where a dynamic oracle is available (including a novel oracle which we define for the transition system of Dyer et al., 2016), policy gradient typically recaptures a substantial fraction of the performance gain afforded by the dynamic oracle.",
+  "keywords": [
+    "a policy gradient method",
+    "bias",
+    "metric",
+    "it",
+    "exposure bias",
+    "gradient",
+    "policy gradient",
+    "f1 policy gradient",
+    "we",
+    "training",
+    "likelihood",
+    "exploration",
+    "almost all settings",
+    "a parser-agnostic alternative",
+    "the dynamic oracle"
+  ],
+  "url": "https://aclanthology.org/P18-2075/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:18:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

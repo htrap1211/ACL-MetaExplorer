@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.66",
+  "title": "MLBMIKABR} at ``Discharge Me!'': Concept Based Clinical Text Description Generation",
+  "authors": [
+    "Naskar, Abir  and\nHocking, Jane  and\nChondros, Patty  and\nBoyle, Douglas  and\nConway, Mike"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "This paper presents a method called Concept Based Description Generation, aimed at creating summaries (Brief Hospital Course and Discharge Instructions) using source (Discharge and Radiology) texts. We propose a rule-based approach for segmenting both the source and target texts. In the target text, we not only segment the content but also identify the concept of each segment based on text patterns. Our methodology involves creating a combined summarized version of each text segment, extracting important information, and then fine-tuning a Large Language Model (LLM) to generate aspects. Subsequently, we fine-tune a new LLM using a specific aspect, the combined summary, and a list of all aspects to generate detailed descriptions for each task. This approach integrates segmentation, concept identification, summarization, and language modeling to achieve accurate and informative descriptions for medical documentation tasks. Due to lack to time, We could only train on 10000 training data.",
+  "keywords": [
+    "a new llm",
+    "summarization",
+    "we",
+    "llm",
+    "language modeling",
+    "training",
+    "segmentation concept identification summarization",
+    "information",
+    "summaries brief hospital course",
+    "text",
+    "a large language model",
+    "fine",
+    "me",
+    "summaries",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.66/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

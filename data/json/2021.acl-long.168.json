@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.168",
+  "title": "Mitigating Bias in Session-based Cyberbullying Detection: A Non-Compromising Approach",
+  "authors": [
+    "Cheng, Lu  and\nMosallanezhad, Ahmadreza  and\nSilva, Yasin  and\nHall, Deborah  and\nLiu, Huan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "The element of repetition in cyberbullying behavior has directed recent computational studies toward detecting cyberbullying based on a social media session. In contrast to a single text, a session may consist of an initial post and an associated sequence of comments. Yet, emerging efforts to enhance the performance of session-based cyberbullying detection have largely overlooked unintended social biases in existing cyberbullying datasets. For example, a session containing certain demographic-identity terms (e.g., “gay” or “black”) is more likely to be classified as an instance of cyberbullying. In this paper, we first show evidence of such bias in models trained on sessions collected from different social media platforms (e.g., Instagram). We then propose a context-aware and model-agnostic debiasing strategy that leverages a reinforcement learning technique, without requiring any extra resources or annotations apart from a pre-defined set of sensitive triggers commonly used for identifying cyberbullying instances. Empirical evaluations show that the proposed strategy can simultaneously alleviate the impacts of the unintended biases and improve the detection performance.",
+  "keywords": [
+    "bias",
+    "extra",
+    "we",
+    "such bias",
+    "a reinforcement learning technique",
+    "recent computational studies",
+    "unintended social biases",
+    "sequence",
+    "learning",
+    "mitigating bias",
+    "the unintended biases",
+    "text",
+    "biases",
+    "reinforcement",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.168/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:01:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

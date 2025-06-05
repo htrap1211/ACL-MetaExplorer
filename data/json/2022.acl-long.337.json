@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.337",
+  "title": "Packed Levitated Marker for Entity and Relation Extraction",
+  "authors": [
+    "Ye, Deming  and\nLin, Yankai  and\nLi, Peng  and\nSun, Maosong"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent entity and relation extraction works focus on investigating how to obtain a better span representation from the pre-trained encoder. However, a major limitation of existing works is that they ignore the interrelation between spans (pairs). In this work, we propose a novel span representation approach, named Packed Levitated Markers (PL-Marker), to consider the interrelation between the spans (pairs) by strategically packing the markers in the encoder. In particular, we propose a neighborhood-oriented packing strategy, which considers the neighbor spans integrally to better model the entity boundary information. Furthermore, for those more complicated span pair classification tasks, we design a subject-oriented packing strategy, which packs each subject and all its objects to model the interrelation between the same-subject span pairs. The experimental results show that, with the enhanced marker feature, our model advances baselines on six NER benchmarks, and obtains a 4.1%-4.3% strict relation F1 improvement with higher speed over previous state-of-the-art models on ACE04 and ACE05. Our code and models are publicly available athttps://github.com/thunlp/PL-Marker",
+  "keywords": [
+    "code",
+    "extraction",
+    "we",
+    "six ner benchmarks",
+    "classification",
+    "the encoder",
+    "classification tasks",
+    "information",
+    "a neighborhood-oriented packing strategy",
+    "a subject-oriented packing strategy",
+    "ner",
+    "the pre-trained encoder",
+    "work",
+    "model",
+    "encoder"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.337/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:28:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

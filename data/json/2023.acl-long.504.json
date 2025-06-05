@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.504",
+  "title": "BLASER}: A Text-Free Speech-to-Speech Translation Evaluation Metric",
+  "authors": [
+    "Chen, Mingda  and\nDuquenne, Paul-Ambroise  and\nAndrews, Pierre  and\nKao, Justine  and\nMourachko, Alexandre  and\nSchwenk, Holger  and\nCosta-juss{\\`a}, Marta R."
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "End-to-End speech-to-speech translation (S2ST) is generally evaluated with text-based metrics. This means that generated speech has to be automatically transcribed, making the evaluation dependent on the availability and quality of automatic speech recognition (ASR) systems. In this paper, we propose a text-free evaluation metric for end-to-end S2ST, named BLASER, to avoid the dependency on ASR systems. BLASER leverages a multilingual multimodal encoder to directly encode the speech segments for source input, translation output and reference into a shared embedding space and computes a score of the translation quality that can be used as a proxy to human evaluation. To evaluate our approach, we construct training and evaluation sets from more than 40k human annotations covering seven language directions. The best results of BLASER are achieved by training with supervision from human rating scores. We show that when evaluated at the sentence level, BLASER correlates significantly better with human judgment compared to ASR dependent metrics including ASR-SENTBLEU in all translation directions and ASR-COMET in five of them. Our analysis shows combining speech and text as inputs to BLASER does not increase the correlation with human scores, but best correlations are achieved when using speech, which motivates the goal of our research. Moreover, we show that using ASR for references is detrimental for text-based metrics.",
+  "keywords": [
+    "end",
+    "source input translation output",
+    "we",
+    "all translation directions",
+    "a text-free evaluation metric",
+    "training",
+    "translation",
+    "generated speech",
+    "a shared embedding space",
+    "asr dependent metrics",
+    "human evaluation",
+    "training and evaluation sets",
+    "a multilingual multimodal encoder",
+    "sentbleu",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.504/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:42:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

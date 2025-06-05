@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.20",
+  "title": "Doing Good or Doing Right? Exploring the Weakness of Commonsense Causal Reasoning Models",
+  "authors": [
+    "Han, Mingyue  and\nWang, Yinglin"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Pretrained language models (PLM) achieve surprising performance on the Choice of Plausible Alternatives (COPA) task. However, whether PLMs have truly acquired the ability of causal reasoning remains a question. In this paper, we investigate the problem of semantic similarity bias and reveal the vulnerability of current COPA models by certain attacks. Previous solutions that tackle the superficial cues of unbalanced token distribution still encounter the same problem of semantic bias, even more seriously due to the utilization of more training data. We mitigate this problem by simply adding a regularization loss and experimental results show that this solution not only improves the model’s generalization ability, but also assists the models to perform more robustly on a challenging dataset, BCOPA-CE, which has unbiased token distribution and is more difficult for models to distinguish cause and effect.",
+  "keywords": [
+    "bias",
+    "question",
+    "semantic similarity bias",
+    "semantic",
+    "we",
+    "current",
+    "training",
+    "language models plm",
+    "token",
+    "loss",
+    "semantic bias",
+    "generalization",
+    "vulnerability",
+    "the vulnerability",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.20/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

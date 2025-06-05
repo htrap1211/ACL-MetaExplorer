@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.270",
+  "title": "Improving Transformer Models by Reordering their Sublayers",
+  "authors": [
+    "Press, Ofir  and\nSmith, Noah A.  and\nLevy, Omer"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Multilayer transformer networks consist of interleaved self-attention and feedforward sublayers. Could ordering the sublayers in a different pattern lead to better performance? We generate randomly ordered transformers and train them with the language modeling objective. We observe that some of these models are able to achieve better performance than the interleaved baseline, and that those successful variants tend to have more self-attention at the bottom and more feedforward sublayers at the top. We propose a new transformer pattern that adheres to this property, the sandwich transformer, and show that it improves perplexity on multiple word-level and character-level language modeling benchmarks, at no cost in parameters, memory, or training time. However, the sandwich reordering pattern does not guarantee performance gains across every task, as we demonstrate on machine translation models. Instead, we suggest that further exploration of task-specific sublayer reorderings is needed in order to unlock additional gains.",
+  "keywords": [
+    "transformers",
+    "we",
+    "machine translation models",
+    "training",
+    "translation",
+    "it",
+    "self",
+    "word",
+    "more self-attention",
+    "transformer models",
+    "a new transformer pattern",
+    "objective",
+    "perplexity",
+    "the sandwich transformer",
+    "multilayer transformer networks"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.270/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:45:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

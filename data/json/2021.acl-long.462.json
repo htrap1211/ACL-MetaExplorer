@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.462",
+  "title": "Instantaneous Grammatical Error Correction with Shallow Aggressive Decoding",
+  "authors": [
+    "Sun, Xin  and\nGe, Tao  and\nWei, Furu  and\nWang, Houfeng"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "In this paper, we propose Shallow Aggressive Decoding (SAD) to improve the online inference efficiency of the Transformer for instantaneous Grammatical Error Correction (GEC). SAD optimizes the online inference efficiency for GEC by two innovations: 1) it aggressively decodes as many tokens as possible in parallel instead of always decoding only one token in each step to improve computational parallelism; 2) it uses a shallow decoder instead of the conventional Transformer architecture with balanced encoder-decoder depth to reduce the computational cost during inference. Experiments in both English and Chinese GEC benchmarks show that aggressive decoding could yield identical predictions to greedy decoding but with significant speedup for online inference. Its combination with the shallow decoder could offer an even higher online inference speedup over the powerful Transformer baseline without quality loss. Not only does our approach allow a single model to achieve the state-of-the-art results in English GEC benchmarks: 66.4 F0.5 in the CoNLL-14 and 72.9 F0.5 in the BEA-19 test set with an almost 10x online inference speedup over the Transformer-big model, but also it is easily adapted to other languages. Our code is available athttps://github.com/AutoTemp/Shallow-Aggressive-Decoding.",
+  "keywords": [
+    "code",
+    "the powerful transformer baseline",
+    "the conventional transformer architecture",
+    "efficiency",
+    "we",
+    "it",
+    "decoder",
+    "loss",
+    "the transformer-big model",
+    "a shallow decoder",
+    "the transformer",
+    "balanced encoder-decoder depth",
+    "transformer",
+    "the online inference efficiency",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.462/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.argmining-1.10",
+  "title": "K}now{C}omp at {D}ial{AM}-2024: Fine-tuning Pre-trained Language Models for Dialogical Argument Mining with Inference Anchoring Theory",
+  "authors": [
+    "Wu, Yuetong  and\nZhou, Yukai  and\nXu, Baixuan  and\nWang, Weiqi  and\nSong, Yangqiu"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 11th Workshop on Argument Mining (ArgMining 2024)",
+  "abstract": "In this paper, we present our framework for DialAM-2024 TaskA: Identification of Propositional Relations and TaskB: Identification of Illocutionary Relations. The goal of task A is to detect argumentative relations between propositions in an argumentative dialogue. i.e., Inference, Conflict, Rephrase while task B aims to detect illocutionary relations between locutions and argumentative propositions in a dialogue. e.g., Asserting, Agreeing, Arguing, Disagreeing. Noticing the definition of the relations are strict and professional under the context of IAT framework, we meticulously curate prompts which not only incorporate formal definition of the relations, but also exhibit the subtle differences between them. The PTLMs are then fine-tuned on the human-designed prompts to enhance its discrimination capability in classifying different theoretical relations by learning from the human instruction and the ground truth samples. After extensive experiments, a fine-tuned DeBERTa-v3-base model exhibits the best performance among all PTLMs with an F1 score of 78.90% on Task B. It is worth noticing that our framework ranks #2 in the ILO - General official leaderboard.",
+  "keywords": [
+    "fine-tuning pre-trained language models",
+    "deberta",
+    "k",
+    "the human-designed prompts",
+    "we",
+    "dialogue",
+    "an argumentative dialogue",
+    "instruction",
+    "ial",
+    "it",
+    "omp",
+    "a",
+    "a fine-tuned deberta-v3-base model",
+    "i",
+    "d"
+  ],
+  "url": "https://aclanthology.org/2024.argmining-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:03:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

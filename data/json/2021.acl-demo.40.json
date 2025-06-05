@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-demo.40",
+  "title": "skweak: Weak Supervision Made Easy for {NLP",
+  "authors": [
+    "Lison, Pierre  and\nBarnes, Jeremy  and\nHubin, Aliaksandr"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: System Demonstrations",
+  "abstract": "We present skweak, a versatile, Python-based software toolkit enabling NLP developers to apply weak supervision to a wide range of NLP tasks. Weak supervision is an emerging machine learning paradigm based on a simple idea: instead of labelling data points by hand, we use labelling functions derived from domain knowledge to automatically obtain annotations for a given dataset. The resulting labels are then aggregated with a generative model that estimates the accuracy (and possible confusions) of each labelling function. The skweak toolkit makes it easy to implement a large spectrum of labelling functions (such as heuristics, gazetteers, neural models or linguistic constraints) on text data, apply them on a corpus, and aggregate their results in a fully unsupervised fashion. skweak is especially designed to facilitate the use of weak supervision for NLP tasks such as text classification and sequence labelling. We illustrate the use of skweak for NER and sentiment analysis. skweak is released under an open-source license and is available athttps://github.com/NorskRegnesentral/skweak",
+  "keywords": [
+    "the accuracy",
+    "we",
+    "classification",
+    "neural",
+    "it",
+    "sequence",
+    "nlp tasks",
+    "text classification",
+    "analysis",
+    "generative",
+    "ner",
+    "a generative model",
+    "text",
+    "accuracy",
+    "nlp developers"
+  ],
+  "url": "https://aclanthology.org/2021.acl-demo.40/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:10:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

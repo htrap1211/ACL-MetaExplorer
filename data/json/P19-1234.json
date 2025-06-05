@@ -1,0 +1,33 @@
+{
+  "id": "P19-1234",
+  "title": "Unsupervised Learning of {PCFG}s with Normalizing Flow",
+  "authors": [
+    "Jin, Lifeng  and\nDoshi-Velez, Finale  and\nMiller, Timothy  and\nSchwartz, Lane  and\nSchuler, William"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Unsupervised PCFG inducers hypothesize sets of compact context-free rules as explanations for sentences. PCFG induction not only provides tools for low-resource languages, but also plays an important role in modeling language acquisition (Bannard et al., 2009; Abend et al. 2017). However, current PCFG induction models, using word tokens as input, are unable to incorporate semantics and morphology into induction, and may encounter issues of sparse vocabulary when facing morphologically rich languages. This paper describes a neural PCFG inducer which employs context embeddings (Peters et al., 2018) in a normalizing flow model (Dinh et al., 2015) to extend PCFG induction to use semantic and morphological information. Linguistically motivated sparsity and categorical distance constraints are imposed on the inducer as regularization. Experiments show that the PCFG induction model with normalizing flow produces grammars with state-of-the-art accuracy on a variety of different languages. Ablation further shows a positive effect of normalizing flow, context embeddings and proposed regularizers.",
+  "keywords": [
+    "variety",
+    "regularization experiments",
+    "semantic",
+    "normalizing flow context embeddings",
+    "current",
+    "neural",
+    "semantics",
+    "information",
+    "rich",
+    "learning",
+    "word",
+    "a variety",
+    "accuracy",
+    "embeddings",
+    "context embeddings peters"
+  ],
+  "url": "https://aclanthology.org/P19-1234/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:35:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

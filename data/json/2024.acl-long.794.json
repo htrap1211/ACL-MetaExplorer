@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.794",
+  "title": "Learn or Recall? Revisiting Incremental Learning with Pre-trained Language Models",
+  "authors": [
+    "Zheng, Junhao  and\nQiu, Shengjie  and\nMa, Qianli"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Incremental Learning (IL) has been a long-standing problem in both vision and Natural Language Processing (NLP) communities.In recent years, as Pre-trained Language Models (PLMs) have achieved remarkable progress in various NLP downstream tasks, utilizing PLMs as backbones has become a common practice in recent research of IL in NLP.Most assume that catastrophic forgetting is the biggest obstacle to achieving superior IL performance and propose various techniques to overcome this issue.However, we find that this assumption is problematic.Specifically, we revisit more than 20 methods on four classification tasks (Text Classification, Intent Classification, Relation Extraction, and Named Entity Recognition) under the two most popular IL settings (Class-Incremental and Task-Incremental) and reveal that most of them severely underestimate the inherent anti-forgetting ability of PLMs.Based on the observation, we propose a frustratingly easy method called SEQ* for IL with PLMs.The results show that SEQ* has competitive or superior performance compared with state-of-the-art (SOTA) IL methods yet requires considerably less trainable parameters and training time.These findings urge us to revisit the IL with PLMs and encourage future studies to have a fundamental understanding of the catastrophic forgetting in PLMs.",
+  "keywords": [
+    "extraction",
+    "communities",
+    "we",
+    "four classification tasks",
+    "training",
+    "classification",
+    "pre-trained language models",
+    "natural",
+    "various nlp downstream tasks",
+    "future studies",
+    "pre-trained language models plms",
+    "learning",
+    "processing",
+    "anti",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.794/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:45:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.436",
+  "title": "Silver Syntax Pre-training for Cross-Domain Relation Extraction",
+  "authors": [
+    "Bassignana, Elisa  and\nGinter, Filip  and\nPyysalo, Sampo  and\nvan der Goot, Rob  and\nPlank, Barbara"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Relation Extraction (RE) remains a challenging task, especially when considering realistic out-of-domain evaluations. One of the main reasons for this is the limited training size of current RE datasets: obtaining high-quality (manually annotated) data is extremely expensive and cannot realistically be repeated for each new domain. An intermediate training step on data from related tasks has shown to be beneficial across many NLP tasks. However, this setup still requires supplementary annotated data, which is often not available. In this paper, we investigate intermediate pre-training specifically for RE. We exploit the affinity between syntactic structure and semantic RE, and identify the syntactic relations which are closely related to RE by being on the shortest dependency path between two entities. We then take advantage of the high accuracy of current syntactic parsers in order to automatically obtain large amounts of low-cost pre-training data. By pre-training our RE model on the relevant syntactic relations, we are able to outperform the baseline in five out of six cross-domain setups, without any additional annotated data.",
+  "keywords": [
+    "extraction",
+    "semantic",
+    "we",
+    "semantic re",
+    "syntax",
+    "current",
+    "training",
+    "the shortest dependency path",
+    "cross",
+    "many nlp tasks",
+    "silver syntax pre",
+    "two entities",
+    "-",
+    "accuracy",
+    "nlp"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.436/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

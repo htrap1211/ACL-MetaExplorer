@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.489",
+  "title": "BASS}: Batched Attention-optimized Speculative Sampling",
+  "authors": [
+    "Qian, Haifeng  and\nGonugondla, Sujan Kumar  and\nHa, Sungsoo  and\nShang, Mingyue  and\nGouda, Sanjay Krishna  and\nNallapati, Ramesh  and\nSengupta, Sudipta  and\nMa, Xiaofei  and\nDeoras, Anoop"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Speculative decoding has emerged as a powerful method to improve latency and throughput in hosting large language models. However, most existing implementations focus on generating a single sequence. Real-world generative AI applications often require multiple responses and how to perform speculative decoding in a batched setting while preserving its latency benefits poses non-trivial challenges. This paper describes a system of batched speculative decoding that sets a new state of the art in multi-sequence generation latency and that demonstrates superior GPU utilization as well as quality of generations within a time budget. For example, for a 7.8B-size model on a single A100 GPU and with a batch size of 8, each sequence is generated at an average speed of 5.8ms per token, the overall throughput being 1.1K tokens per second. These results represent state-of-the-art latency and a 2.15×speed-up over optimized regular decoding. Within a time budget that regular decoding does not finish, our system is able to generate sequences with HumanEval Pass@First of 43% and Pass@All of 61%, far exceeding what’s feasible with single-sequence speculative decoding. Our peak GPU utilization during decoding reaches as high as 15.8%, more than 3×the highest of that of regular decoding and around 10×of single-sequence speculative decoding.",
+  "keywords": [
+    "all",
+    "sequence",
+    "generative",
+    "generations",
+    "language",
+    "generation",
+    "model",
+    "large language models",
+    "regular",
+    "attention",
+    "multi-sequence generation latency",
+    "time",
+    "batch",
+    "multi",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.489/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:55:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

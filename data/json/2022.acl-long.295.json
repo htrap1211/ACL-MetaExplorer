@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.295",
+  "title": "S}im{KGC}: Simple Contrastive Knowledge Graph Completion with Pre-trained Language Models",
+  "authors": [
+    "Wang, Liang  and\nZhao, Wei  and\nWei, Zhuoyu  and\nLiu, Jingming"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Knowledge graph completion (KGC) aims to reason over known facts and infer the missing links. Text-based methods such as KGBERT (Yao et al., 2019) learn entity representations from natural language descriptions, and have the potential for inductive KGC. However, the performance of text-based methods still largely lag behind graph embedding-based methods like TransE (Bordes et al., 2013) and RotatE (Sun et al., 2019b). In this paper, we identify that the key issue is efficient contrastive learning. To improve the learning efficiency, we introduce three types of negatives: in-batch negatives, pre-batch negatives, and self-negatives which act as a simple form of hard negatives. Combined with InfoNCE loss, our proposed model SimKGC can substantially outperform embedding-based methods on several benchmark datasets. In terms of mean reciprocal rank (MRR), we advance the state-of-the-art by +19% on WN18RR, +6.8% on the Wikidata5M transductive setting, and +22% on the Wikidata5M inductive setting. Thorough analyses are conducted to gain insights into each component. Our code is available athttps://github.com/intfloat/SimKGC.",
+  "keywords": [
+    "code",
+    "efficient",
+    "form",
+    "kgc",
+    "efficiency",
+    "we",
+    "graph",
+    "simkgc",
+    "natural",
+    "self",
+    "loss",
+    "learning",
+    "kgbert",
+    "embedding-based methods",
+    "efficient contrastive learning"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.295/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:28:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

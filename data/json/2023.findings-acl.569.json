@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.569",
+  "title": "Adaptive Contrastive Knowledge Distillation for {BERT} Compression",
+  "authors": [
+    "Guo, Jinyang  and\nLiu, Jiaheng  and\nWang, Zining  and\nMa, Yuqing  and\nGong, Ruihao  and\nXu, Ke  and\nLiu, Xianglong"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In this paper, we propose a new knowledge distillation approach called adaptive contrastive knowledge distillation (ACKD) for BERT compression. Different from existing knowledge distillation methods for BERT that implicitly learn discriminative student features by mimicking the teacher features, we first introduce a novel contrastive distillation loss (CDL) based on hidden state features in BERT as the explicit supervision to learn discriminative student features. We further observe sentences with similar features may have completely different meanings, which makes them hard to distinguish. Existing methods do not pay sufficient attention to these hard samples with less discriminative features. Therefore, we propose a new strategy called sample adaptive reweighting (SAR) to adaptively pay more attention to these hard samples and strengthen their discrimination abilities. We incorporate our SAR strategy into our CDL and form the adaptive contrastive distillation loss, based on which we construct our ACKD framework. Comprehensive experiments on multiple natural language processing tasks demonstrate the effectiveness of our ACKD framework.",
+  "keywords": [
+    "abilities",
+    "knowledge",
+    "processing",
+    "language",
+    "natural",
+    "bert",
+    "loss",
+    "sufficient",
+    "attention",
+    "we",
+    "their discrimination abilities",
+    "bert compression",
+    "more attention",
+    "sufficient attention",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.569/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

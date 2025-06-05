@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.824",
+  "title": "Calibrating Large Language Models Using Their Generations Only",
+  "authors": [
+    "Ulmer, Dennis  and\nGubri, Martin  and\nLee, Hwaran  and\nYun, Sangdoo  and\nOh, Seong"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "As large language models (LLMs) are increasingly deployed in user-facing applications, building trust and maintaining safety by accurately quantifying a model’s confidence in its prediction becomes even more important. However, finding effective ways to calibrate LLMs—especially when the only interface to the models is their generated text—remains a challenge. We propose APRICOT (Auxiliary prediction of confidence targets): A method to set confidence targets and train an additional model that predicts an LLM’s confidence based on its textual input and output alone. This approach has several advantages: It is conceptually simple, does not require access to the target model beyond its output, does not interfere with the language generation, and has a multitude of potential usages, for instance by verbalizing the predicted confidence or using it to re-prompting the LLM to accurately reflecting its uncertainty. We show how our approach performs competitively in terms of calibration error for white-box and black-box LLMs on closed-book question-answering to detect incorrect LLM answers.",
+  "keywords": [
+    "white-box and black-box llms",
+    "question",
+    "their generated text",
+    "we",
+    "llm",
+    "their generations",
+    "it",
+    "llms",
+    "text",
+    "incorrect llm answers",
+    "the llm",
+    "large language models llms",
+    "generations",
+    "generated",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.824/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:45:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

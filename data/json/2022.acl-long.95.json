@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.95",
+  "title": "Synthetic Question Value Estimation for Domain Adaptation of Question Answering",
+  "authors": [
+    "Yue, Xiang  and\nYao, Ziyu  and\nSun, Huan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Synthesizing QA pairs with a question generator (QG) on the target domain has become a popular approach for domain adaptation of question answering (QA) models. Since synthetic questions are often noisy in practice, existing work adapts scores from a pretrained QA (or QG) model as criteria to select high-quality questions. However, these scores do not directly serve the ultimate goal of improving QA performance on the target domain. In this paper, we introduce a novel idea of training a question value estimator (QVE) that directly estimates the usefulness of synthetic questions for improving the target-domain QA performance. By conducting comprehensive experiments, we show that the synthetic questions selected by QVE can help achieve better target-domain QA performance, in comparison with existing techniques. We additionally show that by using such questions and only around 15% of the human annotations on the target domain, we can achieve comparable performance to the fully-supervised baselines.",
+  "keywords": [
+    "work",
+    "a question generator",
+    "qa models",
+    "a pretrained qa",
+    "model",
+    "human",
+    "qa pairs",
+    "the target-domain qa performance",
+    "question",
+    "qa performance",
+    "generator",
+    "we",
+    "better target-domain qa performance",
+    "high-quality questions",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.95/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

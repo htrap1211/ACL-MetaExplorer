@@ -1,0 +1,33 @@
+{
+  "id": "P18-1214",
+  "title": "A Deep Relevance Model for Zero-Shot Document Filtering",
+  "authors": [
+    "Li, Chenliang  and\nZhou, Wei  and\nJi, Feng  and\nDuan, Yu  and\nChen, Haiqing"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In the era of big data, focused analysis for diverse topics with a short response time becomes an urgent demand. As a fundamental task, information filtering therefore becomes a critical necessity. In this paper, we propose a novel deep relevance model for zero-shot document filtering, named DAZER. DAZER estimates the relevance between a document and a category by taking a small set of seed words relevant to the category. With pre-trained word embeddings from a large external corpus, DAZER is devised to extract the relevance signals by modeling the hidden feature interactions in the word embedding space. The relevance signals are extracted through a gated convolutional process. The gate mechanism controls which convolution filters output the relevance signals in a category dependent manner. Experiments on two document collections of two different tasks (i.e., topic categorization and sentiment analysis) demonstrate that DAZER significantly outperforms the existing alternative solutions, including the state-of-the-art deep relevance ranking models.",
+  "keywords": [
+    "deep",
+    "a gated convolutional process",
+    "era",
+    "we",
+    "convolutional",
+    "shot",
+    "information",
+    "word",
+    "analysis",
+    "manner",
+    "i",
+    "topic",
+    "zero-shot document filtering",
+    "sentiment",
+    "embeddings"
+  ],
+  "url": "https://aclanthology.org/P18-1214/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:14:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

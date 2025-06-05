@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.475",
+  "title": "Generating Query Focused Summaries from Query-Free Resources",
+  "authors": [
+    "Xu, Yumo  and\nLapata, Mirella"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "The availability of large-scale datasets has driven the development of neural models that create generic summaries from single or multiple documents. In this work we consider query focused summarization (QFS), a task for which training data in the form of queries, documents, and summaries is not readily available. We propose to decompose QFS into (1) query modeling (i.e., finding supportive evidence within a set of documents for a query) and (2) conditional language modeling (i.e., summary generation). We introduce MaRGE, a Masked ROUGE Regression framework for evidence estimation and ranking which relies on a unified representation for summaries and queries, so that summaries in generic data can be converted into proxy queries for learning a query model. Experiments across QFS benchmarks and query types show that our model achieves state-of-the-art performance despite learning from weak supervision.",
+  "keywords": [
+    "a unified representation",
+    "form",
+    "summarization",
+    "we",
+    "e summary generation",
+    "training",
+    "generic data",
+    "generic summaries",
+    "neural",
+    "queries",
+    "unified",
+    "i",
+    "generic",
+    "rouge",
+    "proxy queries"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.475/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

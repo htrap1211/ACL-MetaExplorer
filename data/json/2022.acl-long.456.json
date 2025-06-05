@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.456",
+  "title": "Bridging the Data Gap between Training and Inference for Unsupervised Neural Machine Translation",
+  "authors": [
+    "He, Zhiwei  and\nWang, Xing  and\nWang, Rui  and\nShi, Shuming  and\nTu, Zhaopeng"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Back-translation is a critical component of Unsupervised Neural Machine Translation (UNMT), which generates pseudo parallel data from target monolingual data. A UNMT model is trained on the pseudo parallel data withtranslated source, and translatesnatural sourcesentences in inference. The source discrepancy between training and inference hinders the translation performance of UNMT models. By carefully designing experiments, we identify two representative characteristics of the data gap in source: (1)style gap(i.e., translated vs. natural text style) that leads to poor generalization capability; (2)content gapthat induces the model to produce hallucination content biased towards the target language. To narrow the data gap, we propose an online self-training approach, which simultaneously uses the pseudo parallel data{natural source, translated target}to mimic the inference scenario. Experimental results on several widely-used language pairs show that our approach outperforms two strong baselines (XLM and MASS) by remedying the style and content gaps.",
+  "keywords": [
+    "language",
+    "the translation performance",
+    "neural",
+    "translation",
+    "natural",
+    "model",
+    "machine",
+    "text",
+    "self",
+    "generalization",
+    "we",
+    "training",
+    "that",
+    "translatesnatural",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.456/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:30:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

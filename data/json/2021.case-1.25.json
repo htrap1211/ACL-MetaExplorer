@@ -1,0 +1,33 @@
+{
+  "id": "2021.case-1.25",
+  "title": "CASE} 2021 Task 2: Zero-Shot Classification of Fine-Grained Sociopolitical Events with Transformer Models",
+  "authors": [
+    "Radford, Benjamin J."
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 4th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE 2021)",
+  "abstract": "We introduce a method for the classification of texts into fine-grained categories of sociopolitical events. This particular method is responsive to all three Subtasks of Task 2, Fine-Grained Classification of Socio-Political Events, introduced at the CASE workshop of ACL-IJCNLP 2021. We frame Task 2 as textual entailment: given an input text and a candidate event class (“query”), the model predicts whether the text describes an event of the given type. The model is able to correctly classify in-sample event types with an average F1-score of 0.74 but struggles with some out-of-sample event types. Despite this, the model shows promise for the zero-shot identification of certain sociopolitical events by achieving an F1-score of 0.52 on one wholly out-of-sample event class.",
+  "keywords": [
+    "acl-ijcnlp",
+    "transformer",
+    "task 2 fine-grained classification",
+    "transformer models",
+    "an f1-score",
+    "categories",
+    "model",
+    "text",
+    "class",
+    "the classification",
+    "the zero-shot identification",
+    "ijcnlp",
+    "we",
+    "an average f1-score",
+    "2 zero-shot classification"
+  ],
+  "url": "https://aclanthology.org/2021.case-1.25/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

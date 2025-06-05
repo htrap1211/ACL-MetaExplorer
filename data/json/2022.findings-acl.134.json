@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.134",
+  "title": "Towards Adversarially Robust Text Classifiers by Learning to Reweight Clean Examples",
+  "authors": [
+    "Xu, Jianhan  and\nZhang, Cenyuan  and\nZheng, Xiaoqing  and\nLi, Linyang  and\nHsieh, Cho-Jui  and\nChang, Kai-Wei  and\nHuang, Xuanjing"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Most of the existing defense methods improve the adversarial robustness by making the models adapt to the training set augmented with some adversarial examples. However, the augmented adversarial examples may not be natural, which might distort the training distribution, resulting in inferior performance both in clean accuracy and adversarial robustness. In this study, we explore the feasibility of introducing a reweighting mechanism to calibrate the training distribution to obtain robust models. We propose to train text classifiers by a sample reweighting method in which the example weights are learned to minimize the loss of a validation set mixed with the clean examples and their adversarial ones in an online learning manner. Through extensive experiments, we show that there exists a reweighting mechanism to make the models more robust against adversarial attacks without the need to craft the adversarial examples for the entire training set.",
+  "keywords": [
+    "an online learning manner",
+    "validation",
+    "clean accuracy",
+    "natural",
+    "text",
+    "text classifiers",
+    "classifiers",
+    "loss",
+    "we",
+    "learning",
+    "adversarially robust text classifiers",
+    "manner",
+    "training",
+    "accuracy",
+    "sample"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.134/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

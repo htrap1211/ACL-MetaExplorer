@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.428",
+  "title": "Don{'}t Say That! Making Inconsistent Dialogue Unlikely with Unlikelihood Training",
+  "authors": [
+    "Li, Margaret  and\nRoller, Stephen  and\nKulikov, Ilia  and\nWelleck, Sean  and\nBoureau, Y-Lan  and\nCho, Kyunghyun  and\nWeston, Jason"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Generative dialogue models currently suffer from a number of problems which standard maximum likelihood training does not address. They tend to produce generations that (i) rely too much on copying from the context, (ii) contain repetitions within utterances, (iii) overuse frequent words, and (iv) at a deeper level, contain logical flaws. In this work we show how all of these problems can be addressed by extending the recently introduced unlikelihood loss (Welleck et al., 2019) to these cases. We show that appropriate loss functions which regularize generated outputs to match human distributions are effective for the first three issues. For the last important general issue, we show applying unlikelihood to collected data of what a model should not do is effective for improving logical consistency, potentially paving the way to generative models with greater reasoning ability. We demonstrate the efficacy of our approach across several dialogue tasks.",
+  "keywords": [
+    "generative",
+    "work",
+    "general",
+    "i",
+    "model",
+    "human",
+    "loss",
+    "generations",
+    "all",
+    "we",
+    "appropriate loss functions",
+    "dialogue",
+    "inconsistent dialogue",
+    "generated outputs",
+    "several dialogue tasks"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.428/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:47:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

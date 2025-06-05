@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.752",
+  "title": "T}rigger{NER}: Learning with Entity Triggers as Explanations for Named Entity Recognition",
+  "authors": [
+    "Lin, Bill Yuchen  and\nLee, Dong-Ho  and\nShen, Ming  and\nMoreno, Ryan  and\nHuang, Xiao  and\nShiralkar, Prashant  and\nRen, Xiang"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Training neural models for named entity recognition (NER) in a new domain often requires additional human annotations (e.g., tens of thousands of labeled instances) that are usually expensive and time-consuming to collect. Thus, a crucial research question is how to obtain supervision in a cost-effective way. In this paper, we introduce “entity triggers,” an effective proxy of human explanations for facilitating label-efficient learning of NER models. An entity trigger is defined as a group of words in a sentence that helps to explain why humans would recognize an entity in the sentence. We crowd-sourced 14k entity triggers for two well-studied NER datasets. Our proposed model, Trigger Matching Network, jointly learns trigger representations and soft matching module with self-attention such that can generalize to unseen sentences easily for tagging. Our framework is significantly more cost-effective than the traditional neural NER frameworks. Experiments show that using only 20% of the trigger-annotated sentences results in a comparable performance as using 70% of conventional annotated sentences.",
+  "keywords": [
+    "two well-studied ner datasets",
+    "efficient",
+    "label-efficient learning",
+    "question",
+    "self-attention",
+    "we",
+    "training",
+    "named entity recognition ner",
+    "neural",
+    "self",
+    "ner models",
+    "learning",
+    "ner",
+    "soft",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.752/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:52:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

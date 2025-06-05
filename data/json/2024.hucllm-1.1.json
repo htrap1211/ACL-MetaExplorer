@@ -1,0 +1,33 @@
+{
+  "id": "2024.hucllm-1.1",
+  "title": "Human Speech Perception in Noise: Can Large Language Models Paraphrase to Improve It?",
+  "authors": [
+    "Chingacham, Anupama  and\nZhang, Miaoran  and\nDemberg, Vera  and\nKlakow, Dietrich"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Human-Centered Large Language Modeling Workshop",
+  "abstract": "Large Language Models (LLMs) can generate text by transferring style attributes like formality resulting in formal or informal text.However, instructing LLMs to generate text that when spoken, is more intelligible in an acoustically difficult environment, is an under-explored topic.We conduct the first study to evaluate LLMs on a novel task of generating acoustically intelligible paraphrases for better human speech perception in noise.Our experiments in English demonstrated that with standard prompting, LLMs struggle to control the non-textual attribute, i.e., acoustic intelligibility, while efficiently capturing the desired textual attributes like semantic equivalence. To remedy this issue, we propose a simple prompting approach, prompt-and-select, which generates paraphrases by decoupling the desired textual and non-textual attributes in the text generation pipeline.Our approach resulted in a 40% relative improvement in human speech perception, by paraphrasing utterances that are highly distorted in a listening condition with babble noise at signal-to-noise ratio (SNR) -5 dB. This study reveals the limitation of LLMs in capturing non-textual attributes, and our proposed method showcases the potential of using LLMs for better human speech perception in noise.",
+  "keywords": [
+    "semantic equivalence",
+    "semantic",
+    "we",
+    "the text generation pipeline",
+    "it",
+    "llms",
+    "prompt",
+    "i",
+    "text",
+    "topic",
+    "large language models llms",
+    "ratio",
+    "standard prompting llms",
+    "language",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2024.hucllm-1.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:06:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

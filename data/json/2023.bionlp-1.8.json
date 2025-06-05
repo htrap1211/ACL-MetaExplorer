@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.8",
+  "title": "Good Data, Large Data, or No Data? Comparing Three Approaches in Developing Research Aspect Classifiers for Biomedical Papers",
+  "authors": [
+    "Chandrasekhar, Shreya  and\nHuang, Chieh-Yang  and\nHuang, Ting-Hao"
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "The rapid growth of scientific publications, particularly during the COVID-19 pandemic, emphasizes the need for tools to help researchers efficiently comprehend the latest advancements. One essential part of understanding scientific literature is research aspect classification, which categorizes sentences in abstracts to Background, Purpose, Method, and Finding. In this study, we investigate the impact of different datasets on model performance for the crowd-annotated CODA-19 research aspect classification task. Specifically, we explore the potential benefits of using the large, automatically curated PubMed 200K RCT dataset and evaluate the effectiveness of large language models (LLMs), such as LLaMA, GPT-3, ChatGPT, and GPT-4. Our results indicate that using the PubMed 200K RCT dataset does not improve performance for the CODA-19 task. We also observe that while GPT-4 performs well, it does not outperform the SciBERT model fine-tuned on the CODA-19 dataset, emphasizing the importance of a dedicated and task-aligned datasets dataset for the target task.",
+  "keywords": [
+    "scibert",
+    "classifiers",
+    "we",
+    "the scibert model",
+    "classification",
+    "research aspect classification",
+    "it",
+    "gpt-3",
+    "chatgpt",
+    "scientific",
+    "scientific literature",
+    "llms",
+    "background",
+    "research aspect classifiers",
+    "gpt-4"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

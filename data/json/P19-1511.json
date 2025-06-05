@@ -1,0 +1,33 @@
+{
+  "id": "P19-1511",
+  "title": "Sequence-to-Nuggets: Nested Entity Mention Detection via Anchor-Region Networks",
+  "authors": [
+    "Lin, Hongyu  and\nLu, Yaojie  and\nHan, Xianpei  and\nSun, Le"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Sequential labeling-based NER approaches restrict each word belonging to at most one entity mention, which will face a serious problem when recognizing nested entity mentions. In this paper, we propose to resolve this problem by modeling and leveraging the head-driven phrase structures of entity mentions, i.e., although a mention can nest other mentions, they will not share the same head word. Specifically, we propose Anchor-Region Networks (ARNs), a sequence-to-nuggets architecture for nested mention detection. ARNs first identify anchor words (i.e., possible head words) of all mentions, and then recognize the mention boundaries for each anchor word by exploiting regular phrase structures. Furthermore, we also design Bag Loss, an objective function which can train ARNs in an end-to-end manner without using any anchor word annotation. Experiments show that ARNs achieve the state-of-the-art performance on three standard nested entity mention detection benchmarks.",
+  "keywords": [
+    "ner",
+    "bag",
+    "end",
+    "i",
+    "sequential labeling-based ner approaches",
+    "objective",
+    "boundaries",
+    "modeling",
+    "regular",
+    "the mention boundaries",
+    "loss",
+    "word",
+    "we",
+    "sequence",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/P19-1511/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:43:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

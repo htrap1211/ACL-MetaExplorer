@@ -1,0 +1,33 @@
+{
+  "id": "P19-1591",
+  "title": "Task Refinement Learning for Improved Accuracy and Stability of Unsupervised Domain Adaptation",
+  "authors": [
+    "Ziser, Yftah  and\nReichart, Roi"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Pivot Based Language Modeling (PBLM) (Ziser and Reichart, 2018a), combining LSTMs with pivot-based methods, has yielded significant progress in unsupervised domain adaptation. However, this approach is still challenged by the large pivot detection problem that should be solved, and by the inherent instability of LSTMs. In this paper we propose a Task Refinement Learning (TRL) approach, in order to solve these problems. Our algorithms iteratively train the PBLM model, gradually increasing the information exposed about each pivot. TRL-PBLM achieves stateof- the-art accuracy in six domain adaptation setups for sentiment classification. Moreover, it is much more stable than plain PBLM across model configurations, making the model much better fitted for practical use.",
+  "keywords": [
+    "accuracy",
+    "language",
+    "model",
+    "improved accuracy",
+    "it",
+    "modeling",
+    "language modeling pblm ziser",
+    "lstms",
+    "information",
+    "the-art accuracy",
+    "sentiment classification",
+    "we",
+    "learning",
+    "classification",
+    "sentiment"
+  ],
+  "url": "https://aclanthology.org/P19-1591/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:45:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

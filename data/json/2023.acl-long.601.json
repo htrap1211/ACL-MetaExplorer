@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.601",
+  "title": "A Multi-Modal Context Reasoning Approach for Conditional Inference on Joint Textual and Visual Clues",
+  "authors": [
+    "Li, Yunxin  and\nHu, Baotian  and\nXinyu, Chen  and\nDing, Yuxin  and\nMa, Lin  and\nZhang, Min"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Conditional inference on joint textual and visual clues is a multi-modal reasoning task that textual clues provide prior permutation or external knowledge, which are complementary with visual content and pivotal to deducing the correct option. Previous methods utilizing pretrained vision-language models (VLMs) have achieved impressive performances, yet they show a lack of multimodal context reasoning capability, especially for text-modal information. To address this issue, we propose a Multi-modal Context Reasoning approach, named ModCR. Compared to VLMs performing reasoning via cross modal semantic alignment, it regards the given textual abstract semantic and objective image information as the pre-context information and embeds them into the language model to perform context reasoning. Different from recent vision-aided language models used in natural language processing, ModCR incorporates the multi-view semantic alignment information between language and vision by introducing the learnable alignment prefix between image and text in the pretrained language model. This makes the language model well-suitable for such multi-modal reasoning scenario on joint textual and visual clues. We conduct extensive experiments on two corresponding data sets and experimental results show significantly improved performance (exact gain by 4.8% on PMR test set) compared to previous strong baselines.",
+  "keywords": [
+    "the pretrained language model",
+    "the learnable alignment prefix",
+    "pretrained vision-language models vlms",
+    "cross modal semantic alignment",
+    "semantic",
+    "we",
+    "natural",
+    "it",
+    "information",
+    "natural language processing modcr",
+    "visual",
+    "the language model",
+    "processing",
+    "text",
+    "objective"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.601/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

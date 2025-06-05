@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.167",
+  "title": "Learning Confidence for Transformer-based Neural Machine Translation",
+  "authors": [
+    "Lu, Yu  and\nZeng, Jiali  and\nZhang, Jiajun  and\nWu, Shuangzhi  and\nLi, Mu"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Confidence estimation aims to quantify the confidence of the model prediction, providing an expectation of success. A well-calibrated confidence estimate enables accurate failure prediction and proper risk measurement when given noisy samples and out-of-distribution data in real-world settings. However, this task remains a severe challenge for neural machine translation (NMT), where probabilities from softmax distribution fail to describe when the model is probably mistaken. To address this problem, we propose an unsupervised confidence estimate learning jointly with the training of the NMT model. We explain confidence as how many hints the NMT model needs to make a correct prediction, and more hints indicate low confidence. Specifically, the NMT model is given the option to ask for hints to improve translation accuracy at the cost of some slight penalty. Then, we approximate their level of confidence by counting the number of hints the model uses. We demonstrate that our learned confidence estimate achieves high accuracy on extensive sentence/word-level quality estimation tasks. Analytical results verify that our confidence estimate can correctly assess underlying risk in two real-world scenarios: (1) discovering noisy samples and (2) detecting out-of-domain data. We further propose a novel confidence-based instance-specific label smoothing approach based on our learned confidence estimate, which outperforms standard label smoothing.",
+  "keywords": [
+    "we",
+    "softmax",
+    "training",
+    "translation",
+    "neural",
+    "high accuracy",
+    "softmax distribution",
+    "word",
+    "translation accuracy",
+    "accuracy",
+    "transformer",
+    "model",
+    "machine",
+    "probabilities",
+    "neural machine translation nmt"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.167/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

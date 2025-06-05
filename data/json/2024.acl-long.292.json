@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.292",
+  "title": "Agent-Pro: Learning to Evolve via Policy-Level Reflection and Optimization",
+  "authors": [
+    "Zhang, Wenqi  and\nTang, Ke  and\nWu, Hai  and\nWang, Mengna  and\nShen, Yongliang  and\nHou, Guiyang  and\nTan, Zeqi  and\nLi, Peng  and\nZhuang, Yueting  and\nLu, Weiming"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large Language Models (LLMs) exhibit robust problem-solving capabilities for diverse tasks. However, most LLM-based agents are designed as specific task solvers with sophisticated prompt engineering, rather than agents capable of learning and evolving through interactions. These task solvers necessitate manually crafted prompts to inform task rules and regulate LLM behaviors, inherently incapacitating to address complex dynamic scenarios e.g., large interactive games. In light of this, we propose Agent-Pro: an LLM-based Agent with Policy-level Reflection and Optimization that can learn a wealth of expertise from interactive experiences and progressively elevate its behavioral policy. Specifically, it involves a dynamic belief generation and reflection process for policy evolution. Rather than action-level reflection, Agent-Pro iteratively reflects on past trajectories and beliefs, “fine-tuning” its irrational beliefs for a better policy. Moreover, a depth-first search is employed for policy optimization, ensuring continual enhancement in policy payoffs. Agent-Pro is evaluated across two games: Blackjack and Texas Hold’em, outperforming vanilla LLM and specialized models. Our results show Agent-Pro can learn and evolve in complex and dynamic scenes, which also benefits numerous LLM-based applications.",
+  "keywords": [
+    "an llm-based agent",
+    "policy optimization",
+    "em",
+    "interactive experiences",
+    "we",
+    "robust problem-solving capabilities",
+    "llm",
+    "its irrational beliefs",
+    "it",
+    "manually crafted prompts",
+    "learning",
+    "prompt",
+    "sophisticated prompt engineering",
+    "most llm-based agents",
+    "beliefs"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.292/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

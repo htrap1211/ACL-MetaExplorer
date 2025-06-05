@@ -1,0 +1,33 @@
+{
+  "id": "2022.iwslt-1.17",
+  "title": "The Xiaomi Text-to-Text Simultaneous Speech Translation System for {IWSLT} 2022",
+  "authors": [
+    "Guo, Bao  and\nLiu, Mengge  and\nZhang, Wen  and\nChen, Hexuan  and\nMu, Chang  and\nLi, Xiang  and\nCui, Jianwei  and\nWang, Bin  and\nGuo, Yuhang"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022)",
+  "abstract": "This system paper describes the Xiaomi Translation System for the IWSLT 2022 Simultaneous Speech Translation (noted as SST) shared task. We participate in the English-to-Mandarin Chinese Text-to-Text (noted as T2T) track. Our system is built based on the Transformer model with novel techniques borrowed from our recent research work. For the data filtering, language-model-based and rule-based methods are conducted to filter the data to obtain high-quality bilingual parallel corpora. We also strengthen our system with some dominating techniques related to data augmentation, such as knowledge distillation, tagged back-translation, and iterative back-translation. We also incorporate novel training techniques such as R-drop, deep model, and large batch training which have been shown to be beneficial to the naive Transformer model. In the SST scenario, several variations ofextttwait-kstrategies are explored. Furthermore, in terms of robustness, both data-based and model-based ways are used to reduce the sensitivity of our system to Automatic Speech Recognition (ASR) outputs. We finally design some inference algorithms and use the adaptive-ensemble method based on multiple model variants to further improve the performance of the system. Compared with strong baselines, fusing all techniques can improve our system by 2 extasciitilde3 BLEU scores under different latency regimes.",
+  "keywords": [
+    "deep",
+    "bleu",
+    "the xiaomi translation system",
+    "we",
+    "kstrategies",
+    "training",
+    "translation",
+    "the naive transformer model",
+    "ensemble",
+    "back-translation",
+    "several variations ofextttwait-kstrategies",
+    "text",
+    "drop",
+    "work",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2022.iwslt-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

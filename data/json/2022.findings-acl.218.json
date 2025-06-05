@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.218",
+  "title": "Breaking Down Multilingual Machine Translation",
+  "authors": [
+    "Chiang, Ting-Rui  and\nChen, Yi-Pei  and\nYeh, Yi-Ting  and\nNeubig, Graham"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "While multilingual training is now an essential ingredient in machine translation (MT) systems, recent work has demonstrated that it has different effects in different multilingual settings, such as many-to-one, one-to-many, and many-to-many learning. These training settings expose the encoder and the decoder in a machine translation model with different data distributions. In this paper, we examine how different varieties of multilingual training contribute to learning these two components of the MT model. Specifically, we compare bilingual models with encoders and/or decoders initialized by multilingual training. We show that multilingual training is beneficial to encoders in general, while it only benefits decoders for low-resource languages (LRLs). We further find the important attention heads for each language pair and compare their correlations during inference. Our analysis sheds light on how multilingual translation models work and also enables us to propose methods to improve performance by training with highly related languages. Our many-to-one models for high-resource languages and one-to-many models for LRL outperform the best results reported by Aharoni et al. (2019).",
+  "keywords": [
+    "the decoder",
+    "machine translation",
+    "varieties",
+    "multilingual machine translation",
+    "we",
+    "training",
+    "translation",
+    "the important attention heads",
+    "the encoder",
+    "how different varieties",
+    "it",
+    "decoder",
+    "decoders",
+    "ingredient",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.218/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

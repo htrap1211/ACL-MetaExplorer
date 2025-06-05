@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.392",
+  "title": "Few-shot Named Entity Recognition with Self-describing Networks",
+  "authors": [
+    "Chen, Jiawei  and\nLiu, Qing  and\nLin, Hongyu  and\nHan, Xianpei  and\nSun, Le"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Few-shot NER needs to effectively capture information from limited instances and transfer useful knowledge from external resources. In this paper, we propose a self-describing mechanism for few-shot NER, which can effectively leverage illustrative instances and precisely transfer knowledge from external resources by describing both entity types and mentions using a universal concept set. Specifically, we design Self-describing Networks (SDNet), a Seq2Seq generation model which can universally describe mentions using concepts, automatically map novel entity types to concepts, and adaptively recognize entities on-demand. We pre-train SDNet with large-scale corpus, and conduct experiments on 8 benchmarks from different domains. Experiments show that SDNet achieves competitive performances on all benchmarks and achieves the new state-of-the-art on 6 benchmarks, which demonstrates its effectiveness and robustness.",
+  "keywords": [
+    "seq2seq",
+    "ner",
+    "self-describing networks few-shot ner",
+    "knowledge",
+    "generation",
+    "model",
+    "entities",
+    "a seq2seq generation model",
+    "self",
+    "few-shot ner",
+    "information",
+    "few-shot named entity recognition",
+    "train",
+    "we",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.392/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:29:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

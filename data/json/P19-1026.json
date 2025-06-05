@@ -1,0 +1,33 @@
+{
+  "id": "P19-1026",
+  "title": "Relation Embedding with Dihedral Group in Knowledge Graph",
+  "authors": [
+    "Xu, Canran  and\nLi, Ruijiang"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Link prediction is critical for the application of incomplete knowledge graph (KG) in the downstream tasks. As a family of effective approaches for link predictions, embedding methods try to learn low-rank representations for both entities and relations such that the bilinear form defined therein is a well-behaved scoring function. Despite of their successful performances, existing bilinear forms overlook the modeling of relation compositions, resulting in lacks of interpretability for reasoning on KG. To fulfill this gap, we propose a new model called DihEdral, named after dihedral symmetry group. This new model learns knowledge graph embeddings that can capture relation compositions by nature. Furthermore, our approach models the relation embeddings parametrized by discrete values, thereby decrease the solution space drastically. Our experiments show that DihEdral is able to capture all desired properties such as (skew-) symmetry, inversion and (non-) Abelian composition, and outperforms existing bilinear form based approach and is comparable to or better than deep learning models such as ConvE.",
+  "keywords": [
+    "deep",
+    "the relation embeddings",
+    "both entities",
+    "conve",
+    "form",
+    "we",
+    "graph",
+    "embedding methods",
+    "knowledge graph link prediction",
+    "properties",
+    "learning",
+    "incomplete knowledge graph kg",
+    "all desired properties",
+    "function",
+    "embeddings"
+  ],
+  "url": "https://aclanthology.org/P19-1026/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:28:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

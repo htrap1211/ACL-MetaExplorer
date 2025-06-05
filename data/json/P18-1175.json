@@ -1,0 +1,33 @@
+{
+  "id": "P18-1175",
+  "title": "Training Classifiers with Natural Language Explanations",
+  "authors": [
+    "Hancock, Braden  and\nVarma, Paroma  and\nWang, Stephanie  and\nBringmann, Martin  and\nLiang, Percy  and\nR{\\'e}, Christopher"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Training accurate classifiers requires many labels, but each label provides only limited information (one bit for binary classification). In this work, we propose BabbleLabble, a framework for training classifiers in which an annotator provides a natural language explanation for each labeling decision. A semantic parser converts these explanations into programmatic labeling functions that generate noisy labels for an arbitrary amount of unlabeled data, which is used to train a classifier. On three relation extraction tasks, we find that users are able to train classifiers with comparable F1 scores from 5-100 faster by providing explanations instead of just labels. Furthermore, given the inherent imperfection of labeling functions, we find that a simple rule-based semantic parser suffices.",
+  "keywords": [
+    "work",
+    "a semantic parser converts",
+    "language",
+    "extraction",
+    "natural",
+    "classifier",
+    "accurate classifiers",
+    "classifiers",
+    "binary classification",
+    "training classifiers",
+    "information",
+    "semantic",
+    "we",
+    "comparable f1 scores",
+    "a classifier"
+  ],
+  "url": "https://aclanthology.org/P18-1175/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:13:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

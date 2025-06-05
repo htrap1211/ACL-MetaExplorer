@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.459",
+  "title": "Do {C}o{NLL}-2003 Named Entity Taggers Still Work Well in 2023?",
+  "authors": [
+    "Liu, Shuheng  and\nRitter, Alan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The CoNLL-2003 English named entity recognition (NER) dataset has been widely used to train and evaluate NER models for almost 20 years. However, it is unclear how well models that are trained on this 20-year-old data and developed over a period of decades using the same test set will perform when applied on modern data. In this paper, we evaluate the generalization of over 20 different models trained on CoNLL-2003, and show that NER models have very different generalization. Surprisingly, we find no evidence of performance degradation in pre-trained Transformers, such as RoBERTa and T5, even when fine-tuned using decades-old data. We investigate why some models generalize well to new data while others do not, and attempt to disentangle the effects of temporal drift and overfitting due to test reuse. Our analysis suggests that most deterioration is due to temporal mismatch between the pre-training corpora and the downstream test sets. We found that four factors are important for good generalization: model architecture, number of parameters, time period of the pre-training corpus, in addition to the amount of fine-tuning data. We suggest current evaluation methods have, in some sense, underestimated progress on NER over the past 20 years, as NER models have not only improved on the original CoNLL-2003 test set, but improved even more on modern data. Our datasets can be found athttps://github.com/ShuhengL/acl2023_conllpp.",
+  "keywords": [
+    "entity recognition ner dataset",
+    "transformers",
+    "roberta",
+    "we",
+    "current",
+    "training",
+    "it",
+    "ner models",
+    "analysis",
+    "ner",
+    "very different generalization",
+    "the pre-training corpus",
+    "tuning",
+    "generalization",
+    "fine-tuning data"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.459/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:41:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

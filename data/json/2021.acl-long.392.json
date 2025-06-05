@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.392",
+  "title": "Improving Document Representations by Generating Pseudo Query Embeddings for Dense Retrieval",
+  "authors": [
+    "Tang, Hongyin  and\nSun, Xingwu  and\nJin, Beihong  and\nWang, Jingang  and\nZhang, Fuzheng  and\nWu, Wei"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Recently, the retrieval models based on dense representations have been gradually applied in the first stage of the document retrieval tasks, showing better performance than traditional sparse vector space models. To obtain high efficiency, the basic structure of these models is Bi-encoder in most cases. However, this simple structure may cause serious information loss during the encoding of documents since the queries are agnostic. To address this problem, we design a method to mimic the queries to each of the documents by an iterative clustering process and represent the documents by multiple pseudo queries (i.e., the cluster centroids). To boost the retrieval process using approximate nearest neighbor search library, we also optimize the matching function with a two-step score calculation procedure. Experimental results on several popular ranking and QA datasets show that our model can achieve state-of-the-art results while still remaining high efficiency.",
+  "keywords": [
+    "pseudo query embeddings",
+    "high efficiency",
+    "the retrieval process",
+    "efficiency",
+    "we",
+    "cluster",
+    "queries",
+    "retrieval",
+    "loss",
+    "information",
+    "vector",
+    "i",
+    "the retrieval models",
+    "-",
+    "the queries"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.392/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

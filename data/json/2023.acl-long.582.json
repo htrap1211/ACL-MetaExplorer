@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.582",
+  "title": "Naamapadam: A Large-Scale Named Entity Annotated Data for {I}ndic Languages",
+  "authors": [
+    "Mhaske, Arnav  and\nKedia, Harshit  and\nDoddapaneni, Sumanth  and\nKhapra, Mitesh M.  and\nKumar, Pratyush  and\nMurthy, Rudra  and\nKunchukuttan, Anoop"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We present,Naamapadam, the largest publicly available Named Entity Recognition (NER) dataset for the 11 major Indian languages from two language families. The dataset contains more than 400k sentences annotated with a total of at least 100k entities from three standard entity categories (Person, Location, and, Organization) for 9 out of the 11 languages. The training dataset has been automatically created from the Samanantar parallel corpus by projecting automatically tagged entities from an English sentence to the corresponding Indian language translation. We also create manually annotated testsets for 9 languages. We demonstrate the utility of the obtained dataset on the Naamapadam-test dataset. We also releaseIndicNER, a multilingual IndicBERT model fine-tuned on Naamapadam training set. IndicNER achieves an F1 score of more than 80 for 7 out of 9 test languages. The dataset and models are available under open-source licences athttps://ai4bharat.iitm.ac.in/naamapadam.",
+  "keywords": [
+    "entity recognition ner dataset",
+    "ner",
+    "indicbert",
+    "families",
+    "language",
+    "an f1 score",
+    "categories",
+    "model",
+    "naamapadam",
+    "entities",
+    "the naamapadam-test dataset",
+    "indicner",
+    "a multilingual indicbert model",
+    "two language families",
+    "location"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.582/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

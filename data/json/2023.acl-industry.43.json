@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.43",
+  "title": "Sharing Encoder Representations across Languages, Domains and Tasks in Large-Scale Spoken Language Understanding",
+  "authors": [
+    "Hueser, Jonathan  and\nGaspers, Judith  and\nGueudre, Thomas  and\nPrakash, Chandana  and\nCao, Jin  and\nSorokin, Daniil  and\nDo, Quynh  and\nAnastassacos, Nicolas  and\nFalke, Tobias  and\nGojayev, Turan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "Leveraging representations from pre-trained transformer-based encoders achieves state-of-the-art performance on numerous NLP tasks. Larger encoders can improve accuracy for spoken language understanding (SLU) but are challenging to use given the inference latency constraints of online systems (especially on CPU machines).We evaluate using a larger 170M parameter BERT encoder that shares representations across languages, domains and tasks for SLU compared to using smaller 17M parameter BERT encoders with language-, domain- and task-decoupled finetuning.Running inference with a larger shared encoder on GPU is latency neutral and reduces infrastructure cost compared to running inference for decoupled smaller encoders on CPU machines. The larger shared encoder reduces semantic error rates by 4.62% for test sets representing user requests to voice-controlled devices and 5.79% on the tail of the test sets on average across four languages.",
+  "keywords": [
+    "numerous nlp tasks",
+    "transformer",
+    "pre-trained transformer-based encoders",
+    "encoder representations",
+    "larger encoders",
+    "language",
+    "nlp",
+    "bert",
+    "a larger shared encoder",
+    "encoder",
+    "the larger shared encoder",
+    "semantic error rates",
+    "semantic",
+    "we",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.43/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

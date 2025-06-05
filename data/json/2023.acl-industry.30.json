@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.30",
+  "title": "Consistent Text Categorization using Data Augmentation in e-Commerce",
+  "authors": [
+    "Avigdor, Noa  and\nHorowitz, Guy  and\nRaviv, Ariel  and\nYanovsky Daye, Stav"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "The categorization of massive e-Commerce data is a crucial, well-studied task, which is prevalent in industrial settings. In this work, we aim to improve an existing product categorization model that is already in use by a major web company, serving multiple applications. At its core, the product categorization model is a text classification model that takes a product title as an input and outputs the most suitable category out of thousands of available candidates. Upon a closer inspection, we found inconsistencies in the labeling of similar items. For example, minor modifications of the product title pertaining to colors or measurements majorly impacted the model’s output. This phenomenon can negatively affect downstream recommendation or search applications, leading to a sub-optimal user experience. To address this issue, we propose a new framework for consistent text categorization. Our goal is to improve the model’s consistency while maintaining its production-level performance. We use a semi-supervised approach for data augmentation and presents two different methods for utilizing unlabeled samples. One method relies directly on existing catalogs, while the other uses a generative model. We compare the pros and cons of each approach and present our experimental results.",
+  "keywords": [
+    "a text classification model",
+    "we",
+    "classification",
+    "a sub-optimal user experience",
+    "e",
+    "core",
+    "generative",
+    "a generative model",
+    "text",
+    "-",
+    "a crucial well-studied task",
+    "experience",
+    "work",
+    "inconsistencies",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.30/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

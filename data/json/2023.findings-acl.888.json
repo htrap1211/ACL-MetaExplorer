@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.888",
+  "title": "Check-{COVID}: Fact-Checking {COVID}-19 News Claims with Scientific Evidence",
+  "authors": [
+    "Wang, Gengyu  and\nHarwood, Kate  and\nChillrud, Lawrence  and\nAnanthram, Amith  and\nSubbiah, Melanie  and\nMcKeown, Kathleen"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "We present a new fact-checking benchmark, Check-COVID, that requires systems to verify claims about COVID-19 from news using evidence from scientific articles. This approach to fact-checking is particularly challenging as it requires checking internet text written in everyday language against evidence from journal articles written in formal academic language. Check-COVID contains 1, 504 expert-annotated news claims about the coronavirus paired with sentence-level evidence from scientific journal articles and veracity labels. It includes both extracted (journalist-written) and composed (annotator-written) claims. Experiments using both a fact-checking specific system and GPT-3.5, which respectively achieve F1 scores of 76.99 and 69.90 on this task, reveal the difficulty of automatically fact-checking both claim types and the importance of in-domain data for good performance. Our data and models are released publicly athttps://github.com/posuer/Check-COVID.",
+  "keywords": [
+    "language",
+    "text",
+    "it",
+    "gpt-3",
+    "f1 scores",
+    "we",
+    "scientific evidence",
+    "scientific",
+    "scientific articles",
+    "scientific journal articles",
+    "that",
+    "news",
+    "posuer",
+    "good",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.888/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

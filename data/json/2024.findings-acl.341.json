@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.341",
+  "title": "Phased Instruction Fine-Tuning for Large Language Models",
+  "authors": [
+    "Pang, Wei  and\nZhou, Chuan  and\nZhou, Xiao-Hua  and\nWang, Xiaojie"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Instruction Fine-Tuning, a method enhancing pre-trained language models’ capabilities from mere next-word prediction to complex instruction following, often employs a one-off training approach on diverse instruction dataset. However, this method may not effectively enhance models’ adherence to instructions due to the simultaneous handling of varying instruction complexities. To address this, we propose a novel phased instruction fine-tuning (Phased IFT) method, grounded in the hypothesis of progressive alignment, which posits that the transition of a pre-trained language model from simple next-word prediction to sophisticated instruction following is a gradual learning process. Specifically, we obtain the score of difficulty for each instruction via GPT-4, stratify the instruction data into subsets of increasing difficulty, and sequentially uptrain on these subsets using the standard supervised loss. Through extensive experiments on the pre-trained models Llama-2 7B/13B, and Mistral-7B using the 52K Alpaca instruction data, we demonstrate that Phased IFT significantly surpasses traditional one-off instruction fine-tuning (One-off IFT) method in win rate, empirically validating the progressive alignment hypothesis. Our findings suggest that Phased IFT offers a simple yet effective pathway for elevating the instruction-following capabilities of pre-trained language models.",
+  "keywords": [
+    "rate",
+    "a pre-trained language model",
+    "we",
+    "varying instruction complexities",
+    "complexities",
+    "training",
+    "instruction",
+    "pre-trained language models",
+    "loss",
+    "word",
+    "learning",
+    "the progressive alignment hypothesis",
+    "the instruction-following capabilities",
+    "tuning",
+    "gpt-4"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.341/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:53:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

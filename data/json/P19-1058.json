@@ -1,0 +1,33 @@
+{
+  "id": "P19-1058",
+  "title": "Topic Tensor Network for Implicit Discourse Relation Recognition in {C}hinese",
+  "authors": [
+    "Xu, Sheng  and\nLi, Peifeng  and\nKong, Fang  and\nZhu, Qiaoming  and\nZhou, Guodong"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "In the literature, most of the previous studies on English implicit discourse relation recognition only use sentence-level representations, which cannot provide enough semantic information in Chinese due to its unique paratactic characteristics. In this paper, we propose a topic tensor network to recognize Chinese implicit discourse relations with both sentence-level and topic-level representations. In particular, besides encoding arguments (discourse units) using a gated convolutional network to obtain sentence-level representations, we train a simplified topic model to infer the latent topic-level representations. Moreover, we feed the two pairs of representations to two factored tensor networks, respectively, to capture both the sentence-level interactions and topic-level relevance using multi-slice tensors. Experimentation on CDTB, a Chinese discourse corpus, shows that our proposed model significantly outperforms several state-of-the-art baselines in both micro and macro F1-scores.",
+  "keywords": [
+    "the previous studies",
+    "macro f1-scores",
+    "model",
+    "studies",
+    "a simplified topic model",
+    "topic",
+    "information",
+    "latent",
+    "enough semantic information",
+    "semantic",
+    "network",
+    "we",
+    "simplified",
+    "convolutional",
+    "a gated convolutional network"
+  ],
+  "url": "https://aclanthology.org/P19-1058/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:29:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

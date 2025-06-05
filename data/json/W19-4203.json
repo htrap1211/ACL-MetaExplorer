@@ -1,0 +1,33 @@
+{
+  "id": "W19-4203",
+  "title": "Cross-Lingual Lemmatization and Morphology Tagging with Two-Stage Multilingual {BERT} Fine-Tuning",
+  "authors": [
+    "Kondratyuk, Dan"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 16th Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "We present our CHARLES-SAARLAND system for the SIGMORPHON 2019 Shared Task on Crosslinguality and Context in Morphology, in task 2, Morphological Analysis and Lemmatization in Context. We leverage the multilingual BERT model and apply several fine-tuning strategies introduced by UDify demonstrating exceptional evaluation performance on morpho-syntactic tasks. Our results show that fine-tuning multilingual BERT on the concatenation of all available treebanks allows the model to learn cross-lingual information that is able to boost lemmatization and morphology tagging accuracy over fine-tuning it purely monolingually. Unlike UDify, however, we show that when paired with additional character-level and word-level LSTM layers, a second stage of fine-tuning on each treebank individually can improve evaluation even further. Out of all submissions for this shared task, our system achieves the highest average accuracy and f1 score in morphology tagging and places second in average lemmatization accuracy.",
+  "keywords": [
+    "cross",
+    "the multilingual bert model",
+    "tuning",
+    "bert",
+    "model",
+    "average lemmatization accuracy",
+    "it",
+    "the highest average accuracy",
+    "exceptional evaluation performance",
+    "strategies",
+    "several fine-tuning strategies",
+    "information",
+    "tagging",
+    "fine",
+    "word"
+  ],
+  "url": "https://aclanthology.org/W19-4203/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:27:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

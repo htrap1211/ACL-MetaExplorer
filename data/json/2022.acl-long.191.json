@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.191",
+  "title": "GL}-{CL}e{F}: A Global{--}Local Contrastive Learning Framework for Cross-lingual Spoken Language Understanding",
+  "authors": [
+    "Qin, Libo  and\nChen, Qiguang  and\nXie, Tianbao  and\nLi, Qixin  and\nLou, Jian-Guang  and\nChe, Wanxiang  and\nKan, Min-Yen"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Due to high data demands of current methods, attention to zero-shot cross-lingual spoken language understanding (SLU) has grown, as such approaches greatly reduce human annotation effort. However, existing models solely rely on shared parameters, which can only perform implicit alignment across languages. We present Global-Local Contrastive Learning Framework (GL-CLeF) to address this shortcoming. Specifically, we employ contrastive learning, leveraging bilingual dictionaries to construct multilingual views of the same utterance, then encourage their representations to be more similar than negative example pairs, which achieves to explicitly align representations of similar sentences across languages. In addition, a key step in GL-CLeF is a proposed Local and Global component, which achieves a fine-grained cross-lingual transfer (i.e., sentence-level Local intent transfer, token-level Local slot transfer, and semantic-level Global transfer across intent and slot). Experiments on MultiATIS++ show that GL-CLeF achieves the best performance and successfully pulls representations of similar sentences across languages closer.",
+  "keywords": [
+    "semantic",
+    "we",
+    "implicit alignment",
+    "semantic-level global transfer",
+    "current",
+    "cross",
+    "token",
+    "views",
+    "learning",
+    "transfer",
+    "gl",
+    "-",
+    "alignment",
+    "multilingual views",
+    "dictionaries"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.191/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

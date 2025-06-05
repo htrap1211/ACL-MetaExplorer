@@ -1,0 +1,33 @@
+{
+  "id": "2022.repl4nlp-1.11",
+  "title": "Identifying the Limits of Cross-Domain Knowledge Transfer for Pretrained Models",
+  "authors": [
+    "Wu, Zhengxuan  and\nF. Liu, Nelson  and\nPotts, Christopher"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 7th Workshop on Representation Learning for NLP",
+  "abstract": "There is growing evidence that pretrained language models improve task-specific fine-tuning even where the task examples are radically different from those seen in training. We study an extreme case of transfer learning by providing a systematic exploration of how much transfer occurs when models are denied any information about word identity via random scrambling. In four classification tasks and two sequence labeling tasks, we evaluate LSTMs using GloVe embeddings, BERT, and baseline models. Among these models, we find that only BERT shows high rates of transfer into our scrambled domains, and for classification but not sequence labeling tasks. Our analyses seek to explain why transfer succeeds for some tasks but not others, to isolate the separate contributions of pretraining versus fine-tuning, to show that the fine-tuning process is not merely learning to unscramble the scrambled inputs, and to quantify the role of word frequency. Furthermore, our results suggest that current benchmarks may overestimate the degree to which current models actually understand language.",
+  "keywords": [
+    "glove",
+    "glove embeddings bert",
+    "we",
+    "current",
+    "four classification tasks",
+    "training",
+    "classification",
+    "fine-tuning",
+    "cross",
+    "only bert",
+    "the fine-tuning process",
+    "information",
+    "word",
+    "sequence",
+    "transfer"
+  ],
+  "url": "https://aclanthology.org/2022.repl4nlp-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:45:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

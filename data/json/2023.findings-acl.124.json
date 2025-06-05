@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.124",
+  "title": "T}emp{LM}: Distilling Language Models into Template-Based Generators",
+  "authors": [
+    "Zhang, Tianyi  and\nLee, Mina  and\nLi, Xiang Lisa  and\nShen, Ende  and\nHashimoto, Tatsunori"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "While pretrained language models (PLMs) have greatly improved text generation, they have also been known to produce unfaithful or inappropriate content. In contrast, classic template-based systems provide strong guarantees of faithfulness at the cost of fluency. We propose TempLM, which achieves the best of both worlds by distilling a PLM into a template-based generator. On the E2E and SynthBio data-to-text datasets, we show that TempLM is more faithful than the original PLM and is more fluent than prior template systems. Notably, on an out-of-domain evaluation, TempLM reduces a finetuned BART model’s unfaithfulness rate from 83% to 0%. In a human study, we find that TempLM’s templates substantially improve upon human-written ones in BERTScore.",
+  "keywords": [
+    "bertscore",
+    "template-based generators",
+    "language",
+    "generation",
+    "model",
+    "text",
+    "language models plms",
+    "human",
+    "rate",
+    "language models",
+    "we",
+    "generators",
+    "evaluation",
+    "a template-based generator",
+    "text generation"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.124/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

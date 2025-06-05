@@ -1,0 +1,33 @@
+{
+  "id": "P19-1343",
+  "title": "Improved Sentiment Detection via Label Transfer from Monolingual to Synthetic Code-Switched Text",
+  "authors": [
+    "Samanta, Bidisha  and\nGanguly, Niloy  and\nChakrabarti, Soumen"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Multilingual writers and speakers often alternate between two languages in a single discourse. This practice is called “code-switching”. Existing sentiment detection methods are usually trained on sentiment-labeled monolingual text. Manually labeled code-switched text, especially involving minority languages, is extremely rare. Consequently, the best monolingual methods perform relatively poorly on code-switched text. We present an effective technique for synthesizing labeled code-switched text from labeled monolingual text, which is relatively readily available. The idea is to replace carefully selected subtrees of constituency parses of sentences in the resource-rich language with suitable token spans selected from automatic translations to the resource-poor language. By augmenting the scarce labeled code-switched text with plentiful synthetic labeled code-switched text, we achieve significant improvements in sentiment labeling accuracy (1.5%, 5.11% 7.20%) for three different language pairs (English-Hindi, English-Spanish and English-Bengali). The improvement is even significant in hatespeech detection whereby we achieve a 4% improvement using only synthetic code-switched data (6% with data augmentation).",
+  "keywords": [
+    "code",
+    "sentiment labeling accuracy",
+    "we",
+    "token",
+    "rich",
+    "transfer",
+    "automatic translations",
+    "text",
+    "accuracy",
+    "sentiment",
+    "language",
+    "translations",
+    "writers",
+    "an effective technique",
+    "single"
+  ],
+  "url": "https://aclanthology.org/P19-1343/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:38:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P18-1041",
+  "title": "Baseline Needs More Love: On Simple Word-Embedding-Based Models and Associated Pooling Mechanisms",
+  "authors": [
+    "Shen, Dinghan  and\nWang, Guoyin  and\nWang, Wenlin  and\nMin, Martin Renqiang  and\nSu, Qinliang  and\nZhang, Yizhe  and\nLi, Chunyuan  and\nHenao, Ricardo  and\nCarin, Lawrence"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Many deep learning architectures have been proposed to model thecompositionalityin text sequences, requiring substantial number of parameters and expensive computations. However, there has not been a rigorous evaluation regarding the added value of sophisticated compositional functions. In this paper, we conduct a point-by-point comparative study between Simple Word-Embedding-based Models (SWEMs), consisting of parameter-free pooling operations, relative to word-embedding-based RNN/CNN models. Surprisingly, SWEMs exhibit comparable or even superior performance in the majority of cases considered. Based upon this understanding, we propose two additional pooling strategies over learned word embeddings: (i) a max-pooling operation for improved interpretability; and (ii) a hierarchical pooling operation, which preserves spatial (n-gram) information within text sequences. We present experiments on 17 datasets encompassing three tasks: (i) (long) document classification; (ii) text sequence matching; and (iii) short text tasks, including classification and tagging.",
+  "keywords": [
+    "deep",
+    "a rigorous evaluation",
+    "learned word embeddings",
+    "we",
+    "simple word-embedding-based models",
+    "parameter",
+    "many deep learning architectures",
+    "classification",
+    "cnn",
+    "two additional pooling strategies",
+    "a hierarchical pooling operation",
+    "information",
+    "word",
+    "learning",
+    "sequence"
+  ],
+  "url": "https://aclanthology.org/P18-1041/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:10:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

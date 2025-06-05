@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.76",
+  "title": "F}olk{S}cope: Intention Knowledge Graph Construction for {E}-commerce Commonsense Discovery",
+  "authors": [
+    "Yu, Changlong  and\nWang, Weiqi  and\nLiu, Xin  and\nBai, Jiaxin  and\nSong, Yangqiu  and\nLi, Zheng  and\nGao, Yifan  and\nCao, Tianyu  and\nYin, Bing"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Understanding users’ intentions in e-commerce platforms requires commonsense knowledge. In this paper, we present FolkScope, an intention knowledge graph construction framework, to reveal the structure of humans’ minds about purchasing items. As commonsense knowledge is usually ineffable and not expressed explicitly, it is challenging to perform information extraction. Thus, we propose a new approach that leverages the generation power of large language models (LLMs) and human-in-the-loop annotation to semi-automatically construct the knowledge graph. LLMs first generate intention assertions via e-commerce specific prompts to explain shopping behaviors, where the intention can be an open reason or a predicate falling into one of 18 categories aligning with ConceptNet, e.g., IsA, MadeOf, UsedFor, etc. Then we annotate plausibility and typicality labels of sampled intentions as training data in order to populate human judgments to all automatic generations. Last, to structurize the assertions, we propose pattern mining and conceptualization to form more condensed and abstract knowledge. Extensive evaluations and study demonstrate that our constructed knowledge graph can well model e-commerce knowledge and have many potential applications.",
+  "keywords": [
+    "extraction",
+    "intention knowledge graph construction",
+    "we",
+    "our constructed knowledge graph",
+    "graph",
+    "18 categories",
+    "the generation power",
+    "it",
+    "e-commerce specific prompts",
+    "information",
+    "llms",
+    "categories",
+    "the knowledge graph llms",
+    "all automatic generations",
+    "large language models llms"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.76/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

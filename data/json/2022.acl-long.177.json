@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.177",
+  "title": "E}xt{E}n{D}: Extractive Entity Disambiguation",
+  "authors": [
+    "Barba, Edoardo  and\nProcopio, Luigi  and\nNavigli, Roberto"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Local models for Entity Disambiguation (ED) have today become extremely powerful, in most part thanks to the advent of large pre-trained language models. However, despite their significant performance achievements, most of these approaches frame ED through classification formulations that have intrinsic limitations, both computationally and from a modeling perspective. In contrast with this trend, here we propose ExtEnD, a novel local formulation for ED where we frame this task as a text extraction problem, and present two Transformer-based architectures that implement it. Based on experiments in and out of domain, and training over two different data regimes, we find our approach surpasses all its competitors in terms of both data efficiency and raw performance. ExtEnD outperforms its alternatives by as few as 6 F1 points on the more constrained of the two data regimes and, when moving to the other higher-resourced regime, sets a new state of the art on 4 out of 4 benchmarks under consideration, with average improvements of 0.7 F1 points overall and 1.1 F1 points out of domain. In addition, to gain better insights from our results, we also perform a fine-grained evaluation of our performances on different classes of label frequency, along with an ablation study of our architectural choices and an error analysis. We release our code and models for research purposes athttps://github.com/SapienzaNLP/extend.",
+  "keywords": [
+    "code",
+    "extraction",
+    "efficiency",
+    "we",
+    "training",
+    "classification",
+    "large pre-trained language models",
+    "their significant performance achievements",
+    "it",
+    "classification formulations",
+    "analysis",
+    "0 7 f1 points",
+    "ed",
+    "text",
+    "a fine-grained evaluation"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.177/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.568",
+  "title": "The Grammar-Learning Trajectories of Neural Language Models",
+  "authors": [
+    "Choshen, Leshem  and\nHacohen, Guy  and\nWeinshall, Daphna  and\nAbend, Omri"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The learning trajectories of linguistic phenomena in humans provide insight into linguistic representation, beyond what can be gleaned from inspecting the behavior of an adult speaker. To apply a similar approach to analyze neural language models (NLM), it is first necessary to establish that different models are similar enough in the generalizations they make. In this paper, we show that NLMs with different initialization, architecture, and training data acquire linguistic phenomena in a similar order, despite their different end performance. These findings suggest that there is some mutual inductive bias that underlies these models’ learning of linguistic phenomena. Taking inspiration from psycholinguistics, we argue that studying this inductive bias is an opportunity to study the linguistic representation implicit in NLMs.Leveraging these findings, we compare the relative performance on different phenomena at varying learning stages with simpler reference models. Results suggest that NLMs exhibit consistent “developmental” stages. Moreover, we find the learning trajectory to be approximately one-dimensional: given an NLM with a certain overall performance, it is possible to predict what linguistic generalizations it has already acquired. Initial analysis of these stages presents phenomena clusters (notably morphological ones), whose performance progresses in unison, suggesting a potential link between the generalizations behind them.",
+  "keywords": [
+    "bias",
+    "end",
+    "we",
+    "neural language models",
+    "the grammar-learning trajectories",
+    "training",
+    "generalizations",
+    "the generalizations",
+    "neural",
+    "some mutual inductive bias",
+    "it",
+    "analysis",
+    "dimensional",
+    "reference",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.568/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

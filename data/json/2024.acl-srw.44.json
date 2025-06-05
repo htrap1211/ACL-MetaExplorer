@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-srw.44",
+  "title": "Curriculum Learning for Small Code Language Models",
+  "authors": [
+    "Na{\\\"i}r, Marwa  and\nYamani, Kamel  and\nLhadj, Lynda  and\nBaghdadi, Riyadh"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "Code language models have emerged as useful tools for various programming tasks, yet they often struggle when it comes to complex ones. In this paper, we explore the potential of curriculum learning in enhancing the performance of these models. While prior research has suggested that curriculum learning does not necessarily help in improving the performance of language models, our results surprisingly show that this may not be the case for code language models. We demonstrate that a well-designed curriculum learning approach significantly improves the accuracy of small decoder-only code language models on the task of code execution, while its effect on code completion is less significant. To explore the potential of curriculum learning, we train multiple GPT models with 1 million parameters each to predict the next token and evaluate them on code completion and execution tasks. Our contributions include proposing a novel code difficulty assessment metric by combining software code measures, investigating the effectiveness of Curriculum Learning for code language models, and introducing a Novel Curriculum Learning schedule that enhances the performance of small decoder-only language models in code execution tasks. The results of this paper open the door for more research on the use of curriculum learning for code language models.",
+  "keywords": [
+    "code",
+    "the accuracy",
+    "we",
+    "multiple gpt models",
+    "it",
+    "token",
+    "decoder",
+    "learning",
+    "metric",
+    "language models",
+    "small decoder-only language models",
+    "accuracy",
+    "schedule",
+    "language",
+    "gpt"
+  ],
+  "url": "https://aclanthology.org/2024.acl-srw.44/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:48:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

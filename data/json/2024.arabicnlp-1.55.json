@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.55",
+  "title": "S}ussex{AI} at {A}r{AIE}val Shared Task: Mitigating Class Imbalance in {A}rabic Propaganda Detection",
+  "authors": [
+    "Fouad, Mary  and\nWeeds, Julie"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "In this paper, we are exploring mitigating class imbalancein Arabic propaganda detection. Given amultigenre text which could be a news paragraphor a tweet, the objective is to identify the propagandatechnique employed in the text along withthe exact span(s) where each technique occurs. Weapproach this task as a sequence tagging task. Weutilise AraBERT for sequence classification andimplement data augmentation and random truncationmethods to mitigate the class imbalance withinthe dataset. We demonstrate the importance ofconsidering macro-F1 as well as micro-F1 whenevaluating classifier performance in this scenario.",
+  "keywords": [
+    "val",
+    "random",
+    "classifier",
+    "text",
+    "class",
+    "objective",
+    "the objective",
+    "-",
+    "arabert",
+    "we",
+    "sequence",
+    "micro-f1 whenevaluating classifier performance",
+    "aie",
+    "classification",
+    "a rabic propaganda detection"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.55/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:02:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

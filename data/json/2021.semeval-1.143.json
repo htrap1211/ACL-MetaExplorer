@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.143",
+  "title": "NL}ytics{FKIE} at {S}em{E}val-2021 Task 6: Detection of Persuasion Techniques In Texts And Images",
+  "authors": [
+    "Pritzkau, Albert"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "The following system description presents our approach to the detection of persuasion techniques in texts and images. The given task has been framed as a multi-label classification problem with the different techniques serving as class labels. The multi-label classification problem is one in which a list of target variables such as our class labels is associated with every input chunk and assumes that a document can simultaneously and independently be assigned to multiple labels or classes. In order to assign class labels to the given memes, we opted for RoBERTa (A Robustly Optimized BERT Pretraining Approach) as a neural network architecture for token and sequence classification. Starting off with a pre-trained model for language representation we fine-tuned this model on the given classification task with the provided annotated data in supervised training steps. To incorporate image features in the multi-modal setting, we rely on the pre-trained VGG-16 model architecture.",
+  "keywords": [
+    "a neural network architecture",
+    "roberta",
+    "nl ytics fkie",
+    "token and sequence classification",
+    "we",
+    "training",
+    "classification",
+    "neural",
+    "token",
+    "fkie",
+    "e",
+    "bert",
+    "the multi-label classification problem",
+    "a multi-label classification problem",
+    "the given classification task"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.143/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

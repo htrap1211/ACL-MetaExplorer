@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.180",
+  "title": "Phoneme transcription of endangered languages: an evaluation of recent {ASR} architectures in the single speaker scenario",
+  "authors": [
+    "Boulianne, Gilles"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Transcription is often reported as the bottleneck in endangered language documentation, requiring large efforts from scarce speakers and transcribers. In general, automatic speech recognition (ASR) can be accurate enough to accelerate transcription only if trained on large amounts of transcribed data. However, when a single speaker is involved, several studies have reported encouraging results for phonetic transcription even with small amounts of training. Here we expand this body of work on speaker-dependent transcription by comparing four ASR approaches, notably recent transformer and pretrained multilingual models, on a common dataset of 11 languages. To automate data preparation, training and evaluation steps, we also developed a phoneme recognition setup which handles morphologically complex languages and writing systems for which no pronunciation dictionary exists. We find that fine-tuning a multilingual pretrained model yields an average phoneme error rate (PER) of 15% for 6 languages with 99 minutes or less of transcribed data for training. For the 5 languages with between 100 and 192 minutes of training, we achieved a PER of 8.4% or less. These results on a number of varied languages suggest that ASR can now significantly reduce transcription efforts in the speaker-dependent situation common in endangered language work.",
+  "keywords": [
+    "varied",
+    "rate",
+    "we",
+    "evaluation steps",
+    "training",
+    "varied languages",
+    "several studies",
+    "an evaluation",
+    "notably recent transformer",
+    "fine",
+    "work",
+    "transformer",
+    "general",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.180/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

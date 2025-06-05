@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.28",
+  "title": "Towards Comprehensive Patent Approval Predictions:Beyond Traditional Document Classification",
+  "authors": [
+    "Gao, Xiaochen  and\nHou, Zhaoyi  and\nNing, Yifei  and\nZhao, Kewen  and\nHe, Beilei  and\nShang, Jingbo  and\nKrishnan, Vish"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Predicting the approval chance of a patent application is a challenging problem involving multiple facets. The most crucial facet is arguably the novelty —35 U.S. Code § 102rejects more recent applications that have very similar prior arts. Such novelty evaluations differ the patent approval prediction from conventional document classification — Successful patent applications may share similar writing patterns; however, too-similar newer applications would receive the opposite label, thus confusing standard document classifiers (e.g., BERT). To address this issue, we propose a novel framework that unifies the document classifier with handcrafted features, particularly time-dependent novelty scores. Specifically, we formulate the novelty scores by comparing each application with millions of prior arts using a hybrid of efficient filters and a neural bi-encoder. Moreover, we impose a new regularization term into the classification objective to enforce the monotonic change of approval prediction w.r.t. novelty scores. From extensive experiments on a large-scale USPTO dataset, we find that standard BERT fine-tuning can partially learn the correct relationship between novelty and approvals from inconsistent data. However, our time-dependent novelty features offer a boost on top of it. Also, our monotonic regularization, while shrinking the search space, can drive the optimizer to better local optima, yielding a further small performance gain.",
+  "keywords": [
+    "code",
+    "top",
+    "classifier",
+    "efficient",
+    "classifiers",
+    "we",
+    "classification",
+    "neural",
+    "it",
+    "boost",
+    "a new regularization term",
+    "tuning",
+    "the classification objective",
+    "standard bert fine-tuning",
+    "bert"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.28/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:24:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

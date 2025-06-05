@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.207",
+  "title": "Long Time No See! Open-Domain Conversation with Long-Term Persona Memory",
+  "authors": [
+    "Xu, Xinchao  and\nGou, Zhibin  and\nWu, Wenquan  and\nNiu, Zheng-Yu  and\nWu, Hua  and\nWang, Haifeng  and\nWang, Shihang"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Most of the open-domain dialogue models tend to perform poorly in the setting of long-term human-bot conversations. The possible reason is that they lack the capability of understanding and memorizing long-term dialogue history information. To address this issue, we present a novel task of Long-term Memory Conversation (LeMon) and then build a new dialogue dataset DuLeMon and a dialogue generation framework with Long-Term Memory (LTM) mechanism (called PLATO-LTM). This LTM mechanism enables our system to accurately extract and continuously update long-term persona memory without requiring multiple-session dialogue datasets for model training. To our knowledge, this is the first attempt to conduct real-time dynamic management of persona information of both parties, including the user and the bot. Results on DuLeMon indicate that PLATO-LTM can significantly outperform baselines in terms of long-term dialogue consistency, leading to better dialogue engagingness.",
+  "keywords": [
+    "conversations",
+    "we",
+    "dialogue",
+    "parties",
+    "both parties",
+    "training",
+    "information",
+    "long-term memory conversation lemon",
+    "the open-domain dialogue models",
+    "long-term human-bot conversations",
+    "long-term dialogue consistency",
+    "multiple-session dialogue datasets",
+    "bot",
+    "knowledge",
+    "open-domain conversation"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.207/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.464",
+  "title": "A Token-level Reference-free Hallucination Detection Benchmark for Free-form Text Generation",
+  "authors": [
+    "Liu, Tianyu  and\nZhang, Yizhe  and\nBrockett, Chris  and\nMao, Yi  and\nSui, Zhifang  and\nChen, Weizhu  and\nDolan, Bill"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large pretrained generative models like GPT-3 often suffer from hallucinating non-existent or incorrect content, which undermines their potential merits in real applications. Existing work usually attempts to detect these hallucinations based on a corresponding oracle reference at a sentence or document level. However ground-truth references may not be readily available for many free-form text generation applications, and sentence- or document-level detection may fail to provide the fine-grained signals that would prevent fallacious content in real time. As a first step to addressing these issues, we propose a novel token-level, reference-free hallucination detection task and an associated annotated dataset named HaDeS (HAllucination DEtection dataSet). To create this dataset, we first perturb a large number of text segments extracted from English language Wikipedia, and then verify these with crowd-sourced annotations. To mitigate label imbalance during annotation, we utilize an iterative model-in-loop strategy. We conduct comprehensive data analyses and create multiple baseline models.",
+  "keywords": [
+    "form",
+    "we",
+    "token",
+    "gpt-3",
+    "generative",
+    "text",
+    "work",
+    "reference",
+    "generation",
+    "language",
+    "model",
+    "time",
+    "a large number",
+    "crowd-sourced annotations",
+    "real applications"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.464/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:30:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

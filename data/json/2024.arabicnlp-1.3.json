@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.3",
+  "title": "A}u{RED}: Enabling {A}rabic Rumor Verification using Evidence from Authorities over {T}witter",
+  "authors": [
+    "Haouari, Fatima  and\nElsayed, Tamer  and\nSuwaileh, Reem"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "Diverging from the trend of the previous rumor verification studies, we introduce the new task of rumor verification using evidence that are exclusively captured from authorities, i.e., entities holding the right and knowledge to verify corresponding information. To enable research on this task for Arabic low-resourced language, we construct and release the first Authority-Rumor-Evidence Dataset (AuRED). The dataset comprises 160 rumors expressed in tweets and 692 Twitter timelines of authorities containing about 34k tweets. Additionally, we explore how existing evidence retrieval and claim verification models for fact-checking perform on our task under both the cross-lingual zero-shot and in-domain fine-tuning setups. Our experiments show that although evidence retrieval models perform relatively well on the task establishing strong baselines, there is still a big room for improvement. However, existing claim verification models perform poorly on the task no matter how good the retrieval performance is. The results also show that stance detection can be useful for evidence retrieval. Moreover, existing fact-checking datasets showed a potential in transfer learning to our task, however, further investigation using different datasets and setups is required.",
+  "keywords": [
+    "the retrieval performance",
+    "we",
+    "shot",
+    "cross",
+    "red",
+    "i e entities",
+    "authorities",
+    "retrieval",
+    "information",
+    "transfer",
+    "tuning",
+    "fine",
+    "how existing evidence retrieval",
+    "knowledge",
+    "evidence retrieval"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:02:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

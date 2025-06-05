@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.154",
+  "title": "Knowledge Crosswords: Geometric Knowledge Reasoning with Large Language Models",
+  "authors": [
+    "Ding, Wenxuan  and\nFeng, Shangbin  and\nLiu, Yuhan  and\nTan, Zhaoxuan  and\nBalachandran, Vidhisha  and\nHe, Tianxing  and\nTsvetkov, Yulia"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "We propose Knowledge Crosswords, a geometric knowledge reasoning benchmark consisting of incomplete knowledge networks bounded by structured factual constraints, where LLMs are tasked with inferring the missing facts to meet all constraints. The novel setting of geometric knowledge reasoning necessitates new LM abilities beyond existing atomic/linear multi-hop QA, such as backtracking, verifying facts and constraints, reasoning with uncertainty, and more. Knowledge Crosswords contains 2,101 individual problems, covering diverse knowledge domains, and is further divided into three difficulty levels. We conduct extensive experiments to evaluate existing LLMs and approaches on Knowledge Crosswords. Results demonstrate that baseline approaches struggle with larger knowledge networks and semantically-equivalent entity distractors. In light of their limitations, we propose two new approaches, Staged Prompting and Verify-All, to augment LLMs’ abilities for error-aware backtracking and constraint verification. Our Verify-All significantly outperforms prior methods and is more robust towards problems in the hard subset. Further analysis shows that geometric knowledge reasoning poses new challenges to LLMs’ knowledge abilities, particularly in robustness towards varying option orders, complex structural constraints in knowledge networks, “none of the above” scenarios, and more.",
+  "keywords": [
+    "all",
+    "we",
+    "semantically-equivalent entity distractors",
+    "analysis",
+    "llms",
+    "abilities",
+    "new lm abilities",
+    "existing llms",
+    "knowledge",
+    "language",
+    "large language models",
+    "knowledge abilities",
+    "llms abilities",
+    "entity",
+    "verifying"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.154/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:50:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

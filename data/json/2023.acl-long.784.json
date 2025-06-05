@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.784",
+  "title": "QUEST}: A Retrieval Dataset of Entity-Seeking Queries with Implicit Set Operations",
+  "authors": [
+    "Malaviya, Chaitanya  and\nShaw, Peter  and\nChang, Ming-Wei  and\nLee, Kenton  and\nToutanova, Kristina"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Formulating selective information needs results in queries that implicitly specify set operations, such as intersection, union, and difference. For instance, one might search for “shorebirds that are not sandpipers” or “science-fiction films shot in England”. To study the ability of retrieval systems to meet such information needs, we construct QUEST, a dataset of 3357 natural language queries with implicit set operations, that map to a set of entities corresponding to Wikipedia documents. The dataset challenges models to match multiple constraints mentioned in queries with corresponding evidence in documents and correctly perform various set operations. The dataset is constructed semi-automatically using Wikipedia category names. Queries are automatically composed from individual categories, then paraphrased and further validated for naturalness and fluency by crowdworkers. Crowdworkers also assess the relevance of entities based on their documents and highlight attribution of query constraints to spans of document text. We analyze several modern retrieval systems, finding that they often struggle on such queries. Queries involving negation and conjunction are particularly challenging and systems are further challenged with combinations of these operations.",
+  "keywords": [
+    "individual categories",
+    "we",
+    "wikipedia category names queries",
+    "natural",
+    "queries",
+    "retrieval",
+    "such queries queries",
+    "information",
+    "science",
+    "entity-seeking queries",
+    "categories",
+    "science-fiction films",
+    "text",
+    "several modern retrieval systems",
+    "retrieval systems"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.784/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:46:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

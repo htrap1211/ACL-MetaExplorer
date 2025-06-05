@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.748",
+  "title": "A Generate-and-Rank Framework with Semantic Type Regularization for Biomedical Concept Normalization",
+  "authors": [
+    "Xu, Dongfang  and\nZhang, Zeyu  and\nBethard, Steven"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Concept normalization, the task of linking textual mentions of concepts to concepts in an ontology, is challenging because ontologies are large. In most cases, annotated datasets cover only a small sample of the concepts, yet concept normalizers are expected to predict all concepts in the ontology. In this paper, we propose an architecture consisting of a candidate generator and a list-wise ranker based on BERT. The ranker considers pairings of concept mentions and candidate concepts, allowing it to make predictions for any concept, not just those seen during training. We further enhance this list-wise approach with a semantic type regularizer that allows the model to incorporate semantic type information from the ontology during training. Our proposed concept normalization framework achieves state-of-the-art performance on multiple datasets.",
+  "keywords": [
+    "normalization",
+    "semantic type information",
+    "ontologies",
+    "bert",
+    "model",
+    "it",
+    "semantic type regularization",
+    "a semantic type regularizer",
+    "an ontology",
+    "regularization",
+    "information",
+    "the ontology",
+    "generator",
+    "semantic",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.748/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:52:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

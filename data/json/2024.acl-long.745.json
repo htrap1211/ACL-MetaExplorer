@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.745",
+  "title": "LLM}-Rubric: A Multidimensional, Calibrated Approach to Automated Evaluation of Natural Language Texts",
+  "authors": [
+    "Hashemi, Helia  and\nEisner, Jason  and\nRosset, Corby  and\nVan Durme, Benjamin  and\nKedzie, Chris"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "This paper introduces a framework for the automated evaluation of natural language texts. A manually constructed rubric describes how to assess multiple dimensions of interest. To evaluate a text, a large language model (LLM) is prompted with each rubric question and produces a distribution over potential responses. The LLM predictions often fail to agree well with human judges—indeed, the humans do not fully agree with one another. However, the multiple LLM distributions can be _combined_ to _predict_ each human judge’s annotations on all questions, including a summary question that assesses overall quality or relevance. LLM-Rubric accomplishes this by training a small feed-forward neural network that includes both judge-specific and judge-independent parameters. When evaluating dialogue systems in a human-AI information-seeking task, we find that LLM-Rubric with 9 questions (assessing dimensions such as naturalness, conciseness, and citation quality) predicts human judges’ assessment of overall user satisfaction, on a scale of 1–4, with RMS error < 0.5, a 2× improvement over the uncalibrated baseline.",
+  "keywords": [
+    "question",
+    "we",
+    "dialogue",
+    "the multiple llm distributions",
+    "llm",
+    "neural",
+    "natural",
+    "dialogue systems",
+    "information",
+    "feed",
+    "text",
+    "the automated evaluation",
+    "the llm predictions",
+    "a large language model",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.745/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:44:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

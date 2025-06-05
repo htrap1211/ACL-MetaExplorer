@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.528",
+  "title": "I}nter-{GPS}: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning",
+  "authors": [
+    "Lu, Pan  and\nGong, Ran  and\nJiang, Shibiao  and\nQiu, Liang  and\nHuang, Siyuan  and\nLiang, Xiaodan  and\nZhu, Song-Chun"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Geometry problem solving has attracted much attention in the NLP community recently. The task is challenging as it requires abstract problem understanding and symbolic reasoning with axiomatic knowledge. However, current datasets are either small in scale or not publicly available. Thus, we construct a new large-scale benchmark, Geometry3K, consisting of 3,002 geometry problems with dense annotation in formal language. We further propose a novel geometry solving approach with formal language and symbolic reasoning, called Interpretable Geometry Problem Solver (Inter-GPS). Inter-GPS first parses the problem text and diagram into formal language automatically via rule-based text parsing and neural object detecting, respectively. Unlike implicit learning in existing methods, Inter-GPS incorporates theorem knowledge as conditional rules and performs symbolic reasoning step by step. Also, a theorem predictor is designed to infer the theorem application sequence fed to the symbolic solver for the more efficient and reasonable searching path. Extensive experiments on the Geometry3K and GEOS datasets demonstrate that Inter-GPS achieves significant improvements over existing methods. The project with code and data is available athttps://lupantech.github.io/inter-gps.",
+  "keywords": [
+    "much attention",
+    "code",
+    "parsing",
+    "efficient",
+    "the nlp community",
+    "we",
+    "current",
+    "neural",
+    "it",
+    "rule-based text parsing",
+    "learning",
+    "sequence",
+    "i",
+    "object",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.528/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

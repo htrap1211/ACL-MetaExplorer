@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.458",
+  "title": "Improving Retrieval Augmented Open-Domain Question-Answering with Vectorized Contexts",
+  "authors": [
+    "Chen, Zhuo  and\nWang, Xinyu  and\nJiang, Yong  and\nXie, Pengjun  and\nHuang, Fei  and\nTu, Kewei"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "In the era of large language models, applying techniques such as Retrieval Augmented Generation can better address Open-Domain Question-Answering problems. Due to constraints including model sizes and computing resources, the length of context is often limited, and it becomes challenging to empower the model to cover overlong contexts while answering questions from open domains. This paper proposes a general and convenient method to cover longer contexts in Open-Domain Question-Answering tasks. %It leverages a small encoder language model that effectively encodes contexts, and the encoding applies cross-attention with origin inputs.It leverages a small encoder and cross-attention mechanism and effectively encodes contexts. With our method, the original language models can cover several times longer contexts while keeping the computing requirements close to the baseline. Our experiments demonstrate that after fine-tuning, there is improved performance across two held-in datasets, four held-out datasets, and also in two In Context Learning settings. Our code will be released at https://github.com/Alibaba-NLP/Vec-RA-ODQA.",
+  "keywords": [
+    "code",
+    "ra",
+    "question",
+    "era",
+    "fine-tuning",
+    "cross",
+    "vec",
+    "it",
+    "the original language models",
+    "retrieval",
+    "cross-attention mechanism",
+    "convenient",
+    "vectorized",
+    "a small encoder",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.458/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

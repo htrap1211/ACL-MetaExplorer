@@ -1,0 +1,33 @@
+{
+  "id": "P19-1122",
+  "title": "Syntactically Supervised Transformers for Faster Neural Machine Translation",
+  "authors": [
+    "Akoury, Nader  and\nKrishna, Kalpesh  and\nIyyer, Mohit"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Standard decoders for neural machine translation autoregressively generate a single target token per timestep, which slows inference especially for long outputs. While architectural advances such as the Transformer fully parallelize the decoder computations at training time, inference still proceeds sequentially. Recent developments in non- and semi-autoregressive decoding produce multiple tokens per timestep independently of the others, which improves inference speed but deteriorates translation quality. In this work, we propose the syntactically supervised Transformer (SynST), which first autoregressively predicts a chunked parse tree before generating all of the target tokens in one shot conditioned on the predicted parse. A series of controlled experiments demonstrates that SynST decodes sentences ~5x faster than the baseline autoregressive Transformer while achieving higher BLEU scores than most competing methods on En-De and En-Fr datasets.",
+  "keywords": [
+    "higher bleu scores",
+    "work",
+    "transformer",
+    "a series",
+    "transformers",
+    "syntactically supervised transformers",
+    "neural",
+    "machine",
+    "the decoder computations",
+    "neural machine translation",
+    "series",
+    "bleu",
+    "decoder",
+    "translation quality",
+    "the transformer"
+  ],
+  "url": "https://aclanthology.org/P19-1122/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:32:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

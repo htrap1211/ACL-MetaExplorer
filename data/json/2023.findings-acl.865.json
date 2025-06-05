@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.865",
+  "title": "RISE}: Leveraging Retrieval Techniques for Summarization Evaluation",
+  "authors": [
+    "Uthus, David  and\nNi, Jianmo"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Evaluating automatically-generated text summaries is a challenging task. While there have been many interesting approaches, they still fall short of human evaluations. We present RISE, a new approach for evaluating summaries by leveraging techniques from information retrieval. RISE is first trained as a retrieval task using a dual-encoder retrieval setup, and can then be subsequently utilized for evaluating a generated summary given an input document, without gold reference summaries. RISE is especially well suited when working on new datasets where one may not have reference summaries available for evaluation. We conduct comprehensive experiments on the SummEval benchmark (Fabbri et al., 2021) and a long document summarization benchmark. The results show that RISE consistently achieves higher correlation with human evaluations compared to many past approaches to summarization evaluation. Furthermore, RISE also demonstrates data-efficiency and generalizability across languages.",
+  "keywords": [
+    "reference",
+    "summaries",
+    "information retrieval rise",
+    "reference summaries",
+    "text",
+    "human",
+    "evaluations",
+    "encoder",
+    "retrieval",
+    "automatically-generated text summaries",
+    "information",
+    "summarization evaluation",
+    "efficiency",
+    "a dual-encoder retrieval setup",
+    "summarization"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.865/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

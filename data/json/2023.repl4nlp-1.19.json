@@ -1,0 +1,33 @@
+{
+  "id": "2023.repl4nlp-1.19",
+  "title": "Effectiveness of Data Augmentation for Parameter Efficient Tuning with Limited Data",
+  "authors": [
+    "Obadinma, Stephen  and\nGuo, Hongyu  and\nZhu, Xiaodan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 8th Workshop on Representation Learning for NLP (RepL4NLP 2023)",
+  "abstract": "Recent work has demonstrated that using parameter efficient tuning techniques such as prefix tuning (or P-tuning) on pretrained language models can yield performance that is comparable or superior to fine-tuning while dramatically reducing trainable parameters. Nevertheless, the effectiveness of such methods under the context of data augmentation, a common strategy to improve learning under low data regimes, has not been fully explored. In this paper, we examine the effectiveness of several popular task-agnostic data augmentation techniques, i.e., EDA, Back Translation, and Mixup, when using two general parameter efficient tuning methods, P-tuning v2 and LoRA, under data scarcity. We show that data augmentation can be used to boost the performance of P-tuning and LoRA models, but the effectiveness of each technique varies and certain methods can lead to a notable degradation in performance, particularly when using larger models and on harder tasks. We further analyze the sentence representations of P-tuning compared to fine-tuning to help understand the above behaviour, and reveal how P-tuning generally presents a more limited ability to separate the sentence embeddings from different classes of augmented data. In addition, it displays poorer performance on heavily altered data. However, we demonstrate that by adding a simple contrastive loss function it can help mitigate such issues for prefix tuning, resulting in sizable improvements to augmented data performance.",
+  "keywords": [
+    "efficient",
+    "we",
+    "parameter efficient tuning",
+    "parameter",
+    "translation",
+    "fine-tuning",
+    "it",
+    "loss",
+    "tuning",
+    "function",
+    "work",
+    "embeddings",
+    "general",
+    "language",
+    "parameter efficient tuning techniques"
+  ],
+  "url": "https://aclanthology.org/2023.repl4nlp-1.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

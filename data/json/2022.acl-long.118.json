@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.118",
+  "title": "DYLE}: Dynamic Latent Extraction for Abstractive Long-Input Summarization",
+  "authors": [
+    "Mao, Ziming  and\nWu, Chen Henry  and\nNi, Ansong  and\nZhang, Yusen  and\nZhang, Rui  and\nYu, Tao  and\nDeb, Budhaditya  and\nZhu, Chenguang  and\nAwadallah, Ahmed  and\nRadev, Dragomir"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Transformer-based models have achieved state-of-the-art performance on short-input summarization. However, they still struggle with summarizing longer text. In this paper, we present DYLE, a novel dynamic latent extraction approach for abstractive long-input summarization. DYLE jointly trains an extractor and a generator and treats the extracted text snippets as the latent variable, allowing dynamic snippet-level attention weights during decoding. To provide adequate supervision, we propose simple yet effective heuristics for oracle extraction as well as a consistency loss term, which encourages the extractor to approximate the averaged dynamic weights predicted by the generator. We evaluate our method on different long-document and long-dialogue summarization tasks: GovReport, QMSum, and arXiv. Experiment results show that DYLE outperforms all existing methods on GovReport and QMSum, with gains up to 6.1 ROUGE, while yielding strong results on arXiv. Further analysis shows that the proposed dynamic weights provide interpretability of our generation process.",
+  "keywords": [
+    "extraction",
+    "summarization",
+    "we",
+    "dynamic snippet-level attention weights",
+    "dialogue",
+    "short-input summarization",
+    "the generator",
+    "loss",
+    "latent",
+    "analysis",
+    "text",
+    "our generation process",
+    "rouge",
+    "transformer",
+    "process"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.118/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

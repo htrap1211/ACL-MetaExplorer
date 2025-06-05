@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.244",
+  "title": "On Efficiently Representing Regular Languages as {RNN}s",
+  "authors": [
+    "Svete, Anej  and\nChan, Robin  and\nCotterell, Ryan"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Recent work by Hewitt et al. (2020) provides an interpretation of the empirical success of recurrent neural networks (RNNs) as language models (LMs). It shows that RNNs can efficiently represent bounded hierarchical structures that are prevalent in human language.This suggests that RNNs’ success might be linked to their ability to model hierarchy. However, a closer inspection of hewitt-etal-2020-rnns construction shows that it is not inherently limited to hierarchical structures. This poses a natural question: What other classes of LMs RNNs can efficiently represent? To this end, we generalize Hewitt et al.’s (2020) construction and show that RNNs can efficiently represent a larger class of LMs than previously claimed—specifically, those that can be represented by a pushdown automaton with a bounded stack and a specific stack update function. Altogether, the efficiency of representing this diverse class of LMs with RNN LMs suggests novel interpretations of their inductive bias.",
+  "keywords": [
+    "bias",
+    "end",
+    "al",
+    "rnns",
+    "question",
+    "efficiency",
+    "we",
+    "bounded hierarchical structures",
+    "neural",
+    "natural",
+    "it",
+    "the efficiency",
+    "recurrent",
+    "recurrent neural networks rnns",
+    "et"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.244/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.669",
+  "title": "Generalizing Backpropagation for Gradient-Based Interpretability",
+  "authors": [
+    "Du, Kevin  and\nTorroba Hennigen, Lucas  and\nStoehr, Niklas  and\nWarstadt, Alex  and\nCotterell, Ryan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Many popular feature-attribution methods for interpreting deep neural networks rely on computing the gradients of a model’s output with respect to its inputs. While these methods can indicate which input features may be important for the model’s prediction, they reveal little about the inner workings of the model itself. In this paper, we observe that the gradient computation of a model is a special case of a more general formulation using semirings. This observation allows us to generalize the backpropagation algorithm to efficiently compute other interpretable statistics about the gradient graph of a neural network, such as the highest-weighted path and entropy. We implement this generalized algorithm, evaluate it on synthetic datasets to better understand the statistics it computes, and apply it to study BERT’s behavior on the subject–verb number agreement task (SVA). With this method, we (a) validate that the amount of gradient flow through a component of a model reflects its importance to a prediction and (b) for SVA, identify which pathways of the self-attention mechanism are most important.",
+  "keywords": [
+    "deep",
+    "generalized",
+    "deep neural networks",
+    "the backpropagation algorithm",
+    "the self-attention mechanism",
+    "the gradient computation",
+    "we",
+    "the gradient graph",
+    "graph",
+    "the inner workings",
+    "neural",
+    "it",
+    "self",
+    "bert s behavior",
+    "inner"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.669/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:44:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

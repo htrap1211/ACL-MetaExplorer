@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.120",
+  "title": "Capture Human Disagreement Distributions by Calibrated Networks for Natural Language Inference",
+  "authors": [
+    "Wang, Yuxia  and\nWang, Minghan  and\nChen, Yimeng  and\nTao, Shimin  and\nGuo, Jiaxin  and\nSu, Chang  and\nZhang, Min  and\nYang, Hao"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Natural Language Inference (NLI) datasets contain examples with highly ambiguous labels due to its subjectivity. Several recent efforts have been made to acknowledge and embrace the existence of ambiguity, and explore how to capture the human disagreement distribution. In contrast with directly learning from gold ambiguity labels, relying on special resource, we argue that the model has naturally captured the human ambiguity distribution as long as it’s calibrated, i.e. the predictive probability can reflect the true correctness likelihood. Our experiments show that when model is well-calibrated, either by label smoothing or temperature scaling, it can obtain competitive performance as prior work, on both divergence scores between predictive probability and the true human opinion distribution, and the accuracy. This reveals the overhead of collecting gold ambiguity labels can be cut, by broadly solving how to calibrate the NLI network.",
+  "keywords": [
+    "work",
+    "the accuracy",
+    "accuracy",
+    "i",
+    "language",
+    "natural",
+    "model",
+    "it",
+    "human",
+    "network",
+    "we",
+    "this",
+    "the true correctness",
+    "correctness",
+    "special resource"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.120/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

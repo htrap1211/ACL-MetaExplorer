@@ -1,0 +1,33 @@
+{
+  "id": "P19-1081",
+  "title": "O}pen{D}ial{KG}: Explainable Conversational Reasoning with Attention-based Walks over Knowledge Graphs",
+  "authors": [
+    "Moon, Seungwhan  and\nShah, Pararth  and\nKumar, Anuj  and\nSubba, Rajen"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We study a conversational reasoning model that strategically traverses through a large-scale common fact knowledge graph (KG) to introduce engaging and contextually diverse entities and attributes. For this study, we collect a new Open-ended Dialog <-> KG parallel corpus called OpenDialKG, where each utterance from 15K human-to-human role-playing dialogs is manually annotated with ground-truth reference to corresponding entities and paths from a large-scale KG with 1M+ facts. We then propose the DialKG Walker model that learns the symbolic transitions of dialog contexts as structured traversals over KG, and predicts natural entities to introduce given previous dialog contexts via a novel domain-agnostic, attention-based graph path decoder. Automatic and human evaluations show that our model can retrieve more natural and human-like responses than the state-of-the-art baselines or rule-based models, in both in-domain and cross-domain tasks. The proposed model also generates a KG walk path for each entity retrieved, providing a natural way to explain conversational reasoning.",
+  "keywords": [
+    "dialkg",
+    "the dialkg walker model",
+    "we",
+    "opendialkg",
+    "corresponding entities",
+    "graph",
+    "cross",
+    "ial",
+    "natural",
+    "automatic and human evaluations",
+    "decoder",
+    "knowledge graphs",
+    "conversational reasoning",
+    "a large-scale kg",
+    "a kg walk path"
+  ],
+  "url": "https://aclanthology.org/P19-1081/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:31:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

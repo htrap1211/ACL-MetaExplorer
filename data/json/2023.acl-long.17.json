@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.17",
+  "title": "Retrieve-and-Sample: Document-level Event Argument Extraction via Hybrid Retrieval Augmentation",
+  "authors": [
+    "Ren, Yubing  and\nCao, Yanan  and\nGuo, Ping  and\nFang, Fang  and\nMa, Wei  and\nLin, Zheng"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent studies have shown the effectiveness of retrieval augmentation in many generative NLP tasks. These retrieval-augmented methods allow models to explicitly acquire prior external knowledge in a non-parametric manner and regard the retrieved reference instances as cues to augment text generation. These methods use similarity-based retrieval, which is based on a simple hypothesis: the more the retrieved demonstration resembles the original input, the more likely the demonstration label resembles the input label. However, due to the complexity of event labels and sparsity of event arguments, this hypothesis does not always hold in document-level EAE. This raises an interesting question: How do we design the retrieval strategy for document-level EAE? We investigate various retrieval settings from the input and label distribution views in this paper. We further augment document-level EAE with pseudo demonstrations sampled from event semantic regions that can cover adequate alternatives in the same context and event schema. Through extensive experiments on RAMS and WikiEvents, we demonstrate the validity of our newly introduced retrieval-augmented methods and analyze why they work.",
+  "keywords": [
+    "hybrid retrieval augmentation",
+    "extraction",
+    "retrieve",
+    "the retrieved demonstration",
+    "question",
+    "semantic",
+    "we",
+    "text generation",
+    "retrieval augmentation",
+    "the retrieval strategy",
+    "many generative nlp tasks",
+    "these retrieval-augmented methods",
+    "event semantic regions",
+    "retrieval",
+    "views"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:35:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

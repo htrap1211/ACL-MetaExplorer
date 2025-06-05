@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.74",
+  "title": "SINAI} at {B}io{L}ay{S}umm: Self-Play Fine-Tuning of Large Language Models for Biomedical Lay Summarisation",
+  "authors": [
+    "Chizhikova, Mariia  and\nD{\\'i}az-Galiano, Manuel Carlos  and\nUre{\\~n}a-L{\\'o}pez, L. Alfonso  and\nMart{\\'i}n-Valdivia, Mar{\\'i}a-Teresa"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "An effective disclosure of scientific knowledge and advancements to the general public is often hindered by the complexity of the technical language used in research which often results very difficult, if not impossible, for non-experts to understand. In this paper we present the approach developed by the SINAI team as the result of our participation in BioLaySumm shared task hosted by the BioNLP workshop at ACL 2024. Our approach stems from the experimentation we performed in order to test the ability of state-of-the-art pre-trained large language models, namely GPT 3.5, GPT 4 and Llama-3, to tackle this task in a few-shot manner. In order to improve this baseline, we opted for fine-tuning Llama-3 by applying parameter-efficient methodologies. The best performing system which resulted from applying self-play fine tuning method which allows the model to improve while learning to distinguish between its own generations from the previous step from the gold standard summaries. This approach achieved 0.4205 ROUGE-1 score and 0.8583 BERTScore.",
+  "keywords": [
+    "efficient",
+    "4205 rouge-1 score",
+    "we",
+    "shot",
+    "parameter",
+    "bertscore",
+    "the general public",
+    "a few-shot manner",
+    "self",
+    "scientific",
+    "manner",
+    "tuning",
+    "3 5 gpt",
+    "bionlp",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.74/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

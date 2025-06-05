@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.483",
+  "title": "Contextualizing Hate Speech Classifiers with Post-hoc Explanation",
+  "authors": [
+    "Kennedy, Brendan  and\nJin, Xisen  and\nMostafazadeh Davani, Aida  and\nDehghani, Morteza  and\nRen, Xiang"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Hate speech classifiers trained on imbalanced datasets struggle to determine if group identifiers like “gay” or “black” are used in offensive or prejudiced ways. Such biases manifest in false positives when these identifiers are present, due to models’ inability to learn the contexts which constitute a hateful usage of identifiers. We extract post-hoc explanations from fine-tuned BERT classifiers to detect bias towards identity terms. Then, we propose a novel regularization technique based on these explanations that encourages models to learn from the context of group identifiers in addition to the identifiers themselves. Our approach improved over baselines in limiting false positives on out-of-domain data while maintaining and in cases improving in-domain performance.",
+  "keywords": [
+    "these identifiers",
+    "bias",
+    "contextualizing hate speech classifiers",
+    "the identifiers",
+    "bert",
+    "identifiers",
+    "classifiers",
+    "such biases",
+    "regularization",
+    "fine-tuned bert classifiers",
+    "we",
+    "group identifiers",
+    "a novel regularization technique",
+    "biases",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.483/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:48:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

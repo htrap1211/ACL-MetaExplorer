@@ -1,0 +1,33 @@
+{
+  "id": "2024.ml4al-1.16",
+  "title": "``Gotta catch `em all!'': Retrieving people in {A}ncient {G}reek texts combining transformer models and domain knowledge",
+  "authors": [
+    "Beersmans, Marijke  and\nKeersmaekers, Alek  and\nde Graaf, Evelien  and\nVan de Cruys, Tim  and\nDepauw, Mark  and\nFantoli, Margherita"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Machine Learning for Ancient Languages (ML4AL 2024)",
+  "abstract": "In this paper, we present a study of transformer-based Named Entity Recognition (NER) as applied to Ancient Greek texts, with an emphasis on retrieving personal names. Recent research shows that, while the task remains difficult, the use of transformer models results in significant improvements. We, therefore, compare the performance of four transformer models on the task of NER for the categories of people, locations and groups, and add an out-of-domain test set to the existing datasets. Results on this set highlight the shortcomings of the models when confronted with a random sample of sentences. To be able to more straightforwardly integrate domain and linguistic knowledge to improve performance, we narrow down our approach to the category of people. The task is simplified to a binary PERS/MISC classification on the token level, starting from capitalised words. Next, we test the use of domain and linguistic knowledge to improve the results. We find that including simple gazetteer information as a binary mask has a marginally positive effect on newly annotated data and that treebanks can be used to help identify multi-word individuals if they are scarcely or inconsistently annotated in the available training data. The qualitative error analysis identifies the potential for improvement in both manual annotation and the inclusion of domain and linguistic knowledge in the transformer models.",
+  "keywords": [
+    "ancient",
+    "em",
+    "the categories",
+    "we",
+    "ancient greek texts",
+    "training",
+    "classification",
+    "token",
+    "information",
+    "word",
+    "analysis",
+    "four transformer models",
+    "ner",
+    "transformer models",
+    "categories"
+  ],
+  "url": "https://aclanthology.org/2024.ml4al-1.16/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

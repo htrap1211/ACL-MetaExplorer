@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.698",
+  "title": "Improving Classroom Dialogue Act Recognition from Limited Labeled Data with Self-Supervised Contrastive Learning Classifiers",
+  "authors": [
+    "Kumaran, Vikram  and\nRowe, Jonathan  and\nMott, Bradford  and\nChaturvedi, Snigdha  and\nLester, James"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Recognizing classroom dialogue acts has significant promise for yielding insight into teaching, student learning, and classroom dynamics. However, obtaining K-12 classroom dialogue data with labels is a significant challenge, and therefore, developing data-efficient methods for classroom dialogue act recognition is essential. This work addresses the challenge of classroom dialogue act recognition from limited labeled data using a contrastive learning-based self-supervised approach (SSCon). SSCon uses two independent models that iteratively improve each other’s performance by increasing the accuracy of dialogue act recognition and minimizing the embedding distance between the same dialogue acts. We evaluate the approach on three complementary dialogue act recognition datasets: the TalkMoves dataset (annotated K-12 mathematics lesson transcripts), the DailyDialog dataset (multi-turn daily conversation dialogues), and the Dialogue State Tracking Challenge 2 (DSTC2) dataset (restaurant reservation dialogues). Results indicate that our self-supervised contrastive learning-based model outperforms competitive baseline models when trained with limited examples per dialogue act. Furthermore, SSCon outperforms other few-shot models that require considerably more labeled data.",
+  "keywords": [
+    "the accuracy",
+    "efficient",
+    "classifiers",
+    "we",
+    "dialogue",
+    "shot",
+    "dialogue act",
+    "self-supervised contrastive learning classifiers",
+    "self",
+    "learning",
+    "k-12 classroom dialogue data",
+    "the embedding distance",
+    "data-efficient methods",
+    "other few-shot models",
+    "classroom dialogue act recognition"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.698/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

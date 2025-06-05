@@ -1,0 +1,33 @@
+{
+  "id": "P18-2041",
+  "title": "Obligation and Prohibition Extraction Using Hierarchical {RNN}s",
+  "authors": [
+    "Chalkidis, Ilias  and\nAndroutsopoulos, Ion  and\nMichos, Achilleas"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "We consider the task of detecting contractual obligations and prohibitions. We show that a self-attention mechanism improves the performance of a BILSTM classifier, the previous state of the art for this task, by allowing it to focus on indicative tokens. We also introduce a hierarchical BILSTM, which converts each sentence to an embedding, and processes the sentence embeddings to classify each sentence. Apart from being faster to train, the hierarchical BILSTM outperforms the flat one, even when the latter considers surrounding sentences, because the hierarchical model has a broader discourse view.",
+  "keywords": [
+    "embeddings",
+    "hierarchical",
+    "the hierarchical model",
+    "a broader discourse view",
+    "extraction",
+    "classifier",
+    "model",
+    "a hierarchical bilstm",
+    "it",
+    "bilstm",
+    "the sentence embeddings",
+    "hierarchical rnn",
+    "self",
+    "view",
+    "attention"
+  ],
+  "url": "https://aclanthology.org/P18-2041/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:17:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

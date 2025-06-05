@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.45",
+  "title": "M}eme{M}ind at {A}r{AIE}val Shared Task: Generative Augmentation and Feature Fusion for Multimodal Propaganda Detection in {A}rabic Memes through Advanced Language and Vision Models",
+  "authors": [
+    "Shah, Uzair  and\nBiswas, Md. Rafiul  and\nAgus, Marco  and\nHouseh, Mowafa  and\nZaghouani, Wajdi"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "Detecting propaganda in multimodal content, such as memes, is crucial for combating disinformation on social media. This paper presents a novel approach for the ArAIEval 2024 shared Task 2 on Multimodal Propagandistic Memes Classification, involving text, image, and multimodal classification of Arabic memes. For text classification (Task 2A), we fine-tune state-of-the-art Arabic language models and use ChatGPT4-generated synthetic text for data augmentation. For image classification (Task 2B), we fine-tune ResNet18, EfficientFormerV2, and ConvNeXt-tiny architectures with DALL-E-2-generated synthetic images. For multimodal classification (Task 2C), we combine ConvNeXt-tiny and BERT architectures in a fusion layer to enhance binary classification. Our results show significant performance improvements with data augmentation for text and image classification models and with the fusion layer for multimodal classification. We highlight challenges and opportunities for future research in multimodal propaganda detection in Arabic content, emphasizing the need for robust and adaptable models to combat disinformation.",
+  "keywords": [
+    "the araieval",
+    "opportunities",
+    "eme",
+    "chatgpt4",
+    "binary classification",
+    "image classification task",
+    "layer",
+    "we",
+    "fusion",
+    "text classification task",
+    "dall-e-2-generated synthetic images",
+    "classification",
+    "val",
+    "generative",
+    "bert"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.45/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:02:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

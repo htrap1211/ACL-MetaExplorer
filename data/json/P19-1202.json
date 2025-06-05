@@ -1,0 +1,33 @@
+{
+  "id": "P19-1202",
+  "title": "Learning to Select, Track, and Generate for Data-to-Text",
+  "authors": [
+    "Iso, Hayate  and\nUehara, Yui  and\nIshigaki, Tatsuya  and\nNoji, Hiroshi  and\nAramaki, Eiji  and\nKobayashi, Ichiro  and\nMiyao, Yusuke  and\nOkazaki, Naoaki  and\nTakamura, Hiroya"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We propose a data-to-text generation model with two modules, one for tracking and the other for text generation. Our tracking module selects and keeps track of salient information and memorizes which record has been mentioned. Our generation module generates a summary conditioned on the state of tracking module. Our proposed model is considered to simulate the human-like writing process that gradually selects the information by determining the intermediate variables while writing the summary. In addition, we also explore the effectiveness of the writer information for generations. Experimental results show that our proposed model outperforms existing models in all evaluation metrics even without writer information. Incorporating writer information further improves the performance, contributing to content planning and surface realization.",
+  "keywords": [
+    "process",
+    "generation",
+    "model",
+    "text",
+    "human",
+    "all evaluation metrics",
+    "metrics",
+    "salient",
+    "information",
+    "our generation module",
+    "generations",
+    "we",
+    "evaluation",
+    "salient information",
+    "text generation"
+  ],
+  "url": "https://aclanthology.org/P19-1202/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:34:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

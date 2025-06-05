@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.86",
+  "title": "KI}n{ITV}era{AI} at {S}em{E}val-2023 Task 3: Simple yet Powerful Multilingual Fine-Tuning for Persuasion Techniques Detection",
+  "authors": [
+    "Hromadka, Timo  and\nSmolen, Timotej  and\nRemis, Tomas  and\nPecher, Branislav  and\nSrba, Ivan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper presents the best-performing solution to the SemEval 2023 Task 3 on the subtask 3 dedicated to persuasion techniques detection. Due to a high multilingual character of the input data and a large number of 23 predicted labels (causing a lack of labelled data for some language-label combinations), we opted for fine-tuning pre-trained transformer-based language models. Conducting multiple experiments, we find the best configuration, which consists of large multilingual model (XLM-RoBERTa large) trained jointly on all input data, with carefully calibrated confidence thresholds for seen and surprise languages separately. Our final system performed the best on 6 out of 9 languages (including two surprise languages) and achieved highly competitive results on the remaining three languages.",
+  "keywords": [
+    "transformer",
+    "roberta",
+    "em",
+    "language",
+    "model",
+    "fine",
+    "era",
+    "we",
+    "pre",
+    "a large number",
+    "itv",
+    "techniques",
+    "task",
+    "e val-2023 task",
+    "two surprise languages"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.86/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:27:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

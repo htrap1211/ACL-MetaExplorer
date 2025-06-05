@@ -1,0 +1,33 @@
+{
+  "id": "2021.repl4nlp-1.5",
+  "title": "Learning Sparse Sentence Encoding without Supervision: An Exploration of Sparsity in Variational Autoencoders",
+  "authors": [
+    "Prokhorov, Victor  and\nLi, Yingzhen  and\nShareghi, Ehsan  and\nCollier, Nigel"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 6th Workshop on Representation Learning for NLP (RepL4NLP-2021)",
+  "abstract": "It has been long known that sparsity is an effective inductive bias for learning efficient representation of data in vectors with fixed dimensionality, and it has been explored in many areas of representation learning. Of particular interest to this work is the investigation of the sparsity within the VAE framework which has been explored a lot in the image domain, but has been lacking even a basic level of exploration in NLP. Additionally, NLP is also lagging behind in terms of learning sparse representations of large units of text e.g., sentences. We use the VAEs that induce sparse latent representations of large units of text to address the aforementioned shortcomings. First, we move in this direction by measuring the success of unsupervised state-of-the-art (SOTA) and other strong VAE-based sparsification baselines for text and propose a hierarchical sparse VAE model to address the stability issue of SOTA. Then, we look at the implications of sparsity on text classification across 3 datasets, and highlight a link between performance of sparse latent representations on downstream tasks and its ability to encode task-related information.",
+  "keywords": [
+    "bias",
+    "efficient",
+    "dimensionality",
+    "we",
+    "classification",
+    "autoencoders",
+    "additionally nlp",
+    "it",
+    "information",
+    "latent",
+    "learning",
+    "text classification",
+    "variational autoencoders",
+    "text",
+    "efficient representation"
+  ],
+  "url": "https://aclanthology.org/2021.repl4nlp-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:19:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

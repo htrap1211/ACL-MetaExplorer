@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.76",
+  "title": "Team {YXZ} at {B}io{L}ay{S}umm: Adapting Large Language Models for Biomedical Lay Summarization",
+  "authors": [
+    "Zhou, Jieli  and\nYe, Cheng  and\nXu, Pengcheng  and\nXin, Hongyi"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "Biomedical literature are crucial for disseminating new scientific findings. However, the complexity of these research articles often leads to misinterpretations by the public. To address this urgent issue, we participated in the BioLaySumm task at the 2024 ACL BioNLP workshop, which focuses on automatically simplifying technical biomedical articles for non-technical audiences. We conduct a systematic evaluation of the SOTA large language models (LLMs) in 2024 and found that LLMs can generally achieve better readability scores than smaller models like Bart. Then we iteratively developed techniques of title infusing, K-shot prompting , LLM rewriting and instruction finetuning to further boost readability while balancing factuality and relevance. Notably, our submission achieved the first place in readability at the workshop, and among the top-3 teams with the highest readability scores, we have the best overall rank. Here, we present our experiments and findings on how to effectively adapt LLMs for automatic lay summarization. Our code is available at https://github.com/zhoujieli/biolaysumm.",
+  "keywords": [
+    "code",
+    "summarization",
+    "we",
+    "automatic lay summarization",
+    "a systematic evaluation",
+    "shot",
+    "zhoujieli",
+    "instruction",
+    "new scientific findings",
+    "non-technical audiences",
+    "lay",
+    "scientific",
+    "llms",
+    "bionlp",
+    "umm"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.76/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

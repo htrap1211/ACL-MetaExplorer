@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.310",
+  "title": "Forgetting before Learning: Utilizing Parametric Arithmetic for Knowledge Updating in Large Language Models",
+  "authors": [
+    "Ni, Shiwen  and\nChen, Dingwei  and\nLi, Chengming  and\nHu, Xiping  and\nXu, Ruifeng  and\nYang, Min"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent advancements in Large Language Models (LLMs) have showcased their remarkable capabilities in text understanding and generation. However, even stronger LLMs are susceptible to acquiring erroneous or obsolete information from the training corpus. Direct secondary fine-tuning with data containing new knowledge may be ineffective in updating knowledge due to the conflict between old and new knowledge. In this paper, we propose a new paradigm for fine-tuning called F-Learning (Forgetting before Learning), which employs parametric arithmetic to facilitate the forgetting of old knowledge and learning of new knowledge. Experimental results on two publicly available datasets demonstrate that our proposed F-Learning can obviously improve the knowledge updating performance of both full fine-tuning and LoRA fine-tuning, simultaneously outperforming the existing baselines in most cases. Moreover, we have also discovered that forgetting old knowledge by subtracting the parameters of LoRA can yield a similar effect to subtracting the parameters of full fine-tuning, and occasionally even surpass it significantly.",
+  "keywords": [
+    "even stronger llms",
+    "tuning",
+    "knowledge",
+    "generation",
+    "language",
+    "text",
+    "it",
+    "llms",
+    "large language models",
+    "large language models llms",
+    "information",
+    "capabilities",
+    "fine",
+    "we",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.310/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

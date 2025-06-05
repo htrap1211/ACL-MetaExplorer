@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.528",
+  "title": "NEUROSTRUCTURAL} {DECODING}: Neural Text Generation with Structural Constraints",
+  "authors": [
+    "Bastan, Mohaddeseh  and\nSurdeanu, Mihai  and\nBalasubramanian, Niranjan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Text generation often involves producing coherent and grammatically correct texts that also satisfy a given set of semantic constraints. While most approaches for conditional text generation have primarily focused on lexical constraints, they often struggle to effectively incorporate syntactic constraints, which provide a richer language for approximating semantic constraints. We address this gap by introducing NeuroStructural Decoding, a new decoding algorithm that incorporates syntactic constraints to further improve the quality of the generated text. We build NeuroStructural Decoding on the NeuroLogic Decoding (Lu etal. 2021) algorithm, which enables language generation models to produce fluent text while satisfying complex lexical constraints. Our algorithm is powerful and scalable. It tracks lexico-syntactic constraints (e.g., we need to observe dog as subject and ball as object)during decoding by parsing the partial generations at each step. To this end, we adapt a dependency parser to generate parses for incomplete sentences. Our approach is evaluated on three different language generation tasks, and the results show improved performance in both lexical and syntactic metrics compared to previous methods. The results suggest this is a promising solution for integrating fine-grained controllable generation into the conventional beam search decoding.",
+  "keywords": [
+    "structural constraints text generation",
+    "end",
+    "semantic constraints",
+    "semantic",
+    "we",
+    "the partial generations",
+    "fine-grained controllable generation",
+    "conditional text generation",
+    "neural",
+    "the generated text",
+    "it",
+    "object",
+    "text",
+    "metrics",
+    "language generation models"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.528/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:42:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

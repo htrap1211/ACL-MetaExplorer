@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.84",
+  "title": "dz{NLP} at {NADI} 2024 Shared Task: Multi-Classifier Ensemble with Weighted Voting and {TF}-{IDF} Features",
+  "authors": [
+    "Lichouri, Mohamed  and\nLounnas, Khaled  and\nNadjib, Zahaf  and\nAyoub, Rabiai"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "This paper presents the contribution of our dzNLP team to the NADI 2024 shared task, specifically in Subtask 1 - Multi-label Country-level Dialect Identification (MLDID) (Closed Track). We explored various configurations to address the challenge: in Experiment 1, we utilized a union of n-gram analyzers (word, character, character with word boundaries) with different n-gram values; in Experiment 2, we combined a weighted union of Term Frequency-Inverse Document Frequency (TF-IDF) features with various weights; and in Experiment 3, we implemented a weighted major voting scheme using three classifiers: Linear Support Vector Classifier (LSVC), Random Forest (RF), and K-Nearest Neighbors (KNN).Our approach, despite its simplicity and reliance on traditional machine learning techniques, demonstrated competitive performance in terms of accuracy and precision. Notably, we achieved the highest precision score of 63.22% among the participating teams. However, our overall F1 score was approximately 21%, significantly impacted by a low recall rate of 12.87%. This indicates that while our models were highly precise, they struggled to recall a broad range of dialect labels, highlighting a critical area for improvement in handling diverse dialectal variations.",
+  "keywords": [
+    "precision",
+    "support",
+    "classifier",
+    "rate",
+    "a low recall rate",
+    "classifiers",
+    "we",
+    "ensemble",
+    "traditional machine learning techniques",
+    "word",
+    "word boundaries",
+    "vector",
+    "dznlp",
+    "accuracy",
+    "recall"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.84/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:03:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

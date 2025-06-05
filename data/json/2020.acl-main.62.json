@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.62",
+  "title": "Semi-Supervised Dialogue Policy Learning via Stochastic Reward Estimation",
+  "authors": [
+    "Huang, Xinting  and\nQi, Jianzhong  and\nSun, Yu  and\nZhang, Rui"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Dialogue policy optimization often obtains feedback until task completion in task-oriented dialogue systems. This is insufficient for training intermediate dialogue turns since supervision signals (or rewards) are only provided at the end of dialogues. To address this issue, reward learning has been introduced to learn from state-action pairs of an optimal policy to provide turn-by-turn rewards. This approach requires complete state-action annotations of human-to-human dialogues (i.e., expert demonstrations), which is labor intensive. To overcome this limitation, we propose a novel reward learning approach for semi-supervised policy learning. The proposed approach learns a dynamics model as the reward function which models dialogue progress (i.e., state-action sequences) based on expert demonstrations, either with or without annotations. The dynamics model computes rewards by predicting whether the dialogue progress is consistent with expert demonstrations. We further propose to learn action embeddings for a better generalization of the reward function. The proposed approach outperforms competitive policy learning baselines on MultiWOZ, a benchmark multi-domain dataset.",
+  "keywords": [
+    "end",
+    "feedback",
+    "a better generalization",
+    "we",
+    "dialogue",
+    "action embeddings",
+    "semi-supervised dialogue policy learning",
+    "learning",
+    "intermediate dialogue turns",
+    "the dialogue progress",
+    "i",
+    "generalization",
+    "action",
+    "insufficient",
+    "function"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.62/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:43:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

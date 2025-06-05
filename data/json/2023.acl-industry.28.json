@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.28",
+  "title": "Rapid Diffusion: Building Domain-Specific Text-to-Image Synthesizers with Fast Inference Speed",
+  "authors": [
+    "Liu, Bingyan  and\nLin, Weifeng  and\nDuan, Zhongjie  and\nWang, Chengyu  and\nZiheng, Wu  and\nZipeng, Zhang  and\nJia, Kui  and\nJin, Lianwen  and\nChen, Cen  and\nHuang, Jun"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "Text-to-Image Synthesis (TIS) aims to generate images based on textual inputs. Recently, several large pre-trained diffusion models have been released to create high-quality images with pre-trained text encoders and diffusion-based image synthesizers. However, popular diffusion-based models from the open-source community cannot support industrial domain-specific applications due to the lack of entity knowledge and low inference speed. In this paper, we propose Rapid Diffusion, a novel framework for training and deploying super-resolution, text-to-image latent diffusion models with rich entity knowledge injected and optimized networks. Furthermore, we employ BladeDISC, an end-to-end Artificial Intelligence (AI) compiler, and FlashAttention techniques to optimize computational graphs of the generated models for online deployment. Experiments verify the effectiveness of our approach in terms of image quality and inference speed. In addition, we present industrial use cases and integrate Rapid Diffusion to an AI platform to show its practical values.",
+  "keywords": [
+    "end",
+    "we",
+    "training",
+    "flashattention techniques",
+    "pre-trained text encoders",
+    "latent",
+    "rich",
+    "the generated models",
+    "text",
+    "flashattention",
+    "encoders",
+    "fast",
+    "knowledge",
+    "pre",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.28/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

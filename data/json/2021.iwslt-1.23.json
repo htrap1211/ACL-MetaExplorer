@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwslt-1.23",
+  "title": "mix{S}eq: A Simple Data Augmentation Methodfor Neural Machine Translation",
+  "authors": [
+    "Wu, Xueqing  and\nXia, Yingce  and\nZhu, Jinhua  and\nWu, Lijun  and\nXie, Shufang  and\nFan, Yang  and\nQin, Tao"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021)",
+  "abstract": "Data augmentation, which refers to manipulating the inputs (e.g., adding random noise,masking specific parts) to enlarge the dataset,has been widely adopted in machine learning. Most data augmentation techniques operate on a single input, which limits the diversity of the training corpus. In this paper, we propose a simple yet effective data augmentation technique for neural machine translation, mixSeq, which operates on multiple inputs and their corresponding targets. Specifically, we randomly select two input sequences,concatenate them together as a longer input aswell as their corresponding target sequencesas an enlarged target, and train models on theaugmented dataset. Experiments on nine machine translation tasks demonstrate that such asimple method boosts the baselines by a non-trivial margin. Our method can be further combined with single input based data augmentation methods to obtain further improvements.",
+  "keywords": [
+    "random",
+    "neural",
+    "machine",
+    "train",
+    "neural machine translation mixseq",
+    "we",
+    "nine machine translation tasks",
+    "training",
+    "translation",
+    "two input sequences",
+    "a non-trivial margin",
+    "targets",
+    "their corresponding targets",
+    "techniques",
+    "the training corpus"
+  ],
+  "url": "https://aclanthology.org/2021.iwslt-1.23/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:18:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.637",
+  "title": "Can Large Language Models Interpret Noun-Noun Compounds? A Linguistically-Motivated Study on Lexicalized and Novel Compounds",
+  "authors": [
+    "Rambelli, Giulia  and\nChersoni, Emmanuele  and\nCollacciani, Claudia  and\nBolognesi, Marianna"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Noun-noun compounds interpretation is the task where a model is given one of such constructions, and it is asked to provide a paraphrase, making the semantic relation between the nouns explicit, as in carrot cake is “a cake made of carrots.” Such a task requires the ability to understand the implicit structured representation of the compound meaning. In this paper, we test to what extent the recent Large Language Models can interpret the semantic relation between the constituents of lexicalized English compounds and whether they can abstract from such semantic knowledge to predict the semantic relation between the constituents of similar but novel compounds by relying on analogical comparisons (e.g., carrot dessert). We test both Surprisal metrics and prompt-based methods to see whether i.) they can correctly predict the relation between constituents, and ii.) the semantic representation of the relation is robust to paraphrasing. Using a dataset of lexicalized and annotated noun-noun compounds, we find that LLMs can infer some semantic relations better than others (with a preference for compounds involving concrete concepts). When challenged to perform abstractions and transfer their interpretations to semantically similar but novel compounds, LLMs show serious limitations.",
+  "keywords": [
+    "the semantic relation",
+    "semantic",
+    "we",
+    "the semantic representation",
+    "it",
+    "some semantic relations",
+    "prompt-based methods",
+    "llms",
+    "prompt",
+    "i",
+    "metrics",
+    "such semantic knowledge",
+    "knowledge",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.637/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:43:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

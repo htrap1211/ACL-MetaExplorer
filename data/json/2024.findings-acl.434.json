@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.434",
+  "title": "P}artial{F}ormer: Modeling Part Instead of Whole for Machine Translation",
+  "authors": [
+    "Zheng, Tong  and\nLi, Bei  and\nBao, Huiwen  and\nWang, Jiale  and\nShan, Weiqiao  and\nXiao, Tong  and\nZhu, JingBo"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "The design choices in Transformer feed-forward neural networks have resulted in significant computational and parameter overhead. In this work, we emphasize the importance of hidden dimensions in designing lightweight FFNs, a factor often overlooked in previous architectures. Guided by this principle, we introduce PartialFormer, a parameter-efficient Transformer architecture utilizing multiple smaller FFNs to reduce parameters and computation while maintaining essential hidden dimensions. These smaller FFNs are integrated into a multi-head attention mechanism for effective collaboration. We also propose a tailored head scaling strategy to enhance PartialFormer’s capabilities. Furthermore, we present a residual-like attention calculation to improve depth scaling within PartialFormer. Extensive experiments on 9 translation tasks and 1 abstractive summarization task validate the effectiveness of our PartialFormer approach on machine translation and summarization tasks. Our code would be available at: https://github.com/zhengkid/PartialFormer.",
+  "keywords": [
+    "code",
+    "efficient",
+    "machine translation",
+    "summarization",
+    "we",
+    "parameter",
+    "translation",
+    "neural",
+    "a multi-head attention mechanism",
+    "feed",
+    "a residual-like attention calculation",
+    "9 translation tasks",
+    "partialformer s capabilities",
+    "work",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.434/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

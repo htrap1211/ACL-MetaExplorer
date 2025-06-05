@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.35",
+  "title": "Farewell to Aimless Large-scale Pretraining: Influential Subset Selection for Language Model",
+  "authors": [
+    "Wang, Xiao  and\nZhou, Weikang  and\nZhang, Qi  and\nZhou, Jie  and\nGao, SongYang  and\nWang, Junzhe  and\nZhang, Menghan  and\nGao, Xiang  and\nChen, Yun Wen  and\nGui, Tao"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Pretrained language models have achieved remarkable success in various natural language processing tasks. However, pretraining has recently shifted toward larger models and larger data, which has resulted in significant computational and energy costs. In this paper, we propose Influence Subset Selection (ISS) for language model, which explicitly utilizes end-task knowledge to select a tiny subset of the pretraining corpus. Specifically, the ISS selects the samples that will provide the most positive influence on the performance of the end task. Furthermore, we design a gradient matching-based influence estimation method, which can drastically reduce the computation time of influence. With only 0.45% of the data and a three-orders-of-magnitude lower computational cost, ISS outperformed pretrained models (e.g., RoBERTa) on eight datasets covering four domains.",
+  "keywords": [
+    "knowledge",
+    "processing",
+    "end",
+    "language",
+    "roberta",
+    "natural",
+    "model",
+    "language model",
+    "gradient",
+    "we",
+    "e g roberta",
+    "time",
+    "energy",
+    "that",
+    "the data"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.35/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

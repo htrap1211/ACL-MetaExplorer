@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.374",
+  "title": "Counterfactual Debiasing for Fact Verification",
+  "authors": [
+    "Xu, Weizhi  and\nLiu, Qiang  and\nWu, Shu  and\nWang, Liang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Fact verification aims to automatically judge the veracity of a claim according to several pieces of evidence. Due to the manual construction of datasets, spurious correlations between claim patterns and its veracity (i.e., biases) inevitably exist. Recent studies show that models usually learn such biases instead of understanding the semantic relationship between the claim and evidence. Existing debiasing works can be roughly divided into data-augmentation-based and weight-regularization-based pipeline, where the former is inflexible and the latter relies on the uncertain output on the training stage. Unlike previous works, we propose a novel method from a counterfactual view, namely CLEVER, which is augmentation-free and mitigates biases on the inference stage. Specifically, we train a claim-evidence fusion model and a claim-only model independently. Then, we obtain the final prediction via subtracting output of the claim-only model from output of the claim-evidence fusion model, which counteracts biases in two outputs so that the unbiased part is highlighted. Comprehensive experiments on several datasets have demonstrated the effectiveness of CLEVER.",
+  "keywords": [
+    "unbiased",
+    "e biases",
+    "counterfactual debiasing",
+    "several pieces",
+    "data-augmentation-based and weight-regularization-based pipeline",
+    "semantic",
+    "augmentation-free and mitigates biases",
+    "we",
+    "fusion",
+    "the semantic relationship",
+    "training",
+    "the unbiased part",
+    "pieces",
+    "debiasing",
+    "existing debiasing works"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.374/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:40:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

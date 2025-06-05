@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.179",
+  "title": "Speculative Decoding via Early-exiting for Faster {LLM} Inference with {T}hompson Sampling Control Mechanism",
+  "authors": [
+    "Liu, Jiahao  and\nWang, Qifan  and\nWang, Jingang  and\nCai, Xunliang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "The recent advancements in large language models (LLMs) have been extraordinary, yet the escalating inference costs associated with them present challenges in real-world applications. To address these challenges, we propose a novel approach called Early-exiting Speculative Decoding (EESD) with lossless acceleration. Specifically, EESD utilizes a segment of the LLM to generate draft tokens, incorporating Early-exiting structures after the first N layers. To enhance the quality of draft tokens, a self-distillation method is integrated. This early-exiting design not only reduces deployment and training costs but also significantly accelerates the token generation speed. Moreover, we introduce a novel sampling mechanism that leverages Thompson Sampling to regulate the generation processes, automatically determining the quantity of draft tokens in each round. The original LLM is then employed to validate these draft tokens through a single forward pass, and thus guarantees that the final output text maintains a distribution consistent with vanilla auto-regressive decoding. The experimental results on both 13B and 70B models demonstrate that our approach decodes tokens at a markedly accelerated rate compared to prior methods, showing the effectiveness of our approach.",
+  "keywords": [
+    "rate",
+    "the generation processes",
+    "we",
+    "llm",
+    "training",
+    "self",
+    "token",
+    "llms",
+    "early",
+    "text",
+    "the llm",
+    "large language models llms",
+    "the original llm",
+    "language",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.179/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

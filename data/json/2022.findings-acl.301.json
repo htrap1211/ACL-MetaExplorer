@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.301",
+  "title": "First the Worst: Finding Better Gender Translations During Beam Search",
+  "authors": [
+    "Saunders, Danielle  and\nSallis, Rosie  and\nByrne, Bill"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Generating machine translations via beam search seeks the most likely output under a model. However, beam search has been shown to amplify demographic biases exhibited by a model. We aim to address this, focusing on gender bias resulting from systematic errors in grammatical gender translation. Almost all prior work on this problem adjusts the training data or the model itself. By contrast, our approach changes only the inference procedure. We constrain beam search to improve gender diversity in n-best lists, and rerank n-best lists using gender features obtained from the source sentence. Combining these strongly improves WinoMT gender translation accuracy for three language pairs without additional bilingual data or retraining. We also demonstrate our approach’s utility for consistently gendering named entities, and its flexibility to handle new gendered language beyond the binary.",
+  "keywords": [
+    "work",
+    "bias",
+    "grammatical gender translation",
+    "language",
+    "translation",
+    "better gender translations",
+    "model",
+    "machine",
+    "entities",
+    "winomt gender translation accuracy",
+    "gender bias",
+    "demographic biases",
+    "we",
+    "translations",
+    "biases"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.301/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-short.23",
+  "title": "Sketch-Guided Constrained Decoding for Boosting Blackbox Large Language Models without Logit Access",
+  "authors": [
+    "Geng, Saibo  and\nD{\\\"o}ner, Berkay  and\nWendler, Chris  and\nJosifoski, Martin  and\nWest, Robert"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Constrained decoding, a technique for enforcing constraints on language model outputs, offers a way to control text generation without retraining or architectural modifications. Its application is, however, typically restricted to models that give users access to next-token distributions (usually via softmax logits), which poses a limitation with blackbox large language models (LLMs). This paper introduces sketch-guided constrained decoding (SketchGCD), a novel approach to constrained decoding for blackbox LLMs, which operates without access to the logits of the blackbox LLM. SketchGCD utilizes a locally hosted auxiliary model to refine the output of an unconstrained blackbox LLM, effectively treating this initial output as a “sketch” for further elaboration. This approach is complementary to traditional logit-based techniques and enables the application of constrained decoding in settings where full model transparency is unavailable. We demonstrate the efficacy of SketchGCD through experiments in closed information extraction and constituency parsing, showing how it enhances the utility and flexibility of blackbox LLMs for complex NLP tasks.",
+  "keywords": [
+    "extraction",
+    "softmax logits",
+    "we",
+    "softmax",
+    "llm",
+    "text generation",
+    "it",
+    "token",
+    "information",
+    "llms",
+    "text",
+    "llm sketchgcd",
+    "blackbox large language models",
+    "language",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2024.acl-short.23/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:46:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.42",
+  "title": "Analysis of Multi-Source Language Training in Cross-Lingual Transfer",
+  "authors": [
+    "Lim, Seonghoon  and\nYun, Taejun  and\nKim, Jinhyeon  and\nChoi, Jihun  and\nKim, Taeuk"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The successful adaptation of multilingual language models (LMs) to a specific language-task pair critically depends on the availability of data tailored for that condition. While cross-lingual transfer (XLT) methods have contributed to addressing this data scarcity problem, there still exists ongoing debate about the mechanisms behind their effectiveness.In this work, we focus on one of promising assumptions about inner workings of XLT, that it encourages multilingual LMs to place greater emphasis on language-agnostic or task-specific features. We test this hypothesis by examining how the patterns of XLT change with a varying number of source languages involved in the process.Our experimental findings show that the use of multiple source languages in XLT-a technique we term Multi-Source Language Training (MSLT)-leads to increased mingling of embedding spaces for different languages, supporting the claim that XLT benefits from making use of language-independent information. On the other hand, we discover that using an arbitrary combination of source languages does not always guarantee better performance. We suggest simple heuristics for identifying effective language combinations for MSLT and empirically prove its effectiveness.",
+  "keywords": [
+    "we",
+    "training",
+    "cross",
+    "it",
+    "information",
+    "inner",
+    "transfer",
+    "analysis",
+    "multilingual language models",
+    "work",
+    "process",
+    "language",
+    "inner workings",
+    "embedding spaces",
+    "promising"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.42/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:34:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

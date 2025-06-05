@@ -1,0 +1,33 @@
+{
+  "id": "2022.dialdoc-1.3",
+  "title": "Low-Resource Adaptation of Open-Domain Generative Chatbots",
+  "authors": [
+    "Gerhard-Young, Greyson  and\nAnantha, Raviteja  and\nChappidi, Srinivas  and\nHoffmeister, Bjorn"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Second DialDoc Workshop on Document-grounded Dialogue and Conversational Question Answering",
+  "abstract": "Recent work building open-domain chatbots has demonstrated that increasing model size improves performance (Adiwardana et al., 2020; Roller et al., 2020). On the other hand, latency and connectivity considerations dictate the move of digital assistants on the device (Verge, 2021). Giving a digital assistant like Siri, Alexa, or Google Assistant the ability to discuss just about anything leads to the need for reducing the chatbot model size such that it fits on the user’s device. We demonstrate that low parameter models can simultaneously retain their general knowledge conversational abilities while improving in a specific domain. Additionally, we propose a generic framework that accounts for variety in question types, tracks reference throughout multi-turn conversations, and removes inconsistent and potentially toxic responses. Our framework seamlessly transitions between chatting and performing transactional tasks, which will ultimately make interactions with digital assistants more human-like. We evaluate our framework on 1 internal and 4 public benchmark datasets using both automatic (Perplexity) and human (SSA – Sensibleness and Specificity Average) evaluation metrics and establish comparable performance while reducing model parameters by 90%.",
+  "keywords": [
+    "variety",
+    "conversations",
+    "question",
+    "we",
+    "parameter",
+    "chatbot",
+    "it",
+    "generative",
+    "abilities",
+    "chatbots",
+    "multi-turn conversations",
+    "metrics",
+    "generic",
+    "perplexity",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2022.dialdoc-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:41:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.429",
+  "title": "How does {BERT}{'}s attention change when you fine-tune? An analysis methodology and a case study in negation scope",
+  "authors": [
+    "Zhao, Yiyun  and\nBethard, Steven"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Large pretrained language models like BERT, after fine-tuning to a downstream task, have achieved high performance on a variety of NLP problems. Yet explaining their decisions is difficult despite recent work probing their internal representations. We propose a procedure and analysis methods that take a hypothesis of how a transformer-based model might encode a linguistic phenomenon, and test the validity of that hypothesis based on a comparison between knowledge-related downstream tasks with downstream control tasks, and measurement of cross-dataset consistency. We apply this methodology to test BERT and RoBERTa on a hypothesis that some attention heads will consistently attend from a word in negation scope to the negation cue. We find that after fine-tuning BERT and RoBERTa on a negation scope task, the average attention head improves its sensitivity to negation and its attention consistency across negation datasets compared to the pre-trained models. However, only the base models (not the large models) improve compared to a control task, indicating there is evidence for a shallow encoding of negation only in the base models.",
+  "keywords": [
+    "variety",
+    "its attention consistency",
+    "roberta",
+    "some attention heads",
+    "we",
+    "a transformer-based model",
+    "fine-tuning",
+    "cross",
+    "fine-tuning bert",
+    "word",
+    "a variety",
+    "analysis",
+    "tuning",
+    "bert",
+    "fine"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.429/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:47:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

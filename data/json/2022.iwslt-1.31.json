@@ -1,0 +1,33 @@
+{
+  "id": "2022.iwslt-1.31",
+  "title": "Controlling Formality in Low-Resource {NMT} with Domain Adaptation and Re-Ranking: {SLT}-{CDT}-{U}o{S} at {IWSLT}2022",
+  "authors": [
+    "Vincent, Sebastian  and\nBarrault, Lo{\\\"i}c  and\nScarton, Carolina"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022)",
+  "abstract": "This paper describes the SLT-CDT-UoS group’s submission to the first Special Task on Formality Control for Spoken Language Translation, part of the IWSLT 2022 Evaluation Campaign. Our efforts were split between two fronts: data engineering and altering the objective function for best hypothesis selection. We used language-independent methods to extract formal and informal sentence pairs from the provided corpora; using English as a pivot language, we propagated formality annotations to languages treated as zero-shot in the task; we also further improved formality controlling with a hypothesis re-ranking approach. On the test sets for English-to-German and English-to-Spanish, we achieved an average accuracy of .935 within the constrained setting and .995 within unconstrained setting. In a zero-shot setting for English-to-Russian and English-to-Italian, we scored average accuracy of .590 for constrained setting and .659 for unconstrained.",
+  "keywords": [
+    "we",
+    "shot",
+    "translation",
+    "the objective function",
+    "average accuracy",
+    "an average accuracy",
+    "objective",
+    "zero-shot",
+    "spoken language translation part",
+    "function",
+    "accuracy",
+    "language",
+    "evaluation",
+    "a zero-shot setting",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2022.iwslt-1.31/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

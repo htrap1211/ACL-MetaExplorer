@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.147",
+  "title": "Learning from Sibling Mentions with Scalable Graph Inference in Fine-Grained Entity Typing",
+  "authors": [
+    "Chen, Yi  and\nCheng, Jiayang  and\nJiang, Haiyun  and\nLiu, Lemao  and\nZhang, Haisong  and\nShi, Shuming  and\nXu, Ruifeng"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this paper, we firstly empirically find that existing models struggle to handle hard mentions due to their insufficient contexts, which consequently limits their overall typing performance. To this end, we propose to exploit sibling mentions for enhancing the mention representations. Specifically, we present two different metrics for sibling selection and employ an attentive graph neural network to aggregate information from sibling mentions. The proposed graph model is scalable in that unseen test mentions are allowed to be added as new nodes for inference. Exhaustive experiments demonstrate the effectiveness of our sibling learning strategy, where our model outperforms ten strong baselines. Moreover, our experiments indeed prove the superiority of sibling mentions in helping clarify the types for hard mentions.",
+  "keywords": [
+    "end",
+    "neural",
+    "model",
+    "metrics",
+    "their insufficient contexts",
+    "information",
+    "network",
+    "we",
+    "two different metrics",
+    "learning",
+    "graph",
+    "entity",
+    "insufficient",
+    "attentive",
+    "strategy"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.147/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

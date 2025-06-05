@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.294",
+  "title": "Probing Factually Grounded Content Transfer with Factual Ablation",
+  "authors": [
+    "West, Peter  and\nQuirk, Chris  and\nGalley, Michel  and\nChoi, Yejin"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Despite recent success, large neural models often generate factually incorrect text. Compounding this is the lack of a standard automatic evaluation for factuality–it cannot be meaningfully improved if it cannot be measured. Grounded generation promises a path to solving both of these problems: models draw on a reliable external document (grounding) for factual information, simplifying the challenge of factuality. Measuring factuality is also simplified–to factual consistency, testing whether the generation agrees with the grounding, rather than all facts. Yet, without a standard automatic metric for factual consistency, factually grounded generation remains an open problem. We study this problem for content transfer, in which generations extend a prompt, using information from factual grounding. Particularly, this domain allows us to introduce the notion of factual ablation for automatically measuring factual consistency: this captures the intuition that the model should be less likely to produce an output given a less relevant grounding document. In practice, we measure this by presenting a model with two grounding documents, and the model should prefer to use the more factually relevant one. We contribute two evaluation sets to measure this. Applying our new evaluation, we propose multiple novel methods improving over strong baselines.",
+  "keywords": [
+    "the generation",
+    "a standard automatic evaluation",
+    "we",
+    "neural",
+    "our new evaluation",
+    "it",
+    "grounded generation",
+    "information",
+    "transfer",
+    "prompt",
+    "a prompt",
+    "metric",
+    "text",
+    "generations",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.294/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.510",
+  "title": "Super Tickets in Pre-Trained Language Models: From Model Compression to Improving Generalization",
+  "authors": [
+    "Liang, Chen  and\nZuo, Simiao  and\nChen, Minshuo  and\nJiang, Haoming  and\nLiu, Xiaodong  and\nHe, Pengcheng  and\nZhao, Tuo  and\nChen, Weizhu"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "The Lottery Ticket Hypothesis suggests that an over-parametrized network consists of ”lottery tickets”, and training a certain collection of them (i.e., a subnetwork) can match the performance of the full model. In this paper, we study such a collection of tickets, which is referred to as ”winning tickets”, in extremely over-parametrized models, e.g., pre-trained language models. We observe that at certain compression ratios, the generalization performance of the winning tickets can not only match but also exceed that of the full model. In particular, we observe a phase transition phenomenon: As the compression ratio increases, generalization performance of the winning tickets first improves then deteriorates after a certain threshold. We refer to the tickets on the threshold as ”super tickets”. We further show that the phase transition is task and model dependent — as the model size becomes larger and the training data set becomes smaller, the transition becomes more pronounced. Our experiments on the GLUE benchmark show that the super tickets improve single task fine-tuning by 0.9 points on BERT-base and 1.0 points on BERT-large, in terms of task-average score. We also demonstrate that adaptively sharing the super tickets across tasks benefits multi-task learning.",
+  "keywords": [
+    "we",
+    "training",
+    "pre-trained language models",
+    "learning",
+    "bert-base",
+    "single task fine-tuning",
+    "tuning",
+    "i",
+    "bert",
+    "generalization",
+    "fine",
+    "ratio",
+    "the generalization performance",
+    "generalization performance",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.510/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

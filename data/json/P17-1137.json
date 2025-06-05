@@ -1,0 +1,33 @@
+{
+  "id": "P17-1137",
+  "title": "Learning to Create and Reuse Words in Open-Vocabulary Neural Language Modeling",
+  "authors": [
+    "Kawakami, Kazuya  and\nDyer, Chris  and\nBlunsom, Phil"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Fixed-vocabulary language models fail to account for one of the most characteristic statistical facts of natural language: the frequent creation and reuse of new word types. Although character-level language models offer a partial solution in that they can create word types not attested in the training corpus, they do not capture the “bursty” distribution of such words. In this paper, we augment a hierarchical LSTM language model that generates sequences of word tokens character by character with a caching mechanism that learns to reuse previously generated words. To validate our model we construct a new open-vocabulary language modeling corpus (the Multilingual Wikipedia Corpus; MWC) from comparable Wikipedia articles in 7 typologically diverse languages and demonstrate the effectiveness of our model across this range of languages.",
+  "keywords": [
+    "hierarchical",
+    "language",
+    "neural",
+    "natural",
+    "model",
+    "modeling",
+    "word",
+    "fixed-vocabulary language models",
+    "we",
+    "character-level language models",
+    "lstm",
+    "natural language",
+    "previously generated words",
+    "training",
+    "that"
+  ],
+  "url": "https://aclanthology.org/P17-1137/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:00:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

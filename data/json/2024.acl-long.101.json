@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.101",
+  "title": "A}o{E}: Angle-optimized Embeddings for Semantic Textual Similarity",
+  "authors": [
+    "Li, Xianming  and\nLi, Jing"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Text embedding is pivotal in semantic textual similarity (STS) tasks, which are crucial components in Large Language Model (LLM) applications. STS learning largely relies on the cosine function as the optimization objective to reflect semantic similarity. However, the cosine has saturation zones rendering vanishing gradients and hindering learning subtle semantic differences in text embeddings. To address this issue, we propose a novel Angle-optimized Embedding model, AoE. It optimizes angle differences in complex space to explore similarity in saturation zones better. To set up a comprehensive evaluation, we experimented with existing short-text STS, our newly collected long-text STS, and downstream task datasets. Extensive experimental results on STS and MTEB benchmarks show that AoE significantly outperforms popular text embedding models neglecting cosine saturation zones. It highlights that AoE can produce high-quality text embeddings and broadly benefit downstream tasks.",
+  "keywords": [
+    "embeddings",
+    "llm applications sts",
+    "language",
+    "text embeddings",
+    "model",
+    "gradients",
+    "text",
+    "it",
+    "vanishing gradients",
+    "objective",
+    "subtle semantic differences",
+    "large language model",
+    "semantic textual similarity text",
+    "popular text embedding models",
+    "optimization"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.101/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:35:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

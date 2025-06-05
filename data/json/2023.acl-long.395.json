@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.395",
+  "title": "Dynamic Transformers Provide a False Sense of Efficiency",
+  "authors": [
+    "Chen, Yiming  and\nChen, Simin  and\nLi, Zexin  and\nYang, Wei  and\nLiu, Cong  and\nTan, Robby  and\nLi, Haizhou"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Despite much success in natural language processing (NLP), pre-trained language models typically lead to a high computational cost during inference. Multi-exit is a mainstream approach to address this issue by making a trade-off between efficiency and accuracy, where the saving of computation comes from an early exit. However, whether such saving from early-exiting is robust remains unknown. Motivated by this, we first show that directly adapting existing adversarial attack approaches targeting model accuracy cannot significantly reduce inference efficiency. To this end, we propose a simple yet effective attacking framework, SAME, a novel slowdown attack framework on multi-exit models, which is specially tailored to reduce the efficiency of the multi-exit models. By leveraging the multi-exit models’ design characteristics, we utilize all internal predictions to guide the adversarial sample generation instead of merely considering the final prediction. Experiments on the GLUE benchmark show that SAME can effectively diminish the efficiency gain of various multi-exit models by 80% on average, convincingly validating its effectiveness and generalization ability.",
+  "keywords": [
+    "transformers",
+    "dynamic transformers",
+    "end",
+    "model accuracy",
+    "inference efficiency",
+    "efficiency",
+    "we",
+    "the efficiency gain",
+    "natural",
+    "the efficiency",
+    "exit",
+    "processing",
+    "early",
+    "-",
+    "generalization"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.395/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:40:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

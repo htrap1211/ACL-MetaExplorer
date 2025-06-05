@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.657",
+  "title": "A Joint Coreference-Aware Approach to Document-Level Target Sentiment Analysis",
+  "authors": [
+    "Cai, Hongjie  and\nMa, Heqing  and\nYu, Jianfei  and\nXia, Rui"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Most existing work on aspect-based sentiment analysis (ABSA) focuses on the sentence level, while research at the document level has not received enough attention. Compared to sentence-level ABSA, the document-level ABSA is not only more practical but also requires holistic document-level understanding capabilities such as coreference resolution. To investigate the impact of coreference information on document-level ABSA, we conduct a three-stage research for the document-level target sentiment analysis (DTSA) task: 1) exploring the effectiveness of coreference information for the DTSA task; 2) reducing the reliance on manually annotated coreference information; 3) alleviating the evaluation bias caused by missing the coreference information of opinion targets. Specifically, we first manually annotate the coreferential opinion targets and propose a multi-task learning framework to jointly model the DTSA task and the coreference resolution task. Then we annotate the coreference information with ChatGPT for joint training. Finally, to address the issue of missing coreference targets, we modify the metrics from strict matching to a loose matching method based on the clusters of targets. The experimental results not only demonstrate the effectiveness of our framework but also reflect the feasibility of using ChatGPT-annotated coreferential entities and the applicability of the modified metrics. Our source code is publicly released at https://github.com/NUSTM/DTSA-Coref.",
+  "keywords": [
+    "code",
+    "bias",
+    "holistic document-level understanding capabilities",
+    "aspect-based sentiment analysis absa",
+    "coreference information",
+    "a joint coreference-aware approach",
+    "we",
+    "training",
+    "the modified metrics",
+    "missing coreference targets",
+    "information",
+    "chatgpt",
+    "the coreference resolution task",
+    "the metrics",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.657/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:43:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

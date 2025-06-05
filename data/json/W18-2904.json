@@ -1,0 +1,33 @@
+{
+  "id": "W18-2904",
+  "title": "Syntax Helps {ELM}o Understand Semantics: Is Syntax Still Relevant in a Deep Neural Architecture for {SRL}?",
+  "authors": [
+    "Strubell, Emma  and\nMcCallum, Andrew"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the Workshop on the Relevance of Linguistic Structure in Neural Architectures for {NLP}",
+  "abstract": "Do unsupervised methods for learning rich, contextualized token representations obviate the need for explicit modeling of linguistic structure in neural network models for semantic role labeling (SRL)? We address this question by incorporating the massively successful ELMo embeddings (Peters et al., 2018) into LISA (Strubell and McCallum, 2018), a strong, linguistically-informed neural network architecture for SRL. In experiments on the CoNLL-2005 shared task we find that though ELMo out-performs typical word embeddings, beginning to close the gap in F1 between LISA with predicted and gold syntactic parses, syntactically-informed models still out-perform syntax-free models when both use ELMo, especially on out-of-domain data. Our results suggest that linguistic structures are indeed still relevant in this golden age of deep learning for NLP.",
+  "keywords": [
+    "deep",
+    "embeddings",
+    "elmo",
+    "neural",
+    "nlp",
+    "semantic role",
+    "f1",
+    "semantics",
+    "deep learning",
+    "token",
+    "modeling",
+    "question",
+    "rich",
+    "semantic",
+    "network"
+  ],
+  "url": "https://aclanthology.org/W18-2904/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:06:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.repl4nlp-1.6",
+  "title": "Fine-grained Text Style Transfer with Diffusion-Based Language Models",
+  "authors": [
+    "Lyu, Yiwei  and\nLuo, Tiange  and\nShi, Jiacheng  and\nHollon, Todd  and\nLee, Honglak"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 8th Workshop on Representation Learning for NLP (RepL4NLP 2023)",
+  "abstract": "Diffusion probabilistic models have shown great success in generating high-quality images controllably, and researchers have tried to utilize this controllability into text generation domain. Previous works on diffusion-based language models have shown that they can be trained without external knowledge (such as pre-trained weights) and still achieve stable performance and controllability. In this paper, we trained a diffusion-based model on StylePTB dataset, the standard benchmark for fine-grained text style transfers. The tasks in StylePTB requires much more refined control over the output text compared to tasks evaluated in previous works, and our model was able to achieve state-of-the-art performance on StylePTB on both individual and compositional transfers. Moreover, our model, trained on limited data from StylePTB without external knowledge, outperforms previous works that utilized pretrained weights, embeddings, and external grammar parsers, and this may indicate that diffusion-based language models have great potential under low-resource settings.",
+  "keywords": [
+    "embeddings",
+    "knowledge",
+    "language",
+    "generation",
+    "model",
+    "text",
+    "diffusion-based language models",
+    "we",
+    "transfer",
+    "pre",
+    "that",
+    "grammar",
+    "external knowledge",
+    "great",
+    "this"
+  ],
+  "url": "https://aclanthology.org/2023.repl4nlp-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

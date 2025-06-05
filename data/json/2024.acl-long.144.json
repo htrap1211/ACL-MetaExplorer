@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.144",
+  "title": "IMO}: Greedy Layer-Wise Sparse Representation Learning for Out-of-Distribution Text Classification with Pre-trained Models",
+  "authors": [
+    "Feng, Tao  and\nQu, Lizhen  and\nLi, Zhuang  and\nZhan, Haolan  and\nHua, Yuncheng  and\nHaf, Reza"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Machine learning models have made incredible progress, but they still struggle when applied to examples from unseen domains. This study focuses on a specific problem of domain generalization, where a model is trained on one source domain and tested on multiple target domains that are unseen during training. We propose IMO: Invariant features Masks for Out-of-Distribution text classification, to achieve OOD generalization by learning invariant features. During training, IMO would learn sparse mask layers to remove irrelevant features for prediction, where the remaining features keep invariant. Additionally, IMO has an attention module at the token level to focus on tokens that are useful for prediction. Our comprehensive experiments show that IMO substantially outperforms strong baselines in terms of various evaluation metrics and settings.",
+  "keywords": [
+    "an attention module",
+    "domain generalization",
+    "various evaluation metrics",
+    "model",
+    "machine",
+    "text",
+    "metrics",
+    "token",
+    "layer",
+    "generalization",
+    "ood generalization",
+    "attention",
+    "we",
+    "learning",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.144/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

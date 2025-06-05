@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.535",
+  "title": "I}2{D}2: Inductive Knowledge Distillation with {N}euro{L}ogic and Self-Imitation",
+  "authors": [
+    "Bhagavatula, Chandra  and\nHwang, Jena D.  and\nDowney, Doug  and\nLe Bras, Ronan  and\nLu, Ximing  and\nQin, Lianhui  and\nSakaguchi, Keisuke  and\nSwayamdipta, Swabha  and\nWest, Peter  and\nChoi, Yejin"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Commonsense capabilities of pre-trained language models dramatically improve with scale, leading many to believe that scale is the only winning recipe. But is it? Here, we investigate an alternative that a priori seems impossible: can smaller language models (e.g., GPT-2) win over models that are orders of magnitude larger and better (e.g., GPT-3), if powered with novel commonsense distillation algorithms?The key intellectual challenge is to design a learning algorithm that achieve a competitive level of commonsense acquisition, without relying on the benefits of scale. In particular, we study generative models of commonsense knowledge, focusing on the task of generating generics, statements of commonsense facts about everyday concepts, e.g., birds can fly. We introduce I2D2, a novel commonsense distillation framework that loosely follows the Symbolic Knowledge Distillation of West et al. but breaks the dependence on the extreme-scale teacher model with two innovations: (1) the novel adaptation of NeuroLogic Decoding to enhance the generation quality of the weak, off-the-shelf language models, and (2) self-imitation learning to iteratively learn from the model’s own enhanced commonsense acquisition capabilities. Empirical results suggest that scale is not the only way, as novel algorithms can be a promising alternative. Moreover, our study leads to a new corpus of generics, Gen-A-tomic, that is the largest and highest quality available to date.",
+  "keywords": [
+    "generative models",
+    "generics",
+    "smaller language models",
+    "we",
+    "generics gen",
+    "pre-trained language models",
+    "it",
+    "self",
+    "gpt-3",
+    "learning",
+    "generative",
+    "generics statements",
+    "gen",
+    "the generation quality",
+    "g"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.535/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:42:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

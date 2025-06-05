@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.9",
+  "title": "Extract-Select: A Span Selection Framework for Nested Named Entity Recognition with Generative Adversarial Training",
+  "authors": [
+    "Huang, Peixin  and\nZhao, Xiang  and\nHu, Minghao  and\nFang, Yang  and\nLi, Xinyi  and\nXiao, Weidong"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Nested named entity recognition (NER) is a task in which named entities may overlap with each other. Span-based approaches regard nested NER as a two-stage span enumeration and classification task, thus having the innate ability to handle this task. However, they face the problems of error propagation, ignorance of span boundary, difficulty in long entity recognition and requirement on large-scale annotated data. In this paper, we propose Extract-Select, a span selection framework for nested NER, to tackle these problems. Firstly, we introduce a span selection framework in which nested entities with different input categories would be separately extracted by the extractor, thus naturally avoiding error propagation in two-stage span-based approaches. In the inference phase, the trained extractor selects final results specific to the given entity category. Secondly, we propose a hybrid selection strategy in the extractor, which not only makes full use of span boundary but also improves the ability of long entity recognition. Thirdly, we design a discriminator to evaluate the extraction result, and train both extractor and discriminator with generative adversarial training (GAT). The use of GAT greatly alleviates the stress on the dataset size. Experimental results on four benchmark datasets demonstrate that Extract-Select outperforms competitive nested NER models, obtaining state-of-the-art results. The proposed model also performs well when less labeled data are given, proving the effectiveness of GAT.",
+  "keywords": [
+    "generative adversarial training",
+    "extraction",
+    "we",
+    "nested named entity recognition",
+    "nested ner",
+    "training",
+    "classification",
+    "classification task",
+    "generative",
+    "ner",
+    "categories",
+    "different input categories",
+    "generative adversarial training gat",
+    "model",
+    "entities"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.9/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:34:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

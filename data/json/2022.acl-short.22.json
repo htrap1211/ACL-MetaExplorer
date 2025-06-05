@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.22",
+  "title": "DQ}-{BART}: Efficient Sequence-to-Sequence Model via Joint Distillation and Quantization",
+  "authors": [
+    "Li, Zheng  and\nWang, Zijian  and\nTan, Ming  and\nNallapati, Ramesh  and\nBhatia, Parminder  and\nArnold, Andrew  and\nXiang, Bing  and\nRoth, Dan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Large-scale pre-trained sequence-to-sequence models like BART and T5 achieve state-of-the-art performance on many generative NLP tasks. However, such models pose a great challenge in resource-constrained scenarios owing to their large memory requirements and high latency. To alleviate this issue, we propose to jointly distill and quantize the model, where knowledge is transferred from the full-precision teacher model to the quantized and distilled low-precision student model. Empirical analyses show that, despite the challenging nature of generative tasks, we were able to achieve a 16.5x model footprint compression ratio with little performance drop relative to the full-precision counterparts on multiple summarization and QA datasets. We further pushed the limit of compression ratio to 27.7x and presented the performance-efficiency trade-off for generative tasks using pre-trained models. To the best of our knowledge, this is the first work aiming to effectively distill and quantize sequence-to-sequence pre-trained models for language generation tasks.",
+  "keywords": [
+    "precision",
+    "efficient",
+    "the performance-efficiency trade-off",
+    "language generation tasks",
+    "generative tasks",
+    "efficiency",
+    "summarization",
+    "we",
+    "many generative nlp tasks",
+    "sequence",
+    "multiple summarization",
+    "generative",
+    "the full-precision counterparts",
+    "drop",
+    "ratio"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.22/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:32:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

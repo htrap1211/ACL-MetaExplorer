@@ -1,0 +1,33 @@
+{
+  "id": "2024.sighan-1.17",
+  "title": "C}ausal{B}ench: A Comprehensive Benchmark for Evaluating Causal Reasoning Capabilities of Large Language Models",
+  "authors": [
+    "Wang, Zeyu"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 10th SIGHAN Workshop on Chinese Language Processing (SIGHAN-10)",
+  "abstract": "Causal reasoning, a core aspect of human cognition, is essential for advancing large language models (LLMs) towards artificial general intelligence (AGI) and reducing their propensity for generating hallucinations. However, existing datasets for evaluating causal reasoning in LLMs are limited by narrow domain coverage and a focus on cause-to-effect reasoning through textual problems, which does not comprehensively assess whether LLMs truly grasp causal relationships or merely guess correct answers. To address these shortcomings, we introduce a novel benchmark that spans textual, mathematical, and coding problem domains. Each problem is crafted to probe causal understanding from four perspectives: cause-to-effect, effect-to-cause, cause-to-effect with intervention, and effect-to-cause with intervention. This multi-dimensional evaluation method ensures that LLMs must exhibit a genuine understanding of causal structures by correctly answering questions across all four dimensions, mitigating the possibility of correct responses by chance. Furthermore, our benchmark explores the relationship between an LLM’s causal reasoning performance and its tendency to produce hallucinations. We present evaluations of state-of-the-art LLMs using our benchmark, providing valuable insights into their current causal reasoning capabilities across diverse domains. The dataset is publicly available for download at https://huggingface.co/datasets/CCLV/CausalBench",
+  "keywords": [
+    "we",
+    "artificial general intelligence agi",
+    "current",
+    "llm",
+    "this multi-dimensional evaluation method",
+    "co",
+    "core",
+    "llms",
+    "dimensional",
+    "general",
+    "language",
+    "evaluations",
+    "human",
+    "large language models",
+    "capabilities"
+  ],
+  "url": "https://aclanthology.org/2024.sighan-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:10:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

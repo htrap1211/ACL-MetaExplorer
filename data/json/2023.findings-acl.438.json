@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.438",
+  "title": "Uncovering Hidden Consequences of Pre-training Objectives in Sequence-to-Sequence Models",
+  "authors": [
+    "Kew, Tannon  and\nSennrich, Rico"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Some variants of self-supervised denoising objectives for pre-training encoder-decoder language models have been reported to have a negligible impact on downstream performance. Yet the design of these pre-training objectives leads to behavioural differences that can be uncovered with specific manipulations. We reproduce a recently proposed zero-shot control method and find that it is only successful on a subset of models. To understand what causes the difference in its effectiveness, we perform a set of controlled experiments, varying only the pre-training objective, and find unexpected interactions between the pre-training method and downstream controllability of models after fine-tuning. Our results show that different pre-training objectives have consequences that may not be visible in standard downstream evaluation, but which should be taken into account when developing models with controllability in mind.",
+  "keywords": [
+    "different pre-training objectives",
+    "objectives",
+    "language",
+    "it",
+    "self",
+    "the pre-training method",
+    "encoder",
+    "decoder",
+    "standard downstream evaluation",
+    "pre-training objectives",
+    "pre-training encoder-decoder language models",
+    "these pre-training objectives",
+    "fine",
+    "sequence",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.438/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

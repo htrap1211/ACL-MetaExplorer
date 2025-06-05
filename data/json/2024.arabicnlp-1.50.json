@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.50",
+  "title": "M}eme{M}ind at {A}r{AIE}val Shared Task: Spotting Persuasive Spans in {A}rabic Text with Persuasion Techniques Identification",
+  "authors": [
+    "Biswas, Md. Rafiul  and\nShah, Zubair  and\nZaghouani, Wajdi"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "This paper focuses on detecting propagandistic spans and persuasion techniques in Arabic text from tweets and news paragraphs. Each entry in the dataset contains a text sample and corresponding labels that indicate the start and end positions of propaganda techniques within the text. Tokens falling within a labeled span were assigned ’B’ (Begin) or ’I’ (Inside) tags, ’O’, corresponding to the specific propaganda technique. Using attention masks, we created uniform lengths for each span and assigned BIO tags to each token based on the provided labels. Then, we used AraBERT-base pre-trained model for Arabic text tokenization and embeddings with a token classification layer to identify propaganda techniques. Our training process involves a two-phase fine-tuning approach. First, we train only the classification layer for a few epochs, followed by full model fine-tuning, updating all parameters. This methodology allows the model to adapt to the specific characteristics of the propaganda detection task while leveraging the knowledge captured by the pretrained AraBERT model. Our approach achieved an F1 score of 0.2774, securing the 3rd position in the leaderboard of Task 1.",
+  "keywords": [
+    "arabic text tokenization",
+    "arabert-base pre-trained model",
+    "eme",
+    "layer",
+    "we",
+    "only the classification layer",
+    "the pretrained arabert model",
+    "training",
+    "classification",
+    "val",
+    "a two-phase fine-tuning approach",
+    "token",
+    "arabert",
+    "tuning",
+    "tokenization"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.50/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:02:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

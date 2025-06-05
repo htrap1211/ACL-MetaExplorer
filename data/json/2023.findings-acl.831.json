@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.831",
+  "title": "Pay Attention to Implicit Attribute Values: A Multi-modal Generative Framework for {AVE} Task",
+  "authors": [
+    "Zhang, Yupeng  and\nWang, Shensi  and\nLi, Peiguang  and\nDong, Guanting  and\nWang, Sirui  and\nXian, Yunsen  and\nLi, Zhoujun  and\nZhang, Hongzhi"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Attribute Value Extraction (AVE) boosts many e-commerce platform services such as targeted recommendation, product retrieval and question answering. Most previous studies adopt an extractive framework such as named entity recognition (NER) to capture subtokens in the product descriptions as the corresponding values of target attributes. However, in the real world scenario, there also exist implicit attribute values that are not mentioned explicitly but embedded in the image information and implied text meaning of products, for which the power of extractive methods is severely constrained. To address the above issues, we exploit a unified multi-modal AVE framework named DEFLATE (a multi-modal unifieD framEwork For impLicit And expliciT AVE) to acquire implicit attribute values in addition to the explicit ones. DEFLATE consists of a QA-based generation model to produce candidate attribute values from the product information of different modalities, and a discriminative model to ensure the credibility of the generated answers. Meanwhile, to provide a testbed that close to the real world, we collect and annotate a multi-modal dataset with parts of implicit attribute values. Extensive experiments conducted on multiple datasets demonstrate that DEFLATE significantly outperforms previous methods on the extraction of implicit attribute values, while achieving comparable performance for the explicit ones.",
+  "keywords": [
+    "extraction",
+    "targeted recommendation product retrieval",
+    "question",
+    "the generated answers",
+    "we",
+    "a multi-modal generative framework",
+    "unified",
+    "retrieval",
+    "information",
+    "different modalities",
+    "generative",
+    "ner",
+    "text",
+    "a qa-based generation model",
+    "most previous studies"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.831/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

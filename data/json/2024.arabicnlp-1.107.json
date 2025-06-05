@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.107",
+  "title": "muc{AI} at {W}ojood{NER} 2024: {A}rabic Named Entity Recognition with Nearest Neighbor Search",
+  "authors": [
+    "Abdou, Ahmed  and\nMahmoud, Tasneem"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "Named Entity Recognition (NER) is a task in Natural Language Processing (NLP) that aims to identify and classify entities in text into predefined categories.However, when applied to Arabic data, NER encounters unique challenges stemming from the language’s rich morphological inflections, absence of capitalization cues, and spelling variants, where a single word can comprise multiple morphemes.In this paper, we introduce Arabic KNN-NER, our submission to the Wojood NER Shared Task 2024 (ArabicNLP 2024). We have participated in the shared sub-task 1 Flat NER. In this shared sub-task, we tackle fine-grained flat-entity recognition for Arabic text, where we identify a single main entity and possibly zero or multiple sub-entities for each word.Arabic KNN-NER augments the probability distribution of a fine-tuned model with another label probability distribution derived from performing a KNN search over the cached training data. Our submission achieved 91% on the test set on the WojoodFine dataset, placing Arabic KNN-NER on top of the leaderboard for the shared task.",
+  "keywords": [
+    "top",
+    "we",
+    "training",
+    "natural language processing nlp",
+    "w ojood ner",
+    "natural",
+    "rich",
+    "word",
+    "the wojood ner",
+    "arabic data ner",
+    "ner",
+    "processing",
+    "categories",
+    "text",
+    "task 1 flat ner"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.107/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:03:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

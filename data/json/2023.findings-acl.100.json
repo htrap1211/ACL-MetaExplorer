@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.100",
+  "title": "$2*n$ is better than $n^2$: Decomposing Event Coreference Resolution into Two Tractable Problems",
+  "authors": [
+    "Ahmed, Shafiuddin Rehan  and\nNath, Abhijnan  and\nMartin, James H.  and\nKrishnaswamy, Nikhil"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Event Coreference Resolution (ECR) is the task of linking mentions of the same event either within or across documents. Most mention pairs are not coreferent, yet many that are coreferent can be identified through simple techniques such as lemma matching of the event triggers or the sentences in which they appear. Existing methods for training coreference systems sample from a largely skewed distribution, making it difficult for the algorithm to learn coreference beyond surface matching. Additionally, these methods are intractable because of the quadratic operations needed. To address these challenges, we break the problem of ECR into two parts: a) a heuristic to efficiently filter out a large number of non-coreferent pairs, and b) a training approach on a balanced set of coreferent and non-coreferent mention pairs. By following this approach, we show that we get comparable results to the state of the art on two popular ECR datasets while significantly reducing compute requirements. We also analyze the mention pairs that are “hard” to accurately classify as coreferent or non-coreferentcode repo:github.com/ahmeshaf/lemma_ce_coref.",
+  "keywords": [
+    "we",
+    "training",
+    "it",
+    "coreference",
+    "training coreference systems sample",
+    "documents",
+    "a large number",
+    "approach",
+    "state",
+    "comparable results",
+    "coreferentcode",
+    "balanced",
+    "b a training approach",
+    "popular",
+    "pairs"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.100/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

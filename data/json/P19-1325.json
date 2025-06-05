@@ -1,0 +1,33 @@
+{
+  "id": "P19-1325",
+  "title": "Making Fast Graph-based Algorithms with Graph Metric Embeddings",
+  "authors": [
+    "Kutuzov, Andrey  and\nDorgham, Mohammad  and\nOliynyk, Oleksiy  and\nBiemann, Chris  and\nPanchenko, Alexander"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Graph measures, such as node distances, are inefficient to compute. We explore dense vector representations as an effective way to approximate the same information. We introduce a simple yet efficient and effective approach for learning graph embeddings. Instead of directly operating on the graph structure, our method takes structural measures of pairwise node similarities into account and learns dense node representations reflecting user-defined graph distance measures, such as e.g. the shortest path distance or distance measures that take information beyond the graph structure into account. We demonstrate a speed-up of several orders of magnitude when predicting word similarity by vector operations on our embeddings as opposed to directly computing the respective path-based measures, while outperforming various other graph embeddings on semantic similarity and word sense disambiguation tasks.",
+  "keywords": [
+    "embeddings",
+    "vector operations",
+    "various other graph embeddings",
+    "graph embeddings",
+    "similarities",
+    "vector",
+    "our embeddings",
+    "metric",
+    "inefficient",
+    "efficient",
+    "pairwise node similarities",
+    "dense vector representations",
+    "information",
+    "e",
+    "semantic"
+  ],
+  "url": "https://aclanthology.org/P19-1325/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:38:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

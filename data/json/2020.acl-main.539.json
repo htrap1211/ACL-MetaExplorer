@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.539",
+  "title": "L}ogical{F}act{C}hecker: Leveraging Logical Operations for Fact Checking with Graph Module Network",
+  "authors": [
+    "Zhong, Wanjun  and\nTang, Duyu  and\nFeng, Zhangyin  and\nDuan, Nan  and\nZhou, Ming  and\nGong, Ming  and\nShou, Linjun  and\nJiang, Daxin  and\nWang, Jiahai  and\nYin, Jian"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Verifying the correctness of a textual statement requires not only semantic reasoning about the meaning of words, but also symbolic reasoning about logical operations like count, superlative, aggregation, etc. In this work, we propose LogicalFactChecker, a neural network approach capable of leveraging logical operations for fact checking. It achieves the state-of-the-art performance on TABFACT, a large-scale, benchmark dataset built for verifying a textual statement with semi-structured tables. This is achieved by a graph module network built upon the Transformer-based architecture. With a textual statement and a table as the input, LogicalFactChecker automatically derives a program (a.k.a. logical form) of the statement in a semantic parsing manner. A heterogeneous graph is then constructed to capture not only the structures of the table and the program, but also the connections between inputs with different modalities. Such a graph reveals the related contexts of each word in the statement, the table and the program. The graph is used to obtain graph-enhanced contextual representations of words in Transformer-based architecture. After that, a program-driven module network is further introduced to exploit the hierarchical structure of the program, where semantic compositionality is dynamically modeled along the program structure with a set of function-specific modules. Ablation experiments suggest that both the heterogeneous graph and the module network are important to obtain strong results.",
+  "keywords": [
+    "a semantic parsing manner",
+    "the transformer-based architecture",
+    "the hierarchical structure",
+    "form",
+    "semantic",
+    "we",
+    "semantic compositionality",
+    "graph",
+    "transformer-based architecture",
+    "neural",
+    "it",
+    "c",
+    "word",
+    "different modalities",
+    "a neural network approach"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.539/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:49:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

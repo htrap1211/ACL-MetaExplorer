@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.765",
+  "title": "R}ad{G}raph-{XL}: A Large-Scale Expert-Annotated Dataset for Entity and Relation Extraction from Radiology Reports",
+  "authors": [
+    "Delbrouck, Jean-Benoit  and\nChambon, Pierre  and\nChen, Zhihong  and\nVarma, Maya  and\nJohnston, Andrew  and\nBlankemeier, Louis  and\nVan Veen, Dave  and\nBui, Tan  and\nTruong, Steven  and\nLanglotz, Curtis"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "In order to enable extraction of structured clinical data from unstructured radiology reports, we introduce RadGraph-XL, a large-scale, expert-annotated dataset for clinical entity and relation extraction. RadGraph-XL consists of 2,300 radiology reports, which are annotated with over 410,000 entities and relations by board-certified radiologists. Whereas previous approaches focus solely on chest X-rays, RadGraph-XL includes data from four anatomy-modality pairs - chest CT, abdomen/pelvis CT, brain MR, and chest X-rays. Then, in order to automate structured information extraction, we use RadGraph-XL to train transformer-based models for clinical entity and relation extraction. Our evaluations include comprehensive ablation studies as well as an expert reader study that evaluates trained models on out-of-domain data. Results demonstrate that our model surpasses the performance of previous methods by up to 52% and notably outperforms GPT-4 in this domain. We release RadGraph-XL as well as our trained model to foster further innovation and research in structured clinical information extraction.",
+  "keywords": [
+    "transformer",
+    "board-certified radiologists",
+    "structured information extraction",
+    "over 410 000 entities",
+    "extraction",
+    "model",
+    "entities",
+    "studies",
+    "evaluations",
+    "transformer-based models",
+    "-",
+    "structured clinical information extraction",
+    "information",
+    "gpt-4",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.765/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:59:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

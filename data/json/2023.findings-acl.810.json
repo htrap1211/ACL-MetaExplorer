@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.810",
+  "title": "Domain Generalization via Switch Knowledge Distillation for Robust Review Representation",
+  "authors": [
+    "Zhang, You  and\nWang, Jin  and\nYu, Liang-Chih  and\nXu, Dan  and\nZhang, Xuejie"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Applying neural models injected with in-domain user and product information to learn review representations of unseen or anonymous users incurs an obvious obstacle in content-based recommender systems. For the generalization of the in-domain classifier, most existing models train an extra plain-text model for the unseen domain. Without incorporating historical user and product information, such a schema makes unseen and anonymous users dissociate from the recommender system. To simultaneously learn the review representation of both existing and unseen users, this study proposed a switch knowledge distillation for domain generalization. A generalization-switch (GSwitch) model was initially applied to inject user and product information by flexibly encoding both domain-invariant and domain-specific features. By turning the status ON or OFF, the model introduced a switch knowledge distillation to learn a robust review representation that performed well for either existing or anonymous unseen users. The empirical experiments were conducted on IMDB, Yelp-2013, and Yelp-2014 by masking out users in test data as unseen and anonymous users. The comparative results indicate that the proposed method enhances the generalization capability of several existing baseline models. For reproducibility, the code for this paper is available at:https://github.com/yoyo-yun/DG_RRR.",
+  "keywords": [
+    "code",
+    "classifier",
+    "extra",
+    "the review representation",
+    "domain generalization",
+    "neural",
+    "information",
+    "a generalization-switch gswitch model",
+    "text",
+    "the generalization capability",
+    "robust review representation",
+    "generalization",
+    "knowledge",
+    "model",
+    "the generalization"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.810/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

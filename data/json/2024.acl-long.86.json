@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.86",
+  "title": "Probing Language Models for Pre-training Data Detection",
+  "authors": [
+    "Liu, Zhenhua  and\nZhu, Tong  and\nTan, Chuanyuan  and\nLiu, Bing  and\nLu, Haonan  and\nChen, Wenliang"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large Language Models (LLMs) have shown their impressive capabilities, while also raising concerns about the data contamination problems due to privacy issues and leakage of benchmark datasets in the pre-training phase. Therefore, it is vital to detect the contamination by checking whether an LLM has been pre-trained on the target texts. Recent studies focus on the generated texts and compute perplexities, which are superficial features and not reliable. In this study, we propose to utilize the probing technique for pre-training data detection by examining the model’s internal activations. Our method is simple and effective and leads to more trustworthy pre-training data detection. Additionally, we propose ArxivMIA, a new challenging benchmark comprising arxiv abstracts from Computer Science and Mathematics categories. Our experiments demonstrate that our method outperforms all baselines, and achieves state-of-the-art performance on both WikiMIA and ArxivMIA, with additional experiments confirming its efficacy.",
+  "keywords": [
+    "the generated texts",
+    "an llm",
+    "we",
+    "activations",
+    "llm",
+    "perplexities",
+    "training",
+    "compute perplexities",
+    "it",
+    "science",
+    "pre-training data detection",
+    "the pre-training phase",
+    "llms",
+    "categories",
+    "language models"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.86/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:35:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

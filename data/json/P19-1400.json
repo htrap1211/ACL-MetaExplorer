@@ -1,0 +1,33 @@
+{
+  "id": "P19-1400",
+  "title": "Distant Learning for Entity Linking with Automatic Noise Detection",
+  "authors": [
+    "Le, Phong  and\nTitov, Ivan"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Accurate entity linkers have been produced for domains and languages where annotated data (i.e., texts linked to a knowledge base) is available. However, little progress has been made for the settings where no or very limited amounts of labeled data are present (e.g., legal or most scientific domains). In this work, we show how we can learn to link mentions without having any labeled examples, only a knowledge base and a collection of unannotated texts from the corresponding domain. In order to achieve this, we frame the task as a multi-instance learning problem and rely on surface matching to create initial noisy labels. As the learning signal is weak and our surrogate labels are noisy, we introduce a noise detection component in our model: it lets the model detect and disregard examples which are likely to be noisy. Our method, jointly learning to detect noise and link entities, greatly outperforms the surface matching baseline. For a subset of entity categories, it even approaches the performance of supervised learning.",
+  "keywords": [
+    "we",
+    "it",
+    "entity categories",
+    "learning",
+    "scientific",
+    "i",
+    "categories",
+    "work",
+    "knowledge",
+    "model",
+    "entities",
+    "entity",
+    "a noise detection component",
+    "little progress",
+    "multi"
+  ],
+  "url": "https://aclanthology.org/P19-1400/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:40:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

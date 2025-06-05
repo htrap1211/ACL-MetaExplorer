@@ -1,0 +1,33 @@
+{
+  "id": "P19-1225",
+  "title": "Answering while Summarizing: Multi-task Learning for Multi-hop {QA} with Evidence Extraction",
+  "authors": [
+    "Nishida, Kosuke  and\nNishida, Kyosuke  and\nNagata, Masaaki  and\nOtsuka, Atsushi  and\nSaito, Itsumi  and\nAsano, Hisako  and\nTomita, Junji"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Question answering (QA) using textual sources for purposes such as reading comprehension (RC) has attracted much attention. This study focuses on the task of explainable multi-hop QA, which requires the system to return the answer with evidence sentences by reasoning and gathering disjoint pieces of the reference texts. It proposes the Query Focused Extractor (QFE) model for evidence extraction and uses multi-task learning with the QA model. QFE is inspired by extractive summarization models; compared with the existing method, which extracts each evidence sentence independently, it sequentially extracts evidence sentences by using an RNN with an attention mechanism on the question sentence. It enables QFE to consider the dependency among the evidence sentences and cover important information in the question sentence. Experimental results show that QFE with a simple RC baseline model achieves a state-of-the-art evidence extraction score on HotpotQA. Although designed for RC, it also achieves a state-of-the-art evidence extraction score on FEVER, which is a recognizing textual entailment task on a large textual database.",
+  "keywords": [
+    "much attention",
+    "extraction",
+    "question",
+    "summarization",
+    "an attention mechanism",
+    "an rnn",
+    "answer",
+    "it",
+    "hotpotqa",
+    "extractive summarization models",
+    "information",
+    "pieces",
+    "learning",
+    "explainable multi-hop qa",
+    "the qa model qfe"
+  ],
+  "url": "https://aclanthology.org/P19-1225/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:35:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

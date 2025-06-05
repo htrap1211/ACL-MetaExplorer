@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.416",
+  "title": "Towards Imperceptible Document Manipulations against Neural Ranking Models",
+  "authors": [
+    "Chen, Xuanang  and\nHe, Ben  and\nYe, Zheng  and\nSun, Le  and\nSun, Yingfei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Adversarial attacks have gained traction in order to identify vulnerabilities in neural ranking models (NRMs), but current attack methods often introduce noticeable errors. Moreover, current methods rely heavily on using a well-imitated surrogate NRM to guarantee the attack effect, making them difficult to use in practice. This paper proposes a framework called Imperceptible DocumEnt Manipulation (IDEM) to produce adversarial documents that are less noticeable to both algorithms and humans. IDEM instructs a well-established generative language model like BART to generate error-free connection sentences, and employs a separate position-wise merging strategy to balance between relevance and coherence of the perturbed text. Evaluation results on the MS MARCO benchmark demonstrate that IDEM outperforms strong baselines while preserving fluency and correctness of the target documents. Furthermore, the separation of adversarial text generation from the surrogate NRM makes IDEM more robust and less affected by the quality of the surrogate NRM.",
+  "keywords": [
+    "adversarial text generation",
+    "current",
+    "traction",
+    "neural",
+    "generative",
+    "text",
+    "language",
+    "generation",
+    "model",
+    "evaluation",
+    "vulnerabilities",
+    "documents",
+    "the quality",
+    "correctness",
+    "current methods"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.416/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

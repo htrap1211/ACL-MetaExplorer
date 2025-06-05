@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.99",
+  "title": "S}$^2${SQL}: Injecting Syntax to Question-Schema Interaction Graph Encoder for Text-to-{SQL} Parsers",
+  "authors": [
+    "Hui, Binyuan  and\nGeng, Ruiying  and\nWang, Lihan  and\nQin, Bowen  and\nLi, Yanyang  and\nLi, Bowen  and\nSun, Jian  and\nLi, Yongbin"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "The task of converting a natural language question into an executable SQL query, known as text-to-SQL, is an important branch of semantic parsing. The state-of-the-art graph-based encoder has been successfully used in this task but does not model the question syntax well. In this paper, we propose S2SQL, injecting Syntax to question-Schema graph encoder for Text-to-SQL parsers, which effectively leverages the syntactic dependency information of questions in text-to-SQL to improve the performance. We also employ the decoupling constraint to induce diverse relational edge embedding, which further improves the network’s performance. Experiments on the Spider and robustness setting Spider-Syn demonstrate that the proposed approach outperforms all existing methods when pre-training models are used, resulting in a performance ranks first on the Spider leaderboard.",
+  "keywords": [
+    "syn",
+    "the syntactic dependency information",
+    "edge",
+    "language",
+    "natural",
+    "text",
+    "question-schema graph encoder",
+    "encoder",
+    "question",
+    "information",
+    "dependency",
+    "pre-training models",
+    "question-schema interaction graph encoder",
+    "we",
+    "semantic"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.99/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

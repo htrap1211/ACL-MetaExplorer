@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.545",
+  "title": "Unexpected Phenomenon: {LLM}s' Spurious Associations in Information Extraction",
+  "authors": [
+    "Zhang, Weiyan  and\nLu, Wanpeng  and\nWang, Jiacheng  and\nWang, Yating  and\nChen, Lihan  and\nJiang, Haiyun  and\nLiu, Jingping  and\nRuan, Tong"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Information extraction plays a critical role in natural language processing. When applying large language models (LLMs) to this domain, we discover an unexpected phenomenon: LLMs’ spurious associations. In tasks such as relation extraction, LLMs can accurately identify entity pairs, even if the given relation (label) is semantically unrelated to the pre-defined original one. To find these labels, we design two strategies in this study, including forward label extension and backward label validation. We also leverage the extended labels to improve model performance. Our comprehensive experiments show that spurious associations occur consistently in both Chinese and English datasets across various LLM sizes. Moreover, the use of extended labels significantly enhances LLM performance in information extraction tasks. Remarkably, there is a performance increase of 9.55%, 11.42%, and 21.27% in F1 scores on the SciERC, ACE05, and DuEE datasets, respectively.",
+  "keywords": [
+    "processing",
+    "validation",
+    "language",
+    "extraction",
+    "natural",
+    "model",
+    "llm performance",
+    "two strategies",
+    "large language models",
+    "strategies",
+    "information extraction information extraction",
+    "f1 scores",
+    "relation extraction llms",
+    "information",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.545/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:56:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

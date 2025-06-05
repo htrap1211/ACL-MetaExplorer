@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.309",
+  "title": "Word Segmentation by Separation Inference for {E}ast {A}sian Languages",
+  "authors": [
+    "Tong, Yu  and\nGuo, Jingzhi  and\nZhou, Jizhe  and\nChen, Ge  and\nZheng, Guokai"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Chinese Word Segmentation (CWS) intends to divide a raw sentence into words through sequence labeling. Thinking in reverse, CWS can also be viewed as a process of grouping a sequence of characters into a sequence of words. In such a way, CWS is reformed as a separation inference task in every adjacent character pair. Since every character is either connected or not connected to the others, the tagging schema is simplified as two tags “Connection” (C) or “NoConnection” (NC). Therefore, bigram is specially tailored for “C-NC” to model the separation state of every two consecutive characters. Our Separation Inference (SpIn) framework is evaluated on five public datasets, is demonstrated to work for machine learning and deep learning models, and outperforms state-of-the-art performance for CWS in all experiments. Performance boosts on Japanese Word Segmentation (JWS) and Korean Word Segmentation (KWS) further prove the framework is universal and effective for East Asian Languages.",
+  "keywords": [
+    "deep",
+    "ast",
+    "machine learning",
+    "word",
+    "sequence",
+    "learning",
+    "deep learning models",
+    "process",
+    "machine",
+    "tagging",
+    "characters",
+    "the separation state",
+    "state",
+    "five public datasets",
+    "framework"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.309/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

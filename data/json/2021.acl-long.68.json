@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.68",
+  "title": "Multilingual Speech Translation from Efficient Finetuning of Pretrained Models",
+  "authors": [
+    "Li, Xian  and\nWang, Changhan  and\nTang, Yun  and\nTran, Chau  and\nTang, Yuqing  and\nPino, Juan  and\nBaevski, Alexei  and\nConneau, Alexis  and\nAuli, Michael"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "We present a simple yet effective approach to build multilingual speech-to-text (ST) translation through efficient transfer learning from a pretrained speech encoder and text decoder. Our key finding is that a minimalistic LNA (LayerNorm and Attention) finetuning can achieve zero-shot crosslingual and cross-modality transfer ability by only finetuning 10 50% of the pretrained parameters. This effectively leverages large pretrained models at low training cost such as wav2vec 2.0 for acoustic modeling, and mBART for multilingual text generation. This sets a new state-of-the-art for 36 translation directions (and surpassing cascaded ST for 26 of them) on the large-scale multilingual ST benchmark CoVoST 2 (+6.4 BLEU on average for En-X directions and +6.7 BLEU for X-En directions). Our approach demonstrates strong zero-shot performance in a many-to-many multilingual model (+5.6 BLEU on average across 28 non-English directions), making it an appealing approach for attaining high-quality speech translation with improved parameter and data efficiency.",
+  "keywords": [
+    "efficient finetuning",
+    "efficient",
+    "bleu",
+    "data efficiency",
+    "text decoder",
+    "efficiency",
+    "we",
+    "multilingual text generation",
+    "5 6 bleu",
+    "shot",
+    "parameter",
+    "training",
+    "translation",
+    "cross",
+    "a pretrained speech encoder"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.68/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:00:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

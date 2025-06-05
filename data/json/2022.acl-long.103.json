@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.103",
+  "title": "On The Ingredients of an Effective Zero-shot Semantic Parser",
+  "authors": [
+    "Yin, Pengcheng  and\nWieting, John  and\nSil, Avirup  and\nNeubig, Graham"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Semantic parsers map natural language utterances into meaning representations (e.g., programs). Such models are typically bottlenecked by the paucity of training data due to the required laborious annotation efforts. Recent studies have performed zero-shot learning by synthesizing training examples of canonical utterances and programs from a grammar, and further paraphrasing these utterances to improve linguistic diversity. However, such synthetic examples cannot fully capture patterns in real data. In this paper we analyze zero-shot parsers through the lenses of the language and logical gaps (Herzig and Berant, 2019), which quantify the discrepancy of language and programmatic patterns between the canonical examples and real-world user-issued ones. We propose bridging these gaps using improved grammars, stronger paraphrasers, and efficient learning methods using canonical examples that most likely reflect real user intents. Our model achieves strong performance on two semantic parsing benchmarks (Scholar, Geo) with zero labeled data.",
+  "keywords": [
+    "parsing",
+    "efficient",
+    "semantic",
+    "we",
+    "shot",
+    "training",
+    "natural",
+    "paucity",
+    "ingredients",
+    "learning",
+    "the paucity",
+    "recent studies",
+    "zero-shot parsers",
+    "zero-shot learning",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.103/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

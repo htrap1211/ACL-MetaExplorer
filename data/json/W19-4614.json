@@ -1,0 +1,33 @@
+{
+  "id": "W19-4614",
+  "title": "Assessing {A}rabic Weblog Credibility via Deep Co-learning",
+  "authors": [
+    "Helwe, Chadi  and\nElbassuoni, Shady  and\nAl Zaatari, Ayman  and\nEl-Hajj, Wassim"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Arabic Natural Language Processing Workshop",
+  "abstract": "Assessing the credibility of online content has garnered a lot of attention lately. We focus on one such type of online content, namely weblogs or blogs for short. Some recent work attempted the task of automatically assessing the credibility of blogs, typically via machine learning. However, in the case of Arabic blogs, there are hardly any datasets available that can be used to train robust machine learning models for this difficult task. To overcome the lack of sufficient training data, we propose deep co-learning, a semi-supervised end-to-end deep learning approach to assess the credibility of Arabic blogs. In deep co-learning, multiple weak deep neural network classifiers are trained using a small labeled dataset, and each using a different view of the data. Each one of these classifiers is then used to classify unlabeled data, and its prediction is used to train the other classifiers in a semi-supervised fashion. We evaluate our deep co-learning approach on an Arabic blogs dataset, and we report significant improvements in performance compared to many baselines including fully-supervised deep learning models as well as ensemble models.",
+  "keywords": [
+    "deep",
+    "these classifiers",
+    "end",
+    "classifiers",
+    "we",
+    "the other classifiers",
+    "training",
+    "ensemble",
+    "neural",
+    "ensemble models",
+    "sufficient",
+    "machine learning",
+    "learning",
+    "-",
+    "robust machine learning models"
+  ],
+  "url": "https://aclanthology.org/W19-4614/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:04:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

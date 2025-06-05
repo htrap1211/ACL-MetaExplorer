@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.841",
+  "title": "P}ru{MUX}: Augmenting Data Multiplexing with Model Compression",
+  "authors": [
+    "Su, Yushan  and\nMurahari, Vishvak  and\nNarasimhan, Karthik  and\nLi, Kai"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "As language models increase in size by the day, methods for efficient inference are critical to leveraging their capabilities for various applications. Prior work has investigated techniques like model pruning, knowledge distillation, and data multiplexing to increase model throughput without sacrificing accuracy. In this paper, we combine two such methods – structured pruning and data multiplexing – to compound the speedup gains obtained by either method. Our approach, PruMUX, obtains up to 7.5-29.5X throughput improvement over BERT-base model with accuracy threshold from 80% to 74%. We further study various combinations of parameters (such as sparsity and multiplexing factor) in the two techniques to provide a comprehensive analysis of the tradeoff between accuracy and throughput in the resulting models. We then propose Auto-PruMUX, a meta-level model that can predict the high-performance parameters for pruning and multiplexing given a desired accuracy loss budget, providing a practical method to leverage the combination effectively.",
+  "keywords": [
+    "efficient",
+    "we",
+    "efficient inference",
+    "accuracy threshold",
+    "bert-base model",
+    "loss",
+    "analysis",
+    "bert",
+    "language models",
+    "accuracy",
+    "their capabilities",
+    "work",
+    "knowledge",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.841/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

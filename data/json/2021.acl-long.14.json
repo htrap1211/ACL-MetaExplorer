@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.14",
+  "title": "B}o{B}: {BERT} Over {BERT} for Training Persona-based Dialogue Models from Limited Personalized Data",
+  "authors": [
+    "Song, Haoyu  and\nWang, Yan  and\nZhang, Kaiyan  and\nZhang, Wei-Nan  and\nLiu, Ting"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Maintaining a consistent persona is essential for dialogue agents. Although tremendous advancements have been brought, the limited-scale of annotated personalized dialogue datasets is still a barrier towards training robust and consistent persona-based dialogue models. This work shows how this challenge can be addressed by disentangling persona-based dialogue generation into two sub-tasks with a novel BERT-over-BERT (BoB) model. Specifically, the model consists of a BERT-based encoder and two BERT-based decoders, where one decoder is for response generation, and another is for consistency understanding. In particular, to learn the ability of consistency understanding from large-scale non-dialogue inference data, we train the second decoder in an unlikelihood manner. Under different limited data settings, both automatic and human evaluations demonstrate that the proposed model outperforms strong baselines in response quality and persona consistency.",
+  "keywords": [
+    "work",
+    "one decoder",
+    "generation",
+    "bert",
+    "model",
+    "annotated personalized dialogue datasets",
+    "human",
+    "evaluations",
+    "two bert-based decoders",
+    "the second decoder",
+    "-",
+    "encoder",
+    "decoder",
+    "large-scale non-dialogue inference data",
+    "b o b bert"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.14/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:59:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

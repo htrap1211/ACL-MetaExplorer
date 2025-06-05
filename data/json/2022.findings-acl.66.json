@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.66",
+  "title": "Fact-Tree Reasoning for N-ary Question Answering over Knowledge Graphs",
+  "authors": [
+    "Zhang, Yao  and\nLi, Peiyao  and\nLiang, Hongru  and\nJatowt, Adam  and\nYang, Zhenglu"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Current Question Answering over Knowledge Graphs (KGQA) task mainly focuses on performing answer reasoning upon KGs with binary facts. However, it neglects the n-ary facts, which contain more than two entities. In this work, we highlight a more challenging but under-explored task: n-ary KGQA, i.e., answering n-ary facts questions upon n-ary KGs. Nevertheless, the multi-hop reasoning framework popular in binary KGQA task is not directly applicable on n-ary KGQA. We propose two feasible improvements: 1) upgrade the basic reasoning unit from entity or relation to fact, and 2) upgrade the reasoning structure from chain to tree. Therefore, we propose a novel fact-tree reasoning framework, FacTree, which integrates the above two upgrades. FacTree transforms the question into a fact tree and performs iterative fact reasoning on the fact tree to infer the correct answer. Experimental results on the n-ary KGQA dataset we constructed and two binary KGQA benchmarks demonstrate the effectiveness of FacTree compared with state-of-the-art methods.",
+  "keywords": [
+    "work",
+    "kgqa task",
+    "two binary kgqa benchmarks",
+    "knowledge",
+    "i",
+    "kgqa",
+    "answer",
+    "the n-ary kgqa dataset",
+    "entities",
+    "it",
+    "chain",
+    "n-ary kgqa",
+    "question",
+    "knowledge graphs",
+    "binary kgqa task"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.66/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

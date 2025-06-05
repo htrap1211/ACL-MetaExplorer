@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwpt-1.22",
+  "title": "The {DCU}-{EPFL} Enhanced Dependency Parser at the {IWPT} 2021 Shared Task",
+  "authors": [
+    "Barry, James  and\nMohammadshahi, Alireza  and\nWagner, Joachim  and\nFoster, Jennifer  and\nHenderson, James"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 17th International Conference on Parsing Technologies and the IWPT 2021 Shared Task on Parsing into Enhanced Universal Dependencies (IWPT 2021)",
+  "abstract": "We describe the DCU-EPFL submission to the IWPT 2021 Parsing Shared Task: From Raw Text to Enhanced Universal Dependencies. The task involves parsing Enhanced UD graphs, which are an extension of the basic dependency trees designed to be more facilitative towards representing semantic structure. Evaluation is carried out on 29 treebanks in 17 languages and participants are required to parse the data from each language starting from raw strings. Our approach uses the Stanza pipeline to preprocess the text files, XLM-RoBERTa to obtain contextualized token representations, and an edge-scoring and labeling model to predict the enhanced graph. Finally, we run a postprocessing script to ensure all of our outputs are valid Enhanced UD graphs. Our system places 6th out of 9 participants with a coarse Enhanced Labeled Attachment Score (ELAS) of 83.57. We carry out additional post-deadline experiments which include using Trankit for pre-processing, XLM-RoBERTa LARGE, treebank concatenation, and multitask learning between a basic and an enhanced dependency parser. All of these modifications improve our initial score and our final system has a coarse ELAS of 88.04.",
+  "keywords": [
+    "roberta",
+    "enhanced universal dependencies",
+    "semantic",
+    "all",
+    "we",
+    "valid",
+    "graph",
+    "semantic structure evaluation",
+    "edge",
+    "token",
+    "dependencies",
+    "the basic dependency trees",
+    "learning",
+    "xlm-roberta",
+    "processing"
+  ],
+  "url": "https://aclanthology.org/2021.iwpt-1.22/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

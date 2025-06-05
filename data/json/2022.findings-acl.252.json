@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.252",
+  "title": "The Past Mistake is the Future Wisdom: Error-driven Contrastive Probability Optimization for {C}hinese Spell Checking",
+  "authors": [
+    "Li, Yinghui  and\nZhou, Qingyu  and\nLi, Yangning  and\nLi, Zhongli  and\nLiu, Ruiyang  and\nSun, Rongyi  and\nWang, Zizhen  and\nLi, Chao  and\nCao, Yunbo  and\nZheng, Hai-Tao"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Chinese Spell Checking (CSC) aims to detect and correct Chinese spelling errors, which are mainly caused by the phonological or visual similarity. Recently, pre-trained language models (PLMs) promote the progress of CSC task. However, there exists a gap between the learned knowledge of PLMs and the goal of CSC task. PLMs focus on the semantics in text and tend to correct the erroneous characters to semantically proper or commonly used ones, but these aren’t the ground-truth corrections. To address this issue, we propose an Error-driven COntrastive Probability Optimization (ECOPO) framework for CSC task. ECOPO refines the knowledge representations of PLMs, and guides the model to avoid predicting these common characters through an error-driven way. Particularly, ECOPO is model-agnostic and it can be combined with existing CSC methods to achieve better performance. Extensive experiments and detailed analyses on SIGHAN datasets demonstrate that ECOPO is simple yet effective.",
+  "keywords": [
+    "the semantics",
+    "we",
+    "semantics",
+    "it",
+    "visual",
+    "text",
+    "knowledge",
+    "language",
+    "model",
+    "optimization",
+    "pre",
+    "characters",
+    "detailed",
+    "error",
+    "existing csc methods"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.252/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

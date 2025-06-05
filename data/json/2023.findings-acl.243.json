@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.243",
+  "title": "Balancing the Effect of Training Dataset Distribution of Multiple Styles for Multi-Style Text Transfer",
+  "authors": [
+    "Das, Debarati  and\nMa, David  and\nKang, Dongyeop"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Text style transfer is an exciting task within the field of natural language generation that is often plagued by the need for high-quality paired datasets. Furthermore, training a model for multi-attribute text style transfer requires datasets with sufficient support across all combinations of the considered stylistic attributes, adding to the challenges of training a style transfer model. This paper explores the impact of training data input diversity on the quality of the generated text from the multi-style transfer model. We construct a pseudo-parallel dataset by devising heuristics to adjust the style distribution in the training samples. We balance our training dataset using marginal and joint distributions to train our style transfer models. We observe that a balanced dataset produces more effective control effects over multiple styles than an imbalanced or skewed one. Through quantitative analysis, we explore the impact of multiple style distributions in training data on style-transferred output. These findings will better inform the design of style-transfer datasets.",
+  "keywords": [
+    "support",
+    "field",
+    "we",
+    "training",
+    "sufficient support",
+    "the generated text",
+    "the field",
+    "natural",
+    "sufficient",
+    "natural language generation",
+    "transfer",
+    "analysis",
+    "text",
+    "language",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.243/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.196",
+  "title": "x{GQA}: Cross-Lingual Visual Question Answering",
+  "authors": [
+    "Pfeiffer, Jonas  and\nGeigle, Gregor  and\nKamath, Aishwarya  and\nSteitz, Jan-Martin O.  and\nRoth, Stefan  and\nVuli{\\'c}, Ivan  and\nGurevych, Iryna"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Recent advances in multimodal vision and language modeling have predominantly focused on the English language, mostly due to the lack of multilingual multimodal datasets to steer modeling efforts. In this work, we address this gap and provide xGQA, a new multilingual evaluation benchmark for the visual question answering task. We extend the established English GQA dataset to 7 typologically diverse languages, enabling us to detect and explore crucial challenges in cross-lingual visual question answering. We further propose new adapter-based approaches to adapt multimodal transformer-based models to become multilingual, and—vice versa—multilingual models to become multimodal. Our proposed methods outperform current state-of-the-art multilingual multimodal models (e.g., M3P) in zero-shot cross-lingual settings, but the accuracy remains low across the board; a performance drop of around 38 accuracy points in target languages showcases the difficulty of zero-shot cross-lingual transfer for this task. Our results suggest that simple cross-lingual transfer of multimodal models yields latent multilingual multimodal misalignment, calling for more sophisticated methods for vision and multilingual language modeling.",
+  "keywords": [
+    "the accuracy",
+    "question",
+    "we",
+    "gqa",
+    "xgqa",
+    "current",
+    "language modeling",
+    "misalignment",
+    "cross",
+    "zero-shot cross-lingual transfer",
+    "latent",
+    "transfer",
+    "visual",
+    "zero-shot cross-lingual settings",
+    "multimodal transformer-based models"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.196/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

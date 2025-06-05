@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.206",
+  "title": "A Graph Enhanced {BERT} Model for Event Prediction",
+  "authors": [
+    "Du, Li  and\nDing, Xiao  and\nZhang, Yue  and\nLiu, Ting  and\nQin, Bing"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Predicting the subsequent event for an existing event context is an important but challenging task, as it requires understanding the underlying relationship between events. Previous methods propose to retrieve relational features from event graph to enhance the modeling of event correlation. However, the sparsity of event graph may restrict the acquisition of relevant graph information, and hence influence the model performance. To address this issue, we consider automatically building of event graph using a BERT model. To this end, we incorporate an additional structured variable into BERT to learn to predict the event connections in the training process. Hence, in the test process, the connection relationship for unseen events can be predicted by the structured variable. Results on two event prediction tasks: script event prediction and story ending prediction, show that our approach can outperform state-of-the-art baseline methods.",
+  "keywords": [
+    "process",
+    "end",
+    "bert",
+    "model",
+    "it",
+    "a bert model",
+    "modeling",
+    "information",
+    "we",
+    "graph",
+    "training",
+    "this issue",
+    "connection",
+    "approach",
+    "the subsequent event"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.206/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

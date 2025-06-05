@@ -1,0 +1,33 @@
+{
+  "id": "2024.alvr-1.8",
+  "title": "V}ideo{C}o{T}: A Video Chain-of-Thought Dataset with Active Annotation Tool",
+  "authors": [
+    "Wang, Yan  and\nZeng, Yawen  and\nZheng, Jingsheng  and\nXing, Xiaofen  and\nXu, Jin  and\nXu, Xiangmin"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 3rd Workshop on Advances in Language and Vision Research (ALVR)",
+  "abstract": "Multimodal large language models (MLLMs) are flourishing, but mainly focus on images with less attention than videos, especially in sub-fields such as prompt engineering, video chain-of-though (CoT), and instruction tuning on videos. Therefore, we try to explore the collection of CoT datasets in videos to lead to video OpenQA and improve the reasoning ability of MLLMs. Unfortunately, making such video CoT datasets is not an easy task. Given that human annotation is too cumbersome and expensive, while machine-generated is not reliable due to the hallucination issue, we develop an automatic annotation tool that combines machine and human experts, under the active learning paradigm. Active learning is an interactive strategy between the model and human experts, in this way, the workload of human labeling can be reduced and the quality of the dataset can be guaranteed. With the help of the automatic annotation tool, we strive to contribute three datasets, namely VideoCoT, TopicQA, TopicCoT. Furthermore, we propose a simple but effective benchmark based on the collected datasets, which exploits CoT to maximize the complex reasoning capabilities of MLLMs. Extensive experiments demonstrate the effectiveness our solution, and we will release our source codes and datasets to facilitate the research community.",
+  "keywords": [
+    "cot datasets",
+    "chain",
+    "less attention",
+    "topicqa",
+    "we",
+    "fields",
+    "such video cot datasets",
+    "instruction",
+    "cot",
+    "learning",
+    "though",
+    "instruction tuning",
+    "tuning",
+    "mllms extensive experiments",
+    "prompt"
+  ],
+  "url": "https://aclanthology.org/2024.alvr-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:02:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

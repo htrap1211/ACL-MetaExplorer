@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.61",
+  "title": "EPFL}-{MAKE} at ``Discharge Me!'': An {LLM} System for Automatically Generating Discharge Summaries of Clinical Electronic Health Record",
+  "authors": [
+    "Wu, Haotian  and\nBoulenger, Paul  and\nFaure, Antonin  and\nC{\\'e}spedes, Berta  and\nBoukil, Farouk  and\nMorel, Nastasia  and\nChen, Zeming  and\nBosselut, Antoine"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "This paper presents our contribution to the Streamlining Discharge Documentation shared task organized as part of the ACL’24 workshop. We propose MEDISCHARGE (Meditron-7B Based Medical Summary Generation System for Discharge Me), an LLM-based system to generate Brief Hospital Course and Discharge Instruction summaries based on a patient’s Electronic Health Record. Our system is build on a Meditron-7B with context window extension, ensuring the system can handle cases of variable lengths with high quality. When the length of the input exceeds the system input limitation, we use a dynamic information selection framework to automatically extract important sections from the full discharge text. Then, extracted sections are removed in increasing order of importance until the input length requirement is met. We demonstrate our approach outperforms tripling the size of the context window of the model. Our system obtains a 0.289 overall score in the leaderboard, an improvement of 183% compared to the baseline, and a ROUGE-1 score of 0.444, achieving a second place performance in the shared task.",
+  "keywords": [
+    "an llm-based system",
+    "automatically generating discharge summaries",
+    "we",
+    "a rouge-1 score",
+    "llm",
+    "instruction",
+    "information",
+    "brief hospital course",
+    "an llm system",
+    "text",
+    "instruction summaries",
+    "me",
+    "summaries",
+    "generation",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.61/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

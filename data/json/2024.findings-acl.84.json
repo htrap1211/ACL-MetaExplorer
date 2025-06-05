@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.84",
+  "title": "Temporal Validity Change Prediction",
+  "authors": [
+    "Wenzel, Georg  and\nJatowt, Adam"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Temporal validity is an important property of text that has many downstream applications, such as recommender systems, conversational AI, and user status tracking. Existing benchmarking tasks often require models to identify the temporal validity duration of a single statement. However, many data sources contain additional context, such as successive sentences in a story or posts on a social media profile. This context may alter the duration for which the originally collected statement is expected to be valid. We propose Temporal Validity Change Prediction, a natural language processing task benchmarking the capability of machine learning models to detect context statements that induce such change. We create a dataset consisting of temporal target statements sourced from Twitter and crowdsource corresponding context statements. We then benchmark a set of transformer-based language models on our dataset. Finally, we experiment with a multitasking approach to improve the state-of-the-art performance.",
+  "keywords": [
+    "we",
+    "valid",
+    "natural",
+    "machine learning models",
+    "processing",
+    "text",
+    "conversational ai",
+    "transformer-based language models",
+    "transformer",
+    "language",
+    "machine",
+    "conversational",
+    "approach",
+    "state",
+    "media"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.84/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:49:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

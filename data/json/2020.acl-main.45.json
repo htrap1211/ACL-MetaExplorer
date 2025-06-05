@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.45",
+  "title": "Dice Loss for Data-imbalanced {NLP} Tasks",
+  "authors": [
+    "Li, Xiaoya  and\nSun, Xiaofei  and\nMeng, Yuxian  and\nLiang, Junjun  and\nWu, Fei  and\nLi, Jiwei"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Many NLP tasks such as tagging and machine reading comprehension are faced with the severe data imbalance issue: negative examples significantly outnumber positive examples, and the huge number of easy-negative examples overwhelms the training. The most commonly used cross entropy (CE) criteria is actually an accuracy-oriented objective, and thus creates a discrepancy between training and test: at training time, each training instance contributes equally to the objective function, while at test time F1 score concerns more about positive examples. In this paper, we propose to use dice loss in replacement of the standard cross-entropy objective for data-imbalanced NLP tasks. Dice loss is based on the Sørensen–Dice coefficient or Tversky index , which attaches similar importance to false positives and false negatives, and is more immune to the data-imbalance issue. To further alleviate the dominating influence from easy-negative examples in training, we propose to associate training examples with dynamically adjusted weights to deemphasize easy-negative examples. Theoretical analysis shows that this strategy narrows down the gap between the F1 score in evaluation and the dice loss in training. With the proposed training objective, we observe significant performance boost on a wide range of data imbalanced NLP tasks. Notably, we are able to achieve SOTA results on CTB5, CTB6 and UD1.4 for the part of speech tagging task; SOTA results on CoNLL03, OntoNotes5.0, MSRA and OntoNotes4.0 for the named entity recognition task; along with competitive results on the tasks of machine reading comprehension and paraphrase identification.",
+  "keywords": [
+    "the sørensen dice coefficient",
+    "we",
+    "training",
+    "cross",
+    "the objective function",
+    "data-imbalanced nlp tasks",
+    "many nlp tasks",
+    "loss",
+    "boost",
+    "nlp tasks",
+    "analysis",
+    "the f1 score",
+    "objective",
+    "the proposed training objective",
+    "function"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.45/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:42:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

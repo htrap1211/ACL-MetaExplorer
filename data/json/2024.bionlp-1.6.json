@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.6",
+  "title": "Analysing zero-shot temporal relation extraction on clinical notes using temporal consistency",
+  "authors": [
+    "Kougia, Vasiliki  and\nSedova, Anastasiia  and\nStephan, Andreas Joseph  and\nZaporojets, Klim  and\nRoth, Benjamin"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "This paper presents the first study for temporal relation extraction in a zero-shot setting focusing on biomedical text. We employ two types of prompts and five Large Language Models (LLMs; GPT-3.5, Mixtral, Llama 2, Gemma, and PMC-LLaMA) to obtain responses about the temporal relations between two events. Our experiments demonstrate that LLMs struggle in the zero-shot setting, performing worse than fine-tuned specialized models in terms of F1 score. This highlights the challenging nature of this task and underscores the need for further research to enhance the performance of LLMs in this context. We further contribute a novel comprehensive temporal analysis by calculating consistency scores for each LLM. Our findings reveal that LLMs face challenges in providing responses consistent with the temporal properties of uniqueness and transitivity. Moreover, we study the relation between the temporal consistency of an LLM and its accuracy, and whether the latter can be improved by solving temporal inconsistencies. Our analysis shows that even when temporal consistency is achieved, the predictions can remain inaccurate.",
+  "keywords": [
+    "extraction",
+    "an llm",
+    "its accuracy",
+    "we",
+    "zero-shot temporal relation extraction",
+    "llm",
+    "shot",
+    "temporal inconsistencies",
+    "properties",
+    "analysis",
+    "llms",
+    "five large language models",
+    "text",
+    "the zero-shot setting",
+    "the temporal properties"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

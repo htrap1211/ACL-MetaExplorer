@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.148",
+  "title": "Striking a Balance: Alleviating Inconsistency in Pre-trained Models for Symmetric Classification Tasks",
+  "authors": [
+    "Kumar, Ashutosh  and\nJoshi, Aditya"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "While fine-tuning pre-trained models for downstream classification is the conventional paradigm in NLP, often task-specific nuances may not get captured in the resultant models. Specifically, for tasks that take two inputs and require the output to be invariant of the order of the inputs, inconsistency is often observed in the predicted labels or confidence scores. We highlight this model shortcoming and apply a consistency loss function to alleviate inconsistency in symmetric classification. Our results show an improved consistency in predictions for three paraphrase detection datasets without a significant drop in the accuracy scores. We examine the classification performance of six datasets (both symmetric and non-symmetric) to showcase the strengths and limitations of our approach.",
+  "keywords": [
+    "downstream classification",
+    "nlp",
+    "model",
+    "the classification performance",
+    "fine-tuning pre-trained models",
+    "loss",
+    "drop",
+    "fine",
+    "we",
+    "pre",
+    "the accuracy scores",
+    "symmetric classification",
+    "a consistency loss function",
+    "function",
+    "symmetric classification tasks"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.148/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

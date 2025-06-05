@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.8",
+  "title": "Attention Flows are Shapley Value Explanations",
+  "authors": [
+    "Ethayarajh, Kawin  and\nJurafsky, Dan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Shapley Values, a solution to the credit assignment problem in cooperative game theory, are a popular type of explanation in machine learning, having been used to explain the importance of features, embeddings, and even neurons. In NLP, however, leave-one-out and attention-based explanations still predominate. Can we draw a connection between these different methods? We formally prove that — save for the degenerate case — attention weights and leave-one-out values cannot be Shapley Values. Attention flow is a post-processed variant of attention weights obtained by running the max-flow algorithm on the attention graph. Perhaps surprisingly, we prove that attention flows are indeed Shapley Values, at least at the layerwise level. Given the many desirable theoretical qualities of Shapley Values — which has driven their adoption among the ML community — we argue that NLP practitioners should, when possible, adopt attention flow explanations alongside more traditional ones.",
+  "keywords": [
+    "attention weights",
+    "attention flows",
+    "we",
+    "qualities",
+    "graph",
+    "attention flow explanations",
+    "nlp practitioners",
+    "machine learning",
+    "learning",
+    "max",
+    "practitioners",
+    "embeddings",
+    "shapley values attention flow",
+    "nlp",
+    "machine"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

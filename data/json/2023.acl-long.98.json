@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.98",
+  "title": "Why Aren{'}t We {NER} Yet? Artifacts of {ASR} Errors in Named Entity Recognition in Spontaneous Speech Transcripts",
+  "authors": [
+    "Szyma{\\'n}ski, Piotr  and\nAugustyniak, Lukasz  and\nMorzy, Mikolaj  and\nSzymczak, Adrian  and\nSurdyk, Krzysztof  and\n{\\.Z}elasko, Piotr"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Transcripts of spontaneous human speech present a significant obstacle for traditional NER models. The lack of grammatical structure of spoken utterances and word errors introduced by the ASR make downstream NLP tasks challenging. In this paper, we examine in detail the complex relationship between ASR and NER errors which limit the ability of NER models to recover entity mentions from spontaneous speech transcripts. Using publicly available benchmark datasets (SWNE, Earnings-21, OntoNotes), we present the full taxonomy of ASR-NER errors and measure their true impact on entity recognition. We find that NER models fail spectacularly even if no word errors are introduced by the ASR. We also show why the F1 score is inadequate to evaluate NER models on conversational transcripts.",
+  "keywords": [
+    "ner",
+    "the f1 score",
+    "nlp",
+    "ner errors",
+    "human",
+    "ner models",
+    "conversational transcripts",
+    "conversational",
+    "we",
+    "word",
+    "asr-ner errors",
+    "downstream nlp tasks",
+    "traditional ner models",
+    "entity",
+    "speech"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.98/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:36:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

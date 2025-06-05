@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.50",
+  "title": "Team Converge at {P}rob{S}um 2023: Abstractive Text Summarization of Patient Progress Notes",
+  "authors": [
+    "Kolhatkar, Gaurav  and\nParanjape, Aditya  and\nGokhale, Omkar  and\nKadam, Dipali"
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "In this paper, we elaborate on our approach for the shared task 1A issued by BioNLP Workshop 2023 titled Problem List Summarization. With an increase in the digitization of health records, a need arises for quick and precise summarization of large amounts of records. With the help of summarization, medical professionals can sieve through multiple records in a short span of time without overlooking any crucial point. We use abstractive text summarization for this task and experiment with multiple state-of-the-art models like Pegasus, BART, and T5, along with various pre-processing and data augmentation techniques to generate summaries from patients’ progress notes. For this task, the metric used was the ROUGE-L score. From our experiments, we conclude that Pegasus is the best-performing model on the dataset, achieving a ROUGE-L F1 score of 0.2744 on the test dataset (3rd rank on the leaderboard).",
+  "keywords": [
+    "problem list summarization",
+    "a rouge-l f1 score",
+    "summarization medical professionals",
+    "summarization",
+    "we",
+    "abstractive text summarization",
+    "patients",
+    "quick and precise summarization",
+    "patient progress notes",
+    "bionlp workshop",
+    "processing",
+    "metric",
+    "text",
+    "bionlp",
+    "rouge"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.50/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

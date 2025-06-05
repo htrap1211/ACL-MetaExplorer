@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.275",
+  "title": "PITA}: Prompting Task Interaction for Argumentation Mining",
+  "authors": [
+    "Sun, Yang  and\nWang, Muyi  and\nBao, Jianzhu  and\nLiang, Bin  and\nZhao, Xiaoyan  and\nYang, Caihua  and\nYang, Min  and\nXu, Ruifeng"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Argumentation mining (AM) aims to detect the arguments and their inherent relations from argumentative textual compositions. Generally, AM comprises three key challenging subtasks, including argument component type classification (ACTC), argumentative relation identification (ARI), and argumentative relation type classification (ARTC). Prior methods are afflicted by a sequential feature decoding paradigm, wherein they initially address the features of argumentation components (ACs) for the task of ACTC. Then, these features are amalgamated in pairs to tackle the task of ARI. Finally, the AC pairs and ascertained pertinent relations are employed for ARTC. However, the explicit and comprehensive inter-relationship among the three subtasks is neglected. In this paper, we propose a novel method PITA for PromptIng Task interAction to model the inter-relationships among the three subtasks within a generative framework. Specifically, we employ a dynamic prompt template to indicate all ACs and AC pairs in the three subtasks. Then, from a multi-relational perspective, we construct an undirected heterogeneous graph to capture the various relationships within and between ACs and AC pairs. We apply the Relational Graph Convolutional Network (RGCN) on the graph and inject the task interaction information into the soft prompts with continuous representations. PITA jointly decodes all ACs and AC pairs using the prompt template with task interaction information, which thus explicitly and comprehensively harmonizes the information propagation across the three subtasks. Extensive experiments show PITA achieves state-of-the-art performances on two AM benchmarks.",
+  "keywords": [
+    "we",
+    "graph",
+    "convolutional",
+    "ari",
+    "classification",
+    "the prompt template",
+    "ac",
+    "information",
+    "generative",
+    "prompt",
+    "-",
+    "a generative framework",
+    "soft",
+    "mining",
+    "prompts"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.275/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

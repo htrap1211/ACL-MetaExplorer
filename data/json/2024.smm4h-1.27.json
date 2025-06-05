@@ -1,0 +1,33 @@
+{
+  "id": "2024.smm4h-1.27",
+  "title": "ADE} Oracle at {\\#}{SMM}4{H} 2024: A Two-Stage {NLP} System for Extracting and Normalizing Adverse Drug Events from Tweets",
+  "authors": [
+    "Davis, Andrew  and\nDickson, Billy  and\nK{\\\"u}bler, Sandra"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 9th Social Media Mining for Health Research and Applications (SMM4H 2024) Workshop and Shared Tasks",
+  "abstract": "This study describes the approach of Team ADE Oracle for Task 1 of the Social Media Mining for Health Applications (#SMM4H) 2024 shared task. Task 1 challenges participants to detect adverse drug events (ADEs) within English tweets and normalize these mentions against the Medical Dictionary for Regulatory Activities standards. Our approach utilized a two-stage NLP pipeline consisting of a named entity recognition model, retrained to recognize ADEs, followed by vector similarity assessment with a RoBERTa-based model. Despite achieving a relatively high recall of 37.4% in the extraction of ADEs, indicative of effective identification of potential ADEs, our model encountered challenges with precision. We found marked discrepancies between recall and precision between the test set and our validation set, which underscores the need for further efforts to prevent overfitting and enhance the model’s generalization capabilities for practical applications.",
+  "keywords": [
+    "roberta",
+    "precision",
+    "validation",
+    "extraction",
+    "we",
+    "a roberta-based model",
+    "marked discrepancies",
+    "a two-stage nlp system",
+    "discrepancies",
+    "a two-stage nlp pipeline",
+    "vector",
+    "generalization",
+    "a relatively high recall",
+    "activities",
+    "mining"
+  ],
+  "url": "https://aclanthology.org/2024.smm4h-1.27/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:10:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

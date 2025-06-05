@@ -1,0 +1,33 @@
+{
+  "id": "2021.wat-1.8",
+  "title": "NICT}-2 Translation System at {WAT}-2021: Applying a Pretrained Multilingual Encoder-Decoder Model to Low-resource Language Pairs",
+  "authors": [
+    "Imamura, Kenji  and\nSumita, Eiichiro"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 8th Workshop on Asian Translation (WAT2021)",
+  "abstract": "In this paper, we present the NICT system (NICT-2) submitted to the NICT-SAP shared task at the 8th Workshop on Asian Translation (WAT-2021). A feature of our system is that we used a pretrained multilingual BART (Bidirectional and Auto-Regressive Transformer; mBART) model. Because publicly available models do not support some languages in the NICT-SAP task, we added these languages to the mBART model and then trained it using monolingual corpora extracted from Wikipedia. We fine-tuned the expanded mBART model using the parallel corpora specified by the NICT-SAP task. The BLEU scores greatly improved in comparison with those of systems without the pretrained model, including the additional languages.",
+  "keywords": [
+    "transformer",
+    "language",
+    "model",
+    "it",
+    "bleu",
+    "encoder",
+    "decoder",
+    "the bleu scores",
+    "asian translation wat-2021",
+    "we",
+    "translation",
+    "nict -2 translation system",
+    "publicly available models",
+    "the nict-sap task",
+    "the pretrained model"
+  ],
+  "url": "https://aclanthology.org/2021.wat-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

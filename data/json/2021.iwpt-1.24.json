@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwpt-1.24",
+  "title": "End-to-end m{BERT} based Seq2seq Enhanced Dependency Parser with Linguistic Typology knowledge",
+  "authors": [
+    "Choudhary, Chinmay  and\nO{'}riordan, Colm"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 17th International Conference on Parsing Technologies and the IWPT 2021 Shared Task on Parsing into Enhanced Universal Dependencies (IWPT 2021)",
+  "abstract": "We describe the NUIG solution for IWPT 2021 Shared Task of Enhanced Dependency (ED) parsing in multiple languages. For this shared task, we propose and evaluate an End-to-end Seq2seq mBERT-based ED parser which predicts the ED-parse tree of a given input sentence as a relative head-position tag-sequence. Our proposed model is a multitasking neural-network which performs five key tasks simultaneously namely UPOS tagging, UFeat tagging, Lemmatization, Dependency-parsing and ED-parsing. Furthermore we utilise the linguistic typology available in the WALS database to improve the ability of our proposed end-to-end parser to transfer across languages. Results show that our proposed Seq2seq ED-parser performs on par with state-of-the-art ED-parser despite having a much simpler de- sign.",
+  "keywords": [
+    "seq2seq",
+    "knowledge",
+    "parsing",
+    "end",
+    "mbert",
+    "neural",
+    "bert",
+    "model",
+    "par",
+    "tag",
+    "tagging",
+    "dependency",
+    "enhanced dependency ed parsing",
+    "network",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2021.iwpt-1.24/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

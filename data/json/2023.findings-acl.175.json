@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.175",
+  "title": "Subword Segmental Machine Translation: Unifying Segmentation and Target Sentence Generation",
+  "authors": [
+    "Meyer, Francois  and\nBuys, Jan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Subword segmenters like BPE operate as a preprocessing step in neural machine translation and other (conditional) language models. They are applied to datasets before training, so translation or text generation quality relies on the quality of segmentations. We propose a departure from this paradigm, called subword segmental machine translation (SSMT). SSMT unifies subword segmentation and MT in a single trainable model. It learns to segment target sentence words while jointly learning to generate target sentences. To use SSMT during inference we propose dynamic decoding, a text generation algorithm that adapts segmentations as it generates translations. Experiments across 6 translation directions show that SSMT improves chrF scores for morphologically rich agglutinative languages. Gains are strongest in the very low-resource scenario. SSMT also learns subwords that are closer to morphemes compared to baselines and proves more robust on a test set constructed for evaluating morphological compositional generalisation.",
+  "keywords": [
+    "6 translation directions",
+    "generation",
+    "language",
+    "a text generation",
+    "neural",
+    "machine",
+    "model",
+    "text",
+    "it",
+    "translations experiments",
+    "generalisation",
+    "other conditional language models",
+    "neural machine translation",
+    "rich",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.175/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

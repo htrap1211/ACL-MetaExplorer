@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.103",
+  "title": "Does {D}etect{GPT} Fully Utilize Perturbation? Bridging Selective Perturbation to Fine-tuned Contrastive Learning Detector would be Better",
+  "authors": [
+    "Liu, Shengchao  and\nLiu, Xiaoming  and\nWang, Yichen  and\nCheng, Zehua  and\nLi, Chengzhengxu  and\nZhang, Zhaohan  and\nLan, Yu  and\nShen, Chao"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The burgeoning generative capabilities of large language models (LLMs) have raised growing concerns about abuse, demanding automatic machine-generated text detectors. DetectGPT, a zero-shot metric-based detector, first introduces perturbation and shows great performance improvement. However, in DetectGPT, the random perturbation strategy could introduce noise, and logit regression depends on the threshold, harming the generalizability and applicability of individual or small-batch inputs. Hence, we propose a novel fine-tuned detector, PECOLA, bridging metric-based and fine-tuned methods by contrastive learning on selective perturbation. Selective strategy retains important tokens during perturbation and weights for multi-pair contrastive learning. The experiments show that PECOLA outperforms the state-of-the-art (SOTA) by 1.20% in accuracy on average on four public datasets. And we further analyze the effectiveness, robustness, and generalization of the method.",
+  "keywords": [
+    "the burgeoning generative capabilities",
+    "we",
+    "generalizability",
+    "shot",
+    "detectgpt",
+    "the generalizability",
+    "learning",
+    "a zero-shot metric-based detector",
+    "llms",
+    "generative",
+    "d etect gpt",
+    "metric",
+    "text",
+    "automatic machine-generated text detectors",
+    "large language models llms"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.103/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:35:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

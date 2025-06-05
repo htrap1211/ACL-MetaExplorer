@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-srw.30",
+  "title": "Embeddings of Label Components for Sequence Labeling: A Case Study of Fine-grained Named Entity Recognition",
+  "authors": [
+    "Kato, Takuma  and\nAbe, Kaori  and\nOuchi, Hiroki  and\nMiyawaki, Shumpei  and\nSuzuki, Jun  and\nInui, Kentaro"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "In general, the labels used in sequence labeling consist of different types of elements. For example, IOB-format entity labels, such as B-Person and I-Person, can be decomposed into span (B and I) and type information (Person). However, while most sequence labeling models do not consider such label components, the shared components across labels, such as Person, can be beneficial for label prediction. In this work, we propose to integrate label component information as embeddings into models. Through experiments on English and Japanese fine-grained named entity recognition, we demonstrate that the proposed method improves performance, especially for instances with low-frequency labels.",
+  "keywords": [
+    "embeddings",
+    "work",
+    "general",
+    "i",
+    "information",
+    "b",
+    "format",
+    "sequence",
+    "we",
+    "entity",
+    "recognition",
+    "this work",
+    "span b",
+    "the proposed method",
+    "frequency"
+  ],
+  "url": "https://aclanthology.org/2020.acl-srw.30/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:53:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.757",
+  "title": "CHB}ias: Bias Evaluation and Mitigation of {C}hinese Conversational Language Models",
+  "authors": [
+    "Zhao, Jiaxu  and\nFang, Meng  and\nShi, Zijing  and\nLi, Yitong  and\nChen, Ling  and\nPechenizkiy, Mykola"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "redWarning:This paper contains content that may be offensive or upsetting.Pretrained conversational agents have been exposed to safety issues, exhibiting a range of stereotypical human biases such as gender bias. However, there are still limited bias categories in current research, and most of them only focus on English. In this paper, we introduce a new Chinese dataset, CHBias, for bias evaluation and mitigation of Chinese conversational language models.Apart from those previous well-explored bias categories, CHBias includes under-explored bias categories, such as ageism and appearance biases, which received less attention. We evaluate two popular pretrained Chinese conversational models, CDial-GPT and EVA2.0, using CHBias. Furthermore, to mitigate different biases, we apply several debiasing methods to the Chinese pretrained models. Experimental results show that these Chinese pretrained models are potentially risky for generating texts that contain social biases, and debiasing methods using the proposed dataset can make response generation less biased while preserving the models’ conversational capabilities.",
+  "keywords": [
+    "bias",
+    "limited bias categories",
+    "different biases",
+    "language",
+    "generation",
+    "bias evaluation",
+    "categories",
+    "conversational capabilities",
+    "social biases",
+    "human",
+    "less attention",
+    "gender bias",
+    "chb ias bias evaluation",
+    "gpt",
+    "conversational"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.757/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:45:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

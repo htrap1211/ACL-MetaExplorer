@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.250",
+  "title": "Factual Confidence of {LLM}s: on Reliability and Robustness of Current Estimators",
+  "authors": [
+    "Mahaut, Mat{\\'e}o  and\nAina, Laura  and\nCzarnowska, Paula  and\nHardalov, Momchil  and\nM{\\\"u}ller, Thomas  and\nMarquez, Lluis"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large Language Models (LLMs) tend to be unreliable on fact-based answers.To address this problem, NLP researchers have proposed a range of techniques to estimate LLM’s confidence over facts. However, due to the lack of a systematic comparison, it is not clear how the different methods compare to one other.To fill this gap, we present a rigorous survey and empirical comparison of estimators of factual confidence.We define an experimental framework allowing for fair comparison, covering both fact-verification and QA. Our experiments across a series of LLMs indicate that trained hidden-state probes provide the most reliable confidence estimates; albeit at the expense of requiring access to weights and supervision data. We also conduct a deeper assessment of the methods, in which we measure the consistency of model behavior under meaning-preserving variations in the input. We find that the factual confidence of LLMs is often unstable across semantically equivalent inputs, suggesting there is much room for improvement for the stability of models’ parametric knowledge.",
+  "keywords": [
+    "series",
+    "nlp researchers",
+    "we",
+    "current",
+    "llm",
+    "it",
+    "llm s confidence",
+    "semantically equivalent inputs",
+    "llms",
+    "large language models llms",
+    "a series",
+    "knowledge",
+    "language",
+    "nlp",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.250/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

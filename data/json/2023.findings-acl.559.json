@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.559",
+  "title": "From Alignment to Entailment: A Unified Textual Entailment Framework for Entity Alignment",
+  "authors": [
+    "Zhao, Yu  and\nWu, Yike  and\nCai, Xiangrui  and\nZhang, Ying  and\nZhang, Haiwei  and\nYuan, Xiaojie"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Entity Alignment (EA) aims to find the equivalent entities between two Knowledge Graphs (KGs). Existing methods usually encode the triples of entities as embeddings and learn to align the embeddings, which prevents the direct interaction between the original information of the cross-KG entities. Moreover, they encode the relational triples and attribute triples of an entity in heterogeneous embedding spaces, which prevents them from helping each other. In this paper, we transform both triples into unified textual sequences, and model the EA task as a bi-directional textual entailment task between the sequences of cross-KG entities. Specifically, we feed the sequences of two entities simultaneously into a pre-trained language model (PLM) and propose two kinds of PLM-based entity aligners that model the entailment probability between sequences as the similarity between entities. Our approach captures the unified correlation pattern of two kinds of information between entities, and explicitly models the fine-grained interaction between original entity information. The experiments on five cross-lingual EA datasets show that our approach outperforms the state-of-the-art EA methods and enables the mutual enhancement of the heterogeneous information. Codes are available athttps://github.com/OreOZhao/TEA.",
+  "keywords": [
+    "entity alignment entity alignment",
+    "heterogeneous embedding spaces",
+    "we",
+    "the cross-kg entities",
+    "cross-kg entities",
+    "cross",
+    "unified",
+    "information",
+    "two entities",
+    "the embeddings",
+    "unified textual sequences",
+    "the unified correlation pattern",
+    "aligners",
+    "the equivalent entities",
+    "embeddings"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.559/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

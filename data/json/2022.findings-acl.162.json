@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.162",
+  "title": "C}a{M}-{G}en: {C}ausally Aware Metric-Guided Text Generation",
+  "authors": [
+    "Goyal, Navita  and\nPaneri, Roodram  and\nAgarwal, Ayush  and\nKalani, Udit  and\nSancheti, Abhilasha  and\nChhaya, Niyati"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Content is created for a well-defined purpose, often described by a metric or signal represented in the form of structured information. The relationship between the goal (metrics) of target content and the content itself is non-trivial. While large-scale language models show promising text generation capabilities, guiding the generated text with external metrics is challenging. These metrics and content tend to have inherent relationships and not all of them may be of consequence. We introduce CaM-Gen: Causally aware Generative Networks guided by user-defined target metrics incorporating the causal relationships between the metric and content features. We leverage causal inference techniques to identify causally significant aspects of a text that lead to the target metric and then explicitly guide generative models towards these by a feedback mechanism. We propose this mechanism for variational autoencoder and Transformer-based generative models. The proposed models beat baselines in terms of the target metric control while maintaining fluency and language quality of the generated text. To the best of our knowledge, this is one of the early attempts at controlled generation incorporating a metric guide using causal inference.",
+  "keywords": [
+    "generative models",
+    "feedback",
+    "autoencoder",
+    "the goal metrics",
+    "form",
+    "we",
+    "the generated text",
+    "large-scale language models",
+    "transformer-based generative models",
+    "information",
+    "promising text generation capabilities",
+    "a",
+    "these metrics",
+    "external metrics",
+    "generative"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.162/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

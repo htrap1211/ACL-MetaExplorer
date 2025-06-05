@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.356",
+  "title": "LABO}: Towards Learning Optimal Label Regularization via Bi-level Optimization",
+  "authors": [
+    "Lu, Peng  and\nRashid, Ahmad  and\nKobyzev, Ivan  and\nRezagholizadeh, Mehdi  and\nLanglais, Phillippe"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Regularization techniques are crucial to improving the generalization performance and training efficiency of deep neural networks. Many deep learning algorithms rely on weight decay, dropout, batch/layer normalization to converge faster and generalize. Label Smoothing (LS) is another simple, versatile and efficient regularization which can be applied to various supervised classification tasks. Conventional LS, however, regardless of the training instance assumes that each non-target class is equally likely. In this work, we present a general framework for training with label regularization, which includes conventional LS but can also model instance-specific variants. Based on this formulation, we propose an efficient way of learning LAbel regularization by devising a Bi-level Optimization (LABO) problem. We derive a deterministic and interpretable solution of the inner loop as the optimal label smoothing without the need to store the parameters or the output of a trained model. Finally, we conduct extensive experiments and demonstrate our LABO consistently yields improvement over conventional label regularization on various fields, including seven machine translation and three image classification tasks across various neural network architectures while maintaining training efficiency.",
+  "keywords": [
+    "deep",
+    "efficient",
+    "many deep learning algorithms",
+    "various supervised classification tasks",
+    "deep neural networks",
+    "layer",
+    "efficiency",
+    "we",
+    "fields",
+    "various fields",
+    "optimal label regularization",
+    "training",
+    "translation",
+    "classification",
+    "neural"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.356/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:58:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

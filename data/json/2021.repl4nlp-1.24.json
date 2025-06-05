@@ -1,0 +1,33 @@
+{
+  "id": "2021.repl4nlp-1.24",
+  "title": "Knowledge Informed Semantic Parsing for Conversational Question Answering",
+  "authors": [
+    "Thirukovalluru, Raghuveer  and\nSridhar, Mukund  and\nThai, Dung  and\nChanumolu, Shruti  and\nMonath, Nicholas  and\nAnanthakrishnan, Sankaranarayanan  and\nMcCallum, Andrew"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 6th Workshop on Representation Learning for NLP (RepL4NLP-2021)",
+  "abstract": "Smart assistants are tasked to answer various questions regarding world knowledge. These questions range from retrieval of simple facts to retrieval of complex, multi-hops question followed by various operators (i.e., filter, argmax). Semantic parsing has emerged as the state-of-the-art for answering these kinds of questions by forming queries to extract information from knowledge bases (KBs). Specially, neural semantic parsers (NSPs) effectively translate natural questions to logical forms, which execute on KB and give desirable answers. Yet, NSPs suffer from non-executable logical forms for some instances in the generated logical forms might be missing due to the incompleteness of KBs. Intuitively, knowing the KB structure informs NSP with changes of the global logical forms structures with respect to changes in KB instances. In this work, we propose a novel knowledge-informed decoder variant of NSP. We consider the conversational question answering settings, where a natural language query, its context and its final answers are available at training. Experimental results show that our method outperformed strong baselines by 1.8 F1 points overall across 10 types of questions of the CSQA dataset. Especially for the “Logical Reasoning” category, our model improves by 7 F1 points. Furthermore, our results are achieved with 90.3% fewer parameters, allowing faster training for large-scale datasets.",
+  "keywords": [
+    "the conversational question",
+    "parsing",
+    "csqa",
+    "7 f1 points",
+    "question",
+    "semantic",
+    "we",
+    "conversational question",
+    "training",
+    "neural",
+    "natural",
+    "queries",
+    "decoder",
+    "retrieval",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2021.repl4nlp-1.24/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:19:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

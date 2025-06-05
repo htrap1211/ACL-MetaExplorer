@@ -1,0 +1,33 @@
+{
+  "id": "2022.repl4nlp-1.23",
+  "title": "Towards Improving Selective Prediction Ability of {NLP} Systems",
+  "authors": [
+    "Varshney, Neeraj  and\nMishra, Swaroop  and\nBaral, Chitta"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 7th Workshop on Representation Learning for NLP",
+  "abstract": "It’s better to say “I can’t answer” than to answer incorrectly. This selective prediction ability is crucial for NLP systems to be reliably deployed in real-world applications. Prior work has shown that existing selective prediction techniques fail to perform well, especially in the out-of-domain setting. In this work, we propose a method that improves probability estimates of models by calibrating them using prediction confidence and difficulty score of instances. Using these two signals, we first annotate held-out instances and then train a calibrator to predict the likelihood of correctness of the model’s prediction. We instantiate our method with Natural Language Inference (NLI) and Duplicate Detection (DD) tasks and evaluate it in both In-Domain (IID) and Out-of-Domain (OOD) settings. In (IID, OOD) settings, we show that the representations learned by our calibrator result in an improvement of (15.81%, 5.64%) and (6.19%, 13.9%) over ‘MaxProb’ -a selective prediction baseline- on NLI and DD tasks respectively.",
+  "keywords": [
+    "work",
+    "i",
+    "language",
+    "nlp",
+    "natural",
+    "model",
+    "it",
+    "we",
+    "nlp systems",
+    "that",
+    "applications",
+    "likelihood",
+    "this work",
+    "held-out instances",
+    "these two signals"
+  ],
+  "url": "https://aclanthology.org/2022.repl4nlp-1.23/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:45:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

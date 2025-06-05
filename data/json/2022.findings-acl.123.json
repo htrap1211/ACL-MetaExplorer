@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.123",
+  "title": "Open Vocabulary Extreme Classification Using Generative Models",
+  "authors": [
+    "Simig, Daniel  and\nPetroni, Fabio  and\nYanki, Pouya  and\nPopat, Kashyap  and\nDu, Christina  and\nRiedel, Sebastian  and\nYazdani, Majid"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "The extreme multi-label classification (XMC) task aims at tagging content with a subset of labels from an extremely large label set. The label vocabulary is typically defined in advance by domain experts and assumed to capture all necessary tags. However in real world scenarios this label set, although large, is often incomplete and experts frequently need to refine it. To develop systems that simplify this process, we introduce the task of open vocabulary XMC (OXMC): given a piece of content, predict a set of labels, some of which may be outside of the known tag set. Hence, in addition to not having training data for some labels–as is the case in zero-shot classification–models need to invent some labels on-thefly. We propose GROOV, a fine-tuned seq2seq model for OXMC that generates the set of labels as a flat sequence and is trained using a novel loss independent of predicted label order. We show the efficacy of the approach, experimenting with popular XMC datasets for which GROOV is able to predict meaningful labels outside the given vocabulary while performing on par with state-of-the-art solutions for known labels.",
+  "keywords": [
+    "generative models",
+    "we",
+    "open vocabulary extreme classification",
+    "shot",
+    "the extreme multi-label classification",
+    "training",
+    "classification",
+    "it",
+    "loss",
+    "tag",
+    "sequence",
+    "a piece",
+    "piece",
+    "generative",
+    "seq2seq"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.123/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

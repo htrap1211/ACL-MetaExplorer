@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.53",
+  "title": "IITK} at {S}em{E}val-2021 Task 10: Source-Free Unsupervised Domain Adaptation using Class Prototypes",
+  "authors": [
+    "Kumar, Harshit  and\nShah, Jinang  and\nHegde, Nidhi  and\nGupta, Priyanshu  and\nJindal, Vaibhav  and\nModi, Ashutosh"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "Recent progress in deep learning has primarily been fueled by the availability of large amounts of annotated data that is obtained from highly expensive manual annotating pro-cesses. To tackle this issue of availability of annotated data, a lot of research has been done on unsupervised domain adaptation that tries to generate systems for an unlabelled target domain data, given labeled source domain data. However, the availability of annotated or labelled source domain dataset can’t always be guaranteed because of data-privacy issues. This is especially the case with medical data, as it may contain sensitive information of the patients. Source-free domain adaptation (SFDA) aims to resolve this issue by us-ing models trained on the source data instead of using the original annotated source data. In this work, we try to build SFDA systems for semantic processing by specifically focusing on the negation detection subtask of the SemEval2021 Task 10. We propose two approaches -ProtoAUGandAdapt-ProtoAUGthat use the idea of self-entropy to choose reliable and high confidence samples, which are then used for data augmentation and subsequent training of the models. Our methods report an improvement of up to 7% in F1 score over the baseline for the Negation Detection subtask.",
+  "keywords": [
+    "deep",
+    "t",
+    "the patients",
+    "semantic",
+    "we",
+    "training",
+    "ing",
+    "it",
+    "patients",
+    "self",
+    "information",
+    "learning",
+    "processing",
+    "semantic processing",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.53/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:20:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

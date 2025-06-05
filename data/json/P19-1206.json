@@ -1,0 +1,33 @@
+{
+  "id": "P19-1206",
+  "title": "Unsupervised Neural Single-Document Summarization of Reviews via Learning Latent Discourse Structure and its Ranking",
+  "authors": [
+    "Isonuma, Masaru  and\nMori, Junichiro  and\nSakata, Ichiro"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "This paper focuses on the end-to-end abstractive summarization of a single product review without supervision. We assume that a review can be described as a discourse tree, in which the summary is the root, and the child sentences explain their parent in detail. By recursively estimating a parent from its children, our model learns the latent discourse tree without an external parser and generates a concise summary. We also introduce an architecture that ranks the importance of each sentence on the tree to support summary generation focusing on the main review point. The experimental results demonstrate that our model is competitive with or outperforms other unsupervised approaches. In particular, for relatively long reviews, it achieves a competitive or better performance than supervised models. The induced tree shows that the child sentences provide additional information about their parent, and the generated summary abstracts the entire review.",
+  "keywords": [
+    "end",
+    "a review",
+    "summarization",
+    "we",
+    "neural",
+    "the main review",
+    "unsupervised neural single-document summarization",
+    "it",
+    "relatively long reviews",
+    "summary generation",
+    "information",
+    "the entire review",
+    "latent",
+    "reviews",
+    "a single product review"
+  ],
+  "url": "https://aclanthology.org/P19-1206/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:35:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

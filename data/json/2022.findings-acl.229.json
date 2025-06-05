@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.229",
+  "title": "Controllable Natural Language Generation with Contrastive Prefixes",
+  "authors": [
+    "Qian, Jing  and\nDong, Li  and\nShen, Yelong  and\nWei, Furu  and\nChen, Weizhu"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "To guide the generation of large pretrained language models (LM), previous work has focused on directly fine-tuning the language model or utilizing an attribute discriminator. In this work, we propose a novel lightweight framework for controllable GPT2 generation, which utilizes a set of small attribute-specific vectors, called prefixes (Li and Liang, 2021), to steer natural language generation. Different from Li and Liang (2021), where each prefix is trained independently, we take the relationship among prefixes into consideration and train multiple prefixes simultaneously. We propose a novel supervised method and also an unsupervised method to train the prefixes for single-aspect control while the combination of these two methods can achieve multi-aspect control. Experimental results on both single-aspect and multi-aspect control show that our methods can guide generation towards the desired attributes while keeping high linguistic quality.",
+  "keywords": [
+    "work",
+    "the language model",
+    "li",
+    "controllable gpt2 generation",
+    "generation",
+    "language",
+    "gpt2",
+    "natural",
+    "model",
+    "vectors",
+    "small attribute-specific vectors",
+    "the generation",
+    "controllable natural language generation",
+    "train",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.229/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

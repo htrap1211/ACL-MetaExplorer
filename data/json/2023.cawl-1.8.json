@@ -1,0 +1,33 @@
+{
+  "id": "2023.cawl-1.8",
+  "title": "Lenient Evaluation of {J}apanese Speech Recognition: Modeling Naturally Occurring Spelling Inconsistency",
+  "authors": [
+    "Karita, Shigeki  and\nSproat, Richard  and\nIshikawa, Haruko"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the Workshop on Computation and Written Language (CAWL 2023)",
+  "abstract": "Word error rate (WER) and character error rate (CER) are standard metrics in Speech Recognition (ASR), but one problem has always been alternative spellings: If one’s system transcribes adviser whereas the ground truth has advisor, this will count as an error even though the two spellings really represent the same word. Japanese is notorious for “lacking orthography”: most words can be spelled in multiple ways, presenting a problem for accurate ASR evaluation. In this paper we propose a new lenient evaluation metric as a more defensible CER measure for Japanese ASR. We create a lattice of plausible respellings of the reference transcription, using a combination of lexical resources, a Japanese text-processing system, and a neural machine translation model for reconstructing kanji from hiragana or katakana. In a manual evaluation, raters rated 95.4% of the proposed spelling variants as plausible. ASR results show that our method, which does not penalize the system for choosing a valid alternate spelling of a word, affords a 2.4%–3.1% absolute reduction in CER depending on the task.",
+  "keywords": [
+    "rate",
+    "wer",
+    "we",
+    "valid",
+    "lenient evaluation",
+    "translation",
+    "neural",
+    "accurate asr evaluation",
+    "word",
+    "lenient",
+    "reduction",
+    "metric",
+    "text",
+    "metrics",
+    "reference"
+  ],
+  "url": "https://aclanthology.org/2023.cawl-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:23:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

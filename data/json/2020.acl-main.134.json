@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.134",
+  "title": "Fast and Accurate Non-Projective Dependency Tree Linearization",
+  "authors": [
+    "Yu, Xiang  and\nTannert, Simon  and\nVu, Ngoc Thang  and\nKuhn, Jonas"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We propose a graph-based method to tackle the dependency tree linearization task. We formulate the task as a Traveling Salesman Problem (TSP), and use a biaffine attention model to calculate the edge costs. We facilitate the decoding by solving the TSP for each subtree and combining the solution into a projective tree. We then design a transition system as post-processing, inspired by non-projective transition-based parsing, to obtain non-projective sentences. Our proposed method outperforms the state-of-the-art linearizer while being 10 times faster in training and decoding.",
+  "keywords": [
+    "parsing",
+    "processing",
+    "edge",
+    "model",
+    "a biaffine attention model",
+    "dependency",
+    "attention",
+    "we",
+    "graph",
+    "non-projective transition-based parsing",
+    "fast",
+    "training",
+    "post",
+    "transition",
+    "projective"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.134/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:44:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

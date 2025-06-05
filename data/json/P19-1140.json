@@ -1,0 +1,33 @@
+{
+  "id": "P19-1140",
+  "title": "Multi-Channel Graph Neural Network for Entity Alignment",
+  "authors": [
+    "Cao, Yixin  and\nLiu, Zhiyuan  and\nLi, Chengjiang  and\nLiu, Zhiyuan  and\nLi, Juanzi  and\nChua, Tat-Seng"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Entity alignment typically suffers from the issues of structural heterogeneity and limited seed alignments. In this paper, we propose a novel Multi-channel Graph Neural Network model (MuGNN) to learn alignment-oriented knowledge graph (KG) embeddings by robustly encoding two KGs via multiple channels. Each channel encodes KGs via different relation weighting schemes with respect to self-attention towards KG completion and cross-KG attention for pruning exclusive entities respectively, which are further combined via pooling techniques. Moreover, we also infer and transfer rule knowledge for completing two KGs consistently. MuGNN is expected to reconcile the structural differences of two KGs, and thus make better use of seed alignments. Extensive experiments on five publicly available datasets demonstrate our superior performance (5% Hits@1 up on average). Source code and data used in the experiments can be accessed athttps://github.com/thunlp/MuGNN.",
+  "keywords": [
+    "code",
+    "entity alignment entity alignment",
+    "alignments",
+    "limited seed alignments",
+    "self-attention",
+    "we",
+    "graph",
+    "cross",
+    "multi-channel graph neural network",
+    "neural",
+    "self",
+    "kgs",
+    "cross-kg attention",
+    "two kgs",
+    "embeddings"
+  ],
+  "url": "https://aclanthology.org/P19-1140/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:33:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

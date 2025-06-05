@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.704",
+  "title": "BLEURT}: Learning Robust Metrics for Text Generation",
+  "authors": [
+    "Sellam, Thibault  and\nDas, Dipanjan  and\nParikh, Ankur"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Text generation has made significant advances in the last few years. Yet, evaluation metrics have lagged behind, as the most popular choices (e.g., BLEU and ROUGE) may correlate poorly with human judgment. We propose BLEURT, a learned evaluation metric for English based on BERT. BLEURT can model human judgment with a few thousand possibly biased training examples. A key aspect of our approach is a novel pre-training scheme that uses millions of synthetic examples to help the model generalize. BLEURT provides state-of-the-art results on the last three years of the WMT Metrics shared task and the WebNLG data set. In contrast to a vanilla BERT-based approach, it yields superior results even when the training data is scarce and out-of-distribution.",
+  "keywords": [
+    "a vanilla bert-based approach",
+    "generation",
+    "bleurt",
+    "possibly biased training examples",
+    "bert",
+    "model",
+    "metric",
+    "text",
+    "it",
+    "human",
+    "bert bleurt",
+    "metrics",
+    "bleu",
+    "robust metrics",
+    "evaluation metrics"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.704/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:51:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

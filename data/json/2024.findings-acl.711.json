@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.711",
+  "title": "Prompting open-source and commercial language models for grammatical error correction of {E}nglish learner text",
+  "authors": [
+    "Davis, Christopher  and\nCaines, Andrew  and\nAndersen, {\\O}istein E.  and\nTaslimipoor, Shiva  and\nYannakoudakis, Helen  and\nYuan, Zheng  and\nBryant, Christopher  and\nRei, Marek  and\nButtery, Paula"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Thanks to recent advances in generative AI, we are able to prompt large language models (LLMs) to produce texts which are fluent and grammatical. In addition, it has been shown that we can elicit attempts at grammatical error correction (GEC) from LLMs when prompted with ungrammatical input sentences. We evaluate how well LLMs can perform at GEC by measuring their performance on established benchmark datasets. We go beyond previous studies, which only examined GPT* models on a selection of English GEC datasets, by evaluating seven open-source and three commercial LLMs on four established GEC benchmarks. We investigate model performance and report results against individual error types. Our results indicate that LLMs do not always outperform supervised English GEC models except in specific contexts – namely commercial LLMs on benchmarks annotated with fluency corrections as opposed to minimal edits. We find that several open-source models outperform commercial ones on minimal edit benchmarks, and that in some settings zero-shot prompting is just as competitive as few-shot prompting.",
+  "keywords": [
+    "zero-shot prompting",
+    "we",
+    "shot",
+    "it",
+    "few-shot prompting",
+    "three commercial llms",
+    "llms",
+    "generative",
+    "previous studies",
+    "text",
+    "learner",
+    "language",
+    "model",
+    "studies",
+    "large language models"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.711/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

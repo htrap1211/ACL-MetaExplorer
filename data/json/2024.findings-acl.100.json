@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.100",
+  "title": "Revisiting {OPRO}: The Limitations of Small-Scale {LLM}s as Optimizers",
+  "authors": [
+    "Zhang, Tuo  and\nYuan, Jinyue  and\nAvestimehr, Salman"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Numerous recent works aim to enhance the efficacy of Large Language Models (LLMs) through strategic prompting. In particular, the Optimization by PROmpting (OPRO) approach provides state-of-the-art performance by leveraging LLMs as optimizers where the optimization task is to find instructions that maximize the task accuracy. In this paper, we revisit OPRO for automated prompting with relatively small-scale LLMs, such as LLaMa-2 family and Mistral 7B. Our investigation reveals that OPRO shows limited effectiveness in small-scale LLMs, with limited inference capabilities constraining optimization ability. We suggest future automatic prompting engineering to consider both model capabilities and computational costs. Additionally, for small-scale LLMs, we recommend direct instructions that clearly outline objectives and methodologies as robust prompt baselines, ensuring efficient and effective prompt engineering in ongoing research.",
+  "keywords": [
+    "strategic prompting",
+    "objectives",
+    "efficient",
+    "the optimization task",
+    "we",
+    "the optimization",
+    "llm",
+    "the task accuracy",
+    "small-scale llm",
+    "llms",
+    "prompt",
+    "relatively small-scale llms",
+    "robust prompt baselines",
+    "future automatic prompting engineering",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.100/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:49:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

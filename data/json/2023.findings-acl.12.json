@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.12",
+  "title": "Exploiting Pseudo Image Captions for Multimodal Summarization",
+  "authors": [
+    "Jiang, Chaoya  and\nXie, Rui  and\nYe, Wei  and\nSun, Jinan  and\nZhang, Shikun"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Multimodal summarization with multimodal output (MSMO) faces a challenging semantic gap between visual and textual modalities due to the lack of reference images for training. Our pilot investigation indicates that image captions, which naturally connect texts and images, can significantly benefit MSMO. However, exposure of image captions during training is inconsistent with MSMO’s task settings, where prior cross-modal alignment information is excluded to guarantee the generalization of cross-modal semantic modeling. To this end, we propose a novel coarse-to-fine image-text alignment mechanism to identify the most relevant sentence of each image in a document, resembling the role of image captions in capturing visual knowledge and bridging the cross-modal semantic gap. Equipped with this alignment mechanism, our method easily yet impressively sets up state-of-the-art performances on all intermodality and intramodality metrics (e.g., more than 10% relative improvement on image recommendation precision). Further experiments reveal the correlation between image captions and text summaries, and prove that the pseudo image captions we generated are even better than the original ones in terms of promoting multimodal summarization.",
+  "keywords": [
+    "end",
+    "precision",
+    "the cross-modal semantic gap",
+    "semantic",
+    "summarization",
+    "we",
+    "multimodal summarization",
+    "prior cross-modal alignment information",
+    "training",
+    "cross",
+    "text summaries",
+    "information",
+    "image recommendation precision",
+    "visual",
+    "cross-modal semantic modeling"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

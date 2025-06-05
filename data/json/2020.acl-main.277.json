@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.277",
+  "title": "Learning to Recover from Multi-Modality Errors for Non-Autoregressive Neural Machine Translation",
+  "authors": [
+    "Ran, Qiu  and\nLin, Yankai  and\nLi, Peng  and\nZhou, Jie"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Non-autoregressive neural machine translation (NAT) predicts the entire target sequence simultaneously and significantly accelerates inference process. However, NAT discards the dependency information in a sentence, and thus inevitably suffers from the multi-modality problem: the target tokens may be provided by different possible translations, often causing token repetitions or missing. To alleviate this problem, we propose a novel semi-autoregressive model RecoverSAT in this work, which generates a translation as a sequence of segments. The segments are generated simultaneously while each segment is predicted token-by-token. By dynamically determining segment length and deleting repetitive segments, RecoverSAT is capable of recovering from repetitive and missing token errors. Experimental results on three widely-used benchmark datasets show that our proposed model achieves more than 4 times speedup while maintaining comparable performance compared with the corresponding autoregressive model.",
+  "keywords": [
+    "work",
+    "process",
+    "translation",
+    "neural",
+    "nat",
+    "model",
+    "machine",
+    "different possible translations",
+    "token",
+    "non-autoregressive neural machine translation",
+    "information",
+    "the dependency information",
+    "dependency",
+    "we",
+    "sequence"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.277/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:45:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

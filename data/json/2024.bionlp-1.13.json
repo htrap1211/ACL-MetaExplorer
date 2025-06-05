@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.13",
+  "title": "KG}-Rank: Enhancing Large Language Models for Medical {QA} with Knowledge Graphs and Ranking Techniques",
+  "authors": [
+    "Yang, Rui  and\nLiu, Haoran  and\nMarrese-Taylor, Edison  and\nZeng, Qingcheng  and\nKe, Yuhe  and\nLi, Wanxin  and\nCheng, Lechao  and\nChen, Qingyu  and\nCaverlee, James  and\nMatsuo, Yutaka  and\nLi, Irene"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "Large Language Models (LLMs) have significantly advanced healthcare innovation on generation capabilities. However, their application in real clinical settings is challenging due to potential deviations from medical facts and inherent biases. In this work, we develop an augmented LLM framework, KG-Rank, which leverages a medical knowledge graph (KG) with ranking and re-ranking techniques, aiming to improve free-text question-answering (QA) in the medical domain. Specifically, upon receiving a question, we initially retrieve triplets from a medical KG to gather factual information. Subsequently, we innovatively apply ranking methods to refine the ordering of these triplets, aiming to yield more precise answers. To the best of our knowledge, KG-Rank is the first application of ranking models combined with KG in medical QA specifically for generating long answers. Evaluation of four selected medical QA datasets shows that KG-Rank achieves an improvement of over 18% in the ROUGE-L score. Moreover, we extend KG-Rank to open domains, where it realizes a 14% improvement in ROUGE-L, showing the effectiveness and potential of KG-Rank.",
+  "keywords": [
+    "a medical kg",
+    "question",
+    "free-text question-answering qa",
+    "we",
+    "graph",
+    "llm",
+    "long answers evaluation",
+    "inherent biases",
+    "it",
+    "information",
+    "knowledge graphs",
+    "kg-rank",
+    "llms",
+    "text",
+    "rouge"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

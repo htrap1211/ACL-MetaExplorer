@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.254",
+  "title": "Simultaneous Translation Policies: From Fixed to Adaptive",
+  "authors": [
+    "Zheng, Baigong  and\nLiu, Kaibo  and\nZheng, Renjie  and\nMa, Mingbo  and\nLiu, Hairong  and\nHuang, Liang"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Adaptive policies are better than fixed policies for simultaneous translation, since they can flexibly balance the tradeoff between translation quality and latency based on the current context information. But previous methods on obtaining adaptive policies either rely on complicated training process, or underperform simple fixed policies. We design an algorithm to achieve adaptive policies via a simple heuristic composition of a set of fixed policies. Experiments on Chinese -> English and German -> English show that our adaptive policies can outperform fixed ones by up to 4 BLEU points for the same latency, and more surprisingly, it even surpasses the BLEU score of full-sentence translation in the greedy mode (and very close to beam mode), but with much lower latency.",
+  "keywords": [
+    "simple fixed policies",
+    "process",
+    "fixed policies",
+    "adaptive policies",
+    "adaptive adaptive policies",
+    "it",
+    "the bleu score",
+    "full-sentence translation",
+    "policies",
+    "simultaneous translation",
+    "bleu",
+    "our adaptive policies",
+    "translation quality",
+    "information",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.254/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:45:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

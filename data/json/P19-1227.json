@@ -1,0 +1,33 @@
+{
+  "id": "P19-1227",
+  "title": "XQA}: A Cross-lingual Open-domain Question Answering Dataset",
+  "authors": [
+    "Liu, Jiahua  and\nLin, Yankai  and\nLiu, Zhiyuan  and\nSun, Maosong"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Open-domain question answering (OpenQA) aims to answer questions through text retrieval and reading comprehension. Recently, lots of neural network-based models have been proposed and achieved promising results in OpenQA. However, the success of these models relies on a massive volume of training data (usually in English), which is not available in many other languages, especially for those low-resource languages. Therefore, it is essential to investigate cross-lingual OpenQA. In this paper, we construct a novel dataset XQA for cross-lingual OpenQA research. It consists of a training set in English as well as development and test sets in eight other languages. Besides, we provide several baseline systems for cross-lingual OpenQA, including two machine translation-based methods and one zero-shot cross-lingual method (multilingual BERT). Experimental results show that the multilingual BERT model achieves the best results in almost all target languages, while the performance of cross-lingual OpenQA is still much lower than that of English. Our analysis indicates that the performance of cross-lingual OpenQA is related to not only how similar the target language and English are, but also how difficult the question set of the target language is. The XQA dataset is publicly available athttp://github.com/thunlp/XQA.",
+  "keywords": [
+    "the multilingual bert model",
+    "question",
+    "we",
+    "cross-lingual openqa",
+    "training",
+    "translation",
+    "cross",
+    "the xqa dataset",
+    "neural",
+    "it",
+    "two machine translation-based methods",
+    "retrieval",
+    "xqa",
+    "analysis",
+    "bert"
+  ],
+  "url": "https://aclanthology.org/P19-1227/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:35:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

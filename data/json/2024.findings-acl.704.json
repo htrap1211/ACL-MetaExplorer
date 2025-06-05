@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.704",
+  "title": "Cache {\\&} Distil: Optimising {API} Calls to Large Language Models",
+  "authors": [
+    "Ram{\\'i}rez, Guillem  and\nLindemann, Matthias  and\nBirch, Alexandra  and\nTitov, Ivan"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large-scale deployment of generative AI tools often depends on costly API calls to a Large Language Model (LLM) to fulfil user queries, a process that also exposes the request stream to external providers. To curtail the frequency of these calls, one can employ a local smaller language model -a student- which is continuously trained on the responses of the LLM. This student gradually gains proficiency in independently handling an increasing number of user requests, a process we term neural caching. The crucial element in neural caching is a policy that decides which requests should be processed by the student alone and which should be redirected to the LLM, subsequently aiding the student’s learning. In this study, we focus on classification tasks, and we consider a range of classic Active Learning-based selection criteria as the policy. Our experiments suggest that Margin Sampling and Query by Committee bring consistent benefits over other policies and baselines across tasks and budgets.",
+  "keywords": [
+    "we",
+    "llm",
+    "classification",
+    "classification tasks",
+    "neural",
+    "other policies",
+    "policies",
+    "learning",
+    "generative",
+    "the llm",
+    "a large language model",
+    "proficiency",
+    "process",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.704/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.194",
+  "title": "A Gradient Control Method for Backdoor Attacks on Parameter-Efficient Tuning",
+  "authors": [
+    "Gu, Naibin  and\nFu, Peng  and\nLiu, Xiyu  and\nLiu, Zhengxiao  and\nLin, Zheng  and\nWang, Weiping"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Parameter-Efficient Tuning (PET) has shown remarkable performance by fine-tuning only a small number of parameters of the pre-trained language models (PLMs) for the downstream tasks, while it is also possible to construct backdoor attacks due to the vulnerability of pre-trained weights. However, a large reduction in the number of attackable parameters in PET will cause the user’s fine-tuning to greatly affect the effectiveness of backdoor attacks, resulting in backdoor forgetting. We find that the backdoor injection process can be regarded as multi-task learning, which has a convergence imbalance problem between the training of clean and poisoned data. And this problem might result in forgetting the backdoor. Based on this finding, we propose a gradient control method to consolidate the attack effect, comprising two strategies. One controls the gradient magnitude distribution cross layers within one task and the other prevents the conflict of gradient directions between tasks. Compared with previous backdoor attack methods in the scenario of PET, our method improve the effect of the attack on sentiment classification and spam detection respectively, which shows that our method is widely applicable to different tasks.",
+  "keywords": [
+    "gradient directions",
+    "efficient",
+    "we",
+    "parameter",
+    "training",
+    "classification",
+    "a gradient control method",
+    "it",
+    "learning",
+    "reduction",
+    "tuning",
+    "two strategies",
+    "strategies",
+    "fine",
+    "vulnerability"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.194/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:38:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

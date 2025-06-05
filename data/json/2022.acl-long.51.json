@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.51",
+  "title": "Compact Token Representations with Contextual Quantization for Efficient Document Re-ranking",
+  "authors": [
+    "Yang, Yingrui  and\nQiao, Yifan  and\nYang, Tao"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Transformer based re-ranking models can achieve high search relevance through context- aware soft matching of query tokens with document tokens. To alleviate runtime complexity of such inference, previous work has adopted a late interaction architecture with pre-computed contextual token representations at the cost of a large online storage. This paper proposes contextual quantization of token embeddings by decoupling document-specific and document-independent ranking contributions during codebook-based compression. This allows effective online decompression and embedding composition for better search relevance. This paper presents an evaluation of the above compact token representation model in terms of relevance and space efficiency.",
+  "keywords": [
+    "work",
+    "late",
+    "embeddings",
+    "transformer",
+    "model",
+    "efficient",
+    "token embeddings",
+    "token",
+    "efficiency",
+    "an evaluation",
+    "relevance and space efficiency",
+    "embedding composition",
+    "pre",
+    "evaluation",
+    "soft"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.51/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:24:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

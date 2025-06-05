@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.67",
+  "title": "Parallel Instance Query Network for Named Entity Recognition",
+  "authors": [
+    "Shen, Yongliang  and\nWang, Xiaobin  and\nTan, Zeqi  and\nXu, Guangwei  and\nXie, Pengjun  and\nHuang, Fei  and\nLu, Weiming  and\nZhuang, Yueting"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Named entity recognition (NER) is a fundamental task in natural language processing. Recent works treat named entity recognition as a reading comprehension task, constructing type-specific queries manually to extract entities. This paradigm suffers from three issues. First, type-specific queries can only extract one type of entities per inference, which is inefficient. Second, the extraction for different types of entities is isolated, ignoring the dependencies between them. Third, query construction relies on external knowledge and is difficult to apply to realistic scenarios with hundreds of entity types. To deal with them, we propose Parallel Instance Query Network (PIQN), which sets up global and learnable instance queries to extract entities from a sentence in a parallel manner. Each instance query predicts one entity, and by feeding all instance queries simultaneously, we can query all entities in parallel. Instead of being constructed from external knowledge, instance queries can learn their different query semantics during training. For training the model, we treat label assignment as a one-to-many Linear Assignment Problem (LAP) and dynamically assign gold entities to instance queries with minimal assignment cost. Experiments on both nested and flat NER datasets demonstrate that our proposed method outperforms previous state-of-the-art models.",
+  "keywords": [
+    "a parallel manner",
+    "extraction",
+    "inefficient",
+    "the dependencies",
+    "we",
+    "all entities",
+    "training",
+    "type-specific queries",
+    "natural",
+    "semantics",
+    "queries",
+    "dependencies",
+    "natural language processing",
+    "gold entities",
+    "manner"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.67/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

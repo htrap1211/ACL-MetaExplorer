@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.165",
+  "title": "Beyond the Granularity: Multi-Perspective Dialogue Collaborative Selection for Dialogue State Tracking",
+  "authors": [
+    "Guo, Jinyu  and\nShuang, Kai  and\nLi, Jijie  and\nWang, Zihan  and\nLiu, Yixuan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In dialogue state tracking, dialogue history is a crucial material, and its utilization varies between different models. However, no matter how the dialogue history is used, each existing model uses its own consistent dialogue history during the entire state tracking process, regardless of which slot is updated. Apparently, it requires different dialogue history to update different slots in different turns. Therefore, using consistent dialogue contents may lead to insufficient or redundant information for different slots, which affects the overall performance. To address this problem, we devise DiCoS-DST to dynamically select the relevant dialogue contents corresponding to each slot for state updating. Specifically, it first retrieves turn-level utterances of dialogue history and evaluates their relevance to the slot from a combination of three perspectives: (1) its explicit connection to the slot name; (2) its relevance to the current turn dialogue; (3) Implicit Mention Oriented Reasoning. Then these perspectives are combined to yield a decision, and only the selected dialogue contents are fed into State Generator, which explicitly minimizes the distracting information passed to the downstream state prediction. Experimental results show that our approach achieves new state-of-the-art performance on MultiWOZ 2.1 and MultiWOZ 2.2, and achieves superior performance on multiple mainstream benchmark datasets (including Sim-M, Sim-R, and DSTC2).",
+  "keywords": [
+    "different dialogue history",
+    "consistent dialogue contents",
+    "state generator",
+    "we",
+    "dialogue",
+    "the dialogue history",
+    "current",
+    "it",
+    "the relevant dialogue contents",
+    "information",
+    "insufficient or redundant information",
+    "the current turn dialogue",
+    "insufficient",
+    "dialogue history",
+    "process"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.165/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

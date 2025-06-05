@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-short.40",
+  "title": "Sign Language Translation with Sentence Embedding Supervision",
+  "authors": [
+    "Hamidullah, Yasser  and\nvan Genabith, Josef  and\nEspa{\\~n}a-Bonet, Cristina"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "State-of-the-art sign language translation (SLT) systems facilitate the learning process through gloss annotations, either in an end2end manner or by involving an intermediate step. Unfortunately, gloss labelled sign language data is usually not available at scale and, when available, gloss annotations widely differ from dataset to dataset. We present a novel approach using sentence embeddings of the target sentences at training time that take the role of glosses. The new kind of supervision does not need any manual annotation but it is learned on raw textual data. As our approach easily facilitates multilinguality, we evaluate it on datasets covering German (PHOENIX-2014T) and American (How2Sign) sign languages and experiment with mono- and multilingual sentence embeddings and translation systems. Our approach significantly outperforms other gloss-free approaches, setting the new state-of-the-art for data sets where glosses are not available and when no additional SLT datasets are used for pretraining, diminishing the gap between gloss-free and gloss-dependent systems.",
+  "keywords": [
+    "we",
+    "training",
+    "translation",
+    "it",
+    "translation systems",
+    "learning",
+    "manner",
+    "an end2end manner",
+    "language translation",
+    "embeddings",
+    "process",
+    "language",
+    "sentence embeddings",
+    "time",
+    "supervision"
+  ],
+  "url": "https://aclanthology.org/2024.acl-short.40/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:46:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

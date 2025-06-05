@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.546",
+  "title": "Adaptive Attention for Sparse-based Long-sequence Transformer",
+  "authors": [
+    "Zhang, Xuanyu  and\nLv, Zhepeng  and\nYang, Qing"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Recently, Transformers have been widely used in various fields and have achieved remarkable results. But it is still difficult for Transformer-based models to process longer sequences because self-attention in them scales quadratically with the sequence length. Although some models attempt to use sparse attention to reduce computational complexity, hand-crafted attention patterns are unable to select useful tokens adaptively according to the context. Thus, in this paper, we propose a novel efficient Transformer model with adaptive attention, A2-Former, for long sequence modeling. It can select useful tokens automatically in sparse attention by learnable position vectors, which consist of meta position and offset position vectors. Because the learnable offset position is not an integer vector, we utilize the interpolation technique to gather corresponding vectors from the input embedding matrix by discrete indexes. Experiments on Long Range Arena (LRA), a systematic and unified benchmark with different tasks, show that our model has achieved further improvement in performance compared with other sparse-based Transformers.",
+  "keywords": [
+    "transformers",
+    "efficient",
+    "self-attention",
+    "we",
+    "fields",
+    "various fields",
+    "adaptive attention a2",
+    "sparse attention",
+    "it",
+    "adaptive attention",
+    "self",
+    "unified",
+    "learnable position vectors",
+    "sequence",
+    "corresponding vectors"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.546/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.647",
+  "title": "Null It Out: Guarding Protected Attributes by Iterative Nullspace Projection",
+  "authors": [
+    "Ravfogel, Shauli  and\nElazar, Yanai  and\nGonen, Hila  and\nTwiton, Michael  and\nGoldberg, Yoav"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "The ability to control for the kinds of information encoded in neural representation has a variety of use cases, especially in light of the challenge of interpreting these models. We present Iterative Null-space Projection (INLP), a novel method for removing information from neural representations. Our method is based on repeated training of linear classifiers that predict a certain property we aim to remove, followed by projection of the representations on their null-space. By doing so, the classifiers become oblivious to that target property, making it hard to linearly separate the data according to it. While applicable for multiple uses, we evaluate our method on bias and fairness use-cases, and show that our method is able to mitigate bias in word embeddings, as well as to increase fairness in a setting of multi-class classification.",
+  "keywords": [
+    "variety",
+    "embeddings",
+    "bias",
+    "neural",
+    "the classifiers",
+    "it",
+    "class",
+    "classifiers",
+    "bias and fairness use-cases",
+    "information",
+    "word",
+    "we",
+    "a variety",
+    "word embeddings",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.647/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:50:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

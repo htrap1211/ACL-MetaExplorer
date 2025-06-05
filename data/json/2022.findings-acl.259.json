@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.259",
+  "title": "Bridging Pre-trained Language Models and Hand-crafted Features for Unsupervised {POS} Tagging",
+  "authors": [
+    "Zhou, Houquan  and\nLi, Yang  and\nLi, Zhenghua  and\nZhang, Min"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "In recent years, large-scale pre-trained language models (PLMs) have made extraordinary progress in most NLP tasks. But, in the unsupervised POS tagging task, works utilizing PLMs are few and fail to achieve state-of-the-art (SOTA) performance. The recent SOTA performance is yielded by a Guassian HMM variant proposed by He et al. (2018). However, as a generative model, HMM makes very strong independence assumptions, making it very challenging to incorporate contexualized word representations from PLMs. In this work, we for the first time propose a neural conditional random field autoencoder (CRF-AE) model for unsupervised POS tagging. The discriminative encoder of CRF-AE can straightforwardly incorporate ELMo word representations. Moreover, inspired by feature-rich HMM, we reintroduce hand-crafted features into the decoder of CRF-AE. Finally, experiments clearly show that our model outperforms previous state-of-the-art models by a large margin on Penn Treebank and multilingual Universal Dependencies treebank v2.0.",
+  "keywords": [
+    "elmo",
+    "the decoder",
+    "field",
+    "we",
+    "the discriminative encoder",
+    "elmo word representations",
+    "neural",
+    "pre-trained language models",
+    "it",
+    "multilingual universal dependencies",
+    "dependencies",
+    "decoder",
+    "rich",
+    "word",
+    "most nlp tasks"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.259/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

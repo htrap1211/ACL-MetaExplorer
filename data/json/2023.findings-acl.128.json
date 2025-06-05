@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.128",
+  "title": "Structural Contrastive Pretraining for Cross-Lingual Comprehension",
+  "authors": [
+    "Chen, Nuo  and\nShou, Linjun  and\nSong, Tengtao  and\nGong, Ming  and\nPei, Jian  and\nChang, Jianhui  and\nJiang, Daxin  and\nLi, Jia"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "To present, multilingual language models trained using various pre-training tasks like mask language modeling (MLM) have yielded encouraging results on a wide range of downstream tasks. Despite the promising performances, structural knowledge in cross-lingual corpus is less explored in current works, leading to the semantic misalignment. In this paper, we propose a new pre-training task named Structural Contrast Pretraining (SCP) to align the structural words in a parallel sentence, enhancing the models’ ability to comprehend cross-lingual representations. Concretely, each structural word in source and target languages is regarded as a positive pair in SCP. Since contrastive learning compares positive and negative pairs, an increase in the frequency of negative pairings could enhance the performance of the resulting model. Therefore, we further propose Cross-lingual Momentum Contrast (CL-MoCo) to increase the number of negative pairs by maintaining a large size of the queue. CL-MoCo extends the original Moco approach into cross-lingual training and jointly optimizes the source-to-target language and target-to-source language representations, resulting in a more suitable encoder for cross-lingual transfer. We conduct extensive experiments to validate the proposed approach on three cross-lingual tasks across five datasets such as MLQA, WikiAnn, etc, and results prove the effectiveness of our method.",
+  "keywords": [
+    "mask language modeling mlm",
+    "semantic",
+    "we",
+    "current",
+    "training",
+    "misalignment",
+    "cross",
+    "a more suitable encoder",
+    "the semantic misalignment",
+    "word",
+    "learning",
+    "transfer",
+    "momentum",
+    "multilingual language models",
+    "cross-lingual momentum contrast cl"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.128/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

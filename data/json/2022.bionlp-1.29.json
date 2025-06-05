@@ -1,0 +1,33 @@
+{
+  "id": "2022.bionlp-1.29",
+  "title": "Data Augmentation for Rare Symptoms in Vaccine Side-Effect Detection",
+  "authors": [
+    "Kim, Bosung  and\nNakashole, Ndapa"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 21st Workshop on Biomedical Language Processing",
+  "abstract": "We study the problem of entity detection and normalization applied to patient self-reports of symptoms that arise as side-effects of vaccines. Our application domain presents unique challenges that render traditional classification methods ineffective: the number of entity types is large; and many symptoms are rare, resulting in a long-tail distribution of training examples per entity type. We tackle these challenges with an autoregressive model that generates standardized names of symptoms. We introduce a data augmentation technique to increase the number of training examples for rare symptoms. Experiments on real-life patient vaccine symptom self-reports show that our approach outperforms strong baselines, and that additional examples improve performance on the long-tail entities.",
+  "keywords": [
+    "normalization",
+    "model",
+    "entities",
+    "self",
+    "patient",
+    "we",
+    "the long-tail entities",
+    "traditional classification methods",
+    "entity",
+    "classification",
+    "training",
+    "that",
+    "entity type",
+    "a data augmentation technique",
+    "rare symptoms experiments"
+  ],
+  "url": "https://aclanthology.org/2022.bionlp-1.29/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

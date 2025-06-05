@@ -1,0 +1,33 @@
+{
+  "id": "P17-1161",
+  "title": "Semi-supervised sequence tagging with bidirectional language models",
+  "authors": [
+    "Peters, Matthew E.  and\nAmmar, Waleed  and\nBhagavatula, Chandra  and\nPower, Russell"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Pre-trained word embeddings learned from unlabeled text have become a standard component of neural network architectures for NLP tasks. However, in most cases, the recurrent network that operates on word-level representations to produce context sensitive representations is trained on relatively little labeled data. In this paper, we demonstrate a general semi-supervised approach for adding pretrained context embeddings from bidirectional language models to NLP systems and apply it to sequence labeling tasks. We evaluate our model on two standard datasets for named entity recognition (NER) and chunking, and in both cases achieve state of the art results, surpassing previous systems that use other forms of transfer or joint learning with additional labeled data and task specific gazetteers.",
+  "keywords": [
+    "embeddings",
+    "ner",
+    "general",
+    "a general semi-supervised approach",
+    "language",
+    "neural",
+    "bidirectional language models",
+    "nlp",
+    "model",
+    "text",
+    "it",
+    "pretrained context embeddings",
+    "pre-trained word embeddings",
+    "network",
+    "word"
+  ],
+  "url": "https://aclanthology.org/P17-1161/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:00:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

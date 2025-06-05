@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.169",
+  "title": "Comprehensive Abstractive Comment Summarization with Dynamic Clustering and Chain of Thought",
+  "authors": [
+    "Zhang, Longyin  and\nZou, Bowei  and\nYi, Jacintha  and\nAw, AiTi"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Real-world news comments pose a significant challenge due to their noisy and ambiguous nature, which complicates their modeling for clustering and summarization tasks. Most previous research has predominantly focused on extractive summarization methods within specific constraints. This paper concentrates on Clustering and Abstractive Summarization of online news Comments (CASC). First, we introduce an enhanced fast clustering algorithm that maintains a dynamic similarity threshold to ensure the high density of each comment cluster being built. Moreover, we pioneer the exploration of tuning Large Language Models (LLMs) through a chain-of-thought strategy to generate summaries for each comment cluster. On the other hand, a notable challenge in CASC research is the scarcity of evaluation data. To address this problem, we design an annotation scheme and contribute a manual test suite tailored for CASC. Experimental results on the test suite demonstrate the effectiveness of our improvements to the baseline methods. In addition, the quantitative and qualitative analyses illustrate the adaptability of our approach to real-world news comment scenarios.",
+  "keywords": [
+    "chain",
+    "clustering and abstractive summarization",
+    "summarization",
+    "we",
+    "cluster",
+    "dynamic clustering",
+    "comprehensive abstractive comment summarization",
+    "extractive summarization methods",
+    "evaluation data",
+    "fast",
+    "summaries",
+    "language",
+    "thought",
+    "large language models",
+    "modeling"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.169/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:50:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

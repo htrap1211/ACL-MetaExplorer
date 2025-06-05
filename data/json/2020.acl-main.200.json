@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.200",
+  "title": "To Pretrain or Not to Pretrain: Examining the Benefits of Pretrainng on Resource Rich Tasks",
+  "authors": [
+    "Wang, Sinong  and\nKhabsa, Madian  and\nMa, Hao"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Pretraining NLP models with variants of Masked Language Model (MLM) objectives has recently led to a significant improvements on many tasks. This paper examines the benefits of pretrained models as a function of the number of training samples used in the downstream task. On several text classification tasks, we show that as the number of training examples grow into the millions, the accuracy gap between finetuning BERT-based model and training vanilla LSTM from scratch narrows to within 1%. Our findings indicate that MLM-based models might reach a diminishing return point as the supervised data size increases significantly.",
+  "keywords": [
+    "several text classification tasks",
+    "objectives",
+    "language",
+    "nlp",
+    "bert",
+    "model",
+    "text",
+    "bert-based model",
+    "rich",
+    "we",
+    "nlp models",
+    "mlm objectives",
+    "masked language model",
+    "lstm",
+    "function"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.200/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:44:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

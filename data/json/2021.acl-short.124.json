@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.124",
+  "title": "Entity Concept-enhanced Few-shot Relation Extraction",
+  "authors": [
+    "Yang, Shan  and\nZhang, Yongfei  and\nNiu, Guanglin  and\nZhao, Qinghua  and\nPu, Shiliang"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Few-shot relation extraction (FSRE) is of great importance in long-tail distribution problem, especially in special domain with low-resource data. Most existing FSRE algorithms fail to accurately classify the relations merely based on the information of the sentences together with the recognized entity pairs, due to limited samples and lack of knowledge. To address this problem, in this paper, we proposed a novel entity CONCEPT-enhanced FEw-shot Relation Extraction scheme (ConceptFERE), which introduces the inherent concepts of entities to provide clues for relation prediction and boost the relations classification performance. Firstly, a concept-sentence attention module is developed to select the most appropriate concept from multiple concepts of each entity by calculating the semantic similarity between sentences and concepts. Secondly, a self-attention based fusion module is presented to bridge the gap of concept embedding and sentence embedding from different semantic spaces. Extensive experiments on the FSRE benchmark dataset FewRel have demonstrated the effectiveness and the superiority of the proposed ConceptFERE scheme as compared to the state-of-the-art baselines. Code is available athttps://github.com/LittleGuoKe/ConceptFERE.",
+  "keywords": [
+    "code",
+    "extraction",
+    "semantic",
+    "we",
+    "fusion",
+    "shot",
+    "classification",
+    "self",
+    "the relations classification performance",
+    "information",
+    "the semantic similarity",
+    "knowledge",
+    "a concept-sentence attention module",
+    "entities",
+    "different semantic spaces"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.124/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:08:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

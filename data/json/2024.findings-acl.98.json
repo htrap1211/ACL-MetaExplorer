@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.98",
+  "title": "k-{S}em{S}tamp: A Clustering-Based Semantic Watermark for Detection of Machine-Generated Text",
+  "authors": [
+    "Hou, Abe  and\nZhang, Jingyu  and\nWang, Yichen  and\nKhashabi, Daniel  and\nHe, Tianxing"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Recent watermarked generation algorithms inject detectable signatures during language generation to facilitate post-hoc detection. While token-level watermarks are vulnerable to paraphrase attacks, SemStamp (Hou et al., 2023) applies watermark on the semantic representation of sentences and demonstrates promising robustness. SemStamp employs locality-sensitive hashing (LSH) to partition the semantic space with arbitrary hyperplanes, which results in a suboptimal tradeoff between robustness and speed. We propose k-SemStamp, a simple yet effective enhancement of SemStamp, utilizing k-means clustering as an alternative of LSH to partition the embedding space with awareness of inherent semantic structure. Experimental results indicate that k-SemStamp saliently improves its robustness and sampling efficiency while preserving the generation quality, advancing a more effective tool for machine-generated text detection.",
+  "keywords": [
+    "the semantic representation",
+    "language generation",
+    "generation",
+    "em",
+    "al",
+    "the embedding space",
+    "language",
+    "the semantic space",
+    "machine",
+    "hou",
+    "text",
+    "token",
+    "machine-generated text detection",
+    "k-",
+    "k-means"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.98/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:49:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

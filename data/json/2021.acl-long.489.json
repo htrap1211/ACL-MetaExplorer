@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.489",
+  "title": "Fine-grained Information Extraction from Biomedical Literature based on Knowledge-enriched {A}bstract {M}eaning {R}epresentation",
+  "authors": [
+    "Zhang, Zixuan  and\nParulian, Nikolaus  and\nJi, Heng  and\nElsayed, Ahmed  and\nMyers, Skatje  and\nPalmer, Martha"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Biomedical Information Extraction from scientific literature presents two unique and non-trivial challenges. First, compared with general natural language texts, sentences from scientific papers usually possess wider contexts between knowledge elements. Moreover, comprehending the fine-grained scientific entities and events urgently requires domain-specific background knowledge. In this paper, we propose a novel biomedical Information Extraction (IE) model to tackle these two challenges and extract scientific entities and events from English research papers. We perform Abstract Meaning Representation (AMR) to compress the wide context to uncover a clear semantic structure for each complex sentence. Besides, we construct the sentence-level knowledge graph from an external knowledge base and use it to enrich the AMR graph to improve the model’s understanding of complex scientific concepts. We use an edge-conditioned graph attention network to encode the knowledge-enriched AMR graph for biomedical IE tasks. Experiments on the GENIA 2011 dataset show that the AMR and external knowledge have contributed 1.8% and 3.0% absolute F-score gains respectively. In order to evaluate the impact of our approach on real-world problems that involve topic-specific fine-grained knowledge elements, we have also created a new ontology and annotated corpus for entity and event extraction for the COVID-19 scientific literature, which can serve as a new benchmark for the biomedical IE community.",
+  "keywords": [
+    "a clear semantic structure",
+    "extraction",
+    "fine-grained information extraction",
+    "the sentence-level knowledge graph",
+    "the covid-19 scientific literature",
+    "semantic",
+    "we",
+    "graph",
+    "domain-specific background knowledge",
+    "the biomedical ie community",
+    "edge",
+    "natural",
+    "complex scientific concepts",
+    "it",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.489/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

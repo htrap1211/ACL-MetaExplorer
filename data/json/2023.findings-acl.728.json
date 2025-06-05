@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.728",
+  "title": "Disfluency Generation for More Robust Dialogue Systems",
+  "authors": [
+    "Marie, Benjamin"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Disfluencies in user utterances can trigger a chain of errors impacting all the modules of a dialogue system: natural language understanding, dialogue state tracking, and response generation. In this work, we first analyze existing dialogue datasets commonly used in research and show that they only contain a marginal number of disfluent utterances. Due to this relative absence of disfluencies in their training data, dialogue systems may then critically fail when exposed to disfluent utterances. Following this observation, we propose to augment existing datasets with disfluent user utterances by paraphrasing fluent utterances into disfluent ones. Relying on a pre-trained language model, our few-shot disfluent paraphraser guided by a disfluency classifier can generate useful disfluent utterances for training better dialogue systems. We report on improvements for both dialogue state tracking and response generation when the dialogue systems are trained on datasets augmented with our disfluent utterances.",
+  "keywords": [
+    "work",
+    "generation",
+    "language",
+    "natural",
+    "model",
+    "a disfluency classifier",
+    "classifier",
+    "chain",
+    "our few-shot disfluent paraphraser",
+    "a pre-trained language model",
+    "we",
+    "dialogue",
+    "better dialogue systems",
+    "pre",
+    "disfluencies"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.728/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

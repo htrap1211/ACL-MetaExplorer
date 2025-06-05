@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.31",
+  "title": "Leveraging Explicit Lexico-logical Alignments in Text-to-{SQL} Parsing",
+  "authors": [
+    "Sun, Runxin  and\nHe, Shizhu  and\nZhu, Chong  and\nHe, Yaohan  and\nLi, Jinlong  and\nZhao, Jun  and\nLiu, Kang"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Text-to-SQL aims to parse natural language questions into SQL queries, which is valuable in providing an easy interface to access large databases. Previous work has observed that leveraging lexico-logical alignments is very helpful to improve parsing performance. However, current attention-based approaches can only model such alignments at the token level and have unsatisfactory generalization capability. In this paper, we propose a new approach to leveraging explicit lexico-logical alignments. It first identifies possible phrase-level alignments and injects them as additional contexts to guide the parsing procedure. Experimental results onSquallshow that our approach can make better use of such alignments and obtains an absolute improvement of 3.4% compared with the current state-of-the-art.",
+  "keywords": [
+    "work",
+    "alignments",
+    "language",
+    "leveraging lexico-logical alignments",
+    "however current attention-based approaches",
+    "natural",
+    "sql queries",
+    "text",
+    "such alignments",
+    "unsatisfactory generalization capability",
+    "it",
+    "queries",
+    "token",
+    "generalization",
+    "attention"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.31/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:32:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

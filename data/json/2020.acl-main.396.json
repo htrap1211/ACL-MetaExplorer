@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.396",
+  "title": "Toxicity Detection: Does Context Really Matter?",
+  "authors": [
+    "Pavlopoulos, John  and\nSorensen, Jeffrey  and\nDixon, Lucas  and\nThain, Nithum  and\nAndroutsopoulos, Ion"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Moderation is crucial to promoting healthy online discussions. Although several ‘toxicity’ detection datasets and models have been published, most of them ignore the context of the posts, implicitly assuming that comments may be judged independently. We investigate this assumption by focusing on two questions: (a) does context affect the human judgement, and (b) does conditioning on context improve performance of toxicity detection systems? We experiment with Wikipedia conversations, limiting the notion of context to the previous post in the thread and the discussion title. We find that context can both amplify or mitigate the perceived toxicity of posts. Moreover, a small but significant subset of manually labeled posts (5% in one of our experiments) end up having the opposite toxicity labels if the annotators are not provided with context. Surprisingly, we also find no evidence that context actually improves the performance of toxicity classifiers, having tried a range of classifiers and mechanisms to make them context aware. This points to the need for larger datasets of comments annotated in context. We make our code and data publicly available.",
+  "keywords": [
+    "code",
+    "classifiers",
+    "conversations",
+    "we",
+    "wikipedia conversations",
+    "a",
+    "human",
+    "toxicity classifiers",
+    "notion",
+    "larger",
+    "wikipedia",
+    "really matter moderation",
+    "previous",
+    "thread",
+    "the annotators"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.396/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:47:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

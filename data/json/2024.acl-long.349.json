@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.349",
+  "title": "D}i{F}i{N}et: Boundary-Aware Semantic Differentiation and Filtration Network for Nested Named Entity Recognition",
+  "authors": [
+    "Cai, Yuxiang  and\nLiu, Qiao  and\nGan, Yanglei  and\nLin, Run  and\nLi, Changlin  and\nLiu, Xueyi  and\nLuo, Da  and\nJiayeYang, JiayeYang"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Nested Named Entity Recognition (Nested NER) entails identifying and classifying entity spans within the text, including the detection of named entities that are embedded within external entities. Prior approaches primarily employ span-based techniques, utilizing the power of exhaustive searches to address the challenge of overlapping entities. Nonetheless, these methods often grapple with the absence of explicit guidance for boundary detection, resulting insensitivity in discerning minor variations within nested spans. To this end, we propose a Boundary-aware Semantic̲Differentiation and̲Filtration̲Network (DiFiNet) tailored for nested NER. Specifically, DiFiNet leverages a biaffine attention mechanism to generate a span representation matrix. This matrix undergoes further refinement through a self-adaptive semantic differentiation module, specifically engineered to discern semantic variances across spans. Furthermore, DiFiNet integrates a boundary filtration module, designed to mitigate the impact of non-entity noise by leveraging semantic relations among spans. Extensive experiments on three benchmark datasets demonstrate our model yields a new state-of-the-art performance.",
+  "keywords": [
+    "semantic variances",
+    "end",
+    "semantic",
+    "we",
+    "nested named entity recognition",
+    "nested ner",
+    "self",
+    "ner",
+    "i",
+    "text",
+    "variances",
+    "named entities",
+    "external entities",
+    "model",
+    "entities"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.349/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

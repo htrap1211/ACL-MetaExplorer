@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.927",
+  "title": "From Representational Harms to Quality-of-Service Harms: A Case Study on Llama 2 Safety Safeguards",
+  "authors": [
+    "Chehbouni, Khaoula  and\nRoshan, Megha  and\nMa, Emmanuel  and\nWei, Futian  and\nTaik, Afaf  and\nCheung, Jackie  and\nFarnadi, Golnoosh"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Recent progress in large language models (LLMs) has led to their widespread adoption in various domains. However, these advancements have also introduced additional safety risks and raised concerns regarding their detrimental impact on already marginalized populations.Despite growing mitigation efforts to develop safety safeguards, such as supervised safety-oriented fine-tuning and leveraging safe reinforcement learning from human feedback, multiple concerns regarding the safety and ingrained biases in these models remain. Furthermore, previous work has demonstrated that models optimized for safety often display exaggerated safety behaviors, such as a tendency to refrain from responding to certain requests as a precautionary measure. As such, a clear trade-off between the helpfulness and safety of these models has been documented in the literature. In this paper, we further investigate the effectiveness of safety measures by evaluating models on already mitigated biases. Using the case of Llama 2 as an example, we illustrate how LLMs’ safety responses can still encode harmful assumptions. To do so, we create a set of non-toxic prompts, which we then use to evaluate Llama models. Through our new taxonomy of LLMs responses to users, we observe that the safety/helpfulness trade-offs are more pronounced for certain demographic groups which can lead to different kinds of harms such as quality-of-service harms for marginalized populations.",
+  "keywords": [
+    "feedback",
+    "supervised safety-oriented fine-tuning",
+    "we",
+    "learning",
+    "llms",
+    "tuning",
+    "large language models llms",
+    "llms responses",
+    "fine",
+    "biases",
+    "safe reinforcement learning",
+    "llms safety responses",
+    "work",
+    "prompts",
+    "reinforcement"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.927/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

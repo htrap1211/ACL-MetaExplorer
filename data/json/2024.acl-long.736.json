@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.736",
+  "title": "Never Lost in the Middle: Mastering Long-Context Question Answering with Position-Agnostic Decompositional Training",
+  "authors": [
+    "He, Junqing  and\nPan, Kunhao  and\nDong, Xiaoqun  and\nSong, Zhuoyang  and\nLiuYiBo, LiuYiBo  and\nQianguosun, Qianguosun  and\nLiang, Yuxin  and\nWang, Hao  and\nZhang, Enming  and\nZhang, Jiaxing"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "While large language models (LLMs) are equipped with longer text input capabilities than before, they are struggling to seek correct information in long contexts. The “lost in the middle” problem challenges most LLMs, referring to the dramatic decline in accuracy when correct information is located in the middle. To overcome this crucial issue, this paper proposes to enhance the information searching and reflection ability of LLMs in long contexts via specially designed tasks called Position-Agnostic Multi-step QA (PAM QA). Trained in this task, our model excels in focusing more precisely on the desired information. Experimental results show substantial improvement in Multi-doc QA and other benchmarks, superior to state-of-the-art models by 13.7% absolute gain in shuffled settings, by 21.5% in passage retrieval task. We release our model and code to promote related research in the community.",
+  "keywords": [
+    "code",
+    "question",
+    "multi-doc qa",
+    "we",
+    "passage retrieval task",
+    "training",
+    "retrieval",
+    "information",
+    "longer text input capabilities",
+    "llms",
+    "text",
+    "large language models llms",
+    "accuracy",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.736/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:44:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

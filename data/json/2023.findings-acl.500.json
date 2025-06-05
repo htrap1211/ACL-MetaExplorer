@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.500",
+  "title": "Similarizing the Influence of Words with Contrastive Learning to Defend Word-level Adversarial Text Attack",
+  "authors": [
+    "Zhan, Pengwei  and\nYang, Jing  and\nWang, He  and\nZheng, Chao  and\nHuang, Xiao  and\nWang, Liming"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Neural language models are vulnerable to word-level adversarial text attacks, which generate adversarial examples by directly substituting discrete input words. Previous search methods for word-level attacks assume that the information in the important words is more influential on prediction than unimportant words. In this paper, motivated by this assumption, we propose a self-supervised regularization method for Similarizing the Influence of Words with Contrastive Learning (SIWCon) that encourages the model to learn sentence representations in which words of varying importance have a more uniform influence on prediction. Experiments show that SIWCon is compatible with various training methods and effectively improves model robustness against various unforeseen adversarial attacks. The effectiveness of SIWCon is also intuitively shown through qualitative analysis and visualization of the loss landscape, sentence representation, and changes in model confidence.",
+  "keywords": [
+    "a self-supervised regularization method",
+    "we",
+    "training",
+    "neural",
+    "self",
+    "loss",
+    "information",
+    "word",
+    "learning",
+    "vulnerable",
+    "analysis",
+    "text",
+    "visualization",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.500/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

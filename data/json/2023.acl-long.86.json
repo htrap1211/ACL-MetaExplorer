@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.86",
+  "title": "GEC}-{D}e{P}en{D}: Non-Autoregressive Grammatical Error Correction with Decoupled Permutation and Decoding",
+  "authors": [
+    "Yakovlev, Konstantin  and\nPodolskiy, Alexander  and\nBout, Andrey  and\nNikolenko, Sergey  and\nPiontkovskaya, Irina"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Grammatical error correction (GEC) is an important NLP task that is currently usually solved with autoregressive sequence-to-sequence models. However, approaches of this class are inherently slow due to one-by-one token generation, so non-autoregressive alternatives are needed. In this work, we propose a novel non-autoregressive approach to GEC that decouples the architecture into a permutation network that outputs a self-attention weight matrix that can be used in beam search to find the best permutation of input tokens (with auxiliary <ins> tokens) and a decoder network based on a step-unrolled denoising autoencoder that fills in specific tokens. This allows us to find the token permutation after only one forward pass of the permutation network, avoiding autoregressive constructions. We show that the resulting network improves over previously known non-autoregressive methods for GEC and reaches the level of autoregressive methods that do not use language-specific synthetic data generation methods. Our results are supported by a comprehensive experimental validation on the ConLL-2014 and BEA datasets and an extensive ablation study that supports our architectural and algorithmic choices.",
+  "keywords": [
+    "an important nlp task",
+    "validation",
+    "autoencoder",
+    "ins",
+    "we",
+    "self",
+    "token",
+    "decoder",
+    "sequence",
+    "a self-attention weight matrix",
+    "a decoder network",
+    "work",
+    "generation",
+    "language",
+    "nlp"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.86/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:36:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

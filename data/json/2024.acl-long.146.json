@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.146",
+  "title": "MELA}: Multilingual Evaluation of Linguistic Acceptability",
+  "authors": [
+    "Zhang, Ziyin  and\nLiu, Yikang  and\nHuang, Weifang  and\nMao, Junyu  and\nWang, Rui  and\nHu, Hai"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this work, we present the largest benchmark to date on linguistic acceptability: Multilingual Evaluation of Linguistic Acceptability—MELA, with 46K samples covering 10 languages from a diverse set of language families. We establish LLM baselines on this benchmark, and investigate cross-lingual transfer in acceptability judgements with XLM-R. In pursuit of multilingual interpretability, we conduct probing experiments with fine-tuned XLM-R to explore the process of syntax capability acquisition. Our results show that GPT-4o exhibits a strong multilingual ability, outperforming fine-tuned XLM-R, while open-source multilingual models lag behind by a noticeable gap. Cross-lingual transfer experiments show that transfer in acceptability judgment is non-trivial: 500 Icelandic fine-tuning examples lead to 23 MCC performance in a completely unrelated language—Chinese. Results of our probing experiments indicate that training on MELA improves the performance of XLM-R on syntax-related tasks.",
+  "keywords": [
+    "families",
+    "we",
+    "syntax",
+    "llm",
+    "training",
+    "cross",
+    "llm baselines",
+    "transfer",
+    "syntax-related tasks",
+    "gpt-4o",
+    "linguistic acceptability multilingual evaluation",
+    "fine",
+    "mela multilingual evaluation",
+    "work",
+    "process"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.146/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

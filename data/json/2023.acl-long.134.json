@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.134",
+  "title": "Sequence Parallelism: Long Sequence Training from System Perspective",
+  "authors": [
+    "Li, Shenggui  and\nXue, Fuzhao  and\nBaranwal, Chaitanya  and\nLi, Yongbin  and\nYou, Yang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Transformer achieves promising results on various tasks. However, self-attention suffers from quadratic memory requirements with respect to the sequence length. Existing work focuses on reducing time and space complexity from an algorithm perspective. In this work, we propose sequence parallelism, a memory-efficient parallelism to solve this issue from system perspective instead. Our approach is compatible with most existing parallelisms (e.g., data, pipeline, and tensor parallelism), which means our sequence parallelism makes 4D parallelism possible. More importantly, we no longer require a single device to hold the whole sequence. Besides, using efficient attention with linear complexity, our sequence parallelism enables us to train transformer with infinite long sequence. Specifically, we split the input sequence into multiple chunks and feed each chunk into its corresponding device (i.e., GPU). To compute the attention output, we integrated ring-style communication with self-attention calculation and proposed Ring Self-Attention (RSA). Experiments show that sequence parallelism performs well when scaling with batch size and sequence length. Compared with tensor parallelism, our approach achieved13.7×and3.0×maximum batch size and sequence length respectively when scaling up to 64 NVIDIA P100 GPUs. With efficient attention, sequence can handle sequence with over 114K tokens, which is over27×longer than existing efficient attention works holding the whole sequence on a single device.",
+  "keywords": [
+    "efficient",
+    "self-attention",
+    "we",
+    "efficient attention sequence",
+    "training",
+    "ring",
+    "achieved13",
+    "self",
+    "sequence",
+    "self-attention calculation",
+    "the attention output",
+    "i",
+    "system perspective transformer",
+    "work",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.134/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

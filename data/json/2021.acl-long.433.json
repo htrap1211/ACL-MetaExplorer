@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.433",
+  "title": "Exploring Distantly-Labeled Rationales in Neural Network Models",
+  "authors": [
+    "Huang, Quzhe  and\nZhu, Shengqi  and\nFeng, Yansong  and\nZhao, Dongyan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Recent studies strive to incorporate various human rationales into neural networks to improve model performance, but few pay attention to the quality of the rationales. Most existing methods distribute their models’ focus to distantly-labeled rationale words entirely and equally, while ignoring the potential important non-rationale words and not distinguishing the importance of different rationale words. In this paper, we propose two novel auxiliary loss functions to make better use of distantly-labeled rationales, which encourage models to maintain their focus on important words beyond labeled rationales (PINs) and alleviate redundant training on non-helpful rationales (NoIRs). Experiments on two representative classification tasks show that our proposed methods can push a classification model to effectively learn crucial clues from non-perfect rationales while maintaining the ability to spread its focus to other unlabeled important words, thus significantly outperform existing methods.",
+  "keywords": [
+    "neural",
+    "neural networks",
+    "model",
+    "studies",
+    "human",
+    "a classification model",
+    "loss",
+    "two representative classification tasks",
+    "recent studies",
+    "attention",
+    "network",
+    "we",
+    "training",
+    "classification",
+    "neural network models"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.433/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

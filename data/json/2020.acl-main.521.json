@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.521",
+  "title": "IM}o{JIE}: Iterative Memory-Based Joint Open Information Extraction",
+  "authors": [
+    "Kolluru, Keshav  and\nAggarwal, Samarth  and\nRathore, Vipul  and\nMausam  and\nChakrabarti, Soumen"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "While traditional systems for Open Information Extraction were statistical and rule-based, recently neural models have been introduced for the task. Our work builds upon CopyAttention, a sequence generation OpenIE model (Cui et. al. 18). Our analysis reveals that CopyAttention produces a constant number of extractions per sentence, and its extracted tuples often express redundant information. We present IMoJIE, an extension to CopyAttention, which produces the next extraction conditioned on all previously extracted tuples. This approach overcomes both shortcomings of CopyAttention, resulting in a variable number of diverse extractions per sentence. We train IMoJIE on training data bootstrapped from extractions of several non-neural systems, which have been automatically filtered to reduce redundancy and noise. IMoJIE outperforms CopyAttention by about 18 F1 pts, and a BERT-based strong baseline by 2 F1 pts, establishing a new state of the art for the task.",
+  "keywords": [
+    "work",
+    "openie",
+    "imojie outperforms copyattention",
+    "a bert-based strong baseline",
+    "i",
+    "generation",
+    "neural",
+    "copyattention",
+    "extraction",
+    "bert",
+    "model",
+    "about 18 f1 pts",
+    "open information extraction",
+    "information",
+    "2 f1 pts"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.521/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:49:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

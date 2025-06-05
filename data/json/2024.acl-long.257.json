@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.257",
+  "title": "F}ollow{B}ench: A Multi-level Fine-grained Constraints Following Benchmark for Large Language Models",
+  "authors": [
+    "Jiang, Yuxin  and\nWang, Yufei  and\nZeng, Xingshan  and\nZhong, Wanjun  and\nLi, Liangyou  and\nMi, Fei  and\nShang, Lifeng  and\nJiang, Xin  and\nLiu, Qun  and\nWang, Wei"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The ability to follow instructions is crucial for Large Language Models (LLMs) to handle various real-world applications. Existing benchmarks primarily focus on evaluating pure response quality, rather than assessing whether the response follows constraints stated in the instruction. To fill this research gap, in this paper, we propose FollowBench, a Multi-level Fine-grained Constraints Following Benchmark for LLMs. FollowBench comprehensively includes five different types (i.e., Content, Situation, Style, Format, and Example) of fine-grained constraints. To enable a precise constraint following estimation on diverse difficulties, we introduce a Multi-level mechanism that incrementally adds a single constraint to the initial instruction at each increased level. To assess whether LLMs’ outputs have satisfied every individual constraint, we propose to prompt strong LLMs with constraint-evolution paths to handle challenging open-ended instructions. By evaluating 13 closed-source and open-source popular LLMs on FollowBench, we highlight the weaknesses of LLMs in instruction following and point towards potential avenues for future work. The data and code are publicly available at https://github.com/YJiangcm/FollowBench.",
+  "keywords": [
+    "code",
+    "we",
+    "instruction",
+    "format",
+    "difficulties",
+    "diverse difficulties",
+    "llms",
+    "llms outputs",
+    "work",
+    "language",
+    "strong llms",
+    "large language models",
+    "multi",
+    "existing benchmarks",
+    "situation"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.257/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

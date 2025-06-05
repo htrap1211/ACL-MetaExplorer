@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.873",
+  "title": "E}fficient{VLM}: Fast and Accurate Vision-Language Models via Knowledge Distillation and Modal-adaptive Pruning",
+  "authors": [
+    "Wang, Tiannan  and\nZhou, Wangchunshu  and\nZeng, Yan  and\nZhang, Xinsong"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Pre-trained vision-language models (VLMs) have achieved impressive results in a range of vision-language tasks. However, popular VLMs usually consist of hundreds of millions of parameters which brings challenges for fine-tuning and deployment in real-world applications due to space, memory, and latency constraints. In this work, we introduce a distilling then pruning framework to compress large vision-language models into smaller, faster, and more accurate ones. We first shrink the size ofa pre-trained large VLM and apply knowledge distillation in the vision-language pre-training stage to obtain a task-agnostic compact VLM. Then we propose a modal-adaptive pruning algorithm to automatically infer the importance of vision and language modalities for different downstream tasks and adaptively remove redundant structures and neurons in different encoders with controllable target sparsity. We apply our framework to train EfficientVLM, a fast and accurate vision-language model consisting of 6 vision layers, 3 text layers, and 3 cross-modal fusion layers, accounting for only 93 million parameters in total, which is 44.3% of the teacher model. EfficientVLM retains 98.4% performance of the teacher model and accelerates its inference speed by 2.2×. EfficientVLM achieves a large absolute improvement over previous SoTA efficient VLMs of similar sizes by a large margin on various vision-language tasks, including VQAv2 (+4.9%), NLVR2 (+5.6%), ITR (R@1 on TR +17.2%, on IR + 15.6% ) and COCO caption generation (CIDEr +6.5), demonstrating a large potential on training lightweight VLMs.",
+  "keywords": [
+    "efficient",
+    "we",
+    "2 2 efficientvlm",
+    "fusion",
+    "fficient",
+    "training",
+    "fine-tuning",
+    "cross",
+    "efficientvlm",
+    "r",
+    "large vision-language models",
+    "previous sota efficient vlms",
+    "tuning",
+    "vqav2",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.873/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

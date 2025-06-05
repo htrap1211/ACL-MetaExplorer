@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.735",
+  "title": "Joint {C}hinese Word Segmentation and Part-of-speech Tagging via Two-way Attentions of Auto-analyzed Knowledge",
+  "authors": [
+    "Tian, Yuanhe  and\nSong, Yan  and\nAo, Xiang  and\nXia, Fei  and\nQuan, Xiaojun  and\nZhang, Tong  and\nWang, Yonggang"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Chinese word segmentation (CWS) and part-of-speech (POS) tagging are important fundamental tasks for Chinese language processing, where joint learning of them is an effective one-step solution for both tasks. Previous studies for joint CWS and POS tagging mainly follow the character-based tagging paradigm with introducing contextual information such as n-gram features or sentential representations from recurrent neural models. However, for many cases, the joint tagging needs not only modeling from context features but also knowledge attached to them (e.g., syntactic relations among words); limited efforts have been made by existing research to meet such needs. In this paper, we propose a neural model named TwASP for joint CWS and POS tagging following the character-based sequence labeling paradigm, where a two-way attention mechanism is used to incorporate both context feature and their corresponding syntactic knowledge for each input character. Particularly, we use existing language processing toolkits to obtain the auto-analyzed syntactic knowledge for the context, and the proposed attention module can learn and benefit from them although their quality may not be perfect. Our experiments illustrate the effectiveness of the two-way attentions for joint CWS and POS tagging, where state-of-the-art performance is achieved on five benchmark datasets.",
+  "keywords": [
+    "attentions",
+    "we",
+    "the proposed attention module",
+    "a two-way attention mechanism",
+    "neural",
+    "the two-way attentions",
+    "information",
+    "two-way attentions",
+    "word",
+    "learning",
+    "sequence",
+    "recurrent",
+    "processing",
+    "previous studies",
+    "pos"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.735/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:52:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

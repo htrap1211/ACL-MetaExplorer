@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.208",
+  "title": "DINER}: Debiasing Aspect-based Sentiment Analysis with Multi-variable Causal Inference",
+  "authors": [
+    "Wu, Jialong  and\nZhang, Linhai  and\nZhou, Deyu  and\nXu, Guoqiang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Though notable progress has been made, neural-based aspect-based sentiment analysis (ABSA) models are prone to learn spurious correlations from annotation biases, resulting in poor robustness on adversarial data transformations. Among the debiasing solutions, causal inference-based methods have attracted much research attention, which can be mainly categorized into causal intervention methods and counterfactual reasoning methods. However, most of the present debiasing methods focus on single-variable causal inference, which is not suitable for ABSA with two input variables (the target aspect and the review). In this paper, we propose a novel framework based on multi-variable causal inference for debiasing ABSA. In this framework, different types of biases are tackled based on different causal intervention methods. For the review branch, the bias is modeled as indirect confounding from context, where backdoor adjustment intervention is employed for debiasing. For the aspect branch, the bias is described as a direct correlation with labels, where counterfactual reasoning is adopted for debiasing. Extensive experiments demonstrate the effectiveness of the proposed method compared to various baselines on the two widely used real-world aspect robustness test set datasets.",
+  "keywords": [
+    "the bias",
+    "bias",
+    "we",
+    "much research attention",
+    "neural",
+    "the present debiasing methods",
+    "analysis",
+    "diner",
+    "biases",
+    "sentiment",
+    "annotation biases",
+    "the review branch",
+    "the review",
+    "attention",
+    "review"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.208/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

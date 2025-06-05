@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.157",
+  "title": "Robust Lottery Tickets for Pre-trained Language Models",
+  "authors": [
+    "Zheng, Rui  and\nRong, Bao  and\nZhou, Yuhao  and\nLiang, Di  and\nWang, Sirui  and\nWu, Wei  and\nGui, Tao  and\nZhang, Qi  and\nHuang, Xuanjing"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent works on Lottery Ticket Hypothesis have shown that pre-trained language models (PLMs) contain smaller matching subnetworks(winning tickets) which are capable of reaching accuracy comparable to the original models. However, these tickets are proved to be notrobust to adversarial examples, and even worse than their PLM counterparts. To address this problem, we propose a novel method based on learning binary weight masks to identify robust tickets hidden in the original PLMs. Since the loss is not differentiable for the binary mask, we assign the hard concrete distribution to the masks and encourage their sparsity using a smoothing approximation of L0 regularization. Furthermore, we design an adversarial loss objective to guide the search for robust tickets and ensure that the tickets perform well bothin accuracy and robustness. Experimental results show the significant improvement of the proposed method over previous work on adversarial robustness evaluation.",
+  "keywords": [
+    "l0 regularization",
+    "well bothin accuracy",
+    "we",
+    "adversarial robustness evaluation",
+    "pre-trained language models",
+    "loss",
+    "pre-trained language models plms",
+    "objective",
+    "accuracy",
+    "work",
+    "language",
+    "regularization",
+    "an adversarial loss objective",
+    "evaluation",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.157/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

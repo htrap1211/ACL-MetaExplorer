@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.247",
+  "title": "U}pstream {M}itigation {I}s \\textit{ {N}ot} {A}ll {Y}ou {N}eed: {T}esting the {B}ias {T}ransfer {H}ypothesis in {P}re-{T}rained {L}anguage {M}odels",
+  "authors": [
+    "Steed, Ryan  and\nPanda, Swetasudha  and\nKobren, Ari  and\nWick, Michael"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "A few large, homogenous, pre-trained models undergird many machine learning systems — and often, these models contain harmful stereotypes learned from the internet. We investigate thebias transfer hypothesis: the theory that social biases (such as stereotypes) internalized by large language models during pre-training transfer into harmful task-specific behavior after fine-tuning. For two classification tasks, we find that reducing intrinsic bias with controlled interventionsbeforefine-tuning does little to mitigate the classifier’s discriminatory behaviorafterfine-tuning. Regression analysis suggests that downstream disparities are better explained by biases in the fine-tuning dataset. Still, pre-training plays a role: simple alterations to co-occurrence rates in the fine-tuning dataset are ineffective when the model has been pre-trained. Our results encourage practitioners to focus more on dataset quality and context-specific harms.",
+  "keywords": [
+    "controlled interventionsbeforefine-tuning",
+    "thebias",
+    "bias",
+    "classifier",
+    "social biases",
+    "disparities",
+    "we",
+    "intrinsic bias",
+    "training",
+    "classification",
+    "fine-tuning",
+    "thebias transfer hypothesis",
+    "anguage",
+    "transfer",
+    "re-"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.247/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:27:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

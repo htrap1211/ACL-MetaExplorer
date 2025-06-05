@@ -1,0 +1,33 @@
+{
+  "id": "P18-2116",
+  "title": "Long Short-Term Memory as a Dynamically Computed Element-wise Weighted Sum",
+  "authors": [
+    "Levy, Omer  and\nLee, Kenton  and\nFitzGerald, Nicholas  and\nZettlemoyer, Luke"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "LSTMs were introduced to combat vanishing gradients in simple RNNs by augmenting them with gated additive recurrent connections. We present an alternative view to explain the success of LSTMs: the gates themselves are versatile recurrent models that provide more representational power than previously appreciated. We do this by decoupling the LSTM’s gates from the embedded simple RNN, producing a new class of RNNs where the recurrence computes an element-wise weighted sum of context-independent functions of the input. Ablations on a range of problems demonstrate that the gating mechanism alone performs as well as an LSTM in most settings, strongly suggesting that the gates are doing much more in practice than just alleviating vanishing gradients.",
+  "keywords": [
+    "an alternative view",
+    "gradients",
+    "class",
+    "vanishing gradients",
+    "rnns",
+    "view",
+    "lstms",
+    "an lstm",
+    "sum",
+    "we",
+    "lstm",
+    "simple rnns",
+    "recurrent",
+    "the lstm s gates",
+    "that"
+  ],
+  "url": "https://aclanthology.org/P18-2116/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:19:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

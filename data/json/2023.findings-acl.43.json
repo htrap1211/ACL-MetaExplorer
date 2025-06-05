@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.43",
+  "title": "Exploring the Compositional Generalization in Context Dependent Text-to-{SQL} Parsing",
+  "authors": [
+    "Liu, Aiwei  and\nLiu, Wei  and\nHu, Xuming  and\nLi, Shuang  and\nMa, Fukun  and\nYang, Yawen  and\nWen, Lijie"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In the context-dependent Text-to-SQL task, the generated SQL statements are refined iteratively based on the user input utterance from each interaction. The input text from each interaction can be viewed as component modifications to the previous SQL statements, which could be further extracted as the modification patterns. Since these modification patterns could also be combined with other SQL statements, the models are supposed to have the compositional generalization to these novel combinations. This work is the first exploration of compositional generalization in context-dependent Text-to-SQL scenarios. To facilitate related studies, we constructed two challenging benchmarks named CoSQL-CG and SParC-CG by recombining the modification patterns and existing SQL statements. The following experiments show that almost all current models struggle on our proposed benchmarks. Furthermore, we found that better aligning the previous SQL statements with the input utterance could give models better combinatorial generalization ability. Based on these observations, we propose a method name p-align to improve the combinatorial generalization of Text-to-SQL models. Further experiments validate the effectiveness of our model.",
+  "keywords": [
+    "work",
+    "align",
+    "model",
+    "studies",
+    "text",
+    "related studies",
+    "the generated sql statements",
+    "generalization",
+    "we",
+    "the compositional generalization",
+    "better combinatorial generalization ability",
+    "the combinatorial generalization",
+    "compositional generalization",
+    "current",
+    "the context-dependent text-to-sql task"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.43/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

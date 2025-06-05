@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.485",
+  "title": "An End-to-End Progressive Multi-Task Learning Framework for Medical Named Entity Recognition and Normalization",
+  "authors": [
+    "Zhou, Baohang  and\nCai, Xiangrui  and\nZhang, Ying  and\nYuan, Xiaojie"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Medical named entity recognition (NER) and normalization (NEN) are fundamental for constructing knowledge graphs and building QA systems. Existing implementations for medical NER and NEN are suffered from the error propagation between the two tasks. The mispredicted mentions from NER will directly influence the results of NEN. Therefore, the NER module is the bottleneck of the whole system. Besides, the learnable features for both tasks are beneficial to improving the model performance. To avoid the disadvantages of existing models and exploit the generalized representation across the two tasks, we design an end-to-end progressive multi-task learning model for jointly modeling medical NER and NEN in an effective way. There are three level tasks with progressive difficulty in the framework. The progressive tasks can reduce the error propagation with the incremental task settings which implies the lower level tasks gain the supervised signals other than errors from the higher level tasks to improve their performances. Besides, the context features are exploited to enrich the semantic information of entity mentions extracted by NER. The performance of NEN profits from the enhanced entity mention features. The standard entities from knowledge bases are introduced into the NER module for extracting corresponding entity mentions correctly. The empirical results on two publicly available medical literature datasets demonstrate the superiority of our method over nine typical methods.",
+  "keywords": [
+    "end",
+    "generalized",
+    "semantic",
+    "we",
+    "the semantic information",
+    "jointly modeling medical ner",
+    "information",
+    "qa systems existing implementations",
+    "knowledge graphs",
+    "learning",
+    "the ner module",
+    "ner",
+    "normalization",
+    "the generalized representation",
+    "the standard entities"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.485/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

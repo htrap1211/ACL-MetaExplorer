@@ -1,0 +1,33 @@
+{
+  "id": "W19-5209",
+  "title": "Customizing Neural Machine Translation for Subtitling",
+  "authors": [
+    "Matusov, Evgeny  and\nWilken, Patrick  and\nGeorgakopoulou, Yota"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 1: Research Papers)",
+  "abstract": "In this work, we customized a neural machine translation system for translation of subtitles in the domain of entertainment. The neural translation model was adapted to the subtitling content and style and extended by a simple, yet effective technique for utilizing inter-sentence context for short sentences such as dialog turns. The main contribution of the paper is a novel subtitle segmentation algorithm that predicts the end of a subtitle line given the previous word-level context using a recurrent neural network learned from human segmentation decisions. This model is combined with subtitle length and duration constraints established in the subtitling industry. We conducted a thorough human evaluation with two post-editors (English-to-Spanish translation of a documentary and a sitcom). It showed a notable productivity increase of up to 37% as compared to translating from scratch and significant reductions in human translation edit rate in comparison with the post-editing of the baseline non-adapted system without a learned segmentation model.",
+  "keywords": [
+    "end",
+    "rate",
+    "neural machine translation",
+    "the neural translation model",
+    "we",
+    "translation",
+    "neural",
+    "it",
+    "a recurrent neural network",
+    "word",
+    "recurrent",
+    "two post-editors english-to-spanish translation",
+    "a thorough human evaluation",
+    "human translation edit rate",
+    "work"
+  ],
+  "url": "https://aclanthology.org/W19-5209/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:54:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

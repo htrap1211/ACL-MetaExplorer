@@ -1,0 +1,33 @@
+{
+  "id": "P19-1489",
+  "title": "A Resource-Free Evaluation Metric for Cross-Lingual Word Embeddings Based on Graph Modularity",
+  "authors": [
+    "Fujinuma, Yoshinari  and\nBoyd-Graber, Jordan  and\nPaul, Michael J."
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Cross-lingual word embeddings encode the meaning of words from different languages into a shared low-dimensional space. An important requirement for many downstream tasks is that word similarity should be independent of language—i.e., word vectors within one language should not be more similar to each other than to words in another language. We measure this characteristic using modularity, a network measurement that measures the strength of clusters in a graph. Modularity has a moderate to strong correlation with three downstream tasks, even though modularity is based only on the structure of embeddings and does not require any external resources. We show through experiments that modularity can serve as an intrinsic validation metric to improve unsupervised cross-lingual word embeddings, particularly on distant language pairs in low-resource settings.",
+  "keywords": [
+    "embeddings",
+    "cross",
+    "i",
+    "language",
+    "validation",
+    "metric",
+    "vectors",
+    "unsupervised cross-lingual word embeddings",
+    "dimensional",
+    "network",
+    "word",
+    "we",
+    "a resource-free evaluation metric",
+    "cross-lingual word embeddings",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/P19-1489/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:42:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

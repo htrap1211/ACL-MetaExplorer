@@ -1,0 +1,33 @@
+{
+  "id": "2024.iwslt-1.17",
+  "title": "QUESPA} Submission for the {IWSLT} 2024 Dialectal and Low-resource Speech Translation Task",
+  "authors": [
+    "E. Ortega, John  and\nJoel Zevallos, Rodolfo  and\nSaid Ahmad, Ibrahim  and\nChen, William"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 21st International Conference on Spoken Language Translation (IWSLT 2024)",
+  "abstract": "This article describes the QUESPA team speech translation (ST) submissions for the Quechua to Spanish (QUE–SPA) track featured in the Evaluation Campaign of IWSLT 2024: dialectal and low-resource speech translation. Two main submission types were supported in the campaign: constrained and unconstrained. This is our second year submitting our ST systems to the IWSLT shared task and we feel that we have achieved novel performance, surpassing last year’s submissions. Again, we were able to submit six total systems of which our best (primary) constrained system consisted of an ST model based on the Fairseq S2T framework where the audio representations were created using log mel-scale filter banks as features and the translations were performed using a transformer. The system was similar to last year’s submission with slight configuration changes, allowing us to achieve slightly higher performance (2 BLEU). Contrastingly, we were able to achieve much better performance than last year on the unconstrained task using a larger pre-trained language (PLM) model for ST (without cascading) and the inclusion of parallel QUE–SPA data found on the internet. The fine-tuning of Microsoft’s SpeechT5 model in a ST setting along with the addition of new data and a data augmentation technique allowed us to achieve 19.7 BLEU. Additionally, we present the other four submissions (2 constrained and 2 unconstrained) which are part of additional efforts of hyper-parameter and configuration tuning on existent models and the inclusion of Whisper for speech recognition",
+  "keywords": [
+    "bleu",
+    "we",
+    "a transformer",
+    "parameter",
+    "translation",
+    "2 bleu",
+    "hyper",
+    "19 7 bleu",
+    "st",
+    "log",
+    "tuning",
+    "the translations",
+    "que",
+    "the evaluation campaign",
+    "fine"
+  ],
+  "url": "https://aclanthology.org/2024.iwslt-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:06:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

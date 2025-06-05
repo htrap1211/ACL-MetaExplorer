@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.239",
+  "title": "Composing Structure-Aware Batches for Pairwise Sentence Classification",
+  "authors": [
+    "Waldis, Andreas  and\nBeck, Tilman  and\nGurevych, Iryna"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Identifying the relation between two sentences requires datasets with pairwise annotations. In many cases, these datasets contain instances that are annotated multiple times as part of different pairs. They constitute a structure that contains additional helpful information about the inter-relatedness of the text instances based on the annotations. This paper investigates how this kind of structural dataset information can be exploited during training. We propose three batch composition strategies to incorporate such information and measure their performance over 14 heterogeneous pairwise sentence classification tasks. Our results show statistically significant improvements (up to 3.9%) - independent of the pre-trained language model - for most tasks compared to baselines that follow a standard training procedure. Further, we see that even this baseline procedure can profit from having such structural information in a low-resource setting.",
+  "keywords": [
+    "the pre-trained language model",
+    "three batch composition strategies",
+    "we",
+    "training",
+    "classification",
+    "information",
+    "text",
+    "strategies",
+    "-",
+    "language",
+    "model",
+    "pre",
+    "pairwise sentence classification",
+    "batch",
+    "statistically significant improvements"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.239/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

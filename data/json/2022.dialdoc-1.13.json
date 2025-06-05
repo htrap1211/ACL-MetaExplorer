@@ -1,0 +1,33 @@
+{
+  "id": "2022.dialdoc-1.13",
+  "title": "Grounded Dialogue Generation with Cross-encoding Re-ranker, Grounding Span Prediction, and Passage Dropout",
+  "authors": [
+    "Li, Kun  and\nZhang, Tianhua  and\nTang, Liping  and\nLi, Junan  and\nLu, Hongyuan  and\nWu, Xixin  and\nMeng, Helen"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Second DialDoc Workshop on Document-grounded Dialogue and Conversational Question Answering",
+  "abstract": "MultiDoc2Dial presents an important challenge on modeling dialogues grounded with multiple documents. This paper proposes a pipeline system of “retrieve, re-rank, and generate”, where each component is individually optimized. This enables the passage re-ranker and response generator to fully exploit training with ground-truth data. Furthermore, we use a deep cross-encoder trained with localized hard negative passages from the retriever. For the response generator, we use grounding span prediction as an auxiliary task to be jointly trained with the main task of response generation. We also adopt a passage dropout and regularization technique to improve response generation performance. Experimental results indicate that the system clearly surpasses the competitive baseline and our team CPII-NLP ranked 1st among the public submissions on ALL four leaderboards based on the sum of F1, SacreBLEU, METEOR and RougeL scores.",
+  "keywords": [
+    "deep",
+    "sacrebleu",
+    "retrieve",
+    "a passage dropout",
+    "we",
+    "dialogue",
+    "ranker and response generator",
+    "training",
+    "cross",
+    "grounded dialogue generation",
+    "regularization technique",
+    "rougel",
+    "the retriever",
+    "the response generator",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2022.dialdoc-1.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:41:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

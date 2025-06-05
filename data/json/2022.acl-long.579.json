@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.579",
+  "title": "I}nternet-Augmented Dialogue Generation",
+  "authors": [
+    "Komeili, Mojtaba  and\nShuster, Kurt  and\nWeston, Jason"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The largest store of continually updating knowledge on our planet can be accessed via internet search. In this work we study giving access to this information to conversational agents. Large language models, even though they store an impressive amount of knowledge within their weights, are known to hallucinate facts when generating dialogue (Shuster et al., 2021); moreover, those facts are frozen in time at the point of model training. In contrast, we propose an approach that learns to generate an internet search query based on the context, and then conditions on the search results to finally generate a response, a method that can employ up-to-the-minute relevant information. We train and evaluate such models on a newly collected dataset of human-human conversations whereby one of the speakers is given access to internet search during knowledgedriven discussions in order to ground their responses. We find that search-query based access of the internet in conversation provides superior performance compared to existing approaches that either use no augmentation or FAISS-based retrieval (Lewis et al., 2020b).",
+  "keywords": [
+    "conversations",
+    "human-human conversations",
+    "we",
+    "dialogue",
+    "training",
+    "retrieval",
+    "information",
+    "nternet-augmented dialogue generation",
+    "i",
+    "dialogue shuster",
+    "work",
+    "knowledge",
+    "generation",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.579/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:32:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

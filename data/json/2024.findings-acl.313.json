@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.313",
+  "title": "Generation Meets Verification: Accelerating Large Language Model Inference with Smart Parallel Auto-Correct Decoding",
+  "authors": [
+    "Yi, Hanling  and\nLin, Feng  and\nLi, Hongbin  and\nPeiyang, Ning  and\nYu, Xiaotian  and\nXiao, Rong"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "This research aims to accelerate the inference speed of large language models (LLMs) with billions of parameters. We propose Smart Parallel Auto-Correct dEcoding (SPACE), an approach designed for achieving lossless acceleration of LLMs. By integrating semi-autoregressive inference and speculative decoding capabilities, SPACE uniquely enables autoregressive LLMs to parallelize token generation and verification. This is realized through a specialized semi-autoregressive supervised fine-tuning process that equips existing LLMs with the ability to simultaneously predict multiple tokens. Additionally, an auto-correct decoding algorithm facilitates the simultaneous generation and verification of token sequences within a single model invocation. Through extensive experiments on a range of LLMs, SPACE has demonstrated inference speedup ranging from 2.7x-4.0x on HumanEval-X while maintaining output quality.",
+  "keywords": [
+    "tuning",
+    "process",
+    "large language model inference",
+    "generation",
+    "language",
+    "model",
+    "llms space",
+    "large language models",
+    "token",
+    "capabilities",
+    "fine",
+    "the simultaneous generation",
+    "we",
+    "speculative decoding capabilities space",
+    "autoregressive llms"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.313/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

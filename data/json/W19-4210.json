@@ -1,0 +1,33 @@
+{
+  "id": "W19-4210",
+  "title": "THOMAS}: The Hegemonic {OSU} Morphological Analyzer using Seq2seq",
+  "authors": [
+    "Oh, Byung-Doh  and\nManeriker, Pranav  and\nJiang, Nanjiang"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 16th Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "This paper describes the OSU submission to the SIGMORPHON 2019 shared task, Crosslinguality and Context in Morphology. Our system addresses thecontextual morphological analysissubtask of Task 2, which is to produce the morphosyntactic description (MSD) of each fully inflected word within a given sentence. We frame this as a sequence generation task and employ a neural encoder-decoder (seq2seq) architecture to generate the sequence of MSD tags given the encoded representation of each token. Follow-up analyses reveal that our system most significantly improves performance on morphologically complex languages whose inflected word forms typically have longer MSD tag sequences. In addition, our system seems to capture the structured correlation between MSD tags, such as that between the “verb” tag and TAM-related tags.",
+  "keywords": [
+    "seq2seq",
+    "a sequence generation task",
+    "generation",
+    "neural",
+    "token",
+    "encoder",
+    "decoder",
+    "tag",
+    "we",
+    "word",
+    "sequence",
+    "that",
+    "thecontextual",
+    "morphology",
+    "2019 shared task crosslinguality"
+  ],
+  "url": "https://aclanthology.org/W19-4210/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:27:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

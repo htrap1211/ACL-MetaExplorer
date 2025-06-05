@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.445",
+  "title": "Type Enhanced {BERT} for Correcting {NER} Errors",
+  "authors": [
+    "Li, Kuai  and\nChen, Chen  and\nYang, Tao  and\nDu, Tianming  and\nYu, Peijie  and\nDu, Dong  and\nZhang, Feng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "We introduce the task of correcting named entity recognition (NER) errors without re-training model. After an NER model is trained and deployed in production,it makes prediction errors, which usually need to be fixed quickly. To address this problem, we firstly construct a gazetteer containing named entities and corresponding possible entity types. And then, we propose type enhanced BERT (TyBERT),a method that integrates the named entity’s type information into BERT by an adapter layer. When errors are identified, we can repair the model by updating the gazetteer. In other words, the gazetteer becomes a trigger to control NER model’s output. The experiment results in multiple corpus show the effectiveness of our method, which outperforms strong baselines.x",
+  "keywords": [
+    "ner",
+    "an ner model",
+    "bert",
+    "model",
+    "entities",
+    "it",
+    "ner errors",
+    "tybert",
+    "ner model s output",
+    "enhanced bert",
+    "information",
+    "layer",
+    "we",
+    "type enhanced bert tybert",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.445/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

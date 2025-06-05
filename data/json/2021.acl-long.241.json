@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.241",
+  "title": "Database reasoning over text",
+  "authors": [
+    "Thorne, James  and\nYazdani, Majid  and\nSaeidi, Marzieh  and\nSilvestri, Fabrizio  and\nRiedel, Sebastian  and\nHalevy, Alon"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Neural models have shown impressive performance gains in answering queries from natural language text. However, existing works are unable to support database queries, such as “List/Count all female athletes who were born in 20th century”, which require reasoning over sets of relevant facts with operations such as join, filtering and aggregation. We show that while state-of-the-art transformer models perform very well for small databases, they exhibit limitations in processing noisy data, numerical operations, and queries that aggregate facts. We propose a modular architecture to answer these database-style queries over multiple spans from text and aggregating these at scale. We evaluate the architecture using WikiNLDB, a novel dataset for exploring such queries. Our architecture scales to databases containing thousands of facts whereas contemporary models are limited by how many facts can be encoded. In direct comparison on small databases, our approach increases overall answer accuracy from 85% to 90%. On larger databases, our approach retains its accuracy whereas transformer baselines could not encode the context.",
+  "keywords": [
+    "such queries",
+    "its accuracy",
+    "we",
+    "answer",
+    "neural",
+    "natural",
+    "queries",
+    "database queries",
+    "text",
+    "transformer baselines",
+    "overall answer accuracy",
+    "accuracy",
+    "transformer",
+    "language",
+    "these database-style queries"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.241/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:02:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

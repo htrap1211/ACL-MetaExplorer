@@ -1,0 +1,33 @@
+{
+  "id": "2020.nli-1.5",
+  "title": "Neural Multi-task Text Normalization and Sanitization with Pointer-Generator",
+  "authors": [
+    "Nguyen, Hoang  and\nCavallari, Sandro"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the First Workshop on Natural Language Interfaces",
+  "abstract": "Text normalization and sanitization are intrinsic components of Natural Language Inferences. In Information Retrieval or Dialogue Generation, normalization of user queries or utterances enhances linguistic understanding by translating non-canonical text to its canonical form, on which many state-of-the-art language models are trained. On the other hand, text sanitization removes sensitive information to guarantee user privacy and anonymity. Existing approaches to normalization and sanitization mainly rely on hand-crafted heuristics and syntactic features of individual tokens while disregarding the linguistic context. Moreover, such context-unaware solutions cannot dynamically determine whether out-of-vocab tokens are misspelt or are entity names. In this work, we formulate text normalization and sanitization as a multi-task text generation approach and propose a neural hybrid pointer-generator network based on multi-head attention. Its generator effectively captures linguistic context during normalization and sanitization while its pointer dynamically preserves the entities that are generally missing in the vocabulary. Experiments show that our generation approach outperforms both token-based text normalization and sanitization, while the hybrid pointer-generator improves the generator-only baseline in terms of BLEU4 score, and classical attentional pointer networks in terms of pointing accuracy.",
+  "keywords": [
+    "its generator",
+    "form",
+    "we",
+    "pointer-generator text normalization",
+    "dialogue",
+    "the hybrid pointer-generator",
+    "the entities",
+    "the generator-only baseline",
+    "neural",
+    "natural",
+    "queries",
+    "retrieval",
+    "bleu4",
+    "information",
+    "bleu4 score"
+  ],
+  "url": "https://aclanthology.org/2020.nli-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:57:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

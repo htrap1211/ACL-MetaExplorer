@@ -1,0 +1,33 @@
+{
+  "id": "P19-1441",
+  "title": "Multi-Task Deep Neural Networks for Natural Language Understanding",
+  "authors": [
+    "Liu, Xiaodong  and\nHe, Pengcheng  and\nChen, Weizhu  and\nGao, Jianfeng"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "In this paper, we present a Multi-Task Deep Neural Network (MT-DNN) for learning representations across multiple natural language understanding (NLU) tasks. MT-DNN not only leverages large amounts of cross-task data, but also benefits from a regularization effect that leads to more general representations to help adapt to new tasks and domains. MT-DNN extends the model proposed in Liu et al. (2015) by incorporating a pre-trained bidirectional transformer language model, known as BERT (Devlin et al., 2018). MT-DNN obtains new state-of-the-art results on ten NLU tasks, including SNLI, SciTail, and eight out of nine GLUE tasks, pushing the GLUE benchmark to 82.7% (2.2% absolute improvement) as of February 25, 2019 on the latest GLUE test set. We also demonstrate using the SNLI and SciTail datasets that the representations learned by MT-DNN allow domain adaptation with substantially fewer in-domain labels than the pre-trained BERT representations. Our code and pre-trained models will be made publicly available.",
+  "keywords": [
+    "deep",
+    "code",
+    "we",
+    "more general representations",
+    "cross",
+    "neural",
+    "natural",
+    "bert",
+    "a regularization effect",
+    "the pre-trained bert representations",
+    "-",
+    "transformer",
+    "general",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/P19-1441/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:41:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

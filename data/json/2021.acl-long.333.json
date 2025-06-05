@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.333",
+  "title": "Convolutions and Self-Attention: {R}e-interpreting Relative Positions in Pre-trained Language Models",
+  "authors": [
+    "Chang, Tyler  and\nXu, Yifan  and\nXu, Weijian  and\nTu, Zhuowen"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "In this paper, we detail the relationship between convolutions and self-attention in natural language tasks. We show that relative position embeddings in self-attention layers are equivalent to recently-proposed dynamic lightweight convolutions, and we consider multiple new ways of integrating convolutions into Transformer self-attention. Specifically, we propose composite attention, which unites previous relative position encoding methods under a convolutional framework. We conduct experiments by training BERT with composite attention, finding that convolutions consistently improve performance on multiple downstream tasks, replacing absolute position embeddings. To inform future work, we present results comparing lightweight convolutions, dynamic convolutions, and depthwise-separable convolutions in language model pre-training, considering multiple injection points for convolutions in self-attention layers.",
+  "keywords": [
+    "embeddings",
+    "work",
+    "transformer",
+    "composite attention finding",
+    "relative position embeddings",
+    "language",
+    "pre-trained language models",
+    "a convolutional framework",
+    "natural",
+    "bert",
+    "model",
+    "language model",
+    "transformer self-attention",
+    "self",
+    "self-attention layers"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.333/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

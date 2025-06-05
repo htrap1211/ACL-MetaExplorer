@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.636",
+  "title": "II}-{MMR}: Identifying and Improving Multi-modal Multi-hop Reasoning in Visual Question Answering",
+  "authors": [
+    "Kil, Jihyung  and\nTavazoee, Farideh  and\nKang, Dongyeop  and\nKim, Joo-Kyung"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Visual Question Answering (VQA) often involves diverse reasoning scenarios across Vision and Language (V&L). Most prior VQA studies, however, have merely focused on assessing the model’s overall accuracy without evaluating it on different reasoning cases. Furthermore, some recent works observe that conventional Chain-of-Thought (CoT) prompting fails to generate effective reasoning for VQA, especially for complex scenarios requiring multi-hop reasoning. In this paper, we propose II-MMR, a novel idea to identify and improve multi-modal multi-hop reasoning in VQA. In specific, II-MMR takes a VQA question with an image and finds a reasoning path to reach its answer using two novel language promptings: (i) answer prediction-guided CoT prompt, or (ii) knowledge triplet-guided prompt. II-MMR then analyzes this path to identify different reasoning cases in current VQA benchmarks by estimating how many hops and what types (i.e., visual or beyond-visual) of reasoning are required to answer the question. On popular benchmarks including GQA and A-OKVQA, II-MMR observes that most of their VQA questions are easy to answer, simply demanding “single-hop” reasoning, whereas only a few questions require “multi-hop” reasoning. Moreover, while the recent V&L model struggles with such complex multi-hop reasoning questions even using the traditional CoT method, II-MMR shows its effectiveness across all reasoning cases in both zero-shot and fine-tuning settings.",
+  "keywords": [
+    "promptings",
+    "chain",
+    "question",
+    "two novel language promptings",
+    "a vqa question",
+    "we",
+    "gqa",
+    "current",
+    "prediction-guided cot prompt",
+    "shot",
+    "answer",
+    "cot",
+    "it",
+    "visual",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.636/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

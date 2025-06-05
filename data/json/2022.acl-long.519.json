@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.519",
+  "title": "Adapting Coreference Resolution Models through Active Learning",
+  "authors": [
+    "Yuan, Michelle  and\nXia, Patrick  and\nMay, Chandler  and\nVan Durme, Benjamin  and\nBoyd-Graber, Jordan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Neural coreference resolution models trained on one dataset may not transfer to new, low-resource domains. Active learning mitigates this problem by sampling a small subset of data for annotators to label. While active learning is well-defined for classification tasks, its application to coreference resolution is neither well-defined nor fully understood. This paper explores how to actively label coreference, examining sources of model uncertainty and document reading costs. We compare uncertainty sampling strategies and their advantages through thorough error analysis. In both synthetic and human experiments, labeling spans within the same document is more effective than annotating spans across documents. The findings contribute to a more realistic development of coreference resolution models.",
+  "keywords": [
+    "classification tasks",
+    "neural",
+    "model",
+    "human",
+    "strategies",
+    "coreference resolution models",
+    "we",
+    "learning",
+    "uncertainty sampling strategies",
+    "coreference",
+    "analysis",
+    "classification",
+    "documents",
+    "new low-resource domains",
+    "reading"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.519/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

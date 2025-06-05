@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.99",
+  "title": "Issues with Entailment-based Zero-shot Text Classification",
+  "authors": [
+    "Ma, Tingting  and\nYao, Jin-Ge  and\nLin, Chin-Yew  and\nZhao, Tiejun"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "The general format of natural language inference (NLI) makes it tempting to be used for zero-shot text classification by casting any target label into a sentence of hypothesis and verifying whether or not it could be entailed by the input, aiming at generic classification applicable on any specified label space. In this opinion piece, we point out a few overlooked issues that are yet to be discussed in this line of work. We observe huge variance across different classification datasets amongst standard BERT-based NLI models and surprisingly find that pre-trained BERT without any fine-tuning can yield competitive performance against BERT fine-tuned for NLI. With the concern that these models heavily rely on spurious lexical patterns for prediction, we also experiment with preliminary approaches for more robust NLI, but the results are in general negative. Our observations reveal implicit but challenging difficulties in entailment-based zero-shot text classification.",
+  "keywords": [
+    "any fine-tuning",
+    "huge variance",
+    "generic classification",
+    "challenging difficulties",
+    "we",
+    "variance",
+    "shot",
+    "classification",
+    "natural",
+    "it",
+    "entailment-based zero-shot text classification",
+    "standard bert-based nli models",
+    "format",
+    "zero-shot text classification",
+    "difficulties"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.99/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:08:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

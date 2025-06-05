@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.239",
+  "title": "CELDA}: Leveraging Black-box Language Model as Enhanced Classifier without Labels",
+  "authors": [
+    "Cho, Hyunsoo  and\nKim, Youna  and\nLee, Sang-goo"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Utilizing language models (LMs) without internal access is becoming an attractive paradigm in the field of NLP as many cutting-edge LMs are released through APIs and boast a massive scale. The de-facto method in this type of black-box scenario is known as prompting, which has shown progressive performance enhancements in situations where data labels are scarce or unavailable. Despite their efficacy, they still fall short in comparison to fully supervised counterparts and are generally brittle to slight modifications. In this paper, we propose Clustering-enhanced Linear Discriminative Analysis (CELDA), a novel approach that improves the text classification accuracy with a very weak-supervision signal (i.e., name of the labels).Our framework draws a precise decision boundary without accessing weights or gradients of the LM model or data labels. The core ideas of CELDA are twofold:(1) extracting a refined pseudo-labeled dataset from an unlabeled dataset, and (2) training a lightweight and robust model on the top of LM, which learns an accurate decision boundary from an extracted noisy dataset. Throughout in-depth investigations on various datasets, we demonstrated that CELDA reaches new state-of-the-art in weakly-supervised text classification and narrows the gap with a fully-supervised model. Additionally, our proposed methodology can be applied universally to any LM and has the potential to scale to larger models, making it a more viable option for utilizing large LMs.",
+  "keywords": [
+    "classifier",
+    "black-box language model",
+    "field",
+    "we",
+    "training",
+    "classification",
+    "edge",
+    "the field",
+    "the text classification accuracy",
+    "it",
+    "analysis",
+    "core",
+    "celda",
+    "text",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.239/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:38:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

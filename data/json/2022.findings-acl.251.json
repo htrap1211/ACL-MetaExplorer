@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.251",
+  "title": "UNIMO}-2: End-to-End Unified Vision-Language Grounded Learning",
+  "authors": [
+    "Li, Wei  and\nGao, Can  and\nNiu, Guocheng  and\nXiao, Xinyan  and\nLiu, Hao  and\nLiu, Jiachen  and\nWu, Hua  and\nWang, Haifeng"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Vision-Language Pre-training (VLP) has achieved impressive performance on various cross-modal downstream tasks. However, most existing methods can only learn from aligned image-caption data and rely heavily on expensive regional features, which greatly limits their scalability and performance. In this paper, we propose an end-to-end unified-modal pre-training framework, namely UNIMO-2, for joint learning on both aligned image-caption data and unaligned image-only and text-only corpus. We build a unified Transformer model to jointly learn visual representations, textual representations and semantic alignment between images and texts. In particular, we propose to conduct grounded learning on both images and texts via a sharing grounded space, which helps bridge unaligned images and texts, and align the visual and textual semantic spaces on different types of corpora. The experiments show that our grounded learning method can improve textual and visual semantic alignment for improving performance on various cross-modal tasks. Moreover, benefiting from effective joint modeling of different types of corpora, our model also achieves impressive performance on single-modal visual and textual tasks. Our code and models are public at the UNIMO project pagehttps://unimo-ptm.github.io/.",
+  "keywords": [
+    "code",
+    "end",
+    "semantic",
+    "we",
+    "training",
+    "cross",
+    "unified",
+    "learning",
+    "visual",
+    "text",
+    "alignment",
+    "transformer",
+    "a unified transformer model",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.251/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "W18-3605",
+  "title": "The {OSU} Realizer for {SRST} `18: Neural Sequence-to-Sequence Inflection and Incremental Locality-Based Linearization",
+  "authors": [
+    "King, David  and\nWhite, Michael"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the First Workshop on Multilingual Surface Realisation",
+  "abstract": "Surface realization is a nontrivial task as it involves taking structured data and producing grammatically and semantically correct utterances. Many competing grammar-based and statistical models for realization still struggle with relatively simple sentences. For our submission to the 2018 Surface Realization Shared Task, we tackle the shallow task by first generating inflected wordforms with a neural sequence-to-sequence model before incrementally linearizing them. For linearization, we use a global linear model trained using early update that makes use of features that take into account the dependency structure and dependency locality. Using this pipeline sufficed to produce surprisingly strong results in the shared task. In future work, we intend to pursue joint approaches to linearization and morphological inflection and incorporating a neural language model into the linearization choices.",
+  "keywords": [
+    "work",
+    "generating",
+    "language",
+    "neural",
+    "early",
+    "model",
+    "it",
+    "first generating inflected wordforms",
+    "the dependency structure",
+    "dependency",
+    "sequence",
+    "we",
+    "dependency locality",
+    "a neural language model",
+    "that"
+  ],
+  "url": "https://aclanthology.org/W18-3605/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:08:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

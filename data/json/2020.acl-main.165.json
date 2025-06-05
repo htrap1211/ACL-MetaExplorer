@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.165",
+  "title": "Multi-Domain Neural Machine Translation with Word-Level Adaptive Layer-wise Domain Mixing",
+  "authors": [
+    "Jiang, Haoming  and\nLiang, Chen  and\nWang, Chong  and\nZhao, Tuo"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Many multi-domain neural machine translation (NMT) models achieve knowledge transfer by enforcing one encoder to learn shared embedding across domains. However, this design lacks adaptation to individual domains. To overcome this limitation, we propose a novel multi-domain NMT model using individual modules for each domain, on which we apply word-level, adaptive and layer-wise domain mixing. We first observe that words in a sentence are often related to multiple domains. Hence, we assume each word has a domain proportion, which indicates its domain preference. Then word representations are obtained by mixing their embedding in individual domains based on their domain proportions. We show this can be achieved by carefully designing multi-head dot-product attention modules for different domains, and eventually taking weighted averages of their parameters by word-level layer-wise domain proportions. Through this, we can achieve effective domain knowledge sharing and capture fine-grained domain-specific knowledge as well. Our experiments show that our proposed model outperforms existing ones in several NMT tasks.",
+  "keywords": [
+    "one encoder",
+    "knowledge",
+    "neural",
+    "model",
+    "machine",
+    "encoder",
+    "layer",
+    "multi-head dot-product attention modules",
+    "word",
+    "we",
+    "transfer",
+    "attention",
+    "multi-domain neural machine translation",
+    "translation",
+    "multi"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.165/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:44:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

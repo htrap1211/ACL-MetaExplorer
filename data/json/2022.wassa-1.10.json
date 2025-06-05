@@ -1,0 +1,33 @@
+{
+  "id": "2022.wassa-1.10",
+  "title": "Emotion Analysis of Writers and Readers of {J}apanese Tweets on Vaccinations",
+  "authors": [
+    "Ramos, Patrick John  and\nFerawati, Kiki  and\nLiew, Kongmeng  and\nAramaki, Eiji  and\nWakamiya, Shoko"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 12th Workshop on Computational Approaches to Subjectivity, Sentiment {\\&} Social Media Analysis",
+  "abstract": "Public opinion in social media is increasingly becoming a critical factor in pandemic control. Understanding the emotions of a population towards vaccinations and COVID-19 may be valuable in convincing members to become vaccinated. We investigated the emotions of Japanese Twitter users towards Tweets related to COVID-19 vaccination. Using the WRIME dataset, which provides emotion ratings for Japanese Tweets sourced from writers (Tweet posters) and readers, we fine-tuned a BERT model to predict levels of emotional intensity. This model achieved a training accuracy ofMSE= 0.356. A separate dataset of 20,254 Japanese Tweets containing COVID-19 vaccine-related keywords was also collected, on which the fine-tuned BERT was used to perform emotion analysis. Afterwards, a correlation analysis between the extracted emotions and a set of vaccination measures in Japan was conducted.The results revealed that surprise and fear were the most intense emotions predicted by the model for writers and readers, respectively, on the vaccine-related Tweet dataset. The correlation analysis also showed that vaccinations were weakly positively correlated with predicted levels of writer joy, writer/reader anticipation, and writer/reader trust.",
+  "keywords": [
+    "we",
+    "training",
+    "analysis",
+    "bert",
+    "the fine-tuned bert",
+    "a training accuracy",
+    "accuracy",
+    "model",
+    "a bert model",
+    "japanese twitter users",
+    "measures",
+    "writers",
+    "members",
+    "media",
+    "the wrime dataset"
+  ],
+  "url": "https://aclanthology.org/2022.wassa-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:46:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.280",
+  "title": "Planning First, Question Second: An {LLM}-Guided Method for Controllable Question Generation",
+  "authors": [
+    "Li, Kunze  and\nZhang, Yu"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "In the field of education, for better assessment of students’ abilities, generated questions often need to meet experts’ requirements, indicating the need for controllable question generation (CQG). However, current CQG methods mainly focus on difficulty control, neglecting the control of question content and assessed abilities, which are also crucial in educational QG. In this paper, we propose an LLM-guided method PFQS (for Planning First, Question Second), which utilizes Llama 2 to generate an answer plan and then generates questions based on it. The plan not only includes candidate answers but also integrates LLM’s understanding and multiple requirements, which make question generation simple and controllable. We evaluate our approach on the FairytaleQA dataset, a well-structured QA dataset derived from child-friendly storybooks. In the dataset, the attribute label represents content control, while the local_or_sum and ex_or_im labels denote difficulty control. Experimental results demonstrate that our approach outperforms previous state-of-the-art results and achieves better consistency with requirements compared to prompt-based method. Further application of our method to Llama 2 and Mistral also leads to improved requirement consistency in a zero-shot setting.",
+  "keywords": [
+    "an llm-guided method pfqs",
+    "field",
+    "question",
+    "we",
+    "an llm -guided method",
+    "llm s understanding",
+    "current",
+    "llm",
+    "controllable question generation cqg",
+    "shot",
+    "friendly",
+    "answer",
+    "the field",
+    "students abilities",
+    "it"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.280/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

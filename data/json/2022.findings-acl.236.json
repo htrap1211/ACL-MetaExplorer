@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.236",
+  "title": "HIE}-{SQL}: History Information Enhanced Network for Context-Dependent Text-to-{SQL} Semantic Parsing",
+  "authors": [
+    "Zheng, Yanzhao  and\nWang, Haibin  and\nDong, Baohua  and\nWang, Xingjun  and\nLi, Changshan"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Recently, context-dependent text-to-SQL semantic parsing which translates natural language into SQL in an interaction process has attracted a lot of attentions. Previous works leverage context dependence information either from interaction history utterances or previous predicted queries but fail in taking advantage of both of them since of the mismatch between the natural language and logic-form SQL. In this work, we propose a History Information Enhanced text-to-SQL model (HIE-SQL) to exploit context dependence information from both history utterances and the last predicted SQL query. In view of the mismatch, we treat natural language and SQL as two modalities and propose a bimodal pre-trained model to bridge the gap between them. Besides, we design a schema-linking graph to enhance connections from utterances and the SQL query to database schema. We show our history information enhanced methods improve the performance of HIE-SQL by a significant margin, which achieves new state-of-the-art results on two context-dependent text-to-SQL benchmarks, the SparC and CoSQL datasets, at the writing time.",
+  "keywords": [
+    "parsing",
+    "attentions",
+    "form",
+    "semantic",
+    "we",
+    "previous predicted queries",
+    "graph",
+    "two modalities",
+    "natural",
+    "queries",
+    "information",
+    "natural language",
+    "text",
+    "work",
+    "process"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.236/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

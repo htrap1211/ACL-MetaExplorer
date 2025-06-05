@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.60",
+  "title": "UF}-{HOBI} at ``Discharge Me!'': A Hybrid Solution for Discharge Summary Generation Through Prompt-based Tuning of {G}ator{T}ron{GPT} Models",
+  "authors": [
+    "Lyu, Mengxian  and\nPeng, Cheng  and\nParedes, Daniel  and\nChen, Ziyi  and\nChen, Aokun  and\nBian, Jiang  and\nWu, Yonghui"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "Automatic generation of discharge summaries presents significant challenges due to the length of clinical documentation, the dispersed nature of patient information, and the diverse terminology used in healthcare. This paper presents a hybrid solution for generating discharge summary sections as part of our participation in the “Discharge Me!” Challenge at the BioNLP 2024 Shared Task. We developed a two-stage generation method using both extractive and abstractive techniques, in which we first apply name entity recognition (NER) to extract key clinical concepts, which are then used as input for a prompt-tuning based GatorTronGPT model to generate coherent text for two important sections including “Brief Hospital Course” and “Discharge Instructions”. Our system was ranked 5th in this challenge, achieving an overall score of 0.284. The results demonstrate the effectiveness of our hybrid solution in improving the quality of automated discharge section generation.",
+  "keywords": [
+    "name entity recognition ner",
+    "we",
+    "a two-stage generation method",
+    "information",
+    "discharge summary generation",
+    "automated discharge section generation",
+    "brief hospital course",
+    "ner",
+    "tuning",
+    "prompt",
+    "text",
+    "bionlp",
+    "me",
+    "patient information",
+    "summaries"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.60/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

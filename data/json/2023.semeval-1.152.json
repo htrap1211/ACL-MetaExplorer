@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.152",
+  "title": "DS} at {S}em{E}val-2023 Task 10: Explaining Online Sexism using Transformer based Approach",
+  "authors": [
+    "Padmavathi, Madisetty"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "In this paper, I describe the approach used in the SemEval 2023 - Task 10 Explainable Detection of Online Sexism (EDOS) competition (Kirk et al., 2023). I use different transformermodels, including BERT and RoBERTa which were fine-tuned on the EDOS dataset to classify text into different categories of sexism. I participated in three subtasks: subtask A is to classify given text as either sexist or not, while subtask B is to identify the specific category of sexism, such as (1) threats, (2) derogation, (3) animosity, (4) prejudiced discussions. Finally, subtask C involves predicting a finegrained vector representation of sexism, which included information about the severity, target and type of sexism present in the text. The use of transformer models allows the system to learn from the input data and make predictions on unseen text. By fine-tuning the models on the EDOS dataset, the system can improve its performance on the specific task of detecting online sexism. I got the following macro F1 scores: subtask A:77.16, subtask B: 46.11, and subtask C: 30.2.",
+  "keywords": [
+    "roberta",
+    "different transformermodels",
+    "a finegrained vector representation",
+    "c",
+    "transformer based approach",
+    "information",
+    "a",
+    "transformer models",
+    "vector",
+    "i",
+    "categories",
+    "bert",
+    "text",
+    "fine",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.152/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:28:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

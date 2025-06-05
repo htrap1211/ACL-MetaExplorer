@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.487",
+  "title": "Why Don{'}t Prompt-Based Fairness Metrics Correlate?",
+  "authors": [
+    "Zayed, Abdelrahman  and\nMordido, Goncalo  and\nBaldini, Ioana  and\nChandar, Sarath"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The widespread use of large language models has brought up essential questions about the potential biases these models might learn. This led to the development of several metrics aimed at evaluating and mitigating these biases. In this paper, we first demonstrate that prompt-based fairness metrics exhibit poor agreement, as measured by correlation, raising important questions about the reliability of fairness assessment using prompts. Then, we outline six relevant reasons why such a low correlation is observed across existing metrics. Based on these insights, we propose a method called Correlated Fairness Output (CAIRO) to enhance the correlation between fairness metrics. CAIRO augments the original prompts of a given fairness metric by using several pre-trained language models and then selects the combination of the augmented prompts that achieves the highest correlation across metrics. We show a significant improvement in Pearson correlation from 0.3 and 0.18 to 0.90 and 0.98 across metrics for gender and religion biases, respectively. Our code is available at https://github.com/chandar-lab/CAIRO.",
+  "keywords": [
+    "code",
+    "prompt-based fairness metrics",
+    "we",
+    "gender and religion biases",
+    "fairness metrics cairo",
+    "prompt",
+    "metric",
+    "metrics",
+    "the potential biases",
+    "biases",
+    "several metrics",
+    "prompts",
+    "the augmented prompts",
+    "language",
+    "these biases"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.487/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

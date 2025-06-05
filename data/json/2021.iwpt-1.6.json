@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwpt-1.6",
+  "title": "Translate, then Parse! A Strong Baseline for Cross-Lingual {AMR} Parsing",
+  "authors": [
+    "Uhrig, Sarah  and\nGarcia, Yoalli  and\nOpitz, Juri  and\nFrank, Anette"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 17th International Conference on Parsing Technologies and the IWPT 2021 Shared Task on Parsing into Enhanced Universal Dependencies (IWPT 2021)",
+  "abstract": "In cross-lingual Abstract Meaning Representation (AMR) parsing, researchers develop models that project sentences from various languages onto their AMRs to capture their essential semantic structures: given a sentence in any language, we aim to capture its core semantic content through concepts connected by manifold types of semantic relations. Methods typically leverage large silver training data to learn a single model that is able to project non-English sentences to AMRs. However, we find that a simple baseline tends to be overlooked: translating the sentences to English and projecting their AMR with a monolingual AMR parser (translate+parse,T+P). In this paper, we revisit this simple two-step base-line, and enhance it with a strong NMT system and a strong AMR parser. Our experiments show that T+P outperforms a recent state-of-the-art system across all tested languages: German, Italian, Spanish and Mandarin with +14.6, +12.6, +14.3 and +16.0 Smatch points",
+  "keywords": [
+    "their essential semantic structures",
+    "parsing",
+    "semantic",
+    "we",
+    "training",
+    "cross",
+    "amr parsing researchers",
+    "it",
+    "core",
+    "cross-lingual amr parsing",
+    "language",
+    "model",
+    "semantic relations methods",
+    "its core semantic content",
+    "a single model"
+  ],
+  "url": "https://aclanthology.org/2021.iwpt-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

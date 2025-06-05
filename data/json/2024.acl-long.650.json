@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.650",
+  "title": "G}un{S}tance: Stance Detection for Gun Control and Gun Regulation",
+  "authors": [
+    "Gyawali, Nikesh  and\nSirbu, Iustin  and\nSosea, Tiberiu  and\nKhanal, Sarthak  and\nCaragea, Doina  and\nRebedea, Traian  and\nCaragea, Cornelia"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The debate surrounding gun control and gun regulation in the United States has intensified in the wake of numerous mass shooting events. As perspectives on this matter vary, it becomes increasingly important to comprehend individuals’ positions. Stance detection, the task of determining an author’s position towards a proposition or target, has gained attention for its potential use in understanding public perceptions towards controversial topics and identifying the best strategies to address public concerns. In this paper, we present GunStance, a dataset of tweets pertaining to shooting events, focusing specifically on the controversial topics of “banning guns” versus “regulating guns.” The tweets in the dataset are sourced from discussions on Twitter following various shooting incidents in the United States. Amazon Mechanical Turk was used to manually annotate a subset of the tweets relevant to the targets of interest (“banning guns” and “regulating guns”) into three classes: In-Favor, Against, and Neutral. The remaining unlabeled tweets are included in the dataset to facilitate studies on semi-supervised learning (SSL) approaches that can help address the scarcity of the labeled data in stance detection tasks. Furthermore, we propose a hybrid approach that combines curriculum-based SSL and Large Language Models (LLM), and show that the proposed approach outperforms supervised, semi-supervised, and LLM-based zero-shot models in most experiments on our assembled dataset.",
+  "keywords": [
+    "we",
+    "shot",
+    "it",
+    "learning",
+    "the best strategies",
+    "strategies",
+    "language",
+    "studies",
+    "large language models",
+    "attention",
+    "states",
+    "guns",
+    "approach",
+    "the scarcity",
+    "the wake"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.650/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:43:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

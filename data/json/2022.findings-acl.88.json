@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.88",
+  "title": "Entropy-based Attention Regularization Frees Unintended Bias Mitigation from Lists",
+  "authors": [
+    "Attanasio, Giuseppe  and\nNozza, Debora  and\nHovy, Dirk  and\nBaralis, Elena"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Natural Language Processing (NLP) models risk overfitting to specific terms in the training data, thereby reducing their performance, fairness, and generalizability. E.g., neural hate speech detection models are strongly influenced by identity terms like gay, or women, resulting in false positives, severe unintended bias, and lower performance. Most mitigation techniques use lists of identity terms or samples from the target domain during training. However, this approach requires a-priori knowledge and introduces further bias if important terms are neglected. Instead, we propose a knowledge-free Entropy-based Attention Regularization (EAR) to discourage overfitting to training-specific terms. An additional objective function penalizes tokens with low self-attention entropy. We fine-tune BERT via EAR: the resulting model matches or exceeds state-of-the-art performance for hate speech classification and bias metrics on three benchmark corpora in English and Italian.EAR also reveals overfitting terms, i.e., terms most likely to induce bias, to help identify their effect on the model, task, and predictions.",
+  "keywords": [
+    "bias",
+    "unintended bias mitigation",
+    "we fine-tune bert",
+    "we",
+    "generalizability",
+    "ear",
+    "bias metrics",
+    "training",
+    "classification",
+    "low self-attention entropy",
+    "neural",
+    "natural",
+    "self",
+    "an additional objective function",
+    "severe unintended bias"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.88/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

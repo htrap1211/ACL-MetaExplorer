@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.305",
+  "title": "Improved Visual Story Generation with Adaptive Context Modeling",
+  "authors": [
+    "Feng, Zhangyin  and\nRen, Yuchen  and\nYu, Xinmiao  and\nFeng, Xiaocheng  and\nTang, Duyu  and\nShi, Shuming  and\nQin, Bing"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Diffusion models developed on top of powerful text-to-image generation models like Stable Diffusion achieve remarkable success in visual story generation. However, the best-performing approach considers historically generated results as flattened memory cells, ignoring the fact that not all preceding images contribute equally to the generation of the characters and scenes at the current stage. To address this, we present a simple method that improves the leading system with adaptive context modeling, which is not only incorporated in the encoder but also adopted as additional guidance in the sampling stage to boost the global consistency of the generated story. We evaluate our model on PororoSV and FlintstonesSV datasets and show that our approach achieves state-of-the-art FID scores on both story visualization and continuation scenarios. We conduct detailed model analysis and show that our model excels at generating semantically consistent images for stories.",
+  "keywords": [
+    "top",
+    "the generated story",
+    "the generation",
+    "we",
+    "current",
+    "the encoder",
+    "visual",
+    "analysis",
+    "semantically consistent images",
+    "historically generated results",
+    "text",
+    "stories",
+    "visual story generation",
+    "visualization",
+    "improved visual story generation"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.305/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.471",
+  "title": "Interpreting Sentiment Composition with Latent Semantic Tree",
+  "authors": [
+    "Jiang, Zhongtao  and\nZhang, Yuanzhe  and\nLiu, Cao  and\nChen, Jiansong  and\nZhao, Jun  and\nLiu, Kang"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "As the key to sentiment analysis, sentiment composition considers the classification of a constituent via classifications of its contained sub-constituents and rules operated on them. Such compositionality has been widely studied previously in the form of hierarchical trees including untagged and sentiment ones, which are intrinsically suboptimal in our view. To address this, we propose semantic tree, a new tree form capable of interpreting the sentiment composition in a principled way. Semantic tree is a derivation of a context-free grammar (CFG) describing the specific composition rules on difference semantic roles, which is designed carefully following previous linguistic conclusions. However, semantic tree is a latent variable since there is no its annotation in regular datasets. Thus, in our method, it is marginalized out via inside algorithm and learned to optimize the classification performance. Quantitative and qualitative results demonstrate that our method not only achieves better or competitive results compared to baselines in the setting of regular and domain adaptation classification, and also generates plausible tree explanations.",
+  "keywords": [
+    "semantic tree",
+    "form",
+    "semantic",
+    "we",
+    "classification",
+    "it",
+    "latent",
+    "hierarchical trees",
+    "analysis",
+    "latent semantic tree",
+    "the classification performance",
+    "difference semantic roles",
+    "our view",
+    "-",
+    "sentiment"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.471/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

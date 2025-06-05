@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.11",
+  "title": "Conversations Are Not Flat: Modeling the Dynamic Information Flow across Dialogue Utterances",
+  "authors": [
+    "Li, Zekang  and\nZhang, Jinchao  and\nFei, Zhengcong  and\nFeng, Yang  and\nZhou, Jie"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Nowadays, open-domain dialogue models can generate acceptable responses according to the historical context based on the large-scale pre-trained language models. However, they generally concatenate the dialogue history directly as the model input to predict the response, which we named as theflat patternand ignores the dynamic information flow across dialogue utterances. In this work, we propose theDialoFlowmodel, in which we introduce a dynamic flow mechanism to model the context flow, and design three training objectives to capture the information dynamics across dialogue utterances by addressing the semantic influence brought about by each utterance in large-scale pre-training. Experiments on the multi-reference Reddit Dataset and DailyDialog Dataset demonstrate that our DialoFlow significantly outperforms the DialoGPT on the dialogue generation task. Besides, we propose theFlow score, an effective automatic metric for evaluating interactive human-bot conversation quality based on the pre-trained DialoFlow, which presents high chatbot-level correlation (r=0.9) with human ratings among 11 chatbots. Code and pre-trained models will be public.",
+  "keywords": [
+    "code",
+    "objectives",
+    "the semantic influence",
+    "dialogue utterances",
+    "conversations",
+    "three training objectives",
+    "semantic",
+    "we",
+    "dialogue",
+    "the dialogue history",
+    "dialogpt",
+    "training",
+    "chatbot",
+    "the dialogue generation task",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:59:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

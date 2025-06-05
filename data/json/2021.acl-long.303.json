@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.303",
+  "title": "ABCD}: A Graph Framework to Convert Complex Sentences to a Covering Set of Simple Sentences",
+  "authors": [
+    "Gao, Yanjun  and\nHuang, Ting-Hao  and\nPassonneau, Rebecca J."
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Atomic clauses are fundamental text units for understanding complex sentences. Identifying the atomic sentences within complex sentences is important for applications such as summarization, argument mining, discourse analysis, discourse parsing, and question answering. Previous work mainly relies on rule-based methods dependent on parsing. We propose a new task to decompose each complex sentence into simple sentences derived from the tensed clauses in the source, and a novel problem formulation as a graph edit task. Our neural model learns to Accept, Break, Copy or Drop elements of a graph that combines word adjacency and grammatical dependencies. The full processing pipeline includes modules for graph construction, graph editing, and sentence generation from the output graph. We introduce DeSSE, a new dataset designed to train and evaluate complex sentence decomposition, and MinWiki, a subset of MinWikiSplit. ABCD achieves comparable performance as two parsing baselines on MinWiki. On DeSSE, which has a more even balance of complex sentence types, our model achieves higher accuracy on the number of atomic sentences than an encoder-decoder baseline. Results include a detailed error analysis.",
+  "keywords": [
+    "parsing",
+    "question",
+    "summarization",
+    "we",
+    "graph",
+    "neural",
+    "two parsing baselines",
+    "dependencies",
+    "decoder",
+    "higher accuracy",
+    "word",
+    "grammatical dependencies",
+    "analysis",
+    "processing",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.303/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

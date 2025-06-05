@@ -1,0 +1,33 @@
+{
+  "id": "2022.ltedi-1.40",
+  "title": "OPI}@{LT}-{EDI}-{ACL}2022: Detecting Signs of Depression from Social Media Text using {R}o{BERT}a Pre-trained Language Models",
+  "authors": [
+    "Po{\\'s}wiata, Rafa{\\l}  and\nPere{\\l}kiewicz, Micha{\\l}"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Second Workshop on Language Technology for Equality, Diversity and Inclusion",
+  "abstract": "This paper presents our winning solution for the Shared Task on Detecting Signs of Depression from Social Media Text at LT-EDI-ACL2022. The task was to create a system that, given social media posts in English, should detect the level of depression as ‘not depressed’, ‘moderately depressed’ or ‘severely depressed’. We based our solution on transformer-based language models. We fine-tuned selected models: BERT, RoBERTa, XLNet, of which the best results were obtained for RoBERTa. Then, using the prepared corpus, we trained our own language model called DepRoBERTa (RoBERTa for Depression Detection). Fine-tuning of this model improved the results. The third solution was to use the ensemble averaging, which turned out to be the best solution. It achieved a macro-averaged F1-score of 0.583. The source code of prepared solution is available athttps://github.com/rafalposwiata/depression-detection-lt-edi-2022.",
+  "keywords": [
+    "code",
+    "roberta",
+    "our own language model",
+    "we",
+    "a pre-trained language models",
+    "ensemble",
+    "depression detection fine-tuning",
+    "it",
+    "bert roberta xlnet",
+    "a macro-averaged f1-score",
+    "the ensemble averaging",
+    "tuning",
+    "r o bert",
+    "bert",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2022.ltedi-1.40/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:44:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

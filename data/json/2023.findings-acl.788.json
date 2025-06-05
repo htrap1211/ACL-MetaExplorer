@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.788",
+  "title": "The Coreference under Transformation Labeling Dataset: Entity Tracking in Procedural Texts Using Event Models",
+  "authors": [
+    "Rim, Kyeongmin  and\nTu, Jingxuan  and\nYe, Bingyang  and\nVerhagen, Marc  and\nHolderness, Eben  and\nPustejovsky, James"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "We demonstrate that coreference resolution in procedural texts is significantly improved when performing transformation-based entity linking prior to coreference relation identification. When events in the text introduce changes to the state of participating entities, it is often impossible to accurately link entities in anaphoric and coreference relations without an understanding of the transformations those entities undergo. We show how adding event semantics helps to better model entity coreference. We argue that all transformation predicates, not just creation verbs, introduce a new entity into the discourse, as a kind of generalized Result Role, which is typically not textually mentioned. This allows us to model procedural texts as process graphs and to compute the coreference type for any two entities in the recipe. We present our annotation methodology and the corpus generated as well as describe experiments on coreference resolution of entity mentions under a process-oriented model of events.",
+  "keywords": [
+    "those entities",
+    "generalized result role",
+    "process",
+    "the coreference",
+    "a process-oriented model",
+    "event semantics",
+    "entities",
+    "text",
+    "it",
+    "semantics",
+    "model",
+    "coreference relation identification",
+    "coreference resolution",
+    "us",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.788/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

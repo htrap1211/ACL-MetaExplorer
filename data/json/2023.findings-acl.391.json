@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.391",
+  "title": "Structure-Discourse Hierarchical Graph for Conditional Question Answering on Long Documents",
+  "authors": [
+    "Du, Haowei  and\nFeng, Yansong  and\nLi, Chen  and\nLi, Yang  and\nLan, Yunshi  and\nZhao, Dongyan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Conditional question answering on long documents aims to find probable answers and identify conditions that need to be satisfied to make the answers correct over long documents. Existing approaches solve this task by segmenting long documents into multiple sections, and attending information at global and local tokens to predict the answers and corresponding conditions. However, the natural structure of the document and discourse relations between sentences in each document section are ignored, which are crucial for condition retrieving across sections, as well as logical interaction over the question and conditions. To address this issue, this paper constructs a Structure-Discourse Hierarchical Graph (SDHG) and conducts bottom-up information propagation. Firstly we build the sentence-level discourse graphs for each section and encode the discourse relations by graph attention. Secondly, we construct a section-level structure graph based on natural structures, and conduct interactions over the question and contexts. Finally different levels of representations are integrated into jointly answer and condition decoding. The experiments on the benchmark ConditionalQA shows our approach gains over the prior state-of-the-art, by 3.0 EM score and 2.4 F1 score on answer measuring, as well as 2.2 EM score and 1.9 F1 score on jointly answer and condition measuring.",
+  "keywords": [
+    "structure-discourse hierarchical graph",
+    "em",
+    "question",
+    "conditionalqa",
+    "we",
+    "graph",
+    "answer",
+    "graph attention",
+    "natural",
+    "the benchmark conditionalqa",
+    "information",
+    "hierarchical",
+    "propagation",
+    "attention",
+    "satisfied"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.391/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.gem-1.15",
+  "title": "System Description for the {C}ommon{G}en task with the {POINTER} model",
+  "authors": [
+    "Shvets, Anna"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Natural Language Generation, Evaluation, and Metrics (GEM 2021)",
+  "abstract": "In a current experiment we were testing CommonGen dataset for structure-to-text task from GEM living benchmark with the constraint based POINTER model. POINTER represents a hybrid architecture, combining insertion-based and transformer paradigms, predicting the token and the insertion position at the same time. The text is therefore generated gradually in a parallel non-autoregressive manner, given the set of keywords. The pretrained model was fine-tuned on a training split of the CommonGen dataset and the generation result was compared to the validation and challenge splits. The received metrics outputs, which measure lexical equivalence, semantic similarity and diversity, are discussed in details in a present system description.",
+  "keywords": [
+    "transformer",
+    "validation",
+    "generation",
+    "model",
+    "text",
+    "metrics",
+    "insertion-based and transformer paradigms",
+    "the generation result",
+    "token",
+    "lexical equivalence semantic similarity",
+    "semantic",
+    "we",
+    "time",
+    "the received metrics outputs",
+    "current"
+  ],
+  "url": "https://aclanthology.org/2021.gem-1.15/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

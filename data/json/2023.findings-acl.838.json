@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.838",
+  "title": "Towards Reference-free Text Simplification Evaluation with a {BERT} {S}iamese Network Architecture",
+  "authors": [
+    "Zhao, Xinran  and\nDurmus, Esin  and\nYeung, Dit-Yan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Text simplification (TS) aims to modify sentences to make their both content and structure easier to understand. Traditional n-gram matching-based TS evaluation metrics heavily rely on the exact token match and human-annotated simplified sentences. In this paper, we present a novel neural-network-based reference-free TS metric BETS that leverages pre-trained contextualized language representation models and large-scale paraphrasing datasets to evaluate simplicity and meaning preservation. We show that our metric, without collecting any costly human simplification reference, correlates better than existing metrics with human judgments for the quality of both overall simplification (+7.7%) and its key aspects, i.e., comparative simplicity (+11.2%) and meaning preservation (+9.2%).",
+  "keywords": [
+    "reference",
+    "language",
+    "neural",
+    "bert",
+    "metric",
+    "text",
+    "human",
+    "metrics",
+    "reference-free text simplification evaluation",
+    "token",
+    "network",
+    "we",
+    "simplified",
+    "evaluation",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.838/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

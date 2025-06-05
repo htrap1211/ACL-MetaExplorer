@@ -1,0 +1,33 @@
+{
+  "id": "P17-1018",
+  "title": "Gated Self-Matching Networks for Reading Comprehension and Question Answering",
+  "authors": [
+    "Wang, Wenhui  and\nYang, Nan  and\nWei, Furu  and\nChang, Baobao  and\nZhou, Ming"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this paper, we present the gated self-matching networks for reading comprehension style question answering, which aims to answer questions from a given passage. We first match the question and passage with gated attention-based recurrent networks to obtain the question-aware passage representation. Then we propose a self-matching attention mechanism to refine the representation by matching the passage against itself, which effectively encodes information from the whole passage. We finally employ the pointer networks to locate the positions of answers from the passages. We conduct extensive experiments on the SQuAD dataset. The single model achieves 71.3% on the evaluation metrics of exact match on the hidden test set, while the ensemble model further boosts the results to 75.9%. At the time of submission of the paper, our model holds the first place on the SQuAD leaderboard for both single and ensemble model.",
+  "keywords": [
+    "ensemble",
+    "a self-matching attention mechanism",
+    "model",
+    "metrics",
+    "self",
+    "question",
+    "information",
+    "gated attention-based recurrent networks",
+    "attention",
+    "we",
+    "the ensemble model",
+    "evaluation",
+    "recurrent",
+    "time",
+    "the evaluation metrics"
+  ],
+  "url": "https://aclanthology.org/P17-1018/",
+  "provenance": {
+    "collected_at": "2025-06-04 23:56:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

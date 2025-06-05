@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.69",
+  "title": "When is Char Better Than Subword: A Systematic Study of Segmentation Algorithms for Neural Machine Translation",
+  "authors": [
+    "Li, Jiahuan  and\nShen, Yutong  and\nHuang, Shujian  and\nDai, Xinyu  and\nChen, Jiajun"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Subword segmentation algorithms have been ade factochoice when building neural machine translation systems. However, most of them need to learn a segmentation model based on some heuristics, which may produce sub-optimal segmentation. This can be problematic in some scenarios when the target language has rich morphological changes or there is not enough data for learning compact composition rules. Translating at fully character level has the potential to alleviate the issue, but empirical performances of character-based models has not been fully explored. In this paper, we present an in-depth comparison between character-based and subword-based NMT systems under three settings: translating to typologically diverse languages, training with low resource, and adapting to unseen domains. Experiment results show strong competitiveness of character-based models. Further analyses show that compared to subword-based models, character-based models are better at handling morphological phenomena, generating rare and unknown words, and more suitable for transferring to unseen domains.",
+  "keywords": [
+    "we",
+    "translation",
+    "neural",
+    "rich",
+    "generating",
+    "language",
+    "model",
+    "machine",
+    "neural machine translation systems",
+    "performances",
+    "unseen domains experiment results",
+    "three settings",
+    "low",
+    "low resource",
+    "optimal"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.69/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:08:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

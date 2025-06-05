@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.185",
+  "title": "PVGRU}: Generating Diverse and Relevant Dialogue Responses via Pseudo-Variational Mechanism",
+  "authors": [
+    "Liu, Yongkang  and\nFeng, Shi  and\nWang, Daling  and\nZhang, Yifei  and\nSch{\\\"u}tze, Hinrich"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We investigate response generation for multi-turn dialogue in generative chatbots. Existing generative modelsbased on RNNs (Recurrent Neural Networks) usually employ the last hidden state to summarize the history, which makesmodels unable to capture the subtle variability observed in different dialogues and cannot distinguish the differencesbetween dialogues that are similar in composition. In this paper, we propose Pseudo-Variational Gated Recurrent Unit (PVGRU). The key novelty of PVGRU is a recurrent summarizing variable thataggregates the accumulated distribution variations of subsequences. We train PVGRU without relying on posterior knowledge, thus avoiding the training-inference inconsistency problem. PVGRU can perceive subtle semantic variability through summarizing variables that are optimized by two objectives we employ for training: distribution consistency and reconstruction. In addition, we build a Pseudo-Variational Hierarchical Dialogue(PVHD) model based on PVGRU. Experimental results demonstrate that PVGRU can broadly improve the diversity andrelevance of responses on two benchmark datasets.",
+  "keywords": [
+    "objectives",
+    "multi-turn dialogue",
+    "two objectives",
+    "existing generative",
+    "rnns",
+    "the differencesbetween dialogues",
+    "different dialogues",
+    "pvgru experimental results",
+    "semantic",
+    "we",
+    "dialogue",
+    "that pvgru",
+    "training",
+    "generative chatbots",
+    "neural"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.185/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

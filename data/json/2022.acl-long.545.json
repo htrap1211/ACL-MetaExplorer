@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.545",
+  "title": "Learning Non-Autoregressive Models from Search for Unsupervised Sentence Summarization",
+  "authors": [
+    "Liu, Puyuan  and\nHuang, Chenyang  and\nMou, Lili"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Text summarization aims to generate a short summary for an input text. In this work, we propose a Non-Autoregressive Unsupervised Summarization (NAUS) approach, which does not require parallel data for training. Our NAUS first performs edit-based search towards a heuristically defined score, and generates a summary as pseudo-groundtruth. Then, we train an encoder-only non-autoregressive Transformer based on the search result. We also propose a dynamic programming approach for length-control decoding, which is important for the summarization task. Experiments on two datasets show that NAUS achieves state-of-the-art performance for unsupervised summarization, yet largely improving inference efficiency. Further, our algorithm is able to perform explicit length-transfer summary generation.",
+  "keywords": [
+    "work",
+    "an encoder-only non-autoregressive transformer",
+    "transformer",
+    "explicit length-transfer summary generation",
+    "generation",
+    "unsupervised summarization",
+    "text",
+    "the summarization task experiments",
+    "-",
+    "encoder",
+    "inference efficiency",
+    "efficiency",
+    "summarization",
+    "we",
+    "transfer"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.545/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P17-2091",
+  "title": "Speeding Up Neural Machine Translation Decoding by Shrinking Run-time Vocabulary",
+  "authors": [
+    "Shi, Xing  and\nKnight, Kevin"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "We speed up Neural Machine Translation (NMT) decoding by shrinking run-time target vocabulary. We experiment with two shrinking approaches: Locality Sensitive Hashing (LSH) and word alignments. Using the latter method, we get a 2x overall speed-up over a highly-optimized GPU implementation, without hurting BLEU. On certain low-resource language pairs, the same methods improve BLEU by 0.5 points. We also report a negative result for LSH on GPUs, due to relatively large overhead, though it was successful on CPUs. Compared with Locality Sensitive Hashing (LSH), decoding with word alignments is GPU-friendly, orthogonal to existing speedup methods and more robust across language pairs.",
+  "keywords": [
+    "friendly",
+    "alignments",
+    "language",
+    "neural",
+    "machine",
+    "it",
+    "neural machine translation",
+    "lsh and word alignments",
+    "bleu",
+    "word alignments",
+    "word",
+    "we",
+    "gpu-friendly orthogonal",
+    "time",
+    "neural machine translation nmt"
+  ],
+  "url": "https://aclanthology.org/P17-2091/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:04:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

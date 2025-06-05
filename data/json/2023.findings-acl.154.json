@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.154",
+  "title": "ACROSS}: An Alignment-based Framework for Low-Resource Many-to-One Cross-Lingual Summarization",
+  "authors": [
+    "Li, Peiyao  and\nZhang, Zhengkun  and\nWang, Jun  and\nLi, Liang  and\nJatowt, Adam  and\nYang, Zhenglu"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "This research addresses the challenges of Cross-Lingual Summarization (CLS) in low-resource scenarios and over imbalanced multilingual data. Existing CLS studies mostly resort to pipeline frameworks or multi-task methods in bilingual settings. However, they ignore the data imbalance in multilingual scenarios and do not utilize the high-resource monolingual summarization data. In this paper, we propose the Aligned CROSs-lingual Summarization (ACROSS) model to tackle these issues. Our framework aligns low-resource cross-lingual data with high-resource monolingual data via contrastive and consistency loss, which help enrich low-resource information for high-quality summaries. In addition, we introduce a data augmentation method that can select informative monolingual sentences, which facilitates a deep exploration of high-resource information and introduce new information for low-resource languages. Experiments on the CrossSum dataset show that ACROSS outperforms baseline models and obtains consistently dominant performance on 45 language pairs.",
+  "keywords": [
+    "deep",
+    "an alignment-based framework",
+    "summarization",
+    "we",
+    "the aligned cross-lingual summarization",
+    "cross",
+    "loss",
+    "information",
+    "existing cls studies",
+    "alignment",
+    "summaries",
+    "language",
+    "high-quality summaries",
+    "model",
+    "studies"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.154/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

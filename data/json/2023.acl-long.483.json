@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.483",
+  "title": "Efficient Shapley Values Estimation by Amortization for Text Classification",
+  "authors": [
+    "Yang, Chenghao  and\nYin, Fan  and\nHe, He  and\nChang, Kai-Wei  and\nMa, Xiaofei  and\nXiang, Bing"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Despite the popularity of Shapley Values in explaining neural text classification models, computing them is prohibitive for large pretrained models due to a large number of model evaluations. In practice, Shapley Values are often estimated with a small number of stochastic model evaluations. However, we show that the estimated Shapley Values are sensitive to random seed choices – the top-ranked features often have little overlap across different seeds, especially on examples with longer input texts. This can only be mitigated by aggregating thousands of model evaluations, which on the other hand, induces substantial computational overheads. To mitigate the trade-off between stability and efficiency, we develop an amortized model that directly predicts each input feature’s Shapley Value without additional model evaluations. It is trained on a set of examples whose Shapley Values are estimated from a large number of model evaluations to ensure stability. Experimental results on two text classification datasets demonstrate that our amortized model estimates Shapley Values accurately with up to 60 times speedup compared to traditional methods. Further, our model does not suffer from stability issues as inference is deterministic. We release our code athttps://github.com/yangalan123/Amortized-Interpretability.",
+  "keywords": [
+    "code",
+    "model evaluations",
+    "efficient",
+    "efficiency",
+    "we",
+    "classification",
+    "neural",
+    "it",
+    "two text classification datasets",
+    "additional model evaluations",
+    "text classification",
+    "efficient shapley values estimation",
+    "text",
+    "stochastic model evaluations",
+    "neural text classification models"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.483/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:41:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

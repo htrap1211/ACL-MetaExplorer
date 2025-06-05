@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.175",
+  "title": "Mitigating the Inconsistency Between Word Saliency and Model Confidence with Pathological Contrastive Training",
+  "authors": [
+    "Zhan, Pengwei  and\nWu, Yang  and\nZhou, Shaolei  and\nZhang, Yunjian  and\nWang, Liming"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Neural networks are widely used in various NLP tasks for their remarkable performance. However, the complexity makes them difficult to interpret, i.e., they are not guaranteed right for the right reason. Besides the complexity, we reveal that the model pathology - the inconsistency between word saliency and model confidence, further hurts the interpretability. We show that the pathological inconsistency is caused by the representation collapse issue, which means that the representation of the sentences with tokens in different saliency reduced is somehow collapsed, and thus the important words cannot be distinguished from unimportant words in terms of model confidence changing. In this paper, to mitigate the pathology and obtain more interpretable models, we propose Pathological Contrastive Training (PCT) framework, which adopts contrastive learning and saliency-based samples augmentation to calibrate the sentences representation. Combined with qualitative analysis, we also conduct extensive quantitative experiments and measure the interpretability with eight reasonable metrics. Experiments show that our method can mitigate the model pathology and generate more interpretable models while keeping the model performance. Ablation study also shows the effectiveness.",
+  "keywords": [
+    "we",
+    "training",
+    "neural",
+    "word",
+    "learning",
+    "analysis",
+    "i",
+    "metrics",
+    "saliency",
+    "eight reasonable metrics experiments",
+    "different saliency",
+    "nlp",
+    "model",
+    "various nlp tasks",
+    "word saliency"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.175/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

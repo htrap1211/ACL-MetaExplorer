@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.188",
+  "title": "Co-{VQA} : Answering by Interactive Sub Question Sequence",
+  "authors": [
+    "Wang, Ruonan  and\nQian, Yuxi  and\nFeng, Fangxiang  and\nWang, Xiaojie  and\nJiang, Huixing"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Most existing approaches to Visual Question Answering (VQA) answer questions directly, however, people usually decompose a complex question into a sequence of simple sub questions and finally obtain the answer to the original question after answering the sub question sequence(SQS). By simulating the process, this paper proposes a conversation-based VQA (Co-VQA) framework, which consists of three components: Questioner, Oracle, and Answerer. Questioner raises the sub questions using an extending HRED model, and Oracle answers them one-by-one. An Adaptive Chain Visual Reasoning Model (ACVRM) for Answerer is also proposed, where the question-answer pair is used to update the visual representation sequentially. To perform supervised learning for each model, we introduce a well-designed method to build a SQS for each question on VQA 2.0 and VQA-CP v2 datasets. Experimental results show that our method achieves state-of-the-art on VQA-CP v2. Further analyses show that SQSs help build direct semantic connections between questions and images, provide question-adaptive variable-length reasoning chains, and with explicit interpretability as well as error traceability.",
+  "keywords": [
+    "vqa-cp",
+    "chain",
+    "question",
+    "semantic",
+    "we",
+    "three components questioner oracle",
+    "answerer questioner",
+    "vqa answer questions",
+    "answer",
+    "direct semantic connections",
+    "sequence",
+    "learning",
+    "visual",
+    "process",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.188/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

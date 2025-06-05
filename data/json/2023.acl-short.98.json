@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.98",
+  "title": "Debiasing Generative Named Entity Recognition by Calibrating Sequence Likelihood",
+  "authors": [
+    "Xia, Yu  and\nZhao, Yongwei  and\nWu, Wenhao  and\nLi, Sujian"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Recognizing flat, overlapped and discontinuous entities uniformly has been paid increasing attention. Among these works, Seq2Seq formulation prevails for its flexibility and effectiveness. It arranges the output entities into a specific target sequence. However, it introduces bias by assigning all the probability mass to the observed sequence. To alleviate the bias, previous works either augment the data with possible sequences or resort to other formulations. In this paper, we stick to the Seq2Seq formulation and propose a reranking-based approach. It redistributes the likelihood among candidate sequences depending on their performance via a contrastive loss. Extensive experiments show that our simple yet effective method consistently boosts the baseline, and yields competitive or better results compared with the state-of-the-art methods on 8 widely-used datasets for Named Entity Recognition.",
+  "keywords": [
+    "generative",
+    "seq2seq",
+    "the seq2seq formulation",
+    "bias",
+    "the bias",
+    "increasing attention",
+    "it",
+    "named entity recognition",
+    "entities",
+    "loss",
+    "we",
+    "sequence",
+    "attention",
+    "the output entities",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.98/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:49:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

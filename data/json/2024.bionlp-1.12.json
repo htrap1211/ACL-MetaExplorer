@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.12",
+  "title": "End-to-End Relation Extraction of Pharmacokinetic Estimates from the Scientific Literature",
+  "authors": [
+    "Gonzalez Hernandez, Ferran  and\nSmith, Victoria  and\nNguyen, Quang  and\nChotsiri, Palang  and\nWattanakul, Thanaporn  and\nAntonio Cordero, Jos{\\'e}  and\nBallester, Maria Rosa  and\nSole, Albert  and\nMundin, Gill  and\nLilaonitkul, Watjana  and\nStanding, Joseph F.  and\nKloprogge, Frank"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "The lack of comprehensive and standardised databases containing Pharmacokinetic (PK) parameters presents a challenge in the drug development pipeline. Efficiently managing the increasing volume of published PK Parameters requires automated approaches that centralise information from diverse studies. In this work, we present the Pharmacokinetic Relation Extraction Dataset (PRED), a novel, manually curated corpus developed by pharmacometricians and NLP specialists, covering multiple types of PK parameters and numerical expressions reported in open-access scientific articles. PRED covers annotations for various entities and relations involved in PK parameter measurements from 3,600 sentences. We also introduce an end-to-end relation extraction model based on BioBERT, which is trained with joint named entity recognition (NER) and relation extraction objectives. The optimal pipeline achieved a micro-average F1-score of 94% for NER and over 85% F1-score across all relation types. This work represents the first resource for training and evaluating models for PK end-to-end extraction across multiple parameters and study types. We make our corpus and model openly available to accelerate the construction of large PK databases and to support similar endeavours in other scientific disciplines.",
+  "keywords": [
+    "end",
+    "extraction",
+    "open-access scientific articles",
+    "nlp specialists",
+    "we",
+    "biobert",
+    "parameter",
+    "training",
+    "various entities",
+    "information",
+    "the scientific literature",
+    "scientific",
+    "a micro-average f1-score",
+    "ner",
+    "diverse studies"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

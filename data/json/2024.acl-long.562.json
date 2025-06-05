@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.562",
+  "title": "Bridging the Preference Gap between Retrievers and {LLM}s",
+  "authors": [
+    "Ke, Zixuan  and\nKong, Weize  and\nLi, Cheng  and\nZhang, Mingyang  and\nMei, Qiaozhu  and\nBendersky, Michael"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large Language Models (LLMs) have demonstrated superior results across a wide range of tasks, and Retrieval-augmented Generation (RAG) is an effective way to enhance the performance by locating relevant information and placing it into the context window of the LLM. However, the relationship between retrievers and LLMs in a RAG is still under-investigated. Most existing work treats the retriever and the LLM as independent components and leaves a gap between retrieving human-”friendly” information and assembling a LLM-”friendly” context. In this work, we examine a novel bridge mechanism. We validate the ranking and selection assumptions of retrievers in the context of RAG and propose a framework that chains together supervised and reinforcement learning to train a bridge model that optimizes the connection between the retriever and the LLM. Empirical results demonstrate the effectiveness of our method in both question-answering and personalized generation tasks.",
+  "keywords": [
+    "work",
+    "friendly",
+    "reinforcement",
+    "a llm- friendly context",
+    "language",
+    "generation",
+    "the llm empirical results",
+    "model",
+    "the retriever",
+    "it",
+    "human- friendly information",
+    "retrievers",
+    "the llm",
+    "large language models llms",
+    "retrieval"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.562/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

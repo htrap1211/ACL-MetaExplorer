@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.180",
+  "title": "Landmark Embedding: A Chunking-Free Embedding Method For Retrieval Augmented Long-Context Large Language Models",
+  "authors": [
+    "Luo, Kun  and\nLiu, Zheng  and\nXiao, Shitao  and\nZhou, Tong  and\nChen, Yubo  and\nZhao, Jun  and\nLiu, Kang"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Retrieval augmentation is a promising approach to handle long-context language modeling. However, the existing retrieval methods usually work with the chunked context, which is prone to inferior quality of semantic representation and incomplete retrieval of useful information. In this work, we propose a new method for the retrieval augmentation of long-context language modeling, called Landmark Embedding. Our method is characterized by threefold technical contributions. Firstly, we introduce achunking-free architecture, which keeps the long context coherent such that high-quality embeddings can be generated for the fine-grained units within the context. Secondly, we present a position-aware objective function, which prioritizes the ultimate boundary for a consecutive span of information. By learning to discriminate such a special position, the useful information can be comprehensively retrieved for the query. Thirdly, we design a novel multi-stage learning algorithm, which makes the best use of readily available data and synthetic data for cost-effective training of the landmark embedding. In our experimental study, landmark embedding is able to substantially improve the performance for both LLaMA-2 and ChatGPT in a variety of long-context tasks; meanwhile, it also outperforms the existing retrieval methods with a notable advantage. Our model and source code will be made publicly available.",
+  "keywords": [
+    "variety",
+    "code",
+    "incomplete retrieval",
+    "semantic",
+    "we",
+    "semantic representation",
+    "training",
+    "long-context language modeling",
+    "it",
+    "retrieval",
+    "information",
+    "a chunking-free embedding method",
+    "chatgpt",
+    "learning",
+    "a variety"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.180/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

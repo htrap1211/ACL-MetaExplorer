@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.75",
+  "title": "Using Interactive Feedback to Improve the Accuracy and Explainability of Question Answering Systems Post-Deployment",
+  "authors": [
+    "Li, Zichao  and\nSharma, Prakhar  and\nLu, Xing Han  and\nCheung, Jackie  and\nReddy, Siva"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Most research on question answering focuses on the pre-deployment stage; i.e., building an accurate model for deployment. In this paper, we ask the question: Can we improve QA systems further post-deployment based on user interactions? We focus on two kinds of improvements: 1) improving the QA system’s performance itself, and 2) providing the model with the ability to explain the correctness or incorrectness of an answer. We collect a retrieval-based QA dataset, FeedbackQA, which contains interactive feedback from users. We collect this dataset by deploying a base QA system to crowdworkers who then engage with the system and provide feedback on the quality of its answers. The feedback contains both structured ratings and unstructured natural language explanations. We train a neural model with this feedback data that can generate explanations and re-score answer candidates. We show that feedback data not only improves the accuracy of the deployed QA system but also other stronger non-deployed systems. The generated explanations also help users make informed decisions about the correctness of answers.",
+  "keywords": [
+    "the generated explanations",
+    "the accuracy",
+    "feedback",
+    "question",
+    "we",
+    "answer",
+    "neural",
+    "natural",
+    "question answering",
+    "retrieval",
+    "e",
+    "i",
+    "answering",
+    "accuracy",
+    "feedbackqa"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.75/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.64",
+  "title": "SPM}: A Split-Parsing Method for Joint Multi-Intent Detection and Slot Filling",
+  "authors": [
+    "Jiang, Sheng  and\nZhu, Su  and\nCao, Ruisheng  and\nMiao, Qingliang  and\nYu, Kai"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "In a task-oriented dialogue system, joint intent detection and slot filling for multi-intent utterances become meaningful since users tend to query more. The current state-of-the-art studies choose to process multi-intent utterances through a single joint model of sequence labelling and multi-label classification, which cannot generalize to utterances with more intents than training samples. Meanwhile, it lacks the ability to assign slots to each corresponding intent. To overcome these problems, we propose a Split-Parsing Method (SPM) for joint multiple intent detection and slot filling, which is a two-stage method. It first splits an input sentence into multiple sub-sentences which contain a single-intent, and then a joint single intent detection and slot filling model is applied to parse each sub-sentence recurrently. Finally, we integrate the parsed results. The sub-sentence split task is also treated as a sequence labelling problem with only one entity-label, which can effectively generalize to a sentence with more intents unseen in the training set. Experimental results on three multi-intent datasets show that our method obtains substantial improvements over different baselines.",
+  "keywords": [
+    "we",
+    "dialogue",
+    "current",
+    "training",
+    "classification",
+    "it",
+    "multi-label classification",
+    "a split-parsing method",
+    "sequence",
+    "-",
+    "model",
+    "studies",
+    "entity",
+    "multi",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.64/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

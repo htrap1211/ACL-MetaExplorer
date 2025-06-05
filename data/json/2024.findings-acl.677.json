@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.677",
+  "title": "Graph-Structured Speculative Decoding",
+  "authors": [
+    "Gong, Zhuocheng  and\nLiu, Jiahao  and\nWang, Ziyue  and\nWu, Pengfei  and\nWang, Jingang  and\nCai, Xunliang  and\nZhao, Dongyan  and\nYan, Rui"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Speculative decoding has emerged as a promising technique to accelerate the inference of Large Language Models (LLMs) by employing a small language model to draft a hypothesis sequence, which is then validated by the LLM. The effectiveness of this approach heavily relies on the balance between performance and efficiency of the draft model. In our research, we focus on enhancing the proportion of draft tokens that are accepted to the final output by generating multiple hypotheses instead of just one. This allows the LLM more options to choose from and select the longest sequence that meets its standards. Our analysis reveals that hypotheses produced by the draft model share many common token sequences, suggesting a potential for optimizing computation. Leveraging this observation, we introduce an innovative approach utilizing a directed acyclic graph (DAG) to manage the drafted hypotheses. This structure enables us to efficiently predict and merge recurring token sequences, vastly reducing the computational demands of the draft model. We term this approach Graph-structured Speculative Decoding (GSD). We apply GSD across a range of LLMs, including a 70-billion parameter LLaMA-2 model, and observe a remarkable speedup of 1.70×to 1.94×, significantly surpassing standard speculative decoding.",
+  "keywords": [
+    "a small language model",
+    "efficiency",
+    "we",
+    "graph",
+    "llm",
+    "parameter",
+    "token",
+    "the llm more options",
+    "sequence",
+    "analysis",
+    "llms",
+    "the llm",
+    "language",
+    "model",
+    "large language models"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.677/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

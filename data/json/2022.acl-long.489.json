@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.489",
+  "title": "S}table{M}o{E}: Stable Routing Strategy for Mixture of Experts",
+  "authors": [
+    "Dai, Damai  and\nDong, Li  and\nMa, Shuming  and\nZheng, Bo  and\nSui, Zhifang  and\nChang, Baobao  and\nWei, Furu"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The Mixture-of-Experts (MoE) technique can scale up the model size of Transformers with an affordable computational overhead. We point out that existing learning-to-route MoE methods suffer from the routing fluctuation issue, i.e., the target expert of the same input may change along with training, but only one expert will be activated for the input during inference. The routing fluctuation tends to harm sample efficiency because the same input updates different experts but only one is finally used. In this paper, we propose StableMoE with two training stages to address the routing fluctuation problem. In the first training stage, we learn a balanced and cohesive routing strategy and distill it into a lightweight router decoupled from the backbone model. In the second training stage, we utilize the distilled router to determine the token-to-expert assignment and freeze it for a stable routing strategy. We validate our method on language modeling and multilingual machine translation. The results show that StableMoE outperforms existing MoE methods in terms of both convergence speed and performance.",
+  "keywords": [
+    "transformers",
+    "efficiency",
+    "we",
+    "training",
+    "translation",
+    "it",
+    "learning",
+    "i",
+    "sample efficiency",
+    "language",
+    "model",
+    "machine",
+    "modeling",
+    "the backbone model",
+    "the target expert"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.489/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:30:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

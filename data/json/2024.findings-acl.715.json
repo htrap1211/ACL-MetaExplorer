@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.715",
+  "title": "LC}4{EE}: {LLM}s as Good Corrector for Event Extraction",
+  "authors": [
+    "Zhu, Mengna  and\nZeng, Kaisheng  and\nJibingWu, JibingWu  and\nLiu, Lihua  and\nHuang, Hongbin  and\nHou, Lei  and\nLi, Juanzi"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Event extraction (EE) is a critical task in natural language processing, yet deploying a practical EE system remains challenging. On one hand, powerful large language models (LLMs) currently show poor performance because EE task is more complex than other tasks. On the other hand, state-of-the-art (SOTA) small language models (SLMs) for EE tasks are typically developed through fine-tuning, lack flexibility, and have considerable room for improvement. We propose an approach, **L**LMs-as-**C**orrector for **E**vent **E**xtraction (**LC4EE**), aiming to leverage the superior extraction capability of SLMs and the instruction-following ability of LLMs to construct a robust and highly available EE system. By utilizing LLMs to identify and correct errors of SLMs predictions based on automatically generated feedback information, EE performances can be improved significantly. Experimental results on the representative datasets ACE2005 and MAVEN-Arg for Event Detection (ED) and EE tasks validated the effectiveness of our method.",
+  "keywords": [
+    "extraction",
+    "feedback",
+    "we",
+    "llm",
+    "fine-tuning lack flexibility",
+    "instruction",
+    "natural",
+    "xtraction",
+    "information",
+    "natural language processing",
+    "llms",
+    "4 ee llm",
+    "tuning",
+    "processing",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.715/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

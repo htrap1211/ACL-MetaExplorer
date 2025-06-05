@@ -1,0 +1,33 @@
+{
+  "id": "2021.sigmorphon-1.22",
+  "title": "Comparative Error Analysis in Neural and Finite-state Models for Unsupervised Character-level Transduction",
+  "authors": [
+    "Ryskina, Maria  and\nHovy, Eduard  and\nBerg-Kirkpatrick, Taylor  and\nGormley, Matthew R."
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 18th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "Traditionally, character-level transduction problems have been solved with finite-state models designed to encode structural and linguistic knowledge of the underlying process, whereas recent approaches rely on the power and flexibility of sequence-to-sequence models with attention. Focusing on the less explored unsupervised learning scenario, we compare the two model classes side by side and find that they tend to make different types of errors even when achieving comparable performance. We analyze the distributions of different error classes using two unsupervised tasks as testbeds: converting informally romanized text into the native script of its language (for Russian, Arabic, and Kannada) and translating between a pair of closely related languages (Serbian and Bosnian). Finally, we investigate how combining finite-state and sequence-to-sequence models at decoding time affects the output quantitatively and qualitatively.",
+  "keywords": [
+    "process",
+    "knowledge",
+    "language",
+    "neural",
+    "model",
+    "text",
+    "attention",
+    "sequence",
+    "we",
+    "learning",
+    "time",
+    "analysis",
+    "the underlying process",
+    "different error classes",
+    "comparative"
+  ],
+  "url": "https://aclanthology.org/2021.sigmorphon-1.22/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:22:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

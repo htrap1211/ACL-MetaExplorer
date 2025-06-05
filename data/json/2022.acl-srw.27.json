@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-srw.27",
+  "title": "MEKER}: Memory Efficient Knowledge Embedding Representation for Link Prediction and Question Answering",
+  "authors": [
+    "Chekalina, Viktoriia  and\nRazzhigaev, Anton  and\nSayapin, Albert  and\nFrolov, Evgeny  and\nPanchenko, Alexander"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "Knowledge Graphs (KGs) are symbolically structured storages of facts. The KG embedding contains concise data used in NLP tasks requiring implicit information about the real world. Furthermore, the size of KGs that may be useful in actual NLP assignments is enormous, and creating embedding over it has memory cost issues. We represent KG as a 3rd-order binary tensor and move beyond the standard CP decomposition (CITATION) by using a data-specific generalized version of it (CITATION). The generalization of the standard CP-ALS algorithm allows obtaining optimization gradients without a backpropagation mechanism. It reduces the memory needed in training while providing computational benefits. We propose a MEKER, a memory-efficient KG embedding model, which yields SOTA-comparable performance on link prediction tasks and KG-based Question Answering.",
+  "keywords": [
+    "efficient",
+    "generalized",
+    "question",
+    "we",
+    "a data-specific generalized version",
+    "a backpropagation mechanism",
+    "training",
+    "it",
+    "kg-based question",
+    "optimization gradients",
+    "information",
+    "nlp tasks",
+    "actual nlp assignments",
+    "kgs",
+    "backpropagation"
+  ],
+  "url": "https://aclanthology.org/2022.acl-srw.27/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:34:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

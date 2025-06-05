@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.75",
+  "title": "Client-Customized Adaptation for Parameter-Efficient Federated Learning",
+  "authors": [
+    "Kim, Yeachan  and\nKim, Junho  and\nMok, Wing-Lam  and\nPark, Jun-Hyung  and\nLee, SangKeun"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Despite the versatility of pre-trained language models (PLMs) across domains, their large memory footprints pose significant challenges in federated learning (FL), where the training model has to be distributed between a server and clients. One potential solution to bypass such constraints might be the use of parameter-efficient fine-tuning (PEFT) in the context of FL. However, we have observed that typical PEFT tends to severely suffer from heterogeneity among clients in FL scenarios, resulting in unstable and slow convergence. In this paper, we propose Client-Customized Adaptation (C2A), a novel hypernetwork-based FL framework that generates client-specific adapters by conditioning the client information. With the effectiveness of the hypernetworks in generating customized weights through learning to adopt the different characteristics of inputs, C2A can maximize the utility of shared model parameters while minimizing the divergence caused by client heterogeneity. To verify the efficacy of C2A, we perform extensive evaluations on FL scenarios involving heterogeneity in label and language distributions. Comprehensive evaluation results clearly support the superiority of C2A in terms of both efficiency and effectiveness in FL scenarios.",
+  "keywords": [
+    "efficient",
+    "client heterogeneity",
+    "clients",
+    "efficiency",
+    "parameter-efficient fine-tuning peft",
+    "we",
+    "parameter-efficient federated learning",
+    "parameter",
+    "training",
+    "information",
+    "pre-trained language models plms",
+    "learning",
+    "both efficiency",
+    "tuning",
+    "client"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.75/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

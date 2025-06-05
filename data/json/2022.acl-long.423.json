@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.423",
+  "title": "Debiased Contrastive Learning of Unsupervised Sentence Representations",
+  "authors": [
+    "Zhou, Kun  and\nZhang, Beichen  and\nZhao, Xin  and\nWen, Ji-Rong"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recently, contrastive learning has been shown to be effective in improving pre-trained language models (PLM) to derive high-quality sentence representations. It aims to pull close positive examples to enhance the alignment while push apart irrelevant negatives for the uniformity of the whole representation space. However, previous works mostly adopt in-batch negatives or sample from training data at random. Such a way may cause the sampling bias that improper negatives (false negatives and anisotropy representations) are used to learn sentence representations, which will hurt the uniformity of the representation space. To address it, we present a new frameworkDCLR(Debiased Contrastive Learning of unsupervised sentence Representations) to alleviate the influence of these improper negatives.In DCLR, we design an instance weighting method to punish false negatives and generate noise-based negatives to guarantee the uniformity of the representation space.Experiments on seven semantic textual similarity tasks show that our approach is more effective than competitive baselines. Our code and data are publicly available at the link: bluehttps://github.com/RUCAIBox/DCLR.",
+  "keywords": [
+    "code",
+    "bias",
+    "semantic",
+    "we",
+    "pre-trained language models",
+    "it",
+    "learning",
+    "alignment",
+    "language",
+    "random",
+    "the sampling bias",
+    "the alignment",
+    "pre",
+    "batch",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.423/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:30:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

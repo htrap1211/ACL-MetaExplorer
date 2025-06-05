@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.248",
+  "title": "S}tanford {ML}ab at {S}em{E}val-2023 Task 10: Exploring {G}lo{V}e- and Transformer-Based Methods for the Explainable Detection of Online Sexism",
+  "authors": [
+    "Wan, Aaron  and\nYam, Hong Meng  and\nYogeswaran, Swetha  and\nZhou, Beining  and\nChoi, Hee Jung  and\nChow, Trevor"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "In this paper, we discuss the methods we applied at SemEval-2023 Task 10: Towards the Explainable Detection of Online Sexism. Given an input text, we perform three classification tasks to predict whether the text is sexist and classify the sexist text into subcategories in order to provide an additional explanation as to why the text is sexist. We explored many different types of models, including GloVe embeddings as the baseline approach, transformer-based deep learning models like BERT, RoBERTa, and DeBERTa, ensemble models, and model blending. We explored various data cleaning and augmentation methods to improve model performance. Pre-training transformer models yielded significant improvements in performance, and ensembles and blending slightly improved robustness in the F1 score.",
+  "keywords": [
+    "embeddings",
+    "glove",
+    "deep",
+    "ensembles",
+    "transformer",
+    "ensemble",
+    "roberta",
+    "the f1 score",
+    "deberta",
+    "three classification tasks",
+    "bert",
+    "model",
+    "text",
+    "bert roberta",
+    "subcategories"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.248/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:30:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

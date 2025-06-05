@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.487",
+  "title": "Multilingual Sequence-to-Sequence Models for {H}ebrew {NLP",
+  "authors": [
+    "Eyal, Matan  and\nNoga, Hila  and\nAharoni, Roee  and\nSzpektor, Idan  and\nTsarfaty, Reut"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Recent work attributes progress in NLP to large language models (LMs) with increased model size and large quantities of pretraining data. Despite this, current state-of-the-art LMs for Hebrew are both under-parameterized and under-trained compared to LMs in other languages. Additionally, previous work on pretrained Hebrew LMs focused on encoder-only models. While the encoder-only architecture is beneficial for classification tasks, it does not cater well for sub-word prediction tasks, such as Named Entity Recognition, when considering the morphologically rich nature of Hebrew. In this paper we argue that sequence-to-sequence generative architectures are more suitable for large LMs in morphologically rich languages (MRLs) such as Hebrew. We demonstrate this by casting tasks in the Hebrew NLP pipeline as text-to-text tasks, for which we can leverage powerful multilingual, pretrained sequence-to-sequence models as mT5, eliminating the need for a separate, specialized, morpheme-based, decoder. Using this approach, our experiments show substantial improvements over previously published results on all existing Hebrew NLP benchmarks. These results suggest that multilingual sequence-to-sequence models present a promising building block for NLP for MRLs.",
+  "keywords": [
+    "we",
+    "quantities",
+    "current",
+    "classification",
+    "classification tasks",
+    "the hebrew nlp pipeline",
+    "it",
+    "decoder",
+    "rich",
+    "word",
+    "sequence",
+    "h ebrew nlp",
+    "generative",
+    "text",
+    "the encoder-only architecture"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.487/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.231",
+  "title": "Enhancing Reinforcement Learning with Label-Sensitive Reward for Natural Language Understanding",
+  "authors": [
+    "Liao, Kuo  and\nLi, Shuang  and\nZhao, Meng  and\nLiu, Liqun  and\nXue, Mengge  and\nHu, Zhenyu  and\nHan, Honglin  and\nYin, Chengguo"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent strides in large language models (LLMs) have yielded remarkable performance, leveraging reinforcement learning from human feedback (RLHF) to significantly enhance generation and alignment capabilities. However, RLHF encounters numerous challenges, including the objective mismatch issue, leading to suboptimal performance in Natural Language Understanding (NLU) tasks.To address this limitation, we propose a novel Reinforcement Learning framework enhanced with Label-sensitive Reward (RLLR) to amplify the performance of LLMs in NLU tasks. By incorporating label-sensitive pairs into reinforcement learning, our method aims to adeptly capture nuanced label-sensitive semantic features during RL, thereby enhancing natural language understanding.Experiments conducted on five diverse foundation models across eight tasks showcase promising results. In comparison to Supervised Fine-tuning models (SFT), RLLR demonstrates an average performance improvement of 1.54%. Compared with RLHF models, the improvement averages at 0.69%. These results reveal the effectiveness of our method for LLMs in NLU tasks.",
+  "keywords": [
+    "feedback",
+    "generation and alignment capabilities",
+    "the objective mismatch issue",
+    "semantic",
+    "we",
+    "human feedback rlhf",
+    "natural",
+    "rlhf",
+    "nuanced label-sensitive semantic features",
+    "learning",
+    "natural language",
+    "rlhf models",
+    "fine-tuning models",
+    "llms",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.231/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

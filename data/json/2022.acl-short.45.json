@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.45",
+  "title": "Problems with Cosine as a Measure of Embedding Similarity for High Frequency Words",
+  "authors": [
+    "Zhou, Kaitlyn  and\nEthayarajh, Kawin  and\nCard, Dallas  and\nJurafsky, Dan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Cosine similarity of contextual embeddings is used in many NLP tasks (e.g., QA, IR, MT) and metrics (e.g., BERTScore). Here, we uncover systematic ways in which word similarities estimated by cosine over BERT embeddings are understated and trace this effect to training data frequency. We find that relative to human judgements, cosine similarity underestimates the similarity of frequent words with other instances of the same word or other words across contexts, even after controlling for polysemy and other factors. We conjecture that this underestimation of similarity for high frequency words is due to differences in the representational geometry of high and low frequency words and provide a formal argument for the two-dimensional case.",
+  "keywords": [
+    "embeddings",
+    "bertscore",
+    "similarities",
+    "nlp",
+    "bert",
+    "human",
+    "metrics",
+    "word similarities",
+    "embedding similarity",
+    "many nlp tasks",
+    "contextual embeddings",
+    "dimensional",
+    "word",
+    "we",
+    "bert embeddings"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.45/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:33:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.3",
+  "title": "Conformal Nucleus Sampling",
+  "authors": [
+    "Ravfogel, Shauli  and\nGoldberg, Yoav  and\nGoldberger, Jacob"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Language models generate text based on successively sampling the next word. A decoding procedure based on nucleus (top-p) sampling chooses from the smallest possible set of words whose cumulative probability exceeds the probabilityp. In this work, we assess whether a top-pset is indeed aligned with its probabilistic meaning in various linguistic contexts.We employ conformal prediction, a calibration procedure that focuses on the construction of minimal prediction sets according to a desired confidence level, to calibrate the parameterpas a function of the entropy of the next word distribution. We find that OPT models are overconfident, and that calibration shows a moderate inverse scaling with model size.",
+  "keywords": [
+    "work",
+    "opt",
+    "language",
+    "entropy",
+    "model",
+    "text",
+    "we",
+    "word",
+    "function",
+    "that",
+    "this work",
+    "moderate",
+    "overconfident",
+    "sampling",
+    "probabilistic"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

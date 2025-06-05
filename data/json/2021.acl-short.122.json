@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.122",
+  "title": "Multi-Scale Progressive Attention Network for Video Question Answering",
+  "authors": [
+    "Guo, Zhicheng  and\nZhao, Jiaxuan  and\nJiao, Licheng  and\nLiu, Xu  and\nLi, Lingling"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Understanding the multi-scale visual information in a video is essential for Video Question Answering (VideoQA). Therefore, we propose a novel Multi-Scale Progressive Attention Network (MSPAN) to achieve relational reasoning between cross-scale video information. We construct clips of different lengths to represent different scales of the video. Then, the clip-level features are aggregated into node features by using max-pool, and a graph is generated for each scale of clips. For cross-scale feature interaction, we design a message passing strategy between adjacent scale graphs, i.e., top-down scale interaction and bottom-up scale interaction. Under the question’s guidance of progressive attention, we realize the fusion of all-scale video features. Experimental evaluations on three benchmarks: TGIF-QA, MSVD-QA and MSRVTT-QA show our method has achieved state-of-the-art performance.",
+  "keywords": [
+    "cross",
+    "evaluations",
+    "question",
+    "information",
+    "progressive attention",
+    "attention",
+    "network",
+    "we",
+    "max",
+    "visual",
+    "graph",
+    "videoqa",
+    "fusion",
+    "experimental evaluations",
+    "multi-scale progressive attention network"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.122/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:08:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

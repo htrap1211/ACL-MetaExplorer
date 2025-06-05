@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.461",
+  "title": "Modeling Adversarial Attack on Pre-trained Language Models as Sequential Decision Making",
+  "authors": [
+    "Fang, Xuanjie  and\nCheng, Sijie  and\nLiu, Yang  and\nWang, Wei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Pre-trained language models (PLMs) have been widely used to underpin various downstream tasks. However, the adversarial attack task has found that PLMs are vulnerable to small perturbations. Mainstream methods adopt a detached two-stage framework to attack without considering the subsequent influence of substitution at each step. In this paper, we formally model the adversarial attack task on PLMs as a sequential decision-making problem, where the whole attack process is sequential with two decision-making problems, i.e., word finder and word substitution. Considering the attack process can only receive the final state without any direct intermediate signals, we propose to use reinforcement learning to find an appropriate sequential attack path to generate adversaries, named SDM-ATTACK. Our experimental results show that SDM-ATTACK achieves the highest attack success rate with a comparable modification rate and semantic similarity to attack fine-tuned BERT. Furthermore, our analyses demonstrate the generalization and transferability of SDM-ATTACK.Resources of this work will be released after this paper’s publication.",
+  "keywords": [
+    "adversaries",
+    "rate",
+    "semantic",
+    "we",
+    "semantic similarity",
+    "pre-trained language models",
+    "pre-trained language models plms",
+    "fine-tuned bert",
+    "word",
+    "learning",
+    "vulnerable",
+    "i",
+    "bert",
+    "generalization",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.461/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

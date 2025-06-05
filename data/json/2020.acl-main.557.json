@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.557",
+  "title": "Tetra-Tagging: Word-Synchronous Parsing with Linear-Time Inference",
+  "authors": [
+    "Kitaev, Nikita  and\nKlein, Dan"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We present a constituency parsing algorithm that, like a supertagger, works by assigning labels to each word in a sentence. In order to maximally leverage current neural architectures, the model scores each word’s tags in parallel, with minimal task-specific structure. After scoring, a left-to-right reconciliation phase extracts a tree in (empirically) linear time. Our parser achieves 95.4 F1 on the WSJ test set while also achieving substantial speedups compared to current state-of-the-art parsers with comparable accuracies.",
+  "keywords": [
+    "parsing",
+    "accuracies",
+    "neural",
+    "model",
+    "tetra-tagging word-synchronous parsing",
+    "comparable accuracies",
+    "95 4 f1",
+    "current neural",
+    "tagging",
+    "we",
+    "word",
+    "time",
+    "current",
+    "synchronous",
+    "a left-to-right reconciliation phase"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.557/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:49:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

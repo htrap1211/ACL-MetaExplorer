@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.30",
+  "title": "Low-Resource Formality Controlled {NMT} Using Pre-trained {LM",
+  "authors": [
+    "Vakharia, Priyesh  and\nVignesh S, Shree  and\nBasmatkar, Pranjali"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "This paper describes the UCSC’s submission to the shared task on formality control for spoken language translation at IWSLT 2023. For this task, we explored the use of ‘additive style intervention’ using a pre-trained multilingual translation model, namely mBART. Compared to prior approaches where a single style-vector was added to all tokens in the encoder output, we explored an alternative approach in which we learn a unique style-vector for each input token. We believe this approach, which we call ‘style embedding intervention,’ is better suited for formality control as it can potentially learn which specific input tokens to modify during decoding. While the proposed approach obtained similar performance to ‘additive style intervention’ for the supervised English-to-Vietnamese task, it performed significantly better for English-to-Korean, in which it achieved an average matched accuracy of 90.6 compared to 85.2 for the baseline. When we constrained the model further to only perform style intervention on the <bos> (beginning of sentence) token, the average matched accuracy improved further to 92.0, indicating that the model could learn to control the formality of the translation output based solely on the embedding of the <bos> token.",
+  "keywords": [
+    "the encoder output",
+    "the embedding",
+    "the translation output",
+    "we",
+    "translation",
+    "the supervised english-to-vietnamese task",
+    "an average matched accuracy",
+    "it",
+    "vietnamese",
+    "a single style-vector",
+    "a unique style-vector",
+    "spoken language translation",
+    "vector",
+    "embedding intervention",
+    "embedding"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.30/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:25:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

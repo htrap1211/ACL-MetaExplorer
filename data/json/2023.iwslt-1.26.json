@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.26",
+  "title": "JHU} {IWSLT} 2023 Dialect Speech Translation System Description",
+  "authors": [
+    "Hussein, Amir  and\nXiao, Cihan  and\nVerma, Neha  and\nThebaud, Thomas  and\nWiesner, Matthew  and\nKhudanpur, Sanjeev"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "This paper presents JHU’s submissions to the IWSLT 2023 dialectal and low-resource track of Tunisian Arabic to English speech translation. The Tunisian dialect lacks formal orthography and abundant training data, making it challenging to develop effective speech translation (ST) systems. To address these challenges, we explore the integration of large pre-trained machine translation (MT) models, such as mBART and NLLB-200 in both end-to-end (E2E) and cascaded speech translation (ST) systems. We also improve the performance of automatic speech recognition (ASR) through the use of pseudo-labeling data augmentation and channel matching on telephone data. Finally, we combine our E2E and cascaded ST systems with Minimum Bayes-Risk decoding. Our combined system achieves a BLEU score of 21.6 and 19.1 on test2 and test3, respectively.",
+  "keywords": [
+    "end",
+    "translation",
+    "a bleu score",
+    "machine",
+    "it",
+    "bleu",
+    "we",
+    "speech translation st systems",
+    "english speech translation",
+    "pre",
+    "training",
+    "speech",
+    "bayes",
+    "recognition",
+    "dialectal"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.26/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:24:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

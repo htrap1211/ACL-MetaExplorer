@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.544",
+  "title": "Evidence-Aware Inferential Text Generation with Vector Quantised Variational {A}uto{E}ncoder",
+  "authors": [
+    "Guo, Daya  and\nTang, Duyu  and\nDuan, Nan  and\nYin, Jian  and\nJiang, Daxin  and\nZhou, Ming"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Generating inferential texts about an event in different perspectives requires reasoning over different contexts that the event occurs. Existing works usually ignore the context that is not explicitly provided, resulting in a context-independent semantic representation that struggles to support the generation. To address this, we propose an approach that automatically finds evidence for an event from a large text corpus, and leverages the evidence to guide the generation of inferential texts. Our approach works in an encoderdecoder manner and is equipped with Vector Quantised-Variational Autoencoder, where the encoder outputs representations from a distribution over discrete variables. Such discrete representations enable automatically selecting relevant evidence, which not only facilitates evidence-aware generation, but also provides a natural way to uncover rationales behind the generation. Our approach provides state-of-the-art performance on both Event2mind and Atomic datasets. More importantly, we find that with discrete representations, our model selectively uses evidence to generate different inferential texts.",
+  "keywords": [
+    "the encoder",
+    "ncoder",
+    "a context-independent semantic representation",
+    "encoderdecoder",
+    "vector",
+    "generation",
+    "vector quantised-variational autoencoder",
+    "natural",
+    "model",
+    "text",
+    "evidence-aware inferential text generation",
+    "evidence-aware generation",
+    "autoencoder",
+    "the generation",
+    "encoder"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.544/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:49:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

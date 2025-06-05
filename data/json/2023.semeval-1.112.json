@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.112",
+  "title": "L}3{I}++ at {S}em{E}val-2023 Task 2: Prompting for Multilingual Complex Named Entity Recognition",
+  "authors": [
+    "Gonzalez-Gallardo, Carlos-Emiliano  and\nTran, Thi Hong Hanh  and\nGirdhar, Nancy  and\nBoros, Emanuela  and\nMoreno, Jose G.  and\nDoucet, Antoine"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper summarizes the participation of the L3i laboratory of the University of La Rochelle in the SemEval-2023 Task 2, Multilingual Complex Named Entity Recognition (MultiCoNER II). Similar to MultiCoNER I, the task seeks to develop methods to detect semantic ambiguous and complex entities in short and low-context settings. However, MultiCoNER II adds a fine-grained entity taxonomy with over 30 entity types and corrupted data on the test partitions. We approach these complications following prompt-based learning as (1) a ranking problem using a seq2seq framework, and (2) an extractive question-answering task. Our findings show that even if prompting techniques have a similar recall to fine-tuned hierarchical language model-based encoder methods, precision tends to be more affected.",
+  "keywords": [
+    "seq2seq",
+    "recall",
+    "hierarchical",
+    "prompt",
+    "i",
+    "la",
+    "em",
+    "language",
+    "precision",
+    "entities",
+    "model",
+    "encoder",
+    "question",
+    "multiconer",
+    "a seq2seq framework"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.112/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:28:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

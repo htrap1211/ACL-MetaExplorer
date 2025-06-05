@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.196",
+  "title": "Follow the leader(board) with confidence: Estimating p-values from a single test set with item and response variance",
+  "authors": [
+    "Wein, Shira  and\nHoman, Christopher  and\nAroyo, Lora  and\nWelty, Chris"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Among the problems with leaderboard culture in NLP has been the widespread lack of confidence estimation in reported results. In this work, we present a framework and simulator for estimating p-values for comparisons between the results of two systems, in order to understand the confidence that one is actually better (i.e. ranked higher) than the other. What has made this difficult in the past is that each system must itself be evaluated by comparison to a gold standard. We define a null hypothesis that each system’s metric scores are drawn from the same distribution, using variance found naturally (though rarely reported) in test set items and individual labels on an item (responses) to produce the metric distributions. We create a test set that evenly mixes the responses of the two systems under the assumption the null hypothesis is true. Exploring how to best estimate the true p-value from a single test set under different metrics, tests, and sampling methods, we find that the presence of response variance (from multiple raters or multiple model versions) has a profound impact on p-value estimates for model comparison, and that choice of metric and sampling method is critical to providing statistical guarantees on model comparisons.",
+  "keywords": [
+    "item and response variance",
+    "different metrics tests",
+    "we",
+    "variance",
+    "e",
+    "response variance",
+    "i",
+    "metric",
+    "metrics",
+    "work",
+    "nlp",
+    "model",
+    "the null hypothesis",
+    "statistical guarantees",
+    "culture"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.196/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

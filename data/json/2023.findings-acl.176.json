@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.176",
+  "title": "Measuring and Mitigating Local Instability in Deep Neural Networks",
+  "authors": [
+    "Datta, Arghya  and\nNandi, Subhrangshu  and\nXu, Jingcheng  and\nVer Steeg, Greg  and\nXie, He  and\nKumar, Anoop  and\nGalstyan, Aram"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Deep Neural Networks (DNNs) are becoming integral components of real world services relied upon by millions of users. Unfortunately, architects of these systems can find it difficult to ensure reliable performance as irrelevant details like random initialization can unexpectedly change the outputs of a trained system with potentially disastrous consequences. We formulate the model stability problem by studying how the predictions of a model change, even when it is retrained on the same data, as a consequence of stochasticity in the training process. For Natural Language Understanding (NLU) tasks, we find instability in predictions for a significant fraction of queries. We formulate principled metrics, like per-sample “label entropy” across training runs or within a single training run, to quantify this phenomenon. Intriguingly, we find that unstable predictions do not appear at random, but rather appear to be clustered in data-specific ways. We study data-agnostic regularization methods to improve stability and propose new data-centric methods that exploit our local stability estimates. We find that our localized data-specific mitigation strategy dramatically outperforms data-agnostic methods, and comes within 90% of the gold standard, achieved by ensembling, at a fraction of the computational cost.",
+  "keywords": [
+    "deep",
+    "deep neural networks",
+    "we",
+    "training",
+    "neural",
+    "natural",
+    "it",
+    "queries",
+    "principled metrics",
+    "natural language",
+    "metrics",
+    "deep neural networks dnns",
+    "data-agnostic regularization methods",
+    "process",
+    "random"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.176/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

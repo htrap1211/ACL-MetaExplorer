@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.816",
+  "title": "DATA}-{CUBE}: Data Curriculum for Instruction-based Sentence Representation Learning",
+  "authors": [
+    "Min, Yingqian  and\nZhou, Kun  and\nGao, Dawei  and\nZhao, Xin  and\nHu, He  and\nLi, Yaliang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Recently, multi-task instruction tuning has been utilized to improve sentence representation learning (SRL). It enables SRL models to generate task-specific representations with the guidance of task instruction, thus exhibiting strong generalization ability on unseen tasks. However, these methods mostly neglect the potential interference problems across different tasks and instances, which may affect the training of the model.To address this issue, we propose a data curriculum method, namely **Data-CUBE**, that arranges the order of all the multi-task data for training, to minimize the interference risks from two aspects.At the task level, we aim to find the optimal task order to minimize the total cross-task interference risk and formulate this problem as the traveling salesman problem, which is further solved by a specially designed simulated annealing algorithm. At the instance level, we propose a measurement method to quantify the difficulty of all instances per task, and then arrange instances in an easy-to-difficult order for training.Experimental results show that our approach can boost the performance of state-of-the-art methods. Our code and data will be publicly released.",
+  "keywords": [
+    "code",
+    "we",
+    "training",
+    "instruction",
+    "cross",
+    "it",
+    "learning",
+    "tuning",
+    "generalization",
+    "strong generalization ability",
+    "multi-task instruction tuning",
+    "model",
+    "srl models",
+    "interference",
+    "multi"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.816/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:59:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

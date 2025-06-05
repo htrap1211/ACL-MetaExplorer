@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.38",
+  "title": "S}a{FER}: A Robust and Efficient Framework for Fine-tuning {BERT}-based Classifier with Noisy Labels",
+  "authors": [
+    "Qi, Zhenting  and\nTan, Xiaoyu  and\nQu, Chao  and\nXu, Yinghui  and\nQi, Yuan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "Learning on noisy datasets is a challenging problem when pre-trained language models are applied to real-world text classification tasks. In numerous industrial applications, acquiring task-specific datasets with 100% accurate labels is difficult, thus many datasets are accompanied by label noise at different levels. Previous work has shown that existing noise-handling methods could not improve the peak performance of BERT on noisy datasets, and might even deteriorate it. In this paper, we propose SaFER, a robust and efficient fine-tuning framework for BERT-based text classifiers, combating label noises without access to any clean data for training or validation. Utilizing a label-agnostic early-stopping strategy and self-supervised learning, our proposed framework achieves superior performance in terms of both accuracy and speed on multiple text classification benchmarks. The trained model is finally fully deployed in several industrial biomedical literature mining tasks and demonstrates high effectiveness and efficiency.",
+  "keywords": [
+    "validation",
+    "classifier",
+    "multiple text classification",
+    "efficient",
+    "classifiers",
+    "efficiency",
+    "real-world text classification tasks",
+    "we",
+    "training",
+    "classification",
+    "pre-trained language models",
+    "it",
+    "self",
+    "both accuracy",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.38/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

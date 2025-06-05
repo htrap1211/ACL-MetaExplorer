@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.460",
+  "title": "The Summary Loop: Learning to Write Abstractive Summaries Without Examples",
+  "authors": [
+    "Laban, Philippe  and\nHsi, Andrew  and\nCanny, John  and\nHearst, Marti A."
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "This work presents a new approach to unsupervised abstractive summarization based on maximizing a combination of coverage and fluency for a given length constraint. It introduces a novel method that encourages the inclusion of key terms from the original document into the summary: key terms are masked out of the original document and must be filled in by a coverage model using the current generated summary. A novel unsupervised training procedure leverages this coverage model along with a fluency model to generate and score summaries. When tested on popular news summarization datasets, the method outperforms previous unsupervised methods by more than 2 R-1 points, and approaches results of competitive supervised methods. Our model attains higher levels of abstraction with copied passages roughly two times shorter than prior work, and learns to compress and merge sentences without supervision.",
+  "keywords": [
+    "work",
+    "the current generated summary",
+    "unsupervised abstractive summarization",
+    "summaries",
+    "model",
+    "it",
+    "copied passages",
+    "summarization",
+    "abstractive summaries",
+    "popular news summarization",
+    "current",
+    "training",
+    "that",
+    "a novel method",
+    "news"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.460/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:48:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

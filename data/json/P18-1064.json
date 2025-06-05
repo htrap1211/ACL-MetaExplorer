@@ -1,0 +1,33 @@
+{
+  "id": "P18-1064",
+  "title": "Soft Layer-Specific Multi-Task Summarization with Entailment and Question Generation",
+  "authors": [
+    "Guo, Han  and\nPasunuru, Ramakanth  and\nBansal, Mohit"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "An accurate abstractive summary of a document should contain all its salient information and should be logically entailed by the input document. We improve these important aspects of abstractive summarization via multi-task learning with the auxiliary tasks of question generation and entailment generation, where the former teaches the summarization model how to look for salient questioning-worthy details, and the latter teaches the model how to rewrite a summary which is a directed-logical subset of the input document. We also propose novel multi-task architectures with high-level (semantic) layer-specific sharing across multiple encoder and decoder layers of the three tasks, as well as soft-sharing mechanisms (and show performance ablations and analysis examples of each contribution). Overall, we achieve statistically significant improvements over the state-of-the-art on both the CNN/DailyMail and Gigaword datasets, as well as on the DUC-2002 transfer setup. We also present several quantitative and qualitative analysis studies of our model’s learned saliency and entailment skills.",
+  "keywords": [
+    "both the cnn dailymail",
+    "question",
+    "layer",
+    "semantic",
+    "summarization",
+    "we",
+    "high-level semantic layer-specific sharing",
+    "cnn",
+    "decoder",
+    "information",
+    "learning",
+    "transfer",
+    "entailment and question generation",
+    "soft layer-specific multi-task summarization",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/P18-1064/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:10:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

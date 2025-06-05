@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.809",
+  "title": "A}rt{P}rompt: {ASCII} Art-based Jailbreak Attacks against Aligned {LLM}s",
+  "authors": [
+    "Jiang, Fengqing  and\nXu, Zhangchen  and\nNiu, Luyao  and\nXiang, Zhen  and\nRamasubramanian, Bhaskar  and\nLi, Bo  and\nPoovendran, Radha"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Safety is critical to the usage of large language models (LLMs). Multiple techniques such as data filtering and supervised fine-tuning have been developed to strengthen LLM safety. However, currently known techniques presume that corpora used for safety alignment of LLMs are solely interpreted by semantics. This assumption, however, does not hold in real-world applications, which leads to severe vulnerabilities in LLMs. For example, users of forums often use ASCII art, a form of text-based art, to convey image information. In this paper, we propose a novel ASCII art-based jailbreak attack and introduce a comprehensive benchmark Vision-in-Text Challenge (ViTC) to evaluate the capabilities of LLMs in recognizing prompts that cannot be solely interpreted by semantics. We show that five SOTA LLMs (GPT-3.5, GPT-4, Gemini, Claude, and Llama2) struggle to recognize prompts provided in the form of ASCII art. Based on this observation, we develop the jailbreak attack ArtPrompt, which leverages the poor performance of LLMs in recognizing ASCII art to bypass safety measures and elicit undesired behaviors from LLMs. ArtPrompt only requires black-box access to the victim LLMs, making it a practical attack. We evaluate ArtPrompt on five SOTA LLMs, and show that ArtPrompt can effectively and efficiently induce undesired behaviors from all five LLMs.",
+  "keywords": [
+    "the victim llms",
+    "severe vulnerabilities",
+    "form",
+    "we",
+    "llm",
+    "fine-tuning",
+    "semantics",
+    "it",
+    "information",
+    "aligned llm s safety",
+    "the capabilities",
+    "llms",
+    "tuning",
+    "artprompt",
+    "safety alignment"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.809/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:45:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

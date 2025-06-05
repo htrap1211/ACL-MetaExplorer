@@ -1,0 +1,33 @@
+{
+  "id": "2023.cawl-1.4",
+  "title": "Exploring the Impact of Transliteration on {NLP} Performance: Treating {M}altese as an {A}rabic Dialect",
+  "authors": [
+    "Micallef, Kurt  and\nEryani, Fadhl  and\nHabash, Nizar  and\nBouamor, Houda  and\nBorg, Claudia"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the Workshop on Computation and Written Language (CAWL 2023)",
+  "abstract": "Multilingual models such as mBERT have been demonstrated to exhibit impressive crosslingual transfer for a number of languages. Despite this, the performance drops for lowerresourced languages, especially when they are not part of the pre-training setup and when there are script differences. In this work we consider Maltese, a low-resource language of Arabic and Romance origins written in Latin script. Specifically, we investigate the impact of transliterating Maltese into Arabic scipt on a number of downstream tasks: Part-of-Speech Tagging, Dependency Parsing, and Sentiment Analysis. We compare multiple transliteration pipelines ranging from deterministic character maps to more sophisticated alternatives, including manually annotated word mappings and non-deterministic character mappings. For the latter, we show that selection techniques using n-gram language models of Tunisian Arabic, the dialect with the highest degree of mutual intelligibility to Maltese, yield better results on downstream tasks. Moreover, our experiments highlight that the use of an Arabic pre-trained model paired with transliteration outperforms mBERT. Overall, our results show that transliterating Maltese can be considered an option to improve the cross-lingual transfer capabilities.",
+  "keywords": [
+    "parsing",
+    "mbert",
+    "the pre-training setup",
+    "we",
+    "training",
+    "cross",
+    "n-gram language models",
+    "word",
+    "transfer",
+    "m",
+    "nlp performance",
+    "analysis",
+    "the cross-lingual transfer capabilities",
+    "work",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.cawl-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:23:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

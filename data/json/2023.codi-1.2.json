@@ -1,0 +1,33 @@
+{
+  "id": "2023.codi-1.2",
+  "title": "A Side-by-side Comparison of Transformers for Implicit Discourse Relation Classification",
+  "authors": [
+    "Lee, Bruce W.  and\nYang, Bongseok  and\nLee, Jason"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 4th Workshop on Computational Approaches to Discourse (CODI 2023)",
+  "abstract": "Though discourse parsing can help multiple NLP fields, there has been no wide language model search done on implicit discourse relation classification. This hinders researchers from fully utilizing public-available models in discourse analysis. This work is a straightforward, fine-tuned discourse performance comparison of 7 pre-trained language models. We use PDTB-3, a popular discourse relation annotated dataset. Through our model search, we raise SOTA to 0.671 ACC and obtain novel observations. Some are contrary to what has been reported before (Shi and Demberg, 2019b), that sentence-level pre-training objectives (NSP, SBO, SOP) generally fail to produce the best-performing model for implicit discourse relation classification. Counterintuitively, similar-sized PLMs with MLM and full attention led to better performance. Our code is publicly released.",
+  "keywords": [
+    "work",
+    "code",
+    "transformers",
+    "parsing",
+    "objectives",
+    "language",
+    "mlm and full attention",
+    "discourse parsing",
+    "nlp",
+    "that sentence-level pre-training objectives",
+    "model",
+    "implicit discourse relation classification",
+    "acc",
+    "attention",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.codi-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:24:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.242",
+  "title": "Small Models, Big Insights: Leveraging Slim Proxy Models To Decide When and What to Retrieve for {LLM}s",
+  "authors": [
+    "Tan, Jiejun  and\nDou, Zhicheng  and\nZhu, Yutao  and\nGuo, Peidong  and\nFang, Kun  and\nWen, Ji-Rong"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The integration of large language models (LLMs) and search engines represents a significant evolution in knowledge acquisition methodologies. However, determining the knowledge that an LLM already possesses and the knowledge that requires the help of a search engine remains an unresolved issue. Most existing methods solve this problem through the results of preliminary answers or reasoning done by the LLM itself, but this incurs excessively high computational costs. This paper introduces a novel collaborative approach, namely SlimPLM, that detects missing knowledge in LLMs with a slim proxy model, to enhance the LLM’s knowledge acquisition process. We employ a proxy model which has far fewer parameters, and take its answers as heuristic answers. Heuristic answers are then utilized to predict the knowledge required to answer the user question, as well as the known and unknown knowledge within the LLM. We only conduct retrieval for the missing knowledge in questions that the LLM does not know. Extensive experimental results on five datasets with two LLMs demonstrate a notable improvement in the end-to-end performance of LLMs in question-answering tasks, achieving or surpassing current state-of-the-art models with lower LLM inference costs.",
+  "keywords": [
+    "end",
+    "an llm",
+    "question",
+    "we",
+    "current",
+    "llm",
+    "two llms",
+    "retrieval",
+    "llms",
+    "the llm",
+    "large language models llms",
+    "knowledge acquisition methodologies",
+    "lower llm inference costs",
+    "process",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.242/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

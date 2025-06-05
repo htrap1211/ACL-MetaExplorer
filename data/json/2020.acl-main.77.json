@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.77",
+  "title": "Fine-grained Interest Matching for Neural News Recommendation",
+  "authors": [
+    "Wang, Heyuan  and\nWu, Fangzhao  and\nLiu, Zheng  and\nXie, Xing"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Personalized news recommendation is a critical technology to improve users’ online news reading experience. The core of news recommendation is accurate matching between user’s interests and candidate news. The same user usually has diverse interests that are reflected in different news she has browsed. Meanwhile, important semantic features of news are implied in text segments of different granularities. Existing studies generally represent each user as a single vector and then match the candidate news vector, which may lose fine-grained information for recommendation. In this paper, we propose FIM, a Fine-grained Interest Matching method for neural news recommendation. Instead of aggregating user’s all historical browsed news into a unified vector, we hierarchically construct multi-level representations for each news via stacked dilated convolutions. Then we perform fine-grained matching between segment pairs of each browsed news and the candidate news at each semantic level. High-order salient signals are then identified by resembling the hierarchy of image recognition for final click prediction. Extensive experiments on a real-world dataset from MSN news validate the effectiveness of our model on news recommendation.",
+  "keywords": [
+    "a unified vector",
+    "granularities",
+    "different granularities",
+    "the hierarchy",
+    "semantic",
+    "we",
+    "neural",
+    "unified",
+    "information",
+    "existing studies",
+    "meanwhile important semantic features",
+    "core",
+    "vector",
+    "text",
+    "hierarchy"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.77/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:43:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.263",
+  "title": "Spectral Filters, Dark Signals, and Attention Sinks",
+  "authors": [
+    "Cancedda, Nicola"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Projecting intermediate representations onto the vocabulary is an increasingly popular interpretation tool for transformer-based LLMs, also known as the logit lens (Nostalgebraist). We propose a quantitative extension to this approach and define spectral filters on intermediate representations based on partitioning the singular vectors of the vocabulary embedding and unembedding matrices into bands. We find that the signals exchanged in the tail end of the spectrum, i.e. corresponding to the singular vectors with smallest singular values, are responsible for attention sinking (Xiao et al., 2023), of which we provide an explanation. We find that the negative log-likelihood of pretrained models can be kept low despite suppressing sizeable parts of the embedding spectrum in a layer-dependent way, as long as attention sinking is preserved. Finally, we discover that the representation of tokens that draw attention from many tokens have large projections on the tail end of the spectrum, and likely act as additional attention sinks.",
+  "keywords": [
+    "transformer",
+    "the singular vectors",
+    "end",
+    "attention sinks",
+    "additional attention sinks",
+    "transformer-based llms",
+    "vectors",
+    "the embedding spectrum",
+    "layer",
+    "attention",
+    "we",
+    "log",
+    "act",
+    "llms",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.263/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

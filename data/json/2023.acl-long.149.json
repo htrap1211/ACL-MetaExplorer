@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.149",
+  "title": "D}ecomp{X}: Explaining Transformers Decisions by Propagating Token Decomposition",
+  "authors": [
+    "Modarressi, Ali  and\nFayyaz, Mohsen  and\nAghazadeh, Ehsan  and\nYaghoobzadeh, Yadollah  and\nPilehvar, Mohammad Taher"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "An emerging solution for explaining Transformer-based models is to use vector-based analysis on how the representations are formed. However, providing a faithful vector-based explanation for a multi-layer model could be challenging in three aspects: (1) Incorporating all components into the analysis, (2) Aggregating the layer dynamics to determine the information flow and mixture throughout the entire model, and (3) Identifying the connection between the vector-based analysis and the model’s predictions. In this paper, we present DecompX to tackle these challenges. DecompX is based on the construction of decomposed token representations and their successive propagation throughout the model without mixing them in between layers. Additionally, our proposal provides multiple advantages over existing solutions for its inclusion of all encoder components (especially nonlinear feed-forward networks) and the classification head. The former allows acquiring precise vectors while the latter transforms the decomposition into meaningful prediction-based values, eliminating the need for norm- or summation-based vector aggregation. According to the standard faithfulness evaluations, DecompX consistently outperforms existing gradient-based and vector-based approaches on various datasets. Our code is available athttps://github.com/mohsenfayyaz/DecompX.",
+  "keywords": [
+    "code",
+    "transformers",
+    "layer",
+    "we",
+    "classification",
+    "vector-based analysis",
+    "transformers decisions",
+    "token",
+    "information",
+    "the classification head",
+    "feed",
+    "analysis",
+    "the vector-based analysis",
+    "vector",
+    "transformer-based models"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.149/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

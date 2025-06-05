@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.781",
+  "title": "Don{'}t Retrain, Just Rewrite: Countering Adversarial Perturbations by Rewriting Text",
+  "authors": [
+    "Gupta, Ashim  and\nBlum, Carter  and\nChoji, Temma  and\nFei, Yingjie  and\nShah, Shalin  and\nVempala, Alakananda  and\nSrikumar, Vivek"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Can language models transform inputs to protect text classifiers against adversarial attacks? In this work, we present ATINTER, a model that intercepts and learns to rewrite adversarial inputs to make them non-adversarial for a downstream text classifier. Our experiments on four datasets and five attack mechanisms reveal that ATINTER is effective at providing better adversarial robustness than existing defense approaches, without compromising task accuracy. For example, on sentiment classification using the SST-2 dataset, our method improves the adversarial accuracy over the best existing defense approach by more than 4% with a smaller decrease in task accuracy (0.5 % vs 2.5%). Moreover, we show that ATINTER generalizes across multiple downstream tasks and classifiers without having to explicitly retrain it for those settings. For example, we find that when ATINTER is trained to remove adversarial perturbations for the sentiment classification task on the SST-2 dataset, it even transfers to a semantically different task of news classification (on AGNews) and improves the adversarial robustness by more than 10%.",
+  "keywords": [
+    "work",
+    "the adversarial accuracy",
+    "language",
+    "classifier",
+    "model",
+    "news classification",
+    "text",
+    "it",
+    "task accuracy",
+    "text classifiers",
+    "classifiers",
+    "language models",
+    "the sentiment classification task",
+    "we",
+    "sentiment classification"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.781/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:46:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

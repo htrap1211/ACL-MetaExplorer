@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.186",
+  "title": "Improving Neural Political Statement Classification with Class Hierarchical Information",
+  "authors": [
+    "Dayanik, Erenay  and\nBlessing, Andre  and\nBlokker, Nico  and\nHaunss, Sebastian  and\nKuhn, Jonas  and\nLapesa, Gabriella  and\nPado, Sebastian"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Many tasks in text-based computational social science (CSS) involve the classification of political statements into categories based on a domain-specific codebook. In order to be useful for CSS analysis, these categories must be fine-grained. The typically skewed distribution of fine-grained categories, however, results in a challenging classification problem on the NLP side. This paper proposes to make use of the hierarchical relations among categories typically present in such codebooks:e.g., markets and taxation are both subcategories of economy, while borders is a subcategory of security. We use these ontological relations as prior knowledge to establish additional constraints on the learned model, thusimproving performance overall and in particular for infrequent categories. We evaluate several lightweight variants of this intuition by extending state-of-the-art transformer-based textclassifiers on two datasets and multiple languages. We find the most consistent improvement for an approach based on regularization.",
+  "keywords": [
+    "class hierarchical information",
+    "infrequent categories",
+    "we",
+    "fine-grained categories",
+    "classification",
+    "neural",
+    "information",
+    "science",
+    "the nlp side",
+    "analysis",
+    "categories",
+    "text",
+    "neural political statement classification",
+    "transformer",
+    "hierarchical"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.186/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

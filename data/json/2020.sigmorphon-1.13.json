@@ -1,0 +1,33 @@
+{
+  "id": "2020.sigmorphon-1.13",
+  "title": "Frustratingly Easy Multilingual Grapheme-to-Phoneme Conversion",
+  "authors": [
+    "Prabhu, Nikhil  and\nKann, Katharina"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 17th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "In this paper, we describe two CU-Boulder submissions to the SIGMORPHON 2020 Task 1 on multilingual grapheme-to-phoneme conversion (G2P). Inspired by the high performance of a standard transformer model (Vaswani et al., 2017) on the task, we improve over this approach by adding two modifications: (i) Instead of training exclusively on G2P, we additionally create examples for the opposite direction, phoneme-to-grapheme conversion (P2G). We then perform multi-task training on both tasks. (ii) We produce ensembles of our models via majority voting. Our approaches, though being conceptually simple, result in systems that place 6th and 8th amongst 23 submitted systems, and obtain the best results out of all systems on Lithuanian and Modern Greek, respectively.",
+  "keywords": [
+    "ensembles",
+    "transformer",
+    "i",
+    "model",
+    "we",
+    "training",
+    "that",
+    "both tasks ii",
+    "multi",
+    "approach",
+    "modifications",
+    "our approaches",
+    "two cu-boulder submissions",
+    "phoneme",
+    "task"
+  ],
+  "url": "https://aclanthology.org/2020.sigmorphon-1.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:58:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

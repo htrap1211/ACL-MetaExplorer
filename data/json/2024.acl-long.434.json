@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.434",
+  "title": "LEMON}: Reviving Stronger and Smaller {LM}s from Larger {LM}s with Linear Parameter Fusion",
+  "authors": [
+    "Chen, Yilong  and\nShang, Junyuan  and\nZhang, Zhenyu  and\nCui, Shiyao  and\nLiu, Tingwen  and\nWang, Shuohuan  and\nSun, Yu  and\nWu, Hua"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In the new era of language models, small models (with billions of parameter sizes) are receiving increasing attention due to their flexibility and cost-effectiveness in deployment. However, limited by the model size, the performance of small models trained from scratch may often be unsatisfactory. Learning a stronger and smaller model with the help of larger models is an intuitive idea. Inspired by the observing modular structures in preliminary analysis, we propose LEMON to learn competent initial points for smaller models by fusing parameters from larger models, thereby laying a solid foundation for subsequent training. Specifically, the parameter fusion process involves two operators for layer and dimension, respectively, and we also introduce controllable receptive fields to model the prior parameter characteristics. In this way, the larger model could be transformed into any specific smaller scale and architecture. Starting from LLaMA 2-7B, we revive two stronger and smaller models with 1.3B and 2.7B. Experimental results demonstrate that the fusion-based method exhibits flexibility and outperforms a series of competitive baselines in terms of both effectiveness and efficiency.",
+  "keywords": [
+    "series",
+    "layer",
+    "efficiency",
+    "era",
+    "we",
+    "fields",
+    "fusion",
+    "parameter",
+    "training",
+    "increasing attention",
+    "analysis",
+    "s",
+    "controllable receptive fields",
+    "a series",
+    "process"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.434/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:40:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

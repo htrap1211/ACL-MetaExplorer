@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.104",
+  "title": "LMC}ap: Few-shot Multilingual Image Captioning by Retrieval Augmented Language Model Prompting",
+  "authors": [
+    "Ramos, Rita  and\nMartins, Bruno  and\nElliott, Desmond"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Multilingual image captioning has recently been tackled by training with large-scale machine translated data, which is an expensive, noisy, and time-consuming process. Without requiring any multilingual caption data, we propose LMCap, an image-blind few-shot multilingual captioning model that works by prompting a language model with retrieved captions. Specifically, instead of following the standard encoder-decoder paradigm, given an image, LMCap first retrieves the captions of similar images using a multilingual CLIP encoder. These captions are then combined into a prompt for an XGLM decoder, in order to generate captions in the desired language. In other words, the generation model does not directly process the image, instead it processes retrieved captions. Experiments on the XM3600 dataset of geographically diverse images show that our model is competitive with fully-supervised multilingual captioning models, without requiring any supervised training on any captioning data.",
+  "keywords": [
+    "process",
+    "an xglm decoder",
+    "prompt",
+    "the generation model",
+    "language",
+    "a prompt",
+    "generation",
+    "model",
+    "machine",
+    "few-shot multilingual image",
+    "it",
+    "the standard encoder-decoder paradigm",
+    "encoder",
+    "retrieval",
+    "decoder"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.104/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

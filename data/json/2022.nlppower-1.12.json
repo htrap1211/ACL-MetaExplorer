@@ -1,0 +1,33 @@
+{
+  "id": "2022.nlppower-1.12",
+  "title": "Characterizing the Efficiency vs. Accuracy Trade-off for Long-Context {NLP} Models",
+  "authors": [
+    "Ang, Phyllis  and\nDhingra, Bhuwan  and\nWu Wills, Lisa"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of NLP Power! The First Workshop on Efficient Benchmarking in NLP",
+  "abstract": "With many real-world applications of Natural Language Processing (NLP) comprising of long texts, there has been a rise in NLP benchmarks that measure the accuracy of models that can handle longer input sequences. However, these benchmarks do not consider the trade-offs between accuracy, speed, and power consumption as input sizes or model sizes are varied. In this work, we perform a systematic study of this accuracy vs. efficiency trade-off on two widely used long-sequence models - Longformer-Encoder-Decoder (LED) and Big Bird - during fine-tuning and inference on four datasets from the SCROLLS benchmark. To study how this trade-off differs across hyperparameter settings, we compare the models across four sequence lengths (1024, 2048, 3072, 4096) and two model sizes (base and large) under a fixed resource budget. We find that LED consistently achieves better accuracy at lower energy costs than Big Bird. For summarization, we find that increasing model size is more energy efficient than increasing sequence length for higher accuracy. However, this comes at the cost of a large drop in inference speed. For question answering, we find that smaller models are both more efficient and more accurate due to the larger training batch sizes possible under a fixed resource budget.",
+  "keywords": [
+    "the accuracy",
+    "varied",
+    "long-context nlp models",
+    "efficient",
+    "efficiency trade-off",
+    "question",
+    "efficiency",
+    "summarization",
+    "we",
+    "better accuracy",
+    "training",
+    "fine-tuning",
+    "longformer-encoder-decoder",
+    "natural",
+    "the efficiency"
+  ],
+  "url": "https://aclanthology.org/2022.nlppower-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:45:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

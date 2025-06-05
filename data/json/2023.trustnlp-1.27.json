@@ -1,0 +1,33 @@
+{
+  "id": "2023.trustnlp-1.27",
+  "title": "Enabling Classifiers to Make Judgements Explicitly Aligned with Human Values",
+  "authors": [
+    "Bang, Yejin  and\nYu, Tiezheng  and\nMadotto, Andrea  and\nLin, Zhaojiang  and\nDiab, Mona  and\nFung, Pascale"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 3rd Workshop on Trustworthy Natural Language Processing (TrustNLP 2023)",
+  "abstract": "Many NLP classification tasks, such as sexism/racism detection or toxicity detection, are based on human values. Yet, human values can vary under diverse cultural conditions. Therefore, we introduce a framework for value-aligned classification that performs prediction based on explicitly written human values in the command. Along with the task, we propose a practical approach that distills value-aligned knowledge from large-scale language models (LLMs) to construct value-aligned classifiers in two steps. First, we generate value-aligned training data from LLMs by prompt-based few-shot learning. Next, we fine-tune smaller classification models with the generated data for the task. Empirical results show that our VA-Models surpass multiple baselines by at least 15.56% on the F1-score, including few-shot learning with OPT-175B and existing text augmentation methods. We suggest that using classifiers with explicit human value input improves both inclusivity & explainability in AI.",
+  "keywords": [
+    "the f1-score",
+    "knowledge",
+    "prompt",
+    "language",
+    "nlp",
+    "text",
+    "human",
+    "few-shot learning",
+    "classifiers",
+    "large-scale language models",
+    "prompt-based few-shot learning",
+    "fine",
+    "we",
+    "learning",
+    "many nlp classification tasks"
+  ],
+  "url": "https://aclanthology.org/2023.trustnlp-1.27/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:32:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

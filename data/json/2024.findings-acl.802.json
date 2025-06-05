@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.802",
+  "title": "R}a{DA}: Retrieval-augmented Web Agent Planning with {LLM}s",
+  "authors": [
+    "Kim, Minsoo  and\nBursztyn, Victor  and\nKoh, Eunyee  and\nGuo, Shunan  and\nHwang, Seung-won"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Agents powered by large language models (LLMs) inherit important limitations, such as the restricted context length, dependency on human-engineered exemplars (e.g., for task decomposition), and insufficient generalization. To address these challenges, we propose RaDA, a novel planning method for Web agents that does not require manual exemplars, efficiently leverages the LLMs’ context, and enhances generalization. RaDA disentangles planning into two stages: for a new given task, during Retrieval-augmented Task Decomposition (RaD), it decomposes tasks into high-level subtasks; next, during Retrieval-augmented Action Generation (RaA), it traverses the trajectory obtained with RaD to iteratively synthesize actions based on dynamically retrieved exemplars. We compare RaDA with strong baselines covering a broad space of design choices, using both GPT-3.5 and GPT-4 as backbones; and we find consistent improvements over previous SOTA in two challenging benchmarks, CompWoB and Mind2Web, covering settings with different complexities. We show the contributions of RaDA via ablation studies and qualitative analysis; and we discuss the structural benefits of our more compositional design.",
+  "keywords": [
+    "ablation studies",
+    "we",
+    "complexities",
+    "rad",
+    "llm",
+    "different complexities",
+    "it",
+    "retrieval-augmented task decomposition rad",
+    "gpt-3",
+    "retrieval",
+    "analysis",
+    "llms",
+    "dynamically retrieved exemplars",
+    "both gpt-3",
+    "gpt-4"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.802/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:59:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-srw.32",
+  "title": "On the Locality of Attention in Direct Speech Translation",
+  "authors": [
+    "Alastruey, Belen  and\nFerrando, Javier  and\nG{\\'a}llego, Gerard I.  and\nCosta-juss{\\`a}, Marta R."
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "Transformers have achieved state-of-the-art results across multiple NLP tasks. However, the self-attention mechanism complexity scales quadratically with the sequence length, creating an obstacle for tasks involving long sequences, like in the speech domain. In this paper, we discuss the usefulness of self-attention for Direct Speech Translation. First, we analyze the layer-wise token contributions in the self-attention of the encoder, unveiling local diagonal patterns. To prove that some attention weights are avoidable, we propose to substitute the standard self-attention with a local efficient one, setting the amount of context used based on the results of the analysis. With this approach, our model matches the baseline performance, and improves the efficiency by skipping the computation of those weights that standard attention discards.",
+  "keywords": [
+    "the encoder",
+    "some attention weights",
+    "transformers",
+    "direct speech translation transformers",
+    "nlp",
+    "model",
+    "the self-attention mechanism complexity",
+    "efficient",
+    "self",
+    "token",
+    "the efficiency",
+    "that standard attention discards",
+    "encoder",
+    "multiple nlp tasks",
+    "the standard self-attention"
+  ],
+  "url": "https://aclanthology.org/2022.acl-srw.32/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:34:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

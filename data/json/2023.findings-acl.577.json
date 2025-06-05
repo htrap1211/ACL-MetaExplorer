@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.577",
+  "title": "C}o{A}ug: Combining Augmentation of Labels and Labelling Rules",
+  "authors": [
+    "R. Menon, Rakesh  and\nWang, Bingqing  and\nAraki, Jun  and\nZhou, Zhengyu  and\nFeng, Zhe  and\nRen, Liu"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Collecting labeled data for Named Entity Recognition (NER) tasks is challenging due to the high cost of manual annotations. Instead, researchers have proposed few-shot self-training and rule-augmentation techniques to minimize the reliance on large datasets. However, inductive biases and restricted logical language lexicon, respectively, can limit the ability of these models to perform well. In this work, we propose CoAug, a co-augmentation framework that allows us to improve few-shot models and rule-augmentation models by bootstrapping predictions from each model. By leveraging rules and neural model predictions to train our models, we complement the benefits of each and achieve the best of both worlds. In our experiments, we show that our best CoAug model can outperform strong weak-supervision-based NER models at least by 6.5 F1 points.",
+  "keywords": [
+    "however inductive biases",
+    "work",
+    "ner",
+    "language",
+    "neural",
+    "few-shot models",
+    "model",
+    "self",
+    "strong weak-supervision-based ner models",
+    "us",
+    "we",
+    "entity",
+    "biases",
+    "6 5 f1",
+    "shot"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.577/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

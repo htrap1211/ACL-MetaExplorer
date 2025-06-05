@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.468",
+  "title": "Learned Adapters Are Better Than Manually Designed Adapters",
+  "authors": [
+    "Zhang, Yuming  and\nWang, Peng  and\nTan, Ming  and\nZhu, Wei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Recently, a series of works have looked into further improving the adapter-based tuning by manually designing better adapter architectures. Understandably, these manually designed solutions are sub-optimal. In this work, we propose the Learned Adapter framework to automatically learn the optimal adapter architectures for better task adaptation of pre-trained models (PTMs). First, we construct a unified search space for adapter architecture designs. In terms of the optimization method on the search space, we propose a simple-yet-effective method, GDNAS for better architecture optimization. Extensive experiments show that our Learned Adapter framework can outperform the previous parameter-efficient tuning (PETuning) baselines while tuning comparable or fewer parameters. Moreover: (a) the learned adapter architectures are explainable and transferable across tasks. (b) We demonstrate that our architecture search space design is valid.",
+  "keywords": [
+    "work",
+    "a series",
+    "tuning",
+    "efficient",
+    "series",
+    "the optimization method",
+    "optimization",
+    "we",
+    "valid",
+    "a unified search space",
+    "pre",
+    "parameter",
+    "this work",
+    "these manually designed solutions",
+    "baselines"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.468/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.bionlp-1.16",
+  "title": "Improving Supervised Drug-Protein Relation Extraction with Distantly Supervised Models",
+  "authors": [
+    "Iinuma, Naoki  and\nMiwa, Makoto  and\nSasaki, Yutaka"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 21st Workshop on Biomedical Language Processing",
+  "abstract": "This paper proposes novel drug-protein relation extraction models that indirectly utilize distant supervision data. Concretely, instead of adding distant supervision data to the manually annotated training data, our models incorporate distantly supervised models that are relation extraction models trained with distant supervision data. Distantly supervised learning has been proposed to generate a large amount of pseudo-training data at low cost. However, there is still a problem of low prediction performance due to the inclusion of mislabeled data. Therefore, several methods have been proposed to suppress the effects of noisy cases by utilizing some manually annotated training data. However, their performance is lower than that of supervised learning on manually annotated data because mislabeled data that cannot be fully suppressed becomes noise when training the model. To overcome this issue, our methods indirectly utilize distant supervision data with manually annotated training data. The experimental results on the DrugProt corpus in the BioCreative VII Track 1 showed that our proposed model can consistently improve the supervised models in different settings.",
+  "keywords": [
+    "extraction",
+    "model",
+    "learning",
+    "training",
+    "that",
+    "a large amount",
+    "this issue",
+    "manually annotated training data",
+    "the supervised models",
+    "supervised",
+    "distant",
+    "supervision",
+    "pseudo",
+    "distant supervision data",
+    "the experimental results"
+  ],
+  "url": "https://aclanthology.org/2022.bionlp-1.16/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

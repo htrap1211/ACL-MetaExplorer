@@ -1,0 +1,33 @@
+{
+  "id": "2020.autosimtrans-1.5",
+  "title": "Modeling Discourse Structure for Document-level Neural Machine Translation",
+  "authors": [
+    "Chen, Junxuan  and\nLi, Xiang  and\nZhang, Jiarui  and\nZhou, Chulun  and\nCui, Jianwei  and\nWang, Bin  and\nSu, Jinsong"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the First Workshop on Automatic Simultaneous Translation",
+  "abstract": "Recently, document-level neural machine translation (NMT) has become a hot topic in the community of machine translation. Despite its success, most of existing studies ignored the discourse structure information of the input document to be translated, which has shown effective in other tasks. In this paper, we propose to improve document-level NMT with the aid of discourse structure information. Our encoder is based on a hierarchical attention network (HAN) (Miculicich et al., 2018). Specifically, we first parse the input document to obtain its discourse structure. Then, we introduce a Transformer-based path encoder to embed the discourse structure information of each word. Finally, we combine the discourse structure information with the word embedding before it is fed into the encoder. Experimental results on the English-to-German dataset show that our model can significantly outperform both Transformer and Transformer+HAN.",
+  "keywords": [
+    "hot",
+    "a transformer-based path encoder",
+    "hierarchical",
+    "transformer",
+    "neural",
+    "model",
+    "machine",
+    "studies",
+    "it",
+    "both transformer",
+    "document-level neural machine translation",
+    "the encoder experimental results",
+    "our encoder",
+    "modeling",
+    "topic"
+  ],
+  "url": "https://aclanthology.org/2020.autosimtrans-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:54:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

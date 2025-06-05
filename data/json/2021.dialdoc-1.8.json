@@ -1,0 +1,33 @@
+{
+  "id": "2021.dialdoc-1.8",
+  "title": "Cascaded Span Extraction and Response Generation for Document-Grounded Dialog",
+  "authors": [
+    "Daheim, Nico  and\nThulke, David  and\nDugast, Christian  and\nNey, Hermann"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Document-grounded Dialogue and Conversational Question Answering (DialDoc 2021)",
+  "abstract": "This paper summarizes our entries to both subtasks of the first DialDoc shared task which focuses on the agent response prediction task in goal-oriented document-grounded dialogs. The task is split into two subtasks: predicting a span in a document that grounds an agent turn and generating an agent response based on a dialog and grounding document. In the first subtask, we restrict the set of valid spans to the ones defined in the dataset, use a biaffine classifier to model spans, and finally use an ensemble of different models. For the second sub-task, we use a cascaded model which grounds the response prediction on the predicted span instead of the full document. With these approaches, we obtain significant improvements in both subtasks compared to the baseline.",
+  "keywords": [
+    "ensemble",
+    "our entries",
+    "generation",
+    "extraction",
+    "classifier",
+    "model",
+    "a biaffine classifier",
+    "dialog",
+    "-",
+    "entries",
+    "we",
+    "valid",
+    "response generation",
+    "goal-oriented document-grounded dialogs",
+    "an ensemble"
+  ],
+  "url": "https://aclanthology.org/2021.dialdoc-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

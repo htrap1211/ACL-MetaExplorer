@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.6",
+  "title": "Generating Informative Conversational Response using Recurrent Knowledge-Interaction and Knowledge-Copy",
+  "authors": [
+    "Lin, Xiexiong  and\nJian, Weiyu  and\nHe, Jianshan  and\nWang, Taifeng  and\nChu, Wei"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Knowledge-driven conversation approaches have achieved remarkable research attention recently. However, generating an informative response with multiple relevant knowledge without losing fluency and coherence is still one of the main challenges. To address this issue, this paper proposes a method that uses recurrent knowledge interaction among response decoding steps to incorporate appropriate knowledge. Furthermore, we introduce a knowledge copy mechanism using a knowledge-aware pointer network to copy words from external knowledge according to knowledge attention distribution. Our joint neural conversation model which integrates recurrent Knowledge-Interaction and knowledge Copy (KIC) performs well on generating informative responses. Experiments demonstrate that our model with fewer parameters yields significant improvements over competitive baselines on two datasets Wizard-of-Wikipedia(average Bleu +87%; abs.: 0.034) and DuConv(average Bleu +20%; abs.: 0.047)) with different knowledge formats (textual & structured) and different languages (English & Chinese).",
+  "keywords": [
+    "bleu",
+    "we",
+    "neural",
+    "recurrent",
+    "remarkable research attention",
+    "knowledge attention distribution",
+    "knowledge",
+    "informative conversational response",
+    "model",
+    "conversational",
+    "conversation",
+    "attention",
+    "network",
+    "external knowledge",
+    "interaction"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:42:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P17-1103",
+  "title": "Towards an Automatic {T}uring Test: Learning to Evaluate Dialogue Responses",
+  "authors": [
+    "Lowe, Ryan  and\nNoseworthy, Michael  and\nSerban, Iulian Vlad  and\nAngelard-Gontier, Nicolas  and\nBengio, Yoshua  and\nPineau, Joelle"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Automatically evaluating the quality of dialogue responses for unstructured domains is a challenging problem. Unfortunately, existing automatic evaluation metrics are biased and correlate very poorly with human judgements of response quality (Liu et al., 2016). Yet having an accurate automatic evaluation procedure is crucial for dialogue research, as it allows rapid prototyping and testing of new models with fewer expensive human evaluations. In response to this challenge, we formulate automatic dialogue evaluation as a learning problem. We present an evaluation model (ADEM)that learns to predict human-like scores to input responses, using a new dataset of human response scores. We show that the ADEM model’s predictions correlate significantly, and at a level much higher than word-overlap metrics such as BLEU, with human judgements at both the utterance and system-level. We also show that ADEM can generalize to evaluating dialogue mod-els unseen during training, an important step for automatic dialogue evaluation.",
+  "keywords": [
+    "dialogue mod-els",
+    "model",
+    "mod",
+    "it",
+    "automatic dialogue evaluation",
+    "human",
+    "evaluations",
+    "metrics",
+    "bleu",
+    "fewer expensive human evaluations",
+    "word-overlap metrics",
+    "we",
+    "learning",
+    "dialogue",
+    "word"
+  ],
+  "url": "https://aclanthology.org/P17-1103/",
+  "provenance": {
+    "collected_at": "2025-06-04 23:59:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

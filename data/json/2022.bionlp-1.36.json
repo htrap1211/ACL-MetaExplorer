@@ -1,0 +1,33 @@
+{
+  "id": "2022.bionlp-1.36",
+  "title": "Quantifying Clinical Outcome Measures in Patients with Epilepsy Using the Electronic Health Record",
+  "authors": [
+    "Xie, Kevin  and\nLitt, Brian  and\nRoth, Dan  and\nEllis, Colin A."
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 21st Workshop on Biomedical Language Processing",
+  "abstract": "A wealth of important clinical information lies untouched in the Electronic Health Record, often in the form of unstructured textual documents. For patients with Epilepsy, such information includes outcome measures like Seizure Frequency and Dates of Last Seizure, key parameters that guide all therapy for these patients. Transformer models have been able to extract such outcome measures from unstructured clinical note text as sentences with human-like accuracy; however, these sentences are not yet usable in a quantitative analysis for large-scale studies. In this study, we developed a pipeline to quantify these outcome measures. We used text summarization models to convert unstructured sentences into specific formats, and then employed rules-based quantifiers to calculate seizure frequencies and dates of last seizure. We demonstrated that our pipeline of models does not excessively propagate errors and we analyzed its mistakes. We anticipate that our methods can be generalized outside of epilepsy to other disorders to drive large-scale clinical research.",
+  "keywords": [
+    "human-like accuracy",
+    "text summarization models",
+    "form",
+    "summarization",
+    "we",
+    "these patients transformer models",
+    "patients",
+    "rules-based quantifiers",
+    "large-scale studies",
+    "information",
+    "seizure frequencies",
+    "analysis",
+    "text",
+    "quantifiers",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2022.bionlp-1.36/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:40:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

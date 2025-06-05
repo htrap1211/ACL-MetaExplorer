@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.249",
+  "title": "Lifting the Curse of Capacity Gap in Distilling Language Models",
+  "authors": [
+    "Zhang, Chen  and\nYang, Yang  and\nLiu, Jiahao  and\nWang, Jingang  and\nXian, Yunsen  and\nWang, Benyou  and\nSong, Dawei"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Pretrained language models (LMs) have shown compelling performance on various downstream tasks, but unfortunately they require a tremendous amount of inference compute. Knowledge distillation finds a path to compress LMs to small ones with a teacher-student paradigm. However, when the capacity gap between the teacher and the student is large, a curse of capacity gap appears, invoking a deficiency in distilling LMs. While a few studies have been carried out to fill the gap, the curse is not yet well tackled. In this paper, we aim at lifting the curse of capacity gap via enlarging the capacity of the student without notably increasing the inference compute. Largely motivated by sparse activation regime of mixture of experts (MoE), we propose a mixture of minimal experts (MiniMoE), which imposes extra parameters to the student but introduces almost no additional inference compute. Experimental results on GLUE and CoNLL demonstrate the curse of capacity gap is lifted by the magic of MiniMoE to a large extent. MiniMoE also achieves the state-of-the-art performance at small FLOPs compared with a range of competitive baselines. With a compression rate as much as ~50×, MiniMoE preserves ~95% GLUE score of the teacher.",
+  "keywords": [
+    "extra",
+    "rate",
+    "a few studies",
+    "we",
+    "deficiency",
+    "language models",
+    "activation",
+    "knowledge",
+    "language",
+    "sparse activation regime",
+    "studies",
+    "a deficiency",
+    "language models lms",
+    "state",
+    "paradigm"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.249/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:38:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

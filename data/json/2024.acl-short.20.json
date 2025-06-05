@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-short.20",
+  "title": "D}yna{S}emble: Dynamic Ensembling of Textual and Structure-Based Models for Knowledge Graph Completion",
+  "authors": [
+    "Nandi, Ananjan  and\nKaur, Navdeep  and\nSingla, Parag  and\n., Mausam"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "We consider two popular approaches to KnowledgeGraph Completion (KGC): textual modelsthat rely on textual entity descriptions, andstructure-based models that exploit the connectivitystructure of the Knowledge Graph(KG). Preliminary experiments show that theseapproaches have complementary strengths:structure-based models perform exceptionallywell when the gold answer is easily reachablefrom the query head in the KG, while textualmodels exploit descriptions to give goodperformance even when the gold answer isnot easily reachable. In response, we proposeDynaSemble, a novel method for learningquery-dependent ensemble weights to combinethese approaches by using the distributions ofscores assigned by the models in the ensembleto all candidate entities. DynaSemble achievesstate-of-the-art results on three standard KGCdatasets, with up to 6.8 pt MRR and 8.3 ptHits@1 gains over the best baseline model forthe WN18RR dataset.",
+  "keywords": [
+    "the knowledge graph",
+    "kgc",
+    "we",
+    "graph",
+    "three standard kgcdatasets",
+    "ensemble",
+    "answer",
+    "ensembleto",
+    "knowledge graph completion",
+    "kgcdatasets",
+    "learningquery-dependent ensemble weights",
+    "achievesstate",
+    "knowledge",
+    "emble",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.acl-short.20/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:46:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

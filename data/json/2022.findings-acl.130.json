@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.130",
+  "title": "Document-Level Event Argument Extraction via Optimal Transport",
+  "authors": [
+    "Pouran Ben Veyseh, Amir  and\nNguyen, Minh Van  and\nDernoncourt, Franck  and\nMin, Bonan  and\nNguyen, Thien"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Event Argument Extraction (EAE) is one of the sub-tasks of event extraction, aiming to recognize the role of each entity mention toward a specific event trigger. Despite the success of prior works in sentence-level EAE, the document-level setting is less explored. In particular, whereas syntactic structures of sentences have been shown to be effective for sentence-level EAE, prior document-level EAE models totally ignore syntactic structures for documents. Hence, in this work, we study the importance of syntactic structures in document-level EAE. Specifically, we propose to employ Optimal Transport (OT) to induce structures of documents based on sentence-level syntactic structures and tailored to EAE task. Furthermore, we propose a novel regularization technique to explicitly constrain the contributions of unrelated context words in the final prediction for EAE. We perform extensive experiments on the benchmark document-level EAE dataset RAMS that leads to the state-of-the-art performance. Moreover, our experiments on the ACE 2005 dataset reveals the effectiveness of the proposed model in the sentence-level EAE by establishing new state-of-the-art results.",
+  "keywords": [
+    "extraction",
+    "we",
+    "-",
+    "a novel regularization technique",
+    "work",
+    "model",
+    "regularization",
+    "entity",
+    "documents",
+    "state",
+    "effectiveness",
+    "optimal",
+    "eae",
+    "role",
+    "models"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.130/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.200",
+  "title": "Z}ero{AE}: Pre-trained Language Model based Autoencoder for Transductive Zero-shot Text Classification",
+  "authors": [
+    "Guo, Kaihao  and\nYu, Hang  and\nLiao, Cong  and\nLi, Jianguo  and\nZhang, Haipeng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Many text classification tasks require handling unseen domains with plenty of unlabeled data, thus giving rise to the self-adaption or the so-called transductive zero-shot learning (TZSL) problem. However, current methods based solely on encoders or decoders overlook the possibility that these two modules may promote each other. As a first effort to bridge this gap, we propose an autoencoder named ZeroAE. Specifically, the text is encoded with two separate BERT-based encoders into two disentangled spaces, i.e., label-relevant (for classification) and label-irrelevant respectively. The two latent spaces are then decoded by prompting GPT-2 to recover the text as well as to further generate text with labels in the unseen domains to train the encoder in turn. To better exploit the unlabeled data, a novel indirect uncertainty-aware sampling (IUAS) approach is proposed to train ZeroAE. Extensive experiments show that ZeroAE largely surpasses the SOTA methods by 15.93% and 8.70% on average respectively in the label-partially-unseen and label-fully-unseen scenario. Notably, the label-fully-unseen ZeroAE even possesses superior performance to the label-partially-unseen SOTA methods.",
+  "keywords": [
+    "transductive zero-shot text classification",
+    "autoencoder",
+    "we",
+    "current",
+    "shot",
+    "classification",
+    "the encoder",
+    "self",
+    "latent",
+    "decoders",
+    "gpt-2",
+    "pre-trained language model",
+    "i",
+    "bert",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.200/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

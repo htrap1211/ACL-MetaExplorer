@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.243",
+  "title": "Optimal Transport Guided Correlation Assignment for Multimodal Entity Linking",
+  "authors": [
+    "Zhang, Zefeng  and\nSheng, Jiawei  and\nChuang, Zhang  and\nLiangyunzhi, Liangyunzhi  and\nZhang, Wenyuan  and\nWang, Siqi  and\nLiu, Tingwen"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Multimodal entity linking (MEL) aims to link ambiguous mentions in multimodal contexts to entities in a multimodal knowledge graph. A pivotal challenge is to fully leverage multi-element correlations between mentions and entities to bridge modality gap and enable fine-grained semantic matching. Existing methods attempt several local correlative mechanisms, relying heavily on the automatically learned attention weights, which may over-concentrate on partial correlations. To mitigate this issue, we formulate the correlation assignment problem as an optimal transport (OT) problem, and propose a novel MEL framework, namely OT-MEL, with OT-guided correlation assignment. Thereby, we exploit the correlation between multimodal features to enhance multimodal fusion, and the correlation between mentions and entities to enhance fine-grained matching. To accelerate model prediction, we further leverage knowledge distillation to transfer OT assignment knowledge to attention mechanism. Experimental results show that our model significantly outperforms previous state-of-the-art baselines and confirm the effectiveness of the OT-guided correlation assignment.",
+  "keywords": [
+    "knowledge",
+    "entities",
+    "model",
+    "attention mechanism",
+    "-",
+    "semantic",
+    "we",
+    "attention",
+    "graph",
+    "entity",
+    "fusion",
+    "this issue",
+    "a pivotal challenge",
+    "the effectiveness",
+    "multi"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.243/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

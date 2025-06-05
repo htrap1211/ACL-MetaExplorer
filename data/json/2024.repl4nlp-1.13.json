@@ -1,0 +1,33 @@
+{
+  "id": "2024.repl4nlp-1.13",
+  "title": "Text-Guided Alternative Image Clustering",
+  "authors": [
+    "Stephan, Andreas  and\nMiklautz, Lukas  and\nLeiber, Collin  and\nLuz De Araujo, Pedro Henrique  and\nR{\\'e}p{\\'a}s, Dominik  and\nPlant, Claudia  and\nRoth, Benjamin"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 9th Workshop on Representation Learning for NLP (RepL4NLP-2024)",
+  "abstract": "Traditional image clustering techniques only find a single grouping within visual data. In particular, they do not provide a possibility to explicitly define multiple types of clustering. This work explores the potential of large vision-language models to facilitate alternative image clustering. We propose Text-Guided Alternative Image Consensus Clustering (TGAICC), a novel approach that leverages user-specified interests via prompts to guide the discovery of diverse clusterings. To achieve this, it generates a clustering for each prompt, groups them using hierarchical clustering, and then aggregates them using consensus clustering. TGAICC outperforms image- and text-based baselines on four alternative image clustering benchmark datasets. Furthermore, using count-based word statistics, we are able to obtain text-based explanations of the alternative clusterings. In conclusion, our research illustrates how contemporary large vision-language models can transform explanatory data analysis, enabling the generation of insightful, customizable, and diverse image clusterings.",
+  "keywords": [
+    "the generation",
+    "user-specified interests",
+    "a clustering",
+    "we",
+    "it",
+    "contemporary large vision-language models",
+    "large vision-language models",
+    "word",
+    "visual",
+    "analysis",
+    "prompt",
+    "the alternative clusterings",
+    "text",
+    "clustering tgaicc",
+    "diverse clusterings"
+  ],
+  "url": "https://aclanthology.org/2024.repl4nlp-1.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

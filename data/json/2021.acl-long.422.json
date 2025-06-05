@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.422",
+  "title": "Counterfactual Inference for Text Classification Debiasing",
+  "authors": [
+    "Qian, Chen  and\nFeng, Fuli  and\nWen, Lijie  and\nMa, Chunping  and\nXie, Pengjun"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Today’s text classifiers inevitably suffer from unintended dataset biases, especially the document-level label bias and word-level keyword bias, which may hurt models’ generalization. Many previous studies employed data-level manipulations or model-level balancing mechanisms to recover unbiased distributions and thus prevent models from capturing the two types of biases. Unfortunately, they either suffer from the extra cost of data collection/selection/annotation or need an elaborate design of balancing strategies. Different from traditional factual inference in which debiasing occurs before or during training, counterfactual inference mitigates the influence brought by unintended confounders after training, which can make unbiased decisions with biased observations. Inspired by this, we propose a model-agnostic text classification debiasing framework – Corsair, which can effectively avoid employing data manipulations or designing balancing mechanisms. Concretely, Corsair first trains a base model on a training set directly, allowing the dataset biases ‘poison’ the trained model. In inference, given a factual input document, Corsair imagines its two counterfactual counterparts to distill and mitigate the two biases captured by the poisonous model. Extensive experiments demonstrate Corsair’s effectiveness, generalizability and fairness.",
+  "keywords": [
+    "bias",
+    "unbiased",
+    "the two biases",
+    "extra",
+    "classifiers",
+    "we",
+    "generalizability",
+    "balancing strategies",
+    "unintended dataset biases",
+    "many previous studies",
+    "unbiased decisions",
+    "training",
+    "classification",
+    "text classifiers",
+    "the dataset biases"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.422/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.94",
+  "title": "The Inside Story: Towards Better Understanding of Machine Translation Neural Evaluation Metrics",
+  "authors": [
+    "Rei, Ricardo  and\nGuerreiro, Nuno M.  and\nTreviso, Marcos  and\nCoheur, Luisa  and\nLavie, Alon  and\nMartins, Andr{\\'e}"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Neural metrics for machine translation evaluation, such as COMET, exhibit significant improvements in their correlation with human judgments, as compared to traditional metrics based on lexical overlap, such as BLEU. Yet, neural metrics are, to a great extent, “black boxes” returning a single sentence-level score without transparency about the decision-making process. In this work, we develop and compare several neural explainability methods and demonstrate their effectiveness for interpreting state-of-the-art fine-tuned neural metrics. Our study reveals that these metrics leverage token-level information that can be directly attributed to translation errors, as assessed through comparison of token-level neural saliency maps with Multidimensional Quality Metrics (MQM) annotations and with synthetically-generated critical translation errors. To ease future research, we release our code at:https://github.com/Unbabel/COMET/tree/explainable-metrics",
+  "keywords": [
+    "code",
+    "bleu",
+    "we",
+    "translation",
+    "neural",
+    "neural metrics",
+    "token",
+    "traditional metrics",
+    "information",
+    "multidimensional quality metrics",
+    "these metrics",
+    "token-level neural saliency maps",
+    "synthetically-generated critical translation errors",
+    "metrics",
+    "saliency"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.94/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:49:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

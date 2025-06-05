@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.854",
+  "title": "Unsupervised Real-Time Hallucination Detection based on the Internal States of Large Language Models",
+  "authors": [
+    "Su, Weihang  and\nWang, Changyue  and\nAi, Qingyao  and\nHu, Yiran  and\nWu, Zhijing  and\nZhou, Yujia  and\nLiu, Yiqun"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Hallucinations in large language models (LLMs) refer to the phenomenon of LLMs producing responses that are coherent yet factually inaccurate. This issue undermines the effectiveness of LLMs in practical applications, necessitating research into detecting and mitigating hallucinations of LLMs. Previous studies have mainly concentrated on post-processing techniques for hallucination detection, which tend to be computationally intensive and limited in effectiveness due to their separation from the LLM’s inference process. To overcome these limitations, we introduce MIND, an unsupervised training framework that leverages the internal states of LLMs for real-time hallucination detection without requiring manual annotations. Additionally, we present HELM, a new benchmark for evaluating hallucination detection across multiple LLMs, featuring diverse LLM outputs and the internal states of LLMs during their inference process. Our experiments demonstrate that MIND outperforms existing state-of-the-art methods in hallucination detection.",
+  "keywords": [
+    "process",
+    "processing",
+    "language",
+    "previous studies",
+    "studies",
+    "large language models",
+    "diverse llm outputs",
+    "multiple llms",
+    "we",
+    "large language models hallucinations",
+    "time",
+    "llm",
+    "training",
+    "llms",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.854/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:00:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P18-1007",
+  "title": "Subword Regularization: Improving Neural Network Translation Models with Multiple Subword Candidates",
+  "authors": [
+    "Kudo, Taku"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Subword units are an effective way to alleviate the open vocabulary problems in neural machine translation (NMT). While sentences are usually converted into unique subword sequences, subword segmentation is potentially ambiguous and multiple segmentations are possible even with the same vocabulary. The question addressed in this paper is whether it is possible to harness the segmentation ambiguity as a noise to improve the robustness of NMT. We present a simple regularization method, subword regularization, which trains the model with multiple subword segmentations probabilistically sampled during training. In addition, for better subword sampling, we propose a new subword segmentation algorithm based on a unigram language model. We experiment with multiple corpora and report consistent improvements especially on low resource and out-of-domain settings.",
+  "keywords": [
+    "language",
+    "neural",
+    "model",
+    "a unigram language model",
+    "machine",
+    "it",
+    "neural network translation models",
+    "question",
+    "regularization",
+    "network",
+    "we",
+    "neural machine translation nmt",
+    "training",
+    "translation",
+    "a noise"
+  ],
+  "url": "https://aclanthology.org/P18-1007/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:09:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

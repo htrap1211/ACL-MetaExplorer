@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.191",
+  "title": "Syntax-guided Contrastive Learning for Pre-trained Language Model",
+  "authors": [
+    "Zhang, Shuai  and\nLijie, Wang  and\nXiao, Xinyan  and\nWu, Hua"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Syntactic information has been proved to be useful for transformer-based pre-trained language models. Previous studies often rely on additional syntax-guided attention components to enhance the transformer, which require more parameters and additional syntactic parsing in downstream tasks. This increase in complexity severely limits the application of syntax-enhanced language model in a wide range of scenarios. In order to inject syntactic knowledge effectively and efficiently into pre-trained language models, we propose a novel syntax-guided contrastive learning method which does not change the transformer architecture. Based on constituency and dependency structures of syntax trees, we design phrase-guided and tree-guided contrastive objectives, and optimize them in the pre-training stage, so as to help the pre-trained language model to capture rich syntactic knowledge in its representations. Experimental results show that our contrastive method achieves consistent improvements in a variety of tasks, including grammatical error detection, entity tasks, structural probing and GLUE. Detailed analysis further verifies that the improvements come from the utilization of syntactic information, and the learned attention weights are more explainable in terms of linguistics.",
+  "keywords": [
+    "variety",
+    "parsing",
+    "objectives",
+    "the pre-trained language model",
+    "syntax trees",
+    "we",
+    "syntax",
+    "training",
+    "syntax-enhanced language model",
+    "pre-trained language models",
+    "additional syntactic parsing",
+    "additional syntax-guided attention components",
+    "information",
+    "rich",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.191/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

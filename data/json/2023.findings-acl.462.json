@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.462",
+  "title": "Towards Robust Personalized Dialogue Generation via Order-Insensitive Representation Regularization",
+  "authors": [
+    "Chen, Liang  and\nWang, Hongru  and\nDeng, Yang  and\nKwan, Wai Chung  and\nWang, Zezhong  and\nWong, Kam-Fai"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Generating persona consistent dialogue response is important for developing an intelligent conversational agent. Recent works typically fine-tune large-scale pre-trained models on this task by concatenating persona texts and dialogue history as a single input sequence to generate the target response. While simple and effective, our analysis shows that this popular practice is seriously affected by order sensitivity where different input orders of persona sentences significantly impact the quality and consistency of generated response, resulting in severe performance fluctuations (i.e., 29.4% on GPT2 and 83.2% on BART). To mitigate the order sensitivity problem, we propose a model-agnostic framework, ORder Insensitive Generation (ORIG), which enables dialogue models to learn robust representation under different persona orders and improve the consistency of response generation. Experiments on the Persona-Chat dataset justify the effectiveness and superiority of our method with two dominant pre-trained models (GPT2 and BART).",
+  "keywords": [
+    "gpt2",
+    "we",
+    "dialogue",
+    "dialogue models",
+    "sequence",
+    "analysis",
+    "generated response",
+    "robust personalized dialogue generation",
+    "fine",
+    "response generation experiments",
+    "chat",
+    "dialogue history",
+    "generating",
+    "generation",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.462/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

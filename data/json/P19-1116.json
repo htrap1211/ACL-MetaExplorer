@@ -1,0 +1,33 @@
+{
+  "id": "P19-1116",
+  "title": "When a Good Translation is Wrong in Context: Context-Aware Machine Translation Improves on Deixis, Ellipsis, and Lexical Cohesion",
+  "authors": [
+    "Voita, Elena  and\nSennrich, Rico  and\nTitov, Ivan"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Though machine translation errors caused by the lack of context beyond one sentence have long been acknowledged, the development of context-aware NMT systems is hampered by several problems. Firstly, standard metrics are not sensitive to improvements in consistency in document-level translations. Secondly, previous work on context-aware NMT assumed that the sentence-aligned parallel data consisted of complete documents while in most practical scenarios such document-level data constitutes only a fraction of the available parallel data. To address the first issue, we perform a human study on an English-Russian subtitles dataset and identify deixis, ellipsis and lexical cohesion as three main sources of inconsistency. We then create test sets targeting these phenomena. To address the second shortcoming, we consider a set-up in which a much larger amount of sentence-level data is available compared to that aligned at the document level. We introduce a model that is suitable for this scenario and demonstrate major gains over a context-agnostic baseline on our new benchmarks without sacrificing performance as measured with BLEU.",
+  "keywords": [
+    "context context-aware machine translation",
+    "bleu",
+    "we",
+    "a good translation",
+    "translation",
+    "firstly standard metrics",
+    "document-level translations",
+    "metrics",
+    "translations",
+    "work",
+    "machine translation errors",
+    "model",
+    "machine",
+    "human",
+    "documents"
+  ],
+  "url": "https://aclanthology.org/P19-1116/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:32:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

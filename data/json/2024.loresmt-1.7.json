@@ -1,0 +1,33 @@
+{
+  "id": "2024.loresmt-1.7",
+  "title": "Enhancing Low-Resource {NMT} with a Multilingual Encoder and Knowledge Distillation: A Case Study",
+  "authors": [
+    "Roy, Aniruddha  and\nRay, Pretam  and\nMaheshwari, Ayush  and\nSarkar, Sudeshna  and\nGoyal, Pawan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Seventh Workshop on Technologies for Machine Translation of Low-Resource Languages (LoResMT 2024)",
+  "abstract": "Neural Machine Translation (NMT) remains a formidable challenge, especially when dealing with low-resource languages. Pre-trained sequence-to-sequence (seq2seq) multi-lingual models, such as mBART-50, have demonstrated impressive performance in various low-resource NMT tasks. However, their pre-training has been confined to 50 languages, leaving out support for numerous low-resource languages, particularly those spoken in the Indian subcontinent. Expanding mBART-50’s language support requires complex pre-training, risking performance decline due to catastrophic forgetting. Considering these expanding challenges, this paper explores a framework that leverages the benefits of a pre-trained language model along with knowledge distillation in a seq2seq architecture to facilitate translation for low-resource languages, including those not covered by mBART-50. The proposed framework employs a multilingual encoder-based seq2seq model as the foundational architecture and subsequently uses complementary knowledge distillation techniques to mitigate the impact of imbalanced training. Our framework is evaluated on three low-resource Indic languages in four Indic-to-Indic directions, yielding significant BLEU-4 and chrF improvements over baselines. Further, we conduct human evaluation to confirm effectiveness of our approach. Our code is publicly available at https://github.com/raypretam/Two-step-low-res-NMT.",
+  "keywords": [
+    "code",
+    "support",
+    "a pre-trained language model",
+    "we",
+    "training",
+    "translation",
+    "human evaluation",
+    "neural",
+    "res",
+    "sequence",
+    "a seq2seq architecture",
+    "seq2seq",
+    "a multilingual encoder",
+    "knowledge",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.loresmt-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

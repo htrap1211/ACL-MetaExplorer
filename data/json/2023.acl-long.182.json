@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.182",
+  "title": "H}y{P}e: Better Pre-trained Language Model Fine-tuning with Hidden Representation Perturbation",
+  "authors": [
+    "Yuan, Hongyi  and\nYuan, Zheng  and\nTan, Chuanqi  and\nHuang, Fei  and\nHuang, Songfang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Language models with the Transformers structure have shown great performance in natural language processing. However, there still poses problems when fine-tuning pre-trained language models on downstream tasks, such as over-fitting or representation collapse. In this work, we propose HyPe, a simple yet effective fine-tuning technique to alleviate such problems by perturbing hidden representations of Transformers layers. Unlike previous works that only add noise to inputs or parameters, we argue that the hidden representations of Transformers layers convey more diverse and meaningful language information. Therefore, making the Transformers layers more robust to hidden representation perturbations can further benefit the fine-tuning of PLMs en bloc. We conduct extensive experiments and analyses on GLUE and other natural language inference datasets. Results demonstrate that HyPe outperforms vanilla fine-tuning and enhances generalization of hidden representations from different layers. In addition, HyPe acquires negligible computational overheads, and is better than and compatible with previous state-of-the-art fine-tuning techniques.",
+  "keywords": [
+    "transformers",
+    "we",
+    "fine-tuning",
+    "natural",
+    "information",
+    "natural language processing",
+    "tuning",
+    "processing",
+    "hype",
+    "fitting",
+    "generalization",
+    "fine",
+    "the transformers structure",
+    "work",
+    "the fine-tuning"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.182/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.519",
+  "title": "A}o{M}: Detecting Aspect-oriented Information for Multimodal Aspect-Based Sentiment Analysis",
+  "authors": [
+    "Zhou, Ru  and\nGuo, Wenya  and\nLiu, Xumeng  and\nYu, Shenglong  and\nZhang, Ying  and\nYuan, Xiaojie"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Multimodal aspect-based sentiment analysis (MABSA) aims to extract aspects from text-image pairs and recognize their sentiments. Existing methods make great efforts to align the whole image to corresponding aspects. However, different regions of the image may relate to different aspects in the same sentence, and coarsely establishing image-aspect alignment will introduce noise to aspect-based sentiment analysis (i.e., visual noise). Besides, the sentiment of a specific aspect can also be interfered by descriptions of other aspects (i.e., textual noise). Considering the aforementioned noises, this paper proposes an Aspect-oriented Method (AoM) to detect aspect-relevant semantic and sentiment information. Specifically, an aspect-aware attention module is designed to simultaneously select textual tokens and image blocks that are semantically related to the aspects. To accurately aggregate sentiment information, we explicitly introduce sentiment embedding into AoM, and use a graph convolutional network to model the vision-text and text-text interaction. Extensive experiments demonstrate the superiority of AoM to existing methods.",
+  "keywords": [
+    "alignment",
+    "i",
+    "a graph convolutional network",
+    "image-aspect alignment",
+    "an aspect-oriented method aom",
+    "text",
+    "information",
+    "semantic",
+    "attention",
+    "network",
+    "we",
+    "visual",
+    "aspect-oriented information",
+    "multimodal aspect-based sentiment analysis",
+    "graph"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.519/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

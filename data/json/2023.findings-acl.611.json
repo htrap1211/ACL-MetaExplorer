@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.611",
+  "title": "From Adversarial Arms Race to Model-centric Evaluation: Motivating a Unified Automatic Robustness Evaluation Framework",
+  "authors": [
+    "Chen, Yangyi  and\nGao, Hongcheng  and\nCui, Ganqu  and\nYuan, Lifan  and\nKong, Dehan  and\nWu, Hanlu  and\nShi, Ning  and\nYuan, Bo  and\nHuang, Longtao  and\nXue, Hui  and\nLiu, Zhiyuan  and\nSun, Maosong  and\nJi, Heng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Textual adversarial attacks can discover models’ weaknesses by adding semantic-preserved but misleading perturbations to the inputs. The long-lasting adversarial attack-and-defense arms race in Natural Language Processing (NLP) is algorithm-centric, providing valuable techniques for automatic robustness evaluation. However, the existing practice of robustness evaluation may exhibit issues of incomprehensive evaluation, impractical evaluation protocol, and invalid adversarial samples. In this paper, we aim to set up a unified automatic robustness evaluation framework, shifting towards model-centric evaluation to further exploit the advantages of adversarial attacks. To address the above challenges, we first determine robustness evaluation dimensions based on model capabilities and specify the reasonable algorithm to generate adversarial samples for each dimension. Then we establish the evaluation protocol, including evaluation settings and metrics, under realistic demands. Finally, we use the perturbation degree of adversarial samples to control the sample validity. We implement a toolkitRobTestthat realizes our automatic robustness evaluation framework. In our experiments, we conduct a robustness evaluation of RoBERTa models to demonstrate the effectiveness of our evaluation framework, and further show the rationality of each component in the framework.",
+  "keywords": [
+    "robustness evaluation",
+    "roberta",
+    "our evaluation framework",
+    "semantic",
+    "we",
+    "natural language processing nlp",
+    "model-centric evaluation",
+    "natural",
+    "unified",
+    "roberta models",
+    "processing",
+    "robustness evaluation dimensions",
+    "model capabilities",
+    "metrics",
+    "a robustness evaluation"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.611/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

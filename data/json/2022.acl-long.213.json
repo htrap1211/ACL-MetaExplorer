@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.213",
+  "title": "P}roto{TE}x: Explaining Model Decisions with Prototype Tensors",
+  "authors": [
+    "Das, Anubrata  and\nGupta, Chitrank  and\nKovatchev, Venelin  and\nLease, Matthew  and\nLi, Junyi Jessy"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We present ProtoTEx, a novel white-box NLP classification architecture based on prototype networks (Li et al., 2018). ProtoTEx faithfully explains model decisions based on prototype tensors that encode latent clusters of training examples. At inference time, classification decisions are based on the distances between the input text and the prototype tensors, explained via the training examples most similar to the most influential prototypes. We also describe a novel interleaved training algorithm that effectively handles classes characterized by ProtoTEx indicative features. On a propaganda detection task, ProtoTEx accuracy matches BART-large and exceeds BERTlarge with the added benefit of providing faithful explanations. A user study also shows that prototype-based explanations help non-experts to better recognize propaganda in online news.",
+  "keywords": [
+    "nlp",
+    "model",
+    "text",
+    "encode",
+    "-",
+    "bertlarge",
+    "latent",
+    "we",
+    "inference time classification decisions",
+    "time",
+    "accuracy",
+    "bart-large and exceeds bertlarge",
+    "training",
+    "classification",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.213/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:27:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

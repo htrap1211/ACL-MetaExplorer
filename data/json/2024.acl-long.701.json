@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.701",
+  "title": "Learning to Decode Collaboratively with Multiple Language Models",
+  "authors": [
+    "Shen, Zejiang  and\nLang, Hunter  and\nWang, Bailin  and\nKim, Yoon  and\nSontag, David"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We propose a method to teach multiple large language models (LLM) to collaborate by interleaving their generations at the token level. We model the decision of which LLM generates the next token as a latent variable. By optimizing the marginal likelihood of a training set under our latent variable model, the base LLM automatically learns when to generate itself and when to call on one of the “assistant” language models to generate, all without direct supervision. Token-level collaboration during decoding allows for a fusion of each model’s expertise in a manner tailored to the specific task at hand. Our collaborative decoding is especially useful in cross-domain settings where a generalist base LLM learns to invoke domain expert models. On instruction-following, domain-specific QA, and reasoning tasks, we show that the performance of the joint system exceeds that of the individual models. Through qualitative analysis, we show models trained with our method exhibit several interesting collaboration patterns, e.g., template-filling, by visualizing the learned latent decisions.",
+  "keywords": [
+    "a generalist base llm",
+    "instruction-following domain-specific qa",
+    "we",
+    "fusion",
+    "llm",
+    "training",
+    "cross",
+    "instruction",
+    "their generations",
+    "token",
+    "the assistant language models",
+    "latent",
+    "analysis",
+    "multiple large language models",
+    "manner"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.701/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:43:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

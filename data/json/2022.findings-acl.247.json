@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.247",
+  "title": "Task-guided Disentangled Tuning for Pretrained Language Models",
+  "authors": [
+    "Zeng, Jiali  and\nJiang, Yufan  and\nWu, Shuangzhi  and\nYin, Yongjing  and\nLi, Mu"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Pretrained language models (PLMs) trained on large-scale unlabeled corpus are typically fine-tuned on task-specific downstream datasets, which have produced state-of-the-art results on various NLP tasks. However, the data discrepancy issue in domain and scale makes fine-tuning fail to efficiently capture task-specific patterns, especially in low data regime. To address this issue, we propose Task-guided Disentangled Tuning (TDT) for PLMs, which enhances the generalization of representations by disentangling task-relevant signals from the entangled representations. For a given task, we introduce a learnable confidence model to detect indicative guidance from context, and further propose a disentangled regularization to mitigate the over-reliance problem. Experimental results on GLUE and CLUE benchmarks show that TDT gives consistently better results than fine-tuning with different PLMs, and extensive analysis demonstrates the effectiveness and robustness of our method. Code is available athttps://github.com/lemon0830/TDT.",
+  "keywords": [
+    "code",
+    "we",
+    "language models plms",
+    "a disentangled regularization",
+    "analysis",
+    "tuning",
+    "generalization",
+    "fine",
+    "language",
+    "nlp",
+    "model",
+    "pretrained language models",
+    "the generalization",
+    "regularization",
+    "various nlp tasks"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.247/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

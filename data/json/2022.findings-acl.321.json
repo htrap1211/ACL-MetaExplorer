@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.321",
+  "title": "Improving Zero-Shot Cross-lingual Transfer Between Closely Related Languages by Injecting Character-Level Noise",
+  "authors": [
+    "Aepli, No{\\\"e}mi  and\nSennrich, Rico"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Cross-lingual transfer between a high-resource language and its dialects or closely related language varieties should be facilitated by their similarity. However, current approaches that operate in the embedding space do not take surface similarity into account. This work presents a simple yet effective strategy to improve cross-lingual transfer between closely related varieties. We propose to augment the data of the high-resource source language with character-level noise to make the model more robust towards spelling variations. Our strategy shows consistent improvements over several languages and tasks: Zero-shot transfer of POS tagging and topic identification between language varieties from the Finnic, West and North Germanic, and Western Romance language branches. Our work provides evidence for the usefulness of simple surface-level noise in improving transfer between language varieties.",
+  "keywords": [
+    "cross",
+    "work",
+    "language",
+    "the embedding space",
+    "closely related language varieties",
+    "model",
+    "zero-shot cross-lingual transfer",
+    "pos",
+    "topic",
+    "varieties",
+    "tagging",
+    "closely related varieties",
+    "we",
+    "transfer",
+    "zero-shot transfer"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.321/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

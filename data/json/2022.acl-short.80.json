@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.80",
+  "title": "Rewarding Semantic Similarity under Optimized Alignments for {AMR}-to-Text Generation",
+  "authors": [
+    "Jin, Lisa  and\nGildea, Daniel"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "A common way to combat exposure bias is by applying scores from evaluation metrics as rewards in reinforcement learning (RL). Metrics leveraging contextualized embeddings appear more flexible than their n-gram matching counterparts and thus ideal as training rewards. However, metrics such as BERTScore greedily align candidate and reference tokens, which can allow system outputs to receive excess credit relative to a reference. Furthermore, past approaches featuring semantic similarity rewards suffer from repetitive outputs and overfitting. We address these issues by proposing metrics that replace the greedy alignments in BERTScore with optimized ones. We compute them on a model’s trained token embeddings to prevent domain mismatch. Our model optimizing discrete alignment metrics consistently outperforms cross-entropy and BLEU reward baselines on AMR-to-text generation. In addition, we find that this approach enjoys stable training compared to a non-RL setting.",
+  "keywords": [
+    "bias",
+    "alignments",
+    "optimized alignments",
+    "bleu",
+    "semantic",
+    "we",
+    "bleu reward baselines",
+    "amr -to-text generation",
+    "training",
+    "cross",
+    "bertscore",
+    "token",
+    "contextualized embeddings",
+    "learning",
+    "rewarding semantic similarity"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.80/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:33:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

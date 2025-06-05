@@ -1,0 +1,33 @@
+{
+  "id": "P18-2087",
+  "title": "Sense-Aware Neural Models for Pun Location in Texts",
+  "authors": [
+    "Cai, Yitao  and\nLi, Yin  and\nWan, Xiaojun"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "A homographic pun is a form of wordplay in which one signifier (usually a word) suggests two or more meanings by exploiting polysemy for an intended humorous or rhetorical effect. In this paper, we focus on the task of pun location, which aims to identify the pun word in a given short text. We propose a sense-aware neural model to address this challenging task. Our model first obtains several WSD results for the text, and then leverages a bidirectional LSTM network to model each sequence of word senses. The outputs at each time step for different LSTM networks are then concatenated for prediction. Evaluation results on the benchmark SemEval 2017 dataset demonstrate the efficacy of our proposed model.",
+  "keywords": [
+    "a bidirectional lstm network",
+    "neural",
+    "prediction evaluation results",
+    "model",
+    "text",
+    "form",
+    "location",
+    "word",
+    "we",
+    "network",
+    "sequence",
+    "lstm",
+    "evaluation",
+    "different lstm networks",
+    "time"
+  ],
+  "url": "https://aclanthology.org/P18-2087/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:18:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

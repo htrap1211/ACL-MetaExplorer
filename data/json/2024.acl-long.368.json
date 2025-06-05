@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.368",
+  "title": "P}roxy{QA}: An Alternative Framework for Evaluating Long-Form Text Generation with Large Language Models",
+  "authors": [
+    "Tan, Haochen  and\nGuo, Zhijiang  and\nShi, Zhan  and\nXu, Lu  and\nLiu, Zhili  and\nFeng, Yunlong  and\nLi, Xiaoguang  and\nWang, Yasheng  and\nShang, Lifeng  and\nLiu, Qun  and\nSong, Linqi"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large Language Models (LLMs) have succeeded remarkably in understanding long-form contents. However, exploring their capability for generating long-form contents, such as reports and articles, has been relatively unexplored and inadequately assessed by existing benchmarks. The prevalent evaluation methods, which predominantly rely on crowdsourcing, are recognized for their labor-intensive nature and lack of efficiency, whereas automated metrics, such as the ROUGE score, demonstrate discordance with human judgment criteria. In this paper, we propose ProxyQA, an innovative framework dedicated to assessing long-text generation. ProxyQA comprises in-depth human-curated meta-questions spanning various domains, each accompanied by specific proxy-questions with pre-annotated answers. LLMs are tasked to generate extensive content in response to these meta-questions, by engaging an evaluator and incorporating the generated texts as contextual background, ProxyQA assesses the generated content’s quality through the evaluator’s accuracy in addressing the proxy-questions. We examine multiple LLMs, emphasizing ProxyQA’s demanding nature as a high-quality assessment tool. Human evaluation demonstrates that the proxy-question method is notably self-consistent and aligns closely with human evaluative standards. The dataset and leaderboard is available athttps://proxy-qa.com.",
+  "keywords": [
+    "the generated texts",
+    "question",
+    "form",
+    "efficiency",
+    "we",
+    "available athttps proxy-qa com",
+    "pre-annotated answers llms",
+    "self",
+    "multiple llms",
+    "long-form text generation",
+    "the evaluator s accuracy",
+    "automated metrics",
+    "proxyqa",
+    "llms",
+    "background"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.368/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

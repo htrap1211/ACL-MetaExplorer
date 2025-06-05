@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.601",
+  "title": "Fortify the Shortest Stave in Attention: Enhancing Context Awareness of Large Language Models for Effective Tool Use",
+  "authors": [
+    "Chen, Yuhan  and\nLv, Ang  and\nLin, Ting-En  and\nChen, Changyu  and\nWu, Yuchuan  and\nHuang, Fei  and\nLi, Yongbin  and\nYan, Rui"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this paper, we demonstrate that an inherent waveform pattern in the attention allocation of large language models (LLMs) significantly affects their performance in tasks demanding a high degree of context awareness, such as utilizing LLMs for tool-use. Specifically, the crucial information in the context will be potentially overlooked by model when it is positioned in the trough zone of the attention waveform, leading to decreased performance. To address this issue, we propose a novel inference method named Attention Buckets. It allows LLMs to process their input through multiple parallel processes. Each process utilizes a distinct base angle for the rotary position embedding, thereby creating a unique attention waveform. By compensating an attention trough of a particular process with an attention peak of another process, our approach enhances LLM’s awareness to various contextual positions, thus mitigating the risk of overlooking crucial information. In the largest tool-use benchmark, our method elevates a 7B model to achieve state-of-the-art performance, comparable to that of GPT-4. On other benchmarks and some RAG tasks, which also demand a thorough understanding of contextual content, Attention Buckets also exhibited notable enhancements in performance.",
+  "keywords": [
+    "llm s awareness",
+    "the attention allocation",
+    "the attention waveform",
+    "we",
+    "llm",
+    "allocation",
+    "it",
+    "information",
+    "a unique attention",
+    "an attention peak",
+    "llms",
+    "large language models llms",
+    "gpt-4",
+    "attention buckets",
+    "process"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.601/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.542",
+  "title": "D}i{MS}: Distilling Multiple Steps of Iterative Non-Autoregressive Transformers for Machine Translation",
+  "authors": [
+    "Norouzi, Sajad  and\nHosseinzadeh, Rasa  and\nPerez, Felipe  and\nVolkovs, Maksims"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "The computational benefits of iterative non-autoregressive transformers decrease as the number of decoding steps increases. As a remedy, we introduce Distill Multiple Steps (DiMS), a simple yet effective distillation technique to decrease the number of required steps to reach a certain translation quality. The distilled model enjoys the computational benefits of early iterations while preserving the enhancements from several iterative steps. DiMS relies on two models namely student and teacher. The student is optimized to predict the output of the teacher after multiple decoding steps while the teacher follows the student via a slow-moving average. The moving average keeps the teacher’s knowledge updated and enhances the quality of the labels provided by the teacher. During inference, the student is used for translation and no additional computation is added. We verify the effectiveness of DiMS on various models obtaining 7.8 and 12.9 BLEU points improvements in single-step translation accuracy on distilled and raw versions of WMT’14 De-En.Full code for this work is available here:https://github.com/layer6ai-labs/DiMS",
+  "keywords": [
+    "code",
+    "transformers",
+    "bleu",
+    "machine translation",
+    "we",
+    "translation",
+    "iterative non-autoregressive transformers",
+    "a certain translation quality",
+    "i",
+    "early",
+    "accuracy",
+    "work",
+    "knowledge",
+    "machine",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.542/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.511",
+  "title": "Exploring Domain Robust Lightweight Reward Models based on Router Mechanism",
+  "authors": [
+    "Namgoong, Hyuk  and\nJung, Jeesu  and\nJung, Sangkeun  and\nRoh, YoonHyung"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Recent advancements in large language models have heavily relied on the large reward model from reinforcement learning from human feedback for fine-tuning. However, the use of a single reward model across various domains may not always be optimal, often requiring retraining from scratch when new domain data is introduced. To address these challenges, we explore the utilization of small language models operating in a domain-specific manner based on router mechanisms. Our three approaches are: 1) utilize mixture of experts to form a single reward model by modularizing an internal router and experts, 2) employing external router to select the appropriate reward model from multiple domain-specific models, and 3) the framework reduces parameter size by loading reward models and router adapters onto a single small language model using adapters. Experimental validation underscores the effectiveness of our approach, demonstrating performance comparable to baseline methods while also reducing the total parameter size.",
+  "keywords": [
+    "validation",
+    "feedback",
+    "we",
+    "human feedback",
+    "parameter",
+    "fine-tuning",
+    "a domain-specific manner",
+    "learning",
+    "manner",
+    "tuning",
+    "fine",
+    "small language models",
+    "reinforcement",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.511/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:55:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

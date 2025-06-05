@@ -1,0 +1,33 @@
+{
+  "id": "P19-1260",
+  "title": "Multi-hop Reading Comprehension across Multiple Documents by Reasoning over Heterogeneous Graphs",
+  "authors": [
+    "Tu, Ming  and\nWang, Guangtao  and\nHuang, Jing  and\nTang, Yun  and\nHe, Xiaodong  and\nZhou, Bowen"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Multi-hop reading comprehension (RC) across documents poses new challenge over single-document RC because it requires reasoning over multiple documents to reach the final answer. In this paper, we propose a new model to tackle the multi-hop RC problem. We introduce a heterogeneous graph with different types of nodes and edges, which is named as Heterogeneous Document-Entity (HDE) graph. The advantage of HDE graph is that it contains different granularity levels of information including candidates, documents and entities in specific document contexts. Our proposed model can do reasoning over the HDE graph with nodes representation initialized with co-attention and self-attention based context encoders. We employ Graph Neural Networks (GNN) based message passing algorithms to accumulate evidences on the proposed HDE graph. Evaluated on the blind test set of the Qangaroo WikiHop data set, our HDE graph based single model delivers competitive result, and the ensemble model achieves the state-of-the-art performance.",
+  "keywords": [
+    "we",
+    "graph",
+    "ensemble",
+    "answer",
+    "neural",
+    "co",
+    "it",
+    "self",
+    "information",
+    "-",
+    "qangaroo",
+    "encoders",
+    "the qangaroo wikihop data",
+    "the ensemble model",
+    "model"
+  ],
+  "url": "https://aclanthology.org/P19-1260/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:36:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

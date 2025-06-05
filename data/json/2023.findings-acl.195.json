@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.195",
+  "title": "CKDST}: Comprehensively and Effectively Distill Knowledge from Machine Translation to End-to-End Speech Translation",
+  "authors": [
+    "Lei, Yikun  and\nXue, Zhengshan  and\nZhao, Xiaohu  and\nSun, Haoran  and\nZhu, Shaolin  and\nLin, Xiaodong  and\nXiong, Deyi"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Distilling knowledge from a high-resource task, e.g., machine translation, is an effective way to alleviate the data scarcity problem of end-to-end speech translation. However, previous works simply use the classical knowledge distillation that does not allow for adequate transfer of knowledge from machine translation. In this paper, we propose a comprehensive knowledge distillation framework for speech translation, CKDST, which is capable of comprehensively and effectively distilling knowledge from machine translation to speech translation from two perspectives: cross-modal contrastive representation distillation and simultaneous decoupled knowledge distillation. In the former, we leverage a contrastive learning objective to optmize the mutual information between speech and text representations for representation distillation in the encoder. In the later, we decouple the non-target class knowledge from target class knowledge for logits distillation in the decoder. Experiments on the MuST-C benchmark dataset demonstrate that our CKDST substantially improves the baseline by 1.2 BLEU on average in all translation directions, and outperforms previous state-of-the-art end-to-end and cascaded speech translation models.",
+  "keywords": [
+    "end",
+    "bleu",
+    "machine translation",
+    "we",
+    "all translation directions",
+    "translation",
+    "cross",
+    "the encoder",
+    "1 2 bleu",
+    "decoder",
+    "information",
+    "learning",
+    "transfer",
+    "speech translation",
+    "e g machine translation"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.195/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

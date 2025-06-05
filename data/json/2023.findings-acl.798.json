@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.798",
+  "title": "A Hierarchical Explanation Generation Method Based on Feature Interaction Detection",
+  "authors": [
+    "Ju, Yiming  and\nZhang, Yuanzhe  and\nLiu, Kang  and\nZhao, Jun"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "The opaqueness of deep NLP models has motivated efforts to explain how deep models predict. Recently, work has introduced hierarchical attribution explanations, which calculate attribution scores for compositional text hierarchically to capture compositional semantics. Existing work on hierarchical attributions tends to limit the text groups to a continuous text span, which we call the connecting rule. While easy for humans to read, limiting the attribution unit to a continuous span might lose important long-distance feature interactions for reflecting model predictions. In this work, we introduce a novel strategy for capturing feature interactions and employ it to build hierarchical explanations without the connecting rule. The proposed method can convert ubiquitous non-hierarchical explanations (e.g., LIME) into their corresponding hierarchical versions. Experimental results show the effectiveness of our approach in building high-quality hierarchical explanations.",
+  "keywords": [
+    "work",
+    "deep",
+    "hierarchical",
+    "deep nlp models",
+    "hierarchical attribution explanations",
+    "generation",
+    "nlp",
+    "compositional semantics existing work",
+    "model",
+    "text",
+    "semantics",
+    "it",
+    "ubiquitous non-hierarchical explanations",
+    "their corresponding hierarchical versions",
+    "high-quality hierarchical explanations"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.798/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

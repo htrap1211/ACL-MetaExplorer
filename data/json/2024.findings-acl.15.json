@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.15",
+  "title": "Lexicon-Level Contrastive Visual-Grounding Improves Language Modeling",
+  "authors": [
+    "Zhuang, Chengxu  and\nFedorenko, Evelina  and\nAndreas, Jacob"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Today’s most accurate language models are trained on orders of magnitude more language data than human language learners receive— but with no supervision from other sensory modalities that play a crucial role in human learning. Can we make LMs’ representations and predictions more accurate (and more human-like) with more ecologically plausible supervision? This paper describes LexiContrastive Grounding (LCG), a grounded language learning procedure that leverages visual supervision to improve textual representations. LexiContrastive Grounding combines a next-token prediction strategy with a contrastive visual grounding objective, focusing on early-layerrepresentations that encode lexical information. Across multiple word-learning and sentence-understanding benchmarks, LexiContrastiveGrounding not only outperforms standard language-only models in terms of learning efficiency in small and developmentally plausible data regimes, but also improves upon vision-and-language learning procedures including CLIP, GIT, Flamingo, and Vokenization.Moreover, LexiContrastive Grounding improves perplexity by around 5% on multiple language modeling tasks compared to other models trained on the same amount of text data. This work underscores the potential of incorporating visual grounding into language models, aligning more closely with the multimodal nature of human language acquisition.",
+  "keywords": [
+    "encode",
+    "efficiency",
+    "we",
+    "language modeling",
+    "token",
+    "information",
+    "word",
+    "multiple language modeling tasks",
+    "learning",
+    "visual",
+    "other sensory modalities",
+    "human language learners",
+    "early",
+    "text",
+    "objective"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.15/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:48:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

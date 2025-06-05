@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.43",
+  "title": "SRI}-{B}{'}s Systems for {IWSLT} 2023 Dialectal and Low-resource Track: {M}arathi-{H}indi Speech Translation",
+  "authors": [
+    "Radhakrishnan, Balaji  and\nAgrawal, Saurabh  and\nPrakash Gohil, Raj  and\nPraveen, Kiran  and\nVinay Dhopeshwarkar, Advait  and\nPandey, Abhishek"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "This paper describes the speech translation systems SRI-B developed for the IWSLT 2023 Evaluation Campaign Dialectal and Low-resource track: Marathi-Hindi Speech Translation. We propose systems for both the constrained (systems are trained only on the datasets provided by the organizers) and the unconstrained conditions (systems can be trained with any resource). For both the conditions, we build end-to-end speech translation networks comprising of a conformer encoder and a transformer decoder. Under both the conditions, we leverage Marathi Automatic Speech Recognition (ASR) data to pre-train the encoder and subsequently train the entire model on the speech translation data. Our results demonstrate that pre-training the encoder with ASR data is a key step in significantly improving the speech translation performance. We also show that conformer encoders are inherently superior to its transformer counterparts for speech translation tasks. Our primary submissions achieved a BLEU% score of 31.2 on the constrained condition and 32.4 on the unconstrained condition. We secured the top position in the constrained condition and second position in the unconstrained condition.",
+  "keywords": [
+    "indi speech translation",
+    "the encoder",
+    "transformer",
+    "end",
+    "its transformer counterparts",
+    "a bleu score",
+    "model",
+    "bleu",
+    "encoder",
+    "the speech translation data",
+    "conformer encoders",
+    "decoder",
+    "we",
+    "evaluation",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.43/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:25:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

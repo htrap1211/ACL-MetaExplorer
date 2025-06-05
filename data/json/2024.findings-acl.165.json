@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.165",
+  "title": "MODABS}: Multi-Objective Learning for Dynamic Aspect-Based Summarization",
+  "authors": [
+    "Guo, Xiaobo  and\nVosoughi, Soroush"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "The rapid proliferation of online content necessitates effective summarization methods, among which dynamic aspect-based summarization stands out. Unlike its traditional counterpart, which assumes a fixed set of known aspects, this approach adapts to the varied aspects of the input text. We introduce a novel multi-objective learning framework employing a Longformer-Encoder-Decoder for this task. The framework optimizes aspect number prediction, minimizes disparity between generated and reference summaries for each aspect, and maximizes dissimilarity across aspect-specific summaries. Extensive experiments show our method significantly outperforms baselines on three diverse datasets, largely due to the effective alignment of generated and reference aspect counts without sacrificing single-aspect summarization quality.",
+  "keywords": [
+    "a longformer-encoder-decoder",
+    "reference",
+    "alignment",
+    "the effective alignment",
+    "varied",
+    "effective summarization methods",
+    "summaries",
+    "aspect-specific summaries extensive experiments",
+    "text",
+    "dynamic aspect-based summarization",
+    "objective",
+    "encoder",
+    "decoder",
+    "the varied aspects",
+    "summarization"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.165/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:50:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

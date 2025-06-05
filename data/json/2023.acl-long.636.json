@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.636",
+  "title": "Counterfactual Active Learning for Out-of-Distribution Generalization",
+  "authors": [
+    "Deng, Xun  and\nWang, Wenjie  and\nFeng, Fuli  and\nZhang, Hanwang  and\nHe, Xiangnan  and\nLiao, Yong"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We study the out-of-distribution generalization of active learning that adaptively selects samples for annotation in learning the decision boundary of classification. Our empirical study finds that increasingly annotating seen samples may hardly benefit the generalization. To address the problem, we propose Counterfactual Active Learning (CounterAL) that empowers active learning with counterfactual thinking to bridge the seen samples with unseen cases. In addition to annotating factual samples, CounterAL requires annotators to answer counterfactual questions to construct counterfactual samples for training. To achieve CounterAL, we design a new acquisition strategy that selects the informative factual-counterfactual pairs for annotation; and a new training strategy that pushes the model update to focus on the discrepancy between factual and counterfactual samples. We evaluate CounterAL on multiple public datasets of sentiment analysis and natural language inference. The experiment results show that CounterAL requires fewer acquisition rounds and outperforms existing active learning methods by a large margin in OOD tests with comparable IID performance.",
+  "keywords": [
+    "we",
+    "training",
+    "classification",
+    "natural",
+    "learning",
+    "analysis",
+    "sentiment analysis",
+    "generalization",
+    "sentiment",
+    "language",
+    "model",
+    "the generalization",
+    "factual samples",
+    "the discrepancy",
+    "experiment"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.636/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:44:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.169",
+  "title": "S}am Miller at {S}em{E}val-2023 Task 5: Classification and Type-specific Spoiler Extraction Using {XLNET} and Other Transformer Models",
+  "authors": [
+    "St{\\\"o}rmer, Pia  and\nEsser, Tobias  and\nThomasius, Patrick"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper proposes an approach to classify andan approach to generate spoilers for clickbaitarticles and posts. For the spoiler classification,XLNET was trained to fine-tune a model. Withan accuracy of 0.66, 2 out of 3 spoilers arepredicted accurately. The spoiler generationapproach involves preprocessing the clickbaittext and post-processing the output to fit thespoiler type. The approach is evaluated on atest dataset of 1000 posts, with the best resultfor spoiler generation achieved by fine-tuninga RoBERTa Large model with a small learningrate and sample size, reaching a BLEU scoreof 0.311. The paper provides an overview ofthe models and techniques used and discussesthe experimental setup.",
+  "keywords": [
+    "transformer",
+    "roberta",
+    "the spoiler classification xlnet",
+    "generation",
+    "s",
+    "extraction",
+    "model",
+    "bleu",
+    "overview",
+    "fine",
+    "other transformer models",
+    "the spoiler generationapproach",
+    "a bleu",
+    "generationapproach",
+    "fine-tuninga roberta large model"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.169/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:28:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

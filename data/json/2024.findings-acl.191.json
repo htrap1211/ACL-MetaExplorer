@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.191",
+  "title": "Refine, Align, and Aggregate: Multi-view Linguistic Features Enhancement for Aspect Sentiment Triplet Extraction",
+  "authors": [
+    "Su, Guixin  and\nWu, Mingmin  and\nHuang, Zhongqiang  and\nZhang, Yongcheng  and\nWang, Tongguan  and\nHu, Yuxue  and\nSha, Ying"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Aspect Sentiment Triplet Extraction (ASTE) aims to extract the triplets of aspect terms, their associated sentiment and opinion terms. Previous works based on different modeling paradigms have achieved promising results. However, these methods struggle to comprehensively explore the various specific relations between sentiment elements in multi-view linguistic features, which is the prior indication effect for facilitating sentiment triplets extraction, requiring to align and aggregate them to capture the complementary higher-order interactions. In this paper, we propose Multi-view Linguistic Features Enhancement (MvLFE) to explore the aforementioned prior indication effect in the “Refine, Align, and Aggregate” learning process. Specifically, we first introduce the relational graph attention network to encode the word-pair relations represented by each linguistic feature and refine them to pay more attention to the aspect-opinion pairs. Next, we employ the multi-view contrastive learning to align them at a fine-grained level in the contextual semantic space to maintain semantic consistency. Finally, we utilize the multi-semantic cross attention to capture and aggregate the complementary higher-order interactions between diverse linguistic features to enhance the aspect-opinion relations. Experimental results on several benchmark datasets show the effectiveness and robustness of our model, which achieves state-of-the-art performance.",
+  "keywords": [
+    "extraction",
+    "multi-view linguistic features",
+    "semantic",
+    "we",
+    "graph",
+    "cross",
+    "the contextual semantic space",
+    "word",
+    "learning",
+    "more attention",
+    "align",
+    "semantic consistency",
+    "the multi-view contrastive learning",
+    "the multi-semantic cross attention",
+    "sentiment"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.191/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

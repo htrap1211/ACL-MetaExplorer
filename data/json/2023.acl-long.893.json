@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.893",
+  "title": "Analyzing Transformers in Embedding Space",
+  "authors": [
+    "Dar, Guy  and\nGeva, Mor  and\nGupta, Ankit  and\nBerant, Jonathan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Understanding Transformer-based models has attracted significant attention, as they lie at the heart of recent technological advances across machine learning. While most interpretability methods rely on running models over inputs, recent work has shown that a zero-pass approach, where parameters are interpreted directly without a forward/backward pass is feasible for some Transformer parameters, and for two-layer attention networks. In this work, we present a theoretical analysis where all parameters of a trained Transformer are interpreted by projecting them into the embedding space, that is, the space of vocabulary items they operate on. We derive a simple theoretical framework to support our arguments and provide ample evidence for its validity. First, an empirical analysis showing that parameters of both pretrained and fine-tuned models can be interpreted in embedding space. Second, we present two applications of our framework: (a) aligning the parameters of different models that share a vocabulary, and (b) constructing a classifier without training by “translating” the parameters of a fine-tuned classifier to parameters of a different model that was only pretrained. Overall, our findings open the door to interpretation methods that, at least in part, abstract away from model specifics and operate in the embedding space only.",
+  "keywords": [
+    "transformers",
+    "classifier",
+    "layer",
+    "we",
+    "training",
+    "some transformer parameters",
+    "machine learning",
+    "learning",
+    "analysis",
+    "embedding space second",
+    "two-layer attention networks",
+    "transformer-based models",
+    "work",
+    "transformer",
+    "embedding space"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.893/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:47:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

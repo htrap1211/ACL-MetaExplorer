@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.483",
+  "title": "Joint Speech Transcription and Translation: Pseudo-Labeling with Out-of-Distribution Data",
+  "authors": [
+    "Gheini, Mozhdeh  and\nLikhomanenko, Tatiana  and\nSperber, Matthias  and\nSetiawan, Hendra"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Self-training has been shown to be helpful in addressing data scarcity for many domains, including vision, speech, and language. Specifically, self-training, or pseudo-labeling, labels unsupervised data and adds that to the training pool. In this work, we investigate and use pseudo-labeling for a recently proposed novel setup: joint transcription and translation of speech, which suffers from an absence of sufficient parallel data resources. We show that under such data-deficient circumstances, the unlabeled data can significantly vary in domain from the supervised data, which results in pseudo-label quality degradation. We investigate two categories of remedies that require no additional supervision and target the domain mismatch: pseudo-label filtering and data augmentation. We show that pseudo-label analysis and processing in this way results in additional gains on top of the vanilla pseudo-labeling setup providing a total improvement of up to 0.4% absolute WER and 2.1 BLEU points for En–De and 0.6% absolute WER and 2.2 BLEU points for En–Zh.",
+  "keywords": [
+    "top",
+    "wer",
+    "bleu",
+    "we",
+    "training",
+    "translation",
+    "sufficient parallel data resources",
+    "self",
+    "sufficient",
+    "remedies",
+    "analysis",
+    "such data-deficient circumstances",
+    "processing",
+    "categories",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.483/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

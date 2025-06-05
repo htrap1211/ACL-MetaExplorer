@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.147",
+  "title": "C}opy{NE}: Better Contextual {ASR} by Copying Named Entities",
+  "authors": [
+    "Zhou, Shilin  and\nLi, Zhenghua  and\nHong, Yu  and\nZhang, Min  and\nWang, Zhefeng  and\nHuai, Baoxing"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "End-to-end automatic speech recognition (ASR) systems have made significant progress in general scenarios. However, it remains challenging to transcribe contextual named entities (NEs) in the contextual ASR scenario. Previous approaches have attempted to address this by utilizing the NE dictionary. These approaches treat entities as individual tokens and generate them token-by-token, which may result in incomplete transcriptions of entities. In this paper, we treat entities as indivisible wholes and introduce the idea of copying into ASR. We design a systematic mechanism called CopyNE, which can copy entities from the NE dictionary. By copying all tokens of an entity at once, we can reduce errors during entity transcription, ensuring the completeness of the entity. Experiments demonstrate that CopyNE consistently improves the accuracy of transcribing entities compared to previous approaches. Even when based on the strong Whisper, CopyNE still achieves notable improvements.",
+  "keywords": [
+    "the accuracy",
+    "general",
+    "end",
+    "entities",
+    "general scenarios",
+    "contextual named entities nes",
+    "it",
+    "opy",
+    "token",
+    "we",
+    "transcribing entities",
+    "entity",
+    "accuracy",
+    "speech",
+    "individual tokens"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.147/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

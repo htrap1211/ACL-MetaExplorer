@@ -1,0 +1,33 @@
+{
+  "id": "2021.metanlp-1.6",
+  "title": "Meta-Learning for Few-Shot Named Entity Recognition",
+  "authors": [
+    "de Lichy, Cyprien  and\nGlaude, Hadrien  and\nCampbell, William"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Meta Learning and Its Applications to Natural Language Processing",
+  "abstract": "Meta-learning has recently been proposed to learn models and algorithms that can generalize from a handful of examples. However, applications to structured prediction and textual tasks pose challenges for meta-learning algorithms. In this paper, we apply two meta-learning algorithms, Prototypical Networks and Reptile, to few-shot Named Entity Recognition (NER), including a method for incorporating language model pre-training and Conditional Random Fields (CRF). We propose a task generation scheme for converting classical NER datasets into the few-shot setting, for both training and evaluation. Using three public datasets, we show these meta-learning algorithms outperform a reasonable fine-tuned BERT baseline. In addition, we propose a novel combination of Prototypical Networks and Reptile.",
+  "keywords": [
+    "the few-shot setting",
+    "ner",
+    "few-shot",
+    "language",
+    "random",
+    "generation",
+    "bert",
+    "model",
+    "classical ner datasets",
+    "entity recognition ner",
+    "a task generation scheme",
+    "we",
+    "learning",
+    "fields",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/2021.metanlp-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:18:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

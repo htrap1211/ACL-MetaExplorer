@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.26",
+  "title": "UPB} at {S}em{E}val-2021 Task 5: Virtual Adversarial Training for Toxic Spans Detection",
+  "authors": [
+    "Paraschiv, Andrei  and\nCercel, Dumitru-Clementin  and\nDascalu, Mihai"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "The real-world impact of polarization and toxicity in the online sphere marked the end of 2020 and the beginning of this year in a negative way. Semeval-2021, Task 5 - Toxic Spans Detection is based on a novel annotation of a subset of the Jigsaw Unintended Bias dataset and is the first language toxicity detection task dedicated to identifying the toxicity-level spans. For this task, participants had to automatically detect character spans in short comments that render the message as toxic. Our model considers applying Virtual Adversarial Training in a semi-supervised setting during the fine-tuning process of several Transformer-based models (i.e., BERT and RoBERTa), in combination with Conditional Random Fields. Our approach leads to performance improvements and more robust models, enabling us to achieve an F1-score of 65.73% in the official submission and an F1-score of 66.13% after further tuning during post-evaluation.",
+  "keywords": [
+    "bias",
+    "roberta",
+    "end",
+    "fields",
+    "training",
+    "conditional random fields",
+    "the fine-tuning process",
+    "several transformer-based models",
+    "tuning",
+    "i",
+    "an f1-score",
+    "bert",
+    "-",
+    "fine",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.26/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:20:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

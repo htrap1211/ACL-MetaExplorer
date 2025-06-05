@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.53",
+  "title": "CPIC} at {S}em{E}val-2023 Task 7: {GPT}2-Based Model for Multi-evidence Natural Language Inference for Clinical Trial Data",
+  "authors": [
+    "Huang, Mingtong  and\nRen, Junxiang  and\nLiu, Lang  and\nSong, Ruilin  and\nYin, Wenbo"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper describes our system submitted for SemEval Task 7, Multi-Evidence Natural Language Inference for Clinical Trial Data. The task consists of 2 subtasks. Subtask 1 is to determine the relationships between clinical trial data (CTR) and statements. Subtask 2 is to output a set of supporting facts extracted from the premises with the input of CTR premises and statements. Through experiments, we found that our GPT2-based pre-trained models can obtain good results in Subtask 2. Therefore, we use the GPT2-based pre-trained model to fine-tune Subtask 2. We transform the evidence retrieval task into a binary class task by combining premises and statements as input, and the output is whether the premises and statements match. We obtain a top-5 score in the evaluation phase of Subtask 2.",
+  "keywords": [
+    "language",
+    "our gpt2-based pre-trained models",
+    "natural",
+    "model",
+    "gpt2",
+    "class",
+    "the evaluation phase",
+    "the evidence retrieval task",
+    "retrieval",
+    "gpt",
+    "fine",
+    "the gpt2-based pre-trained model",
+    "we",
+    "evaluation",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.53/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:27:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

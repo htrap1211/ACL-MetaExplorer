@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.267",
+  "title": "G}-Transformer for Document-Level Machine Translation",
+  "authors": [
+    "Bao, Guangsheng  and\nZhang, Yue  and\nTeng, Zhiyang  and\nChen, Boxing  and\nLuo, Weihua"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Document-level MT models are still far from satisfactory. Existing work extend translation unit from single sentence to multiple sentences. However, study shows that when we further enlarge the translation unit to a whole document, supervised training of Transformer can fail. In this paper, we find such failure is not caused by overfitting, but by sticking around local minima during training. Our analysis shows that the increased complexity of target-to-source attention is a reason for the failure. As a solution, we propose G-Transformer, introducing locality assumption as an inductive bias into Transformer, reducing the hypothesis space of the attention from target to source. Experiments show that G-Transformer converges faster and more stably than Transformer, achieving new state-of-the-art BLEU scores for both nonpretraining and pre-training settings on three benchmark datasets.",
+  "keywords": [
+    "work",
+    "transformer",
+    "bias",
+    "machine",
+    "that g-transformer converges",
+    "bleu",
+    "an inductive bias",
+    "attention",
+    "we",
+    "the translation unit",
+    "pre",
+    "the attention",
+    "analysis",
+    "training",
+    "translation"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.267/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:02:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

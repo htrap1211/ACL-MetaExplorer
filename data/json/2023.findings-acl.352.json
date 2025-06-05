@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.352",
+  "title": "Know What {I} don{'}t Know: Handling Ambiguous and Unknown Questions for Text-to-{SQL",
+  "authors": [
+    "Wang, Bing  and\nGao, Yan  and\nLi, Zhoujun  and\nLou, Jian-Guang"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "The task of text-to-SQL aims to convert a natural language question into its corresponding SQL query within the context of relational tables. Existing text-to-SQL parsers generate a plausible SQL query for an arbitrary user question, thereby failing to correctly handle problematic user questions. To formalize this problem, we conduct a preliminary study on the observed ambiguous and unanswerable cases in text-to-SQL and summarize them into 6 feature categories. Correspondingly, we identify the causes behind each category and propose requirements for handling ambiguous and unanswerable questions. Following this study, we propose a simple yet effective counterfactual example generation approach that automatically produces ambiguous and unanswerable text-to-SQL examples. Furthermore, we propose a weakly supervised DTE (Detecting-Then-Explaining) model for error detection, localization, and explanation. Experimental results show that our model achieves the best result on both real-world examples and generated examples compared with various baselines. We release our data and code at:https://github.com/wbbeyourself/DTE.",
+  "keywords": [
+    "code",
+    "question",
+    "generated examples",
+    "we",
+    "6 feature categories",
+    "natural",
+    "i",
+    "categories",
+    "text",
+    "language",
+    "generation",
+    "model",
+    "don",
+    "approach",
+    "don t"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.352/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:58:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

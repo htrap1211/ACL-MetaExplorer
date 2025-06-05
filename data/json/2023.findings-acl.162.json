@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.162",
+  "title": "Rethinking Translation Memory Augmented Neural Machine Translation",
+  "authors": [
+    "Hao, Hongkun  and\nHuang, Guoping  and\nLiu, Lemao  and\nZhang, Zhirui  and\nShi, Shuming  and\nWang, Rui"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "This paper rethinks translation memory augmented neural machine translation (TM-augmented NMT) from two perspectives, i.e., a probabilistic view of retrieval and the variance-bias decomposition principle. The finding demonstrates that TM-augmented NMT is good at the ability of fitting data (i.e., lower bias) but is more sensitive to the fluctuations in the training data (i.e., higher variance), which provides an explanation to a recently reported contradictory phenomenon on the same translation task: TM-augmented NMT substantially advances NMT without TM under the high resource scenario whereas it fails under the low resource scenario. Then this paper proposes a simple yet effective TM-augmented NMT model to promote the variance and address the contradictory phenomenon. Extensive experiments show that the proposed TM-augmented NMT achieves consistent gains over both conventional NMT and existing TM-augmented NMT under two variance-preferable (low resource and plug-and-play) scenarios as well as the high resource scenario.",
+  "keywords": [
+    "the variance",
+    "bias",
+    "i",
+    "neural",
+    "model",
+    "machine",
+    "fitting",
+    "it",
+    "neural machine translation",
+    "the variance-bias decomposition principle",
+    "view",
+    "a probabilistic view",
+    "retrieval",
+    "two variance-preferable low resource",
+    "rethinking translation memory"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.162/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

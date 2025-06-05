@@ -1,0 +1,33 @@
+{
+  "id": "2024.knowllm-1.8",
+  "title": "A}c{K}nowledge: Acquired Knowledge Representation by Small Language Model Without Pre-training",
+  "authors": [
+    "Das, Sourav  and\nChatterji, Sanjay  and\nMukherjee, Imon"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Towards Knowledgeable Language Models (KnowLLM 2024)",
+  "abstract": "Large language models (LLMs) are pre-trained on enormous amounts of text data and show acclaimed success in knowledge representation. However, there are two bottlenecks with this approach. (1) Pre-training data cannot be regularly updated once the models are deployed, and it is not very fruitful if the model cannot represent updated knowledge. (2) The consistently increasing size and computational resources make it difficult for non-commercial and individual researchers to fine-tune and scale these language models. Major LLMs with external knowledge are also proprietary. In this paper, we propose AcKnowledge, a framework wrapped around a small, non-pre-trained language model for an open-domain question-answering (QA) experiment. AcKnowledge learns relevant knowledge from the internet via meta-learning based on user questions, and re-learns from user feedback if knowledge is misrepresented. Our efficient knowledge representation framework avoids pre-training overhead while enabling updated information. Benchmarking shows competitive performance against similarly sized state-of-the-art (SoTA) LLMs on gold standard QA datasets, demonstrating the potential of integrating internet search and user feedback for improved performance and generalizability.",
+  "keywords": [
+    "feedback",
+    "efficient",
+    "question",
+    "we",
+    "generalizability",
+    "small language model",
+    "nowledge",
+    "training",
+    "it",
+    "gold standard qa datasets",
+    "major llms",
+    "information",
+    "learning",
+    "llms",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2024.knowllm-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:07:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

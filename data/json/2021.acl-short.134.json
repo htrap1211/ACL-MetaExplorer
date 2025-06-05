@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.134",
+  "title": "Can Transformer Models Measure Coherence In Text: Re-Thinking the Shuffle Test",
+  "authors": [
+    "Laban, Philippe  and\nDai, Luke  and\nBandarkar, Lucas  and\nHearst, Marti A."
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "The Shuffle Test is the most common task to evaluate whether NLP models can measure coherence in text. Most recent work uses direct supervision on the task; we show that by simply finetuning a RoBERTa model, we can achieve a near perfect accuracy of 97.8%, a state-of-the-art. We argue that this outstanding performance is unlikely to lead to a good model of text coherence, and suggest that the Shuffle Test should be approached in a Zero-Shot setting: models should be evaluated without being trained on the task itself. We evaluate common models in this setting, such as Generative and Bi-directional Transformers, and find that larger architectures achieve high-performance out-of-the-box. Finally, we suggest the k-Block Shuffle Test, a modification of the original by increasing the size of blocks shuffled. Even though human reader performance remains high (around 95% accuracy), model performance drops from 94% to 78% as block size increases, creating a conceptually simple challenge to benchmark NLP models.",
+  "keywords": [
+    "work",
+    "generative",
+    "a near perfect accuracy",
+    "transformer models",
+    "roberta",
+    "transformers",
+    "nlp",
+    "model",
+    "text",
+    "human",
+    "a zero-shot setting models",
+    "benchmark nlp models",
+    "we",
+    "nlp models",
+    "generative and bi-directional transformers"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.134/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:08:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

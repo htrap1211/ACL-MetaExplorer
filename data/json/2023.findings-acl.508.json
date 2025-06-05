@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.508",
+  "title": "Prosody-{TTS}: Improving Prosody with Masked Autoencoder and Conditional Diffusion Model For Expressive Text-to-Speech",
+  "authors": [
+    "Huang, Rongjie  and\nZhang, Chunlei  and\nRen, Yi  and\nZhao, Zhou  and\nYu, Dong"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Expressive text-to-speech aims to generate high-quality samples with rich and diverse prosody, which is hampered bydual challenges: 1) prosodic attributes in highly dynamic voices are difficult to capture and model without intonation; and 2) highly multimodal prosodic representations cannot be well learned by simple regression (e.g., MSE) objectives, which causes blurry and over-smoothing predictions. This paper proposes Prosody-TTS, a two-stage pipeline that enhancesprosody modeling and samplingby introducing several components: 1) a self-supervised masked autoencoder to model the prosodic representation without relying on text transcriptions or local prosody attributes, which ensures to cover diverse speaking voices with superior generalization; and 2) a diffusion model to sample diverse prosodic patterns within the latent space, which prevents TTS models from generating samples with dull prosodic performance. Experimental results show that Prosody-TTS achieves new state-of-the-art in text-to-speech with natural and expressive synthesis. Both subjective and objective evaluation demonstrate that it exhibits superior audio quality and prosody naturalness with rich and diverse prosodic attributes. Audio samples are available athttps://improved_prosody.github.io",
+  "keywords": [
+    "objectives",
+    "autoencoder",
+    "natural",
+    "it",
+    "self",
+    "masked autoencoder",
+    "latent",
+    "rich",
+    "text",
+    "objective",
+    "generalization",
+    "superior generalization",
+    "model",
+    "modeling",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.508/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

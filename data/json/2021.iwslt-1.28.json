@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwslt-1.28",
+  "title": "Inverted Projection for Robust Speech Translation",
+  "authors": [
+    "Padfield, Dirk  and\nCherry, Colin"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021)",
+  "abstract": "Traditional translation systems trained on written documents perform well for text-based translation but not as well for speech-based applications. We aim to adapt translation models to speech by introducing actual lexical errors from ASR and segmentation errors from automatic punctuation into our translation training data. We introduce an inverted projection approach that projects automatically detected system segments onto human transcripts and then re-segments the gold translations to align with the projected human transcripts. We demonstrate that this overcomes the train-test mismatch present in other training approaches. The new projection approach achieves gains of over 1 BLEU point over a baseline that is exposed to the human transcripts and segmentations, and these gains hold for both IWSLT data and YouTube data.",
+  "keywords": [
+    "the gold translations",
+    "text-based translation",
+    "translation models",
+    "text",
+    "human",
+    "bleu",
+    "train",
+    "we",
+    "our translation training data",
+    "over 1 bleu point",
+    "translations",
+    "training",
+    "translation",
+    "speech",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2021.iwslt-1.28/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:18:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.38",
+  "title": "Reinforced Cross-modal Alignment for Radiology Report Generation",
+  "authors": [
+    "Qin, Han  and\nSong, Yan"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Medical images are widely used in clinical decision-making, where writing radiology reports is a potential application that can be enhanced by automatic solutions to alleviate physicians’ workload. In general, radiology report generation is an image-text task, where cross-modal mappings between images and texts play an important role in generating high-quality reports. Although previous studies attempt to facilitate the alignment via the co-attention mechanism under supervised settings, they suffer from lacking valid and accurate correspondences due to no annotation of such alignment. In this paper, we propose an approach with reinforcement learning (RL) over a cross-modal memory (CMM) to better align visual and textual features for radiology report generation. In detail, a shared memory is used to record the mappings between visual and textual information, and the proposed reinforced algorithm is performed to learn the signal from the reports to guide the cross-modal alignment even though such reports are not directly related to how images and texts are mapped. Experimental results on two English radiology report datasets, i.e., IU X-Ray and MIMIC-CXR, show the effectiveness of our approach, where the state-of-the-art results are achieved. We further conduct human evaluation and case study which confirm the validity of the reinforced algorithm in our approach.",
+  "keywords": [
+    "the cross-modal alignment",
+    "we",
+    "valid",
+    "radiology report generation",
+    "cross",
+    "general radiology report generation",
+    "the co-attention mechanism",
+    "such alignment",
+    "information",
+    "learning",
+    "visual",
+    "reinforced cross-modal alignment",
+    "align",
+    "i",
+    "previous studies"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.38/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

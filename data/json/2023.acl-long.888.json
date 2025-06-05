@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.888",
+  "title": "INK}: Injecting k{NN} Knowledge in Nearest Neighbor Machine Translation",
+  "authors": [
+    "Zhu, Wenhao  and\nXu, Jingjing  and\nHuang, Shujian  and\nKong, Lingpeng  and\nChen, Jiajun"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Neural machine translation has achieved promising results on many translation tasks. However, previous studies have shown that neural models induce a non-smooth representation space, which harms its generalization results. Recently, kNN-MT has provided an effective paradigm to smooth the prediction based on neighbor representations during inference. Despite promising results, kNN-MT usually requires large inference overhead. We propose an effective training framework INK to directly smooth the representation space via adjusting representations of kNN neighbors with a small number of new parameters. The new parameters are then used to refresh the whole representation datastore to get new kNN knowledge asynchronously. This loop keeps running until convergence. Experiments on four benchmark datasets show that INK achieves average gains of 1.99 COMET and 1.0 BLEU, outperforming the state-of-the-art kNN-MT system with 0.02x memory space and 1.9x inference speedup.",
+  "keywords": [
+    "knowledge",
+    "previous studies",
+    "its generalization results",
+    "neural",
+    "machine",
+    "studies",
+    "bleu",
+    "generalization",
+    "1 0 bleu",
+    "we",
+    "many translation tasks",
+    "training",
+    "translation",
+    "four benchmark datasets",
+    "large inference"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.888/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:47:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

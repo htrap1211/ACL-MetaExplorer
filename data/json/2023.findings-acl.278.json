@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.278",
+  "title": "Prompt to be Consistent is Better than Self-Consistent? Few-Shot and Zero-Shot Fact Verification with Pre-trained Language Models",
+  "authors": [
+    "Zeng, Fengzhu  and\nGao, Wei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Few-shot or zero-shot fact verification only relies on a few or no labeled training examples. In this paper, we propose a novel method called ProToCo, to Prompt pre-trained language models (PLMs) To be Consistent, for improving the factuality assessment capability of PLMs in the few-shot and zero-shot settings. Given a claim-evidence pair, ProToCo generates multiple variants of the claim with different relations and frames a simple consistency mechanism as constraints for making compatible predictions across these variants. We update PLMs by using parameter-efficient fine-tuning (PEFT), leading to more accurate predictions in few-shot and zero-shot fact verification tasks. Our experiments on three public verification datasets show that ProToCo significantly outperforms state-of-the-art few-shot fact verification baselines. With a small number of unlabeled instances, ProToCo also outperforms the strong zero-shot learner T0 on zero-shot verification. Compared to large PLMs using in-context learning (ICL) method, ProToCo outperforms OPT-30B and the Self-Consistency-enabled OPT-6.7B model in both few- and zero-shot settings.",
+  "keywords": [
+    "efficient",
+    "parameter-efficient fine-tuning peft",
+    "we",
+    "shot",
+    "parameter",
+    "training",
+    "few-",
+    "zero-shot verification",
+    "self",
+    "pre-trained language models plms",
+    "tuning",
+    "prompt",
+    "zero-shot",
+    "fine",
+    "learner"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.278/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

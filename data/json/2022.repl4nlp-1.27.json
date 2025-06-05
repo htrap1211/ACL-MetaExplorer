@@ -1,0 +1,33 @@
+{
+  "id": "2022.repl4nlp-1.27",
+  "title": "W}ea{NF}'':'' Weak Supervision with Normalizing Flows",
+  "authors": [
+    "Stephan, Andreas  and\nRoth, Benjamin"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 7th Workshop on Representation Learning for NLP",
+  "abstract": "A popular approach to decrease the need for costly manual annotation of large data sets is weak supervision, which introduces problems of noisy labels, coverage and bias. Methods for overcoming these problems have either relied on discriminative models, trained with cost functions specific to weak supervision, and more recently, generative models, trying to model the output of the automatic annotation process. In this work, we explore a novel direction of generative modeling for weak supervision”:” Instead of modeling the output of the annotation process (the labeling function matches), we generatively model the input-side data distributions (the feature space) covered by labeling functions. Specifically, we estimate a density for each weak labeling source, or labeling function, by using normalizing flows. An integral part of our method is the flow-based modeling of multiple simultaneously matching labeling functions, and therefore phenomena such as labeling function overlap and correlations are captured. We analyze the effectiveness and modeling capabilities on various commonly used weak supervision data sets, and show that weakly supervised normalizing flows compare favorably to standard weak supervision baselines.",
+  "keywords": [
+    "bias",
+    "more recently generative models",
+    "generative modeling",
+    "we",
+    "generative",
+    "bias methods",
+    "function",
+    "work",
+    "process",
+    "modeling",
+    "capabilities",
+    "each weak labeling source",
+    "supervision",
+    "correlations",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2022.repl4nlp-1.27/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:45:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

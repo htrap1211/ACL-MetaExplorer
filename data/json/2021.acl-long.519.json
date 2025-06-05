@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.519",
+  "title": "End-to-End Training of Neural Retrievers for Open-Domain Question Answering",
+  "authors": [
+    "Sachan, Devendra  and\nPatwary, Mostofa  and\nShoeybi, Mohammad  and\nKant, Neel  and\nPing, Wei  and\nHamilton, William L.  and\nCatanzaro, Bryan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Recent work on training neural retrievers for open-domain question answering (OpenQA) has employed both supervised and unsupervised approaches. However, it remains unclear how unsupervised and supervised methods can be used most effectively for neural retrievers. In this work, we systematically study retriever pre-training. We first propose an approach of unsupervised pre-training with the Inverse Cloze Task and masked salient spans, followed by supervised finetuning using question-context pairs. This approach leads to absolute gains of 2+ points over the previous best result in the top-20 retrieval accuracy on Natural Questions and TriviaQA datasets. We next explore two approaches for end-to-end training of the reader and retriever components in OpenQA models, which differ in the manner the reader ingests the retrieved documents. Our experiments demonstrate the effectiveness of these approaches as we obtain state-of-the-art results. On the Natural Questions dataset, we obtain a top-20 retrieval accuracy of 84%, an improvement of 5 points over the recent DPR model. We also achieve good results on answer extraction, outperforming recent models like REALM and RAG by 3+ points.",
+  "keywords": [
+    "end",
+    "extraction",
+    "the manner",
+    "retriever components",
+    "question",
+    "the retrieved documents",
+    "we",
+    "training",
+    "neural",
+    "natural",
+    "it",
+    "retrieval",
+    "manner",
+    "a top-20 retrieval accuracy",
+    "triviaqa datasets"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.519/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

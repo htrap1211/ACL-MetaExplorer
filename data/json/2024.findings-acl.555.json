@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.555",
+  "title": "Question-Instructed Visual Descriptions for Zero-Shot Video Answering",
+  "authors": [
+    "Mogrovejo, David  and\nSolorio, Thamar"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "We present Q-ViD, a simple approach for video question answering (video QA), that unlike prior methods, which are based on complex architectures, computationally expensive pipelines or use closed models like GPTs, Q-ViD relies on a single instruction-aware open vision-language model (InstructBLIP) to tackle videoQA using frame descriptions. Specifically, we create captioning instruction prompts that rely on the target questions about the videos and leverage InstructBLIP to obtain video frame captions that are useful to the task at hand. Subsequently, we form descriptions of the whole video using the question-dependent frame captions, and feed that information, along with a question-answering prompt, to a large language model (LLM). The LLM is our reasoning module, and performs the final step of multiple-choice QA. Our simple Q-ViD framework achieves competitive or even higher performances than current state of the art models on a diverse range of videoQA benchmarks, including NExT-QA, STAR, How2QA, TVQA and IntentQA.",
+  "keywords": [
+    "tvqa",
+    "next-qa star how2qa tvqa",
+    "a question-answering prompt",
+    "question",
+    "video qa",
+    "videoqa benchmarks",
+    "we",
+    "captioning instruction prompts",
+    "how2qa",
+    "current",
+    "llm",
+    "shot",
+    "instruction",
+    "gpts q-vid relies",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.555/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:56:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P19-1328",
+  "title": "BERT}-based Lexical Substitution",
+  "authors": [
+    "Zhou, Wangchunshu  and\nGe, Tao  and\nXu, Ke  and\nWei, Furu  and\nZhou, Ming"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Previous studies on lexical substitution tend to obtain substitute candidates by finding the target word’s synonyms from lexical resources (e.g., WordNet) and then rank the candidates based on its contexts. These approaches have two limitations: (1) They are likely to overlook good substitute candidates that are not the synonyms of the target words in the lexical resources; (2) They fail to take into account the substitution’s influence on the global context of the sentence. To address these issues, we propose an end-to-end BERT-based lexical substitution approach which can propose and validate substitute candidates without using any annotated data or manually curated resources. Our approach first applies dropout to the target word’s embedding for partially masking the word, allowing BERT to take balanced consideration of the target word’s semantics and contexts for proposing substitute candidates, and then validates the candidates based on their substitution’s influence on the global contextualized representation of the sentence. Experiments show our approach performs well in both proposing and ranking substitute candidates, achieving the state-of-the-art results in both LS07 and LS14 benchmarks.",
+  "keywords": [
+    "end",
+    "bert",
+    "studies",
+    "semantics",
+    "wordnet",
+    "we",
+    "word",
+    "that",
+    "the candidates",
+    "candidates",
+    "contexts",
+    "good",
+    "global",
+    "approach",
+    "state"
+  ],
+  "url": "https://aclanthology.org/P19-1328/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:38:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

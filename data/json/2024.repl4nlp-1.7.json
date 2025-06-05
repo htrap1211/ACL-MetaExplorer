@@ -1,0 +1,33 @@
+{
+  "id": "2024.repl4nlp-1.7",
+  "title": "Bridging the Gap: Transfer Learning from {E}nglish {PLM}s to {M}alaysian {E}nglish",
+  "authors": [
+    "Chanthran, MohanRaj  and\nSoon, Lay-Ki  and\nOng, Huey Fang  and\nSelvaretnam, Bhawani"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 9th Workshop on Representation Learning for NLP (RepL4NLP-2024)",
+  "abstract": "Malaysian English is a low resource creole languages, where it carries the elements of Malay, Chinese, and Tamil languages, in addition to Standard English. Named Entity Recognition (NER) models underperforms when capturing entities from Malaysian English text due to its distinctive morphosyntactic adaptations, semantic features and code-switching (mixing English and Malay). Considering these gaps, we introduce MENmBERT and MENBERT, a pre-trained language model with contextual understanding, specifically tailored for Malaysian English. We have fine-tuned MENmBERT and MENBERT using manually annotated entities and relations from the Malaysian English News Article (MEN) Dataset. This fine-tuning process allows the PLM to learn representations that capture the nuances of Malaysian English relevant for NER and RE tasks. MENmBERT achieved a 1.52% and 26.27% improvement on NER and RE tasks respectively compared to the bert-base-multilingual-cased model. While the overall performance for NER does not have significant improvement, our further analysis shows that there is a significant improvement when evaluated by the 12 entity labels. These findings suggest that pre-training language models on language-specific and geographically-focused corpora can be a promising approach for improving NER performance in low-resource settings. The dataset and code published through this paper provide valuable resources for NLP research work focusing on Malaysian English.",
+  "keywords": [
+    "code",
+    "this fine-tuning process",
+    "menmbert",
+    "a pre-trained language model",
+    "semantic",
+    "we",
+    "training",
+    "the bert-base-multilingual-cased model",
+    "it",
+    "fine-tuned menmbert",
+    "transfer",
+    "analysis",
+    "men",
+    "ner",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2024.repl4nlp-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

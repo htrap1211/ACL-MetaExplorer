@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.415",
+  "title": "How does the brain process syntactic structure while listening?",
+  "authors": [
+    "Oota, Subba Reddy  and\nMarreddy, Mounika  and\nGupta, Manish  and\nBapi, Raju"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Syntactic parsing is the task of assigning a syntactic structure to a sentence. There are two popular syntactic parsing methods: constituency and dependency parsing. Recent works have used syntactic embeddings based on constituency trees, incremental top-down parsing, and other word syntactic features for brain activity prediction given the text stimuli to study how the syntax structure is represented in the brain’s language network. However, the effectiveness of dependency parse trees or the relative predictive power of the various syntax parsers across brain areas, especially for the listening task, is yet unexplored. In this study, we investigate the predictive power of the brain encoding models in three settings: (i) individual performance of the constituency and dependency syntactic parsing based embedding methods, (ii) efficacy of these syntactic parsing based embedding methods when controlling for basic syntactic signals, (iii) relative effectiveness of each of the syntactic embedding methods when controlling for the other. Further, we explore the relative importance of syntactic information (from these syntactic embedding methods) versus semantic information using BERT embeddings. We find that constituency parsers help explain activations in the temporal lobe and middle-frontal gyrus, while dependency parsers better encode syntactic structure in the angular gyrus and posterior cingulate cortex. Although semantic signals from BERT are more effective compared to any of the syntactic features or embedding methods, syntactic embedding methods explain additional variance for a few brain regions.",
+  "keywords": [
+    "these syntactic parsing",
+    "the syntactic embedding methods",
+    "parsing",
+    "encode",
+    "semantic",
+    "we",
+    "activations",
+    "embedding methods",
+    "syntax",
+    "variance",
+    "syntactic embeddings",
+    "the syntax structure",
+    "dependency parse trees",
+    "the various syntax parsers",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.415/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

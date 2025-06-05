@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.451",
+  "title": "Discourse-Aware Neural Extractive Text Summarization",
+  "authors": [
+    "Xu, Jiacheng  and\nGan, Zhe  and\nCheng, Yu  and\nLiu, Jingjing"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Recently BERT has been adopted for document encoding in state-of-the-art text summarization models. However, sentence-based extractive models often result in redundant or uninformative phrases in the extracted summaries. Also, long-range dependencies throughout a document are not well captured by BERT, which is pre-trained on sentence pairs instead of documents. To address these issues, we present a discourse-aware neural summarization model - DiscoBert. DiscoBert extracts sub-sentential discourse units (instead of sentences) as candidates for extractive selection on a finer granularity. To capture the long-range dependencies among discourse units, structural discourse graphs are constructed based on RST trees and coreference mentions, encoded with Graph Convolutional Networks. Experiments show that the proposed model outperforms state-of-the-art methods by a significant margin on popular summarization benchmarks compared to other BERT-base models.",
+  "keywords": [
+    "finer",
+    "graph convolutional networks experiments",
+    "summaries",
+    "a finer granularity",
+    "neural",
+    "popular summarization benchmarks",
+    "recently bert",
+    "bert",
+    "model",
+    "other bert-base models",
+    "text",
+    "discobert",
+    "the long-range dependencies",
+    "dependencies",
+    "summarization"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.451/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:48:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "W19-5001",
+  "title": "Classifying the reported ability in clinical mobility descriptions",
+  "authors": [
+    "Newman-Griffis, Denis  and\nZirikly, Ayah  and\nDivita, Guy  and\nDesmet, Bart"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 18th BioNLP Workshop and Shared Task",
+  "abstract": "Assessing how individuals perform different activities is key information for modeling health states of individuals and populations. Descriptions of activity performance in clinical free text are complex, including syntactic negation and similarities to textual entailment tasks. We explore a variety of methods for the novel task of classifying four types of assertions about activity performance: Able, Unable, Unclear, and None (no information). We find that ensembling an SVM trained with lexical features and a CNN achieves 77.9% macro F1 score on our task, and yields nearly 80% recall on the rare Unclear and Unable samples. Finally, we highlight several challenges in classifying performance assertions, including capturing information about sources of assistance, incorporating syntactic structure and negation scope, and handling new modalities at test time. Our findings establish a strong baseline for this novel task, and identify intriguing areas for further research.",
+  "keywords": [
+    "variety",
+    "we",
+    "svm",
+    "cnn",
+    "information",
+    "a variety",
+    "yields",
+    "text",
+    "nearly 80 recall",
+    "activities",
+    "recall",
+    "similarities",
+    "different activities",
+    "modalities",
+    "an svm"
+  ],
+  "url": "https://aclanthology.org/W19-5001/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:55:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.192",
+  "title": "B}2{T} Connection: Serving Stability and Performance in Deep Transformers",
+  "authors": [
+    "Takase, Sho  and\nKiyono, Shun  and\nKobayashi, Sosuke  and\nSuzuki, Jun"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In the perspective of a layer normalization (LN) position, the architecture of Transformers can be categorized into two types: Post-LN and Pre-LN.Recent Transformers prefer to select Pre-LN because the training in Post-LN with deep Transformers, e.g., ten or more layers, often becomes unstable, resulting in useless models. However, in contrast, Post-LN has also consistently achieved better performance than Pre-LN in relatively shallow Transformers, e.g., six or fewer layers. This study first investigates the reason for these discrepant observations empirically and theoretically and discovers 1, the LN in Post-LN is the source of the vanishing gradient problem that mainly leads the unstable training whereas Pre-LN prevents it, and 2, Post-LN tends to preserve larger gradient norms in higher layers during the back-propagation that may lead an effective training. Exploiting the new findings, we propose a method that can equip both higher stability and effective training by a simple modification from Post-LN.We conduct experiments on a wide range of text generation tasks and demonstrate that our method outperforms Pre-LN, and stable training regardless of the shallow or deep layer settings.",
+  "keywords": [
+    "deep",
+    "transformers",
+    "layer",
+    "we",
+    "text generation tasks",
+    "a layer normalization",
+    "training",
+    "deep transformers",
+    "it",
+    "normalization",
+    "text",
+    "relatively shallow transformers",
+    "larger gradient norms",
+    "the vanishing gradient problem",
+    "e g"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.192/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

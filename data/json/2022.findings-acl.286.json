@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.286",
+  "title": "DARER}: Dual-task Temporal Relational Recurrent Reasoning Network for Joint Dialog Sentiment Classification and Act Recognition",
+  "authors": [
+    "Xing, Bowen  and\nTsang, Ivor"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "The task of joint dialog sentiment classification (DSC) and act recognition (DAR) aims to simultaneously predict the sentiment label and act label for each utterance in a dialog. In this paper, we put forward a new framework which models the explicit dependencies via integratingprediction-level interactionsother than semantics-level interactions, more consistent with human intuition.Besides, we propose a speaker-aware temporal graph (SATG) and a dual-task relational temporal graph (DRTG) to introducetemporal relationsinto dialog understanding and dual-task reasoning. To implement our framework, we propose a novel model dubbed DARER, which first generates the context-, speaker- and temporal-sensitive utterance representations via modeling SATG, then conducts recurrent dual-task relational reasoning on DRTG, in which process the estimated label distributions act as key clues in prediction-level interactions.Experiment results show that DARER outperforms existing models by large margins while requiring much less computation resource and costing less training time.Remarkably, on DSC task in Mastodon, DARER gains a relative improvement of about 25% over previous best model in terms of F1, with less than 50% parameters and about only 60% required GPU memory.",
+  "keywords": [
+    "f1",
+    "semantics-level interactions",
+    "we",
+    "graph",
+    "training",
+    "classification",
+    "semantics",
+    "dependencies",
+    "recurrent",
+    "joint dialog sentiment classification",
+    "the explicit dependencies",
+    "sentiment",
+    "model",
+    "human",
+    "modeling"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.286/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.716",
+  "title": "Boosting Event Extraction with Denoised Structure-to-Text Augmentation",
+  "authors": [
+    "Wang, Bo  and\nHuang, Heyan  and\nWei, Xiaochi  and\nShi, Ge  and\nLiu, Xiao  and\nFeng, Chong  and\nZhou, Tong  and\nWang, Shuaiqiang  and\nYin, Dawei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Event extraction aims to recognize pre-defined event triggers and arguments from texts, which suffer from the lack of high-quality annotations. In most NLP applications, involving a large scale of synthetic training data is a practical and effective approach to alleviate the problem of data scarcity. However, when applying to the task of event extraction, recent data augmentation methods often neglect the problem of grammatical incorrectness, structure misalignment, and semantic drifting, leading to unsatisfactory performances. In order to solve these problems, we propose a denoised structure-to-text augmentation framework for event extraction (DAEE), which generates additional training data through the knowledge-based structure-to-text generation model and selects the effective subset from the generated data iteratively with a deep reinforcement learning agent. Experimental results on several datasets demonstrate that the proposed method generates more diverse text representations for event extraction and achieves comparable results with the state-of-the-art.",
+  "keywords": [
+    "deep",
+    "extraction",
+    "most nlp applications",
+    "semantic",
+    "we",
+    "grammatical incorrectness structure misalignment",
+    "training",
+    "misalignment",
+    "semantic drifting",
+    "text",
+    "knowledge",
+    "reinforcement",
+    "generation",
+    "nlp",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.716/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

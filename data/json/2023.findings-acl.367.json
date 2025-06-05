@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.367",
+  "title": "Hybrid-Regressive Paradigm for Accurate and Speed-Robust Neural Machine Translation",
+  "authors": [
+    "Wang, Qiang  and\nHu, Xinhui  and\nChen, Ming"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "This work empirically confirms that non-autoregressive translation (NAT) is less robust in decoding batch size and hardware settings than autoregressive translation (AT). To address this issue, we demonstrate that prompting a small number of AT predictions can significantly reduce the performance gap between AT and NAT through synthetic experiments. Following this line, we propose hybrid-regressive translation (HRT), a two-stage translation prototype that combines the strengths of AT and NAT. Specifically, HRT first generates discontinuous sequences via autoregression (e.g., make a prediction for everyktokens,k>1) and then fills in all previously skipped tokens at once in a non-autoregressive manner. Experiments on five translation tasks show that HRT achieves comparable translation quality with AT while having at least 1.5x faster inference regardless of batch size and device. Additionally, HRT successfully inherits the sound characteristics of AT in the deep-encoder-shallow-decoder architecture, allowing for further speedup without BLEU loss.",
+  "keywords": [
+    "deep",
+    "the deep-encoder-shallow-decoder architecture",
+    "non-autoregressive translation nat",
+    "bleu",
+    "k",
+    "all",
+    "we",
+    "translation",
+    "hybrid-regressive translation",
+    "neural",
+    "a non-autoregressive manner experiments",
+    "decoder",
+    "loss",
+    "manner",
+    "nat"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.367/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

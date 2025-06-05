@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.584",
+  "title": "Deductive Closure Training of Language Models for Coherence, Accuracy, and Updatability",
+  "authors": [
+    "Aky{\\\"u}rek, Afra Feyza  and\nAky{\\\"u}rek, Ekin  and\nChoshen, Leshem  and\nWijaya, Derry  and\nAndreas, Jacob"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "While language models (LMs) can sometimes generate factually correct text and estimate truth values of individual claims, these generally do not reflect a globally coherent, manipulable model of the world. As a consequence, current LMs also generate incorrect or nonsensical content, and are difficult to edit and bring up to date. We present a method called Deductive Closure Training (DCT) that uses LMs themselves to identify implications of (and contradictions within) the text that they generate, yielding an efficient self-supervised procedure for improving LM factuality. Given a collection of seed documents, DCT prompts LMs to generate additional text implied by these documents, reason globally about the correctness of this generated text, and finally fine-tune on text inferred to be correct. Given seed documents from a trusted source, DCT provides a tool for supervised model updating; if seed documents are sampled from the LM itself, DCT enables fully unsupervised fine-tuning for improved coherence and accuracy. Across the CREAK, MQuAKE, and Reversal Curse datasets, supervised DCT improves LM fact verification and text generation accuracy by 3-26%; on CREAK, fully unsupervised DCT improves verification accuracy by 12%. These results show that LMs’ reasoning capabilities during inference can be leveraged during training to improve their reliability.",
+  "keywords": [
+    "efficient",
+    "we",
+    "current",
+    "training",
+    "coherence accuracy",
+    "self",
+    "lms reasoning capabilities",
+    "fully unsupervised fine-tuning",
+    "verification accuracy",
+    "an efficient self-supervised procedure",
+    "this generated text",
+    "tuning",
+    "text",
+    "language models",
+    "fine"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.584/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:56:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

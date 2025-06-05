@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.745",
+  "title": "Attention as a Guide for Simultaneous Speech Translation",
+  "authors": [
+    "Papi, Sara  and\nNegri, Matteo  and\nTurchi, Marco"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In simultaneous speech translation (SimulST), effective policies that determine when to write partial translations are crucial to reach high output quality with low latency. Towards this objective, we propose EDAtt (Encoder-Decoder Attention), an adaptive policy that exploits the attention patterns between audio source and target textual translation to guide an offline-trained ST model during simultaneous inference. EDAtt exploits the attention scores modeling the audio-translation relation to decide whether to emit a partial hypothesis or wait for more audio input. This is done under the assumption that, if attention is focused towards the most recently received speech segments, the information they provide can be insufficient to generate the hypothesis (indicating that the system has to wait for additional audio input). Results on en->de, es show that EDAtt yields better results compared to the SimulST state of the art, with gains respectively up to 7 and 4 BLEU points for the two languages, and with a reduction in computational-aware latency up to 1.4s and 0.7s compared to existing SimulST policies applied to offline-trained models.",
+  "keywords": [
+    "bleu",
+    "partial translations",
+    "we",
+    "edatt yields",
+    "translation",
+    "policies",
+    "decoder",
+    "information",
+    "the attention scores",
+    "the audio-translation relation",
+    "yields",
+    "reduction",
+    "edatt encoder-decoder attention",
+    "objective",
+    "this objective"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.745/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:45:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

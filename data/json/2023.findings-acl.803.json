@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.803",
+  "title": "GNN}-{SL}: Sequence Labeling Based on Nearest Examples via {GNN",
+  "authors": [
+    "Wang, Shuhe  and\nMeng, Yuxian  and\nOuyang, Rongbin  and\nLi, Jiwei  and\nZhang, Tianwei  and\nLyu, Lingjuan  and\nWang, Guoyin"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "To better handle long-tail cases in the sequence labeling (SL) task, in this work, we introduce graph neural networks sequence labeling (GNN-SL), which augments the vanilla SL model output with similar tagging examples retrieved from the whole training set. Since not all the retrieved tagging examples benefit the model prediction, we construct a heterogeneous graph, and leverage graph neural networks (GNNs) to transfer information between the retrieved tagging examples and the input word sequence. The augmented node which aggregates information from neighbors is used to do prediction. This strategy enables the model to directly acquire similar tagging examples and improves the general quality of predictions. We conduct a variety of experiments on three typical sequence labeling tasks: Named Entity Recognition (NER), Part of Speech Tagging (POS), and Chinese Word Segmentation (CWS) to show the significant performance of our GNN-SL. Notably, GNN-SL achieves SOTA results of 96.9 (+0.2) on PKU, 98.3 (+0.4) on CITYU, 98.5 (+0.2) on MSR, and 96.9 (+0.2) on AS for the CWS task, and resultscomparable to SOTA performances on NER datasets, and POS datasets.",
+  "keywords": [
+    "variety",
+    "we",
+    "graph",
+    "training",
+    "neural",
+    "information",
+    "word",
+    "sequence",
+    "a variety",
+    "the general quality",
+    "ner",
+    "pos",
+    "the retrieved tagging examples",
+    "work",
+    "general"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.803/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

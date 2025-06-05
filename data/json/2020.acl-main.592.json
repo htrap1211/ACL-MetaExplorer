@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.592",
+  "title": "Learning Architectures from an Extended Search Space for Language Modeling",
+  "authors": [
+    "Li, Yinqiao  and\nHu, Chi  and\nZhang, Yuhao  and\nXu, Nuo  and\nJiang, Yufan  and\nXiao, Tong  and\nZhu, Jingbo  and\nLiu, Tongran  and\nLi, Changliang"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Neural architecture search (NAS) has advanced significantly in recent years but most NAS systems restrict search to learning architectures of a recurrent or convolutional cell. In this paper, we extend the search space of NAS. In particular, we present a general approach to learn both intra-cell and inter-cell architectures (call it ESS). For a better search result, we design a joint learning method to perform intra-cell and inter-cell NAS simultaneously. We implement our model in a differentiable architecture search system. For recurrent neural language modeling, it outperforms a strong baseline significantly on the PTB and WikiText data, with a new state-of-the-art on PTB. Moreover, the learned architectures show good transferability to other systems. E.g., they improve state-of-the-art systems on the CoNLL and WNUT named entity recognition (NER) tasks and CoNLL chunking task, indicating a promising line of research on large-scale pre-learned architectures.",
+  "keywords": [
+    "ner",
+    "general",
+    "ess",
+    "language",
+    "neural",
+    "model",
+    "it",
+    "modeling",
+    "we",
+    "a general approach",
+    "learning",
+    "entity recognition ner tasks",
+    "pre",
+    "recurrent",
+    "convolutional"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.592/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:50:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

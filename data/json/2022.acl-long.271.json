@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.271",
+  "title": "Neural Pipeline for Zero-Shot Data-to-Text Generation",
+  "authors": [
+    "Kasner, Zden{\\v{e}}k  and\nDusek, Ondrej"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In data-to-text (D2T) generation, training on in-domain data leads to overfitting to the data representation and repeating training data noise. We examine how to avoid finetuning pretrained language models (PLMs) on D2T generation datasets while still taking advantage of surface realization capabilities of PLMs. Inspired by pipeline approaches, we propose to generate text by transforming single-item descriptions with a sequence of modules trained on general-domain text-based operations: ordering, aggregation, and paragraph compression. We train PLMs for performing these operations on a synthetic corpus WikiFluent which we build from English Wikipedia. Our experiments on two major triple-to-text datasets—WebNLG and E2E—show that our approach enables D2T generation from RDF triples in zero-shot settings.",
+  "keywords": [
+    "general",
+    "general-domain text-based operations",
+    "generation",
+    "language",
+    "neural",
+    "text",
+    "d2t generation datasets",
+    "zero-shot settings",
+    "capabilities",
+    "we",
+    "sequence",
+    "pretrained language models plms",
+    "d2t generation",
+    "shot",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.271/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:27:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

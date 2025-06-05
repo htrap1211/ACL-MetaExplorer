@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.272",
+  "title": "Diversifying Dialog Generation via Adaptive Label Smoothing",
+  "authors": [
+    "Wang, Yida  and\nZheng, Yinhe  and\nJiang, Yong  and\nHuang, Minlie"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Neural dialogue generation models trained with the one-hot target distribution suffer from the over-confidence issue, which leads to poor generation diversity as widely reported in the literature. Although existing approaches such as label smoothing can alleviate this issue, they fail to adapt to diverse dialog contexts. In this paper, we propose an Adaptive Label Smoothing (AdaLabel) approach that can adaptively estimate a target label distribution at each time step for different contexts. The maximum probability in the predicted distribution is used to modify the soft target distribution produced by a novel light-weight bi-directional decoder module. The resulting target distribution is aware of both previous and future contexts and is adjusted to avoid over-training the dialogue model. Our model can be trained in an endto-end manner. Extensive experiments on two benchmark datasets show that our approach outperforms various competitive baselines in producing diverse responses.",
+  "keywords": [
+    "end",
+    "we",
+    "dialogue",
+    "training",
+    "neural",
+    "decoder",
+    "dialog generation",
+    "manner",
+    "poor generation diversity",
+    "soft",
+    "hot",
+    "generation",
+    "the dialogue model",
+    "model",
+    "dialog"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.272/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

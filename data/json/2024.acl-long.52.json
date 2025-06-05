@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.52",
+  "title": "Tuning Large Multimodal Models for Videos using Reinforcement Learning from {AI} Feedback",
+  "authors": [
+    "Ahn, Daechul  and\nChoi, Yura  and\nYu, Youngjae  and\nKang, Dongyeop  and\nChoi, Jonghyun"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent advancements in large language models have influenced the development of video large multimodal models (VLMMs). Previous approaches for VLMMs involve Supervised Fine-Tuning (SFT) with instruction-tuned datasets, integrating LLM with visual encoders, and additional learnable parameters. Here, aligning video with text, and vice versa, remains a challenge, primarily due to the insufficient quality and quantity of multimodal instruction-tune data compared to that of text-only. This discrepancy often results in alignments that poorly ground the video content. To address this, we present a novel alignment strategy that employs a multimodal AI system equipped with Reinforcement Learning from AI Feedback (RLAIF), providing self-preference feedback to refine itself and facilitating the alignment of video and text modalities. Our approach uniquely integrates detailed video descriptions as context into a multimodal AI system during the preference feedback generation to enrich the understanding of video content, a process we call context-aware reward modeling. Empirical evaluations on various video benchmarks demonstrate that our VLM-RLAIF outperforms existing approaches, including the SFT model. We commit to open-sourcing our code, models, and datasets to foster further research in this area.",
+  "keywords": [
+    "code",
+    "alignments",
+    "feedback",
+    "the insufficient quality",
+    "we",
+    "instruction",
+    "the preference feedback generation",
+    "self",
+    "empirical evaluations",
+    "learning",
+    "visual",
+    "tuning",
+    "text",
+    "encoders",
+    "insufficient"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.52/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:35:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

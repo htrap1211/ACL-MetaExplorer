@@ -1,0 +1,33 @@
+{
+  "id": "2024.repl4nlp-1.10",
+  "title": "Word Boundary Information Isn{'}t Useful for Encoder Language Models",
+  "authors": [
+    "Gow-Smith, Edward  and\nPhelps, Dylan  and\nTayyar Madabushi, Harish  and\nScarton, Carolina  and\nVillavicencio, Aline"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 9th Workshop on Representation Learning for NLP (RepL4NLP-2024)",
+  "abstract": "All existing transformer-based approaches to NLP using subword tokenisation algorithms encode whitespace (word boundary information) through the use of special space symbols (such as ## or _) forming part of tokens. These symbols have been shown to a) lead to reduced morphological validity of tokenisations, and b) give substantial vocabulary redundancy. As such, removing these symbols has been shown to have a beneficial effect on the processing of morphologically complex words for transformer encoders in the pretrain-finetune paradigm. In this work, we explore whether word boundary information is at all useful to such models. In particular, we train transformer encoders across four different training scales, and investigate several alternative approaches to including word boundary information, evaluating on two languages (English and Finnish) with a range of tasks across different domains and problem set-ups: sentence classification datasets, NER (for token-level classification), and two classification datasets involving complex words (Superbizarre and FLOTA). Overall, through an extensive experimental setup that includes the pre-training of 35 models, we find no substantial improvements from our alternative approaches, suggesting that modifying tokenisers to remove word boundary information isn’t leading to a loss of useful information.",
+  "keywords": [
+    "encode",
+    "we",
+    "training",
+    "classification",
+    "two classification datasets",
+    "token",
+    "loss",
+    "information",
+    "word",
+    "token-level classification",
+    "ner",
+    "processing",
+    "-",
+    "transformer encoders",
+    "encoders"
+  ],
+  "url": "https://aclanthology.org/2024.repl4nlp-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

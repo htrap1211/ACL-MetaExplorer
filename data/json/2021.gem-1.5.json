@@ -1,0 +1,33 @@
+{
+  "id": "2021.gem-1.5",
+  "title": "Personalized Response Generation with Tensor Factorization",
+  "authors": [
+    "Wang, Zhenghui  and\nLuo, Lingxiao  and\nYang, Diyi"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Natural Language Generation, Evaluation, and Metrics (GEM 2021)",
+  "abstract": "Personalized response generation is essential for more human-like conversations. However, how to model user personalization information with no explicit user persona descriptions or demographics still remains under-investigated. To tackle the data sparsity problem and the huge number of users, we utilize tensor factorization to model users’ personalization information with their posting histories. Specifically, we introduce the personalized response embedding for all question-user pairs and form them into a three-mode tensor, decomposed by Tucker decomposition. The personalized response embedding is fed to either the decoder of an LSTM-based Seq2Seq model or a transformer language model to help generate more personalized responses. To evaluate how personalized the generated responses are, we further propose a novel ranking-based metric called Per-Hits@k which measures how likely are the generated responses come from the corresponding users. Results on a large-scale conversation dataset show that our proposed tensor factorization based models generate more personalized and higher quality responses compared to baselines.",
+  "keywords": [
+    "either the decoder",
+    "seq2seq",
+    "transformer",
+    "generation",
+    "language",
+    "an lstm-based seq2seq model",
+    "their posting histories",
+    "model",
+    "metric",
+    "human",
+    "conversations",
+    "decoder",
+    "question",
+    "information",
+    "the generated responses"
+  ],
+  "url": "https://aclanthology.org/2021.gem-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

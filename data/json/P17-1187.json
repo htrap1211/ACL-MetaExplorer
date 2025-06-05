@@ -1,0 +1,33 @@
+{
+  "id": "P17-1187",
+  "title": "Improved Word Representation Learning with Sememes",
+  "authors": [
+    "Niu, Yilin  and\nXie, Ruobing  and\nLiu, Zhiyuan  and\nSun, Maosong"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Sememes are minimum semantic units of word meanings, and the meaning of each word sense is typically composed by several sememes. Since sememes are not explicit for each word, people manually annotate word sememes and form linguistic common-sense knowledge bases. In this paper, we present that, word sememe information can improve word representation learning (WRL), which maps words into a low-dimensional semantic space and serves as a fundamental step for many NLP tasks. The key idea is to utilize word sememes to capture exact meanings of a word within specific contexts accurately. More specifically, we follow the framework of Skip-gram and present three sememe-encoded models to learn representations of sememes, senses and words, where we apply the attention scheme to detect word senses in various contexts. We conduct experiments on two tasks including word similarity and word analogy, and our models significantly outperform baselines. The results indicate that WRL can benefit from sememes via the attention scheme, and also confirm our models being capable of correctly modeling sememe information.",
+  "keywords": [
+    "semantic",
+    "we",
+    "minimum semantic units",
+    "many nlp tasks",
+    "information",
+    "word",
+    "learning",
+    "a low-dimensional semantic space",
+    "the attention scheme",
+    "dimensional",
+    "knowledge",
+    "nlp",
+    "attention",
+    "various contexts",
+    "word similarity"
+  ],
+  "url": "https://aclanthology.org/P17-1187/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:01:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

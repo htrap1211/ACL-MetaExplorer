@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.263",
+  "title": "R}obust{QA}: Benchmarking the Robustness of Domain Adaptation for Open-Domain Question Answering",
+  "authors": [
+    "Han, Rujun  and\nQi, Peng  and\nZhang, Yuhao  and\nLiu, Lan  and\nBurger, Juliette  and\nWang, William Yang  and\nHuang, Zhiheng  and\nXiang, Bing  and\nRoth, Dan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Open-domain question answering (ODQA) is a crucial task in natural language processing. A typical ODQA system relies on a retriever module to select relevant contexts from a large corpus for a downstream reading comprehension model. Existing ODQA datasets consist mainly of Wikipedia corpus, and are insufficient to study models’ generalizability across diverse domains as models are trained and evaluated on the same genre of data. We propose **RobustQA**, a novel benchmark consisting of datasets from 8 different domains, which facilitates the evaluation of ODQA’s domain robustness. To build **RobustQA**, we annotate QA pairs in retrieval datasets with rigorous quality control. We further examine improving QA performances by incorporating unsupervised learning methods with target-domain corpus and adopting large generative language models. These methods can effectively improve model performances on **RobustQA**. However, experimental results demonstrate a significant gap from in-domain training, suggesting that **RobustQA** is a challenging benchmark to evaluate ODQA domain robustness.",
+  "keywords": [
+    "odqa s domain robustness",
+    "question",
+    "we",
+    "generalizability",
+    "r obust qa",
+    "training",
+    "natural",
+    "models generalizability",
+    "qa pairs",
+    "retrieval",
+    "learning",
+    "generative",
+    "odqa",
+    "robustqa",
+    "a typical odqa system"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.263/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

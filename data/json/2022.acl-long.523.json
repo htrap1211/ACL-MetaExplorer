@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.523",
+  "title": "Do self-supervised speech models develop human-like perception biases?",
+  "authors": [
+    "Millet, Juliette  and\nDunbar, Ewan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Self-supervised models for speech processing form representational spaces without using any external labels. Increasingly, they appear to be a feasible way of at least partially eliminating costly manual annotations, a problem of particular concern for low-resource languages. But what kind of representational spaces do these models construct?Human perception specializes to the sounds of listeners’ native languages. Does the same thing happen in self-supervised models? We examine the representational spaces of three kinds of state of the art self-supervised models: wav2vec, HuBERT and contrastive predictive coding (CPC), and compare them with the perceptual spaces of French-speaking and English-speaking human listeners, both globally and taking account of the behavioural differences between the two language groups. We show that the CPC model shows a small native language effect, but that wav2vec and HuBERT seem to develop a universal speech perception space which is not language specific. A comparison against the predictions of supervised phone recognisers suggests that all three self-supervised models capture relatively fine-grained perceptual phenomena, while supervised models are better at capturing coarser, phone-level effects, and effects of listeners’ native language, on perception.",
+  "keywords": [
+    "form",
+    "human-like perception biases",
+    "we",
+    "self",
+    "hubert",
+    "processing",
+    "listeners native language",
+    "listeners native languages",
+    "biases",
+    "language",
+    "model",
+    "human",
+    "listeners",
+    "state",
+    "low"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.523/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

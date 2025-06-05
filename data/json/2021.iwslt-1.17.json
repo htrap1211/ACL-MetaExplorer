@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwslt-1.17",
+  "title": "Multilingual Speech Translation with Unified Transformer: Huawei {N}oah{'}s Ark Lab at {IWSLT} 2021",
+  "authors": [
+    "Zeng, Xingshan  and\nLi, Liangyou  and\nLiu, Qun"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021)",
+  "abstract": "This paper describes the system submitted to the IWSLT 2021 Multilingual Speech Translation (MultiST) task from Huawei Noah’s Ark Lab. We use a unified transformer architecture for our MultiST model, so that the data from different modalities (i.e., speech and text) and different tasks (i.e., Speech Recognition, Machine Translation, and Speech Translation) can be exploited to enhance the model’s ability. Specifically, speech and text inputs are firstly fed to different feature extractors to extract acoustic and textual features, respectively. Then, these features are processed by a shared encoder–decoder architecture. We apply several training techniques to improve the performance, including multi-task learning, task-level curriculum learning, data augmentation, etc. Our final system achieves significantly better results than bilingual baselines on supervised language pairs and yields reasonable results on zero-shot language pairs.",
+  "keywords": [
+    "we",
+    "shot",
+    "training",
+    "translation",
+    "unified",
+    "decoder",
+    "a unified transformer architecture",
+    "speech translation",
+    "different modalities",
+    "i",
+    "text",
+    "transformer",
+    "language",
+    "model",
+    "machine"
+  ],
+  "url": "https://aclanthology.org/2021.iwslt-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:18:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

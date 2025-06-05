@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.155",
+  "title": "Headed-Span-Based Projective Dependency Parsing",
+  "authors": [
+    "Yang, Songlin  and\nTu, Kewei"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We propose a new method for projective dependency parsing based on headed spans. In a projective dependency tree, the largest subtree rooted at each word covers a contiguous sequence (i.e., a span) in the surface order. We call such a span marked by a root wordheaded span. A projective dependency tree can be represented as a collection of headed spans. We decompose the score of a dependency tree into the scores of the headed spans and design a novelO(n3)dynamic programming algorithm to enable global training and exact inference. Our model achieves state-of-the-art or competitive results on PTB, CTB, and UD",
+  "keywords": [
+    "a dependency tree",
+    "parsing",
+    "i",
+    "model",
+    "dependency",
+    "projective dependency parsing",
+    "word",
+    "we",
+    "sequence",
+    "a projective dependency tree",
+    "training",
+    "the score",
+    "global",
+    "projective",
+    "new"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.155/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

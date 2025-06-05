@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.215",
+  "title": "LPNL}: Scalable Link Prediction with Large Language Models",
+  "authors": [
+    "Bi, Baolong  and\nLiu, Shenghua  and\nWang, Yiwei  and\nMei, Lingrui  and\nCheng, Xueqi"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Exploring the application of large language models (LLMs) to graph learning is an emerging endeavor. However, the vast amount of information inherent in large graphs poses significant challenges to graph learning with LLMs. This work focuses on the link prediction task and introduces **LPNL** (Link Prediction via Natural Language), a framework based on large language models designed for scalable link prediction on large-scale heterogeneous graphs. We design novel prompts for link prediction that articulate graph details in natural language. We propose a two-stage sampling pipeline to extract crucial information from the graphs, and a divide-and-conquer strategy to control the input tokens within predefined limits, addressing the challenge of overwhelming information. We fine-tune a T5 model based on our self-supervised learning designed for link prediction. Extensive experimental results demonstrate that LPNL outperforms multiple advanced baselines in link prediction tasks on large-scale graphs.",
+  "keywords": [
+    "we",
+    "graph",
+    "natural",
+    "self",
+    "information",
+    "learning",
+    "natural language",
+    "llms",
+    "fine",
+    "work",
+    "prompts",
+    "novel prompts",
+    "language",
+    "model",
+    "large language models"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.215/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

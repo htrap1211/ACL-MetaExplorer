@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.5",
+  "title": "The {USTC}{'}s Dialect Speech Translation System for {IWSLT} 2023",
+  "authors": [
+    "Deng, Pan  and\nChen, Shihao  and\nZhang, Weitai  and\nZhang, Jie  and\nDai, Lirong"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "This paper presents the USTC system for the IWSLT 2023 Dialectal and Low-resource shared task, which involves translation from Tunisian Arabic to English. We aim to investigate the mutual transfer between Tunisian Arabic and Modern Standard Arabic (MSA) to enhance the performance of speech translation (ST) by following standard pre-training and fine-tuning pipelines. We synthesize a substantial amount of pseudo Tunisian-English paired data using a multi-step pre-training approach. Integrating a Tunisian-MSA translation module into the end-to-end ST model enables the transfer from Tunisian to MSA and facilitates linguistic normalization of the dialect. To increase the robustness of the ST system, we optimize the model’s ability to adapt to ASR errors and propose a model ensemble method. Results indicate that applying the dialect transfer method can increase the BLEU score of dialectal ST. It is shown that the optimal system ensembles both cascaded and end-to-end ST models, achieving BLEU improvements of 2.4 and 2.8 in test1 and test2 sets, respectively, compared to the best published system.",
+  "keywords": [
+    "ensemble",
+    "normalization",
+    "end",
+    "bleu improvements",
+    "model",
+    "it",
+    "the bleu score",
+    "bleu",
+    "fine",
+    "we",
+    "transfer",
+    "speech translation st",
+    "pre",
+    "a tunisian-msa translation module",
+    "a multi-step pre-training approach"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:24:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

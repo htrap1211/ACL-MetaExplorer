@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.273",
+  "title": "Out-of-Scope Intent Detection with Self-Supervision and Discriminative Training",
+  "authors": [
+    "Zhan, Li-Ming  and\nLiang, Haowen  and\nLiu, Bo  and\nFan, Lu  and\nLam, Albert Y.S.  and\nWu, Xiao-Ming"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Out-of-distribution (OOD) intent detection is of practical importance in task-oriented dialogue systems. Since the distribution of outlier utterances is arbitrary and unknown in the training stage, existing methods commonly rely on strong assumptions on data distribution such as mixture of Gaussians to make inference, resulting in either complex multi-step training procedures or hand-crafted rules such as confidence threshold selection for outlier detection.In this paper, we propose a simple yet effective method to train an OOD intent classifier in a fully end-to-end manner by simulating the test scenario in training, which requires no assumption on data distribution and no additional post-processing or threshold setting. Specifically, we construct a set of pseudo outliers in the training stage, by generating synthetic outliers using inliner features via self-supervision and sampling OOD sentences from easily available open-domain datasets. The pseudo outliers are used to train a discriminative classifier that can be directly applied to and generalize well on the test task. We evaluate our method extensively on four benchmark dialogue datasets and observe significant improvements over state-of-the-art approaches.The source code has been made available at \\url{https://github.com/liam0949/DCLOOS}.",
+  "keywords": [
+    "code",
+    "end",
+    "classifier",
+    "synthetic outliers",
+    "the pseudo outliers",
+    "we",
+    "dialogue",
+    "outlier detection",
+    "an ood intent classifier",
+    "training",
+    "a discriminative classifier",
+    "outlier",
+    "self",
+    "inliner features",
+    "outlier utterances"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.273/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

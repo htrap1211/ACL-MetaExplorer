@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.513",
+  "title": "Synchronized Video Storytelling: Generating Video Narrations with Structured Storyline",
+  "authors": [
+    "Yang, Dingyi  and\nZhan, Chunru  and\nWang, Ziheng  and\nWang, Biao  and\nGe, Tiezheng  and\nZheng, Bo  and\nJin, Qin"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Video storytelling is engaging multimedia content that utilizes video and its accompanying narration to share a story and attract the audience, where a key challenge is creating narrations for recorded visual scenes. Previous studies on dense video captioning and video story generation have made some progress. However, in practical applications, we typically require synchronized narrations for ongoing visual scenes. In this work, we introduce a new task of Synchronized Video Storytelling, which aims to generate synchronous and informative narrations for videos. These narrations, associated with each video clip, should relate to the visual content, integrate relevant knowledge, and have an appropriate word count corresponding to the clip’s duration. Specifically, a structured storyline is beneficial to guide the generation process, ensuring coherence and integrity. To support the exploration of this task, we introduce a new benchmark dataset E-SyncVidStory with rich annotations. Since existing Multimodal LLMs are not effective in addressing this task in one-shot or few-shot settings, we propose a framework named VideoNarrator that can generate a storyline for input videos and simultaneously generate narrations with the guidance of the generated or predefined storyline. We further introduce a set of evaluation metrics to thoroughly assess the generation. Both automatic and human evaluations validate the effectiveness of our approach. Our dataset, codes, and evaluations will be released.",
+  "keywords": [
+    "audience",
+    "the generation",
+    "we",
+    "one-shot or few-shot settings",
+    "shot",
+    "the audience",
+    "rich",
+    "word",
+    "visual",
+    "llms",
+    "previous studies",
+    "metrics",
+    "-",
+    "evaluation metrics",
+    "existing multimodal llms"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.513/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

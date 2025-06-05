@@ -1,0 +1,33 @@
+{
+  "id": "P19-1586",
+  "title": "Low-resource Deep Entity Resolution with Transfer and Active Learning",
+  "authors": [
+    "Kasai, Jungo  and\nQian, Kun  and\nGurajada, Sairam  and\nLi, Yunyao  and\nPopa, Lucian"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Entity resolution (ER) is the task of identifying different representations of the same real-world entities across databases. It is a key step for knowledge base creation and text mining. Recent adaptation of deep learning methods for ER mitigates the need for dataset-specific feature engineering by constructing distributed representations of entity records. While these methods achieve state-of-the-art performance over benchmark data, they require large amounts of labeled data, which are typically unavailable in realistic ER applications. In this paper, we develop a deep learning-based method that targets low-resource settings for ER through a novel combination of transfer learning and active learning. We design an architecture that allows us to learn a transferable model from a high-resource setting to a low-resource one. To further adapt to the target dataset, we incorporate active learning that carefully selects a few informative examples to fine-tune the transferred model. Empirical evaluation demonstrates that our method achieves comparable, if not better, performance compared to state-of-the-art learning-based methods while using an order of magnitude fewer labels.",
+  "keywords": [
+    "deep",
+    "text mining",
+    "we",
+    "it",
+    "learning",
+    "transfer",
+    "transfer learning",
+    "text",
+    "the same real-world entities",
+    "fine",
+    "mining",
+    "knowledge",
+    "model",
+    "entities",
+    "us"
+  ],
+  "url": "https://aclanthology.org/P19-1586/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:45:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

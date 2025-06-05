@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.33",
+  "title": "Self-Supervised Multimodal Opinion Summarization",
+  "authors": [
+    "Im, Jinbae  and\nKim, Moonki  and\nLee, Hoyeop  and\nCho, Hyunsouk  and\nChung, Sehee"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Recently, opinion summarization, which is the generation of a summary from multiple reviews, has been conducted in a self-supervised manner by considering a sampled review as a pseudo summary. However, non-text data such as image and metadata related to reviews have been considered less often. To use the abundant information contained in non-text data, we propose a self-supervised multimodal opinion summarization framework called MultimodalSum. Our framework obtains a representation of each modality using a separate encoder for each modality, and the text decoder generates a summary. To resolve the inherent heterogeneity of multimodal data, we propose a multimodal training pipeline. We first pretrain the text encoder–decoder based solely on text modality data. Subsequently, we pretrain the non-text modality encoders by considering the pretrained text decoder as a pivot for the homogeneous representation of multimodal data. Finally, to fuse multimodal representations, we train the entire framework in an end-to-end manner. We demonstrate the superiority of MultimodalSum by conducting experiments on Yelp and Amazon datasets.",
+  "keywords": [
+    "a self-supervised manner",
+    "end",
+    "generation",
+    "the text decoder",
+    "a separate encoder",
+    "text",
+    "self",
+    "encoder",
+    "the generation",
+    "decoder",
+    "information",
+    "we",
+    "summarization",
+    "the pretrained text decoder",
+    "review"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.33/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:59:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

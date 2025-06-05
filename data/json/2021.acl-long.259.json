@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.259",
+  "title": "Taming Pre-trained Language Models with N-gram Representations for Low-Resource Domain Adaptation",
+  "authors": [
+    "Diao, Shizhe  and\nXu, Ruijia  and\nSu, Hongjin  and\nJiang, Yilei  and\nSong, Yan  and\nZhang, Tong"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Large pre-trained models such as BERT are known to improve different downstream NLP tasks, even when such a model is trained on a generic domain. Moreover, recent studies have shown that when large domain-specific corpora are available, continued pre-training on domain-specific data can further improve the performance of in-domain tasks. However, this practice requires significant domain-specific data and computational resources which may not always be available. In this paper, we aim to adapt a generic pretrained model with a relatively small amount of domain-specific data. We demonstrate that by explicitly incorporating multi-granularity information of unseen and domain-specific words via the adaptation of (word based) n-grams, the performance of a generic pretrained model can be greatly improved. Specifically, we introduce a Transformer-based Domain-aware N-gram Adaptor, T-DNA, to effectively learn and incorporate the semantic representation of different combinations of words in the new domain. Experimental results illustrate the effectiveness of T-DNA on eight low-resource downstream tasks from four domains. We show that T-DNA is able to achieve significant improvements compared to existing methods on most tasks using limited data with lower computational costs. Moreover, further analyses demonstrate the importance and effectiveness of both unseen words and the information of different granularities. Our code is available athttps://github.com/shizhediao/T-DNA.",
+  "keywords": [
+    "code",
+    "granularities",
+    "different granularities",
+    "semantic",
+    "we",
+    "training",
+    "the semantic representation",
+    "pre-trained language models",
+    "different downstream nlp tasks",
+    "information",
+    "word",
+    "bert",
+    "generic",
+    "a generic pretrained model",
+    "recent studies"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.259/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:02:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

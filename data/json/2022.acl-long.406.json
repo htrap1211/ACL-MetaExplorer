@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.406",
+  "title": "Entailment Graph Learning with Textual Entailment and Soft Transitivity",
+  "authors": [
+    "Chen, Zhibin  and\nFeng, Yansong  and\nZhao, Dongyan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Typed entailment graphs try to learn the entailment relations between predicates from text and model them as edges between predicate nodes. The construction of entailment graphs usually suffers from severe sparsity and unreliability of distributional similarity. We propose a two-stage method, Entailment Graph with Textual Entailment and Transitivity (EGT2). EGT2 learns the local entailment relations by recognizing the textual entailment between template sentences formed by typed CCG-parsed predicates. Based on the generated local graph, EGT2 then uses three novel soft transitivity constraints to consider the logical transitivity in entailment structures. Experiments on benchmark datasets show that EGT2 can well model the transitivity in entailment graph to alleviate the sparsity, and leads to signifcant improvement over current state-of-the-art methods.",
+  "keywords": [
+    "text",
+    "we",
+    "graph",
+    "current",
+    "soft",
+    "logical",
+    "distributional",
+    "state",
+    "the-art",
+    "egt2 egt2",
+    "template",
+    "the construction",
+    "signifcant",
+    "graphs",
+    "entailment graphs"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.406/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:29:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

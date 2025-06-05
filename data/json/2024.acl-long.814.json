@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.814",
+  "title": "$\\infty${B}ench: Extending Long Context Evaluation Beyond 100{K} Tokens",
+  "authors": [
+    "Zhang, Xinrong  and\nChen, Yingfa  and\nHu, Shengding  and\nXu, Zihang  and\nChen, Junhao  and\nHao, Moo  and\nHan, Xu  and\nThai, Zhen  and\nWang, Shuo  and\nLiu, Zhiyuan  and\nSun, Maosong"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Processing and reasoning over long contexts is crucial for many practical applications of Large Language Models (LLMs), such as document comprehension and agent construction. Despite recent strides in making LLMs process contexts with more than 100K tokens, there is currently a lack of a standardized benchmark to evaluate this long-context capability. Existing public benchmarks typically focus on contexts around 10K tokens, limiting the assessment and comparison of LLMs in processing longer contexts. In this paper, we propose , the first LLM benchmark featuring an average data length surpassing 100K tokens. comprises synthetic and realistic tasks spanning diverse domains in English and Chinese. The tasks in are designed to require an understanding of long dependencies in contexts and make simply retrieving a limited number of passages from contexts not sufficient for these tasks. Based on , we evaluate several state-of-the-art LLMs tailored for processing long contexts. The experimental results indicate that existing long-context LLMs still require significant advancements to process 100K+ contexts effectively. Furthermore, we present three intriguing analyses regarding the behavior of LLMs processing long context. Our code and data is released.",
+  "keywords": [
+    "code",
+    "the first llm benchmark",
+    "we",
+    "llm",
+    "long context evaluation",
+    "long dependencies",
+    "dependencies",
+    "sufficient",
+    "existing long-context llms",
+    "llms",
+    "processing",
+    "llms process",
+    "process",
+    "language",
+    "large language models"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.814/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:45:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

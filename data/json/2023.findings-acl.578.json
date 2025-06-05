@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.578",
+  "title": "Entity-to-Text based Data Augmentation for various Named Entity Recognition Tasks",
+  "authors": [
+    "Hu, Xuming  and\nJiang, Yong  and\nLiu, Aiwei  and\nHuang, Zhongqiang  and\nXie, Pengjun  and\nHuang, Fei  and\nWen, Lijie  and\nYu, Philip S."
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Data augmentation techniques have been used to alleviate the problem of scarce labeled data in various NER tasks (flat, nested, and discontinuous NER tasks). Existing augmentation techniques either manipulate the words in the original text that break the semantic coherence of the text, or exploit generative models that ignore preserving entities in the original text, which impedes the use of augmentation techniques on nested and discontinuous NER tasks. In this work, we propose a novel Entity-to-Text based data augmentation technique named EnTDA to add, delete, replace or swap entities in the entity list of the original texts, and adopt these augmented entity lists to generate semantically coherent and entity preserving texts for various NER tasks. Furthermore, we introduce a diversity beam search to increase the diversity during the text generation process. Experiments on thirteen NER datasets across three tasks (flat, nested, and discontinuous NER tasks) and two settings (full data and low resource settings) show that EnTDA could bring more performance improvements compared to the baseline augmentation techniques.",
+  "keywords": [
+    "the semantic coherence",
+    "generative",
+    "generative models",
+    "ner",
+    "process",
+    "generation",
+    "thirteen ner datasets",
+    "entities",
+    "text",
+    "work",
+    "semantic",
+    "various ner tasks",
+    "we",
+    "entity",
+    "preserving entities"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.578/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.repl4nlp-1.2",
+  "title": "Q}-Learning Scheduler for Multi Task Learning Through the use of Histogram of Task Uncertainty",
+  "authors": [
+    "Meshgi, Kourosh  and\nSadat Mirzaei, Maryam  and\nSekine, Satoshi"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 7th Workshop on Representation Learning for NLP",
+  "abstract": "Simultaneous training of a multi-task learning network on different domains or tasks is not always straightforward. It could lead to inferior performance or generalization compared to the corresponding single-task networks. An effective training scheduling method is deemed necessary to maximize the benefits of multi-task learning. Traditional schedulers follow a heuristic or prefixed strategy, ignoring the relation of the tasks, their sample complexities, and the state of the emergent shared features. We proposed a deep Q-Learning Scheduler (QLS) that monitors the state of the tasks and the shared features using a novel histogram of task uncertainty, and through trial-and-error, learns an optimal policy for task scheduling. Extensive experiments on multi-domain and multi-task settings with various task difficulty profiles have been conducted, the proposed method is benchmarked against other schedulers, its superior performance has been demonstrated, and results are discussed.",
+  "keywords": [
+    "deep",
+    "we",
+    "complexities",
+    "training",
+    "it",
+    "their sample complexities",
+    "learning",
+    "scheduler",
+    "schedulers",
+    "q -learning scheduler",
+    "-",
+    "generalization",
+    "other schedulers",
+    "traditional schedulers",
+    "network"
+  ],
+  "url": "https://aclanthology.org/2022.repl4nlp-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:45:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

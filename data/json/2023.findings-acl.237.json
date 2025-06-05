@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.237",
+  "title": "Maximum Entropy Loss, the Silver Bullet Targeting Backdoor Attacks in Pre-trained Language Models",
+  "authors": [
+    "Liu, Zhengxiao  and\nShen, Bowen  and\nLin, Zheng  and\nWang, Fali  and\nWang, Weiping"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Pre-trained language model (PLM) can be stealthily misled to target outputs by backdoor attacks when encountering poisoned samples, without performance degradation on clean samples. The stealthiness of backdoor attacks is commonly attained through minimal cross-entropy loss fine-tuning on a union of poisoned and clean samples. Existing defense paradigms provide a workaround by detecting and removing poisoned samples at pre-training or inference time. On the contrary, we provide a new perspective where the backdoor attack is directly reversed. Specifically, maximum entropy loss is incorporated in training to neutralize the minimal cross-entropy loss fine-tuning on poisoned data. We defend against a range of backdoor attacks on classification tasks and significantly lower the attack success rate. In extension, we explore the relationship between intended backdoor attacks and unintended dataset bias, and demonstrate the feasibility of the maximum entropy principle in de-biasing.",
+  "keywords": [
+    "cross",
+    "bias",
+    "pre-training or inference time",
+    "classification tasks",
+    "language",
+    "pre-trained language models",
+    "model",
+    "unintended dataset bias",
+    "rate",
+    "pre-trained language model plm",
+    "biasing",
+    "loss",
+    "fine",
+    "we",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.237/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.303",
+  "title": "Making Better Use of Training Corpus: Retrieval-based Aspect Sentiment Triplet Extraction via Label Interpolation",
+  "authors": [
+    "Yu, Guoxin  and\nLiu, Lemao  and\nJiang, Haiyun  and\nShi, Shuming  and\nAo, Xiang"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In this paper, we aim to adapt the idea of retrieval-based neural approaches to the Aspect Sentiment Triplet Extraction (ASTE) task. Different from previous studies retrieving semantic similar neighbors, the ASTE task has its specialized challenges when adapting, i.e., the purpose includes predicting the sentiment polarity and it is usually aspect-dependent. Semantic similar neighbors with different polarities will be infeasible even counterproductive. To tackle this issue, we propose a retrieval-based neural ASTE approach, named RLI (Retrieval-based Aspect Sentiment Triplet Extraction via Label Interpolation), which exploits the label information of neighbors. Given an aspect-opinion term pair, we retrieve semantic similar triplets from the training corpus and interpolate their label information into the augmented representation of the target pair. The retriever is jointly trained with the whole ASTE framework, and neighbors with both similar semantics and sentiments can be recalled with the aid of this distant supervision. In addition, we design a simple yet effective pre-train method for the retriever that implicitly encodes the label similarities. Extensive experiments and analysis on two widely-used benchmarks show that the proposed model establishes a new state-of-the-art on ASTE.",
+  "keywords": [
+    "both similar semantics",
+    "extraction",
+    "semantic similar triplets",
+    "semantic",
+    "we",
+    "training",
+    "aspect-dependent semantic similar neighbors",
+    "neural",
+    "it",
+    "semantics",
+    "polarities",
+    "retrieval",
+    "information",
+    "e",
+    "rli retrieval-based aspect sentiment"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.303/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

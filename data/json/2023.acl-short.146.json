@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.146",
+  "title": "N}arrow{BERT}: Accelerating Masked Language Model Pretraining and Inference",
+  "authors": [
+    "Li, Haoxin  and\nKeung, Phillip  and\nCheng, Daniel  and\nKasai, Jungo  and\nSmith, Noah A."
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Large-scale language model pretraining is a very successful form of self-supervised learning in natural language processing, but it is increasingly expensive to perform as the models and pretraining corpora have become larger over time. We propose NarrowBERT, a modified transformer encoder that increases the throughput for masked language model pretraining by more than 2x. NarrowBERT sparsifies the transformer model such that the self-attention queries and feedforward layers only operate on the masked tokens of each sentence during pretraining, rather than all of the tokens as with the usual transformer encoder. We also show that NarrowBERT increases the throughput at inference time by as much as 3.5x with minimal (or no) performance degradation on sentence encoding tasks like MNLI. Finally, we examine the performance of NarrowBERT on the IMDB and Amazon reviews classification and CoNLL NER tasks and show that it is also comparable to standard BERT performance.",
+  "keywords": [
+    "transformer",
+    "ner",
+    "processing",
+    "the transformer model",
+    "language",
+    "the self-attention queries",
+    "the usual transformer encoder",
+    "natural",
+    "bert",
+    "model",
+    "it",
+    "queries",
+    "self",
+    "encoder",
+    "a modified transformer encoder"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.146/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:50:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

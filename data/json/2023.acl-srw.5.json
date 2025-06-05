@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-srw.5",
+  "title": "How do different tokenizers perform on downstream tasks in scriptio continua languages?: A case study in {J}apanese",
+  "authors": [
+    "Fujii, Takuro  and\nShibata, Koki  and\nYamaguchi, Atsuki  and\nMorishita, Terufumi  and\nSogawa, Yasuhiro"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "This paper investigates the effect of tokenizers on the downstream performance of pretrained language models (PLMs) in scriptio continua languages where no explicit spaces exist between words, using Japanese as a case study. The tokenizer for such languages often consists of a morphological analyzer and a subword tokenizer, requiring us to conduct a comprehensive study of all possible pairs. However, previous studies lack this comprehensiveness. We therefore train extensive sets of tokenizers, build a PLM using each, and measure the downstream performance on a wide range of tasks. Our results demonstrate that each downstream task has a different optimal morphological analyzer, and that it is better to use Byte-Pair-Encoding or Unigram rather than WordPiece as a subword tokenizer, regardless of the type of task.",
+  "keywords": [
+    "wordpiece",
+    "previous studies",
+    "language",
+    "studies",
+    "it",
+    "j",
+    "us",
+    "we",
+    "pretrained language models plms",
+    "a morphological analyzer",
+    "extensive sets",
+    "the type",
+    "comprehensiveness",
+    "byte-pair-encoding",
+    "our results"
+  ],
+  "url": "https://aclanthology.org/2023.acl-srw.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:51:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.149",
+  "title": "Categorial grammar induction from raw data",
+  "authors": [
+    "Clark, Christian  and\nSchuler, William"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Grammar induction, the task of learning a set of grammatical rules from raw or minimally labeled text data, can provide clues about what kinds of syntactic structures are learnable without prior knowledge. Recent work (e.g., Kim et al., 2019; Zhu et al., 2020; Jin et al., 2021a) has achieved advances in unsupervised induction of probabilistic context-free grammars (PCFGs). However, categorial grammar induction has received less recent attention, despite allowing inducers to support a larger set of syntactic categories—due to restrictions on how categories can combine—and providing a transparent interface with compositional semantics, opening up possibilities for models that jointly learn form and meaning. Motivated by this, we propose a new model for inducing a basic (Ajdukiewicz, 1935; Bar-Hillel, 1953) categorial grammar. In contrast to earlier categorial grammar induction systems (e.g., Bisk and Hockenmaier, 2012), our model learns from raw data without any part-of-speech information. Experiments on child-directed speech show that our model attains a recall-homogeneity of 0.33 on average, which dramatically increases to 0.59 when a bias toward forward function application is added to the model.",
+  "keywords": [
+    "bias",
+    "al",
+    "less recent attention",
+    "a recall-homogeneity",
+    "form",
+    "we",
+    "semantics",
+    "compositional semantics",
+    "syntactic categories",
+    "ajdukiewicz",
+    "hockenmaier",
+    "information",
+    "a bias",
+    "et",
+    "categories"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.149/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.608",
+  "title": "A Synthetic Data Generation Framework for Grounded Dialogues",
+  "authors": [
+    "Bao, Jianzhu  and\nWang, Rui  and\nWang, Yasheng  and\nSun, Aixin  and\nLi, Yitong  and\nMi, Fei  and\nXu, Ruifeng"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Training grounded response generation models often requires a large collection of grounded dialogues. However, it is costly to build such dialogues. In this paper, we present a synthetic data generation framework (SynDG) for grounded dialogues. The generation process utilizes large pre-trained language models and freely available knowledge data (e.g., Wikipedia pages, persona profiles, etc.). The key idea of designing SynDG is to consider dialogue flow and coherence in the generation process. Specifically, given knowledge data, we first heuristically determine a dialogue flow, which is a series of knowledge pieces. Then, we employ T5 to incrementally turn the dialogue flow into a dialogue. To ensure coherence of both the dialogue flow and the synthetic dialogue, we design a two-level filtering strategy, at the flow-level and the utterance-level respectively. Experiments on two public benchmarks show that the synthetic grounded dialogue data produced by our framework is able to significantly boost model performance in both full training data and low-resource scenarios.",
+  "keywords": [
+    "a series",
+    "process",
+    "knowledge",
+    "generation",
+    "large pre-trained language models",
+    "language",
+    "the generation process",
+    "model",
+    "dialogues",
+    "it",
+    "dialogue flow",
+    "a dialogue flow",
+    "grounded response generation models",
+    "a dialogue",
+    "series"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.608/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

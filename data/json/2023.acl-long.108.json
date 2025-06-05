@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.108",
+  "title": "Instruction Induction: From Few Examples to Natural Language Task Descriptions",
+  "authors": [
+    "Honovich, Or  and\nShaham, Uri  and\nBowman, Samuel R.  and\nLevy, Omer"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large language models are able to perform a task by conditioning on a few input-output demonstrations - a paradigm known as in-context learning. We show that language models can explicitly infer an underlying task from a few demonstrations by prompting them to generate a natural language instruction that fits the examples. To explore this ability, we introduce the instruction induction challenge, compile a dataset consisting of 24 tasks, and define a novel evaluation metric based on executing the generated instruction. We discover that, to a large extent, the ability to generate instructions does indeed emerge when using a model that is both large enough and aligned to follow instructions; InstructGPT achieves 65.7% of human performance in our execution-based metric, while the original GPT-3 model reaches only 9.8% of human performance. This surprising result suggests that instruction induction might be a viable learning paradigm in and of itself, where instead of fitting a set of latent continuous parameters to the data, one searches for the best description in the natural language hypothesis space.",
+  "keywords": [
+    "the generated instruction",
+    "we",
+    "the original gpt-3 model",
+    "instruction",
+    "natural",
+    "gpt-3",
+    "latent",
+    "learning",
+    "instructions instructgpt",
+    "instructgpt",
+    "metric",
+    "language models",
+    "language",
+    "model",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.108/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:36:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

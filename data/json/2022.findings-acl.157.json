@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.157",
+  "title": "VISITRON}: Visual Semantics-Aligned Interactively Trained Object-Navigator",
+  "authors": [
+    "Shrivastava, Ayush  and\nGopalakrishnan, Karthik  and\nLiu, Yang  and\nPiramuthu, Robinson  and\nTur, Gokhan  and\nParikh, Devi  and\nHakkani-Tur, Dilek"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Interactive robots navigating photo-realistic environments need to be trained to effectively leverage and handle the dynamic nature of dialogue in addition to the challenges underlying vision-and-language navigation (VLN). In this paper, we present VISITRON, a multi-modal Transformer-based navigator better suited to the interactive regime inherent to Cooperative Vision-and-Dialog Navigation (CVDN). VISITRON is trained to: i) identify and associate object-level concepts and semantics between the environment and dialogue history, ii) identify when to interact vs. navigate via imitation learning of a binary classification head. We perform extensive pre-training and fine-tuning ablations with VISITRON to gain empirical insights and improve performance on CVDN. VISITRON’s ability to identify when to interact leads to a natural generalization of the game-play mode introduced by Roman et al. (2020) for enabling the use of such models in different environments. VISITRON is competitive with models on the static CVDN leaderboard and attains state-of-the-art performance on the Success weighted by Path Length (SPL) metric.",
+  "keywords": [
+    "a binary classification head",
+    "a natural generalization",
+    "we",
+    "dialogue",
+    "training",
+    "classification",
+    "natural",
+    "semantics",
+    "dialogue history ii",
+    "learning",
+    "visual",
+    "tuning",
+    "i",
+    "object",
+    "metric"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.157/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

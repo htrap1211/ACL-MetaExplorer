@@ -1,0 +1,33 @@
+{
+  "id": "W19-5353",
+  "title": "Evaluating Conjunction Disambiguation on {E}nglish-to-{G}erman and {F}rench-to-{G}erman {WMT} 2019 Translation Hypotheses",
+  "authors": [
+    "Popovi{\\'c}, Maja"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1)",
+  "abstract": "We present a test set for evaluating an MT system’s capability to translate ambiguous conjunctions depending on the sentence structure. We concentrate on the English conjunction “but” and its French equivalent “mais” which can be translated into two different German conjunctions. We evaluate all English-to-German and French-to-German submissions to the WMT 2019 shared translation task. The evaluation is done mainly automatically, with additional fast manual inspection of unclear cases. All systems almost perfectly recognise the target conjunction “aber”, whereas accuracies for the other target conjunction “sondern” range from 78% to 97%, and the errors are mostly caused by replacing it with the alternative conjunction “aber”. The best performing system for both language pairs is a multilingual Transformer “TartuNLP” system trained on all WMT 2019 language pairs which use the Latin script, indicating that the multilingual approach is beneficial for conjunction disambiguation. As for other system features, such as using synthetic back-translated data, context-aware, hybrid, etc., no particular (dis)advantages can be observed. Qualitative manual inspection of translation hypotheses shown that highly ranked systems generally produce translations with high adequacy and fluency, meaning that these systems are not only capable of capturing the right conjunction whereas the rest of the translation hypothesis is poor. On the other hand, the low ranked systems generally exhibit lower fluency and poor adequacy.",
+  "keywords": [
+    "we",
+    "translation",
+    "the translation hypothesis",
+    "it",
+    "translation hypotheses",
+    "fast",
+    "transformer",
+    "rest",
+    "accuracies",
+    "language",
+    "tartunlp",
+    "evaluation",
+    "the evaluation",
+    "translations",
+    "2019 translation hypotheses"
+  ],
+  "url": "https://aclanthology.org/W19-5353/",
+  "provenance": {
+    "collected_at": "2025-06-05 02:08:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

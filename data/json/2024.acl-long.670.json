@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.670",
+  "title": "Agent Lumos: Unified and Modular Training for Open-Source Language Agents",
+  "authors": [
+    "Yin, Da  and\nBrahman, Faeze  and\nRavichander, Abhilasha  and\nChandu, Khyathi  and\nChang, Kai-Wei  and\nChoi, Yejin  and\nLin, Bill Yuchen"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Closed-source agents suffer from several issues such as a lack of affordability, transparency, and reproducibility, particularly on complex interactive tasks. This motivates the development of open-source alternatives. We introduce Lumos, one of the first frameworks for training open-source LLM-based agents. Lumos features a learnable, unified and modular architecture with a planning module that learns high-level subgoal generation, and a grounding module trained to translate these into the actions using various tools in the execution module. The design allows for modular upgrades and wider applicability to diverse interactive tasks. To foster generalizable agent learning, we collect large-scale, unified, and high-quality training annotations derived from diverse ground-truth reasoning rationales across various complex interactive tasks. On 9 datasets, Lumos exhibits several key advantages: (1) Lumos excels multiple larger open-source agents on the held-out datasets (unused for training) for each task type. Lumos even surpasses GPT agents on QA and web tasks; (2) Lumos outperforms open-source agents produced by chain-of-thoughts and unmodularized integrated training; and (3) Lumos effectively generalizes to unseen tasks, outperforming 33B-scale agents and domain-specific agents. Code and data will be released.",
+  "keywords": [
+    "code",
+    "chain",
+    "gpt agents",
+    "generalizable",
+    "we",
+    "llm",
+    "training",
+    "unified",
+    "high-level subgoal generation",
+    "unified and modular training",
+    "language",
+    "generation",
+    "qa and web tasks",
+    "gpt",
+    "open-source llm-based agents lumos"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.670/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:43:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

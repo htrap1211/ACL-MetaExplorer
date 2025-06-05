@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.233",
+  "title": "Automatic Table Union Search with Tabular Representation Learning",
+  "authors": [
+    "Hu, Xuming  and\nWang, Shen  and\nQin, Xiao  and\nLei, Chuan  and\nShen, Zhengyuan  and\nFaloutsos, Christos  and\nKatsifodimos, Asterios  and\nKarypis, George  and\nWen, Lijie  and\nYu, Philip S."
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Given a data lake of tabular data as well as a query table, how can we retrieve all the tables in the data lake that can be unioned with the query table? Table union search constitutes an essential task in data discovery and preparation as it enables data scientists to navigate massive open data repositories. Existing methods identify uniability based on column representations (word surface forms or token embeddings) and column relation represented by column representation similarity. However, the semantic similarity obtained between column representations is often insufficient to reveal latent relational features to describe the column relation between pair of columns and not robust to the table noise. To address these issues, in this paper, we propose a multi-stage self-supervised table union search framework called AutoTUS, which represents column relation as a vector– column relational representation and learn column relational representation in a multi-stage manner that can better describe column relation for unionability prediction. In particular, the large language model powered contextualized column relation encoder is updated by adaptive clustering and pseudo label classification iteratively so that the better column relational representation can be learned. Moreover, to improve the robustness of the model against table noises, we propose table noise generator to add table noise to the training table data. Experiments on real-world datasets as well as synthetic test set augmented with table noise show that AutoTUS achieves 5.2% performance gain over the SOTA baseline.",
+  "keywords": [
+    "table noise generator",
+    "semantic",
+    "we",
+    "training",
+    "classification",
+    "repositories",
+    "it",
+    "token embeddings",
+    "self",
+    "token",
+    "latent",
+    "learning",
+    "word",
+    "the semantic similarity",
+    "manner"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.233/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

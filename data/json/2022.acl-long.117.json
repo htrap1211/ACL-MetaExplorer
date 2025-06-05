@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.117",
+  "title": "Retrieval-guided Counterfactual Generation for {QA",
+  "authors": [
+    "Paranjape, Bhargavi  and\nLamm, Matthew  and\nTenney, Ian"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Deep NLP models have been shown to be brittle to input perturbations. Recent work has shown that data augmentation using counterfactuals — i.e. minimally perturbed inputs — can help ameliorate this weakness. We focus on the task of creating counterfactuals for question answering, which presents unique challenges related to world knowledge, semantic diversity, and answerability. To address these challenges, we develop a Retrieve-Generate-Filter(RGF) technique to create counterfactual evaluation and training data with minimal human supervision. Using an open-domain QA framework and question generation model trained on original task data, we create counterfactuals that are fluent, semantically diverse, and automatically labeled. Data augmentation with RGF counterfactuals improves performance on out-of-domain and challenging evaluation sets over and above existing methods, in both the reading comprehension and open-domain QA settings. Moreover, we find that RGF data leads to significant improvements in a model’s robustness to local perturbations.",
+  "keywords": [
+    "deep",
+    "world knowledge semantic diversity",
+    "open-domain qa settings",
+    "retrieve",
+    "an open-domain qa framework",
+    "question",
+    "qa deep nlp models",
+    "a retrieve-generate-filter rgf technique",
+    "semantic",
+    "we",
+    "training",
+    "retrieval-guided counterfactual generation",
+    "question generation model",
+    "retrieval",
+    "e"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.117/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

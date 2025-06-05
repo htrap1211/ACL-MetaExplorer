@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.91",
+  "title": "Grammar-based Decoding for Improved Compositional Generalization in Semantic Parsing",
+  "authors": [
+    "Zheng, Jing  and\nChow, Jyh-Herng  and\nShen, Zhongnan  and\nXu, Peng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Sequence-to-sequence (seq2seq) models have achieved great success in semantic parsing tasks, but they tend to struggle on out-of-distribution (OOD) data. Despite recent progress, robust semantic parsing on large-scale tasks with combined challenges from both compositional generalization and natural language variations remains an unsolved problem. To promote research in this area, this work presents CUDON, a large-scale dialogue dataset in Chinese language, particularly designed for evaluating compositional generalization of semantic parsing. The dataset contains about ten thousand multi-turn complex queries, and provides multiple splits with different degrees of train-test distribution divergence. We have investigated improving compositional generalization with grammar-based decodering on this dataset. With specially designed grammars leveraging program schema, we are able to substantially improve accuracy of seq2seq semantic parsers on OOD splits: A LSTM-based parser using a Context-free Grammar (CFG) achieves over 25% higher accuracy than a standard seq2seq baseline; a parser using Tree-Substitution Grammar (TSG) improves parsing speed five to seven times over the CFG parser with only a small accuracy loss. The grammar-based LSTM parsers also outperforms BART- and T5-based seq2seq parsers on the OOD splits, despite having less than one tenth of parameters and no pretraining. We also verified our approach on the SMCalflow-CS dataset, particularly, on the zero-shot learning task.",
+  "keywords": [
+    "parsing",
+    "over 25 higher accuracy",
+    "semantic",
+    "we",
+    "dialogue",
+    "semantic parsing tasks",
+    "lstm",
+    "a standard seq2seq baseline",
+    "shot",
+    "grammar-based decodering",
+    "the grammar-based lstm parsers",
+    "natural",
+    "a large-scale dialogue dataset",
+    "queries",
+    "improved compositional generalization"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.91/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

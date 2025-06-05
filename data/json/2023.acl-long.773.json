@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.773",
+  "title": "R}e{C}ode: Robustness Evaluation of Code Generation Models",
+  "authors": [
+    "Wang, Shiqi  and\nLi, Zheng  and\nQian, Haifeng  and\nYang, Chenghao  and\nWang, Zijian  and\nShang, Mingyue  and\nKumar, Varun  and\nTan, Samson  and\nRay, Baishakhi  and\nBhatia, Parminder  and\nNallapati, Ramesh  and\nRamanathan, Murali Krishna  and\nRoth, Dan  and\nXiang, Bing"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Code generation models have achieved impressive performance. However, they tend to be brittle as slight edits to a prompt could lead to very different generations; these robustness properties, critical for user experience when deployed in real-life applications, are not well understood. Most existing works on robustness in text or code tasks have focused on classification, while robustness in generation tasks is an uncharted area and to date there is no comprehensive benchmark for robustness in code generation. In this paper, we propose ReCode, a comprehensive robustness evaluation benchmark for code generation models. We customize over 30 transformations specifically for code on docstrings, function and variable names, code syntax, and code format. They are carefully designed to be natural in real-life coding practice, preserve the original semantic meaning, and thus provide multifaceted assessments of a model’s robustness performance. With human annotators, we verified that over 90% of the perturbed prompts do not alter the semantic meaning of the original prompt. In addition, we define robustness metrics for code generation models considering the worst-case behavior under each type of perturbation, taking advantage of the fact that executing the generated code can serve as objective evaluation. We demonstrate ReCode on SOTA models using HumanEval, MBPP, as well as function completion tasks derived from them. Interesting observations include: better robustness for CodeGen over InCoder and GPT-J; models are most sensitive to syntax perturbations; more challenging robustness evaluation on MBPP over HumanEval.",
+  "keywords": [
+    "code",
+    "the generated code",
+    "semantic",
+    "we",
+    "incoder and gpt-j models",
+    "more challenging robustness evaluation",
+    "ode",
+    "syntax",
+    "syntax perturbations",
+    "the semantic meaning",
+    "classification",
+    "the perturbed prompts",
+    "very different generations",
+    "natural",
+    "the original semantic meaning"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.773/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:46:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

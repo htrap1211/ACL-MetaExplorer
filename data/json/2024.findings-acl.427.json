@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.427",
+  "title": "RAP}: Efficient Text-Video Retrieval with Sparse-and-Correlated Adapter",
+  "authors": [
+    "Cao, Meng  and\nTang, Haoran  and\nHuang, Jinfa  and\nJin, Peng  and\nZhang, Can  and\nLiu, Ruyang  and\nChen, Long  and\nLiang, Xiaodan  and\nYuan, Li  and\nLi, Ge"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Text-Video Retrieval (TVR) aims to align relevant video content with natural language queries. To date, most of the state-of-the-art TVR methods learn image-to-video transfer learning based on the large-scale pre-trained vision-language models (e.g., CLIP). However, fully fine-tuning these pre-trained models for TVR incurs prohibitively expensive computation cost. To this end, we propose to conduct efficient text-video Retrieval with a salient-and-correlated AdaPter (RAP), i.e., fine-tuning the pre-trained model with a few parameterized layers. To accommodate the text-video scenario, we equip our RAP with two indispensable characteristics including temporal sparsity and correlation. Specifically, we propose a low-rank modulation module to refine the per-image features from frozen CLIP backbone, which accentuates silent frames within the video features while alleviating temporal redundancy. Besides, we introduce an asynchronous self-attention mechanism which firstly selects top responsive visual patch and augments the correlation modeling between them with learnable temporal and patch offsets. Extensive experiments on four TVR datasets demonstrate that our RAP achieves superior or comparable performance compared to the fully fine-tuned counterpart and other parameter-efficient finetuning methods.",
+  "keywords": [
+    "end",
+    "rap",
+    "natural language queries",
+    "efficient",
+    "we",
+    "parameter",
+    "natural",
+    "queries",
+    "self",
+    "retrieval",
+    "e",
+    "rap efficient text-video retrieval",
+    "learning",
+    "transfer",
+    "visual"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.427/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.727",
+  "title": "Exploiting Target Language Data for Neural Machine Translation Beyond Back Translation",
+  "authors": [
+    "Reheman, Abudurexiti  and\nLuo, Yingfeng  and\nRuan, Junhao  and\nZhang, Chunliang  and\nMa, Anxiang  and\nXiao, Tong  and\nZhu, JingBo"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Neural Machine Translation (NMT) encounters challenges when translating in new domains and low-resource languages. To address these issues, researchers have proposed methods to integrate additional knowledge into NMT, such as translation memories (TMs). However, finding TMs that closely match the input sentence remains challenging, particularly in specific domains. On the other hand, monolingual data is widely accessible in most languages, and back-translation is seen as a promising approach for utilizing target language data. Nevertheless, it still necessitates additional training. In this paper, we introduce Pseudo-kNN-MT, a variant ofk-nearest neighbor machine translation (kNN-MT) that utilizes target language data by constructing a pseudo datastore. Furthermore, we investigate the utility of large language models (LLMs) for thekNN component. Experimental results demonstrate that our approach exhibits strong domain adaptation capability in both high-resource and low-resource machine translation. Notably, LLMs are found to be beneficial for robust NMT systems.",
+  "keywords": [
+    "memories",
+    "neural machine translation",
+    "we",
+    "training",
+    "translation",
+    "translation memories tms",
+    "neural",
+    "it",
+    "back-translation",
+    "llms",
+    "notably llms",
+    "knowledge",
+    "language",
+    "machine",
+    "large language models"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.727/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

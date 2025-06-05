@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.750",
+  "title": "MVP}-Tuning: Multi-View Knowledge Retrieval with Prompt Tuning for Commonsense Reasoning",
+  "authors": [
+    "Huang, Yongfeng  and\nLi, Yanyang  and\nXu, Yichong  and\nZhang, Lin  and\nGan, Ruyi  and\nZhang, Jiaxing  and\nWang, Liwei"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent advances in pre-trained language models (PLMs) have facilitated the development ofcommonsense reasoning tasks. However, existing methods rely on multi-hop knowledgeretrieval and thus suffer low accuracy due toembedded noise in the acquired knowledge. In addition, these methods often attain highcomputational costs and nontrivial knowledgeloss because they encode the knowledge independently of the PLM, making it less relevant to the task and thus resulting in a poorlocal optimum. In this work, we propose MultiView Knowledge Retrieval with Prompt Tuning (MVP-Tuning). MVP-Tuning leveragessimilar question-answer pairs in the training setto improve knowledge retrieval and employsa single prompt-tuned PLM to model knowledge and input text jointly. We conduct our experiments on five commonsense reasoning QAbenchmarks to show that MVP-Tuning outperforms all other baselines in 4 out of 5 datasetswith less than 2% trainable parameters. MVPTuning even gets a new state-of-the-art resulton OpenBookQA and is number one on theleaderboard.",
+  "keywords": [
+    "multi-hop knowledgeretrieval",
+    "qabenchmarks",
+    "knowledgeretrieval",
+    "employsa single prompt-tuned plm",
+    "question",
+    "we",
+    "training",
+    "five commonsense reasoning qabenchmarks",
+    "answer",
+    "it",
+    "retrieval",
+    "pre-trained language models plms",
+    "tuning",
+    "prompt",
+    "knowledge retrieval"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.750/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:45:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

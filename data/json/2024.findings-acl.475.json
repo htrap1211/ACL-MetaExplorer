@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.475",
+  "title": "Efficient $k$-Nearest-Neighbor Machine Translation with Dynamic Retrieval",
+  "authors": [
+    "Gao, Yan  and\nCao, Zhiwei  and\nMiao, Zhongjian  and\nYang, Baosong  and\nLiu, Shiyu  and\nZhang, Min  and\nSu, Jinsong"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "To achieve non-parametric NMT domain adaptation,k-Nearest-Neighbor Machine Translation (kNN-MT) constructs an external datastore to store domain-specific translation knowledge, which derives akNN distribution to interpolate the prediction distribution of the NMT model via a linear interpolation coefficient𝜆. Despite its success,kNN retrieval at each timestep leads to substantial time overhead. To address this issue, dominant studies resort tokNN-MT with adaptive retrieval (kNN-MT-AR), which dynamically estimates𝜆and skipskNN retrieval if𝜆is less than a fixed threshold. Unfortunately,kNN-MT-AR does not yield satisfactory results. In this paper, we first conduct a preliminary study to reveal two key limitations ofkNN-MT-AR: 1) the optimization gap leads to inaccurate estimation of𝜆for determiningkNN retrieval skipping, and 2) using a fixed threshold fails to accommodate the dynamic demands forkNN retrieval at different timesteps. To mitigate these limitations, we then proposekNN-MT with dynamic retrieval (kNN-MT-DR) that significantly extends vanillakNN-MT in two aspects. Firstly, we equipkNN-MT with a MLP-based classifier for determining whether to skipkNN retrieval at each timestep. Particularly, we explore several carefully-designed scalar features to fully exert the potential of the classifier. Secondly, we propose a timestep-aware threshold adjustment method to dynamically generate the threshold, which further improves the efficiency of our model. Experimental results on the widely-used datasets demonstrate the effectiveness and generality of our model.",
+  "keywords": [
+    "classifier",
+    "efficient",
+    "efficiency",
+    "domain-specific translation knowledge",
+    "a linear interpolation coefficient𝜆",
+    "we",
+    "a mlp-based classifier",
+    "translation",
+    "the classifier",
+    "generality",
+    "the efficiency",
+    "retrieval",
+    "dynamic retrieval",
+    "adaptive retrieval",
+    "dominant studies"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.475/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:55:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

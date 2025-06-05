@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.78",
+  "title": "H}i{T}ab: A Hierarchical Table Dataset for Question Answering and Natural Language Generation",
+  "authors": [
+    "Cheng, Zhoujun  and\nDong, Haoyu  and\nWang, Zhiruo  and\nJia, Ran  and\nGuo, Jiaqi  and\nGao, Yan  and\nHan, Shi  and\nLou, Jian-Guang  and\nZhang, Dongmei"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Tables are often created with hierarchies, but existing works on table reasoning mainly focus on flat tables and neglect hierarchical tables. Hierarchical tables challenge numerical reasoning by complex hierarchical indexing, as well as implicit relationships of calculation and semantics. We present a new dataset, HiTab, to study question answering (QA) and natural language generation (NLG) over hierarchical tables. HiTab is a cross-domain dataset constructed from a wealth of statistical reports and Wikipedia pages, and has unique characteristics: (1) nearly all tables are hierarchical, and (2) QA pairs are not proposed by annotators from scratch, but are revised from real and meaningful sentences authored by analysts. (3) to reveal complex numerical reasoning in statistical reports, we provide fine-grained annotations of quantity and entity alignment. Experiments suggest that this HiTab presents a strong challenge for existing baselines and a valuable benchmark for future research. Targeting hierarchical structure, we devise a hierarchy-aware logical form for symbolic reasoning over tables, which shows high effectiveness. Targeting table reasoning, we leverage entity and quantity alignment to explore partially supervised training in QA and conditional generation in NLG, and largely reduce spurious predictions in QA and produce better descriptions in NLG.",
+  "keywords": [
+    "a hierarchical table dataset",
+    "question",
+    "form",
+    "we",
+    "training",
+    "cross",
+    "natural",
+    "semantics",
+    "2 qa pairs",
+    "natural language generation",
+    "hierarchical tables",
+    "complex hierarchical indexing",
+    "i",
+    "conditional generation",
+    "hierarchy"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.78/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.202",
+  "title": "Alexander Knox at {S}em{E}val-2023 Task 5: The comparison of prompting and standard fine-tuning techniques for selecting the type of spoiler needed to neutralize a clickbait",
+  "authors": [
+    "Wo{\\'z}ny, Mateusz  and\nLango, Mateusz"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "Clickbait posts are a common problem on social media platforms, as they often deceive users by providing misleading or sensational headlines that do not match the content of the linked web page. The aim of this study is to create a technique for identifying the specific type of suitable spoiler - be it a phrase, a passage, or a multipart spoiler - needed to neutralize clickbait posts. This is achieved by developing a machine learning classifier analyzing both the clickbait post and the linked web page. Modern approaches for constructing a text classifier usually rely on fine-tuning a transformer-based model pre-trained on large unsupervised corpora. However, recent advances in the development of large-scale language models have led to the emergence of a new transfer learning paradigm based on prompt engineering. In this work, we study these two transfer learning techniques and compare their effectiveness for clickbait spoiler-type detection task. Our experimental results show that for this task, using the standard fine-tuning method gives better results than using prompting. The best model can achieve a similar performance to that presented by Hagen et al. (2022).",
+  "keywords": [
+    "the standard fine-tuning method",
+    "em",
+    "classifier",
+    "we",
+    "a transformer-based model",
+    "it",
+    "large-scale language models",
+    "transfer",
+    "a text classifier",
+    "tuning",
+    "prompt",
+    "fine-tuning techniques",
+    "text",
+    "fine",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.202/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

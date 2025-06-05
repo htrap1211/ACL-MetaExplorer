@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.12",
+  "title": "x{PQA}: Cross-Lingual Product Question Answering in 12 Languages",
+  "authors": [
+    "Shen, Xiaoyu  and\nAsai, Akari  and\nByrne, Bill  and\nDe Gispert, Adria"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "Product Question Answering (PQA) systems are key in e-commerce applications as they provide responses to customers’ questions as they shop for products. While existing work on PQA focuses mainly on English, in practice there is need to support multiple customer languages while leveraging product information available in English. To study this practical industrial task, we present xPQA, a large-scale annotated cross-lingual PQA dataset in 12 languages, and report results in (1) candidate ranking, to select the best English candidate containing the information to answer a non-English question; and (2) answer generation, to generate a natural-sounding non-English answer based on the selected English candidate. We evaluate various approaches involving machine translation at runtime or offline, leveraging multilingual pre-trained LMs, and including or excluding xPQA training data. We find that in-domain data is essential as cross-lingual rankers trained on other domains perform poorly on the PQA task, and that translation-based approaches are most effective for candidate ranking while multilingual finetuning works best for answer generation. Still, there remains a significant performance gap between the English and the cross-lingual test sets.",
+  "keywords": [
+    "machine translation",
+    "question",
+    "pqa systems",
+    "we",
+    "xpqa training data",
+    "training",
+    "translation",
+    "cross",
+    "answer",
+    "natural",
+    "information",
+    "answer generation",
+    "pqa",
+    "the pqa task",
+    "xpqa"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

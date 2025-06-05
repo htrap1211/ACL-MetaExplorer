@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.9",
+  "title": "S}ea{\\_}and{\\_}{W}ine at {S}em{E}val-2023 Task 9: A Regression Model with Data Augmentation for Multilingual Intimacy Analysis",
+  "authors": [
+    "Chen, Yuxi  and\nChang, Yu  and\nTao, Yanqing  and\nZhang, Yanru"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "In Task 9, we are required to analyze the textual intimacy of tweets in 10 languages. We fine-tune XLM-RoBERTa (XLM-R) pre-trained model to adapt to this multilingual regression task. After tentative experiments, severe class imbalance is observed in the official released dataset, which may compromise the convergence and weaken the model effect. To tackle such challenge, we take measures in two aspects. On the one hand, we implement data augmentation through machine translation to enlarge the scale of classes with fewer samples. On the other hand, we introduce focal mean square error (MSE) loss to emphasize the contributions of hard samples to total loss, thus further mitigating the impact of class imbalance on model effect. Extensive experiments demonstrate remarkable effectiveness of our strategies, and our model achieves high performance on the Pearson’s correlation coefficient (CC) almost above 0.85 on validation dataset.",
+  "keywords": [
+    "roberta",
+    "validation",
+    "machine translation",
+    "we",
+    "translation",
+    "cc",
+    "loss",
+    "analysis",
+    "ine",
+    "strategies",
+    "fine",
+    "coefficient",
+    "model",
+    "machine",
+    "class"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.9/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

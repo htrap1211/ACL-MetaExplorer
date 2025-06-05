@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.268",
+  "title": "OAS}um: Large-Scale Open Domain Aspect-based Summarization",
+  "authors": [
+    "Yang, Xianjun  and\nSong, Kaiqiang  and\nCho, Sangwoo  and\nWang, Xiaoyang  and\nPan, Xiaoman  and\nPetzold, Linda  and\nYu, Dong"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Aspect or query-based summarization has recently caught more attention, as it can generate differentiated summaries based on users’ interests. However, the current dataset for aspect or query-based summarization either focuses on specific domains, on a relatively small scale, or contains only a few aspect types. Such limitations hinder further explorations in this direction. In this work, we take advantage of crowd-sourcing knowledge on Wikipedia and automatically create a high-quality, large-scale open-domain aspect-based summarization dataset named OASum, which contains more than 3.7 million instances with around 1 million different aspects on 2 million Wikipedia pages. We provide benchmark results on OASum and demonstrate its ability for diverse aspect-based summarization generation. To overcome the data scarcity problem on specific domains, we also perform zero-shot, few-shot, and fine-tuning on seven downstream datasets. Specifically, zero/few-shot and fine-tuning results show that the model pre-trained on our corpus demonstrates a strong aspect or query-focused generation ability compared with the backbone model. Our dataset and pre-trained checkpoints are publicly available.",
+  "keywords": [
+    "query-focused generation ability",
+    "zero-shot few-shot",
+    "summarization",
+    "we",
+    "differentiated summaries",
+    "current",
+    "shot",
+    "fine-tuning",
+    "it",
+    "more attention",
+    "tuning",
+    "fine",
+    "diverse aspect-based summarization generation",
+    "work",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.268/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P19-1660",
+  "title": "Learning to Relate from Captions and Bounding Boxes",
+  "authors": [
+    "Garg, Sarthak  and\nMoniz, Joel Ruben Antony  and\nAviral, Anshu  and\nBollimpalli, Priyatham"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "In this work, we propose a novel approach that predicts the relationships between various entities in an image in a weakly supervised manner by relying on image captions and object bounding box annotations as the sole source of supervision. Our proposed approach uses a top-down attention mechanism to align entities in captions to objects in the image, and then leverage the syntactic structure of the captions to align the relations. We use these alignments to train a relation classification network, thereby obtaining both grounded captions and dense relationships. We demonstrate the effectiveness of our model on the Visual Genome dataset by achieving a recall@50 of 15% and recall@100 of 25% on the relationships present in the image. We also show that the model successfully predicts relations that are not present in the corresponding captions.",
+  "keywords": [
+    "work",
+    "recall",
+    "alignments",
+    "a relation classification network",
+    "object",
+    "model",
+    "entities",
+    "various entities",
+    "a top-down attention mechanism",
+    "a recall",
+    "attention",
+    "we",
+    "network",
+    "these alignments",
+    "a weakly supervised manner"
+  ],
+  "url": "https://aclanthology.org/P19-1660/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:47:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

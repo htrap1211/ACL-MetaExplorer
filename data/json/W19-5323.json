@@ -1,0 +1,33 @@
+{
+  "id": "W19-5323",
+  "title": "CUNI} Systems for the Unsupervised News Translation Task in {WMT} 2019",
+  "authors": [
+    "Kvapil{\\'i}kov{\\'a}, Ivana  and\nMach{\\'a}{\\v{c}}ek, Dominik  and\nBojar, Ond{\\v{r}}ej"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1)",
+  "abstract": "In this paper we describe the CUNI translation system used for the unsupervised news shared task of the ACL 2019 Fourth Conference on Machine Translation (WMT19). We follow the strategy of Artetxe ae at. (2018b), creating a seed phrase-based system where the phrase table is initialized from cross-lingual embedding mappings trained on monolingual data, followed by a neural machine translation system trained on synthetic parallel data. The synthetic corpus was produced from a monolingual corpus by a tuned PBMT model refined through iterative back-translation. We further focus on the handling of named entities, i.e. the part of vocabulary where the cross-lingual embedding mapping suffers most. Our system reaches a BLEU score of 15.3 on the German-Czech WMT19 shared task.",
+  "keywords": [
+    "named entities",
+    "cross",
+    "cross-lingual embedding mappings",
+    "i",
+    "a bleu score",
+    "neural",
+    "model",
+    "machine",
+    "entities",
+    "iterative back-translation",
+    "bleu",
+    "the cross-lingual embedding mapping",
+    "we",
+    "the cuni translation system",
+    "translation"
+  ],
+  "url": "https://aclanthology.org/W19-5323/",
+  "provenance": {
+    "collected_at": "2025-06-05 02:07:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

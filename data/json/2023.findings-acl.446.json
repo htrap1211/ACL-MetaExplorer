@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.446",
+  "title": "Bridge the Gap Between {CV} and {NLP}! A Gradient-based Textual Adversarial Attack Framework",
+  "authors": [
+    "Yuan, Lifan  and\nZhang, YiChi  and\nChen, Yangyi  and\nWei, Wei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Despite recent success on various tasks, deep learning techniques still perform poorly on adversarial examples with small perturbations. While optimization-based methods for adversarial attacks are well-explored in the field of computer vision, it is impractical to directly apply them in natural language processing due to the discrete nature of the text. To address the problem, we propose a unified framework to extend the existing optimization-based adversarial attack methods in the vision domain to craft textual adversarial samples. In this framework, continuously optimized perturbations are added to the embedding layer and amplified in the forward propagation process. Then the final perturbed latent representations are decoded with a masked language model head to obtain potential adversarial samples. In this paper, we instantiate our framework with an attack algorithm named Textual Projected Gradient Descent (T-PGD). We find our algorithm effective even using proxy gradient information. Therefore, we perform the more challenging transfer black-box attack and conduct comprehensive experiments to evaluate our attack algorithm with several models on three benchmark datasets. Experimental results demonstrate that our method achieves overall better performance and produces more fluent and grammatical adversarial samples compared to strong baseline methods. The code and data are available athttps://github.com/Phantivia/T-PGD.",
+  "keywords": [
+    "deep",
+    "code",
+    "field",
+    "layer",
+    "we",
+    "natural",
+    "the field",
+    "it",
+    "a unified framework",
+    "unified",
+    "information",
+    "latent",
+    "learning",
+    "transfer",
+    "natural language processing"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.446/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

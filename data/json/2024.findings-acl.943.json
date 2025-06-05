@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.943",
+  "title": "Retrieval-Augmented Retrieval: Large Language Models are Strong Zero-Shot Retriever",
+  "authors": [
+    "Shen, Tao  and\nLong, Guodong  and\nGeng, Xiubo  and\nTao, Chongyang  and\nLei, Yibin  and\nZhou, Tianyi  and\nBlumenstein, Michael  and\nJiang, Daxin"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "We propose a simple method that applies a large language model (LLM) to large-scale retrieval in zero-shot scenarios. Our method, the Large language model as Retriever (LameR), is built upon no other neural models but an LLM in a retrieval-augmented retrieval fashion, while breaking brute-force combinations of retrievers with LLMs and lifting the performance of zero-shot retrieval to be very competitive on benchmark datasets. Essentially, we propose to augment a query with its potential answers by prompting LLMs with a composition of the query and the query’s in-domain candidates. The candidates, regardless of correct or wrong, are obtained by a vanilla retrieval procedure on the target collection. As a part of the prompts, they are likely to help LLM generate more precise answers by pattern imitation or candidate summarization. Even if all the candidates are wrong, the prompts at least make LLM aware of in-collection patterns and genres. Moreover, due to the low performance of a self-supervised retriever, the LLM-based query augmentation becomes less effective as the retriever bottlenecks the whole pipeline. Therefore, we propose to leverage a non-parametric lexicon-based method (e.g., BM25) as the retrieval module to capture query-document overlap in a literal fashion. As such, LameR makes the retrieval procedure transparent to the LLM, thus circumventing the bottleneck.",
+  "keywords": [
+    "an llm",
+    "retriever lamer",
+    "summarization",
+    "we",
+    "force",
+    "zero-shot retrieval",
+    "llm",
+    "shot",
+    "a vanilla retrieval procedure",
+    "neural",
+    "the retrieval module",
+    "self",
+    "the large language model",
+    "retrieval",
+    "the retriever bottlenecks"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.943/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P19-1402",
+  "title": "Few-Shot Representation Learning for Out-Of-Vocabulary Words",
+  "authors": [
+    "Hu, Ziniu  and\nChen, Ting  and\nChang, Kai-Wei  and\nSun, Yizhou"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Existing approaches for learning word embedding often assume there are sufficient occurrences for each word in the corpus, such that the representation of words can be accurately estimated from their contexts. However, in real-world scenarios, out-of-vocabulary (a.k.a. OOV) words that do not appear in training corpus emerge frequently. How to learn accurate representations of these words to augment a pre-trained embedding by only a few observations is a challenging research problem. In this paper, we formulate the learning of OOV embedding as a few-shot regression problem by fitting a representation function to predict an oracle embedding vector (defined as embedding trained with abundant observations) based on limited contexts. Specifically, we propose a novel hierarchical attention network-based embedding framework to serve as the neural regression function, in which the context information of a word is encoded and aggregated from K observations. Furthermore, we propose to use Model-Agnostic Meta-Learning (MAML) for adapting the learned model to the new corpus fast and robustly. Experiments show that the proposed approach significantly outperforms existing methods in constructing an accurate embedding for OOV words and improves downstream tasks when the embedding is utilized.",
+  "keywords": [
+    "sufficient occurrences",
+    "we",
+    "shot",
+    "training",
+    "neural",
+    "information",
+    "sufficient",
+    "word",
+    "learning",
+    "an accurate embedding",
+    "vector",
+    "few-shot representation learning",
+    "embedding",
+    "function",
+    "fast"
+  ],
+  "url": "https://aclanthology.org/P19-1402/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:40:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P18-1186",
+  "title": "Multimodal Named Entity Disambiguation for Noisy Social Media Posts",
+  "authors": [
+    "Moon, Seungwhan  and\nNeves, Leonardo  and\nCarvalho, Vitor"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We introduce the new Multimodal Named Entity Disambiguation (MNED) task for multimodal social media posts such as Snapchat or Instagram captions, which are composed of short captions with accompanying images. Social media posts bring significant challenges for disambiguation tasks because 1) ambiguity not only comes from polysemous entities, but also from inconsistent or incomplete notations, 2) very limited context is provided with surrounding words, and 3) there are many emerging entities often unseen during training. To this end, we build a new dataset called SnapCaptionsKB, a collection of Snapchat image captions submitted to public and crowd-sourced stories, with named entity mentions fully annotated and linked to entities in an external knowledge base. We then build a deep zeroshot multimodal network for MNED that 1) extracts contexts from both text and image, and 2) predicts correct entity in the knowledge graph embeddings space, allowing for zeroshot disambiguation of entities unseen in training set as well. The proposed model significantly outperforms the state-of-the-art text-only NED models, showing efficacy and potentials of the MNED task.",
+  "keywords": [
+    "deep",
+    "end",
+    "we",
+    "graph",
+    "polysemous entities",
+    "training",
+    "public and crowd-sourced stories",
+    "named entity mentions",
+    "snapcaptionskb",
+    "multimodal named entity disambiguation",
+    "text",
+    "stories",
+    "embeddings",
+    "many emerging entities",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/P18-1186/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:14:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

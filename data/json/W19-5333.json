@@ -1,0 +1,33 @@
+{
+  "id": "W19-5333",
+  "title": "F}acebook {FAIR}{'}s {WMT}19 News Translation Task Submission",
+  "authors": [
+    "Ng, Nathan  and\nYee, Kyra  and\nBaevski, Alexei  and\nOtt, Myle  and\nAuli, Michael  and\nEdunov, Sergey"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1)",
+  "abstract": "This paper describes Facebook FAIR’s submission to the WMT19 shared news translation task. We participate in four language directions, English <-> German and English <-> Russian in both directions. Following our submission from last year, our baseline systems are large BPE-based transformer models trained with the FAIRSEQ sequence modeling toolkit. This year we experiment with different bitext data filtering schemes, as well as with adding filtered back-translated data. We also ensemble and fine-tune our models on domain-specific data, then decode using noisy channel model reranking. Our system improves on our previous system’s performance by 4.5 BLEU points and achieves the best case-sensitive BLEU score for the translation direction English→Russian.",
+  "keywords": [
+    "transformer",
+    "language",
+    "model",
+    "modeling",
+    "bleu",
+    "fine",
+    "we",
+    "sequence",
+    "4 5 bleu points",
+    "large bpe-based transformer models",
+    "the translation direction",
+    "translation",
+    "news",
+    "domain-specific data",
+    "fair"
+  ],
+  "url": "https://aclanthology.org/W19-5333/",
+  "provenance": {
+    "collected_at": "2025-06-05 02:07:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

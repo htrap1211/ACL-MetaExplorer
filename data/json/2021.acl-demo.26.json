@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-demo.26",
+  "title": "F}ast{S}eq: Make Sequence Generation Faster",
+  "authors": [
+    "Yan, Yu  and\nHu, Fei  and\nChen, Jiusheng  and\nBhendawade, Nikhil  and\nYe, Ting  and\nGong, Yeyun  and\nDuan, Nan  and\nCui, Desheng  and\nChi, Bingyu  and\nZhang, Ruofei"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: System Demonstrations",
+  "abstract": "Transformer-based models have made tremendous impacts in natural language generation. However the inference speed is a bottleneck due to large model size and intensive computing involved in auto-regressive decoding process. We develop FastSeq framework to accelerate sequence generation without accuracy loss. The proposed optimization techniques include an attention cache optimization, an efficient algorithm for detecting repeated n-grams, and an asynchronous generation pipeline with parallel I/O. These optimizations are general enough to be applicable to Transformer-based models (e.g., T5, GPT2, and UniLM). Our benchmark results on a set of widely used and diverse models demonstrate 4-9x inference speed gain. Additionally, FastSeq is easy to use with a simple one-line code change. The source code is available athttps://github.com/microsoft/fastseq.",
+  "keywords": [
+    "code",
+    "gpt2",
+    "efficient",
+    "an efficient algorithm",
+    "ast",
+    "eq",
+    "we",
+    "natural",
+    "sequence generation",
+    "loss",
+    "the proposed optimization techniques",
+    "sequence",
+    "natural language generation",
+    "accuracy loss",
+    "transformer-based models"
+  ],
+  "url": "https://aclanthology.org/2021.acl-demo.26/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:09:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.293",
+  "title": "Your Transformer is Secretly Linear",
+  "authors": [
+    "Razzhigaev, Anton  and\nMikhalchuk, Matvey  and\nGoncharova, Elizaveta  and\nGerasimenko, Nikolai  and\nOseledets, Ivan  and\nDimitrov, Denis  and\nKuznetsov, Andrey"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "This paper reveals a novel linear characteristic exclusive to transformer decoders, including models like GPT, LLaMA, OPT, BLOOM and others. We analyze embedding transformations between sequential layers, uncovering an almost perfect linear relationship (Procrustes similarity score of 0.99). However, linearity decreases when the residual component is removed, due to a consistently low transformer layer output norm. Our experiments show that pruning or linearly approximating some of the layers does not impact loss or model performance significantly. Moreover, we introduce a cosine-similarity-based regularization in our pretraining experiments on smaller models, aimed at reducing layer linearity. This regularization not only improves performance metrics on benchmarks like Tiny Stories and SuperGLUE but as well successfully decreases the linearity of the models. This study challenges the existing understanding of transformer architectures, suggesting that their operation may be more linear than previously assumed.",
+  "keywords": [
+    "opt",
+    "transformer",
+    "performance metrics",
+    "your transformer",
+    "a cosine-similarity-based regularization",
+    "model",
+    "tiny stories",
+    "metrics",
+    "this regularization",
+    "transformer architectures",
+    "loss",
+    "regularization",
+    "gpt",
+    "layer",
+    "stories"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.293/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P18-2125",
+  "title": "`Lighter' Can Still Be Dark: Modeling Comparative Color Descriptions",
+  "authors": [
+    "Winn, Olivia  and\nMuresan, Smaranda"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "We propose a novel paradigm of grounding comparative adjectives within the realm of color descriptions. Given a reference RGB color and a comparative term (e.g., lighter, darker), our model learns to ground the comparative as a direction in the RGB space such that the colors along the vector, rooted at the reference color, satisfy the comparison. Our model generates grounded representations of comparative adjectives with an average accuracy of 0.65 cosine similarity to the desired direction of change. These vectors approach colors with Delta-E scores of under 7 compared to the target colors, indicating the differences are very small with respect to human perception. Our approach makes use of a newly created dataset for this task derived from existing labeled color data.",
+  "keywords": [
+    "reference",
+    "e g",
+    "vector",
+    "model",
+    "an average accuracy",
+    "human",
+    "the vector",
+    "vectors",
+    "we",
+    "these vectors",
+    "accuracy",
+    "term",
+    "comparative",
+    "cosine",
+    "similarity"
+  ],
+  "url": "https://aclanthology.org/P18-2125/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:19:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

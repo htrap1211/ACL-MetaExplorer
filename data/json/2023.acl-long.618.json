@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.618",
+  "title": "How Do In-Context Examples Affect Compositional Generalization?",
+  "authors": [
+    "An, Shengnan  and\nLin, Zeqi  and\nFu, Qiang  and\nChen, Bei  and\nZheng, Nanning  and\nLou, Jian-Guang  and\nZhang, Dongmei"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Compositional generalization–understanding unseen combinations of seen primitives–is an essential reasoning capability in human intelligence. The AI community mainly studies this capability by fine-tuning neural networks on lots of training samples, while it is still unclear whether and how in-context learning–the prevailing few-shot paradigm based on large language models–exhibits compositional generalization. In this paper, we present CoFe, a test suite to investigate in-context compositional generalization. We find that the compositional generalization performance can be easily affected by the selection of in-context examples, thus raising the research question what the key factors are to make good in-context examples for compositional generalization. We study three potential factors: similarity, diversity and complexity. Our systematic experiments indicate that in-context examples should be structurally similar to the test case, diverse from each other, and individually simple. Furthermore, two strong limitations are observed: in-context compositional generalization on fictional words is much weaker than that on commonly used ones; it is still critical that the in-context examples should cover required linguistic structures, even though the backbone model has been pre-trained on large corpus. We hope our analysis would facilitate the understanding and utilization of in-context learning paradigm.",
+  "keywords": [
+    "question",
+    "the prevailing few-shot paradigm",
+    "we",
+    "compositional generalization compositional generalization",
+    "shot",
+    "training",
+    "neural",
+    "it",
+    "the compositional generalization performance",
+    "learning",
+    "analysis",
+    "tuning",
+    "generalization",
+    "compositional generalization",
+    "fine-tuning neural networks"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.618/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.602",
+  "title": "Simple and Effective Unsupervised Speech Translation",
+  "authors": [
+    "Wang, Changhan  and\nInaguma, Hirofumi  and\nChen, Peng-Jen  and\nKulikov, Ilia  and\nTang, Yun  and\nHsu, Wei-Ning  and\nAuli, Michael  and\nPino, Juan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The amount of labeled data to train models for speech tasks is limited for most languages, however, the data scarcity is exacerbated for speech translation which requires labeled data covering two different languages. To address this issue, we study a simple and effective approach to build speech translation systems without labeled data by leveraging recent advances in unsupervised speech recognition, machine translation and speech synthesis, either in a pipeline approach, or to generate pseudo-labels for training end-to-end speech translation models. Furthermore, we present an unsupervised domain adaptation technique for pre-trained speech models which improves the performance of downstream unsupervised speech recognition, especially for low-resource settings. Experiments show that unsupervised speech-to-text translation outperforms the previous unsupervised state of the art by 3.2 BLEU on the Libri-Trans benchmark, on CoVoST 2, our best systems outperform the best supervised end-to-end models (without pre-training) from only two years ago by an average of 5.0 BLEU over five X-En directions. We also report competitive results on MuST-C and CVSS benchmarks.",
+  "keywords": [
+    "end",
+    "bleu",
+    "we",
+    "speech translation models",
+    "training",
+    "translation",
+    "speech translation",
+    "text",
+    "trans",
+    "-",
+    "speech translation systems",
+    "5 0 bleu",
+    "machine",
+    "3 2 bleu",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.602/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

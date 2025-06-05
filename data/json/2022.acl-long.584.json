@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.584",
+  "title": "Few-Shot Learning with {S}iamese Networks and Label Tuning",
+  "authors": [
+    "M{\\\"u}ller, Thomas  and\nP{\\'e}rez-Torr{\\'o}, Guillermo  and\nFranco-Salvador, Marc"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We study the problem of building text classifiers with little or no training data, commonly known as zero and few-shot text classification. In recent years, an approach based on neural textual entailment models has been found to give strong results on a diverse range of tasks. In this work, we show that with proper pre-training, Siamese Networks that embed texts and labels offer a competitive alternative. These models allow for a large reduction in inference cost: constant in the number of labels rather than linear. Furthermore, we introduce label tuning, a simple and computationally efficient approach that allows to adapt the models in a few-shot setup by only changing the label embeddings. While giving lower performance than model fine-tuning, this approach has the architectural advantage that a single encoder can be shared by many different tasks.",
+  "keywords": [
+    "efficient",
+    "classifiers",
+    "we",
+    "shot",
+    "training",
+    "classification",
+    "neural",
+    "a single encoder",
+    "text classifiers",
+    "learning",
+    "reduction",
+    "tuning",
+    "proper pre-training siamese networks",
+    "text",
+    "few-shot text classification"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.584/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:32:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

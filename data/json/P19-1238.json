@@ -1,0 +1,33 @@
+{
+  "id": "P19-1238",
+  "title": "Wide-Coverage Neural {A}* Parsing for {M}inimalist {G}rammars",
+  "authors": [
+    "Torr, John  and\nStanojevi{\\'c}, Milo{\\v{s}}  and\nSteedman, Mark  and\nCohen, Shay B."
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Minimalist Grammars (Stabler, 1997) are a computationally oriented, and rigorous formalisation of many aspects of Chomsky’s (1995) Minimalist Program. This paper presents the first ever application of this formalism to the task of realistic wide-coverage parsing. The parser uses a linguistically expressive yet highly constrained grammar, together with an adaptation of the A* search algorithm currently used in CCG parsing (Lewis and Steedman, 2014; Lewis et al., 2016), with supertag probabilities provided by a bi-LSTM neural network supertagger trained on MGbank, a corpus of MG derivation trees. We report on some promising initial experimental results for overall dependency recovery as well as on the recovery of certain unbounded long distance dependencies. Finally, although like other MG parsers, ours has a high order polynomial worst case time complexity, we show that in practice its expected time complexity is cubic in the length of the sentence. The parser is publicly available.",
+  "keywords": [
+    "parsing",
+    "we",
+    "lstm",
+    "neural",
+    "overall dependency recovery",
+    "oriented",
+    "a parsing",
+    "supertag probabilities",
+    "probabilities",
+    "dependency",
+    "network",
+    "time",
+    "promising",
+    "lewis",
+    "rammars"
+  ],
+  "url": "https://aclanthology.org/P19-1238/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:35:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

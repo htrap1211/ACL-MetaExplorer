@@ -1,0 +1,33 @@
+{
+  "id": "W18-2313",
+  "title": "P}hrase2{V}ec{GLM}: Neural generalized language model{--}based semantic tagging for complex query reformulation in medical {IR",
+  "authors": [
+    "Das, Manirupa  and\nFosler-Lussier, Eric  and\nLin, Simon  and\nMoosavinasab, Soheil  and\nChen, David  and\nRust, Steve  and\nHuang, Yungui  and\nRamnath, Rajiv"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the {B}io{NLP} 2018 workshop",
+  "abstract": "In this work, we develop a novel, completely unsupervised, neural language model-based document ranking approach to semantic tagging of documents, using the document to be tagged as a query into the GLM to retrieve candidate phrases from top-ranked related documents, thus associating every document with novel related concepts extracted from the text. For this we extend the word embedding-based general language model due to Ganguly et al 2015, to employ phrasal embeddings, and use the semantic tags thus obtained for downstream query expansion, both directly and in feedback loop settings. Our method, evaluated using the TREC 2016 clinical decision support challenge dataset, shows statistically significant improvement not only over various baselines that use standard MeSH terms and UMLS concepts for query expansion, but also over baselines using human expert–assigned concept tags for the queries, run on top of a standard Okapi BM25–based document retrieval system.",
+  "keywords": [
+    "top",
+    "support",
+    "feedback",
+    "semantic",
+    "we",
+    "based semantic tagging",
+    "neural",
+    "queries",
+    "retrieval",
+    "word",
+    "semantic tagging",
+    "text",
+    "the queries",
+    "work",
+    "embeddings"
+  ],
+  "url": "https://aclanthology.org/W18-2313/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:21:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

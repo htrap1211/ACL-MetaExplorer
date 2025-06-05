@@ -1,0 +1,33 @@
+{
+  "id": "2021.dialdoc-1.7",
+  "title": "Technical Report on Shared Task in {D}ial{D}oc21",
+  "authors": [
+    "Li, Jiapeng  and\nLi, Mingda  and\nMa, Longxuan  and\nZhang, Wei-Nan  and\nLiu, Ting"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Document-grounded Dialogue and Conversational Question Answering (DialDoc 2021)",
+  "abstract": "We participate in the DialDoc Shared Task sub-task 1 (Knowledge Identification). The task requires identifying the grounding knowledge in form of a document span for the next dialogue turn. We employ two well-known pre-trained language models (RoBERTa and ELECTRA) to identify candidate document spans and propose a metric-based ensemble method for span selection. Our methods include data augmentation, model pre-training/fine-tuning, post-processing, and ensemble. On the submission page, we rank 2nd based on the average of normalized F1 and EM scores used for the final evaluation. Specifically, we rank 2nd on EM and 3rd on F1.",
+  "keywords": [
+    "ensemble",
+    "ial",
+    "knowledge",
+    "roberta",
+    "processing",
+    "em",
+    "language",
+    "f1",
+    "metric",
+    "model",
+    "the next dialogue turn",
+    "the final evaluation",
+    "a metric-based ensemble method",
+    "-",
+    "normalized f1"
+  ],
+  "url": "https://aclanthology.org/2021.dialdoc-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

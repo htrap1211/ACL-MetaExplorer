@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.732",
+  "title": "Large Language Models are Few-Shot Training Example Generators: A Case Study in Fallacy Recognition",
+  "authors": [
+    "Alhindi, Tariq  and\nMuresan, Smaranda  and\nNakov, Preslav"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Recognizing fallacies is crucial for ensuring the quality and validity of arguments across various domains. However, computational fallacy recognition faces challenges due to the diverse genres, domains, and types of fallacies found in datasets. This leads to a highly multi-class, and even multi-label, setup with substantial class imbalance. In this study, we aim to enhance existing models for fallacy recognition by incorporating additional context and by leveraging large language models to generate synthetic data, thus increasing the representation of the infrequent classes. We experiment with GPT3.5 to generate synthetic examples and we examine the impact of prompt settings for this. Moreover, we explore zero-shot and few-shot scenarios to evaluate the effectiveness of using the generated examples for training smaller models within a unified fallacy recognition framework. Furthermore, we analyze the overlap between the synthetic data and existing fallacy datasets. Finally, we investigate the usefulness of providing supplementary context for detecting fallacy types that need such context, e.g., diversion fallacies. Our evaluation results demonstrate consistent improvements across fallacy types, datasets, and generators. The code and the synthetic datasets are all publicly available.",
+  "keywords": [
+    "code",
+    "we",
+    "generators",
+    "gpt3",
+    "shot",
+    "training",
+    "prompt settings",
+    "our evaluation results",
+    "fallacies",
+    "unified",
+    "prompt",
+    "recognizing fallacies",
+    "language",
+    "few-shot training example generators",
+    "class"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.732/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

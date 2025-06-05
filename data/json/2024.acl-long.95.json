@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.95",
+  "title": "An Effective Pronunciation Assessment Approach Leveraging Hierarchical Transformers and Pre-training Strategies",
+  "authors": [
+    "Yan, Bi-Cheng  and\nLi, Jiun-Ting  and\nWang, Yi-Cheng  and\nWang, Hsin Wei  and\nLo, Tien-Hong  and\nHsu, Yung-Chang  and\nChao, Wei-Cheng  and\nChen, Berlin"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Automatic pronunciation assessment (APA) manages to quantify a second language (L2) learner’s pronunciation proficiency in a target language by providing fine-grained feedback with multiple pronunciation aspect scores at various linguistic levels. Most existing efforts on APA typically parallelize the modeling process, namely predicting multiple aspect scores across various linguistic levels simultaneously. This inevitably makes both the hierarchy of linguistic units and the relatedness among the pronunciation aspects sidelined. Recognizing such a limitation, we in this paper first introduce HierTFR, a hierarchal APA method that jointly models the intrinsic structures of an utterance while considering the relatedness among the pronunciation aspects. We also propose a correlation-aware regularizer to strengthen the connection between the estimated scores and the human annotations. Furthermore, novel pre-training strategies tailored for different linguistic levels are put forward so as to facilitate better model initialization. An extensive set of empirical experiments conducted on the speechocean762 benchmark dataset suggest the feasibility and effectiveness of our approach in relation to several competitive baselines.",
+  "keywords": [
+    "transformers",
+    "hiertfr",
+    "feedback",
+    "pre-training strategies",
+    "we",
+    "furthermore novel pre-training strategies",
+    "training",
+    "hierarchal",
+    "a hierarchal apa method",
+    "strategies",
+    "hierarchy",
+    "learner",
+    "hierarchical",
+    "proficiency",
+    "process"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.95/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:35:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

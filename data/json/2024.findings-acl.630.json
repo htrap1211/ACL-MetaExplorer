@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.630",
+  "title": "Beyond One-Preference-Fits-All Alignment: Multi-Objective Direct Preference Optimization",
+  "authors": [
+    "Zhou, Zhanhui  and\nLiu, Jie  and\nShao, Jing  and\nYue, Xiangyu  and\nYang, Chao  and\nOuyang, Wanli  and\nQiao, Yu"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "A single language model, even when aligned with labelers through reinforcement learning from human feedback (RLHF), may not suit all human preferences. Recent approaches therefore prefer customization, gathering multi-dimensional feedback, and creating distinct reward models for each dimension.Different language models are then optimized for various preferences using multi-objective RLHF (MORLHF) with varying reward weights.However, RL fine-tuning is unstable and resource-heavy, especially with diverse and usually conflicting objectives.In this paper, we present Multi-Objective Direct Preference Optimization (MODPO), an RL-free extension of Direct Preference Optimization (DPO) for multiple alignment objectives.Essentially, MODPO folds language modeling directly into reward modeling, training language models as implicit collective reward models that combine all objectives with specific weights. MODPO theoretically yields the same optimal solutions as MORLHF but is practically more stable and efficient.Empirical results in safety alignment and long-form question answering show that MODPO matches or outperforms existing methods, producing a Pareto front of language models catering to diverse preferences with three times less computational resources compared to MORLHF.Code is available at https://github.com/ZHZisZZ/modpo.",
+  "keywords": [
+    "code",
+    "objectives",
+    "a single language model",
+    "feedback",
+    "efficient",
+    "long-form question answering show",
+    "question",
+    "form",
+    "we",
+    "human feedback rlhf",
+    "language modeling",
+    "training",
+    "fine-tuning",
+    "rlhf",
+    "multiple alignment objectives"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.630/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

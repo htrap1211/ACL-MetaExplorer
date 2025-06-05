@@ -1,0 +1,33 @@
+{
+  "id": "W19-4432",
+  "title": "Toward Automated Content Feedback Generation for Non-native Spontaneous Speech",
+  "authors": [
+    "Yoon, Su-Youn  and\nHsieh, Ching-Ni  and\nZechner, Klaus  and\nMulholland, Matthew  and\nWang, Yuan  and\nMadnani, Nitin"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourteenth Workshop on Innovative Use of NLP for Building Educational Applications",
+  "abstract": "In this study, we developed an automated algorithm to provide feedback about the specific content of non-native English speakers’ spoken responses. The responses were spontaneous speech, elicited using integrated tasks where the language learners listened to and/or read passages and integrated the core content in their spoken responses. Our models detected the absence of key points considered to be important in a spoken response to a particular test question, based on two different models: (a) a model using word-embedding based content features and (b) a state-of-the art short response scoring engine using traditional n-gram based features. Both models achieved a substantially improved performance over the majority baseline, and the combination of the two models achieved a significant further improvement. In particular, the models were robust to automated speech recognition (ASR) errors, and performance based on the ASR word hypotheses was comparable to that based on manual transcriptions. The accuracy and F-score of the best model for the questions included in the train set were 0.80 and 0.68, respectively. Finally, we discussed possible approaches to generating targeted feedback about the content of a language learner’s response, based on automatically detected missing key points.",
+  "keywords": [
+    "the accuracy",
+    "feedback",
+    "question",
+    "we",
+    "the language learners",
+    "word",
+    "core",
+    "learner",
+    "accuracy",
+    "word-embedding based content features",
+    "automated content feedback generation",
+    "generation",
+    "language",
+    "learners",
+    "model"
+  ],
+  "url": "https://aclanthology.org/W19-4432/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:55:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

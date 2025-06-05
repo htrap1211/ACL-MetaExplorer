@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.4",
+  "title": "D}isco{P}rompt: Path Prediction Prompt Tuning for Implicit Discourse Relation Recognition",
+  "authors": [
+    "Chan, Chunkit  and\nLiu, Xin  and\nCheng, Jiayang  and\nLi, Zihan  and\nSong, Yangqiu  and\nWong, Ginny  and\nSee, Simon"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Implicit Discourse Relation Recognition (IDRR) is a sophisticated and challenging task to recognize the discourse relations between the arguments with the absence of discourse connectives. The sense labels for each discourse relation follow a hierarchical classification scheme in the annotation process (Prasad et al., 2008), forming a hierarchy structure. Most existing works do not well incorporate the hierarchy structure but focus on the syntax features and the prior knowledge of connectives in the manner of pure text classification. We argue that it is more effective to predict the paths inside the hierarchical tree (e.g., “Comparison -> Contrast -> however”) rather than flat labels (e.g., Contrast) or connectives (e.g., however). We propose a prompt-based path prediction method to utilize the interactive information and intrinsic senses among the hierarchy in IDRR. This is the first work that injects such structure information into pre-trained language models via prompt tuning, and the performance of our solution shows significant and consistent improvement against competitive baselines.",
+  "keywords": [
+    "al",
+    "the manner",
+    "the hierarchical tree",
+    "the hierarchy",
+    "we",
+    "pure text classification",
+    "syntax",
+    "classification",
+    "pre-trained language models",
+    "it",
+    "the syntax features",
+    "a hierarchy structure",
+    "information",
+    "the hierarchy structure",
+    "manner"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

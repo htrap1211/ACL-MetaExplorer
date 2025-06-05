@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.17",
+  "title": "C}ipher{DA}ug: Ciphertext based Data Augmentation for Neural Machine Translation",
+  "authors": [
+    "Kambhatla, Nishant  and\nBorn, Logan  and\nSarkar, Anoop"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We propose a novel data-augmentation technique for neural machine translation based on ROT-kciphertexts. ROT-kis a simple letter substitution cipher that replaces a letter in the plaintext with thekth letter after it in the alphabet. We first generate multiple ROT-kciphertexts using different values ofkfor the plaintext which is the source side of the parallel data. We then leverage this enciphered training data along with the original parallel data via multi-source training to improve neural machine translation. Our method, CipherDAug, uses a co-regularization-inspired training procedure, requires no external data sources other than the original training data, and uses a standard Transformer to outperform strong data augmentation techniques on several datasets by a significant margin. This technique combines easily with existing approaches to data augmentation, and yields particularly strong results in low-resource settings.",
+  "keywords": [
+    "neural machine translation",
+    "we",
+    "training",
+    "translation",
+    "neural",
+    "it",
+    "yields",
+    "a co-regularization-inspired training procedure",
+    "a standard transformer",
+    "transformer",
+    "machine",
+    "regularization",
+    "multi",
+    "original",
+    "low-resource settings"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:24:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

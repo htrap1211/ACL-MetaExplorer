@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.115",
+  "title": "Finding the Dominant Winning Ticket in Pre-Trained Language Models",
+  "authors": [
+    "Gong, Zhuocheng  and\nHe, Di  and\nShen, Yelong  and\nLiu, Tie-Yan  and\nChen, Weizhu  and\nZhao, Dongyan  and\nWen, Ji-Rong  and\nYan, Rui"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "The Lottery Ticket Hypothesis suggests that for any over-parameterized model, a small subnetwork exists to achieve competitive performance compared to the backbone architecture. In this paper, we study whether there is a winning lottery ticket for pre-trained language models, which allow the practitioners to fine-tune the parameters in the ticket but achieve good downstream performance. To achieve this, we regularize the fine-tuning process with L1 distance and explore the subnetwork structure (what we refer to as the “dominant winning ticket”). Empirically, we show that (a) the dominant winning ticket can achieve performance that is comparable with that of the full-parameter model, (b) the dominant winning ticket is transferable across different tasks, (c) and the dominant winning ticket has a natural structure within each parameter matrix. Strikingly, we find that a dominant winning ticket that takes up 0.05% of the parameters can already achieve satisfactory performance, indicating that the PLM is significantly reducible during fine-tuning.",
+  "keywords": [
+    "tuning",
+    "process",
+    "language",
+    "pre-trained language models",
+    "model",
+    "natural",
+    "the practitioners",
+    "the fine-tuning process",
+    "c",
+    "fine",
+    "we",
+    "pre",
+    "practitioners",
+    "parameter",
+    "matrix"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.115/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

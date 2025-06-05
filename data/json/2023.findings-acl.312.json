@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.312",
+  "title": "Trigger-Argument based Explanation for Event Detection",
+  "authors": [
+    "Guan, Yong  and\nChen, Jiaoyan  and\nLecue, Freddy  and\nPan, Jeff  and\nLi, Juanzi  and\nLi, Ru"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Event Detection (ED) is a critical task that aims to identify events of certain types in plain text. Neural models have achieved great success on ED, thus coming with a desire for higher interpretability. Existing works mainly exploit words or phrases of the input text to explain models’ inner mechanisms. However, for ED, the event structure, comprising of an event trigger and a set of arguments, are more enlightening clues to explain model behaviors. To this end, we propose a Trigger-Argument based Explanation method (TAE), which can utilize event structure knowledge to uncover a faithful interpretation for the existing ED models at neuron level. Specifically, we design group, sparsity, support mechanisms to construct the event structure from structuralization, compactness, and faithfulness perspectives. We evaluate our model on the large-scale MAVEN and the widely-used ACE 2005 datasets, and observe that TAE is able to reveal the process by which the model predicts. Experimental results also demonstrate that TAE can not only improve the interpretability on standard evaluation metrics, but also effectively facilitate the human understanding.",
+  "keywords": [
+    "end",
+    "support",
+    "standard evaluation metrics",
+    "we",
+    "neural",
+    "inner",
+    "ed",
+    "text",
+    "metrics",
+    "inner mechanisms",
+    "process",
+    "knowledge",
+    "model",
+    "human",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.312/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

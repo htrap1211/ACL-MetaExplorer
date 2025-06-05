@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.122",
+  "title": "Unisa at {S}em{E}val-2023 Task 3: A {SHAP}-based method for Propaganda Detection",
+  "authors": [
+    "Bangerter, Micaela  and\nFenza, Giuseppe  and\nGallo, Mariacristina  and\nLoia, Vincenzo  and\nVolpe, Alberto  and\nMaio, Carmen De  and\nStanzione, Claudio"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper presents proposed solutions for addressing two subtasks in SemEval-2023 Task 3: “Detecting the Genre, the Framing, and the Persuasion techniques in online news in a multi-lingual setup. In subtask 1, “News Genre Categorisation, the goal is to classify a news article as an opinion, a report, or a satire. In subtask 3, “Detection of Persuasion Technique, the system must reveal persuasion techniques used in each news article paragraph choosing among23 defined methods. Solutions leverage the application of the eXplainable Artificial Intelligence (XAI) method, Shapley Additive Explanations (SHAP). In subtask 1, SHAP was used to understand what was driving the model to fail so that it could be improved accordingly. In contrast, in subtask 3, a re-calibration of the Attention Mechanism was realized by extracting critical tokens for each persuasion technique. The underlying idea is the exploitation of XAI for countering the overfitting of the resulting model and attempting to improve the performance when there are few samples in the training data. The achieved performance on English for subtask 1 ranked 6th with an F1-score of 58.6% (despite 78.4% of the 1st) and for subtask 3 ranked 12th with a micro-averaged F1-score of 29.8% (despite 37.6% of the 1st).",
+  "keywords": [
+    "a micro-averaged f1-score",
+    "training",
+    "it",
+    "the overfitting",
+    "overfitting",
+    "an f1-score",
+    "the achieved performance",
+    "-",
+    "model",
+    "attention",
+    "the attention mechanism",
+    "multi",
+    "an opinion",
+    "report",
+    "a multi-lingual setup"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.122/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:28:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

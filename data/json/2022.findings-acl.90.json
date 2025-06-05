@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.90",
+  "title": "Learning Bias-reduced Word Embeddings Using Dictionary Definitions",
+  "authors": [
+    "An, Haozhe  and\nLiu, Xiaojiang  and\nZhang, Donald"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Pre-trained word embeddings, such as GloVe, have shown undesirable gender, racial, and religious biases. To address this problem, we propose DD-GloVe, a train-time debiasing algorithm to learn word embeddings by leveraging̲dictionary̲definitions. We introduce dictionary-guided loss functions that encourage word embeddings to be similar to their relatively neutral dictionary definition representations. Existing debiasing algorithms typically need a pre-compiled list of seed words to represent the bias direction, along which biased information gets removed. Producing this list involves subjective decisions and it might be difficult to obtain for some types of biases. We automate the process of finding seed words: our algorithm starts from a single pair of initial seed words and automatically finds more words whose definitions display similar attributes traits. We demonstrate the effectiveness of our approach with benchmark evaluations and empirical analyses. Our code is available athttps://github.com/haozhe-an/DD-GloVe.",
+  "keywords": [
+    "glove",
+    "code",
+    "bias",
+    "biased information",
+    "we",
+    "dd",
+    "existing debiasing algorithms",
+    "it",
+    "bias-reduced word embeddings",
+    "loss",
+    "information",
+    "benchmark evaluations",
+    "word",
+    "word embeddings",
+    "biases"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.90/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

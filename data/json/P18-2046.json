@@ -1,0 +1,33 @@
+{
+  "id": "P18-2046",
+  "title": "Injecting Relational Structural Representation in Neural Networks for Question Similarity",
+  "authors": [
+    "Uva, Antonio  and\nBonadiman, Daniele  and\nMoschitti, Alessandro"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Effectively using full syntactic parsing information in Neural Networks (NNs) for solving relational tasks, e.g., question similarity, is still an open problem. In this paper, we propose to inject structural representations in NNs by (i) learning a model with Tree Kernels (TKs) on relatively few pairs of questions (few thousands) as gold standard (GS) training data is typically scarce, (ii) predicting labels on a very large corpus of question pairs, and (iii) pre-training NNs on such large corpus. The results on Quora and SemEval question similarity datasets show that NNs using our approach can learn more accurate models, especially after fine tuning on GS.",
+  "keywords": [
+    "tuning",
+    "i",
+    "neural",
+    "neural networks",
+    "model",
+    "question",
+    "information",
+    "tree kernels tks",
+    "fine",
+    "we",
+    "iii pre-training nns",
+    "pre",
+    "kernels",
+    "full syntactic parsing information",
+    "training"
+  ],
+  "url": "https://aclanthology.org/P18-2046/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:17:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

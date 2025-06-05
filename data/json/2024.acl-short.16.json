@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-short.16",
+  "title": "AFL}o{RA}: Adaptive Freezing of Low Rank Adaptation in Parameter Efficient Fine-Tuning of Large Models",
+  "authors": [
+    "Liu, Zeyu  and\nKundu, Souvik  and\nLi, Anni  and\nWan, Junrui  and\nJiang, Lianghao  and\nBeerel, Peter"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "We present a novel Parameter-Efficient Fine-Tuning (PEFT) method, dubbed asAdaptive Freezing of Low-Rank Adaptation(AFLoRA). Specifically, for each pre-trained frozen weight tensor, we add a parallel path of trainable low-rank matrices, namely a down-projection and an up-projection matrix, each of which is followed by a feature transformation vector. Based on a novelfreezing score, we incrementally freeze these projection matrices during fine-tuning to reduce the computation and alleviate over-fitting. Our experimental results demonstrate that we can achieve state-of-the-art performance with an average improvement of up to 0.85% as evaluated on the GLUE benchmark while yielding up to9.5×fewer average trainable parameters. While compared in terms of runtime, AFLoRA can yield up to1.86×improvement as opposed to similar PEFT alternatives. Besides the practical utility of our approach, we provide insights on the trainability requirements of LoRA paths at different modules and the freezing schedule for the different projection matrices.",
+  "keywords": [
+    "a feature transformation vector",
+    "efficient",
+    "parameter efficient fine-tuning",
+    "we",
+    "parameter",
+    "fine-tuning",
+    "tuning",
+    "vector",
+    "fine",
+    "schedule",
+    "pre",
+    "matrix",
+    "approach",
+    "alternatives",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2024.acl-short.16/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:46:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

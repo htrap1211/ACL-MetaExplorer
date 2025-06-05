@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.8",
+  "title": "P}-Tuning: Prompt Tuning Can Be Comparable to Fine-tuning Across Scales and Tasks",
+  "authors": [
+    "Liu, Xiao  and\nJi, Kaixuan  and\nFu, Yicheng  and\nTam, Weng  and\nDu, Zhengxiao  and\nYang, Zhilin  and\nTang, Jie"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Prompt tuning, which only tunes continuous prompts with a frozen language model, substantially reduces per-task storage and memory usage at training. However, in the context of NLU, prior work reveals that prompt tuning does not perform well for normal-sized pretrained models. We also find that existing methods of prompt tuning cannot handle hard sequence labeling tasks, indicating a lack of universality. We present a novel empirical finding that properly optimized prompt tuning can be universally effective across a wide range of model scales and NLU tasks. It matches the performance of finetuning while having only 0.1%-3% tuned parameters. Our method P-Tuning v2 is an implementation of Deep Prompt Tuning (CITATION) optimized and adapted for NLU. Given the universality and simplicity of P-Tuning v2, we believe it can serve as an alternative to finetuning and a strong baseline for future research.",
+  "keywords": [
+    "work",
+    "deep",
+    "prompts",
+    "tuning",
+    "prompt",
+    "language",
+    "-tuning",
+    "model",
+    "it",
+    "p -tuning prompt tuning",
+    "we",
+    "sequence",
+    "deep prompt",
+    "a frozen language model",
+    "continuous prompts"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:32:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

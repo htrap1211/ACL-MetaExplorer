@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.37",
+  "title": "Hidden Killer: Invisible Textual Backdoor Attacks with Syntactic Trigger",
+  "authors": [
+    "Qi, Fanchao  and\nLi, Mukai  and\nChen, Yangyi  and\nZhang, Zhengyan  and\nLiu, Zhiyuan  and\nWang, Yasheng  and\nSun, Maosong"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Backdoor attacks are a kind of insidious security threat against machine learning models. After being injected with a backdoor in training, the victim model will produce adversary-specified outputs on the inputs embedded with predesigned triggers but behave properly on normal inputs during inference. As a sort of emergent attack, backdoor attacks in natural language processing (NLP) are investigated insufficiently. As far as we know, almost all existing textual backdoor attack methods insert additional contents into normal samples as triggers, which causes the trigger-embedded samples to be detected and the backdoor attacks to be blocked without much effort. In this paper, we propose to use the syntactic structure as the trigger in textual backdoor attacks. We conduct extensive experiments to demonstrate that the syntactic trigger-based attack method can achieve comparable attack performance (almost 100% success rate) to the insertion-based methods but possesses much higher invisibility and stronger resistance to defenses. These results also reveal the significant insidiousness and harmfulness of textual backdoor attacks. All the code and data of this paper can be obtained athttps://github.com/thunlp/HiddenKiller.",
+  "keywords": [
+    "code",
+    "rate",
+    "we",
+    "natural language processing nlp",
+    "natural",
+    "machine learning models",
+    "adversary-specified outputs",
+    "learning",
+    "normal",
+    "processing",
+    "language",
+    "nlp",
+    "model",
+    "machine",
+    "thunlp"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.37/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:59:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

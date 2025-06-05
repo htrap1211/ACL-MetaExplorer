@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.91",
+  "title": "YNU}-{HPCC} at {S}em{E}val-2023 Task7: Multi-evidence Natural Language Inference for Clinical Trial Data Based a {B}io{BERT} Model",
+  "authors": [
+    "Feng, Chao  and\nWang, Jin  and\nZhang, Xuejie"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper describes the system for the YNU-HPCC team in subtask 1 of the SemEval-2023 Task 7: Multi-evidence Natural Language Inference for Clinical Trial Data (NLI4CT). This task requires judging the textual entailment relationship between the given CTR and the statement annotated by the expert annotator. This system is based on the fine-tuned Bi-directional Encoder Representation from Transformers for Biomedical Text Mining (BioBERT) model with supervised contrastive learning and back translation. Supervised contrastive learning is to enhance the classification, and back translation is to enhance the training data. Our system achieved relatively good results on the competition’s official leaderboard. The code of this paper is available athttps://github.com/facanhe/SemEval-2023-Task7.",
+  "keywords": [
+    "code",
+    "transformers",
+    "language",
+    "back translation",
+    "natural",
+    "bert",
+    "model",
+    "text",
+    "encoder",
+    "biobert",
+    "learning",
+    "classification",
+    "mining",
+    "training",
+    "translation"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.91/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:27:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

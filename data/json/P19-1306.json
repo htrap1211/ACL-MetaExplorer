@@ -1,0 +1,33 @@
+{
+  "id": "P19-1306",
+  "title": "Improving Low-Resource Cross-lingual Document Retrieval by Reranking with Deep Bilingual Representations",
+  "authors": [
+    "Zhang, Rui  and\nWesterfield, Caitlin  and\nShim, Sungrok  and\nBingham, Garrett  and\nFabbri, Alexander  and\nHu, William  and\nVerma, Neha  and\nRadev, Dragomir"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "In this paper, we propose to boost low-resource cross-lingual document retrieval performance with deep bilingual query-document representations. We match queries and documents in both source and target languages with four components, each of which is implemented as a term interaction-based deep neural network with cross-lingual word embeddings as input. By including query likelihood scores as extra features, our model effectively learns to rerank the retrieved documents by using a small number of relevance labels for low-resource language pairs. Due to the shared cross-lingual word embedding space, the model can also be directly applied to another language pair without any training label. Experimental results on the Material dataset show that our model outperforms the competitive translation-based baselines on English-Swahili, English-Tagalog, and English-Somali cross-lingual information retrieval tasks.",
+  "keywords": [
+    "cross",
+    "deep",
+    "embeddings",
+    "language",
+    "neural",
+    "model",
+    "extra",
+    "queries",
+    "retrieval",
+    "information",
+    "the retrieved documents",
+    "network",
+    "word",
+    "we",
+    "cross-lingual word embeddings"
+  ],
+  "url": "https://aclanthology.org/P19-1306/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:37:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.140",
+  "title": "Enhancing {C}hinese Pre-trained Language Model via Heterogeneous Linguistics Graph",
+  "authors": [
+    "Li, Yanzeng  and\nCao, Jiangxia  and\nCong, Xin  and\nZhang, Zhenyu  and\nYu, Bowen  and\nZhu, Hongsong  and\nLiu, Tingwen"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Chinese pre-trained language models usually exploit contextual character information to learn representations, while ignoring the linguistics knowledge, e.g., word and sentence information. Hence, we propose a task-free enhancement module termed as Heterogeneous Linguistics Graph (HLG) to enhance Chinese pre-trained language models by integrating linguistics knowledge. Specifically, we construct a hierarchical heterogeneous graph to model the characteristics linguistics structure of Chinese language, and conduct a graph-based method to summarize and concretize information on different granularities of Chinese linguistics hierarchies. Experimental results demonstrate our model has the ability to improve the performance of vanilla BERT, BERTwwm and ERNIE 1.0 on 6 natural language processing tasks with 10 benchmark datasets. Further, the detailed experimental analyses have proven that this kind of modelization achieves more improvements compared with previous strong baseline MWA. Meanwhile, our model introduces far fewer parameters (about half of MWA) and the training/inference speed is about 7x faster than MWA.",
+  "keywords": [
+    "vanilla bert bertwwm",
+    "granularities",
+    "different granularities",
+    "ernie",
+    "we",
+    "graph",
+    "training",
+    "a hierarchical heterogeneous graph",
+    "natural",
+    "chinese pre-trained language models",
+    "information",
+    "word",
+    "processing",
+    "bert",
+    "hierarchical"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.140/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

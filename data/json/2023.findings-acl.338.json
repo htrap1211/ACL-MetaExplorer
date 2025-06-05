@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.338",
+  "title": "Mini-Model Adaptation: Efficiently Extending Pretrained Models to New Languages via Aligned Shallow Training",
+  "authors": [
+    "Marchisio, Kelly  and\nLewis, Patrick  and\nChen, Yihong  and\nArtetxe, Mikel"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Prior work shows that it is possible to expand pretrained Masked Language Models (MLMs) to new languages by learning a new set of embeddings, while keeping the transformer body frozen. Despite learning a small subset of parameters, this approach is not compute-efficient, as training the new embeddings requires a full forward and backward pass over the entire model. We propose mini-model adaptation, a compute-efficient alternative that builds a shallow mini-model from a fraction of a large model’s parameters. New language-specific embeddings can then be efficiently trained over the mini-model and plugged into the aligned large model for rapid cross-lingual transfer. We explore two approaches to learn mini-models: MINIJOINT, which jointly pretrains the primary model and the mini-model using a single transformer with a secondary MLM head at a middle layer; and MINIPOST, where we start from a regular pretrained model, build a mini-model by extracting and freezing a few layers, and learn a small number of parameters on top. Experiments on XNLI, MLQA and PAWS-X show that mini-model adaptation matches the performance of the standard approach using up to 2.3x less compute on average.",
+  "keywords": [
+    "efficient",
+    "layer",
+    "we",
+    "training",
+    "cross",
+    "mlqa",
+    "it",
+    "the new embeddings",
+    "a compute-efficient alternative",
+    "transfer",
+    "the transformer body",
+    "-",
+    "new language-specific embeddings",
+    "mini",
+    "a single transformer"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.338/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

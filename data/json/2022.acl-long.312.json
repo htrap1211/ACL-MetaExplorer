@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.312",
+  "title": "Divide and Rule: Effective Pre-Training for Context-Aware Multi-Encoder Translation Models",
+  "authors": [
+    "Lupo, Lorenzo  and\nDinarelli, Marco  and\nBesacier, Laurent"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Multi-encoder models are a broad family of context-aware neural machine translation systems that aim to improve translation quality by encoding document-level contextual information alongside the current sentence. The context encoding is undertaken by contextual parameters, trained on document-level data. In this work, we discuss the difficulty of training these parameters effectively, due to the sparsity of the words in need of context (i.e., the training signal), and their relevant context. We propose to pre-train the contextual parameters over split sentence pairs, which makes an efficient use of the available data for two reasons. Firstly, it increases the contextual training signal by breaking intra-sentential syntactic relations, and thus pushing the model to search the context for disambiguating clues more frequently. Secondly, it eases the retrieval of relevant context, since context segments become shorter. We propose four different splitting methods, and evaluate our approach with BLEU and contrastive test sets. Results show that it consistently improves learning of contextual parameters, both in low and high resource settings.",
+  "keywords": [
+    "efficient",
+    "bleu",
+    "we",
+    "multi-encoder models",
+    "current",
+    "training",
+    "translation",
+    "neural",
+    "it",
+    "retrieval",
+    "information",
+    "learning",
+    "context-aware multi-encoder translation models",
+    "the retrieval",
+    "i"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.312/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:28:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

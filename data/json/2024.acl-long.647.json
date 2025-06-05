@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.647",
+  "title": "LLM}s Learn Task Heuristics from Demonstrations: A Heuristic-Driven Prompting Strategy for Document-Level Event Argument Extraction",
+  "authors": [
+    "Zhou, Hanzhang  and\nQian, Junlang  and\nFeng, Zijian  and\nHui, Lu  and\nZhu, Zixiao  and\nMao, Kezhi"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this study, we explore in-context learning (ICL) in document-level event argument extraction (EAE) to alleviate the dependency on large-scale labeled data for this task. We introduce the Heuristic-Driven Link-of-Analogy (HD-LoA) prompting tailored for the EAE task. Specifically, we hypothesize and validate that LLMs learn task-specific heuristics from demonstrations in ICL. Building upon this hypothesis, we introduce an explicit heuristic-driven demonstration construction approach, which transforms the haphazard example selection process into a systematic method that emphasizes task heuristics. Additionally, inspired by the analogical reasoning of human, we propose the link-of-analogy prompting, which enables LLMs to process new situations by drawing analogies to known situations, enhancing their performance on unseen classes beyond limited ICL examples. Experiments show that our method outperforms existing prompting methods and few-shot supervised learning methods on document-level EAE datasets. Additionally, the HD-LoA prompting shows effectiveness in other tasks like sentiment analysis and natural language inference, demonstrating its broad adaptability.",
+  "keywords": [
+    "extraction",
+    "analogies",
+    "we",
+    "llm",
+    "shot",
+    "natural",
+    "learning",
+    "existing prompting methods",
+    "analysis",
+    "llms",
+    "sentiment analysis",
+    "few-shot supervised learning methods",
+    "a heuristic-driven prompting strategy",
+    "the dependency",
+    "sentiment"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.647/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:43:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

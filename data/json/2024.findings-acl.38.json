@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.38",
+  "title": "Towards Better Graph-based Cross-document Relation Extraction via Non-bridge Entity Enhancement and Prediction Debiasing",
+  "authors": [
+    "Yue, Hao  and\nLai, Shaopeng  and\nYang, Chengyi  and\nZhang, Liang  and\nYao, Junfeng  and\nSu, Jinsong"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Cross-document Relation Extraction aims to predict the relation between target entities located in different documents. In this regard, the dominant models commonly retain useful information for relation prediction via bridge entities, which allows the model to elaborately capture the intrinsic interdependence between target entities. However, these studies ignore the non-bridge entities, each of which co-occurs with only one target entity and offers the semantic association between target entities for relation prediction. Besides, the commonly-used dataset–CodRED contains substantial NA instances, leading to the prediction bias during inference. To address these issues, in this paper, we propose a novel graph-based cross-document RE model with non-bridge entity enhancement and prediction debiasing. Specifically, we use a unified entity graph to integrate numerous non-bridge entities with target entities and bridge entities, modeling various associations between them, and then use a graph recurrent network to encode this graph. Finally, we introduce a novel debiasing strategy to calibrate the original prediction distribution. Experimental results on the closed and open settings show that our model significantly outperforms all baselines, including the GPT-3.5-turbo and InstructUIE, achieving state-of-the-art performance. Particularly, our model obtains 66.23% and 55.87% AUC points in the official leaderboard under the two settings, respectively,ranking the first place in all submissions since December 2023. Our code is available at https://github.com/DeepLearnXMU/CoRE-NEPD.",
+  "keywords": [
+    "code",
+    "bias",
+    "a unified entity graph",
+    "numerous non-bridge entities",
+    "extraction",
+    "these studies",
+    "semantic",
+    "we",
+    "graph",
+    "bridge entities",
+    "a novel debiasing strategy",
+    "cross",
+    "the semantic association",
+    "gpt-3",
+    "unified"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.38/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:49:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

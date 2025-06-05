@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.549",
+  "title": "Learning the Beauty in Songs: Neural Singing Voice Beautifier",
+  "authors": [
+    "Liu, Jinglin  and\nLi, Chengxi  and\nRen, Yi  and\nZhu, Zhiying  and\nZhao, Zhou"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We are interested in a novel task, singing voice beautification (SVB). Given the singing voice of an amateur singer, SVB aims to improve the intonation and vocal tone of the voice, while keeping the content and vocal timbre. Current automatic pitch correction techniques are immature, and most of them are restricted to intonation but ignore the overall aesthetic quality. Hence, we introduce Neural Singing Voice Beautifier (NSVB), the first generative model to solve the SVB task, which adopts a conditional variational autoencoder as the backbone and learns the latent representations of vocal tone. In NSVB, we propose a novel time-warping approach for pitch correction: Shape-Aware Dynamic Time Warping (SADTW), which ameliorates the robustness of existing time-warping approaches, to synchronize the amateur recording with the template pitch curve. Furthermore, we propose a latent-mapping algorithm in the latent space to convert the amateur vocal tone to the professional one. To achieve this, we also propose a new dataset containing parallel singing recordings of both amateur and professional versions. Extensive experiments on both Chinese and English songs demonstrate the effectiveness of our methods in terms of both objective and subjective metrics. Audio samples are available athttps://neuralsvb.github.io. Codes:https://github.com/MoonInTheRiver/NeuralSVB.",
+  "keywords": [
+    "autoencoder",
+    "a conditional variational autoencoder",
+    "we",
+    "current",
+    "neural",
+    "latent",
+    "beautifier",
+    "generative",
+    "objective",
+    "metrics",
+    "subjective metrics",
+    "the first generative model",
+    "neural singing voice beautifier",
+    "model",
+    "time"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.549/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

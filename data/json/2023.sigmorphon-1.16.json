@@ -1,0 +1,33 @@
+{
+  "id": "2023.sigmorphon-1.16",
+  "title": "Linear Discriminative Learning: a competitive non-neural baseline for morphological inflection",
+  "authors": [
+    "Jeong, Cheonkam  and\nSchmitz, Dominic  and\nKakolu Ramarao, Akhilesh  and\nStein, Anna  and\nTang, Kevin"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th SIGMORPHON workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "This paper presents our submission to the SIGMORPHON 2023 task 2 of Cognitively Plausible Morphophonological Generalization in Korean. We implemented both Linear Discriminative Learning and Transformer models and found that the Linear Discriminative Learning model trained on a combination of corpus and experimental data showed the best performance with the overall accuracy of around 83%. We found that the best model must be trained on both corpus data and the experimental data of one particular participant. Our examination of speaker-variability and speaker-specific information did not explain why a particular participant combined well with the corpus data. We recommend Linear Discriminative Learning models as a future non-neural baseline system, owning to its training speed, accuracy, model interpretability and cognitive plausibility. In order to improve the model performance, we suggest using bigger data and/or performing data augmentation and incorporating speaker- and item-specifics considerably.",
+  "keywords": [
+    "transformer",
+    "transformer models",
+    "neural",
+    "model",
+    "information",
+    "the overall accuracy",
+    "generalization",
+    "we",
+    "learning",
+    "cognitively plausible morphophonological generalization",
+    "training",
+    "accuracy",
+    "speaker",
+    "linear discriminative learning models",
+    "specifics"
+  ],
+  "url": "https://aclanthology.org/2023.sigmorphon-1.16/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:31:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

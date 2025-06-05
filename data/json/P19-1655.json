@@ -1,0 +1,33 @@
+{
+  "id": "P19-1655",
+  "title": "Are You Looking? Grounding to Multiple Modalities in Vision-and-Language Navigation",
+  "authors": [
+    "Hu, Ronghang  and\nFried, Daniel  and\nRohrbach, Anna  and\nKlein, Dan  and\nDarrell, Trevor  and\nSaenko, Kate"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Vision-and-Language Navigation (VLN) requires grounding instructions, such as “turn right and stop at the door”, to routes in a visual environment. The actual grounding can connect language to the environment through multiple modalities, e.g. “stop at the door” might ground into visual objects, while “turn right” might rely only on the geometric structure of a route. We investigate where the natural language empirically grounds under two recent state-of-the-art VLN models. Surprisingly, we discover that visual features may actually hurt these models: models which only use route structure, ablating visual features, outperform their visual counterparts in unseen new environments on the benchmark Room-to-Room dataset. To better use all the available modalities, we propose to decompose the grounding procedure into a set of expert models with access to different modalities (including object detections) and ensemble them at prediction time, improving the performance of state-of-the-art models on the VLN task.",
+  "keywords": [
+    "e g",
+    "object",
+    "language",
+    "natural",
+    "modalities",
+    "multiple modalities",
+    "we",
+    "visual",
+    "time",
+    "different modalities",
+    "all the available modalities",
+    "route",
+    "visual features",
+    "navigation",
+    "state"
+  ],
+  "url": "https://aclanthology.org/P19-1655/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:47:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

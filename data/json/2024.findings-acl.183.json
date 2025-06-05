@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.183",
+  "title": "Modeling Dynamic Topics in Chain-Free Fashion by Evolution-Tracking Contrastive Learning and Unassociated Word Exclusion",
+  "authors": [
+    "Wu, Xiaobao  and\nDong, Xinshuai  and\nPan, Liangming  and\nNguyen, Thong  and\nLuu, Anh Tuan"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Dynamic topic models track the evolution of topics in sequential documents, which have derived various applications like trend analysis. However, existing models suffer from repetitive topic and unassociated topic issues, failing to reveal the evolution and hindering further applications. To address these issues, we break the tradition of simply chaining topics in existing work and propose a novel neural Chain-Free Dynamic Topic Model. We introduce a new evolution-tracking contrastive learning method that builds the similarity relations among dynamic topics. This not only tracks topic evolution but also maintains topic diversity, mitigating the repetitive topic issue. To avoid unassociated topics, we further present an unassociated word exclusion method that consistently excludes unassociated words from discovered topics. Extensive experiments demonstrate our model significantly outperforms state-of-the-art baselines, tracking topic evolution with high-quality topics, showing better performance on downstream tasks, and remaining robust to the hyperparameter for evolution intensities.",
+  "keywords": [
+    "chain",
+    "evolution intensities",
+    "we",
+    "intensities",
+    "neural",
+    "word",
+    "learning",
+    "analysis",
+    "topic",
+    "the hyperparameter",
+    "work",
+    "model",
+    "hyperparameter",
+    "documents",
+    "exclusion"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.183/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

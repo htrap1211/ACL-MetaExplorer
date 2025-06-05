@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.757",
+  "title": "Choose Your Transformer: Improved Transferability Estimation of Transformer Models on Classification Tasks",
+  "authors": [
+    "Garbaciauskas, Lukas  and\nPloner, Max  and\nAkbik, Alan"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "There currently exists a multitude of pre-trained transformer language models (LMs) that are readily available. From a practical perspective, this raises the question of which pre-trained LM will perform best if fine-tuned for a specific downstream NLP task. However, exhaustively fine-tuning all available LMs to determine the best-fitting model is computationally infeasible. To address this problem, we present an approach that inexpensively estimates a ranking of the expected performance of a given set of candidate LMs for a given task. Following a layer-wise representation analysis, we extend existing approaches such as H-score and LogME by aggregating representations across all layers of the transformer model. We present an extensive analysis of 20 transformer LMs, 6 downstream NLP tasks, and various estimators (linear probing, kNN, H-score, and LogME). Our evaluation finds that averaging the layer representations significantly improves the Pearson correlation coefficient between the true model ranks and the estimate, increasing from 0.58 to 0.86 for LogME and from 0.65 to 0.88 for H-score.",
+  "keywords": [
+    "question",
+    "layer",
+    "we",
+    "classification",
+    "classification tasks",
+    "20 transformer lms",
+    "analysis",
+    "transformer models",
+    "your transformer",
+    "h",
+    "fitting",
+    "the pearson correlation coefficient",
+    "coefficient",
+    "6 downstream nlp tasks",
+    "our evaluation"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.757/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.1",
+  "title": "A}dap{L}e{R}: Speeding up Inference by Adaptive Length Reduction",
+  "authors": [
+    "Modarressi, Ali  and\nMohebbi, Hosein  and\nPilehvar, Mohammad Taher"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Pre-trained language models have shown stellar performance in various downstream tasks. But, this usually comes at the cost of high latency and computation, hindering their usage in resource-limited settings. In this work, we propose a novel approach for reducing the computational cost of BERT with minimal loss in downstream performance. Our method dynamically eliminates less contributing tokens through layers, resulting in shorter lengths and consequently lower computational cost. To determine the importance of each token representation, we train a Contribution Predictor for each layer using a gradient-based saliency method. Our experiments on several diverse classification tasks show speedups up to 22x during inference time without much sacrifice in performance. We also validate the quality of the selected tokens in our method using human annotations in the ERASER benchmark. In comparison to other widely used strategies for selecting important tokens, such as saliency and attention, our proposed method has a significantly lower false positive rate in generating rationales. Our code is freely available athttps://github.com/amodaresi/AdapLeR.",
+  "keywords": [
+    "code",
+    "rate",
+    "layer",
+    "we",
+    "other widely used strategies",
+    "classification",
+    "several diverse classification tasks",
+    "token",
+    "loss",
+    "reduction",
+    "bert",
+    "a gradient-based saliency",
+    "saliency",
+    "strategies",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:24:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.sigmorphon-1.21",
+  "title": "Data Augmentation for Transformer-based {G}2{P",
+  "authors": [
+    "Ryan, Zach  and\nHulden, Mans"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 17th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "The Transformer model has been shown to outperform other neural seq2seq models in several character-level tasks. It is unclear, however, if the Transformer would benefit as much as other seq2seq models from data augmentation strategies in the low-resource setting. In this paper we explore strategies for data augmentation in the g2p task together with the Transformer model. Our results show that a relatively simple alignment-based strategy of identifying consistent input-output subsequences in grapheme-phoneme data coupled together with a subsequent splicing together of such pieces to generate hallucinated data works well in the low-resource setting, often delivering substantial performance improvement over a standard Transformer model.",
+  "keywords": [
+    "transformer",
+    "seq2seq",
+    "alignment",
+    "the transformer model",
+    "neural",
+    "other neural seq2seq models",
+    "model",
+    "it",
+    "such pieces",
+    "transformer-based g",
+    "strategies",
+    "other seq2seq models",
+    "a standard transformer model",
+    "pieces",
+    "the transformer"
+  ],
+  "url": "https://aclanthology.org/2020.sigmorphon-1.21/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:58:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

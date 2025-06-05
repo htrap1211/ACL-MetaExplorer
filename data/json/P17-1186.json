@@ -1,0 +1,33 @@
+{
+  "id": "P17-1186",
+  "title": "Deep Multitask Learning for Semantic Dependency Parsing",
+  "authors": [
+    "Peng, Hao  and\nThomson, Sam  and\nSmith, Noah A."
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We present a deep neural architecture that parses sentences into three semantic dependency graph formalisms. By using efficient, nearly arc-factored inference and a bidirectional-LSTM composed with a multi-layer perceptron, our base system is able to significantly improve the state of the art for semantic dependency parsing, without using hand-engineered features or syntax. We then explore two multitask learning approaches—one that shares parameters across formalisms, and one that uses higher-order structures to predict the graphs jointly. We find that both approaches improve performance across formalisms on average, achieving a new state of the art. Our code is open-source and available athttps://github.com/Noahs-ARK/NeurboParser.",
+  "keywords": [
+    "deep",
+    "code",
+    "neural",
+    "efficient",
+    "layer",
+    "dependency",
+    "semantic",
+    "we",
+    "learning",
+    "lstm",
+    "graph",
+    "syntax",
+    "a bidirectional-lstm",
+    "arc",
+    "efficient nearly arc-factored inference"
+  ],
+  "url": "https://aclanthology.org/P17-1186/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:01:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

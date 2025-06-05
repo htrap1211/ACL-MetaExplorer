@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.38",
+  "title": "A Formal Perspective on Byte-Pair Encoding",
+  "authors": [
+    "Zouhar, Vil{\\'e}m  and\nMeister, Clara  and\nGastaldi, Juan  and\nDu, Li  and\nVieira, Tim  and\nSachan, Mrinmaya  and\nCotterell, Ryan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Byte-Pair Encoding (BPE) is a popular algorithm used for tokenizing data in NLP, despite being devised initially as a compression method.BPE appears to be a greedy algorithm at face value, but the underlying optimization problem that BPE seeks to solve has not yet been laid down. We formalize BPE as a combinatorial optimization problem. Via submodular functions, we prove that the iterative greedy version is a 1/sigma*(1-e(-sigma))-approximation of an optimal merge sequence, where sigma is the total backward curvature with respect to the optimal merge sequence. Empirically the lower bound of the approximation is approx0.37.We provide a faster implementation of BPE which improves the runtime complexity from O(NM) to O(N log M), where N is the sequence length and M is the merge count. Finally, we optimize the brute-force algorithm for optimal BPE using memoization.",
+  "keywords": [
+    "a combinatorial optimization problem",
+    "nlp",
+    "n",
+    "the underlying optimization problem",
+    "optimization",
+    "we",
+    "sequence",
+    "nm",
+    "force",
+    "m",
+    "o",
+    "that",
+    "submodular",
+    "a popular algorithm",
+    "bpe"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.38/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

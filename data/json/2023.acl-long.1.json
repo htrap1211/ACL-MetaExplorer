@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.1",
+  "title": "One Cannot Stand for Everyone! Leveraging Multiple User Simulators to train Task-oriented Dialogue Systems",
+  "authors": [
+    "Liu, Yajiao  and\nJiang, Xin  and\nYin, Yichun  and\nWang, Yasheng  and\nMi, Fei  and\nLiu, Qun  and\nWan, Xiang  and\nWang, Benyou"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "User simulators are agents designed to imitate human users; recent advances have found that Task-oriented Dialogue (ToD) systems optimized toward a user simulator could better satisfy the need of human users. However, this might result in a sub-optimal ToD system if it is tailored to only onead hocuser simulator, since human users can behave differently. In this paper, we propose a framework called MUST to optimize ToD systems via leveraging Multiple User SimulaTors. The main challenges of implementing MUST fall in 1) how to adaptively determine which user simulator to interact with the ToD system at each optimization step, since the ToD system might be over-fitted to some specific user simulators, and simultaneously under-fitted to some others; 2) how to avoid catastrophic forgetting of the adaption for a simulator that is not selected for several consecutive optimization steps.To tackle these challenges, we formulate MUST as a Multi-armed bandits (MAB) problem and provide a method called MUSTadaptivethat balancesi) theboosting adaptionfor adaptive interactions between different user simulators and the ToD system andii) theuniform adaptionto avoid the catastrophic forgetting issue.With both automatic evaluations and human evaluations, our experimental results on MultiWOZ show that the dialogue system trained by MUST achieves a better performance than those trained by a single user simulator. It also has a better generalization ability when testing with unseen user simulators.",
+  "keywords": [
+    "we",
+    "dialogue",
+    "it",
+    "several consecutive optimization steps",
+    "generalization",
+    "each optimization",
+    "human evaluations",
+    "task-oriented dialogue tod systems",
+    "human",
+    "evaluations",
+    "both automatic evaluations",
+    "the dialogue system",
+    "optimization",
+    "a better generalization ability",
+    "multi"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:35:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

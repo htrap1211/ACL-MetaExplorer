@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.366",
+  "title": "Autoencoding Keyword Correlation Graph for Document Clustering",
+  "authors": [
+    "Chiu, Billy  and\nSahu, Sunil Kumar  and\nThomas, Derek  and\nSengupta, Neha  and\nMahdy, Mohammady"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Document clustering requires a deep understanding of the complex structure of long-text; in particular, the intra-sentential (local) and inter-sentential features (global). Existing representation learning models do not fully capture these features. To address this, we present a novel graph-based representation for document clustering that builds agraph autoencoder(GAE) on a Keyword Correlation Graph. The graph is constructed with topical keywords as nodes and multiple local and global features as edges. A GAE is employed to aggregate the two sets of features by learning a latent representation which can jointly reconstruct them. Clustering is then performed on the learned representations, using vector dimensions as features for inducing document classes. Extensive experiments on two datasets show that the features learned by our approach can achieve better clustering performance than other existing features, including term frequency-inverse document frequency and average embedding.",
+  "keywords": [
+    "deep",
+    "vector",
+    "vector dimensions",
+    "autoencoder gae",
+    "document clustering",
+    "text",
+    "document clustering document clustering",
+    "autoencoder",
+    "latent",
+    "clustering",
+    "we",
+    "learning",
+    "graph",
+    "better clustering performance",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.366/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:47:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

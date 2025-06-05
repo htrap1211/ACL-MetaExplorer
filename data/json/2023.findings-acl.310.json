@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.310",
+  "title": "Sequential Path Signature Networks for Personalised Longitudinal Language Modeling",
+  "authors": [
+    "Tseriotou, Talia  and\nTsakalidis, Adam  and\nFoster, Peter  and\nLyons, Terence  and\nLiakata, Maria"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Longitudinal user modeling can provide a strong signal for various downstream tasks. Despite the rapid progress in representation learning, dynamic aspects of modelling individuals’ language have only been sparsely addressed. We present a novel extension of neural sequential models using the notion of path signatures from rough path theory, which constitute graduated summaries of continuous paths and have the ability to capture non-linearities in trajectories. By combining path signatures of users’ history with contextual neural representations and recursive neural networks we can produce compact time-sensitive user representations. Given the magnitude of mental health conditions with symptoms manifesting in language, we show the applicability of our approach on the task of identifying changes in individuals’ mood by analysing their online textual content. By directly integrating signature transforms of users’ history in the model architecture we jointly address the two most important aspects of the task, namely sequentiality and temporality. Our approach achieves state-of-the-art performance on macro-average F1 score on the two available datasets for the task, outperforming or performing on-par with state-of-the-art models utilising only historical posts and even outperforming prior models which also have access to future posts of users.",
+  "keywords": [
+    "we",
+    "neural",
+    "graduated summaries",
+    "par",
+    "-",
+    "summaries",
+    "language",
+    "model",
+    "trajectories",
+    "modeling",
+    "macro-average f1 score",
+    "recursive neural networks",
+    "time",
+    "linearities",
+    "theory"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.310/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

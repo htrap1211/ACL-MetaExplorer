@@ -1,0 +1,33 @@
+{
+  "id": "2024.textgraphs-1.11",
+  "title": "HW}-{TSC} at {T}ext{G}raphs-17 Shared Task: Enhancing Inference Capabilities of {LLM}s with Knowledge Graphs",
+  "authors": [
+    "Tang, Wei  and\nQiao, Xiaosong  and\nZhao, Xiaofeng  and\nZhang, Min  and\nSu, Chang  and\nLi, Yuang  and\nLi, Yinglu  and\nLiu, Yilun  and\nYao, Feiyu  and\nTao, Shimin  and\nYang, Hao  and\nXianghui, He"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of TextGraphs-17: Graph-based Methods for Natural Language Processing",
+  "abstract": "In this paper, we present an effective method for TextGraphs-17 Shared Task. This task requires selecting an entity from the candidate entities that is relevant to the given question and answer. The selection process is aided by utilizing the shortest path graph in the knowledge graph, connecting entities in the query to the candidate entity. This task aims to explore how to enhance LLMs output with KGs, although current LLMs have certain logical reasoning capabilities, they may not be certain about their own outputs, and the answers they produce may be correct by chance through incorrect paths. In this case, we have introduced a LLM prompt design strategy based on self-ranking and emotion. Specifically, we let the large model score its own answer choices to reflect its confidence in the answer. Additionally, we add emotional incentives to the prompts to encourage the model to carefully examine the questions. Our submissions was conducted under zero-resource setting, and we achieved the second place in the task with an F1-score of 0.8321.",
+  "keywords": [
+    "t",
+    "ext",
+    "question",
+    "we",
+    "graph",
+    "current",
+    "llm",
+    "current llms",
+    "answer",
+    "self",
+    "knowledge graphs",
+    "the prompts",
+    "kgs",
+    "llms",
+    "prompt"
+  ],
+  "url": "https://aclanthology.org/2024.textgraphs-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:11:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

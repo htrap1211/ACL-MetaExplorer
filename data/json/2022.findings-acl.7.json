@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.7",
+  "title": "Multi-Scale Distribution Deep Variational Autoencoder for Explanation Generation",
+  "authors": [
+    "Cai, ZeFeng  and\nWang, Linlin  and\nde Melo, Gerard  and\nSun, Fei  and\nHe, Liang"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Generating explanations for recommender systems is essential for improving their transparency, as users often wish to understand the reason for receiving a specified recommendation. Previous methods mainly focus on improving the generation quality, but often produce generic explanations that fail to incorporate user and item specific details. To resolve this problem, we present Multi-Scale Distribution Deep Variational Autoencoders (MVAE).These are deep hierarchical VAEs with a prior network that eliminates noise while retaining meaningful signals in the input, coupled with a recognition network serving as the source of information to guide the learning of the prior network. Further, the Multi-scale distribution Learning Framework (MLF) along with a Target Tracking Kullback-Leibler divergence (TKL) mechanism are proposed to employ multi KL divergences at different scales for more effective learning. Extensive empirical experiments demonstrate that our methods can generate explanations with concrete input-specific contents.",
+  "keywords": [
+    "deep",
+    "autoencoder",
+    "we",
+    "autoencoders",
+    "deep variational autoencoder",
+    "information",
+    "deep variational autoencoders mvae",
+    "generic explanations",
+    "learning",
+    "deep hierarchical vaes",
+    "generic",
+    "explanation generation generating explanations",
+    "the generation quality",
+    "hierarchical",
+    "generating"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:34:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

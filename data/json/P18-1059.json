@@ -1,0 +1,33 @@
+{
+  "id": "P18-1059",
+  "title": "Inherent Biases in Reference-based Evaluation for Grammatical Error Correction",
+  "authors": [
+    "Choshen, Leshem  and\nAbend, Omri"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The prevalent use of too few references for evaluating text-to-text generation is known to bias estimates of their quality (henceforth, low coverage bias or LCB). This paper shows that overcoming LCB in Grammatical Error Correction (GEC) evaluation cannot be attained by re-scaling or by increasing the number of references in any feasible range, contrary to previous suggestions. This is due to the long-tailed distribution of valid corrections for a sentence. Concretely, we show that LCB incentivizes GEC systems to avoid correcting even when they can generate a valid correction. Consequently, existing systems obtain comparable or superior performance compared to humans, by making few but targeted changes to the input. Similar effects on Text Simplification further support our claims.",
+  "keywords": [
+    "reference",
+    "inherent biases",
+    "bias",
+    "generation",
+    "low coverage bias",
+    "text",
+    "we",
+    "valid",
+    "reference-based evaluation",
+    "evaluation",
+    "biases",
+    "re",
+    "this",
+    "inherent",
+    "text simplification"
+  ],
+  "url": "https://aclanthology.org/P18-1059/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:10:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

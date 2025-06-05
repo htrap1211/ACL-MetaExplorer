@@ -1,0 +1,33 @@
+{
+  "id": "2021.starsem-1.11",
+  "title": "Evaluating {U}niversal {D}ependency Parser Recovery of Predicate Argument Structure via {C}omp{C}hain Analysis",
+  "authors": [
+    "Indurkhya, Sagar  and\nYankama, Beracah  and\nBerwick, Robert C."
+  ],
+  "year": "2021",
+  "venue": "Proceedings of *SEM 2021: The Tenth Joint Conference on Lexical and Computational Semantics",
+  "abstract": "Accurate recovery of predicate-argument structure from a Universal Dependency (UD) parse is central to downstream tasks such as extraction of semantic roles or event representations. This study introduces compchains, a categorization of the hierarchy of predicate dependency relations present within a UD parse. Accuracy of compchain classification serves as a proxy for measuring accurate recovery of predicate-argument structure from sentences with embedding. We analyzed the distribution of compchains in three UD English treebanks, EWT, GUM and LinES, revealing that these treebanks are sparse with respect to sentences with predicate-argument structure that includes predicate-argument embedding. We evaluated the CoNLL 2018 Shared Task UDPipe (v1.2) baseline (dependency parsing) models as compchain classifiers for the EWT, GUMS and LinES UD treebanks. Our results indicate that these three baseline models exhibit poorer performance on sentences with predicate-argument structure with more than one level of embedding; we used compchains to characterize the errors made by these parsers and present examples of erroneous parses produced by the parser that were identified using compchains. We also analyzed the distribution of compchains in 58 non-English UD treebanks and then used compchains to evaluate the CoNLL’18 Shared Task baseline model for each of these treebanks. Our analysis shows that performance with respect to compchain classification is only weakly correlated with the official evaluation metrics (LAS, MLAS and BLEX). We identify gaps in the distribution of compchains in several of the UD treebanks, thus providing a roadmap for how these treebanks may be supplemented. We conclude by discussing how compchains provide a new perspective on the sparsity of training data for UD parsers, as well as the accuracy of the resulting UD parses.",
+  "keywords": [
+    "compchain classifiers",
+    "the accuracy",
+    "extraction",
+    "classifiers",
+    "the hierarchy",
+    "semantic",
+    "we",
+    "training",
+    "classification",
+    "semantic roles",
+    "omp",
+    "a universal dependency",
+    "las",
+    "analysis",
+    "metrics"
+  ],
+  "url": "https://aclanthology.org/2021.starsem-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.privatenlp-1.5",
+  "title": "A Collocation-based Method for Addressing Challenges in Word-level Metric Differential Privacy",
+  "authors": [
+    "Meisenbacher, Stephen  and\nChevli, Maulik  and\nMatthes, Florian"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Fifth Workshop on Privacy in Natural Language Processing",
+  "abstract": "Applications of Differential Privacy (DP) in NLP must distinguish between the syntactic level on which a proposed mechanism operates, often taking the form of *word-level* or *document-level* privatization. Recently, several word-level *Metric* Differential Privacy approaches have been proposed, which rely on this generalized DP notion for operating in word embedding spaces. These approaches, however, often fail to produce semantically coherent textual outputs, and their application at the sentence- or document-level is only possible by a basic composition of word perturbations. In this work, we strive to address these challenges by operating *between* the word and sentence levels, namely with *collocations*. By perturbing n-grams rather than single words, we devise a method where composed privatized outputs have higher semantic coherence and variable length. This is accomplished by constructing an embedding model based on frequently occurring word groups, in which unigram words co-exist with bi- and trigram collocations. We evaluate our method in utility and privacy tests, which make a clear case for tokenization strategies beyond the word level.",
+  "keywords": [
+    "form",
+    "semantic",
+    "we",
+    "semantically coherent textual outputs",
+    "word",
+    "an embedding model",
+    "tokenization",
+    "metric",
+    "strategies",
+    "this generalized dp notion",
+    "higher semantic coherence",
+    "work",
+    "nlp",
+    "model",
+    "tokenization strategies"
+  ],
+  "url": "https://aclanthology.org/2024.privatenlp-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.550",
+  "title": "Solving Cosine Similarity Underestimation between High Frequency Words by $\\ell_2$ Norm Discounting",
+  "authors": [
+    "Wannasuphoprasit, Saeth  and\nZhou, Yi  and\nBollegala, Danushka"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Cosine similarity between two words, computed using their contextualised token embeddings obtained from masked language models (MLMs) such as BERT has shown to underestimate the actual similarity between those words CITATION.This similarity underestimation problem is particularly severe for high frequent words. Although this problem has been noted in prior work, no solution has been proposed thus far. We observe that theℓ2norm of contextualised embeddings of a word correlates with its log-frequency in the pretraining corpus.Consequently, the largerℓ2norms associated with the high frequent words reduce the cosine similarity values measured between them, thus underestimating the similarity scores.To solve this issue, we propose a method todiscounttheℓ2norm of a contextualised word embedding by the frequency of that word in a corpus when measuring the cosine similarities between words.We show that the so calledstopwords behave differently from the rest of the words, which require special consideration during their discounting process.Experimental results on a contextualised word similarity dataset show that our proposed discounting method accurately solves the similarity underestimation problem.An anonymized version of the source code of our proposed method is submitted to the reviewing system.",
+  "keywords": [
+    "code",
+    "the cosine similarities",
+    "we",
+    "norm",
+    "the reviewing system",
+    "token",
+    "word",
+    "log",
+    "bert",
+    "their contextualised token embeddings",
+    "masked language models mlms",
+    "embeddings",
+    "work",
+    "contextualised embeddings",
+    "rest"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.550/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

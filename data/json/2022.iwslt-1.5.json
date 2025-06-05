@@ -1,0 +1,33 @@
+{
+  "id": "2022.iwslt-1.5",
+  "title": "Anticipation-Free Training for Simultaneous Machine Translation",
+  "authors": [
+    "Chang, Chih-Chiang  and\nChuang, Shun-Po  and\nLee, Hung-yi"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022)",
+  "abstract": "Simultaneous machine translation (SimulMT) speeds up the translation process by starting to translate before the source sentence is completely available. It is difficult due to limited context and word order difference between languages. Existing methods increase latency or introduce adaptive read-write policies for SimulMT models to handle local reordering and improve translation quality. However, the long-distance reordering would make the SimulMT models learn translation mistakenly. Specifically, the model may be forced to predict target tokens when the corresponding source tokens have not been read. This leads to aggressive anticipation during inference, resulting in the hallucination phenomenon. To mitigate this problem, we propose a new framework that decompose the translation process into the monotonic translation step and the reordering step, and we model the latter by the auxiliary sorting network (ASN). The ASN rearranges the hidden states to match the order in the target language, so that the SimulMT model could learn to translate more reasonably. The entire model is optimized end-to-end and does not rely on external aligners or data. During inference, ASN is removed to achieve streaming. Experiments show the proposed framework could outperform previous methods with less latency.",
+  "keywords": [
+    "end",
+    "external aligners",
+    "we",
+    "training",
+    "translation",
+    "the translation process",
+    "it",
+    "policies",
+    "adaptive read-write policies",
+    "word",
+    "the monotonic translation step",
+    "translation quality",
+    "aligners",
+    "process",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2022.iwslt-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

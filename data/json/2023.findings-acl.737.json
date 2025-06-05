@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.737",
+  "title": "Know Where You{'}re Going: Meta-Learning for Parameter-Efficient Fine-Tuning",
+  "authors": [
+    "Gheini, Mozhdeh  and\nMa, Xuezhe  and\nMay, Jonathan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "A recent family of techniques, dubbed lightweight fine-tuning methods, facilitates parameter-efficient transfer by updating only a small set of additional parameters while keeping the parameters of the original model frozen. While proven to be an effective approach, there are no existing studies on if and how such knowledge of the downstream fine-tuning approach calls for complementary measures after pre-training and before fine-tuning. In this work, we show that taking the ultimate choice of fine-tuning into consideration boosts the performance of parameter-efficient fine-tuning. By relying on optimization-based meta-learning using MAML with certain modifications for our distinct purpose, we prime the pre-trained model specifically for parameter-efficient fine-tuning, resulting in gains of up to 4.96 points on cross-lingual NER fine-tuning. Our ablation settings and analyses further reveal that the specific approach we take to meta-learning is crucial for the attained gains.",
+  "keywords": [
+    "work",
+    "cross",
+    "tuning",
+    "knowledge",
+    "model",
+    "studies",
+    "cross-lingual ner",
+    "efficient",
+    "the downstream fine-tuning approach",
+    "-",
+    "parameter-efficient fine-tuning",
+    "lightweight fine-tuning methods",
+    "fine",
+    "optimization",
+    "optimization-based meta-learning"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.737/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

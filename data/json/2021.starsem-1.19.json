@@ -1,0 +1,33 @@
+{
+  "id": "2021.starsem-1.19",
+  "title": "Incorporating {EDS} Graph for {AMR} Parsing",
+  "authors": [
+    "Shou, Ziyi  and\nLin, Fangzhen"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of *SEM 2021: The Tenth Joint Conference on Lexical and Computational Semantics",
+  "abstract": "AMR (Abstract Meaning Representation) and EDS (Elementary Dependency Structures) are two popular meaning representations in NLP/NLU. AMR is more abstract and conceptual, while EDS is more low level, closer to the lexical structures of the given sentences. It is thus not surprising that EDS parsing is easier than AMR parsing. In this work, we consider using information from EDS parsing to help improve the performance of AMR parsing. We adopt a transition-based parser and propose to add EDS graphs as additional semantic features using a graph encoder composed of LSTM layer and GCN layer. Our experimental results show that the additional information from EDS parsing indeed gives a boost to the performance of the base AMR parser used in our experiments.",
+  "keywords": [
+    "work",
+    "nlp nlu amr",
+    "parsing",
+    "nlp",
+    "it",
+    "additional semantic features",
+    "encoder",
+    "lstm layer",
+    "information",
+    "eds elementary dependency structures",
+    "boost",
+    "layer",
+    "dependency",
+    "semantic",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2021.starsem-1.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

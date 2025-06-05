@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.899",
+  "title": "LMDX}: Language Model-based Document Information Extraction and Localization",
+  "authors": [
+    "Perot, Vincent  and\nKang, Kai  and\nLuisier, Florian  and\nSu, Guolong  and\nSun, Xiaoyu  and\nBoppana, Ramya Sree  and\nWang, Zilong  and\nWang, Zifeng  and\nMu, Jiaqi  and\nZhang, Hao  and\nLee, Chen-Yu  and\nHua, Nan"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large Language Models (LLM) have revolutionized Natural Language Processing (NLP), improving state-of-the-art and exhibiting emergent capabilities across various tasks. However, their application in extracting information from visually rich documents, which is at the core of many document processing workflows and involving the extraction of key entities from semi-structured documents, has not yet been successful. The main obstacles to adopting LLMs for this task include the absence of layout encoding within LLMs, which is critical for high quality extraction, and the lack of a grounding mechanism to localize the predicted entities within the document. In this paper, we introduce Language Model-based Document Information EXtraction and Localization (LMDX), a methodology to reframe the document information extraction task for a LLM. LMDX enables extraction of singular, repeated, and hierarchical entities, both with and without training data, while providing grounding guarantees and localizing the entities within the document. Finally, we apply LMDX to the PaLM 2-S and Gemini Pro LLMs and evaluate it on VRDU and CORD benchmarks, setting a new state-of-the-art and showing how LMDX enables the creation of high quality, data-efficient parsers.",
+  "keywords": [
+    "extraction",
+    "efficient",
+    "high quality data-efficient parsers",
+    "we",
+    "llm",
+    "training",
+    "the entities",
+    "key entities",
+    "natural language processing nlp",
+    "natural",
+    "it",
+    "information",
+    "rich",
+    "core",
+    "llms"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.899/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:00:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.fever-1.2",
+  "title": "Heterogeneous-Graph Reasoning and Fine-Grained Aggregation for Fact Checking",
+  "authors": [
+    "Lin, Hongbin  and\nFu, Xianghua"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Fifth Fact Extraction and VERification Workshop (FEVER)",
+  "abstract": "Fact checking is a challenging task that requires corresponding evidences to verify the property of a claim based on reasoning. Previous studies generally i) construct the graph by treating each evidence-claim pair as node which is a simple way that ignores to exploit their implicit interaction, or building a fully-connected graph among claim and evidences where the entailment relationship between claim and evidence would be considered equal to the semantic relationship among evidences; ii) aggregate evidences equally without considering their different stances towards the verification of fact. Towards the above issues, we propose a novel heterogeneous-graph reasoning and fine-grained aggregation model, with two following modules: 1) a heterogeneous graph attention network module to distinguish different types of relationships within the constructed graph; 2) fine-grained aggregation module which learns the implicit stance of evidences towards the prediction result in details. Extensive experiments on the benchmark dataset demonstrate that our proposed model achieves much better performance than state-of-the-art methods.",
+  "keywords": [
+    "semantic",
+    "we",
+    "graph",
+    "the semantic relationship",
+    "i",
+    "previous studies",
+    "model",
+    "studies",
+    "attention",
+    "network",
+    "state",
+    "interaction",
+    "heterogeneous-graph reasoning",
+    "the benchmark dataset",
+    "previous"
+  ],
+  "url": "https://aclanthology.org/2022.fever-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:42:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

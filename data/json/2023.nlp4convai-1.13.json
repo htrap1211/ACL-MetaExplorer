@@ -1,0 +1,33 @@
+{
+  "id": "2023.nlp4convai-1.13",
+  "title": "Conversational Recommendation as Retrieval: A Simple, Strong Baseline",
+  "authors": [
+    "Gupta, Raghav  and\nAksitov, Renat  and\nPhatale, Samrat  and\nChaudhary, Simral  and\nLee, Harrison  and\nRastogi, Abhinav"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 5th Workshop on NLP for Conversational AI (NLP4ConvAI 2023)",
+  "abstract": "Conversational recommendation systems (CRS) aim to recommend suitable items to users through natural language conversation. However, most CRS approaches do not effectively utilize the signal provided by these conversations. They rely heavily on explicit external knowledge e.g., knowledge graphs to augment the models’ understanding of the items and attributes, which is quite hard to scale. To alleviate this, we propose an alternative information retrieval (IR)-styled approach to the CRS item recommendation task, where we represent conversations as queries and items as documents to be retrieved. We expand the document representation used for retrieval with conversations from the training set. With a simple BM25-based retriever, we show that our task formulation compares favorably with much more complex baselines using complex external knowledge on a popular CRS benchmark. We demonstrate further improvements using user-centric modeling and data augmentation to counter the cold start problem for CRSs.",
+  "keywords": [
+    "knowledge",
+    "conversational recommendation",
+    "language",
+    "natural",
+    "queries",
+    "conversations",
+    "modeling",
+    "retrieval",
+    "natural language conversation",
+    "a simple bm25-based retriever",
+    "information",
+    "conversational",
+    "conversation",
+    "we",
+    "these conversations"
+  ],
+  "url": "https://aclanthology.org/2023.nlp4convai-1.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

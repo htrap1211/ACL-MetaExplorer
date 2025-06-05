@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.233",
+  "title": "PLOME}: Pre-training with Misspelled Knowledge for {C}hinese Spelling Correction",
+  "authors": [
+    "Liu, Shulin  and\nYang, Tao  and\nYue, Tianchi  and\nZhang, Feng  and\nWang, Di"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Chinese spelling correction (CSC) is a task to detect and correct spelling errors in texts. CSC is essentially a linguistic problem, thus the ability of language understanding is crucial to this task. In this paper, we propose a Pre-trained masked Language model with Misspelled knowledgE (PLOME) for CSC, which jointly learns how to understand language and correct spelling errors. To this end, PLOME masks the chosen tokens with similar characters according to a confusion set rather than the fixed token “[MASK]” as in BERT. Besides character prediction, PLOME also introduces pronunciation prediction to learn the misspelled knowledge on phonic level. Moreover, phonological and visual similarity knowledge is important to this task. PLOME utilizes GRU networks to model such knowledge based on characters’ phonics and strokes. Experiments are conducted on widely used benchmarks. Our method achieves superior performance against state-of-the-art approaches by a remarkable margin. We release the source code and pre-trained model for further use by the community (https://github.com/liushulinle/PLOME).",
+  "keywords": [
+    "code",
+    "end",
+    "gru networks",
+    "we",
+    "confusion",
+    "training",
+    "token",
+    "visual",
+    "gru",
+    "bert",
+    "-",
+    "knowledge",
+    "language",
+    "model",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.233/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:02:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

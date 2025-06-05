@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.431",
+  "title": "Dataflow-Guided Retrieval Augmentation for Repository-Level Code Completion",
+  "authors": [
+    "Cheng, Wei  and\nWu, Yuhan  and\nHu, Wei"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent years have witnessed the deployment of code language models (LMs) in various code intelligence tasks such as code completion. Yet, it is challenging for pre-trained LMs to generate correct completions in private repositories. Previous studies retrieve cross-file context based on import relations or text similarity, which is insufficiently relevant to completion targets. In this paper, we propose a dataflow-guided retrieval augmentation approach, called DraCo, for repository-level code completion. DraCo parses a private repository into code entities and establishes their relations through an extended dataflow analysis, forming a repo-specific context graph. Whenever triggering code completion, DraCo precisely retrieves relevant background knowledge from the repo-specific context graph and generates well-formed prompts to query code LMs. Furthermore, we construct a large Python dataset, ReccEval, with more diverse completion targets. Our experiments demonstrate the superior accuracy and applicable efficiency of DraCo, improving code exact match by 3.43% and identifier F1-score by 3.27% on average compared to the state-of-the-art approach.",
+  "keywords": [
+    "code",
+    "well-formed prompts",
+    "code entities",
+    "efficiency",
+    "private repositories",
+    "we",
+    "graph",
+    "cross",
+    "repositories",
+    "it",
+    "the superior accuracy",
+    "dataflow-guided retrieval augmentation",
+    "retrieval",
+    "analysis",
+    "previous studies"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.431/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:40:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

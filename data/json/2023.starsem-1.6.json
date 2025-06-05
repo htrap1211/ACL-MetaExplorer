@@ -1,0 +1,33 @@
+{
+  "id": "2023.starsem-1.6",
+  "title": "Improving Toponym Resolution with Better Candidate Generation, Transformer-based Reranking, and Two-Stage Resolution",
+  "authors": [
+    "Zhang, Zeyu  and\nBethard, Steven"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 12th Joint Conference on Lexical and Computational Semantics (*SEM 2023)",
+  "abstract": "Geocoding is the task of converting location mentions in text into structured data that encodes the geospatial semantics. We propose a new architecture for geocoding, GeoNorm. GeoNorm first uses information retrieval techniques to generate a list of candidate entries from the geospatial ontology. Then it reranks the candidate entries using a transformer-based neural network that incorporates information from the ontology such as the entry’s population. This generate-and-rerank process is applied twice: first to resolve the less ambiguous countries, states, and counties, and second to resolve the remaining location mentions, using the identified countries, states, and counties as context. Our proposed toponym resolution framework achieves state-of-the-art performance on multiple datasets. Code and models are available at \\url{https://github.com/clulab/geonorm}.",
+  "keywords": [
+    "transformer",
+    "code",
+    "candidate entries",
+    "counties",
+    "process",
+    "generation",
+    "neural",
+    "this generate-and-rerank process",
+    "the geospatial ontology",
+    "text",
+    "semantics",
+    "it",
+    "a transformer-based neural network",
+    "retrieval",
+    "entries"
+  ],
+  "url": "https://aclanthology.org/2023.starsem-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:31:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

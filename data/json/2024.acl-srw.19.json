@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-srw.19",
+  "title": "Label-Aware Automatic Verbalizer for Few-Shot Text Classification in Mid-To-Low Resource Languages",
+  "authors": [
+    "Thaminkaew, Thanakorn  and\nLertvittayakumjorn, Piyawat  and\nVateekul, Peerapon"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "Prompt-based learning has shown its effectiveness in few-shot text classification. A key factor in its success is a verbalizer, which translates output from a language model into a predicted class. Notably, the simplest and widely acknowledged verbalizer employs manual labels to represent the classes. However, manual selection may not yield the optimal words for a given language model, potentially leading to subpar classification performance, especially in mid-to-low resource languages with weaker language models. Therefore, we propose Label-Aware Automatic Verbalizer (LAAV), effectively augmenting manual labels for improved few-shot classification results. Specifically, we utilize the label name along with the conjunction “and” to induce the model to generate more effective words for the verbalizer. Experimental results on four mid-to-low resource Southeast Asian languages demonstrate that LAAV significantly outperforms existing verbalizers.",
+  "keywords": [
+    "prompt",
+    "language",
+    "model",
+    "weaker language models",
+    "text",
+    "few-shot text classification",
+    "class",
+    "improved few-shot classification results",
+    "classification performance",
+    "we",
+    "learning",
+    "prompt-based learning",
+    "a language model",
+    "shot",
+    "classification"
+  ],
+  "url": "https://aclanthology.org/2024.acl-srw.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:47:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

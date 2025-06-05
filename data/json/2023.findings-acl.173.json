@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.173",
+  "title": "Playing the Part of the Sharp Bully: Generating Adversarial Examples for Implicit Hate Speech Detection",
+  "authors": [
+    "Ocampo, Nicol{\\'a}s Benjam{\\'i}n  and\nCabrio, Elena  and\nVillata, Serena"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Research on abusive content detection on social media has primarily focused on explicit forms of hate speech (HS), that are often identifiable by recognizing hateful words and expressions. Messages containing linguistically subtle and implicit forms of hate speech still constitute an open challenge for automatic hate speech detection. In this paper, we propose a new framework for generating adversarial implicit HS short-text messages using Auto-regressive Language Models. Moreover, we propose a strategy to group the generated implicit messages in complexity levels (EASY, MEDIUM, and HARD categories) characterizing how challenging these messages are for supervised classifiers. Finally, relying on (Dinan et al., 2019; Vidgen et al., 2021), we propose a “build it, break it, fix it”, training scheme using HARD messages showing how iteratively retraining on HARD messages substantially leverages SOTA models’ performances on implicit HS benchmarks.",
+  "keywords": [
+    "language",
+    "supervised classifiers",
+    "categories",
+    "text",
+    "it",
+    "classifiers",
+    "the generated implicit messages",
+    "we",
+    "auto-regressive language models",
+    "training",
+    "that",
+    "speech",
+    "implicit",
+    "strategy",
+    "medium"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.173/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

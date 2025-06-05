@@ -1,0 +1,33 @@
+{
+  "id": "2024.textgraphs-1.10",
+  "title": "nlp{\\_}enjoyers at {T}ext{G}raphs-17 Shared Task: Text-Graph Representations for Knowledge Graph Question Answering using all-{MPN}et",
+  "authors": [
+    "Kurdiukov, Nikita  and\nZinkovich, Viktoriia  and\nKarpukhin, Sergey  and\nTikhomirov, Pavel"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of TextGraphs-17: Graph-based Methods for Natural Language Processing",
+  "abstract": "This paper presents a model for solving the Multiple Choice Question Answering (MCQA) problem, focusing on the impact of subgraph extraction from a Knowledge Graph on model performance. The proposed method combines textual and graph information by adding linearized subgraphs directly into the main question prompt with separate tokens, enhancing the performance of models working with each modality separately. The study also includes an examination of Large Language Model (LLM) backbones and the benefits of linearized subgraphs and sequence length, with efficient training achieved through fine-tuning with LoRA. The top benchmark, using subgraphs and MPNet, achieved an F1 score of 0.3887. The main limitation of the experiments is the reliance on pre-generated subgraphs/triplets from the graph, and the lack of exploration of in-context learning and prompting strategies with decoder-based architectures.",
+  "keywords": [
+    "t",
+    "extraction",
+    "ext",
+    "efficient",
+    "large language model",
+    "pre-generated subgraphs triplets",
+    "question",
+    "mcqa problem",
+    "graph",
+    "llm",
+    "training",
+    "knowledge graph question",
+    "llm backbones",
+    "decoder",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2024.textgraphs-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:11:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

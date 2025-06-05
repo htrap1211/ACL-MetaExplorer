@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.253",
+  "title": "Coarse-to-fine Few-shot Learning for Named Entity Recognition",
+  "authors": [
+    "Ma, Ruotian  and\nLin, Zhang  and\nChen, Xuanting  and\nZhou, Xin  and\nWang, Junzhe  and\nGui, Tao  and\nZhang, Qi  and\nGao, Xiang  and\nChen, Yun Wen"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Recently, Few-shot Named Entity Recognition has received wide attention with the growing need for NER models to learn new classes with minimized annotation costs. However, one common yet understudied situation is to transfer a model trained with coarse-grained classes to recognize fine-grained classes, such as separating a product category into sub-classes. We find that existing few-shot NER solutions are not suitable for such a situation since they do not consider the sub-class discrimination during coarse training and various granularity of new classes during few-shot learning. In this work, we introduce the Coarse-to-fine Few-shot NER (C2FNER) task and propose an effective solution. Specifically, during coarse training, we propose a cluster-based prototype margin loss to learn group-wise discriminative representations, so as to benefit fine-grained learning. Targeting various granularity of new classes, we separate the coarse classes into extra-fine clusters and propose a novel prototype retrieval and bootstrapping algorithm to retrieve representative clusters for each fine class. We then adopt a mixture prototype loss to efficiently learn the representations of fine classes. We conduct experiments on both in-domain and cross-domain C2FNER settings with various target granularity, and the proposed method shows superior performance over the baseline methods.",
+  "keywords": [
+    "extra",
+    "few-shot learning",
+    "we",
+    "a novel prototype retrieval",
+    "shot",
+    "training",
+    "cross",
+    "cluster",
+    "ner models",
+    "c2fner",
+    "loss",
+    "retrieval",
+    "understudied",
+    "learning",
+    "ner"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.253/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

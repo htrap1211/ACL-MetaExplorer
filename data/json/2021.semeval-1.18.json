@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.18",
+  "title": "S}zeged{AI} at {S}em{E}val-2021 Task 2: Zero-shot Approach for Multilingual and Cross-lingual Word-in-Context Disambiguation",
+  "authors": [
+    "Berend, G{\\'a}bor"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "In this paper, we introduce our system that we participated with at the multilingual and cross-lingual word-in-context disambiguation SemEval 2021 shared task. In our experiments, we investigated the possibility of using an all-words fine-grained word sense disambiguation system trained purely on sense-annotated data in English and draw predictions on the semantic equivalence of words in context based on the similarity of the ranked lists of the (English) WordNet synsets returned for the target words decisions had to be made for. We overcame the multi,-and cross-lingual aspects of the shared task by applying a multilingual transformer for encoding the texts written in either Arabic, English, French, Russian and Chinese. While our results lag behind top scoring submissions, it has the benefit that it not only provides a binary flag whether two words in their context have the same meaning, but also provides a more tangible output in the form of a ranked list of (English) WordNet synsets irrespective of the language of the input texts. As our framework is designed to be as generic as possible, it can be applied as a baseline for basically any language (supported by the multilingual transformed architecture employed) even in the absence of any additional form of language specific training data.",
+  "keywords": [
+    "english wordnet synsets",
+    "form",
+    "semantic",
+    "we",
+    "shot",
+    "training",
+    "cross",
+    "it",
+    "the english wordnet synsets",
+    "e",
+    "word",
+    "s",
+    "generic",
+    "wordnet",
+    "2 zero-shot approach"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.18/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:20:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

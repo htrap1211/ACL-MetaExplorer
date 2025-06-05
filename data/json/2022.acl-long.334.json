@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.334",
+  "title": "Contextual Fine-to-Coarse Distillation for Coarse-grained Response Selection in Open-Domain Conversations",
+  "authors": [
+    "Chen, Wei  and\nGong, Yeyun  and\nXu, Can  and\nHu, Huang  and\nYao, Bolun  and\nWei, Zhongyu  and\nFan, Zhihao  and\nHu, Xiaowu  and\nZhou, Bartuer  and\nCheng, Biao  and\nJiang, Daxin  and\nDuan, Nan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We study the problem of coarse-grained response selection in retrieval-based dialogue systems. The problem is equally important with fine-grained response selection, but is less explored in existing literature. In this paper, we propose a Contextual Fine-to-Coarse (CFC) distilled model for coarse-grained response selection in open-domain conversations. In our CFC model, dense representations of query, candidate contexts and responses is learned based on the multi-tower architecture using contextual matching, and richer knowledge learned from the one-tower architecture (fine-grained) is distilled into the multi-tower architecture (coarse-grained) to enhance the performance of the retriever. To evaluate the performance of the proposed model, we construct two new datasets based on the Reddit comments dump and Twitter corpus. Extensive experimental results on the two datasets show that the proposed method achieves huge improvement over all evaluation metrics compared with traditional baseline methods.",
+  "keywords": [
+    "open-domain conversations",
+    "knowledge",
+    "model",
+    "the retriever",
+    "all evaluation metrics",
+    "metrics",
+    "conversations",
+    "retrieval",
+    "fine",
+    "we",
+    "dialogue",
+    "evaluation",
+    "retrieval-based dialogue systems",
+    "retriever",
+    "comments"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.334/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:28:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

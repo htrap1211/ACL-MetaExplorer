@@ -1,0 +1,33 @@
+{
+  "id": "P19-1199",
+  "title": "Syntax-Infused Variational Autoencoder for Text Generation",
+  "authors": [
+    "Zhang, Xinyuan  and\nYang, Yi  and\nYuan, Siyang  and\nShen, Dinghan  and\nCarin, Lawrence"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We present a syntax-infused variational autoencoder (SIVAE), that integrates sentences with their syntactic trees to improve the grammar of generated sentences. Distinct from existing VAE-based text generative models, SIVAE contains two separate latent spaces, for sentences and syntactic trees. The evidence lower bound objective is redesigned correspondingly, by optimizing a joint distribution that accommodates two encoders and two decoders. SIVAE works with long short-term memory architectures to simultaneously generate sentences and syntactic trees. Two versions of SIVAE are proposed: one captures the dependencies between the latent variables through a conditional prior network, and the other treats the latent variables independently such that syntactically-controlled sentence generation can be performed. Experimental results demonstrate the generative superiority of SIVAE on both reconstruction and targeted syntactic evaluations. Finally, we show that the proposed models can be used for unsupervised paraphrasing given different syntactic tree templates.",
+  "keywords": [
+    "generative",
+    "the generative superiority",
+    "lower bound objective",
+    "syntactically-controlled sentence generation",
+    "generation",
+    "text",
+    "two decoders sivae",
+    "targeted syntactic evaluations",
+    "objective",
+    "autoencoder",
+    "dependencies",
+    "latent",
+    "the dependencies",
+    "decoders",
+    "we"
+  ],
+  "url": "https://aclanthology.org/P19-1199/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:34:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

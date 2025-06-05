@@ -1,0 +1,33 @@
+{
+  "id": "2024.kallm-1.8",
+  "title": "Ontology-guided Knowledge Graph Construction from Maintenance Short Texts",
+  "authors": [
+    "van Cauter, Zeno  and\nYakovets, Nikolay"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Knowledge Graphs and Large Language Models (KaLLM 2024)",
+  "abstract": "Large-scale knowledge graph construction remains infeasible since it requires significant human-expert involvement. Further complications arise when building graphs from domain-specific data due to their unique vocabularies and associated contexts. In this work, we demonstrate the ability of open-source large language models (LLMs), such as Llama-2 and Llama-3, to extract facts from domain-specific Maintenance Short Texts (MSTs). We employ an approach which combines ontology-guided triplet extraction and in-context learning. By using only 20 semantically similar examples with the Llama-3-70B-Instruct model, we achieve performance comparable to previous methods that relied on fine-tuning techniques like SpERT and REBEL. This indicates that domain-specific fact extraction can be accomplished through inference alone, requiring minimal labeled data. This opens up possibilities for effective and efficient semi-automated knowledge graph construction for domain-specific data.",
+  "keywords": [
+    "work",
+    "ontology-guided knowledge graph construction",
+    "instruct",
+    "tuning",
+    "possibilities",
+    "knowledge",
+    "language",
+    "fine-tuning techniques",
+    "extraction",
+    "model",
+    "it",
+    "human",
+    "efficient",
+    "vocabularies",
+    "their unique vocabularies"
+  ],
+  "url": "https://aclanthology.org/2024.kallm-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:07:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

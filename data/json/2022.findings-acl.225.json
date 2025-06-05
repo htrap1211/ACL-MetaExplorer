@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.225",
+  "title": "Extracting Person Names from User Generated Text: Named-Entity Recognition for Combating Human Trafficking",
+  "authors": [
+    "Li, Yifei  and\nNair, Pratheeksha  and\nPelrine, Kellin  and\nRabbany, Reihaneh"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Online escort advertisement websites are widely used for advertising victims of human trafficking. Domain experts agree that advertising multiple people in the same ad is a strong indicator of trafficking. Thus, extracting person names from the text of these ads can provide valuable clues for further analysis. However, Named-Entity Recognition (NER) on escort ads is challenging because the text can be noisy, colloquial and often lacking proper grammar and punctuation. Most existing state-of-the-art NER models fail to demonstrate satisfactory performance in this task. In this paper, we propose NEAT (Name Extraction Against Trafficking) for extracting person names. It effectively combines classic rule-based and dictionary extractors with a contextualized language model to capture ambiguous names (e.g penny, hazel) and adapts to adversarial changes in the text by expanding its dictionary. NEAT shows 19% improvement on average in the F1 classification score for name extraction compared to previous state-of-the-art in two domain-specific datasets.",
+  "keywords": [
+    "extraction",
+    "the f1 classification score",
+    "we",
+    "a contextualized language model",
+    "classification",
+    "it",
+    "analysis",
+    "ner",
+    "text",
+    "however named-entity recognition ner",
+    "language",
+    "model",
+    "human",
+    "entity",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.225/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

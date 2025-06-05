@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.697",
+  "title": "XLAVS}-{R}: Cross-Lingual Audio-Visual Speech Representation Learning for Noise-Robust Speech Perception",
+  "authors": [
+    "Han, HyoJung  and\nAnwar, Mohamed  and\nPino, Juan  and\nHsu, Wei-Ning  and\nCarpuat, Marine  and\nShi, Bowen  and\nWang, Changhan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Speech recognition and translation systems perform poorly on noisy inputs, which are frequent in realistic environments. Augmenting these systems with visual signals has the potential to improve robustness to noise. However, audio-visual (AV) data is only available in limited amounts and for fewer languages than audio-only resources.To address this gap, we present XLAVS-R, a cross-lingual audio-visual speech representation model for noise-robust speech recognition and translation in over 100 languages. It is designed to maximize the benefits of limited multilingual AV pre-training data, by building on top of audio-only multilingual pre-training and simplifying existing pre-training schemes. Extensive evaluation on the MuAViC benchmark shows the strength of XLAVS-R on downstream audio-visual speech recognition and translation tasks, where it outperforms the previous state of the art by up to 18.5% WER and 4.7 BLEU given noisy AV inputs, and enables strong zero-shot audio-visual ability with audio-only fine-tuning.",
+  "keywords": [
+    "top",
+    "wer",
+    "bleu",
+    "we",
+    "audio-only fine-tuning",
+    "shot",
+    "training",
+    "translation",
+    "cross",
+    "translation tasks",
+    "extensive evaluation",
+    "it",
+    "translation systems",
+    "learning",
+    "visual"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.697/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:43:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

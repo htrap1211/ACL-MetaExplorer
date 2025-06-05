@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.213",
+  "title": "Semiparametric Token-Sequence Co-Supervision",
+  "authors": [
+    "Lee, Hyunji  and\nKim, Doyoung  and\nJun, Jihoon  and\nJoo, Se June  and\nJang, Joel  and\nOn, Kyoung-Woon  and\nSeo, Minjoon"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this work, we introduce a semiparametric token-sequence co-supervision training method. It trains a language model by simultaneously leveraging supervision from the traditional next token prediction loss which is calculated over the parametric token embedding space and the next sequence prediction loss which is calculated over the nonparametric sequence embedding space. The nonparametric sequence embedding space is constructed by a separate language model tasked to condense an input text into a single representative embedding. Our experiments demonstrate that a model trained via both supervisions consistently surpasses models trained via each supervision independently. Analysis suggests that this co-supervision encourages a broader generalization capability across the model. Especially, the robustness of parametric token space which is established during the pretraining step tends to effectively enhance the stability of nonparametric sequence embedding space, a new space established by another language model.",
+  "keywords": [
+    "work",
+    "embedding space",
+    "language",
+    "model",
+    "text",
+    "it",
+    "token",
+    "-",
+    "loss",
+    "generalization",
+    "we",
+    "sequence",
+    "a separate language model",
+    "another language model",
+    "a broader generalization capability"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.213/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

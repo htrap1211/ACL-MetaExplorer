@@ -1,0 +1,33 @@
+{
+  "id": "W19-3631",
+  "title": "Isolating the Effects of Modeling Recursive Structures: A Case Study in Pronunciation Prediction of {C}hinese Characters",
+  "authors": [
+    "Nguyen, Minh  and\nNgo, Gia H  and\nChen, Nancy"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 2019 Workshop on Widening NLP",
+  "abstract": "Finding that explicitly modeling structures leads to better generalization, we consider the task of predicting Cantonese pronunciations of logographs (Chinese characters) using logographs’ recursive structures. This task is a suitable case study for two reasons. First, logographs’ pronunciations depend on structures (i.e. the hierarchies of sub-units in logographs) Second, the quality of logographic structures is consistent since the structures are constructed automatically using a set of rules. Thus, this task is less affected by confounds such as varying quality between annotators. Empirical results show that modeling structures explicitly using treeLSTM outperforms LSTM baseline, reducing prediction error by 6.0% relative.",
+  "keywords": [
+    "i",
+    "lstm baseline",
+    "treelstm outperforms",
+    "better generalization",
+    "treelstm",
+    "hierarchies",
+    "-",
+    "generalization",
+    "we",
+    "lstm",
+    "the hierarchies",
+    "hinese",
+    "characters",
+    "the quality",
+    "task"
+  ],
+  "url": "https://aclanthology.org/W19-3631/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:38:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

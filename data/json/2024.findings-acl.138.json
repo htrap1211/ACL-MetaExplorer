@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.138",
+  "title": "Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback",
+  "authors": [
+    "Bi, Zhangqian  and\nWan, Yao  and\nWang, Zheng  and\nZhang, Hongyu  and\nGuan, Batu  and\nLu, Fangxin  and\nZhang, Zili  and\nSui, Yulei  and\nJin, Hai  and\nShi, Xuanhua"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large Language Models (LLMs) have shown remarkable progress in automated code generation. Yet, LLM-generated code may contain errors in API usage, class, data structure, or missing project-specific information. As much of this project-specific context cannot fit into the prompts of LLMs, we must find ways to allow the model to explore the project-level code context. We present CoCoGen, a new code generation approach that uses compiler feedback to improve the LLM-generated code. CoCoGen first leverages static analysis to identify mismatches between the generated code and the project’s context. It then iteratively aligns and fixes the identified errors using information extracted from the code repository. We integrate CoCoGen with two representative LLMs, i.e., GPT-3.5-Turbo and Code Llama (13B), and apply it to Python code generation. Experimental results show that CoCoGen significantly improves the vanilla LLMs by over 80% in generating code dependent on the project context and consistently outperforms the existing retrieval-based code generation baselines.",
+  "keywords": [
+    "code",
+    "the generated code",
+    "prompts",
+    "two representative llms",
+    "i",
+    "automated code generation",
+    "generation",
+    "language",
+    "feedback",
+    "model",
+    "it",
+    "class",
+    "retrieval",
+    "information",
+    "the llm-generated code cocogen"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.138/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:50:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

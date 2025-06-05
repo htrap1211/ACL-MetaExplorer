@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.807",
+  "title": "To Adapt or to Annotate: Challenges and Interventions for Domain Adaptation in Open-Domain Question Answering",
+  "authors": [
+    "Dua, Dheeru  and\nStrubell, Emma  and\nSingh, Sameer  and\nVerga, Pat"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent advances in open-domain question answering (ODQA) have demonstrated impressive accuracy on general-purpose domains like Wikipedia. While some work has been investigating how well ODQA models perform when tested for out-of-domain (OOD) generalization, these studies have been conducted only under conservative shifts in data distribution and typically focus on a single component (i.e., retriever or reader) rather than an end-to-end system. This work proposes a more realistic end-to-end domain shift evaluation setting covering five diverse domains. We not only find that end-to-end models fail to generalize but that high retrieval scores often still yield poor answer prediction accuracy. To address these failures, we investigate several interventions, in the form of data augmentations, for improving model adaption and use our evaluation set to elucidate the relationship between the efficacy of an intervention scheme and the particular type of dataset shifts we consider. We propose a generalizability test that estimates the type of shift in a target dataset without training a model in the target domain and that the type of shift is predictive of which data augmentation schemes will be effective for domain adaption. Overall, we find that these interventions increase end-to-end performance by up to ~24 points.",
+  "keywords": [
+    "that high retrieval scores",
+    "end",
+    "these studies",
+    "question",
+    "a generalizability test",
+    "form",
+    "we",
+    "generalizability",
+    "answer",
+    "poor answer prediction accuracy",
+    "retrieval",
+    "odqa models",
+    "impressive accuracy",
+    "odqa",
+    "i"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.807/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:46:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

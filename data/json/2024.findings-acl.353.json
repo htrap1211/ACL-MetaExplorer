@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.353",
+  "title": "A}bstract {M}eaning {R}epresentation-Based Logic-Driven Data Augmentation for Logical Reasoning",
+  "authors": [
+    "Bao, Qiming  and\nPeng, Alex Yuxuan  and\nDeng, Zhenyun  and\nZhong, Wanjun  and\nGendron, Ga{\\\"e}l  and\nPistotti, Timothy  and\nTan, Ne{\\c{s}}et  and\nYoung, Nathan  and\nChen, Yang  and\nZhu, Yonghua  and\nDenny, Paul  and\nWitbrock, Michael  and\nLiu, Jiamou"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Combining large language models with logical reasoning enhances their capacity to address problems in a robust and reliable manner. Nevertheless, the intricate nature of logical reasoning poses challenges when gathering reliable data from the web to build comprehensive training datasets, subsequently affecting performance on downstream tasks. To address this, we introduce a novel logic-driven data augmentation approach, AMR-LDA. AMR-LDA converts the original text into an Abstract Meaning Representation (AMR) graph, a structured semantic representation that encapsulates the logical structure of the sentence, upon which operations are performed to generate logically modified AMR graphs. The modified AMR graphs are subsequently converted back into text to create augmented data. Notably, our methodology is architecture-agnostic and enhances both generative large language models, such as GPT-3.5 and GPT-4, through prompt augmentation, and discriminative large language models through contrastive learning with logic-driven data augmentation. Empirical evidence underscores the efficacy of our proposed method with improvement in performance across seven downstream tasks, such as reading comprehension requiring logical reasoning, textual entailment, and natural language inference. Furthermore, our method leads on the ReClor leaderboard at https://eval.ai/web/challenges/challenge-page/503/leaderboard/1347. The source code and data are publicly available at https://github.com/Strong-AI-Lab/Logical-Equivalence-driven-AMR-Data-Augmentation-for-Representation-Learning.",
+  "keywords": [
+    "code",
+    "prompt augmentation",
+    "semantic",
+    "we",
+    "graph",
+    "training",
+    "natural",
+    "gpt-3",
+    "learning",
+    "manner",
+    "prompt",
+    "logically modified amr graphs",
+    "text",
+    "gpt-4",
+    "eval"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.353/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:53:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

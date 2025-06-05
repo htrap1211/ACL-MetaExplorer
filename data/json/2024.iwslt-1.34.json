@@ -1,0 +1,33 @@
+{
+  "id": "2024.iwslt-1.34",
+  "title": "HW}-{TSC}{'}s submission to the {IWSLT} 2024 Subtitling track",
+  "authors": [
+    "Xie, Yuhao  and\nLuo, Yuanchang  and\nLi, Zongyao  and\nWu, Zhanglin  and\nChen, Xiaoyu  and\nRao, Zhiqiang  and\nLi, Shaojun  and\nShang, Hengchao  and\nGuo, Jiaxin  and\nWei, Daimeng  and\nYang, Hao"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 21st International Conference on Spoken Language Translation (IWSLT 2024)",
+  "abstract": "This paper introduces HW-TSC’s submission to the IWSLT 2024 Subtitling track. For the automatic subtitling track, we use an unconstrained cascaded strategy, with the main steps being: ASR with word-level timestamps, sentence segmentation based on punctuation restoration, further alignment using CTC or using machine translation with length penalty. For the subtitle compression track, we employ a subtitle compression strategy that integrates machine translation models and extensive rewriting models. We acquire the subtitle text requiring revision through the CPS index, then utilize a translation model to obtain the English version of this text. Following this, we extract the compressed-length subtitle text through controlled decoding. If this method fails to compress the text successfully, we resort to the Llama2 few-shot model for further compression.",
+  "keywords": [
+    "alignment",
+    "a translation model",
+    "machine",
+    "text",
+    "model",
+    "the llama2 few-shot model",
+    "machine translation",
+    "word",
+    "we",
+    "machine translation models",
+    "shot",
+    "translation",
+    "punctuation restoration further alignment",
+    "that",
+    "the iwslt"
+  ],
+  "url": "https://aclanthology.org/2024.iwslt-1.34/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:06:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

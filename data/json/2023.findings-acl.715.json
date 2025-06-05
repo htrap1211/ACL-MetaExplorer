@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.715",
+  "title": "SORTIE}: Dependency-Aware Symbolic Reasoning for Logical Data-to-text Generation",
+  "authors": [
+    "Zhao, Xueliang  and\nFu, Tingchen  and\nLiu, Lemao  and\nKong, Lingpeng  and\nShi, Shuming  and\nYan, Rui"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Logical data-to-text generation is a representative task in measuring the capabilities of both language generation and complex reasoning. Despite the introduction of reasoning skills in generation, existing works still rely on neural language models to output the final table description. However, due to the inefficacy of neural language models in complex reasoning, these methods inevitably have difficulty working out key entities in the description and might produce unfaithful descriptions. To alleviate these issues, we propose a dependency-aware symbolic reasoning framework that reasons out each entity in the table description with our designed table-compatible programming language. To figure out the dependency relationship among entities, we devise an entity scheduling mechanism to determine the order of programme synthesis such that the reasoning of an entity only relies on other “resolved” entities. Experiments on three datasets and three backbones show that ours outperforms previous methods not only in surface-level fidelity but also in logical fidelity. Notably, the proposed framework enhances GPT-2, BART and T5 with an absolute improvement of 5.7%~11.5% on SP-Acc.",
+  "keywords": [
+    "other resolved entities experiments",
+    "we",
+    "neural language models",
+    "key entities",
+    "neural",
+    "the capabilities",
+    "the dependency relationship",
+    "text",
+    "acc",
+    "generation existing works",
+    "-",
+    "generation",
+    "language",
+    "both language generation",
+    "entities"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.715/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

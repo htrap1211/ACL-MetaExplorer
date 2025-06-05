@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.532",
+  "title": "Probing for Labeled Dependency Trees",
+  "authors": [
+    "M{\\\"u}ller-Eberstein, Max  and\nvan der Goot, Rob  and\nPlank, Barbara"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Probing has become an important tool for analyzing representations in Natural Language Processing (NLP). For graphical NLP tasks such as dependency parsing, linear probes are currently limited to extracting undirected or unlabeled parse trees which do not capture the full task. This work introduces DepProbe, a linear probe which can extract labeled and directed dependency parse trees from embeddings while using fewer parameters and compute than prior methods. Leveraging its full task coverage and lightweight parametrization, we investigate its predictive power for selecting the best transfer language for training a full biaffine attention parser. Across 13 languages, our proposed method identifies the best source treebank 94% of the time, outperforming competitive baselines and prior work. Finally, we analyze the informativeness of task-specific subspaces in contextual embeddings as well as which benefits a full parser’s non-linear parametrization provides.",
+  "keywords": [
+    "embeddings",
+    "work",
+    "dependency parse trees",
+    "processing",
+    "language",
+    "nlp",
+    "natural",
+    "graphical nlp tasks",
+    "labeled dependency trees",
+    "contextual embeddings",
+    "dependency",
+    "attention",
+    "we",
+    "transfer",
+    "time"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.532/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

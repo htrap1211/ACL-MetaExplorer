@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.548",
+  "title": "Neural Mixed Counting Models for Dispersed Topic Discovery",
+  "authors": [
+    "Wu, Jiemin  and\nRao, Yanghui  and\nZhang, Zusheng  and\nXie, Haoran  and\nLi, Qing  and\nWang, Fu Lee  and\nChen, Ziye"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Mixed counting models that use the negative binomial distribution as the prior can well model over-dispersed and hierarchically dependent random variables; thus they have attracted much attention in mining dispersed document topics. However, the existing parameter inference method like Monte Carlo sampling is quite time-consuming. In this paper, we propose two efficient neural mixed counting models, i.e., the Negative Binomial-Neural Topic Model (NB-NTM) and the Gamma Negative Binomial-Neural Topic Model (GNB-NTM) for dispersed topic discovery. Neural variational inference algorithms are developed to infer model parameters by using the reparameterization of Gamma distribution and the Gaussian approximation of Poisson distribution. Experiments on real-world datasets indicate that our models outperform state-of-the-art baseline models in terms of perplexity and topic coherence. The results also validate that both NB-NTM and GNB-NTM can produce explainable intermediate variables by generating dispersed proportions of document topics.",
+  "keywords": [
+    "much attention",
+    "i",
+    "random",
+    "neural",
+    "model",
+    "efficient",
+    "perplexity",
+    "topic",
+    "-",
+    "attention",
+    "we",
+    "time",
+    "mining",
+    "parameter",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.548/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:49:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

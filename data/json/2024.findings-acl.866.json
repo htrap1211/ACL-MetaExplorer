@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.866",
+  "title": "Fantastic Semantics and Where to Find Them: Investigating Which Layers of Generative {LLM}s Reflect Lexical Semantics",
+  "authors": [
+    "Liu, Zhu  and\nKong, Cunliang  and\nLiu, Ying  and\nSun, Maosong"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large language models have achieved remarkable success in general language understanding tasks. However, as a family of generative methods with the objective of next token prediction, the semantic evolution with the depth of these models are not fully explored, unlike their predecessors, such as BERT-like architectures. In this paper, we specifically investigate the bottom-up evolution of lexical semantics for a popular LLM, namely Llama2, by probing its hidden states at the end of each layer using a contextualized word identification task. Our experiments show that the representations in lower layers encode lexical semantics, while the higher layers, with weaker semantic induction, are responsible for prediction. This is in contrast to models with discriminative objectives, such as mask language modeling, where the higher layers obtain better lexical semantics. The conclusion is further supported by the monotonic increase in performance via the hidden states for the last meaningless symbols, such as punctuation, in the prompting strategy. Our codes are available at https://github.com/RyanLiut/LLM_LexSem.",
+  "keywords": [
+    "the prompting strategy",
+    "objectives",
+    "end",
+    "weaker semantic induction",
+    "encode",
+    "better lexical semantics",
+    "layer",
+    "semantic",
+    "we",
+    "llm",
+    "semantics",
+    "the objective",
+    "discriminative objectives",
+    "token",
+    "word"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.866/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:00:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

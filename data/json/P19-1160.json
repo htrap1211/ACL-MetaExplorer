@@ -1,0 +1,33 @@
+{
+  "id": "P19-1160",
+  "title": "Gender-preserving Debiasing for Pre-trained Word Embeddings",
+  "authors": [
+    "Kaneko, Masahiro  and\nBollegala, Danushka"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Word embeddings learnt from massive text collections have demonstrated significant levels of discriminative biases such as gender, racial or ethnic biases, which in turn bias the down-stream NLP applications that use those word embeddings. Taking gender-bias as a working example, we propose a debiasing method that preserves non-discriminative gender-related information, while removing stereotypical discriminative gender biases from pre-trained word embeddings. Specifically, we consider four types of information:feminine,masculine,gender-neutralandstereotypical, which represent the relationship between gender vs. bias, and propose a debiasing method that (a) preserves the gender-related information in feminine and masculine words, (b) preserves the neutrality in gender-neutral words, and (c) removes the biases from stereotypical words. Experimental results on several previously proposed benchmark datasets show that our proposed method can debias pre-trained word embeddings better than existing SoTA methods proposed for debiasing word embeddings while preserving gender-related but non-discriminative information.",
+  "keywords": [
+    "embeddings",
+    "gender vs bias",
+    "bias",
+    "nlp",
+    "text",
+    "gender-preserving debiasing",
+    "the biases",
+    "c",
+    "stereotypical discriminative gender biases",
+    "pre-trained word embeddings",
+    "information",
+    "b",
+    "debiasing",
+    "word",
+    "we"
+  ],
+  "url": "https://aclanthology.org/P19-1160/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:33:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

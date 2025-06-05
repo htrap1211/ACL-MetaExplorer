@@ -1,0 +1,33 @@
+{
+  "id": "P19-1536",
+  "title": "Training Neural Response Selection for Task-Oriented Dialogue Systems",
+  "authors": [
+    "Henderson, Matthew  and\nVuli{\\'c}, Ivan  and\nGerz, Daniela  and\nCasanueva, I{\\~n}igo  and\nBudzianowski, Pawe{\\l}  and\nCoope, Sam  and\nSpithourakis, Georgios  and\nWen, Tsung-Hsien  and\nMrk{\\v{s}}i{\\'c}, Nikola  and\nSu, Pei-Hao"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Despite their popularity in the chatbot literature, retrieval-based models have had modest impact on task-oriented dialogue systems, with the main obstacle to their application being the low-data regime of most task-oriented dialogue tasks. Inspired by the recent success of pretraining in language modelling, we propose an effective method for deploying response selection in task-oriented dialogue. To train response selection models for task-oriented dialogue tasks, we propose a novel method which: 1) pretrains the response selection model on large general-domain conversational corpora; and then 2) fine-tunes the pretrained model for the target dialogue domain, relying only on the small in-domain dataset to capture the nuances of the given dialogue domain. Our evaluation on five diverse application domains, ranging from e-commerce to banking, demonstrates the effectiveness of the proposed training method.",
+  "keywords": [
+    "language modelling",
+    "large general-domain conversational corpora",
+    "we",
+    "most task-oriented dialogue tasks",
+    "dialogue",
+    "training",
+    "task-oriented dialogue",
+    "chatbot",
+    "neural",
+    "retrieval",
+    "e",
+    "-",
+    "fine",
+    "the given dialogue domain",
+    "our evaluation"
+  ],
+  "url": "https://aclanthology.org/P19-1536/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:44:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

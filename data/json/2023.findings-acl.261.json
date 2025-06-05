@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.261",
+  "title": "Understanding the Cooking Process with {E}nglish Recipe Text",
+  "authors": [
+    "Fan, Yi  and\nHunter, Anthony"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Translating procedural text, like recipes, into a graphical representation can be important for visualizing the text, and can offer a machine-readable formalism for use in software. There are proposals for translating recipes into a flow graph representation, where each node represents an ingredient, action, location, or equipment, and each arc between the nodes denotes the steps of the recipe. However, these proposals have had performance problems with both named entity recognition and relationship extraction. To address these problems, we propose a novel framework comprising two modules to construct a flow graph from the input recipe. The first module identifies the named entities in the input recipe text using BERT, Bi-LSTM and CRF, and the second module uses BERT to predict the relationships between the entities. We evaluate our framework on the English recipe flow graph corpus. Our framework can predict the edge label and achieve the overall F1 score of 92.2, while the baseline F1 score is 43.3 without the edge label predicted.",
+  "keywords": [
+    "extraction",
+    "we",
+    "lstm",
+    "graph",
+    "the entities",
+    "edge",
+    "location",
+    "ingredient",
+    "the overall f1 score",
+    "the named entities",
+    "bert",
+    "text",
+    "-",
+    "bert bi",
+    "action"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.261/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

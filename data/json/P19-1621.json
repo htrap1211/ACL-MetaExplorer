@@ -1,0 +1,33 @@
+{
+  "id": "P19-1621",
+  "title": "Are Red Roses Red? Evaluating Consistency of Question-Answering Models",
+  "authors": [
+    "Ribeiro, Marco Tulio  and\nGuestrin, Carlos  and\nSingh, Sameer"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Although current evaluation of question-answering systems treats predictions in isolation, we need to consider the relationship between predictions to measure true understanding. A model should be penalized for answering “no” to “Is the rose red?” if it answers “red” to “What color is the rose?”. We propose a method to automatically extract such implications for instances from two QA datasets, VQA and SQuAD, which we then use to evaluate the consistency of models. Human evaluation shows these generated implications are well formed and valid. Consistency evaluation provides crucial insights into gaps in existing models, while retraining with implication-augmented data improves consistency on both synthetic and human-generated implications.",
+  "keywords": [
+    "human evaluation",
+    "these generated implications",
+    "red",
+    "current evaluation",
+    "model",
+    "it",
+    "human",
+    "two qa datasets vqa",
+    "question",
+    "we",
+    "valid",
+    "evaluation",
+    "vqa",
+    "current",
+    "evaluating"
+  ],
+  "url": "https://aclanthology.org/P19-1621/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:46:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

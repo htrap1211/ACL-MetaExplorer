@@ -1,0 +1,33 @@
+{
+  "id": "2023.nlrse-1.6",
+  "title": "Reasoning Circuits: Few-shot Multi-hop Question Generation with Structured Rationales",
+  "authors": [
+    "Kulshreshtha, Saurabh  and\nRumshisky, Anna"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 1st Workshop on Natural Language Reasoning and Structured Explanations (NLRSE)",
+  "abstract": "Multi-hop Question Generation is the task of generating questions which require the reader to reason over and combine information spread across multiple passages employing several reasoning steps. Chain-of-thought rationale generation has been shown to improve performance on multi-step reasoning tasks and make model predictions more interpretable. However, few-shot performance gains from including rationales have been largely observed only in +100B language models, and otherwise require large-scale manual rationale annotation. In this paper, we introduce a new framework for applying chain-of-thought inspired structured rationale generation to multi-hop question generation under a very low supervision regime (8- to 128-shot). We propose to annotate a small number of examples following our proposed multi-step rationale schema, treating each reasoning step as a separate task to be performed by a generative language model. We show that our framework leads to improved control over the difficulty of the generated questions and better performance compared to baselines trained without rationales, both on automatic evaluation metrics and in human evaluation. Importantly, we show that this is achievable with a modest model size.",
+  "keywords": [
+    "multi-hop question generation",
+    "achievable",
+    "generating questions",
+    "a generative language model",
+    "chain",
+    "100b language models",
+    "question",
+    "automatic evaluation metrics",
+    "the generated questions",
+    "we",
+    "shot",
+    "human evaluation",
+    "few-shot multi-hop question generation",
+    "information",
+    "-hop question generation"
+  ],
+  "url": "https://aclanthology.org/2023.nlrse-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

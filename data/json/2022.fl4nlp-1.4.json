@@ -1,0 +1,33 @@
+{
+  "id": "2022.fl4nlp-1.4",
+  "title": "Intrinsic Gradient Compression for Scalable and Efficient Federated Learning",
+  "authors": [
+    "Melas-Kyriazi, Luke  and\nWang, Franklyn"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the First Workshop on Federated Learning for Natural Language Processing (FL4NLP 2022)",
+  "abstract": "Federated learning is a rapidly growing area of research, holding the promise of privacy-preserving distributed training on edge devices. The largest barrier to wider adoption of federated learning is the communication cost of model updates, which is accentuated by the fact that many edge devices are bandwidth-constrained. At the same time, within the machine learning theory community, a separate line of research has emerged around optimizing networks within a subspace of the full space of all parameters. The dimension of the smallest subspace for which these methods still yield strong results is called the intrinsic dimension. In this work, we prove a general correspondence between the notions of intrinsic dimension and gradient compressibility, and we show that a family of low-bandwidth federated learning algorithms, which we call intrinsic gradient compression algorithms, naturally emerges from this correspondence. Finally, we conduct large-scale NLP experiments using transformer models with over 100M parameters (GPT-2 and BERT), and show that our method significantly outperforms the state-of-the-art in gradient compression.",
+  "keywords": [
+    "efficient",
+    "we",
+    "large-scale nlp experiments",
+    "barrier",
+    "training",
+    "intrinsic gradient compression",
+    "edge",
+    "intrinsic gradient compression algorithms",
+    "learning",
+    "transformer models",
+    "gradient compressibility",
+    "bert",
+    "a general correspondence",
+    "work",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2022.fl4nlp-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:42:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.393",
+  "title": "S}peech{T}5: Unified-Modal Encoder-Decoder Pre-Training for Spoken Language Processing",
+  "authors": [
+    "Ao, Junyi  and\nWang, Rui  and\nZhou, Long  and\nWang, Chengyi  and\nRen, Shuo  and\nWu, Yu  and\nLiu, Shujie  and\nKo, Tom  and\nLi, Qing  and\nZhang, Yu  and\nWei, Zhihua  and\nQian, Yao  and\nLi, Jinyu  and\nWei, Furu"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Motivated by the success of T5 (Text-To-Text Transfer Transformer) in pre-trained natural language processing models, we propose a unified-modal SpeechT5 framework that explores the encoder-decoder pre-training for self-supervised speech/text representation learning. The SpeechT5 framework consists of a shared encoder-decoder network and six modal-specific (speech/text) pre/post-nets. After preprocessing the input speech/text through the pre-nets, the shared encoder-decoder network models the sequence-to-sequence transformation, and then the post-nets generate the output in the speech/text modality based on the output of the decoder. Leveraging large-scale unlabeled speech and text data, we pre-train SpeechT5 to learn a unified-modal representation, hoping to improve the modeling capability for both speech and text. To align the textual and speech information into this unified semantic space, we propose a cross-modal vector quantization approach that randomly mixes up speech/text states with latent units as the interface between encoder and decoder. Extensive evaluations show the superiority of the proposed SpeechT5 framework on a wide variety of spoken language processing tasks, including automatic speech recognition, speech synthesis, speech translation, voice conversion, speech enhancement, and speaker identification.",
+  "keywords": [
+    "variety",
+    "the encoder-decoder pre",
+    "the decoder",
+    "semantic",
+    "we",
+    "a wide variety",
+    "training",
+    "translation",
+    "cross",
+    "natural",
+    "self",
+    "unified",
+    "decoder",
+    "information",
+    "latent"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.393/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:29:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

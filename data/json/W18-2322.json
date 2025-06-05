@@ -1,0 +1,33 @@
+{
+  "id": "W18-2322",
+  "title": "Prediction Models for Risk of Type-2 Diabetes Using Health Claims",
+  "authors": [
+    "Nagata, Masatoshi  and\nTakai, Kohichi  and\nYasuda, Keiji  and\nHeracleous, Panikos  and\nYoneyama, Akio"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the {B}io{NLP} 2018 workshop",
+  "abstract": "This study focuses on highly accurate prediction of the onset of type-2 diabetes. We investigated whether prediction accuracy can be improved by utilizing lab test data obtained from health checkups and incorporating health claim text data such as medically diagnosed diseases with ICD10 codes and pharmacy information. In a previous study, prediction accuracy was increased slightly by adding diagnosis disease name and independent variables such as prescription medicine. Therefore, in the current study we explored more suitable models for prediction by using state-of-the-art techniques such as XGBoost and long short-term memory (LSTM) based on recurrent neural networks. In the current study, text data was vectorized using word2vec, and the prediction model was compared with logistic regression. The results obtained confirmed that onset of type-2 diabetes can be predicted with a high degree of accuracy when the XGBoost model is used.",
+  "keywords": [
+    "prediction accuracy",
+    "we",
+    "lstm",
+    "current",
+    "recurrent neural networks",
+    "neural",
+    "information",
+    "recurrent",
+    "text",
+    "long short-term memory lstm",
+    "accuracy",
+    "model",
+    "word2vec",
+    "term",
+    "disease"
+  ],
+  "url": "https://aclanthology.org/W18-2322/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:22:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

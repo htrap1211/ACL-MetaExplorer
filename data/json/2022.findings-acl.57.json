@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.57",
+  "title": "Hierarchical Inductive Transfer for Continual Dialogue Learning",
+  "authors": [
+    "Feng, Shaoxiong  and\nRen, Xuancheng  and\nLi, Kan  and\nSun, Xu"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Pre-trained models have achieved excellent performance on the dialogue task. However, for the continual increase of online chit-chat scenarios, directly fine-tuning these models for each of the new tasks not only explodes the capacity of the dialogue system on the embedded devices but also causes knowledge forgetting on pre-trained models and knowledge interference among diverse dialogue tasks. In this work, we propose a hierarchical inductive transfer framework to learn and deploy the dialogue skills continually and efficiently. First, we introduce the adapter module into pre-trained models for learning new dialogue tasks. As the only trainable module, it is beneficial for the dialogue system on the embedded devices to acquire new dialogue skills with negligible additional parameters. Then, for alleviating knowledge interference between tasks yet benefiting the regularization between them, we further design hierarchical inductive transfer that enables new tasks to use general knowledge in the base adapter without being misled by diverse knowledge in task-specific adapters. Empirical evaluation and analysis indicate that our framework obtains comparable performance under deployment-friendly model capacity.",
+  "keywords": [
+    "diverse dialogue tasks",
+    "the regularization",
+    "we",
+    "dialogue",
+    "deployment-friendly model capacity",
+    "new dialogue tasks",
+    "friendly",
+    "it",
+    "new dialogue skills",
+    "transfer",
+    "the dialogue task",
+    "analysis",
+    "hierarchical inductive transfer",
+    "general knowledge",
+    "task-specific adapters empirical evaluation"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.57/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

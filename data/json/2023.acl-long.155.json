@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.155",
+  "title": "RMLM}: A Flexible Defense Framework for Proactively Mitigating Word-level Adversarial Attacks",
+  "authors": [
+    "Wang, Zhaoyang  and\nLiu, Zhiyue  and\nZheng, Xiaopeng  and\nSu, Qinliang  and\nWang, Jiahai"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Adversarial attacks on deep neural networks keep raising security concerns in natural language processing research. Existing defenses focus on improving the robustness of the victim model in the training stage. However, they often neglect to proactively mitigate adversarial attacks during inference. Towards this overlooked aspect, we propose a defense framework that aims to mitigate attacks by confusing attackers and correcting adversarial contexts that are caused by malicious perturbations. Our framework comprises three components: (1) a synonym-based transformation to randomly corrupt adversarial contexts in the word level, (2) a developed BERT defender to correct abnormal contexts in the representation level, and (3) a simple detection method to filter out adversarial examples, any of which can be flexibly combined. Additionally, our framework helps improve the robustness of the victim model during training. Extensive experiments demonstrate the effectiveness of our framework in defending against word-level adversarial attacks.",
+  "keywords": [
+    "deep",
+    "processing",
+    "language",
+    "neural",
+    "natural",
+    "bert",
+    "model",
+    "deep neural networks",
+    "word",
+    "we",
+    "a developed bert defender",
+    "training",
+    "that",
+    "the effectiveness",
+    "contexts"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.155/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

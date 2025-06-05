@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.27",
+  "title": "Bridge-Based Active Domain Adaptation for Aspect Term Extraction",
+  "authors": [
+    "Chen, Zhuang  and\nQian, Tieyun"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "As a fine-grained task, the annotation cost of aspect term extraction is extremely high. Recent attempts alleviate this issue using domain adaptation that transfers common knowledge across domains. Since most aspect terms are domain-specific, they cannot be transferred directly. Existing methods solve this problem by associating aspect terms with pivot words (we call this passive domain adaptation because the transfer of aspect terms relies on the links to pivots). However, all these methods need either manually labeled pivot words or expensive computing resources to build associations. In this paper, we propose a novel active domain adaptation method. Our goal is to transfer aspect terms by actively supplementing transferable knowledge. To this end, we construct syntactic bridges by recognizing syntactic roles as pivots instead of as links to pivots. We also build semantic bridges by retrieving transferable semantic prototypes. Extensive experiments show that our method significantly outperforms previous approaches.",
+  "keywords": [
+    "transferable semantic prototypes",
+    "end",
+    "semantic bridges",
+    "extraction",
+    "semantic",
+    "we",
+    "transfer",
+    "knowledge",
+    "term",
+    "bridges",
+    "bridge-based active domain adaptation",
+    "previous",
+    "syntactic bridges",
+    "recent",
+    "this problem"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.27/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:59:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

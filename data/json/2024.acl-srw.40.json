@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-srw.40",
+  "title": "C}o{V}o{S}witch: Machine Translation of Synthetic Code-Switched Text Based on Intonation Units",
+  "authors": [
+    "Kang, Yeeun"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "Multilingual code-switching research is often hindered by the lack and linguistically biased status of available datasets. To expand language representation, we synthesize code-switching data by replacing intonation units detected through PSST, a speech segmentation model fine-tuned from OpenAI’s Whisper, using a speech-to-text translation dataset, CoVoST 2. With our dataset, CoVoSwitch, spanning 13 languages, we evaluate the code-switching translation performance of two multilingual translation models, M2M-100 418M and NLLB-200 600M. We reveal that the inclusion of code-switching units results in higher translation performance than monolingual settings and that models are better at code-switching translation into English than non-English. Further, low-resource languages gain most from integration of code-switched units when translating into English but much less when translating into non-English. Translations into low-resource languages also perform worse than even raw code-switched inputs. We find that systems excel at copying English tokens but struggle with non-English tokens, that the off-target problem in monolingual settings is also relevant in code-switching settings, and that models hallucinate in code-switching translation by introducing words absent in both of the original source sentences. CoVoSwitch and code are available at https://github.com/sophiayk20/covoswitch.",
+  "keywords": [
+    "code",
+    "higher translation performance",
+    "the code-switching translation performance",
+    "two multilingual translation models",
+    "non-english translations",
+    "we",
+    "linguistically biased status",
+    "translation",
+    "biased",
+    "text",
+    "code-switching translation",
+    "language",
+    "model",
+    "machine",
+    "translations"
+  ],
+  "url": "https://aclanthology.org/2024.acl-srw.40/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:48:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

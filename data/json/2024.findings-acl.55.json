@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.55",
+  "title": "Exploring Mathematical Extrapolation of Large Language Models with Synthetic Data",
+  "authors": [
+    "Li, Haolong  and\nMa, Yu  and\nZhang, Yinqi  and\nYe, Chen  and\nChen, Jie"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "While large language models (LLMs) have shown excellent capabilities in language understanding, text generation and many other tasks, they still struggle in complex multi-step reasoning problems such as mathematical reasoning. In this paper, through a newly proposed arithmetical puzzle problem, we show that the model can perform well on multi-step reasoning tasks via fine tuning on high-quality synthetic data. Experiments with the open-llama-3B model on three different test datasets show that not only the model can reach a zero-shot pass@1 at 0.44 on the in-domain dataset, it also demonstrates certain generalization capabilities on the out-of-domain datasets. Specifically, this paper has designed two out-of-domain datasets in the form of extending the numerical range and the composing components of the arithmetical puzzle problem separately. The fine-tuned model have shown encouraging performance on these two far more difficult tasks with the zero-shot pass@1 at 0.33 and 0.35 correspondingly.",
+  "keywords": [
+    "tuning",
+    "language",
+    "generation",
+    "model",
+    "text",
+    "it",
+    "llms",
+    "large language models",
+    "a zero-shot pass",
+    "large language models llms",
+    "capabilities",
+    "generalization",
+    "fine",
+    "form",
+    "certain generalization capabilities"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.55/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:49:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.168",
+  "title": "Question Generation for Reading Comprehension Assessment by Modeling How and What to Ask",
+  "authors": [
+    "Ghanem, Bilal  and\nLutz Coleman, Lauren  and\nRivard Dexter, Julia  and\nvon der Ohe, Spencer  and\nFyshe, Alona"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Reading is integral to everyday life, and yet learning to read is a struggle for many young learners. During lessons, teachers can use comprehension questions to increase engagement, test reading skills, and improve retention. Historically such questions were written by skilled teachers, but recently language models have been used to generate comprehension questions. However, many existing Question Generation (QG) systems focus on generating extractive questions from the text, and have no way to control the type of the generated question. In this paper, we study QG for reading comprehension where inferential questions are critical and extractive techniques cannot be used. We propose a two-step model (HTA-WTA) that takes advantage of previous datasets, and can generate questions for a specific targeted comprehension skill. We propose a new reading comprehension dataset that contains questions annotated with story-based reading comprehension skills (SBRCS), allowing for a more complete reader assessment. Across several experiments, our results show that HTA-WTA outperforms multiple strong baselines on this new dataset. We show that the HTA-WTA model tests for strong SCRS by asking deep inferential questions.",
+  "keywords": [
+    "deep",
+    "question",
+    "we",
+    "the generated question",
+    "many young learners",
+    "text",
+    "language models",
+    "question generation",
+    "generation",
+    "language",
+    "learners",
+    "model",
+    "strong scrs",
+    "a struggle",
+    "assessment"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.168/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

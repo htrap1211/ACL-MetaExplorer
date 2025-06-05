@@ -1,0 +1,33 @@
+{
+  "id": "P19-1279",
+  "title": "Matching the Blanks: Distributional Similarity for Relation Learning",
+  "authors": [
+    "Baldini Soares, Livio  and\nFitzGerald, Nicholas  and\nLing, Jeffrey  and\nKwiatkowski, Tom"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "General purpose relation extractors, which can model arbitrary relations, are a core aspiration in information extraction. Efforts have been made to build general purpose extractors that represent relations with their surface forms, or which jointly embed surface forms with relations from an existing knowledge graph. However, both of these approaches are limited in their ability to generalize. In this paper, we build on extensions of Harris’ distributional hypothesis to relations, as well as recent advances in learning text representations (specifically, BERT), to build task agnostic relation representations solely from entity-linked text. We show that these representations significantly outperform previous work on exemplar based relation extraction (FewRel) even without using any of that task’s training data. We also show that models initialized with our task agnostic representations, and then tuned on supervised relation extraction datasets, significantly outperform the previous methods on SemEval 2010 Task 8, KBP37, and TACRED",
+  "keywords": [
+    "general purpose extractors",
+    "work",
+    "general",
+    "knowledge",
+    "extraction",
+    "bert",
+    "information extraction efforts",
+    "text",
+    "an existing knowledge graph",
+    "information",
+    "we",
+    "graph",
+    "entity",
+    "training",
+    "core"
+  ],
+  "url": "https://aclanthology.org/P19-1279/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:37:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

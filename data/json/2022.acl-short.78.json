@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.78",
+  "title": "On the Effect of Isotropy on {VAE} Representations of Text",
+  "authors": [
+    "Zhang, Lan  and\nBuntine, Wray  and\nShareghi, Ehsan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Injecting desired geometric properties into text representations has attracted a lot of attention. A property that has been argued for, due to its better utilisation of representation space, is isotropy. In parallel, VAEs have been successful in areas of NLP, but are known for their sub-optimal utilisation of the representation space. To address an aspect of this, we investigate the impact of injecting isotropy during training of VAEs. We achieve this by using an isotropic Gaussian posterior (IGP) instead of the ellipsoidal Gaussian posterior. We illustrate that IGP effectively encourages isotropy in the representations, inducing a more discriminative latent space. Compared to vanilla VAE, this translates into a much better classification performance, robustness to input perturbation, and generative behavior. Additionally, we offer insights about the representational properties encouraged by IGP.",
+  "keywords": [
+    "generative",
+    "nlp",
+    "text",
+    "generative behavior",
+    "the representational properties",
+    "properties",
+    "latent",
+    "attention",
+    "we",
+    "geometric properties",
+    "training",
+    "classification",
+    "that",
+    "its better utilisation",
+    "insights"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.78/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:33:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

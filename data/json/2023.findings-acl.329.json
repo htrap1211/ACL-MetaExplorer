@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.329",
+  "title": "GV}doc - Graph-based Visual {DO}cument Classification",
+  "authors": [
+    "Mohbat, Fnu  and\nZaki, Mohammed J  and\nFinegan-Dollak, Catherine  and\nVerma, Ashish"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "The robustness of a model for real-world deployment is decided by how well it performs on unseen data and distinguishes between in-domain and out-of-domain samples. Visual document classifiers have shown impressive performance on in-distribution test sets. However, they tend to have a hard time correctly classifying and differentiating out-of-distribution examples. Image-based classifiers lack the text component, whereas multi-modality transformer-based models face the token serialization problem in visual documents due to their diverse layouts. They also require a lot of computing power during inference, making them impractical for many real-world applications. We propose, GVdoc, a graph-based document classification model that addresses both of these challenges. Our approach generates a document graph based on its layout, and then trains a graph neural network to learn node and graph embeddings. Through experiments, we show that our model, even with fewer parameters, outperforms state-of-the-art models on out-of-distribution data while retaining comparable performance on the in-distribution test set.",
+  "keywords": [
+    "classifiers",
+    "we",
+    "graph",
+    "classification",
+    "neural",
+    "it",
+    "token",
+    "multi-modality transformer-based models",
+    "visual",
+    "text",
+    "a graph neural network",
+    "embeddings",
+    "transformer",
+    "model",
+    "network"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.329/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

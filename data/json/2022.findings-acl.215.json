@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.215",
+  "title": "Graph Refinement for Coreference Resolution",
+  "authors": [
+    "Miculicich, Lesly  and\nHenderson, James"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "The state-of-the-art models for coreference resolution are based on independent mention pair-wise decisions. We propose a modelling approach that learns coreference at the document-level and takes global decisions. For this purpose, we model coreference links in a graph structure where the nodes are tokens in the text, and the edges represent the relationship between them. Our model predicts the graph in a non-autoregressive manner, then iteratively refines it based on previous predictions, allowing global dependencies between decisions. The experimental results show improvements over various baselines, reinforcing the hypothesis that document-level information improves conference resolution.",
+  "keywords": [
+    "coreference links",
+    "a non-autoregressive manner",
+    "model",
+    "text",
+    "it",
+    "dependencies",
+    "coreference resolution",
+    "information",
+    "global dependencies",
+    "we",
+    "graph",
+    "coreference",
+    "manner",
+    "that",
+    "predictions"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.215/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.212",
+  "title": "Adversarial Textual Robustness on Visual Dialog",
+  "authors": [
+    "Yu, Lu  and\nRieser, Verena"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Adversarial robustness evaluates the worst-case performance scenario of a machine learning model to ensure its safety and reliability. For example, cases where the user input contains a minimal change, e.g. a synonym, which causes the previously correct model to return a wrong answer. Using this scenario, this study is the first to investigate the robustness of visually grounded dialog models towards textual attacks. We first aim to understand how multimodal input components contribute to model robustness. Our results show that models which encode dialog history are more robust by providing redundant information. This is in contrast to prior work which finds that dialog history is negligible for model performance on this task. We also evaluate how to generate adversarial test examples which successfully fool the model but remain undetected by the user/software designer. Our analysis shows that the textual, as well as the visual context are important to generate plausible attacks.",
+  "keywords": [
+    "encode",
+    "we",
+    "answer",
+    "a machine learning model",
+    "designer",
+    "information",
+    "learning",
+    "visual",
+    "analysis",
+    "work",
+    "model",
+    "machine",
+    "the user software designer",
+    "dialog",
+    "scenario"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.212/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

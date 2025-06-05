@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.456",
+  "title": "Neural-Symbolic Solver for Math Word Problems with Auxiliary Tasks",
+  "authors": [
+    "Qin, Jinghui  and\nLiang, Xiaodan  and\nHong, Yining  and\nTang, Jianheng  and\nLin, Liang"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Previous math word problem solvers following the encoder-decoder paradigm fail to explicitly incorporate essential math symbolic constraints, leading to unexplainable and unreasonable predictions. Herein, we propose Neural-Symbolic Solver (NS-Solver) to explicitly and seamlessly incorporate different levels of symbolic constraints by auxiliary tasks. Our NS-Solver consists of a problem reader to encode problems, a programmer to generate symbolic equations, and a symbolic executor to obtain answers. Along with target expression supervision, our solver is also optimized via 4 new auxiliary objectives to enforce different symbolic reasoning: a) self-supervised number prediction task predicting both number quantity and number locations; b) commonsense constant prediction task predicting what prior knowledge (e.g. how many legs a chicken has) is required; c) program consistency checker computing the semantic loss between predicted equation and target equation to ensure reasonable equation mapping; d) duality exploiting task exploiting the quasi-duality between symbolic equation generation and problem’s part-of-speech generation to enhance the understanding ability of a solver. Besides, to provide a more realistic and challenging benchmark for developing a universal and scalable solver, we also construct a new largescale MWP benchmark CM17K consisting of 4 kinds of MWPs (arithmetic, one-unknown linear, one-unknown non-linear, equation set) with more than 17K samples. Extensive experiments on Math23K and our CM17k demonstrate the superiority of our NS-Solver compared to state-of-the-art methods.",
+  "keywords": [
+    "objectives",
+    "semantic",
+    "we",
+    "the semantic loss",
+    "neural",
+    "self",
+    "symbolic equation generation",
+    "decoder",
+    "loss",
+    "e",
+    "word",
+    "-",
+    "4 new auxiliary objectives",
+    "the encoder-decoder paradigm",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.456/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

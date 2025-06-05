@@ -1,0 +1,33 @@
+{
+  "id": "W19-4501",
+  "title": "Segmentation of Argumentative Texts with Contextualised Word Representations",
+  "authors": [
+    "Petasis, Georgios"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 6th Workshop on Argument Mining",
+  "abstract": "The segmentation of argumentative units is an important subtask of argument mining, which is frequently addressed at a coarse granularity, usually assuming argumentative units to be no smaller than sentences. Approaches focusing at the clause-level granularity, typically address the task as sequence labeling at the token level, aiming to classify whether a token begins, is inside, or is outside of an argumentative unit. Most approaches exploit highly engineered, manually constructed features, and algorithms typically used in sequential tagging – such as Conditional Random Fields, while more recent approaches try to exploit manually constructed features in the context of deep neural networks. In this context, we examined to what extend recent advances in sequential labelling allow to reduce the need for highly sophisticated, manually constructed features, and whether limiting features to embeddings, pre-trained on large corpora is a promising approach. Evaluation results suggest the examined models and approaches can exhibit comparable performance, minimising the need for feature engineering.",
+  "keywords": [
+    "deep",
+    "deep neural networks",
+    "we",
+    "fields",
+    "conditional random fields",
+    "neural",
+    "token",
+    "word",
+    "sequence",
+    "mining",
+    "embeddings",
+    "random",
+    "tagging",
+    "evaluation",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/W19-4501/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:51:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

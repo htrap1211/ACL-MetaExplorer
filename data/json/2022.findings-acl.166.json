@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.166",
+  "title": "Zero-shot Learning for Grapheme to Phoneme Conversion with Language Ensemble",
+  "authors": [
+    "Li, Xinjian  and\nMetze, Florian  and\nMortensen, David  and\nWatanabe, Shinji  and\nBlack, Alan"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Grapheme-to-Phoneme (G2P) has many applications in NLP and speech fields. Most existing work focuses heavily on languages with abundant training datasets, which limits the scope of target languages to less than 100 languages. This work attempts to apply zero-shot learning to approximate G2P models for all low-resource and endangered languages in Glottolog (about 8k languages). For any unseen target language, we first build the phylogenetic tree (i.e. language family tree) to identify top-knearest languages for which we have training sets. Then we run models of those languages to obtain a hypothesis set, which we combine into a confusion network to propose a most likely hypothesis as an approximation to the target language. We test our approach on over 600 unseen languages and demonstrate it significantly outperforms baselines.",
+  "keywords": [
+    "ensemble",
+    "work",
+    "i",
+    "language",
+    "nlp",
+    "it",
+    "nlp and speech fields",
+    "network",
+    "we",
+    "learning",
+    "fields",
+    "confusion",
+    "zero-shot learning",
+    "training",
+    "shot"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.166/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

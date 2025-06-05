@@ -1,0 +1,33 @@
+{
+  "id": "2022.bionlp-1.17",
+  "title": "Named Entity Recognition for Cancer Immunology Research Using Distant Supervision",
+  "authors": [
+    "Trieu, Hai-Long  and\nMiwa, Makoto  and\nAnaniadou, Sophia"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 21st Workshop on Biomedical Language Processing",
+  "abstract": "Cancer immunology research involves several important cell and protein factors. Extracting the information of such cells and proteins and the interactions between them from text are crucial in text mining for cancer immunology research. However, there are few available datasets for these entities, and the amount of annotated documents is not sufficient compared with other major named entity types. In this work, we introduce our automatically annotated dataset of key named entities, i.e., T-cells, cytokines, and transcription factors, which engages the recent cancer immunotherapy. The entities are annotated based on the UniProtKB knowledge base using dictionary matching. We build a neural named entity recognition (NER) model to be trained on this dataset and evaluate it on a manually-annotated data. Experimental results show that we can achieve a promising NER performance even though our data is automatically annotated. Our dataset also enhances the NER performance when combined with existing data, especially gaining improvement in yet investigated named entities such as cytokines and transcription factors.",
+  "keywords": [
+    "work",
+    "text mining",
+    "knowledge",
+    "ner",
+    "neural",
+    "model",
+    "entities",
+    "text",
+    "it",
+    "a promising ner performance",
+    "key named entities",
+    "information",
+    "sufficient",
+    "the ner performance",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2022.bionlp-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.147",
+  "title": "Improving Relation Extraction through Syntax-induced Pre-training with Dependency Masking",
+  "authors": [
+    "Tian, Yuanhe  and\nSong, Yan  and\nXia, Fei"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Relation extraction (RE) is an important natural language processing task that predicts the relation between two given entities, where a good understanding of the contextual information is essential to achieve an outstanding model performance. Among different types of contextual information, the auto-generated syntactic information (namely, word dependencies) has shown its effectiveness for the task. However, most existing studies require modifications to the existing baseline architectures (e.g., adding new components, such as GCN, on the top of an encoder) to leverage the syntactic information. To offer an alternative solution, we propose to leverage syntactic information to improve RE by training a syntax-induced encoder on auto-parsed data through dependency masking. Specifically, the syntax-induced encoder is trained by recovering the masked dependency connections and types in first, second, and third orders, which significantly differs from existing studies that train language models or word embeddings by predicting the context words along the dependency paths. Experimental results on two English benchmark datasets, namely, ACE2005EN and SemEval 2010 Task 8 datasets, demonstrate the effectiveness of our approach for RE, where our approach outperforms strong baselines and achieve state-of-the-art results on both datasets.",
+  "keywords": [
+    "extraction",
+    "two given entities",
+    "most existing studies",
+    "the auto-generated syntactic information",
+    "we",
+    "syntax",
+    "training",
+    "the masked dependency connections",
+    "natural",
+    "dependency masking relation extraction",
+    "dependencies",
+    "information",
+    "word",
+    "existing studies",
+    "processing"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.147/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

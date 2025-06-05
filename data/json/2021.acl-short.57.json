@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.57",
+  "title": "Training Adaptive Computation for Open-Domain Question Answering with Computational Constraints",
+  "authors": [
+    "Wu, Yuxiang  and\nMinervini, Pasquale  and\nStenetorp, Pontus  and\nRiedel, Sebastian"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Adaptive Computation (AC) has been shown to be effective in improving the efficiency of Open-Domain Question Answering (ODQA) systems. However, the current AC approaches require tuning of all model parameters, and training state-of-the-art ODQA models requires significant computational resources that may not be available for most researchers. We propose Adaptive Passage Encoder, an AC method that can be applied to an existing ODQA model and can be trained efficiently on a single GPU. It keeps the parameters of the base ODQA model fixed, but it overrides the default layer-by-layer computation of the encoder with an AC policy that is trained to optimise the computational efficiency of the model. Our experimental results show that our method improves upon a state-of-the-art model on two datasets, and is also more accurate than previous AC methods due to the stronger base ODQA model. All source code and datasets are available athttps://github.com/uclnlp/APE.",
+  "keywords": [
+    "the encoder",
+    "code",
+    "tuning",
+    "odqa",
+    "odqa systems",
+    "model",
+    "it",
+    "the efficiency",
+    "encoder",
+    "question",
+    "layer",
+    "efficiency",
+    "the base odqa model",
+    "we",
+    "an existing odqa model"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.57/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.gem-1.8",
+  "title": "Evaluating Text Generation from Discourse Representation Structures",
+  "authors": [
+    "Wang, Chunliu  and\nvan Noord, Rik  and\nBisazza, Arianna  and\nBos, Johan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Natural Language Generation, Evaluation, and Metrics (GEM 2021)",
+  "abstract": "We present an end-to-end neural approach to generate English sentences from formal meaning representations, Discourse Representation Structures (DRSs). We use a rather standard bi-LSTM sequence-to-sequence model, work with a linearized DRS input representation, and evaluate character-level and word-level decoders. We obtain very encouraging results in terms of reference-based automatic metrics such as BLEU. But because such metrics only evaluate the surface level of generated output, we develop a new metric, ROSE, that targets specific semantic phenomena. We do this with five DRS generation challenge sets focusing on tense, grammatical number, polarity, named entities and quantities. The aim of these challenge sets is to assess the neural generator’s systematicity and generalization to unseen inputs.",
+  "keywords": [
+    "work",
+    "reference",
+    "specific semantic phenomena",
+    "end",
+    "generation",
+    "generated output",
+    "neural",
+    "model",
+    "metric",
+    "entities",
+    "reference-based automatic metrics",
+    "text",
+    "metrics",
+    "bleu",
+    "such metrics"
+  ],
+  "url": "https://aclanthology.org/2021.gem-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

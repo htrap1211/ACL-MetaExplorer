@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.16",
+  "title": "Query and Extract: Refining Event Extraction as Type-oriented Binary Decoding",
+  "authors": [
+    "Wang, Sijia  and\nYu, Mo  and\nChang, Shiyu  and\nSun, Lichao  and\nHuang, Lifu"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Event extraction is typically modeled as a multi-class classification problem where event types and argument roles are treated as atomic symbols. These approaches are usually limited to a set of pre-defined types. We propose a novel event extraction framework that uses event types and argument roles as natural language queries to extract candidate triggers and arguments from the input text. With the rich semantics in the queries, our framework benefits from the attention mechanisms to better capture the semantic correlation between the event types or argument roles and the input text. Furthermore, the query-and-extract formulation allows our approach to leverage all available event annotations from various ontologies as a unified model. Experiments on ACE and ERE demonstrate that our approach achieves state-of-the-art performance on each dataset and significantly outperforms existing methods on zero-shot event extraction.",
+  "keywords": [
+    "the rich semantics",
+    "the attention mechanisms",
+    "extraction",
+    "natural language queries",
+    "semantic",
+    "we",
+    "shot",
+    "zero-shot event extraction",
+    "classification",
+    "natural",
+    "ontologies",
+    "semantics",
+    "various ontologies",
+    "queries",
+    "unified"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.16/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.323",
+  "title": "Rare and Zero-shot Word Sense Disambiguation using {Z}-Reweighting",
+  "authors": [
+    "Su, Ying  and\nZhang, Hongming  and\nSong, Yangqiu  and\nZhang, Tong"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Word sense disambiguation (WSD) is a crucial problem in the natural language processing (NLP) community. Current methods achieve decent performance by utilizing supervised learning and large pre-trained language models. However, the imbalanced training dataset leads to poor performance on rare senses and zero-shot senses. There are more training instances and senses for words with top frequency ranks than those with low frequency ranks in the training dataset. We investigate the statistical relation between word frequency rank and word sense number distribution. Based on the relation, we propose a Z-reweighting method on the word level to adjust the training on the imbalanced dataset. The experiments show that the Z-reweighting strategy achieves performance gain on the standard English all words WSD benchmark. Moreover, the strategy can help models generalize better on rare and zero-shot senses.",
+  "keywords": [
+    "processing",
+    "language",
+    "large pre-trained language models",
+    "nlp",
+    "natural",
+    "zero-shot senses",
+    "word",
+    "we",
+    "learning",
+    "pre",
+    "current",
+    "rare and zero-shot senses",
+    "shot",
+    "training",
+    "the statistical relation"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.323/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:28:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

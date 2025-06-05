@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.902",
+  "title": "Model Editing at Scale leads to Gradual and Catastrophic Forgetting",
+  "authors": [
+    "Gupta, Akshat  and\nRao, Anurag  and\nAnumanchipalli, Gopala"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Editing knowledge in large language models is an attractive capability that allows us to correct incorrectly learned facts during pre-training, as well as update the model with an ever-growing list of new facts. While existing model editing techniques have shown promise, they are usually evaluated using metrics for reliability, specificity and generalization over one or few edits. We argue that for model editing to have practical utility, we must be able to make multiple edits to the same model. With this in mind, we evaluate current model editing methods at scale, focusing on two state of the art methods - ROME and MEMIT. With the lens of scalability, we evaluate model editing methods for three crucial properties - editing proficiency, fact forgetting and downstream performance. We find that as a model is edited sequentially with multiple facts, it continually becomes less editable, forgets previously edited facts and loses the ability to perform downstream tasks. For ROME and MEMIT, this “forgetting” happens in two phases - an initial gradual but progressive forgetting phase followed by an abrupt or catastrophic forgetting. Both gradual and catastrophic forgetting limit the usefulness of model editing methods at scale - the former makes model editing less effective as multiple edits are made to the model while the latter caps the scalability of such model editing methods. Our analysis also highlights other key limitations of ROME and MEMIT at scale. With our work, we push for better evaluation of model editing and development of model editing methods keeping scalability in mind.",
+  "keywords": [
+    "we",
+    "current",
+    "training",
+    "it",
+    "properties",
+    "analysis",
+    "metrics",
+    "-",
+    "generalization",
+    "work",
+    "proficiency",
+    "knowledge",
+    "better evaluation",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.902/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:00:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

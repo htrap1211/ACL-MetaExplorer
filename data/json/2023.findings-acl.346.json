@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.346",
+  "title": "Multi-modal Sarcasm Generation: Dataset and Solution",
+  "authors": [
+    "Zhao, Wenye  and\nHuang, Qingbao  and\nXu, Dongsheng  and\nZhao, Peizhi"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "As an interesting and challenging task, sarcasm generation has attracted widespread attention. Although very recent studies have made promising progress, none of them considers generating a sarcastic description for a given image - as what people are doing on Twitter. In this paper, we present a Multi-modal Sarcasm Generation (MSG) task: Given an image with hashtags that provide the sarcastic target, MSG aims to generate sarcastic descriptions like humans. Different from textual sarcasm generation, MSG is more challenging as it is difficult to accurately capture the key information from images, hashtags, and OCR tokens and exploit multi-modal incongruity to generate sarcastic descriptions. To support the research on MSG, we develop MuSG, a new dataset with 5000 images and related Twitter text. We also propose a multi-modal Transformer-based method as a solution to this MSG task. The input features are embedded in the common space and passed through the multi-modal Transformer layers to generate the sarcastic descriptions by the auto-regressive paradigm. Both automatic and manual evaluations demonstrate the superiority of our method. The dataset and code will be available soon.",
+  "keywords": [
+    "code",
+    "we",
+    "a multi-modal transformer-based method",
+    "it",
+    "very recent studies",
+    "information",
+    "widespread attention",
+    "incongruity",
+    "text",
+    "multi-modal sarcasm generation dataset",
+    "a multi-modal sarcasm generation",
+    "the multi-modal transformer layers",
+    "transformer",
+    "generation",
+    "studies"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.346/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:58:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

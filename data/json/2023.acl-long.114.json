@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.114",
+  "title": "Divide, Conquer, and Combine: Mixture of Semantic-Independent Experts for Zero-Shot Dialogue State Tracking",
+  "authors": [
+    "Wang, Qingyue  and\nDing, Liang  and\nCao, Yanan  and\nZhan, Yibing  and\nLin, Zheng  and\nWang, Shi  and\nTao, Dacheng  and\nGuo, Li"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Zero-shot transfer learning for Dialogue State Tracking (DST) helps to handle a variety of task-oriented dialogue domains without the cost of collecting in-domain data. Existing works mainly study common data- or model-level augmentation methods to enhance the generalization but fail to effectively decouple semantics of samples, limiting the zero-shot performance of DST. In this paper, we present a simple and effective “divide, conquer and combine” solution, which explicitly disentangles the semantics of seen data, and leverages the performance and robustness with the mixture-of-experts mechanism. Specifically, we divide the seen data into semantically independent subsets and train corresponding experts, the newly unseen samples are mapped and inferred with mixture-of-experts with our designed ensemble inference. Extensive experiments on MultiWOZ2.1 upon T5-Adapter show our schema significantly and consistently improves the zero-shot performance, achieving the SOTA on settings without external knowledge, with only 10M trainable parameters.",
+  "keywords": [
+    "task-oriented dialogue domains",
+    "the zero-shot performance",
+    "ensemble",
+    "variety",
+    "knowledge",
+    "model",
+    "semantics",
+    "the semantics",
+    "the generalization",
+    "dialogue state tracking",
+    "semantically independent subsets",
+    "generalization",
+    "semantic-independent experts",
+    "semantic",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.114/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:36:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

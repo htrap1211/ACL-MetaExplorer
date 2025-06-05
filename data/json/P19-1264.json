@@ -1,0 +1,33 @@
+{
+  "id": "P19-1264",
+  "title": "Sentence Mover{'}s Similarity: Automatic Evaluation for Multi-Sentence Texts",
+  "authors": [
+    "Clark, Elizabeth  and\nCelikyilmaz, Asli  and\nSmith, Noah A."
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "For evaluating machine-generated texts, automatic methods hold the promise of avoiding collection of human judgments, which can be expensive and time-consuming. The most common automatic metrics, like BLEU and ROUGE, depend on exact word matching, an inflexible approach for measuring semantic similarity. We introduce methods based on sentence mover’s similarity; our automatic metrics evaluate text in a continuous space using word and sentence embeddings. We find that sentence-based metrics correlate with human judgments significantly better than ROUGE, both on machine-generated summaries (average length of 3.4 sentences) and human-authored essays (average length of 7.5). We also show that sentence mover’s similarity can be used as a reward when learning a generation model via reinforcement learning; we present both automatic and human evaluations of summaries learned in this way, finding that our approach outperforms ROUGE.",
+  "keywords": [
+    "embeddings",
+    "reinforcement",
+    "summaries",
+    "generation",
+    "sentence-based metrics",
+    "model",
+    "machine",
+    "text",
+    "human",
+    "our automatic metrics",
+    "evaluations",
+    "metrics",
+    "machine-generated summaries",
+    "bleu",
+    "semantic"
+  ],
+  "url": "https://aclanthology.org/P19-1264/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:36:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

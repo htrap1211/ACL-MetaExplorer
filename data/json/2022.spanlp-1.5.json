@@ -1,0 +1,33 @@
+{
+  "id": "2022.spanlp-1.5",
+  "title": "Knowledge Base Index Compression via Dimensionality and Precision Reduction",
+  "authors": [
+    "Zouhar, Vil{\\'e}m  and\nMosbach, Marius  and\nZhang, Miaoran  and\nKlakow, Dietrich"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 1st Workshop on Semiparametric Methods in NLP: Decoupling Logic from Knowledge",
+  "abstract": "Recently neural network based approaches to knowledge-intensive NLP tasks, such as question answering, started to rely heavily on the combination of neural retrievers and readers. Retrieval is typically performed over a large textual knowledge base (KB) which requires significant memory and compute resources, especially when scaled up. On HotpotQA we systematically investigate reducing the size of the KB index by means of dimensionality (sparse random projections, PCA, autoencoders) and numerical precision reduction. Our results show that PCA is an easy solution that requires very little data and is only slightly worse than autoencoders, which are less stable. All methods are sensitive to pre- and post-processing and data should always be centered and normalized both before and after dimension reduction. Finally, we show that it is possible to combine PCA with using 1bit per dimension. Overall we achieve (1) 100×compression with 75%, and (2) 24×compression with 92% original retrieval performance.",
+  "keywords": [
+    "precision",
+    "dimensionality",
+    "numerical precision reduction",
+    "question",
+    "recently neural network",
+    "we",
+    "92 original retrieval performance",
+    "means",
+    "autoencoders",
+    "neural",
+    "it",
+    "hotpotqa",
+    "question answering",
+    "retrieval",
+    "pre-"
+  ],
+  "url": "https://aclanthology.org/2022.spanlp-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:46:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.657",
+  "title": "ICC} : Quantifying Image Caption Concreteness for Multimodal Dataset Curation",
+  "authors": [
+    "Yanuka, Moran  and\nAlper, Morris  and\nAverbuch-Elor, Hadar  and\nGiryes, Raja"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Web-scale training on paired text-image data is becoming increasingly central to multimodal learning, but is challenged by the highly noisy nature of datasets in the wild. Standard data filtering approaches succeed in removing mismatched text-image pairs, but permit semantically related but highly abstract or subjective text. These approaches lack the fine-grained ability to isolate the most concrete samples that provide the strongest signal for learning in a noisy dataset. In this work, we propose a new metric, Image Caption Concreteness (ICC), that evaluates caption text without an image reference to measure its concreteness and relevancy for use in multimodal learning. Our unsupervised approach leverages strong foundation models for measuring visual-semantic information loss in multimodal representations. We demonstrate that this strongly correlates with human evaluation of concreteness in both single-word and caption-level texts. Moreover, we show that curation using ICC complements existing approaches: It succeeds in selecting the highest quality samples from multimodal web-scale datasets to allow for efficient training in resource-constrained settings.",
+  "keywords": [
+    "efficient",
+    "semantic",
+    "we",
+    "training",
+    "human evaluation",
+    "it",
+    "loss",
+    "information",
+    "word",
+    "learning",
+    "visual-semantic information loss",
+    "visual",
+    "metric",
+    "text",
+    "efficient training"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.657/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.491",
+  "title": "CLEVE}: {C}ontrastive {P}re-training for {E}vent {E}xtraction",
+  "authors": [
+    "Wang, Ziqi  and\nWang, Xiaozhi  and\nHan, Xu  and\nLin, Yankai  and\nHou, Lei  and\nLiu, Zhiyuan  and\nLi, Peng  and\nLi, Juanzi  and\nZhou, Jie"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Event extraction (EE) has considerably benefited from pre-trained language models (PLMs) by fine-tuning. However, existing pre-training methods have not involved modeling event characteristics, resulting in the developed EE models cannot take full advantage of large-scale unsupervised data. To this end, we propose CLEVE, a contrastive pre-training framework for EE to better learn event knowledge from large unsupervised data and their semantic structures (e.g. AMR) obtained with automatic parsers. CLEVE contains a text encoder to learn event semantics and a graph encoder to learn event structures respectively. Specifically, the text encoder learns event semantic representations by self-supervised contrastive learning to represent the words of the same events closer than those unrelated words; the graph encoder learns event structure representations by graph contrastive pre-training on parsed event-related semantic structures. The two complementary representations then work together to improve both the conventional supervised EE and the unsupervised “liberal” EE, which requires jointly extracting events and discovering event schemata without any annotated data. Experiments on ACE 2005 and MAVEN datasets show that CLEVE achieves significant improvements, especially in the challenging unsupervised setting. The source code and pre-trained checkpoints can be obtained fromhttps://github.com/THU-KEG/CLEVE.",
+  "keywords": [
+    "code",
+    "end",
+    "extraction",
+    "semantic",
+    "we",
+    "a contrastive pre-training framework",
+    "graph",
+    "training",
+    "event semantics",
+    "semantics",
+    "their semantic structures",
+    "the graph encoder",
+    "self",
+    "xtraction",
+    "pre-trained language models plms"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.491/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

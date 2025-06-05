@@ -1,0 +1,33 @@
+{
+  "id": "P19-1515",
+  "title": "Incorporating Linguistic Constraints into Keyphrase Generation",
+  "authors": [
+    "Zhao, Jing  and\nZhang, Yuxiang"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Keyphrases, that concisely describe the high-level topics discussed in a document, are very useful for a wide range of natural language processing tasks. Though existing keyphrase generation methods have achieved remarkable performance on this task, they generate many overlapping phrases (including sub-phrases or super-phrases) of keyphrases. In this paper, we propose the parallel Seq2Seq network with the coverage attention to alleviate the overlapping phrase problem. Specifically, we integrate the linguistic constraints of keyphrase into the basic Seq2Seq network on the source side, and employ the multi-task learning framework on the target side. In addition, in order to prevent from generating overlapping phrases of keyphrases with correct syntax, we introduce the coverage vector to keep track of the attention history and to decide whether the parts of source text have been covered by existing generated keyphrases. Experimental results show that our method can outperform the state-of-the-art CopyRNN on scientific datasets, and is also more effective in news domain.",
+  "keywords": [
+    "natural language processing tasks",
+    "we",
+    "syntax",
+    "natural",
+    "the basic seq2seq network",
+    "the coverage attention",
+    "the parallel seq2seq network",
+    "scientific",
+    "scientific datasets",
+    "seq2seq",
+    "existing keyphrase generation methods",
+    "processing",
+    "vector",
+    "text",
+    "-"
+  ],
+  "url": "https://aclanthology.org/P19-1515/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:43:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

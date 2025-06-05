@@ -1,0 +1,33 @@
+{
+  "id": "P17-1191",
+  "title": "Ontology-Aware Token Embeddings for Prepositional Phrase Attachment",
+  "authors": [
+    "Dasigi, Pradeep  and\nAmmar, Waleed  and\nDyer, Chris  and\nHovy, Eduard"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Type-level word embeddings use the same set of parameters to represent all instances of a word regardless of its context, ignoring the inherent lexical ambiguity in language. Instead, we embed semantic concepts (or synsets) as defined in WordNet and represent a word token in a particular context by estimating a distribution over relevant semantic concepts. We use the new, context-sensitive embeddings in a model for predicting prepositional phrase (PP) attachments and jointly learn the concept embeddings and model parameters. We show that using context-sensitive embeddings improves the accuracy of the PP attachment model by 5.4% absolute points, which amounts to a 34.4% relative reduction in errors.",
+  "keywords": [
+    "embeddings",
+    "the accuracy",
+    "language",
+    "the new context-sensitive embeddings",
+    "model",
+    "the concept embeddings",
+    "token",
+    "context-sensitive embeddings",
+    "wordnet",
+    "semantic",
+    "word",
+    "we",
+    "ontology-aware token embeddings",
+    "ontology",
+    "relevant semantic concepts"
+  ],
+  "url": "https://aclanthology.org/P17-1191/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:01:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

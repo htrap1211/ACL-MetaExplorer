@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.75",
+  "title": "hub at {S}em{E}val-2021 Task 1: Fusion of Sentence and Word Frequency to Predict Lexical Complexity",
+  "authors": [
+    "Huang, Bo  and\nBai, Yang  and\nZhou, Xiaobing"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "In this paper, we propose a method of fusing sentence information and word frequency information for the SemEval 2021 Task 1-Lexical Complexity Prediction (LCP) shared task. In our system, the sentence information comes from the RoBERTa model, and the word frequency information comes from the Tf-Idf algorithm. Use Inception block as a shared layer to learn sentence and word frequency information We described the implementation of our best system and discussed our methods and experiments in the task. The shared task is divided into two sub-tasks. The goal of the two sub-tasks is to predict the complexity of a predetermined word. The shared task is divided into two subtasks. The goal of the two subtasks is to predict the complexity of a predetermined word. The evaluation index of the task is the Pearson correlation coefficient. Our best performance system has Pearson correlation coefficients of 0.7434 and 0.8000 in the single-token subtask test set and the multi-token subtask test set, respectively.",
+  "keywords": [
+    "roberta",
+    "pearson correlation coefficients",
+    "em",
+    "the roberta model",
+    "model",
+    "the evaluation index",
+    "token",
+    "-",
+    "information",
+    "layer",
+    "we",
+    "word",
+    "fusion",
+    "evaluation",
+    "coefficients"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.75/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:20:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

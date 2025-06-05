@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.427",
+  "title": "Analysing The Impact of Sequence Composition on Language Model Pre-Training",
+  "authors": [
+    "Zhao, Yu  and\nQu, Yuanbin  and\nStaniszewski, Konrad  and\nTworkowski, Szymon  and\nLiu, Wei  and\nMi{\\l}o{\\'s}, Piotr  and\nWu, Yuxiang  and\nMinervini, Pasquale"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Most language model pre-training frameworks concatenate multiple documents into fixed-length sequences and usecausal maskingto compute the likelihood of each token given its context; this strategy is widely adopted due to its simplicity and efficiency. However, to this day, the influence of the pre-training sequence composition strategy on the generalisation properties of the model remains under-explored.In this work, we find that applying causal masking can lead to the inclusion of distracting information from previous documents during pre-training, which negatively impacts the performance of the models on language modelling and downstream tasks. Inintra-document causal masking, the likelihood of each token is only conditioned on the previous tokens in the same document, eliminating potential distracting information from previous documents and significantly improving performance. Furthermore, we find that concatenating related documents can reduce some potential distractions during pre-training, and our proposed efficient retrieval-based sequence construction method, Bm25Chunk, can improve in-context learning (+11.6%), knowledge memorisation (+9.8%), and context utilisation (+7.2%) abilities of language models without sacrificing efficiency.",
+  "keywords": [
+    "efficient",
+    "efficiency",
+    "we",
+    "training",
+    "the generalisation properties",
+    "generalisation",
+    "token",
+    "properties",
+    "retrieval",
+    "information",
+    "sequence",
+    "pre-training frameworks",
+    "most language model",
+    "abilities",
+    "language model"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.427/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:40:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

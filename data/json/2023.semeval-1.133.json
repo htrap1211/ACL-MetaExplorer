@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.133",
+  "title": "HHS} at {S}em{E}val-2023 Task 10: A Comparative Analysis of Sexism Detection Based on the {R}o{BERT}a Model",
+  "authors": [
+    "Zhang, Yao  and\nWang, Liqing"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper describes the methods and models applied by our team HHS in SubTask-A of SemEval-2023 Task 10 about sexism detection. In this task, we trained with the officially released data and analyzed the performance of five models, TextCNN, BERT, RoBERTa, XLNet, and Sup-SimCSE-RoBERTa. The experiments show that most of the models can achieve good results. Then, we tried data augmentation, model ensemble, dropout, and other operations on several of these models, and compared the results for analysis. In the end, the most effective approach that yielded the best results on the test set involved the following steps: enhancing the sexist data using dropout, feeding it as input to the Sup-SimCSE-RoBERTa model, and providing the raw data as input to the XLNet model. Then, combining the outputs of the two methods led to even better results. This method yielded a Macro-F1 score of 0.823 in the final evaluation phase of the SubTask-A of the competition.",
+  "keywords": [
+    "roberta",
+    "a macro-f1 score",
+    "end",
+    "the r o bert",
+    "we",
+    "sup",
+    "ensemble",
+    "textcnn",
+    "it",
+    "sup-simcse-roberta",
+    "analysis",
+    "bert",
+    "model",
+    "the sup-simcse-roberta model",
+    "the final evaluation phase"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.133/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:28:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

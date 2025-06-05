@@ -1,0 +1,33 @@
+{
+  "id": "2021.wat-1.30",
+  "title": "ANVITA} Machine Translation System for {WAT} 2021 {M}ulti{I}ndic{MT} Shared Task",
+  "authors": [
+    "Vegi, Pavanpankaj  and\nJ, Sivabhavani  and\nPaul, Biswajit  and\nViswanathan, Chitra  and\nK R, Prasanna Kumar"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 8th Workshop on Asian Translation (WAT2021)",
+  "abstract": "This paper describes ANVITA-1.0 MT system, architected for submission to WAT2021 MultiIndicMT shared task by mcairt team, where the team participated in 20 translation directions: English→Indic and Indic→English; Indic set comprised of 10 Indian languages. ANVITA-1.0 MT system comprised of two multi-lingual NMT models one for the English→Indic directions and other for the Indic→English directions with shared encoder-decoder, catering 10 language pairs and twenty translation directions. The base models were built based on Transformer architecture and trained over MultiIndicMT WAT 2021 corpora and further employed back translation and transliteration for selective data augmentation, and model ensemble for better generalization. Additionally, MultiIndicMT WAT 2021 corpora was distilled using a series of filtering operations before putting up for training. ANVITA-1.0 achieved highest AM-FM score for English→Bengali, 2nd for English→Tamil and 3rd for English→Hindi, Bengali→English directions on official test set. In general, performance achieved by ANVITA for the Indic→English directions are relatively better than that of English→Indic directions for all the 10 language pairs when evaluated using BLEU and RIBES, although the same trend is not observed consistently when AM-FM based evaluation was carried out. As compared to BLEU, RIBES and AM-FM based scoring placed ANVITA relatively better among all the task participants.",
+  "keywords": [
+    "bleu",
+    "series",
+    "training",
+    "translation",
+    "transformer architecture",
+    "ensemble",
+    "decoder",
+    "am-fm based evaluation",
+    "generalization",
+    "transformer",
+    "a series",
+    "general",
+    "language",
+    "20 translation directions",
+    "machine"
+  ],
+  "url": "https://aclanthology.org/2021.wat-1.30/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

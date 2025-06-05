@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.215",
+  "title": "Interpretable and Low-Resource Entity Matching via Decoupling Feature Learning from Decision Making",
+  "authors": [
+    "Yao, Zijun  and\nLi, Chengjiang  and\nDong, Tiansi  and\nLv, Xin  and\nYu, Jifan  and\nHou, Lei  and\nLi, Juanzi  and\nZhang, Yichi  and\nDai, Zelin"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Entity Matching (EM) aims at recognizing entity records that denote the same real-world object. Neural EM models learn vector representation of entity descriptions and match entities end-to-end. Though robust, these methods require many annotated resources for training, and lack of interpretability. In this paper, we propose a novel EM framework that consists of Heterogeneous Information Fusion (HIF) and Key Attribute Tree (KAT) Induction to decouple feature representation from matching decision. Using self-supervised learning and mask mechanism in pre-trained language modeling, HIF learns the embeddings of noisy attribute values by inter-attribute attention with unlabeled data. Using a set of comparison features and a limited amount of annotated data, KAT Induction learns an efficient decision tree that can be interpreted by generating entity matching rules whose structure is advocated by domain experts. Experiments on 6 public datasets and 3 industrial datasets show that our method is highly efficient and outperforms SOTA EM models in most cases. We will release the codes upon acceptance.",
+  "keywords": [
+    "end",
+    "em",
+    "efficient",
+    "we",
+    "fusion",
+    "training",
+    "neural",
+    "vector representation",
+    "self",
+    "information",
+    "learning",
+    "inter-attribute attention",
+    "the embeddings",
+    "vector",
+    "object"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.215/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:02:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

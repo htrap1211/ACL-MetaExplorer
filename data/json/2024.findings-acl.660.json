@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.660",
+  "title": "Accelerating Multilingual Language Model for Excessively Tokenized Languages",
+  "authors": [
+    "Hong, Jimin  and\nLee, Gibbeum  and\nCho, Jaewoong"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Recent advancements in large language models (LLMs) have remarkably enhanced performances on a variety of tasks in multiple languages. However, tokenizers in LLMs trained primarily on English-centric corpora often overly fragment a text into character or Unicode-level tokens in non-Roman alphabetic languages, leading to inefficient text generation.We introduce a simple yet effective framework to accelerate text generation in such languages. Our approach involves employing a new language model head with a vocabulary set tailored to a specific target language for a pre-trained LLM. This is followed by fine-tuning the new head while incorporating a verification step to ensure the model’s performance is preserved.We show that this targeted fine-tuning, while freezing other model parameters, effectively reduces token fragmentation for the target language. Our extensive experiments demonstrate that the proposed framework increases the generation speed by a factor of 1.7 while maintaining the performance of pre-trained multilingual models on target monolingual tasks.",
+  "keywords": [
+    "variety",
+    "inefficient",
+    "we",
+    "llm",
+    "text generation",
+    "token",
+    "a pre-trained llm",
+    "a variety",
+    "multilingual language model",
+    "llms",
+    "tuning",
+    "this targeted fine-tuning",
+    "text",
+    "the generation speed",
+    "large language models llms"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.660/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

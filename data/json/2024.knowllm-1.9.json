@@ -1,0 +1,33 @@
+{
+  "id": "2024.knowllm-1.9",
+  "title": "Knowledge Acquisition through Continued Pretraining is Difficult: A Case Study on r/{A}sk{H}istorians",
+  "authors": [
+    "Hoffbauer, Jan  and\nSawicki, Sylwester  and\nUlrich, Marc  and\nBuz, Tolga  and\nDobler, Konstantin  and\nSchneider, Moritz  and\nDe Melo, Gerard"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Towards Knowledgeable Language Models (KnowLLM 2024)",
+  "abstract": "Powerful LLMs like ChatGPT are adopted rapidly for a wide array of tasks, but their limitations in domain-specific areas become apparent, particularly when prompted to recite facts. This is critical especially for knowledge workers, who are adopting LLM-based tools rapidly.While there are various techniques that can help ingest knowledge into LLMs such as instruction tuning and alignment, most have disadvantages. We examine the impact of prominent training techniques on LLMs’ knowledge accuracy using a knowledge-dense dataset that we curate from r/AskHistorians, a rich source of historical knowledge. We evaluate the impact of different models sizes from 1.3B to 7B parameters and other factors such as LoRA adapters, quantization, overfitting, and the inclusion of Reddit data in pretraining.In addition, we measure linguistic metrics and human and LLM-based preference. Our results suggest that pretraining and model size have a much stronger effect on knowledge accuracy than continued pretraining – unless the model is overfit to the tested knowledge.Fine-tuning on our Reddit dataset introduces less complex, but slightly more toxic language. Our study explores the challenges of injecting domain-specific datasets into LLMs and has implications for practitioners, e.g., when LLMs are to be fine-tuned with a company’s datasets.",
+  "keywords": [
+    "powerful llms",
+    "llm-based tools",
+    "we",
+    "linguistic metrics",
+    "training",
+    "instruction",
+    "human and llm-based preference",
+    "chatgpt",
+    "rich",
+    "llms",
+    "practitioners e g",
+    "instruction tuning",
+    "tuning",
+    "knowledge accuracy",
+    "h"
+  ],
+  "url": "https://aclanthology.org/2024.knowllm-1.9/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:07:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

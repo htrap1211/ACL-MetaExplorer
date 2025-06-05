@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.220",
+  "title": "Learned Incremental Representations for Parsing",
+  "authors": [
+    "Kitaev, Nikita  and\nLu, Thomas  and\nKlein, Dan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We present an incremental syntactic representation that consists of assigning a single discrete label to each word in a sentence, where the label is predicted using strictly incremental processing of a prefix of the sentence, and the sequence of labels for a sentence fully determines a parse tree. Our goal is to induce a syntactic representation that commits to syntactic choices only as they are incrementally revealed by the input, in contrast with standard representations that must make output choices such as attachments speculatively and later throw out conflicting analyses. Our learned representations achieve 93.72 F1 on the Penn Treebank with as few as 5 bits per word, and at 8 bits per word they achieve 94.97 F1, which is comparable with other state of the art parsing models when using the same pre-trained embeddings. We also provide an analysis of the representations learned by our system, investigating properties such as the interpretable syntactic features captured by the system and mechanisms for deferred resolution of syntactic ambiguities.",
+  "keywords": [
+    "94 97 f1",
+    "the art parsing models",
+    "we",
+    "ambiguities",
+    "properties",
+    "word",
+    "sequence",
+    "analysis",
+    "processing",
+    "the same pre-trained embeddings",
+    "syntactic ambiguities",
+    "embeddings",
+    "93 72 f1",
+    "pre",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.220/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:27:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

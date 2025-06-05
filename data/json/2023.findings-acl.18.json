@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.18",
+  "title": "MTGP}: Multi-turn Target-oriented Dialogue Guided by Generative Global Path with Flexible Turns",
+  "authors": [
+    "Liu, Anqi  and\nWang, Bo  and\nTan, Yue  and\nZhao, Dongming  and\nHuang, Kun  and\nHe, Ruifang  and\nHou, Yuexian"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Target-oriented dialogue guides the dialogue to a target quickly and smoothly. The latest approaches focus on global planning, which plans toward the target before the conversation instead of adopting a greedy strategy during the conversation. However, the global plan in existing works is fixed to certain turns by generating paths with certain nodes, which limits the optimization of turns and coherence of the target-oriented process. Toward flexible global planning, we propose to generate a global path as a natural language sentence instead of a sequence of nodes. With this path, the dialog is guided to the target with flexible turns of dialog. For model training, we also extract targetoriented dialogues from the chit-chat corpus with a knowledge graph. We conduct experiments on three datasets and simulate scenarios with and without user participation. The results show that our method has fewer turns, more coherent semantics, and a higher success rate in reaching the target than baselines.",
+  "keywords": [
+    "rate",
+    "we",
+    "dialogue",
+    "the optimization",
+    "graph",
+    "training",
+    "natural",
+    "semantics",
+    "sequence",
+    "the conversation",
+    "generative",
+    "mtgp multi-turn target-oriented dialogue",
+    "flexible turns target-oriented dialogue",
+    "more coherent semantics",
+    "chat"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.18/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

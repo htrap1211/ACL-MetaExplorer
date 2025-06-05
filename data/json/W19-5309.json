@@ -1,0 +1,33 @@
+{
+  "id": "W19-5309",
+  "title": "DBMS}-{KU} Interpolation for {WMT}19 News Translation Task",
+  "authors": [
+    "Budiwati, Sari Dewi  and\nSiagian, Al Hafiz Akbar Maulana  and\nFatyanosa, Tirana Noor  and\nAritsugi, Masayoshi"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1)",
+  "abstract": "This paper presents the participation of DBMS-KU Interpolation system in WMT19 shared task, namely, Kazakh-English language pair. We examine the use of interpolation method using a different language model order. Our Interpolation system combines a direct translation with Russian as a pivot language. We use 3-gram and 5-gram language model orders to perform the language translation in this work. To reduce noise in the pivot translation process, we prune the phrase table of source-pivot and pivot-target. Our experimental results show that our Interpolation system outperforms the Baseline in terms of BLEU-cased score by +0.5 and +0.1 points in Kazakh-English and English-Kazakh, respectively. In particular, using the 5-gram language model order in our system could obtain better BLEU-cased score than utilizing the 3-gram one. Interestingly, we found that by employing the Interpolation system could reduce the perplexity score of English-Kazakh when using 3-gram language model order.",
+  "keywords": [
+    "work",
+    "process",
+    "language",
+    "model",
+    "19 news translation task",
+    "the perplexity score",
+    "5-gram language model orders",
+    "bleu",
+    "perplexity",
+    "bleu-cased score",
+    "better bleu-cased score",
+    "the language translation",
+    "the pivot translation process",
+    "3-gram language model order",
+    "we"
+  ],
+  "url": "https://aclanthology.org/W19-5309/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:54:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

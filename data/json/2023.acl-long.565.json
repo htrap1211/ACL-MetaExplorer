@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.565",
+  "title": "Language Detoxification with Attribute-Discriminative Latent Space",
+  "authors": [
+    "Kwak, Jin Myung  and\nKim, Minseon  and\nHwang, Sung Ju"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Transformer-based Language Models (LMs) have achieved impressive results on natural language understanding tasks, but they can also generate toxic text such as insults, threats, and profanity, limiting their real-world applications. To overcome this issue, a few text generation approaches aim to detoxify toxic texts using additional LMs or perturbations. However, previous methods require excessive memory, computations, and time which are serious bottlenecks in their real-world application. To address such limitations, we propose an effective yet efficient method for language detoxification using an attribute-discriminative latent space. Specifically, we project the latent space of an original Transformer LM onto a discriminative latent space that well-separates texts by their attributes using a projection block and an attribute discriminator. This allows the LM to control the text generation to be non-toxic with minimal memory and computation overhead. We validate our model, Attribute-Discriminative Language Model (ADLM) on detoxified language and dialogue generation tasks, on which our method significantly outperforms baselines both in performance and efficiency.",
+  "keywords": [
+    "the text generation",
+    "efficient",
+    "efficiency",
+    "detoxified language",
+    "we",
+    "dialogue",
+    "natural",
+    "latent",
+    "text",
+    "an original transformer",
+    "transformer",
+    "language",
+    "generation",
+    "model",
+    "detoxified"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.565/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

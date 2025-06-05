@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.272",
+  "title": "Guide the Many-to-One Assignment: Open Information Extraction via {I}o{U}-aware Optimal Transport",
+  "authors": [
+    "Wei, Kaiwen  and\nYang, Yiran  and\nJin, Li  and\nSun, Xian  and\nZhang, Zequn  and\nZhang, Jingyuan  and\nLi, Xiao  and\nZhang, Linhao  and\nLiu, Jintao  and\nZhi, Guo"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Open Information Extraction (OIE) seeks to extract structured information from raw text without the limitations of close ontology. Recently, the detection-based OIE methods have received great attention from the community due to their parallelism. However, as the essential step of those models, how to assign ground truth labels to the parallelly generated tuple proposals remains under-exploited. The commonly utilized Hungarian algorithm for this procedure is restricted to handling one-to-one assignment among the desired tuples and tuple proposals, which ignores the correlation between proposals and affects the recall of the models. To solve this problem, we propose a dynamic many-to-one label assignment strategy named IOT. Concretely, the label assignment process in OIE is formulated as an Optimal Transport (OT) problem. We leverage the intersection-over-union (IoU) as the assignment quality measurement, and convert the problem of finding the best assignment solution to the one of solving the optimal transport plan by maximizing the IoU values. To further utilize the knowledge from the assignment, we design an Assignment-guided Multi-granularity loss (AM) by simultaneously considering word-level and tuple-level information. Experiment results show the proposed method outperforms the state-of-the-art models on three benchmarks.",
+  "keywords": [
+    "extraction",
+    "the recall",
+    "we",
+    "great attention",
+    "loss",
+    "information",
+    "word",
+    "oie",
+    "the detection-based oie methods",
+    "close ontology",
+    "text",
+    "recall",
+    "process",
+    "knowledge",
+    "attention"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.272/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

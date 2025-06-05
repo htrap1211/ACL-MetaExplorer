@@ -1,0 +1,33 @@
+{
+  "id": "W19-4827",
+  "title": "From Balustrades to Pierre Vinken: Looking for Syntax in Transformer Self-Attentions",
+  "authors": [
+    "Mare{\\v{c}}ek, David  and\nRosa, Rudolf"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
+  "abstract": "We inspect the multi-head self-attention in Transformer NMT encoders for three source languages, looking for patterns that could have a syntactic interpretation. In many of the attention heads, we frequently find sequences of consecutive states attending to the same position, which resemble syntactic phrases. We propose a transparent deterministic method of quantifying the amount of syntactic information present in the self-attentions, based on automatically building and evaluating phrase-structure trees from the phrase-like sequences. We compare the resulting trees to existing constituency treebanks, both manually and by computing precision and recall.",
+  "keywords": [
+    "transformer",
+    "precision",
+    "the self-attentions",
+    "transformer nmt encoders",
+    "self",
+    "attentions",
+    "information",
+    "attention",
+    "we",
+    "the multi-head self-attention",
+    "transformer self-attentions",
+    "pierre",
+    "syntax",
+    "encoders",
+    "the attention heads"
+  ],
+  "url": "https://aclanthology.org/W19-4827/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:58:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

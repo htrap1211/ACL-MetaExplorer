@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.597",
+  "title": "Leveraging Synthetic Targets for Machine Translation",
+  "authors": [
+    "Mittal, Sarthak  and\nHrinchuk, Oleksii  and\nKuchaiev, Oleksii"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In this work, we provide a recipe for training machine translation models in a limited resource setting by leveraging synthetic target data generated using a large pre-trained model. We show that consistently across different benchmarks in bilingual, multilingual, and speech translation setups, training models on synthetic targets outperforms training on the actual ground-truth data. This performance gap grows bigger with increasing limits on the amount of available resources in the form of the size of the dataset and the number of parameters in the model. We also provide preliminary analysis into whether this boost in performance is linked to ease of optimization or more deterministic nature of the predictions, and whether this paradigm leads to better out-of-distribution performance across different testing domains.",
+  "keywords": [
+    "work",
+    "training machine translation models",
+    "machine",
+    "model",
+    "machine translation",
+    "optimization",
+    "form",
+    "boost",
+    "we",
+    "pre",
+    "analysis",
+    "training",
+    "translation",
+    "targets",
+    "recipe"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.597/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

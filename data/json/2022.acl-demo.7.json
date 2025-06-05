@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-demo.7",
+  "title": "Q}iu{N}iu: A {C}hinese Lyrics Generation System with Passage-Level Input",
+  "authors": [
+    "Zhang, Le  and\nZhang, Rongsheng  and\nMao, Xiaoxi  and\nChang, Yongzhu"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: System Demonstrations",
+  "abstract": "Lyrics generation has been a very popular application of natural language generation. Previous works mainly focused on generating lyrics based on a couple of attributes or keywords, rendering very limited control over the content of the lyrics. In this paper, we demonstrate the QiuNiu, a Chinese lyrics generation system which is conditioned on passage-level text rather than a few attributes or keywords. By using the passage-level text as input, the content of generated lyrics is expected to reflect the nuances of users’ needs. The QiuNiu system supports various forms of passage-level input, such as short stories, essays, poetry. The training of it is conducted under the framework of unsupervised machine translation, due to the lack of aligned passage-level text-to-lyrics corpus. We initialize the parameters of QiuNiu with a custom pretrained Chinese GPT-2 model and adopt a two-step process to finetune the model for better alignment between passage-level text and lyrics. Additionally, a postprocess module is used to filter and rerank the generated lyrics to select the ones of highest quality. The demo video of the system is available athttps://youtu.be/OCQNzahqWgM.",
+  "keywords": [
+    "we",
+    "training",
+    "translation",
+    "better alignment",
+    "unsupervised machine translation",
+    "natural",
+    "the generated lyrics",
+    "it",
+    "natural language generation",
+    "text",
+    "passage-level input lyrics generation",
+    "stories",
+    "generated lyrics",
+    "alignment",
+    "process"
+  ],
+  "url": "https://aclanthology.org/2022.acl-demo.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:34:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

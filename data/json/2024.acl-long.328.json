@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.328",
+  "title": "F}in{T}ext{QA}: A Dataset for Long-form Financial Question Answering",
+  "authors": [
+    "Chen, Jian  and\nZhou, Peilin  and\nHua, Yining  and\nXin, Loh  and\nChen, Kehui  and\nLi, Ziyuan  and\nZhu, Bing  and\nLiang, Junwei"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Accurate evaluation of financial question answering (QA) systems necessitates a comprehensive dataset encompassing diverse question types and contexts. However, current financial QA datasets lack scope diversity and question complexity. This work introduces FinTextQA, a novel dataset for long-form question answering (LFQA) in finance. FinTextQA comprises 1,262 high-quality, source-attributed QA pairs extracted and selected from finance textbooks and government agency websites.Moreover, we developed a Retrieval-Augmented Generation (RAG)-based LFQA system, comprising an embedder, retriever, reranker, and generator. A multi-faceted evaluation approach, including human ranking, automatic metrics, and GPT-4 scoring, was employed to benchmark the performance of different LFQA system configurations under heightened noisy conditions. The results indicate that: (1) Among all compared generators, Baichuan2-7B competes closely with GPT-3.5-turbo in accuracy score; (2) The most effective system configuration on our dataset involved setting the embedder, retriever, reranker, and generator as Ada2, Automated Merged Retrieval, Bge-Reranker-Base, and Baichuan2-7B, respectively; (3) models are less susceptible to noise after the length of contexts reaching a specific threshold. The dataset is publicly available at: https://huggingface.co/datasets/GPS-Lab/FinTextQA.",
+  "keywords": [
+    "t",
+    "ext",
+    "gps-lab fintextqa",
+    "different lfqa system configurations",
+    "question",
+    "form",
+    "we",
+    "generators",
+    "current",
+    "finance fintextqa",
+    "retrieval",
+    "lfqa",
+    "current financial qa datasets",
+    "metrics",
+    "gpt-4"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.328/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.506",
+  "title": "C}o{M}ix: Guide Transformers to Code-Mix using {POS} structure and Phonetics",
+  "authors": [
+    "Arora, Gaurav  and\nMerugu, Srujana  and\nSembium, Vivek"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Code-mixing is ubiquitous in multilingual societies, which makes it vital to build models for code-mixed data to power human language interfaces. Existing multilingual transformer models trained on pure corpora lack the ability to intermix words of one language into the structure of another. These models are also not robust to orthographic variations. We propose CoMixCoMix is not a trademark and only used to refer to our models for code-mixed data for presentational brevity., a pretraining approach to improve representation of code-mixed data in transformer models by incorporating phonetic signals, a modified attention mechanism, and weak supervision guided generation by parts-of-speech constraints. We show that CoMix improves performance across four code-mixed tasks: machine translation, sequence classification, named entity recognition (NER), and abstractive summarization. It also achieves the new SOTA performance for English-Hinglish translation and NER on LINCE Leaderboard and provides better generalization on out-of-domain translation. Motivated by variations in human annotations, we also propose a new family of metrics based on phonetics and demonstrate that the phonetic variant of BLEU correlates better with human judgement than BLEU on code-mixed text.",
+  "keywords": [
+    "code",
+    "transformers",
+    "weak supervision guided generation",
+    "bleu",
+    "summarization",
+    "we",
+    "multilingual societies",
+    "translation",
+    "classification",
+    "it",
+    "a modified attention mechanism",
+    "english-hinglish translation",
+    "sequence",
+    "ner",
+    "transformer models"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.506/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

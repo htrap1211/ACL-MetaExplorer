@@ -1,0 +1,33 @@
+{
+  "id": "2022.ecnlp-1.17",
+  "title": "Enhanced Representation with Contrastive Loss for Long-Tail Query Classification in e-commerce",
+  "authors": [
+    "Zhu, Lvxing  and\nChen, Hao  and\nWei, Chao  and\nZhang, Weiru"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Fifth Workshop on e-Commerce and NLP (ECNLP 5)",
+  "abstract": "Query classification is a fundamental task in an e-commerce search engine, which assigns one or multiple predefined product categories in response to each search query. Taking click-through logs as training data in deep learning methods is a common and effective approach for query classification. However, the frequency distribution of queries typically has long-tail property, which means that there are few logs for most of the queries. The lack of reliable user feedback information results in worse performance of long-tail queries compared with frequent queries. To solve the above problem, we propose a novel method that leverages an auxiliary module to enhance the representations of long-tail queries by taking advantage of reliable supervised information of variant frequent queries. The long-tail queries are guided by the contrastive loss to obtain category-aligned representations in the auxiliary module, where the variant frequent queries serve as anchors in the representation space. We train our model with real-world click data from AliExpress and conduct evaluation on both offline labeled data and online AB test. The results and further analysis demonstrate the effectiveness of our proposed method.",
+  "keywords": [
+    "deep",
+    "feedback",
+    "the long-tail queries",
+    "we",
+    "training",
+    "classification",
+    "e-commerce query classification",
+    "queries",
+    "loss",
+    "information",
+    "learning",
+    "frequent queries",
+    "the variant frequent queries",
+    "analysis",
+    "conduct evaluation"
+  ],
+  "url": "https://aclanthology.org/2022.ecnlp-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:42:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

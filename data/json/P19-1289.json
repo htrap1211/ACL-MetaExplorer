@@ -1,0 +1,33 @@
+{
+  "id": "P19-1289",
+  "title": "STACL}: Simultaneous Translation with Implicit Anticipation and Controllable Latency using Prefix-to-Prefix Framework",
+  "authors": [
+    "Ma, Mingbo  and\nHuang, Liang  and\nXiong, Hao  and\nZheng, Renjie  and\nLiu, Kaibo  and\nZheng, Baigong  and\nZhang, Chuanqiang  and\nHe, Zhongjun  and\nLiu, Hairong  and\nLi, Xing  and\nWu, Hua  and\nWang, Haifeng"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Simultaneous translation, which translates sentences before they are finished, is use- ful in many scenarios but is notoriously dif- ficult due to word-order differences. While the conventional seq-to-seq framework is only suitable for full-sentence translation, we pro- pose a novel prefix-to-prefix framework for si- multaneous translation that implicitly learns to anticipate in a single translation model. Within this framework, we present a very sim- ple yet surprisingly effective “wait-k” policy trained to generate the target sentence concur- rently with the source sentence, but always k words behind. Experiments show our strat- egy achieves low latency and reasonable qual- ity (compared to full-sentence translation) on 4 directions: zh↔en and de↔en.",
+  "keywords": [
+    "prefix-to-prefix framework simultaneous translation",
+    "translation",
+    "model",
+    "stacl simultaneous translation",
+    "full-sentence translation",
+    "si- multaneous translation",
+    "word",
+    "we",
+    "a single translation model",
+    "seq",
+    "ple",
+    "ity",
+    "that",
+    "implicit",
+    "this framework"
+  ],
+  "url": "https://aclanthology.org/P19-1289/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:37:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

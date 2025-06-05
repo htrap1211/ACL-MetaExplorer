@@ -1,0 +1,33 @@
+{
+  "id": "2021.sigmorphon-1.24",
+  "title": "Improved pronunciation prediction accuracy using morphology",
+  "authors": [
+    "Sharma, Dravyansh  and\nSahai, Saumya  and\nChaudhari, Neha  and\nBruguier, Antoine"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 18th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "Pronunciation lexicons and prediction models are a key component in several speech synthesis and recognition systems. We know that morphologically related words typically follow a fixed pattern of pronunciation which can be described by language-specific paradigms. In this work we explore how deep recurrent neural networks can be used to automatically learn and exploit this pattern to improve the pronunciation prediction quality of words related by morphological inflection. We propose two novel approaches for supplying morphological information, using the word’s morphological class and its lemma, which are typically annotated in standard lexicons. We report improvements across a number of European languages with varying degrees of phonological and morphological complexity, and two language families, with greater improvements for languages where the pronunciation prediction task is inherently more challenging. We also observe that combining bidirectional LSTM networks with attention mechanisms is an effective neural approach for the computational problem considered, across languages. Our approach seems particularly beneficial in the low resource setting, both by itself and in conjunction with transfer learning.",
+  "keywords": [
+    "deep",
+    "families",
+    "improved pronunciation prediction accuracy",
+    "attention mechanisms",
+    "we",
+    "lstm",
+    "neural",
+    "information",
+    "word",
+    "learning",
+    "transfer",
+    "transfer learning",
+    "recurrent",
+    "bidirectional lstm networks",
+    "two language families"
+  ],
+  "url": "https://aclanthology.org/2021.sigmorphon-1.24/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:22:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

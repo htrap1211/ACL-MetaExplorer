@@ -1,0 +1,33 @@
+{
+  "id": "P19-1652",
+  "title": "Bridging by Word: Image Grounded Vocabulary Construction for Visual Captioning",
+  "authors": [
+    "Fan, Zhihao  and\nWei, Zhongyu  and\nWang, Siyuan  and\nHuang, Xuanjing"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Image Captioning aims at generating a short description for an image. Existing research usually employs the architecture of CNN-RNN that views the generation as a sequential decision-making process and the entire dataset vocabulary is used as decoding space. They suffer from generating high frequent n-gram with irrelevant words. To tackle this problem, we propose to construct an image-grounded vocabulary, based on which, captions are generated with limitation and guidance. In specific, a novel hierarchical structure is proposed to construct the vocabulary incorporating both visual information and relations among words. For generation, we propose a word-aware RNN cell incorporating vocabulary information into the decoding process directly. Reinforce algorithm is employed to train the generator using constraint vocabulary as action space. Experimental results on MS COCO and Flickr30k show the effectiveness of our framework compared to some state-of-the-art models.",
+  "keywords": [
+    "the generator",
+    "-rnn",
+    "hierarchical",
+    "process",
+    "a novel hierarchical structure",
+    "generation",
+    "cnn",
+    "the generation",
+    "information",
+    "word",
+    "we",
+    "rnn",
+    "action",
+    "visual",
+    "generator"
+  ],
+  "url": "https://aclanthology.org/P19-1652/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:47:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

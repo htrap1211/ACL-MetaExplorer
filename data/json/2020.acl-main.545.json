@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.545",
+  "title": "How to Ask Good Questions? Try to Leverage Paraphrases",
+  "authors": [
+    "Jia, Xin  and\nZhou, Wenjie  and\nSun, Xu  and\nWu, Yunfang"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Given a sentence and its relevant answer, how to ask good questions is a challenging task, which has many real applications. Inspired by human’s paraphrasing capability to ask questions of the same meaning but with diverse expressions, we propose to incorporate paraphrase knowledge into question generation(QG) to generate human-like questions. Specifically, we present a two-hand hybrid model leveraging a self-built paraphrase resource, which is automatically conducted by a simple back-translation method. On the one hand, we conduct multi-task learning with sentence-level paraphrase generation (PG) as an auxiliary task to supplement paraphrase knowledge to the task-share encoder. On the other hand, we adopt a new loss function for diversity training to introduce more question patterns to QG. Extensive experimental results show that our proposed model obtains obvious performance gain over several strong baselines, and further human evaluation validates that our model can ask questions of high quality by leveraging paraphrase knowledge.",
+  "keywords": [
+    "a simple back-translation method",
+    "question",
+    "we",
+    "training",
+    "translation",
+    "further human evaluation",
+    "answer",
+    "self",
+    "loss",
+    "the task-share encoder",
+    "learning",
+    "sentence-level paraphrase generation pg",
+    "function",
+    "knowledge",
+    "question generation"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.545/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:49:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

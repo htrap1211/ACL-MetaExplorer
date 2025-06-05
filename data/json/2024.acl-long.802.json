@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.802",
+  "title": "IRC}oder: Intermediate Representations Make Language Models Robust Multilingual Code Generators",
+  "authors": [
+    "Paul, Indraneil  and\nGlava{\\v{s}}, Goran  and\nGurevych, Iryna"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Code generation has fast become one of the most popular applications of language models (LMs). Nonetheless, research on multilingual aspects of Code-LMs, such as cross-lingual transfer between different programming languages, language-specific data augmentation, and post-hoc LM adaptation, alongside the exploitation of data sources other than the original textual content, has been much sparser than for their natural language counterparts. In particular, most mainstream Code-LMs have been pre-trained on source code files alone. In this work, we investigate the prospect of leveraging readily available compiler intermediate representations (IR)—shared across programming languages—to improve the multilingual capabilities of Code-LMs and facilitate cross-lingual transfer. To this end, we first compile SLTrans, a parallel dataset consisting of nearly 4M self-contained source code files coupled with their respective intermediate representations. Next, starting from various base Code-LMs (ranging from 1.1B to 7.3B parameters), we carry out continued causal language modelling training on SLTrans, forcing the Code-LMs to (1) learn the IR language and (2) align the IR constructs with respective constructs of various programming languages. Our resulting models, dubbed IRCoder, display sizeable and consistent gains across various code generation tasks and metrics, including prompt robustness, multilingual code completion, code understanding, and instruction following.",
+  "keywords": [
+    "code",
+    "end",
+    "we",
+    "generators",
+    "training",
+    "instruction",
+    "cross",
+    "the multilingual capabilities",
+    "natural",
+    "self",
+    "transfer",
+    "align",
+    "prompt",
+    "various code generation tasks",
+    "metrics"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.802/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:45:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

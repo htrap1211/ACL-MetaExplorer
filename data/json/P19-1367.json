@@ -1,0 +1,33 @@
+{
+  "id": "P19-1367",
+  "title": "Vocabulary Pyramid Network: Multi-Pass Encoding and Decoding with Multi-Level Vocabularies for Response Generation",
+  "authors": [
+    "Liu, Cao  and\nHe, Shizhu  and\nLiu, Kang  and\nZhao, Jun"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We study the task of response generation. Conventional methods employ a fixed vocabulary and one-pass decoding, which not only make them prone to safe and general responses but also lack further refining to the first generated raw sequence. To tackle the above two problems, we present a Vocabulary Pyramid Network (VPN) which is able to incorporate multi-pass encoding and decoding with multi-level vocabularies into response generation. Specifically, the dialogue input and output are represented by multi-level vocabularies which are obtained from hierarchical clustering of raw words. Then, multi-pass encoding and decoding are conducted on the multi-level vocabularies. Since VPN is able to leverage rich encoding and decoding information with multi-level vocabularies, it has the potential to generate better responses. Experiments on English Twitter and Chinese Weibo datasets demonstrate that VPN remarkably outperforms strong baselines.",
+  "keywords": [
+    "hierarchical",
+    "general",
+    "generation",
+    "safe and general responses",
+    "specifically the dialogue input",
+    "it",
+    "vocabularies",
+    "information",
+    "response generation conventional methods",
+    "clustering",
+    "rich",
+    "network",
+    "we",
+    "sequence",
+    "the multi-level vocabularies"
+  ],
+  "url": "https://aclanthology.org/P19-1367/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:39:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

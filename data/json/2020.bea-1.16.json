@@ -1,0 +1,33 @@
+{
+  "id": "2020.bea-1.16",
+  "title": "GECT}o{R} {--} Grammatical Error Correction: Tag, Not Rewrite",
+  "authors": [
+    "Omelianchuk, Kostiantyn  and\nAtrasevych, Vitaliy  and\nChernodub, Artem  and\nSkurzhanskyi, Oleksandr"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the Fifteenth Workshop on Innovative Use of NLP for Building Educational Applications",
+  "abstract": "In this paper, we present a simple and efficient GEC sequence tagger using a Transformer encoder. Our system is pre-trained on synthetic data and then fine-tuned in two stages: first on errorful corpora, and second on a combination of errorful and error-free parallel corpora. We design custom token-level transformations to map input tokens to target corrections. Our best single-model/ensemble GEC tagger achieves an F_0.5 of 65.3/66.5 on CONLL-2014 (test) and F_0.5 of 72.4/73.6 on BEA-2019 (test). Its inference speed is up to 10 times as fast as a Transformer-based seq2seq GEC system.",
+  "keywords": [
+    "ensemble",
+    "transformer",
+    "seq2seq",
+    "model",
+    "efficient",
+    "token",
+    "encoder",
+    "a transformer encoder",
+    "we",
+    "sequence",
+    "pre",
+    "custom",
+    "conll-2014 test",
+    "error",
+    "data"
+  ],
+  "url": "https://aclanthology.org/2020.bea-1.16/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:54:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

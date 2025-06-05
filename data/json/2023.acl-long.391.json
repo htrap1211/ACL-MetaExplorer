@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.391",
+  "title": "U}ni{E}vent: Unified Generative Model with Multi-Dimensional Prefix for Zero-Shot Event-Relational Reasoning",
+  "authors": [
+    "Tao, Zhengwei  and\nJin, Zhi  and\nZhao, Haiyan  and\nDou, Chengfeng  and\nZhao, Yongqiang  and\nShen, Tao  and\nTao, Chongyang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Reasoning about events and their relations attracts surging research efforts since it is regarded as an indispensable ability to fulfill various event-centric or common-sense reasoning tasks. However, these tasks often suffer from limited data availability due to the labor-intensive nature of their annotations. Consequently, recent studies have explored knowledge transfer approaches within a multi-task learning framework to address this challenge. Although such methods have achieved acceptable results, such brute-force solutions struggle to effectively transfer event-relational knowledge due to the vast array of inter-event relations (e.g. temporal, causal, conditional) and reasoning formulations (e.g. discriminative, abductive, ending prediction). To enhance knowledge transfer and enable zero-shot generalization among various combinations, in this work we propose a novel unified framework, called UNIEVENT. Inspired by prefix-based multitask learning, our approach organizes event relational reasoning tasks into a coordinate system with multiple axes, representing inter-event relations and reasoning formulations. We then train a unified text-to-text generative model that utilizes coordinate-assigning prefixes for each task. By leveraging our adapted prefixes, our unified model achieves state-of-the-art or competitive performance on both zero-shot and supervised reasoning tasks, as demonstrated in extensive experiments",
+  "keywords": [
+    "both zero-shot",
+    "zero-shot generalization",
+    "we",
+    "force",
+    "shot",
+    "unievent",
+    "it",
+    "unified",
+    "e",
+    "transfer",
+    "our unified model",
+    "generative",
+    "text",
+    "generalization",
+    "dimensional"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.391/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:40:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

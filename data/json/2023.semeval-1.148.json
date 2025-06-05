@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.148",
+  "title": "xiacui at {S}em{E}val-2023 Task 11: Learning a Model in Mixed-Annotator Datasets Using Annotator Ranking Scores as Training Weights",
+  "authors": [
+    "Cui, Xia"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper describes the development of a system for SemEval-2023 Shared Task 11 on Learning with Disagreements (Le-Wi-Di). Labelled data plays a vital role in the development of machine learning systems. The human-annotated labels are usually considered the truth for training or validation. To obtain truth labels, a traditional way is to hire domain experts to perform an expensive annotation process. Crowd-sourcing labelling is comparably cheap, whereas it raises a question on the reliability of annotators. A common strategy in a mixed-annotator dataset with various sets of annotators for each instance is to aggregate the labels among multiple groups of annotators to obtain the truth labels. However, these annotators might not reach an agreement, and there is no guarantee of the reliability of these labels either. With further problems caused by human label variation, subjective tasks usually suffer from the different opinions provided by the annotators. In this paper, we propose two simple heuristic functions to compute the annotator ranking scores, namely AnnoHard and AnnoSoft, based on the hard labels (i.e., aggregative labels) and soft labels (i.e., cross-entropy values). By introducing these scores, we adjust the weights of the training instances to improve the learning with disagreements among the annotators.",
+  "keywords": [
+    "validation",
+    "question",
+    "we",
+    "machine learning systems",
+    "training",
+    "cross",
+    "it",
+    "learning",
+    "entropy",
+    "i",
+    "soft",
+    "process",
+    "model",
+    "machine",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.148/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:28:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

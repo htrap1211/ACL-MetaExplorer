@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.58",
+  "title": "S$^4$-Tuning: A Simple Cross-lingual Sub-network Tuning Method",
+  "authors": [
+    "Xu, Runxin  and\nLuo, Fuli  and\nChang, Baobao  and\nHuang, Songfang  and\nHuang, Fei"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "The emergence of multilingual pre-trained language models makes it possible to adapt to target languages with only few labeled examples. However, vanilla fine-tuning tends to achieve degenerated and unstable results, owing to the Language Interference among different languages, and Parameter Overload under the few-sample transfer learning scenarios. To address two problems elegantly, we propose S4-Tuning, a Simple Cross-lingual Sub-network Tuning method. S4-Tuning first detects the most essential sub-network for each target language, and only updates it during fine-tuning.In this way, the language sub-networks lower the scale of trainable parameters, and hence better suit the low-resource scenarios.Meanwhile, the commonality and characteristics across languages are modeled by the overlapping and non-overlapping parts to ease the interference among languages.Simple but effective, S4-Tuning gains consistent improvements over vanilla fine-tuning on three multi-lingual tasks involving 37 different languages in total (XNLI, PAWS-X, and Tatoeba).",
+  "keywords": [
+    "-tuning",
+    "we",
+    "parameter",
+    "fine-tuning",
+    "cross",
+    "it",
+    "degenerated",
+    "transfer",
+    "multilingual pre-trained language models",
+    "tuning",
+    "-",
+    "degenerated and unstable results",
+    "fine",
+    "x",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.58/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:33:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

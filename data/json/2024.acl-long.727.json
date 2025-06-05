@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.727",
+  "title": "Context Consistency between Training and Inference in Simultaneous Machine Translation",
+  "authors": [
+    "Zhong, Meizhi  and\nLiu, Lemao  and\nChen, Kehai  and\nYang, Mingming  and\nZhang, Min"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Simultaneous Machine Translation (SiMT) aims to yield a real-time partial translation with a monotonically growing source-side context.However, there is a counterintuitive phenomenon about the context usage between training and inference: *e.g.*, in wait-kinference, model consistently trained with wait-kis much worse than that model inconsistently trained with wait-k'(k'≠ k) in terms of translation quality. To this end, we first investigate the underlying reasons behind this phenomenon and uncover the following two factors: 1) the limited correlation between translation quality and training loss; 2) exposure bias between training and inference. Based on both reasons, we then propose an effective training approach called context consistency training accordingly, which encourages consistent context usage between training and inference by optimizing translation quality and latency as bi-objectives and exposing the predictions to the model during the training. The experiments on three language pairs demonstrate that our SiMT system encouraging context consistency outperforms existing SiMT systems with context inconsistency for the first time.",
+  "keywords": [
+    "bias",
+    "objectives",
+    "end",
+    "translation",
+    "language",
+    "machine",
+    "model",
+    "a real-time partial translation",
+    "-",
+    "loss",
+    "translation quality",
+    "2 exposure bias",
+    "we",
+    "time",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.727/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:44:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

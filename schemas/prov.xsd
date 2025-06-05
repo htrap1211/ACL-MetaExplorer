@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:prov="http://www.w3.org/ns/prov#"
+           targetNamespace="http://www.w3.org/ns/prov#"
+           elementFormDefault="qualified">
+
+    <!-- Entity Type -->
+    <xs:element name="Entity" type="prov:EntityType"/>
+    <xs:complexType name="EntityType">
+        <xs:sequence>
+            <xs:element name="id" type="xs:string"/>
+            <xs:element name="type" type="xs:string"/>
+            <xs:element name="attributes" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="attribute" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="name" type="xs:string"/>
+                                    <xs:element name="value" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Activity Type -->
+    <xs:element name="Activity" type="prov:ActivityType"/>
+    <xs:complexType name="ActivityType">
+        <xs:sequence>
+            <xs:element name="id" type="xs:string"/>
+            <xs:element name="type" type="xs:string"/>
+            <xs:element name="startTime" type="xs:dateTime"/>
+            <xs:element name="endTime" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="attributes" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="attribute" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="name" type="xs:string"/>
+                                    <xs:element name="value" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Agent Type -->
+    <xs:element name="Agent" type="prov:AgentType"/>
+    <xs:complexType name="AgentType">
+        <xs:sequence>
+            <xs:element name="id" type="xs:string"/>
+            <xs:element name="type" type="xs:string"/>
+            <xs:element name="attributes" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="attribute" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="name" type="xs:string"/>
+                                    <xs:element name="value" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Relationship Types -->
+    <xs:element name="WasGeneratedBy" type="prov:WasGeneratedByType"/>
+    <xs:complexType name="WasGeneratedByType">
+        <xs:sequence>
+            <xs:element name="entity" type="xs:string"/>
+            <xs:element name="activity" type="xs:string"/>
+            <xs:element name="time" type="xs:dateTime"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="WasDerivedFrom" type="prov:WasDerivedFromType"/>
+    <xs:complexType name="WasDerivedFromType">
+        <xs:sequence>
+            <xs:element name="generatedEntity" type="xs:string"/>
+            <xs:element name="usedEntity" type="xs:string"/>
+            <xs:element name="activity" type="xs:string"/>
+            <xs:element name="time" type="xs:dateTime"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="WasAttributedTo" type="prov:WasAttributedToType"/>
+    <xs:complexType name="WasAttributedToType">
+        <xs:sequence>
+            <xs:element name="entity" type="xs:string"/>
+            <xs:element name="agent" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Document Type -->
+    <xs:element name="Document" type="prov:DocumentType"/>
+    <xs:complexType name="DocumentType">
+        <xs:sequence>
+            <xs:element name="entities" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element ref="prov:Entity" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="activities" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element ref="prov:Activity" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="agents" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element ref="prov:Agent" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="relationships" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element ref="prov:WasGeneratedBy" maxOccurs="unbounded"/>
+                        <xs:element ref="prov:WasDerivedFrom" maxOccurs="unbounded"/>
+                        <xs:element ref="prov:WasAttributedTo" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema> 

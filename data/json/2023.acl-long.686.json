@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.686",
+  "title": "Bidirectional Generative Framework for Cross-domain Aspect-based Sentiment Analysis",
+  "authors": [
+    "Deng, Yue  and\nZhang, Wenxuan  and\nPan, Sinno Jialin  and\nBing, Lidong"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Cross-domain aspect-based sentiment analysis (ABSA) aims to perform various fine-grained sentiment analysis tasks on a target domain by transferring knowledge from a source domain. Since labeled data only exists in the source domain, a model is expected to bridge the domain gap for tackling cross-domain ABSA. Though domain adaptation methods have proven to be effective, most of them are based on a discriminative model, which needs to be specifically designed for different ABSA tasks. To offer a more general solution, we propose a unified bidirectional generative framework to tackle various cross-domain ABSA tasks. Specifically, our framework trains a generative model in both text-to-label and label-to-text directions. The former transforms each task into a unified format to learn domain-agnostic features, and the latter generates natural sentences from noisy labels for data augmentation, with which a more accurate model can be trained. To investigate the effectiveness and generality of our framework, we conduct extensive experiments on four cross-domain ABSA tasks and present new state-of-the-art results on all tasks. Our data and code are publicly available athttps://github.com/DAMO-NLP-SG/BGCA.",
+  "keywords": [
+    "code",
+    "we",
+    "a more general solution",
+    "cross",
+    "natural",
+    "bidirectional generative framework",
+    "generality",
+    "unified",
+    "format",
+    "cross-domain aspect-based sentiment analysis",
+    "a unified format",
+    "analysis",
+    "generative",
+    "a generative model",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.686/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:44:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

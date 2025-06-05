@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.204",
+  "title": "On Controlling Fallback Responses for Grounded Dialogue Generation",
+  "authors": [
+    "Lu, Hongyuan  and\nLam, Wai  and\nCheng, Hong  and\nMeng, Helen"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Dialogue agents can leverage external textual knowledge to generate responses of a higher quality. To our best knowledge, most existing works on knowledge grounded dialogue settings assume that the user intention is always answerable. Unfortunately, this is impractical as there is no guarantee that the knowledge retrievers could always retrieve the desired knowledge. Therefore, this is crucial to incorporate fallback responses to respond to unanswerable contexts appropriately while responding to the answerable contexts in an informative manner. We propose a novel framework that automatically generates a control token with the generator to bias the succeeding response towards informativeness for answerable contexts and fallback for unanswerable contexts in an end-to-end manner. Since no existing knowledge grounded dialogue dataset considers this aim, we augment the existing dataset with unanswerable contexts to conduct our experiments. Automatic and human evaluation results indicate that naively incorporating fallback responses with controlled text generation still hurts informativeness for answerable context. In contrast, our proposed framework effectively mitigates this problem while still appropriately presenting fallback responses to unanswerable contexts. Such a framework also reduces the extra burden of the additional classifier and the overheads introduced in the previous works, which operates in a pipeline manner.",
+  "keywords": [
+    "end",
+    "classifier",
+    "extra",
+    "a pipeline manner",
+    "an informative manner",
+    "we",
+    "dialogue",
+    "the generator",
+    "grounded dialogue settings",
+    "manner",
+    "text",
+    "retrievers",
+    "dialogue dataset",
+    "the knowledge retrievers",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.204/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.156",
+  "title": "Decoding Part-of-Speech from Human {EEG} Signals",
+  "authors": [
+    "Murphy, Alex  and\nBohnet, Bernd  and\nMcDonald, Ryan  and\nNoppeney, Uta"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "This work explores techniques to predict Part-of-Speech (PoS) tags from neural signals measured at millisecond resolution with electroencephalography (EEG) during text reading. We first show that information about word length, frequency and word class is encoded by the brain at different post-stimulus latencies. We then demonstrate that pre-training on averaged EEG data and data augmentation techniques boost PoS decoding accuracy for single EEG trials. Finally, applying optimised temporally-resolved decoding techniques we show that Transformers substantially outperform linear-SVMs on PoS tagging of unigram and bigram data.",
+  "keywords": [
+    "work",
+    "linear-svms",
+    "transformers",
+    "neural",
+    "text",
+    "human",
+    "class",
+    "pos",
+    "-",
+    "pos tagging",
+    "information",
+    "tagging",
+    "pos decoding accuracy",
+    "word",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.156/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

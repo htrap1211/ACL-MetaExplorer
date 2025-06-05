@@ -1,0 +1,33 @@
+{
+  "id": "W19-4819",
+  "title": "Hierarchical Representation in Neural Language Models: Suppression and Recovery of Expectations",
+  "authors": [
+    "Wilcox, Ethan  and\nLevy, Roger  and\nFutrell, Richard"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
+  "abstract": "Work using artificial languages as training input has shown that LSTMs are capable of inducing the stack-like data structures required to represent context-free and certain mildly context-sensitive languages — formal language classes which correspond in theory to the hierarchical structures of natural language. Here we present a suite of experiments probing whether neural language models trained on linguistic data induce these stack-like data structures and deploy them while incrementally predicting words. We study two natural language phenomena: center embedding sentences and syntactic island constraints on the filler–gap dependency. In order to properly predict words in these structures, a model must be able to temporarily suppress certain expectations and then recover those expectations later, essentially pushing and popping these expectations on a stack. Our results provide evidence that models can successfully suppress and recover expectations in many cases, but do not fully recover their previous grammatical state.",
+  "keywords": [
+    "hierarchical representation",
+    "we",
+    "neural language models",
+    "training",
+    "neural",
+    "natural",
+    "natural language",
+    "the filler gap dependency",
+    "the hierarchical structures",
+    "lstms",
+    "work",
+    "hierarchical",
+    "language",
+    "model",
+    "embedding sentences"
+  ],
+  "url": "https://aclanthology.org/W19-4819/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:57:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.1",
+  "title": "K}now{C}omp at {S}em{E}val-2023 Task 7: Fine-tuning Pre-trained Language Models for Clinical Trial Entailment Identification",
+  "authors": [
+    "Wang, Weiqi  and\nXu, Baixuan  and\nFang, Tianqing  and\nZhang, Lirong  and\nSong, Yangqiu"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "In this paper, we present our system for the textual entailment identification task as a subtask of the SemEval-2023 Task 7: Multi-evidence Natural Language Inference for Clinical Trial Data. The entailment identification task aims to determine whether a medical statement affirms a valid entailment given a clinical trial premise or forms a contradiction with it. Since the task is inherently a text classification task, we propose a system that performs binary classification given a statement and its associated clinical trial. Our proposed system leverages a human-defined prompt to aggregate the information contained in the statement, section name, and clinical trials. Pre-trained language models are then finetuned on the prompted input sentences to learn to discriminate the inference relation between the statement and clinical trial. To validate our system, we conduct extensive experiments with a wide variety of pre-trained language models. Our best system is built on DeBERTa-v3-large, which achieves an F1 score of 0.764 and secures the fifth rank in the official leaderboard.Further analysis indicates that leveraging our designed prompt is effective, and our model suffers from a low recall. Our code and pre-trained models are available at [https://github.com/HKUST-KnowComp/NLI4CT](https://github.com/HKUST-KnowComp/NLI4CT).",
+  "keywords": [
+    "variety",
+    "code",
+    "deberta",
+    "binary classification",
+    "we",
+    "valid",
+    "a wide variety",
+    "classification",
+    "our designed prompt",
+    "pre-trained language models",
+    "natural",
+    "it",
+    "a human-defined prompt",
+    "information",
+    "omp"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

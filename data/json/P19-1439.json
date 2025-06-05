@@ -1,0 +1,33 @@
+{
+  "id": "P19-1439",
+  "title": "Can You Tell Me How to Get Past Sesame Street? Sentence-Level Pretraining Beyond Language Modeling",
+  "authors": [
+    "Wang, Alex  and\nHula, Jan  and\nXia, Patrick  and\nPappagari, Raghavendra  and\nMcCoy, R. Thomas  and\nPatel, Roma  and\nKim, Najoung  and\nTenney, Ian  and\nHuang, Yinghui  and\nYu, Katherin  and\nJin, Shuning  and\nChen, Berlin  and\nVan Durme, Benjamin  and\nGrave, Edouard  and\nPavlick, Ellie  and\nBowman, Samuel R."
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Natural language understanding has recently seen a surge of progress with the use of sentence encoders like ELMo (Peters et al., 2018a) and BERT (Devlin et al., 2019) which are pretrained on variants of language modeling. We conduct the first large-scale systematic study of candidate pretraining tasks, comparing 19 different tasks both as alternatives and complements to language modeling. Our primary results support the use language modeling, especially when combined with pretraining on additional labeled-data tasks. However, our results are mixed across pretraining tasks and show some concerning trends: In ELMo’s pretrain-then-freeze paradigm, random baselines are worryingly strong and results vary strikingly across target tasks. In addition, fine-tuning BERT on an intermediate task often negatively impacts downstream transfer. In a more positive trend, we see modest gains from multitask training, suggesting the development of more sophisticated multitask and transfer learning techniques as an avenue for further research.",
+  "keywords": [
+    "elmo",
+    "we",
+    "elmo peters",
+    "language modeling",
+    "training",
+    "natural",
+    "learning",
+    "transfer",
+    "the use language modeling",
+    "bert",
+    "addition fine-tuning bert",
+    "me",
+    "encoders",
+    "language",
+    "random"
+  ],
+  "url": "https://aclanthology.org/P19-1439/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:41:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

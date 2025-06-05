@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.579",
+  "title": "World Models for Math Story Problems",
+  "authors": [
+    "Opedal, Andreas  and\nStoehr, Niklas  and\nSaparov, Abulhair  and\nSachan, Mrinmaya"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Solving math story problems is a complex task for students and NLP models alike, requiring them to understand the world as described in the story and reason over it to compute an answer. Recent years have seen impressive performance on automatically solving these problems with large pre-trained language models and innovative techniques to prompt them. However, it remains unclear if these models possess accurate representations of mathematical concepts. This leads to lack of interpretability and trustworthiness which impedes their usefulness in various applications. In this paper, we consolidate previous work on categorizing and representing math story problems and develop MathWorld, which is a graph-based semantic formalism specific for the domain of math story problems. With MathWorld, we can assign world models to math story problems which represent the situations and actions introduced in the text and their mathematical relationships. We combine math story problems from several existing datasets and annotate a corpus of 1,019 problems and 3,204 logical forms with MathWorld. Using this data, we demonstrate the following use cases of MathWorld: (1) prompting language models with synthetically generated question-answer pairs to probe their reasoning and world modeling abilities, and (2) generating new problems by using the world models as a design space.",
+  "keywords": [
+    "question",
+    "semantic",
+    "we",
+    "graph",
+    "answer",
+    "large pre-trained language models",
+    "it",
+    "nlp models",
+    "abilities",
+    "a graph-based semantic formalism",
+    "text",
+    "language models",
+    "work",
+    "language",
+    "nlp"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.579/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.139",
+  "title": "A Study on the Efficiency and Generalization of Light Hybrid Retrievers",
+  "authors": [
+    "Luo, Man  and\nJain, Shashank  and\nGupta, Anchit  and\nEinolghozati, Arash  and\nOguz, Barlas  and\nChatterjee, Debojeet  and\nChen, Xilun  and\nBaral, Chitta  and\nHeidari, Peyman"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Hybrid retrievers can take advantage of both sparse and dense retrievers. Previous hybrid retrievers leverage indexing-heavy dense retrievers. In this work, we study “Is it possible to reduce the indexing memory of hybrid retrievers without sacrificing performance”? Driven by this question, we leverage an indexing-efficient dense retriever (i.e. DrBoost) and introduce a LITE retriever that further reduces the memory of DrBoost. LITE is jointly trained on contrastive learning and knowledge distillation from DrBoost. Then, we integrate BM25, a sparse retriever, with either LITE or DrBoost to form light hybrid retrievers. Our Hybrid-LITE retriever saves13×memory while maintaining 98.0% performance of the hybrid retriever of BM25 and DPR. In addition, we study the generalization capacity of our light hybrid retrievers on out-of-domain dataset and a set of adversarial attacks datasets. Experiments showcase that light hybrid retrievers achieve better generalization performance than individual sparse and dense retrievers. Nevertheless, our analysis shows that there is a large room to improve the robustness of retrievers, suggesting a new research direction.",
+  "keywords": [
+    "efficient",
+    "an indexing-efficient dense",
+    "our light hybrid retrievers",
+    "dense retrievers",
+    "question",
+    "efficiency",
+    "we",
+    "previous hybrid retrievers",
+    "light hybrid retrievers",
+    "it",
+    "the efficiency",
+    "e",
+    "the generalization capacity",
+    "learning",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.139/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:50:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.137",
+  "title": "Extreme Miscalibration and the Illusion of Adversarial Robustness",
+  "authors": [
+    "Raina, Vyas  and\nTan, Samson  and\nCevher, Volkan  and\nRawal, Aditya  and\nZha, Sheng  and\nKarypis, George"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Deep learning-based Natural Language Processing (NLP) models are vulnerable to adversarial attacks, where small perturbations can cause a model to misclassify. Adversarial Training (AT) is often used to increase model robustness. However, we have discovered an intriguing phenomenon: deliberately or accidentally miscalibrating models masks gradients in a way that interferes with adversarial attack search methods, giving rise to an apparent increase in robustness. We show that this observed gain in robustness is an illusion of robustness (IOR), and demonstrate how an adversary can perform various forms of test-time temperature calibration to nullify the aforementioned interference and allow the adversarial attack to find adversarial examples. Hence, we urge the NLP community to incorporate test-time temperature scaling into their robustness evaluations to ensure that any observed gains are genuine. Finally, we show how the temperature can be scaled during training to improve genuine robustness.",
+  "keywords": [
+    "deep",
+    "processing",
+    "language",
+    "nlp",
+    "natural",
+    "model",
+    "gradients",
+    "evaluations",
+    "models masks gradients",
+    "the nlp community",
+    "we",
+    "learning",
+    "their robustness evaluations",
+    "vulnerable",
+    "time"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.137/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

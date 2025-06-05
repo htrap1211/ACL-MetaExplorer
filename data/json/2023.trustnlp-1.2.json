@@ -1,0 +1,33 @@
+{
+  "id": "2023.trustnlp-1.2",
+  "title": "Driving Context into Text-to-Text Privatization",
+  "authors": [
+    "Arnold, Stefan  and\nYesilbas, Dilara  and\nWeinzierl, Sven"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 3rd Workshop on Trustworthy Natural Language Processing (TrustNLP 2023)",
+  "abstract": "Metric Differential Privacy enables text-to-text privatization by adding calibrated noise to the vector of a word derived from an embedding space and projecting this noisy vector back to a discrete vocabulary using a nearest neighbor search. Since words are substituted without context, this mechanism is expected to fall short at finding substitutes for words with ambiguous meanings, such as ‘bank’. To account for these ambiguous words, we leverage a sense embedding and incorporate a sense disambiguation step prior to noise injection. We encompass our modification to the privatization mechanism with an estimation of privacy and utility. For word sense disambiguation on the Words in Context dataset, we demonstrate a substantial increase in classification accuracy by 6.05%.",
+  "keywords": [
+    "vector",
+    "classification accuracy",
+    "this noisy vector",
+    "text",
+    "metric",
+    "the vector",
+    "word",
+    "we",
+    "an embedding space",
+    "accuracy",
+    "classification",
+    "our modification",
+    "this mechanism",
+    "nearest",
+    "a nearest neighbor search"
+  ],
+  "url": "https://aclanthology.org/2023.trustnlp-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:32:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

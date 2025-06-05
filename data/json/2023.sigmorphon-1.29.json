@@ -1,0 +1,33 @@
+{
+  "id": "2023.sigmorphon-1.29",
+  "title": "Low-resource grapheme-to-phoneme mapping with phonetically-conditioned transfer",
+  "authors": [
+    "Hammond, Michael"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th SIGMORPHON workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "In this paper we explore a very simple nonneural approach to mapping orthography to phonetic transcription in a low-resource context with transfer data from a related language. We start from a baseline system and focus our efforts on data augmentation. We make three principal moves. First, we start with an HMMbased system (Novak et al., 2012). Second, we augment our basic system by recombining legal substrings in restricted fashion (Ryan and Hulden, 2020). Finally, we limit our transfer data by only using training pairs where the phonetic form shares all bigrams with the target language.",
+  "keywords": [
+    "language",
+    "form",
+    "we",
+    "transfer",
+    "training",
+    "nonneural",
+    "phonetic transcription",
+    "basic",
+    "ryan",
+    "approach",
+    "phonetic",
+    "legal substrings",
+    "phoneme",
+    "orthography",
+    "data augmentation"
+  ],
+  "url": "https://aclanthology.org/2023.sigmorphon-1.29/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:31:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

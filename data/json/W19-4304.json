@@ -1,0 +1,33 @@
+{
+  "id": "W19-4304",
+  "title": "An Evaluation of Language-Agnostic Inner-Attention-Based Representations in Machine Translation",
+  "authors": [
+    "Raganato, Alessandro  and\nV{\\'a}zquez, Ra{\\'u}l  and\nCreutz, Mathias  and\nTiedemann, J{\\\"o}rg"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)",
+  "abstract": "In this paper, we explore a multilingual translation model with a cross-lingually shared layer that can be used as fixed-size sentence representation in different downstream tasks. We systematically study the impact of the size of the shared layer and the effect of including additional languages in the model. In contrast to related previous work, we demonstrate that the performance in translation does correlate with trainable downstream tasks. In particular, we show that larger intermediate layers not only improve translation quality, especially for long sentences, but also push the accuracy of trainable classification tasks. On the other hand, shorter representations lead to increased compression that is beneficial in non-trainable similarity tasks. We hypothesize that the training procedure on the downstream task enables the model to identify the encoded information that is useful for the specific task whereas non-trainable benchmarks can be confused by other types of information also encoded in the representation of a sentence.",
+  "keywords": [
+    "the accuracy",
+    "a multilingual translation model",
+    "machine translation",
+    "layer",
+    "we",
+    "training",
+    "translation",
+    "classification",
+    "cross",
+    "information",
+    "inner",
+    "language-agnostic inner-attention-based representations",
+    "translation quality",
+    "trainable classification tasks",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/W19-4304/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:02:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

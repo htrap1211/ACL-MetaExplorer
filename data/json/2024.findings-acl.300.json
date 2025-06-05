@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.300",
+  "title": "M}eme{MQA}: Multimodal Question Answering for Memes via Rationale-Based Inferencing",
+  "authors": [
+    "Agarwal, Siddhant  and\nSharma, Shivam  and\nNakov, Preslav  and\nChakraborty, Tanmoy"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Memes have evolved as a prevalent medium for diverse communication, ranging from humour to propaganda. With the rising popularity of image-focused content, there is a growing need to explore its potential harm from different aspects. Previous studies have analyzed memes in closed settings - detecting harm, applying semantic labels, and offering natural language explanations. To extend this research, we introduce MemeMQA, a multimodal question-answering framework aiming to solicit accurate responses to structured questions while providing coherent explanations. We curate MemeMQACorpus, a new dataset featuring 1,880 questions related to 1,122 memes with corresponding answer-explanation pairs. We further propose ARSENAL, a novel two-stage multimodal framework that leverages the reasoning capabilities of LLMs to address MemeMQA. We benchmark MemeMQA using competitive baselines and demonstrate its superiority - ~18% enhanced answer prediction accuracy and distinct text generation lead across various metrics measuring lexical and semantic alignment over the best baseline. We analyze ARSENAL’s robustness through diversification of question-set, confounder-based evaluation regarding MemeMQA’s generalizability, and modality-specific assessment, enhancing our understanding of meme interpretation in the multimodal communication landscape.",
+  "keywords": [
+    "lexical and semantic alignment",
+    "semantic labels",
+    "eme",
+    "question-set confounder-based evaluation",
+    "question",
+    "semantic",
+    "we",
+    "generalizability",
+    "distinct text generation",
+    "answer",
+    "natural",
+    "various metrics",
+    "mememqa",
+    "llms",
+    "the reasoning capabilities"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.300/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

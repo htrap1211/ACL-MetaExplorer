@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.205",
+  "title": "FLEUR}: An Explainable Reference-Free Evaluation Metric for Image Captioning Using a Large Multimodal Model",
+  "authors": [
+    "Lee, Yebin  and\nPark, Imseong  and\nKang, Myungjoo"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Most existing image captioning evaluation metrics focus on assigning a single numerical score to a caption by comparing it with reference captions. However, these methods do not provide an explanation for the assigned score. Moreover, reference captions are expensive to acquire. In this paper, we propose FLEUR, an explainable reference-free metric to introduce explainability into image captioning evaluation metrics. By leveraging a large multimodal model, FLEUR can evaluate the caption against the image without the need for reference captions, and provide the explanation for the assigned score. We introduce score smoothing to align as closely as possible with human judgment and to be robust to user-defined grading criteria. FLEUR achieves high correlations with human judgment across various image captioning evaluation benchmarks and reaches state-of-the-art results on Flickr8k-CF, COMPOSITE, and Pascal-50S within the domain of reference-free evaluation metrics. Our source code and results are publicly available at: https://github.com/Yebin46/FLEUR.",
+  "keywords": [
+    "reference",
+    "code",
+    "image captioning evaluation metrics",
+    "model",
+    "metric",
+    "it",
+    "human",
+    "metrics",
+    "we",
+    "reference-free evaluation metrics",
+    "evaluation",
+    "grading",
+    "high correlations",
+    "flickr8k-cf composite",
+    "correlations"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.205/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

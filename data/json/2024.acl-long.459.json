@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.459",
+  "title": "F}act{PICO}: Factuality Evaluation for Plain Language Summarization of Medical Evidence",
+  "authors": [
+    "Joseph, Sebastian  and\nChen, Lily  and\nTrienes, Jan  and\nG{\\\"o}ke, Hannah  and\nCoers, Monika  and\nXu, Wei  and\nWallace, Byron  and\nLi, Junyi Jessy"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Plain language summarization with LLMs can be useful for improving textual accessibility of technical content. But how factual are these summaries in a high-stakes domain like medicine? This paper presents FactPICO, a factuality benchmark for plain language summarization of medical texts describing randomized controlled trials (RCTs), which are the basis of evidence-based medicine and can directly inform patient treatment. FactPICO consists of 345 plain language summaries of RCT abstracts generated from three LLMs (i.e., GPT-4, Llama-2, and Alpaca), with fine-grained evaluation and natural language rationales from experts. We assess the factuality of critical elements of RCTs in those summaries: Populations, Interventions, Comparators, Outcomes (PICO), as well as the reported findings concerning these. We also evaluate the correctness of the extra information (e.g., explanations) added by LLMs. Using FactPICO, we benchmark a range of existing factuality metrics, including the newly devised ones based on LLMs. We find that plain language summarization of medical evidence is still challenging, especially when balancing between simplicity and factuality, and that existing metrics correlate poorly with expert judgments on the instance level.",
+  "keywords": [
+    "extra",
+    "three llms",
+    "summarization",
+    "we",
+    "natural",
+    "patient treatment factpico",
+    "those summaries populations interventions",
+    "345 plain language summaries",
+    "these summaries",
+    "information",
+    "existing factuality metrics",
+    "llms",
+    "i",
+    "metrics",
+    "plain language summarization"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.459/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:40:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

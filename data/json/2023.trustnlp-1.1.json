@@ -1,0 +1,33 @@
+{
+  "id": "2023.trustnlp-1.1",
+  "title": "Towards Faithful Explanations for Text Classification with Robustness Improvement and Explanation Guided Training",
+  "authors": [
+    "Li, Dongfang  and\nHu, Baotian  and\nChen, Qingcai  and\nHe, Shan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 3rd Workshop on Trustworthy Natural Language Processing (TrustNLP 2023)",
+  "abstract": "Feature attribution methods highlight the important input tokens as explanations to model predictions, which have been widely applied to deep neural networks towards trustworthy AI. However, recent works show that explanations provided by these methods face challenges of being faithful and robust. In this paper, we propose a method with Robustness improvement and Explanation Guided training towards more faithful EXplanations (REGEX) for text classification. First, we improve model robustness by input gradient regularization technique and virtual adversarial training. Secondly, we use salient ranking to mask noisy tokens and maximize the similarity between model attention and feature attribution, which can be seen as a self-training procedure without importing other external information. We conduct extensive experiments on six datasets with five attribution methods, and also evaluate the faithfulness in the out-of-domain setting. The results show that REGEX improves fidelity metrics of explanations in all settings and further achieves consistent gains based on two randomization tests. Moreover, we show that using highlight explanations produced by REGEX to train select-then-predict models results in comparable task performance to the end-to-end method.",
+  "keywords": [
+    "deep",
+    "end",
+    "deep neural networks",
+    "we",
+    "training",
+    "classification",
+    "model attention",
+    "neural",
+    "input gradient regularization technique",
+    "self",
+    "information",
+    "text classification",
+    "text",
+    "metrics",
+    "fidelity metrics"
+  ],
+  "url": "https://aclanthology.org/2023.trustnlp-1.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:32:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

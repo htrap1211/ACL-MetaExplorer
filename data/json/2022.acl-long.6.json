@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.6",
+  "title": "Domain Adaptation in Multilingual and Multi-Domain Monolingual Settings for Complex Word Identification",
+  "authors": [
+    "Zaharia, George-Eduard  and\nSm{\\u{a}}du, R{\\u{a}}zvan-Alexandru  and\nCercel, Dumitru  and\nDascalu, Mihai"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Complex word identification (CWI) is a cornerstone process towards proper text simplification. CWI is highly dependent on context, whereas its difficulty is augmented by the scarcity of available datasets which vary greatly in terms of domains and languages. As such, it becomes increasingly more difficult to develop a robust model that generalizes across a wide array of input examples. In this paper, we propose a novel training technique for the CWI task based on domain adaptation to improve the target character and context representations. This technique addresses the problem of working with multiple domains, inasmuch as it creates a way of smoothing the differences between the explored datasets. Moreover, we also propose a similar auxiliary task, namely text simplification, that can be used to complement lexical complexity prediction. Our model obtains a boost of up to 2.42% in terms of Pearson Correlation Coefficients in contrast to vanilla training techniques, when considering the CompLex from the Lexical Complexity Prediction 2021 dataset. At the same time, we obtain an increase of 3% in Pearson scores, while considering a cross-lingual setup relying on the Complex Word Identification 2018 dataset. In addition, our model yields state-of-the-art results in terms of Mean Absolute Error.",
+  "keywords": [
+    "we",
+    "training",
+    "cross",
+    "a cornerstone process",
+    "pearson correlation coefficients",
+    "it",
+    "boost",
+    "word",
+    "text",
+    "process",
+    "model",
+    "cornerstone",
+    "mean",
+    "time",
+    "coefficients"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:24:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

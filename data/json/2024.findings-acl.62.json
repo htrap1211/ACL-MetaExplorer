@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.62",
+  "title": "Controllable Text Generation with Residual Memory Transformer",
+  "authors": [
+    "Zhang, Hanqing  and\nSun, Si  and\nWu, Haiming  and\nSong, Dawei"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large-scale Causal Language Models (CLMs), e.g., GPT3 and ChatGPT, have brought great success in text generation. However, it is still an open challenge to effectively control the generation process of a CLM while balancing the flexibility, control granularity, and generation efficiency. In this paper, we provide a new alternative for controllable text generation (CTG), by designing a non-intrusive, lightweight control plugin, namely Residual Memory Transformer (RMT), to accompany the generation of CLM at arbitrary time steps. With an encoder-decoder setup, RMT can accept any types of control conditions and cooperate with the base CLM through a residual learning paradigm, to achieve a more flexible, general, and efficient CTG. Extensive experiments are carried out on various control tasks, in the form of both automatic and human evaluations. The results demonstrate the superiority of RMT over a wide range of state-of-the-art CTG approaches. The code implementation of our work is available at: https://github.com/Residual_Memory_Transformer.",
+  "keywords": [
+    "code",
+    "efficient",
+    "controllable text generation",
+    "the generation",
+    "form",
+    "efficiency",
+    "we",
+    "gpt3",
+    "text generation",
+    "it",
+    "decoder",
+    "chatgpt",
+    "learning",
+    "an encoder-decoder setup rmt",
+    "controllable text generation ctg"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.62/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:49:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

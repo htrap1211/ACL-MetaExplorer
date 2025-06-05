@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.766",
+  "title": "Improving Zero-shot Multilingual Neural Machine Translation by Leveraging Cross-lingual Consistency Regularization",
+  "authors": [
+    "Gao, Pengzhi  and\nZhang, Liwen  and\nHe, Zhongjun  and\nWu, Hua  and\nWang, Haifeng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "The multilingual neural machine translation (NMT) model has a promising capability of zero-shot translation, where it could directly translate between language pairs unseen during training. For good transfer performance from supervised directions to zero-shot directions, the multilingual NMT model is expected to learn universal representations across different languages. This paper introduces a cross-lingual consistency regularization, CrossConST, to bridge the representation gap among different languages and boost zero-shot translation performance. The theoretical analysis shows that CrossConST implicitly maximizes the probability distribution for zero-shot translation, and the experimental results on both low-resource and high-resource benchmarks show that CrossConST consistently improves the translation performance. The experimental analysis also proves that CrossConST could close the sentence representation gap and better align the representation space. Given the universality and simplicity of CrossConST, we believe it can serve as a strong baseline for future multilingual NMT research.",
+  "keywords": [
+    "cross",
+    "cross-lingual consistency regularization",
+    "language",
+    "the translation performance",
+    "neural",
+    "model",
+    "machine",
+    "it",
+    "regularization",
+    "zero-shot translation performance",
+    "we",
+    "transfer",
+    "zero-shot translation",
+    "analysis",
+    "shot"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.766/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

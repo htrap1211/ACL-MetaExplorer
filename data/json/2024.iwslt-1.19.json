@@ -1,0 +1,33 @@
+{
+  "id": "2024.iwslt-1.19",
+  "title": "JHU} {IWSLT} 2024 Dialectal and Low-resource System Description",
+  "authors": [
+    "Romney Robinson, Nathaniel  and\nSun, Kaiser  and\nXiao, Cihan  and\nBafna, Niyati  and\nTan, Weiting  and\nXu, Haoran  and\nLi Xinyuan, Henry  and\nKejriwal, Ankur  and\nKhudanpur, Sanjeev  and\nMurray, Kenton  and\nMcNamee, Paul"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 21st International Conference on Spoken Language Translation (IWSLT 2024)",
+  "abstract": "Johns Hopkins University (JHU) submitted systems for all eight language pairs in the 2024 Low-Resource Language Track. The main effort of this work revolves around fine-tuning large and publicly available models in three proposed systems: i) end-to-end speech translation (ST) fine-tuning of Seamless4MT v2; ii) ST fine-tuning of Whisper; iii) a cascaded system involving automatic speech recognition with fine-tuned Whisper and machine translation with NLLB. On top of systems above, we conduct a comparative analysis on different training paradigms, such as intra-distillation for NLLB as well as joint training and curriculum learning for SeamlessM4T v2. Our results show that the best-performing approach differs by language pairs, but that i) fine-tuned SeamlessM4T v2 tends to perform best for source languages on which it was pre-trained, ii) multi-task training helps Whisper fine-tuning, iii) cascaded systems with Whisper and NLLB tend to outperform Whisper alone, and iv) intra-distillation helps NLLB fine-tuning.",
+  "keywords": [
+    "work",
+    "top",
+    "fine-tuning iii cascaded systems",
+    "tuning",
+    "end",
+    "i",
+    "language",
+    "translation",
+    "machine",
+    "it",
+    "-",
+    "fine",
+    "we",
+    "pre",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2024.iwslt-1.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:06:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

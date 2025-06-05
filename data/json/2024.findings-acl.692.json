@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.692",
+  "title": "ADAM}: Dense Retrieval Distillation with Adaptive Dark Examples",
+  "authors": [
+    "Tao, Chongyang  and\nLiu, Chang  and\nShen, Tao  and\nXu, Can  and\nGeng, Xiubo  and\nJiao, Binxing  and\nJiang, Daxin"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "To improve the performance of the dual-encoder retriever, one effective approach is knowledge distillation from the cross-encoder ranker. Existing works prepare training instances by pairing each query with one positive and a batch of negatives. However, most hard negatives mined by advanced dense retrieval methods are still too trivial for the teacher to distinguish, preventing the teacher from transferring abundant dark knowledge to the student through its soft label. To alleviate this issue, we propose Adam, a knowledge distillation framework that can better transfer the dark knowledge held in the teacher with adaptive dark examples. Different from previous works that only rely on one positive and hard negatives as candidate passages, we create dark examples that all have moderate relevance to the query by strengthening negatives and masking positives in the discrete space. Furthermore, as the quality of knowledge held in different training instances varies as measured by the teacher’s confidence score, we propose a self-paced distillation strategy that adaptively concentrates on a subset of high-quality instances to conduct our dark-example-based knowledge distillation to help the student learn better. We conduct experiments on two widely-used benchmarks and verify the effectiveness of our method.",
+  "keywords": [
+    "adam dense retrieval distillation",
+    "all",
+    "we",
+    "the dual-encoder",
+    "training",
+    "cross",
+    "self",
+    "retrieval",
+    "adam",
+    "retriever one effective approach",
+    "soft",
+    "knowledge",
+    "encoder",
+    "advanced dense retrieval methods",
+    "batch"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.692/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

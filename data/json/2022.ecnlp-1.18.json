@@ -1,0 +1,33 @@
+{
+  "id": "2022.ecnlp-1.18",
+  "title": "Domain-specific knowledge distillation yields smaller and better models for conversational commerce",
+  "authors": [
+    "Howell, Kristen  and\nWang, Jian  and\nHazare, Akshay  and\nBradley, Joseph  and\nBrew, Chris  and\nChen, Xi  and\nDunn, Matthew  and\nHockey, Beth  and\nMaurer, Andrew  and\nWiddows, Dominic"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Fifth Workshop on e-Commerce and NLP (ECNLP 5)",
+  "abstract": "We demonstrate that knowledge distillation can be used not only to reduce model size, but to simultaneously adapt a contextual language model to a specific domain. We use Multilingual BERT (mBERT; Devlin et al., 2019) as a starting point and follow the knowledge distillation approach of (Sahn et al., 2019) to train a smaller multilingual BERT model that is adapted to the domain at hand. We show that for in-domain tasks, the domain-specific model shows on average 2.3% improvement in F1 score, relative to a model distilled on domain-general data. Whereas much previous work with BERT has fine-tuned the encoder weights during task training, we show that the model improvements from distillation on in-domain data persist even when the encoder weights are frozen during task training, allowing a single encoder to support classifiers for multiple tasks and languages.",
+  "keywords": [
+    "conversational commerce",
+    "work",
+    "general",
+    "knowledge",
+    "mbert",
+    "language",
+    "bert",
+    "model",
+    "a single encoder",
+    "domain-general data",
+    "classifiers",
+    "encoder",
+    "conversational",
+    "we",
+    "a contextual language model"
+  ],
+  "url": "https://aclanthology.org/2022.ecnlp-1.18/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:42:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

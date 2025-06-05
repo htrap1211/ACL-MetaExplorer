@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.105",
+  "title": "I}2{C}-{H}uelva at {S}em{E}val-2023 Task 10: Ensembling Transformers Models for the Detection of Online Sexism",
+  "authors": [
+    "Felicia Fudulu, Lavinia  and\nRodriguez Tenorio, Alberto  and\nPach{\\'o}n {\\'A}lvarez, Victoria  and\nMata V{\\'a}zquez, Jacinto"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This work details our approach for addressing Tasks A and B of the Semeval 2023 Task 10: Explainable Detection of Online Sexism (EDOS). For Task A a simple ensemble based of majority vote system was presented. To build our proposal, first a review of transformers was carried out and the 3 best performing models were selected to be part of the ensemble. Next, for these models, the best hyperpameters were searched using a reduced data set. Finally, we trained these models using more data. During the development phase, our ensemble system achieved an f1-score of 0.8403. For task B, we developed a model based on the deBERTa transformer, utilizing the hyperparameters identified for task A. During the development phase, our proposed model attained an f1-score of 0.6467. Overall, our methodology demonstrates an effective approach to the tasks, leveraging advanced machine learning techniques and hyperparameters searches to achieve high performance in detecting and classifying instances of sexism in online text.",
+  "keywords": [
+    "transformers",
+    "deberta",
+    "a review",
+    "b",
+    "we",
+    "ensemble",
+    "hyperparameters",
+    "a a simple ensemble",
+    "ensembling transformers models",
+    "a",
+    "the ensemble",
+    "i",
+    "an f1-score",
+    "text",
+    "the deberta transformer"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.105/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:28:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

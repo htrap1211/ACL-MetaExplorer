@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.257",
+  "title": "One Agent To Rule Them All: Towards Multi-agent Conversational {AI",
+  "authors": [
+    "Clarke, Christopher  and\nPeper, Joseph  and\nKrishnamurthy, Karthik  and\nTalamonti, Walter  and\nLeach, Kevin  and\nLasecki, Walter  and\nKang, Yiping  and\nTang, Lingjia  and\nMars, Jason"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "The increasing volume of commercially available conversational agents (CAs) on the market has resulted in users being burdened with learning and adopting multiple agents to accomplish their tasks. Though prior work has explored supporting a multitude of domains within the design of a single agent, the interaction experience suffers due to the large action space of desired capabilities. To address these problems, we introduce a new task BBAI: Black-Box Agent Integration, focusing on combining the capabilities of multiple black-box CAs at scale. We explore two techniques: question agent pairing and question response pairing aimed at resolving this task. Leveraging these techniques, we design One For All (OFA), a scalable system that provides a unified interface to interact with multiple CAs. Additionally, we introduce MARS: Multi-Agent Response Selection, a new encoder model for question response pairing that jointly encodes user question and agent response pairs. We demonstrate that OFA is able to automatically and accurately integrate an ensemble of commercially available CAs spanning disparate domains. Specifically, using the MARS encoder we achieve the highest accuracy on our BBAI task, outperforming strong baselines.",
+  "keywords": [
+    "multi-agent conversational",
+    "question",
+    "all",
+    "we",
+    "ensemble",
+    "a unified interface",
+    "unified",
+    "the highest accuracy",
+    "a new encoder model",
+    "the capabilities",
+    "an ensemble",
+    "desired capabilities",
+    "experience",
+    "action",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.257/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.14",
+  "title": "An Unsupervised Multiple-Task and Multiple-Teacher Model for Cross-lingual Named Entity Recognition",
+  "authors": [
+    "Li, Zhuoran  and\nHu, Chunming  and\nGuo, Xiaohui  and\nChen, Junfan  and\nQin, Wenyi  and\nZhang, Richong"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Cross-lingual named entity recognition task is one of the critical problems for evaluating the potential transfer learning techniques on low resource languages. Knowledge distillation using pre-trained multilingual language models between source and target languages have shown their superiority in transfer. However, existing cross-lingual distillation models merely consider the potential transferability between two identical single tasks across both domains. Other possible auxiliary tasks to improve the learning performance have not been fully investigated. In this study, based on the knowledge distillation framework and multi-task learning, we introduce the similarity metric model as an auxiliary task to improve the cross-lingual NER performance on the target domain. Specifically, an entity recognizer and a similarity evaluator are first trained in parallel as two teachers from the source domain. Then, two tasks in the student model are supervised by these teachers simultaneously. Empirical studies on the three datasets across 7 different languages confirm the effectiveness of the proposed model.",
+  "keywords": [
+    "pre-trained multilingual language models",
+    "we",
+    "cross",
+    "learning",
+    "transfer",
+    "ner",
+    "metric",
+    "the cross-lingual ner performance",
+    "knowledge",
+    "language",
+    "model",
+    "studies",
+    "simultaneously empirical studies",
+    "pre",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.14/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:24:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

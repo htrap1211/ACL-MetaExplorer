@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.239",
+  "title": "Uncertainty-Guided Modal Rebalance for Hateful Memes Detection",
+  "authors": [
+    "Yang, Chuanpeng  and\nLiu, Yaxin  and\nZhu, Fuqing  and\nHan, Jizhong  and\nHu, Songlin"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Hateful memes detection is a challenging multimodal understanding task that requires comprehensive learning of vision, language, and cross-modal interactions. Previous research has focused on developing effective fusion strategies for integrating hate information from different modalities. However, these methods excessively rely on cross-modal fusion features, ignoring the modality uncertainty caused by the contribution degree of each modality to hate sentiment and the modality imbalance caused by the dominant modality suppressing the optimization of another modality. To this end, this paper proposes an Uncertainty-guided Modal Rebalance (UMR) framework for hateful memes detection. The uncertainty of each meme is explicitly formulated by designing stochastic representation drawn from a Gaussian distribution for aggregating cross-modal features with unimodal features adaptively. The modality imbalance is alleviated by improving cosine loss from the perspectives of inter-modal feature and weight vectors constraints. In this way, the suppressed unimodal representation ability in multimodal models would be unleashed, while the learning of modality contribution would be further promoted. Extensive experimental results demonstrate that the proposed UMR produces the state-of-the-art performance on four widely-used datasets.",
+  "keywords": [
+    "end",
+    "effective fusion strategies",
+    "the optimization",
+    "fusion",
+    "cross",
+    "loss",
+    "information",
+    "learning",
+    "different modalities",
+    "strategies",
+    "weight vectors",
+    "sentiment",
+    "language",
+    "vectors",
+    "modalities"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.239/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

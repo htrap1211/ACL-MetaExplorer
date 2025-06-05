@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.170",
+  "title": "An Iterative Associative Memory Model for Empathetic Response Generation",
+  "authors": [
+    "Yang, Zhou  and\nRen, Zhaochun  and\nYufeng, Wang  and\nSun, Haizhou  and\nChen, Chao  and\nZhu, Xiaofei  and\nLiao, Xiangwen"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Empathetic response generation aims to comprehend the cognitive and emotional states in dialogue utterances and generate proper responses. Psychological theories posit that comprehending emotional and cognitive states necessitates iteratively capturing and understanding associated words across dialogue utterances. However, existing approaches regard dialogue utterances as either a long sequence or independent utterances for comprehension, which are prone to overlook the associated words between them. To address this issue, we propose an Iterative Associative Memory Model (IAMM) for empathetic response generation. Specifically, we employ a novel second-order interaction attention mechanism to iteratively capture vital associated words between dialogue utterances and situations, dialogue history, and a memory module (for storing associated words), thereby accurately and nuancedly comprehending the utterances.We conduct experiments on the Empathetic-Dialogue dataset. Both automatic and human evaluations validate the efficacy of the model. Variant experiments on LLMs also demonstrate that attending to associated words improves empathetic comprehension and expression.",
+  "keywords": [
+    "generation",
+    "dialogue utterances",
+    "proper responses psychological theories",
+    "model",
+    "human",
+    "evaluations",
+    "empathetic response generation",
+    "theories",
+    "situations dialogue history",
+    "the empathetic-dialogue dataset",
+    "attention",
+    "we",
+    "sequence",
+    "dialogue",
+    "llms"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.170/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

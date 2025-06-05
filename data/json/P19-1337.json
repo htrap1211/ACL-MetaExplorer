@@ -1,0 +1,33 @@
+{
+  "id": "P19-1337",
+  "title": "Scalable Syntax-Aware Language Models Using Knowledge Distillation",
+  "authors": [
+    "Kuncoro, Adhiguna  and\nDyer, Chris  and\nRimell, Laura  and\nClark, Stephen  and\nBlunsom, Phil"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Prior work has shown that, on small amounts of training data, syntactic neural language models learn structurally sensitive generalisations more successfully than sequential language models. However, their computational complexity renders scaling difficult, and it remains an open question whether structural biases are still necessary when sequential models have access to ever larger amounts of training data. To answer this question, we introduce an efficient knowledge distillation (KD) technique that transfers knowledge from a syntactic language model trained on a small corpus to an LSTM language model, hence enabling the LSTM to develop a more structurally sensitive representation of the larger training data it learns from. On targeted syntactic evaluations, we find that, while sequential LSTMs perform much better than previously reported, our proposed technique substantially improves on this baseline, yielding a new state of the art. Our findings and analysis affirm the importance of structural biases, even in models that learn from large amounts of data.",
+  "keywords": [
+    "work",
+    "knowledge",
+    "language",
+    "an lstm language model",
+    "neural",
+    "sequential lstms",
+    "model",
+    "it",
+    "targeted syntactic evaluations",
+    "efficient",
+    "evaluations",
+    "scalable syntax-aware language models",
+    "structurally sensitive generalisations",
+    "question",
+    "lstms"
+  ],
+  "url": "https://aclanthology.org/P19-1337/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:38:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

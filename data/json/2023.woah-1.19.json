@@ -1,0 +1,33 @@
+{
+  "id": "2023.woah-1.19",
+  "title": "Evaluating the Effectiveness of Natural Language Inference for Hate Speech Detection in Languages with Limited Labeled Data",
+  "authors": [
+    "Goldzycher, Janis  and\nPreisig, Moritz  and\nAmrhein, Chantal  and\nSchneider, Gerold"
+  ],
+  "year": "2023",
+  "venue": "The 7th Workshop on Online Abuse and Harms (WOAH)",
+  "abstract": "Most research on hate speech detection has focused on English where a sizeable amount of labeled training data is available. However, to expand hate speech detection into more languages, approaches that require minimal training data are needed. In this paper, we test whether natural language inference (NLI) models which perform well in zero- and few-shot settings can benefit hate speech detection performance in scenarios where only a limited amount of labeled data is available in the target language. Our evaluation on five languages demonstrates large performance improvements of NLI fine-tuning over direct fine-tuning in the target language. However, the effectiveness of previous work that proposed intermediate fine-tuning on English data is hard to match. Only in settings where the English training data does not match the test domain, can our customised NLI-formulation outperform intermediate fine-tuning on English. Based on our extensive experiments, we propose a set of recommendations for hate speech detection in languages where minimal labeled training data is available.",
+  "keywords": [
+    "our evaluation",
+    "work",
+    "tuning",
+    "few-shot",
+    "intermediate fine-tuning",
+    "language",
+    "natural",
+    "fine",
+    "we",
+    "evaluation",
+    "training",
+    "shot",
+    "that",
+    "only a limited amount",
+    "speech"
+  ],
+  "url": "https://aclanthology.org/2023.woah-1.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:34:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

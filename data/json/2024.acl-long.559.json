@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.559",
+  "title": "AGB}-{DE}: A Corpus for the Automated Legal Assessment of Clauses in {G}erman Consumer Contracts",
+  "authors": [
+    "Braun, Daniel  and\nMatthes, Florian"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Legal tasks and datasets are often used as benchmarks for the capabilities of language models. However, openly available annotated datasets are rare. In this paper, we introduce AGB-DE, a corpus of 3,764 clauses from German consumer contracts that have been annotated and legally assessed by legal experts. Together with the data, we present a first baseline for the task of detecting potentially void clauses, comparing the performance of an SVM baseline with three fine-tuned open language models and the performance of GPT-3.5. Our results show the challenging nature of the task, with no approach exceeding an F1-score of 0.54. While the fine-tuned models often performed better with regard to precision, GPT-3.5 outperformed the other approaches with regard to recall. An analysis of the errors indicates that one of the main challenges could be the correct interpretation of complex clauses, rather than the decision boundaries of what is permissible and what is not.",
+  "keywords": [
+    "svm",
+    "precision",
+    "language",
+    "an f1-score",
+    "an svm baseline",
+    "precision gpt-3",
+    "boundaries",
+    "language models",
+    "gpt-3",
+    "the decision boundaries",
+    "capabilities",
+    "we",
+    "the capabilities",
+    "analysis",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.559/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

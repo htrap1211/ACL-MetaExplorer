@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.325",
+  "title": "Connective Prediction for Implicit Discourse Relation Recognition via Knowledge Distillation",
+  "authors": [
+    "Wu, Hongyi  and\nZhou, Hao  and\nLan, Man  and\nWu, Yuanbin  and\nZhang, Yadong"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Implicit discourse relation recognition (IDRR) remains a challenging task in discourse analysis due to the absence of connectives. Most existing methods utilize one-hot labels as the sole optimization target, ignoring the internal association among connectives. Besides, these approaches spend lots of effort on template construction, negatively affecting the generalization capability. To address these problems,we propose a novel Connective Prediction via Knowledge Distillation (CP-KD) approach to instruct large-scale pre-trained language models (PLMs) mining the latent correlations between connectives and discourse relations, which is meaningful for IDRR. Experimental results on the PDTB 2.0/3.0 and CoNLL2016 datasets show that our method significantly outperforms the state-of-the-art models on coarse-grained and fine-grained discourse relations. Moreover, our approach can be transferred to explicit discourse relation recognition(EDRR) and achieve acceptable performance.",
+  "keywords": [
+    "we",
+    "latent",
+    "analysis",
+    "the generalization capability",
+    "generalization",
+    "hot",
+    "knowledge",
+    "language",
+    "optimization",
+    "pre",
+    "the sole optimization target",
+    "approach",
+    "correlations",
+    "state",
+    "connectives"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.325/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

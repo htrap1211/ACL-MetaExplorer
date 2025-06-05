@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.31",
+  "title": "Every Document Owns Its Structure: Inductive Text Classification via Graph Neural Networks",
+  "authors": [
+    "Zhang, Yufeng  and\nYu, Xueli  and\nCui, Zeyu  and\nWu, Shu  and\nWen, Zhongzhen  and\nWang, Liang"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Text classification is fundamental in natural language processing (NLP) and Graph Neural Networks (GNN) are recently applied in this task. However, the existing graph-based works can neither capture the contextual word relationships within each document nor fulfil the inductive learning of new words. Therefore in this work, to overcome such problems, we propose TextING for inductive text classification via GNN. We first build individual graphs for each document and then use GNN to learn the fine-grained word representations based on their local structure, which can also effectively produce embeddings for unseen words in the new document. Finally, the word nodes are aggregated as the document embedding. Extensive experiments on four benchmark datasets show that our method outperforms state-of-the-art text classification methods.",
+  "keywords": [
+    "embeddings",
+    "work",
+    "processing",
+    "language",
+    "neural",
+    "natural",
+    "nlp",
+    "text",
+    "word",
+    "we",
+    "learning",
+    "inductive text classification",
+    "graph",
+    "classification",
+    "natural language processing nlp"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.31/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:42:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

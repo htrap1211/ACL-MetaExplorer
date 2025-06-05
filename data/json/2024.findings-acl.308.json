@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.308",
+  "title": "Translation Deserves Better: Analyzing Translation Artifacts in Cross-lingual Visual Question Answering",
+  "authors": [
+    "Park, ChaeHun  and\nLee, Koanho  and\nLim, Hyesu  and\nKim, Jaeseok  and\nPark, Junmo  and\nHeo, Yu-Jung  and\nChang, Du-Seong  and\nChoo, Jaegul"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Building a reliable visual question answering (VQA) system across different languages is a challenging problem, primarily due to the lack of abundant samples for training. To address this challenge, recent studies have employed machine translation systems for the cross-lingual VQA task. This involves translating the evaluation samples into a source language (usually English) and using monolingual models (i.e., translate-test). However, our analysis reveals that translated texts contain unique characteristics distinct from human-written ones, referred to as translation artifacts. We find that these artifacts can significantly affect the models, confirmed by extensive experiments across diverse models, languages, and translation processes. In light of this, we present a simple data augmentation strategy that can alleviate the adverse impacts of translation artifacts.",
+  "keywords": [
+    "question",
+    "we",
+    "training",
+    "translation",
+    "cross",
+    "machine translation systems",
+    "the cross-lingual vqa task",
+    "visual",
+    "analysis",
+    "i",
+    "vqa system",
+    "the evaluation samples",
+    "recent studies",
+    "translation artifacts",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.308/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

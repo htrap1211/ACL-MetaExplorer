@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.262",
+  "title": "Jack-flood at {S}em{E}val-2023 Task 5:Hierarchical Encoding and Reciprocal Rank Fusion-Based System for Spoiler Classification and Generation",
+  "authors": [
+    "Kumar, Sujit  and\nSinha, Aditya  and\nJana, Soumyadeep  and\nMishra, Rahul  and\nSingh, Sanasam Ranbir"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "The rise of social media has exponentially witnessed the use of clickbait posts that grab users’ attention. Although work has been done to detect clickbait posts, this is the first task focused on generating appropriate spoilers for these potential clickbaits. This paper presents our approach in this direction. We use different encoding techniques that capture the context of the post text and the target paragraph. We propose hierarchical encoding with count and document length feature-based model for spoiler type classification which uses Recurrence over Pretrained Encoding. We also propose combining multiple ranking with reciprocal rank fusion for passage spoiler retrieval and question-answering approach for phrase spoiler retrieval. For multipart spoiler retrieval, we combine the above two spoiler retrieval methods. Experimental results over the benchmark suggest that our proposed spoiler retrieval methods are able to retrieve spoilers that are semantically very close to the ground truth spoilers.",
+  "keywords": [
+    "users attention",
+    "hierarchical encoding",
+    "question",
+    "spoiler classification",
+    "we",
+    "fusion",
+    "classification",
+    "retrieval",
+    "5 hierarchical encoding",
+    "text",
+    "phrase spoiler retrieval",
+    "multipart spoiler retrieval",
+    "work",
+    "hierarchical",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.262/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:30:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

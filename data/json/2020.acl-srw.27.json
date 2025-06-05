@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-srw.27",
+  "title": "u{BLEU}: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems",
+  "authors": [
+    "Tsuta, Yuma  and\nYoshinaga, Naoki  and\nToyoda, Masashi"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "Because open-domain dialogues allow diverse responses, basic reference-based metrics such as BLEU do not work well unless we prepare a massive reference set of high-quality responses for input utterances. To reduce this burden, a human-aided, uncertainty-aware metric, ΔBLEU, has been proposed; it embeds human judgment on the quality of reference outputs into the computation of multiple-reference BLEU. In this study, we instead propose a fully automatic, uncertainty-aware evaluation method for open-domain dialogue systems, υBLEU. This method first collects diverse reference responses from massive dialogue data and then annotates their quality judgments by using a neural network trained on automatically collected training data. Experimental results on massive Twitter data confirmed that υBLEU is comparable to ΔBLEU in terms of its correlation with human judgment and that the state of the art automatic evaluation method, RUBER, is improved by integrating υBLEU.",
+  "keywords": [
+    "reference",
+    "a neural network",
+    "open-domain dialogue systems υbleu",
+    "neural",
+    "massive dialogue data",
+    "metric",
+    "dialogues",
+    "it",
+    "human",
+    "multiple-reference bleu",
+    "metrics",
+    "bleu",
+    "υbleu",
+    "network",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2020.acl-srw.27/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:53:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

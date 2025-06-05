@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.895",
+  "title": "On the Expressivity Role of {L}ayer{N}orm in Transformers' Attention",
+  "authors": [
+    "Brody, Shaked  and\nAlon, Uri  and\nYahav, Eran"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Layer Normalization (LayerNorm) is an inherent component in all Transformer-based models. In this paper, we show that LayerNorm is crucial to the expressivity of the multi-head attention layer that follows it. This is in contrast to the common belief that LayerNorm’s only role is to normalize the activations during the forward pass, and their gradients during the backward pass. We consider a geometric interpretation of LayerNorm and show that it consists of two components: (a) projection of the input vectors to a d-1 space that is orthogonal to the [1,1,...,1] vector, and(b) scaling of all vectors to the same norm of d. We show that each of these components is important for the attention layer that follows it in Transformers:(a) projection allows the attention mechanism to create an attention query that attends to all keys equally, offloading the need to learn this operation in the attention; and(b) scaling allows each key to potentially receive the highest attention, and prevents keys from being “un-select-able”.We show empirically that Transformers do indeed benefit from these properties of LayeNorm in general language modeling and even in computing simple functions such as “majority”. Our code is available athttps://github.com/tech-srl/layer_norm_expressivity_role.",
+  "keywords": [
+    "code",
+    "the attention layer",
+    "transformers",
+    "the highest attention",
+    "layer",
+    "we",
+    "all vectors",
+    "activations",
+    "norm",
+    "the attention mechanism",
+    "these properties",
+    "their gradients",
+    "it",
+    "properties",
+    "all transformer-based models"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.895/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

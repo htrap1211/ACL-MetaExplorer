@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.14",
+  "title": "IAPUCP} at {S}em{E}val-2021 Task 1: Stacking Fine-Tuned Transformers is Almost All You Need for Lexical Complexity Prediction",
+  "authors": [
+    "Rivas Rojas, Kervy  and\nAlva-Manchego, Fernando"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper describes our submission to SemEval-2021 Task 1: predicting the complexity score for single words. Our model leverages standard morphosyntactic and frequency-based features that proved helpful for Complex Word Identification (a related task), and combines them with predictions made by Transformer-based pre-trained models that were fine-tuned on the Shared Task data. Our submission system stacks all previous models with a LightGBM at the top. One novelty of our approach is the use of multi-task learning for fine-tuning a pre-trained model for both Lexical Complexity Prediction and Word Sense Disambiguation. Our analysis shows that all independent models achieve a good performance in the task, but that stacking them obtains a Pearson correlation of 0.7704, merely 0.018 points behind the winning submission.",
+  "keywords": [
+    "transformers",
+    "fine-tuned transformers",
+    "transformer-based pre-trained models",
+    "e",
+    "word",
+    "learning",
+    "analysis",
+    "fine",
+    "transformer",
+    "model",
+    "pre",
+    "lightgbm",
+    "multi",
+    "approach",
+    "frequency"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.14/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:19:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.langmol-1.11",
+  "title": "Knowlab{'}s Submission to {L}+{M} Shared Task: All you need is continued pretraining of chemistry texts even for molecule captioning",
+  "authors": [
+    "Kim, Yunsoo  and\nWu, Honghan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Language + Molecules (L+M 2024)",
+  "abstract": "This paper presents our submission to the L+M-24 shared task, focused on translating molecular structures into natural language descriptions, known as the molecule captioning task. We selected a small language model (SLM), Phi-3-mini-4k, to evaluate the impact of continued pretraining and instruction tuning for domain-specific chemical knowledge. The Phi-3 model was continued pretrained with 90M chemistry textbooks and abstracts, followed by instruction tuning on 150K question answering sets of SMILES and general chemistry knowledge. Despite the continued pretraining phase not including direct exposure to SMILES representations, it significantly enhanced the Phi-3 model’s performance, a 300% increase for the BLEU scores, in the molecule captioning task. The code and model are released athttps://github.com/bluesky333/Phi3KnowChemto facilitate research in chemical small language modeling.",
+  "keywords": [
+    "code",
+    "bleu",
+    "the bleu scores",
+    "question",
+    "chemical small language modeling",
+    "all",
+    "we",
+    "instruction",
+    "natural",
+    "it",
+    "m",
+    "instruction tuning",
+    "tuning",
+    "general chemistry knowledge",
+    "general"
+  ],
+  "url": "https://aclanthology.org/2024.langmol-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:07:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

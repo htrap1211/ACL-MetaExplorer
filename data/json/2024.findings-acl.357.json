@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.357",
+  "title": "When to Trust {LLM}s: Aligning Confidence with Response Quality",
+  "authors": [
+    "Tao, Shuchang  and\nYao, Liuyi  and\nDing, Hanxing  and\nXie, Yuexiang  and\nCao, Qi  and\nSun, Fei  and\nGao, Jinyang  and\nShen, Huawei  and\nDing, Bolin"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Despite the success of large language models (LLMs) in natural language generation, much evidence shows that LLMs may produce incorrect or nonsensical text. This limitation highlights the importance of discerning when to trust LLMs, especially in safety-critical domains. Existing methods often express reliability by confidence level, however, their effectiveness is limited by the lack of objective guidance. To address this, we propose CONfidence-Quality-ORDer-preserving alignment approach (CONQORD), which leverages reinforcement learning guided by a tailored dual-component reward function. This function integrates quality reward and order-preserving alignment reward functions. Specifically, the order-preserving reward incentivizes the model to verbalize greater confidence for responses of higher quality to align the order of confidence and quality. Experiments demonstrate that CONQORD significantly improves the alignment performance between confidence and response accuracy, without causing over-cautious. Furthermore, the aligned confidence provided by CONQORD informs when to trust LLMs, and acts as a determinant for initiating the retrieval process of external knowledge. Aligning confidence with response quality ensures more transparent and reliable responses, providing better trustworthiness.",
+  "keywords": [
+    "the retrieval process",
+    "response accuracy",
+    "we",
+    "llm",
+    "natural",
+    "retrieval",
+    "the alignment performance",
+    "natural language generation",
+    "learning",
+    "objective guidance",
+    "llms",
+    "text",
+    "objective",
+    "order-preserving alignment reward functions",
+    "confidence-quality-order-preserving alignment approach conqord"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.357/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:53:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.83",
+  "title": "ASOS} at {NADI} 2024 shared task: Bridging Dialectness Estimation and {MSA} Machine Translation for {A}rabic Language Enhancement",
+  "authors": [
+    "Nacar, Omer  and\nSibaee, Serry  and\nAlharbi, Abdullah  and\nGhouti, Lahouari  and\nKoubaa, Anis"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "This study undertakes a comprehensive investigation of transformer-based models to advance Arabic language processing, focusing on two pivotal aspects: the estimation of Arabic Level of Dialectness and dialectal sentence-level machine translation into Modern Standard Arabic. We conducted various evaluations of different sentence transformers across a proposed regression model, showing that the MARBERT transformer-based proposed regression model achieved the best root mean square error of 0.1403 for Arabic Level of Dialectness estimation. In parallel, we developed bi-directional translation models between Modern Standard Arabic and four specific Arabic dialects—Egyptian, Emirati, Jordanian, and Palestinian—by fine-tuning and evaluating different sequence-to-sequence transformers. This approach significantly improved translation quality, achieving a BLEU score of 0.1713. We also enhanced our evaluation capabilities by integrating MSA predictions from the machine translation model into our Arabic Level of Dialectness estimation framework, forming a comprehensive pipeline that not only demonstrates the effectiveness of our methodologies but also establishes a new benchmark in the deployment of advanced Arabic NLP technologies.",
+  "keywords": [
+    "transformers",
+    "various evaluations",
+    "bi-directional translation models",
+    "bleu",
+    "msa machine translation",
+    "we",
+    "translation",
+    "fine-tuning",
+    "a bleu score",
+    "advanced arabic nlp technologies",
+    "technologies",
+    "sequence",
+    "tuning",
+    "processing",
+    "our methodologies"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.83/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:03:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

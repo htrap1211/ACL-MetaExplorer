@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.33",
+  "title": "Mismatch between Multi-turn Dialogue and its Evaluation Metric in Dialogue State Tracking",
+  "authors": [
+    "Kim, Takyoung  and\nYoon, Hoonsang  and\nLee, Yukyung  and\nKang, Pilsung  and\nKim, Misuk"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Dialogue state tracking (DST) aims to extract essential information from multi-turn dialog situations and take appropriate actions. A belief state, one of the core pieces of information, refers to the subject and its specific content, and appears in the form of domain-slot-value. The trained model predicts “accumulated” belief states in every turn, and joint goal accuracy and slot accuracy are mainly used to evaluate the prediction; however, we specify that the current evaluation metrics have a critical limitation when evaluating belief states accumulated as the dialogue proceeds, especially in the most used MultiWOZ dataset. Additionally, we proposerelative slot accuracyto complement existing metrics. Relative slot accuracy does not depend on the number of predefined slots, and allows intuitive evaluation by assigning relative scores according to the turn of each dialog. This study also encourages not solely the reporting of joint goal accuracy, but also various complementary metrics in DST tasks for the sake of a realistic evaluation.",
+  "keywords": [
+    "multi-turn dialogue",
+    "belief states",
+    "form",
+    "we",
+    "dialogue",
+    "joint goal accuracy",
+    "current",
+    "intuitive evaluation",
+    "the current evaluation metrics",
+    "information",
+    "pieces",
+    "the core pieces",
+    "slot accuracy",
+    "core",
+    "various complementary metrics"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.33/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:32:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

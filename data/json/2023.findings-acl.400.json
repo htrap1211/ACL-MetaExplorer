@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.400",
+  "title": "N}on{F}act{S}: {N}on{F}actual Summary Generation for Factuality Evaluation in Document Summarization",
+  "authors": [
+    "Soleimani, Amir  and\nMonz, Christof  and\nWorring, Marcel"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Pre-trained abstractive summarization models can generate fluent summaries and achieve high ROUGE scores. Previous research has found that these models often generate summaries that are inconsistent with their context document and contain nonfactual information. To evaluate factuality in document summarization, a document-level Natural Language Inference (NLI) classifier can be used. However, training such a classifier requires large-scale high-quality factual and nonfactual samples. To that end, we introduce NonFactS, a data generation model, to synthesize nonfactual summaries given a context document and a human-annotated (reference) factual summary. Compared to previous methods, our nonfactual samples are more abstractive and more similar to their corresponding factual samples, resulting in state-of-the-art performance on two factuality evaluation benchmarks, FALSESUM and SUMMAC. Our experiments demonstrate that even without human-annotated summaries, NonFactS can use random sentences to generate nonfactual summaries and a classifier trained on these samples generalizes to out-of-domain documents.",
+  "keywords": [
+    "f actual summary generation",
+    "end",
+    "classifier",
+    "two factuality evaluation",
+    "summarization",
+    "we",
+    "nonfactual summaries",
+    "such a classifier",
+    "natural",
+    "document summarization",
+    "high rouge scores",
+    "information",
+    "human-annotated summaries nonfacts",
+    "fluent summaries",
+    "rouge"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.400/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

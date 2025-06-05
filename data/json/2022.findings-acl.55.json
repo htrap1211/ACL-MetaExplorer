@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.55",
+  "title": "Mitigating Gender Bias in Distilled Language Models via Counterfactual Role Reversal",
+  "authors": [
+    "Gupta, Umang  and\nDhamala, Jwala  and\nKumar, Varun  and\nVerma, Apurv  and\nPruksachatkun, Yada  and\nKrishna, Satyapriya  and\nGupta, Rahul  and\nChang, Kai-Wei  and\nVer Steeg, Greg  and\nGalstyan, Aram"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Language models excel at generating coherent text, and model compression techniques such as knowledge distillation have enabled their use in resource-constrained settings. However, these models can be biased in multiple ways, including the unfounded association of male and female genders with gender-neutral professions. Therefore, knowledge distillation without any fairness constraints may preserve or exaggerate the teacher model’s biases onto the distilled model. To this end, we present a novel approach to mitigate gender disparity in text generation by learning a fair model during knowledge distillation. We propose two modifications to the base knowledge distillation based on counterfactual role reversal—modifying teacher probabilities and augmenting the training set. We evaluate gender polarity across professions in open-ended text generated from the resulting distilled and finetuned GPT–2 models and demonstrate a substantial reduction in gender disparity with only a minor compromise in utility. Finally, we observe that language models that reduce gender polarity in language generation do not improve embedding fairness or downstream classification fairness.",
+  "keywords": [
+    "bias",
+    "end",
+    "we",
+    "text generation",
+    "training",
+    "classification",
+    "language generation",
+    "distilled language models",
+    "reduction",
+    "text",
+    "that language models",
+    "biases",
+    "teacher probabilities",
+    "knowledge",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.55/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

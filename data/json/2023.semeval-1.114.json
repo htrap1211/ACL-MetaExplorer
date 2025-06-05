@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.114",
+  "title": "gar{NER} at {S}em{E}val-2023: Simplified Knowledge Augmentation for Multilingual Complex Named Entity Recognition",
+  "authors": [
+    "Hossain, Md Zobaer  and\nSo, Averie Ho Zoen  and\nSilwal, Silviya  and\nGonzalez Gongora, H. Andres  and\nSamin, Ahnaf Mozib  and\nJunaed, Jahedul Alam  and\nMazumder, Aritra  and\nSaha, Sourav  and\nTahsin Soha, Sabiha"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper presents our solution, garNER, to the SemEval-2023 MultiConer task. We propose a knowledge augmentation approach by directly querying entities from the Wikipedia API and appending the summaries of the entities to the input sentence. These entities are either retrieved from the labeled training set (Gold Entity) or from off-the-shelf entity taggers (Entity Extractor). Ensemble methods are then applied across multiple models to get the final prediction. Our analysis shows that the added contexts are beneficial only when such contexts are relevant to the target-named entities, but detrimental when the contexts are irrelevant.",
+  "keywords": [
+    "entity extractor ensemble methods",
+    "ensemble",
+    "ner",
+    "gar ner",
+    "knowledge",
+    "summaries",
+    "our solution garner",
+    "entities",
+    "the target-named entities",
+    "the summaries",
+    "garner",
+    "multiconer",
+    "we",
+    "the semeval-2023 multiconer task",
+    "these entities"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.114/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:28:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

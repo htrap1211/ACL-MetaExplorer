@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.421",
+  "title": "Cocktail: A Comprehensive Information Retrieval Benchmark with {LLM}-Generated Documents Integration",
+  "authors": [
+    "Dai, Sunhao  and\nLiu, Weihao  and\nZhou, Yuqi  and\nPang, Liang  and\nRuan, Rongju  and\nWang, Gang  and\nDong, Zhenhua  and\nXu, Jun  and\nWen, Ji-Rong"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "The proliferation of Large Language Models (LLMs) has led to an influx of AI-generated content (AIGC) on the internet, transforming the corpus of Information Retrieval (IR) systems from solely human-written to a coexistence with LLM-generated content. The impact of this surge in AIGC on IR systems remains an open question, with the primary challenge being the lack of a dedicated benchmark for researchers. In this paper, we introduce Cocktail, a comprehensive benchmark tailored for evaluating IR models in this mixed-sourced data landscape of the LLM era. Cocktail consists of 16 diverse datasets with mixed human-written and LLM-generated corpora across various text retrieval tasks and domains. Additionally, to avoid the potential bias from previously included dataset information in LLMs, we also introduce an up-to-date dataset, named NQ-UTD, with queries derived from recent events. Through conducting over 1,000 experiments to assess state-of-the-art retrieval models against the benchmarked datasets in Cocktail, we uncover a clear trade-off between ranking performance and source bias in neural retrieval models, highlighting the necessity for a balanced approach in designing future IR systems. We hope Cocktail can serve as a foundational resource for IR research in the LLM era, with all data and code publicly available at https://github.com/KID-22/Cocktail.",
+  "keywords": [
+    "llm -generated documents",
+    "code",
+    "bias",
+    "question",
+    "era",
+    "we",
+    "llm",
+    "neural",
+    "the potential bias",
+    "queries",
+    "retrieval",
+    "information",
+    "the llm era cocktail",
+    "llms",
+    "ai-generated content aigc"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.421/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

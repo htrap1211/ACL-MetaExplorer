@@ -1,0 +1,33 @@
+{
+  "id": "P17-1097",
+  "title": "From Language to Programs: Bridging Reinforcement Learning and Maximum Marginal Likelihood",
+  "authors": [
+    "Guu, Kelvin  and\nPasupat, Panupong  and\nLiu, Evan  and\nLiang, Percy"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Our goal is to learn a semantic parser that maps natural language utterances into executable programs when only indirect supervision is available: examples are labeled with the correct execution result, but not the program itself. Consequently, we must search the space of programs for those that output the correct result, while not being misled byspurious programs: incorrect programs that coincidentally output the correct result. We connect two common learning paradigms, reinforcement learning (RL) and maximum marginal likelihood (MML), and then present a new learning algorithm that combines the strengths of both. The new algorithm guards against spurious programs by combining the systematic search traditionally employed in MML with the randomized exploration of RL, and by updating parameters such that probability is spread more evenly across consistent programs. We apply our learning algorithm to a new neural semantic parser and show significant gains over existing state-of-the-art results on a recent context-dependent semantic parsing task.",
+  "keywords": [
+    "parsing",
+    "semantic",
+    "we",
+    "neural",
+    "natural",
+    "a semantic parser",
+    "learning",
+    "reinforcement",
+    "language",
+    "rl",
+    "reinforcement learning",
+    "significant gains",
+    "supervision",
+    "state",
+    "byspurious programs"
+  ],
+  "url": "https://aclanthology.org/P17-1097/",
+  "provenance": {
+    "collected_at": "2025-06-04 23:59:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

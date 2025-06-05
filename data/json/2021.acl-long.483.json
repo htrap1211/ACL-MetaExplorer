@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.483",
+  "title": "CIL}: Contrastive Instance Learning Framework for Distantly Supervised Relation Extraction",
+  "authors": [
+    "Chen, Tao  and\nShi, Haizhou  and\nTang, Siliang  and\nChen, Zhigang  and\nWu, Fei  and\nZhuang, Yueting"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "The journey of reducing noise from distant supervision (DS) generated training data has been started since the DS was first introduced into the relation extraction (RE) task. For the past decade, researchers apply the multi-instance learning (MIL) framework to find the most reliable feature from a bag of sentences. Although the pattern of MIL bags can greatly reduce DS noise, it fails to represent many other useful sentence features in the datasets. In many cases, these sentence features can only be acquired by extra sentence-level human annotation with heavy costs. Therefore, the performance of distantly supervised RE models is bounded. In this paper, we go beyond typical MIL framework and propose a novel contrastive instance learning (CIL) framework. Specifically, we regard the initial MIL as the relational triple encoder and constraint positive pairs against negative pairs for each instance. Experiments demonstrate the effectiveness of our proposed framework, with significant improvements over the previous methods on NYT10, GDS and KBP.",
+  "keywords": [
+    "extraction",
+    "extra",
+    "we",
+    "training",
+    "bag",
+    "it",
+    "the relational triple encoder",
+    "generated training data",
+    "-",
+    "human",
+    "encoder",
+    "positive pairs",
+    "multi",
+    "supervision",
+    "effectiveness"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.483/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

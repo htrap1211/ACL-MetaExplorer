@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.312",
+  "title": "Open-Domain Hierarchical Event Schema Induction by Incremental Prompting and Verification",
+  "authors": [
+    "Li, Sha  and\nZhao, Ruining  and\nLi, Manling  and\nJi, Heng  and\nCallison-Burch, Chris  and\nHan, Jiawei"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Event schemas are a form of world knowledge about the typical progression of events. Recent methods for event schema induction use information extraction systems to construct a large number of event graph instances from documents, and then learn to generalize the schema from such instances. In contrast, we propose to treat event schemas as a form of commonsense knowledge that can be derived from large language models (LLMs). This new paradigm greatly simplifies the schema induction process and allows us to handle both hierarchical relations and temporal relations between events in a straightforward way. Since event schemas have complex graph structures, we design an incremental prompting and verification method IncPrompt to break down the construction of a complex event graph into three stages: event skeleton construction, event expansion, and event-event relation verification. Compared to directly using LLMs to generate a linearized graph, IncSchema can generate large and complex schemas with 7.2% F1 improvement in temporal relations and 31.0% F1 improvement in hierarchical relations. In addition, compared to the previous state-of-the-art closed-domain schema induction model, human assessors were able to cover ~10% more events when translating the schemas into coherent stories and rated our schemas 1.3 points higher (on a 5-point scale) in terms of readability.",
+  "keywords": [
+    "extraction",
+    "incprompt",
+    "form",
+    "we",
+    "7 2 f1 improvement",
+    "graph",
+    "hierarchical relations",
+    "both hierarchical relations",
+    "information",
+    "llms",
+    "coherent stories",
+    "information extraction systems",
+    "stories",
+    "hierarchical",
+    "process"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.312/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

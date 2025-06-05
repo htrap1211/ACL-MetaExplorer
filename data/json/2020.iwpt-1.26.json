@@ -1,0 +1,33 @@
+{
+  "id": "2020.iwpt-1.26",
+  "title": "R}obert{NLP} at the {IWPT} 2020 Shared Task: Surprisingly Simple Enhanced {UD} Parsing for {E}nglish",
+  "authors": [
+    "Gr{\\\"u}newald, Stefan  and\nFriedrich, Annemarie"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 16th International Conference on Parsing Technologies and the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies",
+  "abstract": "This paper presents our system at the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies. Using a biaffine classifier architecture (Dozat and Manning, 2017) which operates directly on finetuned RoBERTa embeddings, our parser generates enhanced UD graphs by predicting the best dependency label (or absence of a dependency) for each pair of tokens in the sentence. We address label sparsity issues by replacing lexical items in relations with placeholders at prediction time, later retrieving them from the parse in a rule-based fashion. In addition, we ensure structural graph constraints using a simple set of heuristics. On the English blind test data, our system achieves a very high parsing accuracy, ranking 1st out of 10 with an ELAS F1 score of 88.94%.",
+  "keywords": [
+    "embeddings",
+    "a dependency",
+    "roberta",
+    "r obert nlp",
+    "nlp",
+    "classifier",
+    "dependencies",
+    "obert",
+    "finetuned roberta embeddings",
+    "enhanced universal dependencies",
+    "dependency",
+    "we",
+    "an elas f1 score",
+    "graph",
+    "time"
+  ],
+  "url": "https://aclanthology.org/2020.iwpt-1.26/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:56:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

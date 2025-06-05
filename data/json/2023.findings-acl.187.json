@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.187",
+  "title": "Automated Refugee Case Analysis: An {NLP} Pipeline for Supporting Legal Practitioners",
+  "authors": [
+    "Barale, Claire  and\nRovatsos, Michael  and\nBhuta, Nehal"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In this paper, we introduce an end-to-end pipeline for retrieving, processing, and extracting targeted information from legal cases. We investigate an under-studied legal domain with a case study on refugee law Canada. Searching case law for past similar cases is a key part of legal work for both lawyers and judges, the potential end-users of our prototype. While traditional named-entity recognition labels such as dates are meaningful information in law, we propose to extend existing models and retrieve a total of 19 categories of items from refugee cases. After creating a novel data set of cases, we perform information extraction based on state-of-the-art neural named-entity recognition (NER). We test different architectures including two transformer models, using contextual and non-contextual embeddings, and compare general purpose versus domain-specific pre-training. The results demonstrate that models pre-trained on legal data perform best despite their smaller size, suggesting that domain-matching had a larger effect than network architecture. We achieve a F1- score superior to 90% on five of the targeted categories and superior to 80% on an additional 4 categories.",
+  "keywords": [
+    "end",
+    "general purpose",
+    "extraction",
+    "an under-studied legal domain",
+    "we",
+    "the targeted categories",
+    "neural",
+    "information",
+    "an additional 4 categories",
+    "a f1- score",
+    "analysis",
+    "ner",
+    "two transformer models",
+    "processing",
+    "categories"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.187/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.605",
+  "title": "Large Language Models Are Partially Primed in Pronoun Interpretation",
+  "authors": [
+    "Lam, Suet-Ying  and\nZeng, Qingcheng  and\nZhang, Kexun  and\nYou, Chenyu  and\nVoigt, Rob"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "While a large body of literature suggests that large language models (LLMs) acquire rich linguistic representations, little is known about whether they adapt to linguistic biases in a human-like way. The present study probes this question by asking whether LLMs display human-like referential biases using stimuli and procedures from real psycholinguistic experiments. Recent psycholinguistic studies suggest that humans adapt their referential biases with recent exposure to referential patterns; closely replicating three relevant psycholinguistic experiments from Johnson & Arnold (2022) in an in-context learning (ICL) framework, we found that InstructGPT adapts its pronominal interpretations in response to the frequency of referential patterns in the local discourse, though in a limited fashion: adaptation was only observed relative to syntactic but not semantic biases. By contrast, FLAN-UL2 fails to generate meaningful patterns. Our results provide further evidence that contemporary LLMs discourse representations are sensitive to syntactic patterns in the local context but less so to semantic patterns. Our data and code are available athttps://github.com/zkx06111/llm_priming.",
+  "keywords": [
+    "code",
+    "recent psycholinguistic studies",
+    "question",
+    "semantic",
+    "we",
+    "their referential biases",
+    "linguistic biases",
+    "rich",
+    "llms",
+    "instructgpt",
+    "llm_priming",
+    "large language models llms",
+    "human-like referential biases",
+    "biases",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.605/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

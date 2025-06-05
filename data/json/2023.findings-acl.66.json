@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.66",
+  "title": "Improving Embedding-based Unsupervised Keyphrase Extraction by Incorporating Structural Information",
+  "authors": [
+    "Song, Mingyang  and\nLiu, Huafeng  and\nFeng, Yi  and\nJing, Liping"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Keyphrase extraction aims to extract a set of phrases with the central idea of the source document. In a structured document, there are certain locations (e.g., the title or the first sentence) where a keyphrase is most likely to appear. However, when extracting keyphrases from the document, most existing embedding-based unsupervised keyphrase extraction models ignore the indicative role of the highlights in certain locations, leading to wrong keyphrases extraction. In this paper, we propose a new Highlight-Guided Unsupervised Keyphrase Extraction model (HGUKE) to address the above issue. Specifically, HGUKE first models the phrase-document relevance via the highlights of the documents. Next, HGUKE calculates the cross-phrase relevance between all candidate phrases. Finally, HGUKE aggregates the above two relevance as the importance score of each candidate phrase to rank and extract keyphrases. The experimental results on three benchmarks demonstrate that HGUKE outperforms the state-of-the-art unsupervised keyphrase extraction baselines.",
+  "keywords": [
+    "cross",
+    "extraction",
+    "model",
+    "information",
+    "embedding-based unsupervised keyphrase extraction",
+    "we",
+    "wrong",
+    "documents",
+    "a structured document",
+    "central",
+    "the document",
+    "certain",
+    "new",
+    "state",
+    "the-art"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.66/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

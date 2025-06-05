@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.811",
+  "title": "M}anager{T}ower: Aggregating the Insights of Uni-Modal Experts for Vision-Language Representation Learning",
+  "authors": [
+    "Xu, Xiao  and\nLi, Bei  and\nWu, Chenfei  and\nTseng, Shao-Yen  and\nBhiwandiwalla, Anahita  and\nRosenman, Shachar  and\nLal, Vasudev  and\nChe, Wanxiang  and\nDuan, Nan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Two-Tower Vision-Language (VL) models have shown promising improvements on various downstream VL tasks. Although the most advanced work improves performance by building bridges between encoders, it suffers from ineffective layer-by-layer utilization of uni-modal representations and cannot flexibly exploit different levels of uni-modal semantic knowledge. In this work, we propose ManagerTower, a novel VL model architecture that gathers and combines the insights of pre-trained uni-modal experts at different levels. The managers introduced in each cross-modal layer can adaptively aggregate uni-modal semantic knowledge to facilitate more comprehensive cross-modal alignment and fusion. ManagerTower outperforms previous strong baselines both with and without Vision-Language Pre-training (VLP). With only 4M VLP data, ManagerTower achieves superior performances on various downstream VL tasks, especially 79.15% accuracy on VQAv2 Test-Std, 86.56% IR@1 and 95.64% TR@1 on Flickr30K. Code and checkpoints are available athttps://github.com/LooperXX/ManagerTower.",
+  "keywords": [
+    "code",
+    "uni",
+    "layer",
+    "semantic",
+    "we",
+    "fusion",
+    "especially 79 15 accuracy",
+    "training",
+    "cross",
+    "it",
+    "vqav2",
+    "uni-modal semantic knowledge",
+    "more comprehensive cross-modal alignment",
+    "encoders",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.811/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:46:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

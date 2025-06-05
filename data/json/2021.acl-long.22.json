@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.22",
+  "title": "Understanding the Properties of Minimum {B}ayes Risk Decoding in Neural Machine Translation",
+  "authors": [
+    "M{\\\"u}ller, Mathias  and\nSennrich, Rico"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Neural Machine Translation (NMT) currently exhibits biases such as producing translations that are too short and overgenerating frequent words, and shows poor robustness to copy noise in training data or domain shift. Recent work has tied these shortcomings to beam search – the de facto standard inference algorithm in NMT – and Eikema & Aziz (2020) propose to use Minimum Bayes Risk (MBR) decoding on unbiased samples instead. In this paper, we empirically investigate the properties of MBR decoding on a number of previously reported biases and failure cases of beam search. We find that MBR still exhibits a length and token frequency bias, owing to the MT metrics used as utility functions, but that MBR also increases robustness against copy noise in the training data and domain shift.",
+  "keywords": [
+    "work",
+    "bias",
+    "translation",
+    "unbiased",
+    "neural",
+    "unbiased samples",
+    "machine",
+    "metrics",
+    "token",
+    "properties",
+    "overgenerating",
+    "the properties",
+    "we",
+    "the mt metrics",
+    "biases"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.22/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:59:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.176",
+  "title": "Your fairness may vary: Pretrained language model fairness in toxic text classification",
+  "authors": [
+    "Baldini, Ioana  and\nWei, Dennis  and\nNatesan Ramamurthy, Karthikeyan  and\nSingh, Moninder  and\nYurochkin, Mikhail"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "The popularity of pretrained language models in natural language processing systems calls for a careful evaluation of such models in down-stream tasks, which have a higher potential for societal impact. The evaluation of such systems usually focuses on accuracy measures. Our findings in this paper call for attention to be paid to fairness measures as well. Through the analysis of more than a dozen pretrained language models of varying sizes on two toxic text classification tasks (English), we demonstrate that focusing on accuracy measures alone can lead to models with wide variation in fairness characteristics. Specifically, we observe that fairness can vary even more than accuracy with increasing training data size and different random initializations. At the same time, we find that little of the fairness variation is explained by model size, despite claims in the literature. To improve model fairness without retraining, we show that two post-processing methods developed for structured, tabular data can be successfully applied to a range of pretrained language models. Warning: This paper contains samples of offensive text.",
+  "keywords": [
+    "natural language processing systems",
+    "we",
+    "training",
+    "classification",
+    "toxic text classification",
+    "natural",
+    "analysis",
+    "pretrained language model fairness",
+    "processing",
+    "text",
+    "societal impact",
+    "accuracy",
+    "language",
+    "random",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.176/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

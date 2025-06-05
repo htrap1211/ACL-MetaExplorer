@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.840",
+  "title": "Iterative Nearest Neighbour Machine Translation for Unsupervised Domain Adaptation",
+  "authors": [
+    "Huang, Hui  and\nWu, Shuangzhi  and\nLiang, Xinnian  and\nZhou, Zefan  and\nYang, Muyun  and\nZhao, Tiejun"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Unsupervised domain adaptation of machine translation, which adapts a pre-trained translation model to a specific domain without in-domain parallel data, has drawn extensive attention in recent years. However, most existing methods focus on the fine-tuning based techniques, which is non-extensible. In this paper, we propose a new method to perform unsupervised domain adaptation in a non-parametric manner. Our method only resorts to in-domain monolingual data, and we jointly perform nearest neighbour inference on both forward and backward translation directions. The forward translation model creates nearest neighbour datastore for the backward direction, and vice versa, strengthening each other in an iterative style. Experiments on multi-domain datasets demonstrate that our method significantly improves the in-domain translation performance and achieves state-of-the-art results among non-parametric methods.",
+  "keywords": [
+    "a pre-trained translation model",
+    "tuning",
+    "model",
+    "machine",
+    "extensive attention",
+    "machine translation",
+    "nearest neighbour machine translation",
+    "a non-parametric manner",
+    "the fine-tuning based techniques",
+    "attention",
+    "we",
+    "pre",
+    "manner",
+    "translation",
+    "the forward translation model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.840/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

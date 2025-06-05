@@ -1,0 +1,33 @@
+{
+  "id": "2021.repl4nlp-1.31",
+  "title": "Scaling Deep Contrastive Learning Batch Size under Memory Limited Setup",
+  "authors": [
+    "Gao, Luyu  and\nZhang, Yunyi  and\nHan, Jiawei  and\nCallan, Jamie"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 6th Workshop on Representation Learning for NLP (RepL4NLP-2021)",
+  "abstract": "Contrastive learning has been applied successfully to learn vector representations of text. Previous research demonstrated that learning high-quality representations benefits from batch-wise contrastive loss with a large number of negatives. In practice, the technique of in-batch negative is used, where for each example in a batch, other batch examples’ positives will be taken as its negatives, avoiding encoding extra negatives. This, however, still conditions each example’s loss on all batch examples and requires fitting the entire large batch into GPU memory. This paper introduces a gradient caching technique that decouples backpropagation between contrastive loss and the encoder, removing encoder backward pass data dependency along the batch dimension. As a result, gradients can be computed for one subset of the batch at a time, leading to almost constant memory usage.",
+  "keywords": [
+    "deep",
+    "the encoder",
+    "vector",
+    "text",
+    "extra",
+    "encoder",
+    "loss",
+    "gradient",
+    "gradients",
+    "dependency",
+    "learning",
+    "a result gradients",
+    "time",
+    "backpropagation",
+    "dimension"
+  ],
+  "url": "https://aclanthology.org/2021.repl4nlp-1.31/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:19:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

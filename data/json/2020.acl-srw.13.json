@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-srw.13",
+  "title": "SCAR}: Sentence Compression using Autoencoders for Reconstruction",
+  "authors": [
+    "Malireddy, Chanakya  and\nManiar, Tirth  and\nShrivastava, Manish"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "Sentence compression is the task of shortening a sentence while retaining its meaning. Most methods proposed for this task rely on labeled or paired corpora (containing pairs of verbose and compressed sentences), which is often expensive to collect. To overcome this limitation, we present a novel unsupervised deep learning framework (SCAR) for deletion-based sentence compression. SCAR is primarily composed of two encoder-decoder pairs: a compressor and a reconstructor. The compressor masks the input, and the reconstructor tries to regenerate it. The model is entirely trained on unlabeled data and does not require additional inputs such as explicit syntactic information or optimal compression length. SCAR’s merit lies in the novel Linkage Loss function, which correlates the compressor and its effect on reconstruction, guiding it to drop inferable tokens. SCAR achieves higher ROUGE scores on benchmark datasets than the existing state-of-the-art methods and baselines. We also conduct a user study to demonstrate the application of our model as a text highlighting system. Using our model to underscore salient information facilitates speed-reading and reduces the time required to skim a document.",
+  "keywords": [
+    "deep",
+    "we",
+    "salient information",
+    "autoencoders",
+    "it",
+    "higher rouge scores",
+    "decoder",
+    "loss",
+    "information",
+    "learning",
+    "text",
+    "rouge",
+    "function",
+    "model",
+    "two encoder-decoder"
+  ],
+  "url": "https://aclanthology.org/2020.acl-srw.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:53:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

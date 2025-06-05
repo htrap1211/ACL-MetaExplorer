@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.631",
+  "title": "Conditional Augmentation for Aspect Term Extraction via Masked Sequence-to-Sequence Generation",
+  "authors": [
+    "Li, Kun  and\nChen, Chengbo  and\nQuan, Xiaojun  and\nLing, Qing  and\nSong, Yan"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Aspect term extraction aims to extract aspect terms from review texts as opinion targets for sentiment analysis. One of the big challenges with this task is the lack of sufficient annotated data. While data augmentation is potentially an effective technique to address the above issue, it is uncontrollable as it may change aspect words and aspect labels unexpectedly. In this paper, we formulate the data augmentation as a conditional generation task: generating a new sentence while preserving the original opinion targets and labels. We propose a masked sequence-to-sequence method for conditional augmentation of aspect term extraction. Unlike existing augmentation approaches, ours is controllable and allows to generate more diversified sentences. Experimental results confirm that our method alleviates the data scarcity problem significantly. It also effectively boosts the performances of several current models for aspect term extraction.",
+  "keywords": [
+    "generation",
+    "extraction",
+    "a conditional generation task",
+    "sentiment analysis",
+    "it",
+    "review texts",
+    "sufficient",
+    "sequence",
+    "we",
+    "review",
+    "diversified",
+    "current",
+    "analysis",
+    "sufficient annotated data",
+    "sentiment"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.631/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:50:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

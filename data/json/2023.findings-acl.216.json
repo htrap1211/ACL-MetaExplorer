@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.216",
+  "title": "Better Zero-Shot Reasoning with Self-Adaptive Prompting",
+  "authors": [
+    "Wan, Xingchen  and\nSun, Ruoxi  and\nDai, Hanjun  and\nArik, Sercan  and\nPfister, Tomas"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Modern large language models (LLMs) have demonstrated impressive capabilities at sophisticated tasks, often through step-by-step reasoning similar to humans. This is made possible by their strong few- and zero-shot abilities – they can effectively learn from a handful of handcrafted, completed responses (“in-context examples”), or are prompted to reason spontaneously through specially designed triggers. Nonetheless, some limitations have been observed. First, performance in the few-shot setting is sensitive to the choice of the examples, whose design requires significant human effort. Moreover, given the diverse downstream tasks of LLMs, it may be difficult or laborious to handcraft per-task labels. Second, while the zero-shot setting does not require handcrafting, its performance is limited due to the lack of guidance to the LLMs. To address these limitations, we propose Consistency-based Self-adaptive Prompting (COSP), a novel prompt design method for LLMs. Requiring neither handcrafted responses nor ground-truth labels, COSP selects and builds the set of examples from the LLM zero-shot outputs via carefully designed criteria combining consistency, diversity and repetition. In the zero-shot setting for three different LLMs, we show that using only LLM predictions, COSP significantly improves performance up to 15% compared to zero-shot baselines and matches or exceeds few-shot baselines at a range of reasoning tasks.",
+  "keywords": [
+    "consistency-based self-adaptive prompting cosp",
+    "the llms",
+    "we",
+    "few-shot baselines",
+    "llm",
+    "shot",
+    "three different llms",
+    "better zero-shot reasoning",
+    "it",
+    "self",
+    "only llm predictions cosp",
+    "impressive capabilities",
+    "llms",
+    "abilities",
+    "prompt"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.216/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

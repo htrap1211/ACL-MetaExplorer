@@ -1,0 +1,33 @@
+{
+  "id": "2021.bppf-1.2",
+  "title": "Guideline Bias in {W}izard-of-{O}z Dialogues",
+  "authors": [
+    "Hansen, Victor Petr{\\'e}n Bach  and\nS{\\o}gaard, Anders"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Benchmarking: Past, Present and Future",
+  "abstract": "NLP models struggle with generalization due to sampling and annotator bias. This paper focuses on a different kind of bias that has received very little attention: guideline bias, i.e., the bias introduced by how our annotator guidelines are formulated. We examine two recently introduced dialogue datasets, CCPE-M and Taskmaster-1, both collected by trained assistants in a Wizard-of-Oz set-up. For CCPE-M, we show how a simple lexical bias for the word like in the guidelines biases the data collection. This bias, in effect, leads to poor performance on data without this bias: a preference elicitation architecture based on BERT suffers a 5.3% absolute drop in performance, when like is replaced with a synonymous phrase, and a 13.2% drop in performance when evaluated on out-of-sample data. For Taskmaster-1, we show how the order in which instructions are resented, biases the data collection.",
+  "keywords": [
+    "bias",
+    "the bias",
+    "i",
+    "nlp",
+    "bert",
+    "a simple lexical bias",
+    "annotator bias",
+    "drop",
+    "generalization",
+    "attention",
+    "word",
+    "we",
+    "dialogue",
+    "guideline bias",
+    "biases"
+  ],
+  "url": "https://aclanthology.org/2021.bppf-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

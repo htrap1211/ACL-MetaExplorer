@@ -1,0 +1,33 @@
+{
+  "id": "P18-3016",
+  "title": "Graph-based Filtering of Out-of-Vocabulary Words for Encoder-Decoder Models",
+  "authors": [
+    "Katsumata, Satoru  and\nMatsumura, Yukio  and\nYamagishi, Hayahide  and\nKomachi, Mamoru"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of {ACL} 2018, Student Research Workshop",
+  "abstract": "Encoder-decoder models typically only employ words that are frequently used in the training corpus because of the computational costs and/or to exclude noisy words. However, this vocabulary set may still include words that interfere with learning in encoder-decoder models. This paper proposes a method for selecting more suitable words for learning encoders by utilizing not only frequency, but also co-occurrence information, which we capture using the HITS algorithm. The proposed method is applied to two tasks: machine translation and grammatical error correction. For Japanese-to-English translation, this method achieved a BLEU score that was 0.56 points more than that of a baseline. It also outperformed the baseline method for English grammatical error correction, with an F-measure that was 1.48 points higher.",
+  "keywords": [
+    "encoder-decoder models",
+    "two tasks machine translation",
+    "a bleu score",
+    "machine",
+    "japanese-to-english translation",
+    "it",
+    "encoder-decoder models encoder-decoder models",
+    "bleu",
+    "encoder",
+    "decoder",
+    "information",
+    "we",
+    "graph",
+    "encoders",
+    "training"
+  ],
+  "url": "https://aclanthology.org/P18-3016/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:20:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

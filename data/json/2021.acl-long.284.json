@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.284",
+  "title": "Value-Agnostic Conversational Semantic Parsing",
+  "authors": [
+    "Platanios, Emmanouil Antonios  and\nPauls, Adam  and\nRoy, Subhro  and\nZhang, Yuchen  and\nKyte, Alexander  and\nGuo, Alan  and\nThomson, Sam  and\nKrishnamurthy, Jayant  and\nWolfe, Jason  and\nAndreas, Jacob  and\nKlein, Dan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Conversational semantic parsers map user utterances to executable programs given dialogue histories composed of previous utterances, programs, and system responses. Existing parsers typically condition on rich representations of history that include the complete set of values and computations previously discussed. We propose a model that abstracts over values to focus prediction on type- and function-level context. This approach provides a compact encoding of dialogue histories and predicted programs, improving generalization and computational efficiency. Our model incorporates several other components, including an atomic span copy operation and structural enforcement of well-formedness constraints on predicted programs, that are particularly advantageous in the low-data regime. Trained on the SMCalFlow and TreeDST datasets, our model outperforms prior work by 7.3% and 10.6% respectively in terms of absolute accuracy. Trained on only a thousand examples from each dataset, it outperforms strong baselines by 12.4% and 6.4%. These results indicate that simple representations are key to effective generalization in conversational semantic parsing.",
+  "keywords": [
+    "parsing",
+    "efficiency",
+    "semantic",
+    "we",
+    "dialogue",
+    "absolute accuracy",
+    "it",
+    "dialogue histories",
+    "map",
+    "rich",
+    "histories",
+    "effective generalization",
+    "generalization",
+    "function",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.284/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

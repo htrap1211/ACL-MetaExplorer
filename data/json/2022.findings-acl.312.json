@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.312",
+  "title": "Implicit Relation Linking for Question Answering over Knowledge Graph",
+  "authors": [
+    "Zhao, Yao  and\nHuang, Jiacheng  and\nHu, Wei  and\nChen, Qijin  and\nQiu, XiaoXia  and\nHuo, Chengfu  and\nRen, Weijun"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Relation linking (RL) is a vital module in knowledge-based question answering (KBQA) systems. It aims to link the relations expressed in natural language (NL) to the corresponding ones in knowledge graph (KG). Existing methods mainly rely on the textual similarities between NL and KG to build relation links. Due to the ambiguity of NL and the incompleteness of KG, many relations in NL are implicitly expressed, and may not link to a single relation in KG, which challenges the current methods. In this paper, we propose an implicit RL method called ImRL, which links relation phrases in NL to relation paths in KG. To find proper relation paths, we propose a novel path ranking model that aligns not only textual information in the word embedding space but also structural information in the KG embedding space between relation phrases in NL and relation paths in KG. Besides, we leverage a gated mechanism with attention to inject prior knowledge from external paraphrase dictionaries to address the relation phrases with vague meaning. Our experiments on two benchmark and a newly-created datasets show that ImRL significantly outperforms several state-of-the-art methods, especially for implicit RL.",
+  "keywords": [
+    "knowledge graph",
+    "question",
+    "we",
+    "graph",
+    "kbqa",
+    "kbqa systems",
+    "current",
+    "natural",
+    "nl",
+    "it",
+    "kg many relations",
+    "information",
+    "word",
+    "knowledge graph relation",
+    "the kg embedding space"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.312/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

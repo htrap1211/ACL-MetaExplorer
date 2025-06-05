@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.588",
+  "title": "Annotating Mentions Alone Enables Efficient Domain Adaptation for Coreference Resolution",
+  "authors": [
+    "Gandhi, Nupoor  and\nField, Anjalie  and\nStrubell, Emma"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Although recent neural models for coreference resolution have led to substantial improvements on benchmark datasets, it remains a challenge to successfully transfer these models to new target domains containing many out-of-vocabulary spans and requiring differing annotation schemes. Typical approaches involve continued training on annotated target-domain data, but obtaining annotations is costly and time-consuming. In this work, we show that adapting mention detection is the key component to successful domain adaptation of coreference models, rather than antecedent linking. We also show annotating mentions alone is nearly twice as fast as annotating full coreference chains. Based on these insights, we propose a method for efficiently adapting coreference models, which includes a high-precision mention detection objective and requires only mention annotations in the target domain. Extensive evaluation across three English coreference datasets: CoNLL-2012 (news/conversation), i2b2/VA (medical notes), and child welfare notes, reveals that our approach facilitates annotation-efficient transfer and results in a 7-14% improvement in average F1 without increasing annotator time.",
+  "keywords": [
+    "precision",
+    "efficient",
+    "coreference models",
+    "we",
+    "training",
+    "neural",
+    "it",
+    "transfer",
+    "average f1",
+    "full coreference chains",
+    "conll-2012 news conversation",
+    "objective",
+    "efficient domain adaptation",
+    "annotation-efficient transfer",
+    "coreference"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.588/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

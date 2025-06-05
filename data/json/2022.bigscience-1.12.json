@@ -1,0 +1,33 @@
+{
+  "id": "2022.bigscience-1.12",
+  "title": "Foundation Models of Scientific Knowledge for Chemistry: Opportunities, Challenges and Lessons Learned",
+  "authors": [
+    "Horawalavithana, Sameera  and\nAyton, Ellyn  and\nSharma, Shivam  and\nHowland, Scott  and\nSubramanian, Megha  and\nVasquez, Scott  and\nCosbey, Robin  and\nGlenski, Maria  and\nVolkova, Svitlana"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of BigScience Episode {\\#}5 -- Workshop on Challenges {\\&} Perspectives in Creating Large Language Models",
+  "abstract": "Foundation models pre-trained on large corpora demonstrate significant gains across many natural language processing tasks and domains e.g., law, healthcare, education, etc. However, only limited efforts have investigated the opportunities and limitations of applying these powerful models to science and security applications. In this work, we develop foundation models of scientific knowledge for chemistry to augment scientists with the advanced ability to perceive and reason at scale previously unimagined. Specifically, we build large-scale (1.47B parameter) general-purpose models for chemistry that can be effectively used to perform a wide range of in-domain and out-of-domain tasks. Evaluating these models in a zero-shot setting, we analyze the effect of model and data scaling, knowledge depth, and temporality on model performance in context of model training efficiency. Our novel findings demonstrate that (1) model size significantly contributes to the task performance when evaluated in a zero-shot setting; (2) data quality (aka diversity) affects model performance more than data quantity; (3) similarly, unlike previous work, temporal order of the documents in the corpus boosts model performance only for specific tasks, e.g., SciQ; and (4) models pre-trained from scratch perform better on in-domain tasks than those tuned from general-purpose models like Open AI’s GPT-2.",
+  "keywords": [
+    "opportunities",
+    "the opportunities",
+    "efficiency",
+    "we",
+    "parameter",
+    "shot",
+    "training",
+    "general-purpose models",
+    "natural",
+    "science",
+    "scientific",
+    "gpt-2",
+    "processing",
+    "model training efficiency",
+    "scientists"
+  ],
+  "url": "https://aclanthology.org/2022.bigscience-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

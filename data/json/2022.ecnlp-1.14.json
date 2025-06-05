@@ -1,0 +1,33 @@
+{
+  "id": "2022.ecnlp-1.14",
+  "title": "semi{PQA}: A Study on Product Question Answering over Semi-structured Data",
+  "authors": [
+    "Shen, Xiaoyu  and\nBarlacchi, Gianni  and\nDel Tredici, Marco  and\nCheng, Weiwei  and\nGispert, Adri{\\`a}"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Fifth Workshop on e-Commerce and NLP (ECNLP 5)",
+  "abstract": "Product question answering (PQA) aims to automatically address customer questions to improve their online shopping experience. Current research mainly focuses on finding answers from either unstructured text, like product descriptions and user reviews, or structured knowledge bases with pre-defined schemas. Apart from the above two sources, a lot of product information is represented in a semi-structured way, e.g., key-value pairs, lists, tables, json and xml files, etc. These semi-structured data can be a valuable answer source since they are better organized than free text, while being easier to construct than structured knowledge bases. However, little attention has been paid to them. To fill in this blank, here we study how to effectively incorporate semi-structured answer sources for PQA and focus on presenting answers in a natural, fluent sentence. To this end, we present semiPQA: a dataset to benchmark PQA over semi-structured data. It contains 11,243 written questions about json-formatted data covering 320 unique attribute types. Each data point is paired with manually-annotated text that describes its contents, so that we can train a neural answer presenter to present the data in a natural way. We provide baseline results and a deep analysis on the successes and challenges of leveraging semi-structured data for PQA. In general, state-of-the-art neural models can perform remarkably well when dealing with seen attribute types. For unseen attribute types, however, a noticeable drop is observed for both answer presentation and attribute ranking.",
+  "keywords": [
+    "deep",
+    "end",
+    "little attention",
+    "question",
+    "user reviews",
+    "we",
+    "current",
+    "answer",
+    "neural",
+    "natural",
+    "it",
+    "information",
+    "pqa",
+    "analysis",
+    "reviews"
+  ],
+  "url": "https://aclanthology.org/2022.ecnlp-1.14/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:42:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

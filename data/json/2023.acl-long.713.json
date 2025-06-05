@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.713",
+  "title": "Socratic Pretraining: Question-Driven Pretraining for Controllable Summarization",
+  "authors": [
+    "Pagnoni, Artidoro  and\nFabbri, Alex  and\nKryscinski, Wojciech  and\nWu, Chien-Sheng"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In long document controllable summarization, where labeled data is scarce, pretrained models struggle to adapt to the task and effectively respond to user queries. In this paper, we introduce Socratic pretraining, a question-driven, unsupervised pretraining objective specifically designed to improve controllability in summarization tasks. By training a model to generate and answer relevant questions in a given context, Socratic pretraining enables the model to more effectively adhere to user-provided queries and identify relevant content to be summarized. We demonstrate the effectiveness of this approach through extensive experimentation on two summarization domains, short stories and dialogue, and multiple control strategies: keywords, questions, and factoid QA pairs. Our pretraining method relies only on unlabeled documents and a question generation system and outperforms pre-finetuning approaches that use additional supervised data. Furthermore, our results show that Socratic pretraining cuts task-specific labeled data requirements in half, is more faithful to user-provided queries, and achieves state-of-the-art performance on QMSum and SQuALITY.",
+  "keywords": [
+    "question",
+    "summarization",
+    "we",
+    "dialogue",
+    "summarization tasks",
+    "long document controllable summarization",
+    "queries",
+    "multiple control strategies",
+    "user-provided queries",
+    "controllable summarization",
+    "objective",
+    "strategies",
+    "stories",
+    "user queries",
+    "factoid qa"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.713/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:45:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

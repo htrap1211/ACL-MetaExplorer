@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.787",
+  "title": "Integrating Pre-Trained Speech and Language Models for End-to-End Speech Recognition",
+  "authors": [
+    "Hono, Yukiya  and\nMitsuda, Koh  and\nZhao, Tianyu  and\nMitsui, Kentaro  and\nWakatsuki, Toshiaki  and\nSawada, Kei"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Advances in machine learning have made it possible to perform various text and speech processing tasks, such as automatic speech recognition (ASR), in an end-to-end (E2E) manner. E2E approaches utilizing pre-trained models are gaining attention for conserving training data and resources. However, most of their applications in ASR involve only one of either a pre-trained speech or a language model. This paper proposes integrating a pre-trained speech representation model and a large language model (LLM) for E2E ASR. The proposed model enables the optimization of the entire ASR process, including acoustic feature extraction and acoustic and language modeling, by combining pre-trained models with a bridge network and also enables the application of remarkable developments in LLM utilization, such as parameter-efficient domain adaptation and inference optimization. Experimental results demonstrate that the proposed model achieves a performance comparable to that of modern E2E ASR models by utilizing powerful pre-training models with the proposed integrated approach.",
+  "keywords": [
+    "end",
+    "extraction",
+    "efficient",
+    "the optimization",
+    "inference optimization experimental results",
+    "llm",
+    "parameter",
+    "training",
+    "acoustic and language modeling",
+    "it",
+    "machine learning",
+    "learning",
+    "a language model",
+    "manner",
+    "processing"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.787/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:59:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

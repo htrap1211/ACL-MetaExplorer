@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.597",
+  "title": "ACUE}val: Fine-grained Hallucination Evaluation and Correction for Abstractive Summarization",
+  "authors": [
+    "Wan, David  and\nSinha, Koustuv  and\nIyer, Srini  and\nCelikyilmaz, Asli  and\nBansal, Mohit  and\nPasunuru, Ramakanth"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "The impressive generation capabilities of large language models (LLMs) have made it harder to detect the subtle hallucinations they make in abstractive summarization, where generated summaries consist of a blend of correct and incorrect information w.r.t. a given document. Recently-proposed LLM-based evaluation metrics attempt to capture this, but still face challenges: (1) they are biased towards summaries generated from the same underlying LLM, and (2) they lack interpretability, offering only a single score. In this work, we present ACUEval, a metric that leverages the power of LLMs to perform two sub-tasks: decomposing summaries into atomic content units (ACUs), and validating them against the source document. Compared to current strong LLM-based metrics, our two-step evaluation strategy improves correlation with human judgments of faithfulness on three summarization evaluation benchmarks by 3% in balanced accuracy compared to the next-best metric, and also shows reduced preference bias towards LLM-generated summary. Further, we show that errors detected by ACUEval can be used to generate actionable feedback for refining the summary, improving the faithfulness scores by more than 10%.",
+  "keywords": [
+    "bias",
+    "feedback",
+    "llm-generated summary",
+    "summarization",
+    "we",
+    "our two-step evaluation strategy",
+    "current",
+    "llm",
+    "generated summaries",
+    "val",
+    "it",
+    "information",
+    "the impressive generation capabilities",
+    "val fine-grained hallucination evaluation",
+    "llms"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.597/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:56:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

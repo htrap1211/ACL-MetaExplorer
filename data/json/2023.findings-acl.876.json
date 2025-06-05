@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.876",
+  "title": "Masked Latent Semantic Modeling: an Efficient Pre-training Alternative to Masked Language Modeling",
+  "authors": [
+    "Berend, G{\\'a}bor"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In this paper, we propose an alternative to the classic masked language modeling (MLM) pre-training paradigm, where the objective is altered from the reconstruction of the exact identity of randomly selected masked subwords to the prediction of their latent semantic properties. We coin the proposed pre-training technique masked latent semantic modeling (MLSM for short). In order to make the contextualized determination of the latent semantic properties of the masked subwords possible, we rely on an unsupervised technique which uses sparse coding. Our experimental results reveal that the fine-tuned performance of those models that we pre-trained via MLSM is consistently and significantly better compared to the use of vanilla MLM pretraining and other strong baselines.",
+  "keywords": [
+    "the proposed pre-training technique",
+    "language",
+    "their latent semantic properties",
+    "objective",
+    "efficient",
+    "the objective",
+    "masked language modeling",
+    "modeling",
+    "properties",
+    "an efficient pre-training alternative",
+    "latent",
+    "semantic modeling",
+    "the latent semantic properties",
+    "semantic",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.876/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

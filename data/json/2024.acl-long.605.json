@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.605",
+  "title": "Browse and Concentrate: Comprehending Multimodal Content via Prior-{LLM} Context Fusion",
+  "authors": [
+    "Wang, Ziyue  and\nChen, Chi  and\nZhu, Yiqi  and\nLuo, Fuwen  and\nLi, Peng  and\nYan, Ming  and\nZhang, Ji  and\nHuang, Fei  and\nSun, Maosong  and\nLiu, Yang"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "With the bloom of Large Language Models (LLMs), Multimodal Large Language Models (MLLMs) that incorporate LLMs with pre-trained vision models have recently demonstrated impressive performance across diverse vision-language tasks. However, they fall short to comprehend context involving multiple images. A primary reason for this shortcoming is that the visual features for each images are encoded individually by frozen encoders before feeding into the LLM backbone, lacking awareness of other images and the multimodal instructions. We term this issue as prior-LLM modality isolation and propose a two phase paradigm, browse-and-concentrate, to enable in-depth multimodal context fusion prior to feeding the features into LLMs. This paradigm initially “browses” through the inputs for essential insights, and then revisits the inputs to “concentrate” on crucial details, guided by these insights, to achieve a more comprehensive understanding of the multimodal inputs. Additionally, we develop training strategies specifically to enhance the understanding of multi-image inputs. Our method markedly boosts the performance on 7 multi-image scenarios, contributing to increments on average accuracy by 2.13% and 7.60% against strong MLLMs baselines with 3B and 11B LLMs, respectively.",
+  "keywords": [
+    "we",
+    "fusion",
+    "llm",
+    "training",
+    "training strategies",
+    "large language models mllms",
+    "visual",
+    "llms",
+    "average accuracy",
+    "strategies",
+    "-",
+    "frozen encoders",
+    "strong mllms baselines",
+    "encoders",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.605/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

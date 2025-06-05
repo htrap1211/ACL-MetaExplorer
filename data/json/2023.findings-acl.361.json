@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.361",
+  "title": "Domain Incremental Lifelong Learning in an Open World",
+  "authors": [
+    "Dai, Yi  and\nLang, Hao  and\nZheng, Yinhe  and\nYu, Bowen  and\nHuang, Fei  and\nLi, Yongbin"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Lifelong learning (LL) is an important ability for NLP models to learn new tasks continuously. Architecture-based approaches are reported to be effective implementations for LL models. However, it is non-trivial to extend previous approaches to domain incremental LL scenarios since they either require access to task identities in the testing phase or cannot handle samples from unseen tasks. In this paper, we propose Diana: a dynamic architecture-based lifelong learning model that tries to learn a sequence of tasks with a prompt-enhanced language model. Four types of hierarchically organized prompts are used in Diana to capture knowledge from different granularities. Specifically, we dedicate task-level prompts to capture task-specific knowledge to retain high LL performances and maintain instance-level prompts to learn knowledge shared across input samples to improve the model’s generalization performance. Moreover, we dedicate separate prompts to explicitly model unseen tasks and introduce a set of prompt key vectors to facilitate knowledge sharing between tasks. Extensive experiments demonstrate that Diana outperforms state-of-the-art LL models, especially in handling unseen tasks.",
+  "keywords": [
+    "identities",
+    "prompt key vectors",
+    "granularities",
+    "different granularities",
+    "we",
+    "a prompt-enhanced language model",
+    "task identities",
+    "it",
+    "separate prompts",
+    "learning",
+    "sequence",
+    "nlp models",
+    "task-level prompts",
+    "prompt",
+    "generalization"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.361/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

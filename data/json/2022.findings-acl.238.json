@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.238",
+  "title": "G}aussian Multi-head Attention for Simultaneous Machine Translation",
+  "authors": [
+    "Zhang, Shaolei  and\nFeng, Yang"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Simultaneous machine translation (SiMT) outputs translation while receiving the streaming source inputs, and hence needs a policy to determine where to start translating. The alignment between target and source words often implies the most informative source word for each target word, and hence provides the unified control over translation quality and latency, but unfortunately the existing SiMT methods do not explicitly model the alignment to perform the control. In this paper, we propose Gaussian Multi-head Attention (GMA) to develop a new SiMT policy by modeling alignment and translation in a unified manner. For SiMT policy, GMA models the aligned source position of each target word, and accordingly waits until its aligned position to start translating. To integrate the learning of alignment into the translation model, a Gaussian distribution centered on predicted aligned position is introduced as an alignment-related prior, which cooperates with translation-related soft attention to determine the final attention. Experiments on En-Vi and De-En tasks show that our method outperforms strong baselines on the trade-off between translation and latency.",
+  "keywords": [
+    "alignment",
+    "machine",
+    "model",
+    "gaussian multi-head attention gma",
+    "a unified manner",
+    "modeling alignment",
+    "modeling",
+    "unified",
+    "the alignment",
+    "translation quality",
+    "g aussian multi-head attention",
+    "attention",
+    "we",
+    "word",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.238/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

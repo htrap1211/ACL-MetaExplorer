@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.279",
+  "title": "Superbizarre Is Not Superb: Derivational Morphology Improves {BERT}{'}s Interpretation of Complex Words",
+  "authors": [
+    "Hofmann, Valentin  and\nPierrehumbert, Janet  and\nSch{\\\"u}tze, Hinrich"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "How does the input segmentation of pretrained language models (PLMs) affect their interpretations of complex words? We present the first study investigating this question, taking BERT as the example PLM and focusing on its semantic representations of English derivatives. We show that PLMs can be interpreted as serial dual-route models, i.e., the meanings of complex words are either stored or else need to be computed from the subwords, which implies that maximally meaningful input tokens should allow for the best generalization on new words. This hypothesis is confirmed by a series of semantic probing tasks on which DelBERT (Derivation leveraging BERT), a model with derivational input segmentation, substantially outperforms BERT with WordPiece segmentation. Our results suggest that the generalization capabilities of PLMs could be further improved if a morphologically-informed vocabulary of input tokens were used.",
+  "keywords": [
+    "the best generalization",
+    "wordpiece",
+    "the generalization capabilities",
+    "a series",
+    "its semantic representations",
+    "i",
+    "language",
+    "bert s interpretation",
+    "bert",
+    "model",
+    "series",
+    "question",
+    "capabilities",
+    "generalization",
+    "semantic"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.279/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

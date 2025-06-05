@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.705",
+  "title": "Learning Latent Relations for Temporal Knowledge Graph Reasoning",
+  "authors": [
+    "Zhang, Mengqi  and\nXia, Yuwei  and\nLiu, Qiang  and\nWu, Shu  and\nWang, Liang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Temporal Knowledge Graph (TKG) reasoning aims to predict future facts based on historical data. However, due to the limitations in construction tools and data sources, many important associations between entities may be omitted in TKG. We refer to these missing associations as latent relations. Most existing methods have some drawbacks in explicitly capturing intra-time latent relations between co-occurring entities and inter-time latent relations between entities that appear at different times. To tackle these problems, we propose a novel Latent relations Learning method for TKG reasoning, namely L2TKG. Specifically, we first utilize a Structural Encoder (SE) to obtain representations of entities at each timestamp. We then design a Latent Relations Learning (LRL) module to mine and exploit the intra- and inter-time latent relations. Finally, we extract the temporal representations from the output of SE and LRL for entity prediction. Extensive experiments on four datasets demonstrate the effectiveness of L2TKG.",
+  "keywords": [
+    "knowledge",
+    "se",
+    "entities",
+    "l2tkg",
+    "encoder",
+    "latent",
+    "we",
+    "learning",
+    "a structural encoder",
+    "tkg",
+    "graph",
+    "time",
+    "co-occurring entities",
+    "tkg reasoning",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.705/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:45:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

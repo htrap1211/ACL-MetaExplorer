@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.78",
+  "title": "Baleegh at {KSAA}-{CAD} 2024: Towards Enhancing {A}rabic Reverse Dictionaries",
+  "authors": [
+    "Alheraki, Mais  and\nMeshoul, Souham"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "The domain of reverse dictionaries (RDs), while advancing in languages like English and Chinese, remains underdeveloped for Arabic. This study attempts to explore a data-driven approach to enhance word retrieval processes in Arabic RDs. The research focuses on the ArabicNLP 2024 Shared Task, named KSAA-CAD, which provides a dictionary dataset of 39,214 word-gloss pairs, each with a corresponding target word embedding. The proposed solution aims to surpass the baseline performance by employing SOTA deep learning models and innovative data expansion techniques. The methodology involves enriching the dataset with contextually relevant examples, training a T5 model to align the words to their glosses in the space, and evaluating the results on the shared task metrics. We find that our model is closely aligned with the baseline performance on bertseg and bertmsa targets, however does not perform well on electra target, suggesting the need for further exploration.",
+  "keywords": [
+    "deep",
+    "we",
+    "bertseg",
+    "bertmsa targets",
+    "reverse dictionaries",
+    "retrieval",
+    "word retrieval processes",
+    "word",
+    "learning",
+    "bertmsa",
+    "metrics",
+    "arabicnlp",
+    "deep learning models",
+    "dictionaries",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.78/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:03:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

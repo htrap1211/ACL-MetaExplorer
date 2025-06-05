@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.101",
+  "title": "Improving Zero-Shot Translation by Disentangling Positional Information",
+  "authors": [
+    "Liu, Danni  and\nNiehues, Jan  and\nCross, James  and\nGuzm{\\'a}n, Francisco  and\nLi, Xian"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Multilingual neural machine translation has shown the capability of directly translating between language pairs unseen in training, i.e. zero-shot translation. Despite being conceptually attractive, it often suffers from low output quality. The difficulty of generalizing to new translation directions suggests the model representations are highly specific to those language pairs seen in training. We demonstrate that a main factor causing the language-specific representations is the positional correspondence to input tokens. We show that this can be easily alleviated by removing residual connections in an encoder layer. With this modification, we gain up to 18.5 BLEU points on zero-shot translation while retaining quality on supervised directions. The improvements are particularly prominent between related languages, where our proposed model outperforms pivot-based translation. Moreover, our approach allows easy integration of new languages, which substantially expands translation coverage. By thorough inspections of the hidden layer outputs, we show that our approach indeed leads to more language-independent representations.",
+  "keywords": [
+    "pivot-based translation",
+    "bleu",
+    "layer",
+    "we",
+    "shot",
+    "training",
+    "translation",
+    "new translation directions",
+    "neural",
+    "it",
+    "information",
+    "translation coverage",
+    "zero-shot translation",
+    "i",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.101/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:00:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.666",
+  "title": "Toward Better Storylines with Sentence-Level Language Models",
+  "authors": [
+    "Ippolito, Daphne  and\nGrangier, David  and\nEck, Douglas  and\nCallison-Burch, Chris"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We propose a sentence-level language model which selects the next sentence in a story from a finite set of fluent alternatives. Since it does not need to model fluency, the sentence-level language model can focus on longer range dependencies, which are crucial for multi-sentence coherence. Rather than dealing with individual words, our method treats the story so far as a list of pre-trained sentence embeddings and predicts an embedding for the next sentence, which is more efficient than predicting word embeddings. Notably this allows us to consider a large number of candidates for the next sentence during training. We demonstrate the effectiveness of our approach with state-of-the-art accuracy on the unsupervised Story Cloze task and with promising results on larger-scale next sentence prediction tasks.",
+  "keywords": [
+    "embeddings",
+    "language",
+    "sentence-level language models",
+    "the sentence-level language model",
+    "model",
+    "an embedding",
+    "it",
+    "efficient",
+    "a sentence-level language model",
+    "dependencies",
+    "us",
+    "embedding",
+    "we",
+    "word",
+    "pre-trained sentence embeddings"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.666/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:51:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

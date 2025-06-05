@@ -1,0 +1,33 @@
+{
+  "id": "P18-2078",
+  "title": "Simplified Abugidas",
+  "authors": [
+    "Ding, Chenchen  and\nUtiyama, Masao  and\nSumita, Eiichiro"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "An abugida is a writing system where the consonant letters represent syllables with a default vowel and other vowels are denoted by diacritics. We investigate the feasibility of recovering the original text written in an abugida after omitting subordinate diacritics and merging consonant letters with similar phonetic values. This is crucial for developing more efficient input methods by reducing the complexity in abugidas. Four abugidas in the southern Brahmic family, i.e., Thai, Burmese, Khmer, and Lao, were studied using a newswire 20,000-sentence dataset. We compared the recovery performance of a support vector machine and an LSTM-based recurrent neural network, finding that the abugida graphemes could be recovered with 94% - 97% accuracy at the top-1 level and 98% - 99% at the top-4 level, even after omitting most diacritics (10 - 30 types) and merging the remaining 30 - 50 characters into 21 graphemes.",
+  "keywords": [
+    "a support vector machine",
+    "vector",
+    "94 - 97 accuracy",
+    "support",
+    "neural",
+    "machine",
+    "text",
+    "efficient",
+    "network",
+    "we",
+    "lstm",
+    "recurrent",
+    "more efficient input methods",
+    "accuracy",
+    "khmer"
+  ],
+  "url": "https://aclanthology.org/P18-2078/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:18:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

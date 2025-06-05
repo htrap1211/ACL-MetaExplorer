@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.527",
+  "title": "Overcoming a Theoretical Limitation of Self-Attention",
+  "authors": [
+    "Chiang, David  and\nCholak, Peter"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Although transformers are remarkably effective for many tasks, there are some surprisingly easy-looking regular languages that they struggle with. Hahn shows that for languages where acceptance depends on a single input symbol, a transformer’s classification decisions get closer and closer to random guessing (that is, a cross-entropy of 1) as input strings get longer and longer. We examine this limitation using two languages: PARITY, the language of bit strings with an odd number of 1s, and FIRST, the language of bit strings starting with a 1. We demonstrate three ways of overcoming the limitation implied by Hahn’s lemma. First, we settle an open question by constructing a transformer that recognizes PARITY with perfect accuracy, and similarly for FIRST. Second, we use layer normalization to bring the cross-entropy of both models arbitrarily close to zero. Third, when transformers need to focus on a single position, as for FIRST, we find that they can fail to generalize to longer strings; we offer a simple remedy to this problem that also improves length generalization in machine translation.",
+  "keywords": [
+    "transformers",
+    "machine translation",
+    "question",
+    "self-attention",
+    "layer",
+    "length generalization",
+    "we",
+    "a transformer",
+    "translation",
+    "classification",
+    "cross",
+    "self",
+    "layer normalization",
+    "normalization",
+    "classification decisions"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.527/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

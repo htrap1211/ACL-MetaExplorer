@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.52",
+  "title": "Early Stopping Based on Unlabeled Samples in Text Classification",
+  "authors": [
+    "Choi, HongSeok  and\nChoi, Dongha  and\nLee, Hyunju"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Early stopping, which is widely used to prevent overfitting, is generally based on a separate validation set. However, in low resource settings, validation-based stopping can be risky because a small validation set may not be sufficiently representative, and the reduction in the number of samples by validation split may result in insufficient samples for training. In this study, we propose an early stopping method that uses unlabeled samples. The proposed method is based on confidence and class distribution similarities. To further improve the performance, we present a calibration method to better estimate the class distribution of the unlabeled samples. The proposed method is advantageous because it does not require a separate validation set and provides a better stopping point by using a large unlabeled set. Extensive experiments are conducted on five text classification datasets and several stop-methods are compared. Our results show that the proposed model even performs better than using an additional validation set as well as the existing stop-methods, in both balanced and imbalanced data settings. Our code is available athttps://github.com/DMCB-GIST/BUS-stop.",
+  "keywords": [
+    "code",
+    "stop",
+    "validation",
+    "we",
+    "insufficient samples",
+    "training",
+    "classification",
+    "an early stopping method",
+    "it",
+    "text classification",
+    "reduction",
+    "overfitting",
+    "five text classification datasets",
+    "early",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.52/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

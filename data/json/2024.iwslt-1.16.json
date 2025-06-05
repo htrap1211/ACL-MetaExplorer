@@ -1,0 +1,33 @@
+{
+  "id": "2024.iwslt-1.16",
+  "title": "Compact Speech Translation Models via Discrete Speech Units Pretraining",
+  "authors": [
+    "Lam, Tsz Kin  and\nBirch, Alexandra  and\nHaddow, Barry"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 21st International Conference on Spoken Language Translation (IWSLT 2024)",
+  "abstract": "We propose a pretraining method to use Self-Supervised Speech (SSS) model to creating more compact Speech-to-text Translation. In contrast to using the SSS model for initialization, our method is more suitable to memory constrained scenario such as on-device deployment. Our method is based on Discrete Speech Units (DSU) extracted from the SSS model. In the first step, our method pretrains two smaller encoder-decoder models on 1) Filterbank-to-DSU (Fbk-to-DSU) and 2) DSU-to-Translation (DSU-to-Trl) data respectively. The DSU thus become the distillation inputs of the smaller models. Subsequently, the encoder from the Fbk-to-DSU model and the decoder from the DSU-to-Trl model are taken to initialise the compact model. Finally, the compact model is finetuned on the paired Fbk-Trl data. In addition to being compact, our method requires no transcripts, making it applicable to low-resource settings. It also avoids speech discretization in inference and is more robust to the DSU tokenization. Evaluation on CoVoST-2 (X-En) shows that our method has consistent improvement over the baseline in three metrics while being compact i.e., only half the SSS model size.",
+  "keywords": [
+    "the encoder",
+    "tokenization",
+    "the decoder",
+    "compact speech translation models",
+    "text",
+    "it",
+    "model",
+    "metrics",
+    "self",
+    "-",
+    "encoder",
+    "the dsu tokenization evaluation",
+    "three metrics",
+    "decoder",
+    "x"
+  ],
+  "url": "https://aclanthology.org/2024.iwslt-1.16/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:06:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

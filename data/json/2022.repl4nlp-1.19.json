@@ -1,0 +1,33 @@
+{
+  "id": "2022.repl4nlp-1.19",
+  "title": "A Study on Entity Linking Across Domains: Which Data is Best for Fine-Tuning?",
+  "authors": [
+    "Soliman, Hassan  and\nAdel, Heike  and\nH. Gad-Elrab, Mohamed  and\nMilchevski, Dragan  and\nStr{\\\"o}tgen, Jannik"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 7th Workshop on Representation Learning for NLP",
+  "abstract": "Entity linking disambiguates mentions by mapping them to entities in a knowledge graph (KG). One important question in today’s research is how to extend neural entity linking systems to new domains. In this paper, we aim at a system that enables linking mentions to entities from a general-domain KG and a domain-specific KG at the same time. In particular, we represent the entities of different KGs in a joint vector space and address the questions of which data is best suited for creating and fine-tuning that space, and whether fine-tuning harms performance on the general domain. We find that a combination of data from both the general and the special domain is most helpful. The first is especially necessary for avoiding performance loss on the general domain. While additional supervision on entities that appear in both KGs performs best in an intrinsic evaluation of the vector space, it has less impact on the downstream task of entity linking.",
+  "keywords": [
+    "both kgs",
+    "question",
+    "we",
+    "graph",
+    "different kgs",
+    "the entities",
+    "the vector space",
+    "neural",
+    "a joint vector space",
+    "it",
+    "the general domain",
+    "loss",
+    "fine-tuning entity",
+    "kgs",
+    "whether fine-tuning harms performance"
+  ],
+  "url": "https://aclanthology.org/2022.repl4nlp-1.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:45:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

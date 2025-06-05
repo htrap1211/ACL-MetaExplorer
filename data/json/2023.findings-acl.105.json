@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.105",
+  "title": "Boosting Text Augmentation via Hybrid Instance Filtering Framework",
+  "authors": [
+    "Yang, Heng  and\nLi, Ke"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Text augmentation is an effective technique for addressing the problem of insufficient data in natural language processing. However, existing text augmentation methods tend to focus on few-shot scenarios and usually perform poorly on large public datasets. Our research indicates that existing augmentation methods often generate instances with shifted feature spaces, which leads to a drop in performance on the augmented data (for example, EDA generally loses approximately 2% in aspect-based sentiment classification). To address this problem, we propose a hybrid instance-filtering framework (BoostAug) based on pre-trained language models that can maintain a similar feature space with natural datasets. BoostAug is transferable to existing text augmentation methods (such as synonym substitution and back translation) and significantly improves the augmentation performance by 2-3% in classification accuracy. Our experimental results on three classification tasks and nine public datasets show that BoostAug addresses the performance drop problem and outperforms state-of-the-art text augmentation methods. Additionally, we release the code to help improve existing augmentation methods on large datasets.",
+  "keywords": [
+    "code",
+    "we",
+    "shot",
+    "translation",
+    "classification",
+    "pre-trained language models",
+    "natural",
+    "natural language processing",
+    "few-shot scenarios",
+    "processing",
+    "classification accuracy",
+    "text",
+    "insufficient data",
+    "drop",
+    "aspect-based sentiment classification"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.105/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

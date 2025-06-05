@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.506",
+  "title": "Beyond Offline Mapping: Learning Cross-lingual Word Embeddings through Context Anchoring",
+  "authors": [
+    "Ormazabal, Aitor  and\nArtetxe, Mikel  and\nSoroa, Aitor  and\nLabaka, Gorka  and\nAgirre, Eneko"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Recent research on cross-lingual word embeddings has been dominated by unsupervised mapping approaches that align monolingual embeddings. Such methods critically rely on those embeddings having a similar structure, but it was recently shown that the separate training in different languages causes departures from this assumption. In this paper, we propose an alternative approach that does not have this limitation, while requiring a weak seed dictionary (e.g., a list of identical words) as the only form of supervision. Rather than aligning two fixed embedding spaces, our method works by fixing the target language embeddings, and learning a new set of embeddings for the source language that are aligned with them. To that end, we use an extension of skip-gram that leverages translated context words as anchor points, and incorporates self-learning and iterative restarts to reduce the dependency on the initial dictionary. Our approach outperforms conventional mapping methods on bilingual lexicon induction, and obtains competitive results in the downstream XNLI task.",
+  "keywords": [
+    "end",
+    "form",
+    "we",
+    "training",
+    "cross",
+    "it",
+    "self",
+    "word",
+    "cross-lingual word embeddings",
+    "two fixed embedding spaces",
+    "the dependency",
+    "embeddings",
+    "language",
+    "those embeddings",
+    "monolingual embeddings"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.506/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

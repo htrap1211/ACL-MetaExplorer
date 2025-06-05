@@ -1,0 +1,33 @@
+{
+  "id": "2023.dialdoc-1.10",
+  "title": "C}onv{RGX}: Recognition, Generation, and Extraction for Self-trained Conversational Question Answering",
+  "authors": [
+    "Zhang, Tianhua  and\nTang, Liping  and\nFang, Wei  and\nLuo, Hongyin  and\nWu, Xixin  and\nMeng, Helen  and\nGlass, James"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the Third DialDoc Workshop on Document-grounded Dialogue and Conversational Question Answering",
+  "abstract": "Collecting and constructing human-annotated corpora for training conversational question-answering (CQA) models has recently been shown to be inefficient and costly. To solve this problem, previous works have proposed training QA models with automatically generated QA data. In this work, we extend earlier studies on QA synthesis, and propose an efficient QA data generation algorithm under conversational settings. Our model recognizes potential dialogue topics, generates corresponding questions, and extracts answers from grounding passages. To improve the quality of generated QAs and downstream self-training of CQA models, we propose dropout and agreement-based QA selection methods. We conduct experiments on both data augmentation and domain adaptation settings. Experiments on the QuAC and Doc2Dial tasks show that the proposed method can significantly improve the quality of generated QA data, and also improves the accuracy of self-trained CQA models based on the constructed training corpora.",
+  "keywords": [
+    "the accuracy",
+    "onv",
+    "qa models",
+    "extraction",
+    "inefficient",
+    "efficient",
+    "question",
+    "self-trained conversational question",
+    "we",
+    "earlier studies",
+    "dialogue",
+    "training",
+    "agreement-based qa selection methods",
+    "self",
+    "potential dialogue topics"
+  ],
+  "url": "https://aclanthology.org/2023.dialdoc-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:24:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.42",
+  "title": "Opportunistic Decoding with Timely Correction for Simultaneous Translation",
+  "authors": [
+    "Zheng, Renjie  and\nMa, Mingbo  and\nZheng, Baigong  and\nLiu, Kaibo  and\nHuang, Liang"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Simultaneous translation has many important application scenarios and attracts much attention from both academia and industry recently. Most existing frameworks, however, have difficulties in balancing between the translation quality and latency, i.e., the decoding policy is usually either too aggressive or too conservative. We propose an opportunistic decoding technique with timely correction ability, which always (over-)generates a certain mount of extra words at each step to keep the audience on track with the latest information. At the same time, it also corrects, in a timely fashion, the mistakes in the former overgenerated words when observing more source context to ensure high translation quality. Experiments show our technique achieves substantial reduction in latency and up to +3.1 increase in BLEU, with revision rate under 8% in Chinese-to-English and English-to-Chinese translation.",
+  "keywords": [
+    "much attention",
+    "i",
+    "extra",
+    "it",
+    "audience",
+    "reduction",
+    "rate",
+    "the audience",
+    "bleu",
+    "the translation quality",
+    "information",
+    "attention",
+    "we",
+    "high translation quality experiments",
+    "the former overgenerated words"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.42/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:42:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

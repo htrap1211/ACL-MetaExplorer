@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.108",
+  "title": "M}-{RAG}: Reinforcing Large Language Model Performance through Retrieval-Augmented Generation with Multiple Partitions",
+  "authors": [
+    "Wang, Zheng  and\nTeo, Shu  and\nOuyang, Jieer  and\nXu, Yongjun  and\nShi, Wei"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Retrieval-Augmented Generation (RAG) enhances Large Language Models (LLMs) by retrieving relevant memories from an external database. However, existing RAG methods typically organize all memories in a whole database, potentially limiting focus on crucial memories and introducing noise. In this paper, we introduce a multiple partition paradigm for RAG (called M-RAG), where each database partition serves as a basic unit for RAG execution. Based on this paradigm, we propose a novel framework that leverages LLMs with Multi-Agent Reinforcement Learning to optimize different language generation tasks explicitly. Through comprehensive experiments conducted on seven datasets, spanning three language generation tasks and involving three distinct language model architectures, we confirm that M-RAG consistently outperforms various baseline methods, achieving improvements of 11%, 8%, and 12% for text summarization, machine translation, and dialogue generation, respectively.",
+  "keywords": [
+    "multi-agent reinforcement learning",
+    "reinforcement",
+    "language",
+    "generation",
+    "memories",
+    "model",
+    "machine",
+    "relevant memories",
+    "text",
+    "dialogue generation",
+    "three language generation tasks",
+    "large language model performance",
+    "different language generation tasks",
+    "-",
+    "crucial memories"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.108/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:35:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

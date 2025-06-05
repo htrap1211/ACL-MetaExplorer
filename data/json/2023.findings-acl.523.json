@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.523",
+  "title": "Reconstruction Probing",
+  "authors": [
+    "Kim, Najoung  and\nKhilnani, Jatin  and\nWarstadt, Alex  and\nQaddoumi, Abdelrahim"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "We propose reconstruction probing, a new analysis method for contextualized representations based on reconstruction probabilities in masked language models (MLMs). This method relies on comparing the reconstruction probabilities of tokens in a given sequence when conditioned on the representation of a single token that has been fully contextualized and when conditioned on only the decontextualized lexical prior of the model. This comparison can be understood as quantifying the contribution of contextualization towards reconstruction—the difference in the reconstruction probabilities can only be attributed to the representational change of the single token induced by contextualization. We apply this analysis to three MLMs and find that contextualization boosts reconstructability of tokens that are close to the token being reconstructed in terms of linear and syntactic distance. Furthermore, we extend our analysis to finer-grained decomposition of contextualized representations, and we find that these boosts are largely attributable to static and positional embeddings at the input layer.",
+  "keywords": [
+    "embeddings",
+    "language",
+    "reconstruction probabilities",
+    "masked language models",
+    "model",
+    "token",
+    "layer",
+    "probabilities",
+    "we",
+    "sequence",
+    "the reconstruction probabilities",
+    "static and positional embeddings",
+    "analysis",
+    "finer-grained decomposition",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.523/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

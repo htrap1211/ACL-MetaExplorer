@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.474",
+  "title": "Extracting Shopping Interest-Related Product Types from the Web",
+  "authors": [
+    "Li, Yinghao  and\nLockard, Colin  and\nShiralkar, Prashant  and\nZhang, Chao"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Recommending a diversity of product types (PTs) is important for a good shopping experience when customers are looking for products around their high-level shopping interests (SIs) such as hiking. However, the SI-PT connection is typically absent in e-commerce product catalogs and expensive to construct manually due to the volume of potential SIs, which prevents us from establishing a recommender with easily accessible knowledge systems. To establish such connections, we propose to extract PTs from the Web pages containing hand-crafted PT recommendations for SIs. The extraction task is formulated as binary HTML node classification given the general observation that an HTML node in our target Web pages can present one and only one PT phrase. Accordingly, we introduce TrENC, which stands for Tree-Transformer Encoders for Node Classification. It improves the inter-node dependency modeling with modified attention mechanisms that preserve the long-term sibling and ancestor-descendant relations. TrENC also injects SI into node features for better semantic representation. Trained on pages regarding limited SIs, TrEnc is ready to be applied to other unobserved interests. Experiments on our manually constructed dataset, WebPT, show that TrENC outperforms the best baseline model by 2.37 F1 points in the zero-shot setup. The performance indicates the feasibility of constructing SI-PT relations and using them to power downstream applications such as search and recommendation.",
+  "keywords": [
+    "tree-transformer encoders",
+    "the zero-shot setup",
+    "extraction",
+    "si",
+    "modified attention mechanisms",
+    "better semantic representation",
+    "semantic",
+    "we",
+    "2 37 f1 points",
+    "shot",
+    "classification",
+    "it",
+    "binary html node classification",
+    "experience",
+    "node classification"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.474/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

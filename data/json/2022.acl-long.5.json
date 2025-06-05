@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.5",
+  "title": "Learning to Imagine: Integrating Counterfactual Thinking in Neural Discrete Reasoning",
+  "authors": [
+    "Li, Moxin  and\nFeng, Fuli  and\nZhang, Hanwang  and\nHe, Xiangnan  and\nZhu, Fengbin  and\nChua, Tat-Seng"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Neural discrete reasoning (NDR) has shown remarkable progress in combining deep models with discrete reasoning. However, we find that existing NDR solution suffers from large performance drop on hypothetical questions, e.g. “what the annualized rate of return would be if the revenue in 2020 was doubled”. The key to hypothetical question answering (HQA) is counterfactual thinking, which is a natural ability of human reasoning but difficult for deep models. In this work, we devise a Learning to Imagine (L2I) module, which can be seamlessly incorporated into NDR models to perform the imagination of unseen counterfactual. In particular, we formulate counterfactual thinking into two steps: 1) identifying the fact to intervene, and 2) deriving the counterfactual from the fact and assumption, which are designed as neural networks. Based on TAT-QA, we construct a very challenging HQA dataset with 8,283 hypothetical questions. We apply the proposed L2I to TAGOP, the state-of-the-art solution on TAT-QA, validating the rationality and effectiveness of our approach.",
+  "keywords": [
+    "deep",
+    "rate",
+    "question",
+    "we",
+    "neural",
+    "natural",
+    "e",
+    "learning",
+    "neural networks",
+    "hqa",
+    "drop",
+    "tat-qa",
+    "work",
+    "human",
+    "answering hqa"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:24:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

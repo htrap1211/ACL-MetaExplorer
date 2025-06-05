@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.798",
+  "title": "Referral Augmentation for Zero-Shot Information Retrieval",
+  "authors": [
+    "Tang, Michael  and\nYao, Shunyu  and\nYang, John  and\nNarasimhan, Karthik"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "We propose Referral-Augmented Retrieval (RAR), a simple technique that concatenates document indices with referrals: text from other documents that cite or link to the given document. We find that RAR provides significant performance gains for tasks across paper retrieval, entity retrieval, and open-domain question-answering in both zero-shot and in-domain (e.g., fine-tuned) settings. We examine how RAR provides especially strong improvements on more structured tasks, and can greatly outperform generative text expansion techniques such as DocT5Query and Query2Doc, with a 37% and 21% absolute improvement on ACL paper retrieval, respectively. We also compare three ways to aggregate referrals for RAR. Overall, we believe RAR can help revive and re-contextualize the classic information retrieval idea of using anchor texts to improve the representations of documents in a wide variety of corpuses in the age of neural retrieval.",
+  "keywords": [
+    "generative",
+    "variety",
+    "answering",
+    "generative text expansion techniques",
+    "zero-shot information retrieval",
+    "neural",
+    "neural retrieval",
+    "text",
+    "paper retrieval entity retrieval",
+    "rar",
+    "retrieval",
+    "question",
+    "acl paper retrieval",
+    "information",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.798/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:59:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

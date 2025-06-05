@@ -1,0 +1,33 @@
+{
+  "id": "P19-1030",
+  "title": "You Only Need Attention to Traverse Trees",
+  "authors": [
+    "Ahmed, Mahtab  and\nSamee, Muhammad Rifayat  and\nMercer, Robert E."
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "In recent NLP research, a topic of interest is universal sentence encoding, sentence representations that can be used in any supervised task. At the word sequence level, fully attention-based models suffer from two problems: a quadratic increase in memory consumption with respect to the sentence length and an inability to capture and use syntactic information. Recursive neural nets can extract very good syntactic information by traversing a tree structure. To this end, we propose Tree Transformer, a model that captures phrase level syntax for constituency trees as well as word-level dependencies for dependency trees by doing recursive traversal only with attention. Evaluation of this model on four tasks gets noteworthy results compared to the standard transformer and LSTM-based models as well as tree-structured LSTMs. Ablation studies to find whether positional information is inherently encoded in the trees and which type of attention is suitable for doing the recursive traversal are provided.",
+  "keywords": [
+    "tree transformer",
+    "tree-structured lstms ablation studies",
+    "the standard transformer",
+    "end",
+    "dependency trees",
+    "we",
+    "lstm",
+    "syntax",
+    "neural",
+    "lstm-based models",
+    "dependencies",
+    "word-level dependencies",
+    "information",
+    "word",
+    "sequence"
+  ],
+  "url": "https://aclanthology.org/P19-1030/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:28:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

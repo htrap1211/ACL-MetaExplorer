@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.331",
+  "title": "Dialect-robust Evaluation of Generated Text",
+  "authors": [
+    "Sun, Jiao  and\nSellam, Thibault  and\nClark, Elizabeth  and\nVu, Tu  and\nDozat, Timothy  and\nGarrette, Dan  and\nSiddhant, Aditya  and\nEisenstein, Jacob  and\nGehrmann, Sebastian"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Text generation metrics that are not robust to dialect variation make it impossible to tell how well systems perform for many groups of users, and can even penalize systems for producing text in lower-resource dialects. In this paper, we introduce a suite of methods to assess whether metrics are dialect robust. These methods show that state-of-the-art metrics are not dialect robust: they often prioritize dialect similarity over semantics, preferring outputs that are semantically incorrect over outputs that match the semantics of the reference but contain dialect differences. As a step towards dialect-robust metrics for text generation, we propose NANO, which introduces regional and language information to the metric’s pretraining. NANO significantly improves dialect robustness while preserving the correlation between automated metrics and human ratings. It also enables a more ambitious approach to evaluation, dialect awareness, in which system outputs are scored by both semantic match to the reference and appropriateness in any specified dialect.",
+  "keywords": [
+    "reference",
+    "human",
+    "specified",
+    "any specified dialect",
+    "dialect-robust evaluation",
+    "generation",
+    "language",
+    "metric",
+    "text",
+    "semantics",
+    "it",
+    "the semantics",
+    "dialect-robust metrics",
+    "metrics",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.331/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

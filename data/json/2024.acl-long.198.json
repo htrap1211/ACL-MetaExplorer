@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.198",
+  "title": "Relying on the Unreliable: The Impact of Language Models' Reluctance to Express Uncertainty",
+  "authors": [
+    "Zhou, Kaitlyn  and\nHwang, Jena  and\nRen, Xiang  and\nSap, Maarten"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "As natural language becomes the default interface for human-AI interaction, there is a need for LMs to appropriately communicate uncertainties in downstream applications. In this work, we investigate how LMs incorporate confidence in responses via natural language and how downstream users behave in response to LM-articulated uncertainties. We examine publicly deployed models and find that LMs are reluctant to express uncertainties when answering questions even when they produce incorrect responses. LMs can be explicitly prompted to express confidences, but tend to be overconfident, resulting in high error rates (an average of 47%) among confident responses. We test the risks of LM overconfidence by conducting human experiments and show that users rely heavily on LM generations, whether or not they are marked by certainty. Lastly, we investigate the preference-annotated datasets used in post training alignment and find that humans are biased against texts with uncertainty. Our work highlights new safety harms facing human-LM interactions and proposes design recommendations and mitigating strategies moving forward.",
+  "keywords": [
+    "work",
+    "mitigating strategies",
+    "language",
+    "natural",
+    "human",
+    "post training alignment",
+    "strategies",
+    "generations",
+    "alignment",
+    "reluctant",
+    "we",
+    "lm-articulated uncertainties",
+    "natural language",
+    "uncertainties",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.198/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

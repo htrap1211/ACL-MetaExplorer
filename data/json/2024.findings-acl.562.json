@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.562",
+  "title": "Description Boosting for Zero-Shot Entity and Relation Classification",
+  "authors": [
+    "Picco, Gabriele  and\nFuchs, Leopold  and\nMart{\\'i}nez Galindo, Marcos  and\nPurpura, Alberto  and\nL{\\'o}pez, Vanessa  and\nThanh Lam, Hoang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Zero-shot entity and relation classification models leverage available external information of unseen classes – e.g., textual descriptions – to annotate input text data. Thanks to the minimum data requirement, Zero-Shot Learning (ZSL) methods have high value in practice, especially in applications where labeled data is scarce. Even though recent research in ZSL has demonstrated significant results, our analysis reveals that those methods are sensitive to provided textual descriptions of entities (or relations). Even a minor modification of descriptions can lead to a change in the decision boundary between entity (or relation) classes. In this paper, we formally define the problem of identifying effective descriptions for zero shot inference. We propose a strategy for generating variations of an initial description, a heuristic for ranking them and an ensemble method capable of boosting the predictions of zero-shot models through description enhancement. Empirical results on four different entity and relation classification datasets show that our proposed method outperform existing approaches and achieve new SOTA results on these datasets under the ZSL settings. The source code of the proposed solutions and the evaluation framework are open-sourced.",
+  "keywords": [
+    "zero-shot models",
+    "code",
+    "we",
+    "shot",
+    "classification",
+    "ensemble",
+    "an ensemble method",
+    "information",
+    "analysis",
+    "text",
+    "entities",
+    "the evaluation framework",
+    "evaluation",
+    "entity",
+    "those methods"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.562/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:56:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

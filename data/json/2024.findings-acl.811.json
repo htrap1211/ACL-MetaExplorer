@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.811",
+  "title": "Exploring Reversal Mathematical Reasoning Ability for Large Language Models",
+  "authors": [
+    "Guo, Pei  and\nYou, WangJie  and\nLi, Juntao  and\nBowen, Yan  and\nZhang, Min"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large language models (LLMs) have presented remarkable capabilities in the wide range of natural language understanding and reasoning tasks. Despite their success, a few works indicate that LLMs suffer from the “reversal curse”, in which LLMs can’t employ the inverted structure “B is A” when they are trained based on “A is B”. To explore the effect of the “reversal curse” for LLMs on complex mathematical reasoning tasks, we present two reversal datasets upon GSM8K and MathQA and verify that LLMs also struggle to solve reversal mathematical problems. We analyze the potential reason and attribute it to the insufficient modeling of the relationship between reasoning steps caused by the left-to-right objective. Consequently, based on the characteristics of multi-step reasoning, we design a novel training method to improve the general and reversal reasoning abilities. Finally, we conduct experiments on four mathematical datasets, and the results demonstrate that our method significantly improves the general reasoning capacities and alleviates the reversal problem. Our datasets and codes are available at https: //github.com/AllForward/ReversalMath.",
+  "keywords": [
+    "the insufficient modeling",
+    "remarkable capabilities",
+    "we",
+    "the general reasoning capacities",
+    "training",
+    "natural",
+    "it",
+    "a",
+    "llms",
+    "abilities",
+    "objective",
+    "large language models llms",
+    "capacities",
+    "insufficient",
+    "general"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.811/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:59:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

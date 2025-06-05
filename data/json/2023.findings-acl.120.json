@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.120",
+  "title": "Pragmatic Inference with a {CLIP} Listener for Contrastive Captioning",
+  "authors": [
+    "Ou, Jiefu  and\nKrojer, Benno  and\nFried, Daniel"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "We propose a simple yet effective and robust method for contrastive captioning: generating discriminative captions that distinguish target images from very similar alternative distractor images. Our approach is built on a pragmatic inference procedure that formulates captioning as a reference game between a speaker, which produces possible captions describing the target, and a listener, which selects the target given the caption. Unlike previous methods that derive both speaker and listener distributions from a single captioning model, we leverage an off-the-shelf CLIP model to parameterize the listener. Compared with captioner-only pragmatic models, our method benefits from rich vision-language alignment representations from CLIP when reasoning over distractors. Like previous methods for discriminative captioning, our method uses a hyperparameter to control the tradeoff between the informativity (how likely captions are to allow a human listener to discriminate the target image) and the fluency of the captions. However, we find that our method is substantially more robust to the value of this hyperparameter than past methods, which allows us to automatically optimize the captions for informativity — outperforming past methods for discriminative captioning by 11% to 15% accuracy in human evaluations.",
+  "keywords": [
+    "this hyperparameter",
+    "the listener",
+    "we",
+    "11 to 15 accuracy",
+    "a clip listener",
+    "rich vision-language alignment representations",
+    "listener",
+    "a human listener",
+    "rich",
+    "listener distributions",
+    "a listener",
+    "human evaluations",
+    "a hyperparameter",
+    "accuracy",
+    "alignment"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.120/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

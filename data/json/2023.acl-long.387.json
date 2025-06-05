@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.387",
+  "title": "Patton: Language Model Pretraining on Text-Rich Networks",
+  "authors": [
+    "Jin, Bowen  and\nZhang, Wentao  and\nZhang, Yu  and\nMeng, Yu  and\nZhang, Xinyang  and\nZhu, Qi  and\nHan, Jiawei"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "A real-world text corpus sometimes comprises not only text documents, but also semantic links between them (e.g., academic papers in a bibliographic network are linked by citations and co-authorships).Text documents and semantic connections form a text-rich network, which empowers a wide range of downstream tasks such as classification and retrieval. However, pretraining methods for such structures are still lacking, making it difficult to build one generic model that can be adapted to various tasks on text-rich networks. Current pretraining objectives, such as masked language modeling, purely model texts and do not take inter-document structure information into consideration. To this end, we propose our PretrAining on TexT-Rich NetwOrk framework Patton.Patton includes two pretraining strategies: network-contextualized masked language modeling and masked node prediction, to capture the inherent dependency between textual attributes and network structure. We conduct experiments on four downstream tasks in five datasets from both academic and e-commerce domains, where Patton outperforms baselines significantly and consistently.",
+  "keywords": [
+    "objectives",
+    "end",
+    "semantic",
+    "we",
+    "the inherent dependency",
+    "one generic model",
+    "current",
+    "language modeling",
+    "two pretraining strategies",
+    "classification",
+    "co",
+    "it",
+    "retrieval",
+    "information",
+    "rich"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.387/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:40:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

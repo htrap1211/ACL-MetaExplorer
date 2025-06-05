@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.162",
+  "title": "Dynamic and Efficient Inference for Text Generation via {BERT} Family",
+  "authors": [
+    "Liang, Xiaobo  and\nLi, Juntao  and\nWu, Lijun  and\nCao, Ziqiang  and\nZhang, Min"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Despite the excellent performance of Pre-trained Language Models on many text generation tasks, they suffer from inefficient inference on computation and memory due to their large-scale parameters and the universal autoregressive decoding paradigm. In this work, we propose a novel fine-tuning methodDEER, which can make a single pre-trained model supportDynamic andEfficient infERence and achieve an adaptive trade-off between model performance and latency. In particular, our critical insight is to jointly utilize the non-autoregressive (NAR) generation and dynamic parameter pruning techniques, which can flexibly control the decoding iteration steps and model sizes according to memory and latency limitations. Besides, we also explore the effectiveness of the pre-trained MLMs (i.e., the BERT family) for text generation tasks since their bidirectional attention nature is more suitable for the NAR training objective. Extensive experiments on both monolingual and multilingual pre-trained MLMs demonstrate the effectiveness of our proposed DEER method by consistently achieving (1) higher BLEU scores than the strong autoregressive Transformer model on three neural machine translation tasks with 3→12 times speedup, (2) competitive performance (but with much faster inference speed) compared with the BART model on four GLGE benchmark tasks. Our code will be publicly available at GitHubhttps://github.com/dropreg/DEER.",
+  "keywords": [
+    "code",
+    "a novel fine-tuning methoddeer",
+    "inefficient",
+    "efficient",
+    "bleu",
+    "many text generation tasks",
+    "their bidirectional attention nature",
+    "we",
+    "text generation tasks",
+    "parameter",
+    "text generation",
+    "training",
+    "translation",
+    "neural",
+    "pre-trained language models"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.162/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

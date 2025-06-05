@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.149",
+  "title": "It{'}s Easier to Translate out of {E}nglish than into it: {M}easuring Neural Translation Difficulty by Cross-Mutual Information",
+  "authors": [
+    "Bugliarello, Emanuele  and\nMielke, Sabrina J.  and\nAnastasopoulos, Antonios  and\nCotterell, Ryan  and\nOkazaki, Naoaki"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "The performance of neural machine translation systems is commonly evaluated in terms of BLEU. However, due to its reliance on target language properties and generation, the BLEU metric does not allow an assessment of which translation directions are more difficult to model. In this paper, we propose cross-mutual information (XMI): an asymmetric information-theoretic metric of machine translation difficulty that exploits the probabilistic nature of most neural machine translation models. XMI allows us to better evaluate the difficulty of translating text into the target language while controlling for the difficulty of the target-side generation component independent of the translation task. We then present the first systematic and controlled study of cross-lingual translation difficulties using modern neural translation systems. Code for replicating our experiments is available online athttps://github.com/e-bug/nmt-difficulty.",
+  "keywords": [
+    "the bleu metric",
+    "cross",
+    "code",
+    "translation directions",
+    "generation",
+    "cross-lingual translation difficulties",
+    "language",
+    "neural",
+    "machine",
+    "metric",
+    "text",
+    "it",
+    "neural machine translation systems",
+    "bleu",
+    "neural translation difficulty"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.149/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:44:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

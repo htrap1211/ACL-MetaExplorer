@@ -1,0 +1,33 @@
+{
+  "id": "2021.metanlp-1.1",
+  "title": "Meta-Reinforcement Learning for Mastering Multiple Skills and Generalizing across Environments in Text-based Games",
+  "authors": [
+    "Zhao, Zhenjie  and\nSun, Mingfei  and\nMa, Xiaojuan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Meta Learning and Its Applications to Natural Language Processing",
+  "abstract": "Text-based games can be used to develop task-oriented text agents for accomplishing tasks with high-level language instructions, which has potential applications in domains such as human-robot interaction. Given a text instruction, reinforcement learning is commonly used to train agents to complete the intended task owing to its convenience of learning policies automatically. However, because of the large space of combinatorial text actions, learning a policy network that generates an action word by word with reinforcement learning is challenging. Recent research works show that imitation learning provides an effective way of training a generation-based policy network. However, trained agents with imitation learning are hard to master a wide spectrum of task types or skills, and it is also difficult for them to generalize to new environments. In this paper, we propose a meta reinforcement learning based method to train text agents through learning-to-explore. In particular, the text agent first explores the environment to gather task-specific information and then adapts the execution policy for solving the task with this information. On the publicly available testbed ALFWorld, we conducted a comparison study with imitation learning and show the superiority of our method.",
+  "keywords": [
+    "we",
+    "instruction",
+    "it",
+    "convenience",
+    "policies",
+    "information",
+    "word",
+    "learning",
+    "meta-reinforcement learning",
+    "text",
+    "its convenience",
+    "action",
+    "a meta reinforcement learning",
+    "reinforcement",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2021.metanlp-1.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:18:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

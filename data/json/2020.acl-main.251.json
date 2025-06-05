@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.251",
+  "title": "ENGINE}: Energy-Based Inference Networks for Non-Autoregressive Machine Translation",
+  "authors": [
+    "Tu, Lifu  and\nPang, Richard Yuanzhe  and\nWiseman, Sam  and\nGimpel, Kevin"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We propose to train a non-autoregressive machine translation model to minimize the energy defined by a pretrained autoregressive model. In particular, we view our non-autoregressive translation system as an inference network (Tu and Gimpel, 2018) trained to minimize the autoregressive teacher energy. This contrasts with the popular approach of training a non-autoregressive model on a distilled corpus consisting of the beam-searched outputs of such a teacher model. Our approach, which we call ENGINE (ENerGy-based Inference NEtworks), achieves state-of-the-art non-autoregressive results on the IWSLT 2014 DE-EN and WMT 2016 RO-EN datasets, approaching the performance of autoregressive models.",
+  "keywords": [
+    "model",
+    "machine",
+    "engine energy-based inference networks",
+    "non-autoregressive machine translation",
+    "-",
+    "network",
+    "we",
+    "the energy",
+    "our non-autoregressive translation system",
+    "the autoregressive teacher energy",
+    "translation",
+    "energy",
+    "autoregressive models",
+    "approach",
+    "this"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.251/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:45:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

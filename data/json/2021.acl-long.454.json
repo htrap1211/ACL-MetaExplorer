@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.454",
+  "title": "Lexicon Enhanced {C}hinese Sequence Labeling Using {BERT} Adapter",
+  "authors": [
+    "Liu, Wei  and\nFu, Xiyan  and\nZhang, Yue  and\nXiao, Wenming"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Lexicon information and pre-trained models, such as BERT, have been combined to explore Chinese sequence labeling tasks due to their respective strengths. However, existing methods solely fuse lexicon features via a shallow and random initialized sequence layer and do not integrate them into the bottom layers of BERT. In this paper, we propose Lexicon Enhanced BERT (LEBERT) for Chinese sequence labeling, which integrates external lexicon knowledge into BERT layers directly by a Lexicon Adapter layer. Compared with existing methods, our model facilitates deep lexicon knowledge fusion at the lower layers of BERT. Experiments on ten Chinese datasets of three tasks including Named Entity Recognition, Word Segmentation, and Part-of-Speech Tagging, show that LEBERT achieves state-of-the-art results.",
+  "keywords": [
+    "deep",
+    "bert experiments",
+    "knowledge",
+    "random",
+    "bert",
+    "model",
+    "information",
+    "tagging",
+    "layer",
+    "bert layers",
+    "bert adapter lexicon information",
+    "we",
+    "lebert",
+    "sequence",
+    "word"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.454/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

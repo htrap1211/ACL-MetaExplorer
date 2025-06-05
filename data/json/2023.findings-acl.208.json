@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.208",
+  "title": "Graph Reasoning for Question Answering with Triplet Retrieval",
+  "authors": [
+    "Li, Shiyang  and\nGao, Yifan  and\nJiang, Haoming  and\nYin, Qingyu  and\nLi, Zheng  and\nYan, Xifeng  and\nZhang, Chao  and\nYin, Bing"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Answering complex questions often requires reasoning over knowledge graphs (KGs). State-of-the-art methods often utilize entities in questions to retrieve local subgraphs, which are then fed into KG encoder, e.g. graph neural networks (GNNs), to model their local structures and integrated into language models for question answering. However, this paradigm constrains retrieved knowledge in local subgraphs and discards more diverse triplets buried in KGs that are disconnected but useful for question answering. In this paper, we propose a simple yet effective method to first retrieve the most relevant triplets from KGs and then rerank them, which are then concatenated with questions to be fed into language models. Extensive results on both CommonsenseQA and OpenbookQA datasets show that our method can outperform state-of-the-art up to 4.6% absolute accuracy.",
+  "keywords": [
+    "knowledge",
+    "commonsenseqa",
+    "language",
+    "neural",
+    "entities",
+    "both commonsenseqa",
+    "language models",
+    "openbookqa datasets",
+    "encoder",
+    "retrieval",
+    "openbookqa",
+    "question",
+    "knowledge graphs",
+    "we",
+    "graph"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.208/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

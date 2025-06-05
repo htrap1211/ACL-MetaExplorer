@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.722",
+  "title": "Gloss-Free End-to-End Sign Language Translation",
+  "authors": [
+    "Lin, Kezhou  and\nWang, Xiaohan  and\nZhu, Linchao  and\nSun, Ke  and\nZhang, Bang  and\nYang, Yi"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this paper, we tackle the problem of sign language translation (SLT) without gloss annotations. Although intermediate representation like gloss has been proven effective, gloss annotations are hard to acquire, especially in large quantities. This limits the domain coverage of translation datasets, thus handicapping real-world applications. To mitigate this problem, we design the Gloss-Free End-to-end sign language translation framework (GloFE). Our method improves the performance of SLT in the gloss-free setting by exploiting the shared underlying semantics of signs and the corresponding spoken translation. Common concepts are extracted from the text and used as a weak form of intermediate representation. The global embedding of these concepts is used as a query for cross-attention to find the corresponding information within the learned visual features. In a contrastive manner, we encourage the similarity of query results between samples containing such concepts and decrease those that do not. We obtained state-of-the-art results on large-scale datasets, including OpenASL and How2Sign.",
+  "keywords": [
+    "end",
+    "form",
+    "sign language translation slt",
+    "we",
+    "translation datasets",
+    "quantities",
+    "translation",
+    "cross",
+    "semantics",
+    "information",
+    "visual",
+    "manner",
+    "text",
+    "the shared underlying semantics",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.722/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:45:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

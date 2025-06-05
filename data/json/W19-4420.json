@@ -1,0 +1,33 @@
+{
+  "id": "W19-4420",
+  "title": "Noisy Channel for Low Resource Grammatical Error Correction",
+  "authors": [
+    "Flachs, Simon  and\nLacroix, Oph{\\'e}lie  and\nS{\\o}gaard, Anders"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourteenth Workshop on Innovative Use of NLP for Building Educational Applications",
+  "abstract": "This paper describes our contribution to the low-resource track of the BEA 2019 shared task on Grammatical Error Correction (GEC). Our approach to GEC builds on the theory of the noisy channel by combining a channel model and language model. We generate confusion sets from the Wikipedia edit history and use the frequencies of edits to estimate the channel model. Additionally, we use two pre-trained language models: 1) Google’s BERT model, which we fine-tune for specific error types and 2) OpenAI’s GPT-2 model, utilizing that it can operate with previous sentences as context. Furthermore, we search for the optimal combinations of corrections using beam search.",
+  "keywords": [
+    "two pre-trained language models",
+    "language",
+    "bert",
+    "model",
+    "language model",
+    "it",
+    "the frequencies",
+    "frequencies",
+    "fine",
+    "we",
+    "pre",
+    "confusion",
+    "fine-tune",
+    "theory",
+    "the wikipedia edit history"
+  ],
+  "url": "https://aclanthology.org/W19-4420/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:54:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

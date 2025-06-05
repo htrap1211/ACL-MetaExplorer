@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.23",
+  "title": "On the Utility of Pretraining Language Models on Synthetic Data",
+  "authors": [
+    "Alcoba Inciarte, Alcides  and\nKwon, Sang Yun  and\nNagoudi, El Moatez Billah  and\nAbdul-Mageed, Muhammad"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "Development of pre-trained language models has predominantly relied on large amounts of datasets. However, this dependence on abundant data has limited the applicability of these models in low-resource settings. In this work, we investigate the utility of exploiting synthetic datasets acquired from different sources to pre-train language models for Arabic. Namely, we leverage data derived based on four different methods: optical character recognition (OCR), automatic speech recognition (ASR), machine translation (MT), and generative language models. We use these datasets to pre-train models in three different architectures: encoder-only (BERTBase), encoder-decoder (T5), and decoder-only (GPT-2). We test the capabilities of resulting models on Arabic natural language understanding (NLU) tasks using the ORCA benchmark. Our results show that utilizing synthetic data can achieve performance comparable to, or even surpassing, those trained on gold data. For example, our model based on a GPT-2 architecture trained on a combined synthetic dataset surpasses the baseline model ARBERTv2. Overall, our models pre-trained on synthetic data demonstrate robust performance across various tasks. This highlights the potential of synthetic datasets in augmenting language model training in low-resource settings.",
+  "keywords": [
+    "we",
+    "training",
+    "translation",
+    "pre-trained language models",
+    "natural",
+    "decoder",
+    "pre-train language models",
+    "arbertv2",
+    "the capabilities",
+    "gpt-2",
+    "generative",
+    "a gpt-2 architecture",
+    "language models",
+    "work",
+    "bertbase"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.23/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:02:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.47",
+  "title": "D}eakin{NLP} at {P}rob{S}um 2023: Clinical Progress Note Summarization with Rules and Language {M}odels{C}linical Progress Note Summarization with Rules and Languague Models",
+  "authors": [
+    "Liu, Ming  and\nZhang, Dan  and\nTan, Weicong  and\nZhang, He"
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "This paper summarizes two approaches developed for BioNLP2023 workshop task 1A: clinical problem list summarization. We develop two types of methods with either rules or pre-trained language models. In the rule-based summarization model, we leverage UMLS (Unified Medical Language System) and a negation detector to extract text spans to represent the summary. We also fine tune three pre-trained language models (BART, T5 and GPT2) to generate the summaries. Experiment results show the rule based system returns extractive summaries but lower ROUGE-L score (0.043), while the fine tuned T5 returns a higher ROUGE-L score (0.208).",
+  "keywords": [
+    "summaries",
+    "language",
+    "bionlp2023",
+    "nlp",
+    "pre-trained language models",
+    "gpt2",
+    "extractive summaries",
+    "model",
+    "text",
+    "unified medical language system",
+    "unified",
+    "the summaries",
+    "three pre-trained language models",
+    "fine",
+    "summarization"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.47/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

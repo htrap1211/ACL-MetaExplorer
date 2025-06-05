@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.8",
+  "title": "Alpha at {S}em{E}val-2021 Task 6: Transformer Based Propaganda Classification",
+  "authors": [
+    "Feng, Zhida  and\nTang, Jiji  and\nLiu, Jiaxiang  and\nYin, Weichong  and\nFeng, Shikun  and\nSun, Yu  and\nChen, Li"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper describes our system participated in Task 6 of SemEval-2021: the task focuses on multimodal propaganda technique classification and it aims to classify given image and text into 22 classes. In this paper, we propose to use transformer based architecture to fuse the clues from both image and text. We explore two branches of techniques including fine-tuning the text pretrained transformer with extended visual features, and fine-tuning the multimodal pretrained transformers. For the visual features, we have tested both grid features based on ResNet and salient region features from pretrained object detector. Among the pretrained multimodal transformers, we choose ERNIE-ViL, a two-steam cross-attended transformers pretrained on large scale image-caption aligned data. Fine-tuing ERNIE-ViL for our task produce a better performance due to general joint multimodal representation for text and image learned by ERNIE-ViL. Besides, as the distribution of the classification labels is very unbalanced, we also make a further attempt on the loss function and the experiment result shows that focal loss would perform better than cross entropy loss. Last we have won first for subtask C in the final competition.",
+  "keywords": [
+    "transformers",
+    "data fine-tuing ernie-vil",
+    "multimodal propaganda technique classification",
+    "ernie",
+    "we",
+    "classification",
+    "cross",
+    "the pretrained multimodal transformers",
+    "it",
+    "loss",
+    "e",
+    "general joint multimodal representation",
+    "the classification labels",
+    "visual",
+    "object"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:19:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

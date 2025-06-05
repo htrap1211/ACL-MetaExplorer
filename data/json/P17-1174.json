@@ -1,0 +1,33 @@
+{
+  "id": "P17-1174",
+  "title": "Chunk-based Decoder for Neural Machine Translation",
+  "authors": [
+    "Ishiwatari, Shonosuke  and\nYao, Jingtao  and\nLiu, Shujie  and\nLi, Mu  and\nZhou, Ming  and\nYoshinaga, Naoki  and\nKitsuregawa, Masaru  and\nJia, Weijia"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Chunks (or phrases) once played a pivotal role in machine translation. By using a chunk rather than a word as the basic translation unit, local (intra-chunk) and global (inter-chunk) word orders and dependencies can be easily modeled. The chunk structure, despite its importance, has not been considered in the decoders used for neural machine translation (NMT). In this paper, we propose chunk-based decoders for (NMT), each of which consists of a chunk-level decoder and a word-level decoder. The chunk-level decoder models global dependencies while the word-level decoder decides the local word order in a chunk. To output a target sentence, the chunk-level decoder generates a chunk representation containing global information, which the word-level decoder then uses as a basis to predict the words inside the chunk. Experimental results show that our proposed decoders can significantly improve translation performance in a WAT ‘16 English-to-Japanese translation task.",
+  "keywords": [
+    "the chunk-level decoder",
+    "translation",
+    "neural",
+    "the decoders",
+    "our proposed decoders",
+    "machine",
+    "chunk-based decoder",
+    "the chunk-level decoder models",
+    "a word-level decoder",
+    "the basic translation unit",
+    "dependencies",
+    "decoder",
+    "chunk-based decoders",
+    "machine translation",
+    "information"
+  ],
+  "url": "https://aclanthology.org/P17-1174/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:01:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

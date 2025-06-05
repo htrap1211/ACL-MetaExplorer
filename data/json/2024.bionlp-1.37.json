@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.37",
+  "title": "Mention-Agnostic Information Extraction for Ontological Annotation of Biomedical Articles",
+  "authors": [
+    "El Khettari, Oumaima  and\nNishida, Noriki  and\nLiu, Shanshan  and\nMunne, Rumana Ferdous  and\nYamagata, Yuki  and\nQuiniou, Solen  and\nChaffron, Samuel  and\nMatsumoto, Yuji"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "Biomedical information extraction is crucial for advancing research, enhancing healthcare, and discovering treatments by efficiently analyzing extensive data. Given the extensive amount of biomedical data available, automated information extraction methods are necessary due to manual extraction’s labor-intensive, expertise-dependent, and costly nature. In this paper, we propose a novel two-stage system for information extraction where we annotate biomedical articles based on a specific ontology (HOIP). The major challenge is annotating relation between biomedical processes often not explicitly mentioned in text articles. Here, we first predict the candidate processes and then determine the relationships between these processes. The experimental results show promising outcomes in mention-agnostic process identification using Large Language Models (LLMs). In relation classification, BERT-based supervised models still outperform LLMs significantly. The end-to-end evaluation results suggest the difficulty of this task and room for improvement in both process identification and relation classification.",
+  "keywords": [
+    "end",
+    "extraction",
+    "we",
+    "classification",
+    "a specific ontology hoip",
+    "information",
+    "llms",
+    "bert",
+    "text",
+    "mention-agnostic information extraction",
+    "process",
+    "language",
+    "information extraction",
+    "evaluation",
+    "ontology"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.37/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.406",
+  "title": "ML}-{LMCL}: Mutual Learning and Large-Margin Contrastive Learning for Improving {ASR} Robustness in Spoken Language Understanding",
+  "authors": [
+    "Cheng, Xuxin  and\nCao, Bowen  and\nYe, Qichen  and\nZhu, Zhihong  and\nLi, Hongxiang  and\nZou, Yuexian"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Spoken language understanding (SLU) is a fundamental task in the task-oriented dialogue systems. However, the inevitable errors from automatic speech recognition (ASR) usually impair the understanding performance and lead to error propagation. Although there are some attempts to address this problem through contrastive learning, they (1) treat clean manual transcripts and ASR transcripts equally without discrimination in fine-tuning; (2) neglect the fact that the semantically similar pairs are still pushed away when applying contrastive learning; (3) suffer from the problem of Kullback–Leibler (KL) vanishing. In this paper, we propose Mutual Learning and Large-Margin Contrastive Learning (ML-LMCL), a novel framework for improving ASR robustness in SLU. Specifically, in fine-tuning, we apply mutual learning and train two SLU models on the manual transcripts and the ASR transcripts, respectively, aiming to iteratively share knowledge between these two models. We also introduce a distance polarization regularizer to avoid pushing away the intra-cluster pairs as much as possible. Moreover, we use a cyclical annealing schedule to mitigate KL vanishing issue. Experiments on three datasets show that ML-LMCL outperforms existing models and achieves new state-of-the-art performance.",
+  "keywords": [
+    "the semantically similar pairs",
+    "we",
+    "dialogue",
+    "fine-tuning",
+    "cluster",
+    "learning",
+    "tuning",
+    "fine",
+    "the task-oriented dialogue systems",
+    "fine-tuning 2 neglect",
+    "schedule",
+    "knowledge",
+    "language",
+    "propagation",
+    "understanding slu"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.406/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

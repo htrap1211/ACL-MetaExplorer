@@ -1,0 +1,33 @@
+{
+  "id": "2024.iwslt-1.8",
+  "title": "HW}-{TSC}{'}s Speech to Text Translation System for {IWSLT} 2024 in {I}ndic track",
+  "authors": [
+    "Wei, Bin  and\nLi, Zongyao  and\nGuo, Jiaxin  and\nWei, Daimeng  and\nWu, Zhanglin  and\nChen, Xiaoyu  and\nRao, Zhiqiang  and\nLi, Shaojun  and\nLuo, Yuanchang  and\nShang, Hengchao  and\nYang, Hao  and\nJiang, Yanfei"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 21st International Conference on Spoken Language Translation (IWSLT 2024)",
+  "abstract": "This article introduces the process of HW-TSC and the results of IWSLT 2024 Indic Track Speech to Text Translation. We designed a cascade system consisting of an ASR model and a machine translation model to translate speech from one language to another. For the ASR part, we directly use whisper large v3 as our ASR model. Our main task is to optimize the machine translation model (en2ta, en2hi, en2bn). In the process of optimizing the translation model, we first use bilingual corpus to train the baseline model. Then we use monolingual data to construct pseudo-corpus data to further enhance the baseline model. Finally, we filter the parallel corpus data through the labse filtering method and finetune the model again, which can further improve the bleu value. We also selected domain data from bilingual corpus to finetune previous model to achieve the best results.",
+  "keywords": [
+    "process",
+    "i",
+    "language",
+    "model",
+    "text",
+    "machine",
+    "the bleu value",
+    "the machine translation model",
+    "bleu",
+    "text translation system",
+    "we",
+    "the translation model",
+    "a machine translation model",
+    "text translation",
+    "translation"
+  ],
+  "url": "https://aclanthology.org/2024.iwslt-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:06:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

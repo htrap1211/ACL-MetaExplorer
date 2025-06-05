@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.768",
+  "title": "Expand, Rerank, and Retrieve: Query Reranking for Open-Domain Question Answering",
+  "authors": [
+    "Chuang, Yung-Sung  and\nFang, Wei  and\nLi, Shang-Wen  and\nYih, Wen-tau  and\nGlass, James"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "We propose EAR, a query Expansion And Reranking approach for improving passage retrieval, with the application to open-domain question answering. EAR first applies a query expansion model to generate a diverse set of queries, and then uses a query reranker to select the ones that could lead to better retrieval results. Motivated by the observation that the best query expansion often is not picked by greedy decoding, EAR trains its reranker to predict the rank orders of the gold passages when issuing the expanded queries to a given retriever. By connecting better the query expansion model and retriever, EAR significantly enhances a traditional sparse retrieval method, BM25. Empirically, EAR improves top-5/20 accuracy by 3-8 and 5-10 points in in-domain and out-of-domain settings, respectively, when compared to a vanilla query expansion model, GAR, and a dense retrieval model, DPR.",
+  "keywords": [
+    "better retrieval results",
+    "model",
+    "passage retrieval",
+    "queries",
+    "retrieval",
+    "question",
+    "20 accuracy",
+    "we",
+    "ear",
+    "a dense retrieval model",
+    "the expanded queries",
+    "retriever",
+    "accuracy",
+    "that",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.768/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

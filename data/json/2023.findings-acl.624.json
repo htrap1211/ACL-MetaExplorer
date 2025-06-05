@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.624",
+  "title": "Making Pre-trained Language Models both Task-solvers and Self-calibrators",
+  "authors": [
+    "Chen, Yangyi  and\nWang, Xingyao  and\nJi, Heng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Pre-trained language models (PLMs) serve as backbones for various real-world systems. For high-stake applications, it’s equally essential to have reasonable confidence estimations in predictions. While the vanilla confidence scores of PLMs can already be effectively utilized, PLMs consistently become overconfident in their wrong predictions, which is not desirable in practice. Previous work shows that introducing an extra calibration task can mitigate this issue. The basic idea involves acquiring additional data to train models in predicting the confidence of their initial predictions. However, it only demonstrates the feasibility of this kind of method, assuming that there are abundant extra available samples for the introduced calibration task. In this work, we consider the practical scenario that we need to effectively utilize training samples to make PLMs both task-solvers and self-calibrators. Three challenges are presented, including limited training samples, data imbalance, and distribution shifts. We first conduct pilot experiments to quantify various decisive factors in the calibration task. Based on the empirical analysis results, we propose a training algorithm LM-TOAST to tackle the challenges. Experimental results show that LM-TOAST can effectively utilize the training data to make PLMs have reasonable confidence estimations while maintaining the original task performance. Further, we consider three downstream applications, namely selective classification, adversarial defense, and model cascading, to show the practical usefulness of LM-TOAST.",
+  "keywords": [
+    "extra",
+    "we",
+    "training",
+    "classification",
+    "pre-trained language models",
+    "it",
+    "self",
+    "analysis",
+    "classification adversarial defense",
+    "work",
+    "language",
+    "model",
+    "pre",
+    "backbones",
+    "scenario"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.624/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

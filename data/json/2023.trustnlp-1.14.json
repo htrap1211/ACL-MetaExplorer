@@ -1,0 +1,33 @@
+{
+  "id": "2023.trustnlp-1.14",
+  "title": "Guiding Text-to-Text Privatization by Syntax",
+  "authors": [
+    "Arnold, Stefan  and\nYesilbas, Dilara  and\nWeinzierl, Sven"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 3rd Workshop on Trustworthy Natural Language Processing (TrustNLP 2023)",
+  "abstract": "Metric Differential Privacy is a generalization of differential privacy tailored to address the unique challenges of text-to-text privatization. By adding noise to the representation of words in the geometric space of embeddings, words are replaced with words located in the proximity of the noisy representation. Since embeddings are trained based on word co-occurrences, this mechanism ensures that substitutions stem from a common semantic context. Without considering the grammatical category of words, however, this mechanism cannot guarantee that substitutions play similar syntactic roles. We analyze the capability of text-to-text privatization to preserve the grammatical category of words after substitution and find that surrogate texts consist almost exclusively of nouns. Lacking the capability to produce surrogate texts that correlate with the structure of the sensitive texts, we encompass our analysis by transforming the privatization step into a candidate selection problem in which substitutions are directed to words with matching grammatical properties. We demonstrate a substantial improvement in the performance of downstream tasks by up to 4.66% while retaining comparative privacy guarantees.",
+  "keywords": [
+    "syntax metric differential privacy",
+    "embeddings words",
+    "semantic",
+    "we",
+    "syntax",
+    "co",
+    "properties",
+    "a common semantic context",
+    "word",
+    "analysis",
+    "a generalization",
+    "metric",
+    "text",
+    "generalization",
+    "embeddings"
+  ],
+  "url": "https://aclanthology.org/2023.trustnlp-1.14/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:32:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

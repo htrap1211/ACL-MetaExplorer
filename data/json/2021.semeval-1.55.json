@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.55",
+  "title": "Self-Adapter at {S}em{E}val-2021 Task 10: Entropy-based Pseudo-Labeler for Source-free Domain Adaptation",
+  "authors": [
+    "Yoon, Sangwon  and\nKim, Yanghoon  and\nJung, Kyomin"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "Source-free domain adaptation is an emerging line of work in deep learning research since it is closely related to the real-world environment. We study the domain adaption in the sequence labeling problem where the model trained on the source domain data is given. We propose two methods: Self-Adapter and Selective Classifier Training. Self-Adapter is a training method that uses sentence-level pseudo-labels filtered by the self-entropy threshold to provide supervision to the whole model. Selective Classifier Training uses token-level pseudo-labels and supervises only the classification layer of the model. The proposed methods are evaluated on data provided by SemEval-2021 task 10 and Self-Adapter achieves 2nd rank performance.",
+  "keywords": [
+    "work",
+    "deep",
+    "em",
+    "classifier",
+    "model",
+    "it",
+    "self",
+    "token",
+    "-",
+    "e",
+    "layer",
+    "selective classifier training self-adapter",
+    "we",
+    "learning",
+    "sequence"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.55/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:20:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

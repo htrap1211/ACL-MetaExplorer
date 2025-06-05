@@ -1,0 +1,33 @@
+{
+  "id": "P19-1177",
+  "title": "Generating Diverse Translations with Sentence Codes",
+  "authors": [
+    "Shu, Raphael  and\nNakayama, Hideki  and\nCho, Kyunghyun"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Users of machine translation systems may desire to obtain multiple candidates translated in different ways. In this work, we attempt to obtain diverse translations by using sentence codes to condition the sentence generation. We describe two methods to extract the codes, either with or without the help of syntax information. For diverse generation, we sample multiple candidates, each of which conditioned on a unique code. Experiments show that the sampled translations have much higher diversity scores when using reasonable sentence codes, where the translation quality is still on par with the baselines even under strong constraint imposed by the codes. In qualitative analysis, we show that our method is able to generate paraphrase translations with drastically different structures. The proposed approach can be easily adopted to existing translation systems as no modification to the model is required.",
+  "keywords": [
+    "work",
+    "code",
+    "existing translation systems",
+    "generation",
+    "translation",
+    "diverse translations",
+    "model",
+    "machine",
+    "the sampled translations",
+    "the sentence generation",
+    "par",
+    "syntax information",
+    "the translation quality",
+    "information",
+    "paraphrase translations"
+  ],
+  "url": "https://aclanthology.org/P19-1177/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:34:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

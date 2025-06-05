@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.48",
+  "title": "Overcoming Catastrophic Forgetting in Massively Multilingual Continual Learning",
+  "authors": [
+    "Winata, Genta  and\nXie, Lingjue  and\nRadhakrishnan, Karthik  and\nWu, Shijie  and\nJin, Xisen  and\nCheng, Pengxiang  and\nKulkarni, Mayank  and\nPreotiuc-Pietro, Daniel"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Real-life multilingual systems should be able to efficiently incorporate new languages as data distributions fed to the system evolve and shift over time. To do this, systems need to handle the issue of catastrophic forgetting, where the model performance drops for languages or tasks seen further in its past. In this paper, we study catastrophic forgetting, as well as methods to minimize this, in a massively multilingual continual learning framework involving up to 51 languages and covering both classification and sequence labeling tasks. We present LR ADJUST, a learning rate scheduling method that is simple, yet effective in preserving new information without strongly overwriting past knowledge. Furthermore, we show that this method is effective across multiple continual learning approaches. Finally, we provide further insights into the dynamics of catastrophic forgetting in this massively multilingual setup.",
+  "keywords": [
+    "knowledge",
+    "model",
+    "rate",
+    "information",
+    "we",
+    "learning",
+    "sequence",
+    "time",
+    "classification",
+    "that",
+    "new languages",
+    "this method",
+    "insights",
+    "data distributions",
+    "this"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.48/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

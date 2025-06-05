@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.614",
+  "title": "Learning Robust Models for e-Commerce Product Search",
+  "authors": [
+    "Nguyen, Thanh  and\nRao, Nikhil  and\nSubbian, Karthik"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Showing items that do not match search query intent degrades customer experience in e-commerce. These mismatches result from counterfactual biases of the ranking algorithms toward noisy behavioral signals such as clicks and purchases in the search logs. Mitigating the problem requires a large labeled dataset, which is expensive and time-consuming to obtain. In this paper, we develop a deep, end-to-end model that learns to effectively classify mismatches and to generate hard mismatched examples to improve the classifier. We train the model end-to-end by introducing a latent variable into the cross-entropy loss that alternates between using the real and generated samples. This not only makes the classifier more robust but also boosts the overall ranking performance. Our model achieves a relative gain compared to baselines by over 26% in F-score, and over 17% in Area Under PR curve. On live search traffic, our model gains significant improvement in multiple countries.",
+  "keywords": [
+    "deep",
+    "end",
+    "classifier",
+    "customer experience",
+    "we",
+    "cross",
+    "the classifier",
+    "multiple countries",
+    "loss",
+    "latent",
+    "e",
+    "-",
+    "experience",
+    "counterfactual biases",
+    "biases"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.614/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:50:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

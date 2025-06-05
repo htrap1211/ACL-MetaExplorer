@@ -1,0 +1,33 @@
+{
+  "id": "2024.alvr-1.18",
+  "title": "Evolutionary Reward Design and Optimization with Multimodal Large Language Models",
+  "authors": [
+    "Narin, Ali"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 3rd Workshop on Advances in Language and Vision Research (ALVR)",
+  "abstract": "Designing reward functions is a pivotal yet challenging task for Reinforcement Learning (RL) practices, often demanding domain expertise and substantial effort. Recent studies have explored the utilization of Large Language Models (LLMs) to generate reward functions via evolutionary search techniques. However, these approaches overlook the potential of multimodal information, such as images and videos. In particular, prior methods predominantly rely on numerical feedback from the RL environment for doing evolution, neglecting the incorporation of visual data obtained during training. This study introduces a novel approach by employing Multimodal Large Language Models (MLLMs) to craft reward functions tailored for various RL tasks. The methodology involves providing MLLM with the RL environment’s code alongside its image as context and task information to generate reward candidates. Then, the chosen agent undergoes training, and the numerical feedback from the environment, along with the recorded video of the top-performing policy, is provided as feedback to the MLLM. By employing an iterative feedback mechanism through evolutionary search, MLLM consistently refines the reward function to maximize accuracy. Testing on two different agents points to the preeminence of our approach over previous methodology, which themselves outperformed 83% of reward functions designed by human experts.",
+  "keywords": [
+    "code",
+    "feedback",
+    "the mllm",
+    "training",
+    "evolutionary search mllm",
+    "information",
+    "learning",
+    "visual",
+    "mllm",
+    "recent studies",
+    "function",
+    "accuracy",
+    "reinforcement",
+    "language",
+    "studies"
+  ],
+  "url": "https://aclanthology.org/2024.alvr-1.18/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:02:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

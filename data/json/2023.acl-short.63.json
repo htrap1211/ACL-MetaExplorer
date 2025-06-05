@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.63",
+  "title": "Joint End-to-end Semantic Proto-role Labeling",
+  "authors": [
+    "Spaulding, Elizabeth  and\nKazantsev, Gary  and\nDredze, Mark"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Semantic proto-role labeling (SPRL) assigns properties to arguments based on a series of binary labels. While multiple studies have evaluated various approaches to SPRL, it has only been studied in-depth as a standalone task using gold predicate/argument pairs. How do SPRL systems perform as part of an information extraction pipeline? We model SPRL jointly with predicate-argument extraction using a deep transformer model. We find that proto-role labeling is surprisingly robust in this setting, with only a small decrease when using predicted arguments. We include a detailed analysis of each component of the joint system, and an error analysis to understand correlations in errors between system stages. Finally, we study the effects of annotation errors on SPRL.",
+  "keywords": [
+    "deep",
+    "transformer",
+    "a series",
+    "a deep transformer model",
+    "end",
+    "extraction",
+    "model",
+    "studies",
+    "it",
+    "semantic proto-role labeling sprl",
+    "series",
+    "properties",
+    "information",
+    "semantic",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.63/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:49:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

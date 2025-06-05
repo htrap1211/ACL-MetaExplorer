@@ -1,0 +1,33 @@
+{
+  "id": "2024.alvr-1.1",
+  "title": "WISMIR}3: A Multi-Modal Dataset to Challenge Text-Image Retrieval Approaches",
+  "authors": [
+    "Schneider, Florian  and\nBiemann, Chris"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 3rd Workshop on Advances in Language and Vision Research (ALVR)",
+  "abstract": "This paper presents WISMIR3, a multi-modal dataset comprising roughly 300K text-image pairs from Wikipedia. With a sophisticated automatic ETL pipeline, we scraped, filtered, and transformed the data so that WISMIR3 intrinsically differs from other popular text-image datasets like COCO and Flickr30k. We prove this difference by comparing various linguistic statistics between the three datasets computed using the pipeline. The primary purpose of WISMIR3 is to use it as a benchmark to challenge state-of-the-art text-image retrieval approaches, which already reach around 90% Recall@5 scores on the mentioned popular datasets. Therefore, we ran several text-image retrieval experiments on our dataset using current models, which show that the models, in fact, perform significantly worse compared to evaluation results on COCO and Flickr30k. In addition, for each text-image pair, we release features computed by Faster-R-CNN and CLIP models. With this, we want to ease and motivate the use of the dataset for other researchers.",
+  "keywords": [
+    "recall",
+    "evaluation results",
+    "cnn",
+    "text",
+    "it",
+    "faster-r-cnn",
+    "retrieval",
+    "we",
+    "evaluation",
+    "several text-image retrieval experiments",
+    "current",
+    "text-image retrieval",
+    "multi",
+    "the data",
+    "this"
+  ],
+  "url": "https://aclanthology.org/2024.alvr-1.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

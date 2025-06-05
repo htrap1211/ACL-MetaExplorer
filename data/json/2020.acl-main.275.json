@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.275",
+  "title": "Dynamic Programming Encoding for Subword Segmentation in Neural Machine Translation",
+  "authors": [
+    "He, Xuanli  and\nHaffari, Gholamreza  and\nNorouzi, Mohammad"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "This paper introduces Dynamic Programming Encoding (DPE), a new segmentation algorithm for tokenizing sentences into subword units. We view the subword segmentation of output sentences as a latent variable that should be marginalized out for learning and inference. A mixed character-subword transformer is proposed, which enables exact log marginal likelihood estimation and exact MAP inference to find target segmentations with maximum posterior probability. DPE uses a lightweight mixed character-subword transformer as a means of pre-processing parallel data to segment output sentences using dynamic programming. Empirical results on machine translation suggest that DPE is effective for segmenting output sentences and can be combined with BPE dropout for stochastic segmentation of source sentences. DPE achieves an average improvement of 0.9 BLEU over BPE (Sennrich et al., 2016) and an average improvement of 0.55 BLEU over BPE dropout (Provilkov et al., 2019) on several WMT datasets including English <=> (German, Romanian, Estonian, Finnish, Hungarian).",
+  "keywords": [
+    "dropout provilkov",
+    "neural machine translation",
+    "bleu",
+    "machine translation",
+    "we",
+    "translation",
+    "means",
+    "0 55 bleu",
+    "neural",
+    "map",
+    "latent",
+    "a mixed character-subword transformer",
+    "learning",
+    "bpe dropout",
+    "0 9 bleu"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.275/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:45:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

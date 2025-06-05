@@ -1,0 +1,33 @@
+{
+  "id": "W19-4638",
+  "title": "Team {JUST} at the {MADAR} Shared Task on {A}rabic Fine-Grained Dialect Identification",
+  "authors": [
+    "Talafha, Bashar  and\nFadel, Ali  and\nAl-Ayyoub, Mahmoud  and\nJararweh, Yaser  and\nAL-Smadi, Mohammad  and\nJuola, Patrick"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Arabic Natural Language Processing Workshop",
+  "abstract": "In this paper, we describe our team’s effort on the MADAR Shared Task on Arabic Fine-Grained Dialect Identification. The task requires building a system capable of differentiating between 25 different Arabic dialects in addition to MSA. Our approach is simple. After preprocessing the data, we use Data Augmentation (DA) to enlarge the training data six times. We then build a language model and extract n-gram word-level and character-level TF-IDF features and feed them into an MNB classifier. Despite its simplicity, the resulting model performs really well producing the 4th highest F-measure and region-level accuracy and the 5th highest precision, recall, city-level accuracy and country-level accuracy among the participating teams.",
+  "keywords": [
+    "recall",
+    "accuracy",
+    "precision",
+    "language",
+    "model",
+    "classifier",
+    "word",
+    "we",
+    "an mnb classifier",
+    "a language model",
+    "training",
+    "identification",
+    "effort",
+    "approach",
+    "the data"
+  ],
+  "url": "https://aclanthology.org/W19-4638/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:21:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

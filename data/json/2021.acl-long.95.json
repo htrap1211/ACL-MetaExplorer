@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.95",
+  "title": "A}ug{NLG}: Few-shot Natural Language Generation using Self-trained Data Augmentation",
+  "authors": [
+    "Xu, Xinnuo  and\nWang, Guoyin  and\nKim, Young-Bum  and\nLee, Sungjin"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Natural Language Generation (NLG) is a key component in a task-oriented dialogue system, which converts the structured meaning representation (MR) to the natural language. For large-scale conversational systems, where it is common to have over hundreds of intents and thousands of slots, neither template-based approaches nor model-based approaches are scalable. Recently, neural NLGs started leveraging transfer learning and showed promising results in few-shot settings. This paper proposes AugNLG, a novel data augmentation approach that combines a self-trained neural retrieval model with a few-shot learned NLU model, to automatically create MR-to-Text data from open-domain texts. The proposed system mostly outperforms the state-of-the-art methods on the FewshotWOZ data in both BLEU and Slot Error Rate. We further confirm improved results on the FewshotSGD data and provide comprehensive analysis results on key components of our system. Our code and data are available athttps://github.com/XinnuoXu/AugNLG.",
+  "keywords": [
+    "code",
+    "rate",
+    "bleu",
+    "we",
+    "dialogue",
+    "large-scale conversational systems",
+    "shot",
+    "the fewshotsgd data",
+    "neural",
+    "natural",
+    "it",
+    "self",
+    "retrieval",
+    "learning",
+    "transfer"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.95/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:00:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

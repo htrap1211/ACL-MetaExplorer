@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.245",
+  "title": "S}tanford {ML}ab at {S}em{E}val 2023 Task 7: Neural Methods for Clinical Trial Report {NLI",
+  "authors": [
+    "Takehana, Conner  and\nLim, Dylan  and\nKurtulus, Emirhan  and\nIyer, Ramya  and\nTanimura, Ellie  and\nAggarwal, Pankhuri  and\nCantillon, Molly  and\nYu, Alfred  and\nKhan, Sarosh  and\nChi, Nathan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "We present a system for natural language inference in breast cancer clinical trial reports, as framed by SemEval 2023 Task 7: Multi-evidence Natural Language Inference for Clinical Trial Data. In particular, we propose a suite of techniques for two related inference subtasks: entailment and evidence retrieval. The purpose of the textual entailment identification subtask is to determine the inference relation (either entailment or contradiction) between given statement pairs, while the goal of the evidence retrieval task is to identify a set of sentences that support this inference relation. To this end, we propose fine-tuning Bio+Clinical BERT, a BERT-based model pre-trained on clinical data. Along with presenting our system, we analyze our architectural decisions in the context of our model’s accuracy and conduct an error analysis. Overall, our system ranked 20 / 30 on the entailment subtask.",
+  "keywords": [
+    "val",
+    "tuning",
+    "end",
+    "em",
+    "language",
+    "a bert-based model",
+    "fine-tuning bio clinical bert",
+    "neural",
+    "natural",
+    "bert",
+    "model",
+    "our model s accuracy",
+    "the evidence retrieval task",
+    "retrieval",
+    "fine"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.245/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

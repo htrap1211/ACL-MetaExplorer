@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.224",
+  "title": "YNUNLP} at {S}em{E}val-2023 Task 2: The Pseudo Twin Tower Pre-training Model for {C}hinese Named Entity Recognition",
+  "authors": [
+    "Li, Jing  and\nZhou, Xiaobing"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper introduces our method in the system for SemEval 2023 Task 2: MultiCoNER II Multilingual Complex Named Entity Recognition, Track 9-Chinese. This task focuses on detecting fine-grained named entities whose data set has a fine-grained taxonomy of 36 NE classes, representing a realistic challenge for NER. In this task, we need to identify entity boundaries and category labels for the six identified categories. We use BERT embedding to represent each character in the original sentence and train CRF-Rdrop to predict named entity categories using the data set provided by the organizer. Our best submission, with a macro average F1 score of 0.5657, ranked 15th out of 22 teams.",
+  "keywords": [
+    "ner",
+    "bert",
+    "categories",
+    "model",
+    "named entity recognition",
+    "entities",
+    "entity boundaries",
+    "boundaries",
+    "ynunlp",
+    "named entity categories",
+    "multiconer",
+    "we",
+    "pre",
+    "entity",
+    "the six identified categories"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.224/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

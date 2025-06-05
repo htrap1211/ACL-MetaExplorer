@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.154",
+  "title": "Tsia at {S}em{E}val-2021 Task 7: Detecting and Rating Humor and Offense",
+  "authors": [
+    "Guan, Zhengyi  and\nZhou, Xiaobing ZXB"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper describes our contribution to SemEval-2021 Task 7: Detecting and Rating Humor and Of-fense.This task contains two sub-tasks, sub-task 1and sub-task 2. Among them, sub-task 1 containsthree sub-tasks, sub-task 1a ,sub-task 1b and sub-task 1c.Sub-task 1a is to predict if the text would beconsidered humorous. Sub-task 1c is described asfollows: if the text is classed as humorous, predictif the humor rating would be considered controver-sial, i.e. the variance of the rating between annota-tors is higher than the median.we combined threepre-trained model with CNN to complete these twoclassification sub-tasks. Sub-task 1b is to judge thedegree of humor. Sub-task 2 aims to predict how of-fensive a text would be with values between 0 and5.We use the idea of regression to deal with thesetwo sub-tasks. We analyze the performance of ourmethod and demonstrate the contribution of eachcomponent of our architecture. We have achievedgood results under the combination of multiple pre-training models and optimization methods.",
+  "keywords": [
+    "twoclassification",
+    "achievedgood",
+    "we",
+    "variance",
+    "training",
+    "cnn",
+    "optimization methods",
+    "e",
+    "text",
+    "-",
+    "these twoclassification sub",
+    "the variance",
+    "model",
+    "optimization",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.154/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.451",
+  "title": "ORGAN}: Observation-Guided Radiology Report Generation via Tree Reasoning",
+  "authors": [
+    "Hou, Wenjun  and\nXu, Kaishuai  and\nCheng, Yi  and\nLi, Wenjie  and\nLiu, Jiang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "This paper explores the task of radiology report generation, which aims at generating free-text descriptions for a set of radiographs. One significant challenge of this task is how to correctly maintain the consistency between the images and the lengthy report. Previous research explored solving this issue through planning-based methods, which generate reports only based on high-level plans. However, these plans usually only contain the major observations from the radiographs (e.g., lung opacity), lacking much necessary information, such as the observation characteristics and preliminary clinical diagnoses. To address this problem, the system should also take the image information into account together with the textual plan and perform stronger reasoning during the generation process. In this paper, we propose an Observation-guided radiology Report Generation framework (ORGan). It first produces an observation plan and then feeds both the plan and radiographs for report generation, where an observation graph and a tree reasoning mechanism are adopted to precisely enrich the plan information by capturing the multi-formats of each observation. Experimental results demonstrate that our framework outperforms previous state-of-the-art methods regarding text quality and clinical efficacy.",
+  "keywords": [
+    "report generation",
+    "we",
+    "graph",
+    "radiology report generation",
+    "it",
+    "information",
+    "text",
+    "-",
+    "process",
+    "generation",
+    "the generation process",
+    "major",
+    "plan",
+    "multi",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.451/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:41:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

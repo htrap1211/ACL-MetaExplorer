@@ -1,0 +1,33 @@
+{
+  "id": "2021.gem-1.14",
+  "title": "S}imple{NER} Sentence Simplification System for {GEM} 2021",
+  "authors": [
+    "Srivatsa, K V Aditya  and\nGokani, Monil  and\nShrivastava, Manish"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Natural Language Generation, Evaluation, and Metrics (GEM 2021)",
+  "abstract": "This paper describes SimpleNER, a model developed for the sentence simplification task at GEM-2021. Our system is a monolingual Seq2Seq Transformer architecture that uses control tokens pre-pended to the data, allowing the model to shape the generated simplifications according to user desired attributes. Additionally, we show that NER-tagging the training data before use helps stabilize the effect of the control tokens and significantly improves the overall performance of the system. We also employ pretrained embeddings to reduce data sparsity and allow the model to produce more generalizable outputs.",
+  "keywords": [
+    "embeddings",
+    "seq2seq",
+    "transformer",
+    "ner",
+    "pretrained embeddings",
+    "model",
+    "generalizable",
+    "we",
+    "the generated simplifications",
+    "training",
+    "more generalizable outputs",
+    "that",
+    "the data",
+    "user",
+    "task"
+  ],
+  "url": "https://aclanthology.org/2021.gem-1.14/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

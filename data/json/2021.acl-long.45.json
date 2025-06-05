@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.45",
+  "title": "Cascaded Head-colliding Attention",
+  "authors": [
+    "Zheng, Lin  and\nWu, Zhiyong  and\nKong, Lingpeng"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Transformers have advanced the field of natural language processing (NLP) on a variety of important tasks. At the cornerstone of the Transformer architecture is the multi-head attention (MHA) mechanism which models pairwise interactions between the elements of the sequence. Despite its massive success, the current framework ignores interactions among different heads, leading to the problem that many of the heads are redundant in practice, which greatly wastes the capacity of the model. To improve parameter efficiency, we re-formulate the MHA as a latent variable model from a probabilistic perspective. We presentcascaded head-collidingattention (CODA) which explicitly models the interactions between attention heads through a hierarchical variational distribution. We conduct extensive experiments and demonstrate that CODA outperforms the transformer baseline, by 0.6 perplexity on Wikitext-103 in language modeling, and by 0.6 BLEU on WMT14 EN-DE in machine translation, due to its improvements on the parameter efficiency.",
+  "keywords": [
+    "variety",
+    "transformers",
+    "bleu",
+    "field",
+    "machine translation",
+    "efficiency",
+    "we",
+    "current",
+    "language modeling",
+    "parameter",
+    "the parameter efficiency",
+    "translation",
+    "natural language processing nlp",
+    "0 6 bleu",
+    "de"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.45/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:00:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

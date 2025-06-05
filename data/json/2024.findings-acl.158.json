@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.158",
+  "title": "FUSE}: Measure-Theoretic Compact Fuzzy Set Representation for Taxonomy Expansion",
+  "authors": [
+    "Xu, Fred  and\nJiang, Song  and\nHuang, Zijie  and\nLuo, Xiao  and\nZhang, Shichang  and\nChen, Yuanzhou  and\nSun, Yizhou"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Taxonomy Expansion, which relies on modeling concepts and concept relations, can be formulated as a set representation learning task. The generalization of set, fuzzy set, incorporates uncertainty and measures the information within a semantic concept, making it suitable for concept modeling. Existing works usually model sets as vectors or geometric objects such as boxes, which are not closed under set operations. In this work, we propose a sound and efficient formulation of set representation learning based on its volume approximation as a fuzzy set. The resulting embedding framework,Fuzzy Set Embedding, satisfies all set operations and compactly approximates the underlying fuzzy set, hence preserving information while being efficient to learn, relying on minimum neural architecture. We empirically demonstrate the power of FUSE on the task of taxonomy expansion, where FUSE achieves remarkable improvements up to 23% compared with existing baselines. Our work marks the first attempt to understand and efficiently compute the embeddings of fuzzy sets.",
+  "keywords": [
+    "embedding satisfies",
+    "work",
+    "embeddings",
+    "the embeddings",
+    "neural",
+    "it",
+    "vectors",
+    "the generalization",
+    "efficient",
+    "modeling",
+    "satisfies",
+    "information",
+    "generalization",
+    "semantic",
+    "all"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.158/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:50:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

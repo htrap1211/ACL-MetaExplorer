@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.19",
+  "title": "Detecting Annotation Errors in Morphological Data with the Transformer",
+  "authors": [
+    "Liu, Ling  and\nHulden, Mans"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Annotation errors that stem from various sources are usually unavoidable when performing large-scale annotation of linguistic data. In this paper, we evaluate the feasibility of using the Transformer model to detect various types of annotator errors in morphological data sets that contain inflected word forms. We evaluate our error detection model on four languages by introducing three different types of artificial errors in the data: (1) typographic errors, where single characters in the data are inserted, replaced, or deleted; (2) linguistic confusion errors where two inflected forms are systematically swapped; and (3) self-adversarial errors where the Transformer model itself is used to generate plausible-looking, but erroneous forms by retrieving high-scoring predictions from the search beam. Results show that the Transformer model can with perfect, or near-perfect recall detect errors in all three scenarios, even when significant amounts of the annotated data (5%-30%) are corrupted on all languages tested. Precision varies across the languages and types of errors, but is high enough that the model can be very effectively used to flag suspicious entries in large data sets for further scrutiny by human annotators.",
+  "keywords": [
+    "precision",
+    "entries",
+    "we",
+    "confusion",
+    "perfect or near-perfect recall",
+    "self",
+    "the transformer annotation errors",
+    "word",
+    "transformer",
+    "recall",
+    "the transformer model",
+    "model",
+    "human",
+    "suspicious entries",
+    "various sources"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:32:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

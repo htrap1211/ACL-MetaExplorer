@@ -1,0 +1,33 @@
+{
+  "id": "P17-1060",
+  "title": "Domain Attention with an Ensemble of Experts",
+  "authors": [
+    "Kim, Young-Bum  and\nStratos, Karl  and\nKim, Dongchan"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "An important problem in domain adaptation is to quickly generalize to a new domain with limited supervision given K existing domains. One approach is to retrain a global model across all K + 1 domains using standard techniques, for instance Daumé III (2009). However, it is desirable to adapt without having to re-estimate a global model from scratch each time a new domain with potentially new intents and slots is added. We describe a solution based on attending an ensemble of domain experts. We assume K domain specific intent and slot models trained on respective domains. When given domain K + 1, our model uses a weighted combination of the K domain experts’ feedback along with its own opinion to make predictions on the new domain. In experiments, the model significantly outperforms baselines that do not use domain adaptation and also performs better than the full retraining approach.",
+  "keywords": [
+    "ensemble",
+    "model",
+    "it",
+    "k",
+    "attention",
+    "we",
+    "time",
+    "an ensemble",
+    "limited supervision",
+    "that",
+    "a global model",
+    "predictions",
+    "supervision",
+    "approach",
+    "global"
+  ],
+  "url": "https://aclanthology.org/P17-1060/",
+  "provenance": {
+    "collected_at": "2025-06-04 23:58:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

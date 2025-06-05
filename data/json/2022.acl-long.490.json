@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.490",
+  "title": "Boundary Smoothing for Named Entity Recognition",
+  "authors": [
+    "Zhu, Enwei  and\nLi, Jinpeng"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Neural named entity recognition (NER) models may easily encounter the over-confidence issue, which degrades the performance and calibration. Inspired by label smoothing and driven by the ambiguity of boundary annotation in NER engineering, we propose boundary smoothing as a regularization technique for span-based neural NER models. It re-assigns entity probabilities from annotated spans to the surrounding ones. Built on a simple but strong baseline, our model achieves results better than or competitive with previous state-of-the-art systems on eight well-known NER benchmarks. Further empirical analysis suggests that boundary smoothing effectively mitigates over-confidence, improves model calibration, and brings flatter neural minima and more smoothed loss landscapes.",
+  "keywords": [
+    "ner",
+    "entity recognition ner models",
+    "neural",
+    "model",
+    "it",
+    "span-based neural ner models",
+    "assigns entity probabilities",
+    "-",
+    "ner engineering",
+    "a regularization technique",
+    "loss",
+    "regularization",
+    "named entity recognition neural",
+    "probabilities",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.490/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:30:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

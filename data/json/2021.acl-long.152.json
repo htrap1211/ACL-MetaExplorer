@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.152",
+  "title": "Contributions of Transformer Attention Heads in Multi- and Cross-lingual Tasks",
+  "authors": [
+    "Ma, Weicheng  and\nZhang, Kai  and\nLou, Renze  and\nWang, Lili  and\nVosoughi, Soroush"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "This paper studies the relative importance of attention heads in Transformer-based models to aid their interpretability in cross-lingual and multi-lingual tasks. Prior research has found that only a few attention heads are important in each mono-lingual Natural Language Processing (NLP) task and pruning the remaining heads leads to comparable or improved performance of the model. However, the impact of pruning attention heads is not yet clear in cross-lingual and multi-lingual tasks. Through extensive experiments, we show that (1) pruning a number of attention heads in a multi-lingual Transformer-based model has, in general, positive effects on its performance in cross-lingual and multi-lingual tasks and (2) the attention heads to be pruned can be ranked using gradients and identified with a few trial experiments. Our experiments focus on sequence labeling tasks, with potential applicability on other cross-lingual and multi-lingual tasks. For comprehensiveness, we examine two pre-trained multi-lingual models, namely multi-lingual BERT (mBERT) and XLM-R, on three tasks across 9 languages each. We also discuss the validity of our findings and their extensibility to truly resource-scarce languages and other task settings.",
+  "keywords": [
+    "mbert",
+    "2 the attention heads",
+    "we",
+    "cross",
+    "a multi-lingual transformer-based model",
+    "namely multi-lingual bert mbert",
+    "natural",
+    "this paper studies",
+    "transformer attention heads",
+    "sequence",
+    "processing",
+    "bert",
+    "attention heads",
+    "transformer-based models",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.152/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:01:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

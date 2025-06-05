@@ -1,0 +1,33 @@
+{
+  "id": "P19-1642",
+  "title": "Latent Variable Model for Multi-modal Translation",
+  "authors": [
+    "Calixto, Iacer  and\nRios, Miguel  and\nAziz, Wilker"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "In this work, we propose to model the interaction between visual and textual features for multi-modal neural machine translation (MMT) through a latent variable model. This latent variable can be seen as a multi-modal stochastic embedding of an image and its description in a foreign language. It is used in a target-language decoder and also to predict image features. Importantly, our model formulation utilises visual and textual inputs during training but does not require that images be available at test time. We show that our latent variable MMT formulation improves considerably over strong baselines, including a multi-task learning approach (Elliott and Kadar, 2017) and a conditional variational auto-encoder approach (Toyama et al., 2016). Finally, we show improvements due to (i) predicting image features in addition to only conditioning on them, (ii) imposing a constraint on the KL term to promote models with non-negligible mutual information between inputs and latent variable, and (iii) by training on additional target-language image descriptions (i.e. synthetic data).",
+  "keywords": [
+    "multi-modal neural machine translation",
+    "multi-modal translation",
+    "we",
+    "training",
+    "translation",
+    "neural",
+    "it",
+    "decoder",
+    "information",
+    "latent",
+    "visual",
+    "a target-language decoder",
+    "i",
+    "work",
+    "language"
+  ],
+  "url": "https://aclanthology.org/P19-1642/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:47:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

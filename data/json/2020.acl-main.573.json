@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.573",
+  "title": "Continual Relation Learning via Episodic Memory Activation and Reconsolidation",
+  "authors": [
+    "Han, Xu  and\nDai, Yi  and\nGao, Tianyu  and\nLin, Yankai  and\nLiu, Zhiyuan  and\nLi, Peng  and\nSun, Maosong  and\nZhou, Jie"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Continual relation learning aims to continually train a model on new data to learn incessantly emerging novel relations while avoiding catastrophically forgetting old relations. Some pioneering work has proved that storing a handful of historical relation examples in episodic memory and replaying them in subsequent training is an effective solution for such a challenging problem. However, these memory-based methods usually suffer from overfitting the few memorized examples of old relations, which may gradually cause inevitable confusion among existing relations. Inspired by the mechanism in human long-term memory formation, we introduce episodic memory activation and reconsolidation (EMAR) to continual relation learning. Every time neural models are activated to learn both new and memorized data, EMAR utilizes relation prototypes for memory reconsolidation exercise to keep a stable understanding of old relations. The experimental results show that EMAR could get rid of catastrophically forgetting old relations and outperform the state-of-the-art continual learning models.",
+  "keywords": [
+    "work",
+    "formation",
+    "neural",
+    "model",
+    "human",
+    "episodic memory activation",
+    "activation",
+    "we",
+    "learning",
+    "time",
+    "confusion",
+    "training",
+    "an effective solution",
+    "a stable understanding",
+    "term"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.573/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:49:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

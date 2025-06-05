@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.319",
+  "title": "Multi-Dimensional Optimization for Text Summarization via Reinforcement Learning",
+  "authors": [
+    "Ryu, Sangwon  and\nDo, Heejin  and\nKim, Yunsu  and\nLee, Gary  and\nOk, Jungseul"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The evaluation of summary quality encompasses diverse dimensions such as consistency, coherence, relevance, and fluency. However, existing summarization methods often target a specific dimension, facing challenges in generating well-balanced summaries across multiple dimensions. In this paper, we propose multi-objective reinforcement learning tailored to generate balanced summaries across all four dimensions. We introduce two multi-dimensional optimization (MDO) strategies for adaptive learning: 1) MDO_min, rewarding the current lowest dimension score, and 2) MDO_pro, optimizing multiple dimensions similar to multi-task learning, resolves conflicting gradients across dimensions through gradient projection. Unlike prior ROUGE-based rewards relying on reference summaries, we use a QA-based reward model that aligns with human preferences. Further, we discover the capability to regulate the length of summaries by adjusting the discount factor, seeking the generation of concise yet informative summaries that encapsulate crucial points. Our approach achieved substantial performance gains compared to baseline models on representative summarization datasets, particularly in the overlooked dimensions.",
+  "keywords": [
+    "existing summarization methods",
+    "text summarization",
+    "the generation",
+    "gradient projection",
+    "summarization",
+    "we",
+    "current",
+    "multi-objective reinforcement learning",
+    "reference summaries",
+    "representative summarization datasets",
+    "well-balanced summaries",
+    "learning",
+    "a qa-based reward model",
+    "conflicting gradients",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.319/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

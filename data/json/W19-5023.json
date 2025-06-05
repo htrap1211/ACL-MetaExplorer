@@ -1,0 +1,33 @@
+{
+  "id": "W19-5023",
+  "title": "Enhancing {PIO} Element Detection in Medical Text Using Contextualized Embedding",
+  "authors": [
+    "Mezaoui, Hichem  and\nGunasekara, Isuru  and\nGontcharov, Aleksandr"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 18th BioNLP Workshop and Shared Task",
+  "abstract": "In this paper, we presented an improved methodology to extract PIO elements, from abstracts of medical papers, that reduces ambiguity. The proposed technique was used to build a dataset of PIO elements that we call PICONET. We further proposed a model of PIO elements classification using state of the art BERT embedding. In addition, we investigated a contextualized embedding, BioBERT, trained on medical corpora. It has been found that using the BioBERT embedding improved the classification accuracy, outperforming the BERT-based model. This result reinforces the idea of the importance of embedding contextualization in subsequent classification tasks in this specific context. Furthermore, to enhance the accuracy of the model, we have investigated an ensemble method based on the LGBM algorithm. We trained the LGBM model, with the above models as base learners, to learn a linear combination of the predicted probabilities for the 3 classes with the TF-IDF score and the QIEF that optimizes the classification. The results indicate that these text features were good features to consider in order to boost the deeply contextualized classification model. We compared the performance of the classifier when using the features with one of the base learners and the case where we combine the base learners along with the features. We obtained the highest score in terms of AUC when we combine the base learners. The present work resulted in the creation of a PIO element dataset, PICONET, and a classification tool. These constitute and important component of our system of automatic mining of medical abstracts. We intend to extend the dataset to full medical articles. The model will be modified to take into account the higher complexity of full text data and more efficient features for model boosting will be investigated.",
+  "keywords": [
+    "the accuracy",
+    "the biobert",
+    "more efficient features",
+    "the art bert",
+    "classifier",
+    "efficient",
+    "we",
+    "biobert",
+    "embedding contextualization",
+    "the base learners",
+    "classification",
+    "ensemble",
+    "a contextualized embedding biobert",
+    "an ensemble method",
+    "the classifier"
+  ],
+  "url": "https://aclanthology.org/W19-5023/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:56:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

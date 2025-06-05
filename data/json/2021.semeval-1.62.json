@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.62",
+  "title": "MCL}@{IITK} at {S}em{E}val-2021 Task 2: Multilingual and Cross-lingual Word-in-Context Disambiguation using Augmented Data, Signals, and Transformers",
+  "authors": [
+    "Gupta, Rohan  and\nMundra, Jay  and\nMahajan, Deepak  and\nModi, Ashutosh"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "In this work, we present our approach for solving the SemEval 2021 Task 2: Multilingual and Cross-lingual Word-in-Context Disambiguation (MCL-WiC). The task is a sentence pair classification problem where the goal is to detect whether a given word common to both the sentences evokes the same meaning. We submit systems for both the settings - Multilingual (the pair’s sentences belong to the same language) and Cross-Lingual (the pair’s sentences belong to different languages). The training data is provided only in English. Consequently, we employ cross-lingual transfer techniques. Our approach employs fine-tuning pre-trained transformer-based language models, like ELECTRA and ALBERT, for the English task and XLM-R for all other tasks. To improve these systems’ performance, we propose adding a signal to the word to be disambiguated and augmenting our data by sentence pair reversal. We further augment the dataset provided to us with WiC, XL-WiC and SemCor 3.0. Using ensembles, we achieve strong performance in the Multilingual task, placing first in the EN-EN and FR-FR sub-tasks. For the Cross-Lingual setting, we employed translate-test methods and a zero-shot method, using our multilingual models, with the latter performing slightly better.",
+  "keywords": [
+    "transformers",
+    "we",
+    "shot",
+    "training",
+    "classification",
+    "cross",
+    "albert",
+    "word",
+    "transfer",
+    "ensembles",
+    "-",
+    "work",
+    "transformer",
+    "language",
+    "a zero-shot method"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.62/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:20:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

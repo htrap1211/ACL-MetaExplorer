@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.49",
+  "title": "U}ni{F}ine: A Unified and Fine-grained Approach for Zero-shot Vision-Language Understanding",
+  "authors": [
+    "Sun, Rui  and\nWang, Zhecan  and\nYou, Haoxuan  and\nCodella, Noel  and\nChang, Kai-Wei  and\nChang, Shih-Fu"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Vision-language tasks, such as VQA, SNLI-VE, and VCR are challenging because they require the model’s reasoning ability to understand the semantics of the visual world and natural language. Supervised methods working for vision-language tasks have been well-studied. However, solving these tasks in a zero-shot setting is less explored. Since Contrastive Language-Image Pre-training (CLIP) has shown remarkable zero-shot performance on image-text matching, previous works utilized its strong zero-shot ability by converting vision-language tasks into an image-text matching problem, and they mainly consider global-level matching (e.g., the whole image or sentence). However, we find visual and textual fine-grained information, e.g., keywords in the sentence and objects in the image, can be fairly informative for semantics understanding. Inspired by this, we propose a unified framework to take advantage of the fine-grained information for zero-shot vision-language learning, covering multiple tasks such as VQA, SNLI-VE, and VCR. Our experiments show that our framework outperforms former zero-shot methods on VQA and achieves substantial improvement on SNLI-VE and VCR. Furthermore, our ablation studies confirm the effectiveness and generalizability of our proposed method.",
+  "keywords": [
+    "remarkable zero-shot performance",
+    "f",
+    "the semantics",
+    "our ablation studies",
+    "we",
+    "generalizability",
+    "shot",
+    "training",
+    "natural",
+    "semantics",
+    "vqa snli-ve",
+    "a unified framework",
+    "unified",
+    "u",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.49/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

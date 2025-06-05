@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.464",
+  "title": "Teaching Small Language Models to Reason for Knowledge-Intensive Multi-Hop Question Answering",
+  "authors": [
+    "Li, Xiang  and\nHe, Shizhu  and\nLei, Fangyu  and\nJunYang, JunYang  and\nSu, Tianhuang  and\nLiu, Kang  and\nZhao, Jun"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large Language Models (LLMs) can teach small language models (SLMs) to solve complex reasoning tasks (e.g., mathematical question answering) by Chain-of-thought Distillation (CoTD). Specifically, CoTD fine-tunes SLMs by utilizing rationales generated from LLMs such as ChatGPT. However, CoTD has certain limitations that make it unsuitable for knowledge-intensive multi-hop question answering: 1) SLMs have a very limited capacity in memorizing required knowledge compared to LLMs. 2) SLMs do not possess the same powerful integrated abilities in question understanding and knowledge reasoning as LLMs. To address the above limitations, we introduce Decompose-and-Response Distillation (D&R Distillation), which distills two student models, namely Decomposer and Responser separately. The two models solve a knowledge-intensive multi-hop question through an interactive process of asking and answering subquestions. Our method offers two advantages: 1) SLMs have the capability to access external knowledge to address subquestions, which provides more comprehensive knowledge for multi-hop questions. 2) By employing simpler subquestions instead of complex CoT reasoning, SLMs effectively mitigate task complexity and decrease data prerequisites. Experimental results on three knowledge-intensive multi-hop question answering datasets demonstrate that D&R Distillation can surpass previous CoTD methods, even with much less training data.",
+  "keywords": [
+    "cotd",
+    "chain",
+    "question",
+    "we",
+    "training",
+    "cot",
+    "it",
+    "however cotd",
+    "r",
+    "chatgpt",
+    "llms",
+    "abilities",
+    "complex cot reasoning slms",
+    "previous cotd methods",
+    "large language models llms"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.464/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.494",
+  "title": "Is Continuous Prompt a Combination of Discrete Prompts? Towards a Novel View for Interpreting Continuous Prompts",
+  "authors": [
+    "Ju, Tianjie  and\nZheng, Yubin  and\nWang, Hanyi  and\nZhao, Haodong  and\nLiu, Gongshen"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "The broad adoption of continuous prompts has brought state-of-the-art results on a diverse array of downstream natural language processing (NLP) tasks. Nonetheless, little attention has been paid to the interpretability and transferability of continuous prompts. Faced with the challenges, we investigate the feasibility of interpreting continuous prompts as the weighting of discrete prompts by jointly optimizing prompt fidelity and downstream fidelity. Our experiments show that: (1) one can always find a combination of discrete prompts as the replacement of continuous prompts that performs well on downstream tasks; (2) our interpretable framework faithfully reflects the reasoning process of source prompts; (3) our interpretations provide effective readability and plausibility, which is helpful to understand the decision-making of continuous prompts and discover potential shortcuts. Moreover, through the bridge constructed between continuous prompts and discrete prompts using our interpretations, it is promising to implement the cross-model transfer of continuous prompts without extra training signals. We hope this work will lead to a novel perspective on the interpretations of continuous prompts.",
+  "keywords": [
+    "extra",
+    "little attention",
+    "we",
+    "training",
+    "cross",
+    "prompt fidelity",
+    "continuous prompt",
+    "natural",
+    "it",
+    "transfer",
+    "processing",
+    "prompt",
+    "discrete prompts",
+    "work",
+    "prompts"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.494/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

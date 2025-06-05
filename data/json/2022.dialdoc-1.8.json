@@ -1,0 +1,33 @@
+{
+  "id": "2022.dialdoc-1.8",
+  "title": "Graph-combined Coreference Resolution Methods on Conversational Machine Reading Comprehension with Pre-trained Language Model",
+  "authors": [
+    "Wang, Zhaodong  and\nKomatani, Kazunori"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Second DialDoc Workshop on Document-grounded Dialogue and Conversational Question Answering",
+  "abstract": "Coreference resolution such as for anaphora has been an essential challenge that is commonly found in conversational machine reading comprehension (CMRC). This task aims to determine the referential entity to which a pronoun refers on the basis of contextual information. Existing approaches based on pre-trained language models (PLMs) mainly rely on an end-to-end method, which still has limitations in clarifying referential dependency. In this study, a novel graph-based approach is proposed to integrate the coreference of given text into graph structures (called coreference graphs), which can pinpoint a pronoun’s referential entity. We propose two graph-combined methods, evidence-enhanced and the fusion model, for CMRC to integrate coreference graphs from different levels of the PLM architecture. Evidence-enhanced refers to textual level methods that include an evidence generator (for generating new text to elaborate a pronoun) and enhanced question (for rewriting a pronoun in a question) as PLM input. The fusion model is a structural level method that combines the PLM with a graph neural network. We evaluated these approaches on a CoQA pronoun-containing dataset and the whole CoQA dataset. The result showed that our methods can outperform baseline PLM methods with BERT and RoBERTa.",
+  "keywords": [
+    "roberta",
+    "end",
+    "coreference graphs",
+    "question",
+    "we",
+    "graph",
+    "fusion",
+    "neural",
+    "the whole coqa",
+    "conversational machine reading comprehension",
+    "information",
+    "pre-trained language models plms",
+    "an evidence generator",
+    "graph-combined coreference resolution methods",
+    "bert"
+  ],
+  "url": "https://aclanthology.org/2022.dialdoc-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:41:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

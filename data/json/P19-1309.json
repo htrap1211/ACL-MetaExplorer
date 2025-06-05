@@ -1,0 +1,33 @@
+{
+  "id": "P19-1309",
+  "title": "Margin-based Parallel Corpus Mining with Multilingual Sentence Embeddings",
+  "authors": [
+    "Artetxe, Mikel  and\nSchwenk, Holger"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Machine translation is highly sensitive to the size and quality of the training data, which has led to an increasing interest in collecting and filtering large parallel corpora. In this paper, we propose a new method for this task based on multilingual sentence embeddings. In contrast to previous approaches, which rely on nearest neighbor retrieval with a hard threshold over cosine similarity, our proposed method accounts for the scale inconsistencies of this measure, considering the margin between a given sentence pair and its closest candidates instead. Our experiments show large improvements over existing methods. We outperform the best published results on the BUCC mining task and the UN reconstruction task by more than 10 F1 and 30 precision points, respectively. Filtering the English-German ParaCrawl corpus with our approach, we obtain 31.2 BLEU points on newstest2014, an improvement of more than one point over the best official filtered version.",
+  "keywords": [
+    "precision",
+    "bleu",
+    "we",
+    "training",
+    "translation",
+    "retrieval",
+    "more than 10 f1",
+    "multilingual sentence embeddings",
+    "nearest neighbor retrieval",
+    "the scale inconsistencies",
+    "30 precision points",
+    "mining",
+    "embeddings",
+    "inconsistencies",
+    "machine"
+  ],
+  "url": "https://aclanthology.org/P19-1309/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:37:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

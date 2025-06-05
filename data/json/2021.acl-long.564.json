@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.564",
+  "title": "Mind Your Outliers! Investigating the Negative Impact of Outliers on Active Learning for Visual Question Answering",
+  "authors": [
+    "Karamcheti, Siddharth  and\nKrishna, Ranjay  and\nFei-Fei, Li  and\nManning, Christopher"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Active learning promises to alleviate the massive data needs of supervised machine learning: it has successfully improved sample efficiency by an order of magnitude on traditional tasks like topic classification and object recognition. However, we uncover a striking contrast to this promise: across 5 models and 4 datasets on the task of visual question answering, a wide variety of active learning approaches fail to outperform random selection. To understand this discrepancy, we profile 8 active learning methods on a per-example basis, and identify the problem as collective outliers – groups of examples that active learning methods prefer to acquire but models fail to learn (e.g., questions that ask about text in images or require external knowledge). Through systematic ablation experiments and qualitative visualizations, we verify that collective outliers are a general phenomenon responsible for degrading pool-based active learning. Notably, we show that active learning sample efficiency increases significantly as the number of collective outliers in the active learning pool decreases. We conclude with a discussion and prescriptive recommendations for mitigating the effects of these outliers in future work.",
+  "keywords": [
+    "variety",
+    "qualitative visualizations",
+    "question",
+    "these outliers",
+    "efficiency",
+    "we",
+    "collective outliers",
+    "a wide variety",
+    "classification",
+    "it",
+    "learning",
+    "visual",
+    "object",
+    "text",
+    "sample efficiency"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.564/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

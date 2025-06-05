@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.638",
+  "title": "Batch-{ICL}: Effective, Efficient, and Order-Agnostic In-Context Learning",
+  "authors": [
+    "Zhang, Kaiyi  and\nLv, Ang  and\nChen, Yuhan  and\nHa, Hansen  and\nXu, Tao  and\nYan, Rui"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "In this paper, by treating in-context learning (ICL) as a meta-optimization process, we explain why LLMs are sensitive to the order of ICL examples. This understanding leads us to the development of Batch-ICL, an effective, efficient, and order-agnostic inference algorithm for ICL. Differing from the standard N-shot learning approach, Batch-ICL employsNseparate 1-shot forward computations and aggregates the resulting meta-gradients. These aggregated meta-gradients are then applied to the forward computation of a zero-shot query to generate the final prediction. This batch processing approach renders the LLM agnostic to the order of ICL examples. Through extensive experiments and analysis, we demonstrate that Batch-ICL consistently outperforms most permutations of ICL examples. In some cases, it even exceeds the performance of the best order for standard ICL, all while reducing the computational resources required. Furthermore, we develop a novel variant of Batch-ICL featuring multiple “epochs” of meta-optimization. This variant implicitly explores permutations of ICL examples, further enhancing ICL performance.",
+  "keywords": [
+    "process",
+    "processing",
+    "a zero-shot query",
+    "a meta-optimization process",
+    "gradients",
+    "it",
+    "efficient",
+    "the llm",
+    "the resulting meta-gradients",
+    "us",
+    "batch",
+    "optimization",
+    "we",
+    "learning",
+    "meta-optimization"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.638/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

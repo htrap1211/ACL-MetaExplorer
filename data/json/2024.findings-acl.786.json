@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.786",
+  "title": "Improving Machine Translation with Large Language Models: A Preliminary Study with Cooperative Decoding",
+  "authors": [
+    "Zeng, Jiali  and\nMeng, Fandong  and\nYin, Yongjing  and\nZhou, Jie"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Contemporary translation engines based on the encoder-decoder framework have made significant strides in development.However, the emergence of Large Language Models (LLMs) has disrupted their position by presenting the potential for achieving superior translation quality.To uncover the circumstances in which LLMs excel and explore how their strengths can be harnessed to enhance translation quality,we first conduct a comprehensive analysis to assess the strengths and limitations of various commercial NMT systems and MT-oriented LLMs. Our findings indicate that neither NMT nor MT-oriented LLMs alone can effectively address all the translation issues, but MT-oriented LLMs show promise as a complementary solution to NMT systems.Building upon these insights, we propose Cooperative Decoding (CoDec), which treats NMT systems as a pretranslation model and MT-oriented LLMs as a supplemental solution to handle complex scenarios beyond the capability of NMT alone.Experimental results on the WMT22 test sets and a newly collected test set WebCrawl demonstrate the effectiveness and efficiency of CoDec, highlighting its potential as a robust solution for combining NMT systems with MT-oriented LLMs in the field of machine translation.",
+  "keywords": [
+    "field",
+    "machine translation",
+    "efficiency",
+    "we",
+    "a pretranslation model",
+    "pretranslation",
+    "translation",
+    "the field",
+    "the encoder-decoder framework",
+    "decoder",
+    "all the translation issues",
+    "analysis",
+    "llms",
+    "mt-oriented llms",
+    "large language models llms"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.786/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:59:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

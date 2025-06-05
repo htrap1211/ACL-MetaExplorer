@@ -1,0 +1,33 @@
+{
+  "id": "2022.insights-1.11",
+  "title": "Evaluating Biomedical Word Embeddings for Vocabulary Alignment at Scale in the {UMLS} {M}etathesaurus Using {S}iamese Networks",
+  "authors": [
+    "Bajaj, Goonmeet  and\nNguyen, Vinh  and\nWijesiriwardene, Thilini  and\nYip, Hong Yung  and\nJavangula, Vishesh  and\nSheth, Amit  and\nParthasarathy, Srinivasan  and\nBodenreider, Olivier"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Third Workshop on Insights from Negative Results in NLP",
+  "abstract": "Recent work uses a Siamese Network, initialized with BioWordVec embeddings (distributed word embeddings), for predicting synonymy among biomedical terms to automate a part of the UMLS (Unified Medical Language System) Metathesaurus construction process. We evaluate the use of contextualized word embeddings extracted from nine different biomedical BERT-based models for synonym prediction in the UMLS by replacing BioWordVec embeddings with embeddings extracted from each biomedical BERT model using different feature extraction methods. Finally, we conduct a thorough grid search, which prior work lacks, to find the best set of hyperparameters. Surprisingly, we find that Siamese Networks initialized with BioWordVec embeddings still out perform the Siamese Networks initialized with embedding extracted from biomedical BERT model.",
+  "keywords": [
+    "embeddings",
+    "work",
+    "alignment",
+    "biomedical word embeddings",
+    "process",
+    "vocabulary alignment",
+    "hyperparameters",
+    "language",
+    "extraction",
+    "bert",
+    "model",
+    "each biomedical bert model",
+    "biowordvec embeddings",
+    "biomedical bert model",
+    "network"
+  ],
+  "url": "https://aclanthology.org/2022.insights-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

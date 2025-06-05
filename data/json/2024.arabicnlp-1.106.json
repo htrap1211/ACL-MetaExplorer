@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.106",
+  "title": "DRU} at {W}ojood{NER} 2024: {ICL} {LLM} for {A}rabic {NER",
+  "authors": [
+    "Hamdan, Nancy  and\nHamoud, Hadi  and\nAbou Chakra, Chadi  and\nRakan Al Mraikhat, Osama  and\nAlbared, Doha  and\nZaraket, Fadi A."
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "This paper details our submission to the WojoodNER Shared Task 2024, leveraging in-context learning with large language models for Arabic Named Entity Recognition. We utilized the Command R model, to perform fine-grained NER on the Wojood-Fine corpus. Our primary approach achieved an F1 score of 0.737 and a recall of 0.756. Post-processing the generated predictions to correct format inconsistencies resulted in an increased recall of 0.759, and a similar F1 score of 0.735. A multi-level prompting method and aggregation of outputs resulted in a lower F1 score of 0.637. Our results demonstrate the potential of ICL for Arabic NER while highlighting challenges related to LLM output consistency.",
+  "keywords": [
+    "recall",
+    "inconsistencies",
+    "ner",
+    "format inconsistencies",
+    "language",
+    "an f1 score",
+    "model",
+    "an increased recall",
+    "a lower f1 score",
+    "the wojoodner shared task",
+    "large language models",
+    "fine-grained ner",
+    "a recall",
+    "the generated predictions",
+    "a rabic ner"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.106/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:03:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

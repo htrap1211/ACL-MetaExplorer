@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.173",
+  "title": "Character-Level {C}hinese Dependency Parsing via Modeling Latent Intra-Word Structure",
+  "authors": [
+    "Hou, Yang  and\nLi, Zhenghua"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Revealing the syntactic structure of sentences in Chinese poses significant challenges for word-level parsers due to the absence of clear word boundaries. To facilitate a transition from word-level to character-level Chinese dependency parsing, this paper proposes modeling latent internal structures within words. In this way, each word-level dependency tree is interpreted as a forest of character-level trees. A constrained Eisner algorithm is implemented to ensure the compatibility of character-level trees, guaranteeing a single root for intra-word structures and establishing inter-word dependencies between these roots. Experiments on Chinese treebanks demonstrate the superiority of our method over both the pipeline framework and previous joint models. A detailed analysis reveals that a coarse-to-fine parsing strategy empowers the model to predict more linguistically plausible intra-word structures.",
+  "keywords": [
+    "parsing",
+    "dependencies",
+    "latent",
+    "word",
+    "analysis",
+    "clear word boundaries",
+    "character-level chinese dependency",
+    "fine",
+    "forest",
+    "model",
+    "boundaries",
+    "modeling",
+    "each word-level dependency tree",
+    "eisner",
+    "dependency"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.173/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:50:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

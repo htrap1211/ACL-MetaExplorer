@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.263",
+  "title": "D}ial{F}act: A Benchmark for Fact-Checking in Dialogue",
+  "authors": [
+    "Gupta, Prakhar  and\nWu, Chien-Sheng  and\nLiu, Wenhao  and\nXiong, Caiming"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Fact-checking is an essential tool to mitigate the spread of misinformation and disinformation. We introduce the task of fact-checking in dialogue, which is a relatively unexplored area. We construct DialFact, a testing benchmark dataset of 22,245 annotated conversational claims, paired with pieces of evidence from Wikipedia. There are three sub-tasks in DialFact: 1) Verifiable claim detection task distinguishes whether a response carries verifiable factual information; 2) Evidence retrieval task retrieves the most relevant Wikipedia snippets as evidence; 3) Claim verification task predicts a dialogue response to be supported, refuted, or not enough information. We found that existing fact-checking models trained on non-dialogue data like FEVER fail to perform well on our task, and thus, we propose a simple yet data-efficient solution to effectively improve fact-checking performance in dialogue. We point out unique challenges in DialFact such as handling the colloquialisms, coreferences, and retrieval ambiguities in the error analysis to shed light on future research in this direction.",
+  "keywords": [
+    "a dialogue response",
+    "efficient",
+    "we",
+    "dialogue",
+    "retrieval ambiguities",
+    "ambiguities",
+    "ial",
+    "retrieval",
+    "information",
+    "pieces",
+    "analysis",
+    "non-dialogue data",
+    "dialogue fact-checking",
+    "-",
+    "coreferences"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.263/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:27:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.667",
+  "title": "Differentiable Instruction Optimization for Cross-Task Generalization",
+  "authors": [
+    "Isonuma, Masaru  and\nMori, Junichiro  and\nSakata, Ichiro"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Instruction tuning has been attracting much attention to achieve generalization ability across a wide variety of tasks. Although various types of instructions have been manually created for instruction tuning, it is still unclear what kind of instruction is optimal to obtain cross-task generalization ability. This work presents instruction optimization, which optimizes training instructions with respect to generalization ability. Rather than manually tuning instructions, we introduce learnable instructions and optimize them with gradient descent by leveraging bilevel optimization. Experimental results show that the learned instruction enhances the diversity of instructions and improves the generalization ability compared to using only manually created instructions.",
+  "keywords": [
+    "work",
+    "instruction",
+    "cross",
+    "variety",
+    "much attention",
+    "differentiable instruction optimization",
+    "instruction tuning",
+    "tuning",
+    "the generalization ability",
+    "cross-task generalization ability",
+    "bilevel optimization experimental results",
+    "instruction optimization",
+    "it",
+    "cross-task generalization instruction tuning",
+    "gradient descent"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.667/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

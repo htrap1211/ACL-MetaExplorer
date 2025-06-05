@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.534",
+  "title": "Are Missing Links Predictable? An Inferential Benchmark for Knowledge Graph Completion",
+  "authors": [
+    "Cao, Yixin  and\nJi, Xiang  and\nLv, Xin  and\nLi, Juanzi  and\nWen, Yonggang  and\nZhang, Hanwang"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "We present InferWiki, a Knowledge Graph Completion (KGC) dataset that improves upon existing benchmarks in inferential ability, assumptions, and patterns. First, each testing sample is predictable with supportive data in the training set. To ensure it, we propose to utilize rule-guided train/test generation, instead of conventional random split. Second, InferWiki initiates the evaluation following the open-world assumption and improves the inferential difficulty of the closed-world assumption, by providing manually annotated negative and unknown triples. Third, we include various inference patterns (e.g., reasoning path length and types) for comprehensive evaluation. In experiments, we curate two settings of InferWiki varying in sizes and structures, and apply the construction process on CoDEx as comparative datasets. The results and empirical analyses demonstrate the necessity and high-quality of InferWiki. Nevertheless, the performance gap among various inferential assumptions and patterns presents the difficulty and inspires future research direction. Our datasets can be found inhttps://github.com/TaoMiner/inferwiki.",
+  "keywords": [
+    "comprehensive evaluation",
+    "kgc",
+    "we",
+    "graph",
+    "training",
+    "knowledge graph completion",
+    "it",
+    "taominer",
+    "rule-guided train test generation",
+    "process",
+    "knowledge",
+    "generation",
+    "random",
+    "train",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.534/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

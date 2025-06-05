@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.73",
+  "title": "XLPT}-{AMR}: Cross-Lingual Pre-Training via Multi-Task Learning for Zero-Shot {AMR} Parsing and Text Generation",
+  "authors": [
+    "Xu, Dongqin  and\nLi, Junhui  and\nZhu, Muhua  and\nZhang, Min  and\nZhou, Guodong"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Due to the scarcity of annotated data, Abstract Meaning Representation (AMR) research is relatively limited and challenging for languages other than English. Upon the availability of English AMR dataset and English-to- X parallel datasets, in this paper we propose a novel cross-lingual pre-training approach via multi-task learning (MTL) for both zeroshot AMR parsing and AMR-to-text generation. Specifically, we consider three types of relevant tasks, including AMR parsing, AMR-to-text generation, and machine translation. We hope that knowledge gained while learning for English AMR parsing and text generation can be transferred to the counterparts of other languages. With properly pretrained models, we explore four different finetuning methods, i.e., vanilla fine-tuning with a single task, one-for-all MTL fine-tuning, targeted MTL fine-tuning, and teacher-studentbased MTL fine-tuning. Experimental results on AMR parsing and text generation of multiple non-English languages demonstrate that our approach significantly outperforms a strong baseline of pre-training approach, and greatly advances the state of the art. In detail, on LDC2020T07 we have achieved 70.45%, 71.76%, and 70.80% in Smatch F1 for AMR parsing of German, Spanish, and Italian, respectively, while for AMR-to-text generation of the languages, we have obtained 25.69, 31.36, and 28.42 in BLEU respectively. We make our code available on githubhttps://github.com/xdqkid/XLPT-AMR.",
+  "keywords": [
+    "code",
+    "parsing",
+    "bleu",
+    "all",
+    "we",
+    "both zeroshot amr parsing",
+    "amr parsing",
+    "shot",
+    "text generation",
+    "training",
+    "translation",
+    "cross",
+    "smatch f1",
+    "pre-training approach",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.73/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:00:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

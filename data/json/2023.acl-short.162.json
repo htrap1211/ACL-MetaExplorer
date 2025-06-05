@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.162",
+  "title": "Table and Image Generation for Investigating Knowledge of Entities in Pre-trained Vision and Language Models",
+  "authors": [
+    "Kamigaito, Hidetaka  and\nHayashi, Katsuhiko  and\nWatanabe, Taro"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "In this paper, we propose a table and image generation task to verify how the knowledge about entities acquired from natural language is retained in Vision & Language (V & L) models. This task consists of two parts: the first is to generate a table containing knowledge about an entity and its related image, and the second is to generate an image from an entity with a caption and a table containing related knowledge of the entity. In both tasks, the model must know the entities used to perform the generation properly. We created the Wikipedia Table and Image Generation (WikiTIG) dataset from about 200,000 infoboxes in English Wikipedia articles to perform the proposed tasks. We evaluated the performance on the tasks with respect to the above research question using the V & L model OFA, which has achieved state-of-the-art results in multiple tasks. Experimental results show that OFA forgets part of its entity knowledge by pre-training as a complement to improve the performance of image related tasks.",
+  "keywords": [
+    "knowledge",
+    "generation",
+    "language",
+    "natural",
+    "model",
+    "entities",
+    "the generation",
+    "image generation",
+    "-",
+    "question",
+    "we",
+    "natural language",
+    "pre",
+    "entity",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.162/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:50:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.knowledgenlp-1.4",
+  "title": "Learning to Trust Your Feelings: Leveraging Self-awareness in {LLM}s for Hallucination Mitigation",
+  "authors": [
+    "Liang, Yuxin  and\nSong, Zhuoyang  and\nWang, Hao  and\nZhang, Jiaxing"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 3rd Workshop on Knowledge Augmented Methods for NLP",
+  "abstract": "We evaluate the ability of Large Language Models (LLMs) to discern and express their internal knowledge state, a key factor in countering factual hallucination and ensuring reliable application of LLMs. We observe a robust self-awareness of internal knowledge state in LLMs, evidenced by over 85% accuracy in knowledge state probing. However, LLMs often fail to faithfully express their internal knowledge during generation, leading to factual hallucinations. We develop an automated hallucination annotation tool, DreamCatcher, which merges knowledge probing and consistency checking methods to rank factual preference data. Using knowledge preference as reward, We propose a Reinforcement Learning from Knowledge Feedback (RLKF) training framework, leveraging reinforcement learning to enhance the factuality and honesty of LLMs. Our experiments across multiple models show that RLKF training effectively enhances the ability of models to utilize their internal knowledge state, boosting performance in a variety of knowledge-based and honesty-related tasks.",
+  "keywords": [
+    "variety",
+    "knowledge",
+    "reinforcement",
+    "generation",
+    "language",
+    "feedback",
+    "large language models",
+    "self",
+    "llm s",
+    "a reinforcement learning",
+    "we",
+    "learning",
+    "a variety",
+    "over 85 accuracy",
+    "reinforcement learning"
+  ],
+  "url": "https://aclanthology.org/2024.knowledgenlp-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:07:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

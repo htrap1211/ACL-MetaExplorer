@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.869",
+  "title": "C}ycle{A}lign: Iterative Distillation from Black-box {LLM} to White-box Models for Better Human Alignment",
+  "authors": [
+    "Hong, Jixiang  and\nTu, Quan  and\nChen, Changyu  and\nXing, Gao  and\nZhang, Ji  and\nYan, Rui"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Language models trained on large-scale corpus often generate harmful responses that are harmful and contrary to human values. A prevalent approach for human alignment is reinforcement learning from human feedback (RLHF), utilizing algorithms such as proximal policy optimization (PPO). However, these methods are often characterized by complexity, instability, and substantial resource consumption. Considering that existing large language models (LLMs) like ChatGPT are already relatively well-aligned and cost-friendly, researchers propose to align the language model with human preferences from AI feedback. Nevertheless, the common practices, that unidirectionally distill the responses, are constrained by the inherent capability of LLMs. To address it, we introduce CycleAlign, a framework that distills alignment capabilities from the parameter-invisible LLMs (black-box) to the parameter-visible models (white-box) in an iterative manner. CycleAlign iteratively improves both the white-box and black-box models by integrating static and dynamic in-context learning and a belief alignment method.Empirical results illustrate that the model fine-tuned by CycleAlign remarkably exceeds existing methods, and achieves the state-of-the-art performance in alignment with human value.",
+  "keywords": [
+    "feedback",
+    "human alignment",
+    "alignment capabilities",
+    "we",
+    "human feedback rlhf",
+    "llm",
+    "parameter",
+    "existing large language models",
+    "friendly",
+    "rlhf",
+    "it",
+    "chatgpt",
+    "the parameter-invisible llms",
+    "learning",
+    "manner"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.869/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:00:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

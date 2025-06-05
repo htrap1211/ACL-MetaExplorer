@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.374",
+  "title": "Phrase Retrieval for Open Domain Conversational Question Answering with Conversational Dependency Modeling via Contrastive Learning",
+  "authors": [
+    "Jeong, Soyeong  and\nBaek, Jinheon  and\nHwang, Sung Ju  and\nPark, Jong"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Open-Domain Conversational Question Answering (ODConvQA) aims at answering questions through a multi-turn conversation based on a retriever-reader pipeline, which retrieves passages and then predicts answers with them. However, such a pipeline approach not only makes the reader vulnerable to the errors propagated from the retriever, but also demands additional effort to develop both the retriever and the reader, which further makes it slower since they are not runnable in parallel. In this work, we propose a method to directly predict answers with a phrase retrieval scheme for a sequence of words, reducing the conventional two distinct subtasks into a single one. Also, for the first time, we study its capability for ODConvQA tasks. However, simply adopting it is largely problematic, due to the dependencies between previous and current turns in a conversation. To address this problem, we further introduce a novel contrastive learning strategy, making sure to reflect previous turns when retrieving the phrase for the current context, by maximizing representational similarities of consecutive turns in a conversation while minimizing irrelevant conversational contexts. We validate our model on two ODConvQA datasets, whose experimental results show that it substantially outperforms the relevant baselines with the retriever-reader. Code is available at:https://github.com/starsuzi/PRO-ConvQA.",
+  "keywords": [
+    "code",
+    "two odconvqa datasets",
+    "a phrase retrieval scheme",
+    "a conversation",
+    "both the retriever",
+    "question",
+    "the dependencies",
+    "we",
+    "current",
+    "conversational dependency modeling",
+    "irrelevant conversational contexts",
+    "it",
+    "odconvqa",
+    "odconvqa tasks",
+    "retrieval"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.374/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

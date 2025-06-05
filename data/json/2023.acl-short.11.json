@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.11",
+  "title": "Improving Low-resource Named Entity Recognition with Graph Propagated Data Augmentation",
+  "authors": [
+    "Cai, Jiong  and\nHuang, Shen  and\nJiang, Yong  and\nTan, Zeqi  and\nXie, Pengjun  and\nTu, Kewei"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Data augmentation is an effective solution to improve model performance and robustness for low-resource named entity recognition (NER). However, synthetic data often suffer from poor diversity, which leads to performance limitations. In this paper, we propose a novel Graph Propagated Data Augmentation (GPDA) framework for Named Entity Recognition (NER), leveraging graph propagation to build relationships between labeled data and unlabeled natural texts. By projecting the annotations from the labeled text to the unlabeled text, the unlabeled texts are partially labeled, which has more diversity rather than synthetic annotated data. To strengthen the propagation precision, a simple search engine built on Wikipedia is utilized to fetch related texts of labeled data and to propagate the entity labels to them in the light of the anchor links. Besides, we construct and perform experiments on a real-world low-resource dataset of the E-commerce domain, which will be publicly available to facilitate the low-resource NER research. Experimental results show that GPDA presents substantial improvements over previous data augmentation methods on multiple low-resource NER datasets.",
+  "keywords": [
+    "precision",
+    "the propagation precision",
+    "we",
+    "graph",
+    "natural",
+    "multiple low-resource ner datasets",
+    "ner",
+    "text",
+    "model",
+    "entity recognition ner",
+    "propagation",
+    "entity",
+    "anchor",
+    "an effective solution",
+    "poor diversity"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:48:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

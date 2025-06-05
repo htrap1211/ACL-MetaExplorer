@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.10",
+  "title": "Dynamic Schema Graph Fusion Network for Multi-Domain Dialogue State Tracking",
+  "authors": [
+    "Feng, Yue  and\nLipani, Aldo  and\nYe, Fanghua  and\nZhang, Qiang  and\nYilmaz, Emine"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Dialogue State Tracking (DST) aims to keep track of users’ intentions during the course of a conversation. In DST, modelling the relations among domains and slots is still an under-studied problem. Existing approaches that have considered such relations generally fall short in: (1) fusing prior slot-domain membership relations and dialogue-aware dynamic slot relations explicitly, and (2) generalizing to unseen domains. To address these issues, we propose a novelDynamicSchemaGraphFusionNetwork (DSGFNet), which generates a dynamic schema graph to explicitly fuse the prior slot-domain membership relations and dialogue-aware dynamic slot relations. It also uses the schemata to facilitate knowledge transfer to new domains. DSGFNet consists of a dialogue utterance encoder, a schema graph encoder, a dialogue-aware schema graph evolving network, and a schema graph enhanced dialogue state decoder. Empirical results on benchmark datasets (i.e., SGD, MultiWOZ2.1, and MultiWOZ2.2), show that DSGFNet outperforms existing methods.",
+  "keywords": [
+    "a dialogue utterance encoder",
+    "knowledge",
+    "sgd",
+    "it",
+    "a conversation",
+    "encoder",
+    "decoder",
+    "a schema graph encoder",
+    "network",
+    "conversation",
+    "we",
+    "dialogue-aware dynamic slot relations",
+    "a dialogue-aware schema",
+    "dialogue",
+    "an under-studied problem"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:24:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.580",
+  "title": "Confidence is not Timeless: Modeling Temporal Validity for Rule-based Temporal Knowledge Graph Forecasting",
+  "authors": [
+    "Huang, Rikui  and\nWei, Wei  and\nQu, Xiaoye  and\nZhang, Shengzhe  and\nChen, Dangyang  and\nCheng, Yu"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recently, Temporal Knowledge Graph Forecasting (TKGF) has emerged as a pivotal domain for forecasting future events. Unlike black-box neural network methods, rule-based approaches are lauded for their efficiency and interpretability. For this line of work, it is crucial to correctly estimate the predictive effectiveness of the rules, i.e., the confidence. However, the existing literature lacks in-depth investigation into how confidence evolves with time. Moreover, inaccurate and heuristic confidence estimation limits the performance of rule-based methods. To alleviate such issues, we propose a framework namedTempValidto explicitly model the temporal validity of rules for TKGF. Specifically, we design a time function to model the interaction between temporal information with confidence. TempValid conceptualizes confidence and other coefficients as learnable parameters to avoid inaccurate estimation and combinatorial explosion. Furthermore, we introduce arule-adversarial negative samplingand atime-aware negative samplingstrategies to facilitate TempValid learning. Extensive experiments show that TempValid significantly outperforms previous state-of-the-art (SOTA) rule-based methods on six TKGF datasets. Moreover, it exhibits substantial advancements in cross-domain and resource-constrained rule learning scenarios.",
+  "keywords": [
+    "efficiency",
+    "we",
+    "graph",
+    "six tkgf datasets",
+    "cross",
+    "neural",
+    "it",
+    "their efficiency",
+    "information",
+    "i",
+    "other coefficients",
+    "function",
+    "work",
+    "knowledge",
+    "tkgf"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.580/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

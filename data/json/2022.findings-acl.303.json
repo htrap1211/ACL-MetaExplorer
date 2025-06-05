@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.303",
+  "title": "Unsupervised Preference-Aware Language Identification",
+  "authors": [
+    "Ren, Xingzhang  and\nYang, Baosong  and\nLiu, Dayiheng  and\nZhang, Haibo  and\nLv, Xiaoyu  and\nYao, Liang  and\nXie, Jun"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Recognizing the language of ambiguous texts has become a main challenge in language identification (LID). When using multilingual applications, users have their own language preferences, which can be regarded as external knowledge for LID. Nevertheless, current studies do not consider the inter-personal variations due to the lack of user annotated training data. To fill this gap, we introduce preference-aware LID and propose a novel unsupervised learning strategy. Concretely, we construct pseudo training set for each user by extracting training samples from a standard LID corpus according to his/her historical language distribution. Besides, we contribute the first user labeled LID test set called “U-LID”. Experimental results reveal that our model can incarnate user traits and significantly outperforms existing LID systems on handling ambiguous texts. Our code and benchmark have been released.",
+  "keywords": [
+    "nevertheless current studies",
+    "code",
+    "knowledge",
+    "language",
+    "model",
+    "studies",
+    "u",
+    "we",
+    "learning",
+    "lid",
+    "current",
+    "training",
+    "applications",
+    "identification",
+    "strategy"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.303/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

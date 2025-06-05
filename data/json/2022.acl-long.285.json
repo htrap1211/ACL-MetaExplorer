@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.285",
+  "title": "Zero-Shot Cross-lingual Semantic Parsing",
+  "authors": [
+    "Sherborne, Tom  and\nLapata, Mirella"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent work in cross-lingual semantic parsing has successfully applied machine translation to localize parsers to new languages. However, these advances assume access to high-quality machine translation systems and word alignment tools. We remove these assumptions and study cross-lingual semantic parsing as a zero-shot problem, without parallel data (i.e., utterance-logical form pairs) for new languages. We propose a multi-task encoder-decoder model to transfer parsing knowledge to additional languages using only English-logical form paired data and in-domain natural language corpora in each new language. Our model encourages language-agnostic encodings by jointly optimizing for logical-form generation with auxiliary objectives designed for cross-lingual latent representation alignment. Our parser performs significantly above translation-based baselines and, in some cases, competes with the supervised upper-bound.",
+  "keywords": [
+    "work",
+    "cross",
+    "alignment",
+    "word alignment tools",
+    "a multi-task encoder-decoder model",
+    "auxiliary objectives",
+    "knowledge",
+    "parsing",
+    "a zero-shot problem",
+    "i",
+    "language",
+    "generation",
+    "objectives",
+    "natural",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.285/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:28:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

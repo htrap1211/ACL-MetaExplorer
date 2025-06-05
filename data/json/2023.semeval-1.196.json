@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.196",
+  "title": "NLP}-{LTU} at {S}em{E}val-2023 Task 10: The Impact of Data Augmentation and Semi-Supervised Learning Techniques on Text Classification Performance on an Imbalanced Dataset",
+  "authors": [
+    "Al-Azzawi, Sana  and\nKov{\\'a}cs, Gy{\\\"o}rgy  and\nNilsson, Filip  and\nAdewumi, Tosin  and\nLiwicki, Marcus"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "In this paper, we propose a methodology fortask 10 of SemEval23, focusing on detectingand classifying online sexism in social me-dia posts. The task is tackling a serious is-sue, as detecting harmful content on socialmedia platforms is crucial for mitigating theharm of these posts on users. Our solutionfor this task is based on an ensemble of fine-tuned transformer-based models (BERTweet,RoBERTa, and DeBERTa). To alleviate prob-lems related to class imbalance, and to improvethe generalization capability of our model, wealso experiment with data augmentation andsemi-supervised learning. In particular, fordata augmentation, we use back-translation, ei-ther on all classes, or on the underrepresentedclasses only. We analyze the impact of thesestrategies on the overall performance of thepipeline through extensive experiments. whilefor semi-supervised learning, we found thatwith a substantial amount of unlabelled, in-domain data available, semi-supervised learn-ing can enhance the performance of certainmodels. Our proposed method (for which thesource code is available on Github12) attainsan F 1-score of 0.8613 for sub-taskA, whichranked us 10th in the competition.",
+  "keywords": [
+    "generalization capability",
+    "code",
+    "roberta",
+    "deberta",
+    "we",
+    "back-translation ei",
+    "translation",
+    "classification",
+    "ing",
+    "ensemble",
+    "learning",
+    "an ensemble",
+    "text classification performance",
+    "learn",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.196/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

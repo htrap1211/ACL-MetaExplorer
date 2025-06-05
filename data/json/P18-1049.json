@@ -1,0 +1,33 @@
+{
+  "id": "P18-1049",
+  "title": "Context-Aware Neural Model for Temporal Information Extraction",
+  "authors": [
+    "Meng, Yuanliang  and\nRumshisky, Anna"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We propose a context-aware neural network model for temporal information extraction. This model has a uniform architecture for event-event, event-timex and timex-timex pairs. A Global Context Layer (GCL), inspired by Neural Turing Machine (NTM), stores processed temporal relations in narrative order, and retrieves them for use when relevant entities come in. Relations are then classified in context. The GCL model has long-term memory and attention mechanisms to resolve irregular long-distance dependencies that regular RNNs such as LSTM cannot recognize. It does not require any new input features, while outperforming the existing models in literature. To our knowledge it is also the first model to use NTM-like architecture to process the information from global context in discourse-scale natural text processing. We are going to release the source code in the future.",
+  "keywords": [
+    "code",
+    "regular rnns",
+    "knowledge",
+    "processing",
+    "neural",
+    "extraction",
+    "natural",
+    "model",
+    "machine",
+    "entities",
+    "it",
+    "text",
+    "temporal information extraction",
+    "relevant entities",
+    "rnns"
+  ],
+  "url": "https://aclanthology.org/P18-1049/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:10:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

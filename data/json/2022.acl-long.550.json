@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.550",
+  "title": "A Model-agnostic Data Manipulation Method for Persona-based Dialogue Generation",
+  "authors": [
+    "Cao, Yu  and\nBi, Wei  and\nFang, Meng  and\nShi, Shuming  and\nTao, Dacheng"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Towards building intelligent dialogue agents, there has been a growing interest in introducing explicit personas in generation models. However, with limited persona-based dialogue data at hand, it may be difficult to train a dialogue generation model well. We point out that the data challenges of this generation task lie in two aspects: first, it is expensive to scale up current persona-based dialogue datasets; second, each data sample in this task is more complex to learn with than conventional dialogue data. To alleviate the above data issues, we propose a data manipulation method, which is model-agnostic to be packed with any persona-based dialogue generation model to improve their performance. The original training samples will first be distilled and thus expected to be fitted more easily. Next, we show various effective ways that can diversify such easier distilled data. A given base model will then be trained via the constructed data curricula, i.e. first on augmented distilled samples and then on original ones. Experiments illustrate the superiority of our method with two strong base dialogue models (Transformer encoder-decoder and GPT2).",
+  "keywords": [
+    "gpt2",
+    "we",
+    "dialogue",
+    "a dialogue generation model",
+    "lie",
+    "current",
+    "encoder-decoder",
+    "training",
+    "it",
+    "decoder",
+    "persona-based dialogue generation",
+    "this generation task lie",
+    "conventional dialogue data",
+    "current persona-based dialogue datasets",
+    "i"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.550/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

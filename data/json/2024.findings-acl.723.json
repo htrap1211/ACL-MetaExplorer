@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.723",
+  "title": "Dual Prompt Tuning based Contrastive Learning for Hierarchical Text Classification",
+  "authors": [
+    "Xiong, Sishi  and\nZhao, Yu  and\nZhang, Jie  and\nMengxiang, Li  and\nHe, Zhongjiang  and\nLi, Xuelong  and\nSong, Shuangyong"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Hierarchical text classification aims at categorizing texts into a multi-tiered tree-structured hierarchy of labels. Existing methods pay more attention to capture hierarchy-aware text feature by exploiting explicit parent-child relationships, while interactions between peer labels are rarely taken into account, resulting in severe label confusion within each layer. In this work, we propose a novel Dual Prompt Tuning (DPT) method, which emphasizes identifying discrimination among peer labels by performing contrastive learning on each hierarchical layer. We design an innovative hand-crafted prompt containing slots for both positive and negative label predictions to cooperate with contrastive learning. In addition, we introduce a label hierarchy self-sensing auxiliary task to ensure cross-layer label consistency. Extensive experiments demonstrate that DPT achieves significant improvements and outperforms the current state-of-the-art methods on BGC and RCV1-V2 benchmark datasets.",
+  "keywords": [
+    "each hierarchical layer",
+    "a multi-tiered tree-structured hierarchy",
+    "layer",
+    "we",
+    "confusion",
+    "current",
+    "classification",
+    "cross",
+    "an innovative hand-crafted prompt",
+    "self",
+    "learning",
+    "more attention",
+    "tuning",
+    "prompt",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.723/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

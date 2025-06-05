@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwpt-1.12",
+  "title": "A Modest {P}areto Optimisation Analysis of Dependency Parsers in 2021",
+  "authors": [
+    "Anderson, Mark  and\nG{\\'o}mez-Rodr{\\'i}guez, Carlos"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 17th International Conference on Parsing Technologies and the IWPT 2021 Shared Task on Parsing into Enhanced Universal Dependencies (IWPT 2021)",
+  "abstract": "We evaluate three leading dependency parser systems from different paradigms on a small yet diverse subset of languages in terms of their accuracy-efficiency Pareto front. As we are interested in efficiency, we evaluate core parsers without pretrained language models (as these are typically huge networks and would constitute most of the compute time) or other augmentations that can be transversally applied to any of them. Biaffine parsing emerges as a well-balanced default choice, with sequence-labelling parsing being preferable if inference speed (but not training energy cost) is the priority.",
+  "keywords": [
+    "parsing",
+    "language",
+    "pretrained language models",
+    "dependency parsers",
+    "energy",
+    "biaffine parsing",
+    "sequence-labelling parsing",
+    "efficiency",
+    "dependency",
+    "their accuracy-efficiency pareto front",
+    "energy cost",
+    "we",
+    "sequence",
+    "time",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/2021.iwpt-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

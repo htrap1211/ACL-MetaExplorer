@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.502",
+  "title": "Hyperspherical Multi-Prototype with Optimal Transport for Event Argument Extraction",
+  "authors": [
+    "Zhang, Guangjun  and\nZhang, Hu  and\nWang, YuJie  and\nLi, Ru  and\nTan, Hongye  and\nLiang, Jiye"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Event Argument Extraction (EAE) aims to extract arguments for specified events from a text. Previous research has mainly focused on addressing long-distance dependencies of arguments, modeling co-occurrence relationships between roles and events, but overlooking potential inductive biases: (i) semantic differences among arguments of the same type and (ii) large margin separation between arguments of the different types. Inspired by prototype networks, we introduce a new model named HMPEAE, which takes the two inductive biases above as targets to locate prototypes and guide the model to learn argument representations based on these prototypes.Specifically, we set multiple prototypes to represent each role to capture intra-class differences. Simultaneously, we use hypersphere as the output space for prototypes, defining large margin separation between prototypes to encourage the model to learn significant differences between different types of arguments effectively.We solve the “argument-prototype” assignment as an optimal transport problem to optimize the argument representation and minimize the absolute distance between arguments and prototypes to achieve compactness within sub-clusters. Experimental results on the RAMS and WikiEvents datasets show that HMPEAE achieves state-of-the-art performances.",
+  "keywords": [
+    "specified events",
+    "extraction",
+    "semantic",
+    "we",
+    "the two inductive biases",
+    "potential inductive biases",
+    "dependencies",
+    "long-distance dependencies",
+    "i",
+    "text",
+    "-",
+    "semantic differences",
+    "biases",
+    "model",
+    "class"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.502/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

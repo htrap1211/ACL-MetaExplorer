@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.111",
+  "title": "Preview, Attend and Review: Schema-Aware Curriculum Learning for Multi-Domain Dialogue State Tracking",
+  "authors": [
+    "Dai, Yinpei  and\nLi, Hangyu  and\nLi, Yongbin  and\nSun, Jian  and\nHuang, Fei  and\nSi, Luo  and\nZhu, Xiaodan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Existing dialog state tracking (DST) models are trained with dialog data in a random order, neglecting rich structural information in a dataset. In this paper, we propose to use curriculum learning (CL) to better leverage both the curriculum structure and schema structure for task-oriented dialogs. Specifically, we propose a model-agnostic framework called Schema-aware Curriculum Learning for Dialog State Tracking (SaCLog), which consists of a preview module that pre-trains a DST model with schema information, a curriculum module that optimizes the model with CL, and a review module that augments mispredicted data to reinforce the CL training. We show that our proposed approach improves DST performance over both a transformer-based and RNN-based DST model (TripPy and TRADE) and achieves new state-of-the-art results on WOZ2.0 and MultiWOZ2.1.",
+  "keywords": [
+    "preview",
+    "transformer",
+    "multi-domain dialogue state",
+    "random",
+    "cl",
+    "model",
+    "dialog",
+    "task-oriented dialogs",
+    "information",
+    "rich",
+    "we",
+    "dialogue",
+    "rnn",
+    "review",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.111/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:08:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

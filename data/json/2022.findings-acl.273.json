@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.273",
+  "title": "Prompt Tuning for Discriminative Pre-trained Language Models",
+  "authors": [
+    "Yao, Yuan  and\nDong, Bowen  and\nZhang, Ao  and\nZhang, Zhengyan  and\nXie, Ruobing  and\nLiu, Zhiyuan  and\nLin, Leyu  and\nSun, Maosong  and\nWang, Jianyong"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Recent works have shown promising results of prompt tuning in stimulating pre-trained language models (PLMs) for natural language processing (NLP) tasks. However, to the best of our knowledge, existing works focus on prompt-tuning generative PLMs that are pre-trained to generate target tokens, such as BERT. It is still unknown whether and how discriminative PLMs, e.g., ELECTRA, can be effectively prompt-tuned. In this work, we present DPT, the first prompt tuning framework for discriminative PLMs, which reformulates NLP tasks into a discriminative language modeling problem. Comprehensive experiments on text classification and question answering show that, compared with vanilla fine-tuning, DPT achieves significantly higher performance, and also prevents the unstable problem in tuning large PLMs in both full-set and low-resource settings.",
+  "keywords": [
+    "generative",
+    "work",
+    "tuning",
+    "knowledge",
+    "processing",
+    "discriminative pre-trained language models",
+    "question answering show",
+    "prompt",
+    "language",
+    "answering",
+    "nlp",
+    "natural",
+    "bert",
+    "text",
+    "it"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.273/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

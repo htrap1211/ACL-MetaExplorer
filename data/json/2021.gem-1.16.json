@@ -1,0 +1,33 @@
+{
+  "id": "2021.gem-1.16",
+  "title": "Decoding Methods for Neural Narrative Generation",
+  "authors": [
+    "DeLucia, Alexandra  and\nMueller, Aaron  and\nLi, Xiang Lisa  and\nSedoc, Jo{\\~a}o"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Natural Language Generation, Evaluation, and Metrics (GEM 2021)",
+  "abstract": "Narrative generation is an open-ended NLP task in which a model generates a story given a prompt. The task is similar to neural response generation for chatbots; however, innovations in response generation are often not applied to narrative generation, despite the similarity between these tasks. We aim to bridge this gap by applying and evaluating advances in decoding methods for neural response generation to neural narrative generation. In particular, we employ GPT-2 and perform ablations across nucleus sampling thresholds and diverse decoding hyperparameters—specifically, maximum mutual information—analyzing results over multiple criteria with automatic and human evaluation. We find that (1) nucleus sampling is generally best with thresholds between 0.7 and 0.9; (2) a maximum mutual information objective can improve the quality of generated stories; and (3) established automatic metrics do not correlate well with human judgments of narrative quality on any qualitative metric.",
+  "keywords": [
+    "chatbots",
+    "automatic and human evaluation",
+    "prompt",
+    "hyperparameters",
+    "generation",
+    "a prompt",
+    "neural",
+    "nlp",
+    "model",
+    "metric",
+    "human",
+    "objective",
+    "metrics",
+    "narrative generation",
+    "neural response generation"
+  ],
+  "url": "https://aclanthology.org/2021.gem-1.16/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

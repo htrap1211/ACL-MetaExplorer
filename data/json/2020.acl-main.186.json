@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.186",
+  "title": "Recursive Template-based Frame Generation for Task Oriented Dialog",
+  "authors": [
+    "Gangadharaiah, Rashmi  and\nNarayanaswamy, Balakrishnan"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "The Natural Language Understanding (NLU) component in task oriented dialog systems processes a user’s request and converts it into structured information that can be consumed by downstream components such as the Dialog State Tracker (DST). This information is typically represented as a semantic frame that captures the intent and slot-labels provided by the user. We first show that such a shallow representation is insufficient for complex dialog scenarios, because it does not capture the recursive nature inherent in many domains. We propose a recursive, hierarchical frame-based representation and show how to learn it from data. We formulate the frame generation task as a template-based tree decoding task, where the decoder recursively generates a template and then fills slot values into the template. We extend local tree-based loss functions with terms that provide global supervision and show how to optimize them end-to-end. We achieve a small improvement on the widely used ATIS dataset and a much larger improvement on a more complex dataset we describe here.",
+  "keywords": [
+    "end",
+    "the decoder",
+    "a semantic frame",
+    "semantic",
+    "we",
+    "recursive template-based frame generation",
+    "natural",
+    "it",
+    "local tree-based loss functions",
+    "decoder",
+    "loss",
+    "information",
+    "task oriented dialog",
+    "task oriented dialog systems",
+    "the frame generation task"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.186/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:44:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

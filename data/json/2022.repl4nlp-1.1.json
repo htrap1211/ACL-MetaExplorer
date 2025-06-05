@@ -1,0 +1,33 @@
+{
+  "id": "2022.repl4nlp-1.1",
+  "title": "Distributionally Robust Recurrent Decoders with Random Network Distillation",
+  "authors": [
+    "Valerio Miceli Barone, Antonio  and\nBirch, Alexandra  and\nSennrich, Rico"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 7th Workshop on Representation Learning for NLP",
+  "abstract": "Neural machine learning models can successfully model language that is similar to their training distribution, but they are highly susceptible to degradation under distribution shift, which occurs in many practical applications when processing out-of-domain (OOD) text. This has been attributed to “shortcut learning””:\" relying on weak correlations over arbitrary large contexts. We propose a method based on OOD detection with Random Network Distillation to allow an autoregressive language model to automatically disregard OOD context during inference, smoothly transitioning towards a less expressive but more robust model as the data becomes more OOD, while retaining its full context capability when operating in-distribution. We apply our method to a GRU architecture, demonstrating improvements on multiple language modeling (LM) datasets.",
+  "keywords": [
+    "language",
+    "random",
+    "a gru architecture",
+    "neural",
+    "machine",
+    "model",
+    "text",
+    "modeling",
+    "decoders",
+    "network",
+    "learning",
+    "we",
+    "recurrent",
+    "gru",
+    "an autoregressive language model"
+  ],
+  "url": "https://aclanthology.org/2022.repl4nlp-1.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:45:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.755",
+  "title": "Explanation-aware Soft Ensemble Empowers Large Language Model In-context Learning",
+  "authors": [
+    "Yu, Yue  and\nShen, Jiaming  and\nLiu, Tianqi  and\nQin, Zhen  and\nYan, Jing Nathan  and\nLiu, Jialu  and\nZhang, Chao  and\nBendersky, Michael"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large language models (LLMs) have shown remarkable capabilities in various natural language understanding tasks with a few demonstration examples via in-context learning. Common strategies to boost such “in-context” learning ability are to ensemble multiple model decoded results and require the model to generate an explanation along with the prediction. However, these models often treat different class predictions equally and neglect the potential discrepancy between the explanations and predictions. To fully unleash the power of explanations, we propose EASE, anExplanation-Aware Soft Ensembleframework to empower in-context learning with LLMs. We design two techniques, explanation-guided ensemble, and soft probability aggregation, to mitigate the effect of unreliable explanations and improve the consistency between explanations and final predictions. Experiments on seven natural language understanding tasks and four varying-size LLMs demonstrate the effectiveness of our proposed framework.",
+  "keywords": [
+    "ensemble",
+    "language",
+    "natural",
+    "model",
+    "class",
+    "llms",
+    "strategies",
+    "remarkable capabilities",
+    "large language models llms",
+    "ensembleframework",
+    "capabilities",
+    "we",
+    "learning",
+    "common strategies",
+    "ease anexplanation-aware soft ensembleframework"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.755/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:44:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

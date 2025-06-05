@@ -1,0 +1,33 @@
+{
+  "id": "2024.sigturk-1.3",
+  "title": "I}mplica{TR}: A Granular Dataset for Natural Language Inference and Pragmatic Reasoning in {T}urkish",
+  "authors": [
+    "Halat, Mustafa  and\nAtlamaz, {\\\"U}mit"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the First Workshop on Natural Language Processing for Turkic Languages (SIGTURK 2024)",
+  "abstract": "We introduce ImplicaTR, a linguistically informed diagnostic dataset designed to evaluate semantic and pragmatic reasoning capabilities of Natural Language Inference (NLI) models in Turkish. Existing Turkish NLI datasets treat NLI as determining whether a sentence pair representsentailment,contradiction, or aneutralrelation. Such datasets do not distinguish betweensemantic entailmentandpragmatic implicature, which linguists have long recognized as separate inferences types. ImplicaTR addresses this by testing NLI models’ ability to differentiate betweenentailmentandimplicature, thus assessing their pragmatic reasoning skills. The dataset consists of 19,350 semi-automatically generated sentence pairs coveringimplicature, entailment, contradiction,andneutralrelations. We evaluated various models (BERT, Gemma, Llama-2, and Mistral) on ImplicaTR and found out that these models can reach up to 98% accuracy on semantic and pragmatic reasoning. We also fine tuned various models on subsets of ImplicaTR to test the abilities of NLI models to generalize across unseen implicature contexts. Our results indicate that model performance is highly dependent on the diversity of linguistic expressions within each subset, highlighting a weakness in the abstract generalization capabilities of large language models regarding pragmatic reasoning. We share all the code, models, and the dataset.",
+  "keywords": [
+    "code",
+    "up to 98 accuracy",
+    "semantic",
+    "we",
+    "semantic and pragmatic reasoning",
+    "bert gemma",
+    "natural",
+    "betweensemantic entailmentandpragmatic implicature",
+    "abilities",
+    "i",
+    "bert",
+    "generalization",
+    "betweensemantic",
+    "the abstract generalization capabilities",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2024.sigturk-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:10:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

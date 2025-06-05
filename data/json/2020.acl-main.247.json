@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.247",
+  "title": "Span Selection Pre-training for Question Answering",
+  "authors": [
+    "Glass, Michael  and\nGliozzo, Alfio  and\nChakravarti, Rishav  and\nFerritto, Anthony  and\nPan, Lin  and\nBhargav, G P Shrivatsa  and\nGarg, Dinesh  and\nSil, Avi"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "BERT (Bidirectional Encoder Representations from Transformers) and related pre-trained Transformers have provided large gains across many language understanding tasks, achieving a new state-of-the-art (SOTA). BERT is pretrained on two auxiliary tasks: Masked Language Model and Next Sentence Prediction. In this paper we introduce a new pre-training task inspired by reading comprehension to better align the pre-training from memorization to understanding. Span Selection PreTraining (SSPT) poses cloze-like training instances, but rather than draw the answer from the model’s parameters, it is selected from a relevant passage. We find significant and consistent improvements over both BERT-BASE and BERT-LARGE on multiple Machine Reading Comprehension (MRC) datasets. Specifically, our proposed model has strong empirical evidence as it obtains SOTA results on Natural Questions, a new benchmark MRC dataset, outperforming BERT-LARGE by 3 F1 points on short answer prediction. We also show significant impact in HotpotQA, improving answer prediction F1 by 4 points and supporting fact prediction F1 by 1 point and outperforming the previous best system. Moreover, we show that our pre-training approach is particularly effective when training data is limited, improving the learning curve by a large amount.",
+  "keywords": [
+    "transformers",
+    "question",
+    "fact prediction f1",
+    "we",
+    "answer prediction f1",
+    "training",
+    "answer",
+    "natural",
+    "it",
+    "hotpotqa",
+    "our pre-training approach",
+    "bert bidirectional encoder representations",
+    "related pre-trained transformers",
+    "bert",
+    "language model"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.247/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:45:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.iwslt-1.3",
+  "title": "Start-Before-End and End-to-End: Neural Speech Translation by {A}pp{T}ek and {RWTH} {A}achen {U}niversity",
+  "authors": [
+    "Bahar, Parnia  and\nWilken, Patrick  and\nAlkhouli, Tamer  and\nGuta, Andreas  and\nGolik, Pavel  and\nMatusov, Evgeny  and\nHerold, Christian"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 17th International Conference on Spoken Language Translation",
+  "abstract": "AppTek and RWTH Aachen University team together to participate in the offline and simultaneous speech translation tracks of IWSLT 2020. For the offline task, we create both cascaded and end-to-end speech translation systems, paying attention to careful data selection and weighting. In the cascaded approach, we combine high-quality hybrid automatic speech recognition (ASR) with the Transformer-based neural machine translation (NMT). Our end-to-end direct speech translation systems benefit from pretraining of adapted encoder and decoder components, as well as synthetic data and fine-tuning and thus are able to compete with cascaded systems in terms of MT quality. For simultaneous translation, we utilize a novel architecture that makes dynamic decisions, learned from parallel data, to determine when to continue feeding on input or generate output words. Experiments with speech and text input show that even at low latency this architecture leads to superior translation results.",
+  "keywords": [
+    "transformer",
+    "tuning",
+    "end",
+    "neural",
+    "machine",
+    "text",
+    "superior translation results",
+    "simultaneous translation",
+    "encoder",
+    "decoder",
+    "u",
+    "attention",
+    "we",
+    "translation",
+    "fine-tuning"
+  ],
+  "url": "https://aclanthology.org/2020.iwslt-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:56:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

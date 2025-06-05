@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.390",
+  "title": "Self-adaptive Context and Modal-interaction Modeling For Multimodal Emotion Recognition",
+  "authors": [
+    "Yang, Haozhe  and\nGao, Xianqiang  and\nWu, Jianlong  and\nGan, Tian  and\nDing, Ning  and\nJiang, Feijun  and\nNie, Liqiang"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "The multimodal emotion recognition in conversation task aims to predict the emotion label for a given utterance with its context and multiple modalities. Existing approaches achieve good results but also suffer from the following two limitations: 1) lacking modeling of diverse dependency ranges, i.e., long, short, and independent context-specific representations and without consideration of the different recognition difficulty for each utterance; 2) consistent treatment of the contribution for various modalities. To address the above challenges, we propose the Self-adaptive Context and Modal-interaction Modeling (SCMM) framework. We first design the context representation module, which consists of three submodules to model multiple contextual representations. Thereafter, we propose the modal-interaction module, including three interaction submodules to make full use of each modality. Finally, we come up with a self-adaptive path selection module to select an appropriate path in each module and integrate the features to obtain the final representation. Extensive experiments under four settings on three multimodal datasets, including IEMOCAP, MELD, and MOSEI, demonstrate that our proposed method outperforms the state-of-the-art approaches.",
+  "keywords": [
+    "we",
+    "diverse dependency",
+    "self",
+    "iemocap meld",
+    "various modalities",
+    "conversation task",
+    "i",
+    "multiple modalities",
+    "modalities",
+    "modeling",
+    "dependency",
+    "conversation",
+    "iemocap",
+    "the self-adaptive context",
+    "modal-interaction modeling scmm framework"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.390/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.ngt-1.21",
+  "title": "Generating Diverse Translations via Weighted Fine-tuning and Hypotheses Filtering for the {D}uolingo {STAPLE} Task",
+  "authors": [
+    "Agrawal, Sweta  and\nCarpuat, Marine"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the Fourth Workshop on Neural Generation and Translation",
+  "abstract": "This paper describes the University of Maryland’s submission to the Duolingo Shared Task on Simultaneous Translation And Paraphrase for Language Education (STAPLE). Unlike the standard machine translation task, STAPLE requires generating a set of outputs for a given input sequence, aiming to cover the space of translations produced by language learners. We adapt neural machine translation models to this requirement by (a) generating n-best translation hypotheses from a model fine-tuned on learner translations, oversampled to reflect the distribution of learner responses, and (b) filtering hypotheses using a feature-rich binary classifier that directly optimizes a close approximation of the official evaluation metric. Combination of systems that use these two strategies achieves F1 scores of 53.9% and 52.5% on Vietnamese and Portuguese, respectively ranking 2nd and 4th on the leaderboard.",
+  "keywords": [
+    "diverse translations",
+    "classifier",
+    "these two strategies",
+    "f1 scores",
+    "we",
+    "learner translations",
+    "language learners",
+    "translation",
+    "fine-tuning",
+    "neural",
+    "vietnamese",
+    "rich",
+    "sequence",
+    "learner responses",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2020.ngt-1.21/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:57:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

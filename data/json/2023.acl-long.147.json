@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.147",
+  "title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models",
+  "authors": [
+    "Wang, Lei  and\nXu, Wanyu  and\nLan, Yihuai  and\nHu, Zhiqiang  and\nLan, Yunshi  and\nLee, Roy Ka-Wei  and\nLim, Ee-Peng"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large language models (LLMs) have recently been shown to deliver impressive performance in various NLP tasks. To tackle multi-step reasoning tasks, Few-shot chain-of-thought (CoT) prompting includes a few manually crafted step-by-step reasoning demonstrations which enable LLMs to explicitly generate reasoning steps and improve their reasoning task accuracy. To eliminate the manual efforts, Zero-shot-CoT concatenates the target problem statement with “Let’s think step by step” as an input prompt to LLMs. Despite the success of Zero-shot-CoT, it still suffers from three pitfalls: calculation errors, missing-step errors, and semantic misunderstanding errors. To address the missing-step errors, we propose Plan-and-Solve (PS) Prompting. It consists of two components: first, devising a plan to divide the entire task into smaller subtasks, and then carrying out the subtasks according to the plan. To address the calculation errors and improve the quality of generated reasoning steps, we extend PS prompting with more detailed instructions and derive PS+ prompting. We evaluate our proposed prompting strategy on ten datasets across three reasoning problems. The experimental results over GPT-3 show that our proposed zero-shot prompting consistently outperforms Zero-shot-CoT across all datasets by a large margin, is comparable to or exceeds Zero-shot-Program-of-Thought Prompting, and has comparable performance with 8-shot CoT prompting on the math reasoning problem. The code can be found athttps://github.com/AGI-Edgerunners/Plan-and-Solve-Prompting.",
+  "keywords": [
+    "code",
+    "chain",
+    "semantic",
+    "semantic misunderstanding errors",
+    "we",
+    "our proposed zero-shot",
+    "8-shot cot",
+    "shot",
+    "cot",
+    "our proposed prompting strategy",
+    "it",
+    "an input prompt",
+    "gpt-3",
+    "zero-shot-cot",
+    "their reasoning task accuracy"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.147/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

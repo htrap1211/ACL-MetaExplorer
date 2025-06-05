@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.156",
+  "title": "Detection, Disambiguation, Re-ranking: Autoregressive Entity Linking as a Multi-Task Problem",
+  "authors": [
+    "Mrini, Khalil  and\nNie, Shaoliang  and\nGu, Jiatao  and\nWang, Sinong  and\nSanjabi, Maziar  and\nFirooz, Hamed"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "We propose an autoregressive entity linking model, that is trained with two auxiliary tasks, and learns to re-rank generated samples at inference time. Our proposed novelties address two weaknesses in the literature. First, a recent method proposes to learn mention detection and then entity candidate selection, but relies on predefined sets of candidates. We use encoder-decoder autoregressive entity linking in order to bypass this need, and propose to train mention detection as an auxiliary task instead. Second, previous work suggests that re-ranking could help correct prediction errors. We add a new, auxiliary task, match prediction, to learn re-ranking. Without the use of a knowledge base or candidate sets, our model sets a new state of the art in two benchmark datasets of entity linking: COMETA in the biomedical domain, and AIDA-CoNLL in the news domain. We show through ablation studies that each of the two auxiliary tasks increases performance, and that re-ranking is an important factor to the increase. Finally, our low-resource experimental results suggest that performance on the main task benefits from the knowledge learned by the auxiliary tasks, and not just from the additional training data.",
+  "keywords": [
+    "ablation studies",
+    "we",
+    "training",
+    "decoder",
+    "encoder-decoder autoregressive entity",
+    "-rank generated samples",
+    "re",
+    "work",
+    "knowledge",
+    "our proposed novelties",
+    "model",
+    "studies",
+    "encoder",
+    "novelties",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.156/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

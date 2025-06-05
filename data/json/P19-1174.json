@@ -1,0 +1,33 @@
+{
+  "id": "P19-1174",
+  "title": "Neural Machine Translation with Reordering Embeddings",
+  "authors": [
+    "Chen, Kehai  and\nWang, Rui  and\nUtiyama, Masao  and\nSumita, Eiichiro"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "The reordering model plays an important role in phrase-based statistical machine translation. However, there are few works that exploit the reordering information in neural machine translation. In this paper, we propose a reordering mechanism to learn the reordering embedding of a word based on its contextual information. These learned reordering embeddings are stacked together with self-attention networks to learn sentence representation for machine translation. The reordering mechanism can be easily integrated into both the encoder and the decoder in the Transformer translation system. Experimental results on WMT’14 English-to-German, NIST Chinese-to-English, and WAT Japanese-to-English translation tasks demonstrate that the proposed methods can significantly improve the performance of the Transformer.",
+  "keywords": [
+    "embeddings",
+    "transformer",
+    "these learned reordering embeddings",
+    "neural",
+    "the decoder",
+    "model",
+    "machine",
+    "phrase-based statistical machine translation",
+    "neural machine translation",
+    "self",
+    "both the encoder",
+    "encoder",
+    "decoder",
+    "machine translation",
+    "information"
+  ],
+  "url": "https://aclanthology.org/P19-1174/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:34:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

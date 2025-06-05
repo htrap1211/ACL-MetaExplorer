@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.79",
+  "title": "RG} {PA} at {S}em{E}val-2021 Task 1: A Contextual Attention-based Model with {R}o{BERT}a for Lexical Complexity Prediction",
+  "authors": [
+    "Rao, Gang  and\nLi, Maochang  and\nHou, Xiaolong  and\nJiang, Lianxin  and\nMo, Yang  and\nShen, Jianping"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "In this paper we propose a contextual attention based model with two-stage fine-tune training using RoBERTa. First, we perform the first-stage fine-tune on corpus with RoBERTa, so that the model can learn some prior domain knowledge. Then we get the contextual embedding of context words based on the token-level embedding with the fine-tuned model. And we use Kfold cross-validation to get K models and ensemble them to get the final result. Finally, we attain the 2nd place in the final evaluation phase of sub-task 2 with pearson correlation of 0.8575.",
+  "keywords": [
+    "cross",
+    "roberta",
+    "knowledge",
+    "validation",
+    "r o bert",
+    "bert",
+    "model",
+    "a contextual attention-based model",
+    "the contextual embedding",
+    "token",
+    "-",
+    "fine",
+    "the final evaluation phase",
+    "attention",
+    "embedding"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.79/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:20:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

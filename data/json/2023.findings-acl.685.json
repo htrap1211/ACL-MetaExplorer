@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.685",
+  "title": "C}a{PE}: Contrastive Parameter Ensembling for Reducing Hallucination in Abstractive Summarization",
+  "authors": [
+    "Choubey, Prafulla Kumar  and\nFabbri, Alex  and\nVig, Jesse  and\nWu, Chien-Sheng  and\nLiu, Wenhao  and\nRajani, Nazneen"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Hallucination is a known issue for neural abstractive summarization models. Recent work suggests that the degree of hallucination may depend on factual errors in the training data. In this work, we propose a new method called Contrastive Parameter Ensembling (CaPE) to use training data more effectively, utilizing variations in noise in training samples to reduce hallucination. Starting with a base model fine-tuned on an entire dataset, we additionally train expert and anti-expert models on clean and noisy subsets of the data, respectively. We then adjust the parameters of the base model by adding (subtracting) the parameters of the expert (anti-expert), advancing the recent work on additive parameter ensembling approaches. Trained on a much smaller data subset, expert and anti-expert models only fractionally (<14%) increases the total training time. Further, CaPE uses parameter ensembling and does not increase the inference time. Experimental results show that CaPE improves performance across different automatic factual metrics and human evaluation, with a maximum improvement of 16.69% and 15.38% on summary-level dependency-arc entailment accuracy for the XSUM and CNN/DM datasets. The CaPE model performs comparably to the base model on metrics of informativeness such as ROUGE.",
+  "keywords": [
+    "different automatic factual metrics",
+    "summarization",
+    "we",
+    "parameter",
+    "training",
+    "human evaluation",
+    "neural",
+    "cnn",
+    "summary-level dependency-arc entailment accuracy",
+    "neural abstractive summarization models",
+    "metrics",
+    "-",
+    "rouge",
+    "anti",
+    "abstractive summarization hallucination"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.685/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

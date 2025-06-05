@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.103",
+  "title": "An Isotropy Analysis in the Multilingual {BERT} Embedding Space",
+  "authors": [
+    "Rajaee, Sara  and\nPilehvar, Mohammad Taher"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Several studies have explored various advantages of multilingual pre-trained models (such as multilingual BERT) in capturing shared linguistic knowledge. However, less attention has been paid to their limitations. In this paper, we investigate the multilingual BERT for two known issues of the monolingual models: anisotropic embedding space and outlier dimensions. We show that, unlike its monolingual counterpart, the multilingual BERT model exhibits no outlier dimension in its representations while it has a highly anisotropic space. There are a few dimensions in the monolingual BERT with high contributions to the anisotropic distribution. However, we observe no such dimensions in the multilingual BERT. Furthermore, our experimental results demonstrate that increasing the isotropy of multilingual space can significantly improve its representation power and performance, similarly to what had been observed for monolingual CWRs on semantic similarity tasks. Our analysis indicates that, despite having different degenerated directions, the embedding spaces in various languages tend to be partially similar with respect to their structures.",
+  "keywords": [
+    "the multilingual bert model",
+    "semantic similarity tasks",
+    "semantic",
+    "we",
+    "the monolingual bert",
+    "it",
+    "outlier",
+    "outlier dimensions",
+    "several studies",
+    "analysis",
+    "multilingual bert",
+    "bert",
+    "the multilingual bert",
+    "the embedding spaces",
+    "embedding space"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.103/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

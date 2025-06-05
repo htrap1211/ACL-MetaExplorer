@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.59",
+  "title": "LM}-{CPPF}: Paraphrasing-Guided Data Augmentation for Contrastive Prompt-Based Few-Shot Fine-Tuning",
+  "authors": [
+    "Abaskohi, Amirhossein  and\nRothe, Sascha  and\nYaghoobzadeh, Yadollah"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "In recent years, there has been significant progress in developing pre-trained language models for NLP. However, these models often struggle when fine-tuned on small datasets. To address this issue, researchers have proposed various adaptation approaches. Prompt-based tuning is arguably the most common way, especially for larger models. Previous research shows that adding contrastive learning to prompt-based fine-tuning is effective as it helps the model generate embeddings that are more distinguishable between classes, and it can also be more sample-efficient as the model learns from positive and negative examples simultaneously. One of the most important components of contrastive learning is data augmentation, but unlike computer vision, effective data augmentation for NLP is still challenging. This paper proposes LM-CPPF, Contrastive Paraphrasing-guided Prompt-based Fine-tuning of Language Models, which leverages prompt-based few-shot paraphrasing using generative language models, especially large language models such as GPT-3 and OPT-175B, for data augmentation. Our experiments on multiple text classification benchmarks show that this augmentation method outperforms other methods, such as easy data augmentation, back translation, and multiple templates.",
+  "keywords": [
+    "especially large language models",
+    "efficient",
+    "multiple text classification benchmarks",
+    "prompt-based few-shot paraphrasing",
+    "shot",
+    "translation",
+    "classification",
+    "pre-trained language models",
+    "it",
+    "prompt-based fine-tuning",
+    "gpt-3",
+    "generative language models",
+    "learning",
+    "generative",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.59/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:49:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

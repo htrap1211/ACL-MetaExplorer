@@ -1,0 +1,33 @@
+{
+  "id": "W19-4205",
+  "title": "M}orpheus: A Neural Network for Jointly Learning Contextual Lemmatization and Morphological Tagging",
+  "authors": [
+    "Yildiz, Eray  and\nTantu{\\u{g}}, A. C{\\\"u}neyd"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 16th Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "In this study, we present Morpheus, a joint contextual lemmatizer and morphological tagger. Morpheus is based on a neural sequential architecture where inputs are the characters of the surface words in a sentence and the outputs are the minimum edit operations between surface words and their lemmata as well as the morphological tags assigned to the words. The experiments on the datasets in nearly 100 languages provided by SigMorphon 2019 Shared Task 2 organizers show that the performance of Morpheus is comparable to the state-of-the-art system in terms of lemmatization. In morphological tagging, on the other hand, Morpheus significantly outperforms the SigMorphon baseline. In our experiments, we also show that the neural encoder-decoder architecture trained to predict the minimum edit operations can produce considerably better results than the architecture trained to predict the characters in lemmata directly as in previous studies. According to the SigMorphon 2019 Shared Task 2 results, Morpheus has placed 3rd in lemmatization and reached the 9th place in morphological tagging among all participant teams.",
+  "keywords": [
+    "we",
+    "neural",
+    "decoder",
+    "previous studies",
+    "a neural network",
+    "studies",
+    "encoder",
+    "tagging",
+    "network",
+    "characters",
+    "state",
+    "lemmatizer",
+    "the characters",
+    "previous",
+    "edit"
+  ],
+  "url": "https://aclanthology.org/W19-4205/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:27:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

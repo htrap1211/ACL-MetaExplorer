@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.352",
+  "title": "Parallel Context Windows for Large Language Models",
+  "authors": [
+    "Ratner, Nir  and\nLevine, Yoav  and\nBelinkov, Yonatan  and\nRam, Ori  and\nMagar, Inbal  and\nAbend, Omri  and\nKarpas, Ehud  and\nShashua, Amnon  and\nLeyton-Brown, Kevin  and\nShoham, Yoav"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "When applied to processing long text, Large Language Models (LLMs) are limited by their context window. Existing efforts to address this limitation involve training specialized architectures, and cannot be easily applied to off- the-shelf LLMs. We present Parallel Context Windows (PCW), a method that alleviates the context window restriction for any off-the-shelf LLM without further training. The key to the approach is to carve a long context into chunks (“windows”), restrict the attention mechanism to apply only within each window, and re-use the positional embeddings across the windows. Our main results test the PCW approach on in-context learning with models that range in size between 750 million and 178 billion parameters, and show substantial improvements for tasks with diverse input and output spaces. We show additional benefits in other settings where long context windows may be beneficial: multi-hop questions and retrieval-augmented question answering with multiple retrieved documents. Our results highlight Parallel Context Windows as a promising method for applying off-the-shelf LLMs in a range of settings that require long text sequences. We make our code publicly available athttps://github.com/ai21labs/parallel-context-windows.",
+  "keywords": [
+    "code",
+    "the-shelf llms",
+    "question",
+    "we",
+    "llm",
+    "multiple retrieved documents",
+    "the positional embeddings",
+    "retrieval",
+    "llms",
+    "text",
+    "large language models llms",
+    "embeddings",
+    "language",
+    "large language models",
+    "attention"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.352/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:40:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.cmcl-1.2",
+  "title": "Evaluating Vision-Language Models on Bistable Images",
+  "authors": [
+    "Panagopoulou, Artemis  and\nMelkin, Coby  and\nCallison-Burch, Chris"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics",
+  "abstract": "Bistable images, also known as ambiguous or reversible images, present visual stimuli that can be seen in two distinct interpretations, though not simultaneously, by the observer. In this study, we conduct the most extensive examination of vision-language models using bistable images to date. We manually gathered a dataset of 29 bistable images, along with their associated labels, and subjected them to 121 different manipulations in brightness, resolution, tint, and rotation. We evaluated twelve different models in both classification and generative tasks across six model architectures. Our findings reveal that, with the exception of models from the Idefics family and LLaVA1.5-13b, there is a pronounced preference for one interpretation over another among the models, and minimal variance under image manipulations, with few exceptions on image rotations. Additionally, we compared the models’ preferences with humans, noting that the models do not exhibit the same continuity biases as humans and often diverge from human initial interpretations. We also investigated the influence of variations in prompts and the use of synonymous labels, discovering that these factors significantly affect model interpretations more than image manipulations showing a higher influence of the language priors on bistable image interpretations compared to image-text training data. All code and data is open sourced.",
+  "keywords": [
+    "code",
+    "generative tasks",
+    "we",
+    "both classification",
+    "the same continuity biases",
+    "variance",
+    "training",
+    "classification",
+    "minimal variance",
+    "visual",
+    "generative",
+    "text",
+    "biases",
+    "prompts",
+    "vision-language models"
+  ],
+  "url": "https://aclanthology.org/2024.cmcl-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:05:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

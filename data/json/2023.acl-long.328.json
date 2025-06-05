@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.328",
+  "title": "Learning ``{O}'' Helps for Learning More: Handling the Unlabeled Entity Problem for Class-incremental {NER",
+  "authors": [
+    "Ma, Ruotian  and\nChen, Xuanting  and\nLin, Zhang  and\nZhou, Xin  and\nWang, Junzhe  and\nGui, Tao  and\nZhang, Qi  and\nGao, Xiang  and\nChen, Yun Wen"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "As the categories of named entities rapidly increase, the deployed NER models are required to keep updating toward recognizing more entity types, creating a demand for class-incremental learning for NER. Considering the privacy concerns and storage constraints, the standard paradigm for class-incremental NER updates the models with training data only annotated with the new classes, yet the entities from other entity classes are regarded as “Non-entity” (or “O”). In this work, we conduct an empirical study on the “Unlabeled Entity Problem” and find that it leads to severe confusion between “O” and entities, decreasing class discrimination of old classes and declining the model’s ability to learn new classes. To solve the Unlabeled Entity Problem, we propose a novel representation learning method to learn discriminative representations for the entity classes and “O”. Specifically, we propose an entity-aware contrastive learning method that adaptively detects entity clusters in “O”. Furthermore, we propose two effective distance-based relabeling strategies for better learning the old classes. We introduce a more realistic and challenging benchmark for class-incremental NER, and the proposed method achieves up to 10.62% improvement over the baseline methods.",
+  "keywords": [
+    "the categories",
+    "we",
+    "confusion",
+    "training",
+    "the entities",
+    "it",
+    "learning",
+    "the deployed ner models",
+    "ner",
+    "categories",
+    "strategies",
+    "o",
+    "named entities",
+    "work",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.328/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

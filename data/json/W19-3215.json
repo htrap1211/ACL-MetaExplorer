@@ -1,0 +1,33 @@
+{
+  "id": "W19-3215",
+  "title": "Deep Learning for Identification of Adverse Effect Mentions In {T}witter Data",
+  "authors": [
+    "Barry, Paul  and\nUzuner, Ozlem"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Social Media Mining for Health Applications ({\\#}SMM4H) Workshop {\\&} Shared Task",
+  "abstract": "Social Media Mining for Health Applications (SMM4H) Adverse Effect Mentions Shared Task challenges participants to accurately identify spans of text within a tweet that correspond to Adverse Effects (AEs) resulting from medication usage (Weissenbacher et al., 2019). This task features a training data set of 2,367 tweets, in addition to a 1,000 tweet evaluation data set. The solution presented here features a bidirectional Long Short-term Memory Network (bi-LSTM) for the generation of character-level embeddings. It uses a second bi-LSTM trained on both character and token level embeddings to feed a Conditional Random Field (CRF) which provides the final classification. This paper further discusses the deep learning algorithms used in our solution.",
+  "keywords": [
+    "deep",
+    "embeddings",
+    "generation",
+    "random",
+    "text",
+    "it",
+    "deep learning",
+    "token",
+    "-",
+    "the generation",
+    "the deep learning algorithms",
+    "field",
+    "character-level embeddings",
+    "network",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/W19-3215/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:26:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

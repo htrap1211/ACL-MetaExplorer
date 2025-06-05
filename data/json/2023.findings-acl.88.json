@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.88",
+  "title": "Enhancing Cross-lingual Natural Language Inference by Soft Prompting with Multilingual Verbalizer",
+  "authors": [
+    "Li, Shuang  and\nHu, Xuming  and\nLiu, Aiwei  and\nYang, Yawen  and\nMa, Fukun  and\nYu, Philip S.  and\nWen, Lijie"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Cross-lingual natural language inference is a fundamental problem in cross-lingual language understanding. Many recent works have used prompt learning to address the lack of annotated parallel corpora in XNLI.However, these methods adopt discrete prompting by simply translating the templates to the target language and need external expert knowledge to design the templates. Besides, discrete prompts of human-designed template words are not trainable vectors and can not be migrated to target languages in the inference stage flexibly. In this paper, we propose a novel Soft prompt learning framework with the Multilingual Verbalizer (SoftMV) for XNLI. SoftMV first constructs cloze-style question with soft prompts for the input sample. Then we leverage bilingual dictionaries to generate an augmented multilingual question for the original question. SoftMV adopts a multilingual verbalizer to align the representations of original and augmented multilingual questions into a unified semantic space with consistency regularization. Experimental results on XNLI demonstrate that SoftMV can achieve state-of-the-art performance and significantly outperform the previous methods under the few-shot and full-shot cross-lingual transfer settings.",
+  "keywords": [
+    "trainable vectors",
+    "question",
+    "semantic",
+    "we",
+    "shot",
+    "cross",
+    "prompt learning",
+    "natural",
+    "unified",
+    "learning",
+    "transfer",
+    "a unified semantic space",
+    "prompt",
+    "discrete prompts",
+    "soft prompts"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.88/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

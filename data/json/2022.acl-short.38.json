@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.38",
+  "title": "PARE}: A Simple and Strong Baseline for Monolingual and Multilingual Distantly Supervised Relation Extraction",
+  "authors": [
+    "Rathore, Vipul  and\nBadola, Kartikeya  and\nSingla, Parag  and\nMausam"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Neural models for distantly supervised relation extraction (DS-RE) encode each sentence in an entity-pair bag separately. These are then aggregated for bag-level relation prediction. Since, at encoding time, these approaches do not allow information to flow from other sentences in the bag, we believe that they do not utilize the available bag data to the fullest. In response, we explore a simple baseline approach (PARE) in which all sentences of a bag are concatenated into a passage of sentences, and encoded jointly using BERT. The contextual embeddings of tokens are aggregated using attention with the candidate relation as query – this summary of whole passage predicts the candidate relation. We find that our simple baseline solution outperforms existing state-of-the-art DS-RE models in both monolingual and multilingual DS-RE datasets.",
+  "keywords": [
+    "embeddings",
+    "bag",
+    "neural",
+    "extraction",
+    "bert",
+    "encode",
+    "information",
+    "attention",
+    "we",
+    "the contextual embeddings",
+    "time",
+    "entity",
+    "approach",
+    "state",
+    "these"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.38/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:32:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

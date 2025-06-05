@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.139",
+  "title": "Distributionally Robust Finetuning {BERT} for Covariate Drift in Spoken Language Understanding",
+  "authors": [
+    "Broscheit, Samuel  and\nDo, Quynh  and\nGaspers, Judith"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this study, we investigate robustness against covariate drift in spoken language understanding (SLU). Covariate drift can occur in SLUwhen there is a drift between training and testing regarding what users request or how they request it. To study this we propose a method that exploits natural variations in data to create a covariate drift in SLU datasets. Experiments show that a state-of-the-art BERT-based model suffers performance loss under this drift. To mitigate the performance loss, we investigate distributionally robust optimization (DRO) for finetuning BERT-based models. We discuss some recent DRO methods, propose two new variants and empirically show that DRO improves robustness under drift.",
+  "keywords": [
+    "dro",
+    "language",
+    "natural",
+    "bert",
+    "model",
+    "it",
+    "loss",
+    "optimization",
+    "bert-based models",
+    "we",
+    "distributionally robust optimization dro",
+    "training",
+    "that",
+    "performance loss",
+    "users"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.139/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

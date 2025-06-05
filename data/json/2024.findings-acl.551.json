@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.551",
+  "title": "Evidence Retrieval is almost All You Need for Fact Verification",
+  "authors": [
+    "Zheng, Liwen  and\nLi, Chaozhuo  and\nZhang, Xi  and\nShang, Yu-Ming  and\nHuang, Feiran  and\nJia, Haoran"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Current fact verification methods generally follow the two-stage training paradigm: evidence retrieval and claim verification. While existing works focus on developing sophisticated claim verification modules, the fundamental importance of evidence retrieval is largely ignored. Existing approaches usually adopt the heuristic semantic similarity-based retrieval strategy, resulting in the task-irrelevant evidence and undesirable performance. In this paper, we concentrate on evidence retrieval and propose a Retrieval-Augmented Verification framework RAV, consisting of two major modules: the hybrid evidence retrieval and the joint fact verification. Hybrid evidence retrieval module incorporates an efficient retriever for preliminary pruning of candidate evidence, succeeded by a ranker that generates more precise sorting results. Under this end-to-end training paradigm, gradients from the claim verification can be back-propagated to enhance evidence selection. Experimental results on FEVER dataset demonstrate the superiority of RAV.",
+  "keywords": [
+    "end",
+    "evidence retrieval",
+    "the hybrid evidence retrieval",
+    "gradients",
+    "efficient",
+    "retrieval",
+    "semantic",
+    "we",
+    "an efficient retriever",
+    "current",
+    "retriever",
+    "training",
+    "that",
+    "fever",
+    "sophisticated claim verification"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.551/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:56:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

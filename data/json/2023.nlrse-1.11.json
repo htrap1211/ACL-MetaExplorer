@@ -1,0 +1,33 @@
+{
+  "id": "2023.nlrse-1.11",
+  "title": "Deductive Additivity for Planning of Natural Language Proofs",
+  "authors": [
+    "Sprague, Zayne  and\nBostrom, Kaj  and\nChaudhuri, Swarat  and\nDurrett, Greg"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 1st Workshop on Natural Language Reasoning and Structured Explanations (NLRSE)",
+  "abstract": "Current natural language systems designed for multi-step claim validation typically operate in two phases: retrieve a set of relevant premise statements using heuristics (planning), then generate novel conclusions from those statements using a large language model (deduction). The planning step often requires expensive Transformer operations and does not scale to arbitrary numbers of premise statements. In this paper, we investigate whether efficient planning heuristic is possible via embedding spaces compatible with deductive reasoning. Specifically, we evaluate whether embedding spaces exhibit a property we call deductive additivity: the sum of premise statement embeddings should be close to embeddings of conclusions based on those premises. We explore multiple sources of off-the-shelf dense embeddings in addition to fine-tuned embeddings from GPT3 and sparse embeddings from BM25. We study embedding models both intrinsically, evaluating whether the property of deductive additivity holds, and extrinsically, using them to assist planning in natural language proof generation. Lastly, we create a dataset, Single-Step Reasoning Contrast (SSRC), to further probe performance on various reasoning types. Our findings suggest that while standard embedding methods frequently embed conclusions near the sums of their premises, they fall short of being effective heuristics and lack the ability to model certain categories of reasoning.",
+  "keywords": [
+    "validation",
+    "expensive transformer operations",
+    "natural language proof generation",
+    "efficient",
+    "we",
+    "premise statement embeddings",
+    "efficient planning heuristic",
+    "current",
+    "gpt3",
+    "natural",
+    "fine-tuned embeddings",
+    "standard embedding methods",
+    "categories",
+    "sum",
+    "sparse embeddings"
+  ],
+  "url": "https://aclanthology.org/2023.nlrse-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

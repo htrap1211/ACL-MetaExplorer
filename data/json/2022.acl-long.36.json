@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.36",
+  "title": "Multilingual Knowledge Graph Completion with Self-Supervised Adaptive Graph Alignment",
+  "authors": [
+    "Huang, Zijie  and\nLi, Zheng  and\nJiang, Haoming  and\nCao, Tianyu  and\nLu, Hanqing  and\nYin, Bing  and\nSubbian, Karthik  and\nSun, Yizhou  and\nWang, Wei"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Predicting missing facts in a knowledge graph (KG) is crucial as modern KGs are far from complete. Due to labor-intensive human labeling, this phenomenon deteriorates when handling knowledge represented in various languages. In this paper, we explore multilingual KG completion, which leverages limited seed alignment as a bridge, to embrace the collective knowledge from multiple languages. However, language alignment used in prior works is still not fully exploited: (1) alignment pairs are treated equally to maximally push parallel entities to be close, which ignores KG capacity inconsistency; (2) seed alignment is scarce and new alignment identification is usually in a noisily unsupervised manner. To tackle these issues, we propose a novel self-supervised adaptive graph alignment (SS-AGA) method. Specifically, SS-AGA fuses all KGs as a whole graph by regarding alignment as a new edge type. As such, information propagation and noise influence across KGs can be adaptively controlled via relation-aware attention weights. Meanwhile, SS-AGA features a new pair generator that dynamically captures potential alignment pairs in a self-supervised paradigm. Extensive experiments on both the public multilingual DBPedia KG and newly-created industrial multilingual E-commerce KG empirically demonstrate the effectiveness of SS-AGA",
+  "keywords": [
+    "all kgs",
+    "limited seed alignment",
+    "we",
+    "graph",
+    "a noisily unsupervised manner",
+    "modern kgs",
+    "1 alignment pairs",
+    "new alignment identification",
+    "edge",
+    "self",
+    "information",
+    "parallel entities",
+    "kgs",
+    "self-supervised adaptive graph alignment",
+    "aga"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.36/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:24:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.273",
+  "title": "Complementary Explanations for Effective In-Context Learning",
+  "authors": [
+    "Ye, Xi  and\nIyer, Srinivasan  and\nCelikyilmaz, Asli  and\nStoyanov, Veselin  and\nDurrett, Greg  and\nPasunuru, Ramakanth"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Large language models (LLMs) have exhibited remarkable capabilities in learning from expla- nations in prompts, but there has been limited understanding of exactly how these explana- tions function or why they are effective. This work aims to better understand the mechanisms by which explanations are used for in-context learning. We first study the impact of two dif- ferent factors on the performance of prompts with explanations: the computation trace (the way the solution is decomposed) and the natural language used to express the prompt. By per- turbing explanations on three controlled tasks, we show that both factors contribute to the ef- fectiveness of explanations. We further study how to form maximally effective sets of expla- nations for solving a given test query. We find that LLMs can benefit from the complemen- tarity of the explanation set: diverse reasoning skills shown by different exemplars can lead to better performance. Therefore, we propose a maximal marginal relevance-based exemplar selection approach for constructing exemplar sets that are both relevant as well as comple- mentary, which successfully improves the in- context learning performance across three real- world tasks on multiple LLMs.",
+  "keywords": [
+    "remarkable capabilities",
+    "we",
+    "natural",
+    "multiple llms",
+    "learning",
+    "llms",
+    "prompt",
+    "large language models llms",
+    "work",
+    "prompts",
+    "language",
+    "the prompt",
+    "capabilities",
+    "approach",
+    "test"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.273/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

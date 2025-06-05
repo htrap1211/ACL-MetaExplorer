@@ -1,0 +1,33 @@
+{
+  "id": "2021.repl4nlp-1.17",
+  "title": "In-Batch Negatives for Knowledge Distillation with Tightly-Coupled Teachers for Dense Retrieval",
+  "authors": [
+    "Lin, Sheng-Chieh  and\nYang, Jheng-Hong  and\nLin, Jimmy"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 6th Workshop on Representation Learning for NLP (RepL4NLP-2021)",
+  "abstract": "We present an efficient training approach to text retrieval with dense representations that applies knowledge distillation using the ColBERT late-interaction ranking model. Specifically, we propose to transfer the knowledge from a bi-encoder teacher to a student by distilling knowledge from ColBERT’s expressive MaxSim operator into a simple dot product. The advantage of the bi-encoder teacher–student setup is that we can efficiently add in-batch negatives during knowledge distillation, enabling richer interactions between teacher and student models. In addition, using ColBERT as the teacher reduces training cost compared to a full cross-encoder. Experiments on the MS MARCO passage and document ranking tasks and data from the TREC 2019 Deep Learning Track demonstrate that our approach helps models learn robust representations for dense retrieval effectively and efficiently.",
+  "keywords": [
+    "late",
+    "cross",
+    "deep",
+    "an efficient training approach",
+    "text retrieval",
+    "knowledge",
+    "model",
+    "text",
+    "efficient",
+    "encoder",
+    "the colbert",
+    "a bi-encoder teacher",
+    "retrieval",
+    "we",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2021.repl4nlp-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:19:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

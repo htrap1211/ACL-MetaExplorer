@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.138",
+  "title": "Enhancing Natural Language Representation with Large-Scale Out-of-Domain Commonsense",
+  "authors": [
+    "Cui, Wanyun  and\nChen, Xingran"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "We study how to enhance text representation via textual commonsense. We point out that commonsense has the nature of domain discrepancy. Namely, commonsense has different data formats and is domain-independent from the downstream task. This nature brings challenges to introducing commonsense in general text understanding tasks. A typical method of introducing textual knowledge is continuing pre-training over the commonsense corpus. However, it will cause catastrophic forgetting to the downstream task due to the domain discrepancy. In addition, previous methods of directly using textual descriptions as extra input information cannot apply to large-scale commonsense. In this paper, we propose to use large-scale out-of-domain commonsense to enhance text representation. In order to effectively incorporate the commonsense, we proposed OK-Transformer (Out-of-domain Knowledge enhanced Transformer). OK-Transformer effectively integrates commonsense descriptions and enhances them to the target text representation. In addition, OK-Transformer can adapt to the Transformer-based language models (e.g. BERT, RoBERTa) for free, without pre-training on large-scale unsupervised corpora. We have verified the effectiveness of OK-Transformer in multiple applications such as commonsense reasoning, general text classification, and low-resource commonsense settings.",
+  "keywords": [
+    "roberta",
+    "extra",
+    "we",
+    "training",
+    "classification",
+    "natural",
+    "it",
+    "information",
+    "e g bert roberta",
+    "bert",
+    "text",
+    "-",
+    "general text classification",
+    "ok",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.138/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

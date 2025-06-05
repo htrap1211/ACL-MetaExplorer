@@ -1,0 +1,33 @@
+{
+  "id": "W19-4323",
+  "title": "Improving Word Embeddings Using Kernel {PCA",
+  "authors": [
+    "Gupta, Vishwani  and\nGiesselbach, Sven  and\nR{\\\"u}ping, Stefan  and\nBauckhage, Christian"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)",
+  "abstract": "Word-based embedding approaches such as Word2Vec capture the meaning of words and relations between them, particularly well when trained with large text collections; however, they fail to do so with small datasets. Extensions such as fastText reduce the amount of data needed slightly, however, the joint task of learning meaningful morphology, syntactic and semantic representations still requires a lot of data. In this paper, we introduce a new approach to warm-start embedding models with morphological information, in order to reduce training time and enhance their performance. We use word embeddings generated using both word2vec and fastText models and enrich them with morphological information of words, derived from kernel principal component analysis (KPCA) of word similarity matrices. This can be seen as explicitly feeding the network morphological similarities and letting it learn semantic and syntactic similarities. Evaluating our models on word similarity and analogy tasks in English and German, we find that they not only achieve higher accuracies than the original skip-gram and fastText models but also require significantly less training data and time. Another benefit of our approach is that it is capable of generating a high-quality representation of infrequent words as, for example, found in very recent news articles with rapidly changing vocabularies. Lastly, we evaluate the different models on a downstream sentence classification task in which a CNN model is initialized with our embeddings and find promising results.",
+  "keywords": [
+    "our embeddings",
+    "kernel",
+    "semantic",
+    "we",
+    "training",
+    "classification",
+    "cnn",
+    "it",
+    "rapidly changing vocabularies",
+    "information",
+    "word",
+    "semantic and syntactic similarities",
+    "analysis",
+    "text",
+    "higher accuracies"
+  ],
+  "url": "https://aclanthology.org/W19-4323/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:03:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

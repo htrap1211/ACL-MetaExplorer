@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.721",
+  "title": "Can Diffusion Model Achieve Better Performance in Text Generation ? Bridging the Gap between Training and Inference !",
+  "authors": [
+    "Tang, Zecheng  and\nWang, Pinzheng  and\nZhou, Keyan  and\nLi, Juntao  and\nCao, Ziqiang  and\nZhang, Min"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Diffusion models have been successfully adapted to text generation tasks by mapping the discrete text into the continuous space. However, there exist nonnegligible gaps between training and inference, owing to the absence of the forward process during inference. Thus, the model only predicts based on the previously generated reverse noise rather than the noise computed by the forward process. Besides, the widely-used downsampling strategy in speeding up the inference will cause the mismatch of diffusion trajectories between training and inference. To understand and mitigate the above two types of training-inference discrepancies, we launch a thorough preliminary study. Based on our observations, we propose two simple yet effective methods to bridge the gaps mentioned above, named Distance Penalty and Adaptive Decay Sampling. Extensive experiments on6generation tasks confirm the superiority of our methods, which can achieve100× →200×speedup with better performance. Our code will be released athttps://github.com/CODINNLG/Bridge_Gap_Diffusion.",
+  "keywords": [
+    "code",
+    "on6generation tasks",
+    "diffusion trajectories",
+    "we",
+    "text generation",
+    "training",
+    "adaptive decay",
+    "discrepancies",
+    "on6generation",
+    "text",
+    "decay",
+    "training-inference discrepancies",
+    "to text generation tasks",
+    "process",
+    "achieve100"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.721/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

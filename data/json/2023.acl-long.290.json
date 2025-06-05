@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.290",
+  "title": "W}iki{H}ow{QA}: A Comprehensive Benchmark for Multi-Document Non-Factoid Question Answering",
+  "authors": [
+    "Bolotova-Baranova, Valeriia  and\nBlinov, Vladislav  and\nFilippova, Sofya  and\nScholer, Falk  and\nSanderson, Mark"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Answering non-factoid questions (NFQA) is a challenging task, requiring passage-level answers that are difficult to construct and evaluate. Search engines may provide a summary of a single web page, but many questions require reasoning across multiple documents. Meanwhile, modern models can generate highly coherent and fluent, but often factually incorrect answers that can deceive even non-expert humans. There is a critical need for high-quality resources for multi-document NFQA (MD-NFQA) to train new models and evaluate answers’ grounding and factual consistency in relation to supporting documents. To address this gap, we introduce WikiHowQA, a new multi-document NFQA benchmark built on WikiHow, a website dedicated to answering “how-to” questions. The benchmark includes 11,746 human-written answers along with 74,527 supporting documents. We describe the unique challenges of the resource, provide strong baselines, and propose a novel human evaluation framework that utilizes highlighted relevant supporting passages to mitigate issues such as assessor unfamiliarity with the question topic. All code and data, including the automatic code for preparing the human evaluation, are publicly available.",
+  "keywords": [
+    "code",
+    "question",
+    "we",
+    "the human evaluation",
+    "wikihowqa",
+    "non-factoid questions nfqa",
+    "nfqa",
+    "multi-document nfqa md-nfqa",
+    "topic",
+    "human",
+    "evaluation",
+    "documents",
+    "coherent",
+    "multi",
+    "even non-expert humans"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.290/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

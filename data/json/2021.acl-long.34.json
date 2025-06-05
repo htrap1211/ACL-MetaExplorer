@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.34",
+  "title": "A Training-free and Reference-free Summarization Evaluation Metric via Centrality-weighted Relevance and Self-referenced Redundancy",
+  "authors": [
+    "Chen, Wang  and\nLi, Piji  and\nKing, Irwin"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "In recent years, reference-based and supervised summarization evaluation metrics have been widely explored. However, collecting human-annotated references and ratings are costly and time-consuming. To avoid these limitations, we propose a training-free and reference-free summarization evaluation metric. Our metric consists of a centrality-weighted relevance score and a self-referenced redundancy score. The relevance score is computed between the pseudo reference built from the source document and the given summary, where the pseudo reference content is weighted by the sentence centrality to provide importance guidance. Besides anF1-based relevance score, we also design anF𝛽-based variant that pays more attention to the recall score. As for the redundancy score of the summary, we compute a self-masked similarity score with the summary itself to evaluate the redundant information in the summary. Finally, we combine the relevance and redundancy scores to produce the final evaluation score of the given summary. Extensive experiments show that our methods can significantly outperform existing methods on both multi-document and single-document summarization evaluation. The source code is released athttps://github.com/Chen-Wang-CUHK/Training-Free-and-Ref-Free-Summ-Evaluation.",
+  "keywords": [
+    "the recall score",
+    "code",
+    "summ",
+    "anf1",
+    "anf1-based relevance score",
+    "summarization",
+    "we",
+    "training",
+    "ref",
+    "self",
+    "information",
+    "more attention",
+    "metric",
+    "metrics",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.34/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:59:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

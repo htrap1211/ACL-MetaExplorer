@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.442",
+  "title": "ANAH}: Analytical Annotation of Hallucinations in Large Language Models",
+  "authors": [
+    "Ji, Ziwei  and\nGu, Yuzhe  and\nZhang, Wenwei  and\nLyu, Chengqi  and\nLin, Dahua  and\nChen, Kai"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Reducing the ‘hallucination' problem of Large Language Models (LLMs) is crucial for their wide applications. A comprehensive and fine-grained measurement of the hallucination is the first key step for the governance of this issue but is under-explored in the community.Thus, we presentANAH, a bilingual dataset that offersANalyticalAnnotation ofHallucinations in LLMs within Generative Question Answering.Each answer sentence in our dataset undergoes rigorous annotation, involving the retrieval of a reference fragment, the judgment of the hallucination type, and the correction of hallucinated content. ANAH consists of ~12k sentence-level annotations for ~4.3k LLM responses covering over 700 topics, constructed by a human-in-the-loop pipeline.Thanks to the fine granularity of the hallucination annotations, we can quantitatively confirm that the hallucinations of LLMs progressively accumulate in the answer and use ANAH to train and evaluate hallucination annotators. We conduct extensive experiments on studying generative and discriminative annotators and show that, although current open-source LLMs have difficulties in fine-grained hallucination annotation, the generative annotator trained with ANAH can surpass all open-source LLMs and GPT-3.5, obtain performance competitive with GPT-4, and exhibits better generalization ability on unseen questions.",
+  "keywords": [
+    "current open-source llms",
+    "the generative annotator",
+    "question",
+    "4 3k llm responses",
+    "we",
+    "generative and discriminative annotators",
+    "current",
+    "llm",
+    "answer",
+    "gpt-3",
+    "retrieval",
+    "better generalization ability",
+    "difficulties",
+    "llms",
+    "generative"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.442/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:40:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

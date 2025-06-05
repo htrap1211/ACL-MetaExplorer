@@ -1,0 +1,33 @@
+{
+  "id": "2022.nlp4convai-1.18",
+  "title": "Understanding and Improving the Exemplar-based Generation for Open-domain Conversation",
+  "authors": [
+    "Han, Seungju  and\nKim, Beomsu  and\nSeo, Seokjun  and\nErdenee, Enkhbayar  and\nChang, Buru"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 4th Workshop on NLP for Conversational AI",
+  "abstract": "Exemplar-based generative models for open-domain conversation produce responses based on the exemplars provided by the retriever, taking advantage of generative models and retrieval models. However, due to the one-to-many problem of the open-domain conversation, they often ignore the retrieved exemplars while generating responses or produce responses over-fitted to the retrieved exemplars. To address these advantages, we introduce a training method selecting exemplars that are semantically relevant to the gold response but lexically distanced from the gold response. In the training phase, our training method first uses the gold response instead of dialogue context as a query to select exemplars that are semantically relevant to the gold response. And then, it eliminates the exemplars that lexically resemble the gold responses to alleviate the dependency of the generative models on that exemplars. The remaining exemplars could be irrelevant to the given context since they are searched depending on the gold response. Thus, our training method further utilizes the relevance scores between the given context and the exemplars to penalize the irrelevant exemplars. Extensive experiments demonstrate that our proposed training method alleviates the drawbacks of the existing exemplar-based generative models and significantly improves the performance in terms of appropriateness and informativeness.",
+  "keywords": [
+    "generative",
+    "generative models",
+    "retrieval models",
+    "the open-domain conversation",
+    "the retrieved exemplars",
+    "open-domain conversation",
+    "generation",
+    "the retriever",
+    "it",
+    "the generative models",
+    "the exemplar-based generation",
+    "retrieval",
+    "dependency",
+    "conversation",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2022.nlp4convai-1.18/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:45:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

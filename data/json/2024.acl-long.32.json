@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.32",
+  "title": "An Information-Theoretic Approach to Analyze {NLP} Classification Tasks",
+  "authors": [
+    "Wang, Luran  and\nGales, Mark  and\nRaina, Vatsal"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Understanding the contribution of the inputs on the output is useful across many tasks. This work provides an information-theoretic framework to analyse the influence of inputs for text classification tasks. Natural language processing (NLP) tasks take either a single or multiple text elements to predict an output variable. Each text element has two components: the semantic meaning and a linguistic realization. Multiple-choice reading comprehension (MCRC) and sentiment classification (SC) are selected to showcase the framework. For MCRC, it is found that the relative context influence on the output reduces on more challenging datasets. In particular, more challenging contexts allows greater variation in the question complexity. Hence, test creators need to carefully consider the choice of the context when designing multiple-choice questions for assessment. For SC, it is found the semantic meaning of the input dominates compared to its linguistic realization when determining the sentiment. The framework is made available at: https://github.com/WangLuran/nlp-element-influence.",
+  "keywords": [
+    "question",
+    "sc",
+    "semantic",
+    "the semantic meaning",
+    "classification",
+    "natural",
+    "it",
+    "information",
+    "processing",
+    "text",
+    "nlp classification tasks",
+    "sentiment",
+    "work",
+    "language",
+    "nlp"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.32/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:34:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

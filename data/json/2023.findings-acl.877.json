@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.877",
+  "title": "Detection and Mitigation of the Negative Impact of Dataset Extractivity on Abstractive Summarization",
+  "authors": [
+    "Ge, Yubin  and\nJeoung, Sullam  and\nDinh, Ly  and\nDiesner, Jana"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In text summarization, extractivity is defined as a measurement of the degree of overlap between a source document and its summary. Previous research has shown that the extractivity level of training data can influence both output extractivity and the amount of factual information (i.e. faithfulness) in outputs for abstractive summarization. However, it remains unclear if and how extractivity impacts the performance of abstractive models. In this work, we investigate the relationship between dataset extractivity and model performance by comparing the performance of trained models under different degrees of extractivity. We find that while low levels of extractivity can improve performance, as extractivity increases, performance is negatively impacted. Furthermore, through an analysis of the model’s copy continuity of content, we discover that higher extractivity leads to a greater tendency for the model to copy text continuously from the source document rather than identifying and summarizing important content that should be covered in the target summary. To address these issues, we propose a simple and effective method to design copy labels for fixing the model’s copying behaviors and train the model with a copy mechanism. The experimental results illustrate the effectiveness of our strategy in alleviating the negative impact on model performance resulting from high dataset extractivity, and that our method outperforms several competitive baselines.",
+  "keywords": [
+    "summarization",
+    "we",
+    "training",
+    "it",
+    "information",
+    "analysis",
+    "text",
+    "abstractive summarization",
+    "work",
+    "model",
+    "text summarization extractivity",
+    "abstractive models",
+    "trained models",
+    "low",
+    "abstractive"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.877/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.550",
+  "title": "PEK}: A Parameter-Efficient Framework for Knowledge-Grounded Dialogue Generation",
+  "authors": [
+    "Yang, Pan  and\nSong, Dandan  and\nWu, Zhijing  and\nZhou, Yanru"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Pre-trained language models (PLMs) have shown great dialogue generation capability in different scenarios. However, the huge VRAM consumption when fine-tuning them is one of their drawbacks. PEFT approaches can significantly reduce the number of trainable parameters, which enables us to fine-tune larger dialogue generation models. However, the reduction in parameter quantity can diminish a PLM’s expressive capacity and affect the PLM’s learning from certain specific examples like knowledge-related conversations. Previous works have demonstrated that injecting external knowledge into dialogue generation models can improve the model’s performance in knowledge-related conversations. Nonetheless, these methods are designed for the scenario where most parameters of the entire framework are trainable. In this paper, we propose PEK, a parameter-efficient framework for knowledge-enhanced dialogue generation. It enables PLMs to leverage external knowledge documents and knowledge graphs to enhance its generation capabilities with an acceptable number of trainable parameters. Evaluation results on the Wizard of Wikipedia and CMU_DoG datasets show that our approach outperforms baseline methods on multiple evaluation metrics, which validates the effectiveness of our approach.",
+  "keywords": [
+    "multiple evaluation metrics",
+    "efficient",
+    "conversations",
+    "we",
+    "dialogue",
+    "parameter",
+    "it",
+    "great dialogue generation capability",
+    "knowledge graphs",
+    "its generation capabilities",
+    "reduction",
+    "metrics",
+    "trainable parameters evaluation results",
+    "fine",
+    "a parameter-efficient framework"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.550/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:56:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

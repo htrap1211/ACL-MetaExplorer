@@ -1,0 +1,33 @@
+{
+  "id": "2022.insights-1.3",
+  "title": "Evaluating the Practical Utility of Confidence-score based Techniques for Unsupervised Open-world Classification",
+  "authors": [
+    "Khosla, Sopan  and\nGangadharaiah, Rashmi"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Third Workshop on Insights from Negative Results in NLP",
+  "abstract": "Open-world classification in dialog systems require models to detect open intents, while ensuring the quality of in-domain (ID) intent classification. In this work, we revisit methods that leverage distance-based statistics for unsupervised out-of-domain (OOD) detection. We show that despite their superior performance on threshold-independent metrics like AUROC on test-set, threshold values chosen based on the performance on a validation-set do not generalize well to the test-set, thus resulting in substantially lower performance on ID or OOD detection accuracy and F1-scores. Our analysis shows that this lack of generalizability can be successfully mitigated by setting aside a hold-out set from validation data for threshold selection (sometimes achieving relative gains as high as 100%). Extensive experiments on seven benchmark datasets show that this fix puts the performance of these methods at par with, or sometimes even better than, the current state-of-the-art OOD detection techniques.",
+  "keywords": [
+    "validation",
+    "we",
+    "generalizability",
+    "threshold-independent metrics",
+    "current",
+    "classification",
+    "analysis",
+    "metrics",
+    "par",
+    "accuracy",
+    "work",
+    "dialog",
+    "f1-scores",
+    "the quality",
+    "relative gains"
+  ],
+  "url": "https://aclanthology.org/2022.insights-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

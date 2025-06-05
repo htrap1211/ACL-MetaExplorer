@@ -1,0 +1,33 @@
+{
+  "id": "2022.iwslt-1.28",
+  "title": "ON}-{TRAC} Consortium Systems for the {IWSLT} 2022 Dialect and Low-resource Speech Translation Tasks",
+  "authors": [
+    "Zanon Boito, Marcely  and\nOrtega, John  and\nRiguidel, Hugo  and\nLaurent, Antoine  and\nBarrault, Lo{\\\"i}c  and\nBougares, Fethi  and\nChaabani, Firas  and\nNguyen, Ha  and\nBarbier, Florentin  and\nGahbiche, Souhir  and\nEst{\\`e}ve, Yannick"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022)",
+  "abstract": "This paper describes the ON-TRAC Consortium translation systems developed for two challenge tracks featured in the Evaluation Campaign of IWSLT 2022: low-resource and dialect speech translation. For the Tunisian Arabic-English dataset (low-resource and dialect tracks), we build an end-to-end model as our joint primary submission, and compare it against cascaded models that leverage a large fine-tuned wav2vec 2.0 model for ASR. Our results show that in our settings pipeline approaches are still very competitive, and that with the use of transfer learning, they can outperform end-to-end models for speech translation (ST). For the Tamasheq-French dataset (low-resource track) our primary submission leverages intermediate representations from a wav2vec 2.0 model trained on 234 hours of Tamasheq audio, while our contrastive model uses a French phonetic transcription of the Tamasheq audio as input in a Conformer speech translation architecture jointly trained on automatic speech recognition, ST and machine translation losses. Our results highlight that self-supervised models trained on smaller sets of target data are more effective to low-resource end-to-end ST fine-tuning, compared to large off-the-shelf models. Results also illustrate that even approximate phonetic transcriptions can improve ST scores.",
+  "keywords": [
+    "end",
+    "we",
+    "translation",
+    "it",
+    "self",
+    "transfer",
+    "speech translation st",
+    "tuning",
+    "the evaluation campaign",
+    "fine",
+    "model",
+    "machine",
+    "trac",
+    "evaluation",
+    "approximate"
+  ],
+  "url": "https://aclanthology.org/2022.iwslt-1.28/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

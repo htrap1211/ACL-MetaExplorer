@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.817",
+  "title": "Enhancing Document-level Event Argument Extraction with Contextual Clues and Role Relevance",
+  "authors": [
+    "Liu, Wanlong  and\nCheng, Shaohuan  and\nZeng, Dingyi  and\nHong, Qu"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Document-level event argument extraction poses new challenges of long input and cross-sentence inference compared to its sentence-level counterpart. However, most prior works focus on capturing the relations between candidate arguments and the event trigger in each event, ignoring two crucial points: a) non-argument contextual clue information; b) the relevance among argument roles. In this paper, we propose a SCPRG (Span-trigger-based Contextual Pooling and latent Role Guidance) model, which contains two novel and effective modules for the above problem. The Span-Trigger-based Contextual Pooling (STCP) adaptively selects and aggregates the information of non-argument clue words based on the context attention weights of specific argument-trigger pairs from pre-trained model. The Role-based Latent Information Guidance (RLIG) module constructs latent role representations, makes them interact through role-interactive encoding to capture semantic relevance, and merges them into candidate arguments. Both STCP and RLIG introduce no more than 1% new parameters compared with the base model and can be easily applied to other event extraction models, which are compact and transplantable. Experiments on two public datasets show that our SCPRG outperforms previous state-of-the-art methods, with 1.13 F1 and 2.64 F1 improvements on RAMS and WikiEvents respectively. Further analyses illustrate the interpretability of our model.",
+  "keywords": [
+    "extraction",
+    "semantic",
+    "we",
+    "cross",
+    "information",
+    "latent",
+    "2 64 f1 improvements",
+    "1 13 f1",
+    "the context attention weights",
+    "semantic relevance",
+    "model",
+    "attention",
+    "pre",
+    "wikievents",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.817/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

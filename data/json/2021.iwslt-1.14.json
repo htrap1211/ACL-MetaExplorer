@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwslt-1.14",
+  "title": "FST}: the {FAIR} Speech Translation System for the {IWSLT}21 Multilingual Shared Task",
+  "authors": [
+    "Tang, Yun  and\nGong, Hongyu  and\nLi, Xian  and\nWang, Changhan  and\nPino, Juan  and\nSchwenk, Holger  and\nGoyal, Naman"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021)",
+  "abstract": "In this paper, we describe our end-to-end multilingual speech translation system submitted to the IWSLT 2021 evaluation campaign on the Multilingual Speech Translation shared task. Our system is built by leveraging transfer learning across modalities, tasks and languages. First, we leverage general-purpose multilingual modules pretrained with large amounts of unlabelled and labelled data. We further enable knowledge transfer from the text task to the speech task by training two tasks jointly. Finally, our multilingual model is finetuned on speech translation task-specific data to achieve the best translation results. Experimental results show our system outperforms the reported systems, including both end-to-end and cascaded based approaches, by a large margin. In some translation directions, our speech translation results evaluated on the public Multilingual TEDx test set are even comparable with the ones from a strong text-to-text translation system, which uses the oracle speech transcripts as input.",
+  "keywords": [
+    "general",
+    "knowledge",
+    "end",
+    "the best translation results",
+    "our speech translation results",
+    "model",
+    "text",
+    "the multilingual speech translation",
+    "modalities",
+    "some translation directions",
+    "we",
+    "transfer",
+    "evaluation",
+    "general-purpose multilingual modules",
+    "speech translation task-specific data"
+  ],
+  "url": "https://aclanthology.org/2021.iwslt-1.14/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:18:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

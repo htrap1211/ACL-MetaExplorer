@@ -1,0 +1,33 @@
+{
+  "id": "2022.nlppower-1.5",
+  "title": "Automatically Discarding Straplines to Improve Data Quality for Abstractive News Summarization",
+  "authors": [
+    "Keleg, Amr  and\nLindemann, Matthias  and\nLiu, Danyang  and\nLong, Wanqiu  and\nWebber, Bonnie L."
+  ],
+  "year": "2022",
+  "venue": "Proceedings of NLP Power! The First Workshop on Efficient Benchmarking in NLP",
+  "abstract": "Recent improvements in automatic news summarization fundamentally rely on large corpora of news articles and their summaries. These corpora are often constructed by scraping news websites, which results in including not only summaries but also other kinds of texts. Apart from more generic noise, we identify straplines as a form of text scraped from news websites that commonly turn out not to be summaries. The presence of these non-summaries threatens the validity of scraped corpora as benchmarks for news summarization. We have annotated extracts from two news sources that form part of the Newsroom corpus (Grusky et al., 2018), labeling those which were straplines, those which were summaries, and those which were both. We present a rule-based strapline detection method that achieves good performance on a manually annotated test set. Automatic evaluation indicates that removing straplines and noise from the training data of a news summarizer results in higher quality summaries, with improvements as high as 7 points ROUGE score.",
+  "keywords": [
+    "automatic news summarization",
+    "rouge score",
+    "form",
+    "summarization",
+    "we",
+    "news summarization",
+    "training",
+    "the newsroom corpus grusky",
+    "higher quality summaries",
+    "grusky",
+    "not only summaries",
+    "automatic evaluation",
+    "their summaries",
+    "text",
+    "generic"
+  ],
+  "url": "https://aclanthology.org/2022.nlppower-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:45:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

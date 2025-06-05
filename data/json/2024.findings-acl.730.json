@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.730",
+  "title": "Reasons to Reject? Aligning Language Models with Judgments",
+  "authors": [
+    "Xu, Weiwen  and\nCai, Deng  and\nZhang, Zhisong  and\nLam, Wai  and\nShi, Shuming"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "As humans, we consistently interact with our peers and receive feedback in the form of natural language. This language feedback allows us to maintain appropriate behavior, and rectify potential errors. The question arises naturally: can we use language feedback to align large language models (LLMs)? In contrast to previous research that aligns LLMs with scalar rewards, we present the first systematic exploration of alignment through the lens of language feedback (i.e., judgment). We start with an in-depth investigation of potential methods that can be adapted for aligning LLMs with judgments, revealing that these methods cannot fully capitalize on judgments. To facilitate more effective utilization of judgments, we propose a novel framework, Contrastive Unlikelihood Training (CUT), that allows for fine-grained inappropriate content detection and correction based on judgments. Our results show that, with merely 1317 off-the-shelf judgment data, CUT can beat the 175B DaVinci003 and surpass the best baseline by 50.84 points on AlpacaEval using LLaMA2-13b. CUT can also align LLMs in an iterative fashion using up-to-date model-specific judgments, improving performance from 81.09 to 91.68 points on AlpacaEval using LLaMA2-chat-13b. Further analysis suggests that judgments hold greater potential in LLM alignment than rewards.",
+  "keywords": [
+    "llm alignment",
+    "feedback",
+    "question",
+    "form",
+    "we",
+    "llm",
+    "training",
+    "natural",
+    "natural language",
+    "analysis",
+    "llms",
+    "i",
+    "language models",
+    "alignment",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.730/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.53",
+  "title": "As Little as Possible, as Much as Necessary: Detecting Over- and Undertranslations with Contrastive Conditioning",
+  "authors": [
+    "Vamvas, Jannis  and\nSennrich, Rico"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Omission and addition of content is a typical issue in neural machine translation. We propose a method for detecting such phenomena with off-the-shelf translation models. Using contrastive conditioning, we compare the likelihood of a full sequence under a translation model to the likelihood of its parts, given the corresponding source or target sequence. This allows to pinpoint superfluous words in the translation and untranslated words in the source even in the absence of a reference translation. The accuracy of our method is comparable to a supervised method that requires a custom quality estimation model.",
+  "keywords": [
+    "reference",
+    "the accuracy",
+    "undertranslations",
+    "the translation",
+    "translation",
+    "neural",
+    "a translation model",
+    "model",
+    "machine",
+    "neural machine translation",
+    "we",
+    "sequence",
+    "and undertranslations",
+    "a reference translation",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.53/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:33:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

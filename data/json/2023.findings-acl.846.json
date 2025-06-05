@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.846",
+  "title": "Learning from Children: Improving Image-Caption Pretraining via Curriculum",
+  "authors": [
+    "Ayyubi, Hammad  and\nLokesh, Rahul  and\nZareian, Alireza  and\nWu, Bo  and\nChang, Shih-Fu"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Image-caption pretraining has been quite successfully used for downstream vision tasks like zero-shot image classification and object detection. However, image-caption pretraining is still a hard problem – it requires multiple concepts (nouns) from captions to be aligned to several objects in images. To tackle this problem, we go to the roots – the best learner, children. We take inspiration from cognitive science studies dealing with children’s language learning to propose a curriculum learning framework. The learning begins with easy-to-align image caption pairs containing one concept per caption. The difficulty is progressively increased with each new phase by adding one more concept per caption. Correspondingly, the knowledge acquired in each learning phase is utilized in subsequent phases to effectively constrain the learning problem to aligning one new concept-object pair in each phase. We show that this learning strategy improves over vanilla image-caption training in various settings – pretraining from scratch, using a pretrained image or/and pretrained text encoder, low data regime etc.",
+  "keywords": [
+    "zero-shot image classification",
+    "we",
+    "shot",
+    "training",
+    "classification",
+    "it",
+    "science",
+    "learning",
+    "align",
+    "object",
+    "text",
+    "cognitive science studies",
+    "learner",
+    "the best learner children",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.846/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

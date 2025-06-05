@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwslt-1.9",
+  "title": "The {N}iu{T}rans End-to-End Speech Translation System for {IWSLT} 2021 Offline Task",
+  "authors": [
+    "Xu, Chen  and\nLiu, Xiaoqian  and\nLiu, Xiaowen  and\nWang, Tiger  and\nHuang, Canan  and\nXiao, Tong  and\nZhu, Jingbo"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021)",
+  "abstract": "This paper describes the submission of the NiuTrans end-to-end speech translation system for the IWSLT 2021 offline task, which translates from the English audio to German text directly without intermediate transcription. We use the Transformer-based model architecture and enhance it by Conformer, relative position encoding, and stacked acoustic and textual encoding. To augment the training data, the English transcriptions are translated to German translations. Finally, we employ ensemble decoding to integrate the predictions from several models trained with the different datasets. Combining these techniques, we achieve 33.84 BLEU points on the MuST-C En-De test set, which shows the enormous potential of the end-to-end model.",
+  "keywords": [
+    "ensemble",
+    "the transformer-based model architecture",
+    "transformer",
+    "end",
+    "33 84 bleu points",
+    "model",
+    "text",
+    "it",
+    "bleu",
+    "rans",
+    "we",
+    "translations",
+    "training",
+    "translation",
+    "german translations"
+  ],
+  "url": "https://aclanthology.org/2021.iwslt-1.9/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:18:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

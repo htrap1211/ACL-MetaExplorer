@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.548",
+  "title": "Revisiting Structured Sentiment Analysis as Latent Dependency Graph Parsing",
+  "authors": [
+    "Zhou, Chengjie  and\nLi, Bobo  and\nFei, Hao  and\nLi, Fei  and\nTeng, Chong  and\nJi, Donghong"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Structured Sentiment Analysis (SSA) was cast as a problem of bi-lexical dependency graph parsing by prior studies.Multiple formulations have been proposed to construct the graph, which share several intrinsic drawbacks:(1) The internal structures of spans are neglected, thus only the boundary tokens of spans are used for relation prediction and span recognition, thus hindering the model’s expressiveness;(2) Long spans occupy a significant proportion in the SSA datasets, which further exacerbates the problem of internal structure neglect.In this paper, we treat the SSA task as a dependency parsing task on partially-observed dependency trees, regarding flat spans without determined tree annotations as latent subtrees to consider internal structures of spans.We propose a two-stage parsing method and leverage TreeCRFs with a novel constrained inside algorithm to model latent structures explicitly, which also takes advantages of joint scoring graph arcs and headed spans for global optimization and inference. Results of extensive experiments on five benchmark datasets reveal that our method performs significantly better than all previous bi-lexical methods, achieving new state-of-the-art.",
+  "keywords": [
+    "parsing",
+    "prior studies",
+    "a two-stage parsing method",
+    "we",
+    "graph",
+    "a dependency parsing task",
+    "latent",
+    "analysis",
+    "partially-observed dependency trees",
+    "global optimization",
+    "sentiment",
+    "latent dependency graph",
+    "model",
+    "studies",
+    "structured sentiment analysis ssa"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.548/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

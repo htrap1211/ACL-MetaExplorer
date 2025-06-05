@@ -1,0 +1,33 @@
+{
+  "id": "P19-1639",
+  "title": "A Multi-Task Architecture on Relevance-based Neural Query Translation",
+  "authors": [
+    "Sarwar, Sheikh Muhammad  and\nBonab, Hamed  and\nAllan, James"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We describe a multi-task learning approach to train a Neural Machine Translation (NMT) model with a Relevance-based Auxiliary Task (RAT) for search query translation. The translation process for Cross-lingual Information Retrieval (CLIR) task is usually treated as a black box and it is performed as an independent step. However, an NMT model trained on sentence-level parallel data is not aware of the vocabulary distribution of the retrieval corpus. We address this problem and propose a multi-task learning architecture that achieves 16% improvement over a strong baseline on Italian-English query-document dataset. We show using both quantitative and qualitative analysis that our model generates balanced and precise translations with the regularization effect it achieves from multi-task learning paradigm.",
+  "keywords": [
+    "cross",
+    "process",
+    "the translation process",
+    "rat",
+    "neural",
+    "model",
+    "machine",
+    "it",
+    "retrieval",
+    "regularization",
+    "information",
+    "the regularization effect",
+    "we",
+    "learning",
+    "search query translation"
+  ],
+  "url": "https://aclanthology.org/P19-1639/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:47:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

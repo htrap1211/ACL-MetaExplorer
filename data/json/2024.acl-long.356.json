@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.356",
+  "title": "The Hidden Space of Transformer Language Adapters",
+  "authors": [
+    "Alabi, Jesujoba  and\nMosbach, Marius  and\nEyal, Matan  and\nKlakow, Dietrich  and\nGeva, Mor"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We analyze the operation of transformer language adapters, which are small modules trained on top of a frozen language model to adapt its predictions to new target languages. We show that adapted predictions mostly evolve in the source language the model was trained on, while the target language becomes pronounced only in the very last layers of the model. Moreover, the adaptation process is gradual and distributed across layers, where it is possible to skip small groups of adapters without decreasing adaptation performance. Last, we show that adapters operate on top of the model’s frozen representation space while largely preserving its structure, rather than on an isolated subspace. Our findings provide a deeper view into the adaptation process of language models to new languages, showcasing the constraints imposed on it by the underlying model and introduces practical implications to enhance its efficiency.",
+  "keywords": [
+    "its efficiency",
+    "transformer",
+    "top",
+    "transformer language adapters",
+    "process",
+    "language",
+    "model",
+    "it",
+    "language models",
+    "view",
+    "efficiency",
+    "we",
+    "a frozen language model",
+    "a deeper view",
+    "practical"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.356/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

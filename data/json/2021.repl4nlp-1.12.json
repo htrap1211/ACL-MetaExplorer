@@ -1,0 +1,33 @@
+{
+  "id": "2021.repl4nlp-1.12",
+  "title": "Knodle: Modular Weakly Supervised Learning with {P}y{T}orch",
+  "authors": [
+    "Sedova, Anastasiia  and\nStephan, Andreas  and\nSperanskaya, Marina  and\nRoth, Benjamin"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 6th Workshop on Representation Learning for NLP (RepL4NLP-2021)",
+  "abstract": "Strategies for improving the training and prediction quality of weakly supervised machine learning models vary in how much they are tailored to a specific task or integrated with a specific model architecture. In this work, we introduce Knodle, a software framework that treats weak data annotations, deep learning models, and methods for improving weakly supervised training as separate, modular components. This modularization gives the training process access to fine-grained information such as data set characteristics, matches of heuristic rules, or elements of the deep learning model ultimately used for prediction. Hence, our framework can encompass a wide range of training methods for improving weak supervision, ranging from methods that only look at correlations of rules and output classes (independently of the machine learning model trained with the resulting labels), to those that harness the interplay of neural networks and weakly labeled data. We illustrate the benchmarking potential of the framework with a performance comparison of several reference implementations on a selection of datasets that are already available in Knodle.",
+  "keywords": [
+    "deep",
+    "we",
+    "training",
+    "neural",
+    "information",
+    "learning",
+    "neural networks",
+    "the machine learning model",
+    "strategies",
+    "work",
+    "deep learning models",
+    "reference",
+    "process",
+    "model",
+    "machine"
+  ],
+  "url": "https://aclanthology.org/2021.repl4nlp-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:19:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

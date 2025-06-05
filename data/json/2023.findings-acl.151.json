@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.151",
+  "title": "Open-World Factually Consistent Question Generation",
+  "authors": [
+    "Maheshwari, Himanshu  and\nShekhar, Sumit  and\nSaxena, Apoorv  and\nChhaya, Niyati"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Question generation methods based on pre-trained language models often suffer from factual inconsistencies and incorrect entities and are not answerable from the input paragraph. Domain shift – where the test data is from a different domain than the training data - further exacerbates the problem of hallucination. This is a critical issue for any natural language application doing question generation. In this work, we propose an effective data processing technique based on de-lexicalization for consistent question generation across domains. Unlike existing approaches for remedying hallucination, the proposed approach does not filter training data and is generic across question-generation models. Experimental results across six benchmark datasets show that our model is robust to domain shift and produces entity-level factually consistent questions without significant impact on traditional metrics.",
+  "keywords": [
+    "work",
+    "inconsistencies",
+    "question-generation models",
+    "question generation",
+    "processing",
+    "de",
+    "generation",
+    "language",
+    "pre-trained language models",
+    "natural",
+    "model",
+    "entities",
+    "metrics",
+    "generic",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.151/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

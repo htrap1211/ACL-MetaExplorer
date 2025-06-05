@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.175",
+  "title": "Disperse-Then-Merge: Pushing the Limits of Instruction Tuning via Alignment Tax Reduction",
+  "authors": [
+    "Fu, Tingchen  and\nCai, Deng  and\nLiu, Lemao  and\nShi, Shuming  and\nYan, Rui"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Supervised fine-tuning (SFT) on instruction-following corpus is a crucial approach toward the alignment of large language models (LLMs). However, the performance of LLMs on standard knowledge and reasoning benchmarks tends to suffer from deterioration at the latter stage of the SFT process, echoing the phenomenon of alignment tax. Through our pilot study, we put a hypothesis that the data biases are probably one cause behind the phenomenon. To address the issue, we introduce a simple disperse-then-merge framework. To be concrete, we disperse the instruction-following data into portions and then train multiple sub-models using different data portions. Lastly, we merge multiple models into a single one via model merging techniques. Despite its simplicity, our framework outperforms various sophisticated methods such as data curation and training regularization on a series of standard knowledge and reasoning benchmarks.",
+  "keywords": [
+    "alignment tax",
+    "series",
+    "we",
+    "training",
+    "instruction",
+    "tax",
+    "alignment tax reduction",
+    "reduction",
+    "llms",
+    "instruction tuning",
+    "tuning",
+    "-",
+    "the data biases",
+    "biases",
+    "alignment"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.175/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:50:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

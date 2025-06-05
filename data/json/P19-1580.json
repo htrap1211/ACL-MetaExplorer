@@ -1,0 +1,33 @@
+{
+  "id": "P19-1580",
+  "title": "Analyzing Multi-Head Self-Attention: Specialized Heads Do the Heavy Lifting, the Rest Can Be Pruned",
+  "authors": [
+    "Voita, Elena  and\nTalbot, David  and\nMoiseev, Fedor  and\nSennrich, Rico  and\nTitov, Ivan"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Multi-head self-attention is a key component of the Transformer, a state-of-the-art architecture for neural machine translation. In this work we evaluate the contribution made by individual attention heads to the overall performance of the model and analyze the roles played by them in the encoder. We find that the most important and confident heads play consistent and often linguistically-interpretable roles. When pruning heads using a method based on stochastic gates and a differentiable relaxation of the L0 penalty, we observe that specialized heads are last to be pruned. Our novel pruning method removes the vast majority of heads without seriously affecting performance. For example, on the English-Russian WMT dataset, pruning 38 out of 48 encoder heads results in a drop of only 0.15 BLEU.",
+  "keywords": [
+    "work",
+    "only 0 15 bleu",
+    "transformer",
+    "the encoder",
+    "rest",
+    "multi-head self-attention specialized heads",
+    "multi-head self-attention",
+    "individual attention heads",
+    "neural",
+    "machine",
+    "model",
+    "neural machine translation",
+    "self",
+    "encoder",
+    "bleu"
+  ],
+  "url": "https://aclanthology.org/P19-1580/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:45:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

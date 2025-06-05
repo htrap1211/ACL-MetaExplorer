@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.235",
+  "title": "i{REL} at {S}em{E}val-2023 Task 10: Multi-level Training for Explainable Detection of Online Sexism",
+  "authors": [
+    "Manoj, Nirmal  and\nJoshi, Sagar  and\nMaity, Ankita  and\nVarma, Vasudeva"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper describes our approach for SemEval-2023 Task 10: Explainable Detection of Online Sexism (EDOS). The task deals with identification and categorization of sexist content into fine-grained categories for explainability in sexism classification. The explainable categorization is proposed through a set of three hierarchical tasks that constitute a taxonomy of sexist content, each task being more granular than the former for categorization of the content. Our team (iREL) participated in all three hierarchical subtasks. Considering the inter-connected task structure, we study multilevel training to study the transfer learning from coarser to finer tasks. Our experiments based on pretrained transformer architectures also make use of additional strategies such as domain-adaptive pretraining to adapt our models to the nature of the content dealt with, and use of the focal loss objective for handling class imbalances. Our best-performing systems on the three tasks achieve macro-F1 scores of 85.93, 69.96 and 54.62 on their respective validation sets.",
+  "keywords": [
+    "finer",
+    "validation",
+    "em",
+    "additional strategies",
+    "finer tasks",
+    "we",
+    "fine-grained categories",
+    "training",
+    "classification",
+    "loss",
+    "three hierarchical tasks",
+    "transfer",
+    "all three hierarchical subtasks",
+    "the focal loss objective",
+    "i"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.235/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

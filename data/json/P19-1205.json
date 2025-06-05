@@ -1,0 +1,33 @@
+{
+  "id": "P19-1205",
+  "title": "Improving Abstractive Document Summarization with Salient Information Modeling",
+  "authors": [
+    "You, Yongjian  and\nJia, Weijia  and\nLiu, Tianyi  and\nYang, Wenmian"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Comprehensive document encoding and salient information selection are two major difficulties for generating summaries with adequate salient information. To tackle the above difficulties, we propose a Transformer-based encoder-decoder framework with two novel extensions for abstractive document summarization. Specifically, (1) to encode the documents comprehensively, we design a focus-attention mechanism and incorporate it into the encoder. This mechanism models a Gaussian focal bias on attention scores to enhance the perception of local context, which contributes to producing salient and informative summaries. (2) To distinguish salient information precisely, we design an independent saliency-selection network which manages the information flow from encoder to decoder. This network effectively reduces the influences of secondary information on the generated summaries. Experimental results on the popular CNN/Daily Mail benchmark demonstrate that our model outperforms other state-of-the-art baselines on the ROUGE metrics.",
+  "keywords": [
+    "a focus-attention mechanism",
+    "bias",
+    "summarization",
+    "we",
+    "a gaussian focal bias",
+    "salient and informative summaries",
+    "salient information",
+    "the encoder",
+    "two major difficulties",
+    "the above difficulties",
+    "cnn",
+    "it",
+    "decoder",
+    "adequate salient information",
+    "information"
+  ],
+  "url": "https://aclanthology.org/P19-1205/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:35:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.knowllm-1.12",
+  "title": "Patent Response System Optimised for Faithfulness: Procedural Knowledge Embodiment with Knowledge Graph and Retrieval Augmented Generation",
+  "authors": [
+    "Chu, Jung-Mei  and\nLo, Hao-Cheng  and\nHsiang, Jieh  and\nCho, Chun-Chieh"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Towards Knowledgeable Language Models (KnowLLM 2024)",
+  "abstract": "A successful response to Office Action is crucial for an invention to obtain a patent. While previous attempts have applied generalised LLMs, such as GPT-4, in the response process, there remains significant room for improvement in generating faithful, unbiased, and practically valuable responses. To address this issue, we propose the Patent Response System Optimised for Faithfulness (PRO). PRO explicitly incorporates procedural knowledge used by patent agents during drafting arguments in response. This framework comprises several key components: (1) Our proposed PRLLM is a LLM tailored for patent responses, designed to have comprehensive patent domain-specific knowledge. (2) Our proposed PPNet encodes legal interpretations and relationships between technical components from judicial sources through a knowledge graph. (3) The augmented generation processes retrieve relevant information from both the patent text and PPNet to augment the PRLLM’s input and generate faithful responses. Results show that PRO significantly reduces unfaithfulness across six error types compared to several settings. For instance, PRO outperforms GPT-4 by an average of 39% in terms of faithfulness. This demonstrates the effectiveness of our domain-specific approach in improving the quality of automated patent responses.",
+  "keywords": [
+    "the augmented generation processes",
+    "unbiased",
+    "the prllm s input",
+    "knowledge graph",
+    "we",
+    "graph",
+    "prllm",
+    "llm",
+    "retrieval",
+    "information",
+    "llms",
+    "text",
+    "generalised llms",
+    "gpt-4",
+    "action"
+  ],
+  "url": "https://aclanthology.org/2024.knowllm-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:07:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

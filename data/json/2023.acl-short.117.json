@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.117",
+  "title": "Text-to-{SQL} Error Correction with Language Models of Code",
+  "authors": [
+    "Chen, Ziru  and\nChen, Shijie  and\nWhite, Michael  and\nMooney, Raymond  and\nPayani, Ali  and\nSrinivasa, Jayanth  and\nSu, Yu  and\nSun, Huan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Despite recent progress in text-to-SQL parsing, current semantic parsers are still not accurate enough for practical use. In this paper, we investigate how to build automatic text-to-SQL error correction models. Noticing that token-level edits are out of context and sometimes ambiguous, we propose building clause-level edit models instead. Besides, while most language models of code are not specifically pre-trained for SQL, they know common data structures and their operations in programming languages such as Python. Thus, we propose a novel representation for SQL queries and their edits that adheres more closely to the pre-training corpora of language models of code. Our error correction model improves the exact set match accuracy of different parsers by 2.4-6.5 and obtains up to 4.3 point absolute improvement over two strong baselines.",
+  "keywords": [
+    "code",
+    "language",
+    "sql queries",
+    "model",
+    "text",
+    "queries",
+    "language models",
+    "the pre-training corpora",
+    "most language models",
+    "semantic",
+    "we",
+    "pre",
+    "current",
+    "accuracy",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.117/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:49:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.708",
+  "title": "Logical Natural Language Generation from Open-Domain Tables",
+  "authors": [
+    "Chen, Wenhu  and\nChen, Jianshu  and\nSu, Yu  and\nChen, Zhiyu  and\nWang, William Yang"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Neural natural language generation (NLG) models have recently shown remarkable progress in fluency and coherence. However, existing studies on neural NLG are primarily focused on surface-level realizations with limited emphasis on logical inference, an important aspect of human thinking and language. In this paper, we suggest a new NLG task where a model is tasked with generating natural language statements that can belogically entailedby the facts in an open-domain semi-structured table. To facilitate the study of the proposed logical NLG problem, we use the existing TabFact dataset~(CITATION) featured with a wide range of logical/symbolic inferences as our testbed, and propose new automatic metrics to evaluate the fidelity of generation models w.r.t. logical inference. The new task poses challenges to the existing monotonic generation frameworks due to the mismatch between sequence order and logical order. In our experiments, we comprehensively survey different generation architectures (LSTM, Transformer, Pre-Trained LM) trained with different algorithms (RL, Adversarial Training, Coarse-to-Fine) on the dataset and made following observations: 1) Pre-Trained LM can significantly boost both the fluency and logical fidelity metrics, 2) RL and Adversarial Training are trading fluency for fidelity, 3) Coarse-to-Fine generation can help partially alleviate the fidelity issue while maintaining high language fluency. The code and data are available athttps://github.com/wenhuchen/LogicNLG.",
+  "keywords": [
+    "code",
+    "we",
+    "lstm",
+    "new automatic metrics",
+    "training",
+    "logical natural language generation",
+    "neural",
+    "natural",
+    "different generation",
+    "sequence",
+    "existing studies",
+    "fidelity 3 coarse-to-fine generation",
+    "metrics",
+    "lstm transformer",
+    "fine"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.708/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:51:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

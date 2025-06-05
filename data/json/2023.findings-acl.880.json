@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.880",
+  "title": "Hybrid and Collaborative Passage Reranking",
+  "authors": [
+    "Zhang, Zongmeng  and\nZhou, Wengang  and\nShi, Jiaxin  and\nLi, Houqiang"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In passage retrieval system, the initial passage retrieval results may be unsatisfactory, which can be refined by a reranking scheme. Existing solutions to passage reranking focus on enriching the interaction between query and each passage separately, neglecting the context among the top-ranked passages in the initial retrieval list. To tackle this problem, we propose a Hybrid and Collaborative Passage Reranking (HybRank) method, which leverages the substantial similarity measurements of upstream retrievers for passage collaboration and incorporates the lexical and semantic properties of sparse and dense retrievers for reranking. Besides, built on off-the-shelf retriever features, HybRank is a plug-in reranker capable of enhancing arbitrary passage lists including previously reranked ones. Extensive experiments demonstrate the stable improvements of performance over prevalent retrieval and reranking methods, and verify the effectiveness of the core components of HybRank.",
+  "keywords": [
+    "passage retrieval system",
+    "the initial retrieval list",
+    "sparse and dense retrievers",
+    "retrievers",
+    "properties",
+    "retrieval",
+    "upstream retrievers",
+    "semantic",
+    "we",
+    "retriever",
+    "core",
+    "passage collaboration",
+    "the effectiveness",
+    "previously reranked ones",
+    "the stable improvements"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.880/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.690",
+  "title": "Learn to Not Link: Exploring {NIL} Prediction in Entity Linking",
+  "authors": [
+    "Zhu, Fangwei  and\nYu, Jifan  and\nJin, Hailong  and\nHou, Lei  and\nLi, Juanzi  and\nSui, Zhifang"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Entity linking models have achieved significant success via utilizing pretrained language models to capture semantic features. However, the NIL prediction problem, which aims to identify mentions without a corresponding entity in the knowledge base, has received insufficient attention. We categorize mentions linking to NIL into Missing Entity and Non-Entity Phrase, and propose an entity linking dataset NEL that focuses on the NIL prediction problem.NEL takes ambiguous entities as seeds, collects relevant mention context in the Wikipedia corpus, and ensures the presence of mentions linking to NIL by human annotation and entity masking. We conduct a series of experiments with the widely used bi-encoder and cross-encoder entity linking models, results show that both types of NIL mentions in training data have a significant influence on the accuracy of NIL prediction. Our code and dataset can be accessed athttps://github.com/solitaryzero/NIL_EL.",
+  "keywords": [
+    "code",
+    "the accuracy",
+    "series",
+    "semantic",
+    "we",
+    "cross-encoder entity",
+    "training",
+    "cross",
+    "insufficient attention",
+    "-",
+    "insufficient",
+    "accuracy",
+    "a series",
+    "ambiguous entities",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.690/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

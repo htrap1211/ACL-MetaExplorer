@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.281",
+  "title": "Critic-Guided Decoding for Controlled Text Generation",
+  "authors": [
+    "Kim, Minbeom  and\nLee, Hwanhee  and\nYoo, Kang Min  and\nPark, Joonsuk  and\nLee, Hwaran  and\nJung, Kyomin"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Steering language generation towards objectives or away from undesired content has been a long-standing goal in utilizing language models (LM). Recent work has demonstrated reinforcement learning and weighted decoding as effective approaches to achieve a higher level of language control and quality with pros and cons. In this work, we propose a novel critic decoding method for controlled language generation (CriticControl) that combines the strengths of reinforcement learning and weighted decoding. Specifically, we adopt the actor-critic framework and train an LM-steering critic from reward models. Similar to weighted decoding, our method freezes the language model and manipulates the output token distribution using a critic to improve training efficiency and stability. Evaluation of our method on three controlled generation tasks, topic control, sentiment control, and detoxification, shows that our approach generates more coherent and well-controlled texts than previous methods. In addition, CriticControl demonstrates superior generalization ability in zero-shot settings. Human evaluation studies also corroborate our findings.",
+  "keywords": [
+    "objectives",
+    "controlled language generation criticcontrol",
+    "efficiency",
+    "we",
+    "shot",
+    "training",
+    "learning",
+    "training efficiency",
+    "the language model",
+    "text",
+    "language models",
+    "topic",
+    "generalization",
+    "stability evaluation",
+    "superior generalization ability"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.281/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

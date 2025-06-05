@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.82",
+  "title": "Compositional Data Augmentation for Abstractive Conversation Summarization",
+  "authors": [
+    "Ouyang, Siru  and\nChen, Jiaao  and\nHan, Jiawei  and\nYang, Diyi"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent abstractive conversation summarization systems generally rely on large-scale datasets with annotated summaries. However, collecting and annotating these conversations can be a time-consuming and labor-intensive task. To address this issue, in this work, we present a sub-structure level compositional data augmentation method, Compo, for generating diverse and high-quality pairs of conversations and summaries. Specifically, Compo first extracts conversation structures like topic splits and action triples as basic units. Then we organize these semantically meaningful conversation snippets compositionally to create new training instances. Additionally, we explore noise-tolerant settings in both self-training and joint-training paradigms to make the most of these augmented samples. Our experiments on benchmark datasets, SAMSum and DialogSum, show that Compo substantially outperforms prior baseline methods by achieving a nearly 10% increase of ROUGE scores with limited data. Code is available athttps://github.com/ozyyshr/Compo.",
+  "keywords": [
+    "code",
+    "conversations",
+    "summarization",
+    "we",
+    "rouge scores",
+    "these conversations",
+    "training",
+    "self",
+    "topic",
+    "rouge",
+    "action",
+    "conversation structures",
+    "abstractive conversation summarization",
+    "work",
+    "summaries"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.82/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:36:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

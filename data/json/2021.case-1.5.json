@@ -1,0 +1,33 @@
+{
+  "id": "2021.case-1.5",
+  "title": "A}rg{F}use: A Weakly-Supervised Framework for Document-Level Event Argument Aggregation",
+  "authors": [
+    "Kar, Debanjana  and\nSarkar, Sudeshna  and\nGoyal, Pawan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 4th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE 2021)",
+  "abstract": "Most of the existing information extraction frameworks (Wadden et al., 2019; Veysehet al., 2020) focus on sentence-level tasks and are hardly able to capture the consolidated information from a given document. In our endeavour to generate precise document-level information frames from lengthy textual records, we introduce the task of Information Aggregation or Argument Aggregation. More specifically, our aim is to filter irrelevant and redundant argument mentions that were extracted at a sentence level and render a document level information frame. Majority of the existing works have been observed to resolve related tasks of document-level event argument extraction (Yang et al., 2018; Zheng et al., 2019) and salient entity identification (Jain et al., 2020) using supervised techniques. To remove dependency from large amounts of labelled data, we explore the task of information aggregation using weakly supervised techniques. In particular, we present an extractive algorithm with multiple sieves which adopts active learning strategies to work efficiently in low-resource settings. For this task, we have annotated our own test dataset comprising of 131 document information frames and have released the code and dataset to further research prospects in this new domain. To the best of our knowledge, we are the first to establish baseline results for this task in English. Our data and code are publicly available athttps://github.com/DebanjanaKar/ArgFuse.",
+  "keywords": [
+    "code",
+    "extraction",
+    "we",
+    "sieves",
+    "information",
+    "learning",
+    "active learning strategies",
+    "strategies",
+    "knowledge",
+    "salient",
+    "dependency",
+    "entity",
+    "multiple sieves",
+    "et al",
+    "precise document-level information frames"
+  ],
+  "url": "https://aclanthology.org/2021.case-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P18-2002",
+  "title": "Restricted Recurrent Neural Tensor Networks: Exploiting Word Frequency and Compositionality",
+  "authors": [
+    "Salle, Alexandre  and\nVillavicencio, Aline"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Increasing the capacity of recurrent neural networks (RNN) usually involves augmenting the size of the hidden layer, with significant increase of computational cost. Recurrent neural tensor networks (RNTN) increase capacity using distinct hidden layer weights for each word, but with greater costs in memory usage. In this paper, we introduce restricted recurrent neural tensor networks (r-RNTN) which reserve distinct hidden layer weights for frequent vocabulary words while sharing a single set of weights for infrequent words. Perplexity evaluations show that for fixed hidden layer sizes, r-RNTNs improve language model performance over RNNs using only a small fraction of the parameters of unrestricted RNTNs. These results hold for r-RNTNs using Gated Recurrent Units and Long Short-Term Memory.",
+  "keywords": [
+    "language",
+    "neural",
+    "model",
+    "evaluations",
+    "rnns",
+    "perplexity",
+    "layer",
+    "word",
+    "we",
+    "recurrent",
+    "perplexity evaluations",
+    "language model performance",
+    "recurrent neural networks",
+    "term",
+    "the hidden layer"
+  ],
+  "url": "https://aclanthology.org/P18-2002/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:16:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

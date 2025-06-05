@@ -1,0 +1,33 @@
+{
+  "id": "P17-1190",
+  "title": "Revisiting Recurrent Networks for Paraphrastic Sentence Embeddings",
+  "authors": [
+    "Wieting, John  and\nGimpel, Kevin"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We consider the problem of learning general-purpose, paraphrastic sentence embeddings, revisiting the setting of Wieting et al. (2016b). While they found LSTM recurrent networks to underperform word averaging, we present several developments that together produce the opposite conclusion. These include training on sentence pairs rather than phrase pairs, averaging states to represent sequences, and regularizing aggressively. These improve LSTMs in both transfer learning and supervised settings. We also introduce a new recurrent architecture, the Gated Recurrent Averaging Network, that is inspired by averaging and LSTMs while outperforming them both. We analyze our learned models, finding evidence of preferences for particular parts of speech and dependency relations.",
+  "keywords": [
+    "embeddings",
+    "general",
+    "paraphrastic sentence embeddings",
+    "wieting",
+    "lstms",
+    "lstm recurrent networks",
+    "both transfer learning",
+    "word",
+    "we",
+    "dependency",
+    "transfer",
+    "learning",
+    "network",
+    "general-purpose paraphrastic sentence embeddings",
+    "lstm"
+  ],
+  "url": "https://aclanthology.org/P17-1190/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:01:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

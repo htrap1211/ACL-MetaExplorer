@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.658",
+  "title": "Which Examples Should be Multiply Annotated? Active Learning When Annotators May Disagree",
+  "authors": [
+    "Baumler, Connor  and\nSotnikova, Anna  and\nDaum{\\'e} III, Hal"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Linguistic annotations, especially for controversial topics like hate speech detection, are frequently contested due to annotator backgrounds and positionalities. In such situations, preserving this disagreement through the machine learning pipeline can be important for downstream use cases. However, capturing disagreement can increase annotation time and expense. Fortunately, for many tasks, not all examples are equally controversial; we develop an active learning approach, Disagreement Aware Active Learning (DAAL) that concentrates annotations on examples where model entropy and annotator entropy are the most different. Because we cannot know the true entropy of annotations on unlabeled examples, we estimate a model that predicts annotator entropy trained using very few multiply-labeled examples. We find that traditional uncertainty-based active learning underperforms simple passive learning on tasks with high levels of disagreement, but that our active learning approach is able to successfully improve on passive and active baselines, reducing the number of annotations required by at least 24% on average across several datasets.",
+  "keywords": [
+    "backgrounds",
+    "model",
+    "machine",
+    "positionalities",
+    "we",
+    "learning",
+    "annotator backgrounds",
+    "time",
+    "the machine learning pipeline",
+    "entropy",
+    "that",
+    "unlabeled examples",
+    "speech",
+    "approach",
+    "traditional"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.658/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "W19-5337",
+  "title": "E}nglish-{C}zech Systems in {WMT}19: Document-Level Transformer",
+  "authors": [
+    "Popel, Martin  and\nMach{\\'a}{\\v{c}}ek, Dominik  and\nAuersperger, Michal  and\nBojar, Ond{\\v{r}}ej  and\nPecina, Pavel"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1)",
+  "abstract": "We describe our NMT systems submitted to the WMT19 shared task in English→Czech news translation. Our systems are based on the Transformer model implemented in either Tensor2Tensor (T2T) or Marian framework. We aimed at improving the adequacy and coherence of translated documents by enlarging the context of the source and target. Instead of translating each sentence independently, we split the document into possibly overlapping multi-sentence segments. In case of the T2T implementation, this “document-level”-trained system achieves a +0.6 BLEU improvement (p < 0.05) relative to the same system applied on isolated sentences. To assess the potential effect document-level models might have on lexical coherence, we performed a semi-automatic analysis, which revealed only a few sentences improved in this aspect. Thus, we cannot draw any conclusions from this week evidence.",
+  "keywords": [
+    "transformer",
+    "p",
+    "the transformer model",
+    "model",
+    "19 document-level transformer",
+    "bleu",
+    "e",
+    "we",
+    "english czech news translation",
+    "analysis",
+    "translation",
+    "documents",
+    "news",
+    "the same system",
+    "multi"
+  ],
+  "url": "https://aclanthology.org/W19-5337/",
+  "provenance": {
+    "collected_at": "2025-06-05 02:07:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

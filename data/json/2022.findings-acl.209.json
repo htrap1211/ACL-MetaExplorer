@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.209",
+  "title": "MTR}ec: Multi-Task Learning over {BERT} for News Recommendation",
+  "authors": [
+    "Bi, Qiwei  and\nLi, Jian  and\nShang, Lifeng  and\nJiang, Xin  and\nLiu, Qun  and\nYang, Hanfang"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Existing news recommendation methods usually learn news representations solely based on news titles. To sufficiently utilize other fields of news information such as category and entities, some methods treat each field as an additional feature and combine different feature vectors with attentive pooling. With the adoption of large pre-trained models like BERT in news recommendation, the above way to incorporate multi-field information may encounter challenges: the shallow feature encoding to compress the category and entity information is not compatible with the deep BERT encoding. In this paper, we propose a multi-task method to incorporate the multi-field information into BERT, which improves its news encoding capability. Besides, we modify the gradients of auxiliary tasks based on their gradient conflicts with the main task, which further boosts the model performance. Extensive experiments on the MIND news recommendation benchmark show the effectiveness of our approach.",
+  "keywords": [
+    "deep",
+    "field",
+    "we",
+    "fields",
+    "multi-field information",
+    "other fields",
+    "their gradient conflicts",
+    "information",
+    "learning",
+    "the multi-field information",
+    "bert",
+    "each field",
+    "model",
+    "gradients",
+    "entities"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.209/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.32",
+  "title": "Robust Natural Language Understanding with Residual Attention Debiasing",
+  "authors": [
+    "Wang, Fei  and\nHuang, James Y.  and\nYan, Tianyi  and\nZhou, Wenxuan  and\nChen, Muhao"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Natural language understanding (NLU) models often suffer from unintended dataset biases. Among bias mitigation methods, ensemble-based debiasing methods, especially product-of-experts (PoE), have stood out for their impressive empirical success. However, previous ensemble-based debiasing methods typically apply debiasing on top-level logits without directly addressing biased attention patterns. Attention serves as the main media of feature interaction and aggregation in PLMs and plays a crucial role in providing robust prediction. In this paper, we propose REsidual Attention Debiasing (READ), an end-to-end debiasing method that mitigates unintended biases from attention. Experiments on three NLU benchmarks show that READ significantly improves the OOD performance of BERT-based models, including +12.9% accuracy on HANS, +11.0% accuracy on FEVER-Symmetric, and +2.7% F1 on PAWS. Detailed analyses demonstrate the crucial role of unbiased attention in robust NLU models and that READ effectively mitigates biases in attention.",
+  "keywords": [
+    "biased attention patterns attention",
+    "bias",
+    "end",
+    "unbiased",
+    "unbiased attention",
+    "we",
+    "unintended dataset biases",
+    "attention experiments",
+    "ensemble",
+    "natural",
+    "2 7 f1",
+    "bert-based models",
+    "debiasing",
+    "natural language",
+    "biased"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.32/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

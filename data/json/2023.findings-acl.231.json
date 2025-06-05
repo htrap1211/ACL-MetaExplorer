@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.231",
+  "title": "A Robust Information-Masking Approach for Domain Counterfactual Generation",
+  "authors": [
+    "Hong, Pengfei  and\nBhardwaj, Rishabh  and\nMajumder, Navonil  and\nAditya, Somak  and\nPoria, Soujanya"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Domain shift is a big challenge in NLP. Many approaches, thus, resort to learning domain-invariant features to mitigate the hurdles of domain shift during inference. Such methods, however, inexorably fail to leverage the domain-specific nuances relevant to the task at hand. To avoid such drawbacks, domain counterfactual generation has recently been proposed that aims to transform a text from the source domain to a given target domain. To achieve this, the existing method uses a frequency-based approach to identify and mask the source-domain-specific tokens in a text. A pretrained LM is then prompted to fill the masks with target-domain-specific tokens. We, however, have observed that, due to limitations of the available data, such a frequency-based method may either miss some domain-token associations or lead to some spurious domain-token associations. To this end, we additionally employ attention norm-based scores to identify additional token-domain associations from a domain classifier. To minimize spurious associations, we also devise an iterative unmasking heuristic that unmasks the masked tokens to minimize the confidence of a domain classifier in the source domain. Our experiments empirically show that the counterfactual samples sourced from our masked text lead to improved domain transfer across various classification tasks. The proposed approach outperforms the baselines on 10 out of 12 domain-counterfactual classification settings with an average of 1.7% improvement in accuracy metric.",
+  "keywords": [
+    "end",
+    "classifier",
+    "a domain classifier",
+    "we",
+    "norm",
+    "classification",
+    "token",
+    "information",
+    "transfer",
+    "attention norm-based scores",
+    "metric",
+    "text",
+    "12 domain-counterfactual classification settings",
+    "counterfactual generation",
+    "various classification tasks"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.231/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

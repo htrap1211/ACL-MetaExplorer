@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.345",
+  "title": "Pre-Trained Language-Meaning Models for Multilingual Parsing and Generation",
+  "authors": [
+    "Wang, Chunliu  and\nLai, Huiyuan  and\nNissim, Malvina  and\nBos, Johan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Pre-trained language models (PLMs) have achieved great success in NLP and have recently been used for tasks in computational semantics. However, these tasks do not fully benefit from PLMs since meaning representations are not explicitly included. We introduce multilingual pre-trained language-meaning models based on Discourse Representation Structures (DRSs), including meaning representations besides natural language texts in the same model, and design a new strategy to reduce the gap between the pre-training and fine-tuning objectives. Since DRSs are language neutral, cross-lingual transfer learning is adopted to further improve the performance of non-English tasks. Automatic evaluation results show that our approach achieves the best performance on both the multilingual DRS parsing and DRS-to-text generation tasks. Correlation analysis between automatic metrics and human judgements on the generation task further validates the effectiveness of our model. Human inspection reveals that out-of-vocabulary tokens are the main cause of erroneous results.",
+  "keywords": [
+    "parsing",
+    "objectives",
+    "we",
+    "training",
+    "cross",
+    "multilingual parsing",
+    "natural",
+    "semantics",
+    "automatic evaluation results",
+    "generation tasks",
+    "learning",
+    "transfer",
+    "analysis",
+    "tuning",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.345/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:58:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

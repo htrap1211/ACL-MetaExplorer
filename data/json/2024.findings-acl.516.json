@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.516",
+  "title": "DB}-{LLM}: Accurate Dual-Binarization for Efficient {LLM}s",
+  "authors": [
+    "Chen, Hong  and\nLv, Chengtao  and\nDing, Liang  and\nQin, Haotong  and\nZhou, Xiabin  and\nDing, Yifu  and\nLiu, Xuebo  and\nZhang, Min  and\nGuo, Jinyang  and\nLiu, Xianglong  and\nTao, Dacheng"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large language models (LLMs) have significantly advanced the field of natural language processing, while the expensive memory and computation consumption impede their practical deployment. Quantization emerges as one of the most effective methods for improving the computational efficiency of LLMs. However, existing ultra-low-bit quantization always causes severe accuracy drops. In this paper, we empirically investigate the micro and macro characteristics of ultra-low bit quantization and present a novelDual-Binarization method forLLMs, namelyDB-LLM. For the micro-level, we take both the accuracy advantage of 2-bit-width and the efficiency advantage of binarization into account, introducingFlexible Dual Binarization(FDB). By splitting 2-bit quantized weights into two independent sets of binaries, FDB ensures the accuracy of representations and introduces flexibility, utilizing the efficient bitwise operations of binarization while retaining the inherent high sparsity of ultra-low bit quantization. For the macro-level, we find the distortion that exists in the prediction of LLM after quantization, which is specified as the deviations related to the ambiguity of samples. We propose theDeviation-Aware Distillation(DAD) method, enabling the model to focus differently on various samples. Comprehensive experiments show that our DB-LLM not only significantly surpasses the current State-of-The-Art (SoTA) in ultra-low bit quantization (, perplexity decreased from 9.64 to 7.23), but also achieves an additional 20% reduction in computational consumption compared to the SOTA method under the same bit-width. Our code is available at https://github.com/Hon-Chen/DB-LLM.",
+  "keywords": [
+    "code",
+    "the accuracy",
+    "binaries",
+    "efficient",
+    "field",
+    "efficiency",
+    "we",
+    "current",
+    "llm",
+    "the efficient bitwise operations",
+    "natural",
+    "the field",
+    "efficient llm",
+    "natural language processing",
+    "ultra-low bit quantization perplexity"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.516/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:55:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

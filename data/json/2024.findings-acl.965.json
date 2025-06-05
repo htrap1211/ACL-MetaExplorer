@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.965",
+  "title": "CF}-{TCIR}: A Compositor-Free Framework for Hierarchical Text-Conditioned Image Retrieval",
+  "authors": [
+    "Yang, Yuchen  and\nWang, Yu  and\nWang, Yanfeng"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "In text-conditioned image retrieval (TCIR), the combination of a reference image and modification text forms a query tuple, aiming to locate the most congruent target image within a dataset. The advantages of rich image semantic information and text flexibility are combined in this manner for more accurate retrieval. While traditional techniques often employ attention-driven compositors to craft a unified image-text representation, our paper introduces a compositor-free framework, CF-TCIR, which eschews the standard compositor. Compositor-based methods are designed to learn a joint representation of images and text, but they struggle to directly capture the correlations between attributes across the image and text modalities. Instead, we reformulate the retrieval process as a cross-modal interaction between a synthesized image feature and its corresponding text descriptor. This novel methodology offers advantages in terms of computational efficiency, scalability, and superior performance. To optimize the retrieval performance, we advocate a tiered retrieval mechanism, blending both coarse-grain and fine-grain paradigms. Moreover, to enrich the contextual relationship within the query tuple, we integrate a generative cross-modal alignment technique, ensuring synchronization of sequential attributes between image and text data.",
+  "keywords": [
+    "the retrieval process",
+    "hierarchical text-conditioned image retrieval",
+    "the retrieval performance",
+    "efficiency",
+    "semantic",
+    "we",
+    "more accurate retrieval",
+    "text modalities",
+    "cross",
+    "text-conditioned image retrieval",
+    "unified",
+    "retrieval",
+    "a tiered retrieval mechanism",
+    "information",
+    "rich"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.965/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

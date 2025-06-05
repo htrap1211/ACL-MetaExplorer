@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.431",
+  "title": "Rethinking Stealthiness of Backdoor Attack against {NLP} Models",
+  "authors": [
+    "Yang, Wenkai  and\nLin, Yankai  and\nLi, Peng  and\nZhou, Jie  and\nSun, Xu"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Recent researches have shown that large natural language processing (NLP) models are vulnerable to a kind of security threat called the Backdoor Attack. Backdoor attacked models can achieve good performance on clean test sets but perform badly on those input sentences injected with designed trigger words. In this work, we point out a potential problem of current backdoor attacking research: its evaluation ignores the stealthiness of backdoor attacks, and most of existing backdoor attacking methods are not stealthy either to system deployers or to system users. To address this issue, we first propose two additional stealthiness-based metrics to make the backdoor attacking evaluation more credible. We further propose a novel word-based backdoor attacking method based on negative data augmentation and modifying word embeddings, making an important step towards achieving stealthy backdoor attacking. Experiments on sentiment analysis and toxic detection tasks show that our method is much stealthier while maintaining pretty good attacking performance. Our code is available athttps://github.com/lancopku/SOS.",
+  "keywords": [
+    "code",
+    "we",
+    "current",
+    "natural",
+    "word",
+    "nlp models",
+    "vulnerable",
+    "analysis",
+    "processing",
+    "sentiment analysis",
+    "metrics",
+    "its evaluation",
+    "word embeddings",
+    "sentiment",
+    "two additional stealthiness-based metrics"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.431/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.180",
+  "title": "H}ist{RED}: A Historical Document-Level Relation Extraction Dataset",
+  "authors": [
+    "Yang, Soyoung  and\nChoi, Minseok  and\nCho, Youngwoo  and\nChoo, Jaegul"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Despite the extensive applications of relation extraction (RE) tasks in various domains, little has been explored in the historical context, which contains promising data across hundreds and thousands of years. To promote the historical RE research, we present HistRED constructed from Yeonhaengnok. Yeonhaengnok is a collection of records originally written in Hanja, the classical Chinese writing, which has later been translated into Korean. HistRED provides bilingual annotations such that RE can be performed on Korean and Hanja texts. In addition, HistRED supports various self-contained subtexts with different lengths, from a sentence level to a document level, supporting diverse context settings for researchers to evaluate the robustness of their RE models. To demonstrate the usefulness of our dataset, we propose a bilingual RE model that leverages both Korean and Hanja contexts to predict relations between entities. Our model outperforms monolingual baselines on HistRED, showing that employing multiple language contexts supplements the RE predictions. The dataset is publicly available at:https://huggingface.co/datasets/Soyoung/HistREDunder CC BY-NC-ND 4.0 license.",
+  "keywords": [
+    "extraction",
+    "we",
+    "red",
+    "self",
+    "nd",
+    "language",
+    "model",
+    "entities",
+    "nc",
+    "the classical chinese writing",
+    "settings",
+    "huggingface",
+    "models",
+    "collection",
+    "diverse"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.180/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

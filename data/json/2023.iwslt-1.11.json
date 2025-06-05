@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.11",
+  "title": "Direct Models for Simultaneous Translation and Automatic Subtitling: {FBK}@{IWSLT}2023",
+  "authors": [
+    "Papi, Sara  and\nGaido, Marco  and\nNegri, Matteo"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "This paper describes the FBK’s participation in the Simultaneous Translation and Automatic Subtitling tracks of the IWSLT 2023 Evaluation Campaign. Our submission focused on the use of direct architectures to perform both tasks: for the simultaneous one, we leveraged the knowledge already acquired by offline-trained models and directly applied a policy to obtain the real-time inference; for the subtitling one, we adapted the direct ST model to produce well-formed subtitles and exploited the same architecture to produce timestamps needed for the subtitle synchronization with audiovisual content. Our English-German SimulST system shows a reduced computational-aware latency compared to the one achieved by the top-ranked systems in the 2021 and 2022 rounds of the task, with gains of up to 3.5 BLEU. Our automatic subtitling system outperforms the only-existing solution based on a direct system by 3.7 and 1.7 SubER in English-German and English-Spanish respectively.",
+  "keywords": [
+    "bleu",
+    "the simultaneous translation",
+    "we",
+    "translation",
+    "simultaneous translation",
+    "knowledge",
+    "model",
+    "evaluation",
+    "time",
+    "german",
+    "architectures",
+    "tracks",
+    "models",
+    "1.0",
+    "aware"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:24:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

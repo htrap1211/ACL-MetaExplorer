@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.10",
+  "title": "Layerwise universal adversarial attack on {NLP} models",
+  "authors": [
+    "Tsymboi, Olga  and\nMalaev, Danil  and\nPetrovskii, Andrei  and\nOseledets, Ivan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In this work, we examine the vulnerability of language models to universal adversarial triggers (UATs). We propose a new white-box approach to the construction of layerwise UATs (LUATs), which searches the triggers by perturbing hidden layers of a network. On the example of three transformer models and three datasets from the GLUE benchmark, we demonstrate that our method provides better transferability in a model-to-model setting with an average gain of 9.3% in the fooling rate over the baseline. Moreover, we investigate triggers transferability in the task-to-task setting. Using small subsets from the datasets similar to the target tasks for choosing a perturbed layer, we show that LUATs are more efficient than vanilla UATs by 7.1% in the fooling rate.",
+  "keywords": [
+    "work",
+    "transformer",
+    "three transformer models",
+    "language",
+    "nlp",
+    "model",
+    "rate",
+    "efficient",
+    "language models",
+    "layer",
+    "network",
+    "we",
+    "nlp models",
+    "vulnerability",
+    "the vulnerability"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

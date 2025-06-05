@@ -1,0 +1,33 @@
+{
+  "id": "2024.privatenlp-1.2",
+  "title": "Don{'}t forget private retrieval: distributed private similarity search for large language models",
+  "authors": [
+    "Zyskind, Guy  and\nSouth, Tobin  and\nPentland, Alex"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Fifth Workshop on Privacy in Natural Language Processing",
+  "abstract": "While the flexible capabilities of large language models (LLMs) allow them to answer a range of queries based on existing learned knowledge, information retrieval to augment generation is an important tool to allow LLMs to answer questions on information not included in pre-training data. Such private information is increasingly being generated in a wide array of distributed contexts by organizations and individuals. Performing such information retrieval using neural embeddings of queries and documents always leaked information about queries and database content unless both were stored locally. We present Private Retrieval Augmented Generation (PRAG), an approach that uses multi-party computation (MPC) to securely transmit queries to a distributed set of servers containing a privately constructed database to return top-k and approximate top-k documents. This is a first-of-its-kind approach to dense information retrieval that ensures no server observes a client’s query or can see the database content. The approach introduces a novel MPC friendly protocol for inverted file approximate search (IVF) that allows for fast document search over distributed and private data in sublinear communication complexity. This work presents new avenues through which data for use in LLMs can be accessed and used without needing to centralize or forgo privacy.",
+  "keywords": [
+    "we",
+    "pre-training data",
+    "a client s query",
+    "training",
+    "dense information retrieval",
+    "friendly",
+    "neural",
+    "queries",
+    "retrieval",
+    "information",
+    "augment generation",
+    "llms",
+    "client",
+    "neural embeddings",
+    "private retrieval"
+  ],
+  "url": "https://aclanthology.org/2024.privatenlp-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

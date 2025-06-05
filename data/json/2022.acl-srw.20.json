@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-srw.20",
+  "title": "T}elugu{NER}: Leveraging Multi-Domain Named Entity Recognition with Deep Transformers",
+  "authors": [
+    "Duggenpudi, Suma Reddy  and\nOota, Subba Reddy  and\nMarreddy, Mounika  and\nMamidi, Radhika"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "Named Entity Recognition (NER) is a successful and well-researched problem in English due to the availability of resources. The transformer models, specifically the masked-language models (MLM), have shown remarkable performance in NER during recent times. With growing data in different online platforms, there is a need for NER in other languages too. NER remains to be underexplored in Indian languages due to the lack of resources and tools. Our contributions in this paper include (i) Two annotated NER datasets for the Telugu language in multiple domains: Newswire Dataset (ND) and Medical Dataset (MD), and we combined ND and MD to form Combined Dataset (CD) (ii) Comparison of the finetuned Telugu pretrained transformer models (BERT-Te, RoBERTa-Te, and ELECTRA-Te) with other baseline models (CRF, LSTM-CRF, and BiLSTM-CRF) (iii) Further investigation of the performance of Telugu pretrained transformer models against the multilingual models mBERT, XLM-R, and IndicBERT. We find that pretrained Telugu language models (BERT-Te and RoBERTa) outperform the existing pretrained multilingual and baseline models in NER. On a large dataset (CD) of 38,363 sentences, the BERT-Te achieves a high F1-score of 0.80 (entity-level) and 0.75 (token-level). Further, these pretrained Telugu models have shown state-of-the-art performance on various existing Telugu NER datasets. We open-source our dataset, pretrained models, and code.",
+  "keywords": [
+    "deep",
+    "code",
+    "transformers",
+    "roberta",
+    "mbert",
+    "the bert-te",
+    "bilstm-crf",
+    "two annotated ner datasets",
+    "we",
+    "lstm",
+    "deep transformers",
+    "specifically the masked-language models",
+    "bilstm",
+    "token",
+    "telugu pretrained transformer models"
+  ],
+  "url": "https://aclanthology.org/2022.acl-srw.20/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:34:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

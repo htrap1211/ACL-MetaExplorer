@@ -1,0 +1,33 @@
+{
+  "id": "P18-2014",
+  "title": "A Walk-based Model on Entity Graphs for Relation Extraction",
+  "authors": [
+    "Christopoulou, Fenia  and\nMiwa, Makoto  and\nAnaniadou, Sophia"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "We present a novel graph-based neural network model for relation extraction. Our model treats multiple pairs in a sentence simultaneously and considers interactions among them. All the entities in a sentence are placed as nodes in a fully-connected graph structure. The edges are represented with position-aware contexts around the entity pairs. In order to consider different relation paths between two entities, we construct up tol-length walks between each pair. The resulting walks are merged and iteratively used to update the edge representations into longer walks representations. We show that the model achieves performance comparable to the state-of-the-art systems on the ACE 2005 dataset without using any external tools.",
+  "keywords": [
+    "tol",
+    "edge",
+    "neural",
+    "extraction",
+    "model",
+    "entities",
+    "all the entities",
+    "two entities",
+    "network",
+    "we",
+    "graph",
+    "entity",
+    "interactions",
+    "state",
+    "tol-length walks"
+  ],
+  "url": "https://aclanthology.org/P18-2014/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:16:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

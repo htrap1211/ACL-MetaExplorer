@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.55",
+  "title": "When Gradient Descent Meets Derivative-Free Optimization: A Match Made in Black-Box Scenario",
+  "authors": [
+    "Han, Chengcheng  and\nCui, Liqing  and\nZhu, Renyu  and\nWang, Jianing  and\nChen, Nuo  and\nSun, Qiushi  and\nLi, Xiang  and\nGao, Ming"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Large pre-trained language models (PLMs) have garnered significant attention for their versatility and potential for solving a wide spectrum of natural language processing (NLP) tasks. However, the cost of running these PLMs may be prohibitive. Furthermore, PLMs may not be open-sourced due to commercial considerations and potential risks of misuse, such as GPT-3. The parameters and gradients of PLMs are unavailable in this scenario. To solve the issue, black-box tuning has been proposed, which utilizes derivative-free optimization (DFO), instead of gradient descent, for training task-specific continuous prompts. However, these gradient-free methods still exhibit a significant gap compared to gradient-based methods. In this paper, we introduce gradient descent into black-box tuning scenario through knowledge distillation. Furthermore, we propose a novel method GDFO, which integrates gradient descent and derivative-free optimization to optimize task-specific continuous prompts in a harmonized manner. Experimental results show that GDFO can achieve significant performance gains over previous state-of-the-art methods.",
+  "keywords": [
+    "these gradient-free methods",
+    "we",
+    "derivative-free optimization",
+    "natural",
+    "gradient-based methods",
+    "gradient descent",
+    "gpt-3",
+    "manner",
+    "tuning",
+    "processing",
+    "prompts",
+    "knowledge",
+    "language",
+    "task-specific continuous prompts",
+    "nlp"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.55/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

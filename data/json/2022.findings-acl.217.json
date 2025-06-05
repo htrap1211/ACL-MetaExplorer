@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.217",
+  "title": "Deep Reinforcement Learning for Entity Alignment",
+  "authors": [
+    "Guo, Lingbing  and\nHan, Yuqiang  and\nZhang, Qiang  and\nChen, Huajun"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Embedding-based methods have attracted increasing attention in recent entity alignment (EA) studies. Although great promise they can offer, there are still several limitations. The most notable is that they identify the aligned entities based on cosine similarity, ignoring the semantics underlying the embeddings themselves. Furthermore, these methods are shortsighted, heuristically selecting the closest entity as the target and allowing multiple entities to match the same candidate. To address these limitations, we model entity alignment as a sequential decision-making task, in which an agent sequentially decides whether two entities are matched or mismatched based on their representation vectors. The proposed reinforcement learning (RL)-based entity alignment framework can be flexibly adapted to most embedding-based EA methods. The experimental results demonstrate that it consistently advances the performance of several state-of-the-art methods, with a maximum improvement of 31.1% on Hits@1.",
+  "keywords": [
+    "deep",
+    "embeddings",
+    "alignment",
+    "their representation vectors",
+    "the embeddings",
+    "reinforcement",
+    "increasing attention",
+    "studies",
+    "entities",
+    "semantics",
+    "it",
+    "the semantics",
+    "the aligned entities",
+    "multiple entities",
+    "vectors"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.217/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

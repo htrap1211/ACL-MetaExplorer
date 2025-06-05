@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.142",
+  "title": "Improving Named Entity Recognition by External Context Retrieving and Cooperative Learning",
+  "authors": [
+    "Wang, Xinyu  and\nJiang, Yong  and\nBach, Nguyen  and\nWang, Tao  and\nHuang, Zhongqiang  and\nHuang, Fei  and\nTu, Kewei"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Recent advances in Named Entity Recognition (NER) show that document-level contexts can significantly improve model performance. In many application scenarios, however, such contexts are not available. In this paper, we propose to find external contexts of a sentence by retrieving and selecting a set of semantically relevant texts through a search engine, with the original sentence as the query. We find empirically that the contextual representations computed on the retrieval-based input view, constructed through the concatenation of a sentence and its external contexts, can achieve significantly improved performance compared to the original input view based only on the sentence. Furthermore, we can improve the model performance of both input views by Cooperative Learning, a training method that encourages the two input views to produce similar contextual representations or output label distributions. Experiments show that our approach can achieve new state-of-the-art performance on 8 NER data sets across 5 domains.",
+  "keywords": [
+    "we",
+    "training",
+    "semantically relevant texts",
+    "retrieval",
+    "the retrieval-based input view",
+    "views",
+    "learning",
+    "the two input views",
+    "ner",
+    "named entity recognition",
+    "retrieving",
+    "model",
+    "view",
+    "entity recognition ner",
+    "both input views"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.142/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:01:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

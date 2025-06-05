@@ -1,0 +1,33 @@
+{
+  "id": "W19-5205",
+  "title": "Generalizing Back-Translation in Neural Machine Translation",
+  "authors": [
+    "Gra{\\c{c}}a, Miguel  and\nKim, Yunsu  and\nSchamper, Julian  and\nKhadivi, Shahram  and\nNey, Hermann"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 1: Research Papers)",
+  "abstract": "Back-translation — data augmentation by translating target monolingual data — is a crucial component in modern neural machine translation (NMT). In this work, we reformulate back-translation in the scope of cross-entropy optimization of an NMT model, clarifying its underlying mathematical assumptions and approximations beyond its heuristic usage. Our formulation covers broader synthetic data generation schemes, including sampling from a target-to-source NMT model. With this formulation, we point out fundamental problems of the sampling-based approaches and propose to remedy them by (i) disabling label smoothing for the target-to-source model and (ii) sampling from a restricted search space. Our statements are investigated on the WMT 2018 German <-> English news translation task.",
+  "keywords": [
+    "work",
+    "cross",
+    "i",
+    "generation",
+    "neural",
+    "model",
+    "machine",
+    "back-translation",
+    "optimization",
+    "cross-entropy optimization",
+    "we",
+    "translation",
+    "entropy",
+    "fundamental problems",
+    "news"
+  ],
+  "url": "https://aclanthology.org/W19-5205/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:54:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

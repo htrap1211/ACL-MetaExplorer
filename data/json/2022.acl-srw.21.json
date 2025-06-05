@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-srw.21",
+  "title": "Using Neural Machine Translation Methods for Sign Language Translation",
+  "authors": [
+    "Angelova, Galina  and\nAvramidis, Eleftherios  and\nM{\\\"o}ller, Sebastian"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "We examine methods and techniques, proven to be helpful for the text-to-text translation of spoken languages in the context of gloss-to-text translation systems, where the glosses are the written representation of the signs. We present one of the first works that include experiments on both parallel corpora of the German Sign Language (PHOENIX14T and the Public DGS Corpus). We experiment with two NMT architectures with optimization of their hyperparameters, several tokenization methods and two data augmentation techniques (back-translation and paraphrasing). Through our investigation we achieve a substantial improvement of 5.0 and 2.2 BLEU scores for the models trained on the two corpora respectively. Our RNN models outperform our Transformer models, and the segmentation method we achieve best results with is BPE, whereas back-translation and paraphrasing lead to minor but not significant improvements.",
+  "keywords": [
+    "transformer",
+    "hyperparameters",
+    "language",
+    "tokenization",
+    "neural",
+    "our rnn models",
+    "machine",
+    "text",
+    "our transformer models",
+    "bleu",
+    "several tokenization methods",
+    "optimization",
+    "back-translation",
+    "we",
+    "sign language translation"
+  ],
+  "url": "https://aclanthology.org/2022.acl-srw.21/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:34:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

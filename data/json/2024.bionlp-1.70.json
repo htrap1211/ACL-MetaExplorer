@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.70",
+  "title": "W}is{P}er{M}ed at {B}io{L}ay{S}umm: Adapting Autoregressive Large Language Models for Lay Summarization of Scientific Articles",
+  "authors": [
+    "Pakull, Tabea Margareta Grace  and\nDamm, Hendrik  and\nIdrissi-Yaghir, Ahmad  and\nSch{\\\"a}fer, Henning  and\nHorn, Peter A.  and\nFriedrich, Christoph M."
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "This paper details the efforts of the WisPerMed team in the BioLaySumm2024 Shared Task on automatic lay summarization in the biomedical domain, aimed at making scientific publications accessible to non-specialists. Large language models (LLMs), specifically the BioMistral and Llama3 models, were fine-tuned and employed to create lay summaries from complex scientific texts. The summarization performance was enhanced through various approaches, including instruction tuning, few-shot learning, and prompt variations tailored to incorporate specific context information. The experiments demonstrated that fine-tuning generally led to the best performance across most evaluated metrics. Few-shot learning notably improved the models’ ability to generate relevant and factually accurate texts, particularly when using a well-crafted prompt. Additionally, a Dynamic Expert Selection (DES) mechanism to optimize the selection of text outputs based on readability and factuality metrics was developed. Out of 54 participants, the WisPerMed team reached the 4th place, measured by readability, factuality, and relevance. Determined by the overall score, our approach improved upon the baseline by approx. 5.5 percentage points and was only approx. 1.5 percentage points behind the first place.",
+  "keywords": [
+    "prompt variations",
+    "summarization",
+    "automatic lay summarization",
+    "shot",
+    "fine-tuning",
+    "instruction",
+    "the summarization performance",
+    "information",
+    "instruction tuning few-shot learning",
+    "learning",
+    "lay",
+    "readability and factuality metrics",
+    "scientific",
+    "m",
+    "scientific articles"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.70/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.740",
+  "title": "Countering Reward Over-Optimization in {LLM} with Demonstration-Guided Reinforcement Learning",
+  "authors": [
+    "Rita, Mathieu  and\nStrub, Florian  and\nChaabouni, Rahma  and\nMichel, Paul  and\nDupoux, Emmanuel  and\nPietquin, Olivier"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "While reinforcement learning (RL) has been proven essential for tuning large language models (LLMs), it can lead to reward over-optimization (ROO). Existing approaches address ROO by adding KL regularization, requiring computationally expensive hyperparameter tuning. Additionally, KL regularization focuses solely on regularizing the language policy, neglecting a potential source of regularization: the reward function itself. Inspired by demonstration-guided RL, we here introduce the Reward Calibration from Demonstration (RCfD), which leverages human demonstrations and a reward model to recalibrate the reward objective. Formally, given a prompt, the RCfD objective minimizes the distance between the demonstrations’ and LLM’s rewards rather than directly maximizing the reward function. This objective shift avoids incentivizing the LLM to exploit the reward model and promotes more natural and diverse language generation.We show the effectiveness of RCfD in three RL language tasks, where it achieves comparable performance to carefully tuned baselines while mitigating ROO.",
+  "keywords": [
+    "demonstration-guided reinforcement learning",
+    "the rcfd objective",
+    "tuning",
+    "reinforcement",
+    "prompt",
+    "language",
+    "generation",
+    "a prompt",
+    "natural",
+    "model",
+    "it",
+    "human",
+    "objective",
+    "computationally expensive hyperparameter tuning",
+    "large language models"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.740/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.429",
+  "title": "Unsupervised Semantic Variation Prediction using the Distribution of Sibling Embeddings",
+  "authors": [
+    "Aida, Taichi  and\nBollegala, Danushka"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Languages are dynamic entities, where the meanings associated with words constantly change with time. Detecting the semantic variation of words is an important task for various NLP applications that must make time-sensitive predictions. Existing work on semantic variation prediction have predominantly focused on comparing some form of an averaged contextualised representation of a target word computed from a given corpus. However, some of the previously associated meanings of a target word can become obsolete over time (e.g. meaning of gay as happy), while novel usages of existing words are observed (e.g. meaning of cell as a mobile phone).We argue that mean representations alone cannot accurately capture such semantic variations and propose a method that uses the entire cohort of the contextualised embeddings of the target word, which we refer to as the sibling distribution. Experimental results on SemEval-2020 Task 1 benchmark dataset for semantic variation prediction show that our method outperforms prior work that consider only the mean embeddings, and is comparable to the current state-of-the-art. Moreover, a qualitative analysis shows that our method detects important semantic changes in words that are not captured by the existing methods.",
+  "keywords": [
+    "important semantic changes",
+    "form",
+    "semantic",
+    "we",
+    "various nlp applications",
+    "the contextualised embeddings",
+    "current",
+    "embeddings languages",
+    "such semantic variations",
+    "word",
+    "analysis",
+    "the semantic variation",
+    "semantic variation prediction",
+    "dynamic entities",
+    "embeddings"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.429/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

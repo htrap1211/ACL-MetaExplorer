@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-srw.24",
+  "title": "Exploring the Effectiveness and Consistency of Task Selection in Intermediate-Task Transfer Learning",
+  "authors": [
+    "Lin, Pin-Jie  and\nZhang, Miaoran  and\nMosbach, Marius  and\nKlakow, Dietrich"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "Identifying beneficial tasks to transfer from is a critical step toward successful intermediate-task transfer learning. In this work, we experiment with 130 source-target task combinations and demonstrate that the transfer performance exhibits severe variance across different source tasks and training seeds, highlighting the crucial role of intermediate-task selection in a broader context. We compare four representative task selection methods in a unified setup, focusing on their effectiveness and consistency. Compared to embedding-free methods and text embeddings, task embeddings constructed from fine-tuned weights can better estimate task transferability by improving task prediction scores from 2.59% to 3.96%. Despite their strong performance, we observe that the task embeddings do not consistently demonstrate superiority for tasks requiring reasoning abilities. Furthermore, we introduce a novel method that measures pairwise token similarity using maximum inner product search, leading to the highest performance in task prediction. Our findings suggest that token-wise similarity is better predictive for predicting transferability compared to averaging weights.",
+  "keywords": [
+    "reasoning abilities",
+    "maximum inner product search",
+    "we",
+    "embedding-free methods",
+    "successful intermediate-task transfer learning",
+    "variance",
+    "training",
+    "token",
+    "unified",
+    "inner",
+    "learning",
+    "transfer",
+    "text embeddings task embeddings",
+    "a unified setup",
+    "abilities"
+  ],
+  "url": "https://aclanthology.org/2024.acl-srw.24/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:48:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

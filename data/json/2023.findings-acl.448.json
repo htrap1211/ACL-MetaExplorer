@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.448",
+  "title": "Knowledge Graph Embeddings using Neural {I}to Process: From Multiple Walks to Stochastic Trajectories",
+  "authors": [
+    "Nayyeri, Mojtaba  and\nXiong, Bo  and\nMohammadi, Majid  and\nAkter, Mst. Mahfuja  and\nAlam, Mirza Mohtashim  and\nLehmann, Jens  and\nStaab, Steffen"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Knowledge graphs mostly exhibit a mixture of branching relations, e.g., hasFriend, and complex structures, e.g., hierarchy and loop. Most knowledge graph embeddings have problems expressing them, because they model a specific relation r from a head h to tails by starting at the node embedding of h and transitioning deterministically to exactly one other point in the embedding space. We overcome this issue in our novel framework ItCAREToE by modeling relations between nodes by relation-specific, stochastic transitions. Our framework is based on stochastic ItCARETo processes, which operate on low-dimensional manifolds. ItCAREToE is highly expressive and generic subsuming various state-of-the-art models operating on different, also non-Euclidean, manifolds. Experimental results show the superiority of ItCAREToE over other deterministic embedding models with regard to the KG completion task.",
+  "keywords": [
+    "other deterministic embedding models",
+    "we",
+    "graph",
+    "neural",
+    "most knowledge graph embeddings",
+    "e g hierarchy",
+    "i",
+    "h",
+    "stochastic trajectories knowledge graphs",
+    "generic",
+    "dimensional",
+    "hierarchy",
+    "embedding",
+    "g",
+    "embeddings"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.448/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

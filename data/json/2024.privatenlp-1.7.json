@@ -1,0 +1,33 @@
+{
+  "id": "2024.privatenlp-1.7",
+  "title": "PII}-Compass: Guiding {LLM} training data extraction prompts towards the target {PII} via grounding",
+  "authors": [
+    "Nakka, Krishna Kanth  and\nFrikha, Ahmed  and\nMendes, Ricardo  and\nJiang, Xue  and\nZhou, Xuebing"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Fifth Workshop on Privacy in Natural Language Processing",
+  "abstract": "The latest and most impactful advances in large models stem from their increased size. Unfortunately, this translates into an improved memorization capacity, raising data privacy concerns. Specifically, it has been shown that models can output personal identifiable information (PII) contained in their training data. However, reported PII extraction performance varies widely, and there is no consensus on the optimal methodology to evaluate this risk, resulting in underestimating realistic adversaries. In this work, we empirically demonstrate that it is possible to improve the extractability of PII by over ten-fold by grounding the prefix of the manually constructed extraction prompt with in-domain data. This approach achieves phone number extraction rates of 0.92%, 3.9%, and 6.86% with 1, 128, and 2308 queries, respectively, i.e., the phone number of 1 person in 15 is extractable.",
+  "keywords": [
+    "work",
+    "prompts",
+    "prompt",
+    "i",
+    "extraction",
+    "it",
+    "adversaries",
+    "queries",
+    "information",
+    "we",
+    "realistic adversaries",
+    "llm",
+    "training",
+    "personal identifiable information pii",
+    "phone number extraction rates"
+  ],
+  "url": "https://aclanthology.org/2024.privatenlp-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "W19-5035",
+  "title": "Improving Chemical Named Entity Recognition in Patents with Contextualized Word Embeddings",
+  "authors": [
+    "Zhai, Zenan  and\nNguyen, Dat Quoc  and\nAkhondi, Saber  and\nThorne, Camilo  and\nDruckenbrodt, Christian  and\nCohn, Trevor  and\nGregory, Michelle  and\nVerspoor, Karin"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 18th BioNLP Workshop and Shared Task",
+  "abstract": "Chemical patents are an important resource for chemical information. However, few chemical Named Entity Recognition (NER) systems have been evaluated on patent documents, due in part to their structural and linguistic complexity. In this paper, we explore the NER performance of a BiLSTM-CRF model utilising pre-trained word embeddings, character-level word representations and contextualized ELMo word representations for chemical patents. We compare word embeddings pre-trained on biomedical and chemical patent corpora. The effect of tokenizers optimized for the chemical domain on NER performance in chemical patents is also explored. The results on two patent corpora show that contextualized word representations generated from ELMo substantially improve chemical NER performance w.r.t. the current state-of-the-art. We also show that domain-specific resources such as word embeddings trained on chemical patents and chemical-specific tokenizers, have a positive impact on NER performance.",
+  "keywords": [
+    "embeddings",
+    "ner",
+    "elmo",
+    "a bilstm-crf model",
+    "model",
+    "bilstm",
+    "information",
+    "the ner performance",
+    "word",
+    "we",
+    "contextualized elmo word representations",
+    "pre",
+    "word embeddings",
+    "entity",
+    "current"
+  ],
+  "url": "https://aclanthology.org/W19-5035/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:56:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.757",
+  "title": "Regularized Context Gates on Transformer for Machine Translation",
+  "authors": [
+    "Li, Xintong  and\nLiu, Lemao  and\nWang, Rui  and\nHuang, Guoping  and\nMeng, Max"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Context gates are effective to control the contributions from the source and target contexts in the recurrent neural network (RNN) based neural machine translation (NMT). However, it is challenging to extend them into the advanced Transformer architecture, which is more complicated than RNN. This paper first provides a method to identify source and target contexts and then introduce a gate mechanism to control the source and target contributions in Transformer. In addition, to further reduce the bias problem in the gate mechanism, this paper proposes a regularization method to guide the learning of the gates with supervision automatically generated using pointwise mutual information. Extensive experiments on 4 translation datasets demonstrate that the proposed model obtains an averaged gain of 1.0 BLEU score over a strong Transformer baseline.",
+  "keywords": [
+    "a strong transformer baseline",
+    "transformer",
+    "4 translation datasets",
+    "bias",
+    "a regularization method",
+    "neural",
+    "machine translation context gates",
+    "model",
+    "machine",
+    "the bias problem",
+    "it",
+    "the recurrent neural network",
+    "bleu",
+    "regularization",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.757/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:52:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

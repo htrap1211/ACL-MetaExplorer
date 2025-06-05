@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.496",
+  "title": "Impact of Adversarial Training on Robustness and Generalizability of Language Models",
+  "authors": [
+    "Altinisik, Enes  and\nSajjad, Hassan  and\nSencar, Husrev  and\nMessaoud, Safa  and\nChawla, Sanjay"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Adversarial training is widely acknowledged as the most effective defense against adversarial attacks. However, it is also well established that achieving both robustness and generalization in adversarially trained models involves a trade-off. The goal of this work is to provide an in depth comparison of different approaches for adversarial training in language models. Specifically, we study the effect of pre-training data augmentation as well as training time input perturbations vs. embedding space perturbations on the robustness and generalization of transformer-based language models. Our findings suggest that better robustness can be achieved by pre-training data augmentation or by training with input space perturbation. However, training with embedding space perturbation significantly improves generalization. A linguistic correlation analysis of neurons of the learned models reveal that the improved generalization is due to ‘more specialized’ neurons. To the best of our knowledge, this is the first work to carry out a deep qualitative analysis of different methods of generating adversarial examples in adversarial training of language models.",
+  "keywords": [
+    "work",
+    "deep",
+    "the improved generalization",
+    "transformer",
+    "knowledge",
+    "pre-training data augmentation",
+    "embedding space perturbations",
+    "language",
+    "it",
+    "language models",
+    "generalization",
+    "transformer-based language models",
+    "we",
+    "generalizability",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.496/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

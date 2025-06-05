@@ -1,0 +1,33 @@
+{
+  "id": "2021.sigmorphon-1.10",
+  "title": "Orthographic vs. Semantic Representations for Unsupervised Morphological Paradigm Clustering",
+  "authors": [
+    "Perkoff, E. Margaret  and\nDaniels, Josh  and\nPalmer, Alexis"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 18th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "This paper presents two different systems for unsupervised clustering of morphological paradigms, in the context of the SIGMORPHON 2021 Shared Task 2. The goal of this task is to correctly cluster words in a given language by their inflectional paradigm, without any previous knowledge of the language and without supervision from labeled data of any sort. The words in a single morphological paradigm are different inflectional variants of an underlying lemma, meaning that the words share a common core meaning. They also - usually - show a high degree of orthographical similarity. Following these intuitions, we investigate KMeans clustering using two different types of word representations: one focusing on orthographical similarity and the other focusing on semantic similarity. Additionally, we discuss the merits of randomly initialized centroids versus pre-defined centroids for clustering. Pre-defined centroids are identified based on either a standard longest common substring algorithm or a connected graph method built off of longest common substring. For all development languages, the character-based embeddings perform similarly to the baseline, and the semantic embeddings perform well below the baseline. Analysis of the systems’ errors suggests that clustering based on orthographic representations is suitable for a wide range of morphological mechanisms, particularly as part of a larger system.",
+  "keywords": [
+    "semantic",
+    "we",
+    "semantic similarity",
+    "graph",
+    "cluster",
+    "clustering pre-defined centroids",
+    "orthographic vs semantic representations",
+    "word",
+    "core",
+    "analysis",
+    "the character-based embeddings",
+    "the semantic embeddings",
+    "embeddings",
+    "knowledge",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2021.sigmorphon-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:22:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

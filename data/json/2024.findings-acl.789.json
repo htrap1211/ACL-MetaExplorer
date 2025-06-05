@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.789",
+  "title": "Enhancing Hallucination Detection through Perturbation-Based Synthetic Data Generation in System Responses",
+  "authors": [
+    "Zhang, Dongxu  and\nGangal, Varun  and\nLattimer, Barrett  and\nYang, Yi"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Detecting hallucinations in large language model (LLM) outputs is pivotal, yet traditional fine-tuning for this classification task is impeded by the expensive and quickly outdated annotation process, especially across numerous vertical domains and in the face of rapid LLM advancements. In this study, we introduce an approach that automatically generates both faithful and hallucinated outputs by rewriting system responses. Experimental findings demonstrate that a T5-base model, fine-tuned on our generated dataset, surpasses state-of-the-art zero-shot detectors and existing synthetic generation methods in both accuracy and latency, indicating efficacy of our approach.",
+  "keywords": [
+    "tuning",
+    "process",
+    "rapid llm advancements",
+    "this classification task",
+    "generation",
+    "language",
+    "model",
+    "existing synthetic generation methods",
+    "llm outputs",
+    "large language model",
+    "our generated dataset surpasses",
+    "pivotal yet traditional fine-tuning",
+    "we",
+    "perturbation-based synthetic data generation",
+    "llm"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.789/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:59:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

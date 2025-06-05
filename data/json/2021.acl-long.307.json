@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.307",
+  "title": "Point, Disambiguate and Copy: Incorporating Bilingual Dictionaries for Neural Machine Translation",
+  "authors": [
+    "Zhang, Tong  and\nZhang, Long  and\nYe, Wei  and\nLi, Bo  and\nSun, Jinan  and\nZhu, Xiaoyu  and\nZhao, Wen  and\nZhang, Shikun"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "This paper proposes a sophisticated neural architecture to incorporate bilingual dictionaries into Neural Machine Translation (NMT) models. By introducing three novel components: Pointer, Disambiguator, and Copier, our method PDC achieves the following merits inherently compared with previous efforts: (1) Pointer leverages the semantic information from bilingual dictionaries, for the first time, to better locate source words whose translation in dictionaries can potentially be used; (2) Disambiguator synthesizes contextual information from the source view and the target view, both of which contribute to distinguishing the proper translation of a specific source word from multiple candidates in dictionaries; (3) Copier systematically connects Pointer and Disambiguator based on a hierarchical copy mechanism seamlessly integrated with Transformer, thereby building an end-to-end architecture that could avoid error propagation problems in alternative pipe-line methods. The experimental results on Chinese-English and English-Japanese benchmarks demonstrate the PDC’s overall superiority and effectiveness of each component.",
+  "keywords": [
+    "end",
+    "neural machine translation",
+    "a hierarchical copy mechanism",
+    "the source view",
+    "semantic",
+    "the proper translation",
+    "translation",
+    "neural",
+    "the semantic information",
+    "information",
+    "word",
+    "3 copier",
+    "copier",
+    "transformer",
+    "hierarchical"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.307/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

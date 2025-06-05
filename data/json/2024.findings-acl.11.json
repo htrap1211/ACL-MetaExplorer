@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.11",
+  "title": "Graph Chain-of-Thought: Augmenting Large Language Models by Reasoning on Graphs",
+  "authors": [
+    "Jin, Bowen  and\nXie, Chulin  and\nZhang, Jiawei  and\nRoy, Kashob Kumar  and\nZhang, Yu  and\nLi, Zheng  and\nLi, Ruirui  and\nTang, Xianfeng  and\nWang, Suhang  and\nMeng, Yu  and\nHan, Jiawei"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large language models (LLMs), while exhibiting exceptional performance, suffer from hallucinations, especially on knowledge-intensive tasks. Existing works propose to augment LLMs with individual text units retrieved from external knowledge corpora to alleviate the issue. However, in many domains, texts are interconnected (e.g., academic papers in a bibliographic graph are linked by citations and co-authorships) which form a (text-attributed) graph. The knowledge in such graphs is encoded not only in single texts/nodes but also in their associated connections. To facilitate the research of augmenting LLMs with graphs, we manually construct a Graph Reasoning Benchmark dataset called GRBench, containing 1,740 questions that can be answered with the knowledge from 10 domain graphs. Then, we propose a simple and effective framework called Graph Chain-of-thought (Graph-CoT) to augment LLMs with graphs by encouraging LLMs to reason on the graph iteratively. Each Graph-CoT iteration consists of three sub-steps: LLM reasoning, LLM-graph interaction, and graph execution. We conduct systematic experiments with three LLM backbones on GRBench, where Graph-CoT outperforms the baselines consistently. The code is available at https://github.com/PeterGriffinJin/Graph-CoT/.",
+  "keywords": [
+    "code",
+    "chain",
+    "we",
+    "graph",
+    "llm",
+    "co",
+    "cot",
+    "each graph-cot iteration",
+    "llms",
+    "graph-cot",
+    "text",
+    "-",
+    "three llm backbones",
+    "knowledge",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:48:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P17-1030",
+  "title": "Scalable {B}ayesian Learning of Recurrent Neural Networks for Language Modeling",
+  "authors": [
+    "Gan, Zhe  and\nLi, Chunyuan  and\nChen, Changyou  and\nPu, Yunchen  and\nSu, Qinliang  and\nCarin, Lawrence"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recurrent neural networks (RNNs) have shown promising performance for language modeling. However, traditional training of RNNs using back-propagation through time often suffers from overfitting. One reason for this is that stochastic optimization (used for large training sets) does not provide good estimates of model uncertainty. This paper leverages recent advances in stochastic gradient Markov Chain Monte Carlo (also appropriate for large training sets) to learn weight uncertainty in RNNs. It yields a principled Bayesian learning algorithm, adding gradient noise during training (enhancing exploration of the model-parameter space) and model averaging when testing. Extensive experiments on various RNN models and across a broad range of applications demonstrate the superiority of the proposed approach relative to stochastic optimization.",
+  "keywords": [
+    "chain",
+    "rnns",
+    "language modeling",
+    "parameter",
+    "training",
+    "recurrent neural networks",
+    "neural",
+    "gradient noise",
+    "it",
+    "learning",
+    "recurrent",
+    "various rnn models",
+    "rnn",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/P17-1030/",
+  "provenance": {
+    "collected_at": "2025-06-04 23:57:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

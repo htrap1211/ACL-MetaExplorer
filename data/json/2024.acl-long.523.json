@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.523",
+  "title": "Direct Large Language Model Alignment Through Self-Rewarding Contrastive Prompt Distillation",
+  "authors": [
+    "Liu, Aiwei  and\nBai, Haoping  and\nLu, Zhiyun  and\nKong, Xiang  and\nWang, Xiaoming  and\nShan, Jiulong  and\nCao, Meng  and\nWen, Lijie"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Aligning large language models (LLMs) with human expectations without human-annotated preference data is an important problem. In this paper, we propose a method to evaluate the response preference by using the output probabilities of response pairs under contrastive prompt pairs, which could achieve better performance on LLaMA2-7B and LLaMA2-13B compared to RLAIF. Based on this, we propose an automatic alignment method, Direct Large Model Alignment (DLMA). First, we use contrastive prompt pairs to automatically generate preference data. Then, we continue to evaluate the generated preference data using contrastive prompt pairs and calculate a self-rewarding score. Finally, we use the DPO algorithm to effectively align LLMs by combining this self-rewarding score. In the experimental stage, our DLMA method could surpass the RLHF method without relying on human-annotated preference data.",
+  "keywords": [
+    "alignment",
+    "the output probabilities",
+    "the rlhf method",
+    "prompt",
+    "the generated preference data",
+    "language",
+    "model",
+    "rlhf",
+    "human",
+    "large language models",
+    "self",
+    "an automatic alignment method",
+    "probabilities",
+    "we",
+    "self-rewarding contrastive prompt distillation"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.523/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

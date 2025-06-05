@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.26",
+  "title": "Resolving Elliptical Compounds in {G}erman Medical Text",
+  "authors": [
+    "Kammer, Niklas  and\nBorchert, Florian  and\nWinkler, Silvia  and\nde Melo, Gerard  and\nSchapranow, Matthieu-P."
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "Elliptical coordinated compound noun phrases (ECCNPs), a special kind of coordination ellipsis, are a common phenomenon in German medical texts. As their presence is known to affect the performance in downstream tasks such as entity extraction and disambiguation, their resolution can be a useful preprocessing step in information extraction pipelines. In this work, we present a new comprehensive dataset of more than 4,000 manually annotated ECCNPs in German medical text, along with the respective ground truth resolutions. Based on this data, we propose a generative encoder-decoder Transformer model, allowing for a simple end-to-end resolution of ECCNPs from raw input strings with very high accuracy (90.5% exact match score). We compare our approach to an elaborate rule-based baseline, which the generative model outperforms by a large margin. We further investigate different scenarios for prompting large language models (LLM) to resolve ECCNPs. In a zero-shot setting, performance is remarkably poor (21.6% exact matches), as the LLM tends to apply complex changes to the inputs unrelated to our specific task. We also find no improvement over the generative model when using the LLM for post-filtering of generated candidate resolutions.",
+  "keywords": [
+    "end",
+    "extraction",
+    "we",
+    "a zero-shot setting performance",
+    "generated candidate resolutions",
+    "llm",
+    "shot",
+    "decoder",
+    "information",
+    "generative",
+    "very high accuracy",
+    "text",
+    "the llm",
+    "information extraction pipelines",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.26/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

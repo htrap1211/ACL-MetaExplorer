@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.315",
+  "title": "G}umbel{S}oft: Diversified Language Model Watermarking via the {G}umbel{M}ax-trick",
+  "authors": [
+    "Fu, Jiayi  and\nZhao, Xuandong  and\nYang, Ruihan  and\nZhang, Yuansen  and\nChen, Jiangjie  and\nXiao, Yanghua"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large language models (LLMs) excellently generate human-like text, but also raise concerns about misuse in fake news and academic dishonesty. Decoding-based watermark, particularly the watermark based on the GumbelMax trick (GM watermark), is a standout solution for safeguarding machine-generated texts due to its notable detectability. However, GM watermark encounters a major challenge with generation diversity, always yielding identical outputs for the same prompt, negatively impacting generation diversity and user experience. To overcome this limitation, we introduce a new type of GM watermark, the Logits-Addition watermark, as well as three variants that aim to enhance diversity, particularly the GumbelSoft watermark (i.e., the softmax variant of the Logits-Addition watermark). When assessed for detectability in high diversity settings, our Gumbelsoft demonstrates superior performance, with its AUROC score exceeding those of the two alternative variants by a margin of 0.1 to 0.3 and outperforming other decoding-based watermarking methods by a minimum of 0.1.",
+  "keywords": [
+    "we",
+    "softmax",
+    "ax-trick large language models",
+    "the softmax variant",
+    "machine-generated texts",
+    "generation diversity",
+    "the same prompt",
+    "llms",
+    "prompt",
+    "i",
+    "text",
+    "experience",
+    "diversified",
+    "language",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.315/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

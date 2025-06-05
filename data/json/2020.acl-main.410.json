@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.410",
+  "title": "Clinical Reading Comprehension: A Thorough Analysis of the emr{QA} Dataset",
+  "authors": [
+    "Yue, Xiang  and\nJimenez Gutierrez, Bernal  and\nSun, Huan"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Machine reading comprehension has made great progress in recent years owing to large-scale annotated datasets. In the clinical domain, however, creating such datasets is quite difficult due to the domain expertise required for annotation. Recently, Pampari et al. (EMNLP’18) tackled this issue by using expert-annotated question templates and existing i2b2 annotations to create emrQA, the first large-scale dataset for question answering (QA) based on clinical notes. In this paper, we provide an in-depth analysis of this dataset and the clinical reading comprehension (CliniRC) task. From our qualitative analysis, we find that (i) emrQA answers are often incomplete, and (ii) emrQA questions are often answerable without using domain knowledge. From our quantitative experiments, surprising results include that (iii) using a small sampled subset (5%-20%), we can obtain roughly equal performance compared to the model trained on the entire dataset, (iv) this performance is close to human expert’s performance, and (v) BERT models do not beat the best performing base model. Following our analysis of the emrQA, we further explore two desired aspects of CliniRC systems: the ability to utilize clinical domain knowledge and to generalize to unseen questions and contexts. We argue that both should be considered when creating future datasets.",
+  "keywords": [
+    "emnlp",
+    "the emrqa",
+    "question",
+    "we",
+    "et al emnlp",
+    "analysis",
+    "i",
+    "bert",
+    "emrqa",
+    "knowledge",
+    "model",
+    "machine",
+    "human",
+    "qa",
+    "v bert models"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.410/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:47:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.120",
+  "title": "Skill Induction and Planning with Latent Language",
+  "authors": [
+    "Sharma, Pratyusha  and\nTorralba, Antonio  and\nAndreas, Jacob"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We present a framework for learning hierarchical policies from demonstrations, using sparse natural language annotations to guide the discovery of reusable skills for autonomous decision-making. We formulate a generative model of action sequences in which goals generate sequences of high-level subtask descriptions, and these descriptions generate sequences of low-level actions. We describe how to train this model using primarily unannotated demonstrations by parsing demonstrations into sequences of named high-level sub-tasks, using only a small number of seed annotations to ground language in action. In trained models, natural language commands index a combinatorial library of skills; agents can use these skills to plan by generating high-level instruction sequences tailored to novel goals. We evaluate this approach in the ALFRED household simulation environment, providing natural language annotations for only 10% of demonstrations. It achieves performance comparable state-of-the-art models on ALFRED success rate, outperforming several recent methods with access to ground-truth plans during training and evaluation.",
+  "keywords": [
+    "rate",
+    "we",
+    "training",
+    "instruction",
+    "natural",
+    "it",
+    "policies",
+    "latent",
+    "generative",
+    "a generative model",
+    "-",
+    "action",
+    "hierarchical policies",
+    "hierarchical",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.120/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.474",
+  "title": "Ranking Entities along Conceptual Space Dimensions with {LLM}s: An Analysis of Fine-Tuning Strategies",
+  "authors": [
+    "Kumar, Nitesh  and\nChatterjee, Usashi  and\nSchockaert, Steven"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Conceptual spaces represent entities in terms of their primitive semantic features. Such representations are highly valuable but they are notoriously difficult to learn, especially when it comes to modelling perceptual and subjective features. Distilling conceptual spaces from Large Language Models (LLMs) has recently emerged as a promising strategy, but existing work has been limited to probing pre-trained LLMs using relatively simple zero-shot strategies. We focus in particular on the task of ranking entities according to a given conceptual space dimension. Unfortunately, we cannot directly fine-tune LLMs on this task, because ground truth rankings for conceptual space dimensions are rare. We therefore use more readily available features as training data and analyse whether the ranking capabilities of the resulting models transfer to perceptual and subjective features. We find that this is indeed the case, to some extent, but having at least some perceptual and subjective features in the training data seems essential for achieving the best results.",
+  "keywords": [
+    "work",
+    "the ranking capabilities",
+    "tuning",
+    "language",
+    "fine-tuning strategies",
+    "entities",
+    "it",
+    "strategies",
+    "pre-trained llms",
+    "large language models llms",
+    "ranking entities",
+    "relatively simple zero-shot strategies",
+    "capabilities",
+    "fine",
+    "semantic"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.474/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:55:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.33",
+  "title": "A Fine-grained citation graph for biomedical academic papers: the finding-citation graph",
+  "authors": [
+    "Liang, Yuan  and\nPoesio, Massimo  and\nRezvani, Roonak"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "Citations typically mention findings as well as papers. To model this richer notion of citation, we introduce a richer form of citation graph with nodes for both academic papers and their findings: the finding-citation graph (FCG). We also present a new pipeline to construct such a graph, which includes a finding identification module and a citation sentence extraction module. From each paper, it extracts rich basic information, abstract, and structured full text first. The abstract and vital sections, such as the results and discussion, are input into the finding identification module. This module identifies multiple findings from a paper, achieving an 80% accuracy in multiple findings evaluation. The full text is input into the citation sentence extraction module to identify inline citation sentences and citation markers, achieving 97.7% accuracy. Then, the graph is constructed using the outputs from the two modules mentioned above. We used the Europe PMC to build such a graph using the pipeline, resulting in a graph with 14.25 million nodes and 76 million edges.",
+  "keywords": [
+    "extraction",
+    "multiple findings evaluation",
+    "97 7 accuracy",
+    "form",
+    "we",
+    "graph",
+    "it",
+    "information",
+    "rich",
+    "text",
+    "accuracy",
+    "an 80 accuracy",
+    "evaluation",
+    "notion",
+    "citation markers"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.33/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.319",
+  "title": "Multi-modal Concept Alignment Pre-training for Generative Medical Visual Question Answering",
+  "authors": [
+    "Yan, Quan  and\nDuan, Junwen  and\nWang, Jianxin"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Medical Visual Question Answering (Med-VQA) seeks to accurately respond to queries regarding medical images, a task particularly challenging for open-ended questions. This study unveils the Multi-modal Concept Alignment Pre-training (MMCAP) approach for generative Med-VQA, leveraging a knowledge graph sourced from medical image-caption datasets and the Unified Medical Language System. MMCAP advances the fusion of visual and textual medical knowledge via a graph attention network and a transformer decoder. Additionally, it incorporates a Type Conditional Prompt in the fine-tuning phase, markedly boosting the accuracy and relevance of answers to open-ended questions. Our tests on benchmark datasets illustrate MMCAP’s superiority over existing methods, demonstrating its high efficiency in data-limited settings and effective knowledge-image alignment capability.",
+  "keywords": [
+    "multi-modal concept alignment",
+    "a knowledge graph",
+    "alignment",
+    "generative",
+    "the accuracy",
+    "transformer",
+    "tuning",
+    "knowledge",
+    "prompt",
+    "language",
+    "it",
+    "queries",
+    "-",
+    "unified",
+    "decoder"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.319/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

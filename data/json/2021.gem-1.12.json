@@ -1,0 +1,33 @@
+{
+  "id": "2021.gem-1.12",
+  "title": "Structure-to-Text Generation with Self-Training, Acceptability Classifiers and Context-Conditioning for the {GEM} Shared Task",
+  "authors": [
+    "Bakshi, Shreyan  and\nBatra, Soumya  and\nHeidari, Peyman  and\nArun, Ankit  and\nJain, Shashank  and\nWhite, Michael"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Natural Language Generation, Evaluation, and Metrics (GEM 2021)",
+  "abstract": "We explore the use of self-training and acceptability classifiers with pre-trained models for natural language generation in structure-to-text settings using three GEM datasets (E2E, WebNLG-en, Schema-Guided Dialog). With the Schema-Guided Dialog dataset, we also experiment with including multiple turns of context in the input. We find that self-training with reconstruction matching along with acceptability classifier filtering can improve semantic correctness, though gains are limited in the full-data setting. With context-conditioning, we find that including multiple turns in the context encourages the model to align with the user’s word and phrasing choices as well as to generate more self-consistent responses. In future versions of the GEM challenge, we encourage the inclusion of few-shot tracks to encourage research on data efficiency.",
+  "keywords": [
+    "semantic correctness",
+    "generation",
+    "language",
+    "natural",
+    "classifier",
+    "model",
+    "text",
+    "few-shot tracks",
+    "self",
+    "classifiers",
+    "dialog",
+    "data efficiency",
+    "self-training acceptability classifiers",
+    "efficiency",
+    "semantic"
+  ],
+  "url": "https://aclanthology.org/2021.gem-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

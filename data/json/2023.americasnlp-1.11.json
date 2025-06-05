@@ -1,0 +1,33 @@
+{
+  "id": "2023.americasnlp-1.11",
+  "title": "Parallel Corpus for Indigenous Language Translation: {S}panish-Mazatec and {S}panish-{M}ixtec",
+  "authors": [
+    "Tonja, Atnafu Lambebo  and\nMaldonado-sifuentes, Christian  and\nMendoza Castillo, David Alejandro  and\nKolesnikova, Olga  and\nCastro-S{\\'a}nchez, No{\\'e}  and\nSidorov, Grigori  and\nGelbukh, Alexander"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the Workshop on Natural Language Processing for Indigenous Languages of the Americas (AmericasNLP)",
+  "abstract": "In this paper, we present a parallel Spanish- Mazatec and Spanish-Mixtec corpus for machine translation (MT) tasks, where Mazatec and Mixtec are two indigenous Mexican languages. We evaluated the usability of the collected corpus using three different approaches: transformer, transfer learning, and fine-tuning pre-trained multilingual MT models. Fine-tuning the Facebook m2m100-48 model outperformed the other approaches, with BLEU scores of 12.09 and 22.25 for Mazatec-Spanish and Spanish-Mazatec translations, respectively, and 16.75 and 22.15 for Mixtec-Spanish and Spanish-Mixtec translations, respectively. The results indicate that translation performance is influenced by the dataset size (9,799 sentences in Mazatec and 13,235 sentences in Mixtec) and is more effective when indigenous languages are used as target languages. The findings emphasize the importance of creating parallel corpora for indigenous languages and fine-tuning models for low-resource translation tasks. Future research will investigate zero-shot and few-shot learning approaches to further improve translation performance in low-resource settings.",
+  "keywords": [
+    "transformer",
+    "low-resource translation tasks",
+    "tuning",
+    "language",
+    "indigenous language translation",
+    "model",
+    "machine",
+    "mixtec-spanish and spanish-mixtec translations",
+    "bleu",
+    "machine translation mt tasks",
+    "fine",
+    "we",
+    "transfer",
+    "learning",
+    "bleu scores"
+  ],
+  "url": "https://aclanthology.org/2023.americasnlp-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:21:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

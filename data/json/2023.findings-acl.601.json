@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.601",
+  "title": "Progressive Translation: Improving Domain Robustness of Neural Machine Translation with Intermediate Sequences",
+  "authors": [
+    "Wang, Chaojun  and\nLiu, Yang  and\nLam, Wai"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Previous studies show that intermediate supervision signals benefit various Natural Language Processing tasks. However, it is not clear whether there exist intermediate signals that benefit Neural Machine Translation (NMT). Borrowing techniques from Statistical Machine Translation, we propose intermediate signals which are intermediate sequences from the “source-like” structure to the “target-like” structure. Such intermediate sequences introduce an inductive bias that reflects a domain-agnostic principle of translation, which reduces spurious correlations that are harmful to out-of-domain generalisation. Furthermore, we introduce a full-permutation multi-task learning to alleviate the spurious causal relations from intermediate sequences to the target, which results fromexposure bias. The Minimum Bayes Risk decoding algorithm is used to pick the best candidate translation from all permutations to further improve the performance. Experiments show that the introduced intermediate signals can effectively improve the domain robustness of NMT and reduces the amount of hallucinations on out-of-domain translation. Further analysis shows that our methods are especially promising in low-resource scenarios.",
+  "keywords": [
+    "bias",
+    "neural machine translation",
+    "we",
+    "translation",
+    "neural",
+    "natural",
+    "it",
+    "generalisation",
+    "learning",
+    "analysis",
+    "processing",
+    "previous studies",
+    "progressive translation",
+    "an inductive bias",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.601/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

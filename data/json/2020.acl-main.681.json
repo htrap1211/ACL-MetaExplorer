@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.681",
+  "title": "Towards Open Domain Event Trigger Identification using Adversarial Domain Adaptation",
+  "authors": [
+    "Naik, Aakanksha  and\nRose, Carolyn"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We tackle the task of building supervised event trigger identification models which can generalize better across domains. Our work leverages the adversarial domain adaptation (ADA) framework to introduce domain-invariance. ADA uses adversarial training to construct representations that are predictive for trigger identification, but not predictive of the example’s domain. It requires no labeled data from the target domain, making it completely unsupervised. Experiments with two domains (English literature and news) show that ADA leads to an average F1 score improvement of 3.9 on out-of-domain data. Our best performing model (BERT-A) reaches 44-49 F1 across both domains, using no labeled target data. Preliminary experiments reveal that finetuning on 1% labeled data, followed by self-training leads to substantial improvement, reaching 51.5 and 67.2 F1 on literature and news respectively.",
+  "keywords": [
+    "work",
+    "44-49 f1",
+    "bert",
+    "model",
+    "it",
+    "67 2 f1",
+    "self",
+    "ada",
+    "we",
+    "invariance",
+    "domain-invariance ada",
+    "training",
+    "that",
+    "news",
+    "identification"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.681/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:51:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

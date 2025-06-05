@@ -1,0 +1,33 @@
+{
+  "id": "2022.wassa-1.11",
+  "title": "Opinion-based Relational Pivoting for Cross-domain Aspect Term Extraction",
+  "authors": [
+    "Klein, Ayal  and\nPereg, Oren  and\nKorat, Daniel  and\nLal, Vasudev  and\nWasserblat, Moshe  and\nDagan, Ido"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 12th Workshop on Computational Approaches to Subjectivity, Sentiment {\\&} Social Media Analysis",
+  "abstract": "Domain adaptation methods often exploit domain-transferable input features, a.k.a. pivots. The task of Aspect and Opinion Term Extraction presents a special challenge for domain transfer: while opinion terms largely transfer across domains, aspects change drastically from one domain to another (e.g. from restaurants to laptops). In this paper, we investigate and establish empirically a prior conjecture, which suggests that the linguistic relations connecting opinion terms to their aspects transfer well across domains and therefore can be leveraged for cross-domain aspect term extraction. We present several analyses supporting this conjecture, via experiments with four linguistic dependency formalisms to represent relation patterns. Subsequently, we present an aspect term extraction method that drives models to consider opinion–aspect relations via explicit multitask objectives. This method provides significant performance gains, even on top of a prior state-of-the-art linguistically-informed model, which are shown in analysis to stem from the relational pivoting signal.",
+  "keywords": [
+    "cross",
+    "top",
+    "four linguistic dependency formalisms",
+    "explicit multitask objectives",
+    "objectives",
+    "extraction",
+    "model",
+    "dependency",
+    "we",
+    "transfer",
+    "analysis",
+    "that",
+    "term",
+    "this method",
+    "multitask"
+  ],
+  "url": "https://aclanthology.org/2022.wassa-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:46:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

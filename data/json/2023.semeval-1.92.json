@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.92",
+  "title": "SRCB} at {S}em{E}val-2023 Task 2: A System of Complex Named Entity Recognition with External Knowledge",
+  "authors": [
+    "Zhang, Yuming  and\nLi, Hongyu  and\nZhang, Yongwei  and\nJiang, Shanshan  and\nDong, Bin"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "The MultiCoNER II shared task aims at detecting semantically ambiguous and complex named entities in short and low-context settings for multiple languages. The lack of context makes the recognition of ambiguous named entities challenging. To alleviate this issue, our team SRCB proposes an external knowledge based system, where we utilize 3 different types of external knowledge retrieved in different ways. Given an original text, our system retrieves the possible labels and the descriptions for each potential entity detected by a mention detection model. And we also retrieve a related document as extra context from Wikipedia for each original text. We concatenate the original text with the external knowledge as the input of NER models. The informative contextual representations with external knowledge significantly improve the NER performance in both Chinese and English tracks. Our system win the 3rd place in the Chinese track and the 6th place in the English track.",
+  "keywords": [
+    "extra",
+    "ambiguous named entities",
+    "multiconer",
+    "we",
+    "ner models",
+    "ner",
+    "complex named entity recognition",
+    "text",
+    "the ner performance",
+    "knowledge",
+    "model",
+    "entities",
+    "entity",
+    "an original text",
+    "external knowledge"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.92/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:27:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

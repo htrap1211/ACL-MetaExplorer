@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.131",
+  "title": "VAULT}: {VA}riable Unified Long Text Representation for Machine Reading Comprehension",
+  "authors": [
+    "Wen, Haoyang  and\nFerritto, Anthony  and\nJi, Heng  and\nFlorian, Radu  and\nSil, Avi"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Existing models on Machine Reading Comprehension (MRC) require complex model architecture for effectively modeling long texts with paragraph representation and classification, thereby making inference computationally inefficient for production use. In this work, we propose VAULT: a light-weight and parallel-efficient paragraph representation for MRC based on contextualized representation from long document input, trained using a new Gaussian distribution-based objective that pays close attention to the partially correct instances that are close to the ground-truth. We validate our VAULT architecture showing experimental results on two benchmark MRC datasets that require long context modeling; one Wikipedia-based (Natural Questions (NQ)) and the other on TechNotes (TechQA). VAULT can achieve comparable performance on NQ with a state-of-the-art (SOTA) complex document modeling approach while being 16 times faster, demonstrating the efficiency of our proposed model. We also demonstrate that our model can also be effectively adapted to a completely different domain – TechQA – with large improvement over a model fine-tuned on a previously published large PLM.",
+  "keywords": [
+    "inefficient",
+    "techqa",
+    "efficient",
+    "efficiency",
+    "we",
+    "classification",
+    "natural",
+    "the efficiency",
+    "unified",
+    "text",
+    "objective",
+    "work",
+    "model",
+    "machine",
+    "close attention"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.131/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:08:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

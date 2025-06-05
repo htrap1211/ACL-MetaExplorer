@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.533",
+  "title": "The statistical advantage of automatic {NLG} metrics at the system level",
+  "authors": [
+    "Wei, Johnny  and\nJia, Robin"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Estimating the expected output quality of generation systems is central to NLG. This paper qualifies the notion that automatic metrics are not as good as humans in estimating system-level quality. Statistically, humans are unbiased, high variance estimators, while metrics are biased, low variance estimators. We compare these estimators by their error in pairwise prediction (which generation system is better?) using the bootstrap. Measuring this error is complicated: predictions are evaluated against noisy, human predicted labels instead of the ground truth, and metric predictions fluctuate based on the test sets they were calculated on. By applying a bias-variance-noise decomposition, we adjust this error to a noise-free, infinite test set setting. Our analysis compares the adjusted error of metrics to humans and a derived, perfect segment-level annotator, both of which are unbiased estimators dependent on the number of judgments collected. In MT, we identify two settings where metrics outperform humans due to a statistical advantage in variance: when the number of human judgments used is small, and when the quality difference between compared systems is small.",
+  "keywords": [
+    "bias",
+    "unbiased",
+    "unbiased estimators",
+    "we",
+    "variance",
+    "biased",
+    "biased low variance estimators",
+    "analysis",
+    "which generation system",
+    "automatic nlg metrics",
+    "metric",
+    "metrics",
+    "generation systems",
+    "generation",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.533/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.115",
+  "title": "Disentangling Aspect and Stance via a {S}iamese Autoencoder for Aspect Clustering of Vaccination Opinions",
+  "authors": [
+    "Zhu, Lixing  and\nZhao, Runcong  and\nPergola, Gabriele  and\nHe, Yulan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Mining public opinions about vaccines from social media has been increasingly relevant to analyse trends in public debates and to provide quick insights to policy-makers. However, the application of existing models has been hindered by the wide variety of users’ attitudes and the new aspects continuously arising in the public debate. Existing approaches, frequently framed via well-known tasks, such as aspect classification or text span detection, make direct usage of the supervision information constraining the models to predefined aspect classes, while still not distinguishing those aspects from users’ stances. As a result, this has significantly hindered the dynamic integration of new aspects. We thus propose a model, namely Disentangled Opinion Clustering (DOC), for vaccination opinion mining from social media. DOC is able to disentangle users’ stances from opinions via a disentangling attention mechanism and a Swapping-Autoencoder, and is designed to process unseen aspect categories via a clustering approach, leveraging clustering-friendly representations induced by out-of-the-box Sentence-BERT encodings and disentangling mechanisms. We conduct a thorough experimental assessment demonstrating the benefit of the disentangling mechanisms and cluster-based approach on both the quality of aspect clusters and the generalization across new aspect categories, outperforming existing methodologies on aspect-based opinion mining.",
+  "keywords": [
+    "variety",
+    "the wide variety",
+    "a swapping-autoencoder",
+    "clustering-friendly representations",
+    "autoencoder",
+    "we",
+    "classification",
+    "friendly",
+    "cluster",
+    "information",
+    "a disentangling attention mechanism",
+    "new aspect categories",
+    "a clustering approach",
+    "unseen aspect categories",
+    "existing methodologies"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.115/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

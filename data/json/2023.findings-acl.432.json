@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.432",
+  "title": "Digging out Discrimination Information from Generated Samples for Robust Visual Question Answering",
+  "authors": [
+    "Wen, Zhiquan  and\nWang, Yaowei  and\nTan, Mingkui  and\nWu, Qingyao  and\nWu, Qi"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Visual Question Answering (VQA) aims to answer a textual question based on a given image. Nevertheless, recent studies have shown that VQA models tend to capture the biases to answer the question, instead of using the reasoning ability, resulting in poor generalisation ability. To alleviate the issue, some existing methods consider the natural distribution of the data, and construct samples to balance the dataset, achieving remarkable performance. However, these methods may encounter some limitations: 1) rely on additional annotations, 2) the generated samples may be inaccurate, e.g., assigned wrong answers, and 3) ignore the power of positive samples. In this paper, we propose a method to Dig out Discrimination information from Generated samples (DDG) to address the above limitations. Specifically, we first construct positive and negative samples in vision and language modalities, without using additional annotations. Then, we introduce a knowledge distillation mechanism to promote the learning of the original samples by the positive samples. Moreover, we impel the VQA models to focus on vision and language modalities using the negative samples. Experimental results on the VQA-CP v2 and VQA v2 datasets show the effectiveness of our DDG.",
+  "keywords": [
+    "question",
+    "we",
+    "vision and language modalities",
+    "generated samples",
+    "natural",
+    "generalisation",
+    "information",
+    "the vqa models",
+    "learning",
+    "visual",
+    "the vqa-cp v2",
+    "recent studies",
+    "the generated samples",
+    "generated",
+    "biases"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.432/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

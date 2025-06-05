@@ -1,0 +1,33 @@
+{
+  "id": "P18-1001",
+  "title": "Probabilistic {F}ast{T}ext for Multi-Sense Word Embeddings",
+  "authors": [
+    "Athiwaratkun, Ben  and\nWilson, Andrew  and\nAnandkumar, Anima"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We introduce Probabilistic FastText, a new model for word embeddings that can capture multiple word senses, sub-word structure, and uncertainty information. In particular, we represent each word with a Gaussian mixture density, where the mean of a mixture component is given by the sum of n-grams. This representation allows the model to share the “strength” across sub-word structures (e.g. Latin roots), producing accurate representations of rare, misspelt, or even unseen words. Moreover, each component of the mixture can capture a different word sense. Probabilistic FastText outperforms both FastText, which has no probabilistic model, and dictionary-level probabilistic embeddings, which do not incorporate subword structures, on several word-similarity benchmarks, including English RareWord and foreign language datasets. We also achieve state-of-art performance on benchmarks that measure ability to discern different meanings. Thus, our model is the first to achieve best of both the worlds: multi-sense representations while having enriched semantics on rare words.",
+  "keywords": [
+    "ast",
+    "probabilistic fasttext",
+    "we",
+    "semantics",
+    "dictionary-level probabilistic embeddings",
+    "information",
+    "word",
+    "sum",
+    "both fasttext",
+    "word embeddings",
+    "embeddings",
+    "language",
+    "model",
+    "enriched semantics",
+    "fasttext"
+  ],
+  "url": "https://aclanthology.org/P18-1001/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:08:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

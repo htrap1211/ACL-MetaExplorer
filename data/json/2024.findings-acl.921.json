@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.921",
+  "title": "Tailoring with Targeted Precision: Edit-Based Agents for Open-Domain Procedure Customization",
+  "authors": [
+    "Lal, Yash Kumar  and\nZhang, Li  and\nBrahman, Faeze  and\nMajumder, Bodhisattwa Prasad  and\nClark, Peter  and\nTandon, Niket"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "How-to procedures, such as how to plant a garden, are now used by millions of users, but sometimes need customizing to meet a user’s specific needs, e.g., planting a garden without pesticides. Our goal is to measure and improve an LLM’s ability to perform such customization. Our approach is to test several simple multi-LLM-agent architectures for customization, as well as an end-to-end LLM, using a new evaluation set, called CustomPlans, of over 200 WikiHow procedures each with a customization need. We find that a simple architecture with two LLM agents used sequentially performs best, one that edits a generic how-to procedure and one that verifies its executability, significantly outperforming (10.5% absolute) an end-to-end prompted LLM. This suggests that LLMs can be configured reasonably effectively for procedure customization. This also suggests that multi-agent editing architectures may be worth exploring further for other customization applications (e.g. coding, creative writing) in the future.",
+  "keywords": [
+    "several simple multi-llm-agent architectures",
+    "e g",
+    "a generic how-to procedure",
+    "end",
+    "precision",
+    "two llm agents",
+    "an llm s ability",
+    "generic",
+    "we",
+    "evaluation",
+    "a new evaluation set",
+    "targeted precision edit-based agents",
+    "llm",
+    "llms",
+    "such customization"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.921/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

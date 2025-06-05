@@ -1,0 +1,33 @@
+{
+  "id": "2024.ml4al-1.20",
+  "title": "S}um{T}ablets: A Transliteration Dataset of {S}umerian Tablets",
+  "authors": [
+    "Simmons, Cole  and\nDiehl Martinez, Richard  and\nJurafsky, Dan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Machine Learning for Ancient Languages (ML4AL 2024)",
+  "abstract": "Sumerian transliteration is a conventional system for representing a scholar's interpretation of a tablet in the Latin script. Thanks to visionary digital Assyriology projects such as ETCSL, CDLI, and Oracc, a large number of Sumerian transliterations have been published online, and these data are well-structured for a variety of search and analysis tasks. However, the absence of a comprehensive, accessible dataset pairing transliterations with a digital representation of the tablet's cuneiform glyphs has prevented the application of modern Natural Language Processing (NLP) methods to the task of Sumerian transliteration.To address this gap, we present SumTablets, a dataset pairing Unicode representations of 91,606 Sumerian cuneiform tablets (totaling 6,970,407 glyphs) with the associated transliterations published by Oracc. We construct SumTablets by first preprocessing and standardizing the Oracc transliterations before mapping each reading back to the Unicode representation of the source glyph. Further, we retain parallel structural information (e.g., surfaces, newlines, broken segments) through the use of special tokens. We release SumTablets as a Hugging Face Dataset (CC BY 4.0) and open source data preparation code via GitHub.Additionally, we leverage SumTablets to implement and evaluate two transliteration baselines: (1) weighted sampling from a glyph's possible readings, and (2) fine-tuning an autoregressive language model. Our fine-tuned language model achieves an average transliteration character-level F-score (chrF) of 97.55, demonstrating the immediate potential of transformer-based transliteration models in allowing experts to rapidly verify generated transliterations rather than manually transliterating tablets one-by-one.",
+  "keywords": [
+    "variety",
+    "code",
+    "our fine-tuned language model",
+    "we",
+    "natural",
+    "transformer-based transliteration models",
+    "cc",
+    "information",
+    "a variety",
+    "analysis",
+    "processing",
+    "an autoregressive language model",
+    "transformer",
+    "language",
+    "nlp"
+  ],
+  "url": "https://aclanthology.org/2024.ml4al-1.20/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

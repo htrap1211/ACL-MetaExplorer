@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.73",
+  "title": "Adaptation Approaches for Nearest Neighbor Language Models",
+  "authors": [
+    "Bhardwaj, Rishabh  and\nPolovets, George  and\nSunkara, Monica"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Semi-parametric Nearest Neighbor Language Models (kNN-LMs) have produced impressive gains over purely parametric LMs, by leveraging large-scale neighborhood retrieval over external memory datastores. However, there has been little investigation into adapting such models for new domains. This work attempts to fill that gap and suggests the following approaches for adapting kNN-LMs — 1) adapting the underlying LM (using Adapters), 2) expanding neighborhood retrieval over an additional adaptation datastore, and 3) adapting the weights (scores) of retrieved neighbors using a learned Rescorer module. We study each adaptation strategy separately, as well as the combined performance improvement through ablation experiments and an extensive set of evaluations run over seven adaptation domains. Our combined adaptation approach consistently outperforms purely parametric adaptation and zero-shot (kNN-LM) baselines that construct datastores from the adaptation data. On average, we see perplexity improvements of 17.1% and 16% for these respective baselines, across domains.",
+  "keywords": [
+    "zero-shot knn-lm baselines",
+    "perplexity improvements",
+    "we",
+    "large-scale neighborhood retrieval",
+    "shot",
+    "retrieval",
+    "neighborhood retrieval",
+    "perplexity",
+    "retrieved neighbors",
+    "work",
+    "language",
+    "nearest neighbor language models",
+    "evaluations",
+    "approach",
+    "purely parametric lms"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.73/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

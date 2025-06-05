@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.402",
+  "title": "Bootstrapped Unsupervised Sentence Representation Learning",
+  "authors": [
+    "Zhang, Yan  and\nHe, Ruidan  and\nLiu, Zuozhu  and\nBing, Lidong  and\nLi, Haizhou"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "As high-quality labeled data is scarce, unsupervised sentence representation learning has attracted much attention. In this paper, we propose a new framework with a two-branch Siamese Network which maximizes the similarity between two augmented views of each sentence. Specifically, given one augmented view of the input sentence, the online network branch is trained by predicting the representation yielded by the target network of the same sentence under another augmented view. Meanwhile, the target network branch is bootstrapped with a moving average of the online network. The proposed method significantly outperforms other state-of-the-art unsupervised methods on semantic textual similarity (STS) and classification tasks. It can be adopted as a post-training procedure to boost the performance of the supervised methods. We further extend our method for learning multilingual sentence representations and demonstrate its effectiveness on cross-lingual STS tasks. Our code is available athttps://github.com/yanzhangnlp/BSL.",
+  "keywords": [
+    "much attention",
+    "code",
+    "semantic",
+    "we",
+    "two augmented views",
+    "training",
+    "classification",
+    "cross",
+    "classification tasks",
+    "it",
+    "another augmented view",
+    "one augmented view",
+    "views",
+    "learning",
+    "yanzhangnlp"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.402/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

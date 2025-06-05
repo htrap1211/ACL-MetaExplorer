@@ -1,0 +1,33 @@
+{
+  "id": "P19-1194",
+  "title": "Towards Fine-grained Text Sentiment Transfer",
+  "authors": [
+    "Luo, Fuli  and\nLi, Peng  and\nYang, Pengcheng  and\nZhou, Jie  and\nTan, Yutong  and\nChang, Baobao  and\nSui, Zhifang  and\nSun, Xu"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "In this paper, we focus on the task of fine-grained text sentiment transfer (FGST). This task aims to revise an input sequence to satisfy a given sentiment intensity, while preserving the original semantic content. Different from the conventional sentiment transfer task that only reverses the sentiment polarity (positive/negative) of text, the FTST task requires more nuanced and fine-grained control of sentiment. To remedy this, we propose a novel Seq2SentiSeq model. Specifically, the numeric sentiment intensity value is incorporated into the decoder via a Gaussian kernel layer to finely control the sentiment intensity of the output. Moreover, to tackle the problem of lacking parallel data, we propose a cycle reinforcement learning algorithm to guide the model training. In this framework, the elaborately designed rewards can balance both sentiment transformation and content preservation, while not requiring any ground truth output. Experimental results show that our approach can outperform existing methods by a large margin in both automatic evaluation and human evaluation.",
+  "keywords": [
+    "the decoder",
+    "kernel",
+    "layer",
+    "semantic",
+    "we",
+    "training",
+    "human evaluation",
+    "a gaussian kernel layer",
+    "decoder",
+    "sequence",
+    "transfer",
+    "the original semantic content",
+    "text",
+    "sentiment",
+    "reinforcement"
+  ],
+  "url": "https://aclanthology.org/P19-1194/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:34:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

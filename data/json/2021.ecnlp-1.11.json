@@ -1,0 +1,33 @@
+{
+  "id": "2021.ecnlp-1.11",
+  "title": "Unsupervised Class-Specific Abstractive Summarization of Customer Reviews",
+  "authors": [
+    "Nguyen, Thi Nhat Anh  and\nShen, Mingwei  and\nHovsepian, Karen"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 4th Workshop on e-Commerce and NLP",
+  "abstract": "Large-scale unsupervised abstractive summarization is sorely needed to automatically scan millions of customer reviews in today’s fast-paced e-commerce landscape. We address a key challenge in unsupervised abstractive summarization – reducing generic and uninformative content and producing useful information that relates to specific product aspects. To do so, we propose to model reviews in the context of some topical classes of interest. In particular, for any arbitrary set of topical classes of interest, the proposed model can learn to generate a set of class-specific summaries from multiple reviews of each product without ground-truth summaries, and the only required signal is class probabilities or class label for each review. The model combines a generative variational autoencoder, with an integrated class-correlation gating mechanism and a hierarchical structure capturing dependence among products, reviews and classes. Human evaluation shows that generated summaries are highly relevant, fluent, and representative. Evaluation using a reference dataset shows that our model outperforms state-of-the-art abstractive and extractive baselines.",
+  "keywords": [
+    "customer reviews",
+    "each review",
+    "autoencoder",
+    "unsupervised class-specific abstractive summarization",
+    "summarization",
+    "we",
+    "generated summaries",
+    "unsupervised abstractive summarization",
+    "human evaluation",
+    "a hierarchical structure",
+    "information",
+    "large-scale unsupervised abstractive summarization",
+    "reviews",
+    "generative",
+    "generic and uninformative content"
+  ],
+  "url": "https://aclanthology.org/2021.ecnlp-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

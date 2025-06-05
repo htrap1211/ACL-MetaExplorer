@@ -1,0 +1,33 @@
+{
+  "id": "P19-1640",
+  "title": "Topic Modeling with {W}asserstein Autoencoders",
+  "authors": [
+    "Nan, Feng  and\nDing, Ran  and\nNallapati, Ramesh  and\nXiang, Bing"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We propose a novel neural topic model in the Wasserstein autoencoders (WAE) framework. Unlike existing variational autoencoder based models, we directly enforce Dirichlet prior on the latent document-topic vectors. We exploit the structure of the latent space and apply a suitable kernel in minimizing the Maximum Mean Discrepancy (MMD) to perform distribution matching. We discover that MMD performs much better than the Generative Adversarial Network (GAN) in matching high dimensional Dirichlet distribution. We further discover that incorporating randomness in the encoder output during training leads to significantly more coherent topics. To measure the diversity of the produced topics, we propose a simple topic uniqueness metric. Together with the widely used coherence measure NPMI, we offer a more wholistic evaluation of topic quality. Experiments on several real datasets show that our model produces significantly better topics than existing topic models.",
+  "keywords": [
+    "the generative adversarial network",
+    "generative",
+    "the encoder output",
+    "autoencoders",
+    "neural",
+    "w asserstein autoencoders",
+    "model",
+    "metric",
+    "a suitable kernel",
+    "vectors",
+    "kernel",
+    "autoencoder",
+    "topic",
+    "modeling",
+    "encoder"
+  ],
+  "url": "https://aclanthology.org/P19-1640/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:47:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

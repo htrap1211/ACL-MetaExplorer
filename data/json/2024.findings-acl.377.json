@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.377",
+  "title": "OTTAWA}: Optimal {T}ranspor{T} Adaptive Word Aligner for Hallucination and Omission Translation Errors Detection",
+  "authors": [
+    "Huang, Chenyang  and\nGhaddar, Abbas  and\nKobyzev, Ivan  and\nRezagholizadeh, Mehdi  and\nZaiane, Osmar  and\nChen, Boxing"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Recently, there has been considerable attention on detecting hallucinations and omissions in Machine Translation (MT) systems. The two dominant approaches to tackle this task involve analyzing the MT system’s internal states or relying on the output of external tools, such as sentence similarity or MT quality estimators. In this work, we introduce OTTAWA, a novel Optimal Transport (OT)-based word aligner specifically designed to enhance the detection of hallucinations and omissions in MT systems. Our approach explicitly models the missing alignments by introducing a “null” vector, for which we propose a novel one-side constrained OT setting to allow an adaptive null alignment. Our approach yields competitive results compared to state-of-the-art methods across 18 language pairs on the HalOmi benchmark. In addition, it shows promising features, such as the ability to distinguish between both error types and perform word-level detection without accessing the MT system’s internal states.",
+  "keywords": [
+    "alignments",
+    "we",
+    "translation",
+    "it",
+    "aligner",
+    "considerable attention",
+    "machine translation mt systems",
+    "word",
+    "a null vector",
+    "vector",
+    "an adaptive null alignment",
+    "work",
+    "alignment",
+    "language",
+    "machine"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.377/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:53:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

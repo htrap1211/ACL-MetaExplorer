@@ -1,0 +1,33 @@
+{
+  "id": "W19-5012",
+  "title": "A distantly supervised dataset for automated data extraction from diagnostic studies",
+  "authors": [
+    "Norman, Christopher  and\nLeeflang, Mariska  and\nSpijker, Ren{\\'e}  and\nKanoulas, Evangelos  and\nN{\\'e}v{\\'e}ol, Aur{\\'e}lie"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 18th BioNLP Workshop and Shared Task",
+  "abstract": "Systematic reviews are important in evidence based medicine, but are expensive to produce. Automating or semi-automating the data extraction of index test, target condition, and reference standard from articles has the potential to decrease the cost of conducting systematic reviews of diagnostic test accuracy, but relevant training data is not available. We create a distantly supervised dataset of approximately 90,000 sentences, and let two experts manually annotate a small subset of around 1,000 sentences for evaluation. We evaluate the performance of BioBERT and logistic regression for ranking the sentences, and compare the performance for distant and direct supervision. Our results suggest that distant supervision can work as well as, or better than direct supervision on this problem, and that distantly trained models can perform as well as, or better than human annotators.",
+  "keywords": [
+    "reference",
+    "extraction",
+    "studies",
+    "human",
+    "systematic reviews",
+    "we",
+    "biobert",
+    "evaluation",
+    "biobert and logistic regression",
+    "diagnostic test accuracy",
+    "diagnostic studies",
+    "reviews",
+    "accuracy",
+    "training",
+    "logistic"
+  ],
+  "url": "https://aclanthology.org/W19-5012/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:55:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

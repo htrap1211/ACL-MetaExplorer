@@ -1,0 +1,33 @@
+{
+  "id": "2024.wassa-1.32",
+  "title": "Chinchunmei at {WASSA} 2024 Empathy and Personality Shared Task: Boosting {LLM}{'}s Prediction with Role-play Augmentation and Contrastive Reasoning Calibration",
+  "authors": [
+    "Li, Tian  and\nRusnachenko, Nicolay  and\nLiang, Huizhi"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 14th Workshop on Computational Approaches to Subjectivity, Sentiment, {\\&} Social Media Analysis",
+  "abstract": "This paper presents the Chinchunmei team’s contributions to the WASSA2024 Shared-Task 1: Empathy Detection and Emotion Classification. We participated in Tracks 1, 2, and 3 to predict empathetic scores based on dialogue, article, and essay content. We choose Llama3-8b-instruct as our base model. We developed three supervised fine-tuning schemes: standard prediction, role-play, and contrastive prediction, along with an innovative scoring calibration method called Contrastive Reasoning Calibration during inference. Pearson Correlation was used as the evaluation metric across all tracks. For Track 1, we achieved 0.43 on the devset and 0.17 on the testset. For Track 2 emotion, empathy, and polarity labels, we obtained 0.64, 0.66, and 0.79 on the devset and 0.61, 0.68, and 0.58 on the testset. For Track 3 empathy and distress labels, we got 0.64 and 0.56 on the devset and 0.33 and 0.35 on the testset.",
+  "keywords": [
+    "instruct",
+    "tuning",
+    "llm s prediction",
+    "model",
+    "metric",
+    "fine",
+    "we",
+    "dialogue",
+    "evaluation",
+    "classification",
+    "dialogue article",
+    "llm",
+    "the evaluation",
+    "all tracks",
+    "base"
+  ],
+  "url": "https://aclanthology.org/2024.wassa-1.32/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:12:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

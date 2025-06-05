@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.652",
+  "title": "Don{'}t Go To Extremes: Revealing the Excessive Sensitivity and Calibration Limitations of {LLM}s in Implicit Hate Speech Detection",
+  "authors": [
+    "Zhang, Min  and\nHe, Jianfeng  and\nJi, Taoran  and\nLu, Chang-Tien"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The fairness and trustworthiness of Large Language Models (LLMs) are receiving increasing attention. Implicit hate speech, which employs indirect language to convey hateful intentions, occupies a significant portion of practice. However, the extent to which LLMs effectively address this issue remains insufficiently examined. This paper delves into the capability of LLMs to detect implicit hate speech and express confidence in their responses. Our evaluation meticulously considers various prompt patterns and mainstream uncertainty estimation methods. Our findings highlight that LLMs exhibit two extremes: (1) LLMs display excessive sensitivity towards groups or topics that may cause fairness issues, resulting in misclassifying benign statements as hate speech. (2) LLMs’ confidence scores for each method excessively concentrate on a fixed range, remaining unchanged regardless of the dataset’s complexity. Consequently, the calibration performance is heavily reliant on primary classification accuracy. These discoveries unveil new limitations of LLMs, underscoring the need for caution when optimizing models to ensure they do not veer towards extremes. This serves as a reminder to carefully consider sensitivity and confidence in the pursuit of model fairness.",
+  "keywords": [
+    "these discoveries",
+    "llm s",
+    "llm",
+    "classification",
+    "discoveries",
+    "llms",
+    "prompt",
+    "primary classification accuracy",
+    "large language models llms",
+    "various prompt patterns",
+    "2 llms confidence scores",
+    "accuracy",
+    "our evaluation",
+    "1 llms",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.652/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:43:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

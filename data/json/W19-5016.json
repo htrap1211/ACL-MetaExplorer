@@ -1,0 +1,33 @@
+{
+  "id": "W19-5016",
+  "title": "Constructing large scale biomedical knowledge bases from scratch with rapid annotation of interpretable patterns",
+  "authors": [
+    "Fauqueur, Julien  and\nThillaisundaram, Ashok  and\nTogia, Theodosia"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 18th BioNLP Workshop and Shared Task",
+  "abstract": "Knowledge base construction is crucial for summarising, understanding and inferring relationships between biomedical entities. However, for many practical applications such as drug discovery, the scarcity of relevant facts (e.g. gene X is therapeutic target for disease Y) severely limits a domain expert’s ability to create a usable knowledge base, either directly or by training a relation extraction model. In this paper, we present a simple and effective method of extracting new facts with a pre-specified binary relationship type from the biomedical literature, without requiring any training data or hand-crafted rules. Our system discovers, ranks and presents the most salient patterns to domain experts in an interpretable form. By marking patterns as compatible with the desired relationship type, experts indirectly batch-annotate candidate pairs whose relationship is expressed with such patterns in the literature. Even with a complete absence of seed data, experts are able to discover thousands of high-quality pairs with the desired relationship within minutes. When a small number of relevant pairs do exist - even when their relationship is more general (e.g. gene X is biologically associated with disease Y) than the relationship of interest - our system leverages them in order to i) learn a better ranking of the patterns to be annotated or ii) generate weakly labelled pairs in a fully automated manner. We evaluate our method both intrinsically and via a downstream knowledge base completion task, and show that it is an effective way of constructing knowledge bases when few or no relevant facts are already available.",
+  "keywords": [
+    "extraction",
+    "form",
+    "we",
+    "training",
+    "a fully automated manner",
+    "it",
+    "the most salient patterns",
+    "manner",
+    "i",
+    "specified",
+    "general",
+    "knowledge",
+    "gene",
+    "model",
+    "entities"
+  ],
+  "url": "https://aclanthology.org/W19-5016/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:56:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

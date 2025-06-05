@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwpt-1.10",
+  "title": "Bidirectional Domain Adaptation Using Weighted Multi-Task Learning",
+  "authors": [
+    "Dakota, Daniel  and\nSayyed, Zeeshan Ali  and\nK{\\\"u}bler, Sandra"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 17th International Conference on Parsing Technologies and the IWPT 2021 Shared Task on Parsing into Enhanced Universal Dependencies (IWPT 2021)",
+  "abstract": "Domain adaption in syntactic parsing is still a significant challenge. We address the issue of data imbalance between the in-domain and out-of-domain treebank typically used for the problem. We define domain adaptation as a Multi-task learning (MTL) problem, which allows us to train two parsers, one for each do-main. Our results show that the MTL approach is beneficial for the smaller treebank. For the larger treebank, we need to use loss weighting in order to avoid a decrease in performance be-low the single task. In order to determine towhat degree the data imbalance between two domains and the domain differences affect results, we also carry out an experiment with two imbalanced in-domain treebanks and show that loss weighting also improves performance in an in-domain setting. Given loss weighting in MTL, we can improve results for both parsers.",
+  "keywords": [
+    "parsing",
+    "loss",
+    "us",
+    "we",
+    "syntactic parsing",
+    "multi",
+    "a decrease",
+    "approach",
+    "larger",
+    "task",
+    "the problem",
+    "data",
+    "adaptation",
+    "low",
+    "parsers"
+  ],
+  "url": "https://aclanthology.org/2021.iwpt-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

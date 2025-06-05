@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.78",
+  "title": "Value type: the bridge to a better {DST} model",
+  "authors": [
+    "Qixiang, Gao  and\nSun, Mingyang  and\nMou, Yutao  and\nZeng, Chen  and\nXu, Weiran"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Value type of the slots can provide lots of useful information for DST tasks. However, it has been ignored in most previous works. In this paper, we propose a new framework for DST task based on these value types. Firstly, we extract the type of token from each turn. Specifically, we divide the slots in the dataset into 9 categories according to the type of slot value, and then train a Ner model to extract the corresponding type-entity from each turn of conversation according to the token. Secondly, we improve the attention mode which is integrated into value type information between the slot and the conversation history to help each slot pay more attention to the turns that contain the same value type. Meanwhile, we introduce a sampling strategy to integrate these types into the attention formula, which decrease the error of Ner model. Finally, we conduct a comprehensive experiment on two multi-domain task-oriented conversation datasets, MultiWOZ 2.1 and MultiWOZ 2.4. The ablation experimental results show that our method is effective on both datasets, which verify the necessity of considering the type of slot value.",
+  "keywords": [
+    "the conversation history",
+    "we",
+    "ner model",
+    "it",
+    "token",
+    "9 categories",
+    "the attention formula",
+    "information",
+    "more attention",
+    "ner",
+    "categories",
+    "a ner model",
+    "mode",
+    "model",
+    "the attention mode"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.78/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.69",
+  "title": "B}io{L}ay{\\_}{AK}{\\_}{SS} at {B}io{L}ay{S}umm: Domain Adaptation by Two-Stage Fine-Tuning of Large Language Models used for Biomedical Lay Summary Generation",
+  "authors": [
+    "Karotia, Akanksha  and\nSusan, Seba"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "Lay summarization is essential but challenging, as it simplifies scientific information for non-experts and keeps them updated with the latest scientific knowledge. In our participation in the Shared Task: Lay Summarization of Biomedical Research Articles @ BioNLP Workshop (Goldsack et al., 2024), ACL 2024, we conducted a comprehensive evaluation on abstractive summarization of biomedical literature using Large Language Models (LLMs) and assessed the performance using ten metrics across three categories: relevance, readability, and factuality, using eLife and PLOS datasets provided by the organizers. We developed a two-stage framework for lay summarization of biomedical scientific articles. In the first stage, we generated summaries using BART and PEGASUS LLMs by fine-tuning them on the given datasets. In the second stage, we combined the generated summaries and input them to BioBART, and then fine-tuned it on the same datasets. Our findings show that combining general and domain-specific LLMs enhances performance.",
+  "keywords": [
+    "three categories relevance readability",
+    "biomedical scientific articles",
+    "summarization",
+    "we",
+    "two-stage fine-tuning",
+    "it",
+    "the latest scientific knowledge",
+    "information",
+    "the generated summaries",
+    "a comprehensive evaluation",
+    "lay",
+    "scientific",
+    "llms",
+    "general and domain-specific llms",
+    "ten metrics"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.69/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

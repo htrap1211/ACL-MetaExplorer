@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.363",
+  "title": "Alternative Input Signals Ease Transfer in Multilingual Machine Translation",
+  "authors": [
+    "Sun, Simeng  and\nFan, Angela  and\nCross, James  and\nChaudhary, Vishrav  and\nTran, Chau  and\nKoehn, Philipp  and\nGuzm{\\'a}n, Francisco"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent work in multilingual machine translation (MMT) has focused on the potential of positive transfer between languages, particularly cases where higher-resourced languages can benefit lower-resourced ones. While training an MMT model, the supervision signals learned from one language pair can be transferred to the other via the tokens shared by multiple source languages. However, the transfer is inhibited when the token overlap among source languages is small, which manifests naturally when languages use different writing systems. In this paper, we tackle inhibited transfer by augmenting the training data with alternative signals that unify different writing systems, such as phonetic, romanized, and transliterated input. We test these signals on Indic and Turkic languages, two language families where the writing systems differ but languages still share common features. Our results indicate that a straightforward multi-source self-ensemble – training a model on a mixture of various signals and ensembling the outputs of the same model fed with different signals during inference, outperforms strong ensemble baselines by 1.3 BLEU points on both language families. Further, we find that incorporating alternative inputs via self-ensemble can be particularly effective when training set is small, leading to +5 BLEU when only 5% of the total training data is accessible. Finally, our analysis demonstrates that including alternative signals yields more consistency and translates named entities more accurately, which is crucial for increased factuality of automated systems.",
+  "keywords": [
+    "families",
+    "5 bleu",
+    "bleu",
+    "multilingual machine translation",
+    "we",
+    "training",
+    "translation",
+    "ensemble",
+    "strong ensemble baselines",
+    "self",
+    "token",
+    "self-ensemble",
+    "transfer",
+    "analysis",
+    "two language families"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.363/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:29:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

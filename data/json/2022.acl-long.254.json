@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.254",
+  "title": "Prompt-free and Efficient Few-shot Learning with Language Models",
+  "authors": [
+    "Karimi Mahabadi, Rabeeh  and\nZettlemoyer, Luke  and\nHenderson, James  and\nMathias, Lambert  and\nSaeidi, Marzieh  and\nStoyanov, Veselin  and\nYazdani, Majid"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Current methods for few-shot fine-tuning of pretrained masked language models (PLMs) require carefully engineered prompts and verbalizers for each new task to convert examples into a cloze-format that the PLM can score. In this work, we propose Perfect, a simple and efficient method for few-shot fine-tuning of PLMs without relying on any such handcrafting, which is highly effective given as few as 32 data points. Perfect makes two key design choices: First, we show that manually engineered task prompts can be replaced with task-specific adapters that enable sample-efficient fine-tuning and reduce memory and storage costs by roughly factors of 5 and 100, respectively. Second, instead of using handcrafted verbalizers, we learn new multi-token label embeddings during fine-tuning, which are not tied to the model vocabulary and which allow us to avoid complex auto-regressive decoding. These embeddings are not only learnable from limited data but also enable nearly 100x faster training and inference. Experiments on a wide range of few shot NLP tasks demonstrate that Perfect, while being simple and efficient, also outperforms existing state-of-the-art few-shot learning methods. Our code is publicly available athttps://github.com/rabeehk/perfect.",
+  "keywords": [
+    "code",
+    "efficient",
+    "we",
+    "current",
+    "shot",
+    "training",
+    "new multi-token label embeddings",
+    "fine-tuning",
+    "token",
+    "carefully engineered prompts",
+    "format",
+    "learning",
+    "few shot nlp tasks",
+    "these embeddings",
+    "few-shot fine-tuning"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.254/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:27:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

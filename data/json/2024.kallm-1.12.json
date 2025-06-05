@@ -1,0 +1,33 @@
+{
+  "id": "2024.kallm-1.12",
+  "title": "Fine-tuning Language Models for Triple Extraction with Data Augmentation",
+  "authors": [
+    "Zhang, Yujia  and\nSadler, Tyler  and\nTaesiri, Mohammad Reza  and\nXu, Wenjie  and\nReformat, Marek"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Knowledge Graphs and Large Language Models (KaLLM 2024)",
+  "abstract": "Advanced language models with impressive capabilities to process textual information can more effectively extract high-quality triples, which are the building blocks of knowledge graphs. Our work examines language models’ abilities to extract entities and the relationships between them. We use a diverse data augmentation process to fine-tune large language models to extract triples from the text. Fine-tuning is performed using a mix of trainers from HuggingFace and five public datasets, such as different variations of the WebNLG, SKE, DocRed, FewRel, and KELM. Evaluation involves comparing model outputs with test-set triples based on several criteria, such as type, partial, exact, and strict accuracy.The obtained results outperform ChatGPT and even match or exceed the performance of GPT-4.",
+  "keywords": [
+    "fine-tuning language models",
+    "trainers",
+    "extraction",
+    "language models abilities",
+    "we",
+    "information",
+    "chatgpt",
+    "impressive capabilities",
+    "abilities",
+    "tuning",
+    "text",
+    "gpt-4",
+    "fine",
+    "fine-tune large language models",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2024.kallm-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:07:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.832",
+  "title": "PESCO}: Prompt-enhanced Self Contrastive Learning for Zero-shot Text Classification",
+  "authors": [
+    "Wang, Yau-Shian  and\nChi, Ta-Chung  and\nZhang, Ruohong  and\nYang, Yiming"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We present PESCO, a novel contrastive learning framework that substantially improves the performance of zero-shot text classification. We formulate text classification as a neural text retrieval problem where each document is treated as a query, and the system learns the mapping from each query to the relevant class labels by (1) adding prompts to enhance label retrieval, and (2) using retrieved labels to enrich the training set in a self-training loop of contrastive learning. PESCO achieves state-of-the-art performance on four benchmark text classification datasets. On DBpedia, we achieve 98.5% accuracy without any labeled data, which is close to the fully-supervised result. Extensive experiments and analyses show all the components of PESCO are necessary for improving the performance of zero-shot text classification.",
+  "keywords": [
+    "prompts",
+    "prompt",
+    "neural",
+    "98 5 accuracy",
+    "text",
+    "retrieved labels",
+    "class",
+    "self",
+    "retrieval",
+    "zero-shot text classification",
+    "we",
+    "learning",
+    "label retrieval",
+    "text classification",
+    "shot"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.832/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:47:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

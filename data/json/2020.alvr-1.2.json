@@ -1,0 +1,33 @@
+{
+  "id": "2020.alvr-1.2",
+  "title": "Toward General Scene Graph: Integration of Visual Semantic Knowledge with Entity Synset Alignment",
+  "authors": [
+    "Choi, Woo Suk  and\nOn, Kyoung-Woon  and\nHeo, Yu-Jung  and\nZhang, Byoung-Tak"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the First Workshop on Advances in Language and Vision Research",
+  "abstract": "Scene graph is a graph representation that explicitly represents high-level semantic knowledge of an image such as objects, attributes of objects and relationships between objects. Various tasks have been proposed for the scene graph, but the problem is that they have a limited vocabulary and biased information due to their own hypothesis. Therefore, results of each task are not generalizable and difficult to be applied to other down-stream tasks. In this paper, we propose Entity Synset Alignment(ESA), which is a method to create a general scene graph by aligning various semantic knowledge efficiently to solve this bias problem. The ESA uses a large-scale lexical database, WordNet and Intersection of Union (IoU) to align the object labels in multiple scene graphs/semantic knowledge. In experiment, the integrated scene graph is applied to the image-caption retrieval task as a down-stream task. We confirm that integrating multiple scene graphs helps to get better representations of images.",
+  "keywords": [
+    "bias",
+    "generalizable",
+    "biased information",
+    "semantic",
+    "various semantic knowledge",
+    "we",
+    "graph",
+    "high-level semantic knowledge",
+    "entity synset alignment esa",
+    "the image-caption retrieval task",
+    "retrieval",
+    "information",
+    "visual",
+    "biased",
+    "general scene graph integration"
+  ],
+  "url": "https://aclanthology.org/2020.alvr-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:54:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

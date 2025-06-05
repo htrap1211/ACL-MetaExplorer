@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.625",
+  "title": "Generalization-Enhanced Code Vulnerability Detection via Multi-Task Instruction Fine-Tuning",
+  "authors": [
+    "Du, Xiaohu  and\nWen, Ming  and\nZhu, Jiahao  and\nXie, Zifan  and\nJi, Bin  and\nLiu, Huijun  and\nShi, Xuanhua  and\nJin, Hai"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Code Pre-trained Models (CodePTMs) based vulnerability detection have achieved promising results over recent years. However, these models struggle to generalize as they typically learn superficial mapping from source code to labels instead of understanding the root causes of code vulnerabilities, resulting in poor performance in real-world scenarios beyond the training instances. To tackle this challenge, we introduce VulLLM, a novel framework that integrates multi-task learning with Large Language Models (LLMs) to effectively mine deep-seated vulnerability features. Specifically, we construct two auxiliary tasks beyond the vulnerability detection task. First, we utilize the vulnerability patches to construct a vulnerability localization task. Second, based on the vulnerability features extracted from patches, we leverage GPT-4 to construct a vulnerability interpretation task. VulLLM innovatively augments vulnerability classification by leveraging generative LLMs to understand complex vulnerability patterns, thus compelling the model to capture the root causes of vulnerabilities rather than overfitting to spurious features of a single task. The experiments conducted on six large datasets demonstrate that VulLLM surpasses seven state-of-the-art models in terms of effectiveness, generalization, and robustness.",
+  "keywords": [
+    "deep",
+    "code",
+    "deep-seated vulnerability features",
+    "generative llms",
+    "the vulnerability detection task",
+    "the vulnerability features",
+    "we",
+    "vulnerability classification",
+    "training",
+    "classification",
+    "instruction",
+    "the vulnerability patches",
+    "learning",
+    "llms",
+    "generative"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.625/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

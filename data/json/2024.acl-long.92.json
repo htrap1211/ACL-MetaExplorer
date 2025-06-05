@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.92",
+  "title": "Persuading across Diverse Domains: a Dataset and Persuasion Large Language Model",
+  "authors": [
+    "Jin, Chuhao  and\nRen, Kening  and\nKong, Lingzhen  and\nWang, Xiting  and\nSong, Ruihua  and\nChen, Huan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Persuasive dialogue requires multi-turn following and planning abilities to achieve the goal of persuading users, which is still challenging even for state-of-the-art large language models (LLMs). Previous works focus on retrieval-based models or generative models in a specific domain due to a lack of data across multiple domains. In this paper, we leverage GPT-4 to create the first multi-domain persuasive dialogue dataset DailyPersuasion. Then we propose a general method named PersuGPT to learn a persuasion model based on LLMs through intent-to-strategy reasoning, which summarizes the intent of user’s utterance and reasons next strategy to respond. Moreover, we design a simulation-based preference optimization, which utilizes a learned user model and our model to simulate next turns and estimate their rewards more accurately. Experimental results on two datasets indicate that our proposed method outperforms all baselines in terms of automatic evaluation metric Win-Rate and human evaluation. The code and data are available at https://persugpt.github.io.",
+  "keywords": [
+    "code",
+    "rate",
+    "we",
+    "dialogue",
+    "a general method",
+    "retrieval",
+    "llms",
+    "abilities",
+    "generative",
+    "persugpt",
+    "metric",
+    "gpt-4",
+    "a simulation-based preference optimization",
+    "general",
+    "retrieval-based models"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.92/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:35:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

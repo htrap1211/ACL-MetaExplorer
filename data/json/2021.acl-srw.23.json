@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-srw.23",
+  "title": "How Many Layers and Why? {A}n Analysis of the Model Depth in Transformers",
+  "authors": [
+    "Simoulin, Antoine  and\nCrabb{\\'e}, Benoit"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: Student Research Workshop",
+  "abstract": "In this study, we investigate the role of the multiple layers in deep transformer models. We design a variant of Albert that dynamically adapts the number of layers for each token of the input. The key specificity of Albert is that weights are tied across layers. Therefore, the stack of encoder layers iteratively repeats the application of the same transformation function on the input. We interpret the repetition of this application as an iterative process where the token contextualized representations are progressively refined. We analyze this process at the token level during pre-training, fine-tuning, and inference. We show that tokens do not require the same amount of iterations and that difficult or crucial tokens for the task are subject to more iterations.",
+  "keywords": [
+    "deep",
+    "transformer",
+    "deep transformer models",
+    "tuning",
+    "transformers",
+    "process",
+    "model",
+    "albert",
+    "token",
+    "encoder",
+    "fine",
+    "pre-training fine-tuning",
+    "we",
+    "pre",
+    "function"
+  ],
+  "url": "https://aclanthology.org/2021.acl-srw.23/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:09:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.286",
+  "title": "PCAD}: Towards {ASR}-Robust Spoken Language Understanding via Prototype Calibration and Asymmetric Decoupling",
+  "authors": [
+    "Zhuang, Xianwei  and\nCheng, Xuxin  and\nLiang, Liming  and\nXie, Yuxin  and\nWang, Zhichang  and\nHuang, Zhiqi  and\nZou, Yuexian"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Spoken language understanding (SLU) inevitably suffers from error propagation from automatic speech recognition (ASR) in actual scenarios. Some recent works attempt to alleviate this issue through contrastive learning. However, they (1) sample negative pairs incorrectly in pre-training; (2) only focus on implicit metric learning while neglecting explicit erroneous predictions; (3) treat manual and ASR transcripts indiscriminately. In this paper, we propose a novel framework termedPCAD, which can calibrate bias and errors and achieve adaptive-balanced decoupling training. Specifically, PCAD utilizes a prototype-based loss to aggregate label and prediction priors and calibrate bias and error-prone semantics for better inter-class discrimination and intra-class consistency. We theoretically analyze the effect of this loss on robustness enhancement. Further, we leverage a teacher-student model for asymmetric decoupling training between different transcripts and formulate a novel gradient-sensitive exponential moving averaging (GS-EMA) algorithm for adaptive balance of accuracy and robustness. Experiments on three datasets show that PCAD significantly outperforms existing approaches and achieves new state-of-the-art performance.",
+  "keywords": [
+    "bias",
+    "error-prone semantics",
+    "pcad",
+    "termedpcad",
+    "we",
+    "a novel framework termedpcad",
+    "training",
+    "semantics",
+    "loss",
+    "learning",
+    "metric",
+    "accuracy",
+    "language",
+    "model",
+    "class"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.286/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

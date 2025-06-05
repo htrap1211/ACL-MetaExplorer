@@ -1,0 +1,33 @@
+{
+  "id": "P19-1023",
+  "title": "Neural Relation Extraction for Knowledge Base Enrichment",
+  "authors": [
+    "Trisedya, Bayu Distiawan  and\nWeikum, Gerhard  and\nQi, Jianzhong  and\nZhang, Rui"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We study relation extraction for knowledge base (KB) enrichment. Specifically, we aim to extract entities and their relationships from sentences in the form of triples and map the elements of the extracted triples to an existing KB in an end-to-end manner. Previous studies focus on the extraction itself and rely on Named Entity Disambiguation (NED) to map triples into the KB space. This way, NED errors may cause extraction errors that affect the overall precision and recall. To address this problem, we propose an end-to-end relation extraction model for KB enrichment based on a neural encoder-decoder model. We collect high-quality training data by distant supervision with co-reference resolution and paraphrase detection. We propose an n-gram based attention model that captures multi-word entity names in a sentence. Our model employs jointly learned word and entity embeddings to support named entity disambiguation. Finally, our model uses a modified beam search and a triple classifier to help generate high-quality triples. Our model outperforms state-of-the-art baselines by 15.51% and 8.38% in terms of F1 score on two real-world datasets.",
+  "keywords": [
+    "end",
+    "precision",
+    "extraction",
+    "classifier",
+    "form",
+    "we",
+    "training",
+    "neural",
+    "a neural encoder-decoder model",
+    "decoder",
+    "word",
+    "manner",
+    "a triple classifier",
+    "previous studies",
+    "a modified beam search"
+  ],
+  "url": "https://aclanthology.org/P19-1023/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:28:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

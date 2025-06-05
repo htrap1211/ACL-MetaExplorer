@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-short.53",
+  "title": "Time Sensitive Knowledge Editing through Efficient Finetuning",
+  "authors": [
+    "Ge, Xiou  and\nMousavi, Ali  and\nGrave, Edouard  and\nJoulin, Armand  and\nQian, Kun  and\nHan, Benjamin  and\nArefiyan, Mostafa  and\nLi, Yunyao"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Large Language Models (LLMs) have demonstrated impressive capability in different tasks and are bringing transformative changes to many domains. However, keeping the knowledge in LLMs up-to-date remains a challenge once pretraining is complete. It is thus essential to design effective methods to both update obsolete knowledge and induce new knowledge into LLMs. Existing locate-and-edit knowledge editing (KE) method suffers from two limitations. First, the post-edit LLMs by such methods generally have poor capability in answering complex queries that require multi-hop reasoning. Second, the long run-time of such locate-and-edit methods to perform knowledge edits make it infeasible for large scale KE in practice. In this paper, we explore Parameter-Efficient Fine-Tuning (PEFT) techniques as an alternative for KE. We curate a more comprehensive temporal KE dataset with both knowledge update and knowledge injection examples for KE performance benchmarking. We further probe the effect of fine-tuning on a range of layers in an LLM for the multi-hop QA task. We find that PEFT performs better than locate-and-edit techniques for time-sensitive knowledge edits.",
+  "keywords": [
+    "efficient",
+    "an llm",
+    "the multi-hop qa task",
+    "we",
+    "llm",
+    "parameter",
+    "fine-tuning",
+    "the post-edit llms",
+    "it",
+    "queries",
+    "parameter-efficient fine-tuning peft techniques",
+    "llms",
+    "tuning",
+    "complex queries",
+    "large language models llms"
+  ],
+  "url": "https://aclanthology.org/2024.acl-short.53/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:46:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

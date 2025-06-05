@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.38",
+  "title": "Grokking of Hierarchical Structure in Vanilla Transformers",
+  "authors": [
+    "Murty, Shikhar  and\nSharma, Pratyusha  and\nAndreas, Jacob  and\nManning, Christopher"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "For humans, language production and comprehension is sensitive to the hierarchical structure of sentences. In natural language processing, past work has questioned how effectively neural sequence models like transformers capture this hierarchical structure when generalizing to structurally novel inputs. We show that transformer language models can learn to generalize hierarchically after training for extremely long periods—far beyond the point when in-domain accuracy has saturated. We call this phenomenon structural grokking. On multiple datasets, structural grokking exhibits inverted U-shaped scaling in model depth: intermediate-depth models generalize better than both very deep and very shallow transformers. When analyzing the relationship between model-internal properties and grokking, we find that optimal depth for grokking can be identified using the tree-structuredness metric of CITATION. Overall, our work provides strong evidence that, with extended training, vanilla transformers discover and use hierarchical structure.",
+  "keywords": [
+    "work",
+    "deep",
+    "transformer",
+    "hierarchical",
+    "transformers",
+    "processing",
+    "language",
+    "model-internal properties",
+    "neural",
+    "natural",
+    "model",
+    "metric",
+    "extended training vanilla transformers",
+    "the hierarchical structure",
+    "transformer language models"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.38/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:48:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

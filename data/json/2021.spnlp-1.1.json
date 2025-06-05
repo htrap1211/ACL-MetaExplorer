@@ -1,0 +1,33 @@
+{
+  "id": "2021.spnlp-1.1",
+  "title": "R}ewards{O}f{S}um: Exploring Reinforcement Learning Rewards for Summarisation",
+  "authors": [
+    "Parnell, Jacob  and\nJauregi Unanue, Inigo  and\nPiccardi, Massimo"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 5th Workshop on Structured Prediction for NLP (SPNLP 2021)",
+  "abstract": "To date, most abstractive summarisation models have relied on variants of the negative log-likelihood (NLL) as their training objective. In some cases, reinforcement learning has been added to train the models with an objective that is closer to their evaluation measures (e.g. ROUGE). However, the reward function to be used within the reinforcement learning approach can play a key role for performance and is still partially unexplored. For this reason, in this paper, we propose two reward functions for the task of abstractive summarisation: the first function, referred to as RwB-Hinge, dynamically selects the samples for the gradient update. The second function, nicknamed RISK, leverages a small pool of strong candidates to inform the reward. In the experiments, we probe the proposed approach by fine-tuning an NLL pre-trained model over nine summarisation datasets of diverse size and nature. The experimental results show a consistent improvement over the negative log-likelihood baselines.",
+  "keywords": [
+    "f",
+    "we",
+    "training",
+    "r",
+    "learning",
+    "log",
+    "the reinforcement learning approach",
+    "reinforcement learning rewards",
+    "objective",
+    "the gradient update",
+    "e g rouge",
+    "fine",
+    "rouge",
+    "an objective",
+    "function"
+  ],
+  "url": "https://aclanthology.org/2021.spnlp-1.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:22:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

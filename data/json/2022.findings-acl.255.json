@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.255",
+  "title": "Leveraging Knowledge in Multilingual Commonsense Reasoning",
+  "authors": [
+    "Fang, Yuwei  and\nWang, Shuohang  and\nXu, Yichong  and\nXu, Ruochen  and\nSun, Siqi  and\nZhu, Chenguang  and\nZeng, Michael"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Commonsense reasoning (CSR) requires models to be equipped with general world knowledge. While CSR is a language-agnostic process, most comprehensive knowledge sources are restricted to a small number of languages, especially English. Thus, it remains unclear how to effectively conduct multilingual commonsense reasoning (XCSR) for various languages. In this work, we propose to use English as a pivot language, utilizing English knowledge sources for our our commonsense reasoning framework via a translate-retrieve-translate (TRT) strategy. For multilingual commonsense questions and answer candidates, we collect related knowledge via translation and retrieval from the knowledge in the source language. The retrieved knowledge is then translated into the target language and integrated into a pre-trained multilingual language model via visible knowledge attention. Then we utilize a diverse of four English knowledge sources to provide more comprehensive coverage of knowledge in different formats. Extensive results on the XCSR benchmark demonstrate that TRT with external knowledge can significantly improve multilingual commonsense reasoning in both zero-shot and translate-train settings, consistently outperforming the state-of-the-art by more than 3% on the multilingual commonsense reasoning benchmark X-CSQA and X-CODAH.",
+  "keywords": [
+    "csqa",
+    "retrieve",
+    "we",
+    "shot",
+    "translation",
+    "answer",
+    "it",
+    "retrieval",
+    "a translate-retrieve-translate trt strategy",
+    "general world knowledge",
+    "-",
+    "x",
+    "the retrieved knowledge",
+    "visible knowledge attention",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.255/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

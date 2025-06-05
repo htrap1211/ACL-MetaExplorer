@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.102",
+  "title": "H}i{S}truct+: Improving Extractive Text Summarization with Hierarchical Structure Information",
+  "authors": [
+    "Ruan, Qian  and\nOstendorff, Malte  and\nRehm, Georg"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Transformer-based language models usually treat texts as linear sequences. However, most texts also have an inherent hierarchical structure, i.e., parts of a text can be identified using their position in this hierarchy. In addition, section titles usually indicate the common topic of their respective sentences. We propose a novel approach to formulate, extract, encode and inject hierarchical structure information explicitly into an extractive summarization model based on a pre-trained, encoder-only Transformer language model (HiStruct+ model), which improves SOTA ROUGEs for extractive summarization on PubMed and arXiv substantially. Using various experimental settings on three datasets (i.e., CNN/DailyMail, PubMed and arXiv), our HiStruct+ model outperforms a strong baseline collectively, which differs from our model only in that the hierarchical structure information is not injected. It is also observed that the more conspicuous hierarchical structure the dataset has, the larger improvements our method gains. The ablation study demonstrates that the hierarchical position information is the main contributor to our model’s SOTA performance.",
+  "keywords": [
+    "encode",
+    "sota rouges",
+    "summarization",
+    "we",
+    "an extractive summarization model",
+    "extractive text summarization",
+    "the hierarchical position information",
+    "cnn",
+    "truct",
+    "it",
+    "hierarchical structure information",
+    "information",
+    "an inherent hierarchical structure",
+    "this hierarchy",
+    "i"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.102/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

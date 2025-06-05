@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.643",
+  "title": "Noise-Robust Training with Dynamic Loss and Contrastive Learning for Distantly-Supervised Named Entity Recognition",
+  "authors": [
+    "Ma, Zhiyuan  and\nDu, Jintao  and\nZhou, Shuheng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Distantly-supervised named entity recognition (NER) aims at training networks with distantly-labeled data, which is automatically obtained by matching entity mentions in the raw text with entity types in a knowledge base. Distant supervision may induce incomplete and noisy labels, so recent state-of-the-art methods employ sample selection mechanism to separate clean data from noisy data based on the model’s prediction scores. However, they ignore the noise distribution change caused by data selection, and they simply excludes noisy data during training, resulting in information loss. We propose to (1) use a dynamic loss function to better adapt to the changing noise during the training process, and (2) incorporate token level contrastive learning to fully utilize the noisy data as well as facilitate feature learning without relying on labels. Our method achieves superior performance on three benchmark datasets, outperforming existing distantly supervised NER models by significant margins.",
+  "keywords": [
+    "we",
+    "training",
+    "token",
+    "loss",
+    "a dynamic loss function",
+    "information",
+    "learning",
+    "ner",
+    "distantly-supervised named entity recognition",
+    "text",
+    "function",
+    "process",
+    "knowledge",
+    "model",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.643/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

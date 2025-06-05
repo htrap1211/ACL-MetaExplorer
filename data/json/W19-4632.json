@@ -1,0 +1,33 @@
+{
+  "id": "W19-4632",
+  "title": "A}rb{D}ialect{ID} at {MADAR} Shared Task 1: Language Modelling and Ensemble Learning for Fine Grained {A}rabic Dialect Identification",
+  "authors": [
+    "Abu Kwaik, Kathrein  and\nSaad, Motaz"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Arabic Natural Language Processing Workshop",
+  "abstract": "In this paper, we present a Dialect Identification system (ArbDialectID) that competed at Task 1 of the MADAR shared task, MADARTravel Domain Dialect Identification. We build a course and a fine-grained identification model to predict the label (corresponding to a dialect of Arabic) of a given text. We build two language models by extracting features at two levels (words and characters). We firstly build a coarse identification model to classify each sentence into one out of six dialects, then use this label as a feature for the fine-grained model that classifies the sentence among 26 dialects from different Arab cities, after that we apply ensemble voting classifier on both sub-systems. Our system ranked 1st that achieving an f-score of 67.32%. Both the models and our feature engineering tools are made available to the research community.",
+  "keywords": [
+    "ensemble",
+    "language modelling",
+    "language",
+    "classifier",
+    "model",
+    "text",
+    "different arab cities",
+    "-",
+    "ensemble voting classifier",
+    "cities",
+    "fine",
+    "we",
+    "learning",
+    "two language models",
+    "that"
+  ],
+  "url": "https://aclanthology.org/W19-4632/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:05:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

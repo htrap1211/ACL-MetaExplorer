@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-srw.37",
+  "title": "Data Selection for Fine-tuning Large Language Models Using Transferred Shapley Values",
+  "authors": [
+    "Schoch, Stephanie  and\nMishra, Ritwick  and\nJi, Yangfeng"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "Although Shapley values have been shown to be highly effective for identifying harmful training instances, dataset size and model complexity constraints limit the ability to apply Shapley-based data valuation to fine-tuning large pre-trained language models. To address this, we propose TS-DShapley, an algorithm that reduces computational cost of Shapley-based data valuation through: 1) an efficient sampling-based method that aggregates Shapley values computed from subsets for valuation of the entire training set, and 2) a value transfer method that leverages value information extracted from a simple classifier trained using representations from the target language model. Our experiments applying TS-DShapley to select data for fine-tuning BERT-based language models on benchmark natural language understanding (NLU) datasets show that TS-DShapley outperforms existing data selection methods. Further, TS-DShapley can filter fine-tuning data to increase language model performance compared to training with the full fine-tuning dataset.",
+  "keywords": [
+    "the target language model",
+    "a simple classifier",
+    "language",
+    "large pre-trained language models",
+    "classifier",
+    "model",
+    "bert",
+    "natural",
+    "efficient",
+    "an efficient sampling-based method",
+    "valuation",
+    "the full fine-tuning dataset",
+    "information",
+    "fine",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.acl-srw.37/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:51:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

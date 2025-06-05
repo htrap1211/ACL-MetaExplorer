@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.129",
+  "title": "Z}-{ICL}: Zero-Shot In-Context Learning with Pseudo-Demonstrations",
+  "authors": [
+    "Lyu, Xinxi  and\nMin, Sewon  and\nBeltagy, Iz  and\nZettlemoyer, Luke  and\nHajishirzi, Hannaneh"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Although large language models can be prompted for both zero- and few-shot learning, performance drops significantly when no demonstrations are available. In this paper, we introduce Z-ICL, a new zero-shot method that closes the gap by constructing pseudo-demonstrations for a given test input using a raw text corpus. Concretely, pseudo-demonstrations are constructed by (1) finding the nearest neighbors to the test input from the corpus and pairing them with random task labels, and (2) applying a set of techniques to reduce the amount of direct copying the model does from the resulting demonstrations. Evaluation on nine classification datasets shows that Z-ICL outperforms previous zero-shot methods by a significant margin, and is on par with in-context learning with labeled training data in the few-shot setting. Overall, Z-ICL provides a significantly higher estimate of the zero-shot performance levels of a model, and supports future efforts to develop better pseudo-demonstrations that further improve zero-shot results.",
+  "keywords": [
+    "we",
+    "previous zero-shot methods",
+    "the resulting demonstrations evaluation",
+    "the zero-shot performance levels",
+    "shot",
+    "training",
+    "classification",
+    "learning",
+    "a new zero-shot method",
+    "zero-shot results",
+    "text",
+    "par",
+    "-",
+    "z",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.129/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

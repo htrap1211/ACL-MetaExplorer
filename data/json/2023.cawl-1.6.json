@@ -1,0 +1,33 @@
+{
+  "id": "2023.cawl-1.6",
+  "title": "Back-Transliteration of {E}nglish Loanwords in {J}apanese",
+  "authors": [
+    "Ren, Yuying"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the Workshop on Computation and Written Language (CAWL 2023)",
+  "abstract": "We propose methods for transliterating English loanwords in Japanese from their Japanese written form (katakana/romaji) to their original English written form. Our data is a Japanese-English loanwords dictionary that we have created ourselves. We employ two approaches: direct transliteration, which directly converts words from katakana to English, and indirect transliteration, which utilizes the English pronunciation as a means to convert katakana words into their corresponding English sound representations, which are subsequently converted into English words. Additionally, we compare the effectiveness of using katakana versus romaji as input characters. We develop 6 models of 2 types for our experiments: one with an English lexicon-filter, and the other without. For each type, we built 3 models, including a pair n-gram based on WFSTs and two sequence-to-sequence models leveraging LSTM and transformer. Our best performing model was the pair n-gram model with a lexicon-filter, directly transliterating from katakana to English.",
+  "keywords": [
+    "model",
+    "j",
+    "form",
+    "we",
+    "sequence",
+    "lstm",
+    "means",
+    "2 types",
+    "nglish",
+    "katakana words",
+    "an english lexicon-filter",
+    "characters",
+    "the effectiveness",
+    "-gram",
+    "original"
+  ],
+  "url": "https://aclanthology.org/2023.cawl-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:23:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

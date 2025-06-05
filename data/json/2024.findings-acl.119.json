@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.119",
+  "title": "L}o{RA} Meets Dropout under a Unified Framework",
+  "authors": [
+    "Wang, Sheng  and\nChen, Liheng  and\nJiang, Jiyue  and\nXue, Boyang  and\nKong, Lingpeng  and\nWu, Chuan"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "With the remarkable capabilities, large language models (LLMs) have emergedas essential elements in numerous NLP applications, while parameter-efficientfinetuning, especially LoRA, has gained popularity as a lightweight approachfor model customization. Meanwhile, various dropout methods, initially designedfor full finetuning with all the parameters updated, alleviates overfittingassociated with excessive parameter redundancy. Hence, a possible contradictionarises from negligible trainable parameters of LoRA and the effectiveness ofprevious dropout methods, which has been largely overlooked. To fill this gap,we first confirm that parameter-efficient LoRA is also overfitting-prone. Wethen revisit transformer-specific dropout methods, and establish theirequivalence and distinctions mathematically and empirically. Building upon thiscomparative analysis, we introduce a unified framework for a comprehensiveinvestigation, which instantiates these methods based on dropping position,structural pattern and compensation measure. Through this framework, we revealthe new preferences and performance comparisons of them when involved withlimited trainable parameters. This framework also allows us to amalgamate themost favorable aspects into a novel dropout method named HiddenKey. Extensiveexperiments verify the remarkable superiority and sufficiency of HiddenKeyacross multiple models and tasks, which highlights it as the preferred approachfor high-performance and parameter-efficient finetuning of LLMs.",
+  "keywords": [
+    "efficient",
+    "sufficiency",
+    "we",
+    "high-performance and parameter-efficient finetuning",
+    "parameter",
+    "it",
+    "a unified framework",
+    "unified",
+    "numerous nlp applications",
+    "meanwhile various dropout methods",
+    "analysis",
+    "parameter-efficient lora",
+    "llms",
+    "parameter-efficientfinetuning especially lora",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.119/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:50:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

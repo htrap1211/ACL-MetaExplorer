@@ -1,0 +1,33 @@
+{
+  "id": "2022.iwslt-1.11",
+  "title": "The {Y}i{T}rans Speech Translation System for {IWSLT} 2022 Offline Shared Task",
+  "authors": [
+    "Zhang, Ziqiang  and\nAo, Junyi"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022)",
+  "abstract": "This paper describes the submission of our end-to-end YiTrans speech translation system for the IWSLT 2022 offline task, which translates from English audio to German, Chinese, and Japanese. The YiTrans system is built on large-scale pre-trained encoder-decoder models. More specifically, we first design a multi-stage pre-training strategy to build a multi-modality model with a large amount of labeled and unlabeled data. We then fine-tune the corresponding components of the model for the downstream speech translation tasks. Moreover, we make various efforts to improve performance, such as data filtering, data augmentation, speech segmentation, model ensemble, and so on. Experimental results show that our YiTrans system obtains a significant improvement than the strong baseline on three translation directions, and it achieves +5.2 BLEU improvements over last year’s optimal end-to-end system on tst2021 English-German.",
+  "keywords": [
+    "t",
+    "end",
+    "bleu",
+    "speech translation system",
+    "we",
+    "training",
+    "translation",
+    "ensemble",
+    "it",
+    "decoder",
+    "5 2 bleu improvements",
+    "three translation directions",
+    "i",
+    "fine",
+    "a multi-stage pre-training strategy"
+  ],
+  "url": "https://aclanthology.org/2022.iwslt-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

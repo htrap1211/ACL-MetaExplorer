@@ -1,0 +1,33 @@
+{
+  "id": "2024.loresmt-1.11",
+  "title": "Tokenisation in Machine Translation Does Matter: The impact of different tokenisation approaches for {M}altese",
+  "authors": [
+    "Abela, Kurt  and\nMicallef, Kurt  and\nTanti, Marc  and\nBorg, Claudia"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Seventh Workshop on Technologies for Machine Translation of Low-Resource Languages (LoResMT 2024)",
+  "abstract": "In Machine Translation, various tokenisers are used to segment inputs before training a model. Despite tokenisation being mostly considered a solved problem for languages such as English, it is still unclear as to how effective different tokenisers are for morphologically rich languages. This study aims to explore how different approaches to tokenising Maltese impact machine translation results on the English-Maltese language pair.We observed that the OPUS-100 dataset has tokenisation inconsistencies in Maltese. We empirically found that training models on the original OPUS-100 dataset led to the generation of sentences with these issues.We therefore release an updated version of the OPUS-100 parallel English-Maltese dataset, referred to as OPUS-100-Fix, fixing these inconsistencies in Maltese by using the MLRS tokeniser. We show that after fixing the inconsistencies in the dataset, results on the fixed test set increase by 2.49 BLEU points over models trained on the original OPUS-100. We also experiment with different tokenisers, including BPE and SentencePiece to find the ideal tokeniser and vocabulary size for our setup, which was shown to be BPE with a vocabulary size of 8,000. Finally, we train different models in both directions for the ENG-MLT language pair using OPUS-100-Fix by training models from scratch as well as fine-tuning other pre-trained models, namely mBART-50 and NLLB, where a finetuned NLLB model performed the best.",
+  "keywords": [
+    "bleu",
+    "the generation",
+    "machine translation",
+    "we",
+    "training",
+    "translation",
+    "2 49 bleu",
+    "it",
+    "rich",
+    "sentencepiece",
+    "m",
+    "the inconsistencies",
+    "inconsistencies",
+    "language",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2024.loresmt-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

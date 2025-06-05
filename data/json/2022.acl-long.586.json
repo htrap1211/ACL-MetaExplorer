@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.586",
+  "title": "Generating Biographies on {W}ikipedia: The Impact of Gender Bias on the Retrieval-Based Generation of Women Biographies",
+  "authors": [
+    "Fan, Angela  and\nGardent, Claire"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Generating factual, long-form text such as Wikipedia articles raises three key challenges: how to gather relevant evidence, how to structure information into well-formed text, and how to ensure that the generated text is factually correct. We address these by developing a model for English text that uses a retrieval mechanism to identify relevant supporting information on the web and a cache-based pre-trained encoder-decoder to generate long-form biographies section by section, including citation information. To assess the impact of available web evidence on the output text, we compare the performance of our approach when generating biographies about women (for which less information is available on the web) vs. biographies generally. To this end, we curate a dataset of 1,500 biographies about women. We analyze our generated text to understand how differences in available web evidence data affect generation. We evaluate the factuality, fluency, and quality of the generated texts using automatic metrics and human evaluation. We hope that these techniques can be used as a starting point for human writers, to aid in reducing the complexity inherent in the creation of long-form, factual text.",
+  "keywords": [
+    "the generated texts",
+    "biographies",
+    "bias",
+    "end",
+    "form",
+    "we",
+    "women biographies",
+    "human evaluation",
+    "the generated text",
+    "decoder",
+    "retrieval",
+    "information",
+    "long-form biographies section",
+    "a cache-based pre-trained encoder-decoder",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.586/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:32:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

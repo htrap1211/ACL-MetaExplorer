@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.85",
+  "title": "Enhanced Chart Understanding via Visual Language Pre-training on Plot Table Pairs",
+  "authors": [
+    "Zhou, Mingyang  and\nFung, Yi  and\nChen, Long  and\nThomas, Christopher  and\nJi, Heng  and\nChang, Shih-Fu"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Building cross-model intelligence that can understand charts and communicate the salient information hidden behind them is an appealing challenge in the vision and language (V+L) community. The capability to uncover the underlined table data of chart figures is a critical key to automatic chart understanding. We introduce ChartT5, a V+L model that learns how to interpret table information from chart images via cross-modal pre-training on plot table pairs. Specifically, we propose two novel pre-training objectives: Masked Header Prediction (MHP) and Masked Value Prediction (MVP) to facilitate the model with different skills to interpret the table information. We have conducted extensive experiments on chart question answering and chart summarization to verify the effectiveness of the proposed pre-training strategies. In particular, on the ChartQA benchmark, our ChartT5 outperforms the state-of-the-art non-pretraining methods by over 8% performance gains.",
+  "keywords": [
+    "objectives",
+    "chart summarization",
+    "question",
+    "summarization",
+    "we",
+    "training",
+    "cross",
+    "two novel pre-training objectives",
+    "the proposed pre-training strategies",
+    "information",
+    "visual",
+    "the salient information",
+    "chartqa",
+    "strategies",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.85/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

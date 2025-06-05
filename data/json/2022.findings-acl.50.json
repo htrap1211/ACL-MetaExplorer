@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.50",
+  "title": "Reframing Instructional Prompts to {GPT}k{'}s Language",
+  "authors": [
+    "Mishra, Swaroop  and\nKhashabi, Daniel  and\nBaral, Chitta  and\nChoi, Yejin  and\nHajishirzi, Hannaneh"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "What kinds of instructional prompts are easier to follow for Language Models (LMs)? We study this question by conducting extensive empirical analysis that shed light on important features of successful instructional prompts. Specifically, we study several classes of reframing techniques for manual reformulation of prompts into more effective ones. Some examples include decomposing a complex task instruction into multiple simpler tasks or itemizing instructions into sequential steps. Our experiments compare the zero-shot and few-shot performance of LMs prompted with reframed instructions on 12 NLP tasks across 6 categories. Compared with original instructions, our reframed instructions lead to significant improvements across LMs with different sizes. For example, the same reframed prompts boost few-shot performance of GPT3-series and GPT2-series by 12.5% and 6.7% respectively averaged over all tasks. Furthermore, reframed instructions reduce the number of examples required to prompt LMs in the few-shot setting. We hope these empirically-driven techniques will pave the way towards more effective future prompting algorithms.",
+  "keywords": [
+    "the same reframed prompts",
+    "gpt3-series",
+    "gpt2",
+    "series",
+    "question",
+    "we",
+    "gpt3",
+    "shot",
+    "instruction",
+    "gpt2-series",
+    "analysis",
+    "categories",
+    "instructional prompts",
+    "successful instructional prompts",
+    "12 nlp tasks"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.50/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

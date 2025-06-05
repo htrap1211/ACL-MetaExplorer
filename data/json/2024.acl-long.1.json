@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.1",
+  "title": "Quantized Side Tuning: Fast and Memory-Efficient Tuning of Quantized Large Language Models",
+  "authors": [
+    "Zhang, Zhengxin  and\nZhao, Dan  and\nMiao, Xupeng  and\nOliaro, Gabriele  and\nZhang, Zhihao  and\nLi, Qing  and\nJiang, Yong  and\nJia, Zhihao"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Finetuning large language models (LLMs) has been empirically effective on a variety of downstream tasks. Existing approaches to finetuning an LLM either focus on parameter-efficient finetuning, which only updates a small number of trainable parameters, or attempt to reduce the memory footprint during the training phase of the finetuning. Typically, the memory footprint during finetuning stems from three contributors: model weights, optimizer states, and intermediate activations. However, existing works still require considerable memory, and none can simultaneously mitigate the memory footprint of all three sources. In this paper, we present quantized side tuing (QST), which enables memory-efficient and fast finetuning of LLMs by operating through a dual-stage process. First, QST quantizes an LLM’s model weights into 4-bit to reduce the memory footprint of the LLM’s original weights. Second, QST introduces a side network separated from the LLM, which utilizes the hidden states of the LLM to make task-specific predictions. Using a separate side network avoids performing back-propagation through the LLM, thus reducing the memory requirement of the intermediate activations. Finally, QST leverages several low-rank adaptors and gradient-free downsample modules to significantly reduce the trainable parameters, so as to save the memory footprint of the optimizer states. Experiments show that QST can reduce the total memory footprint by up to 2.3× and speed up the finetuning process by up to 3×while achieving competent performance compared with the state-of-the-art. When it comes to full finetuning, QST can reduce the total memory footprint up to 7×.",
+  "keywords": [
+    "variety",
+    "memory-efficient and fast finetuning",
+    "efficient",
+    "an llm",
+    "we",
+    "activations",
+    "intermediate activations",
+    "llm",
+    "parameter",
+    "training",
+    "fast and memory-efficient tuning",
+    "quantized large language models",
+    "it",
+    "parameter-efficient finetuning",
+    "a variety"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:34:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

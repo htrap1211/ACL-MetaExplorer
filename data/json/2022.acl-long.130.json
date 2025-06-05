@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.130",
+  "title": "Probing Structured Pruning on Multilingual Pre-trained Models: Settings, Algorithms, and Efficiency",
+  "authors": [
+    "Li, Yanyang  and\nLuo, Fuli  and\nXu, Runxin  and\nHuang, Songfang  and\nHuang, Fei  and\nWang, Liwei"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Structured pruning has been extensively studied on monolingual pre-trained language models and is yet to be fully evaluated on their multilingual counterparts. This work investigates three aspects of structured pruning on multilingual pre-trained language models: settings, algorithms, and efficiency. Experiments on nine downstream tasks show several counter-intuitive phenomena: for settings, individually pruning for each language does not induce a better result; for algorithms, the simplest method performs the best; for efficiency, a fast model does not imply that it is also small. To facilitate the comparison on all sparsity levels, we present Dynamic Sparsification, a simple approach that allows training the model once and adapting to different model sizes at inference. We hope this work fills the gap in the study of structured pruning on multilingual pre-trained models and sheds light on future research.",
+  "keywords": [
+    "work",
+    "language",
+    "model",
+    "it",
+    "efficiency",
+    "monolingual pre-trained language models",
+    "algorithms and efficiency experiments",
+    "we",
+    "pre",
+    "multilingual pre-trained language models",
+    "fast",
+    "that",
+    "dynamic sparsification",
+    "this work",
+    "multilingual pre-trained models"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.130/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

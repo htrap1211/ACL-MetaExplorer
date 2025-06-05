@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.571",
+  "title": "H}yper{M}o{E}: Towards Better Mixture of Experts via Transferring Among Experts",
+  "authors": [
+    "Zhao, Hao  and\nQiu, Zihan  and\nWu, Huijia  and\nWang, Zili  and\nHe, Zhaofeng  and\nFu, Jie"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The Mixture of Experts (MoE) for language models has been proven effective in augmenting the capacity of models by dynamically routing each input token to a specific subset of experts for processing. Despite the success, most existing methods face a challenge for balance between sparsity and the availability of expert knowledge: enhancing performance through increased use of expert knowledge often results in diminishing sparsity during expert selection. To mitigate this contradiction, we propose HyperMoE, a novel MoE framework built upon Hypernetworks. This framework integrates the computational processes of MoE with the concept of knowledge transferring in multi-task learning. Specific modules generated based on the information of unselected experts serve as supplementary information, which allows the knowledge of experts not selected to be used while maintaining selection sparsity. Our comprehensive empirical evaluations across multiple datasets and backbones establish that HyperMoE significantly outperforms existing MoE methods under identical conditions concerning the number of experts. Our code is publicly available at https://github.com/Bumble666/Hyper_MoE",
+  "keywords": [
+    "code",
+    "we",
+    "our comprehensive empirical evaluations",
+    "information",
+    "yper",
+    "processing",
+    "language models",
+    "-",
+    "knowledge",
+    "language",
+    "evaluations",
+    "this framework",
+    "backbones",
+    "multi",
+    "this contradiction"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.571/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.175",
+  "title": "Generating Scientific Claims for Zero-Shot Scientific Fact Checking",
+  "authors": [
+    "Wright, Dustin  and\nWadden, David  and\nLo, Kyle  and\nKuehl, Bailey  and\nCohan, Arman  and\nAugenstein, Isabelle  and\nWang, Lucy Lu"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Automated scientific fact checking is difficult due to the complexity of scientific language and a lack of significant amounts of training data, as annotation requires domain expertise. To address this challenge, we propose scientific claim generation, the task of generating one or more atomic and verifiable claims from scientific sentences, and demonstrate its usefulness in zero-shot fact checking for biomedical claims. We propose CLAIMGEN-BART, a new supervised method for generating claims supported by the literature, as well as KBIN, a novel method for generating claim negations. Additionally, we adapt an existing unsupervised entity-centric method of claim generation to biomedical claims, which we call CLAIMGEN-ENTITY. Experiments on zero-shot fact checking demonstrate that both CLAIMGEN-ENTITY and CLAIMGEN-BART, coupled with KBIN, achieve up to 90% performance of fully supervised models trained on manually annotated claims and evidence. A rigorous evaluation study demonstrates significant improvement in generated claim and negation quality over existing baselines",
+  "keywords": [
+    "claim generation",
+    "scientific claim generation",
+    "we",
+    "automated scientific fact checking",
+    "shot",
+    "training",
+    "scientific claims",
+    "a rigorous evaluation study",
+    "zero-shot fact",
+    "scientific",
+    "zero-shot scientific fact",
+    "language",
+    "generation",
+    "scientific language",
+    "scientific sentences"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.175/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

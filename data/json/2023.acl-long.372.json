@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.372",
+  "title": "FL}am{E}: Few-shot Learning from Natural Language Explanations",
+  "authors": [
+    "Zhou, Yangqiaoyu  and\nZhang, Yiming  and\nTan, Chenhao"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Natural language explanations have the potential to provide rich information that in principle guides model reasoning. Yet, recent work by Lampinen et al. has shown limited utility of natural language explanations in improving classification. To effectively learn from explanations, we present FLamE, a two-stage few-shot learning framework that first generates explanations using GPT-3, and then fine-tunes a smaller model (e.g., RoBERTa) with generated explanations. Our experiments on natural language inference demonstrate effectiveness over strong baselines, increasing accuracy by 17.6% over GPT-3 Babbage and 5.7% over GPT-3 Davinci in e-SNLI.Despite improving classification performance, human evaluation surprisingly reveals that the majority of generated explanations does not adequately justify classification decisions. Additional analyses point to the important role of label-specific cues (e.g., “not know” for the neutral label) in generated explanations.",
+  "keywords": [
+    "e few-shot learning",
+    "roberta",
+    "al",
+    "we",
+    "shot",
+    "classification",
+    "classification performance human evaluation",
+    "natural",
+    "gpt-3",
+    "information",
+    "e",
+    "rich",
+    "learning",
+    "natural language",
+    "classification decisions"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.372/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:40:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.112",
+  "title": "Exploring the Impact of Layer Normalization for Zero-shot Neural Machine Translation",
+  "authors": [
+    "Mao, Zhuoyuan  and\nDabre, Raj  and\nLiu, Qianying  and\nSong, Haiyue  and\nChu, Chenhui  and\nKurohashi, Sadao"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "This paper studies the impact of layer normalization (LayerNorm) on zero-shot translation (ZST). Recent efforts for ZST often utilize the Transformer architecture as the backbone, with LayerNorm at the input of layers (PreNorm) set as the default. However, Xu et al. (2019) has revealed that PreNorm carries the risk of overfitting the training data. Based on this, we hypothesize that PreNorm may overfit supervised directions and thus have low generalizability for ZST. Through experiments on OPUS, IWSLT, and Europarl datasets for 54 ZST directions, we demonstrate that the original Transformer setting of LayerNorm after residual connections (PostNorm) consistently outperforms PreNorm by up to 12.3 BLEU points. We then study the performance disparities by analyzing the differences in off-target rates and structural variations between PreNorm and PostNorm. This study highlights the need for careful consideration of the LayerNorm setting for ZST.",
+  "keywords": [
+    "al",
+    "the performance disparities",
+    "disparities",
+    "bleu",
+    "layer",
+    "we",
+    "generalizability",
+    "zero-shot neural machine translation",
+    "shot",
+    "training",
+    "translation",
+    "neural",
+    "low generalizability",
+    "the original transformer setting",
+    "layer normalization"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.112/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:49:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

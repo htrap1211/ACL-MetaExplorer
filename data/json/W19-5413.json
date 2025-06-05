@@ -1,0 +1,33 @@
+{
+  "id": "W19-5413",
+  "title": "Unbabel{'}s Submission to the {WMT}2019 {APE} Shared Task: {BERT}-Based Encoder-Decoder for Automatic Post-Editing",
+  "authors": [
+    "Lopes, Ant{\\'o}nio V.  and\nFarajian, M. Amin  and\nCorreia, Gon{\\c{c}}alo M.  and\nTr{\\'e}nous, Jonay  and\nMartins, Andr{\\'e} F. T."
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 3: Shared Task Papers, Day 2)",
+  "abstract": "This paper describes Unbabel’s submission to the WMT2019 APE Shared Task for the English-German language pair. Following the recent rise of large, powerful, pre-trained models, we adapt the BERT pretrained model to perform Automatic Post-Editing in an encoder-decoder framework. Analogously to dual-encoder architectures we develop a BERT-based encoder-decoder (BED) model in which a single pretrained BERT encoder receives both the source src and machine translation mt strings. Furthermore, we explore a conservativeness factor to constrain the APE system to perform fewer edits. As the official results show, when trained on a weighted combination of in-domain and artificial training data, our BED system with the conservativeness penalty improves significantly the translations of a strong NMT system by -0.78 and +1.23 in terms of TER and BLEU, respectively. Finally, our submission achieves a new state-of-the-art, ex-aequo, in English-German APE of NMT.",
+  "keywords": [
+    "bleu",
+    "we",
+    "training",
+    "translation",
+    "an encoder-decoder framework",
+    "decoder",
+    "ter",
+    "bed",
+    "the translations",
+    "bert",
+    "-",
+    "the bert pretrained model",
+    "language",
+    "model",
+    "machine"
+  ],
+  "url": "https://aclanthology.org/W19-5413/",
+  "provenance": {
+    "collected_at": "2025-06-05 02:09:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

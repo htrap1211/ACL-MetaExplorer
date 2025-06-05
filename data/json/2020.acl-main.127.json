@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.127",
+  "title": "C}onversational {W}ord {E}mbedding for {R}etrieval-{B}ased {D}ialog {S}ystem",
+  "authors": [
+    "Ma, Wentao  and\nCui, Yiming  and\nLiu, Ting  and\nWang, Dong  and\nWang, Shijin  and\nHu, Guoping"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Human conversations contain many types of information, e.g., knowledge, common sense, and language habits. In this paper, we propose a conversational word embedding method named PR-Embedding, which utilizes the conversation pairs <post, reply> to learn word embedding. Different from previous works, PR-Embedding uses the vectors from two different semantic spaces to represent the words in post and reply. To catch the information among the pair, we first introduce the word alignment model from statistical machine translation to generate the cross-sentence window, then train the embedding on word-level and sentence-level. We evaluate the method on single-turn and multi-turn response selection tasks for retrieval-based dialog systems. The experiment results show that PR-Embedding can improve the quality of the selected response.",
+  "keywords": [
+    "alignment",
+    "cross",
+    "knowledge",
+    "language",
+    "translation",
+    "a conversational word",
+    "model",
+    "machine",
+    "statistical machine translation",
+    "the word alignment model",
+    "human",
+    "vectors",
+    "conversations",
+    "dialog",
+    "retrieval"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.127/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:43:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

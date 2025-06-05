@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.27",
+  "title": "A Slot Is Not Built in One Utterance: Spoken Language Dialogs with Sub-Slots",
+  "authors": [
+    "Zhang, Sai  and\nHu, Yuwei  and\nWu, Yuchuan  and\nWu, Jiaman  and\nLi, Yongbin  and\nSun, Jian  and\nYuan, Caixia  and\nWang, Xiaojie"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "A slot value might be provided segment by segment over multiple-turn interactions in a dialog, especially for some important information such as phone numbers and names. It is a common phenomenon in daily life, but little attention has been paid to it in previous work. To fill the gap, this paper defines a new task named Sub-Slot based Task-Oriented Dialog (SSTOD) and builds a Chinese dialog dataset SSD for boosting research on SSTOD. The dataset includes a total of 40K dialogs and 500K utterances from four different domains: Chinese names, phone numbers, ID numbers and license plate numbers. The data is well annotated with sub-slot values, slot values, dialog states and actions. We find some new linguistic phenomena and interactive manners in SSTOD which raise critical challenges of building dialog agents for the task. We test three state-of-the-art dialog models on SSTOD and find they cannot handle the task well on any of the four domains. We also investigate an improved model by involving slot knowledge in a plug-in manner. More work should be done to meet the new challenges raised from SSTOD which widely exists in real-life applications. The dataset and code are publicly available viahttps://github.com/shunjiu/SSTOD.",
+  "keywords": [
+    "code",
+    "a plug-in manner",
+    "little attention",
+    "we",
+    "it",
+    "information",
+    "interactive manners",
+    "manner",
+    "-",
+    "work",
+    "knowledge",
+    "language",
+    "model",
+    "manners",
+    "dialog"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.27/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.611",
+  "title": "FLAT}: {C}hinese {NER} Using Flat-Lattice Transformer",
+  "authors": [
+    "Li, Xiaonan  and\nYan, Hang  and\nQiu, Xipeng  and\nHuang, Xuanjing"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Recently, the character-word lattice structure has been proved to be effective for Chinese named entity recognition (NER) by incorporating the word information. However, since the lattice structure is complex and dynamic, the lattice-based models are hard to fully utilize the parallel computation of GPUs and usually have a low inference speed. In this paper, we propose FLAT: Flat-LAttice Transformer for Chinese NER, which converts the lattice structure into a flat structure consisting of spans. Each span corresponds to a character or latent word and its position in the original lattice. With the power of Transformer and well-designed position encoding, FLAT can fully leverage the lattice information and has an excellent parallel ability. Experiments on four datasets show FLAT outperforms other lexicon-based models in performance and efficiency.",
+  "keywords": [
+    "transformer",
+    "ner",
+    "chinese ner",
+    "flat c hinese ner",
+    "entity recognition ner",
+    "information",
+    "latent",
+    "efficiency",
+    "word",
+    "we",
+    "flat-lattice transformer",
+    "entity",
+    "flat flat-lattice transformer",
+    "the lattice structure",
+    "hinese"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.611/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:50:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

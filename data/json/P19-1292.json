@@ -1,0 +1,33 @@
+{
+  "id": "P19-1292",
+  "title": "A Simple and Effective Approach to Automatic Post-Editing with Transfer Learning",
+  "authors": [
+    "Correia, Gon{\\c{c}}alo M.  and\nMartins, Andr{\\'e} F. T."
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Automatic post-editing (APE) seeks to automatically refine the output of a black-box machine translation (MT) system through human post-edits. APE systems are usually trained by complementing human post-edited data with large, artificial data generated through back-translations, a time-consuming process often no easier than training a MT system from scratch. in this paper, we propose an alternative where we fine-tune pre-trained BERT models on both the encoder and decoder of an APE system, exploring several parameter sharing strategies. By only training on a dataset of 23K sentences for 3 hours on a single GPU we obtain results that are competitive with systems that were trained on 5M artificial sentences. When we add this artificial data our method obtains state-of-the-art results.",
+  "keywords": [
+    "process",
+    "bert",
+    "machine",
+    "human",
+    "strategies",
+    "both the encoder",
+    "encoder",
+    "decoder",
+    "several parameter sharing strategies",
+    "fine",
+    "we",
+    "transfer",
+    "pre",
+    "translations",
+    "time"
+  ],
+  "url": "https://aclanthology.org/P19-1292/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:37:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.366",
+  "title": "Dynamic Structured Neural Topic Model with Self-Attention Mechanism",
+  "authors": [
+    "Miyamoto, Nozomu  and\nIsonuma, Masaru  and\nTakase, Sho  and\nMori, Junichiro  and\nSakata, Ichiro"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "This study presents a dynamic structured neural topic model, which can handle the time-series development of topics while capturing their dependencies. Our model captures the topic branching and merging processes by modeling topic dependencies based on a self-attention mechanism. Additionally, we introduce citation regularization, which induces attention weights to represent citation relations by modeling text and citations jointly. Our model outperforms a prior dynamic embedded topic model regarding perplexity and coherence, while maintaining sufficient diversity across topics. Furthermore, we confirm that our model can potentially predict emerging topics from academic literature.",
+  "keywords": [
+    "neural",
+    "model",
+    "text",
+    "citation regularization",
+    "self",
+    "perplexity",
+    "topic",
+    "the time-series development",
+    "series",
+    "dependencies",
+    "modeling",
+    "regularization",
+    "sufficient",
+    "self-attention mechanism",
+    "attention weights"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.366/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

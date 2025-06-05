@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.73",
+  "title": "Generate-then-Retrieve: Intent-Aware {FAQ} Retrieval in Product Search",
+  "authors": [
+    "Chen, Zhiyu  and\nChoi, Jason  and\nFetahu, Besnik  and\nRokhlenko, Oleg  and\nMalmasi, Shervin"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "Frequently Asked Question (FAQ) retrieval aims at retrieving question-answer pairs for a given a user query. Integrating FAQ retrieval with product search can not only empower users to make more informed purchase decisions, but also enhance user retention through efficient post-purchase support. Providing FAQ content without disrupting user’s shopping experience poses challenges on deciding when and how to show FAQ results. Our proposed intent-aware FAQ retrieval consists of (1) an intent classifier that predicts whether the query is looking for an FAQ; (2) a reformulation model that rewrites query into a natural question. Offline evaluation demonstrates that our approach improves 12% in Hit@1 on retrieving ground-truth FAQs, while reducing latency by 95% compared to baseline systems. These improvements are further validated by real user feedback, where more than 99% of users consider FAQs displayed on top of product search results is helpful. Overall, our findings show promising directions for integrating FAQ retrieval into product search at scale.",
+  "keywords": [
+    "top",
+    "answer",
+    "support",
+    "natural",
+    "feedback",
+    "retrieve",
+    "classifier",
+    "generate-then-retrieve intent-aware faq retrieval",
+    "question faq retrieval",
+    "model",
+    "offline evaluation",
+    "efficient",
+    "an intent classifier",
+    "faq retrieval",
+    "retrieval"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.73/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.531",
+  "title": "Unsupervised Extractive Summarization of Emotion Triggers",
+  "authors": [
+    "Sosea, Tiberiu  and\nZhan, Hongli  and\nLi, Junyi Jessy  and\nCaragea, Cornelia"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Understanding what leads to emotions during large-scale crises is important as it can provide groundings for expressed emotions and subsequently improve the understanding of ongoing disasters. Recent approaches trained supervised models to both detect emotions and explain emotion triggers (events and appraisals) via abstractive summarization. However, obtaining timely and qualitative abstractive summaries is expensive and extremely time-consuming, requiring highly-trained expert annotators. In time-sensitive, high-stake contexts, this can block necessary responses. We instead pursue unsupervised systems that extract triggers from text. First, we introduce CovidET-EXT, augmenting (Zhan et al., 2022)’s abstractive dataset (in the context of the COVID-19 crisis) with extractive triggers. Second, we develop new unsupervised learning models that can jointly detect emotions and summarize their triggers. Our best approach, entitled Emotion-Aware Pagerank, incorporates emotion information from external sources combined with a language understanding module, and outperforms strong baselines. We release our data and code athttps://github.com/tsosea2/CovidET-EXT.",
+  "keywords": [
+    "code",
+    "ext",
+    "summarization",
+    "we",
+    "it",
+    "unsupervised extractive summarization",
+    "information",
+    "learning",
+    "text",
+    "abstractive summarization",
+    "abstractive summaries",
+    "summaries",
+    "language",
+    "time",
+    "the covid-19 crisis"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.531/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:42:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

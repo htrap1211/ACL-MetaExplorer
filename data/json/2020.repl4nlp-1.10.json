@@ -1,0 +1,33 @@
+{
+  "id": "2020.repl4nlp-1.10",
+  "title": "Exploring the Limits of Simple Learners in Knowledge Distillation for Document Classification with {D}oc{BERT",
+  "authors": [
+    "Adhikari, Ashutosh  and\nRam, Achyudh  and\nTang, Raphael  and\nHamilton, William L.  and\nLin, Jimmy"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 5th Workshop on Representation Learning for NLP",
+  "abstract": "Fine-tuned variants of BERT are able to achieve state-of-the-art accuracy on many natural language processing tasks, although at significant computational costs. In this paper, we verify BERT’s effectiveness for document classification and investigate the extent to which BERT-level effectiveness can be obtained by different baselines, combined with knowledge distillation—a popular model compression method. The results show that BERT-level effectiveness can be achieved by a single-layer LSTM with at least40×fewer FLOPS and only∼3%parameters. More importantly, this study analyzes the limits of knowledge distillation as we distill BERT’s knowledge all the way down to linear models—a relevant baseline for the task. We report substantial improvement in effectiveness for even the simplest models, as they capture the knowledge learnt by BERT.",
+  "keywords": [
+    "a single-layer lstm",
+    "knowledge",
+    "processing",
+    "language",
+    "document classification",
+    "learners",
+    "natural",
+    "bert",
+    "bert s knowledge",
+    "model",
+    "bert s effectiveness",
+    "layer",
+    "oc bert fine-tuned variants",
+    "we",
+    "d"
+  ],
+  "url": "https://aclanthology.org/2020.repl4nlp-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:58:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

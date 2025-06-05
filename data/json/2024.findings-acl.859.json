@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.859",
+  "title": "Amanda: Adaptively Modality-Balanced Domain Adaptation for Multimodal Emotion Recognition",
+  "authors": [
+    "Zhang, Xinxin  and\nSun, Jun  and\nHong, Simin  and\nLi, Taihao"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "This paper investigates unsupervised multimodal domain adaptation for multimodal emotion recognition, which is a solution for data scarcity yet remains under studied. Due to the varying distribution discrepancies of different modalities between source and target domains, the primary challenge lies in how to balance the domain alignment across modalities to guarantee they are all well aligned. To achieve this, we first develop our model based on the information bottleneck theory to learn optimal representation for each modality independently. Then, we align the domains via matching the label distributions and the representations. In order to balance the representation alignment, we propose to minimize a surrogate of the alignment losses, which is equivalent to adaptively adjusting the weights of the modalities throughout training, thus achieving balanced domain alignment across modalities. Overall, the proposed approach featuresAdaptivelymodality-balanceddomainadaptation, dubbedAmanda, for multimodal emotion recognition. Extensive empirical results on commonly used benchmark datasets demonstrate that Amanda significantly outperforms competing approaches. The code is available athttps://github.com/sunjunaimer/Amanda.",
+  "keywords": [
+    "code",
+    "the modalities",
+    "the varying distribution discrepancies",
+    "we",
+    "training",
+    "balanced domain alignment",
+    "information",
+    "the alignment losses",
+    "discrepancies",
+    "different modalities",
+    "the domain alignment",
+    "the representation alignment",
+    "alignment",
+    "model",
+    "modalities"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.859/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:00:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

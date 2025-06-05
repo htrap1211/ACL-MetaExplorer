@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.417",
+  "title": "Plan, Generate and Complicate: Improving Low-resource Dialogue State Tracking via Easy-to-Difficult Zero-shot Data Augmentation",
+  "authors": [
+    "Gu, Ming  and\nYang, Yan"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Data augmentation methods have been a promising direction to improve the performance of small models for low-resource dialogue state tracking. However, traditional methods rely on pre-defined user goals and neglect the importance of data complexity in this task. In this paper, we propose EDZ-DA, an Easy-to-Difficult Zero-shot Data Augmentation framework for low-resource dialogue state tracking that utilizes large language models to automatically catch the relationships of different domains and then generate the dialogue data. We also complicate the dialogues based on the domain relation to enhance the model’s capability for co-reference slot tracking. Furthermore, we permute slot values to mitigate the influence of output orders and the problem of incomplete value generation. Experimental results illustrate the superiority of our proposed method compared to previous strong data augmentation baselines on MultiWOZ.",
+  "keywords": [
+    "we",
+    "dialogue",
+    "shot",
+    "the dialogue data",
+    "low-resource dialogue state",
+    "the dialogues",
+    "low-resource dialogue state tracking",
+    "reference",
+    "language",
+    "generation",
+    "model",
+    "dialogues",
+    "large language models",
+    "pre",
+    "promising"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.417/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

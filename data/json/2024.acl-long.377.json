@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.377",
+  "title": "ARIES}: A Corpus of Scientific Paper Edits Made in Response to Peer Reviews",
+  "authors": [
+    "D{'}Arcy, Mike  and\nRoss, Alexis  and\nBransom, Erin  and\nKuehl, Bailey  and\nBragg, Jonathan  and\nHope, Tom  and\nDowney, Doug"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We introduce the task of automatically revising scientific papers based on peer feedback and release ARIES, a dataset of review comments and their corresponding paper edits. The data is drawn from real reviewer-author interactions from computer science, and we provide labels linking each reviewer comment to the specific paper edits made by the author in response. We automatically create a high-precision silver training set, as well as an expert-labeled test set that shows high inter-annotator agreement. In experiments with 10 models covering the state of the art, we find that they struggle even to identify which edits correspond to a comment—especially when the relationship between the edit and the comment is indirect and requires reasoning to uncover. We also extensively analyze GPT-4’s ability to generate edits given a comment and the original paper. We find that it often succeeds on a superficial level, but tends to rigidly follow the wording of the feedback rather than the underlying intent, and lacks technical details compared to human-written edits.",
+  "keywords": [
+    "precision",
+    "feedback",
+    "real reviewer-author interactions",
+    "peer reviews",
+    "we",
+    "training",
+    "it",
+    "each reviewer comment",
+    "science",
+    "scientific",
+    "reviews",
+    "computer science",
+    "review comments",
+    "gpt-4",
+    "scientific paper edits"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.377/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

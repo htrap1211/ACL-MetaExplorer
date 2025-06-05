@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.320",
+  "title": "Masked Thought: Simply Masking Partial Reasoning Steps Can Improve Mathematical Reasoning Learning of Language Models",
+  "authors": [
+    "Chen, Changyu  and\nWang, Xiting  and\nLin, Ting-En  and\nLv, Ang  and\nWu, Yuchuan  and\nGao, Xin  and\nWen, Ji-Rong  and\nYan, Rui  and\nLi, Yongbin"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In reasoning tasks, even a minor error can cascade into inaccurate results, leading to suboptimal performance of large language models insuch domains. Earlier fine-tuning approaches sought to mitigate this by leveraging more precise supervisory signals from human labeling, larger models, or self-sampling, although at a high cost. Conversely, we develop a method that avoids external resources, relying instead on introducing perturbations to the input. Our training approach randomly masks certain tokens within the chain of thought, a techniquewe found to be particularly effective for reasoning tasks. When applied to fine-tuning with GSM8K on Llama-2-7B, this method achieveda 5% improvement in GSM8K accuracy and a 10% improvement in GSM-IC accuracy over standard supervised fine-tuning with a few codes modified. Furthermore, it is complementary to existing methods. When integrated with related explicit data augmentation methods, it leads to improvements across five datasets of various augmentation methods, as well as two different base models. We further investigate the mechanisms behind this improvement through case studies and quantitative analysis, suggesting that our approach may provide superior support for the model in capturing long-distance dependencies, especially those related to questions. This enhancement could deepen understanding of the premises in questions and prior steps.",
+  "keywords": [
+    "support",
+    "chain",
+    "we",
+    "gsm8k accuracy",
+    "achieveda",
+    "training",
+    "it",
+    "self",
+    "dependencies",
+    "earlier fine-tuning approaches",
+    "learning",
+    "analysis",
+    "long-distance dependencies",
+    "tuning",
+    "language models"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.320/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

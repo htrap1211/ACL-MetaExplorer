@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.598",
+  "title": "Recipes for Sequential Pre-training of Multilingual Encoder and {S}eq2{S}eq Models",
+  "authors": [
+    "Soltan, Saleh  and\nRosenbaum, Andy  and\nFalke, Tobias  and\nLu, Qin  and\nRumshisky, Anna  and\nHamza, Wael"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Pre-trained encoder-only and sequence-to-sequence (seq2seq) models each have advantages, however training both model types from scratch is computationally expensive. We explore recipes to improve pre-training efficiency by initializing one model from the other. (1) Extracting the encoder from a seq2seq model, we show it under-performs a Masked Language Modeling (MLM) encoder, particularly on sequence labeling tasks. Variations of masking during seq2seq training, reducing the decoder size, and continuing with a small amount of MLM training do not close the gap. (2) Conversely, using an encoder to warm-start seq2seq training, we show that by unfreezing the encoder partway through training, we can match task performance of a from-scratch seq2seq model. Overall, this two-stage approach is an efficient recipe to obtain both a multilingual encoder and a seq2seq model, matching the performance of training each model from scratch while reducing the total compute cost by 27%.",
+  "keywords": [
+    "seq2seq training",
+    "seq2seq",
+    "the encoder",
+    "the decoder size",
+    "multilingual encoder",
+    "language",
+    "a seq2seq model",
+    "model",
+    "it",
+    "efficient",
+    "both a multilingual encoder",
+    "an efficient recipe",
+    "-",
+    "encoder",
+    "decoder"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.598/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

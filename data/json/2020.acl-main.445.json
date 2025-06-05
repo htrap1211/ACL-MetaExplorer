@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.445",
+  "title": "Facet-Aware Evaluation for Extractive Summarization",
+  "authors": [
+    "Mao, Yuning  and\nLiu, Liyuan  and\nZhu, Qi  and\nRen, Xiang  and\nHan, Jiawei"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Commonly adopted metrics for extractive summarization focus on lexical overlap at the token level. In this paper, we present a facet-aware evaluation setup for better assessment of the information coverage in extracted summaries. Specifically, we treat each sentence in the reference summary as afacet, identify the sentences in the document that express the semantics of each facet assupport sentencesof the facet, and automatically evaluate extractive summarization methods by comparing the indices of extracted sentences and support sentences of all the facets in the reference summary. To facilitate this new evaluation setup, we construct an extractive version of the CNN/Daily Mail dataset and perform a thorough quantitative investigation, through which we demonstrate that facet-aware evaluation manifests better correlation with human judgment than ROUGE, enables fine-grained evaluation as well as comparative analysis, and reveals valuable insights of state-of-the-art summarization methods. Data can be found athttps://github.com/morningmoni/FAR.",
+  "keywords": [
+    "extracted summaries",
+    "the semantics",
+    "summarization",
+    "we",
+    "this new evaluation setup",
+    "cnn",
+    "semantics",
+    "token",
+    "a facet-aware evaluation setup",
+    "information",
+    "extractive summarization focus",
+    "fine-grained evaluation",
+    "analysis",
+    "extractive summarization",
+    "metrics"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.445/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:48:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

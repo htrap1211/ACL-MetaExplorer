@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.106",
+  "title": "Coloring the Blank Slate: Pre-training Imparts a Hierarchical Inductive Bias to Sequence-to-sequence Models",
+  "authors": [
+    "Mueller, Aaron  and\nFrank, Robert  and\nLinzen, Tal  and\nWang, Luheng  and\nSchuster, Sebastian"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Relations between words are governed by hierarchical structure rather than linear ordering. Sequence-to-sequence (seq2seq) models, despite their success in downstream NLP applications, often fail to generalize in a hierarchy-sensitive manner when performing syntactic transformations—for example, transforming declarative sentences into questions. However, syntactic evaluations of seq2seq models have only observed models that were not pre-trained on natural language data before being trained to perform syntactic transformations, in spite of the fact that pre-training has been found to induce hierarchical linguistic generalizations in language models; in other words, the syntactic capabilities of seq2seq models may have been greatly understated. We address this gap using the pre-trained seq2seq models T5 and BART, as well as their multilingual variants mT5 and mBART. We evaluate whether they generalize hierarchically on two transformations in two languages: question formation and passivization in English and German. We find that pre-trained seq2seq models generalize hierarchically when performing syntactic transformations, whereas models trained from scratch on syntactic transformations do not. This result presents evidence for the learnability of hierarchical syntactic information from non-annotated natural language text while also demonstrating that seq2seq models are capable of syntactic generalization, though only after exposure to much more language data than human learners receive.",
+  "keywords": [
+    "bias",
+    "syntactic generalization",
+    "human learners",
+    "we",
+    "a hierarchical inductive bias",
+    "training",
+    "generalizations",
+    "pre-trained seq2seq models",
+    "downstream nlp applications",
+    "natural",
+    "hierarchical syntactic information",
+    "the pre-trained seq2seq models",
+    "information",
+    "sequence",
+    "the syntactic capabilities"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.106/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

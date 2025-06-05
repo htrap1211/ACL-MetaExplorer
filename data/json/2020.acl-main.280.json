@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.280",
+  "title": "Distinguish Confusing Law Articles for Legal Judgment Prediction",
+  "authors": [
+    "Xu, Nuo  and\nWang, Pinghui  and\nChen, Long  and\nPan, Li  and\nWang, Xiaoyan  and\nZhao, Junzhou"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Legal Judgement Prediction (LJP) is the task of automatically predicting a law case’s judgment results given a text describing the case’s facts, which has great prospects in judicial assistance systems and handy services for the public. In practice, confusing charges are often presented, because law cases applicable to similar law articles are easily misjudged. To address this issue, existing work relies heavily on domain experts, which hinders its application in different law systems. In this paper, we present an end-to-end model, LADAN, to solve the task of LJP. To distinguish confusing charges, we propose a novel graph neural network, GDL, to automatically learn subtle differences between confusing law articles, and also design a novel attention mechanism that fully exploits the learned differences to attentively extract effective discriminative features from fact descriptions. Experiments conducted on real-world datasets demonstrate the superiority of our LADAN.",
+  "keywords": [
+    "end",
+    "we",
+    "graph",
+    "neural",
+    "text",
+    "a novel attention mechanism",
+    "work",
+    "model",
+    "network",
+    "attention",
+    "great",
+    "judgment",
+    "similar",
+    "different",
+    "domain experts"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.280/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:45:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

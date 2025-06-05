@@ -1,0 +1,33 @@
+{
+  "id": "W19-3807",
+  "title": "Filling Gender {\\&} Number Gaps in Neural Machine Translation with Black-box Context Injection",
+  "authors": [
+    "Moryossef, Amit  and\nAharoni, Roee  and\nGoldberg, Yoav"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the First Workshop on Gender Bias in Natural Language Processing",
+  "abstract": "When translating from a language that does not morphologically mark information such as gender and number into a language that does, translation systems must “guess” this missing information, often leading to incorrect translations in the given context. We propose a black-box approach for injecting the missing information to a pre-trained neural machine translation system, allowing to control the morphological variations in the generated translations without changing the underlying model or training data. We evaluate our method on an English to Hebrew translation task, and show that it is effective in injecting the gender and number information and that supplying the correct information improves the translation accuracy in up to 2.3 BLEU on a female-speaker test set for a state-of-the-art online black-box system. Finally, we perform a fine-grained syntactic analysis of the generated translations that shows the effectiveness of our method.",
+  "keywords": [
+    "the generated translations",
+    "language",
+    "neural",
+    "machine",
+    "model",
+    "it",
+    "the translation accuracy",
+    "neural machine translation",
+    "bleu",
+    "translation systems",
+    "information",
+    "translation task",
+    "we",
+    "incorrect translations",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/W19-3807/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:59:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

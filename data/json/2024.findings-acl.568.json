@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.568",
+  "title": "Leveraging Collection-Wide Similarities for Unsupervised Document Structure Extraction",
+  "authors": [
+    "Lior, Gili  and\nGoldberg, Yoav  and\nStanovsky, Gabriel"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Document collections of various domains, e.g., legal, medical, or financial, often share some underlying collection-wide structure, which captures information that can aid both human users and structure-aware models.We propose to identify the typical structure of document within a collection, which requires to capture recurring topics across the collection, while abstracting over arbitrary header paraphrases, and ground each topic to respective document locations. These requirements pose several challenges: headers that mark recurring topics frequently differ in phrasing, certain section headers are unique to individual documents and do not reflect the typical structure, and the order of topics can vary between documents. Subsequently, we develop an unsupervised graph-based method which leverages both inter- and intra-document similarities, to extract the underlying collection-wide structure. Our evaluations on three diverse domains in both English and Hebrew indicate that our method extracts meaningful collection-wide structure, and we hope that future work will leverage our method for multi-document applications and structure-aware models.",
+  "keywords": [
+    "extraction",
+    "collection-wide similarities",
+    "we",
+    "graph",
+    "information",
+    "topic",
+    "work",
+    "similarities",
+    "human",
+    "evaluations",
+    "our evaluations",
+    "documents",
+    "multi",
+    "paraphrases",
+    "each topic"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.568/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:56:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

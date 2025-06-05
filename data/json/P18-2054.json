@@ -1,0 +1,33 @@
+{
+  "id": "P18-2054",
+  "title": "Improving Beam Search by Removing Monotonic Constraint for Neural Machine Translation",
+  "authors": [
+    "Shu, Raphael  and\nNakayama, Hideki"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "To achieve high translation performance, neural machine translation models usually rely on the beam search algorithm for decoding sentences. The beam search finds good candidate translations by considering multiple hypotheses of translations simultaneously. However, as the algorithm produces hypotheses in a monotonic left-to-right order, a hypothesis can not be revisited once it is discarded. We found such monotonicity forces the algorithm to sacrifice some good decoding paths. To mitigate this problem, we relax the monotonic constraint of the beam search by maintaining all found hypotheses in a single priority queue and using a universal score function for hypothesis selection. The proposed algorithm allows discarded hypotheses to be recovered in a later step. Despite its simplicity, we show that the proposed decoding algorithm enhances the quality of selected hypotheses and improve the translations even for high-performance models in English-Japanese translation task.",
+  "keywords": [
+    "good candidate translations",
+    "the translations",
+    "translation",
+    "neural",
+    "machine",
+    "it",
+    "neural machine translation",
+    "english-japanese translation task",
+    "we",
+    "function",
+    "translations",
+    "the quality",
+    "good",
+    "a hypothesis",
+    "monotonic"
+  ],
+  "url": "https://aclanthology.org/P18-2054/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:17:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.nlp4convai-1.4",
+  "title": "Evaluating Robustness of Open Dialogue Summarization Models in the Presence of Naturally Occurring Variations",
+  "authors": [
+    "Gupta, Ankita  and\nGunasekara, Chulaka  and\nWan, Hui  and\nGanhotra, Jatin  and\nJoshi, Sachindra  and\nDanilevsky, Marina"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 6th Workshop on NLP for Conversational AI (NLP4ConvAI 2024)",
+  "abstract": "Dialogue summarization involves summarizing long conversations while preserving the most salient information. Real-life dialogues often involve naturally occurring variations (e.g., repetitions, hesitations). In this study, we systematically investigate the impact of such variations on state-of-the-art open dialogue summarization models whose details are publicly known (e.g., architectures, weights, and training corpora). To simulate real-life variations, we introduce two types of perturbations: utterance-level perturbations that modify individual utterances with errors and language variations, and dialogue-level perturbations that add non-informative exchanges (e.g., repetitions, greetings). We perform our analysis along three dimensions of robustness: consistency, saliency, and faithfulness, which aim to capture different aspects of performance of a summarization model. We find that both fine-tuned and instruction-tuned models are affected by input variations, with the latter being more susceptible, particularly to dialogue-level perturbations. We also validate our findings via human evaluation. Finally, we investigate whether the robustness of fine-tuned models can be improved by training them with a fraction of perturbed data. We find that this approach does not yield consistent performance gains, warranting further research. Overall, our work highlights robustness challenges in current open encoder-decoder summarization models and provides insights for future research.",
+  "keywords": [
+    "conversations",
+    "summarization",
+    "we",
+    "dialogue",
+    "current",
+    "instruction",
+    "human evaluation",
+    "decoder",
+    "a summarization model",
+    "information",
+    "robustness consistency saliency",
+    "dialogue-level perturbations",
+    "long conversations",
+    "open dialogue summarization models",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/2024.nlp4convai-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

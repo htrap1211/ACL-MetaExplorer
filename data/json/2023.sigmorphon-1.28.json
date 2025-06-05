@@ -1,0 +1,33 @@
+{
+  "id": "2023.sigmorphon-1.28",
+  "title": "SIGMORPHON} 2022 Shared Task on Grapheme-to-Phoneme Conversion Submission Description: Sequence Labelling for {G}2{P",
+  "authors": [
+    "Girrbach, Leander"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th SIGMORPHON workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "This paper describes our participation in the Third SIGMORPHON Shared Task on Grapheme-to-Phoneme Conversion (Low-Resource and Cross-Lingual) (McCarthy et al.,2022). Our models rely on different sequence labelling methods. The main model predicts multiple phonemes from each grapheme and is trained using CTC loss (Graves et al., 2006). We find that sequence labelling methods yield worse performance than the baseline when enough data is available, but can still be used when very little data is available. Furthermore, we demonstrate that alignments learned by the sequence labelling models can be easily inspected.",
+  "keywords": [
+    "cross",
+    "alignments",
+    "model",
+    "loss",
+    "we",
+    "sequence",
+    "phonemes",
+    "enough data",
+    "multiple phonemes",
+    "phoneme",
+    "task",
+    "low",
+    "data",
+    "participation",
+    "2022 shared task"
+  ],
+  "url": "https://aclanthology.org/2023.sigmorphon-1.28/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:31:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

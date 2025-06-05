@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.126",
+  "title": "Beyond User Self-Reported {L}ikert Scale Ratings: A Comparison Model for Automatic Dialog Evaluation",
+  "authors": [
+    "Liang, Weixin  and\nZou, James  and\nYu, Zhou"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Open Domain dialog system evaluation is one of the most important challenges in dialog research. Existing automatic evaluation metrics, such as BLEU are mostly reference-based. They calculate the difference between the generated response and a limited number of available references. Likert-score based self-reported user rating is widely adopted by social conversational systems, such as Amazon Alexa Prize chatbots. However, self-reported user rating suffers from bias and variance among different users. To alleviate this problem, we formulate dialog evaluation as a comparison task. We also propose an automatic evaluation model CMADE (Comparison Model for Automatic Dialog Evaluation) that automatically cleans self-reported user ratings as it trains on them. Specifically, we first use a self-supervised method to learn better dialog feature representation, and then use KNN and Shapley to remove confusing samples. Our experiments show that CMADE achieves 89.2% accuracy in the dialog comparison task.",
+  "keywords": [
+    "bias",
+    "bleu",
+    "social conversational systems",
+    "we",
+    "variance",
+    "it",
+    "self",
+    "automatic dialog evaluation",
+    "chatbots",
+    "89 2 accuracy",
+    "dialog evaluation",
+    "metrics",
+    "the generated response",
+    "existing automatic evaluation metrics",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.126/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:43:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

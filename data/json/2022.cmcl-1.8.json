@@ -1,0 +1,33 @@
+{
+  "id": "2022.cmcl-1.8",
+  "title": "Predicting scalar diversity with context-driven uncertainty over alternatives",
+  "authors": [
+    "Hu, Jennifer  and\nLevy, Roger  and\nSchuster, Sebastian"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics",
+  "abstract": "Scalar implicature (SI) arises when a speaker uses an expression (e.g., “some”) that is semantically compatible with a logically stronger alternative on the same scale (e.g., “all”), leading the listener to infer that they did not intend to convey the stronger meaning. Prior work has demonstrated that SI rates are highly variable across scales, raising the question of what factors determine the SI strength for a particular scale. Here, we test the hypothesis that SI rates depend on the listener’s confidence in the underlying scale, which we operationalize as uncertainty over the distribution of possible alternatives conditioned on the context. We use a T5 model fine-tuned on a text infilling task to estimate this distribution. We find that scale uncertainty predicts human SI rates, measured as entropy over the sampled alternatives and over latent classes among alternatives in sentence embedding space. Furthermore, we do not find a significant effect of the surprisal of the strong scalemate. Our results suggest that pragmatic inferences depend on listeners’ context-driven uncertainty over alternatives.",
+  "keywords": [
+    "the listener s confidence",
+    "listeners context-driven uncertainty",
+    "question",
+    "the listener",
+    "all",
+    "we",
+    "listener",
+    "latent",
+    "e",
+    "entropy",
+    "text",
+    "g",
+    "work",
+    "embedding space",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2022.cmcl-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:40:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

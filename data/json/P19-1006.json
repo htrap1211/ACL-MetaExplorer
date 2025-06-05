@@ -1,0 +1,33 @@
+{
+  "id": "P19-1006",
+  "title": "Constructing Interpretive Spatio-Temporal Features for Multi-Turn Responses Selection",
+  "authors": [
+    "Lu, Junyu  and\nZhang, Chenbin  and\nXie, Zeying  and\nLing, Guang  and\nZhou, Tom Chao  and\nXu, Zenglin"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Response selection plays an important role in fully automated dialogue systems. Given the dialogue context, the goal of response selection is to identify the best-matched next utterance (i.e., response) from multiple candidates. Despite the efforts of many previous useful models, this task remains challenging due to the huge semantic gap and also the large size of candidate set. To address these issues, we propose a Spatio-Temporal Matching network (STM) for response selection. In detail, soft alignment is first used to obtain the local relevance between the context and the response. And then, we construct spatio-temporal features by aggregating attention images in time dimension and make use of 3D convolution and pooling operations to extract matching information. Evaluation on two large-scale multi-turn response selection tasks has demonstrated that our proposed model significantly outperforms the state-of-the-art model. Particularly, visualization analysis shows that the spatio-temporal features enables matching information in segment pairs and time sequences, and have good interpretability for multi-turn text matching.",
+  "keywords": [
+    "the dialogue context",
+    "detail soft alignment",
+    "stm",
+    "attention images",
+    "semantic",
+    "we",
+    "dialogue",
+    "information evaluation",
+    "fully automated dialogue systems",
+    "information",
+    "the huge semantic gap",
+    "analysis",
+    "i",
+    "particularly visualization analysis",
+    "text"
+  ],
+  "url": "https://aclanthology.org/P19-1006/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:28:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

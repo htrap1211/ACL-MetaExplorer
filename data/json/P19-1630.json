@@ -1,0 +1,33 @@
+{
+  "id": "P19-1630",
+  "title": "Inducing Document Structure for Aspect-based Summarization",
+  "authors": [
+    "Frermann, Lea  and\nKlementiev, Alexandre"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Automatic summarization is typically treated as a 1-to-1 mapping from document to summary. Documents such as news articles, however, are structured and often cover multiple topics or aspects; and readers may be interested in only some of them. We tackle the task of aspect-based summarization, where, given a document and a target aspect, our models generate a summary centered around the aspect. We induce latent document structure jointly with an abstractive summarization objective, and train our models in a scalable synthetic setup. In addition to improvements in summarization over topic-agnostic baselines, we demonstrate the benefit of the learnt document structure: we show that our models (a) learn to accurately segment documents by aspect; (b) can leverage the structure to produce both abstractive and extractive aspect-based summaries; and (c) that structure is particularly advantageous for summarizing long documents. All results transfer from synthetic training documents to natural news articles from CNN/Daily Mail and RCV1.",
+  "keywords": [
+    "learn",
+    "summaries",
+    "an abstractive summarization objective",
+    "natural",
+    "cnn",
+    "objective",
+    "topic",
+    "aspect-based summarization automatic summarization",
+    "latent",
+    "summarization",
+    "we",
+    "aspect-based summarization",
+    "cnn daily mail",
+    "training",
+    "documents"
+  ],
+  "url": "https://aclanthology.org/P19-1630/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:46:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

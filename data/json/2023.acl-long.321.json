@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.321",
+  "title": "Bridging the Domain Gaps in Context Representations for $k$-Nearest Neighbor Neural Machine Translation",
+  "authors": [
+    "Cao, Zhiwei  and\nYang, Baosong  and\nLin, Huan  and\nWu, Suhang  and\nWei, Xiangpeng  and\nLiu, Dayiheng  and\nXie, Jun  and\nZhang, Min  and\nSu, Jinsong"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "k-Nearest neighbor machine translation (kNN-MT) has attracted increasing attention due to its ability to non-parametrically adapt to new translation domains. By using an upstream NMT model to traverse the downstream training corpus, it is equipped with a datastore containing vectorized key-value pairs, which are retrieved during inference to benefit translation.However, there often exists a significant gap between upstream and downstream domains, which hurts the datastore retrieval and the final translation quality.To deal with this issue, we propose a novel approach to boost the datastore retrieval ofkNN-MT by reconstructing the original datastore.Concretely, we design a reviser to revise the key representations, making them better fit for the downstream domain. The reviser is trained using the collected semantically-related key-queries pairs, and optimized by two proposed losses: one is the key-queries semantic distance ensuring each revised key representation is semantically related to its corresponding queries, and the other is an L2-norm loss encouraging revised key representations to effectively retain the knowledge learned by the upstream NMT model. Extensive experiments on domain adaptation tasks demonstrate that our method can effectively boost the datastore retrieval and translation quality ofkNN-MT.Our code is available athttps://github.com/DeepLearnXMU/Revised-knn-mt.",
+  "keywords": [
+    "code",
+    "the key-queries semantic distance",
+    "k",
+    "semantic",
+    "we",
+    "norm",
+    "training",
+    "translation",
+    "the final translation quality",
+    "increasing attention",
+    "neural",
+    "the datastore retrieval ofknn-mt",
+    "it",
+    "queries",
+    "its corresponding queries"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.321/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

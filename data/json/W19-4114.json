@@ -1,0 +1,33 @@
+{
+  "id": "W19-4114",
+  "title": "Multi-turn Dialogue Response Generation in an Adversarial Learning Framework",
+  "authors": [
+    "Olabiyi, Oluwatobi  and\nSalimov, Alan O  and\nKhazane, Anish  and\nMueller, Erik"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the First Workshop on NLP for Conversational AI",
+  "abstract": "We propose an adversarial learning approach for generating multi-turn dialogue responses. Our proposed framework, hredGAN, is based on conditional generative adversarial networks (GANs). The GAN’s generator is a modified hierarchical recurrent encoder-decoder network (HRED) and the discriminator is a word-level bidirectional RNN that shares context and word embeddings with the generator. During inference, noise samples conditioned on the dialogue history are used to perturb the generator’s latent space to generate several possible responses. The final response is the one ranked best by the discriminator. The hredGAN shows improved performance over existing methods: (1) it generalizes better than networks trained using only the log-likelihood criterion, and (2) it generates longer, more informative and more diverse responses with high utterance and topic relevance even with limited training data. This performance improvement is demonstrated on the Movie triples and Ubuntu dialogue datasets with both the automatic and human evaluations.",
+  "keywords": [
+    "the movie triples",
+    "we",
+    "dialogue",
+    "the dialogue history",
+    "training",
+    "the generator",
+    "it",
+    "decoder",
+    "latent",
+    "word",
+    "recurrent",
+    "log",
+    "generative",
+    "topic",
+    "multi-turn dialogue response generation"
+  ],
+  "url": "https://aclanthology.org/W19-4114/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:27:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

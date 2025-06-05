@@ -1,0 +1,33 @@
+{
+  "id": "P19-1301",
+  "title": "Choosing Transfer Languages for Cross-Lingual Learning",
+  "authors": [
+    "Lin, Yu-Hsiang  and\nChen, Chian-Yu  and\nLee, Jean  and\nLi, Zirui  and\nZhang, Yuyan  and\nXia, Mengzhou  and\nRijhwani, Shruti  and\nHe, Junxian  and\nZhang, Zhisong  and\nMa, Xuezhe  and\nAnastasopoulos, Antonios  and\nLittell, Patrick  and\nNeubig, Graham"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Cross-lingual transfer, where a high-resource transfer language is used to improve the accuracy of a low-resource task language, is now an invaluable tool for improving performance of natural language processing (NLP) on low-resource languages. However, given a particular task language, it is not clear which language to transfer from, and the standard strategy is to select languages based on ad hoc criteria, usually the intuition of the experimenter. Since a large number of features contribute to the success of cross-lingual transfer (including phylogenetic similarity, typological properties, lexical overlap, or size of available data), even the most enlightened experimenter rarely considers all these factors for the particular task at hand. In this paper, we consider this task of automatically selecting optimal transfer languages as a ranking problem, and build models that consider the aforementioned features to perform this prediction. In experiments on representative NLP tasks, we demonstrate that our model predicts good transfer languages much better than ad hoc baselines considering single features in isolation, and glean insights on what features are most informative for each different NLP tasks, which may inform future ad hoc selection even without use of our method.",
+  "keywords": [
+    "the accuracy",
+    "representative nlp tasks",
+    "we",
+    "phylogenetic similarity typological properties",
+    "natural language processing nlp",
+    "cross",
+    "natural",
+    "it",
+    "properties",
+    "learning",
+    "transfer",
+    "processing",
+    "each different nlp tasks",
+    "accuracy",
+    "language"
+  ],
+  "url": "https://aclanthology.org/P19-1301/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:37:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

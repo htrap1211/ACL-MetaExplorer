@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.79",
+  "title": "Doctor Recommendation in Online Health Forums via Expertise Learning",
+  "authors": [
+    "Lu, Xiaoxin  and\nZhang, Yubo  and\nLi, Jing  and\nZong, Shi"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Huge volumes of patient queries are daily generated on online health forums, rendering manual doctor allocation a labor-intensive task. To better help patients, this paper studies a novel task of doctor recommendation to enable automatic pairing of a patient to a doctor with relevant expertise. While most prior work in recommendation focuses on modeling target users from their past behavior, we can only rely on the limited words in a query to infer a patient’s needs for privacy reasons. For doctor modeling, we study the joint effects of their profiles and previous dialogues with other patients and explore their interactions via self-learning. The learned doctor embeddings are further employed to estimate their capabilities of handling a patient query with a multi-head attention mechanism. For experiments, a large-scale dataset is collected from Chunyu Yisheng, a Chinese online health forum, where our model exhibits the state-of-the-art results, outperforming baselines only consider profiles and past dialogues to characterize a doctor.",
+  "keywords": [
+    "other patients",
+    "we",
+    "allocation",
+    "patients",
+    "queries",
+    "self",
+    "a multi-head attention mechanism",
+    "previous dialogues",
+    "patient queries",
+    "past dialogues",
+    "a patient s needs",
+    "their capabilities",
+    "work",
+    "embeddings",
+    "the learned doctor embeddings"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.79/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

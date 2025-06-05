@@ -1,0 +1,33 @@
+{
+  "id": "W18-2906",
+  "title": "A neural parser as a direct classifier for head-final languages",
+  "authors": [
+    "Kanayama, Hiroshi  and\nMuraoka, Masayasu  and\nKohita, Ryosuke"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the Workshop on the Relevance of Linguistic Structure in Neural Architectures for {NLP}",
+  "abstract": "This paper demonstrates a neural parser implementation suitable for consistently head-final languages such as Japanese. Unlike the transition- and graph-based algorithms in most state-of-the-art parsers, our parser directly selects the head word of a dependent from a limited number of candidates. This method drastically simplifies the model so that we can easily interpret the output of the neural model. Moreover, by exploiting grammatical knowledge to restrict possible modification types, we can control the output of the parser to reduce specific errors without adding annotated corpora. The neural parser performed well both on conventional Japanese corpora and the Japanese version of Universal Dependency corpus, and the advantages of distributed representations were observed in the comparison with the non-neural conventional model.",
+  "keywords": [
+    "knowledge",
+    "neural",
+    "classifier",
+    "model",
+    "dependency",
+    "a direct classifier",
+    "we",
+    "word",
+    "graph",
+    "universal dependency corpus",
+    "a limited number",
+    "this method",
+    "head-final languages",
+    "candidates",
+    "conventional"
+  ],
+  "url": "https://aclanthology.org/W18-2906/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:06:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

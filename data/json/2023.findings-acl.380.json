@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.380",
+  "title": "Towards Diverse and Effective Question-Answer Pair Generation from Children Storybooks",
+  "authors": [
+    "Eo, Sugyeong  and\nMoon, Hyeonseok  and\nKim, Jinsung  and\nHur, Yuna  and\nKim, Jeongwook  and\nLee, SongEun  and\nChun, Changwoo  and\nPark, Sungsoo  and\nLim, Heuiseok"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Recent advances in QA pair generation (QAG) have raised interest in applying this technique to the educational field. However, the diversity of QA types remains a challenge despite its contributions to comprehensive learning and assessment of children. In this paper, we propose a QAG framework that enhances QA type diversity by producing different interrogative sentences and implicit/explicit answers. Our framework comprises a QFS-based answer generator, an iterative QA generator, and a relevancy-aware ranker. The two generators aim to expand the number of candidates while covering various types. The ranker trained on the in-context negative samples clarifies the top-N outputs based on the ranking score. Extensive evaluations and detailed analyses demonstrate that our approach outperforms previous state-of-the-art results by significant margins, achieving improved diversity and quality. Our task-oriented processes are consistent with real-world demand, which highlights our system’s high applicability.",
+  "keywords": [
+    "qa types",
+    "field",
+    "an iterative qa generator",
+    "question",
+    "we",
+    "generators",
+    "qag",
+    "answer",
+    "qa type diversity",
+    "learning",
+    "our task-oriented processes",
+    "a qag framework",
+    "qa pair generation qag",
+    "the educational field",
+    "the two generators"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.380/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

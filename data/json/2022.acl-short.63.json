@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.63",
+  "title": "Sequence-to-sequence {AMR} Parsing with Ancestor Information",
+  "authors": [
+    "Yu, Chen  and\nGildea, Daniel"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "AMR parsing is the task that maps a sentence to an AMR semantic graph automatically. The difficulty comes from generating the complex graph structure. The previous state-of-the-art method translates the AMR graph into a sequence, then directly fine-tunes a pretrained sequence-to-sequence Transformer model (BART). However, purely treating the graph as a sequence does not take advantage of structural information about the graph. In this paper, we design several strategies to add the importantancestor informationinto the Transformer Decoder. Our experiments show that we can improve the performance for both AMR 2.0 and AMR 3.0 dataset and achieve new state-of-the-art results.",
+  "keywords": [
+    "transformer",
+    "parsing",
+    "model",
+    "several strategies",
+    "strategies",
+    "decoder",
+    "information",
+    "fine",
+    "semantic",
+    "sequence",
+    "we",
+    "ancestor information amr parsing",
+    "graph",
+    "the transformer decoder",
+    "an amr semantic graph"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.63/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:33:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

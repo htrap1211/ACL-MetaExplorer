@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.68",
+  "title": "Exploring Continual Learning for Code Generation Models",
+  "authors": [
+    "Yadav, Prateek  and\nSun, Qing  and\nDing, Hantian  and\nLi, Xiaopeng  and\nZhang, Dejiao  and\nTan, Ming  and\nBhatia, Parminder  and\nMa, Xiaofei  and\nNallapati, Ramesh  and\nRamanathan, Murali Krishna  and\nBansal, Mohit  and\nXiang, Bing"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Large-scale code generation models such as Copilot and CodeT5 have achieved impressive performance. However, libraries are upgraded or deprecated very frequently and re-training large-scale language models is computationally expensive. Therefore, Continual Learning (CL) is an important aspect that remains under-explored in the code domain. In this paper, we introduce a benchmark called CodeTask-CL that covers a wide range of tasks, including code generation, translation, summarization, and refinement, with different input and output programming languages. Next, on our CodeTask-CL benchmark, we compare popular CL techniques from NLP and Vision domains. We find that effective methods like Prompt Pooling (PP) suffer from catastrophic forgetting due to the unstable training of the prompt selection mechanism caused by stark distribution shifts in coding tasks. We address this issue with our proposed method, Prompt Pooling with Teacher Forcing (PP-TF), that stabilizes training by enforcing constraints on the prompt selection mechanism and leads to a 21.54% improvement over Prompt Pooling. Along with the benchmark, we establish a training pipeline that can be used for CL on code models, which we believe can motivate further development of CL methods for code models.",
+  "keywords": [
+    "code",
+    "prompt pooling",
+    "cl",
+    "summarization",
+    "we",
+    "training",
+    "translation",
+    "pp",
+    "learning",
+    "prompt",
+    "our proposed method prompt",
+    "large-scale code generation models",
+    "the prompt selection mechanism",
+    "generation",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.68/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:49:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

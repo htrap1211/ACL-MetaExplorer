@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.687",
+  "title": "Hard-Coded {G}aussian Attention for Neural Machine Translation",
+  "authors": [
+    "You, Weiqiu  and\nSun, Simeng  and\nIyyer, Mohit"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Recent work has questioned the importance of the Transformer’s multi-headed attention for achieving high translation quality. We push further in this direction by developing a “hard-coded” attention variant without any learned parameters. Surprisingly, replacing all learned self-attention heads in the encoder and decoder with fixed, input-agnostic Gaussian distributions minimally impacts BLEU scores across four different language pairs. However, additionally, hard-coding cross attention (which connects the decoder to the encoder) significantly lowers BLEU, suggesting that it is more important than self-attention. Much of this BLEU drop can be recovered by adding just a single learned cross attention head to an otherwise hard-coded Transformer. Taken as a whole, our results offer insight into which components of the Transformer are actually important, which we hope will guide future work into the development of simpler and more efficient attention-based models.",
+  "keywords": [
+    "work",
+    "cross",
+    "transformer",
+    "the encoder",
+    "this bleu drop",
+    "language",
+    "neural",
+    "the decoder",
+    "all learned self-attention heads",
+    "machine",
+    "it",
+    "efficient",
+    "hard-coded g aussian attention",
+    "self",
+    "bleu"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.687/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:51:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

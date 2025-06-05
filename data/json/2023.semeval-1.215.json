@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.215",
+  "title": "CL}a{C} at {S}em{E}val-2023 Task 2: Comparing Span-Prediction and Sequence-Labeling Approaches for {NER",
+  "authors": [
+    "Verma, Harsh  and\nBergler, Sabine"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper summarizes the CLaC submission for the MultiCoNER 2 task which concerns the recognition of complex, fine-grained named entities. We compare two popular approaches for NER, namely SequenceLabeling and Span Prediction. We find that our best Span Prediction system performs slightly better than our best Sequence Labeling system on test data. Moreover, we find that using the larger version of XLM RoBERTa significantly improves performance. Post-competition experiments show that Span Prediction and Sequence Labeling approaches improve when they use special input tokens ([s] and [/s]) of XLM-RoBERTa. The code for training all models, preprocessing, and post-processing is available athttps://github.com/harshshredding/semeval2023-multiconer-paper.",
+  "keywords": [
+    "named entities",
+    "xlm roberta",
+    "code",
+    "ner",
+    "roberta",
+    "processing",
+    "em",
+    "s",
+    "ner namely sequencelabeling",
+    "semeval2023-multiconer-paper",
+    "entities",
+    "multiconer",
+    "the multiconer 2 task",
+    "we",
+    "sequence"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.215/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

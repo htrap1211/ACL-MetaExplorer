@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.132",
+  "title": "Janko at {S}em{E}val-2023 Task 2: Bidirectional {LSTM} Model Based on Pre-training for {C}hinese Named Entity Recognition",
+  "authors": [
+    "Li, Jiankuo  and\nGuan, Zhengyi  and\nDing, Haiyan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper describes the method we submitted as the Janko team in the SemEval-2023 Task 2,Multilingual Complex Named Entity Recognition (MultiCoNER 2). We only participated in the Chinese track. In this paper, we implement the BERT-BiLSTM-RDrop model. We use the fine-tuned BERT models, take the output of BERT as the input of the BiLSTM network, and finally use R-Drop technology to optimize the loss function. Our submission achieved a macro-averaged F1 score of 0.579 on the testset.",
+  "keywords": [
+    "the bilstm network",
+    "bert",
+    "model",
+    "a macro-averaged f1 score",
+    "bilstm",
+    "the fine-tuned bert models",
+    "-",
+    "loss",
+    "drop",
+    "multiconer",
+    "the loss function",
+    "network",
+    "we",
+    "lstm",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.132/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:28:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

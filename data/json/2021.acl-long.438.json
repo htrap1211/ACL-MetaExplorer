@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.438",
+  "title": "Learning to Ask Conversational Questions by Optimizing {L}evenshtein Distance",
+  "authors": [
+    "Liu, Zhongkun  and\nRen, Pengjie  and\nChen, Zhumin  and\nRen, Zhaochun  and\nde Rijke, Maarten  and\nZhou, Ming"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Conversational Question Simplification (CQS) aims to simplify self-contained questions into conversational ones by incorporating some conversational characteristics, e.g., anaphora and ellipsis. Existing maximum likelihood estimation based methods often get trapped in easily learned tokens as all tokens are treated equally during training. In this work, we introduce a Reinforcement Iterative Sequence Editing (RISE) framework that optimizes the minimum Levenshtein distance through explicit editing actions. RISE is able to pay attention to tokens that are related to conversational characteristics. To train RISE, we devise an Iterative Reinforce Training (IRT) algorithm with a Dynamic Programming based Sampling (DPS) process to improve exploration. Experimental results on two benchmark datasets show that RISE significantly outperforms state-of-the-art methods and generalizes well on unseen data.",
+  "keywords": [
+    "work",
+    "process",
+    "some conversational characteristics",
+    "reinforcement",
+    "conversational questions",
+    "reinforce",
+    "self",
+    "conversational characteristics",
+    "question",
+    "conversational",
+    "attention",
+    "we",
+    "sequence",
+    "conversational ones",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.438/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-demos.38",
+  "title": "Torch-Struct: Deep Structured Prediction Library",
+  "authors": [
+    "Rush, Alexander"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: System Demonstrations",
+  "abstract": "The literature on structured prediction for NLP describes a rich collection of distributions and algorithms over sequences, segmentations, alignments, and trees; however, these algorithms are difficult to utilize in deep learning frameworks. We introduce Torch-Struct, a library for structured prediction designed to take advantage of and integrate with vectorized, auto-differentiation based frameworks. Torch-Struct includes a broad collection of probabilistic structures accessed through a simple and flexible distribution-based API that connects to any deep learning model. The library utilizes batched, vectorized operations and exploits auto-differentiation to produce readable, fast, and testable code. Internally, we also include a number of general-purpose optimizations to provide cross-algorithm efficiency. Experiments show significant performance gains over fast baselines and case-studies demonstrate the benefits of the library. Torch-Struct is available athttps://github.com/harvardnlp/pytorch-struct.",
+  "keywords": [
+    "deep",
+    "code",
+    "case-studies",
+    "alignments",
+    "vectorized operations",
+    "general-purpose optimizations",
+    "efficiency",
+    "we",
+    "struct",
+    "any deep learning model",
+    "cross",
+    "rich",
+    "learning",
+    "harvardnlp",
+    "vectorized"
+  ],
+  "url": "https://aclanthology.org/2020.acl-demos.38/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:53:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

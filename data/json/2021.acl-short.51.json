@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.51",
+  "title": "Exploring Listwise Evidence Reasoning with T5 for Fact Verification",
+  "authors": [
+    "Jiang, Kelvin  and\nPradeep, Ronak  and\nLin, Jimmy"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "This work explores a framework for fact verification that leverages pretrained sequence-to-sequence transformer models for sentence selection and label prediction, two key sub-tasks in fact verification. Most notably, improving on previous pointwise aggregation approaches for label prediction, we take advantage of T5 using a listwise approach coupled with data augmentation. With this enhancement, we observe that our label prediction stage is more robust to noise and capable of verifying complex claims by jointly reasoning over multiple pieces of evidence. Experimental results on the FEVER task show that our system attains a FEVER score of 75.87% on the blind test set. This puts our approach atop the competitive FEVER leaderboard at the time of our work, scoring higher than the second place submission by almost two points in label accuracy and over one point in FEVER score.",
+  "keywords": [
+    "we",
+    "pieces",
+    "sequence",
+    "-",
+    "label accuracy",
+    "accuracy",
+    "work",
+    "transformer",
+    "time",
+    "multiple pieces",
+    "approach",
+    "advantage",
+    "enhancement",
+    "test",
+    "previous"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.51/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

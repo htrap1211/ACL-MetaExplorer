@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.684",
+  "title": "CLASP}: Cross-modal Alignment Using Pre-trained Unimodal Models",
+  "authors": [
+    "Zhou, Jianing  and\nZeng, Ziheng  and\nGong, Hongyu  and\nBhat, Suma"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Recent advancements in joint speech-text pre-training have significantly advanced the processing of natural language. However, a key limitation is their reliance on parallel speech-text data, posing challenges due to data accessibility. Addressing this, our paper introduces an innovative framework for jointly performing speech and text processing without parallel corpora during pre-training but only downstream. Utilizing pre-trained unimodal models, we extract distinct representations for speech and text, aligning them effectively in a newly defined space using a multi-level contrastive learning mechanism. A unique swap reconstruction mechanism enhances the alignment and is followed by fusion via a multi-head mechanism, seamlessly merging modality-invariant and modality-specific representations. Testing for emotion recognition (SLU task) and idiom usage detection (NLU task) demonstrates robust performance, with commendable robustness to noise in text or speech data.",
+  "keywords": [
+    "we",
+    "fusion",
+    "training",
+    "cross",
+    "natural",
+    "learning",
+    "natural language",
+    "cross-modal alignment",
+    "processing",
+    "text",
+    "-",
+    "alignment",
+    "language",
+    "the alignment",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.684/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

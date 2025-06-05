@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-demos.20",
+  "title": "O}pus{F}ilter: A Configurable Parallel Corpus Filtering Toolbox",
+  "authors": [
+    "Aulamo, Mikko  and\nVirpioja, Sami  and\nTiedemann, J{\\\"o}rg"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: System Demonstrations",
+  "abstract": "This paper introduces OpusFilter, a flexible and modular toolbox for filtering parallel corpora. It implements a number of components based on heuristic filters, language identification libraries, character-based language models, and word alignment tools, and it can easily be extended with custom filters. Bitext segments can be ranked according to their quality or domain match using single features or a logistic regression model that can be trained without manually labeled training data. We demonstrate the effectiveness of OpusFilter on the example of a Finnish-English news translation task based on noisy web-crawled training data. Applying our tool leads to improved translation quality while significantly reducing the size of the training data, also clearly outperforming an alternative ranking given in the crawled data set. Furthermore, we show the ability of OpusFilter to perform data selection for domain adaptation.",
+  "keywords": [
+    "improved translation quality",
+    "we",
+    "training",
+    "translation",
+    "it",
+    "word",
+    "word alignment tools",
+    "character-based language models",
+    "alignment",
+    "language",
+    "model",
+    "pus",
+    "regression",
+    "the example",
+    "effectiveness"
+  ],
+  "url": "https://aclanthology.org/2020.acl-demos.20/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:52:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

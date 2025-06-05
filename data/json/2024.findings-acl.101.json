@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.101",
+  "title": "C}ee{BERT}: Cross-Domain Inference in Early Exit {BERT",
+  "authors": [
+    "Bajpai, Divya Jyoti  and\nHanawal, Manjesh"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Pre-trained Language Models (PLMs), like BERT, with self-supervision objectives exhibit remarkable performance and generalization across various tasks. However, they suffer in inference latency due to their large size. To address this issue, side branches are attached at intermediate layers, enabling early inference of samples without requiring them to pass through all layers. However, the challenge is to decide which layer to infer and exit each sample so that the accuracy and latency are balanced. Moreover, the distribution of the samples to be inferred may differ from that used for training necessitating cross-domain adaptation. We propose an online learning algorithm named Cross-Domain Inference in Early Exit BERT (CeeBERT) that dynamically determines early exits of samples based on the level of confidence at each exit point. CeeBERT learns optimal thresholds from domain-specific confidence observed at intermediate layers on the fly, eliminating the need for labeled data. Experimental results on five distinct datasets with BERT and ALBERT models demonstrate CeeBERT’s ability to improve latency by reducing unnecessary computations with minimal drop in performance. By adapting to the threshold values, CeeBERT can speed up the BERT/ALBERT models by2×-3.1×with minimal drop in accuracy. The anonymized source code is available at https://github.com/Div290/CeeBERT.",
+  "keywords": [
+    "code",
+    "the accuracy",
+    "objectives",
+    "early exit bert ceebert",
+    "layer",
+    "we",
+    "the threshold values ceebert",
+    "training",
+    "cross",
+    "self",
+    "albert",
+    "exit",
+    "learning",
+    "ceebert s ability",
+    "the bert albert models"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.101/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:49:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

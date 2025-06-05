@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.879",
+  "title": "Incorporating Factuality Inference to Identify Document-level Event Factuality",
+  "authors": [
+    "Zhang, Heng  and\nLi, Peifeng  and\nQian, Zhong  and\nZhu, Xiaoxu"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Document-level Event Factuality Identification (DEFI) refers to identifying the degree of certainty that a specific event occurs in a document. Previous studies on DEFI failed to link the document-level event factuality with various sentence-level factuality values in the same document. In this paper, we innovatively propose an event factuality inference task to bridge the sentence-level and the document-level event factuality semantically. Specifically, we present a Sentence-to-Document Inference Network (SDIN) that contains a multi-layer interaction module and a gated aggregation module to integrate the above two tasks, and employ a multi-task learning framework to improve the performance of DEFI. The experimental results on the public English and Chinese DLEF datasets show that our model outperforms the SOTA baselines significantly.",
+  "keywords": [
+    "model",
+    "studies",
+    "layer",
+    "network",
+    "we",
+    "a document previous studies",
+    "that",
+    "identification",
+    "sdin",
+    "a multi-layer interaction module",
+    "multi",
+    "baselines",
+    "defi",
+    "task",
+    "the experimental results"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.879/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

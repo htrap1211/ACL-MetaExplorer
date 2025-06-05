@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.220",
+  "title": "Clemson {NLP} at {S}em{E}val-2023 Task 7: Applying {G}ator{T}ron to Multi-Evidence Clinical {NLI",
+  "authors": [
+    "Alameldin, Ahamed  and\nWilliamson, Ashton"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper presents our system descriptions for SemEval 2023-Task 7: Multi-evidence Natural Language Inference for Clinical Trial Data sub-tasks one and two. Provided with a collection of Clinical Trial Reports (CTRs) and corresponding expert-annotated claim statements, sub-task one involves determining an inferential relationship between the statement and CTR premise: contradiction or entailment. Sub-task two involves retrieving evidence from the CTR which is necessary to determine the entailment in sub-task one. For sub-task two we employ a recent transformer-based language model pretrained on biomedical literature, which we domain-adapt on a set of clinical trial reports. For sub-task one, we take an ensemble approach in which we leverage the evidence retrieval model from sub-task two to extract relevant sections, which are then passed to a second model of equivalent architecture to determine entailment. Our system achieves a ranking of seventh on sub-task one with an F1-score of 0.705 and sixth on sub-task two with an F1-score of 0.806. In addition, we find that the high rate of success of language models on this dataset may be partially attributable to the existence of annotation artifacts.",
+  "keywords": [
+    "rate",
+    "we",
+    "ensemble",
+    "natural",
+    "retrieval",
+    "clemson nlp",
+    "an f1-score",
+    "language models",
+    "-",
+    "transformer",
+    "language",
+    "nlp",
+    "model",
+    "the evidence retrieval model",
+    "an ensemble approach"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.220/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

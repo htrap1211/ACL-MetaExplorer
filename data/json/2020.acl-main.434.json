@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.434",
+  "title": "Spying on Your Neighbors: Fine-grained Probing of Contextual Embeddings for Information about Surrounding Words",
+  "authors": [
+    "Klafka, Josef  and\nEttinger, Allyson"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Although models using contextual word embeddings have achieved state-of-the-art results on a host of NLP tasks, little is known about exactly what information these embeddings encode about the context words that they are understood to reflect. To address this question, we introduce a suite of probing tasks that enable fine-grained testing of contextual embeddings for encoding of information about surrounding words. We apply these tasks to examine the popular BERT, ELMo and GPT contextual encoders, and find that each of our tested information types is indeed encoded as contextual information across tokens, often with near-perfect recoverability—but the encoders vary in which features they distribute to which tokens, how nuanced their distributions are, and how robust the encoding of each feature is to distance. We discuss implications of these results for how different types of models break down and prioritize word-level context information when constructing token embeddings.",
+  "keywords": [
+    "embeddings",
+    "contextual word embeddings",
+    "elmo",
+    "nlp",
+    "bert",
+    "the encoders",
+    "encode",
+    "token embeddings",
+    "token",
+    "contextual embeddings",
+    "question",
+    "information",
+    "gpt",
+    "word",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.434/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:48:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

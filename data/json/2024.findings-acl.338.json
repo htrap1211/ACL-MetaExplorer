@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.338",
+  "title": "Improving Large Language Models via Fine-grained Reinforcement Learning with Minimum Editing Constraint",
+  "authors": [
+    "Chen, Zhipeng  and\nZhou, Kun  and\nZhao, Xin  and\nWan, Junchen  and\nZhang, Fuzheng  and\nZhang, Di  and\nWen, Ji-Rong"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Reinforcement learning (RL) has been widely used in training large language models (LLMs) for preventing unexpected outputs, e.g., reducing harmfulness and errors. However, existing RL methods mainly adopt instance-level reward, which cannot provide fine-grained supervision for complex reasoning tasks. As a result, the RL training cannot be fully aware of the specific part or step that actually leads to the incorrectness in model response. To address it, we propose a new RL method named RLMEC that incorporates a generative model as the reward model, which is trained by the erroneous solution rewriting task under the minimum editing constraint, which can produce token-level supervision for RL training. Based 0on the generative reward model, we design the token-level RL objective for training and an imitation-based regularization for stabilizing RL process. And these two objectives focus on the revision of the key tokens for the erroneous solution, reducing the effect of other unimportant tokens. Experiment results on 8 tasks have demonstrated the effectiveness of our approach. Our code and data will be publicly released.",
+  "keywords": [
+    "code",
+    "objectives",
+    "fine-grained reinforcement learning",
+    "an imitation-based regularization",
+    "we",
+    "training",
+    "it",
+    "token",
+    "learning",
+    "generative",
+    "a generative model",
+    "objective",
+    "the generative reward model",
+    "e g",
+    "process"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.338/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:53:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

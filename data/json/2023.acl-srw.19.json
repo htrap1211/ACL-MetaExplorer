@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-srw.19",
+  "title": "Intriguing Effect of the Correlation Prior on {ICD}-9 Code Assignment",
+  "authors": [
+    "Yang, Zihao  and\nZhang, Chenkang  and\nWu, Muru  and\nLiu, Xujin  and\nJiang, Lavender  and\nCho, Kyunghyun  and\nOermann, Eric"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "The Ninth Revision of the International Classification of Diseases (ICD-9) is a standardized coding system used to classify health conditions. It is used for billing, tracking individual patient conditions, and for epidemiology. The highly detailed and technical nature of the codes and their associated medical conditions make it difficult for humans to accurately record them. Researchers have explored the use of neural networks, particularly language models, for automated ICD-9 code assignment. However, the imbalanced distribution of ICD-9 codes leads to poor performance. One solution is to use domain knowledge to incorporate a useful prior. This paper evaluates the usefulness of the correlation bias: we hypothesize that correlations between ICD-9 codes and other medical codes could help improve language models’ performance. We showed that while the correlation bias worsens the overall performance, the effect on individual class can be negative or positive. Performance on classes that are more imbalanced and less correlated with other codes is more sensitive to incorporating the correlation bias. This suggests that while the correlation bias has potential to improve ICD-9 code assignment in certain cases, the applicability criteria need to be more carefully studied.",
+  "keywords": [
+    "code",
+    "bias",
+    "we",
+    "classification",
+    "neural",
+    "it",
+    "neural networks",
+    "the correlation bias",
+    "the international classification",
+    "language models performance",
+    "knowledge",
+    "language",
+    "class",
+    "particularly language models",
+    "patient"
+  ],
+  "url": "https://aclanthology.org/2023.acl-srw.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:51:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

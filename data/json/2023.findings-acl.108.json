@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.108",
+  "title": "Real-World Compositional Generalization with Disentangled Sequence-to-Sequence Learning",
+  "authors": [
+    "Zheng, Hao  and\nLapata, Mirella"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Compositional generalization is a basic mechanism in human language learning, which current neural networks struggle with. A recently proposed Disentangled sequence-to-sequence model (Dangle) shows promising generalization capability by learning specialized encodings for each decoding step. We introduce two key modifications to this model which encourage more disentangled representations and improve its compute and memory efficiency, allowing us to tackle compositional generalization in a more realistic setting. Specifically, instead of adaptively re-encoding source keys and values at each time step, we disentangle their representations and only re-encode keys periodically, at some interval. Our new architecture leads to better generalization performance across existing tasks and datasets, and a new machine translation benchmark which we create by detecting naturally occurring compositional patterns in relation to a training set. We show this methodology better emulates real-world requirements than artificial challenges.",
+  "keywords": [
+    "generalization capability",
+    "encode",
+    "efficiency",
+    "we",
+    "current",
+    "training",
+    "translation",
+    "neural",
+    "sequence",
+    "generalization",
+    "better generalization performance",
+    "real-world compositional generalization",
+    "compositional generalization",
+    "re",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.108/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

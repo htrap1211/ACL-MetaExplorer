@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-demos.1",
+  "title": "PAI}-Diffusion: Constructing and Serving a Family of Open {C}hinese Diffusion Models for Text-to-image Synthesis on the Cloud",
+  "authors": [
+    "Wang, Chengyu  and\nDuan, Zhongjie  and\nLiu, Bingyan  and\nZou, Xinyi  and\nChen, Cen  and\nJia, Kui  and\nHuang, Jun"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+  "abstract": "Text-to-image synthesis for the Chinese language poses unique challenges due to its large vocabulary size, and intricate character relationships. While existing diffusion models have shown promise in generating images from textual descriptions, they often neglect domain-specific contexts and lack robustness in handling the Chinese language. This paper introduces PAI-Diffusion, a comprehensive framework that addresses these limitations. PAI-Diffusion incorporates both general and domain-specific Chinese diffusion models, enabling the generation of contextually relevant images. It explores the potential of using LoRA and ControlNet for fine-grained image style transfer and image editing, empowering users with enhanced control over image generation. Moreover, PAI-Diffusion seamlessly integrates with Alibaba Cloud’s Platform for AI, providing accessible and scalable solutions. All the Chinese diffusion model checkpoints, LoRAs, and ControlNets, including domain-specific ones, are publicly available. A user-friendly Chinese WebUI and the diffusers-api elastic inference toolkit, also open-sourced, further facilitate the easy deployment of PAI-Diffusion models in various local and cloud environments, making it a valuable resource for Chinese text-to-image synthesis.",
+  "keywords": [
+    "the generation",
+    "friendly",
+    "a user-friendly chinese webui",
+    "cloud",
+    "it",
+    "transfer",
+    "text",
+    "image generation",
+    "general",
+    "generation",
+    "language",
+    "ai",
+    "model",
+    "diffusers",
+    "textual descriptions"
+  ],
+  "url": "https://aclanthology.org/2024.acl-demos.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:47:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

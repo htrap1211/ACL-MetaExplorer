@@ -1,0 +1,33 @@
+{
+  "id": "W19-5050",
+  "title": "IIT}-{KGP} at {MEDIQA} 2019: Recognizing Question Entailment using Sci-{BERT} stacked with a Gradient Boosting Classifier",
+  "authors": [
+    "Sharma, Prakhar  and\nRoychowdhury, Sumegh"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 18th BioNLP Workshop and Shared Task",
+  "abstract": "Official System Description paper of Team IIT-KGP ranked 1st in the Development phase and 3rd in Testing Phase in MEDIQA 2019 - Recognizing Question Entailment (RQE) Shared Task of BioNLP workshop - ACL 2019. The number of people turning to the Internet to search for a diverse range of health-related subjects continues to grow and with this multitude of information available, duplicate questions are becoming more frequent and finding the most appropriate answers becomes problematic. This issue is important for question answering platforms as it complicates the retrieval of all information relevant to the same topic, particularly when questions similar in essence are expressed differently, and answering a given medical question by retrieving similar questions that are already answered by human experts seems to be a promising solution. In this paper, we present our novel approach to detect question entailment by determining the type of question asked rather than focusing on the type of the ailment given. This unique methodology makes the approach robust towards examples which have different ailment names but are synonyms of each other. Also, it enables us to check entailment at a much more fine-grained level. QSpider is a staged system consisting of state-of-the-art model Sci-BERT used as a multi-class classifier aimed at capturing both question types and semantic relations stacked with a Gradient Boosting Classifier which checks for entailment. QSpider achieves an accuracy score of 68.4% on the Test set which outperforms the baseline model (54.1%) by an accuracy score of 14.3%.",
+  "keywords": [
+    "team iit-kgp",
+    "classifier",
+    "question",
+    "semantic",
+    "we",
+    "it",
+    "sci- bert",
+    "retrieval",
+    "information",
+    "kgp",
+    "bionlp workshop - acl",
+    "the retrieval",
+    "bert",
+    "bionlp",
+    "topic"
+  ],
+  "url": "https://aclanthology.org/W19-5050/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:57:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

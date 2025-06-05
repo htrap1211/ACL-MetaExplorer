@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-short.34",
+  "title": "Understanding the Effects of Noise in Text-to-{SQL}: An Examination of the {BIRD}-Bench Benchmark",
+  "authors": [
+    "Wretblad, Niklas  and\nRiseby, Fredrik  and\nBiswas, Rahul  and\nAhmadi, Amin  and\nHolmstr{\\\"o}m, Oskar"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Text-to-SQL, which involves translating natural language into Structured Query Language (SQL), is crucial for enabling broad access to structured databases without expert knowledge. However, designing models for such tasks is challenging due to numerous factors, including the presence of noise, such as ambiguous questions and syntactical errors. This study provides an in-depth analysis of the distribution and types of noise in the widely used BIRD-Bench benchmark and the impact of noise on models. While BIRD-Bench was created to model dirty and noisy database values, it was not created to contain noise and errors in the questions and gold SQL queries. We found that noise in questions and gold queries are prevalent in the dataset, with varying amounts across domains, and with an uneven distribution between noise types. The presence of incorrect gold SQL queries, which then generate incorrect gold answers, has a significant impact on the benchmark’s reliability. Surprisingly, when evaluating models on corrected SQL queries, zero-shot baselines surpassed the performance of state-of-the-art prompting methods. We conclude that informative noise labels and reliable benchmarks are crucial to developing new Text-to-SQL methods that can handle varying types of noise.",
+  "keywords": [
+    "we",
+    "shot",
+    "natural",
+    "it",
+    "queries",
+    "natural language",
+    "analysis",
+    "gold queries",
+    "text",
+    "knowledge",
+    "language",
+    "zero-shot baselines",
+    "state",
+    "structured query language sql",
+    "-bench"
+  ],
+  "url": "https://aclanthology.org/2024.acl-short.34/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:46:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

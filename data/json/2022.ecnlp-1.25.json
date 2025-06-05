@@ -1,0 +1,33 @@
+{
+  "id": "2022.ecnlp-1.25",
+  "title": "Utilizing Cross-Modal Contrastive Learning to Improve Item Categorization {BERT} Model",
+  "authors": [
+    "Chen, Lei  and\nChou, Hou Wei"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Fifth Workshop on e-Commerce and NLP (ECNLP 5)",
+  "abstract": "Item categorization (IC) is a core natural language processing (NLP) task in e-commerce. As a special text classification task, fine-tuning pre-trained models, e.g., BERT, has become a mainstream solution. To improve IC performance further, other product metadata, e.g., product images, have been used. Although multimodal IC (MIC) systems show higher performance, expanding from processing text to more resource-demanding images brings large engineering impacts and hinders the deployment of such dual-input MIC systems. In this paper, we proposed a new way of using product images to improve text-only IC model: leveraging cross-modal signals between products’ titles and associated images to adapt BERT models in a self-supervised learning (SSL) way. Our experiments on the three genres in the public Amazon product dataset show that the proposed method generates improved prediction accuracy and macro-F1 values than simply using the original BERT. Moreover, the proposed method is able to keep using existing text-only IC inference implementation and shows a resource advantage than the deployment of a dual-input MIC system.",
+  "keywords": [
+    "ic",
+    "we",
+    "classification",
+    "cross",
+    "natural",
+    "self",
+    "e",
+    "learning",
+    "the original bert",
+    "improved prediction accuracy",
+    "core",
+    "processing",
+    "bert",
+    "text",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2022.ecnlp-1.25/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:42:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

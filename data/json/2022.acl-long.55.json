@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.55",
+  "title": "Prompt-Based Rule Discovery and Boosting for Interactive Weakly-Supervised Learning",
+  "authors": [
+    "Zhang, Rongzhi  and\nYu, Yue  and\nShetty, Pranav  and\nSong, Le  and\nZhang, Chao"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Weakly-supervised learning (WSL) has shown promising results in addressing label scarcity on many NLP tasks, but manually designing a comprehensive, high-quality labeling rule set is tedious and difficult. We study interactive weakly-supervised learning—the problem of iteratively and automatically discovering novel labeling rules from data to improve the WSL model. Our proposed model, named PRBoost, achieves this goal via iterative prompt-based rule discovery and model boosting. It uses boosting to identify large-error instances and discovers candidate rules from them by prompting pre-trained LMs with rule templates. The candidate rules are judged by human experts, and the accepted rules are used to generate complementary weak labels and strengthen the current model. Experiments on four tasks show PRBoost outperforms state-of-the-art WSL baselines up to 7.1%, and bridges the gaps with fully supervised models.",
+  "keywords": [
+    "prompt",
+    "nlp",
+    "model",
+    "it",
+    "human",
+    "many nlp tasks",
+    "prompt-based rule discovery",
+    "we",
+    "learning",
+    "iterative prompt-based rule discovery",
+    "pre",
+    "current",
+    "the gaps",
+    "promising",
+    "four tasks"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.55/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

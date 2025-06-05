@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.286",
+  "title": "Asymmetric feature interaction for interpreting model predictions",
+  "authors": [
+    "Lu, Xiaolei  and\nMa, Jianghong  and\nZhang, Haode"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In natural language processing (NLP), deep neural networks (DNNs) could model complex interactions between context and have achieved impressive results on a range of NLP tasks. Prior works on feature interaction attribution mainly focus on studying symmetric interaction that only explains the additional influence of a set of words in combination, which fails to capture asymmetric influence that contributes to model prediction. In this work, we propose an asymmetric feature interaction attribution explanation model that aims to explore asymmetric higher-order feature interactions in the inference of deep neural NLP models. By representing our explanation with an directed interaction graph, we experimentally demonstrate interpretability of the graph to discover asymmetric feature interactions. Experimental results on two sentiment classification datasets show the superiority of our model against the state-of-the-art feature interaction attribution methods in identifying influential features for model predictions.",
+  "keywords": [
+    "deep",
+    "we",
+    "graph",
+    "classification",
+    "neural",
+    "natural",
+    "nlp tasks",
+    "processing",
+    "deep neural nlp models",
+    "sentiment",
+    "work",
+    "two sentiment classification datasets",
+    "language",
+    "nlp",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.286/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

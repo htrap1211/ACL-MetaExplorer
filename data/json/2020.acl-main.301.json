@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.301",
+  "title": "Efficient Constituency Parsing by Pointing",
+  "authors": [
+    "Nguyen, Thanh-Tung  and\nNguyen, Xuan-Phi  and\nJoty, Shafiq  and\nLi, Xiaoli"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We propose a novel constituency parsing model that casts the parsing problem into a series of pointing tasks. Specifically, our model estimates the likelihood of a span being a legitimate tree constituent via the pointing score corresponding to the boundary words of the span. Our parsing model supports efficient top-down decoding and our learning objective is able to enforce structural consistency without resorting to the expensive CKY inference. The experiments on the standard English Penn Treebank parsing task show that our method achieves 92.78 F1 without using pre-trained models, which is higher than all the existing methods with similar time complexity. Using pre-trained BERT, our model achieves 95.48 F1, which is competitive with the state-of-the-art while being faster. Our approach also establishes new state-of-the-art in Basque and Swedish in the SPMRL shared tasks on multilingual constituency parsing.",
+  "keywords": [
+    "efficient",
+    "series",
+    "we",
+    "the parsing problem",
+    "our learning objective",
+    "our parsing model",
+    "bert",
+    "objective",
+    "pre-trained bert",
+    "95 48 f1",
+    "a series",
+    "model",
+    "92 78 f1",
+    "pre",
+    "time"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.301/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:46:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

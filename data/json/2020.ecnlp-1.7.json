@@ -1,0 +1,33 @@
+{
+  "id": "2020.ecnlp-1.7",
+  "title": "Semi-Supervised Iterative Approach for Domain-Specific Complaint Detection in Social Media",
+  "authors": [
+    "Gautam, Akash  and\nMahata, Debanjan  and\nGosangi, Rakesh  and\nShah, Rajiv Ratn"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 3rd Workshop on e-Commerce and NLP",
+  "abstract": "In this paper, we present a semi-supervised bootstrapping approach to detect product or service related complaints in social media. Our approach begins with a small collection of annotated samples which are used to identify a preliminary set of linguistic indicators pertinent to complaints. These indicators are then used to expand the dataset. The expanded dataset is again used to extract more indicators. This process is applied for several iterations until we can no longer find any new indicators. We evaluated this approach on a Twitter corpus specifically to detect complaints about transportation services. We started with an annotated set of 326 samples of transportation complaints, and after four iterations of the approach, we collected 2,840 indicators and over 3,700 tweets. We annotated a random sample of 700 tweets from the final dataset and observed that nearly half the samples were actual transportation complaints. Lastly, we also studied how different features based on semantics, orthographic properties, and sentiment contribute towards the prediction of complaints.",
+  "keywords": [
+    "we",
+    "semantics orthographic properties",
+    "semantics",
+    "properties",
+    "sentiment",
+    "process",
+    "random",
+    "approach",
+    "media",
+    "annotated",
+    "the approach",
+    "iterations",
+    "collection",
+    "linguistic",
+    "samples"
+  ],
+  "url": "https://aclanthology.org/2020.ecnlp-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:55:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

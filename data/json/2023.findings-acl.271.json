@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.271",
+  "title": "v{ONTSS}: v{MF} based semi-supervised neural topic modeling with optimal transport",
+  "authors": [
+    "Xu, Weijie  and\nJiang, Xiaoyu  and\nSengamedu Hanumantha Rao, Srinivasan  and\nIannacci, Francis  and\nZhao, Jinjin"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Recently, Neural Topic Models (NTM), inspired by variational autoencoders, have attracted a lot of research interest; however, these methods have limited applications in the real world due to the challenge of incorporating human knowledge. This work presents a semi-supervised neural topic modeling method, vONTSS, which uses von Mises-Fisher (vMF) based variational autoencoders and optimal transport. When a few keywords per topic are provided, vONTSS in the semi-supervised setting generates potential topics and optimizes topic-keyword quality and topic classification. Experiments show that vONTSS outperforms existing semi-supervised topic modeling methods in classification accuracy and diversity. vONTSS also supports unsupervised topic modeling. Quantitative and qualitative experiments show that vONTSS in the unsupervised setting outperforms recent NTMs on multiple aspects: vONTSS discovers highly clustered and coherent topics on benchmark datasets. It is also much faster than the state-of-the-art weakly supervised text classification method while achieving similar classification performance. We further prove the equivalence of optimal transport loss and cross-entropy loss at the global minimum.",
+  "keywords": [
+    "we",
+    "classification",
+    "similar classification performance",
+    "cross",
+    "autoencoders",
+    "unsupervised topic modeling",
+    "neural",
+    "vmf based variational autoencoders",
+    "it",
+    "loss",
+    "semi-supervised topic modeling methods",
+    "variational autoencoders",
+    "classification accuracy",
+    "semi-supervised neural topic modeling",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.271/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P19-1626",
+  "title": "Accelerating Sparse Matrix Operations in Neural Networks on Graphics Processing Units",
+  "authors": [
+    "Argueta, Arturo  and\nChiang, David"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Graphics Processing Units (GPUs) are commonly used to train and evaluate neural networks efficiently. While previous work in deep learning has focused on accelerating operations on dense matrices/tensors on GPUs, efforts have concentrated on operations involving sparse data structures. Operations using sparse structures are common in natural language models at the input and output layers, because these models operate on sequences over discrete alphabets. We present two new GPU algorithms: one at the input layer, for multiplying a matrix by a few-hot vector (generalizing the more common operation of multiplication by a one-hot vector) and one at the output layer, for a fused softmax and top-N selection (commonly used in beam search). Our methods achieve speedups over state-of-the-art parallel GPU baselines of up to 7x and 50x, respectively. We also illustrate how our methods scale on different GPU architectures.",
+  "keywords": [
+    "work",
+    "deep",
+    "hot",
+    "processing",
+    "vector",
+    "language",
+    "a one-hot vector",
+    "neural",
+    "neural networks",
+    "natural",
+    "deep learning",
+    "a few-hot vector",
+    "natural language models",
+    "layer",
+    "we"
+  ],
+  "url": "https://aclanthology.org/P19-1626/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:46:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

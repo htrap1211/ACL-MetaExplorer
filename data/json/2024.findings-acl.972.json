@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.972",
+  "title": "KEEP} {CHATTING}! An Attractive Dataset for Continuous Conversation Agents",
+  "authors": [
+    "Wang, Yihe  and\nLiu, Jin  and\nWan, Yao  and\nLi, Yitong  and\nLiu, Zifeng  and\nChen, Weipeng"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Ongoing chatting is an important step for conversational agents to build long-term connections with people. However, people tend to quickly lose interest in chatting if the conversational agent’s words are not engaging enough. In this paper, we present a novel task of increasing users’ willingness to continue talking to the agent.We collect a dataset named ContinuousChat by: (i) collecting personas and revising them, and then expanding the personas to detailed-personas through experiences, daily life, future plans, or interesting stories; (ii) expanding detailed-personas into the dialogues, and inject emotions and feelings into them; (iii) rewriting the dialogues in specific styles through few-shot prompt, conditioning on handwritten style-specific examples.We benchmark LLMs on ContinuousChat Dataset using both fine-tuning and in-context learning settings. Experiments over publicly available models demonstrate that although there is substantial room for improvement in generating style-specific dialogues, our ContinuousChat dataset is valuable in guiding conversational agents to generate more attractive dialogues and increase users’ willingness to continue the conversations.",
+  "keywords": [
+    "conversations",
+    "few-shot prompt conditioning",
+    "we",
+    "more attractive dialogues",
+    "shot",
+    "continuous conversation agents",
+    "learning",
+    "llms",
+    "tuning",
+    "prompt",
+    "i",
+    "style-specific dialogues",
+    "stories",
+    "the dialogues",
+    "dialogues"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.972/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

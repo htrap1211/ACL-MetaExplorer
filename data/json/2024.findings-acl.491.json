@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.491",
+  "title": "It Is Not About What You Say, It Is About How You Say It: A Surprisingly Simple Approach for Improving Reading Comprehension",
+  "authors": [
+    "Shaier, Sagi  and\nHunter, Lawrence  and\nWense, Katharina"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Natural language processing has seen rapid progress over the past decade. Due to the speed of developments, some practices get established without proper evaluation. Considering one such case and focusing on reading comprehension, we ask our first research question: 1) How does the order of inputs – i.e., question and context – affect model performance? Additionally, given recent advancements in input emphasis, we ask a second research question: 2) Does emphasizing either the question, the context, or both enhance performance? Experimenting with 9 large language models across 3 datasets, we find that presenting the context before the question improves model performance, with an accuracy increase of up to 31%. Furthermore, emphasizing the context yields superior results compared to question emphasis, and in general, emphasizing parts of the input is particularly effective for addressing questions that models lack the parametric knowledge to answer. Experimenting with both prompt-based and attention-based emphasis methods, we additionally find that the best method is surprisingly simple: it only requires concatenating a few tokens to the input and results in an ac- curacy improvement of up to 36%, allowing smaller models to outperform their significantly larger counterparts.",
+  "keywords": [
+    "proper evaluation",
+    "question",
+    "we",
+    "natural",
+    "it",
+    "curacy",
+    "an accuracy increase",
+    "9 large language models",
+    "processing",
+    "prompt",
+    "i",
+    "accuracy",
+    "general",
+    "knowledge",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.491/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:55:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

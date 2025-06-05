@@ -1,0 +1,33 @@
+{
+  "id": "P17-1185",
+  "title": "R}iemannian Optimization for Skip-Gram Negative Sampling",
+  "authors": [
+    "Fonarev, Alexander  and\nGrinchuk, Oleksii  and\nGusev, Gleb  and\nSerdyukov, Pavel  and\nOseledets, Ivan"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Skip-Gram Negative Sampling (SGNS) word embedding model, well known by its implementation in “word2vec” software, is usually optimized by stochastic gradient descent. However, the optimization of SGNS objective can be viewed as a problem of searching for a good matrix with the low-rank constraint. The most standard way to solve this type of problems is to apply Riemannian optimization framework to optimize the SGNS objective over the manifold of required low-rank matrices. In this paper, we propose an algorithm that optimizes SGNS objective using Riemannian optimization and demonstrates its superiority over popular competitors, such as the original method to train SGNS and SVD over SPPMI matrix.",
+  "keywords": [
+    "r iemannian optimization",
+    "model",
+    "objective",
+    "riemannian optimization framework",
+    "embedding model",
+    "gradient",
+    "optimization",
+    "riemannian",
+    "word",
+    "we",
+    "iemannian",
+    "the optimization",
+    "riemannian optimization",
+    "stochastic gradient descent",
+    "word2vec"
+  ],
+  "url": "https://aclanthology.org/P17-1185/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:01:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

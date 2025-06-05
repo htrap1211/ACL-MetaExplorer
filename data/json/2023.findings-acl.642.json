@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.642",
+  "title": "C}oncept2{B}ox: Joint Geometric Embeddings for Learning Two-View Knowledge Graphs",
+  "authors": [
+    "Huang, Zijie  and\nWang, Daheng  and\nHuang, Binxuan  and\nZhang, Chenwei  and\nShang, Jingbo  and\nLiang, Yan  and\nWang, Zhengyang  and\nLi, Xian  and\nFaloutsos, Christos  and\nSun, Yizhou  and\nWang, Wei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Knowledge graph embeddings (KGE) have been extensively studied to embed large-scale relational data for many real-world applications. Existing methods have long ignored the fact many KGs contain two fundamentally different views: high-level ontology-view concepts and fine-grained instance-view entities. They usually embed all nodes as vectors in one latent space. However, a single geometric representation fails to capture the structural differences between two views and lacks probabilistic semantics towards concepts’ granularity. We propose Concept2Box, a novel approach that jointly embeds the two views of a KG using dual geometric representations. We model concepts with box embeddings, which learn the hierarchy structure and complex relations such as overlap and disjoint among them. Box volumes can be interpreted as concepts’ granularity. Different from concepts, we model entities as vectors. To bridge the gap between concept box embeddings and entity vector embeddings, we propose a novel vector-to-box distance metric and learn both embeddings jointly. Experiments on both the public DBpedia KG and a newly-created industrial KG showed the effectiveness of Concept2Box.",
+  "keywords": [
+    "probabilistic semantics",
+    "we",
+    "the two views",
+    "graph",
+    "semantics",
+    "latent",
+    "views",
+    "fine-grained instance-view entities",
+    "many kgs",
+    "kgs",
+    "both embeddings",
+    "a kg",
+    "a newly-created industrial kg",
+    "the hierarchy structure",
+    "vector"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.642/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

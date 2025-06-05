@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.7",
+  "title": "The {BIGAI} Offline Speech Translation Systems for {IWSLT} 2023 Evaluation",
+  "authors": [
+    "Xie, Zhihang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "This paper describes the BIGAI’s submission to IWSLT 2023 Offline Speech Translation task on three language tracks from English to Chinese, German and Japanese. The end-to-end systems are built upon a Wav2Vec2 model for speech recognition and mBART50 models for machine translation. An adapter module is applied to bridge the speech module and the translation module. The CTC loss between speech features and source token sequence is incorporated during training. Experiments show that the systems can generate reasonable translations on three languages. The proposed models achieve BLEU scores of 22.3 for en→de, 10.7 for en→ja and 33.0 for en→zh on tst2023 TED datasets. However, the performance is decreased by a significant margin on complex scenarios like persentations and interview.",
+  "keywords": [
+    "offline speech translation task",
+    "end",
+    "language",
+    "model",
+    "reasonable translations",
+    "machine",
+    "token",
+    "iwslt 2023 evaluation",
+    "bleu",
+    "loss",
+    "machine translation",
+    "sequence",
+    "bleu scores",
+    "interview",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:24:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

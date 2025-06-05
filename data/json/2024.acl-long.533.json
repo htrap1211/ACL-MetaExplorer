@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.533",
+  "title": "To Generate or to Retrieve? On the Effectiveness of Artificial Contexts for Medical Open-Domain Question Answering",
+  "authors": [
+    "Frisoni, Giacomo  and\nCocchieri, Alessio  and\nPresepi, Alex  and\nMoro, Gianluca  and\nMeng, Zaiqiao"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Medical open-domain question answering demands substantial access to specialized knowledge. Recent efforts have sought to decouple knowledge from model parameters, counteracting architectural scaling and allowing for training on common low-resource hardware. The retrieve-then-read paradigm has become ubiquitous, with model predictions grounded on relevant knowledge pieces from external repositories such as PubMed, textbooks, and UMLS. An alternative path, still under-explored but made possible by the advent of domain-specific large language models, entails constructing artificial contexts through prompting. As a result, “to generate or to retrieve” is the modern equivalent of Hamlet’s dilemma. This paper presents MedGENIE, the first generate-then-read framework for multiple-choice question answering in medicine. We conduct extensive experiments on MedQA-USMLE, MedMCQA, and MMLU, incorporating a practical perspective by assuming a maximum of 24GB VRAM. MedGENIE sets a new state-of-the-art in the open-book setting of each testbed, allowing a small-scale reader to outcompete zero-shot closed-book 175B baselines while using up to 706x fewer parameters. Our findings reveal that generated passages are more effective than retrieved ones in attaining higher accuracy.",
+  "keywords": [
+    "retrieve",
+    "question",
+    "we",
+    "shot",
+    "training",
+    "24gb vram medgenie",
+    "relevant knowledge pieces",
+    "repositories",
+    "pieces",
+    "higher accuracy",
+    "external repositories",
+    "domain-specific large language models",
+    "medqa",
+    "retrieved ones",
+    "medqa-usmle medmcqa"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.533/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

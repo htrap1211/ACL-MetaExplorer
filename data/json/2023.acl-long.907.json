@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.907",
+  "title": "U}ni{EX}: An Effective and Efficient Framework for Unified Information Extraction via a Span-extractive Perspective",
+  "authors": [
+    "Ping, Yang  and\nLu, JunYu  and\nGan, Ruyi  and\nWang, Junjie  and\nZhang, Yuxiang  and\nZhang, Pingjian  and\nZhang, Jiaxing"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We propose a new paradigm for universal information extraction (IE) that is compatible with any schema format and applicable to a list of IE tasks, such as named entity recognition, relation extraction, event extraction and sentiment analysis. Our approach converts the text-based IE tasks as the token-pair problem, which uniformly disassembles all extraction targets into joint span detection, classification and association problems with a unified extractive framework, namely UniEX. UniEX can synchronously encode schema-based prompt and textual information, and collaboratively learn the generalized knowledge from pre-defined information using the auto-encoder language models. We develop a traffine attention mechanism to integrate heterogeneous factors including tasks, labels and inside tokens, and obtain the extraction target via a scoring matrix. Experiment results show that UniEX can outperform generative universal IE models in terms of performance and inference-speed on 14 benchmarks IE datasets with the supervised setting. The state-of-the-art performance in low-resource scenarios also verifies the transferability and effectiveness of UniEX.",
+  "keywords": [
+    "extraction",
+    "efficient",
+    "generalized",
+    "we",
+    "the auto-encoder language models",
+    "the text-based ie tasks",
+    "classification",
+    "universal information extraction",
+    "a unified extractive framework",
+    "token",
+    "that uniex",
+    "unified",
+    "information",
+    "format",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.907/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:48:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

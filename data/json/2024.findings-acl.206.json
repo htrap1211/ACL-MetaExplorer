@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.206",
+  "title": "Rethinking Negative Instances for Generative Named Entity Recognition",
+  "authors": [
+    "Ding, Yuyang  and\nLi, Juntao  and\nWang, Pinzheng  and\nTang, Zecheng  and\nBowen, Yan  and\nZhang, Min"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large Language Models (LLMs) have demonstrated impressive capabilities for generalizing in unseen tasks. In the Named Entity Recognition (NER) task, recent advancements have seen the remarkable improvement of LLMs in a broad range of entity domains via instruction tuning, by adopting entity-centric schema. In this work, we explore the potential enhancement of the existing methods by incorporating negative instances into training. Our experiments reveal that negative instances contribute to remarkable improvements by (1) introducing contextual information, and (2) clearly delineating label boundaries. Furthermore, we introduce an efficient longest common subsequence (LCS) matching algorithm, which is tailored to transform unstructured predictions into structured entities. By integrating these components, we present GNER, a Generative NER system that shows improved zero-shot performance across unseen entity domains. Our comprehensive evaluation illustrates our system’s superiority, surpassing state-of-the-art (SoTA) methods by 9F1score in zero-shot evaluation.",
+  "keywords": [
+    "efficient",
+    "label boundaries",
+    "we",
+    "generative named entity recognition",
+    "shot",
+    "gner",
+    "instruction",
+    "information",
+    "impressive capabilities",
+    "9f1score",
+    "llms",
+    "generative",
+    "ner",
+    "instruction tuning",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.206/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

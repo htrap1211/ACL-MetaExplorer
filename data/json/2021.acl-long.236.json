@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.236",
+  "title": "Meta-{KD}: A Meta Knowledge Distillation Framework for Language Model Compression across Domains",
+  "authors": [
+    "Pan, Haojie  and\nWang, Chengyu  and\nQiu, Minghui  and\nZhang, Yichang  and\nLi, Yaliang  and\nHuang, Jun"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Pre-trained language models have been applied to various NLP tasks with considerable performance gains. However, the large model sizes, together with the long inference time, limit the deployment of such models in real-time applications. One line of model compression approaches considers knowledge distillation to distill large teacher models into small student models. Most of these studies focus on single-domain only, which ignores the transferable knowledge from other domains. We notice that training a teacher with transferable knowledge digested across domains can achieve better generalization capability to help knowledge distillation. Hence we propose a Meta-Knowledge Distillation (Meta-KD) framework to build a meta-teacher model that captures transferable knowledge across domains and passes such knowledge to students. Specifically, we explicitly force the meta-teacher to capture transferable knowledge at both instance-level and feature-level from multiple domains, and then propose a meta-distillation algorithm to learn single-domain student models with guidance from the meta-teacher. Experiments on public multi-domain NLP tasks show the effectiveness and superiority of the proposed Meta-KD framework. Further, we also demonstrate the capability of Meta-KD in the settings where the training data is scarce.",
+  "keywords": [
+    "these studies",
+    "we",
+    "training",
+    "language model compression",
+    "domains pre-trained language models",
+    "generalization",
+    "knowledge",
+    "better generalization capability",
+    "language",
+    "nlp",
+    "model",
+    "studies",
+    "various nlp tasks",
+    "pre",
+    "public multi-domain nlp tasks"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.236/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:02:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

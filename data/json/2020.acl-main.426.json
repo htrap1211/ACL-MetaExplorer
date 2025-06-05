@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.426",
+  "title": "Modeling Label Semantics for Predicting Emotional Reactions",
+  "authors": [
+    "Gaonkar, Radhika  and\nKwon, Heeyoung  and\nBastan, Mohaddeseh  and\nBalasubramanian, Niranjan  and\nChambers, Nathanael"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Predicting how events induce emotions in the characters of a story is typically seen as a standard multi-label classification task, which usually treats labels as anonymous classes to predict. They ignore information that may be conveyed by the emotion labels themselves. We propose that the semantics of emotion labels can guide a model’s attention when representing the input story. Further, we observe that the emotions evoked by an event are often related: an event that evokes joy is unlikely to also evoke sadness. In this work, we explicitly model label classes via label embeddings, and add mechanisms that track label-label correlations both during training and inference. We also introduce a new semi-supervision strategy that regularizes for the correlations on unlabeled data. Our empirical evaluations show that modeling label semantics yields consistent benefits, and we advance the state-of-the-art on an emotion inference task.",
+  "keywords": [
+    "work",
+    "embeddings",
+    "model",
+    "semantics",
+    "the semantics",
+    "evaluations",
+    "label embeddings",
+    "information",
+    "attention",
+    "we",
+    "our empirical evaluations",
+    "classification",
+    "training",
+    "label semantics",
+    "a model s attention"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.426/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:47:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

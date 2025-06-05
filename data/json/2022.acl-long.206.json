@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.206",
+  "title": "Confidence Based Bidirectional Global Context Aware Training Framework for Neural Machine Translation",
+  "authors": [
+    "Zhou, Chulun  and\nMeng, Fandong  and\nZhou, Jie  and\nZhang, Min  and\nWang, Hongji  and\nSu, Jinsong"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Most dominant neural machine translation (NMT) models are restricted to make predictions only according to the local context of preceding words in a left-to-right manner. Although many previous studies try to incorporate global information into NMT models, there still exist limitations on how to effectively exploit bidirectional global context. In this paper, we propose a Confidence Based Bidirectional Global Context Aware (CBBGCA) training framework for NMT, where the NMT model is jointly trained with an auxiliary conditional masked language model (CMLM). The training consists of two stages: (1) multi-task joint training; (2) confidence based knowledge distillation. At the first stage, by sharing encoder parameters, the NMT model is additionally supervised by the signal from the CMLM decoder that contains bidirectional global contexts. Moreover, at the second stage, using the CMLM as teacher, we further pertinently incorporate bidirectional global context to the NMT model on its unconfidently-predicted target words via knowledge distillation. Experimental results show that our proposed CBBGCA training framework significantly improves the NMT model by +1.02, +1.30 and +0.57 BLEU scores on three large-scale translation datasets, namely WMT’14 English-to-German, WMT’19 Chinese-to-English and WMT’14 English-to-French, respectively.",
+  "keywords": [
+    "three large-scale translation datasets",
+    "neural machine translation",
+    "bleu",
+    "the cmlm decoder",
+    "we",
+    "encoder parameters",
+    "many previous studies",
+    "training",
+    "translation",
+    "neural",
+    "decoder",
+    "information",
+    "manner",
+    "knowledge",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.206/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:27:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

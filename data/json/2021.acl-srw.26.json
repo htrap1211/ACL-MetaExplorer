@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-srw.26",
+  "title": "Personal Bias in Prediction of Emotions Elicited by Textual Opinions",
+  "authors": [
+    "Milkowski, Piotr  and\nGruza, Marcin  and\nKanclerz, Kamil  and\nKazienko, Przemyslaw  and\nGrimling, Damian  and\nKocon, Jan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: Student Research Workshop",
+  "abstract": "Analysis of emotions elicited by opinions, comments, or articles commonly exploits annotated corpora, in which the labels assigned to documents average the views of all annotators, or represent a majority decision. The models trained on such data are effective at identifying the general views of the population. However, their usefulness for predicting the emotions evoked by the textual content in a particular individual is limited. In this paper, we present a study performed on a dataset containing 7,000 opinions, each annotated by about 50 people with two dimensions: valence, arousal, and with intensity of eight emotions from Plutchik’s model. Our study showed that individual responses often significantly differed from the mean. Therefore, we proposed a novel measure to estimate this effect – Personal Emotional Bias (PEB). We also developed a new BERT-based transformer architecture to predict emotions from an individual human perspective. We found PEB a major factor for improving the quality of personalized reasoning. Both the method and measure may boost the quality of content recommendation systems and personalized solutions that protect users from hate speech or unwanted content, which are highly subjective in nature.",
+  "keywords": [
+    "bias",
+    "personal emotional bias peb",
+    "we",
+    "views",
+    "analysis",
+    "bert",
+    "transformer",
+    "personal bias",
+    "general",
+    "model",
+    "human",
+    "the general views",
+    "the views",
+    "mean",
+    "documents"
+  ],
+  "url": "https://aclanthology.org/2021.acl-srw.26/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:09:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

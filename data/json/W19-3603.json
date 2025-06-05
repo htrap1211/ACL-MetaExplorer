@@ -1,0 +1,33 @@
+{
+  "id": "W19-3603",
+  "title": "Speech Recognition for {T}igrinya language Using Deep Neural Network Approach",
+  "authors": [
+    "Abera, Hafte  and\nH/mariam, Sebsibe"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 2019 Workshop on Widening NLP",
+  "abstract": "This work presents a speech recognition model for Tigrinya language .The Deep Neural Network is used to make the recognition model. The Long Short-Term Memory Network (LSTM), which is a special kind of Recurrent Neural Network composed of Long Short-Term Memory blocks, is the primary layer of our neural network model. The 40-dimensional features are MFCC-LDA-MLLT-fMLLR with CMN were used. The acoustic models are trained on features that are obtained by projecting down to 40 dimensions using linear discriminant analysis (LDA). Moreover, speaker adaptive training (SAT) is done using a single feature-space maximum likelihood linear regression (FMLLR) transform estimated per speaker. We train and compare LSTM and DNN models at various numbers of parameters and configurations. We show that LSTM models converge quickly and give state of the art speech recognition performance for relatively small sized models. Finally, the accuracy of the model is evaluated based on the recognition rate.",
+  "keywords": [
+    "deep",
+    "the accuracy",
+    "rate",
+    "mfcc-lda-mllt-fmllr",
+    "lstm models",
+    "layer",
+    "we",
+    "lstm",
+    "recurrent neural network",
+    "training",
+    "the deep neural network",
+    "neural",
+    "our neural network model",
+    "recurrent",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/W19-3603/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:21:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

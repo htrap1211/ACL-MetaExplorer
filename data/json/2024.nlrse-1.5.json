@@ -1,0 +1,33 @@
+{
+  "id": "2024.nlrse-1.5",
+  "title": "S}umm{EQ}u{AL}: Summarization Evaluation via Question Answering using Large Language Models",
+  "authors": [
+    "Liu, Junyuan  and\nShi, Zhengyan  and\nLipani, Aldo"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 2nd Workshop on Natural Language Reasoning and Structured Explanations (@ACL 2024)",
+  "abstract": "Summarization is hard to evaluate due to its diverse and abstract nature. Although N-gram-based metrics like BLEU and ROUGE are prevalent, they often do not align well with human evaluations. While model-based alternatives such as BERTScore improve, they typically require extensive labelled data. The advent of Large Language Models (LLMs) presents a promising avenue for evaluation. To this end, we introduce SummEQuAL, a novel content-based framework using LLMs for unified, reproducible summarization evaluation. SummEQuAL evaluates summaries by comparing their content with the source document, employing a question-answering approach to gauge both recall and precision. To validate SummEQuAL’s effectiveness, we develop a dataset based on MultiWOZ. We conduct experiments on SummEval and our MultiWOZ-based dataset, showing that SummEQuAL largely improves the quality of summarization evaluation. Notably, SummEQuAL demonstrates a 19.7% improvement over QuestEval in terms of sample-level Pearson correlation with human assessments of consistency on the SummEval dataset. Furthermore, it exceeds the performance of the BERTScore baseline by achieving a 17.3% increase in Spearman correlation on our MultiWOZ-based dataset. Our study illuminates the potential of LLMs for a unified evaluation framework, setting a new paradigm for future summarization evaluation.",
+  "keywords": [
+    "precision",
+    "end",
+    "bleu",
+    "u al summarization evaluation",
+    "question",
+    "summarization",
+    "we",
+    "future summarization evaluation",
+    "bertscore improve",
+    "a unified evaluation framework",
+    "bertscore",
+    "it",
+    "unified",
+    "both recall",
+    "large language models summarization"
+  ],
+  "url": "https://aclanthology.org/2024.nlrse-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "W18-2710",
+  "title": "Bi-Directional Neural Machine Translation with Synthetic Parallel Data",
+  "authors": [
+    "Niu, Xing  and\nDenkowski, Michael  and\nCarpuat, Marine"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 2nd Workshop on Neural Machine Translation and Generation",
+  "abstract": "Despite impressive progress in high-resource settings, Neural Machine Translation (NMT) still struggles in low-resource and out-of-domain scenarios, often failing to match the quality of phrase-based translation. We propose a novel technique that combines back-translation and multilingual NMT to improve performance in these difficult cases. Our technique trains a single model for both directions of a language pair, allowing us to back-translate source or target monolingual data without requiring an auxiliary model. We then continue training on the augmented parallel data, enabling a cycle of improvement for a single model that can incorporate any source, target, or parallel data to improve both translation directions. As a byproduct, these models can reduce training and deployment costs significantly compared to uni-directional models. Extensive experiments show that our technique outperforms standard back-translation in low-resource scenarios, improves quality on cross-domain tasks, and effectively reduces costs across the board.",
+  "keywords": [
+    "uni",
+    "we",
+    "training",
+    "translation",
+    "phrase-based translation",
+    "cross",
+    "neural",
+    "back-translation",
+    "bi-directional neural machine translation",
+    "language",
+    "model",
+    "machine",
+    "standard back-translation",
+    "us",
+    "both translation directions"
+  ],
+  "url": "https://aclanthology.org/W18-2710/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:23:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

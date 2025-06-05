@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.662",
+  "title": "Back to Basics: Revisiting {REINFORCE}-Style Optimization for Learning from Human Feedback in {LLM}s",
+  "authors": [
+    "Ahmadian, Arash  and\nCremer, Chris  and\nGall{\\'e}, Matthias  and\nFadaee, Marzieh  and\nKreutzer, Julia  and\nPietquin, Olivier  and\n{\\\"U}st{\\\"u}n, Ahmet  and\nHooker, Sara"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "AI alignment in the shape of Reinforcement Learning from Human Feedback (RLHF) is increasingly treated as a crucial ingredient for high performance large language models. Proximal Policy Optimization (PPO) has been installed by the seminal literature as the standard method for the RL part of RLHF. However, it involves both high computational cost and sensitive hyperparameter tuning. We posit that most of the motivational principles that led to the development of PPO are less of a practical concern in RLHF and advocate for a less computationally expensive method that preserves and even increases performance. We revisit how alignment from human preferences is formulated in the context of RL. Keeping simplicity as a guiding principle, we show that many components of PPO are unnecessary in an RLHF context and that far simpler REINFORCE-style optimization variants outperform both PPO and newly proposed “RL-free” methods such as DPO and RAFT. Our work suggests that careful adaptation to LLMs alignment characteristics allows benefiting from online RL optimization at low cost.",
+  "keywords": [
+    "feedback",
+    "llm s ai alignment",
+    "we",
+    "human feedback rlhf",
+    "human feedback",
+    "llm",
+    "rlhf",
+    "reinforce",
+    "it",
+    "how alignment",
+    "learning",
+    "a crucial ingredient",
+    "ingredient",
+    "llms",
+    "ppo"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.662/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:43:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

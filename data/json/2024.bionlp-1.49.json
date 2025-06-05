@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.49",
+  "title": "CID} at {RRG}24: Attempting in a Conditionally Initiated Decoding of Radiology Report Generation with Clinical Entities",
+  "authors": [
+    "Liao, Yuxiang  and\nLiang, Yuanbang  and\nQin, Yipeng  and\nLiu, Hantao  and\nSpasic, Irena"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "Radiology Report Generation (RRG) seeks to leverage deep learning techniques to automate the reporting process of radiologists. Current methods are typically modelling RRG as an image-to-text generation task that takes X-ray images as input and generates textual reports describing the corresponding clinical observations. However, the wording of the same clinical observation could have been influenced by the expression preference of radiologists. Nevertheless, such variability can be mitigated by normalizing textual reports into structured representations such as a graph structure. In this study, we attempt a novel paradigm for incorporating graph structural data into the RRG model. Our approach involves predicting graph labels based on visual features and subsequently initiating the decoding process through a template injection conditioned on the predicted labels. We trained and evaluated our model on the BioNLP 2024 Shared Task on Large-Scale Radiology Report Generation and submitted our results to the ViLMedic RRG leaderboard. Although our model showed a moderate ranking on the leaderboard, the results provide preliminary evidence for the feasibility of this new paradigm, warranting further exploration and refinement.",
+  "keywords": [
+    "deep",
+    "deep learning techniques",
+    "we",
+    "graph",
+    "current",
+    "radiology report generation",
+    "learning",
+    "visual",
+    "the bionlp",
+    "text",
+    "bionlp",
+    "process",
+    "generation",
+    "model",
+    "entities"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.49/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

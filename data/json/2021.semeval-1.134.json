@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.134",
+  "title": "SINAI} at {S}em{E}val-2021 Task 5: Combining Embeddings in a {B}i{LSTM}-{CRF} model for Toxic Spans Detection",
+  "authors": [
+    "Plaza-del-Arco, Flor Miriam  and\nL{\\'o}pez-{\\'U}beda, Pilar  and\nUre{\\~n}a-L{\\'o}pez, L. Alfonso  and\nMart{\\'i}n-Valdivia, M. Teresa"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper describes the participation of SINAI team at Task 5: Toxic Spans Detection which consists of identifying spans that make a text toxic. Although several resources and systems have been developed so far in the context of offensive language, both annotation and tasks have mainly focused on classifying whether a text is offensive or not. However, detecting toxic spans is crucial to identify why a text is toxic and can assist human moderators to locate this type of content on social media. In order to accomplish the task, we follow a deep learning-based approach using a Bidirectional variant of a Long Short Term Memory network along with a stacked Conditional Random Field decoding layer (BiLSTM-CRF). Specifically, we test the performance of the combination of different pre-trained word embeddings for recognizing toxic entities in text. The results show that the combination of word embeddings helps in detecting offensive content. Our team ranks 29th out of 91 participants.",
+  "keywords": [
+    "deep",
+    "field",
+    "layer",
+    "we",
+    "lstm",
+    "toxic entities",
+    "bilstm",
+    "word",
+    "learning",
+    "text",
+    "word embeddings",
+    "layer bilstm-crf",
+    "embeddings",
+    "language",
+    "random"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.134/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.11",
+  "title": "Attention Temperature Matters in Abstractive Summarization Distillation",
+  "authors": [
+    "Zhang, Shengqiang  and\nZhang, Xingxing  and\nBao, Hangbo  and\nWei, Furu"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent progress of abstractive text summarization largely relies on large pre-trained sequence-to-sequence Transformer models, which are computationally expensive. This paper aims to distill these large models into smaller ones for faster inference and with minimal performance loss. Pseudo-labeling based methods are popular in sequence-to-sequence model distillation. In this paper, we find simply manipulating attention temperatures in Transformers can make pseudo labels easier to learn for student models. Our experiments on three summarization datasets show our proposed method consistently improves vanilla pseudo-labeling based methods. Further empirical analysis shows that both pseudo labels and summaries produced by our students are shorter and more abstractive.",
+  "keywords": [
+    "transformer",
+    "attention temperatures",
+    "transformers",
+    "summaries",
+    "attention temperature matters",
+    "model",
+    "text",
+    "loss",
+    "attention",
+    "summarization",
+    "sequence",
+    "we",
+    "pre",
+    "easier",
+    "three summarization datasets"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:24:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

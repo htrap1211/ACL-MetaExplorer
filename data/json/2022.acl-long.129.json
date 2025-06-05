@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.129",
+  "title": "Probing as Quantifying Inductive Bias",
+  "authors": [
+    "Immer, Alexander  and\nTorroba Hennigen, Lucas  and\nFortuin, Vincent  and\nCotterell, Ryan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Pre-trained contextual representations have led to dramatic performance improvements on a range of downstream tasks. Such performance improvements have motivated researchers to quantify and understand the linguistic information encoded in these representations. In general, researchers quantify the amount of linguistic information through probing, an endeavor which consists of training a supervised model to predict a linguistic property directly from the contextual representations. Unfortunately, this definition of probing has been subject to extensive criticism in the literature, and has been observed to lead to paradoxical and counter-intuitive results. In the theoretical portion of this paper, we take the position that the goal of probing ought to be measuring the amount of inductive bias that the representations encode on a specific task. We further describe a Bayesian framework that operationalizes this goal and allows us to quantify the representations’ inductive bias. In the empirical portion of the paper, we apply our framework to a variety of NLP tasks. Our results suggest that our proposed framework alleviates many previous problems found in probing. Moreover, we are able to offer concrete evidence that—for some tasks—fastText can offer a better inductive bias than BERT.",
+  "keywords": [
+    "variety",
+    "bias",
+    "encode",
+    "we",
+    "inductive bias",
+    "general researchers",
+    "information",
+    "a variety",
+    "nlp tasks",
+    "a better inductive bias",
+    "bert",
+    "the representations inductive bias",
+    "general",
+    "nlp",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.129/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

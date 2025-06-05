@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.178",
+  "title": "LIORI} at {S}em{E}val-2021 Task 8: Ask Transformer for measurements",
+  "authors": [
+    "Davletov, Adis  and\nGordeev, Denis  and\nArefyev, Nikolay  and\nDavletov, Emil"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This work describes our approach for subtasks of SemEval-2021 Task 8: MeasEval: Counts and Measurements which took the official first place in the competition. To solve all subtasks we use multi-task learning in a question-answering-like manner. We also use learnable scalar weights to weight subtasks’ contribution to the final loss in multi-task training. We fine-tune LUKE to extract quantity spans and we fine-tune RoBERTa to extract everything related to found quantities, including quantities themselves.",
+  "keywords": [
+    "work",
+    "transformer",
+    "found quantities",
+    "roberta",
+    "we fine-tune roberta",
+    "loss",
+    "question",
+    "ask transformer",
+    "fine",
+    "we",
+    "learning",
+    "a question-answering-like manner",
+    "quantities",
+    "manner",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.178/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:22:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

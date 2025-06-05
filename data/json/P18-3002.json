@@ -1,0 +1,33 @@
+{
+  "id": "P18-3002",
+  "title": "Sampling Informative Training Data for {RNN} Language Models",
+  "authors": [
+    "Fernandez, Jared  and\nDowney, Doug"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of {ACL} 2018, Student Research Workshop",
+  "abstract": "We propose an unsupervised importance sampling approach to selecting training data for recurrent neural network (RNNs) language models. To increase the information content of the training set, our approach preferentially samples high perplexity sentences, as determined by an easily queryable n-gram language model. We experimentally evaluate the heldout perplexity of models trained with our various importance sampling distributions. We show that language models trained on data sampled using our proposed approach outperform models trained over randomly sampled subsets of both the Billion Word (Chelba et al., 2014 Wikitext-103 benchmark corpora (Merity et al., 2016).",
+  "keywords": [
+    "language",
+    "neural",
+    "model",
+    "rnns",
+    "language models",
+    "perplexity",
+    "information",
+    "high perplexity sentences",
+    "network",
+    "word",
+    "we",
+    "recurrent",
+    "the heldout perplexity",
+    "training",
+    "heldout"
+  ],
+  "url": "https://aclanthology.org/P18-3002/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:19:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

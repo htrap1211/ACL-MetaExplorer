@@ -1,0 +1,33 @@
+{
+  "id": "P17-1020",
+  "title": "Coarse-to-Fine Question Answering for Long Documents",
+  "authors": [
+    "Choi, Eunsol  and\nHewlett, Daniel  and\nUszkoreit, Jakob  and\nPolosukhin, Illia  and\nLacoste, Alexandre  and\nBerant, Jonathan"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We present a framework for question answering that can efficiently scale to longer documents while maintaining or even improving performance of state-of-the-art models. While most successful approaches for reading comprehension rely on recurrent neural networks (RNNs), running them over long documents is prohibitively slow because it is difficult to parallelize over sequences. Inspired by how people first skim the document, identify relevant parts, and carefully read these parts to produce an answer, we combine a coarse, fast model for selecting relevant sentences and a more expensive RNN for producing the answer from those sentences. We treat sentence selection as a latent variable trained jointly from the answer only using reinforcement learning. Experiments demonstrate state-of-the-art performance on a challenging subset of the WikiReading dataset and on a new dataset, while speeding up the model by 3.5x-6.7x.",
+  "keywords": [
+    "reinforcement learning experiments",
+    "reinforcement",
+    "answering",
+    "answer",
+    "neural",
+    "model",
+    "it",
+    "a more expensive rnn",
+    "question answering",
+    "rnns",
+    "question",
+    "latent",
+    "fine",
+    "we",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/P17-1020/",
+  "provenance": {
+    "collected_at": "2025-06-04 23:56:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

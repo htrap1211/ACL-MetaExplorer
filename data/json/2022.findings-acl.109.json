@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.109",
+  "title": "Sentiment Word Aware Multimodal Refinement for Multimodal Sentiment Analysis with {ASR} Errors",
+  "authors": [
+    "Wu, Yang  and\nZhao, Yanyan  and\nYang, Hao  and\nChen, Song  and\nQin, Bing  and\nCao, Xiaohuan  and\nZhao, Wenting"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Multimodal sentiment analysis has attracted increasing attention and lots of models have been proposed. However, the performance of the state-of-the-art models decreases sharply when they are deployed in the real world. We find that the main reason is that real-world applications can only access the text outputs by the automatic speech recognition (ASR) models, which may be with errors because of the limitation of model capacity. Through further analysis of the ASR outputs, we find that in some cases the sentiment words, the key sentiment elements in the textual modality, are recognized as other words, which makes the sentiment of the text change and hurts the performance of multimodal sentiment analysis models directly. To address this problem, we propose the sentiment word aware multimodal refinement model (SWRM), which can dynamically refine the erroneous sentiment words by leveraging multimodal sentiment clues. Specifically, we first use the sentiment word position detection module to obtain the most possible position of the sentiment word in the text and then utilize the multimodal sentiment word refinement module to dynamically refine the sentiment word embeddings. The refined embeddings are taken as the textual inputs of the multimodal feature fusion module to predict the sentiment labels. We conduct extensive experiments on the real-world datasets including MOSI-Speechbrain, MOSI-IBM, and MOSI-iFlytek and the results demonstrate the effectiveness of our model, which surpasses the current state-of-the-art models on three datasets. Furthermore, our approach can be adapted for other multimodal feature fusion models easily.",
+  "keywords": [
+    "we",
+    "fusion",
+    "the refined embeddings",
+    "current",
+    "increasing attention",
+    "word",
+    "multimodal sentiment analysis",
+    "analysis",
+    "sentiment analysis",
+    "text",
+    "sentiment",
+    "embeddings",
+    "model",
+    "multimodal sentiment analysis models",
+    "attention"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.109/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

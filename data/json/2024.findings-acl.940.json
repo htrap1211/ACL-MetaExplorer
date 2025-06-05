@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.940",
+  "title": "Visual In-Context Learning for Large Vision-Language Models",
+  "authors": [
+    "Zhou, Yucheng  and\nLi, Xiang  and\nWang, Qianning  and\nShen, Jianbing"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "In Large Visual Language Models (LVLMs), the efficacy of In-Context Learning (ICL) remains limited by challenges in cross-modal interactions and representation disparities. To overcome these challenges, we introduce a novel Visual In-Context Learning (VICL) method comprising Visual Demonstration Retrieval, Intent-Oriented Image Summarization, and Intent-Oriented Demonstration Composition. Our approach retrieves images via ”Retrieval & Rerank” paradigm, summarises images with task intent and task-specific visual parsing, and composes language-based demonstrations that reduce token count and alleviate cross-modal interaction problem. Experimental evaluations on five visual reasoning datasets demonstrate the effectiveness of our method. Moreover, our extensive experiments leverage information flow analysis to elucidate the effectiveness of our method, and investigate the impact of length and position of demonstrations for LVLM. The use of in-context unlearning further shows promise in resetting specific model knowledge without retraining.",
+  "keywords": [
+    "parsing",
+    "disparities",
+    "summarization",
+    "we",
+    "cross",
+    "token",
+    "intent-oriented demonstration composition",
+    "retrieval",
+    "information",
+    "large vision-language models",
+    "learning",
+    "visual",
+    "analysis",
+    "representation disparities",
+    "task-specific visual parsing"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.940/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

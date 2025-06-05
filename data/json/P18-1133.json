@@ -1,0 +1,33 @@
+{
+  "id": "P18-1133",
+  "title": "S}equicity: Simplifying Task-oriented Dialogue Systems with Single Sequence-to-Sequence Architectures",
+  "authors": [
+    "Lei, Wenqiang  and\nJin, Xisen  and\nKan, Min-Yen  and\nRen, Zhaochun  and\nHe, Xiangnan  and\nYin, Dawei"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Existing solutions to task-oriented dialogue systems follow pipeline designs which introduces architectural complexity and fragility. We propose a novel, holistic, extendable framework based on a single sequence-to-sequence (seq2seq) model which can be optimized with supervised or reinforcement learning. A key contribution is that we design text spans named belief spans to track dialogue believes, allowing task-oriented dialogue systems to be modeled in a seq2seq way. Based on this, we propose a simplistic Two Stage CopyNet instantiation which emonstrates good scalability: significantly reducing model complexity in terms of number of parameters and training time by a magnitude. It significantly outperforms state-of-the-art pipeline-based methods on large datasets and retains a satisfactory entity match rate on out-of-vocabulary (OOV) cases where pipeline-designed competitors totally fail.",
+  "keywords": [
+    "seq2seq",
+    "reinforcement",
+    "model",
+    "text",
+    "it",
+    "rate",
+    "belief spans",
+    "sequence",
+    "we",
+    "a seq2seq way",
+    "dialogue",
+    "task-oriented dialogue systems",
+    "time",
+    "entity",
+    "training"
+  ],
+  "url": "https://aclanthology.org/P18-1133/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:12:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

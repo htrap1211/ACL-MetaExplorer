@@ -1,0 +1,33 @@
+{
+  "id": "2022.ecnlp-1.3",
+  "title": "Leveraging Seq2seq Language Generation for Multi-level Product Issue Identification",
+  "authors": [
+    "Liu, Yang  and\nChordia, Varnith  and\nLi, Hua  and\nFazeli Dehkordy, Siavash  and\nSun, Yifei  and\nGao, Vincent  and\nZhang, Na"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Fifth Workshop on e-Commerce and NLP (ECNLP 5)",
+  "abstract": "In a leading e-commerce business, we receive hundreds of millions of customer feedback from different text communication channels such as product reviews. The feedback can contain rich information regarding customers’ dissatisfaction in the quality of goods and services. To harness such information to better serve customers, in this paper, we created a machine learning approach to automatically identify product issues and uncover root causes from the customer feedback text. We identify issues at two levels: coarse grained (L-Coarse) and fine grained (L-Granular). We formulate this multi-level product issue identification problem as a seq2seq language generation problem. Specifically, we utilize transformer-based seq2seq models due to their versatility and strong transfer-learning capability. We demonstrate that our approach is label efficient and outperforms the traditional approach such as multi-class multi-label classification formulation. Based on human evaluation, our fine-tuned model achieves 82.1% and 95.4% human-level performance for L-Coarse and L-Granular issue identification, respectively. Furthermore, our experiments illustrate that the model can generalize to identify unseen L-Granular issues.",
+  "keywords": [
+    "feedback",
+    "efficient",
+    "we",
+    "classification",
+    "seq2seq language generation",
+    "human evaluation",
+    "information",
+    "rich",
+    "transfer",
+    "seq2seq",
+    "text",
+    "fine",
+    "transformer-based seq2seq models",
+    "multi-class multi-label classification formulation",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2022.ecnlp-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:42:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

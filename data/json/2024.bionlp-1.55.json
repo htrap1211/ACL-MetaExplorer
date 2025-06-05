@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.55",
+  "title": "SICAR} at {RRG}2024: {GPU} Poor{'}s Guide to Radiology Report Generation",
+  "authors": [
+    "Udomlapsakul, Kiartnarin  and\nPengpun, Parinthapat  and\nSaengja, Tossaporn  and\nVeerakanjana, Kanyakorn  and\nTiankanon, Krittamate  and\nKhlaisamniang, Pitikorn  and\nSupholkhan, Pasit  and\nChinkamol, Amrest  and\nAussavavirojekul, Pubordee  and\nPhimsiri, Hirunkul  and\nSripo, Tara  and\nBoonnag, Chiraphat  and\nTongdee, Trongtum  and\nSiriapisith, Thanongchai  and\nSaiviroonporn, Pairash  and\nKinchagawat, Jiramet  and\nIttichaiwong, Piyalitt"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "Radiology report generation (RRG) aims to create free-text radiology reports from clinical imaging. Our solution employs a lightweight multimodal language model (MLLM) enhanced with a two-stage post-processing strategy, utilizing a Large Language Model (LLM) to boost diagnostic accuracy and ensure patient safety. We introduce the “First, Do No Harm” SafetyNet, which incorporates Xraydar, an advanced X-ray classification model, to cross-verify the model outputs and specifically address false negatives from the MLLM. This comprehensive approach combines the efficiency of lightweight models with the robustness of thorough post-processing techniques, offering a reliable solution for radiology report generation. Our system achieved fourth place on the F1-Radgraph metric for findings generation in the Radiology Report Generation Shared Task (RRG24).",
+  "keywords": [
+    "diagnostic accuracy",
+    "the mllm",
+    "efficiency",
+    "we",
+    "radiology report generation",
+    "classification",
+    "the efficiency",
+    "the f1-radgraph metric",
+    "mllm",
+    "processing",
+    "metric",
+    "text",
+    "a large language model",
+    "accuracy",
+    "findings generation"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.55/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

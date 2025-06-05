@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-srw.10",
+  "title": "Constructing Multilingual Code Search Dataset Using Neural Machine Translation",
+  "authors": [
+    "Sekizawa, Ryo  and\nDuan, Nan  and\nLu, Shuai  and\nYanaka, Hitomi"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "Code search is a task to find programming codes that semantically match the given natural language queries. Even though some of the existing datasets for this task are multilingual on the programming language side, their query data are only in English. In this research, we create a multilingual code search dataset in four natural and four programming languages using a neural machine translation model. Using our dataset, we pre-train and fine-tune the Transformer-based models and then evaluate them on multiple code search test sets. Our results show that the model pre-trained with all natural and programming language data has performed best in most cases. By applying back-translation data filtering to our dataset, we demonstrate that the translation quality affects the model’s performance to a certain extent, but the data size matters more.",
+  "keywords": [
+    "transformer",
+    "code",
+    "language",
+    "neural",
+    "natural",
+    "model",
+    "machine",
+    "queries",
+    "the transformer-based models",
+    "the translation quality",
+    "train",
+    "fine",
+    "we",
+    "translation",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2023.acl-srw.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:51:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

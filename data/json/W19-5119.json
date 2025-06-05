@@ -1,0 +1,33 @@
+{
+  "id": "W19-5119",
+  "title": "Cross-lingual Transfer Learning and Multitask Learning for Capturing Multiword Expressions",
+  "authors": [
+    "Taslimipoor, Shiva  and\nRohanian, Omid  and\nHa, Le An"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Joint Workshop on Multiword Expressions and WordNet (MWE-WN 2019)",
+  "abstract": "Recent developments in deep learning have prompted a surge of interest in the application of multitask and transfer learning to NLP problems. In this study, we explore for the first time, the application of transfer learning (TRL) and multitask learning (MTL) to the identification of Multiword Expressions (MWEs). For MTL, we exploit the shared syntactic information between MWE and dependency parsing models to jointly train a single model on both tasks. We specifically predict two types of labels: MWE and dependency parse. Our neural MTL architecture utilises the supervision of dependency parsing in lower layers and predicts MWE tags in upper layers. In the TRL scenario, we overcome the scarcity of data by learning a model on a larger MWE dataset and transferring the knowledge to a resource-poor setting in another language. In both scenarios, the resulting models achieved higher performance compared to standard neural approaches.",
+  "keywords": [
+    "deep",
+    "cross-lingual transfer learning",
+    "we",
+    "cross",
+    "neural",
+    "information",
+    "learning",
+    "transfer",
+    "knowledge",
+    "language",
+    "model",
+    "deep learning",
+    "dependency",
+    "time",
+    "upper"
+  ],
+  "url": "https://aclanthology.org/W19-5119/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:02:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

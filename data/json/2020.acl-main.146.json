@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.146",
+  "title": "End-to-End Neural Word Alignment Outperforms {GIZA}++",
+  "authors": [
+    "Zenkel, Thomas  and\nWuebker, Joern  and\nDeNero, John"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Word alignment was once a core unsupervised learning task in natural language processing because of its essential role in training statistical machine translation (MT) models. Although unnecessary for training neural MT models, word alignment still plays an important role in interactive applications of neural machine translation, such as annotation transfer and lexicon injection. While statistical MT methods have been replaced by neural approaches with superior performance, the twenty-year-old GIZA++ toolkit remains a key component of state-of-the-art word alignment systems. Prior work on neural word alignment has only been able to outperform GIZA++ by using its output during training. We present the first end-to-end neural word alignment method that consistently outperforms GIZA++ on three data sets. Our approach repurposes a Transformer model trained for supervised translation to also serve as an unsupervised word alignment model in a manner that is tightly integrated and does not affect translation quality.",
+  "keywords": [
+    "alignment",
+    "work",
+    "transformer",
+    "giza word alignment",
+    "processing",
+    "end",
+    "language",
+    "neural",
+    "natural",
+    "neural word alignment",
+    "model",
+    "machine",
+    "neural machine translation",
+    "a manner",
+    "translation quality"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.146/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:44:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

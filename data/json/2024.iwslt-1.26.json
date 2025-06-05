@@ -1,0 +1,33 @@
+{
+  "id": "2024.iwslt-1.26",
+  "title": "Enhancing Translation Accuracy of Large Language Models through Continual Pre-Training on Parallel Data",
+  "authors": [
+    "Kondo, Minato  and\nUtsuro, Takehito  and\nNagata, Masaaki"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 21st International Conference on Spoken Language Translation (IWSLT 2024)",
+  "abstract": "In this paper, we propose a two-phase training approach where pre-trained large language models are continually pre-trained on parallel data and then supervised fine-tuned with a small amount of high-quality parallel data. To investigate the effectiveness of our proposed approach, we conducted continual pre-training with a 3.8B-parameter model and parallel data across eight different formats. We evaluate these methods on thirteen test sets for Japanese-to-English and English-to-Japanese translation. The results demonstrate that when utilizing parallel data in continual pre-training, it is essential to alternate between source and target sentences. Additionally, we demonstrated that the translation accuracy improves only for translation directions where the order of source and target sentences aligns between continual pre-training data and inference. In addition, we demonstrate that the LLM-based translation model is more robust in translating spoken language and achieves higher accuracy with less training data compared to supervised encoder-decoder models. We also show that the highest accuracy is achieved when the data for continual pre-training consists of interleaved source and target sentences and when tags are added to the source sentences.",
+  "keywords": [
+    "we",
+    "parameter",
+    "training",
+    "translation",
+    "it",
+    "decoder",
+    "the highest accuracy",
+    "higher accuracy",
+    "the llm-based translation model",
+    "japanese-to-english and english-to-japanese translation",
+    "translation accuracy",
+    "pre-trained large language models",
+    "-",
+    "supervised encoder-decoder models",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2024.iwslt-1.26/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:06:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.220",
+  "title": "ELLE}: Efficient Lifelong Pre-training for Emerging Data",
+  "authors": [
+    "Qin, Yujia  and\nZhang, Jiajie  and\nLin, Yankai  and\nLiu, Zhiyuan  and\nLi, Peng  and\nSun, Maosong  and\nZhou, Jie"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Current pre-trained language models (PLM) are typically trained with static data, ignoring that in real-world scenarios, streaming data of various sources may continuously grow. This requires PLMs to integrate the information from all the sources in a lifelong manner. Although this goal could be achieved by exhaustive pre-training on all the existing data, such a process is known to be computationally expensive. To this end, we propose ELLE, aiming at efficient lifelong pre-training for emerging data. Specifically, ELLE consists of (1) function preserved model expansion, which flexibly expands an existing PLM’s width and depth to improve the efficiency of knowledge acquisition; and (2) pre-trained domain prompts, which disentangle the versatile knowledge learned during pre-training and stimulate the proper knowledge for downstream tasks. We experiment ELLE with streaming data from 5 domains on BERT and GPT. The results show the superiority of ELLE over various lifelong learning baselines in both pre-training efficiency and downstream performances. The codes are publicly available athttps://github.com/thunlp/ELLE.",
+  "keywords": [
+    "end",
+    "efficient",
+    "efficiency",
+    "we",
+    "current",
+    "training",
+    "the efficiency",
+    "information",
+    "2 pre-trained domain prompts",
+    "manner",
+    "bert",
+    "elle efficient lifelong pre",
+    "a lifelong manner",
+    "-",
+    "efficient lifelong pre"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.220/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

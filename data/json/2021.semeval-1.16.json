@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.16",
+  "title": "S}koltech{NLP} at {S}em{E}val-2021 Task 2: Generating Cross-Lingual Training Data for the Word-in-Context Task",
+  "authors": [
+    "Razzhigaev, Anton  and\nArefyev, Nikolay  and\nPanchenko, Alexander"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "In this paper, we present a system for the solution of the cross-lingual and multilingual word-in-context disambiguation task. Task organizers provided monolingual data in several languages, but no cross-lingual training data were available. To address the lack of the officially provided cross-lingual training data, we decided to generate such data ourselves. We describe a simple yet effective approach based on machine translation and back translation of the lexical units to the original language used in the context of this shared task. In our experiments, we used a neural system based on the XLM-R, a pre-trained transformer-based masked language model, as a baseline. We show the effectiveness of the proposed approach as it allows to substantially improve the performance of this strong neural baseline model. In addition, in this study, we present multiple types of the XLM-R based classifier, experimenting with various ways of mixing information from the first and second occurrences of the target word in two samples.",
+  "keywords": [
+    "classifier",
+    "the xlm-r based classifier",
+    "machine translation",
+    "we",
+    "koltech nlp",
+    "training",
+    "translation",
+    "cross",
+    "neural",
+    "it",
+    "information",
+    "word",
+    "transformer",
+    "language",
+    "back translation"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.16/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:19:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

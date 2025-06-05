@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.103",
+  "title": "Lightweight Adapter Tuning for Multilingual Speech Translation",
+  "authors": [
+    "Le, Hang  and\nPino, Juan  and\nWang, Changhan  and\nGu, Jiatao  and\nSchwab, Didier  and\nBesacier, Laurent"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Adapter modules were recently introduced as an efficient alternative to fine-tuning in NLP. Adapter tuning consists in freezing pre-trained parameters of a model and injecting lightweight modules between layers, resulting in the addition of only a small number of task-specific trainable parameters. While adapter tuning was investigated for multilingual neural machine translation, this paper proposes a comprehensive analysis of adapters for multilingual speech translation (ST). Starting from different pre-trained models (a multilingual ST trained on parallel data or a multilingual BART (mBART) trained on non parallel multilingual data), we show that adapters can be used to: (a) efficiently specialize ST to specific language pairs with a low extra cost in terms of parameters, and (b) transfer from an automatic speech recognition (ASR) task and an mBART pre-trained model to a multilingual ST task. Experiments show that adapter tuning offer competitive results to full fine-tuning, while being much more parameter-efficient.",
+  "keywords": [
+    "extra",
+    "efficient",
+    "we",
+    "full fine-tuning",
+    "parameter",
+    "translation",
+    "fine-tuning",
+    "neural",
+    "transfer",
+    "a efficiently specialize st",
+    "analysis",
+    "tuning",
+    "multilingual speech translation st",
+    "language",
+    "nlp"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.103/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:08:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.13",
+  "title": "Table-based Fact Verification with Self-adaptive Mixture of Experts",
+  "authors": [
+    "Zhou, Yuxuan  and\nLiu, Xien  and\nZhou, Kaiyin  and\nWu, Ji"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "The table-based fact verification task has recently gained widespread attention and yet remains to be a very challenging problem. It inherently requires informative reasoning over natural language together with different numerical and logical reasoning on tables (e.g., count, superlative, comparative). Considering that, we exploit mixture-of-experts and present in this paper a new method: Self-adaptive Mixture-of-Experts Network (SaMoE). Specifically, we have developed a mixture-of-experts neural network to recognize and execute different types of reasoning—the network is composed of multiple experts, each handling a specific part of the semantics for reasoning, whereas a management module is applied to decide the contribution of each expert network to the verification result. A self-adaptive method is developed to teach the management module combining results of different experts more efficiently without external knowledge. The experimental results illustrate that our framework achieves 85.1% accuracy on the benchmark dataset TabFact, comparable with the previous state-of-the-art models. We hope our framework can serve as a new baseline for table-based verification. Our code is available athttps://github.com/THUMLP/SaMoE.",
+  "keywords": [
+    "code",
+    "the semantics",
+    "we",
+    "neural",
+    "natural",
+    "semantics",
+    "it",
+    "self",
+    "natural language",
+    "85 1 accuracy",
+    "widespread attention",
+    "accuracy",
+    "knowledge",
+    "language",
+    "attention"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

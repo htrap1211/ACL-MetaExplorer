@@ -1,0 +1,33 @@
+{
+  "id": "W19-3630",
+  "title": "A Deep Learning Approach to Language-independent Gender Prediction on {T}witter",
+  "authors": [
+    "Hashempour, Reyhaneh"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 2019 Workshop on Widening NLP",
+  "abstract": "This work presents a set of experiments conducted to predict the gender of Twitter users based on language-independent features extracted from the text of the users’ tweets. The experiments were performed on a version of TwiSty dataset including tweets written by the users of six different languages: Portuguese, French, Dutch, English, German, and Italian. Logistic regression (LR), and feed-forward neural networks (FFNN) with back-propagation were used to build models in two different settings: Inter-Lingual (IL) and Cross-Lingual (CL). In the IL setting, the training and testing were performed on the same language whereas in the CL, Italian and German datasets were set aside and only used as test sets and the rest were combined to compose training and development sets. In the IL, the highest accuracy score belongs to LR whereas, in the CL, FFNN with three hidden layers yields the highest score. The results show that neural network based models underperform traditional models when the size of the training set is small; however, they beat traditional models by a non-trivial margin, when they are fed with large enough data. Finally, the feature analysis confirms that men and women have different writing styles independent of their language.",
+  "keywords": [
+    "deep",
+    "the highest accuracy score",
+    "training",
+    "cross",
+    "neural",
+    "learning",
+    "feed",
+    "analysis",
+    "men",
+    "text",
+    "accuracy",
+    "work",
+    "rest",
+    "language",
+    "a deep learning approach"
+  ],
+  "url": "https://aclanthology.org/W19-3630/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:38:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.712",
+  "title": "Document-Level Machine Translation with Large-Scale Public Parallel Corpora",
+  "authors": [
+    "Pal, Proyag  and\nBirch, Alexandra  and\nHeafield, Kenneth"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Despite the fact that document-level machine translation has inherent advantages over sentence-level machine translation due to additional information available to a model from document context, most translation systems continue to operate at a sentence level. This is primarily due to the severe lack of publicly available large-scale parallel corpora at the document level. We release a large-scale open parallel corpus with document context extracted from ParaCrawl in five language pairs, along with code to compile document-level datasets for any language pair supported by ParaCrawl. We train context-aware models on these datasets and find improvements in terms of overall translation quality and targeted document-level phenomena. We also analyse how much long-range information is useful to model some of these discourse phenomena and find models are able to utilise context from several preceding sentences.",
+  "keywords": [
+    "code",
+    "document-level machine translation",
+    "language",
+    "most translation systems",
+    "overall translation quality",
+    "model",
+    "machine",
+    "information",
+    "we",
+    "sentence-level machine translation",
+    "translation",
+    "this",
+    "paracrawl",
+    "the document level",
+    "additional information"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.712/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:44:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

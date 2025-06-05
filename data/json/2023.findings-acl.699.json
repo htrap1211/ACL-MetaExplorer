@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.699",
+  "title": "Contrastive Token-Wise Meta-Learning for Unseen Performer Visual Temporal-Aligned Translation",
+  "authors": [
+    "Li, Linjun  and\nJin, Tao  and\nCheng, Xize  and\nWang, Ye  and\nLin, Wang  and\nHuang, Rongjie  and\nZhao, Zhou"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Visual temporal-aligned translation aims to transform the visual sequence into natural words, including important applicable tasks such as lipreading and fingerspelling recognition. However, various performance habits of specific words by different speakers or signers can lead to visual ambiguity, which has become a major obstacle to the development of current methods. Considering the constraints above, the generalization ability of the translation system is supposed to be further explored through the evaluation results on unseen performers. In this paper, we develop a novel generalizable framework named Contrastive Token-Wise Meta-learning (CtoML), which strives to transfer recognition skills to unseen performers. To the best of our knowledge, employing meta-learning methods directly in the image domain poses two main challenges, and we propose corresponding strategies. First, sequence prediction in visual temporal-aligned translation, which aims to generate multiple words autoregressively, is different from the vanilla classification. Thus, we devise the token-wise diversity-aware weights for the meta-train stage, which encourages the model to make efforts on those ambiguously recognized tokens. Second, considering the consistency of word-visual prototypes across different domains, we develop two complementary global and local contrastive losses to maintain inter-class relationships and promote domain-independent. We conduct extensive experiments on the widely-used lipreading dataset GRID and the fingerspelling dataset ChicagoFSWild, and the experimental results show the effectiveness of our proposed CtoML over existing state-of-the-art methods.",
+  "keywords": [
+    "visual temporal-aligned translation",
+    "the evaluation results",
+    "the generalization ability",
+    "generalizable",
+    "we",
+    "current",
+    "translation",
+    "classification",
+    "natural",
+    "token",
+    "word",
+    "learning",
+    "sequence",
+    "visual",
+    "strategies"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.699/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

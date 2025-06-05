@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.40",
+  "title": "W}e{LT}: Improving Biomedical Fine-tuned Pre-trained Language Models with Cost-sensitive Learning",
+  "authors": [
+    "Mobasher, Ghadeer  and\nM{\\\"u}ller, Wolfgang  and\nKrebs, Olga  and\nGertz, Michael"
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "Fine-tuning biomedical pre-trained language models (BioPLMs) such as BioBERT has become a common practice dominating leaderboards across various natural language processing tasks. Despite their success and wide adoption, prevailing fine-tuning approaches for named entity recognition (NER) naively train BioPLMs on targeted datasets without considering class distributions. This is problematic especially when dealing with imbalanced biomedical gold-standard datasets for NER in which most biomedical entities are underrepresented. In this paper, we address the class imbalance problem and propose WeLT, a cost-sensitive fine-tuning approach based on new re-scaled class weights for the task of biomedical NER. We evaluate WeLT’s fine-tuning performance on mixed-domain and domain-specific BioPLMs using eight biomedical gold-standard datasets. We compare our approach against vanilla fine-tuning and three other existing re-weighting schemes. Our results show the positive impact of handling the class imbalance problem. WeLT outperforms all the vanilla fine-tuned models. Furthermore, our method demonstrates advantages over other existing weighting schemes in most experiments.",
+  "keywords": [
+    "biomedical ner",
+    "biobert",
+    "we",
+    "named entity recognition ner",
+    "a cost-sensitive fine-tuning approach",
+    "natural",
+    "fine-tuning approaches",
+    "ner",
+    "tuning",
+    "processing",
+    "welt s fine-tuning performance",
+    "-",
+    "fine",
+    "language",
+    "entities"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.40/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

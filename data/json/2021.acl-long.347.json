@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.347",
+  "title": "Claim Matching Beyond {E}nglish to Scale Global Fact-Checking",
+  "authors": [
+    "Kazemi, Ashkan  and\nGarimella, Kiran  and\nGaffney, Devin  and\nHale, Scott A."
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Manual fact-checking does not scale well to serve the needs of the internet. This issue is further compounded in non-English contexts. In this paper, we discuss claim matching as a possible solution to scale fact-checking. We define claim matching as the task of identifying pairs of textual messages containing claims that can be served with one fact-check. We construct a novel dataset of WhatsApp tipline and public group messages alongside fact-checked claims that are first annotated for containing “claim-like statements” and then matched with potentially similar items and annotated for claim matching. Our dataset contains content in high-resource (English, Hindi) and lower-resource (Bengali, Malayalam, Tamil) languages. We train our own embedding model using knowledge distillation and a high-quality “teacher” model in order to address the imbalance in embedding quality between the low- and high-resource languages in our dataset. We provide evaluations on the performance of our solution and compare with baselines and existing state-of-the-art multilingual embedding models, namely LASER and LaBSE. We demonstrate that our performance exceeds LASER and LaBSE in all settings. We release our annotated datasets, codebooks, and trained embedding model to allow for further research.",
+  "keywords": [
+    "embedding model",
+    "we",
+    "embedding quality",
+    "knowledge",
+    "our own embedding model",
+    "model",
+    "evaluations",
+    "state",
+    "annotated",
+    "settings",
+    "possible",
+    "like",
+    "models",
+    "a possible solution",
+    "public group messages"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.347/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.675",
+  "title": "Multi-armed bandits for resource efficient, online optimization of language model pre-training: the use case of dynamic masking",
+  "authors": [
+    "Urteaga, Inigo  and\nDraidia, Moulay Zaidane  and\nLancewicki, Tomer  and\nKhadivi, Shahram"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "We design and evaluate a Bayesian optimization framework for resource efficient pre-training of Transformer-based language models (TLMs). TLM pre-training requires high computational resources and introduces many unresolved design choices, such as selecting its pre-training hyperparameters.We propose a multi-armed bandit framework for the sequential selection of pre-training hyperparameters, aimed at optimizing language model performance, in a resource efficient manner. We design a Thompson sampling algorithm, with a surrogate Gaussian process reward model of the Masked Language Model (MLM) pre-training objective, for its sequential minimization. Instead of MLM pre-training with fixed masking probabilities, the proposed Gaussian process-based Thompson sampling (GP-TS) accelerates pre-training by sequentially selecting masking hyperparameters that improve performance. We empirically demonstrate how GP-TS pre-trains language models efficiently, i.e., it achieves lower MLM loss in fewer epochs, across a variety of settings. In addition, GP-TS pre-trained TLMs attain competitive downstream performance, while avoiding expensive hyperparameter grid search. GP-TS provides an interactive framework for efficient and optimized TLM pre-training that, by circumventing costly hyperparameter selection, enables substantial computational savings.",
+  "keywords": [
+    "variety",
+    "a bayesian optimization framework",
+    "efficient",
+    "we",
+    "the masked language model",
+    "a resource efficient manner",
+    "training",
+    "hyperparameters",
+    "it",
+    "loss",
+    "pre-training hyperparameters",
+    "a variety",
+    "its pre-training hyperparameters",
+    "manner",
+    "i"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.675/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.21",
+  "title": "AND} does not mean {OR}: Using Formal Languages to Study Language Models' Representations",
+  "authors": [
+    "Traylor, Aaron  and\nFeiman, Roman  and\nPavlick, Ellie"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "A current open question in natural language processing is to what extent language models, which are trained with access only to the form of language, are able to capture the meaning of language. This question is challenging to answer in general, as there is no clear line between meaning and form, but rather meaning constrains form in consistent ways. The goal of this study is to offer insights into a narrower but critical subquestion: Under what conditions should we expect that meaning and form covary sufficiently, such that a language model with access only to form might nonetheless succeed in emulating meaning? Focusing on several formal languages (propositional logic and a set of programming languages), we generate training corpora using a variety of motivated constraints, and measure a distributional language model’s ability to differentiate logical symbols (AND, OR, and NOT). Our findings are largely negative: none of our simulated training corpora result in models which definitively differentiate meaningfully different symbols (e.g., AND vs. OR), suggesting a limitation to the types of semantic signals that current models are able to exploit.",
+  "keywords": [
+    "variety",
+    "question",
+    "form",
+    "semantic",
+    "we",
+    "current",
+    "training",
+    "natural",
+    "natural language processing",
+    "a variety",
+    "processing",
+    "language models",
+    "e g",
+    "general",
+    "semantic signals"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.21/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

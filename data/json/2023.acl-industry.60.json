@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.60",
+  "title": "Federated Learning of Gboard Language Models with Differential Privacy",
+  "authors": [
+    "Xu, Zheng  and\nZhang, Yanxiang  and\nAndrew, Galen  and\nChoquette, Christopher  and\nKairouz, Peter  and\nMcmahan, Brendan  and\nRosenstock, Jesse  and\nZhang, Yuanbo"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "We train and deploy language models (LMs) with federated learning (FL) and differential privacy (DP) in Google Keyboard (Gboard). The recent DP-Follow the Regularized Leader (DP-FTRL) algorithm is applied to achieve meaningfully formal DP guarantees without requiring uniform sampling of clients. To provide favorable privacy-utility trade-offs, we introduce a new client participation criterion and discuss the implication of its configuration in large scale systems. We show how quantile-based clip estimation can be combined with DP-FTRL to adaptively choose the clip norm during training or reduce the hyperparameter tuning in preparation of training. With the help of pretraining on public data, we trained and deployed more than fifteen Gboard LMs that achieve high utility and $\\rho-$zCDP privacy guarantees with $\\rho \\in (0.3, 2)$, with one model additionally trained with secure aggregation. We summarize our experience and provide concrete suggestions on DP training for practitioners.",
+  "keywords": [
+    "clients",
+    "we",
+    "norm",
+    "gboard language models",
+    "training",
+    "learning",
+    "client",
+    "the hyperparameter",
+    "experience",
+    "our experience",
+    "practitioners",
+    "language",
+    "model",
+    "language models lms",
+    "hyperparameter"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.60/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

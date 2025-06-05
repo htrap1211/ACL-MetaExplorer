@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.338",
+  "title": "H}idden{C}ut: Simple Data Augmentation for Natural Language Understanding with Better Generalizability",
+  "authors": [
+    "Chen, Jiaao  and\nShen, Dinghan  and\nChen, Weizhu  and\nYang, Diyi"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Fine-tuning large pre-trained models with task-specific data has achieved great success in NLP. However, it has been demonstrated that the majority of information within the self-attention networks is redundant and not utilized effectively during the fine-tuning stage. This leads to inferior results when generalizing the obtained models to out-of-domain distributions. To this end, we propose a simple yet effective data augmentation technique, HiddenCut, to better regularize the model and encourage it to learn more generalizable features. Specifically, contiguous spans within the hidden space are dynamically and strategically dropped during training. Experiments show that our HiddenCut method outperforms the state-of-the-art augmentation methods on the GLUE benchmark, and consistently exhibits superior generalization performances on out-of-distribution and challenging counterexamples. We have publicly released our code athttps://github.com/GT-SALT/HiddenCut.",
+  "keywords": [
+    "code",
+    "end",
+    "superior generalization performances",
+    "generalizable",
+    "the fine-tuning stage",
+    "we",
+    "generalizability",
+    "the self-attention networks",
+    "training",
+    "natural",
+    "it",
+    "self",
+    "better generalizability",
+    "information",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.338/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

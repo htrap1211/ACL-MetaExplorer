@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.187",
+  "title": "Speak to your Parser: Interactive Text-to-{SQL} with Natural Language Feedback",
+  "authors": [
+    "Elgohary, Ahmed  and\nHosseini, Saghar  and\nHassan Awadallah, Ahmed"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We study the task of semantic parse correction with natural language feedback. Given a natural language utterance, most semantic parsing systems pose the problem as one-shot translation where the utterance is mapped to a corresponding logical form. In this paper, we investigate a more interactive scenario where humans can further interact with the system by providing free-form natural language feedback to correct the system when it generates an inaccurate interpretation of an initial utterance. We focus on natural language to SQL systems and construct, SPLASH, a dataset of utterances, incorrect SQL interpretations and the corresponding natural language feedback. We compare various reference models for the correction task and show that incorporating such a rich form of feedback can significantly improve the overall semantic parsing accuracy while retaining the flexibility of natural language interaction. While we estimated human correction accuracy is 81.5%, our best model achieves only 25.1%, which leaves a large gap for improvement in future research. SPLASH is publicly available athttps://aka.ms/Splash_dataset.",
+  "keywords": [
+    "parsing",
+    "human correction accuracy",
+    "feedback",
+    "form",
+    "semantic",
+    "we",
+    "shot",
+    "translation",
+    "natural",
+    "it",
+    "rich",
+    "natural language",
+    "text",
+    "one-shot translation",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.187/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:44:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

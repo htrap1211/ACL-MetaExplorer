@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-short.71",
+  "title": "Linear-time Minimum {B}ayes Risk Decoding with Reference Aggregation",
+  "authors": [
+    "Vamvas, Jannis  and\nSennrich, Rico"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Minimum Bayes Risk (MBR) decoding is a text generation technique that has been shown to improve the quality of machine translations, but is expensive, even if a sampling-based approximation is used. Besides requiring a large number of sampled sequences, it requires the pairwise calculation of a utility metric, which has quadratic complexity. In this paper, we propose to approximate pairwise metric scores with scores calculated against aggregated reference representations. This changes the complexity of utility estimation fromO(n2)toO(n), while empirically preserving most of the quality gains of MBR decoding. We release our source code.",
+  "keywords": [
+    "reference",
+    "code",
+    "generation",
+    "a text generation technique",
+    "machine",
+    "metric",
+    "text",
+    "it",
+    "we",
+    "machine translations",
+    "time",
+    "translations",
+    "that",
+    "a large number",
+    "bayes"
+  ],
+  "url": "https://aclanthology.org/2024.acl-short.71/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:47:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.882",
+  "title": "M}o{E}-{SLU}: Towards {ASR}-Robust Spoken Language Understanding via Mixture-of-Experts",
+  "authors": [
+    "Cheng, Xuxin  and\nZhu, Zhihong  and\nZhuang, Xianwei  and\nChen, Zhanpeng  and\nHuang, Zhiqi  and\nZou, Yuexian"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "As a crucial task in the task-oriented dialogue systems, spoken language understanding (SLU) has garnered increasing attention. However, errors from automatic speech recognition (ASR) often hinder the performance of understanding. To tackle this problem, we propose MoE-SLU, an ASR-Robust SLU framework based on the mixture-of-experts technique. Specifically, we first introduce three strategies to generate additional transcripts from clean transcripts. Then, we employ the mixture-of-experts technique to weigh the representations of the generated transcripts, ASR transcripts, and the corresponding clean manual transcripts. Additionally, we also regularize the weighted average of predictions and the predictions of ASR transcripts by minimizing the Jensen-Shannon Divergence (JSD) between these two output distributions. Experiment results on three benchmark SLU datasets demonstrate that our MoE-SLU achieves state-of-the-art performance. Further model analysis also verifies the superiority of our method.",
+  "keywords": [
+    "language",
+    "increasing attention",
+    "model",
+    "strategies",
+    "attention",
+    "the task-oriented dialogue systems",
+    "we",
+    "dialogue",
+    "analysis",
+    "three strategies",
+    "speech",
+    "a crucial task",
+    "understanding slu",
+    "the predictions",
+    "recognition"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.882/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:00:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

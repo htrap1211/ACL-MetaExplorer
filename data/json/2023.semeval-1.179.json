@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.179",
+  "title": "MDC} at {S}em{E}val-2023 Task 7: Fine-tuning Transformers for Textual Entailment Prediction and Evidence Retrieval in Clinical Trials",
+  "authors": [
+    "Bevan, Robert  and\nTurbitt, Ois{\\'i}n  and\nAboshokor, Mouhamad"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "We present our entry to the Multi-evidence Natural Language Inference for Clinical Trial Datatask at SemEval 2023. We submitted entries forboth the evidence retrieval and textual entailment sub-tasks. For the evidence retrieval task,we fine-tuned the PubMedBERT transformermodel to extract relevant evidence from clinicaltrial data given a hypothesis concerning either asingle clinical trial or pair of clinical trials. Ourbest performing model achieved an F1 scoreof 0.804. For the textual entailment task, inwhich systems had to predict whether a hypothesis about either a single clinical trial or pair ofclinical trials is true or false, we fine-tuned theBioLinkBERT transformer model. We passedour evidence retrieval model’s output into ourtextual entailment model and submitted its output for the evaluation. Our best performingmodel achieved an F1 score of 0.695.",
+  "keywords": [
+    "transformer",
+    "tuning",
+    "transformers",
+    "7 fine-tuning transformers",
+    "language",
+    "evidence retrieval",
+    "an f1 score",
+    "natural",
+    "model",
+    "the evidence retrieval task",
+    "the evaluation",
+    "the evidence retrieval",
+    "pubmedbert",
+    "-",
+    "retrieval"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.179/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

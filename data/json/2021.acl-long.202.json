@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.202",
+  "title": "UNIMO}: Towards Unified-Modal Understanding and Generation via Cross-Modal Contrastive Learning",
+  "authors": [
+    "Li, Wei  and\nGao, Can  and\nNiu, Guocheng  and\nXiao, Xinyan  and\nLiu, Hao  and\nLiu, Jiachen  and\nWu, Hua  and\nWang, Haifeng"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Existed pre-training methods either focus on single-modal tasks or multi-modal tasks, and cannot effectively adapt to each other. They can only utilize single-modal data (i.e., text or image) or limited multi-modal data (i.e., image-text pairs). In this work, we propose a UNIfied-MOdal pre-training architecture, namely UNIMO, which can effectively adapt to both single-modal and multi-modal understanding and generation tasks. Large scale of free text corpus and image collections are utilized to improve the capability of visual and textual understanding, and cross-modal contrastive learning (CMCL) is leveraged to align the textual and visual information into a unified semantic space, over a corpus of image-text pairs augmented with related images and texts. With the help of rich non-paired single-modal data, our model is able to learn more generalizable representations, by allowing textual knowledge and visual knowledge to enhance each other in the unified semantic space. The experimental results show that UNIMO greatly improves the performance of several single-modal and multi-modal downstream tasks. Our code and pre-trained models are public athttps://github.com/PaddlePaddle/Research/tree/master/NLP/UNIMO.",
+  "keywords": [
+    "code",
+    "generalizable",
+    "semantic",
+    "we",
+    "training",
+    "cross",
+    "unified",
+    "information",
+    "rich",
+    "learning",
+    "visual",
+    "pre-training methods",
+    "a unified semantic space",
+    "more generalizable representations",
+    "a unified-modal pre-training architecture"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.202/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:02:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

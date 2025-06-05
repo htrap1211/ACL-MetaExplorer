@@ -1,0 +1,33 @@
+{
+  "id": "W19-5415",
+  "title": "APE} through Neural and Statistical {MT} with Augmented Data. {ADAPT}/{DCU} Submission to the {WMT} 2019 {APE} Shared Task",
+  "authors": [
+    "Shterionov, Dimitar  and\nWagner, Joachim  and\ndo Carmo, F{\\'e}lix"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 3: Shared Task Papers, Day 2)",
+  "abstract": "Automatic post-editing (APE) can be reduced to a machine translation (MT) task, where the source is the output of a specific MT system and the target is its post-edited variant. However, this approach does not consider context information that can be found in the original source of the MT system. Thus a better approach is to employ multi-source MT, where two input sequences are considered – the one being the original source and the other being the MT output. Extra context information can be introduced in the form of extra tokens that identify certain global property of a group of segments, added as a prefix or a suffix to each segment. Successfully applied in domain adaptation of MT as well as on APE, this technique deserves further attention. In this work we investigate multi-source neural APE (or NPE) systems with training data which has been augmented with two types of extra context tokens. We experiment with authentic and synthetic data provided by WMT 2019 and submit our results to the APE shared task. We also experiment with using statistical machine translation (SMT) methods for APE. While our systems score bellow the baseline, we consider this work a step towards understanding the added value of extra context in the case of APE.",
+  "keywords": [
+    "extra",
+    "form",
+    "we",
+    "training",
+    "translation",
+    "neural",
+    "information",
+    "a machine translation",
+    "work",
+    "machine",
+    "attention",
+    "further attention",
+    "two input sequences",
+    "multi",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/W19-5415/",
+  "provenance": {
+    "collected_at": "2025-06-05 02:09:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.719",
+  "title": "PUB}: A Pragmatics Understanding Benchmark for Assessing {LLM}s' Pragmatics Capabilities",
+  "authors": [
+    "Sravanthi, Settaluri  and\nDoshi, Meet  and\nTankala, Pavan  and\nMurthy, Rudra  and\nDabre, Raj  and\nBhattacharyya, Pushpak"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "LLMs have demonstrated remarkable capability for understanding semantics, but their understanding of pragmatics is not well studied. To this end, we release a Pragmatics Understanding Benchmark (PUB) dataset consisting of fourteen tasks in four pragmatics phenomena, namely; Implicature, Presupposition, Reference, and Deixis. We curate high-quality test sets for each task, consisting of Multiple Choice Question Answers (MCQA). PUB includes a total of 28k data points, 6.1k are newly annotated. We evaluate nine models varying in the number of parameters and type of training. Our study reveals several key observations about the pragmatic capabilities of LLMs: 1. chat-fine-tuning strongly benefits smaller models, 2. large base models are competitive with their chat-fine-tuned counterparts, 3. there is a huge variance in performance across different pragmatics phenomena, and 4. a noticeable performance gap between human capabilities and model capabilities. We hope that PUB will enable comprehensive evaluation of LLM’s pragmatic reasoning capabilities.",
+  "keywords": [
+    "a huge variance",
+    "end",
+    "the pragmatic capabilities",
+    "comprehensive evaluation",
+    "question",
+    "we",
+    "llm",
+    "variance",
+    "mcqa pub",
+    "semantics",
+    "llms",
+    "tuning",
+    "model capabilities",
+    "fine",
+    "chat"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.719/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

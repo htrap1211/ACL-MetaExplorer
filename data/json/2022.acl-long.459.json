@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.459",
+  "title": "SHIELD}: Defending Textual Neural Networks against Multiple Black-Box Adversarial Attacks with Stochastic Multi-Expert Patcher",
+  "authors": [
+    "Le, Thai  and\nPark, Noseong  and\nLee, Dongwon"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Even though several methods have proposed to defend textual neural network (NN) models against black-box adversarial attacks, they often defend against a specific text perturbation strategy and/or require re-training the models from scratch. This leads to a lack of generalization in practice and redundant computation. In particular, the state-of-the-art transformer models (e.g., BERT, RoBERTa) require great time and computation resources. By borrowing an idea from software engineering, in order to address these limitations, we propose a novel algorithm, SHIELD, which modifies and re-trains only the last layer of a textual NN, and thus it “patches” and “transforms” the NN into a stochastic weighted ensemble of multi-expert prediction heads. Considering that most of current black-box attacks rely on iterative search mechanisms to optimize their adversarial perturbations, SHIELD confuses the attackers by automatically utilizing different weighted ensembles of predictors depending on the input. In other words, SHIELD breaks a fundamental assumption of the attack, which is a victim NN model remains constant during an attack. By conducting comprehensive experiments, we demonstrate that all of CNN, RNN, BERT, and RoBERTa-based textual NNs, once patched by SHIELD, exhibit a relative enhancement of 15%–70% in accuracy on average against 14 different black-box attacks, outperforming 6 defensive baselines across 3 public datasets. All codes are to be released.",
+  "keywords": [
+    "roberta",
+    "layer",
+    "all",
+    "we",
+    "current",
+    "textual neural networks",
+    "ensemble",
+    "neural",
+    "cnn",
+    "a stochastic weighted ensemble",
+    "it",
+    "e g bert roberta",
+    "ensembles",
+    "bert",
+    "different weighted ensembles"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.459/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:30:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

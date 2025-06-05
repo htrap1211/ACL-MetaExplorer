@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.227",
+  "title": "Suum Cuique: Studying Bias in Taboo Detection with a Community Perspective",
+  "authors": [
+    "Khalid, Osama  and\nRusert, Jonathan  and\nSrinivasan, Padmini"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Prior research has discussed and illustrated the need to consider linguistic norms at the community level when studying taboo (hateful/offensive/toxic etc.) language. However, a methodology for doing so, that is firmly founded on community language norms is still largely absent. This can lead both to biases in taboo text classification and limitations in our understanding of the causes of bias. We propose a method to study bias in taboo classification and annotation where a community perspective is front and center. This is accomplished by using special classifiers tuned for each community’s language. In essence, these classifiers represent community level language norms. We use these to study bias and find, for example, biases are largest against African Americans (7/10 datasets and all 3 classifiers examined). In contrast to previous papers we also study other communities and find, for example, strong biases against South Asians. In a small scale user study we illustrate our key idea which is that common utterances, i.e., those with high alignment scores with a community (community classifier confidence scores) are unlikely to be regarded taboo. Annotators who are community members contradict taboo classification decisions and annotations in a majority of instances. This paper is a significant step toward reducing false positive taboo decisions that over time harm minority communities.",
+  "keywords": [
+    "these classifiers",
+    "bias",
+    "special classifiers",
+    "classifier",
+    "other communities",
+    "communities",
+    "classifiers",
+    "all 3 classifiers",
+    "we",
+    "taboo classification",
+    "classification",
+    "taboo classification decisions",
+    "i",
+    "high alignment scores",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.227/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

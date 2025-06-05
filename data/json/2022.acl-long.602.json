@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.602",
+  "title": "Pyramid-{BERT}: Reducing Complexity via Successive Core-set based Token Selection",
+  "authors": [
+    "Huang, Xin  and\nKhetan, Ashish  and\nBidart, Rene  and\nKarnin, Zohar"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Transformer-based language models such as BERT (CITATION) have achieved the state-of-the-art performance on various NLP tasks, but are computationally prohibitive. A recent line of works use various heuristics to successively shorten sequence length while transforming tokens through encoders, in tasks such as classification and ranking that require a single token embedding for prediction. We present a novel solution to this problem, called Pyramid-BERT where we replace previously used heuristics with acore-setbased token selection method justified by theoretical results. The core-set based token selection technique allows us to avoid expensive pre-training, gives a space-efficient fine tuning, and thus makes it suitable to handle longer sequence lengths. We provide extensive experiments establishing advantages of pyramid BERT over several baselines and existing works on the GLUE benchmarks and Long Range Arena (CITATION) datasets.",
+  "keywords": [
+    "efficient",
+    "expensive pre-training",
+    "we",
+    "training",
+    "classification",
+    "pyramid-bert",
+    "it",
+    "token",
+    "pyramid bert",
+    "sequence",
+    "core",
+    "tuning",
+    "pyramid- bert",
+    "bert",
+    "bert citation"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.602/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:32:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

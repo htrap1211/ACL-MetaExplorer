@@ -1,0 +1,33 @@
+{
+  "id": "2021.wat-1.10",
+  "title": "BTS}: Back {T}ran{S}cription for Speech-to-Text Post-Processor using Text-to-Speech-to-Text",
+  "authors": [
+    "Park, Chanjun  and\nSeo, Jaehyung  and\nLee, Seolhwa  and\nLee, Chanhee  and\nMoon, Hyeonseok  and\nEo, Sugyeong  and\nLim, Heuiseok"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 8th Workshop on Asian Translation (WAT2021)",
+  "abstract": "With the growing popularity of smart speakers, such as Amazon Alexa, speech is becoming one of the most important modes of human-computer interaction. Automatic speech recognition (ASR) is arguably the most critical component of such systems, as errors in speech recognition propagate to the downstream components and drastically degrade the user experience. A simple and effective way to improve the speech recognition accuracy is to apply automatic post-processor to the recognition result. However, training a post-processor requires parallel corpora created by human annotators, which are expensive and not scalable. To alleviate this problem, we propose Back TranScription (BTS), a denoising-based method that can create such corpora without human labor. Using a raw corpus, BTS corrupts the text using Text-to-Speech (TTS) and Speech-to-Text (STT) systems. Then, a post-processing model can be trained to reconstruct the original text given the corrupted input. Quantitative and qualitative evaluations show that a post-processor trained using our approach is highly effective in fixing non-trivial speech recognition errors such as mishandling foreign words. We present the generated parallel corpus and post-processing platform to make our results publicly available.",
+  "keywords": [
+    "t",
+    "we",
+    "the speech recognition accuracy",
+    "quantitative and qualitative evaluations",
+    "the user experience",
+    "processing",
+    "text",
+    "-",
+    "the generated parallel corpus",
+    "experience",
+    "accuracy",
+    "model",
+    "human",
+    "evaluations",
+    "stt"
+  ],
+  "url": "https://aclanthology.org/2021.wat-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

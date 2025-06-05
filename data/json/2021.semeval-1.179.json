@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.179",
+  "title": "Sattiy at {S}em{E}val-2021 Task 9: An Ensemble Solution for Statement Verification and Evidence Finding with Tables",
+  "authors": [
+    "Ruan, Xiaoyi  and\nJin, Meizhi  and\nMa, Jian  and\nYang, Haiqin  and\nJiang, Lianxin  and\nMo, Yang  and\nZhou, Mengyuan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "Question answering from semi-structured tables can be seen as a semantic parsing task and is significant and practical for pushing the boundary of natural language understanding. Existing research mainly focuses on understanding contents from unstructured evidence, e.g., news, natural language sentences and documents. The task of verification from structured evidence, such as tables, charts, and databases, is still less-explored. This paper describes sattiy team’s system in SemEval-2021 task 9: Statement Verification and Evidence Finding with Tables (SEM-TAB-FACT)(CITATION). This competition aims to verify statements and to find evidence from tables for scientific articles and to promote proper interpretation of the surrounding article. In this paper we exploited ensemble models of pre-trained language models over tables, TaPas and TaBERT, for Task A and adjust the result based on some rules extracted for Task B. Finally, in the leadboard, we attain the F1 scores of 0.8496 and 0.7732 in Task A for the 2-way and 3-way evaluation, respectively, and the F1 score of 0.4856 in Task B.",
+  "keywords": [
+    "question",
+    "semantic",
+    "we",
+    "sem",
+    "ensemble",
+    "pre-trained language models",
+    "natural",
+    "an ensemble solution",
+    "ensemble models",
+    "natural language",
+    "scientific",
+    "scientific articles",
+    "the f1 score",
+    "a semantic parsing task",
+    "tabert"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.179/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:22:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

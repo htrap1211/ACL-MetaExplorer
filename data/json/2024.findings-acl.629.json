@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.629",
+  "title": "C}hinese {M}ental{BERT}: Domain-Adaptive Pre-training on Social Media for {C}hinese Mental Health Text Analysis",
+  "authors": [
+    "Zhai, Wei  and\nQi, Hongzhi  and\nZhao, Qing  and\nLi, Jianqiang  and\nWang, Ziqi  and\nWang, Han  and\nYang, Bing  and\nFu, Guanghui"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "In the current environment, psychological issues are prevalent and widespread, with social media serving as a key outlet for individuals to share their feelings. This results in the generation of vast quantities of data daily, where negative emotions have the potential to precipitate crisis situations. There is a recognized need for models capable of efficient analysis. While pre-trained language models have demonstrated their effectiveness broadly, there’s a noticeable gap in pre-trained models tailored for specialized domains like psychology. To address this, we have collected a huge dataset from Chinese social media platforms and enriched it with publicly available datasets to create a comprehensive database encompassing 3.36 million text entries. To enhance the model’s applicability to psychological text analysis, we integrated psychological lexicons into the pre-training masking mechanism. Building on an existing Chinese language model, we performed adaptive training to develop a model specialized for the psychological domain. We evaluated our model’s performance across six public datasets, where it demonstrated improvements compared to eight other models. Additionally, in the qualitative comparison experiment, our model provided psychologically relevant predictions given the masked sentences. Due to concerns regarding data privacy, the dataset will not be made publicly available. However, we have made the pre-trained models and codes publicly accessible to the community via: https://github.com/zwzzzQAQ/Chinese-MentalBERT.",
+  "keywords": [
+    "ental bert domain-adaptive pre",
+    "the pre-training masking mechanism",
+    "efficient",
+    "the generation",
+    "efficient analysis",
+    "entries",
+    "we",
+    "quantities",
+    "current",
+    "training",
+    "pre-trained language models",
+    "it",
+    "analysis",
+    "mentalbert",
+    "bert"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.629/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

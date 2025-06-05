@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.459",
+  "title": "CICL}e: Conformal In-Context Learning for Largescale Multi-Class Food Risk Classification",
+  "authors": [
+    "Randl, Korbinian  and\nPavlopoulos, John  and\nHenriksson, Aron  and\nLindgren, Tony"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Contaminated or adulterated food poses a substantial risk to human health. Given sets of labeled web texts for training, Machine Learning and Natural Language Processing can be applied to automatically detect such risks. We publish a dataset of 7,546 short texts describing public food recall announcements. Each text is manually labeled, on two granularity levels (coarse and fine), for food products and hazards that the recall corresponds to. We describe the dataset and benchmark naive, traditional, and Transformer models. Based on our analysis, Logistic Regression based on a TF-IDF representation outperforms RoBERTa and XLM-R on classes with low support. Finally, we discuss different prompting strategies and present an LLM-in-the-loop framework, based on Conformal Prediction, which boosts the performance of the base classifier while reducing energy consumption compared to normal prompting.",
+  "keywords": [
+    "roberta",
+    "support",
+    "classifier",
+    "different prompting strategies",
+    "we",
+    "llm",
+    "training",
+    "classification",
+    "natural",
+    "e",
+    "the base classifier",
+    "learning",
+    "natural language processing",
+    "energy consumption",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.459/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

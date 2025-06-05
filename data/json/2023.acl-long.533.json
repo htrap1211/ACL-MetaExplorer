@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.533",
+  "title": "Pre-training Multi-party Dialogue Models with Latent Discourse Inference",
+  "authors": [
+    "Li, Yiyang  and\nHuang, Xinting  and\nBi, Wei  and\nZhao, Hai"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Multi-party dialogues are more difficult for models to understand than one-to-one two-party dialogues, since they involve multiple interlocutors, resulting in interweaving reply-to relations and information flows. To step over these obstacles, an effective way is to pre-train a model that understands the discourse structure of multi-party dialogues, namely, to whom each utterance is replying. However, due to the lack of explicitly annotated discourse labels in multi-party dialogue corpora, previous works fail to scale up the pre-training process by putting aside the unlabeled multi-party conversational data for nothing. To fully utilize the unlabeled data, we propose to treat the discourse structures as latent variables, then jointly infer them and pre-train the discourse-aware model by unsupervised latent variable inference methods. Experiments on multiple downstream tasks show that our pre-trained model outperforms strong baselines by large margins and achieves state-of-the-art (SOTA) results, justifying the effectiveness of our method. The official implementation of this paper is available athttps://github.com/EricLee8/MPD_EMVI.",
+  "keywords": [
+    "pre-training multi-party dialogue models",
+    "we",
+    "dialogue",
+    "training",
+    "information",
+    "latent",
+    "multi-party dialogue",
+    "process",
+    "multi-party dialogues",
+    "model",
+    "the pre-training process",
+    "dialogues",
+    "conversational",
+    "pre",
+    "one-to-one two-party dialogues"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.533/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:42:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

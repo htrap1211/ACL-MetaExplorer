@@ -1,0 +1,33 @@
+{
+  "id": "W19-5439",
+  "title": "Filtering of Noisy Parallel Corpora Based on Hypothesis Generation",
+  "authors": [
+    "Parcheta, Zuzanna  and\nSanchis-Trilles, Germ{\\'a}n  and\nCasacuberta, Francisco"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 3: Shared Task Papers, Day 2)",
+  "abstract": "The filtering task of noisy parallel corpora in WMT2019 aims to challenge participants to create filtering methods to be useful for training machine translation systems. In this work, we introduce a noisy parallel corpora filtering system based on generating hypotheses by means of a translation model. We train translation models in both language pairs: Nepali–English and Sinhala–English using provided parallel corpora. We select the training subset for three language pairs (Nepali, Sinhala and Hindi to English) jointly using bilingual cross-entropy selection to create the best possible translation model for both language pairs. Once the translation models are trained, we translate the noisy corpora and generate a hypothesis for each sentence pair. We compute the smoothed BLEU score between the target sentence and generated hypothesis. In addition, we apply several rules to discard very noisy or inadequate sentences which can lower the translation score. These heuristics are based on sentence length, source and target similarity and source language detection. We compare our results with the baseline published on the shared task website, which uses the Zipporah model, over which we achieve significant improvements in one of the conditions in the shared task. The designed filtering system is domain independent and all experiments are conducted using neural machine translation.",
+  "keywords": [
+    "neural machine translation",
+    "bleu",
+    "we",
+    "training",
+    "translation",
+    "means",
+    "cross",
+    "the smoothed bleu score",
+    "neural",
+    "the translation models",
+    "machine translation systems",
+    "hypothesis generation",
+    "translation models",
+    "the translation score",
+    "work"
+  ],
+  "url": "https://aclanthology.org/W19-5439/",
+  "provenance": {
+    "collected_at": "2025-06-05 02:09:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

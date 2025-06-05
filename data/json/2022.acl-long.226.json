@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.226",
+  "title": "Training Data is More Valuable than You Think: A Simple and Effective Method by Retrieving from Training Data",
+  "authors": [
+    "Wang, Shuohang  and\nXu, Yichong  and\nFang, Yuwei  and\nLiu, Yang  and\nSun, Siqi  and\nXu, Ruochen  and\nZhu, Chenguang  and\nZeng, Michael"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Retrieval-based methods have been shown to be effective in NLP tasks via introducing external knowledge. However, the indexing and retrieving of large-scale corpora bring considerable computational cost. Surprisingly, we found that REtrieving from the traINing datA (REINA) only can lead to significant gains on multiple NLG and NLU tasks. We retrieve the labeled training instances most similar to the input text and then concatenate them with the input to feed into the model to generate the output. Experimental results show that this simple method can achieve significantly better performance on a variety of NLU and NLG tasks, including summarization, machine translation, language modeling, and question answering tasks. For instance, our proposed method achieved state-of-the-art results on XSum, BigPatent, and CommonsenseQA. Our code is released,https://github.com/microsoft/REINA.",
+  "keywords": [
+    "variety",
+    "code",
+    "data retrieval-based methods",
+    "summarization",
+    "we",
+    "training",
+    "translation",
+    "retrieval",
+    "nlp tasks",
+    "a variety",
+    "text",
+    "retrieving",
+    "knowledge",
+    "language",
+    "nlp"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.226/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:27:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

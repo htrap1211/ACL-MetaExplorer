@@ -1,0 +1,33 @@
+{
+  "id": "W19-4313",
+  "title": "On Evaluating Embedding Models for Knowledge Base Completion",
+  "authors": [
+    "Wang, Yanjie  and\nRuffinelli, Daniel  and\nGemulla, Rainer  and\nBroscheit, Samuel  and\nMeilicke, Christian"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)",
+  "abstract": "Knowledge graph embedding models have recently received significant attention in the literature. These models learn latent semantic representations for the entities and relations in a given knowledge base; the representations can be used to infer missing knowledge. In this paper, we study the question of how well recent embedding models perform for the task of knowledge base completion, i.e., the task of inferring new facts from an incomplete knowledge base. We argue that the entity ranking protocol, which is currently used to evaluate knowledge graph embedding models, is not suitable to answer this question since only a subset of the model predictions are evaluated. We propose an alternative entity-pair ranking protocol that considers all model predictions as a whole and is thus more suitable to the task. We conducted an experimental study on standard datasets and found that the performance of popular embeddings models was unsatisfactory under the new protocol, even on datasets that are generally considered to be too easy. Moreover, we found that a simple rule-based model often provided superior performance. Our findings suggest that there is a need for more research into embedding models as well as their training strategies for the task of knowledge base completion.",
+  "keywords": [
+    "question",
+    "semantic",
+    "we",
+    "graph",
+    "training",
+    "the entities",
+    "popular embeddings models",
+    "latent",
+    "i",
+    "strategies",
+    "latent semantic representations",
+    "recent embedding models",
+    "embeddings",
+    "knowledge",
+    "model"
+  ],
+  "url": "https://aclanthology.org/W19-4313/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:03:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

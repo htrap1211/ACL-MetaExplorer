@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.640",
+  "title": "Self-Training with Pseudo-Label Scorer for Aspect Sentiment Quad Prediction",
+  "authors": [
+    "Zhang, Yice  and\nZeng, Jie  and\nHu, Weiming  and\nWang, Ziyi  and\nChen, Shiwei  and\nXu, Ruifeng"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Aspect Sentiment Quad Prediction (ASQP) aims to predict all quads (aspect term, aspect category, opinion term, sentiment polarity) for a given review, which is the most representative and challenging task in aspect-based sentiment analysis. A key challenge in the ASQP task is the scarcity of labeled data, which limits the performance of existing methods. To tackle this issue, we propose a self-training framework with a pseudo-label scorer, wherein a scorer assesses the match between reviews and their pseudo-labels, aiming to filter out mismatches and thereby enhance the effectiveness of self-training. We highlight two critical aspects to ensure the scorer’s effectiveness and reliability: the quality of the training dataset and its model architecture. To this end, we create a human-annotated comparison dataset and train a generative model on it using ranking-based objectives. Extensive experiments on public ASQP datasets reveal that using our scorer can greatly and consistently improve the effectiveness of self-training. Moreover, we explore the possibility of replacing humans with large language models for comparison dataset annotation, and experiments demonstrate its feasibility. We will release our code and data via GitHub.",
+  "keywords": [
+    "code",
+    "objectives",
+    "end",
+    "we",
+    "training",
+    "it",
+    "self",
+    "analysis",
+    "reviews",
+    "generative",
+    "a generative model",
+    "-",
+    "sentiment",
+    "ranking-based objectives",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.640/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:43:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

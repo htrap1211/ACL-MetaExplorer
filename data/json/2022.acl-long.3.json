@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.3",
+  "title": "Rare Tokens Degenerate All Tokens: Improving Neural Text Generation via Adaptive Gradient Gating for Rare Token Embeddings",
+  "authors": [
+    "Yu, Sangwon  and\nSong, Jongyoon  and\nKim, Heeseung  and\nLee, Seongmin  and\nRyu, Woo-Jong  and\nYoon, Sungroh"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent studies have determined that the learned token embeddings of large-scale neural language models are degenerated to be anisotropic with a narrow-cone shape. This phenomenon, called the representation degeneration problem, facilitates an increase in the overall similarity between token embeddings that negatively affect the performance of the models. Although the existing methods that address the degeneration problem based on observations of the phenomenon triggered by the problem improves the performance of the text generation, the training dynamics of token embeddings behind the degeneration problem are still not explored. In this study, we analyze the training dynamics of the token embeddings focusing on rare token embedding. We demonstrate that the specific part of the gradient for rare token embeddings is the key cause of the degeneration problem for all tokens during training stage. Based on the analysis, we propose a novel method called, adaptive gradient gating(AGG). AGG addresses the degeneration problem by gating the specific part of the gradient for rare token embeddings. Experimental results from language modeling, word similarity, and machine translation tasks quantitatively and qualitatively verify the effectiveness of AGG.",
+  "keywords": [
+    "the text generation",
+    "the token embeddings",
+    "adaptive gradient",
+    "rare token embeddings",
+    "the degeneration problem",
+    "we",
+    "degeneration",
+    "the learned token embeddings",
+    "training",
+    "translation",
+    "the gradient",
+    "neural",
+    "token embeddings",
+    "token",
+    "word"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:24:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.dialdoc-1.5",
+  "title": "Parameter-Efficient Abstractive Question Answering over Tables or Text",
+  "authors": [
+    "Pal, Vaishali  and\nKanoulas, Evangelos  and\nde Rijke, Maarten"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Second DialDoc Workshop on Document-grounded Dialogue and Conversational Question Answering",
+  "abstract": "A long-term ambition of information seeking QA systems is to reason over multi-modal contexts and generate natural answers to user queries. Today, memory intensive pre-trained language models are adapted to downstream tasks such as QA by fine-tuning the model on QA data in a specific modality like unstructured text or structured tables. To avoid training such memory-hungry models while utilizing a uniform architecture for each modality, parameter-efficient adapters add and train small task-specific bottle-neck layers between transformer layers. In this work, we study parameter-efficient abstractive QA in encoder-decoder models over structured tabular data and unstructured textual data using only 1.5% additional parameters for each modality. We also ablate over adapter layers in both encoder and decoder modules to study the efficiency-performance trade-off and demonstrate that reducing additional trainable parameters down to 0.7%-1.0% leads to comparable results. Our models out-perform current state-of-the-art models on tabular QA datasets such as Tablesum and FeTaQA, and achieve comparable performance on a textual QA dataset such as NarrativeQA using significantly less trainable parameters than fine-tuning.",
+  "keywords": [
+    "efficient",
+    "question",
+    "efficiency",
+    "we",
+    "current",
+    "parameter",
+    "qa data",
+    "natural",
+    "a textual qa dataset",
+    "queries",
+    "tabular qa datasets",
+    "decoder",
+    "each modality parameter-efficient adapters",
+    "information",
+    "parameter-efficient abstractive question"
+  ],
+  "url": "https://aclanthology.org/2022.dialdoc-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:41:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

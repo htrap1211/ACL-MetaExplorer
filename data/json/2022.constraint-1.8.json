@@ -1,0 +1,33 @@
+{
+  "id": "2022.constraint-1.8",
+  "title": "Document Retrieval and Claim Verification to Mitigate {COVID}-19 Misinformation",
+  "authors": [
+    "Sundriyal, Megha  and\nMalhotra, Ganeshan  and\nAkhtar, Md Shad  and\nSengupta, Shubhashis  and\nFano, Andrew  and\nChakraborty, Tanmoy"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Workshop on Combating Online Hostile Posts in Regional Languages during Emergency Situations",
+  "abstract": "During the COVID-19 pandemic, the spread of misinformation on online social media has grown exponentially. Unverified bogus claims on these platforms regularly mislead people, leading them to believe in half-baked truths. The current vogue is to employ manual fact-checkers to verify claims to combat this avalanche of misinformation. However, establishing such claims’ veracity is becoming increasingly challenging, partly due to the plethora of information available, which is difficult to process manually. Thus, it becomes imperative to verify claims automatically without human interventions. To cope up with this issue, we propose an automated claim verification solution encompassing two steps – document retrieval and veracity prediction. For the retrieval module, we employ a hybrid search-based system with BM25 as a base retriever and experiment with recent state-of-the-art transformer-based models for re-ranking. Furthermore, we use a BART-based textual entailment architecture to authenticate the retrieved documents in the later step. We report experimental findings, demonstrating that our retrieval module outperforms the best baseline system by 10.32 NDCG@100 points. We escort a demonstration to assess the efficacy and impact of our suggested solution. As a byproduct of this study, we present an open-source, easily deployable, and user-friendly Python API that the community can adopt.",
+  "keywords": [
+    "exponentially unverified bogus claims",
+    "our retrieval module",
+    "the retrieved documents",
+    "we",
+    "current",
+    "friendly",
+    "it",
+    "the retrieval module",
+    "retrieval",
+    "information",
+    "document retrieval",
+    "re",
+    "transformer",
+    "human",
+    "documents"
+  ],
+  "url": "https://aclanthology.org/2022.constraint-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:40:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

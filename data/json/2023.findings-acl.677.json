@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.677",
+  "title": "P}rompt{A}ttack: Probing Dialogue State Trackers with Adversarial Prompts",
+  "authors": [
+    "Dong, Xiangjue  and\nHe, Yun  and\nZhu, Ziwei  and\nCaverlee, James"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "A key component of modern conversational systems is the Dialogue State Tracker (or DST), which models a user’s goals and needs. Toward building more robust and reliable DSTs, we introduce a prompt-based learning approach to automatically generate effective adversarial examples to probe DST models. Two key characteristics of this approach are: (i) it only needs the output of the DST with no need for model parameters, and (ii) it can learn to generate natural language utterances that can target any DST. Through experiments over state-of-the-art DSTs, the proposed framework leads to the greatest reduction in accuracy and the best attack success rate while maintaining good fluency and a low perturbation ratio. We also show how much the generated adversarial examples can bolster a DST through adversarial training. These results indicate the strength of prompt-based attacks on DSTs and leave open avenues for continued refinement.",
+  "keywords": [
+    "rate",
+    "we",
+    "the dialogue state tracker",
+    "dialogue",
+    "training",
+    "the generated adversarial examples",
+    "natural",
+    "a prompt-based learning approach",
+    "it",
+    "reduction",
+    "adversarial prompts",
+    "prompt-based attacks",
+    "prompt",
+    "i",
+    "modern conversational systems"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.677/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

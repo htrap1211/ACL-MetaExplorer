@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.232",
+  "title": "Chride at {S}em{E}val-2023 Task 10: Fine-tuned Deberta-V3 on Detection of Online Sexism with Hierarchical Loss",
+  "authors": [
+    "Peng, Letian  and\nKim, Bosung"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "Sexism is one of the most concerning problems in the internet society. By detecting sexist expressions, we can reduce the offense toward females and provide useful information to understand how sexism occurs. Our work focuses on a newly-published dataset, EDOS, which annotates English sexist expressions from Reddit and categorizes their specific types. Our method is to train a DeBERTaV3 classifier with all three kinds of labels provided by the dataset, including sexist, category, and granular vectors. Our classifier predicts the probability distribution on vector labels and further applies it to represent category and sexist distributions. Our classifier uses its label and finer-grained labels for each classification to calculate the hierarchical loss for optimization. Our experiments and analyses show that using a combination of loss with finer-grained labels generally achieves better performance on sexism detection and categorization. Codes for our implementation can be found athttps://github.com/KomeijiForce/SemEval2023_Task10.",
+  "keywords": [
+    "finer",
+    "deberta",
+    "classifier",
+    "granular vectors",
+    "the internet society",
+    "we",
+    "our classifier",
+    "each classification",
+    "debertav3",
+    "classification",
+    "it",
+    "loss",
+    "information",
+    "finer-grained labels",
+    "vector"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.232/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

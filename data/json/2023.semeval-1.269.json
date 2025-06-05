@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.269",
+  "title": "Ebhaam at {S}em{E}val-2023 Task 1: A {CLIP}-Based Approach for Comparing Cross-modality and Unimodality in Visual Word Sense Disambiguation",
+  "authors": [
+    "Taghavi, Zeinab  and\nNaeini, Parsa Haghighi  and\nSadraei Javaheri, Mohammad Ali  and\nGooran, Soroush  and\nAsgari, Ehsaneddin  and\nRabiee, Hamid Reza  and\nSameti, Hossein"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper presents an approach to tackle the task of Visual Word Sense Disambiguation (Visual-WSD), which involves determining the most appropriate image to represent a given polysemous word in one of its particular senses. The proposed approach leverages the CLIP model, prompt engineering, and text-to-image models such as GLIDE and DALL-E 2 for both image retrieval and generation. To evaluate our approach, we participated in the SemEval 2023 shared task on “Visual Word Sense Disambiguation (Visual-WSD)” using a zero-shot learning setting, where we compared the accuracy of different combinations of tools, including “Simple prompt-based” methods and “Generated prompt-based” methods for prompt engineering using completion models, and text-to-image models for changing input modality from text to image. Moreover, we explored the benefits of cross-modality evaluation between text and candidate images using CLIP. Our experimental results demonstrate that the proposed approach reaches better results than cross-modality approaches, highlighting the potential of prompt engineering and text-to-image models to improve accuracy in Visual-WSD tasks. We assessed our approach in a zero-shot learning scenario and attained an accuracy of 68.75\\% in our best attempt.",
+  "keywords": [
+    "the accuracy",
+    "simple prompt-based methods",
+    "we",
+    "shot",
+    "a zero-shot learning scenario",
+    "cross",
+    "both image retrieval",
+    "cross-modality evaluation",
+    "retrieval",
+    "prompt-based methods",
+    "word",
+    "learning",
+    "visual",
+    "prompt",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.269/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:30:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.155",
+  "title": "Label Semantics for Few Shot Named Entity Recognition",
+  "authors": [
+    "Ma, Jie  and\nBallesteros, Miguel  and\nDoss, Srikanth  and\nAnubhai, Rishita  and\nMallya, Sunil  and\nAl-Onaizan, Yaser  and\nRoth, Dan"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "We study the problem of few shot learning for named entity recognition. Specifically, we leverage the semantic information in the names of the labels as a way of giving the model additional signal and enriched priors. We propose a neural architecture that consists of two BERT encoders, one to encode the document and its tokens and another one to encode each of the labels in natural language format. Our model learns to match the representations of named entities computed by the first encoder with label representations computed by the second encoder. The label semantics signal is shown to support improved state-of-the-art results in multiple few shot NER benchmarks and on-par performance in standard benchmarks. Our model is especially effective in low resource settings.",
+  "keywords": [
+    "named entities",
+    "ner",
+    "language",
+    "the semantic information",
+    "neural",
+    "natural",
+    "bert",
+    "model",
+    "named entity recognition",
+    "semantics",
+    "entities",
+    "par",
+    "the label semantics signal",
+    "encoder",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.155/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

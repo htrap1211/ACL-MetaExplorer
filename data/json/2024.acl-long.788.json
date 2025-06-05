@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.788",
+  "title": "Semisupervised Neural Proto-Language Reconstruction",
+  "authors": [
+    "Lu, Liang  and\nXie, Peirong  and\nMortensen, David"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Existing work implementing comparative reconstruction of ancestral languages (proto-languages) has usually required full supervision. However, historical reconstruction models are only of practical value if they can be trained with a limited amount of labeled data. We propose a semisupervised historical reconstruction task in which the model is trained on only a small amount of labeled data (cognate sets with proto-forms) and a large amount of unlabeled data (cognate sets without proto-forms). We propose a neural architecture for comparative reconstruction (DPD-BiReconstructor) incorporating an essential insight from linguists’ comparative method: that reconstructed words should not only be reconstructable from their daughter words, but also deterministically transformable back into their daughter words. We show that this architecture is able to leverage unlabeled cognate sets to outperform strong semisupervised baselines on this novel task.",
+  "keywords": [
+    "work",
+    "language",
+    "neural",
+    "model",
+    "we",
+    "a large amount",
+    "that",
+    "practical",
+    "comparative",
+    "supervision",
+    "unlabeled cognate sets",
+    "baselines",
+    "task",
+    "words",
+    "cognate"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.788/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:45:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

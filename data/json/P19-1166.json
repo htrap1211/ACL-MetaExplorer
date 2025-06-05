@@ -1,0 +1,33 @@
+{
+  "id": "P19-1166",
+  "title": "Understanding Undesirable Word Embedding Associations",
+  "authors": [
+    "Ethayarajh, Kawin  and\nDuvenaud, David  and\nHirst, Graeme"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Word embeddings are often criticized for capturing undesirable word associations such as gender stereotypes. However, methods for measuring and removing such biases remain poorly understood. We show that for any embedding model that implicitly does matrix factorization, debiasing vectors post hoc using subspace projection (Bolukbasi et al., 2016) is, under certain conditions, equivalent to training on an unbiased corpus. We also prove that WEAT, the most common association test for word embeddings, systematically overestimates bias. Given that the subspace projection method is provably effective, we use it to derive a new measure of association called the relational inner product association (RIPA). Experiments with RIPA reveal that, on average, skipgram with negative sampling (SGNS) does not make most words any more gendered than they are in the training corpus. However, for gender-stereotyped words, SGNS actually amplifies the gender association in the corpus.",
+  "keywords": [
+    "embeddings",
+    "et",
+    "bias",
+    "al",
+    "unbiased",
+    "model",
+    "it",
+    "vectors",
+    "any embedding model",
+    "such biases",
+    "inner",
+    "we",
+    "word",
+    "an unbiased corpus",
+    "word embeddings"
+  ],
+  "url": "https://aclanthology.org/P19-1166/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:33:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

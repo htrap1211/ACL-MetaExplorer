@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.474",
+  "title": "Focus Attention: Promoting Faithfulness and Diversity in Summarization",
+  "authors": [
+    "Aralikatte, Rahul  and\nNarayan, Shashi  and\nMaynez, Joshua  and\nRothe, Sascha  and\nMcDonald, Ryan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Professional summaries are written with document-level information, such as the theme of the document, in mind. This is in contrast with most seq2seq decoders which simultaneously learn to focus on salient content, while deciding what to generate, at each decoding step. With the motivation to narrow this gap, we introduce Focus Attention Mechanism, a simple yet effective method to encourage decoders to proactively generate tokens that are similar or topical to the input document. Further, we propose a Focus Sampling method to enable generation of diverse summaries, an area currently understudied in summarization. When evaluated on the BBC extreme summarization task, two state-of-the-art models augmented with Focus Attention generate summaries that are closer to the target and more faithful to their input documents, outperforming their vanilla counterparts on ROUGE and multiple faithfulness measures. We also empirically demonstrate that Focus Sampling is more effective in generating diverse and faithful summaries than top-k or nucleus sampling-based decoding methods.",
+  "keywords": [
+    "summarization",
+    "we",
+    "salient content",
+    "information",
+    "understudied",
+    "decoders",
+    "diverse summaries",
+    "seq2seq",
+    "focus attention mechanism",
+    "rouge",
+    "the bbc extreme summarization",
+    "focus attention generate summaries",
+    "summarization professional summaries",
+    "most seq2seq decoders",
+    "summaries"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.474/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

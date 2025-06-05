@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.588",
+  "title": "Investigating Transformer-Guided Chaining for Interpretable Natural Logic Reasoning",
+  "authors": [
+    "Rajaraman, Kanagasabai  and\nRajamanickam, Saravanan  and\nShi, Wei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Natural logic reasoning has received increasing attention lately, with several datasets and neural models proposed, though with limited success. More recently, a new class of works have emerged adopting a Neuro-Symbolic approach, called transformer guided chaining, whereby the idea is to iteratively perform 1-step neural inferences and chain together the results to generate a multi-step reasoning trace. Several works have adapted variants of this central idea and reported significantly high accuracies compared to vanilla LLM’s. In this paper, we perform a critical empirical investigation of the chaining approach on a multi-hop First-Order Logic (FOL) reasoning benchmark. In particular, we develop a reference implementation, called Chainformer, and conduct several experiments to analyze the accuracy, generalization, interpretability, and performance over FOLs. Our findings highlight key strengths and possible current limitations and suggest potential areas for future research in logic reasoning.",
+  "keywords": [
+    "chain",
+    "we",
+    "current",
+    "llm",
+    "increasing attention",
+    "neural",
+    "natural",
+    "transformer-guided chaining",
+    "the accuracy generalization interpretability",
+    "generalization",
+    "accuracy",
+    "transformer",
+    "reference",
+    "accuracies",
+    "significantly high accuracies"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.588/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

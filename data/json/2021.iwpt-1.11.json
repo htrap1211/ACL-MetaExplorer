@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwpt-1.11",
+  "title": "Strength in Numbers: Averaging and Clustering Effects in Mixture of Experts for Graph-Based Dependency Parsing",
+  "authors": [
+    "Zhang, Xudong  and\nLe Roux, Joseph  and\nCharnois, Thierry"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 17th International Conference on Parsing Technologies and the IWPT 2021 Shared Task on Parsing into Enhanced Universal Dependencies (IWPT 2021)",
+  "abstract": "We review two features of mixture of experts (MoE) models which we call averaging and clustering effects in the context of graph-based dependency parsers learned in a supervised probabilistic framework. Averaging corresponds to the ensemble combination of parsers and is responsible for variance reduction which helps stabilizing and improving parsing accuracy. Clustering describes the capacity of MoE models to give more credit to experts believed to be more accurate given an input. Although promising, this is difficult to achieve, especially without additional data. We design an experimental set-up to study the impact of these effects. Whereas averaging is always beneficial, clustering requires good initialization and stabilization techniques, but its advantages over mere averaging seem to eventually vanish when enough experts are present. As a by product, we show how this leads to state-of-the-art results on the PTB and the CoNLL09 Chinese treebank, with low variance across experiments.",
+  "keywords": [
+    "low variance",
+    "we",
+    "graph",
+    "graph-based dependency parsers",
+    "variance",
+    "ensemble",
+    "a",
+    "reduction",
+    "parsing accuracy clustering",
+    "variance reduction",
+    "accuracy",
+    "the ensemble combination",
+    "beneficial clustering",
+    "clustering",
+    "dependency"
+  ],
+  "url": "https://aclanthology.org/2021.iwpt-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

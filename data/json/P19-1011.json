@@ -1,0 +1,33 @@
+{
+  "id": "P19-1011",
+  "title": "Learning Compressed Sentence Representations for On-Device Text Processing",
+  "authors": [
+    "Shen, Dinghan  and\nCheng, Pengyu  and\nSundararaman, Dhanasekar  and\nZhang, Xinyuan  and\nYang, Qian  and\nTang, Meng  and\nCelikyilmaz, Asli  and\nCarin, Lawrence"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Vector representations of sentences, trained on massive text corpora, are widely used as generic sentence embeddings across a variety of NLP problems. The learned representations are generally assumed to be continuous and real-valued, giving rise to a large memory footprint and slow retrieval speed, which hinders their applicability to low-resource (memory and computation) platforms, such as mobile devices. In this paper, we propose four different strategies to transform continuous and generic sentence embeddings into a binarized form, while preserving their rich semantic information. The introduced methods are evaluated across a wide range of downstream tasks, where the binarized sentence embeddings are demonstrated to degrade performance by only about 2% relative to their continuous counterparts, while reducing the storage requirement by over 98%. Moreover, with the learned binary representations, the semantic relatedness of two sentences can be evaluated by simply calculating their Hamming distance, which is more computational efficient compared with the inner product operation between continuous embeddings. Detailed analysis and case study further validate the effectiveness of proposed methods.",
+  "keywords": [
+    "variety",
+    "efficient",
+    "four different strategies",
+    "form",
+    "semantic",
+    "we",
+    "the binarized sentence embeddings",
+    "retrieval",
+    "information",
+    "the semantic relatedness",
+    "rich",
+    "inner",
+    "a variety",
+    "analysis",
+    "processing"
+  ],
+  "url": "https://aclanthology.org/P19-1011/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:28:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

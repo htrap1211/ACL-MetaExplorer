@@ -1,0 +1,33 @@
+{
+  "id": "P17-2058",
+  "title": "Differentiable Scheduled Sampling for Credit Assignment",
+  "authors": [
+    "Goyal, Kartik  and\nDyer, Chris  and\nBerg-Kirkpatrick, Taylor"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "We demonstrate that a continuous relaxation of the argmax operation can be used to create a differentiable approximation to greedy decoding in sequence-to-sequence (seq2seq) models. By incorporating this approximation into the scheduled sampling training procedure–a well-known technique for correcting exposure bias–we introduce a new training objective that is continuous and differentiable everywhere and can provide informative gradients near points where previous decoding decisions change their value. By using a related approximation, we also demonstrate a similar approach to sampled-based training. We show that our approach outperforms both standard cross-entropy training and scheduled sampling procedures in two sequence prediction tasks: named entity recognition and machine translation.",
+  "keywords": [
+    "a new training objective",
+    "cross",
+    "seq2seq",
+    "bias",
+    "gradients",
+    "machine",
+    "objective",
+    "exposure bias",
+    "machine translation",
+    "we",
+    "sequence",
+    "informative gradients",
+    "entity",
+    "training",
+    "translation"
+  ],
+  "url": "https://aclanthology.org/P17-2058/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:03:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

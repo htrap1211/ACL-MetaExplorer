@@ -1,0 +1,33 @@
+{
+  "id": "P19-1218",
+  "title": "Token-level Dynamic Self-Attention Network for Multi-Passage Reading Comprehension",
+  "authors": [
+    "Zhuang, Yimeng  and\nWang, Huadong"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Multi-passage reading comprehension requires the ability to combine cross-passage information and reason over multiple passages to infer the answer. In this paper, we introduce the Dynamic Self-attention Network (DynSAN) for multi-passage reading comprehension task, which processes cross-passage information at token-level and meanwhile avoids substantial computational costs. The core module of the dynamic self-attention is a proposed gated token selection mechanism, which dynamically selects important tokens from a sequence. These chosen tokens will attend to each other via a self-attention mechanism to model long-range dependencies. Besides, convolutional layers are combined with the dynamic self-attention to enhance the model’s capacity of extracting local semantic. The experimental results show that the proposed DynSAN achieves new state-of-the-art performance on the SearchQA, Quasar-T and WikiHop datasets. Further ablation study also validates the effectiveness of our model components.",
+  "keywords": [
+    "the dynamic self-attention",
+    "semantic",
+    "convolutional layers",
+    "we",
+    "convolutional",
+    "cross",
+    "answer",
+    "self",
+    "token",
+    "dependencies",
+    "information",
+    "sequence",
+    "long-range dependencies",
+    "core",
+    "searchqa"
+  ],
+  "url": "https://aclanthology.org/P19-1218/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:35:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

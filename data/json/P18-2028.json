@@ -1,0 +1,33 @@
+{
+  "id": "P18-2028",
+  "title": "A Language Model based Evaluator for Sentence Compression",
+  "authors": [
+    "Zhao, Yang  and\nLuo, Zhiyuan  and\nAizawa, Akiko"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "We herein present a language-model-based evaluator for deletion-based sentence compression and view this task as a series of deletion-and-evaluation operations using the evaluator. More specifically, the evaluator is a syntactic neural language model that is first built by learning the syntactic and structural collocation among words. Subsequently, a series of trial-and-error deletion operations are conducted on the source sentences via a reinforcement learning framework to obtain the best target compression. An empirical study shows that the proposed model can effectively generate more readable compression, comparable or superior to several strong baselines. Furthermore, we introduce a 200-sentence test set for a large-scale dataset, setting a new baseline for the future research.",
+  "keywords": [
+    "a series",
+    "reinforcement",
+    "language",
+    "neural",
+    "model",
+    "deletion-and-evaluation operations",
+    "series",
+    "a reinforcement learning framework",
+    "we",
+    "evaluation",
+    "that",
+    "the best target compression",
+    "several strong baselines",
+    "baselines",
+    "trial"
+  ],
+  "url": "https://aclanthology.org/P18-2028/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:16:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

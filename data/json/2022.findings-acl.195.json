@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.195",
+  "title": "Seeking Patterns, Not just Memorizing Procedures: Contrastive Learning for Solving Math Word Problems",
+  "authors": [
+    "Li, Zhongli  and\nZhang, Wenxuan  and\nYan, Chao  and\nZhou, Qingyu  and\nLi, Chao  and\nLiu, Hongzhi  and\nCao, Yunbo"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Math Word Problem (MWP) solving needs to discover the quantitative relationships over natural language narratives. Recent work shows that existing models memorize procedures from context and rely on shallow heuristics to solve MWPs. In this paper, we look at this issue and argue that the cause is a lack of overall understanding of MWP patterns. We first investigate how a neural network understands patterns only from semantics, and observe that, if the prototype equations are the same, most problems get closer representations and those representations apart from them or close to other prototypes tend to produce wrong solutions. Inspired by it, we propose a contrastive learning approach, where the neural network perceives the divergence of patterns. We collect contrastive examples by converting the prototype equation into a tree and seeking similar tree structures. The solving model is trained with an auxiliary objective on the collected examples, resulting in the representations of problems with similar prototypes being pulled closer. We conduct experiments on the Chinese dataset Math23k and the English dataset MathQA. Our method greatly improves the performance in monolingual and multilingual settings.",
+  "keywords": [
+    "an auxiliary objective",
+    "we",
+    "neural",
+    "natural",
+    "semantics",
+    "it",
+    "the neural network",
+    "word",
+    "learning",
+    "objective",
+    "mathqa",
+    "work",
+    "language",
+    "a neural network",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.195/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

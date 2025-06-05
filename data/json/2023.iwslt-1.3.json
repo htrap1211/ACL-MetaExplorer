@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.3",
+  "title": "The {M}ine{T}rans Systems for {IWSLT} 2023 Offline Speech Translation and Speech-to-Speech Translation Tasks",
+  "authors": [
+    "Du, Yichao  and\nZhengsheng, Guo  and\nTian, Jinchuan  and\nZhang, Zhirui  and\nWang, Xing  and\nYu, Jianwei  and\nTu, Zhaopeng  and\nXu, Tong  and\nChen, Enhong"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "This paper presents the extscMineTrans English-to-Chinese speech translation systems developed for two challenge tracks of IWSLT 2023, i.e., Offline Speech Translation (S2T) and Speech-to-Speech Translation (S2ST). For the S2T track, extscMineTrans employs a practical cascaded system to explore the limits of translation performance in both constrained and unconstrained settings, where the whole system consists of automatic speech recognition (ASR), punctuation recognition (PC), and machine translation (MT) modules. We also investigate the effectiveness of multiple ASR architectures and explore two MT strategies: supervised in-domain fine-tuning and prompt-guided translation using a large language model. For the S2ST track, we explore a speech-to-unit (S2U) framework to build an end-to-end S2ST system. This system encodes the target speech as discrete units via our trained HuBERT. Then it leverages the standard sequence-to-sequence model to directly learn the mapping between source speech and discrete units without any auxiliary recognition tasks (i.e., ASR and MT tasks). Various efforts are made to improve the extscMineTrans’s performance, such as acoustic model pre-training on large-scale data, data filtering, data augmentation, speech segmentation, knowledge distillation, consistency training, model ensembles, etc.",
+  "keywords": [
+    "end",
+    "two mt strategies",
+    "our trained hubert",
+    "machine translation",
+    "we",
+    "training",
+    "translation",
+    "it",
+    "sequence",
+    "ensembles",
+    "tuning",
+    "hubert",
+    "i",
+    "prompt",
+    "ine"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:24:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

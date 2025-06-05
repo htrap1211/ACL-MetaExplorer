@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.81",
+  "title": "A}lex{UNLP}-{STM} at {NADI} 2024 shared task: Quantifying the {A}rabic Dialect Spectrum with Contrastive Learning, Weighted Sampling, and {BERT}-based Regression Ensemble",
+  "authors": [
+    "Sakr, Abdelrahman  and\nTorki, Marwan  and\nEl-Makky, Nagwa"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "Recognizing the nuanced spectrum of dialectness in Arabic text poses a significant challenge for natural language processing (NLP) tasks. Traditional dialect identification (DI) methods treat the task as binary, overlooking the continuum of dialect variation present in Arabic speech and text. In this paper, we describe our submission to the NADI shared Task of ArabicNLP 2024. We participated in Subtask 2 - ALDi Estimation, which focuses on estimating the Arabic Level of Dialectness (ALDi) for Arabic text, indicating how much it deviates from Modern Standard Arabic (MSA) on a scale from 0 to 1, where 0 means MSA and 1 means high divergence from MSA. We explore diverse training approaches, including contrastive learning, applying a random weighted sampler along with fine-tuning a regression task based on the AraBERT model, after adding a linear and non-linear layer on top of its pooled output. Finally, performing a brute force ensemble strategy increases the performance of our system. Our proposed solution achieved a Root Mean Squared Error (RMSE) of 0.1406, ranking second on the leaderboard.",
+  "keywords": [
+    "top",
+    "layer",
+    "stm",
+    "we",
+    "force",
+    "training",
+    "ensemble",
+    "the arabert model",
+    "natural",
+    "it",
+    "arabert",
+    "learning",
+    "processing",
+    "bert",
+    "unlp"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.81/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:03:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

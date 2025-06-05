@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.897",
+  "title": "Discriminative Reasoning with Sparse Event Representation for Document-level Event-Event Relation Extraction",
+  "authors": [
+    "Yuan, Changsen  and\nHuang, Heyan  and\nCao, Yixin  and\nWen, Yonggang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Document-level Event Causality Identification (DECI) aims to extract causal relations between events in a document. It challenges conventional sentence-level task (SECI) with difficult long-text understanding. In this paper, we propose a novel DECI model (SENDIR) for better document-level reasoning. Different from existing works that build an event graph via linguistic tools, SENDIR does not require any prior knowledge. The basic idea is to discriminate event pairs in the same sentence or span multiple sentences by assuming their different information density: 1) low density in the document suggests sparse attention to skip irrelevant information. Our module 1 designs various types of attention for event representation learning to capture long-distance dependence. 2) High density in a sentence makes SECI relatively easy. Module 2 uses different weights to highlight the roles and contributions of intra- and inter-sentential reasoning, which introduces supportive event pairs for joint modeling. Extensive experiments demonstrate great improvements in SENDIR and the effectiveness of various sparse attention for document-level representations. Codes will be released later.",
+  "keywords": [
+    "extraction",
+    "we",
+    "graph",
+    "various sparse attention",
+    "sparse attention",
+    "it",
+    "information",
+    "text",
+    "knowledge",
+    "model",
+    "modeling",
+    "attention",
+    "great",
+    "1 low density",
+    "low"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.897/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:48:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

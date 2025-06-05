@@ -1,0 +1,33 @@
+{
+  "id": "2024.ml4al-1.12",
+  "title": "Coarse-to-Fine Generative Model for Oracle Bone Inscriptions Inpainting",
+  "authors": [
+    "Wang, Shibin  and\nGuo, Wenjie  and\nXu, Yubo  and\nLiu, Dong  and\nLi, Xueshan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Machine Learning for Ancient Languages (ML4AL 2024)",
+  "abstract": "Due to ancient origin, there are many incomplete characters in the unearthed Oracle Bone Inscriptions(OBI), which brings the great challenges to recognition and research. In recent years, image inpainting techniques have made remarkable progress. However, these models are unable to adapt to the unique font shape and complex text background of OBI. To meet these aforementioned challenges, we propose a two-stage method for restoring damaged OBI using Generative Adversarial Networks (GAN), which incorporates a dual discriminator structure to capture both global and local image information. In order to accurately restore the image structure and details, the spatial attention mechanism and a novel loss function are proposed. By feeding clear copies of existing OBI and various types of masks into the network, it learns to generate content for the missing regions. Experimental results demonstrate the effectiveness of our proposed method in completing OBI compared to several state-of-the-art techniques.",
+  "keywords": [
+    "ancient",
+    "coarse-to-fine generative model",
+    "complex text background",
+    "clear copies",
+    "we",
+    "it",
+    "loss",
+    "information",
+    "a novel loss function",
+    "generative",
+    "copies",
+    "background",
+    "text",
+    "ancient origin",
+    "fine"
+  ],
+  "url": "https://aclanthology.org/2024.ml4al-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

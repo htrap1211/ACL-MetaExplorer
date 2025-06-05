@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.647",
+  "title": "Improving Grammatical Error Correction via Contextual Data Augmentation",
+  "authors": [
+    "Wang, Yixuan  and\nWang, Baoxin  and\nLiu, Yijun  and\nZhu, Qingfu  and\nWu, Dayong  and\nChe, Wanxiang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Nowadays, data augmentation through synthetic data has been widely used in the field of Grammatical Error Correction (GEC) to alleviate the problem of data scarcity. However, these synthetic data are mainly used in the pre-training phase rather than the data-limited fine tuning phase due to inconsistent error distribution and noisy labels. In this paper, we propose a synthetic data construction method based on contextual augmentation, which can ensure an efficient augmentation of the original data with a more consistent error distribution. Specifically, we combine rule-based substitution with model-based generation, using the generation model to generate a richer context for the extracted error patterns. Besides, we also propose a relabeling-based data cleaning method to mitigate the effects of noisy labels in synthetic data. Experiments on CoNLL14 and BEA19-Test show that our proposed augmentation method consistently and substantially outperforms strong baselines and achieves the state-of-the-art level with only a few synthetic data.",
+  "keywords": [
+    "tuning",
+    "the generation model",
+    "generation",
+    "the field",
+    "model",
+    "an efficient augmentation",
+    "efficient",
+    "field",
+    "fine",
+    "we",
+    "pre",
+    "training",
+    "the pre-training phase",
+    "model-based generation",
+    "these synthetic data"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.647/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

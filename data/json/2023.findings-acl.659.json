@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.659",
+  "title": "PIP}: Parse-Instructed Prefix for Syntactically Controlled Paraphrase Generation",
+  "authors": [
+    "Wan, Yixin  and\nHuang, Kuan-Hao  and\nChang, Kai-Wei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Syntactically controlled paraphrase generation requires language models to generate paraphrases for sentences according to specific syntactic structures. Existing fine-tuning methods on this task is costly, as all parameters of the model need to be updated during the training process. Inspired by recent studies on parameter-efficient learning, we propose Parse-Instructed Prefix (PIP), a novel adaptation of prefix-tuning to tune large pre-trained language models on syntactically controlled paraphrase generation task in a low-data setting with significantly less training cost. We introduce two methods to instruct a model’s encoder prefix to capture syntax-related knowledge: direct initiation (PIP-Direct) and indirect optimization (PIP-Indirect). Comparing to traditional fine-tuning methods for this task, PIP is a compute-efficient alternative with 10 times less learnable parameters. Comparing to existing prefix-tuning methods, PIP excels at capturing syntax control information, achieving significantly higher performance at the same level of learnable parameter count.",
+  "keywords": [
+    "efficient",
+    "traditional fine-tuning methods",
+    "we",
+    "syntax",
+    "parameter",
+    "training",
+    "a model s encoder",
+    "large pre-trained language models",
+    "parameter-efficient learning",
+    "information",
+    "a compute-efficient alternative",
+    "learning",
+    "tuning",
+    "language models",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.659/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

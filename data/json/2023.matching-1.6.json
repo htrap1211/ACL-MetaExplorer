@@ -1,0 +1,33 @@
+{
+  "id": "2023.matching-1.6",
+  "title": "On the Surprising Effectiveness of Name Matching Alone in Autoregressive Entity Linking",
+  "authors": [
+    "Schumacher, Elliot  and\nMayfield, James  and\nDredze, Mark"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the First Workshop on Matching From Unstructured and Structured Data (MATCHING 2023)",
+  "abstract": "Fifteen years of work on entity linking has established the importance of different information sources in making linking decisions: mention and entity name similarity, contextual relevance, and features of the knowledge base. Modern state-of-the-art systems build on these features, including through neural representations (Wu et al., 2020). In contrast to this trend, the autoregressive language model GENRE (De Cao et al., 2021) generates normalized entity names for mentions and beats many other entity linking systems, despite making no use of knowledge base (KB) information. How is this possible? We analyze the behavior of GENRE on several entity linking datasets and demonstrate that its performance stems from memorization of name patterns. In contrast, it fails in cases that might benefit from using the KB. We experiment with a modification to the model to enable it to utilize KB information, highlighting challenges to incorporating traditional entity linking information sources into autoregressive models.",
+  "keywords": [
+    "work",
+    "knowledge",
+    "language",
+    "neural",
+    "model",
+    "it",
+    "information",
+    "we",
+    "entity",
+    "et al",
+    "the autoregressive language model",
+    "that",
+    "autoregressive models",
+    "base",
+    "traditional"
+  ],
+  "url": "https://aclanthology.org/2023.matching-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:25:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

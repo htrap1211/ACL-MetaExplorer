@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.371",
+  "title": "LET}: Leveraging Error Type Information for Grammatical Error Correction",
+  "authors": [
+    "Yang, Lingyu  and\nLi, Hongjia  and\nLi, Lei  and\nXu, Chengyin  and\nXia, Shutao  and\nYuan, Chun"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Grammatical error correction (GEC) aims to correct errors in given sentences and is significant to many downstream natural language understanding tasks. Recent work introduces the idea of grammatical error detection (GED) to improve the GEC task performance. In contrast, these explicit multi-stage works propagate and amplify the problem of misclassification of the GED module. To introduce more convincing error type information, we propose an end-to-end framework in this paper, which Leverages Error Type (LET) information in the generation process. First, the input text is fed into a classification module to obtain the error type corresponding to each token. Then, we introduce the category information into the decoder’s input and cross-attention module in two ways, respectively. Experiments on various datasets show that our proposed method outperforms existing methods by a clear margin.",
+  "keywords": [
+    "work",
+    "cross",
+    "process",
+    "a classification module",
+    "end",
+    "language",
+    "the generation process",
+    "generation",
+    "natural",
+    "text",
+    "misclassification",
+    "cross-attention module",
+    "decoder",
+    "information",
+    "the decoder s input"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.371/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

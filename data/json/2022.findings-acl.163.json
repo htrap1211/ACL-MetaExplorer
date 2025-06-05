@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.163",
+  "title": "Training Dynamics for Text Summarization Models",
+  "authors": [
+    "Goyal, Tanya  and\nXu, Jiacheng  and\nLi, Junyi Jessy  and\nDurrett, Greg"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Pre-trained language models (e.g. BART) have shown impressive results when fine-tuned on large summarization datasets. However, little is understood about this fine-tuning process, including what knowledge is retained from pre-training time or how content selection and generation strategies are learnt across iterations. In this work, we analyze the training dynamics for generation models, focusing on summarization. Across different datasets (CNN/DM, XSum, MediaSum) and summary properties, such as abstractiveness and hallucination, we study what the model learns at different stages of its fine-tuning process. We find that a propensity to copy the input is learned early in the training process consistently across all datasets studied. On the other hand, factual errors, such as hallucination of unsupported facts, are learnt in the later stages, though this behavior is more varied across domains. Based on these observations, we explore complementary approaches for modifying training: first, disregarding high-loss tokens that are challenging to learn and second, disregarding low-loss tokens that are learnt very quickly in the latter stages of the training process. We show that these simple training modifications allow us to configure our model to achieve different goals, such as improving factuality or improving abstractiveness.",
+  "keywords": [
+    "this fine-tuning process",
+    "varied",
+    "text summarization models",
+    "summarization",
+    "we",
+    "training",
+    "pre-training time",
+    "cnn",
+    "properties",
+    "loss",
+    "generation strategies",
+    "large summarization datasets",
+    "tuning",
+    "text",
+    "strategies"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.163/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

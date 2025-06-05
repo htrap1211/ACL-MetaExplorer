@@ -1,0 +1,33 @@
+{
+  "id": "2023.trustnlp-1.15",
+  "title": "Are fairness metric scores enough to assess discrimination biases in machine learning?",
+  "authors": [
+    "Jourdan, Fanny  and\nRisser, Laurent  and\nLoubes, Jean-michel  and\nAsher, Nicholas"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 3rd Workshop on Trustworthy Natural Language Processing (TrustNLP 2023)",
+  "abstract": "This paper presents novel experiments shedding light on the shortcomings of current metrics for assessing biases of gender discrimination made by machine learning algorithms on textual data. We focus on the Bios dataset, and our learning task is to predict the occupation of individuals, based on their biography. Such prediction tasks are common in commercial Natural Language Processing (NLP) applications such as automatic job recommendations. We address an important limitation of theoretical discussions dealing with group-wise fairness metrics: they focus on large datasets, although the norm in many industrial NLP applications is to use small to reasonably large linguistic datasets for which the main practical constraint is to get a good prediction accuracy. We then question how reliable are different popular measures of bias when the size of the training set is simply sufficient to learn reasonably accurate predictions. Our experiments sample the Bios dataset and learn more than 200 models on different sample sizes. This allows us to statistically study our results and to confirm that common gender bias indices provide diverging and sometimes unreliable results when applied to relatively small training and test samples. This highlights the crucial importance of variance calculations for providing sound results in this field.",
+  "keywords": [
+    "bias",
+    "field",
+    "many industrial nlp applications",
+    "we",
+    "current metrics",
+    "norm",
+    "discrimination biases",
+    "current",
+    "variance",
+    "training",
+    "variance calculations",
+    "a good prediction accuracy",
+    "natural",
+    "sufficient",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2023.trustnlp-1.15/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:32:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

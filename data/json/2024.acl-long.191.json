@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.191",
+  "title": "L}lama2{V}ec: Unsupervised Adaptation of Large Language Models for Dense Retrieval",
+  "authors": [
+    "Liu, Zheng  and\nLi, Chaofan  and\nXiao, Shitao  and\nShao, Yingxia  and\nLian, Defu"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Dense retrieval calls for discriminative embeddings to represent the semantic relationship between query and document. It may benefit from the using of large language models (LLMs), given LLMs’ strong capability on semantic understanding. However, the LLMs are learned by auto-regression, whose working mechanism is completely different from representing whole text as one discriminative embedding. Thus, it is imperative to study how to adapt LLMs properly so that they can be effectively initialized as the backbone encoder for dense retrieval. In this paper, we propose a novel approach, calledLlama2Vec, which performs unsupervised adaptation of LLM for its dense retrieval application. Llama2Vec consists of two pretext tasks: EBAE (Embedding-Based Auto-Encoding) and EBAR (Embedding-Based Auto-Regression), where the LLM is prompted toreconstruct the input sentenceandpredict the next sentencebased on its text embeddings. Llama2Vec is simple, lightweight, but highly effective. It is used to adapt LLaMA-2-7B on the Wikipedia corpus. With a moderate steps of adaptation, it substantially improves the model’s fine-tuned performances on a variety of dense retrieval benchmarks. Notably, it results in the new state-of-the-art performances on popular benchmarks, such as passage and document retrieval on MSMARCO, and zero-shot retrieval on BEIR. The model and source code will be made publicly available to facilitate the future research. Our model is available at https://github.com/FlagOpen/FlagEmbedding.",
+  "keywords": [
+    "variety",
+    "code",
+    "the llms",
+    "dense retrieval benchmarks",
+    "semantic",
+    "we",
+    "the semantic relationship",
+    "zero-shot retrieval",
+    "llm",
+    "shot",
+    "semantic understanding",
+    "it",
+    "retrieval",
+    "a variety",
+    "flagembedding"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.191/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

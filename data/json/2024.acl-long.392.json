@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.392",
+  "title": "Can We Achieve High-quality Direct Speech-to-Speech Translation without Parallel Speech Data?",
+  "authors": [
+    "Fang, Qingkai  and\nZhang, Shaolei  and\nMa, Zhengrui  and\nZhang, Min  and\nFeng, Yang"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recently proposed two-pass direct speech-to-speech translation (S2ST) models decompose the task into speech-to-text translation (S2TT) and text-to-speech (TTS) within an end-to-end model, yielding promising results. However, the training of these models still relies on parallel speech data, which is extremely challenging to collect. In contrast, S2TT and TTS have accumulated a large amount of data and pretrained models, which have not been fully utilized in the development of S2ST models. Inspired by this, in this paper, we first introduce a composite S2ST model named ComSpeech, which can seamlessly integrate any pretrained S2TT and TTS models into a direct S2ST model. Furthermore, to eliminate the reliance on parallel speech data, we propose a novel training method ComSpeech-ZS that solely utilizes S2TT and TTS data. It aligns representations in the latent space through contrastive learning, enabling the speech synthesis capability learned from the TTS data to generalize to S2ST in a zero-shot manner. Experimental results on the CVSS dataset show that when the parallel speech data is available, ComSpeech surpasses previous two-pass models like UnitY and Translatotron 2 in both translation quality and decoding speed. When there is no parallel speech data, ComSpeech-ZS lags behind by only 0.7 ASR-BLEU and outperforms the cascaded models.",
+  "keywords": [
+    "end",
+    "bleu",
+    "we",
+    "shot",
+    "training",
+    "translation",
+    "it",
+    "latent",
+    "learning",
+    "manner",
+    "text",
+    "only 0 7 asr-bleu",
+    "both translation quality",
+    "model",
+    "promising"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.392/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

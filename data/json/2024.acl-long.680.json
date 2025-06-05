@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.680",
+  "title": "To Distill or Not to Distill? On the Robustness of Robust Knowledge Distillation",
+  "authors": [
+    "Waheed, Abdul  and\nKadaoui, Karima  and\nAbdul-Mageed, Muhammad"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Arabic is known to present unique challengesfor Automatic Speech Recognition (ASR). Onone hand, its rich linguistic diversity andwide range of dialects complicate the de-velopment of robust, inclusive models. Onthe other, current multilingual ASR modelsare compute-intensive and lack proper com-prehensive evaluations. In light of thesechallenges, we distill knowledge from largeteacher models into smaller student variantsthat more efficient. We also introduce a novelhuman-annotated dataset covering five under-represented Arabic dialects for evaluation. Wefurther evaluate both our models and existingSoTA multilingual models on both standardavailable benchmarks and our new dialectaldata. Our best-distilled model’s overall perfor-mance (45.0% WER) surpasses that of a SoTAmodel twice its size (SeamlessM4T-large-v2,WER=47.0%) and its teacher model (Whisper-large-v2, WER=55.1%), and its average perfor-mance on our new dialectal data (56.9% WER)outperforms all other models. To gain more in-sight into the poor performance of these modelson dialectal data, we conduct an error analysisand report the main types of errors the differentmodels tend to make. The GitHub repositoryfor the project is available at https://github.com/UBC-NLP/distill-whisper-ar.",
+  "keywords": [
+    "efficient",
+    "wer",
+    "we",
+    "current",
+    "proper com-prehensive evaluations",
+    "rich",
+    "-",
+    "knowledge",
+    "nlp",
+    "evaluation wefurther",
+    "our new dialectaldata",
+    "model",
+    "evaluations",
+    "dialectaldata",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.680/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:43:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

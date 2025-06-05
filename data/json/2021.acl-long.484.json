@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.484",
+  "title": "SENT}: {S}entence-level Distant Relation Extraction via Negative Training",
+  "authors": [
+    "Ma, Ruotian  and\nGui, Tao  and\nLi, Linyang  and\nZhang, Qi  and\nHuang, Xuanjing  and\nZhou, Yaqian"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Distant supervision for relation extraction provides uniform bag labels for each sentence inside the bag, while accurate sentence labels are important for downstream applications that need the exact relation type. Directly using bag labels for sentence-level training will introduce much noise, thus severely degrading performance. In this work, we propose the use of negative training (NT), in which a model is trained using complementary labels regarding that “the instance does not belong to these complementary labels”. Since the probability of selecting a true label as a complementary label is low, NT provides less noisy information. Furthermore, the model trained with NT is able to separate the noisy data from the training data. Based on NT, we propose a sentence-level framework, SENT, for distant relation extraction. SENT not only filters the noisy data to construct a cleaner dataset, but also performs a re-labeling process to transform the noisy data into useful training data, thus further benefiting the model’s performance. Experimental results show the significant improvement of the proposed method over previous methods on sentence-level evaluation and de-noise effect.",
+  "keywords": [
+    "extraction",
+    "we",
+    "training",
+    "bag",
+    "sentence-level evaluation",
+    "information",
+    "a cleaner dataset",
+    "work",
+    "process",
+    "model",
+    "evaluation",
+    "cleaner",
+    "supervision",
+    "a re-labeling process",
+    "the proposed method"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.484/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

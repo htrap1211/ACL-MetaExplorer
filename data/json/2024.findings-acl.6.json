@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.6",
+  "title": "Unveiling Imitation Learning: Exploring the impact of Data Falsity to Large Language Model",
+  "authors": [
+    "Cho, Hyunsoo"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Many recent studies endeavor to improve open-sourced language models through imitation learning, re-training on the synthetic instruction data from state-of-the-art proprietary models like ChatGPT and GPT-4.However, the innate nature of synthetic data inherently contains noisy data, giving rise to a substantial presence of low-quality data replete with misleading queries, erroneous responses, and flawed reasoning.Although we intuitively grasp the potential harm of noisy data, we lack a quantitative understanding of its impact.To this end, this paper explores correlation between the degree of noise and its impact on language models through instruction tuning.We first introduce the Falsity-Controllable () dataset, which comprises pairs of true answers and corresponding reasoning, as well as false pairs to manually control the factuality ratio of the dataset.Through our extensive experiments, we found multiple intriguing findings of the correlation between factuality and instruction tuning. Specifically, factuality can significantly impact various benchmark characteristics especially when benchmarks are related to knowledge domain, and initial data quality plays a critical role, whereas the number of learning steps has a lesser impact.Additionally, we noted that once the language model is trained with a dataset contaminated by noise, restoring its original performance becomes exceptionally challenging, verging on irreversible.",
+  "keywords": [
+    "end",
+    "large language model",
+    "we",
+    "training",
+    "open-sourced language models",
+    "instruction",
+    "queries",
+    "chatgpt",
+    "learning",
+    "the language model",
+    "instruction tuning",
+    "tuning",
+    "language models",
+    "gpt-4",
+    "ratio"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:48:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

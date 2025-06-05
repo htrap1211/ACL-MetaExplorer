@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.185",
+  "title": "LLMF}actor: Extracting Profitable Factors through Prompts for Explainable Stock Movement Prediction",
+  "authors": [
+    "Wang, Meiyun  and\nIzumi, Kiyoshi  and\nSakaji, Hiroki"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Recently, Large Language Models (LLMs) have attracted significant attention for their exceptional performance across a broad range of tasks, particularly in text analysis. However, the finance sector presents a distinct challenge due to its dependence on time-series data for complex forecasting tasks. In this study, we introduce a novel framework called LLMFactor, which employs Sequential Knowledge-Guided Prompting (SKGP) to identify factors that influence stock movements using LLMs. Unlike previous methods that relied on keyphrases or sentiment analysis, this approach focuses on extracting factors more directly related to stock market dynamics, providing clear explanations for complex temporal changes. Our framework directs the LLMs to create background knowledge through a fill-in-the-blank strategy and then discerns potential factors affecting stock prices from related news. Guided by background knowledge and identified factors, we leverage historical stock prices in textual format to predict stock movement. An extensive evaluation of the LLMFactor framework across four benchmark datasets from both the U.S. and Chinese stock markets demonstrates its superiority over existing state-of-the-art methods and its effectiveness in financial time-series forecasting.",
+  "keywords": [
+    "the llmfactor framework",
+    "background knowledge",
+    "the llms",
+    "series",
+    "we",
+    "financial time-series forecasting",
+    "sequential knowledge-guided prompting skgp",
+    "format",
+    "llmf actor",
+    "analysis",
+    "llms",
+    "background",
+    "skgp",
+    "text",
+    "an extensive evaluation"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.185/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

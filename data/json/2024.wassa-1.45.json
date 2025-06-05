@@ -1,0 +1,33 @@
+{
+  "id": "2024.wassa-1.45",
+  "title": "Knowledge Distillation from Monolingual to Multilingual Models for Intelligent and Interpretable Multilingual Emotion Detection",
+  "authors": [
+    "Wang, Yuqi  and\nWang, Zimu  and\nHan, Nijia  and\nWang, Wei  and\nChen, Qi  and\nZhang, Haiyang  and\nPan, Yushan  and\nNguyen, Anh"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 14th Workshop on Computational Approaches to Subjectivity, Sentiment, {\\&} Social Media Analysis",
+  "abstract": "Emotion detection from text is a crucial task in understanding natural language with wide-ranging applications. Existing approaches for multilingual emotion detection from text face challenges with data scarcity across many languages and a lack of interpretability. We propose a novel method that leverages both monolingual and multilingual pre-trained language models to improve performance and interpretability. Our approach involves 1) training a high-performing English monolingual model in parallel with a multilingual model and 2) using knowledge distillation to transfer the emotion detection capabilities from the monolingual teacher to the multilingual student model. Experiments on a multilingual dataset demonstrate significant performance gains for refined multilingual models like XLM-RoBERTa and E5 after distillation. Furthermore, our approach enhances interpretability by enabling better identification of emotion-trigger words. Our work presents a promising direction for building accurate, robust and explainable multilingual emotion detection systems.",
+  "keywords": [
+    "roberta",
+    "we",
+    "training",
+    "natural",
+    "xlm-roberta",
+    "natural language",
+    "text",
+    "work",
+    "knowledge",
+    "language",
+    "the emotion detection capabilities",
+    "model",
+    "capabilities",
+    "pre",
+    "promising"
+  ],
+  "url": "https://aclanthology.org/2024.wassa-1.45/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:12:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

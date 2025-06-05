@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.238",
+  "title": "Sentence-level Privacy for Document Embeddings",
+  "authors": [
+    "Meehan, Casey  and\nMrini, Khalil  and\nChaudhuri, Kamalika"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "User language data can contain highly sensitive personal content. As such, it is imperative to offer users a strong and interpretable privacy guarantee when learning from their data. In this work we propose SentDP, pure local differential privacy at the sentence level for a single user document. We propose a novel technique, DeepCandidate, that combines concepts from robust statistics and language modeling to produce high (768) dimensional, general𝜖-SentDP document embeddings. This guarantees that any single sentence in a document can be substituted with any other sentence while keeping the embedding𝜖-indistinguishable. Our experiments indicate that these private document embeddings are useful for downstream tasks like sentiment analysis and topic classification and even outperform baseline methods with weaker guarantees like word-level Metric DP.",
+  "keywords": [
+    "embeddings",
+    "work",
+    "language",
+    "metric",
+    "it",
+    "general𝜖-sentdp",
+    "modeling",
+    "these private document embeddings",
+    "embedding𝜖-indistinguishable",
+    "deepcandidate",
+    "dimensional",
+    "word",
+    "we",
+    "a novel technique deepcandidate",
+    "language modeling"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.238/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:27:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

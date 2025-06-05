@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.327",
+  "title": "Are {AI}-Generated Text Detectors Robust to Adversarial Perturbations?",
+  "authors": [
+    "Huang, Guanhua  and\nZhang, Yuchen  and\nLi, Zhe  and\nYou, Yongjian  and\nWang, Mingze  and\nYang, Zhouwang"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The widespread use of large language models (LLMs) has sparked concerns about the potential misuse of AI-generated text, as these models can produce content that closely resembles human-generated text. Current detectors for AI-generated text (AIGT) lack robustness against adversarial perturbations, with even minor changes in characters or words causing a reversal in distinguishing between human-created and AI-generated text. This paper investigates the robustness of existing AIGT detection methods and introduces a novel detector, the Siamese Calibrated Reconstruction Network (SCRN). The SCRN employs a reconstruction network to add and remove noise from text, extracting a semantic representation that is robust to local perturbations. We also propose a siamese calibration technique to train the model to make equally confident predictions under different noise, which improves the model’s robustness against adversarial perturbations. Experiments on four publicly available datasets show that the SCRN outperforms all baseline methods, achieving 6.5%-18.25% absolute accuracy improvement over the best baseline method under adversarial attacks. Moreover, it exhibits superior generalizability in cross-domain, cross-genre, and mixed-source scenarios. The code is available athttps://github.com/CarlanLark/Robust-AIGC-Detector.",
+  "keywords": [
+    "code",
+    "human-created and ai-generated text",
+    "semantic",
+    "we",
+    "generalizability",
+    "current",
+    "cross",
+    "human-generated text current detectors",
+    "it",
+    "llms",
+    "text",
+    "a semantic representation",
+    "large language models llms",
+    "superior generalizability",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.327/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.396",
+  "title": "Evaluation of Question Generation Needs More References",
+  "authors": [
+    "Oh, Shinhyeok  and\nGo, Hyojun  and\nMoon, Hyeongdon  and\nLee, Yunsung  and\nJeong, Myeongho  and\nLee, Hyun Seung  and\nChoi, Seungtaek"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Question generation (QG) is the task of generating a valid and fluent question based on a given context and the target answer. According to various purposes, even given the same context, instructors can ask questions about different concepts, and even the same concept can be written in different ways. However, the evaluation for QG usually depends on single reference-based similarity metrics, such as n-gram-based metric or learned metric, which is not sufficient to fully evaluate the potential of QG methods. To this end, we propose to paraphrase the reference question for a more robust QG evaluation. Using large language models such as GPT-3, we created semantically and syntactically diverse questions, then adopt the simple aggregation of the popular evaluation metrics as the final scores. Through our experiments, we found that using multiple (pseudo) references is more effective for QG evaluation while showing a higher correlation with human evaluations than evaluation with a single reference.",
+  "keywords": [
+    "reference",
+    "more references question generation",
+    "question generation",
+    "generation",
+    "answer",
+    "end",
+    "language",
+    "metric",
+    "human",
+    "evaluations",
+    "metrics",
+    "large language models",
+    "the popular evaluation metrics",
+    "gpt-3",
+    "question"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.396/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.826",
+  "title": "Pride and Prejudice: {LLM} Amplifies Self-Bias in Self-Refinement",
+  "authors": [
+    "Xu, Wenda  and\nZhu, Guanglei  and\nZhao, Xuandong  and\nPan, Liangming  and\nLi, Lei  and\nWang, William"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent studies show that large language models (LLMs) improve their performance through self-feedback on certain tasks while degrade on others. We discovered that such a contrary is due to LLM’s bias in evaluating their own output. In this paper, we formally define LLM’s self-bias – the tendency to favor its own generation – using two statistics. We analyze six LLMs (GPT-4, GPT-3.5, Gemini, LLaMA2, Mixtral and DeepSeek) on translation, constrained text generation, and mathematical reasoning tasks. We find that self-bias is prevalent in all examined LLMs across multiple languages and tasks. Our analysis reveals that while the self-refine pipeline improves the fluency and understandability of model outputs, it further amplifies self-bias. To mitigate such biases, we discover that larger model size and external feedback with accurate assessment can significantly reduce bias in the self-refine pipeline, leading to actual performance improvement in downstream tasks. The code and data are released at https://github.com/xu1998hz/llm_self_bias.",
+  "keywords": [
+    "code",
+    "bias",
+    "examined llms",
+    "feedback",
+    "all",
+    "we",
+    "llm",
+    "translation",
+    "self-bias",
+    "six llms",
+    "it",
+    "self",
+    "llm s bias",
+    "prejudice llm amplifies",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.826/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:45:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

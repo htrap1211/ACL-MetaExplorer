@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.29",
+  "title": "Cisco at {S}em{E}val-2021 Task 5: What{'}s Toxic?: Leveraging Transformers for Multiple Toxic Span Extraction from Online Comments",
+  "authors": [
+    "Ghosh, Sreyan  and\nKumar, Sonal"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "Social network platforms are generally used to share positive, constructive, and insightful content. However, in recent times, people often get exposed to objectionable content like threat, identity attacks, hate speech, insults, obscene texts, offensive remarks or bullying. Existing work on toxic speech detection focuses on binary classification or on differentiating toxic speech among a small set of categories. This paper describes the system proposed by team Cisco for SemEval-2021 Task 5: Toxic Spans Detection, the first shared task focusing on detecting the spans in the text that attribute to its toxicity, in English language. We approach this problem primarily in two ways: a sequence tagging approach and a dependency parsing approach. In our sequence tagging approach we tag each token in a sentence under a particular tagging scheme. Our best performing architecture in this approach also proved to be our best performing architecture overall with an F1 score of 0.6922, thereby placing us 7th on the final evaluation phase leaderboard. We also explore a dependency parsing approach where we extract spans from the input sentence under the supervision of target span boundaries and rank our spans using a biaffine model. Finally, we also provide a detailed analysis of our results and model performance in our paper.",
+  "keywords": [
+    "transformers",
+    "extraction",
+    "binary classification",
+    "we",
+    "a dependency parsing approach",
+    "classification",
+    "sequence",
+    "target span boundaries",
+    "analysis",
+    "categories",
+    "text",
+    "toxic leveraging transformers",
+    "work",
+    "language",
+    "an f1 score"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.29/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:20:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

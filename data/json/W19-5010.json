@@ -1,0 +1,33 @@
+{
+  "id": "W19-5010",
+  "title": "Deep Contextualized Biomedical Abbreviation Expansion",
+  "authors": [
+    "Jin, Qiao  and\nLiu, Jinling  and\nLu, Xinghua"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 18th BioNLP Workshop and Shared Task",
+  "abstract": "Automatic identification and expansion of ambiguous abbreviations are essential for biomedical natural language processing applications, such as information retrieval and question answering systems. In this paper, we present DEep Contextualized Biomedical Abbreviation Expansion (DECBAE) model. DECBAE automatically collects substantial and relatively clean annotated contexts for 950 ambiguous abbreviations from PubMed abstracts using a simple heuristic. Then it utilizes BioELMo to extract the contextualized features of words, and feed those features to abbreviation-specific bidirectional LSTMs, where the hidden states of the ambiguous abbreviations are used to assign the exact definitions. Our DECBAE model outperforms other baselines by large margins, achieving average accuracy of 0.961 and macro-F1 of 0.917 on the dataset. It also surpasses human performance for expanding a sample abbreviation, and remains robust in imbalanced, low-resources and clinical settings.",
+  "keywords": [
+    "average accuracy",
+    "processing",
+    "language",
+    "natural",
+    "f1",
+    "model",
+    "it",
+    "human",
+    "information retrieval",
+    "bioelmo",
+    "-",
+    "retrieval",
+    "lstms",
+    "information",
+    "we"
+  ],
+  "url": "https://aclanthology.org/W19-5010/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:55:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

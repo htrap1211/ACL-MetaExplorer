@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.469",
+  "title": "Don{'}t Parse, Choose Spans! Continuous and Discontinuous Constituency Parsing via Autoregressive Span Selection",
+  "authors": [
+    "Yang, Songlin  and\nTu, Kewei"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We present a simple and unified approach for both continuous and discontinuous constituency parsing via autoregressive span selection. Constituency parsing aims to produce a set of non-crossing spans so that they can form a constituency parse tree. We sort gold spans using a predefined order and leverage a pointer network to autoregressively select spans by that order. To deal with discontinuous spans, we consecutively select their subspans from left to right, label all but last subspans with special discontinuous labels and the last subspan as the whole discontinuous spans’ labels. We use simple heuristic to output valid trees so that our approach is able to predict all possible continuous and discontinuous constituency trees without sacrificing data coverage and without the need to use expensive chart-based parsing algorithms. Experiments on multiple continuous and discontinuous benchmarks show that our model achieves state-of-the-art or competitive performance.",
+  "keywords": [
+    "parsing",
+    "model",
+    "unified",
+    "all",
+    "network",
+    "we",
+    "valid",
+    "don",
+    "parse",
+    "approach",
+    "a predefined order",
+    "state",
+    "the-art",
+    "span",
+    "special discontinuous labels"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.469/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:41:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

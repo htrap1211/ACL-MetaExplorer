@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.35",
+  "title": "X}ray{GPT}: Chest Radiographs Summarization using Large Medical Vision-Language Models",
+  "authors": [
+    "Thawakar, Omkar Chakradhar  and\nShaker, Abdelrahman M.  and\nMullappilly, Sahal Shaji  and\nCholakkal, Hisham  and\nAnwer, Rao Muhammad  and\nKhan, Salman  and\nLaaksonen, Jorma  and\nKhan, Fahad"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "The latest breakthroughs in large language models (LLMs) and vision-language models (VLMs) have showcased promising capabilities toward performing a wide range of tasks. Such models are typically trained on massive datasets comprising billions of image-text pairs with diverse tasks. However, their performance on task-specific domains, such as radiology, is still under-explored. While few works have recently explored LLMs-based conversational medical models, they mainly focus on text-based analysis. In this paper, we introduce XrayGPT, a conversational medical vision-language (VLMs) model that can analyze and answer open-ended questions about chest radiographs. Specifically, we align both medical visual encoder with a fine-tuned LLM to possess visual conversation abilities, grounded in an understanding of radiographs and medical knowledge. For improved alignment of chest radiograph data, we generate ~217k interactive and high-quality summaries from free-text radiology reports. Extensive experiments are conducted to validate the merits of XrayGPT. To conduct an expert evaluation, certified medical doctors evaluated the output of our XrayGPT on a test subset and the results reveal that more than 70% of the responses are scientifically accurate, with an average score of 4/5. We hope our simple and effective method establishes a solid baseline, facilitating future research toward automated analysis and summarization of chest radiographs. Code, models, and instruction sets will be publicly released.",
+  "keywords": [
+    "code",
+    "a fine-tuned llm",
+    "visual conversation abilities",
+    "our xraygpt",
+    "summarization",
+    "we",
+    "xraygpt",
+    "llm",
+    "instruction",
+    "large medical vision-language models",
+    "visual",
+    "both medical visual encoder",
+    "analysis",
+    "llms",
+    "abilities"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.35/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

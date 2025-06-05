@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.86",
+  "title": "Alson at {NADI} 2024 shared task: Alson - A fine-tuned model for {A}rabic Dialect Translation",
+  "authors": [
+    "AlMusallam, Manan  and\nAhmad, Samar"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "DA-MSA Machine Translation is a recentchallenge due to the multitude of Arabic dialects and their variations. In this paper, we present our results within the context of Subtask 3 of the NADI-2024 Shared Task(Abdul-Mageed et al., 2024) that is DA-MSA Machine Translation . We utilized the DIALECTS008MSA MADAR corpus (Bouamor et al., 2018),the Emi-NADI corpus for the Emirati dialect (Khered et al., 2023), and we augmented thePalestinian and Jordanian datasets based onNADI 2021. Our approach involves develop013ing sentence-level machine translations fromPalestinian, Jordanian, Emirati, and Egyptiandialects to Modern Standard Arabic (MSA).To016 address this challenge, we fine-tuned models such as (Nagoudi et al., 2022)AraT5v2-msa-small, AraT5v2-msa-base, and (Elmadanyet al., 2023)AraT5v2-base-1024 to comparetheir performance. Among these, the AraT5v2-base-1024 model achieved the best accuracy, with a BLEU score of 0.1650 on the develop023ment set and 0.1746 on the test set.",
+  "keywords": [
+    "bleu",
+    "we",
+    "translation",
+    "sentence-level machine translations",
+    "a bleu score",
+    "accuracy",
+    "the best accuracy",
+    "da-msa machine translation",
+    "model",
+    "machine",
+    "translations",
+    "approach",
+    "task alson",
+    "test",
+    "corpus"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.86/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:03:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

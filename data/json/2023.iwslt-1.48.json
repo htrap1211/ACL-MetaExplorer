@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.48",
+  "title": "On the Copying Problem of Unsupervised {NMT}: A Training Schedule with a Language Discriminator Loss",
+  "authors": [
+    "Liu, Yihong  and\nChronopoulou, Alexandra  and\nSch{\\\"u}tze, Hinrich  and\nFraser, Alexander"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "Although unsupervised neural machine translation (UNMT) has achieved success in many language pairs, the copying problem, i.e., directly copying some parts of the input sentence as the translation, is common among distant language pairs, especially when low-resource languages are involved. We find this issue is closely related to an unexpected copying behavior during online back-translation (BT). In this work, we propose a simple but effective training schedule that incorporates a language discriminator loss. The loss imposes constraints on the intermediate translation so that the translation is in the desired language. By conducting extensive experiments on different language pairs, including similar and distant, high and low-resource languages, we find that our method alleviates the copying problem, thus improving the translation performance on low-resource languages.",
+  "keywords": [
+    "work",
+    "schedule",
+    "i",
+    "the translation",
+    "the translation performance",
+    "language",
+    "neural",
+    "machine",
+    "loss",
+    "we",
+    "online back-translation bt",
+    "training",
+    "translation",
+    "the intermediate translation",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.48/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:25:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

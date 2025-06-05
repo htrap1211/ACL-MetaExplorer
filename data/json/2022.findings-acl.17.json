@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.17",
+  "title": "LEVEN}: A Large-Scale {C}hinese Legal Event Detection Dataset",
+  "authors": [
+    "Yao, Feng  and\nXiao, Chaojun  and\nWang, Xiaozhi  and\nLiu, Zhiyuan  and\nHou, Lei  and\nTu, Cunchao  and\nLi, Juanzi  and\nLiu, Yun  and\nShen, Weixing  and\nSun, Maosong"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Recognizing facts is the most fundamental step in making judgments, hence detecting events in the legal documents is important to legal case analysis tasks. However, existing Legal Event Detection (LED) datasets only concern incomprehensive event types and have limited annotated data, which restricts the development of LED methods and their downstream applications. To alleviate these issues, we present LEVEN a large-scale Chinese LEgal eVENt detection dataset, with 8,116 legal documents and 150,977 human-annotated event mentions in 108 event types. Not only charge-related events, LEVEN also covers general events, which are critical for legal case understanding but neglected in existing LED datasets. To our knowledge, LEVEN is the largest LED dataset and has dozens of times the data scale of others, which shall significantly promote the training and evaluation of LED methods. The results of extensive experiments indicate that LED is challenging and needs further effort. Moreover, we simply utilize legal events as side information to promote downstream applications. The method achieves improvements of average 2.2 points precision in low-resource judgment prediction, and 1.5 points mean average precision in unsupervised case retrieval, which suggests the fundamentality of LED. The source code and dataset can be obtained fromhttps://github.com/thunlp/LEVEN.",
+  "keywords": [
+    "code",
+    "precision",
+    "we",
+    "unsupervised case retrieval",
+    "training",
+    "fromhttps github com thunlp",
+    "retrieval",
+    "led",
+    "information",
+    "analysis",
+    "general",
+    "knowledge",
+    "human",
+    "general events",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

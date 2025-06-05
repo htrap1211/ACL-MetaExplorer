@@ -1,0 +1,33 @@
+{
+  "id": "2023.cawl-1.5",
+  "title": "Distinguishing {R}omanized {H}indi from {R}omanized {U}rdu",
+  "authors": [
+    "Nielsen, Elizabeth  and\nKirov, Christo  and\nRoark, Brian"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the Workshop on Computation and Written Language (CAWL 2023)",
+  "abstract": "We examine the task of distinguishing between Hindi and Urdu when those languages are romanized, i.e., written in the Latin script. Both languages are widely informally romanized, and to the extent that they are identified in the Latin script by language identification systems, they are typically conflated. In the absence of large labeled collections of such text, we consider methods for generating training data. Beginning with a small set of seed words, each of which are strongly indicative of one of the languages versus the other, we prompt a pretrained large language model (LLM) to generate romanized text. Treating text generated from an Urdu prompt as one class and text generated from a Hindi prompt as the other class, we build a binary language identification (LangID) classifier. We demonstrate that the resulting classifier distinguishes manually romanized Urdu Wikipedia text from manually romanized Hindi Wikipedia text far better than chance. We use this classifier to estimate the prevalence of Urdu in a large collection of text labeled as romanized Hindi that has been used to train large language models. These techniques can be applied to bootstrap classifiers in other cases where a dataset is known to contain multiple distinct but related classes, such as different dialects of the same language, but for which labels cannot easily be obtained.",
+  "keywords": [
+    "classifier",
+    "bootstrap classifiers",
+    "classifiers",
+    "a hindi prompt",
+    "we",
+    "llm",
+    "training",
+    "r",
+    "prompt",
+    "text",
+    "the resulting classifier distinguishes",
+    "language",
+    "model",
+    "class",
+    "large language models"
+  ],
+  "url": "https://aclanthology.org/2023.cawl-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:23:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.kallm-1.13",
+  "title": "Improving {LLM}-based {KGQA} for multi-hop Question Answering with implicit reasoning in few-shot examples",
+  "authors": [
+    "Shah, Mili  and\nCahoon, Joyce  and\nMilletari, Mirco  and\nTian, Jing  and\nPsallidas, Fotis  and\nMueller, Andreas  and\nLitombe, Nick"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Knowledge Graphs and Large Language Models (KaLLM 2024)",
+  "abstract": "Large language models (LLMs) have shown remarkable capabilities in generating natural language texts for various tasks. However, using LLMs for question answering on knowledge graphs still remains a challenge, especially for questions requiring multi-hop reasoning. In this paper, we present a novel planned query guidance approach that improves large language model (LLM) performance in multi-hop question answering on knowledge graphs (KGQA). We do this by designing few-shot examples that implicitly demonstrate a systematic reasoning methodology to answer multi-hop questions. We evaluate our approach for two graph query languages, Cypher and SPARQL, and show that the queries generated using our strategy outperform the queries generated using a baseline LLM and typical few-shot examples by up to 24.66% and 7.7% in execution match accuracy for the MetaQA and the Spider benchmarks respectively. We also conduct an ablation study to analyze the incremental effects of the different techniques of designing few-shot examples. Our results suggest that our approach enables the LLM to effectively leverage the few-shot examples to generate queries for multi-hop KGQA.",
+  "keywords": [
+    "kgqa",
+    "large language model",
+    "remarkable capabilities",
+    "question",
+    "the few-shot examples",
+    "we",
+    "graph",
+    "metaqa",
+    "llm",
+    "shot",
+    "the metaqa",
+    "natural",
+    "queries",
+    "knowledge graphs",
+    "llms"
+  ],
+  "url": "https://aclanthology.org/2024.kallm-1.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:07:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

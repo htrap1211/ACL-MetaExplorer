@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.218",
+  "title": "M}4{GT}-Bench: Evaluation Benchmark for Black-Box Machine-Generated Text Detection",
+  "authors": [
+    "Wang, Yuxia  and\nMansurov, Jonibek  and\nIvanov, Petar  and\nSu, Jinyan  and\nShelmanov, Artem  and\nTsvigun, Akim  and\nMohammed Afzal, Osama  and\nMahmoud, Tarek  and\nPuccetti, Giovanni  and\nArnold, Thomas  and\nAji, Alham  and\nHabash, Nizar  and\nGurevych, Iryna  and\nNakov, Preslav"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The advent of Large Language Models (LLMs) has brought an unprecedented surge in machine-generated text (MGT) across diverse channels. This raises legitimate concerns about its potential misuse and societal implications. The need to identify and differentiate such content from genuine human-generated text is critical in combating disinformation, preserving the integrity of education and scientific fields, and maintaining trust in communication. In this work, we address this problem by introducing a new benchmark based on a multilingual, multi-domain and multi-generator corpus of MGTs — M4GT-Bench. The benchmark is compiled of three tasks: (1) mono-lingual and multi-lingual binary MGT detection; (2) multi-way detection where one need to identify, which particular model generated the text; and (3) mixed human-machine text detection, where a word boundary delimiting MGT from human-written content should be determined. On the developed benchmark, we have tested several MGT detection baselines and also conducted an evaluation of human performance. We see that obtaining good performance in MGT detection usually requires an access to the training data from the same domain and generators. The benchmark is available at https://github.com/mbzuai-nlp/M4GT-Bench.",
+  "keywords": [
+    "generator",
+    "we",
+    "fields",
+    "generators",
+    "training",
+    "word",
+    "black-box machine-generated text detection",
+    "an evaluation",
+    "scientific",
+    "societal implications",
+    "llms",
+    "-domain and multi-generator corpus",
+    "scientific fields",
+    "text",
+    "large language models llms"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.218/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

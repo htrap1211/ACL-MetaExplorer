@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.289",
+  "title": "Structural Guidance for Transformer Language Models",
+  "authors": [
+    "Qian, Peng  and\nNaseem, Tahira  and\nLevy, Roger  and\nFernandez Astudillo, Ram{\\'o}n"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Transformer-based language models pre-trained on large amounts of text data have proven remarkably successful in learning generic transferable linguistic representations. Here we study whether structural guidance leads to more human-like systematic linguistic generalization in Transformer language models without resorting to pre-training on very large amounts of data. We explore two general ideas. The “Generative Parsing” idea jointly models the incremental parse and word sequence as part of the same sequence modeling task. The “Structural Scaffold” idea guides the language model’s representation via additional structure loss that separately predicts the incremental constituency parse. We train the proposed models along with a vanilla Transformer language model baseline on a 14 million-token and a 46 million-token subset of the BLLIP dataset, and evaluate models’ syntactic generalization performances on SG Test Suites and sized BLiMP. Experiment results across two benchmarks suggest converging evidence that generative structural supervisions can induce more robust and humanlike linguistic generalization in Transformer language models without the need for data intensive pre-training.",
+  "keywords": [
+    "we",
+    "training",
+    "transformer language models",
+    "token",
+    "loss",
+    "word",
+    "sequence",
+    "generative",
+    "text",
+    "generic",
+    "-",
+    "generalization",
+    "transformer-based language models",
+    "syntactic generalization performances",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.289/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

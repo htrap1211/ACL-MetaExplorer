@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-srw.27",
+  "title": "M}ed{T}em2.0: Prompt-based Temporal Classification of Treatment Events from Discharge Summaries",
+  "authors": [
+    "Cui, Yang  and\nHan, Lifeng  and\nNenadic, Goran"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "Discharge summaries are comprehensive medical records that encompass vital information about a patient’s hospital stay. A crucial aspect of discharge summaries is the temporal information of treatments administered throughout the patient’s illness. With an extensive volume of clinical documents, manually extracting and compiling a patient’s medication list can be laborious, time-consuming, and susceptible to errors. The objective of this paper is to build upon the recent development on clinical NLP by temporally classifying treatments in clinical texts, specifically determining whether a treatment was administered between the time of admission and discharge from the hospital. State-of-the-art NLP methods including prompt-based learning on Generative Pre-trained Transformers (GPTs) models and fine-tuning on pre-trained language models (PLMs) such as BERT were employed to classify temporal relations between treatments and hospitalisation periods in discharge summaries. Fine-tuning with the BERT model achieved an F1 score of 92.45% and a balanced accuracy of 77.56%, while prompt learning using the T5 model and mixed templates resulted in an F1 score of 90.89% and a balanced accuracy of 72.07%.Our codes and data are available athttps://github.com/HECTA-UoM/MedTem.",
+  "keywords": [
+    "transformers",
+    "clinical nlp",
+    "the patient s illness",
+    "prompt-based learning",
+    "classification",
+    "prompt learning",
+    "information",
+    "pre-trained language models plms",
+    "learning",
+    "generative",
+    "prompt",
+    "bert",
+    "objective",
+    "a patient s hospital",
+    "the bert model"
+  ],
+  "url": "https://aclanthology.org/2023.acl-srw.27/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:51:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.340",
+  "title": "Relation-Aware Collaborative Learning for Unified Aspect-Based Sentiment Analysis",
+  "authors": [
+    "Chen, Zhuang  and\nQian, Tieyun"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Aspect-based sentiment analysis (ABSA) involves three subtasks, i.e., aspect term extraction, opinion term extraction, and aspect-level sentiment classification. Most existing studies focused on one of these subtasks only. Several recent researches made successful attempts to solve the complete ABSA problem with a unified framework. However, the interactive relations among three subtasks are still under-exploited. We argue that such relations encode collaborative signals between different subtasks. For example, when the opinion term is“delicious”, the aspect term must be“food”rather than“place”. In order to fully exploit these relations, we propose a Relation-Aware Collaborative Learning (RACL) framework which allows the subtasks to work coordinately via the multi-task learning and relation propagation mechanisms in a stacked multi-layer network. Extensive experiments on three real-world datasets demonstrate that RACL significantly outperforms the state-of-the-art methods for the complete ABSA task.",
+  "keywords": [
+    "i",
+    "extraction",
+    "studies",
+    "encode",
+    "a unified framework",
+    "unified",
+    "propagation",
+    "layer",
+    "network",
+    "we",
+    "learning",
+    "analysis",
+    "classification",
+    "sentiment",
+    "term"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.340/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:46:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

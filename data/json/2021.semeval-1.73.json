@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.73",
+  "title": "CS}-{UM}6{P} at {S}em{E}val-2021 Task 1: A Deep Learning Model-based Pre-trained Transformer Encoder for Lexical Complexity",
+  "authors": [
+    "El Mamoun, Nabil  and\nEl Mahdaouy, Abdelkader  and\nEl Mekki, Abdellah  and\nEssefar, Kabil  and\nBerrada, Ismail"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "Lexical Complexity Prediction (LCP) involves assigning a difficulty score to a particular word or expression, in a text intended for a target audience. In this paper, we introduce a new deep learning-based system for this challenging task. The proposed system consists of a deep learning model, based on pre-trained transformer encoder, for word and Multi-Word Expression (MWE) complexity prediction. First, on top of the encoder’s contextualized word embedding, our model employs an attention layer on the input context and the complex word or MWE. Then, the attention output is concatenated with the pooled output of the encoder and passed to a regression module. We investigate both single-task and joint training on both Sub-Tasks data using multiple pre-trained transformer-based encoders. The obtained results are very promising and show the effectiveness of fine-tuning pre-trained transformers for LCP task.",
+  "keywords": [
+    "deep",
+    "top",
+    "transformers",
+    "audience",
+    "a deep learning model",
+    "layer",
+    "we",
+    "training",
+    "the encoder",
+    "e",
+    "word",
+    "learning",
+    "the attention output",
+    "text",
+    "encoders"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.73/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:20:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

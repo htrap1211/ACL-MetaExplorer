@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.367",
+  "title": "Prompting Language Models for Linguistic Structure",
+  "authors": [
+    "Blevins, Terra  and\nGonen, Hila  and\nZettlemoyer, Luke"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Although pretrained language models (PLMs) can be prompted to perform a wide range of language tasks, it remains an open question how much this ability comes from generalizable linguistic understanding versus surface-level lexical patterns. To test this, we present a structured prompting approach for linguistic structured prediction tasks, allowing us to perform zero- and few-shot sequence tagging with autoregressive PLMs. We evaluate this approach on part-of-speech tagging, named entity recognition, and sentence chunking, demonstrating strong few-shot performance in all cases. We also find that while PLMs contain significant prior knowledge of task labels due to task leakage into the pretraining corpus, structured prompting can also retrieve linguistic structure with arbitrary labels. These findings indicate that the in-context learning ability and linguistic knowledge of PLMs generalizes beyond memorization of their training data.",
+  "keywords": [
+    "generalizable linguistic understanding",
+    "structured prompting",
+    "knowledge",
+    "a structured prompting approach",
+    "language",
+    "language models plms",
+    "it",
+    "language models",
+    "question",
+    "generalizable",
+    "tagging",
+    "us",
+    "prompting",
+    "we",
+    "sequence"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.367/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:40:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

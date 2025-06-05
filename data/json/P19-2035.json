@@ -1,0 +1,33 @@
+{
+  "id": "P19-2035",
+  "title": "Attention and Lexicon Regularized {LSTM} for Aspect-based Sentiment Analysis",
+  "authors": [
+    "Bao, Lingxian  and\nLambert, Patrik  and\nBadia, Toni"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "Attention based deep learning systems have been demonstrated to be the state of the art approach for aspect-level sentiment analysis, however, end-to-end deep neural networks lack flexibility as one can not easily adjust the network to fix an obvious problem, especially when more training data is not available: e.g. when it always predictspositivewhen seeing the worddisappointed. Meanwhile, it is less stressed that attention mechanism is likely to “over-focus” on particular parts of a sentence, while ignoring positions which provide key information for judging the polarity. In this paper, we describe a simple yet effective approach to leverage lexicon information so that the model becomes more flexible and robust. We also explore the effect of regularizing attention vectors to allow the network to have a broader “focus” on different parts of the sentence. The experimental results demonstrate the effectiveness of our approach.",
+  "keywords": [
+    "deep",
+    "end",
+    "neural",
+    "model",
+    "it",
+    "vectors",
+    "deep learning systems",
+    "aspect-based sentiment analysis attention",
+    "information",
+    "aspect-level sentiment analysis",
+    "attention",
+    "network",
+    "we",
+    "learning",
+    "lstm"
+  ],
+  "url": "https://aclanthology.org/P19-2035/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:48:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.69",
+  "title": "CUPID}: Curriculum Learning Based Real-Time Prediction using Distillation",
+  "authors": [
+    "Bhattacharya, Arindam  and\nMs, Ankith  and\nGandhi, Ankit  and\nHuddar, Vijay  and\nSaroop, Atul  and\nBhagat, Rahul"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "Relevance in E-commerce Product Search is crucial for providing customers with accurate results that match their query intent. With recent advancements in NLP and Deep Learning, Transformers have become the default choice for relevance classification tasks. In such a setting, the relevance model uses query text and product title as input features, and estimates if the product is relevant for the customer query. While cross-attention in Transformers enables a more accurate relevance prediction in such a setting, its high evaluation latency makes it unsuitable for real-time predictions in which thousands of products must be evaluated against a user query within few milliseconds. To address this issue, we propose CUPID: a Curriculum learning based real-time Prediction using Distillation that utilizes knowledge distillation within a curriculum learning setting to learn a simpler architecture that can be evaluated within low latency budgets. In a bi-lingual relevance prediction task, our approach shows an 302 bps improvement on English and 676 bps improvement for low-resource Arabic, while maintaining the low evaluation latency on CPUs.",
+  "keywords": [
+    "deep",
+    "transformers",
+    "we",
+    "its high evaluation latency",
+    "relevance classification tasks",
+    "classification",
+    "cross",
+    "it",
+    "the low evaluation latency",
+    "learning",
+    "text",
+    "deep learning transformers",
+    "knowledge",
+    "nlp",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.69/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

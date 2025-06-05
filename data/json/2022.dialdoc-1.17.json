@@ -1,0 +1,33 @@
+{
+  "id": "2022.dialdoc-1.17",
+  "title": "R3 : Refined Retriever-Reader pipeline for Multidoc2dial",
+  "authors": [
+    "Bansal, Srijan  and\nTripathi, Suraj  and\nAgarwal, Sumit  and\nGururaja, Sireesh  and\nVeerubhotla, Aditya Srikanth  and\nDutt, Ritam  and\nMitamura, Teruko  and\nNyberg, Eric"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Second DialDoc Workshop on Document-grounded Dialogue and Conversational Question Answering",
+  "abstract": "In this paper, we present our submission to the DialDoc shared task based on the MultiDoc2Dial dataset. MultiDoc2Dial is a conversational question answering dataset that grounds dialogues in multiple documents. The task involves grounding a user’s query in a document followed by generating an appropriate response. We propose several improvements over the baseline’s retriever-reader architecture to aid in modeling goal-oriented dialogues grounded in multiple documents. Our proposed approach employs sparse representations for passage retrieval, a passage re-ranker, the fusion-in-decoder architecture for generation, and a curriculum learning training paradigm. Our approach shows a 12 point improvement in BLEU score compared to the baseline RAG model.",
+  "keywords": [
+    "retriever-reader pipeline",
+    "generation",
+    "model",
+    "dialogues",
+    "s retriever-reader architecture",
+    "passage retrieval",
+    "modeling",
+    "bleu",
+    "a conversational question",
+    "decoder",
+    "retrieval",
+    "question",
+    "conversational",
+    "modeling goal-oriented dialogues",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2022.dialdoc-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:41:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.51",
+  "title": "TAPAS} at {S}em{E}val-2021 Task 9: Reasoning over tables with intermediate pre-training",
+  "authors": [
+    "M{\\\"u}ller, Thomas  and\nEisenschlos, Julian  and\nKrichene, Syrine"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "We present the TAPAS contribution to the Shared Task on Statement Verification and Evidence Finding with Tables (SemEval 2021 Task 9, Wang et al. (2021)). SEM TAB FACT Task A is a classification task of recognizing if a statement is entailed, neutral or refuted by the content of a given table. We adopt the binary TAPAS model of Eisenschlos et al. (2020) to this task. We learn two binary classification models: A first model to predict if a statement is neutral or non-neutral and a second one to predict if it is entailed or refuted. As the shared task training set contains only entailed or refuted examples, we generate artificial neutral examples to train the first model. Both models are pre-trained using a MASKLM objective, intermediate counter-factual and synthetic data (Eisenschlos et al., 2020) and TABFACT (Chen et al., 2020), a large table entailment dataset. We find that the artificial neutral examples are somewhat effective at training the first model, achieving 68.03 test F1 versus the 60.47 of a majority baseline. For the second stage, we find that the pre-training on the intermediate data and TABFACT improves the results over MASKLM pre-training (68.03 vs 57.01).",
+  "keywords": [
+    "a classification task",
+    "two binary classification models",
+    "we",
+    "training",
+    "classification",
+    "sem",
+    "it",
+    "68 03 test f1",
+    "e",
+    "a",
+    "objective",
+    "-",
+    "model",
+    "pre",
+    "counter"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.51/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:20:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

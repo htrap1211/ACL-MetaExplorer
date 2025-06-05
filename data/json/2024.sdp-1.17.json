@@ -1,0 +1,33 @@
+{
+  "id": "2024.sdp-1.17",
+  "title": "AutoRef: Generating Refinements of Reviews Given Guidelines",
+  "authors": [
+    "Chitnis, Soham  and\nPatwardhan, Manasi  and\nSrinivasan, Ashwin  and\nVerlekar, Tanmay Tulsidas  and\nVig, Lovekesh  and\nShroff, Gautam"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024)",
+  "abstract": "When examining reviews of research papers, we can distinguish between two hypothetical referees: the maximally lenient referee who accepts any paper with a vacuous review and the maximally strict one who rejects any paper with an overly pedantic review. Clearly, both are of no practical value. Our interest is in a referee who makes a balanced judgement and provides a review abiding by the guidelines. In this paper, we present a case study of automatic correction of an existing machine-generated or human review. TheAutoRef\\system implements an iterative approach that progressively “refines” a review by attempting to make it more compliant with pre-defined requirements of a “good” review. It implements the following steps: (1) Translate the review requirements into a specification in natural language, of “yes/no” questions; (2) Given a(paper,review)pair, extract answers to the questions; (3) Use the results in (2) to generate a new review; and (4) Return to Step (2) with the paper and the new review. Here, (2) and (3) are implemented by large language model (LLM) based agents. We present a case study using papers and reviews made available for the International Conference on Learning Representations (ICLR). Our initial empirical results suggest thatAutoRef\\progressively improves the compliance of the generated reviews to the specification. Currently designed specification makesAutoRef\\progressively generate reviews which are stricter, making the decisions more inclined towards “rejections”. This demonstrates the applicability of $AutoRef $ for: (1) The progressive correction of overly lenient reviews, being useful for referees and meta-reviewers; and (2) The generation of progressively stricter reviews for a paper, starting from a vacuous review (“Great paper. Accept.”), facilitating authors when trying to assess weaknesses in their papers.",
+  "keywords": [
+    "the generated reviews",
+    "a paper review pair",
+    "progressively stricter reviews",
+    "a review",
+    "overly lenient reviews",
+    "a vacuous review",
+    "large language model",
+    "we",
+    "a good review",
+    "the new review",
+    "llm",
+    "the review requirements",
+    "natural",
+    "it",
+    "2 the generation"
+  ],
+  "url": "https://aclanthology.org/2024.sdp-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

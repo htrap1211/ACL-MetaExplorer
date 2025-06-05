@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.181",
+  "title": "Does {BERT} really agree ? Fine-grained Analysis of Lexical Dependence on a Syntactic Task",
+  "authors": [
+    "Lasri, Karim  and\nLenci, Alessandro  and\nPoibeau, Thierry"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Although transformer-based Neural Language Models demonstrate impressive performance on a variety of tasks, their generalization abilities are not well understood. They have been shown to perform strongly on subject-verb number agreement in a wide array of settings, suggesting that they learned to track syntactic dependencies during their training even without explicit supervision. In this paper, we examine the extent to which BERT is able to perform lexically-independent subject-verb number agreement (NA) on targeted syntactic templates. To do so, we disrupt the lexical patterns found in naturally occurring stimuli for each targeted structure in a novel fine-grained analysis of BERT’s behavior. Our results on nonce sentences suggest that the model generalizes well for simple templates, but fails to perform lexically-independent syntactic generalization when as little as one attractor is present.",
+  "keywords": [
+    "abilities",
+    "transformer",
+    "variety",
+    "their generalization abilities",
+    "language",
+    "transformer-based neural language models",
+    "neural",
+    "bert",
+    "model",
+    "syntactic dependencies",
+    "lexically-independent syntactic generalization",
+    "dependencies",
+    "bert s behavior",
+    "generalization",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.181/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

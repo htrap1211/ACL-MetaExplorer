@@ -1,0 +1,33 @@
+{
+  "id": "2020.nlp4convai-1.12",
+  "title": "Learning to Classify Intents and Slot Labels Given a Handful of Examples",
+  "authors": [
+    "Krone, Jason  and\nZhang, Yi  and\nDiab, Mona"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 2nd Workshop on Natural Language Processing for Conversational AI",
+  "abstract": "Intent classification (IC) and slot filling (SF) are core components in most goal-oriented dialogue systems. Current IC/SF models perform poorly when the number of training examples per class is small. We propose a new few-shot learning task, few-shot IC/SF, to study and improve the performance of IC and SF models on classes not seen at training time in ultra low resource scenarios. We establish a few-shot IC/SF benchmark by defining few-shot splits for three public IC/SF datasets, ATIS, TOP, and Snips. We show that two popular few-shot learning algorithms, model agnostic meta learning (MAML) and prototypical networks, outperform a fine-tuning baseline on this benchmark. Prototypical networks achieves significant gains in IC performance on the ATIS and TOP datasets, while both prototypical networks and MAML outperform the baseline with respect to SF on all three datasets. In addition, we demonstrate that joint training as well as the use of pre-trained language models, ELMo and BERT in our case, are complementary to these few-shot learning methods and yield further gains.",
+  "keywords": [
+    "elmo",
+    "we",
+    "dialogue",
+    "current",
+    "shot",
+    "training",
+    "classification",
+    "few-shot splits",
+    "learning",
+    "core",
+    "tuning",
+    "bert",
+    "these few-shot learning methods",
+    "pre-trained language models elmo",
+    "few-shot ic sf"
+  ],
+  "url": "https://aclanthology.org/2020.nlp4convai-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:57:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

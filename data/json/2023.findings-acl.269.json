@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.269",
+  "title": "On the Limitations of Simulating Active Learning",
+  "authors": [
+    "Margatina, Katerina  and\nAletras, Nikolaos"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Active learning (AL) is a human-and-model-in-the-loop paradigm that iteratively selects informative unlabeled data for human annotation, aiming to improve data efficiency over random sampling. However, performing AL experiments with human annotations on-the-fly is a laborious and expensive process, thus unrealistic for academic research. An easy fix to this impediment is to simulate AL, by treating an already labeled and publicly available dataset as the pool of unlabeled data. In this position paper, we first survey recent literature and highlight the challenges across all different steps within the AL loop. We further unveil neglected caveats in the experimental setup that can significantly affect the quality of AL research. We continue with an exploration of how the simulation setting can govern empirical findings, arguing that it might be one of the answers behind the ever posed question “Why do Active Learning algorithms sometimes fail to outperform random sampling?”. We argue that evaluating AL algorithms on available labeled datasets might provide a lower bound as to their effectiveness in real data. We believe it is essential to collectively shape the best practices for AL research, especially now that the stellar engineering advances (e.g. ChatGPT) shift the research focus to data-driven approaches. To this end, we present guidelines for future work, hoping that by bringing these limitations to the community’s attention, we can explore ways to address them.",
+  "keywords": [
+    "end",
+    "al",
+    "data efficiency",
+    "question",
+    "efficiency",
+    "we",
+    "it",
+    "chatgpt",
+    "learning",
+    "the community s attention",
+    "work",
+    "process",
+    "random",
+    "model",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.269/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

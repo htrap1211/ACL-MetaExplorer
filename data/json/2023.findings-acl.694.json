@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.694",
+  "title": "Contextualized Semantic Distance between Highly Overlapped Texts",
+  "authors": [
+    "Peng, Letian  and\nLi, Zuchao  and\nZhao, Hai"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Overlapping frequently occurs in paired texts in natural language processing tasks like text editing and semantic similarity evaluation. Better evaluation of the semantic distance between the overlapped sentences benefits the language system’s understanding and guides the generation. Since conventional semantic metrics are based on word representations, they are vulnerable to the disturbance of overlapped components with similar representations. This paper aims to address the issue with a mask-and-predict strategy. We take the words in the longest common sequence (LCS) as neighboring words and use masked language modeling (MLM) from pre-trained language models (PLMs) to predict the distributions in their positions. Our metric, Neighboring Distribution Divergence (NDD), represents the semantic distance by calculating the divergence between distributions in the overlapped parts. Experiments on Semantic Textual Similarity show NDD to be more sensitive to various semantic differences, especially on highly overlapped paired texts. Based on the discovery, we further implement an unsupervised and training-free method for text compression, leading to a significant improvement on the previous perplexity-based method. The high compression rate controlling ability of our method even enables NDD to outperform the supervised state-of-the-art in domain adaption by a huge margin. Further experiments on syntax and semantics analyses verify the awareness of internal sentence structures, indicating the high potential of NDD for further studies.",
+  "keywords": [
+    "natural language processing tasks",
+    "rate",
+    "the generation",
+    "the previous perplexity-based method",
+    "contextualized semantic distance",
+    "semantic",
+    "we",
+    "syntax",
+    "training",
+    "syntax and semantics analyses",
+    "natural",
+    "semantics",
+    "pre-trained language models plms",
+    "word",
+    "sequence"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.694/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P18-1074",
+  "title": "A Multi-lingual Multi-task Architecture for Low-resource Sequence Labeling",
+  "authors": [
+    "Lin, Ying  and\nYang, Shengqi  and\nStoyanov, Veselin  and\nJi, Heng"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We propose a multi-lingual multi-task architecture to develop supervised models with a minimal amount of labeled data for sequence labeling. In this new architecture, we combine various transfer models using two layers of parameter sharing. On the first layer, we construct the basis of the architecture to provide universal word representation and feature extraction capability for all models. On the second level, we adopt different parameter sharing strategies for different transfer schemes. This architecture proves to be particularly effective for low-resource settings, when there are less than 200 training sentences for the target task. Using Name Tagging as a target task, our approach achieved 4.3%-50.5% absolute F-score gains compared to the mono-lingual single-task baseline model.",
+  "keywords": [
+    "extraction",
+    "model",
+    "different parameter sharing strategies",
+    "strategies",
+    "layer",
+    "tagging",
+    "word",
+    "we",
+    "sequence",
+    "transfer",
+    "parameter",
+    "training",
+    "basis",
+    "supervised",
+    "different transfer schemes"
+  ],
+  "url": "https://aclanthology.org/P18-1074/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:10:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwpt-1.5",
+  "title": "Levi Graph {AMR} Parser using Heterogeneous Attention",
+  "authors": [
+    "He, Han  and\nChoi, Jinho D."
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 17th International Conference on Parsing Technologies and the IWPT 2021 Shared Task on Parsing into Enhanced Universal Dependencies (IWPT 2021)",
+  "abstract": "Coupled with biaffine decoders, transformers have been effectively adapted to text-to-graph transduction and achieved state-of-the-art performance on AMR parsing. Many prior works, however, rely on the biaffine decoder for either or both arc and label predictions although most features used by the decoder may be learned by the transformer already. This paper presents a novel approach to AMR parsing by combining heterogeneous data (tokens, concepts, labels) as one input to a transformer to learn attention, and use only attention matrices from the transformer to predict all elements in AMR graphs (concepts, arcs, labels). Although our models use significantly fewer parameters than the previous state-of-the-art graph parser, they show similar or better accuracy on AMR 2.0 and 3.0.",
+  "keywords": [
+    "transformer",
+    "transformers",
+    "heterogeneous attention",
+    "parsing",
+    "the decoder",
+    "text",
+    "the biaffine decoder",
+    "biaffine decoders transformers",
+    "decoder",
+    "the transformer",
+    "attention",
+    "decoders",
+    "graph",
+    "a transformer",
+    "amr parsing"
+  ],
+  "url": "https://aclanthology.org/2021.iwpt-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

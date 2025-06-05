@@ -1,0 +1,33 @@
+{
+  "id": "2021.metanlp-1.2",
+  "title": "Soft Layer Selection with Meta-Learning for Zero-Shot Cross-Lingual Transfer",
+  "authors": [
+    "Xu, Weijia  and\nHaider, Batool  and\nKrone, Jason  and\nMansour, Saab"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Meta Learning and Its Applications to Natural Language Processing",
+  "abstract": "Multilingual pre-trained contextual embedding models (Devlin et al., 2019) have achieved impressive performance on zero-shot cross-lingual transfer tasks. Finding the most effective fine-tuning strategy to fine-tune these models on high-resource languages so that it transfers well to the zero-shot languages is a non-trivial task. In this paper, we propose a novel meta-optimizer to soft-select which layers of the pre-trained model to freeze during fine-tuning. We train the meta-optimizer by simulating the zero-shot transfer scenario. Results on cross-lingual natural language inference show that our approach improves over the simple fine-tuning baseline and X-MAML (Nooralahzadeh et al., 2020).",
+  "keywords": [
+    "cross",
+    "tuning",
+    "language",
+    "al",
+    "natural",
+    "model",
+    "it",
+    "the zero-shot languages",
+    "layer",
+    "fine",
+    "x",
+    "the simple fine-tuning baseline",
+    "we",
+    "learning",
+    "transfer"
+  ],
+  "url": "https://aclanthology.org/2021.metanlp-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:18:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

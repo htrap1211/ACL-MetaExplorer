@@ -1,0 +1,33 @@
+{
+  "id": "P17-1132",
+  "title": "Leveraging Knowledge Bases in {LSTM}s for Improving Machine Reading",
+  "authors": [
+    "Yang, Bishan  and\nMitchell, Tom"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "This paper focuses on how to take advantage of external knowledge bases (KBs) to improve recurrent neural networks for machine reading. Traditional methods that exploit knowledge from KBs encode knowledge as discrete indicator features. Not only do these features generalize poorly, but they require task-specific feature engineering to achieve good performance. We propose KBLSTM, a novel neural model that leverages continuous representations of KBs to enhance the learning of recurrent neural networks for machine reading. To effectively integrate background knowledge with information from the currently processed text, our model employs an attention mechanism with a sentinel to adaptively decide whether to attend to background knowledge and which information from KBs is useful. Experimental results show that our model achieves accuracies that surpass the previous state-of-the-art results for both entity extraction and event extraction on the widely used ACE2005 dataset.",
+  "keywords": [
+    "accuracies",
+    "knowledge",
+    "neural",
+    "background",
+    "extraction",
+    "model",
+    "machine",
+    "text",
+    "encode",
+    "background knowledge",
+    "kblstm",
+    "information",
+    "attention",
+    "we",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/P17-1132/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:00:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

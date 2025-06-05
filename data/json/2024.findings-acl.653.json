@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.653",
+  "title": "Knowledge-to-{SQL}: Enhancing {SQL} Generation with Data Expert {LLM",
+  "authors": [
+    "Hong, Zijin  and\nYuan, Zheng  and\nChen, Hao  and\nZhang, Qinggang  and\nHuang, Feiran  and\nHuang, Xiao"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Generating accurate SQL queries for user questions (text-to-SQL) has been a long-standing challenge since it requires a deep understanding of both the user’s question and the corresponding database schema in order to retrieve the desired content accurately. Existing methods rely on the comprehensive capability of large language models (LLMs) to generate the SQL. However, some necessary knowledge is not explicitly included in the database schema and user question or has been learned by LLMs. Thus, the generated SQL of the knowledge-insufficient questions may be inaccurate, negatively influencing the text-to-SQL models’ performance and robustness. To address this challenge, we propose the Knowledge-to-SQL framework, which employs tailored Data Expert LLM (DELLM) to provide helpful knowledge for all text-to-SQL models. Specifically, we introduce the detailed implementation of DELLM regarding table reading and the basic fine-tuning process. We further propose a Preference Learning via Database Feedback (PLDBF) strategy, refining the DELLM to generate more helpful knowledge for LLMs. Extensive experiments verify that DELLM can enhance the state-of-the-art approaches for text-to-SQL tasks. The corresponding code of DELLM is released for further research.",
+  "keywords": [
+    "deep",
+    "code",
+    "feedback",
+    "question",
+    "we",
+    "thus the generated sql",
+    "the dellm",
+    "llm",
+    "it",
+    "queries",
+    "llms",
+    "tuning",
+    "that dellm",
+    "the basic fine-tuning process",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.653/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

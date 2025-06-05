@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.617",
+  "title": "Aligning Large Language Models by On-Policy Self-Judgment",
+  "authors": [
+    "Lee, Sangkyu  and\nKim, Sungdong  and\nYousefpour, Ashkan  and\nSeo, Minjoon  and\nYoo, Kang Min  and\nYu, Youngjae"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Existing approaches for aligning large language models with human preferences face a trade-off that requires a separate reward model (RM) for on-policy learning. In this paper, we present a novel alignment framework, SELF-JUDGE that (1) does on-policy learning and 2) is parameter efficient, as it does not require an additional RM for evaluating the samples for on-policy learning. To this end, we propose Judge-augmented Supervised Fine-Tuning (JSFT) to train a single model to act as both a policy and a judge. Specifically, we view the pairwise judgment task, choosing the better response from a response pair, as a special case of the instruction-following task. The resulting model can judge preferences of on-the-fly responses from current policy initialized from itself. Experimental results show the efficacy of SELF-JUDGE, outperforming baselines in preference benchmarks. We also show that the rejecting sampling by itself can improve performance further without an additional evaluator.",
+  "keywords": [
+    "end",
+    "efficient",
+    "we",
+    "current",
+    "parameter",
+    "judge-augmented supervised fine-tuning jsft",
+    "instruction",
+    "it",
+    "self",
+    "learning",
+    "tuning",
+    "fine",
+    "alignment",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.617/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

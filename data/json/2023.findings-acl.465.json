@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.465",
+  "title": "I} Spy a Metaphor: Large Language Models and Diffusion Models Co-Create Visual Metaphors",
+  "authors": [
+    "Chakrabarty, Tuhin  and\nSaakyan, Arkadiy  and\nWinn, Olivia  and\nPanagopoulou, Artemis  and\nYang, Yue  and\nApidianaki, Marianna  and\nMuresan, Smaranda"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Visual metaphors are powerful rhetorical devices used to persuade or communicate creative ideas through images. Similar to linguistic metaphors, they convey meaning implicitly through symbolism and juxtaposition of the symbols. We propose a new task of generating visual metaphors from linguistic metaphors. This is a challenging task for diffusion-based text-to-image models, such as DALL⋅E 2, since it requires the ability to model implicit meaning and compositionality. We propose to solve the task through the collaboration between Large Language Models (LLMs) and Diffusion Models: Instruct GPT-3 (davinci-002) with Chain-of-Thought prompting generates text that represents a visual elaboration of the linguistic metaphor containing the implicit meaning and relevant objects, which is then used as input to the diffusion-based text-to-image models. Using a human-AI collaboration framework, where humans interact both with the LLM and the top-performing diffusion model, we create a high-quality dataset containing 6,476 visual metaphors for 1,540 linguistic metaphors and their associated visual elaborations. Evaluation by professional illustrators shows the promise of LLM-Diffusion Model collaboration for this task.To evaluate the utility of our Human-AI collaboration framework and the quality of our dataset, we perform both an intrinsic human-based evaluation and an extrinsic evaluation using visual entailment as a downstream task.",
+  "keywords": [
+    "chain",
+    "we",
+    "llm",
+    "it",
+    "gpt-3",
+    "visual",
+    "llms",
+    "i",
+    "text",
+    "gpt-3 davinci-002",
+    "the llm",
+    "large language models llms",
+    "llm-diffusion model collaboration",
+    "language",
+    "thought"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.465/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

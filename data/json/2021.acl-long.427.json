@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.427",
+  "title": "Shortformer: Better Language Modeling using Shorter Inputs",
+  "authors": [
+    "Press, Ofir  and\nSmith, Noah A.  and\nLewis, Mike"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Increasing the input length has been a driver of progress in language modeling with transformers. We identify conditions where shorter inputs are not harmful, and achieve perplexity and efficiency improvements through two new methods that decrease input length. First, we show that initially training a model on short subsequences before moving on to longer ones both reduces overall training time and, surprisingly, substantially improves perplexity. Second, we show how to improve the efficiency of recurrence methods in transformers, which let models condition on previously processed tokens when generating sequences that exceed the maximal length the transformer can handle at once. Existing methods require computationally expensive relative position embeddings; we introduce a simple alternative of adding absolute position embeddings to queries and keys instead of to word embeddings, which efficiently produces superior results. We show that these recurrent models also benefit from short input lengths. Combining these techniques speeds up training by a factor of 1.65, reduces memory usage, and substantially improves perplexity on WikiText-103, without adding any parameters.",
+  "keywords": [
+    "transformers",
+    "efficiency",
+    "we",
+    "perplexity and efficiency improvements",
+    "training",
+    "queries",
+    "the efficiency",
+    "word",
+    "shortformer better language modeling",
+    "recurrent",
+    "to word embeddings",
+    "perplexity",
+    "the transformer",
+    "absolute position embeddings",
+    "embeddings"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.427/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

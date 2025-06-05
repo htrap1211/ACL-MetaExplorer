@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.121",
+  "title": "Listener Model for the {P}hoto{B}ook Referential Game with {CLIPS}cores as Implicit Reference Chain",
+  "authors": [
+    "Wu, Shih-Lun  and\nChou, Yi-Hui  and\nLi, Liangze"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "PhotoBook is a collaborative dialogue game where two players receive private, partially-overlapping sets of images and resolve which images they have in common. It presents machines with a great challenge to learn how people build common ground around multimodal context to communicate effectively. Methods developed in the literature, however, cannot be deployed to real gameplaysince they only tackle some subtasks of the game,and they require additional reference chains inputs, whose extraction process is imperfect. Therefore, we propose a reference chain-free listener modelthat directly addresses the game’s predictive task, i.e., deciding whether an image is shared with partner. Our DeBERTa-based listener model reads the full dialogue, and utilizesCLIPScore features to assess utterance-image relevance. We achieve >77% accuracy on unseen sets of images/game themes, outperforming baseline by >17 points.",
+  "keywords": [
+    "deberta",
+    "our deberta-based listener model",
+    "extraction",
+    "chain",
+    "we",
+    "dialogue",
+    "listener",
+    "it",
+    "77 accuracy",
+    "i",
+    "a collaborative dialogue game",
+    "listener model",
+    "accuracy",
+    "reference",
+    "process"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.121/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:49:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

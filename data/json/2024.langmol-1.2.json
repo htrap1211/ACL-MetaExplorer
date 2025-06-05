@@ -1,0 +1,33 @@
+{
+  "id": "2024.langmol-1.2",
+  "title": "Could Chemical Language Models benefit from Message Passing",
+  "authors": [
+    "Xie, Jiaqing  and\nChi, Ziheng"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Language + Molecules (L+M 2024)",
+  "abstract": "Pretrained language models (LMs) showcase significant capabilities in processing molecular text, while concurrently, message passing neural networks (MPNNs) demonstrate resilience and versatility in the domain of molecular science. Despite these advancements, we find there are limited studies investigating the bidirectional interactions between molecular structures and their corresponding textual representations. Therefore, in this paper, we propose two strategies to evaluate whether an information integration can enhance the performance: contrast learning, which involves utilizing an MPNN to supervise the training of the LM, and fusion, which exploits information from both models. Our empirical analysis reveals that the integration approaches exhibit superior performance compared to baselines when applied to smaller molecular graphs, while these integration approaches do not yield performance enhancements on large scale graphs.",
+  "keywords": [
+    "significant capabilities",
+    "language",
+    "neural",
+    "neural networks",
+    "studies",
+    "text",
+    "molecular science",
+    "two strategies",
+    "language models",
+    "strategies",
+    "information",
+    "science",
+    "capabilities",
+    "pretrained language models lms",
+    "resilience"
+  ],
+  "url": "https://aclanthology.org/2024.langmol-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:07:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

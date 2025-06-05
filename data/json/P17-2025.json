@@ -1,0 +1,33 @@
+{
+  "id": "P17-2025",
+  "title": "Improving Neural Parsing by Disentangling Model Combination and Reranking Effects",
+  "authors": [
+    "Fried, Daniel  and\nStern, Mitchell  and\nKlein, Dan"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Recent work has proposed several generative neural models for constituency parsing that achieve state-of-the-art results. Since direct search in these generative models is difficult, they have primarily been used to rescore candidate outputs from base parsers in which decoding is more straightforward. We first present an algorithm for direct search in these generative models. We then demonstrate that the rescoring results are at least partly due to implicit model combination rather than reranking effects. Finally, we show that explicit model combination can improve performance even further, resulting in new state-of-the-art numbers on the PTB of 94.25 F1 when training only on gold data and 94.66 F1 when using external data.",
+  "keywords": [
+    "work",
+    "generative",
+    "neural",
+    "model",
+    "94 66 f1",
+    "we",
+    "94 25 f1",
+    "these generative models",
+    "several generative neural models",
+    "that",
+    "base",
+    "state",
+    "new",
+    "model combination",
+    "the-art"
+  ],
+  "url": "https://aclanthology.org/P17-2025/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:02:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

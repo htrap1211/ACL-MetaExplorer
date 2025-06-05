@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.820",
+  "title": "Selecting Better Samples from Pre-trained {LLM}s: A Case Study on Question Generation",
+  "authors": [
+    "Yuan, Xingdi  and\nWang, Tong  and\nWang, Yen-Hsiang  and\nFine, Emery  and\nAbdelghani, Rania  and\nSauz{\\'e}on, H{\\'e}l{\\`e}ne  and\nOudeyer, Pierre-Yves"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Large Language Models (LLMs) have in recent years demonstrated impressive prowess in natural language generation. A common practice to improve generation diversity is to sample multiple outputs from the model. However, partly due to the inaccessibility of LLMs, there lacks a simple and robust way of selecting the best output from these stochastic samples. As a case study framed in the context of question generation, we propose two prompt-based approaches, namely round-trip and prompt-based score, to selecting high-quality questions from a set of LLM-generated candidates. Our method works without the need to modify the underlying model, nor does it rely on human-annotated references — both of which are realistic constraints for real-world deployment of LLMs. With automatic as well as human evaluations, we empirically demonstrate that our approach can effectively select questions of higher qualities than greedy generation.",
+  "keywords": [
+    "question",
+    "llm-generated candidates",
+    "we",
+    "qualities",
+    "llm",
+    "prompt-based score",
+    "natural",
+    "it",
+    "-trained llm",
+    "natural language generation",
+    "generation diversity",
+    "llms",
+    "prompt",
+    "question generation",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.820/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

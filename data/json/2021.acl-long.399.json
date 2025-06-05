@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.399",
+  "title": "Structural Pre-training for Dialogue Comprehension",
+  "authors": [
+    "Zhang, Zhuosheng  and\nZhao, Hai"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Pre-trained language models (PrLMs) have demonstrated superior performance due to their strong ability to learn universal language representations from self-supervised pre-training. However, even with the help of the powerful PrLMs, it is still challenging to effectively capture task-related knowledge from dialogue texts which are enriched by correlations among speaker-aware utterances. In this work, we present SPIDER, Structural Pre-traIned DialoguE Reader, to capture dialogue exclusive features. To simulate the dialogue-like features, we propose two training objectives in addition to the original LM objectives: 1) utterance order restoration, which predicts the order of the permuted utterances in dialogue context; 2) sentence backbone regularization, which regularizes the model to improve the factual correctness of summarized subject-verb-object triplets. Experimental results on widely used dialogue benchmarks verify the effectiveness of the newly introduced self-supervised tasks.",
+  "keywords": [
+    "objectives",
+    "two training objectives",
+    "we",
+    "dialogue",
+    "training",
+    "it",
+    "self",
+    "widely used dialogue benchmarks",
+    "object",
+    "dialogue exclusive features",
+    "dialogue texts",
+    "-",
+    "the dialogue-like features",
+    "the original lm objectives",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.399/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

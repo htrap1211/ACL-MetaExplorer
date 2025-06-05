@@ -1,0 +1,33 @@
+{
+  "id": "2020.nlpcovid19-acl.7",
+  "title": "Information Retrieval and Extraction on {COVID-19} Clinical Articles Using Graph Community Detection and {Bio-BERT} Embeddings",
+  "authors": [
+    "Das, Debasmita  and\nKatyal, Yatin  and\nVerma, Janu  and\nDubey, Shashank  and\nSingh, AakashDeep  and\nAgarwal, Kushagra  and\nBhaduri, Sourojit  and\nRanjan, RajeshKumar"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 1st Workshop on {NLP} for {COVID-19} at {ACL} 2020",
+  "abstract": "In this paper, we present an information retrieval system on a corpus of scientific articles related to COVID-19. We build a similarity network on the articles where similarity is determined via shared citations and biological domain-specific sentence embeddings. Ego-splitting community detection on the article network is employed to cluster the articles and then the queries are matched with the clusters. Extractive summarization using BERT and PageRank methods is used to provide responses to the query. We also provide a Question-Answer bot on a small set of intents to demonstrate the efficacy of our model for an information extraction module.",
+  "keywords": [
+    "embeddings",
+    "an information extraction module",
+    "answer",
+    "extraction",
+    "bert",
+    "model",
+    "queries",
+    "the clusters extractive summarization",
+    "retrieval",
+    "bio-bert embeddings",
+    "information",
+    "question",
+    "bot",
+    "network",
+    "summarization"
+  ],
+  "url": "https://aclanthology.org/2020.nlpcovid19-acl.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:54:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

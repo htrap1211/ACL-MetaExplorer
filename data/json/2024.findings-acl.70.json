@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.70",
+  "title": "Cutting Off the Head Ends the Conflict: A Mechanism for Interpreting and Mitigating Knowledge Conflicts in Language Models",
+  "authors": [
+    "Jin, Zhuoran  and\nCao, Pengfei  and\nYuan, Hongbang  and\nChen, Yubo  and\nXu, Jiexin  and\nLi, Huaijun  and\nJiang, Xiaojian  and\nLiu, Kang  and\nZhao, Jun"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Recently, retrieval augmentation and tool augmentation have demonstrated a remarkable capability to expand the internal memory boundaries of language models (LMs) by providing external context. However, internal memory and external context inevitably clash, leading to knowledge conflicts within LMs. In this paper, we aim to interpret the mechanism of knowledge conflicts through the lens of information flow, and then mitigate conflicts by precise interventions at the pivotal point. We find there are some attention heads with opposite effects in the later layers, where memory heads can recall knowledge from internal memory, and context heads can retrieve knowledge from external context. Moreover, we reveal that the pivotal point at which knowledge conflicts emerge in LMs is the integration of inconsistent information flows by memory heads and context heads. Inspired by the insights, we propose a novel method called Pruning Head via PatH PatcHing (PH3), which can efficiently mitigate knowledge conflicts by pruning conflicting attention heads without updating model parameters. PH3 can flexibly control eight LMs to use internal memory (↑44.0%) or external context (↑38.5%). Moreover, PH3 can also improve the performance of LMs on open-domain QA tasks. We also conduct extensive experiments to demonstrate the cross-model, cross-relation, and cross-format generalization of our method. Our code is publicly available at https://github.com/jinzhuoran/MConflict/.",
+  "keywords": [
+    "code",
+    "conflicting attention heads",
+    "some attention heads",
+    "we",
+    "open-domain qa tasks",
+    "the internal memory boundaries",
+    "cross",
+    "information",
+    "format",
+    "language models",
+    "generalization",
+    "knowledge",
+    "language",
+    "model",
+    "boundaries"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.70/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:49:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

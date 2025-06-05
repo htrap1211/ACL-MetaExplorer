@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.172",
+  "title": "Exploring Variation of Results from Different Experimental Conditions",
+  "authors": [
+    "Popovi{\\'c}, Maja  and\nArvan, Mohammad  and\nParde, Natalie  and\nBelz, Anya"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "It might reasonably be expected that running multiple experiments for the same task using the same data and model would yield very similar results. Recent research has, however, shown this not to be the case for many NLP experiments. In this paper, we report extensive coordinated work by two NLP groups to run the training and testing pipeline for three neural text simplification models under varying experimental conditions, including different random seeds, run-time environments, and dependency versions, yielding a large number of results for each of the three models using the same data and train/dev/test set splits. From one perspective, these results can be interpreted as shedding light on the reproducibility of evaluation results for the three NTS models, and we present an in-depth analysis of the variation observed for different combinations of experimental conditions. From another perspective, the results raise the question of whether the averaged score should be considered the ‘true’ result for each model.",
+  "keywords": [
+    "dependency versions",
+    "question",
+    "we",
+    "two nlp groups",
+    "training",
+    "neural",
+    "it",
+    "analysis",
+    "text",
+    "many nlp experiments",
+    "work",
+    "random",
+    "nlp",
+    "evaluation results",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.172/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

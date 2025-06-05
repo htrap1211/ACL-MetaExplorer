@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.828",
+  "title": "D}iffu{S}um: Generation Enhanced Extractive Summarization with Diffusion",
+  "authors": [
+    "Zhang, Haopeng  and\nLiu, Xiao  and\nZhang, Jiawei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Extractive summarization aims to form a summary by directly extracting sentences from the source document. Existing works mostly formulate it as a sequence labeling problem by making individual sentence label predictions. This paper proposes DiffuSum, a novel paradigm for extractive summarization, by directly generating the desired summary sentence representations with diffusion models and extracting sentences based on sentence representation matching. In addition, DiffuSum jointly optimizes a contrastive sentence encoder with a matching loss for sentence representation alignment and a multi-class contrastive loss for representation diversity. Experimental results show that DiffuSum achieves the new state-of-the-art extractive results on CNN/DailyMail with ROUGE scores of 44.83/22.56/40.56. Experiments on the other two datasets with different summary lengths and cross-dataset evaluation also demonstrate the effectiveness of DiffuSum. The strong performance of our framework shows the great potential of adapting generative models for extractive summarization.",
+  "keywords": [
+    "generative models",
+    "diffusion extractive summarization",
+    "sentence representation alignment",
+    "summarization",
+    "rouge scores",
+    "cross",
+    "cnn",
+    "it",
+    "loss",
+    "sequence",
+    "generative",
+    "extractive summarization",
+    "rouge",
+    "cross-dataset evaluation",
+    "cnn dailymail"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.828/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

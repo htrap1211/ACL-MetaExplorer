@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.872",
+  "title": "Model Intrinsic Features of Fine-tuning based Text Summarization Models for Factual Consistency",
+  "authors": [
+    "Song, Jongyoon  and\nPark, Nohil  and\nHwang, Bongkyu  and\nYun, Jaewoong  and\nJoe, Seongho  and\nGwon, Youngjune  and\nYoon, Sungroh"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In this study, we analyze the model intrinsic features of a summarization model by varying the fine-tuning objectives and datasets. We fine-tune BART models combining three fine-tuning objectives (negative log-likelihood, unlikelihood, and contrastive loss) and two datasets (CNN/DailyMail and XSum) and provide shuffled or aligned documents to observe changes in the model predictions and intrinsic features. We find that (i) the inductive bias for factual consistency during the fine-tuning procedure depends on both the objectives and datasets, and (ii) summarization models with relatively low factual consistency are more likely to model summaries that are not conditional to the documents. We demonstrate that splitting data based on the unconditional and conditional summary modeling difficulty affects the factual consistency and intrinsic features of the summarization models. Our experimental results highlight the importance of studying the inductive bias during fine-tuning for factual consistency.",
+  "keywords": [
+    "tuning",
+    "the fine-tuning objectives",
+    "objectives",
+    "bias",
+    "summaries",
+    "i",
+    "ii summarization models",
+    "cnn",
+    "model",
+    "text",
+    "three fine-tuning objectives",
+    "modeling",
+    "a summarization model",
+    "loss",
+    "fine"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.872/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

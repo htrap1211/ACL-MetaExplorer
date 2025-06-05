@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.653",
+  "title": "Don{'}t Rank, Combine! Combining Machine Translation Hypotheses Using Quality Estimation",
+  "authors": [
+    "Vernikos, Giorgos  and\nPopescu-Belis, Andrei"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Neural machine translation systems estimate probabilities of target sentences given source sentences, yet these estimates may not align with human preferences. This work introduces QE-fusion, a method that synthesizes translations using a quality estimation metric (QE), which correlates better with human judgments. QE-fusion leverages a pool of candidates sampled from a model, combining spans from different candidates using a QE metric such as CometKiwi. We compare QE-fusion against beam search and recent reranking techniques, such as Minimum Bayes Risk decoding or QE-reranking. Our method consistently improves translation quality in terms of COMET and BLEURT scores when applied to large language models (LLMs) used for translation (PolyLM, XGLM, Llama2, Mistral, ALMA, and Tower) and to multilingual translation models (NLLB), over five language pairs. Notably, QE-fusion exhibits larger improvements for LLMs due to their ability to generate diverse outputs. We demonstrate that our approach generates novel translations in over half of the cases and consistently outperforms other methods across varying numbers of candidates (5–200). Furthermore, we empirically establish that QE-fusion scales linearly with the number of candidates in the pool.",
+  "keywords": [
+    "bleurt",
+    "we",
+    "fusion",
+    "translation",
+    "neural",
+    "comet and bleurt scores",
+    "llms",
+    "machine translation hypotheses",
+    "metric",
+    "multilingual translation models",
+    "-",
+    "large language models llms",
+    "translation quality",
+    "novel translations",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.653/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:43:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

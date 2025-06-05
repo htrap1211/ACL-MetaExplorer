@@ -1,0 +1,33 @@
+{
+  "id": "2023.repl4nlp-1.13",
+  "title": "Hierarchical Multi-Instance Multi-Label Learning for Detecting Propaganda Techniques",
+  "authors": [
+    "Chen, Anni  and\nDhingra, Bhuwan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 8th Workshop on Representation Learning for NLP (RepL4NLP 2023)",
+  "abstract": "Since the introduction of the SemEval 2020 Task 11 (CITATION), several approaches have been proposed in the literature for classifying propagandabased on the rhetorical techniques used to influence readers. These methods, however, classify one span at a time, ignoring dependencies from the labels of other spans within the same context. In this paper, we approach propaganda technique classification as aMulti-Instance Multi-Label (MIML) learning problem (CITATION) and propose a simple RoBERTa-based model (CITATION) for classifying all spans in an article simultaneously. Further, we note that, due to the annotation process whereannotators classified the spans by following a decision tree,there is an inherent hierarchical relationship among the differenttechniques, which existing approaches ignore. We incorporate these hierarchical label dependencies by adding an auxiliary classifier for each node in the decision tree to the training objective and ensembling the predictions from the original and auxiliary classifiers at test time. Overall, our model leads to an absolute improvement of 2.47% micro-F1 over the model from the shared task winning team in a cross-validation setup and is the best performing non-ensemble model on the shared task leaderboard.",
+  "keywords": [
+    "roberta",
+    "validation",
+    "propaganda technique classification",
+    "f1",
+    "classifier",
+    "classifiers",
+    "the training objective",
+    "we",
+    "a cross-validation setup",
+    "training",
+    "classification",
+    "cross",
+    "ensemble",
+    "hierarchical multi-instance multi-label learning",
+    "dependencies"
+  ],
+  "url": "https://aclanthology.org/2023.repl4nlp-1.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

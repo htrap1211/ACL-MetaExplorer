@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.700",
+  "title": "Enhancing Cross-lingual Prompting with Dual Prompt Augmentation",
+  "authors": [
+    "Zhou, Meng  and\nLi, Xin  and\nJiang, Yue  and\nBing, Lidong"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Prompting shows promising results in few-shot scenarios. However, its strength for multilingual/cross-lingual problems has not been fully exploited. hao and Schütze (2021) made initial explorations in this direction by presenting that cross-lingual prompting outperforms cross-lingual finetuning. In this paper, we conduct an empirical exploration on the effect of each component in cross-lingual prompting and derive Universal Prompting, which helps alleviate the discrepancies between source-language training and target-language inference. Based on this, we propose DPA, a dual prompt augmentation framework, aiming at relieving the data scarcity issue in few-shot cross-lingual prompting. Notably, for XNLI, our method achieves 46.54% with only 16 English training examples per class, significantly better than 34.99% of fine-tuning. Our code is available athttps://github.com/DAMO-NLP-SG/DPA.",
+  "keywords": [
+    "cross",
+    "few-shot scenarios",
+    "code",
+    "prompt",
+    "language",
+    "the discrepancies",
+    "nlp",
+    "class",
+    "that cross-lingual prompting outperforms",
+    "prompting",
+    "fine",
+    "discrepancies",
+    "we",
+    "dual prompt augmentation",
+    "cross-lingual prompting"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.700/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

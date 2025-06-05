@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.416",
+  "title": "Turning Tables: Generating Examples from Semi-structured Tables for Endowing Language Models with Reasoning Skills",
+  "authors": [
+    "Yoran, Ori  and\nTalmor, Alon  and\nBerant, Jonathan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Models pre-trained with a language modeling objective possess ample world knowledge and language skills, but are known to struggle in tasks that require reasoning. In this work, we propose to leverage semi-structured tables, and automatically generate at scale question-paragraph pairs, where answering the question requires reasoning over multiple facts in the paragraph. We add a pre-training step over this synthetic data, which includes examples that require 16 different reasoning skills such as number comparison, conjunction, and fact composition. To improve data efficiency, we sample examples from reasoning skills where the model currently errs. We evaluate our approach on three reasoning-focused reading comprehension datasets, and show that our model, PReasM, substantially outperforms T5, a popular pre-trained encoder-decoder model. Moreover, sampling examples based on model errors leads to faster training and higher performance.",
+  "keywords": [
+    "work",
+    "knowledge",
+    "language",
+    "model",
+    "objective",
+    "language models",
+    "modeling",
+    "data efficiency",
+    "encoder",
+    "decoder",
+    "question",
+    "efficiency",
+    "we",
+    "pre",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.416/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:29:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

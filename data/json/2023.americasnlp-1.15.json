@@ -1,0 +1,33 @@
+{
+  "id": "2023.americasnlp-1.15",
+  "title": "Finding words that aren{'}t there: Using word embeddings to improve dictionary search for low-resource languages",
+  "authors": [
+    "Arppe, Antti  and\nNeitsch, Andrew  and\nDacanay, Daniel  and\nPoulin, Jolene  and\nHieber, Daniel  and\nHarrigan, Atticus"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the Workshop on Natural Language Processing for Indigenous Languages of the Americas (AmericasNLP)",
+  "abstract": "Modern machine learning techniques have produced many impressive results in language technology, but these techniques generally require an amount of training data that is many orders of magnitude greater than what exists for low-resource languages in general, and endangered ones in particular. However, dictionary definitions in a comparatively much more well-resourced majority language can provide a link between low-resource languages and machine learning models trained on massive amounts of majority-language data. By leveraging a pre-trained English word embedding to compute sentence embeddings for definitions in bilingual dictionaries for four Indigenous languages spoken in North America, Plains Cree (nhiyawwin), Arapaho (Hinno’itit), Northern Haida (Xaad Kl), and Tsuut’ina (Tst’n), we have obtained promising results for dictionary search. Not only are the search results in the majority language of the definitions more relevant, but they can be semantically relevant in ways not achievable with classic information retrieval techniques: users can perform successful searches for words that do not occur at all in the dictionary. These techniques are directly applicable to any bilingual dictionary providing translations between a high- and low-resource language.",
+  "keywords": [
+    "achievable",
+    "we",
+    "training",
+    "machine learning models",
+    "retrieval",
+    "information",
+    "word",
+    "learning",
+    "word embeddings",
+    "embeddings",
+    "general",
+    "dictionaries",
+    "language",
+    "machine",
+    "bilingual dictionaries"
+  ],
+  "url": "https://aclanthology.org/2023.americasnlp-1.15/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:21:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

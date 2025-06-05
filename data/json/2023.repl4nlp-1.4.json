@@ -1,0 +1,33 @@
+{
+  "id": "2023.repl4nlp-1.4",
+  "title": "A Multilingual Evaluation of {NER} Robustness to Adversarial Inputs",
+  "authors": [
+    "Srinivasan, Akshay  and\nVajjala, Sowmya"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 8th Workshop on Representation Learning for NLP (RepL4NLP 2023)",
+  "abstract": "Adversarial evaluations of language models typically focus on English alone. In this paper, we performed a multilingual evaluation of Named Entity Recognition (NER) in terms of its robustness to small perturbations in the input. Our results showed the NER models we explored across three languages (English, German and Hindi) are not very robust to such changes, as indicated by the fluctuations in the overall F1 score as well as in a more fine-grained evaluation. With that knowledge, we further explored whether it is possible to improve the existing NER models using a part of the generated adversarial data sets as augmented training data to train a new NER model or as fine-tuning data to adapt an existing NER model. Our results showed that both these approaches improve performance on the original as well as adversarial test sets. While there is no significant difference between the two approaches for English, re-training is significantly better than fine-tuning for German and Hindi.",
+  "keywords": [
+    "ner",
+    "adversarial inputs adversarial evaluations",
+    "knowledge",
+    "the existing ner models",
+    "language",
+    "model",
+    "the ner models",
+    "it",
+    "evaluations",
+    "language models",
+    "-",
+    "a multilingual evaluation",
+    "ner robustness",
+    "a new ner model",
+    "a more fine-grained evaluation"
+  ],
+  "url": "https://aclanthology.org/2023.repl4nlp-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

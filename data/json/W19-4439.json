@@ -1,0 +1,33 @@
+{
+  "id": "W19-4439",
+  "title": "Simple Construction of Mixed-Language Texts for Vocabulary Learning",
+  "authors": [
+    "Renduchintala, Adithya  and\nKoehn, Philipp  and\nEisner, Jason"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourteenth Workshop on Innovative Use of NLP for Building Educational Applications",
+  "abstract": "We present a machine foreign-language teacher that takes documents written in a student’s native language and detects situations where it can replace words with their foreign glosses such that new foreign vocabulary can be learned simply through reading the resulting mixed-language text. We show that it is possible to design such a machine teacher without any supervised data from (human) students. We accomplish this by modifying a cloze language model to incrementally learn new vocabulary items, and use this language model as a proxy for the word guessing and learning ability of real students. Our machine foreign-language teacher decides which subset of words to replace by consulting this language model. We evaluate three variants of our student proxy language models through a study on Amazon Mechanical Turk (MTurk). We find that MTurk “students” were able to guess the meanings of foreign words introduced by the machine teacher with high accuracy for both function words as well as content words in two out of the three models. In addition, we show that students are able to retain their knowledge about the foreign words after they finish reading the document.",
+  "keywords": [
+    "we",
+    "it",
+    "high accuracy",
+    "word",
+    "learning",
+    "a cloze language model",
+    "this language model",
+    "text",
+    "function",
+    "accuracy",
+    "knowledge",
+    "language",
+    "model",
+    "machine",
+    "human"
+  ],
+  "url": "https://aclanthology.org/W19-4439/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:55:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

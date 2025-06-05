@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.166",
+  "title": "U}o{R} at {S}em{E}val-2021 Task 7: Utilizing Pre-trained {D}istil{BERT} Model and Multi-scale {CNN} for Humor Detection",
+  "authors": [
+    "Liu, Zehao  and\nHaines, Carl  and\nLiang, Huizhi"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "Humour detection is an interesting but difficult task in NLP. Because humorous might not be obvious in text, it can be embedded into context, hide behind the literal meaning and require prior knowledge to understand. We explored different shallow and deep methods to create a humour detection classifier for task 7-1a. Models like Logistic Regression, LSTM, MLP, CNN were used, and pre-trained models like DistilBert were introduced to generate accurate vector representation for textual data. We focused on applying multi-scale strategy on modelling, and compared different models. Our best model is the DistilBERT+MultiScale CNN, it used different sizes of CNN kernel to get multiple scales of features, which achieved 93.7% F1-score and 92.1% accuracy on the test set.",
+  "keywords": [
+    "deep",
+    "classifier",
+    "kernel",
+    "we",
+    "lstm",
+    "cnn",
+    "accurate vector representation",
+    "it",
+    "92 1 accuracy",
+    "93 7 f1-score",
+    "vector",
+    "bert",
+    "text",
+    "the distilbert multiscale cnn",
+    "cnn kernel"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.166/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

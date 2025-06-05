@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.234",
+  "title": "Competence-based Multimodal Curriculum Learning for Medical Report Generation",
+  "authors": [
+    "Liu, Fenglin  and\nGe, Shen  and\nWu, Xian"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Medical report generation task, which targets to produce long and coherent descriptions of medical images, has attracted growing research interests recently. Different from the general image captioning tasks, medical report generation is more challenging for data-driven neural models. This is mainly due to 1) the serious data bias and 2) the limited medical data. To alleviate the data bias and make best use of available data, we propose a Competence-based Multimodal Curriculum Learning framework (CMCL). Specifically, CMCL simulates the learning process of radiologists and optimizes the model in a step by step manner. Firstly, CMCL estimates the difficulty of each training instance and evaluates the competence of current model; Secondly, CMCL selects the most suitable batch of training instances considering current model competence. By iterating above two steps, CMCL can gradually improve the model’s performance. The experiments on the public IU-Xray and MIMIC-CXR datasets show that CMCL can be incorporated into existing models to improve their performance.",
+  "keywords": [
+    "bias",
+    "we",
+    "current",
+    "training",
+    "neural",
+    "the data bias",
+    "learning",
+    "manner",
+    "the serious data bias",
+    "general",
+    "process",
+    "step manner",
+    "generation",
+    "model",
+    "batch"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.234/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:02:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

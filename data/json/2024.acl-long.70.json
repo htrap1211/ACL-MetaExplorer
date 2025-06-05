@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.70",
+  "title": "D}eep{S}eek{M}o{E}: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models",
+  "authors": [
+    "Dai, Damai  and\nDeng, Chengqi  and\nZhao, Chenggang  and\nXu, R.x.  and\nGao, Huazuo  and\nChen, Deli  and\nLi, Jiashi  and\nZeng, Wangding  and\nYu, Xingkai  and\nWu, Y.  and\nXie, Zhenda  and\nLi, Y.k.  and\nHuang, Panpan  and\nLuo, Fuli  and\nRuan, Chong  and\nSui, Zhifang  and\nLiang, Wenfeng"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In the era of large language models, Mixture-of-Experts (MoE) is a promising architecture for managing computational costs when scaling up model parameters. However, conventional MoE architectures like GShard, which activate the top-Kout ofNexperts, face challenges in ensuring expert specialization, i.e. each expert acquires non-overlapping and focused knowledge. In response, we propose the DeepSeekMoE architecture towards ultimate expert specialization. It involves two principal strategies: (1) finely segmenting the experts intomNones and activatingmKfrom them, allowing for a more flexible combination of activated experts; (2) isolatingKsexperts as shared ones, aiming at capturing common knowledge and mitigating redundancy in routed experts. Starting from a modest scale with 2B parameters, we demonstrate that DeepSeekMoE 2B achieves comparable performance with GShard 2.9B, which has 1.5×expert parameters and computation. In addition, DeepSeekMoE 2B nearly approaches the performance of its dense counterpart with the same number of total parameters, which sets the upper bound of MoE models. Subsequently, we scale up DeepSeekMoE to 16B parameters and show that it achieves comparable performance with DeepSeek 7B and LLaMA2 7B, with only about 40% of computations.",
+  "keywords": [
+    "era",
+    "we",
+    "it",
+    "m",
+    "i",
+    "strategies",
+    "two principal strategies",
+    "knowledge",
+    "language",
+    "model",
+    "eep",
+    "large language models",
+    "promising",
+    "upper",
+    "1 5 expert parameters"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.70/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:35:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

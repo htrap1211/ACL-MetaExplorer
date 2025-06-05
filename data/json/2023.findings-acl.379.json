@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.379",
+  "title": "Negation Scope Refinement via Boundary Shift Loss",
+  "authors": [
+    "Wu, Yin  and\nSun, Aixin"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Negation in natural language may affect many NLP applications, e.g., information extraction and sentiment analysis. The key sub-task of negation detection is negation scope resolution which aims to extract the portion of a sentence that is being negated by a negation cue (e.g., keyword “not” and never”) in the sentence. Due to the long spans, existing methods tend to make wrong predictions around the scope boundaries. In this paper, we propose a simple yet effective model named R-BSL which engages the Boundary Shift Loss to refine the predicted boundary. On multiple benchmark datasets, we show that the extremely simple R-BSL achieves best results.",
+  "keywords": [
+    "language",
+    "nlp",
+    "natural",
+    "extraction",
+    "model",
+    "boundaries",
+    "-",
+    "loss",
+    "information",
+    "the scope boundaries",
+    "we",
+    "natural language",
+    "analysis",
+    "that",
+    "applications"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.379/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

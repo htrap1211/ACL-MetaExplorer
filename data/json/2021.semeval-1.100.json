@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.100",
+  "title": "G}loss{R}eader at {S}em{E}val-2021 Task 2: Reading Definitions Improves Contextualized Word Embeddings",
+  "authors": [
+    "Rachinskiy, Maxim  and\nArefyev, Nikolay"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "Consulting a dictionary or a glossary is a familiar way for many humans to figure out what does a word in a particular context mean. We hypothesize that a system that can select a proper definition for a particular word occurrence can also naturally solve tasks related to word senses. To verify this hypothesis we developed a solution for the Multilingual and Cross-lingual Word-in-Context (MCL-WiC) task, that does not use any of the shared task data or other WiC data for training. Instead, it is trained to embed word definitions from English WordNet and word occurrences in English texts into the same vector space following an approach previously proposed for Word Sense Disambiguation (WSD). To estimate the similarity in meaning of two word occurrences, we compared different metrics in this shared vector space and found that L1-distance between normalized contextualized word embeddings outperforms traditionally employed cosine similarity and several other metrics. To solve the task for languages other than English, we rely on zero-shot cross-lingual transfer capabilities of the multilingual XLM-R masked language model. Despite not using MCL-WiC training data, in the shared task our approach achieves an accuracy of 89.5% on the English test set, which is only 4% less than the best system. In the multilingual subtask zero-shot cross-lingual transfer shows competitive results, that are within 2% from the best systems for Russian, French, and Arabic. In the cross-lingual subtask are within 2-4% from the best systems.",
+  "keywords": [
+    "zero-shot cross-lingual transfer capabilities",
+    "we",
+    "training",
+    "cross",
+    "it",
+    "loss",
+    "word",
+    "transfer",
+    "contextualized word embeddings",
+    "vector",
+    "the same vector space",
+    "metrics",
+    "an accuracy",
+    "wordnet",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.100/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

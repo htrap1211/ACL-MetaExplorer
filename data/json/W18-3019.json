@@ -1,0 +1,33 @@
+{
+  "id": "W18-3019",
+  "title": "Characters or Morphemes: How to Represent Words?",
+  "authors": [
+    "{\\\"U}st{\\\"u}n, Ahmet  and\nKurfal{\\i}, Murathan  and\nCan, Burcu"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the Third Workshop on Representation Learning for {NLP}",
+  "abstract": "In this paper, we investigate the effects of using subword information in representation learning. We argue that using syntactic subword units effects the quality of the word representations positively. We introduce a morpheme-based model and compare it against to word-based, character-based, and character n-gram level models. Our model takes a list of candidate segmentations of a word and learns the representation of the word based on different segmentations that are weighted by an attention mechanism. We performed experiments on Turkish as a morphologically rich language and English with a comparably poorer morphology. The results show that morpheme-based models are better at learning word representations of morphologically complex languages compared to character-based and character n-gram level models since the morphemes help to incorporate more syntactic knowledge in learning, that makes morpheme-based models better at syntactic tasks.",
+  "keywords": [
+    "knowledge",
+    "language",
+    "model",
+    "it",
+    "information",
+    "rich",
+    "we",
+    "learning",
+    "word",
+    "attention",
+    "an attention mechanism",
+    "that",
+    "poorer",
+    "morphology",
+    "characters"
+  ],
+  "url": "https://aclanthology.org/W18-3019/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:25:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

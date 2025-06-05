@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.455",
+  "title": "Few-shot Low-resource Knowledge Graph Completion with Reinforced Task Generation",
+  "authors": [
+    "Pei, Shichao  and\nZhang, Qiannan  and\nZhang, Xiangliang"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Despite becoming a prevailing paradigm for organizing knowledge, most knowledge graphs (KGs) suffer from the low-resource issue due to the deficiency of data sources. The enrichment of KGs by automatic knowledge graph completion is impeded by the intrinsic long-tail property of KGs. In spite of their prosperity, existing few-shot learning-based models have difficulty alleviating the impact of the long-tail issue on low-resource KGs because of the lack of training tasks. To tackle the challenging long-tail issue on low-resource KG completion, in this paper, we propose a novel few-shot low-resource knowledge graph completion framework, which is composed of three components, i.e., few-shot learner, task generator, and task selector. The key idea is to generate and then select the beneficial few-shot tasks that complement the current tasks and enable the optimization of the few-shot learner using the selected few-shot tasks. Extensive experiments conducted on several real-world knowledge graphs validate the effectiveness of our proposed method.",
+  "keywords": [
+    "low-resource kgs",
+    "we",
+    "low-resource kg completion",
+    "the optimization",
+    "graph",
+    "current",
+    "shot",
+    "training",
+    "deficiency",
+    "the selected few-shot tasks",
+    "learning",
+    "kgs",
+    "existing few-shot learning-based models",
+    "automatic knowledge graph completion",
+    "i"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.455/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

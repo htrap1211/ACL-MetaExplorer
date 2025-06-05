@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.498",
+  "title": "Improving Empathetic Dialogue Generation by Dynamically Infusing Commonsense Knowledge",
+  "authors": [
+    "Cai, Hua  and\nShen, Xuli  and\nXu, Qing  and\nShen, Weilin  and\nWang, Xiaomei  and\nGe, Weifeng  and\nZheng, Xiaoqing  and\nXue, Xiangyang"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In empathetic conversations, individuals express their empathy towards others. Previous work has mainly focused on generating empathetic responses by utilizing the speaker’s emotion. Besides, external commonsense knowledge has been applied to enhance the system’s understandings of the speaker’s situation. However, given an event, commonsense knowledge base contains various relations, potentially leading to confusion for the dialogue system. Consequently, inconsistencies arise among the emotion, generated response and speaker’s contextual information. To this end, we propose a novel approach for empathetic response generation, which incorporates an adaptive module for commonsense knowledge selection to ensure consistency between the generated empathetic responses and the speaker’s situation. This selected knowledge is used to refine the commonsense cognition and empathy expression for generated responses. Experimental results show that our approach significantly outperforms baseline models in both automatic and human evaluations, exhibiting the generation of more coherent and empathetic responses. Moreover, case studies highlight the interpretability of knowledge selection in the responses and the effectiveness of adaptive module in our model. Code:https://github.com/Hanscal/DCKS.",
+  "keywords": [
+    "code",
+    "end",
+    "conversations",
+    "the generation",
+    "we",
+    "dialogue",
+    "confusion",
+    "generated responses experimental results",
+    "empathetic response generation",
+    "consequently inconsistencies",
+    "information",
+    "empathetic dialogue generation",
+    "empathetic conversations individuals",
+    "moreover case studies",
+    "the generated empathetic responses"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.498/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

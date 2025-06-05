@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.47",
+  "title": "Test-time Adaptation for Machine Translation Evaluation by Uncertainty Minimization",
+  "authors": [
+    "Zhan, Runzhe  and\nLiu, Xuebo  and\nWong, Derek F.  and\nZhang, Cuilian  and\nChao, Lidia S.  and\nZhang, Min"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The neural metrics recently received considerable attention from the research community in the automatic evaluation of machine translation. Unlike text-based metrics that have interpretable and consistent evaluation mechanisms for various data sources, the reliability of neural metrics in assessing out-of-distribution data remains a concern due to the disparity between training data and real-world data. This paper aims to address the inference bias of neural metrics through uncertainty minimization during test time, without requiring additional data. Our proposed method comprises three steps: uncertainty estimation, test-time adaptation, and inference. Specifically, the model employs the prediction uncertainty of the current data as a signal to update a small fraction of parameters during test time and subsequently refine the prediction through optimization. To validate our approach, we apply the proposed method to three representative models and conduct experiments on the WMT21 benchmarks. The results obtained from both in-domain and out-of-distribution evaluations consistently demonstrate improvements in correlation performance across different models. Furthermore, we provide evidence that the proposed method effectively reduces model uncertainty. The code is publicly available athttps://github.com/NLP2CT/TaU.",
+  "keywords": [
+    "code",
+    "bias",
+    "machine translation",
+    "we",
+    "the inference bias",
+    "nlp2ct",
+    "current",
+    "training",
+    "translation",
+    "the neural metrics",
+    "neural",
+    "neural metrics",
+    "considerable attention",
+    "text",
+    "metrics"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.47/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:35:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

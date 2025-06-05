@@ -1,0 +1,33 @@
+{
+  "id": "P18-1015",
+  "title": "Retrieve, Rerank and Rewrite: Soft Template Based Neural Summarization",
+  "authors": [
+    "Cao, Ziqiang  and\nLi, Wenjie  and\nLi, Sujian  and\nWei, Furu"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Most previous seq2seq summarization systems purely depend on the source text to generate summaries, which tends to work unstably. Inspired by the traditional template-based summarization approaches, this paper proposes to use existing summaries as soft templates to guide the seq2seq model. To this end, we use a popular IR platform to Retrieve proper summaries as candidate templates. Then, we extend the seq2seq framework to jointly conduct template Reranking and template-aware summary generation (Rewriting). Experiments show that, in terms of informativeness, our model significantly outperforms the state-of-the-art methods, and even soft templates themselves demonstrate high competitiveness. In addition, the import of high-quality external summaries improves the stability and readability of generated summaries.",
+  "keywords": [
+    "the seq2seq framework",
+    "generated summaries",
+    "seq2seq",
+    "existing summaries",
+    "summaries",
+    "end",
+    "generation",
+    "neural",
+    "proper summaries",
+    "the seq2seq model",
+    "retrieve",
+    "model",
+    "text",
+    "neural summarization",
+    "retrieve rerank"
+  ],
+  "url": "https://aclanthology.org/P18-1015/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:09:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

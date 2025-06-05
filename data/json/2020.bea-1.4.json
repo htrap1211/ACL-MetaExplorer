@@ -1,0 +1,33 @@
+{
+  "id": "2020.bea-1.4",
+  "title": "Complementary Systems for Off-Topic Spoken Response Detection",
+  "authors": [
+    "Raina, Vatsal  and\nGales, Mark  and\nKnill, Kate"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the Fifteenth Workshop on Innovative Use of NLP for Building Educational Applications",
+  "abstract": "Increased demand to learn English for business and education has led to growing interest in automatic spoken language assessment and teaching systems. With this shift to automated approaches it is important that systems reliably assess all aspects of a candidate’s responses. This paper examines one form of spoken language assessment; whether the response from the candidate is relevant to the prompt provided. This will be referred to as off-topic spoken response detection. Two forms of previously proposed approaches are examined in this work: the hierarchical attention-based topic model (HATM); and the similarity grid model (SGM). The work focuses on the scenario when the prompt, and associated responses, have not been seen in the training data, enabling the system to be applied to new test scripts without the need to collect data or retrain the model. To improve the performance of the systems for unseen prompts, data augmentation based on easy data augmentation (EDA) and translation based approaches are applied. Additionally for the HATM, a form of prompt dropout is described. The systems were evaluated on both seen and unseen prompts from Linguaskill Business and General English tests. For unseen data the performance of the HATM was improved using data augmentation, in contrast to the SGM where no gains were obtained. The two approaches were found to be complementary to one another, yielding a combined F0.5 score of 0.814 for off-topic response detection where the prompts have not been seen in training.",
+  "keywords": [
+    "translation based approaches",
+    "form",
+    "training",
+    "translation",
+    "it",
+    "the prompts",
+    "unseen prompts",
+    "prompt",
+    "topic",
+    "work",
+    "prompts",
+    "unseen prompts data augmentation",
+    "hierarchical",
+    "general",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2020.bea-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:54:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

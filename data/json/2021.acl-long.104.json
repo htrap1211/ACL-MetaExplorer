@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.104",
+  "title": "Diverse Pretrained Context Encodings Improve Document Translation",
+  "authors": [
+    "Donato, Domenic  and\nYu, Lei  and\nDyer, Chris"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "We propose a new architecture for adapting a sentence-level sequence-to-sequence transformer by incorporating multiple pre-trained document context signals and assess the impact on translation performance of (1) different pretraining approaches for generating these signals, (2) the quantity of parallel data for which document context is available, and (3) conditioning on source, target, or source and target contexts. Experiments on the NIST Chinese-English, and IWSLT and WMT English-German tasks support four general conclusions: that using pre-trained context representations markedly improves sample efficiency, that adequate parallel data resources are crucial for learning to use document context, that jointly conditioning on multiple context representations outperforms any single representation, and that source context is more valuable for translation performance than target side context. Our best multi-context model consistently outperforms the best existing context-aware transformers.",
+  "keywords": [
+    "transformer",
+    "document translation",
+    "general",
+    "transformers",
+    "four general conclusions",
+    "model",
+    "sample efficiency",
+    "efficiency",
+    "sequence",
+    "we",
+    "pre",
+    "translation performance",
+    "translation",
+    "that",
+    "pretraining"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.104/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:00:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

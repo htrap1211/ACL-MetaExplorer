@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.467",
+  "title": "Mitigating Boundary Ambiguity and Inherent Bias for Text Classification in the Era of Large Language Models",
+  "authors": [
+    "Lu, Zhenyi  and\nTian, Jie  and\nWei, Wei  and\nQu, Xiaoye  and\nCheng, Yu  and\nXie, Wenfeng  and\nChen, Dangyang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Text classification is a crucial task encountered frequently in practical scenarios, yet it is still under-explored in the era of large language models (LLMs). This study shows that LLMs are vulnerable to changes in the number and arrangement of options in text classification. Our extensive empirical analyses reveal that the key bottleneck arises from ambiguous decision boundaries and inherent biases towards specific tokens and positions.To mitigate these issues, we make the first attempt and propose a novel two-stage classification framework for LLMs. Our approach is grounded in the empirical observation that pairwise comparisons can effectively alleviate boundary ambiguity and inherent bias. Specifically, we begin with a self-reduction technique to efficiently narrow down numerous options, which contributes to reduced decision space and a faster comparison process. Subsequently, pairwise contrastive comparisons are employed in a chain-of-thought manner to draw out nuances and distinguish confusable options, thus refining the ambiguous decision boundary.Extensive experiments on four datasets (Banking77, HWU64, LIU54, and Clinic150) verify the effectiveness of our framework. Furthermore, benefitting from our framework, various LLMs can achieve consistent improvements. Our code and data are available inhttps://github.com/Chuge0335/PC-CoT.",
+  "keywords": [
+    "code",
+    "bias",
+    "chain",
+    "era",
+    "we",
+    "inherent bias",
+    "classification",
+    "inherent biases",
+    "cot",
+    "it",
+    "self",
+    "vulnerable",
+    "text classification",
+    "manner",
+    "reduction"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.467/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

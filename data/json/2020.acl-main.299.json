@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.299",
+  "title": "A Span-based Linearization for Constituent Trees",
+  "authors": [
+    "Wei, Yang  and\nWu, Yuanbin  and\nLan, Man"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We propose a novel linearization of a constituent tree, together with a new locally normalized model. For each split point in a sentence, our model computes the normalizer on all spans ending with that split point, and then predicts a tree span from them. Compared with global models, our model is fast and parallelizable. Different from previous local models, our linearization method is tied on the spans directly and considers more local features when performing span prediction, which is more interpretable and effective. Experiments on PTB (95.8 F1) and CTB (92.4 F1) show that our model significantly outperforms existing local models and efficiently achieves competitive results with global models.",
+  "keywords": [
+    "92 4 f1 show",
+    "ptb 95 8 f1",
+    "model",
+    "we",
+    "fast",
+    "split",
+    "previous local models",
+    "constituent",
+    "global",
+    "new",
+    "span",
+    "existing local models",
+    "more local features",
+    "previous",
+    "competitive"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.299/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:46:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

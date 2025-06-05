@@ -1,0 +1,33 @@
+{
+  "id": "W18-2305",
+  "title": "Identifying Key Sentences for Precision Oncology Using Semi-Supervised Learning",
+  "authors": [
+    "{\\v{S}}eva, Jurica  and\nWackerbauer, Martin  and\nLeser, Ulf"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the {B}io{NLP} 2018 workshop",
+  "abstract": "We present a machine learning pipeline that identifies key sentences in abstracts of oncological articles to aid evidence-based medicine. This problem is characterized by the lack of gold standard datasets, data imbalance and thematic differences between available silver standard corpora. Additionally, available training and target data differs with regard to their domain (professional summaries vs. sentences in abstracts). This makes supervised machine learning inapplicable. We propose the use of two semi-supervised machine learning approaches: To mitigate difficulties arising from heterogeneous data sources, overcome data imbalance and create reliable training data we propose using transductive learning from positive and unlabelled data (PU Learning). For obtaining a realistic classification model, we propose the use of abstracts summarised in relevant sentences as unlabelled examples through Self-Training. The best model achieves 84% accuracy and 0.84 F1 score on our dataset",
+  "keywords": [
+    "precision oncology",
+    "precision",
+    "we",
+    "their domain professional summaries",
+    "84 accuracy",
+    "training",
+    "classification",
+    "self",
+    "learning",
+    "difficulties",
+    "a machine learning pipeline",
+    "accuracy",
+    "summaries",
+    "model",
+    "machine"
+  ],
+  "url": "https://aclanthology.org/W18-2305/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:21:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

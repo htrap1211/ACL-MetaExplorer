@@ -1,0 +1,33 @@
+{
+  "id": "2020.autosimtrans-1.2",
+  "title": "End-to-End Speech Translation with Adversarial Training",
+  "authors": [
+    "Li, Xuancai  and\nKehai, Chen  and\nZhao, Tiejun  and\nYang, Muyun"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the First Workshop on Automatic Simultaneous Translation",
+  "abstract": "End-to-End speech translation usually leverages audio-to-text parallel data to train an available speech translation model which has shown impressive results on various speech translation tasks. Due to the artificial cost of collecting audio-to-text parallel data, the speech translation is a natural low-resource translation scenario, which greatly hinders its improvement. In this paper, we proposed a new adversarial training method to leverage target monolingual data to relieve the low-resource shortcoming of speech translation. In our method, the existing speech translation model is considered as a Generator to gain a target language output, and another neural Discriminator is used to guide the distinction between outputs of speech translation model and true target monolingual sentences. Experimental results on the CCMT 2019-BSTC dataset speech translation task demonstrate that the proposed methods can significantly improve the performance of the End-to-End speech translation system.",
+  "keywords": [
+    "end",
+    "language",
+    "neural",
+    "a generator",
+    "natural",
+    "model",
+    "text",
+    "various speech translation tasks",
+    "the speech translation",
+    "we",
+    "speech translation",
+    "speech translation model",
+    "training",
+    "translation",
+    "generator"
+  ],
+  "url": "https://aclanthology.org/2020.autosimtrans-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:54:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

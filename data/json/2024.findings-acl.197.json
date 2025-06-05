@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.197",
+  "title": "T}ime{C}hara: Evaluating Point-in-Time Character Hallucination of Role-Playing Large Language Models",
+  "authors": [
+    "Ahn, Jaewoo  and\nLee, Taehyun  and\nLim, Junyoung  and\nKim, Jin-Hwa  and\nYun, Sangdoo  and\nLee, Hwaran  and\nKim, Gunhee"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "While Large Language Models (LLMs) can serve as agents to simulate human behaviors (i.e., role-playing agents), we emphasize the importance of point-in-time role-playing. This situates characters at specific moments in the narrative progression for three main reasons: (i) enhancing users’ narrative immersion, (ii) avoiding spoilers, and (iii) fostering engagement in fandom role-playing. To accurately represent characters at specific time points, agents must avoid character hallucination, where they display knowledge that contradicts their characters’ identities and historical timelines. We introduce TimeChara, a new benchmark designed to evaluate point-in-time character hallucination in role-playing LLMs. Comprising 10,895 instances generated through an automated pipeline, this benchmark reveals significant hallucination issues in current state-of-the-art LLMs (e.g., GPT-4o). To counter this challenge, we propose Narrative-Experts, a method that decomposes the reasoning steps and utilizes narrative experts to reduce point-in-time character hallucinations effectively. Still, our findings with TimeChara highlight the ongoing challenges of point-in-time character hallucination, calling for further study.",
+  "keywords": [
+    "ime",
+    "identities",
+    "we",
+    "current",
+    "e",
+    "g gpt-4o",
+    "llms",
+    "i",
+    "gpt-4o",
+    "large language models llms",
+    "their characters identities",
+    "knowledge",
+    "language",
+    "human",
+    "large language models"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.197/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

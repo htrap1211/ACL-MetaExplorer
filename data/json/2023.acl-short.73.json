@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.73",
+  "title": "Token-Level Self-Evolution Training for Sequence-to-Sequence Learning",
+  "authors": [
+    "Peng, Keqin  and\nDing, Liang  and\nZhong, Qihuang  and\nOuyang, Yuanxin  and\nRong, Wenge  and\nXiong, Zhang  and\nTao, Dacheng"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Adaptive training approaches, widely used in sequence-to-sequence models, commonly reweigh the losses of different target tokens based on priors, e.g. word frequency. However, most of them do not consider the variation of learning difficulty in different training steps, and overly emphasize the learning of difficult one-hot labels, making the learning deterministic and sub-optimal. In response, we present Token-Level Self-Evolution Training (SE), a simple and effective dynamic training method to fully and wisely exploit the knowledge from data. SE focuses on dynamically learning the under-explored tokens for each forward pass and adaptively regularizes the training by introducing a novel token-specific label smoothing approach. Empirically, SE yields consistent and significant improvements in three tasks, i.e. machine translation, summarization, and grammatical error correction. Encouragingly, we achieve averaging +0.93 BLEU improvement on three machine translation tasks. Analyses confirm that, besides improving lexical accuracy, SE enhances generation diversity and model generalization.",
+  "keywords": [
+    "bleu",
+    "model generalization",
+    "summarization",
+    "we",
+    "lexical accuracy",
+    "training",
+    "translation",
+    "self",
+    "token",
+    "three machine translation tasks",
+    "word",
+    "sequence",
+    "learning",
+    "generation diversity",
+    "generalization"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.73/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:49:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

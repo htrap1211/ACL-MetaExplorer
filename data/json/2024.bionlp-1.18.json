@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.18",
+  "title": "Using Large Language Models to Evaluate Biomedical Query-Focused Summarisation",
+  "authors": [
+    "Hijazi, Hashem  and\nMolla, Diego  and\nNguyen, Vincent  and\nKarimi, Sarvnaz"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "Biomedical question-answering systems remain popular for biomedical experts interacting with the literature to answer their medical questions. However, these systems are difficult to evaluate in the absence of costly human experts. Therefore, automatic evaluation metrics are often used in this space. Traditional automatic metrics such as ROUGE or BLEU, which rely on token overlap, have shown a low correlation with humans. We present a study that uses large language models (LLMs) to automatically evaluate systems from an international challenge on biomedical semantic indexing and question answering, called BioASQ. We measure the agreement of LLM-produced scores against human judgements. We show that LLMs correlate similarly to lexical methods when using basic prompting techniques. However, by aggregating evaluators with LLMs or by fine-tuning, we find that our methods outperform the baselines by a large margin, achieving a Spearman correlation of 0.501 and 0.511, respectively.",
+  "keywords": [
+    "biomedical semantic indexing",
+    "bleu",
+    "question",
+    "automatic evaluation metrics",
+    "semantic",
+    "we",
+    "basic prompting techniques",
+    "fine-tuning",
+    "token",
+    "llms",
+    "tuning",
+    "metrics",
+    "rouge",
+    "traditional automatic metrics",
+    "llm-produced scores"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.18/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

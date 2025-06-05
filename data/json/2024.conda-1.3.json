@@ -1,0 +1,33 @@
+{
+  "id": "2024.conda-1.3",
+  "title": "A Taxonomy for Data Contamination in Large Language Models",
+  "authors": [
+    "Palavalli, Medha  and\nBertsch, Amanda  and\nGormley, Matthew"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Data Contamination (CONDA)",
+  "abstract": "Large language models pretrained on extensive web corpora demonstrate remarkable performance across a wide range of downstream tasks. However, a growing concern is data contamination, where evaluation datasets may unintentionally be contained in the pretraining corpus, inflating model performance. Decontamination, the process of detecting and removing such data, is a potential solution; yet these contaminants may originate from altered versions of the test set, evading detection during decontamination. How different types of contamination impact the performance of language models on downstream tasks is not fully understood. We present a taxonomy that categorizes the various types of contamination encountered by LLMs during the pretraining phase and identify which types pose the highest risk. We analyze the impact of contamination on two key NLP tasks—summarization and question answering—revealing how different types of contamination influence task performance during evaluation.",
+  "keywords": [
+    "process",
+    "language",
+    "nlp",
+    "model",
+    "large language models",
+    "language models",
+    "question",
+    "summarization",
+    "we",
+    "evaluation datasets",
+    "evaluation",
+    "llms",
+    "that",
+    "contamination influence task performance",
+    "contaminants"
+  ],
+  "url": "https://aclanthology.org/2024.conda-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:05:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

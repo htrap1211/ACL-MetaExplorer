@@ -1,0 +1,33 @@
+{
+  "id": "2022.dravidianlangtech-1.23",
+  "title": "MUCS}@{D}ravidian{L}ang{T}ech@{ACL}2022: Ensemble of Logistic Regression Penalties to Identify Emotions in {T}amil Text",
+  "authors": [
+    "Hegde, Asha  and\nCoelho, Sharal  and\nShashirekha, Hosahalli"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Second Workshop on Speech and Language Technologies for Dravidian Languages",
+  "abstract": "Emotion Analysis (EA) is the process of automatically analyzing and categorizing the input text into one of the predefined sets of emotions. In recent years, people have turned to social media to express their emotions, opinions or feelings about news, movies, products, services, and so on. These users’ emotions may help the public, governments, business organizations, film producers, and others in devising strategies, making decisions, and so on. The increasing number of social media users and the increasing amount of user generated text containing emotions on social media demands automated tools for the analysis of such data as handling this data manually is labor intensive and error prone. Further, the characteristics of social media data makes the EA challenging. Most of the EA research works have focused on English language leaving several Indian languages including Tamil unexplored for this task. To address the challenges of EA in Tamil texts, in this paper, we - team MUCS, describe the model submitted to the shared task on Emotion Analysis in Tamil at DravidianLangTech@ACL 2022. Out of the two subtasks in this shared task, our team submitted the model only for Task a. The proposed model comprises of an Ensemble of Logistic Regression (LR) classifiers with three penalties, namely: L1, L2, and Elasticnet. This Ensemble model trained with Term Frequency - Inverse Document Frequency (TF-IDF) of character bigrams and trigrams secured 4th rank in Task a with a macro averaged F1-score of 0.04. The code to reproduce the proposed models is available in github1.",
+  "keywords": [
+    "code",
+    "logistic regression penalties",
+    "classifiers",
+    "penalties",
+    "ensemble",
+    "logistic regression lr classifiers",
+    "this ensemble model",
+    "a",
+    "ang",
+    "an ensemble",
+    "analysis",
+    "text",
+    "strategies",
+    "movies",
+    "news movies products services"
+  ],
+  "url": "https://aclanthology.org/2022.dravidianlangtech-1.23/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:41:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

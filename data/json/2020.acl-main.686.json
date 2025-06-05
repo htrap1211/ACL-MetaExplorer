@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.686",
+  "title": "HAT}: Hardware-Aware Transformers for Efficient Natural Language Processing",
+  "authors": [
+    "Wang, Hanrui  and\nWu, Zhanghao  and\nLiu, Zhijian  and\nCai, Han  and\nZhu, Ligeng  and\nGan, Chuang  and\nHan, Song"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Transformers are ubiquitous in Natural Language Processing (NLP) tasks, but they are difficult to be deployed on hardware due to the intensive computation. To enable low-latency inference on resource-constrained hardware platforms, we propose to design Hardware-Aware Transformers (HAT) with neural architecture search. We first construct a large design space with arbitrary encoder-decoder attention and heterogeneous layers. Then we train a SuperTransformer that covers all candidates in the design space, and efficiently produces many SubTransformers with weight sharing. Finally, we perform an evolutionary search with a hardware latency constraint to find a specialized SubTransformer dedicated to run fast on the target hardware. Extensive experiments on four machine translation tasks demonstrate that HAT can discover efficient models for different hardware (CPU, GPU, IoT device). When running WMT’14 translation task on Raspberry Pi-4, HAT can achieve 3× speedup, 3.7× smaller size over baseline Transformer; 2.7× speedup, 3.6× smaller size over Evolved Transformer with 12,041× less search cost and no performance loss. HAT is open-sourced athttps://github.com/mit-han-lab/hardware-aware-transformers.",
+  "keywords": [
+    "transformers",
+    "subtransformers",
+    "efficient",
+    "we",
+    "wmt 14 translation task",
+    "translation",
+    "a supertransformer",
+    "neural",
+    "natural",
+    "efficient models",
+    "hat hardware-aware transformers",
+    "decoder",
+    "loss",
+    "many subtransformers",
+    "supertransformer"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.686/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:51:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.226",
+  "title": "Can Watermarks Survive Translation? On the Cross-lingual Consistency of Text Watermark for Large Language Models",
+  "authors": [
+    "He, Zhiwei  and\nZhou, Binglin  and\nHao, Hongkun  and\nLiu, Aiwei  and\nWang, Xing  and\nTu, Zhaopeng  and\nZhang, Zhuosheng  and\nWang, Rui"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Text watermarking technology aims to tag and identify content produced by large language models (LLMs) to prevent misuse. In this study, we introduce the concept of cross-lingual consistency in text watermarking, which assesses the ability of text watermarks to maintain their effectiveness after being translated into other languages. Preliminary empirical results from two LLMs and three watermarking methods reveal that current text watermarking technologies lack consistency when texts are translated into various languages. Based on this observation, we propose a Cross-lingual Watermark Removal Attack (CWRA) to bypass watermarking by first obtaining a response from an LLM in a pivot language, which is then translated into the target language. CWRA can effectively remove watermarks, decreasing the AUCs to a random-guessing level without performance loss. Furthermore, we analyze two key factors that contribute to the cross-lingual consistency in text watermarking and propose X-SIR as a defense method against CWRA.",
+  "keywords": [
+    "an llm",
+    "we",
+    "current",
+    "llm",
+    "translation",
+    "cross",
+    "two llms",
+    "loss",
+    "technologies",
+    "aucs",
+    "llms",
+    "text",
+    "-",
+    "x",
+    "the aucs"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.226/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

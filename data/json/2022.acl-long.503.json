@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.503",
+  "title": "S}kip{BERT}: Efficient Inference with Shallow Layer Skipping",
+  "authors": [
+    "Wang, Jue  and\nChen, Ke  and\nChen, Gang  and\nShou, Lidan  and\nMcAuley, Julian"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this paper, we propose SkipBERT to accelerate BERT inference by skipping the computation of shallow layers. To achieve this, our approach encodes small text chunks into independent representations, which are then materialized to approximate the shallow representation of BERT. Since the use of such approximation is inexpensive compared with transformer calculations, we leverage it to replace the shallow layers of BERT to skip their runtime overhead. With off-the-shelf early exit mechanisms, we also skip redundant computation from the highest few layers to further improve inference efficiency. Results on GLUE show that our approach can reduce latency by 65% without sacrificing performance. By using only two-layer transformer calculations, we can still maintain 95% accuracy of BERT.",
+  "keywords": [
+    "transformer",
+    "95 accuracy",
+    "skipbert",
+    "bert",
+    "early",
+    "text",
+    "it",
+    "efficient",
+    "bert inference",
+    "transformer calculations",
+    "inference efficiency results",
+    "exit",
+    "layer",
+    "efficiency",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.503/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

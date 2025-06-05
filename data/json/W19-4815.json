@@ -1,0 +1,33 @@
+{
+  "id": "W19-4815",
+  "title": "Learning the {D}yck Language with Attention-based {S}eq2{S}eq Models",
+  "authors": [
+    "Yu, Xiang  and\nVu, Ngoc Thang  and\nKuhn, Jonas"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
+  "abstract": "The generalized Dyck language has been used to analyze the ability of Recurrent Neural Networks (RNNs) to learn context-free grammars (CFGs). Recent studies draw conflicting conclusions on their performance, especially regarding the generalizability of the models with respect to the depth of recursion. In this paper, we revisit several common models and experimental settings, discuss the potential problems of the tasks and analyses. Furthermore, we explore the use of attention mechanisms within the seq2seq framework to learn the Dyck language, which could compensate for the limited encoding ability of RNNs. Our findings reveal that attention mechanisms still cannot truly generalize over the recursion depth, although they perform much better than other models on the closing bracket tagging task. Moreover, this also suggests that this commonly used task is not sufficient to test a model’s understanding of CFGs.",
+  "keywords": [
+    "rnns",
+    "attention mechanisms",
+    "we",
+    "generalizability",
+    "the seq2seq framework",
+    "neural",
+    "the generalizability",
+    "sufficient",
+    "recurrent",
+    "recurrent neural networks rnns",
+    "seq2seq",
+    "recent studies",
+    "the generalized dyck language",
+    "eq2",
+    "language"
+  ],
+  "url": "https://aclanthology.org/W19-4815/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:57:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

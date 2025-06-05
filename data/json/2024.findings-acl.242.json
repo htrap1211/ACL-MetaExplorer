@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.242",
+  "title": "A Mechanistic Analysis of a Transformer Trained on a Symbolic Multi-Step Reasoning Task",
+  "authors": [
+    "Brinkmann, Jannik  and\nSheshadri, Abhay  and\nLevoso, Victor  and\nSwoboda, Paul  and\nBartelt, Christian"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Transformers demonstrate impressive performance on a range of reasoning benchmarks. To evaluate the degree to which these abilities are a result of actual reasoning, existing work has focused on developing sophisticated benchmarks for behavioral studies. However, these studies do not provide insights into the internal mechanisms driving the observed capabilities. To improve our understanding of the internal mechanisms of transformers, we present a comprehensive mechanistic analysis of a transformer trained on a synthetic reasoning task. We identify a set of interpretable mechanisms the model uses to solve the task, and validate our findings using correlational and causal evidence. Our results suggest that it implements a depth-bounded recurrent mechanisms that operates in parallel and stores intermediate results in selected token positions. We anticipate that the motifs we identified in our synthetic setting can provide valuable insights into the broader operating principles of transformers and thus provide a basis for understanding more complex models.",
+  "keywords": [
+    "transformers",
+    "these studies",
+    "we",
+    "a transformer",
+    "it",
+    "token",
+    "these abilities",
+    "recurrent",
+    "the observed capabilities",
+    "analysis",
+    "abilities",
+    "work",
+    "transformer",
+    "studies",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.242/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

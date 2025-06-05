@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.128",
+  "title": "CANDLE}: Iterative Conceptualization and Instantiation Distillation from Large Language Models for Commonsense Reasoning",
+  "authors": [
+    "Wang, Weiqi  and\nFang, Tianqing  and\nLi, Chunyang  and\nShi, Haochen  and\nDing, Wenxuan  and\nXu, Baixuan  and\nWang, Zhaowei  and\nBai, Jiaxin  and\nLiu, Xin  and\nJiayang, Cheng  and\nChan, Chunkit  and\nSong, Yangqiu"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The sequential process of conceptualization and instantiation is essential to generalizable commonsense reasoning as it allows the application of existing knowledge to unfamiliar scenarios. However, existing works tend to undervalue the step of instantiation and heavilyrely on pre-built concept taxonomies and human annotations to collect both types of knowledge, resulting in a lack of instantiated knowledge to complete reasoning, high cost, and limited scalability. To tackle these challenges, we introduce CANDLE (ConceptuAlizationand INstantiation Distillation from Large Language ModEls), a distillation framework that iteratively performs contextualized conceptualization and instantiation over commonsense knowledge bases by instructing large language models to generate both types of knowledge with critic filtering. By applying CANDLE to ATOMIC (Sap et al., 2019a), we construct a comprehensive knowledge base comprising six million conceptualizations and instantiated commonsense knowledge triples. Both types of knowledge are firmly rooted in the original ATOMIC dataset, and intrinsic evaluations demonstrate their exceptional quality and diversity. Empirical results indicate that distilling CANDLE on student models provides benefits across three downstream tasks. Our data and models are publicly available at https://github.com/HKUST-KnowComp/CANDLE.",
+  "keywords": [
+    "generalizable",
+    "we",
+    "it",
+    "intrinsic evaluations",
+    "taxonomies",
+    "generalizable commonsense reasoning",
+    "process",
+    "knowledge",
+    "language",
+    "human",
+    "evaluations",
+    "large language models",
+    "pre-built concept taxonomies",
+    "pre",
+    "original"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.128/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

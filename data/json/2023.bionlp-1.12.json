@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.12",
+  "title": "How Much do Knowledge Graphs Impact Transformer Models for Extracting Biomedical Events?",
+  "authors": [
+    "Zanella, Laura  and\nToussaint, Yannick"
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "Biomedical event extraction can be divided into three main subtasks; (1) biomedical event trigger detection, (2) biomedical argument identification and (3) event construction. This work focuses in the two first subtasks. For the first subtask we analyze a set of transformer language models that are commonly used in the biomedical domain to evaluate and compare their capacity for event trigger detection. We fine-tune the models using seven manually annotated corpora to assess their performance in different biomedical subdomains. SciBERT emerged as the highest performing model, presenting a slight improvement compared to baseline models. Then, for the second subtask we construct a knowledge graph (KG) from the biomedical corpora and integrate its KG embeddings to SciBERT to enrich its semantic information. We demonstrate that adding the KG embeddings to the model improves the argument identification performance by around 20 %, and by around 15 % compared to two baseline models. Our results suggest that fine-tuning a transformer model that is pretrained from scratch with biomedical and general data allows to detect event triggers and identify arguments covering different biomedical subdomains, and therefore improving its generalization. Furthermore, the integration of KG embeddings into the model can significantly improve the performance of biomedical event argument identification, outperforming the results of baseline models.",
+  "keywords": [
+    "kg embeddings",
+    "biomedical and general data",
+    "extraction",
+    "the kg embeddings",
+    "semantic",
+    "we",
+    "graph",
+    "its generalization",
+    "transformer language models",
+    "information",
+    "its kg embeddings",
+    "a transformer model",
+    "a knowledge graph kg",
+    "its semantic information",
+    "generalization"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

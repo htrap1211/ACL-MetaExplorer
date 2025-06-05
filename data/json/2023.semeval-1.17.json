@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.17",
+  "title": "B}f3{R} at {S}em{E}val-2023 Task 7: a text similarity model for textual entailment and evidence retrieval in clinical trials and animal studies",
+  "authors": [
+    "Neves, Mariana"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "We describe our participation on the Multi-evidence Natural Language Inference for Clinical Trial Data (NLI4CT) of SemEval’23. The organizers provided a collection of clinical trials as training data and a set of statements, which can be related to either a single trial or to a comparison of two trials. The task consisted of two sub-tasks: (i) textual entailment (Task 1) for predicting whether the statement is supported (Entailment) or not (Contradiction) by the corresponding trial(s); and (ii) evidence retrieval (Task 2) for selecting the evidences (sentences in the trials) that support the decision made for Task 1. We built a model based on a sentence-based BERT similarity model which was pre-trained on ClinicalBERT embeddings. Our best results on the official test sets were f-scores of 0.64 and 0.67 for Tasks 1 and 2, respectively.",
+  "keywords": [
+    "f",
+    "we",
+    "training",
+    "animal studies",
+    "natural",
+    "retrieval",
+    "bert",
+    "text",
+    "-",
+    "embeddings",
+    "language",
+    "evidence retrieval",
+    "model",
+    "studies",
+    "clinicalbert"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

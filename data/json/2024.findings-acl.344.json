@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.344",
+  "title": "Asymmetric Bias in Text-to-Image Generation with Adversarial Attacks",
+  "authors": [
+    "Shahgir, Haz  and\nKong, Xianghao  and\nVer Steeg, Greg  and\nDong, Yue"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "The widespread use of Text-to-Image (T2I) models in content generation requires careful examination of their safety, including their robustness to adversarial attacks. Despite extensive research on adversarial attacks, the reasons for their effectiveness remain underexplored. This paper presents an empirical study on adversarial attacks against T2I models, focusing on analyzing factors associated with attack success rates (ASR). We introduce a new attack objective - entity swapping using adversarial suffixes and two gradient-based attack algorithms. Human and automatic evaluations reveal the asymmetric nature of ASRs on entity swap: for example, it is easier to replace “human” with “robot” in the prompt “a human dancing in the rain.” with an adversarial suffix, but the reverse replacement is significantly harder. We further propose probing metrics to establish indicative signals from the model’s beliefs to the adversarial ASR. We identify conditions that result in a success probability of 60% for adversarial attacks and others where this likelihood drops below 5%. The code and data are available at https://github.com/Patchwork53/AsymmetricAttack",
+  "keywords": [
+    "code",
+    "bias",
+    "human and automatic evaluations",
+    "we",
+    "it",
+    "prompt",
+    "text",
+    "objective",
+    "metrics",
+    "beliefs",
+    "the model s beliefs",
+    "easier",
+    "rain",
+    "generation",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.344/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:53:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

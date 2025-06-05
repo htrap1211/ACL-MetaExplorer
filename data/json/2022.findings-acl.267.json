@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.267",
+  "title": "Aligned Weight Regularizers for Pruning Pretrained Neural Networks",
+  "authors": [
+    "O{'} Neill, James  and\nDutta, Sourav  and\nAssem, Haytham"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Pruning aims to reduce the number of parameters while maintaining performance close to the original network. This work proposes a novelself-distillationbased pruning strategy, whereby the representational similarity between the pruned and unpruned versions of the same network is maximized. Unlike previous approaches that treat distillation and pruning separately, we use distillation to inform the pruning criteria, without requiring a separate student network as in knowledge distillation. We show that the proposedcross-correlation objective for self-distilled pruningimplicitly encourages sparse solutions, naturally complementing magnitude-based pruning criteria. Experiments on the GLUE and XGLUE benchmarks show that self-distilled pruning increases mono- and cross-lingual language model performance. Self-distilled pruned models also outperform smaller Transformers with an equal number of parameters and are competitive against (6 times) larger distilled networks. We also observe that self-distillation (1) maximizes class separability, (2) increases the signal-to-noise ratio, and (3) converges faster after pruning steps, providing further insights into why self-distilled pruning improves generalization.",
+  "keywords": [
+    "transformers",
+    "we",
+    "cross",
+    "neural",
+    "self",
+    "pretrained neural networks",
+    "objective",
+    "generalization",
+    "smaller transformers",
+    "ratio",
+    "work",
+    "knowledge",
+    "language",
+    "model",
+    "class"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.267/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

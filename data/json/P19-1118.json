@@ -1,0 +1,33 @@
+{
+  "id": "P19-1118",
+  "title": "Unsupervised Parallel Sentence Extraction with Parallel Segment Detection Helps Machine Translation",
+  "authors": [
+    "Hangya, Viktor  and\nFraser, Alexander"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Mining parallel sentences from comparable corpora is important. Most previous work relies on supervised systems, which are trained on parallel data, thus their applicability is problematic in low-resource scenarios. Recent developments in building unsupervised bilingual word embeddings made it possible to mine parallel sentences based on cosine similarities of source and target language words. We show that relying only on this information is not enough, since sentences often have similar words but different meanings. We detect continuous parallel segments in sentence pair candidates and rely on them when mining parallel sentences. We show better mining accuracy on three language pairs in a standard shared task on artificial data. We also provide the first experiments showing that parallel sentences mined from real life sources improve unsupervised MT. Our code is available, we hope it will be used to support low-resource MT research.",
+  "keywords": [
+    "code",
+    "unsupervised bilingual word embeddings",
+    "extraction",
+    "we",
+    "translation",
+    "it",
+    "cosine similarities",
+    "information",
+    "word",
+    "mining",
+    "accuracy",
+    "work",
+    "embeddings",
+    "similarities",
+    "language"
+  ],
+  "url": "https://aclanthology.org/P19-1118/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:32:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

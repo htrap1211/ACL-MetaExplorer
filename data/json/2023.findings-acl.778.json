@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.778",
+  "title": "On Isotropy, Contextualization and Learning Dynamics of Contrastive-based Sentence Representation Learning",
+  "authors": [
+    "Xiao, Chenghao  and\nLong, Yang  and\nAl Moubayed, Noura"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Incorporating contrastive learning objectives in sentence representation learning (SRL) has yielded significant improvements on many sentence-level NLP tasks. However, it is not well understood why contrastive learning works for learning sentence-level semantics. In this paper, we aim to help guide future designs of sentence representation learning methods by taking a closer look at contrastive SRL through the lens of isotropy, contextualization and learning dynamics. We interpret its successes through the geometry of the representation shifts and show that contrastive learning brings isotropy, and drives high intra-sentence similarity: when in the same sentence, tokens converge to similar positions in the semantic space. We also find that what we formalize as “spurious contextualization” is mitigated for semantically meaningful tokens, while augmented for functional ones. We find that the embedding space is directed towards the origin during training, with more areas now better defined. We ablate these findings by observing the learning dynamics with different training temperatures, batch sizes and pooling methods.",
+  "keywords": [
+    "objectives",
+    "semantic",
+    "we",
+    "training",
+    "semantically meaningful tokens",
+    "the semantic space",
+    "semantics",
+    "it",
+    "learning",
+    "many sentence-level nlp tasks",
+    "sentence-level semantics",
+    "contrastive learning objectives",
+    "the embedding space",
+    "nlp",
+    "look"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.778/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

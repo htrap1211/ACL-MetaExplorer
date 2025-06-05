@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.62",
+  "title": "U}o{G} Siephers at ``Discharge Me!'': Exploring Ways to Generate Synthetic Patient Notes From Multi-Part Electronic Health Records",
+  "authors": [
+    "Frayling, Erlend  and\nLever, Jake  and\nMcDonald, Graham"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "This paper presents the UoG Siephers team participation at the Discharge Me! Shared Task on Streamlining Discharge Documentation. For our participation, we investigate appropriately selecting and encoding specific sections of Electronic Health Records (EHR) as input data for sequence-to-sequence models, to generate the discharge instructions and brief hospital course sections of a patient’s EHR. We found that, despite the large volume of disparate information that is often available in EHRs, selectively choosing an appropriate EHR section for training and prompting sequence-to-sequence models resulted in improved generative quality. In particular, we found that using only the history of present illness section of an EHR as input often led to better performance than using multiple EHR sections.",
+  "keywords": [
+    "generative",
+    "a patient s ehr",
+    "brief",
+    "improved generative quality",
+    "u o g siephers",
+    "information",
+    "patient",
+    "me",
+    "we",
+    "synthetic patient notes",
+    "sequence",
+    "training",
+    "brief hospital course sections",
+    "siephers",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.62/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.68",
+  "title": "The Change that Matters in Discourse Parsing: Estimating the Impact of Domain Shift on Parser Error",
+  "authors": [
+    "Atwell, Katherine  and\nSicilia, Anthony  and\nHwang, Seong Jae  and\nAlikhani, Malihe"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Discourse analysis allows us to attain inferences of a text document that extend beyond the sentence-level. The current performance of discourse models is very low on texts outside of the training distribution’s coverage, diminishing the practical utility of existing models. There is need for a measure that can inform us to what extent our model generalizes from the training to the test sample when these samples may be drawn from distinct distributions. While this can be estimated via distribution shift, we argue that this does not directly correlate with change in the observed error of a classifier (i.e. error-gap). Thus, we propose to use a statistic from the theoretical domain adaptation literature which can be directly tied to error-gap. We study the bias of this statistic as an estimator of error-gap both theoretically and through a large-scale empirical study of over 2400 experiments on 6 discourse datasets from domains including, but not limited to: news, biomedical texts, TED talks, Reddit posts, and fiction. Our results not only motivate our proposal and help us to understand its limitations, but also provide insight on the properties of discourse models and datasets which improve performance in domain adaptation. For instance, we find that non-news datasets are slightly easier to transfer to than news datasets when the training and test sets are very different. Our code and an associated Python package are available to allow practitioners to make more informed model and dataset choices.",
+  "keywords": [
+    "code",
+    "the bias",
+    "parsing",
+    "bias",
+    "classifier",
+    "we",
+    "current",
+    "training",
+    "discourse parsing",
+    "properties",
+    "analysis",
+    "i",
+    "text",
+    "the properties",
+    "easier"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.68/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

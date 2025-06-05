@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.304",
+  "title": "SCOTT}: Self-Consistent Chain-of-Thought Distillation",
+  "authors": [
+    "Wang, Peifeng  and\nWang, Zhengyang  and\nLi, Zheng  and\nGao, Yifan  and\nYin, Bing  and\nRen, Xiang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large language models (LMs) beyond a certain scale, demonstrate the emergent capability of generating free-text rationales for their predictions via chain-of-thought (CoT) prompting. While CoT can yield dramatically improved performance, such gains are only observed for sufficiently large LMs. Even more concerning, there is little guarantee that the generated rationales are consistent with LM’s predictions or faithfully justify the decisions. In this work, we propose SCOTT, a faithful knowledge distillation method to learn a small, self-consistent CoT model from a teacher model that is orders of magnitude larger. To form better supervision, we elicit rationales supporting the gold answers from a large LM (teacher) by contrastive decoding, which encourages the teacher to generate tokens that become more plausible only when the answer is considered. To ensure faithful distillation, we use the teacher-generated rationales to learn a student LM with a counterfactual reasoning objective, which prevents the student from ignoring the rationales to make inconsistent predictions. Experiments show that while yielding comparable performance, our method leads to a more faithful model than baselines. Further analysis shows that such a model respects the rationales more when making decisions; thus, we can improve its performance more by refining its rationales.",
+  "keywords": [
+    "scott",
+    "chain",
+    "sufficiently large lms",
+    "we",
+    "answer",
+    "cot",
+    "self",
+    "a counterfactual reasoning objective",
+    "analysis",
+    "the teacher-generated rationales",
+    "text",
+    "objective",
+    "the generated rationales",
+    "work",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.304/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

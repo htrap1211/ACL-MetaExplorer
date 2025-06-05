@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.420",
+  "title": "T}rans{ESC}: Smoothing Emotional Support Conversation via Turn-Level State Transition",
+  "authors": [
+    "Zhao, Weixiang  and\nZhao, Yanyan  and\nWang, Shilong  and\nQin, Bing"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Emotion Support Conversation (ESC) is an emerging and challenging task with the goal of reducing the emotional distress of people. Previous attempts fail to maintain smooth transitions between utterances in ESC because they ignoring to grasp the fine-grained transition information at each dialogue turn. To solve this problem, we propose to take into account turn-level state Transitions of ESC (TransESC) from three perspectives, including semantics transition, strategy transition and emotion transition, to drive the conversation in a smooth and natural way. Specifically, we construct the state transition graph with a two-step way, named transit-then-interact, to grasp such three types of turn-level transition information. Finally, they are injected into the transition aware decoder to generate more engaging responses. Both automatic and human evaluations on the benchmark dataset demonstrate the superiority of TransESC to generate more smooth and effective supportive responses. Our source code will be publicly available.",
+  "keywords": [
+    "t",
+    "code",
+    "support",
+    "natural",
+    "semantics",
+    "human",
+    "evaluations",
+    "emotional support conversation",
+    "decoder",
+    "each dialogue",
+    "information",
+    "the transition aware decoder",
+    "conversation",
+    "we",
+    "support conversation esc"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.420/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

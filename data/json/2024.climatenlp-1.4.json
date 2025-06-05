@@ -1,0 +1,33 @@
+{
+  "id": "2024.climatenlp-1.4",
+  "title": "Generative Debunking of Climate Misinformation",
+  "authors": [
+    "Zanartu, Francisco  and\nOtmakhova, Yulia  and\nCook, John  and\nFrermann, Lea"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Natural Language Processing Meets Climate Change (ClimateNLP 2024)",
+  "abstract": "Misinformation about climate change causes numerous negative impacts, necessitating corrective responses. Psychological research has offered various strategies for reducing the influence of climate misinformation, such as the fact-myth-fallacy-fact-structure. However, practically implementing corrective interventions at scale represents a challenge. Automatic detection and correction of misinformation offers a solution to the misinformation problem. This study documents the development of large language models that accept as input a climate myth and produce a debunking that adheres to the fact-myth-fallacy-fact (“truth sandwich”) structure, by incorporating contrarian claim classification and fallacy detection into an LLM prompting framework. We combine open (Mixtral, Palm2) and proprietary (GPT-4) LLMs with prompting strategies of varying complexity. Experiments reveal promising performance of GPT-4 and Mixtral if combined with structured prompts. We identify specific challenges of debunking generation and human evaluation, and map out avenues for future work. We release a dataset of high-quality truth-sandwich debunkings, source code and a demo of the debunking system.",
+  "keywords": [
+    "code",
+    "generative debunking",
+    "an llm prompting framework",
+    "we",
+    "llm",
+    "classification",
+    "human evaluation",
+    "debunking generation",
+    "generative",
+    "strategies",
+    "gpt-4",
+    "prompting strategies",
+    "work",
+    "prompts",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.climatenlp-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:05:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.532",
+  "title": "Tagged Back-translation Revisited: Why Does It Really Work?",
+  "authors": [
+    "Marie, Benjamin  and\nRubino, Raphael  and\nFujita, Atsushi"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "In this paper, we show that neural machine translation (NMT) systems trained on large back-translated data overfit some of the characteristics of machine-translated texts. Such NMT systems better translate human-produced translations, i.e., translationese, but may largely worsen the translation quality of original texts. Our analysis reveals that adding a simple tag to back-translations prevents this quality degradation and improves on average the overall translation quality by helping the NMT system to distinguish back-translated data from original parallel data during training. We also show that, in contrast to high-resource configurations, NMT systems trained in low-resource settings are much less vulnerable to overfit back-translations. We conclude that the back-translations in the training data should always be tagged especially when the origin of the text to be translated is unknown.",
+  "keywords": [
+    "i",
+    "neural",
+    "machine",
+    "translationese",
+    "text",
+    "it",
+    "human",
+    "the translation quality",
+    "tag",
+    "back-translation",
+    "we",
+    "human-produced translations",
+    "vulnerable",
+    "translations",
+    "the overall translation quality"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.532/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:49:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.185",
+  "title": "Lon-e{\\r{a}} at {S}em{E}val-2023 Task 11: A Comparison of Activation Functions for Soft and Hard Label Prediction",
+  "authors": [
+    "Hosseini, Peyman  and\nHosseini, Mehran  and\nAl-azzawi, Sana  and\nLiwicki, Marcus  and\nCastro, Ignacio  and\nPurver, Matthew"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "We study the influence of different activation functions in the output layer of pre-trained transformer models for soft and hard label prediction in the learning with disagreement task. In this task, the goal is to quantify the amount of disagreement via predicting soft labels. To predict the soft labels, we use BERT-based preprocessors and encoders and vary the activation function used in the output layer, while keeping other parameters constant. The soft labels are then used for the hard label prediction. The activation functions considered are sigmoid as well as a step-function that is added to the model post-training and a sinusoidal activation function, which is introduced for the first time in this paper.",
+  "keywords": [
+    "transformer",
+    "em",
+    "bert",
+    "model",
+    "activation",
+    "different activation functions",
+    "a sinusoidal activation function",
+    "layer",
+    "the activation function",
+    "we",
+    "learning",
+    "pre-trained transformer models",
+    "pre",
+    "time",
+    "bert-based preprocessors"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.185/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

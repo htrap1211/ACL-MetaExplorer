@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.317",
+  "title": "COCKATIEL}: {CO}ntinuous Concept ran{K}ed {AT}tribution with Interpretable {EL}ements for explaining neural net classifiers on {NLP",
+  "authors": [
+    "Jourdan, Fanny  and\nPicard, Agustin  and\nFel, Thomas  and\nRisser, Laurent  and\nLoubes, Jean-Michel  and\nAsher, Nicholas"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Transformer architectures are complex and their use in NLP, while it has engendered many successes, makes their interpretability or explainability challenging. Recent debates have shown that attention maps and attribution methods are unreliable (Pruthi et al., 2019; Brunner et al., 2019). In this paper, we present some of their limitations and introduce COCKATIEL, which successfully addresses some of them. COCKATIEL is a novel, post-hoc, concept-based, model-agnostic XAI technique that generates meaningful explanations from the last layer of a neural net model trained on an NLP classification task by using Non-Negative Matrix Factorization (NMF) to discover the concepts the model leverages to make predictions and by exploiting a Sensitivity Analysis to estimate accurately the importance of each of these concepts for the model. It does so without compromising the accuracy of the underlying model or requiring a new one to be trained. We conduct experiments in single and multi-aspect sentiment analysis tasks and we show COCKATIEL’s superior ability to discover concepts that align with humans’ on Transformer models without any supervision, we objectively verify the faithfulness of its explanations through fidelity metrics, and we showcase its ability to provide meaningful explanations in two different datasets. Our code is freely available:https://github.com/fanny-jourdan/cockatiel",
+  "keywords": [
+    "the accuracy",
+    "code",
+    "nlp transformer architectures",
+    "cockatiel co ntinuous concept",
+    "cockatiel",
+    "classifiers",
+    "layer",
+    "we",
+    "classification",
+    "neural",
+    "net",
+    "it",
+    "an nlp classification task",
+    "brunner",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.317/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

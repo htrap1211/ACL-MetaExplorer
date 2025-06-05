@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.180",
+  "title": "Operator Selection and Ordering in a Pipeline Approach to Efficiency Optimizations for Transformers",
+  "authors": [
+    "Xin, Ji  and\nTang, Raphael  and\nJiang, Zhiying  and\nYu, Yaoliang  and\nLin, Jimmy"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "There exists a wide variety of efficiency methods for natural language processing (NLP) tasks, such as pruning, distillation, dynamic inference, quantization, etc. From a different perspective, we can consider an efficiency method as an operator applied on a model. Naturally, we may construct a pipeline of operators, i.e., to apply multiple efficiency methods on the model sequentially. In this paper, we study the plausibility of this idea, and more importantly, the commutativity and cumulativeness of efficiency operators. We make two interesting observations from our experiments: (1) The operators are commutative—the order of efficiency methods within the pipeline has little impact on the final results; (2) The operators are also cumulative—the final results of combining several efficiency methods can be estimated by combining the results of individual methods. These observations deepen our understanding of efficiency operators and provide useful guidelines for building them in real-world applications.",
+  "keywords": [
+    "variety",
+    "several efficiency methods",
+    "transformers",
+    "efficiency",
+    "we",
+    "an efficiency method",
+    "a wide variety",
+    "natural",
+    "multiple efficiency methods",
+    "efficiency operators",
+    "processing",
+    "i",
+    "optimizations",
+    "language",
+    "nlp"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.180/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

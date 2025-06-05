@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.836",
+  "title": "Abstract then Play: A Skill-centric Reinforcement Learning Framework for Text-based Games",
+  "authors": [
+    "Zhu, Anjie  and\nZhang, Peng-Fei  and\nZhang, Yi  and\nHuang, Zi  and\nShao, Jie"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Text-based games present an exciting test-bed for reinforcement learning algorithms in the natural language environment. In these adventure games, an agent must learn to interact with the environment through text in order to accomplish tasks, facing large and combinational action space as well as partial observability issues. However, existing solutions fail to decompose the task and abstract the action autonomously, which either pre-specify the subtasks or pre-train on the human gameplay dataset. In this work, we introduce a novel skill-centric reinforcement learning framework, which is capable of abstracting the action in an end-to-end manner. To learn a more disentangled skill, we focus on the informativeness and distinguishability of the skill in accordance with the information bottleneck principle. Specifically, we introduce a discriminator to enable the skill to reflect the trajectory and push their representations onto the unit hypersphere to distribute uniformly. Moreover, a self-predictive mechanism is employed to learn inverse and forward dynamics, and a self-recovery mechanism is leveraged to refine the action representation, thus resulting in a more comprehensive perception of dynamics and more effective representations of textual state and action. Empirical experiments are carried out on the Jericho environment and the results validate the superiority against state-of-the-art baselines.",
+  "keywords": [
+    "end",
+    "reinforcement learning algorithms",
+    "we",
+    "natural",
+    "self",
+    "information",
+    "learning",
+    "bed",
+    "manner",
+    "text",
+    "action",
+    "work",
+    "reinforcement",
+    "language",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.836/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

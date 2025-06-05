@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.316",
+  "title": "Event-Radar: Event-driven Multi-View Learning for Multimodal Fake News Detection",
+  "authors": [
+    "Ma, Zihan  and\nLuo, Minnan  and\nGuo, Hao  and\nZeng, Zhi  and\nHao, Yiran  and\nZhao, Xiang"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The swift detection of multimedia fake news has emerged as a crucial task in combating malicious propaganda and safeguarding the security of the online environment. While existing methods have achieved commendable results in modeling entity-level inconsistency, addressing event-level inconsistency following the inherent subject-predicate logic of news and robustly learning news representations from poor-quality news samples remain two challenges. In this paper, we propose an Event-diven fake news detection framework (Event-Radar) based on multi-view learning, which integrates visual manipulation, textual emotion and multimodal inconsistency at event-level for fake news detection. Specifically, leveraging the capability of graph structures to capture interactions between events and parameters, Event-Radar captures event-level multimodal inconsistency by constructing an event graph that includes multimodal entity subject-predicate logic. Additionally, to mitigate the interference of poor-quality news, Event-Radar introduces a multi-view fusion mechanism, learning comprehensive and robust representations by computing the credibility of each view as a clue, thereby detecting fake news. Extensive experiments demonstrate that Event-Radar achieves outstanding performance on three large-scale fake news detection benchmarks. Our studies also confirm that Event-Radar exhibits strong robustness, providing a paradigm for detecting fake news from noisy news samples.",
+  "keywords": [
+    "we",
+    "graph",
+    "fusion",
+    "each view",
+    "a multi-view fusion mechanism",
+    "learning",
+    "visual",
+    "multi-view learning",
+    "our studies",
+    "studies",
+    "view",
+    "entity",
+    "interference",
+    "multi",
+    "the credibility"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.316/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

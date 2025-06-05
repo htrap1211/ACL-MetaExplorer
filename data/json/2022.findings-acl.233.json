@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.233",
+  "title": "Improving {C}hinese Grammatical Error Detection via Data augmentation by Conditional Error Generation",
+  "authors": [
+    "Yue, Tianchi  and\nLiu, Shulin  and\nCai, Huihui  and\nYang, Tao  and\nSong, Shengkang  and\nYu, TingHao"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Chinese Grammatical Error Detection(CGED) aims at detecting grammatical errors in Chinese texts. One of the main challenges for CGED is the lack of annotated data. To alleviate this problem, previous studies proposed various methods to automatically generate more training samples, which can be roughly categorized into rule-based methods and model-based methods. The rule-based methods construct erroneous sentences by directly introducing noises into original sentences. However, the introduced noises are usually context-independent, which are quite different from those made by humans. The model-based methods utilize generative models to imitate human errors. The generative model may bring too many changes to the original sentences and generate semantically ambiguous sentences, so it is difficult to detect grammatical errors in these generated sentences. In addition, generated sentences may be error-free and thus become noisy data. To handle these problems, we propose CNEG, a novel Conditional Non-Autoregressive Error Generation model for generating Chinese grammatical errors. Specifically, in order to generate a context-dependent error, we first mask a span in a correct text, then predict an erroneous span conditioned on both the masked text and the correct span. Furthermore, we filter out error-free spans by measuring their perplexities in the original sentences. Experimental results show that our proposed method achieves better performance than all compared data augmentation methods on the CGED-2018 and CGED-2020 benchmarks.",
+  "keywords": [
+    "generative models",
+    "we",
+    "perplexities",
+    "training",
+    "these generated sentences",
+    "it",
+    "generated sentences",
+    "generative",
+    "previous studies",
+    "text",
+    "their perplexities",
+    "generation",
+    "model",
+    "studies",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.233/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

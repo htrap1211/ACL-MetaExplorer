@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.204",
+  "title": "Efficient Semiring-Weighted {E}arley Parsing",
+  "authors": [
+    "Opedal, Andreas  and\nZmigrod, Ran  and\nVieira, Tim  and\nCotterell, Ryan  and\nEisner, Jason"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We present Earley’s (1970) context-free parsing algorithm as a deduction system, incorporating various known and new speed-ups. In particular, our presentation supports a known worst-case runtime improvement from Earley’s (1970)O(N3|G||R|), which is unworkable for the large grammars that arise in natural language processing, toO(N3|G|), which matches the complexity of CKY on a binarized version of the grammar G. Here N is the length of the sentence, |R| is the number of productions in G, and |G| is the total length of those productions. We also provide a version that achieves runtime ofO(N3|M|)with|M| ≤ |G|when the grammar is represented compactly as a single finite-state automaton M (this is partly novel). We carefully treat the generalization to semiring-weighted deduction, preprocessing the grammar like Stolcke (1995) to eliminate the possibility of deduction cycles, and further generalize Stolcke’s method to compute the weights of sentence prefixes. We also provide implementation details for efficient execution, ensuring that on a preprocessed grammar, the semiring-weighted versions of our methods have the same asymptotic runtime and space requirements as the unweighted methods, including sub-cubic runtime on some grammars.",
+  "keywords": [
+    "parsing",
+    "efficient",
+    "we",
+    "natural",
+    "r",
+    "natural language processing",
+    "m",
+    "efficient execution",
+    "processing",
+    "generalization",
+    "efficient semiring-weighted e arley",
+    "g",
+    "language",
+    "the generalization",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.204/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:38:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

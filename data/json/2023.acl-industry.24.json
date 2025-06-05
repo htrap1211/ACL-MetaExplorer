@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.24",
+  "title": "The economic trade-offs of large language models: A case study",
+  "authors": [
+    "Howell, Kristen  and\nChristian, Gwen  and\nFomitchov, Pavel  and\nKehat, Gitit  and\nMarzulla, Julianne  and\nRolston, Leanne  and\nTredup, Jadin  and\nZimmerman, Ilana  and\nSelfridge, Ethan  and\nBradley, Joseph"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "Contacting customer service via chat is a common practice. Because employing customer service agents is expensive, many companies are turning to NLP that assists human agents by auto-generating responses that can be used directly or with modifications. With their ability to handle large context windows, Large Language Models (LLMs) are a natural fit for this use case. However, their efficacy must be balanced with the cost of training and serving them. This paper assesses the practical cost and impact of LLMs for the enterprise as a function of the usefulness of the responses that they generate. We present a cost framework for evaluating an NLP model’s utility for this use case and apply it to a single brand as a case study in the context of an existing agent assistance product. We compare three strategies for specializing an LLM — prompt engineering, fine-tuning, and knowledge distillation — using feedback from the brand’s customer service agents. We find that the usability of a model’s responses can make up for a large difference in inference cost for our case study brand, and we extrapolate our findings to the broader enterprise space.",
+  "keywords": [
+    "feedback",
+    "fit",
+    "we",
+    "training",
+    "natural",
+    "it",
+    "llms",
+    "tuning",
+    "prompt",
+    "strategies",
+    "large language models llms",
+    "function",
+    "chat",
+    "knowledge",
+    "generating"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.24/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

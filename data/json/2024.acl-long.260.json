@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.260",
+  "title": "When Only Time Will Tell: Interpreting How Transformers Process Local Ambiguities Through the Lens of Restart-Incrementality",
+  "authors": [
+    "Madureira, Brielen  and\nKahardipraja, Patrick  and\nSchlangen, David"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Incremental models that process sentences one token at a time will sometimes encounter points where more than one interpretation is possible. Causal models are forced to output one interpretation and continue, whereas models that can revise may edit their previous output as the ambiguity is resolved. In this work, we look at how restart-incremental Transformers build and update internal states, in an effort to shed light on what processes cause revisions not viable in autoregressive models. We propose an interpretable way to analyse the incremental states, showing that their sequential structure encodes information on the garden path effect and its resolution. Our method brings insights on various bidirectional encoders for contextualised meaning representation and dependency parsing, contributing to show their advantage over causal models when it comes to revisions.",
+  "keywords": [
+    "work",
+    "transformers",
+    "parsing",
+    "local ambiguities",
+    "it",
+    "various bidirectional encoders",
+    "information",
+    "dependency",
+    "we",
+    "ambiguities",
+    "time",
+    "encoders",
+    "restart-incremental transformers",
+    "that",
+    "autoregressive models"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.260/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

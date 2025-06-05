@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.452",
+  "title": "An In-depth Study on Internal Structure of {C}hinese Words",
+  "authors": [
+    "Gong, Chen  and\nHuang, Saihao  and\nZhou, Houquan  and\nLi, Zhenghua  and\nZhang, Min  and\nWang, Zhefeng  and\nHuai, Baoxing  and\nYuan, Nicholas Jing"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Unlike English letters, Chinese characters have rich and specific meanings. Usually, the meaning of a word can be derived from its constituent characters in some way. Several previous works on syntactic parsing propose to annotate shallow word-internal structures for better utilizing character-level information. This work proposes to model the deep internal structures of Chinese words as dependency trees with 11 labels for distinguishing syntactic relationships. First, based on newly compiled annotation guidelines, we manually annotate a word-internal structure treebank (WIST) consisting of over 30K multi-char words from Chinese Penn Treebank. To guarantee quality, each word is independently annotated by two annotators and inconsistencies are handled by a third senior annotator. Second, we present detailed and interesting analysis on WIST to reveal insights on Chinese word formation. Third, we propose word-internal structure parsing as a new task, and conduct benchmark experiments using a competitive dependency parser. Finally, we present two simple ways to encode word-internal structures, leading to promising gains on the sentence-level syntactic parsing task.",
+  "keywords": [
+    "deep",
+    "parsing",
+    "dependency trees",
+    "encode",
+    "we",
+    "information",
+    "rich",
+    "word",
+    "analysis",
+    "a competitive dependency parser",
+    "work",
+    "inconsistencies",
+    "formation",
+    "dependency",
+    "characters"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.452/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

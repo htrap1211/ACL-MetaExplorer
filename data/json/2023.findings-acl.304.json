@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.304",
+  "title": "Multi-Domain Dialogue State Tracking with Disentangled Domain-Slot Attention",
+  "authors": [
+    "Yang, Longfei  and\nLi, Jiyi  and\nLi, Sheng  and\nShinozaki, Takahiro"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "As the core of task-oriented dialogue systems, dialogue state tracking (DST) is designed to track the dialogue state through the conversation between users and systems. Multi-domain DST has been an important challenge in which the dialogue states across multiple domains need to consider. In recent mainstream approaches, each domain and slot are aggregated and regarded as a single query feeding into attention with the dialogue history to obtain domain-slot specific representations. In this work, we propose disentangled domain-slot attention for multi-domain dialogue state tracking. The proposed approach disentangles the domain-slot specific information extraction in a flexible and context-dependent manner by separating the query about domains and slots in the attention component. Through a series of experiments on MultiWOZ 2.0 and MultiWOZ 2.4 datasets, we demonstrate that our proposed approach outperforms the standard multi-head attention with aggregated domain-slot query.",
+  "keywords": [
+    "work",
+    "a series",
+    "multi-domain dialogue state",
+    "extraction",
+    "the standard multi-head attention",
+    "-",
+    "series",
+    "information",
+    "domain-slot attention",
+    "attention",
+    "conversation",
+    "we",
+    "dialogue",
+    "the dialogue history",
+    "the conversation"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.304/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

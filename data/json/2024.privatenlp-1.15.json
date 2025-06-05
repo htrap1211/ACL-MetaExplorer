@@ -1,0 +1,33 @@
+{
+  "id": "2024.privatenlp-1.15",
+  "title": "Deconstructing Classifiers: Towards A Data Reconstruction Attack Against Text Classification Models",
+  "authors": [
+    "Elmahdy, Adel  and\nSalem, Ahmed"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Fifth Workshop on Privacy in Natural Language Processing",
+  "abstract": "Natural language processing (NLP) models have become increasingly popular in real-world applications, such as text classification. However, they are vulnerable to privacy attacks, including data reconstruction attacks that aim to extract the data used to train the model. Most previous studies on data reconstruction attacks have focused on LLM, while classification models were assumed to be more secure. In this work, we propose a new targeted data reconstruction attack called the Mix And Match attack, which takes advantage of the fact that most classification models are based on LLM. The Mix And Match attack uses the base model of the target model to generate candidate tokens and then prunes them using the classification head. We extensively demonstrate the effectiveness of the attack using both random and organic canaries. This work highlights the importance of considering the privacy risks associated with data reconstruction attacks in classification models and offers insights into possible leakages.",
+  "keywords": [
+    "most previous studies",
+    "classification models",
+    "work",
+    "processing",
+    "canaries",
+    "language",
+    "random",
+    "nlp",
+    "natural",
+    "model",
+    "studies",
+    "text",
+    "most classification models",
+    "classifiers",
+    "the classification head"
+  ],
+  "url": "https://aclanthology.org/2024.privatenlp-1.15/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

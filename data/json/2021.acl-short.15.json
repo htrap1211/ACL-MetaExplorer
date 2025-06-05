@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.15",
+  "title": "Gender bias amplification during Speed-Quality optimization in Neural Machine Translation",
+  "authors": [
+    "Renduchintala, Adithya  and\nDiaz, Denise  and\nHeafield, Kenneth  and\nLi, Xian  and\nDiab, Mona"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Is bias amplified when neural machine translation (NMT) models are optimized for speed and evaluated on generic test sets using BLEU? We investigate architectures and techniques commonly used to speed up decoding in Transformer-based models, such as greedy search, quantization, average attention networks (AANs) and shallow decoder models and show their effect on gendered noun translation. We construct a new gender bias test set, SimpleGEN, based on gendered noun phrases in which there is a single, unambiguous, correct answer. While we find minimal overall BLEU degradation as we apply speed optimizations, we observe that gendered noun translation performance degrades at a much faster rate.",
+  "keywords": [
+    "transformer",
+    "optimizations",
+    "bias",
+    "answer",
+    "gendered noun translation",
+    "speed-quality optimization",
+    "neural",
+    "speed optimizations",
+    "machine",
+    "shallow decoder models",
+    "rate",
+    "neural machine translation",
+    "generic",
+    "bleu",
+    "transformer-based models"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.15/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

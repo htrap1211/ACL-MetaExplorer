@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.899",
+  "title": "An Empirical Comparison of {LM}-based Question and Answer Generation Methods",
+  "authors": [
+    "Ushio, Asahi  and\nAlva-Manchego, Fernando  and\nCamacho-Collados, Jose"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Question and answer generation (QAG) consists of generating a set of question-answer pairs given a context (e.g. a paragraph). This task has a variety of applications, such as data augmentation for question answering (QA) models, information retrieval and education. In this paper, we establish baselines with three different QAG methodologies that leverage sequence-to-sequence language model (LM) fine-tuning. Experiments show that an end-to-end QAG model, which is computationally light at both training and inference times, is generally robust and outperforms other more convoluted approaches. However, there are differences depending on the underlying generative LM. Finally, our analysis shows that QA models fine-tuned solely on generated question-answer pairs can be competitive when compared to supervised QA models trained on human-labeled data.",
+  "keywords": [
+    "generative",
+    "variety",
+    "end",
+    "generation",
+    "answer",
+    "qa models",
+    "language",
+    "methodologies",
+    "the underlying generative",
+    "supervised qa models",
+    "model",
+    "human",
+    "fine-tuning experiments",
+    "generation methods",
+    "qa models information retrieval"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.899/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

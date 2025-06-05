@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.163",
+  "title": "UPB} at {S}em{E}val-2021 Task 7: Adversarial Multi-Task Learning for Detecting and Rating Humor and Offense",
+  "authors": [
+    "Sm{\\u{a}}du, R{\\u{a}}zvan-Alexandru  and\nCercel, Dumitru-Clementin  and\nDascalu, Mihai"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "Detecting humor is a challenging task since words might share multiple valences and, depending on the context, the same words can be even used in offensive expressions. Neural network architectures based on Transformer obtain state-of-the-art results on several Natural Language Processing tasks, especially text classification. Adversarial learning, combined with other techniques such as multi-task learning, aids neural models learn the intrinsic properties of data. In this work, we describe our adversarial multi-task network, AMTL-Humor, used to detect and rate humor and offensive texts from Task 7 at SemEval-2021. Each branch from the model is focused on solving a related task, and consists of a BiLSTM layer followed by Capsule layers, on top of BERTweet used for generating contextualized embeddings. Our best model consists of an ensemble of all tested configurations, and achieves a 95.66% F1-score and 94.70% accuracy for Task 1a, while obtaining RMSE scores of 0.6200 and 0.5318 for Tasks 1b and 2, respectively.",
+  "keywords": [
+    "top",
+    "a 95 66 f1-score",
+    "layer",
+    "we",
+    "the intrinsic properties",
+    "classification",
+    "ensemble",
+    "neural",
+    "natural",
+    "bilstm",
+    "properties",
+    "contextualized embeddings",
+    "learning",
+    "an ensemble",
+    "94 70 accuracy"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.163/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

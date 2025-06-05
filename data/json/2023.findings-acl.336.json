@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.336",
+  "title": "Gender-tuning: Empowering Fine-tuning for Debiasing Pre-trained Language Models",
+  "authors": [
+    "Ghanbarzadeh, Somayeh  and\nHuang, Yan  and\nPalangi, Hamid  and\nCruz Moreno, Radames  and\nKhanpour, Hamed"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Recent studies have revealed that the widely-used Pre-trained Language Models (PLMs) propagate societal biases from the large unmoderated pre-training corpora. Existing solutions require debiasing training processes and datasets for debiasing, which are resource-intensive and costly. Furthermore, these methods hurt the PLMs’ performance on downstream tasks. In this study, we propose Gender-tuning, which debiases the PLMs through fine-tuning on downstream tasks’ datasets. For this aim, Gender-tuning integrates Masked Language Modeling (MLM) training objectives into fine-tuning’s training process. Comprehensive experiments show that Gender-tuning outperforms the state-of-the-art baselines in terms of average gender bias scores in PLMs while improving PLMs’ performance on downstream tasks solely using the downstream tasks’ dataset. Also, Gender-tuning is a deployable debiasing tool for any PLM that works with original fine-tuning.",
+  "keywords": [
+    "tuning",
+    "process",
+    "objectives",
+    "bias",
+    "language",
+    "a deployable debiasing tool",
+    "pre-trained language models",
+    "studies",
+    "societal",
+    "mlm training objectives",
+    "societal biases",
+    "average gender bias scores",
+    "fine",
+    "recent studies",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.336/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

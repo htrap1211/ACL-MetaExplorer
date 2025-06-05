@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.425",
+  "title": "Distinguishing Address vs. Reference Mentions of Personal Names in Text",
+  "authors": [
+    "Prabhakaran, Vinodkumar  and\nMostafazadeh Davani, Aida  and\nFerguson, Melissa  and\nAtir, Stav"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Detecting named entities in text has long been a core NLP task. However, not much work has gone into distinguishing whether an entity mention is addressing the entity vs. referring to the entity; e.g.,John, would you turn the light off?vs.John turned the light off. While this distinction is marked by avocative casemarker in some languages, many modern Indo-European languages such as English do not use such explicit vocative markers, and the distinction is left to be interpreted in context. In this paper, we present a new annotated dataset that captures theaddressvs.referencedistinction in English, an automatic tagger that performs at 85% accuracy in making this distinction, and demonstrate how this distinction is important in NLP and computational social science applications in English language.",
+  "keywords": [
+    "work",
+    "reference",
+    "language",
+    "nlp",
+    "entities",
+    "text",
+    "85 accuracy",
+    "science",
+    "a core nlp task",
+    "we",
+    "entity",
+    "computational social science applications",
+    "core",
+    "accuracy",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.425/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

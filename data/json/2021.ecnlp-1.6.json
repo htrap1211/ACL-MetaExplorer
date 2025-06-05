@@ -1,0 +1,33 @@
+{
+  "id": "2021.ecnlp-1.6",
+  "title": "Personalized Entity Resolution with Dynamic Heterogeneous {K}nowledge{G}raph Representations",
+  "authors": [
+    "Lin, Ying  and\nWang, Han  and\nChen, Jiangning  and\nWang, Tong  and\nLiu, Yue  and\nJi, Heng  and\nLiu, Yang  and\nNatarajan, Premkumar"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 4th Workshop on e-Commerce and NLP",
+  "abstract": "The growing popularity of Virtual Assistants poses new challenges for Entity Resolution, the task of linking mentions in text to their referent entities in a knowledge base. Specifically, in the shopping domain, customers tend to mention the entities implicitly (e.g., “organic milk”) rather than use the entity names explicitly, leading to a large number of candidate products. Meanwhile, for the same query, different customers may expect different results. For example, with “add milk to my cart”, a customer may refer to a certain product from his/her favorite brand, while some customers may want to re-order products they regularly purchase. Moreover, new customers may lack persistent shopping history, which requires us to enrich the connections between customers through products and their attributes. To address these issues, we propose a new framework that leverages personalized features to improve the accuracy of product ranking. We first build a cross-source heterogeneous knowledge graph from customer purchase history and product knowledge graph to jointly learn customer and product embeddings. After that, we incorporate product, customer, and history representations into a neural reranking model to predict which candidate is most likely to be purchased by a specific customer. Experiment results show that our model substantially improves the accuracy of the top ranked candidates by 24.6% compared to the state-of-the-art product search model.",
+  "keywords": [
+    "the accuracy",
+    "product knowledge graph",
+    "we",
+    "graph",
+    "nowledge",
+    "the entities",
+    "cross",
+    "neural",
+    "product embeddings",
+    "their referent entities",
+    "text",
+    "accuracy",
+    "embeddings",
+    "raph",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2021.ecnlp-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

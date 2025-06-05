@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.43",
+  "title": "An Embarrassingly Simple Method to Mitigate Undesirable Properties of Pretrained Language Model Tokenizers",
+  "authors": [
+    "Hofmann, Valentin  and\nSchuetze, Hinrich  and\nPierrehumbert, Janet"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "We introduce FLOTA (Few Longest Token Approximation), a simple yet effective method to improve the tokenization of pretrained language models (PLMs). FLOTA uses the vocabulary of a standard tokenizer but tries to preserve the morphological structure of words during tokenization. We evaluate FLOTA on morphological gold segmentations as well as a text classification task, using BERT, GPT-2, and XLNet as example PLMs. FLOTA leads to performance gains, makes inference more efficient, and enhances the robustness of PLMs with respect to whitespace noise.",
+  "keywords": [
+    "bert gpt-2",
+    "a text classification task",
+    "language",
+    "tokenization",
+    "the tokenization",
+    "bert",
+    "model",
+    "text",
+    "efficient",
+    "token",
+    "pretrained language model tokenizers",
+    "properties",
+    "undesirable properties",
+    "we",
+    "pretrained language models plms"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.43/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:33:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

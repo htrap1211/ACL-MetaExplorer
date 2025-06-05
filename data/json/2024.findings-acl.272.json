@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.272",
+  "title": "Enhancing Hyperbolic Knowledge Graph Embeddings via Lorentz Transformations",
+  "authors": [
+    "Fan, Xiran  and\nXu, Minghua  and\nChen, Huiyuan  and\nChen, Yuzhong  and\nDas, Mahashweta  and\nYang, Hao"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Knowledge Graph Embedding (KGE) is a powerful technique for predicting missing links in Knowledge Graphs (KGs) by learning the entities and relations. Hyperbolic space has emerged as a promising embedding space for KGs due to its ability to represent hierarchical data. Nevertheless, most existing hyperbolic KGE methods rely on tangent approximation and are not fully hyperbolic, resulting in distortions and inaccuracies. To overcome this limitation, we propose LorentzKG, a fully hyperbolic KGE method that represents entities as points in the Lorentz model and represents relations as the intrinsic transformation—the Lorentz transformations between entities. We demonstrate that the Lorentz transformation, which can be decomposed into Lorentz rotation/reflection and Lorentz boost, captures various types of relations including hierarchical structures. Experimental results show that our LorentzKG achieves state-of-the-art performance.",
+  "keywords": [
+    "embeddings",
+    "hierarchical",
+    "hyperbolic knowledge graph embeddings",
+    "inaccuracies",
+    "knowledge",
+    "model",
+    "entities",
+    "lorentz transformations knowledge graph",
+    "kge",
+    "hierarchical data",
+    "hierarchical structures experimental results",
+    "a promising embedding space",
+    "boost",
+    "knowledge graphs",
+    "lorentzkg"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.272/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P19-1326",
+  "title": "Embedding Imputation with Grounded Language Information",
+  "authors": [
+    "Yang, Ziyi  and\nZhu, Chenguang  and\nSachidananda, Vin  and\nDarve, Eric"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Due to the ubiquitous use of embeddings as input representations for a wide range of natural language tasks, imputation of embeddings for rare and unseen words is a critical problem in language processing. Embedding imputation involves learning representations for rare or unseen words during the training of an embedding model, often in a post-hoc manner. In this paper, we propose an approach for embedding imputation which uses grounded information in the form of a knowledge graph. This is in contrast to existing approaches which typically make use of vector space properties or subword information. We propose an online method to construct a graph from grounded information and design an algorithm to map from the resulting graphical structure to the space of the pre-trained embeddings. Finally, we evaluate our approach on a range of rare and unseen word tasks across various domains and show that our model can learn better representations. For example, on the Card-660 task our method improves Pearson’s and Spearman’s correlation coefficients upon the state-of-the-art by 11% and 17.8% respectively using GloVe embeddings.",
+  "keywords": [
+    "glove",
+    "vector space properties",
+    "form",
+    "we",
+    "language processing",
+    "graph",
+    "glove embeddings",
+    "training",
+    "natural",
+    "properties",
+    "information",
+    "the pre-trained embeddings",
+    "word",
+    "manner",
+    "an embedding model"
+  ],
+  "url": "https://aclanthology.org/P19-1326/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:38:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

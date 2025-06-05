@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.422",
+  "title": "Attend, Select and Eliminate: Accelerating Multi-turn Response Selection with Dual-attention-based Content Elimination",
+  "authors": [
+    "Liang, Jianxin  and\nLiu, Chang  and\nTao, Chongyang  and\nFeng, Jiazhan  and\nZhao, Dongyan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Although the incorporation of pre-trained language models (PLMs) significantly pushes the research frontier of multi-turn response selection, it brings a new issue of heavy computation costs. To alleviate this problem and make the PLM-based response selection model both effective and efficient, we propose an inference framework together with a post-training strategy that builds upon any pre-trained transformer-based response selection models to accelerate inference by progressively selecting and eliminating unimportant content under the guidance of context-response dual-attention. Specifically, at each transformer layer, we first identify the importance of each word based on context-to-response and response-to-context attention, then select a number of unimportant words to be eliminated following a retention configuration derived from evolutionary search while passing the rest of the representations into deeper layers. To mitigate the training-inference gap posed by content elimination, we introduce a post-training strategy where we use knowledge distillation to force the model with progressively eliminated content to mimic the predictions of the original model with no content elimination. Experiments on three benchmarks indicate that our method can effectively speeds-up SOTA models without much performance degradation and shows a better trade-off between speed and performance than previous methods.",
+  "keywords": [
+    "context-response dual-attention",
+    "efficient",
+    "the research frontier",
+    "layer",
+    "we",
+    "training",
+    "it",
+    "frontier",
+    "dual-attention-based content elimination",
+    "pre-trained language models plms",
+    "word",
+    "each transformer layer",
+    "transformer",
+    "rest",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.422/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

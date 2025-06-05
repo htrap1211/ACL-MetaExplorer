@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.11",
+  "title": "Scene-robust Natural Language Video Localization via Learning Domain-invariant Representations",
+  "authors": [
+    "Wang, Zehan  and\nZhao, Yang  and\nHuang, Haifeng  and\nXia, Yan  and\nZhao, Zhou"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Natural language video localization(NLVL) task involves the semantic matching of a text query with a moment from an untrimmed video. Previous methods primarily focus on improving performance with the assumption of independently identical data distribution while ignoring the out-of-distribution data. Therefore, these approaches often fail when handling the videos and queries in novel scenes, which is inevitable in real-world scenarios. In this paper, we, for the first time, formulate the scene-robust NLVL problem and propose a novel generalizable NLVL framework utilizing data in multiple available scenes to learn a robust model. Specifically, our model learns a group of generalizable domain-invariant representations by alignment and decomposition. First, we propose a comprehensive intra- and inter-sample distance metric for complex multi-modal feature space, and an asymmetric multi-modal alignment loss for different information densities of text and vision. Further, to alleviate the conflict between domain-invariant features for generalization and domain-specific information for reasoning, we introduce domain-specific and domain-agnostic predictors to decompose and refine the learned features by dynamically adjusting the weights of samples. Based on the original video tags, we conduct extensive experiments on three NLVL datasets with different-grained scene shifts to show the effectiveness of our proposed methods.",
+  "keywords": [
+    "generalizable",
+    "semantic",
+    "we",
+    "densities",
+    "natural",
+    "queries",
+    "loss",
+    "the semantic matching",
+    "information",
+    "metric",
+    "generalizable domain-invariant representations",
+    "text",
+    "generalization",
+    "moment",
+    "different information densities"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

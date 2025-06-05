@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.93",
+  "title": "Efficient Out-of-Domain Detection for Sequence to Sequence Models",
+  "authors": [
+    "Vazhentsev, Artem  and\nTsvigun, Akim  and\nVashurin, Roman  and\nPetrakov, Sergey  and\nVasilev, Daniil  and\nPanov, Maxim  and\nPanchenko, Alexander  and\nShelmanov, Artem"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Sequence-to-sequence (seq2seq) models based on the Transformer architecture have become a ubiquitous tool applicable not only to classical text generation tasks such as machine translation and summarization but also to any other task where an answer can be represented in a form of a finite text fragment (e.g., question answering). However, when deploying a model in practice, we need not only high performance but also an ability to determine cases where the model is not applicable. Uncertainty estimation (UE) techniques provide a tool for identifying out-of-domain (OOD) input where the model is susceptible to errors. State-of-the-art UE methods for seq2seq models rely on computationally heavyweight and impractical deep ensembles. In this work, we perform an empirical investigation of various novel UE methods for large pre-trained seq2seq models T5 and BART on three tasks: machine translation, text summarization, and question answering. We apply computationally lightweight density-based UE methods to seq2seq models and show that they often outperform heavyweight deep ensembles on the task of OOD detection.",
+  "keywords": [
+    "deep",
+    "efficient",
+    "machine translation",
+    "question",
+    "form",
+    "summarization",
+    "we",
+    "translation",
+    "answer",
+    "sequence",
+    "heavyweight deep ensembles",
+    "seq2seq",
+    "ensembles",
+    "text",
+    "classical text generation tasks"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.93/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

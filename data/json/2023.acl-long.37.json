@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.37",
+  "title": "Causal Intervention and Counterfactual Reasoning for Multi-modal Fake News Detection",
+  "authors": [
+    "Chen, Ziwei  and\nHu, Linmei  and\nLi, Weixin  and\nShao, Yingxia  and\nNie, Liqiang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Due to the rapid upgrade of social platforms, most of today’s fake news is published and spread in a multi-modal form. Most existing multi-modal fake news detection methods neglect the fact that some label-specific features learned from the training set cannot generalize well to the testing set, thus inevitably suffering from the harm caused by the latent data bias. In this paper, we analyze and identify the psycholinguistic bias in the text and the bias of inferring news label based on only image features. We mitigate these biases from a causality perspective and propose a Causal intervention and Counterfactual reasoning based Debiasing framework (CCD) for multi-modal fake news detection. To achieve our goal, we first utilize causal intervention to remove the psycholinguistic bias which introduces the spurious correlations between text features and news label. And then, we apply counterfactual reasoning by imagining a counterfactual world where each news has only image features for estimating the direct effect of the image. Therefore we can eliminate the image-only bias by deducting the direct effect of the image from the total effect on labels. Extensive experiments on two real-world benchmark datasets demonstrate the effectiveness of our framework for improving multi-modal fake news detection.",
+  "keywords": [
+    "the bias",
+    "bias",
+    "form",
+    "the latent data bias",
+    "we",
+    "the image-only bias",
+    "training",
+    "the psycholinguistic bias",
+    "latent",
+    "text",
+    "biases",
+    "these biases",
+    "psycholinguistic",
+    "multi",
+    "correlations"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.37/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:35:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

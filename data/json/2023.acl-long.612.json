@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.612",
+  "title": "Rehearsal-free Continual Language Learning via Efficient Parameter Isolation",
+  "authors": [
+    "Wang, Zhicheng  and\nLiu, Yufang  and\nJi, Tao  and\nWang, Xiaoling  and\nWu, Yuanbin  and\nJiang, Congcong  and\nChao, Ye  and\nHan, Zhencong  and\nWang, Ling  and\nShao, Xu  and\nZeng, Wenqiu"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We study the problem of defying catastrophic forgetting when learning a series of language processing tasks. Compared with previous methods, we emphasize the importance of not caching history tasks’ data, which makes the problem more challenging. Our proposed method applies the parameter isolation strategy. For each task, it allocates a small portion of private parameters and learns them with a shared pre-trained model. To load correct parameters at testing time, we introduce a simple yet effective non-parametric method. Experiments on continual language learning benchmarks show that our method is significantly better than all existing no-data-cache methods, and is comparable (or even better) than those using historical data.",
+  "keywords": [
+    "a series",
+    "processing",
+    "language",
+    "model",
+    "it",
+    "efficient",
+    "series",
+    "we",
+    "learning",
+    "pre",
+    "time",
+    "parameter",
+    "efficient parameter isolation",
+    "continual language learning benchmarks",
+    "forgetting"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.612/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

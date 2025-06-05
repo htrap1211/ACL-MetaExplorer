@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.173",
+  "title": "R}esearch{T}eam{\\_}{HCN} at {S}em{E}val-2023 Task 6: A knowledge enhanced transformers based legal {NLP} system",
+  "authors": [
+    "Ningthoujam, Dhanachandra  and\nPatel, Pinal  and\nKareddula, Rajkamal  and\nVangipuram, Ramanand"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper presents our work on LegalEval (understanding legal text), one of the tasks in SemEval-2023. It comprises of three sub-tasks namely Rhetorical Roles (RR), Legal Named Entity Recognition (L-NER), and Court Judge- ment Prediction with Explanation (CJPE). We developed different deep-learning models for each sub-tasks. For RR, we developed a multi- task learning model with contextual sequential sentence classification as the main task and non- contextual single sentence prediction as the sec- ondary task. Our model achieved an F1-score of 76.50% on the unseen test set, and we at- tained the 14th position on the leaderboard. For the L-NER problem, we have designed a hybrid model, consisting of a multi-stage knowledge transfer learning framework and a rule-based system. This model achieved an F1-score of 91.20% on the blind test set and attained the top position on the final leaderboard. Finally, for the CJPE task, we used a hierarchical ap- proach and could get around 66.67% F1-score on judgment prediction and 45.83% F1-score on the explainability of the CJPE task, and we attained 8th position on the leaderboard for this sub-task.",
+  "keywords": [
+    "deep",
+    "transformers",
+    "legal nlp system",
+    "the l-ner problem",
+    "we",
+    "around 66 67 f1-score",
+    "classification",
+    "it",
+    "45 83 f1-score",
+    "learning",
+    "transfer",
+    "l-ner",
+    "ner",
+    "an f1-score",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.173/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:28:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

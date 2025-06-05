@@ -1,0 +1,33 @@
+{
+  "id": "W19-5117",
+  "title": "Neural Lemmatization of Multiword Expressions",
+  "authors": [
+    "Schmitt, Marine  and\nConstant, Mathieu"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Joint Workshop on Multiword Expressions and WordNet (MWE-WN 2019)",
+  "abstract": "This article focuses on the lemmatization of multiword expressions (MWEs). We propose a deep encoder-decoder architecture generating for every MWE word its corresponding part in the lemma, based on the internal context of the MWE. The encoder relies on recurrent networks based on (1) the character sequence of the individual words to capture their morphological properties, and (2) the word sequence of the MWE to capture lexical and syntactic properties. The decoder in charge of generating the corresponding part of the lemma for each word of the MWE is based on a classical character-level attention-based recurrent model. Our model is evaluated for Italian, French, Polish and Portuguese and shows good performances except for Polish.",
+  "keywords": [
+    "deep",
+    "the encoder",
+    "generating",
+    "neural",
+    "the decoder",
+    "model",
+    "encoder",
+    "properties",
+    "decoder",
+    "word",
+    "we",
+    "sequence",
+    "attention",
+    "lexical and syntactic properties",
+    "recurrent"
+  ],
+  "url": "https://aclanthology.org/W19-5117/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:02:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

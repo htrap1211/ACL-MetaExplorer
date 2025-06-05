@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.285",
+  "title": "Incorporating Dynamic Semantics into Pre-Trained Language Model for Aspect-based Sentiment Analysis",
+  "authors": [
+    "Zhang, Kai  and\nZhang, Kun  and\nZhang, Mengdi  and\nZhao, Hongke  and\nLiu, Qi  and\nWu, Wei  and\nChen, Enhong"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Aspect-based sentiment analysis (ABSA) predicts sentiment polarity towards a specific aspect in the given sentence. While pre-trained language models such as BERT have achieved great success, incorporating dynamic semantic changes into ABSA remains challenging. To this end, in this paper, we propose to address this problem by Dynamic Re-weighting BERT (DR-BERT), a novel method designed to learn dynamic aspect-oriented semantics for ABSA. Specifically, we first take the Stack-BERT layers as a primary encoder to grasp the overall semantic of the sentence and then fine-tune it by incorporating a lightweight Dynamic Re-weighting Adapter (DRA). Note that the DRA can pay close attention to a small region of the sentences at each step and re-weigh the vitally important words for better aspect-aware sentiment understanding. Finally, experimental results on three benchmark datasets demonstrate the effectiveness and the rationality of our proposed model and provide good interpretable insights for future semantic modeling.",
+  "keywords": [
+    "the overall semantic",
+    "end",
+    "dynamic aspect-oriented semantics",
+    "semantic",
+    "we",
+    "pre-trained language models",
+    "semantics",
+    "the stack-bert layers",
+    "a primary encoder",
+    "analysis",
+    "pre-trained language model",
+    "bert",
+    "dynamic semantics",
+    "fine",
+    "dynamic semantic changes"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.285/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

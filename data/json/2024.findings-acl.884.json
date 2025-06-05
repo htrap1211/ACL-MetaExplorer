@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.884",
+  "title": "What Makes a Good Order of Examples in In-Context Learning",
+  "authors": [
+    "Guo, Qi  and\nWang, Leiyu  and\nWang, Yidong  and\nYe, Wei  and\nZhang, Shikun"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Although large language models (LLMs) have demonstrated impressive few-shot learning capabilities via in-context learning (ICL), ICL performance is known to be highly sensitive to the order of examples provided. To identify appropriate orders, recent studies propose heuristic methods to evaluate order performance using a set of unlabeled data. However, the requirement of in-domain data limits their utility in real-world scenarios where additional annotated data is challenging to acquire. Additionally, these dataset-based approaches are prone to being sub-optimal for a lack of consideration for individual differences. To address the problems, we first analyze the properties of performant example orders at both corpus level and instance level. Based on the analysis we propose **DEmO** to adaptively identify performant example order for each instance without extra data. DEmO works by filtering out a subset of orders featuring label fairness, then selecting the most influential order for each test instance. The employment of a content-free metric makes DEmO independent of in-domain data. Extensive experiments indicate the superiority of DEmO over a wide range of strong baselines. Further analysis validates the generalizability across various settings.",
+  "keywords": [
+    "extra",
+    "impressive few-shot learning capabilities",
+    "we",
+    "generalizability",
+    "shot",
+    "the generalizability",
+    "properties",
+    "learning",
+    "analysis",
+    "llms",
+    "metric",
+    "large language models llms",
+    "recent studies",
+    "the properties",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.884/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:00:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

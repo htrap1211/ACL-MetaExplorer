@@ -1,0 +1,33 @@
+{
+  "id": "2021.starsem-1.13",
+  "title": "Realistic Evaluation Principles for Cross-document Coreference Resolution",
+  "authors": [
+    "Cattan, Arie  and\nEirew, Alon  and\nStanovsky, Gabriel  and\nJoshi, Mandar  and\nDagan, Ido"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of *SEM 2021: The Tenth Joint Conference on Lexical and Computational Semantics",
+  "abstract": "We point out that common evaluation practices for cross-document coreference resolution have been unrealistically permissive in their assumed settings, yielding inflated results. We propose addressing this issue via two evaluation methodology principles. First, as in other tasks, models should be evaluated on predicted mentions rather than on gold mentions. Doing this raises a subtle issue regarding singleton coreference clusters, which we address by decoupling the evaluation of mention detection from that of coreference linking. Second, we argue that models should not exploit the synthetic topic structure of the standard ECB+ dataset, forcing models to confront the lexical ambiguity challenge, as intended by the dataset creators. We demonstrate empirically the drastic impact of our more realistic evaluation principles on a competitive model, yielding a score which is 33 F1 lower compared to evaluating by prior lenient practices.",
+  "keywords": [
+    "cross",
+    "cross-document coreference resolution",
+    "common evaluation practices",
+    "model",
+    "singleton coreference clusters",
+    "topic",
+    "realistic evaluation principles",
+    "prior lenient practices",
+    "we",
+    "evaluation",
+    "coreference",
+    "two evaluation methodology principles",
+    "lenient",
+    "the evaluation",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2021.starsem-1.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.423",
+  "title": "Are You Copying My Model? Protecting the Copyright of Large Language Models for {E}aa{S} via Backdoor Watermark",
+  "authors": [
+    "Peng, Wenjun  and\nYi, Jingwei  and\nWu, Fangzhao  and\nWu, Shangxi  and\nBin Zhu, Bin  and\nLyu, Lingjuan  and\nJiao, Binxing  and\nXu, Tong  and\nSun, Guangzhong  and\nXie, Xing"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large language models (LLMs) have demonstrated powerful capabilities in both text understanding and generation. Companies have begun to offer Embedding as a Service (EaaS) based on these LLMs, which can benefit various natural language processing (NLP) tasks for customers. However, previous studies have shown that EaaS is vulnerable to model extraction attacks, which can cause significant losses for the owners of LLMs, as training these models is extremely expensive. To protect the copyright of LLMs for EaaS, we propose an Embedding Watermark method called {pasted macro ‘METHOD’} that implants backdoors on embeddings. Our method selects a group of moderate-frequency words from a general text corpus to form a trigger set, then selects a target embedding as the watermark, and inserts it into the embeddings of texts containing trigger words as the backdoor. The weight of insertion is proportional to the number of trigger words included in the text. This allows the watermark backdoor to be effectively transferred to EaaS-stealer’s model for copyright verification while minimizing the adverse impact on the original embeddings’ utility. Our extensive experiments on various datasets show that our method can effectively protect the copyright of EaaS models without compromising service quality. Our code is available athttps://github.com/yjw1029/EmbMarker.",
+  "keywords": [
+    "code",
+    "extraction",
+    "the owners",
+    "the original embeddings",
+    "we",
+    "natural",
+    "it",
+    "owners",
+    "vulnerable",
+    "llms",
+    "an embedding watermark method",
+    "the embeddings",
+    "processing",
+    "previous studies",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.423/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:41:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

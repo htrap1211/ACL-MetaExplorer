@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.118",
+  "title": "D}iv{HSK}: Diverse Headline Generation using Self-Attention based Keyword Selection",
+  "authors": [
+    "E, Venkatesh  and\nMaurya, Kaushal  and\nKumar, Deepak  and\nDesarkar, Maunendra Sankar"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Diverse headline generation is an NLP task where given a news article, the goal is to generate multiple headlines that are true to the content of the article but are different among themselves. This task aims to exhibit and exploit semantically similar one-to-many relationships between a source news article and multiple target headlines. Toward this, we propose a novel model called DIVHSK. It has two components:KEYSELECT for selecting the important keywords, and SEQGEN, for finally generating the multiple diverse headlines. In KEYSELECT, we cluster the self-attention heads of the last layer of the pre-trained encoder and select the most-attentive theme and general keywords from the source article. Then, cluster-specific keyword sets guide the SEQGEN, a pre-trained encoder-decoder model, to generate diverse yet semantically similar headlines. The proposed model consistently outperformed existing literature and our strong baselines and emerged as a state-of-the-art model. We have also created a high-quality multi-reference headline dataset from news articles.",
+  "keywords": [
+    "layer",
+    "we",
+    "an nlp task",
+    "cluster",
+    "it",
+    "self",
+    "decoder",
+    "hsk diverse headline generation",
+    "the pre-trained encoder",
+    "semantically similar one-to-many relationships",
+    "reference",
+    "the self-attention heads",
+    "general",
+    "a pre-trained encoder-decoder model",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.118/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.605",
+  "title": "f-Divergence Minimization for Sequence-Level Knowledge Distillation",
+  "authors": [
+    "Wen, Yuqiao  and\nLi, Zichao  and\nDu, Wenyu  and\nMou, Lili"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Knowledge distillation (KD) is the process of transferring knowledge from a large model to a small one. It has gained increasing attention in the natural language processing community, driven by the demands of compressing ever-growing language models. In this work, we propose an FDISTILL framework, which formulates sequence-level knowledge distillation as minimizing a generalized f-divergence function. We propose four distilling variants under our framework and show that existing SeqKD and ENGINE approaches are approximations of our FDISTILL methods. We further derive step-wise decomposition for our FDISTILL, reducing intractable sequence-level divergence to word-level losses that can be computed in a tractable manner. Experiments across four datasets show that our methods outperform existing KD approaches, and that our symmetric distilling losses can better force the student to learn from the teacher distribution.",
+  "keywords": [
+    "work",
+    "process",
+    "knowledge",
+    "processing",
+    "language",
+    "increasing attention",
+    "natural",
+    "ever-growing language models",
+    "model",
+    "it",
+    "a generalized f-divergence function",
+    "generalized",
+    "attention",
+    "word",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.605/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P19-1572",
+  "title": "Predicting Humorousness and Metaphor Novelty with {G}aussian Process Preference Learning",
+  "authors": [
+    "Simpson, Edwin  and\nDo Dinh, Erik-L{\\^a}n  and\nMiller, Tristan  and\nGurevych, Iryna"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "The inability to quantify key aspects of creative language is a frequent obstacle to natural language understanding. To address this, we introduce novel tasks for evaluating the creativeness of language—namely, scoring and ranking text by humorousness and metaphor novelty. To sidestep the difficulty of assigning discrete labels or numeric scores, we learn from pairwise comparisons between texts. We introduce a Bayesian approach for predicting humorousness and metaphor novelty using Gaussian process preference learning (GPPL), which achieves a Spearman’s ρ of 0.56 against gold using word embeddings and linguistic features. Our experiments show that given sparse, crowdsourced annotation data, ranking using GPPL outperforms best–worst scaling. We release a new dataset for evaluating humour containing 28,210 pairwise comparisons of 4,030 texts, and make our software freely available.",
+  "keywords": [
+    "we",
+    "natural",
+    "word",
+    "text",
+    "word embeddings",
+    "embeddings",
+    "process",
+    "language",
+    "a bayesian approach",
+    "approach",
+    "novel tasks",
+    "creative language",
+    "a frequent obstacle",
+    "sparse crowdsourced annotation data",
+    "a spearman"
+  ],
+  "url": "https://aclanthology.org/P19-1572/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:45:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.knowledgenlp-1.5",
+  "title": "Aggregating Impressions on Celebrities and their Reasons from Microblog Posts and Web Search Pages",
+  "authors": [
+    "Yokoyama, Hibiki  and\nTsuchida, Rikuto  and\nBuma, Kosei  and\nMiyakawa, Sho  and\nUtsuro, Takehito  and\nYoshioka, Masaharu"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 3rd Workshop on Knowledge Augmented Methods for NLP",
+  "abstract": "This paper aims to augment fans’ ability to critique and exploreinformation related to celebrities of interest. First, we collect postsfrom X (formerly Twitter) that discuss matters related to specificcelebrities. For the collection of major impressions from these posts,we employ ChatGPT as a large language model (LLM) to analyze andsummarize key sentiments. Next, based on collected impressions, wesearch for Web pages and collect the content of the top 30 ranked pagesas the source for exploring the reasons behind those impressions. Oncethe Web page content collection is complete, we collect and aggregatedetailed reasons for the impressions on the celebrities from the contentof each page. For this part, we continue to use ChatGPT, enhanced bythe retrieval augmented generation (RAG) framework, to ensure thereliability of the collected results compared to relying solely on theprior knowledge of the LLM. Evaluation results by comparing a referencethat is manually collected and aggregated reasons with those predictedby ChatGPT revealed that ChatGPT achieves high accuracy in reasoncollection and aggregation. Furthermore, we compared the performance ofChatGPT with an existing model of mT5 in reason collection and confirmedthat ChatGPT exhibits superior performance.",
+  "keywords": [
+    "the celebrities",
+    "the llm evaluation results",
+    "we",
+    "llm",
+    "high accuracy",
+    "chatgpt",
+    "those predictedby chatgpt",
+    "ofchatgpt",
+    "a large language model",
+    "the performance ofchatgpt",
+    "celebrities",
+    "accuracy",
+    "specificcelebrities",
+    "knowledge",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.knowledgenlp-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:07:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

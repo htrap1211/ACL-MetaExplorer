@@ -1,0 +1,33 @@
+{
+  "id": "P17-1188",
+  "title": "Learning Character-level Compositionality with Visual Features",
+  "authors": [
+    "Liu, Frederick  and\nLu, Han  and\nLo, Chieh  and\nNeubig, Graham"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Previous work has modeled the compositionality of words by creating character-level models of meaning, reducing problems of sparsity for rare words. However, in many writing systems compositionality has an effect even on the character-level: the meaning of a character is derived by the sum of its parts. In this paper, we model this effect by creating embeddings for characters based on their visual characteristics, creating an image for the character and running it through a convolutional neural network to produce a visual character embedding. Experiments on a text classification task demonstrate that such model allows for better processing of instances with rare characters in languages such as Chinese, Japanese, and Korean. Additionally, qualitative analyses demonstrate that our proposed model learns to focus on the parts of characters that carry topical content which resulting in embeddings that are coherent in visual space.",
+  "keywords": [
+    "embeddings",
+    "work",
+    "a text classification task",
+    "processing",
+    "neural",
+    "model",
+    "it",
+    "text",
+    "a convolutional neural network",
+    "sum",
+    "network",
+    "we",
+    "visual",
+    "convolutional",
+    "classification"
+  ],
+  "url": "https://aclanthology.org/P17-1188/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:01:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-short.59",
+  "title": "Zero-Shot Cross-Lingual Reranking with Large Language Models for Low-Resource Languages",
+  "authors": [
+    "Adeyemi, Mofetoluwa  and\nOladipo, Akintunde  and\nPradeep, Ronak  and\nLin, Jimmy"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Large language models (LLMs) as listwise rerankers have shown impressive zero-shot capabilities in various passage ranking tasks. Despite their success, there is still a gap in existing literature on their effectiveness in reranking low-resource languages. To address this, we investigate how LLMs function as listwise rerankers in cross-lingual information retrieval (CLIR) systems with queries in English and passages in four African languages: Hausa, Somali, Swahili, and Yoruba. We analyze and compare the effectiveness of monolingual reranking using either query or document translations. We also evaluate the effectiveness of LLMs when leveraging their own generated translations. To grasp the general picture, we examine the effectiveness of multiple LLMs — the proprietary models RankGPT-4 and RankGPT-3.5, along with the open-source model RankZephyr. While the document translation setting, i.e., both queries and documents are in English, leads to the best reranking effectiveness, our results indicate that for specific LLMs, reranking in the African language setting achieves competitive effectiveness with the cross-lingual setting, and even performs better when using the LLM’s own translations.",
+  "keywords": [
+    "we",
+    "the general picture",
+    "llm",
+    "shot",
+    "translation",
+    "cross",
+    "the proprietary models",
+    "queries",
+    "retrieval",
+    "information",
+    "e",
+    "multiple llms",
+    "both queries",
+    "llms",
+    "i"
+  ],
+  "url": "https://aclanthology.org/2024.acl-short.59/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:47:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

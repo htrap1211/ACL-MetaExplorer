@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.287",
+  "title": "Multilingual Document-Level Translation Enables Zero-Shot Transfer From Sentences to Documents",
+  "authors": [
+    "Zhang, Biao  and\nBapna, Ankur  and\nJohnson, Melvin  and\nDabirmoghaddam, Ali  and\nArivazhagan, Naveen  and\nFirat, Orhan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Document-level neural machine translation (DocNMT) achieves coherent translations by incorporating cross-sentence context. However, for most language pairs there’s a shortage of parallel documents, although parallel sentences are readily available. In this paper, we study whether and how contextual modeling in DocNMT is transferable via multilingual modeling. We focus on the scenario of zero-shot transfer from teacher languages with document level data to student languages with no documents but sentence level data, and for the first time treat document-level translation as a transfer learning problem. Using simple concatenation-based DocNMT, we explore the effect of 3 factors on the transfer: the number of teacher languages with document level data, the balance between document and sentence level data at training, and the data condition of parallel documents (genuine vs. back-translated). Our experiments on Europarl-7 and IWSLT-10 show the feasibility of multilingual transfer for DocNMT, particularly on document-specific metrics. We observe that more teacher languages and adequate data balance both contribute to better transfer quality. Surprisingly, the transfer is less sensitive to the data condition, where multilingual DocNMT delivers decent performance with either back-translated or genuine document pairs.",
+  "keywords": [
+    "coherent translations",
+    "we",
+    "shot",
+    "training",
+    "translation",
+    "cross",
+    "document-specific metrics",
+    "neural",
+    "learning",
+    "transfer",
+    "zero-shot transfer",
+    "document-level translation",
+    "metrics",
+    "a transfer learning problem",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.287/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:28:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

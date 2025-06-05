@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.479",
+  "title": "Separating Context and Pattern: Learning Disentangled Sentence Representations for Low-Resource Extractive Summarization",
+  "authors": [
+    "Yuan, Ruifeng  and\nSun, Shichao  and\nWang, Zili  and\nCao, Ziqiang  and\nLi, Wenjie"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Extractive summarization aims to select a set of salient sentences from the source document to form a summary. Context information has been considered one of the key factors for this task. Meanwhile, there also exist other pattern factors that can identify sentence importance, such as sentence position or certain n-gram tokens. However, such pattern information is only effective in specific datasets or domains and can not be generalized like the context information when there only exists limited data. In this case, current extractive summarization models may suffer from a performance drop when transferring to a new dataset. In this paper, we attempt to apply disentangled representation learning on extractive summarization, and separate the two key factors for the task, context and pattern, for a better generalization ability in the low-resource setting. To achieve this, we propose two groups of losses for encoding and disentangling sentence representations into context representations and pattern representations. In this case, we can either use only the context information in the zero-shot setting or fine-tune the pattern information in the few-shot setting. Experimental results on three summarization datasets from different domains show the effectiveness of our proposed approach.",
+  "keywords": [
+    "salient sentences",
+    "the few-shot",
+    "summarization",
+    "we",
+    "current",
+    "shot",
+    "information",
+    "learning",
+    "extractive summarization",
+    "the zero-shot setting",
+    "drop",
+    "current extractive summarization models",
+    "generalization",
+    "fine",
+    "three summarization datasets"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.479/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

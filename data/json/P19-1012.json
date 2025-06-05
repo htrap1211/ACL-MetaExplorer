@@ -1,0 +1,33 @@
+{
+  "id": "P19-1012",
+  "title": "The (Non-)Utility of Structural Features in {B}i{LSTM}-based Dependency Parsers",
+  "authors": [
+    "Falenska, Agnieszka  and\nKuhn, Jonas"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Classical non-neural dependency parsers put considerable effort on the design of feature functions. Especially, they benefit from information coming from structural features, such as features drawn from neighboring tokens in the dependency tree. In contrast, their BiLSTM-based successors achieve state-of-the-art performance without explicit information about the structural context. In this paper we aim to answer the question: How much structural context are the BiLSTM representations able to capture implicitly? We show that features drawn from partial subtrees become redundant when the BiLSTMs are used. We provide a deep insight into information flow in transition- and graph-based neural architectures to demonstrate where the implicit information comes from when the parsers make their decisions. Finally, with model ablations we demonstrate that the structural context is not only present in the models, but it significantly influences their performance.",
+  "keywords": [
+    "deep",
+    "their bilstm-based successors",
+    "i",
+    "neural",
+    "model",
+    "it",
+    "bilstm",
+    "the bilstm representations",
+    "bilstms",
+    "information",
+    "question",
+    "dependency",
+    "the dependency tree",
+    "we",
+    "the bilstms"
+  ],
+  "url": "https://aclanthology.org/P19-1012/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:28:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

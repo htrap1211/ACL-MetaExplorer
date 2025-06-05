@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.123",
+  "title": "Efficient Passage Retrieval with Hashing for Open-domain Question Answering",
+  "authors": [
+    "Yamada, Ikuya  and\nAsai, Akari  and\nHajishirzi, Hannaneh"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Most state-of-the-art open-domain question answering systems use a neural retrieval model to encode passages into continuous vectors and extract them from a knowledge source. However, such retrieval models often require large memory to run because of the massive size of their passage index. In this paper, we introduce Binary Passage Retriever (BPR), a memory-efficient neural retrieval model that integrates a learning-to-hash technique into the state-of-the-art Dense Passage Retriever (DPR) to represent the passage index using compact binary codes rather than continuous vectors. BPR is trained with a multi-task objective over two tasks: efficient candidate generation based on binary codes and accurate reranking based on continuous vectors. Compared with DPR, BPR substantially reduces the memory cost from 65GB to 2GB without a loss of accuracy on two standard open-domain question answering benchmarks: Natural Questions and TriviaQA. Our code and trained models are available athttps://github.com/studio-ousia/bpr.",
+  "keywords": [
+    "code",
+    "a multi-task objective",
+    "efficient",
+    "encode",
+    "question",
+    "we",
+    "neural",
+    "natural",
+    "retrieval",
+    "loss",
+    "a neural retrieval model",
+    "objective",
+    "accuracy",
+    "efficient passage retrieval",
+    "such retrieval models"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.123/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:08:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

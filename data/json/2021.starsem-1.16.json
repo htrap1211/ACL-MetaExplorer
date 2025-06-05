@@ -1,0 +1,33 @@
+{
+  "id": "2021.starsem-1.16",
+  "title": "One Semantic Parser to Parse Them All: Sequence to Sequence Multi-Task Learning on Semantic Parsing Datasets",
+  "authors": [
+    "Damonte, Marco  and\nMonti, Emilio"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of *SEM 2021: The Tenth Joint Conference on Lexical and Computational Semantics",
+  "abstract": "Semantic parsers map natural language utterances to meaning representations. The lack of a single standard for meaning representations led to the creation of a plethora of semantic parsing datasets. To unify different datasets and train a single model for them, we investigate the use of Multi-Task Learning (MTL) architectures. We experiment with five datasets (Geoquery, NLMaps, TOP, Overnight, AMR). We find that an MTL architecture that shares the entire network across datasets yields competitive or better parsing accuracies than the single-task baselines, while reducing the total number of parameters by 68%. We further provide evidence that MTL has also better compositional generalization than single-task models. We also present a comparison of task sampling methods and propose a competitive alternative to widespread proportional sampling strategies.",
+  "keywords": [
+    "semantic parsers",
+    "accuracies",
+    "language",
+    "natural",
+    "datasets yields",
+    "model",
+    "one semantic parser",
+    "semantic parsing datasets",
+    "strategies",
+    "generalization",
+    "semantic",
+    "network",
+    "we",
+    "sequence",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2021.starsem-1.16/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

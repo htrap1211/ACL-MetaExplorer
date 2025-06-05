@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.127",
+  "title": "Logic-Driven Context Extension and Data Augmentation for Logical Reasoning of Text",
+  "authors": [
+    "Wang, Siyuan  and\nZhong, Wanjun  and\nTang, Duyu  and\nWei, Zhongyu  and\nFan, Zhihao  and\nJiang, Daxin  and\nZhou, Ming  and\nDuan, Nan"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Logical reasoning of text requires identifying critical logical structures in the text and performing inference over them. Existing methods for logical reasoning mainly focus on contextual semantics of text while struggling to explicitly model the logical inference process. In this paper, we not only put forward a logic-driven context extension framework but also propose a logic-driven data augmentation algorithm. The former follows a three-step reasoning paradigm, and each step is respectively to extract logical expressions as elementary reasoning units, symbolically infer the implicit expressions following equivalence laws and extend the context to validate the options. The latter augments literally similar but logically different instances and incorporates contrastive learning to better capture logical information, especially logical negative and conditional relationships. We conduct experiments on two benchmark datasets, ReClor and LogiQA. The results show that our method achieves state-of-the-art performance on both datasets, and even surpasses human performance on the ReClor dataset.",
+  "keywords": [
+    "contextual semantics",
+    "we",
+    "semantics",
+    "information",
+    "learning",
+    "text",
+    "process",
+    "human",
+    "the latter augments",
+    "state",
+    "paradigm",
+    "logical information",
+    "logical reasoning",
+    "framework",
+    "similar"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.127/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

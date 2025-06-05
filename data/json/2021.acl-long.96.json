@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.96",
+  "title": "Can vectors read minds better than experts? Comparing data augmentation strategies for the automated scoring of children{'}s mindreading ability",
+  "authors": [
+    "Kovatchev, Venelin  and\nSmith, Phillip  and\nLee, Mark  and\nDevine, Rory"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "In this paper we implement and compare 7 different data augmentation strategies for the task of automatic scoring of children’s ability to understand others’ thoughts, feelings, and desires (or “mindreading”). We recruit in-domain experts to re-annotate augmented samples and determine to what extent each strategy preserves the original rating. We also carry out multiple experiments to measure how much each augmentation strategy improves the performance of automatic scoring systems. To determine the capabilities of automatic systems to generalize to unseen data, we create UK-MIND-20 - a new corpus of children’s performance on tests of mindreading, consisting of 10,320 question-answer pairs. We obtain a new state-of-the-art performance on the MIND-CA corpus, improving macro-F1-score by 6 points. Results indicate that both the number of training examples and the quality of the augmentation strategies affect the performance of the systems. The task-specific augmentations generally outperform task-agnostic augmentations. Automatic augmentations based on vectors (GloVe, FastText) perform the worst. We find that systems trained on MIND-CA generalize well to UK-MIND-20. We demonstrate that data augmentation strategies also improve the performance on unseen data.",
+  "keywords": [
+    "glove",
+    "vectors glove fasttext",
+    "question",
+    "we",
+    "training",
+    "answer",
+    "the augmentation strategies",
+    "the capabilities",
+    "strategies",
+    "vectors",
+    "capabilities",
+    "fasttext",
+    "data augmentation strategies",
+    "macro-f1-score",
+    "augmented samples"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.96/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:00:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

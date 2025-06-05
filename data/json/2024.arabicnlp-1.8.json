@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.8",
+  "title": "A Context-Contrastive Inference Approach To Partial Diacritization",
+  "authors": [
+    "ElNokrashy, Muhammad  and\nAlKhamissi, Badr"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "Diacritization plays a pivotal role for meaning disambiguation and improving readability in Arabic texts. Efforts have long focused on marking every eligible character (Full Diacritization). Overlooked in comparison, Partial Diacritzation (‘PD‘) is the selection of a subset of characters to be annotated to aid comprehension only where needed. Research has indicated that excessive diacritic marks can hinder skilled readers—reducing reading speed and accuracy. We conduct a behavioral experiment and show that partially marked text is often easier to read than fully marked text, and sometimes easier than plain text. In this light, we introduce Context-Contrastive Partial Diacritization (‘CCPD‘)—a novel approach to ‘PD‘ which integrates seamlessly with existing Arabic diacritization systems. ‘CCPD‘ processes each word twice, once with context and once without, and diacritizes only the characters with disparities between the two inferences. Further, we introduce novel indicators for measuring partial diacritization quality to help establish this as a machine learning task. Lastly, we introduce ‘TD2‘, a Transformer-variant of an established model which offers a markedly different performance profile on our proposed indicators compared to all other known systems.",
+  "keywords": [
+    "a transformer-variant",
+    "disparities",
+    "we",
+    "word",
+    "learning",
+    "a machine learning task",
+    "text",
+    "easier",
+    "accuracy",
+    "transformer",
+    "model",
+    "machine",
+    "novel indicators",
+    "characters",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:02:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

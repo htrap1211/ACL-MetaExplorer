@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.874",
+  "title": "PIXAR}: Auto-Regressive Language Modeling in Pixel Space",
+  "authors": [
+    "Tai, Yintao  and\nLiao, Xiyang  and\nSuglia, Alessandro  and\nVergari, Antonio"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Recent work showed the possibility of building open-vocabulary large language models (LLMs) that directly operate on pixel representations. These models are implemented as autoencoders that reconstruct masked patches of rendered text.However, these pixel-based LLMs are limited to discriminative tasks (e.g., classification) and, similar to BERT, cannot be used to generate text.Therefore, they cannot be used for generative tasks such as free-form question answering. In this work, we introduce PIXAR, the first pixel-based autoregressive LLM that performs text generation. Consisting of only a decoder, PIXAR can perform free-form generative tasks while keeping the number of parameters on par with previous encoder-decoder models.Furthermore, we highlight the challenges of generating text as non-noisy images and show this is due to using a maximum likelihood objective. To overcome this problem, we propose an adversarial pretraining stage that improves the readability and accuracy of PIXAR by 8.1 on LAMBADA and 8.5 on bAbI— making it comparable to GPT-2 on text generation tasks.This paves the way to build open-vocabulary LLMs that operate on perceptual input only and calls into question the necessity of the usual symbolic input representation, i.e., text as (sub)tokens.",
+  "keywords": [
+    "free-form generative tasks",
+    "question",
+    "generative tasks",
+    "these pixel-based llms",
+    "form",
+    "we",
+    "open-vocabulary large language models",
+    "text generation tasks",
+    "llm",
+    "text generation",
+    "classification",
+    "autoencoders",
+    "it",
+    "pixar auto-regressive language modeling",
+    "decoder"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.874/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:00:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

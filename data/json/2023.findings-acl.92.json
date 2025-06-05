@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.92",
+  "title": "Exploiting Rich Textual User-Product Context for Improving Personalized Sentiment Analysis",
+  "authors": [
+    "Lyu, Chenyang  and\nYang, Linyi  and\nZhang, Yue  and\nGraham, Yvette  and\nFoster, Jennifer"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "User and product information associated with a review is useful for sentiment polarity prediction. Typical approaches incorporating such information focus on modeling users and products as implicitly learned representation vectors. Most do not exploit the potential of historical reviews, or those that currently do require unnecessary modifications to model architectureor do not make full use of user/product associations. The contribution of this work is twofold: i) a method to explicitly employ historical reviews belonging to the same user/product in initializing representations, and ii) efficient incorporation of textual associations between users and products via a user-product cross-context module. Experiments on the IMDb, Yelp-2013 and Yelp-2014 English benchmarks with BERT, SpanBERT and Longformer pretrained language models show that our approach substantially outperforms previous state-of-the-art.",
+  "keywords": [
+    "a review",
+    "efficient",
+    "personalized sentiment analysis user",
+    "cross",
+    "information",
+    "rich",
+    "analysis",
+    "reviews",
+    "longformer pretrained language models",
+    "i",
+    "bert",
+    "historical reviews",
+    "ii efficient incorporation",
+    "representation vectors",
+    "sentiment"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.92/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

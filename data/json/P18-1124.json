@@ -1,0 +1,33 @@
+{
+  "id": "P18-1124",
+  "title": "D}ial{SQL}: Dialogue Based Structured Query Generation",
+  "authors": [
+    "Gur, Izzeddin  and\nYavuz, Semih  and\nSu, Yu  and\nYan, Xifeng"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The recent advance in deep learning and semantic parsing has significantly improved the translation accuracy of natural language questions to structured queries. However, further improvement of the existing approaches turns out to be quite challenging. Rather than solely relying on algorithmic innovations, in this work, we introduce DialSQL, a dialogue-based structured query generation framework that leverages human intelligence to boost the performance of existing algorithms via user interaction. DialSQL is capable of identifying potential errors in a generated SQL query and asking users for validation via simple multi-choice questions. User feedback is then leveraged to revise the query. We design a generic simulator to bootstrap synthetic training dialogues and evaluate the performance of DialSQL on the WikiSQL dataset. Using SQLNet as a black box query generation tool, DialSQL improves its performance from 61.3% to 69.0% using only 2.4 validation questions per dialogue.",
+  "keywords": [
+    "deep",
+    "parsing",
+    "validation",
+    "feedback",
+    "a generic simulator",
+    "semantic",
+    "we",
+    "dialogue",
+    "training",
+    "translation",
+    "synthetic training dialogues",
+    "ial",
+    "natural",
+    "queries",
+    "structured query generation"
+  ],
+  "url": "https://aclanthology.org/P18-1124/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:12:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

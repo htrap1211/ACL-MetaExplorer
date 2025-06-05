@@ -1,0 +1,33 @@
+{
+  "id": "P18-1206",
+  "title": "Efficient Large-Scale Neural Domain Classification with Personalized Attention",
+  "authors": [
+    "Kim, Young-Bum  and\nKim, Dongchan  and\nKumar, Anjishnu  and\nSarikaya, Ruhi"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this paper, we explore the task of mapping spoken language utterances to one of thousands of natural language understanding domains in intelligent personal digital assistants (IPDAs). This scenario is observed in mainstream IPDAs in industry that allow third parties to develop thousands of new domains to augment built-in first party domains to rapidly increase domain coverage and overall IPDA capabilities. We propose a scalable neural model architecture with a shared encoder, a novel attention mechanism that incorporates personalization information and domain-specific classifiers that solves the problem efficiently. Our architecture is designed to efficiently accommodate incremental domain additions achieving two orders of magnitude speed up compared to full model retraining. We consider the practical constraints of real-time production systems, and design to minimize memory footprint and runtime latency. We demonstrate that incorporating personalization significantly improves domain classification accuracy in a setting with thousands of overlapping domains.",
+  "keywords": [
+    "efficient",
+    "overall ipda capabilities",
+    "classifiers",
+    "a shared encoder",
+    "we",
+    "parties",
+    "classification",
+    "neural",
+    "natural",
+    "information",
+    "domain-specific classifiers",
+    "personalized attention",
+    "third parties",
+    "classification accuracy",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/P18-1206/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:14:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

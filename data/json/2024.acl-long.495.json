@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.495",
+  "title": "Few-shot Transfer Learning for Knowledge Base Question Answering: Fusing Supervised Models with In-Context Learning",
+  "authors": [
+    "Patidar, Mayur  and\nSawhney, Riya  and\nSingh, Avinash  and\nChatterjee, Biswajit  and\n., Mausam  and\nBhattacharya, Indrajit"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Existing Knowledge Base Question Answering (KBQA) architectures are hungry for annotated data, which make them costly and time-consuming to deploy. We introduce the problem of few-shot transfer learning for KBQA, where the target domain offers only a few labeled examples, but a large labeled training dataset is available in a source domain. We propose a novel KBQA architecture called FuSIC-KBQA that performs KB-retrieval using multiple source-trained retrievers, re-ranks using an LLM and uses this as input for LLM few-shot in-context learning to generate logical forms, which are further refined using execution-guided feedback. Experiments over four source-target KBQA pairs of varying complexity show that FuSIC-KBQA significantly outperforms adaptations of SoTA KBQA models for this setting. Additional experiments in the in-domain setting show that FuSIC-KBQA also outperforms SoTA KBQA models when training data is limited.",
+  "keywords": [
+    "knowledge",
+    "feedback",
+    "few-shot transfer learning",
+    "kbqa architectures",
+    "an llm",
+    "retrievers",
+    "retrieval",
+    "question",
+    "four source-target kbqa pairs",
+    "sota kbqa models",
+    "we",
+    "learning",
+    "transfer",
+    "time",
+    "multiple source-trained retrievers"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.495/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

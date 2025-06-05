@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.769",
+  "title": "Superfiltering: Weak-to-Strong Data Filtering for Fast Instruction-Tuning",
+  "authors": [
+    "Li, Ming  and\nZhang, Yong  and\nHe, Shwai  and\nLi, Zhitao  and\nZhao, Hongyu  and\nWang, Jianzong  and\nCheng, Ning  and\nZhou, Tianyi"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Instruction tuning is critical to improve LLMs but usually suffers from low-quality and redundant data. Data filtering for instruction tuning has proved important in improving both the efficiency and performance of the tuning process. But it also leads to extra cost and computation due to the involvement of LLMs in this process. To reduce the filtering cost, we study Superfiltering: Can we use a smaller and weaker model to select data for finetuning a larger and stronger model? Despite the performance gap between weak and strong language models, we find their highly consistent capability to perceive instruction difficulty and data selection results. This enables us to use a much smaller and more efficient model to filter the instruction data used to train a larger language model. Not only does it largely speed up the data filtering, but the filtered-data-finetuned LLM achieves even better performance on standard benchmarks. Extensive experiments validate the efficacy and efficiency of our approach.",
+  "keywords": [
+    "instruction",
+    "a larger language model",
+    "instruction tuning",
+    "tuning",
+    "process",
+    "fast instruction-tuning instruction tuning",
+    "language",
+    "the filtered-data-finetuned llm",
+    "model",
+    "extra",
+    "it",
+    "efficient",
+    "both the efficiency",
+    "us",
+    "efficiency"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.769/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:44:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

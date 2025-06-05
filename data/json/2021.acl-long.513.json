@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.513",
+  "title": "Multi-hop Graph Convolutional Network with High-order Chebyshev Approximation for Text Reasoning",
+  "authors": [
+    "Jiang, Shuoran  and\nChen, Qingcai  and\nLiu, Xin  and\nHu, Baotian  and\nZhang, Lisai"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Graph convolutional network (GCN) has become popular in various natural language processing (NLP) tasks with its superiority in long-term and non-consecutive word interactions. However, existing single-hop graph reasoning in GCN may miss some important non-consecutive dependencies. In this study, we define the spectral graph convolutional network with the high-order dynamic Chebyshev approximation (HDGCN), which augments the multi-hop graph reasoning by fusing messages aggregated from direct and long-term dependencies into one convolutional layer. To alleviate the over-smoothing in high-order Chebyshev approximation, a multi-vote-based cross-attention (MVCAttn) with linear computation complexity is also proposed. The empirical results on four transductive and inductive NLP tasks and the ablation study verify the efficacy of the proposed model.",
+  "keywords": [
+    "cross",
+    "inductive nlp tasks",
+    "processing",
+    "language",
+    "nlp",
+    "natural",
+    "model",
+    "text",
+    "direct and long-term dependencies",
+    "one convolutional layer",
+    "dependencies",
+    "layer",
+    "network",
+    "word",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.513/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

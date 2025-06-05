@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.729",
+  "title": "Distantly Supervised Course Concept Extraction in {MOOC}s with Academic Discipline",
+  "authors": [
+    "Lu, Mengying  and\nWang, Yuquan  and\nYu, Jifan  and\nDu, Yexing  and\nHou, Lei  and\nLi, Juanzi"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "With the rapid growth of Massive Open Online Courses (MOOCs), it is expensive and time-consuming to extract high-quality knowledgeable concepts taught in the course by human effort to help learners grasp the essence of the course. In this paper, we propose to automatically extract course concepts using distant supervision to eliminate the heavy work of human annotations, which generates labels by matching them with an easily accessed dictionary. However, this matching process suffers from severe noisy and incomplete annotations because of the limited dictionary and diverse MOOCs. To tackle these challenges, we present a novel three-stage framework DS-MOCE, which leverages the power of pre-trained language models explicitly and implicitly and employs discipline-embedding models with a self-train strategy based on label generation refinement across different domains. We also provide an expert-labeled dataset spanning 20 academic disciplines. Experimental results demonstrate the superiority of DS-MOCE over the state-of-the-art distantly supervised methods (with 7% absolute F1 score improvement). Code and data are now available athttps://github.com/THU-KEG/MOOC-NER.",
+  "keywords": [
+    "code",
+    "extraction",
+    "we",
+    "com thu-keg mooc-ner",
+    "pre-trained language models",
+    "it",
+    "self",
+    "label generation refinement",
+    "ner",
+    "work",
+    "process",
+    "language",
+    "generation",
+    "learners",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.729/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:45:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

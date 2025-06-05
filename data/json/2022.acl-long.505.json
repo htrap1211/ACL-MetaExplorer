@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.505",
+  "title": "m{LUKE}: {T}he Power of Entity Representations in Multilingual Pretrained Language Models",
+  "authors": [
+    "Ri, Ryokan  and\nYamada, Ikuya  and\nTsuruoka, Yoshimasa"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent studies have shown that multilingual pretrained language models can be effectively improved with cross-lingual alignment information from Wikipedia entities. However, existing methods only exploit entity information in pretraining and do not explicitly use entities in downstream tasks. In this study, we explore the effectiveness of leveraging entity representations for downstream cross-lingual tasks. We train a multilingual language model with 24 languages with entity representations and showthe model consistently outperforms word-based pretrained models in various cross-lingual transfer tasks. We also analyze the model and the key insight is that incorporating entity representations into the input allows us to extract more language-agnostic features. We also evaluate the model with a multilingual cloze prompt task with the mLAMA dataset. We show that entity-based prompt elicits correct factual knowledge more likely than using only word representations.",
+  "keywords": [
+    "wikipedia entities",
+    "cross",
+    "alignment",
+    "knowledge",
+    "prompt",
+    "language",
+    "model",
+    "studies",
+    "entities",
+    "a multilingual language model",
+    "multilingual pretrained language models",
+    "entity-based prompt elicits",
+    "information",
+    "us",
+    "recent studies"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.505/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

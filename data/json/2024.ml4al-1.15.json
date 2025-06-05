@@ -1,0 +1,33 @@
+{
+  "id": "2024.ml4al-1.15",
+  "title": "Towards Context-aware Normalization of Variant Characters in Classical {C}hinese Using Parallel Editions and {BERT",
+  "authors": [
+    "Kessler, Florian"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Machine Learning for Ancient Languages (ML4AL 2024)",
+  "abstract": "For the automatic processing of Classical Chinese texts it is highly desirable to normalize variant characters, i.e. characters with different visual forms that are being used to represent the same morpheme, into a single form. However, there are some variant characters that are used interchangeably by some writers but deliberately employed to distinguish between different meanings by others. Hence, in order to avoid losing information in the normalization processes by conflating meaningful distinctions between variants, an intelligent normalization system that takes context into account is needed. Towards the goal of developing such a system, in this study, we describe how a dataset with usage samples of variant characters can be extracted from a corpus of paired editions of multiple texts. Using the dataset, we conduct two experiments, testing whether models can be trained with contextual word embeddings to predict variant characters. The results of the experiments show that while this is often possible for single texts, most conventions learned do not transfer well between documents.",
+  "keywords": [
+    "form",
+    "we",
+    "it",
+    "information",
+    "word",
+    "visual",
+    "contextual word embeddings",
+    "normalization",
+    "processing",
+    "i",
+    "bert",
+    "embeddings",
+    "documents",
+    "characters",
+    "writers"
+  ],
+  "url": "https://aclanthology.org/2024.ml4al-1.15/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

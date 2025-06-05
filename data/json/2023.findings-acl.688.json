@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.688",
+  "title": "Bridging the Granularity Gap for Acoustic Modeling",
+  "authors": [
+    "Xu, Chen  and\nZhang, Yuhao  and\nJiao, Chengbo  and\nLiu, Xiaoqian  and\nHu, Chi  and\nZeng, Xin  and\nXiao, Tong  and\nMa, Anxiang  and\nWang, Huizhen  and\nZhu, Jingbo"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "While Transformer has become the de-facto standard for speech, modeling upon the fine-grained frame-level features remains an open challenge of capturing long-distance dependencies and distributing the attention weights. We propose Progressive Down-Sampling (PDS) which gradually compresses the acoustic features into coarser-grained units containing more complete semantic information, like text-level representation. In addition, we develop a representation fusion method to alleviate information loss that occurs inevitably during high compression. In this way, we compress the acoustic features into 1/32 of the initial length while achieving better or comparable performances on the speech recognition task. And as a bonus, it yields inference speedups ranging from 1.20x to 1.47x.By reducing the modeling burden, we also achieve competitive results when training on the more challenging speech translation task.",
+  "keywords": [
+    "semantic",
+    "we",
+    "fusion",
+    "translation",
+    "it",
+    "dependencies",
+    "loss",
+    "information",
+    "long-distance dependencies",
+    "text",
+    "more complete semantic information",
+    "transformer",
+    "modeling",
+    "attention",
+    "the attention"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.688/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

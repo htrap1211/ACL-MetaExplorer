@@ -1,0 +1,33 @@
+{
+  "id": "P19-1110",
+  "title": "Neural News Recommendation with Topic-Aware News Representation",
+  "authors": [
+    "Wu, Chuhan  and\nWu, Fangzhao  and\nAn, Mingxiao  and\nHuang, Yongfeng  and\nXie, Xing"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "News recommendation can help users find interested news and alleviate information overload. The topic information of news is critical for learning accurate news and user representations for news recommendation. However, it is not considered in many existing news recommendation methods. In this paper, we propose a neural news recommendation approach with topic-aware news representations. The core of our approach is a topic-aware news encoder and a user encoder. In the news encoder we learn representations of news from their titles via CNN networks and apply attention networks to select important words. In addition, we propose to learn topic-aware news representations by jointly training the news encoder with an auxiliary topic classification task. In the user encoder we learn the representations of users from their browsed news and use attention networks to select informative news for user representation learning. Extensive experiments on a real-world dataset validate the effectiveness of our approach.",
+  "keywords": [
+    "the news encoder",
+    "a topic-aware news encoder",
+    "neural",
+    "cnn",
+    "cnn networks",
+    "attention networks",
+    "it",
+    "topic",
+    "encoder",
+    "the user encoder",
+    "information",
+    "attention",
+    "we",
+    "a user encoder",
+    "core"
+  ],
+  "url": "https://aclanthology.org/P19-1110/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:32:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

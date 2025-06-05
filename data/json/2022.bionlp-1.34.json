@@ -1,0 +1,33 @@
+{
+  "id": "2022.bionlp-1.34",
+  "title": "DISTANT}-{CTO}: A Zero Cost, Distantly Supervised Approach to Improve Low-Resource Entity Extraction Using Clinical Trials Literature",
+  "authors": [
+    "Dhrangadhariya, Anjani  and\nM{\\\"u}ller, Henning"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 21st Workshop on Biomedical Language Processing",
+  "abstract": "PICO recognition is an information extraction task for identifying participant, intervention, comparator, and outcome information from clinical literature. Manually identifying PICO information is the most time-consuming step for conducting systematic reviews (SR), which is already labor-intensive. A lack of diversified and large, annotated corpora restricts innovation and adoption of automated PICO recognition systems. The largest-available PICO entity/span corpus is manually annotated which is too expensive for a majority of the scientific community. To break through the bottleneck, we propose DISTANT-CTO, a novel distantly supervised PICO entity extraction approach using the clinical trials literature, to generate a massive weakly-labeled dataset with more than a million ‘Intervention’ and ‘Comparator’ entity annotations. We train distant NER (named-entity recognition) models using this weakly-labeled dataset and demonstrate that it outperforms even the sophisticated models trained on the manually annotated dataset with a 2% F1 improvement over the Intervention entity of the PICO benchmark and more than 5% improvement when combined with the manually annotated dataset. We investigate the generalizability of our approach and gain an impressive F1 score on another domain-specific PICO benchmark. The approach is not only zero-cost but is also scalable for a constant stream of PICO entity annotations.",
+  "keywords": [
+    "the scientific community",
+    "extraction",
+    "we",
+    "generalizability",
+    "an impressive f1 score",
+    "it",
+    "the generalizability",
+    "information",
+    "systematic reviews sr",
+    "scientific",
+    "reviews",
+    "ner",
+    "a 2 f1 improvement",
+    "diversified",
+    "an information extraction task"
+  ],
+  "url": "https://aclanthology.org/2022.bionlp-1.34/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

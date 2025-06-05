@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.282",
+  "title": "M}ed{N}gage: A Dataset for Understanding Engagement in Patient-Nurse Conversations",
+  "authors": [
+    "Wang, Yan  and\nDonovan, Heidi  and\nHassan, Sabit  and\nAlikhani, Malihe"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Patients who effectively manage their symptoms often demonstrate higher levels of engagement in conversations and interventions with healthcare practitioners. This engagement is multifaceted, encompassing cognitive and social dimensions. Consequently, it is crucial for AI systems to understand the engagement in natural conversations between patients and practitioners to better contribute toward patient care. In this paper, we present a novel dataset (MedNgage), which consists of patient-nurse conversations about cancer symptom management. We manually annotate the dataset with a novel framework of categories of patient engagement from two different angles, namely: i) socio-affective engagement (3.1K spans), and ii) cognitive engagement (1.8K spans). Through statistical analysis of the data that is annotated using our framework, we show a positive correlation between patient symptom management outcomes and their engagement in conversations. Additionally, we demonstrate that pre-trained transformer models fine-tuned on our dataset can reliably predict engagement categories in patient-nurse conversations. Lastly, we use LIME (Ribeiro et al., 2016) to analyze the underlying challenges of the tasks that state-of-the-art transformer models encounter. The de-identified data is available for research purposes upon request.",
+  "keywords": [
+    "n",
+    "patient engagement",
+    "conversations",
+    "we",
+    "patient-nurse conversations patients",
+    "natural",
+    "it",
+    "patients",
+    "engagement categories",
+    "patient care",
+    "analysis",
+    "categories",
+    "ed",
+    "the de-identified data",
+    "pre-trained transformer models"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.282/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

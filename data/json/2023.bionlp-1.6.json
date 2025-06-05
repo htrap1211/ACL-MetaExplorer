@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.6",
+  "title": "Evaluating and Improving Automatic Speech Recognition using Severity",
+  "authors": [
+    "Whetten, Ryan  and\nKennington, Casey"
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "A common metric for evaluating Automatic Speech Recognition (ASR) is Word Error Rate (WER) which solely takes into account discrepancies at the word-level. Although useful, WER is not guaranteed to correlate well with human judgment or performance on downstream tasks that use ASR. Meaningful assessment of ASR mistakes becomes even more important in high-stake scenarios such as health-care. We propose 2 general measures to evaluate the severity of mistakes made by ASR systems, one based on sentiment analysis and another based on text embeddings. We evaluate these measures on simulated patient-doctor conversations using 5 ASR systems. Results show that these measures capture characteristics of ASR errors that WER does not. Furthermore, we train an ASR system incorporating severity and demonstrate the potential for using severity not only in the evaluation, but in the development of ASR. Advantages and limitations of this methodology are analyzed and discussed.",
+  "keywords": [
+    "simulated patient-doctor conversations",
+    "2 general measures",
+    "rate",
+    "wer",
+    "conversations",
+    "we",
+    "discrepancies",
+    "word",
+    "analysis",
+    "sentiment analysis",
+    "metric",
+    "text",
+    "sentiment",
+    "embeddings",
+    "general"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

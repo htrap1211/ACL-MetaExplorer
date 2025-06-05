@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.3",
+  "title": "Towards Unifying the Label Space for Aspect- and Sentence-based Sentiment Analysis",
+  "authors": [
+    "Zhang, Yiming  and\nZhang, Min  and\nWu, Sai  and\nZhao, Junbo"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "The aspect-based sentiment analysis (ABSA) is a fine-grained task that aims to determine the sentiment polarity towards targeted aspect terms occurring in the sentence. The development of the ABSA task is very much hindered by the lack of annotated data. To tackle this, the prior works have studied the possibility of utilizing the sentiment analysis (SA) datasets to assist in training the ABSA model, primarily via pretraining or multi-task learning. In this article, we follow this line, and for the first time, we manage to apply the Pseudo-Label (PL) method to merge the two homogeneous tasks. While it seems straightforward to use generated pseudo labels to handle this case of label granularity unification for two highly related tasks, we identify its major challenge in this paper and propose a novel framework, dubbed as Dual-granularity Pseudo Labeling (DPL). Further, similar to PL, we regard the DPL as a general framework capable of combining other prior methods in the literature. Through extensive experiments, DPL has achieved state-of-the-art performance on standard benchmarks surpassing the prior work significantly.",
+  "keywords": [
+    "pl",
+    "we",
+    "generated pseudo labels",
+    "it",
+    "learning",
+    "analysis",
+    "a general framework",
+    "sentiment",
+    "work",
+    "general",
+    "model",
+    "time",
+    "major",
+    "the sentiment",
+    "multi"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:34:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

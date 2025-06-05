@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.812",
+  "title": "Finding the Pillars of Strength for Multi-Head Attention",
+  "authors": [
+    "Ni, Jinjie  and\nMao, Rui  and\nYang, Zonglin  and\nLei, Han  and\nCambria, Erik"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent studies have revealed some issues of Multi-Head Attention (MHA), e.g., redundancy and over-parameterization. Specifically, the heads of MHA were originally designed to attend to information from different representation subspaces, whereas prior studies found that some attention heads likely learn similar features and can be pruned without harming performance. Inspired by the minimum-redundancy feature selection, we assume that focusing on the most representative and distinctive features with minimum resources can mitigate the above issues and lead to more effective and efficient MHAs. In particular, we propose Grouped Head Attention, trained with a self-supervised group constraint that group attention heads, where each group focuses on an essential but distinctive feature subset. We additionally propose a Voting-to-Stay procedure to remove redundant heads, thus achieving a transformer with lighter weights. Extensive experiments are consistent with our hypothesis. Moreover, our method achieves significant performance gains on three well-established tasks while considerably compressing parameters.",
+  "keywords": [
+    "some attention heads",
+    "efficient",
+    "prior studies",
+    "we",
+    "a transformer",
+    "self",
+    "information",
+    "head attention",
+    "recent studies",
+    "transformer",
+    "studies",
+    "attention",
+    "multi-head attention",
+    "similar features",
+    "multi"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.812/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:46:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

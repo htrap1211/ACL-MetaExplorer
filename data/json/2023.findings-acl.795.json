@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.795",
+  "title": "Language Modeling with Latent Situations",
+  "authors": [
+    "Li, Belinda Z.  and\nNye, Maxwell  and\nAndreas, Jacob"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Language models (LMs) often generate incoherent outputs: they refer to events and entity states that are incompatible with the state of the world described in inputs. We introduce SITUATIONSUPERVISION, a family of approaches for improving coherence in LMs by training them to construct and condition on explicit representations of entities and their states. SITUATIONSUPERVISION has two components: an *auxiliary situation modeling* task that trains models to predict entity state representations in context, and a *latent state inference* procedure that imputes these states from partially annotated training data. SITUATIONSUPERVISION can be applied via fine-tuning (by supervising LMs to encode state variables in their hidden representations) and prompting (by inducing LMs to interleave textual descriptions of entity states with output text). In both cases, it requires only a small number of state annotations to produce substantial coherence improvements (up to an 16% reduction in errors), showing that standard LMs can be efficiently adapted to explicitly model language and aspects of its meaning.",
+  "keywords": [
+    "encode",
+    "we",
+    "language modeling",
+    "training",
+    "fine-tuning",
+    "it",
+    "latent",
+    "reduction",
+    "tuning",
+    "text",
+    "language",
+    "entities",
+    "modeling",
+    "entity",
+    "states"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.795/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

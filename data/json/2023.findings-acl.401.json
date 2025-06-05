@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.401",
+  "title": "When to Read Documents or {QA} History: On Unified and Selective Open-domain {QA",
+  "authors": [
+    "Lee, Kyungjae  and\nHan, Sang-eun  and\nHwang, Seung-won  and\nLee, Moontae"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "This paper studies the problem of open-domain question answering, with the aim of answering a diverse range of questions leveraging knowledge resources. Two types of sources, QA-pair and document corpora, have been actively leveraged with the following complementary strength. The former is highly precise when the paraphrase of given question q was seen and answered during training, often posed as a retrieval problem, while the latter generalizes better for unseen questions. A natural follow-up is thus leveraging both models, while a naive pipelining or integration approaches have failed to bring additional gains over either model alone. Our distinction is interpreting the problem as calibration, which estimates the confidence of predicted answers as an indicator to decide when to use a document or QA-pair corpus. The effectiveness of our method was validated on widely adopted benchmarks such as Natural Questions and TriviaQA.",
+  "keywords": [
+    "a retrieval problem",
+    "knowledge",
+    "triviaqa",
+    "natural",
+    "model",
+    "studies",
+    "this paper studies",
+    "unified",
+    "retrieval",
+    "question",
+    "training",
+    "documents",
+    "naive",
+    "a diverse range",
+    "the effectiveness"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.401/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.26",
+  "title": "Open Relation Modeling: Learning to Define Relations between Entities",
+  "authors": [
+    "Huang, Jie  and\nChang, Kevin  and\nXiong, Jinjun  and\nHwu, Wen-mei"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Relations between entities can be represented by different instances, e.g., a sentence containing both entities or a fact in a Knowledge Graph (KG). However, these instances may not well capture the general relations between entities, may be difficult to understand by humans, even may not be found due to the incompleteness of the knowledge source. In this paper, we introduce the Open Relation Modeling problem - given two entities, generate a coherent sentence describing the relation between them. To solve this problem, we propose to teach machines to generate definition-like relation descriptions by letting them learn from defining entities. Specifically, we fine-tune Pre-trained Language Models (PLMs) to produce definitions conditioned on extracted entity pairs. To help PLMs reason between entities and provide additional relational knowledge to PLMs for open relation modeling, we incorporate reasoning paths in KGs and include a reasoning path selection mechanism. Experimental results show that our model can generate concise but informative relation descriptions that capture the representative characteristics of entities.",
+  "keywords": [
+    "general",
+    "knowledge",
+    "the general relations",
+    "both entities",
+    "language",
+    "model",
+    "entities",
+    "modeling",
+    "two entities",
+    "fine",
+    "we",
+    "learning",
+    "graph",
+    "pre",
+    "kgs"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.26/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

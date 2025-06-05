@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.717",
+  "title": "Efficient Training of Language Models with Compact and Consistent Next Token Distributions",
+  "authors": [
+    "Sathe, Ashutosh  and\nSarawagi, Sunita"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Maximizing the likelihood of the next token is an established, statistically sound objective for pre-training language models. In this paper we show that we can train better models faster by pre-aggregating the corpus with a collapsedn-gram distribution. Previous studies have proposed corpus-leveln-gram statistics as a regularizer; however, the construction and querying of suchn-grams, if done naively, prove to be costly and significantly impede training speed, thereby limiting their application in modern large language model pre-training.We introduce an alternative compact representation of the next token distribution that, in expectation, aligns with the completen-gram distribution while markedly reducing variance across mini-batches compared to the standard next-token loss. Empirically, we demonstrate that both then-gram regularized model and our approximation yield substantial improvements in model quality and convergence rate compared to existing methods. Furthermore, our approximation facilitates scalability of gains to larger datasets and models compared to the straightforwardn-gram regularization method.",
+  "keywords": [
+    "efficient",
+    "rate",
+    "modern large language model",
+    "we",
+    "variance",
+    "training",
+    "the straightforwardn-gram regularization method",
+    "token",
+    "loss",
+    "previous studies",
+    "objective",
+    "efficient training",
+    "language models",
+    "-",
+    "mini"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.717/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

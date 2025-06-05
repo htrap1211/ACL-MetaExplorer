@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.25",
+  "title": "U}ni{P}arma at {S}em{E}val-2021 Task 5: Toxic Spans Detection Using {C}haracter{BERT} and Bag-of-Words Model",
+  "authors": [
+    "Karimi, Akbar  and\nRossi, Leonardo  and\nPrati, Andrea"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "With the ever-increasing availability of digital information, toxic content is also on the rise. Therefore, the detection of this type of language is of paramount importance. We tackle this problem utilizing a combination of a state-of-the-art pre-trained language model (CharacterBERT) and a traditional bag-of-words technique. Since the content is full of toxic words that have not been written according to their dictionary spelling, attendance to individual characters is crucial. Therefore, we use CharacterBERT to extract features based on the word characters. It consists of a CharacterCNN module that learns character embeddings from the context. These are, then, fed into the well-known BERT architecture. The bag-of-words method, on the other hand, further improves upon that by making sure that some frequently used toxic words get labeled accordingly. With a ∼4 percent difference from the first team, our system ranked 36 th in the competition. The code is available for further research and reproduction of the results.",
+  "keywords": [
+    "a charactercnn module",
+    "code",
+    "charactercnn",
+    "we",
+    "bag",
+    "it",
+    "information",
+    "word",
+    "character embeddings",
+    "bert",
+    "the well-known bert architecture",
+    "c haracter bert",
+    "embeddings",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.25/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:20:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

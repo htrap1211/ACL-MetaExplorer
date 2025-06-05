@@ -1,0 +1,33 @@
+{
+  "id": "2024.wassa-1.14",
+  "title": "Emotion Identification for {F}rench in Written Texts: Considering Modes of Emotion Expression as a Step Towards Text Complexity Analysis",
+  "authors": [
+    "{\\'E}tienne, Aline  and\nBattistelli, Delphine  and\nLecorv{\\'e}, Gw{\\'e}nol{\\'e}"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 14th Workshop on Computational Approaches to Subjectivity, Sentiment, {\\&} Social Media Analysis",
+  "abstract": "The objective of this paper is to predict (A) whether a sentence in a written text expresses an emotion, (B) the mode(s) in which the emotion is expressed, (C) whether it is basic or complex, and (D) its emotional category.One of our major contributions, in addition to a dataset and a model, is to integrate the fact that an emotion can be expressed in different modes: from a direct mode, essentially lexicalized, to a more indirect mode, where emotions will only be suggested, a mode that NLP approaches generally don’t take into account. The scope is on written texts, i.e. it does not focus on conversational or multi-modal data. In this context, modes of expression are seen as a factor towards the automatic analysis of complexity in texts.Experiments on French texts show acceptable results compared to the human annotators’ agreement to predict the mode and category, and outperforming results compared to using a large language model with in-context learning (i.e. no fine-tuning) on all tasks.Dataset and model can be downloaded on HuggingFace: https://huggingface.co/TextToKids .",
+  "keywords": [
+    "it",
+    "the objective",
+    "a",
+    "analysis",
+    "tuning",
+    "i",
+    "text",
+    "objective",
+    "a large language model",
+    "no fine-tuning",
+    "conversational or multi-modal data",
+    "mode",
+    "language",
+    "nlp",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.wassa-1.14/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:11:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

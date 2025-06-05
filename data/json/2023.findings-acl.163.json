@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.163",
+  "title": "Controlling Styles in Neural Machine Translation with Activation Prompt",
+  "authors": [
+    "Wang, Yifan  and\nSun, Zewei  and\nCheng, Shanbo  and\nZheng, Weiguo  and\nWang, Mingxuan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Controlling styles in neural machine translation (NMT) has attracted wide attention, as it is crucial for enhancing user experience. Earlier studies on this topic typically concentrate on regulating the level of formality and achieve some progress in this area. However, they still encounter two major challenges. The first is the difficulty in style evaluation. The style comprises various aspects such as lexis, syntax, and others that provide abundant information. Nevertheless, only formality has been thoroughly investigated. The second challenge involves excessive dependence on incremental adjustments, particularly when new styles are necessary. To address both challenges, this paper presents a new benchmark and approach. A multiway stylized machine translation (MSMT) benchmark is introduced, incorporating diverse categories of styles across four linguistic domains. Then, we propose a method named style activation prompt (StyleAP) by retrieving prompts from stylized monolingual corpus, which does not require extra fine-tuning. Experiments show that StyleAP could effectively control the style of translation and achieve remarkable performance.",
+  "keywords": [
+    "extra",
+    "neural machine translation",
+    "we",
+    "earlier studies",
+    "incorporating diverse categories",
+    "syntax",
+    "style activation",
+    "translation",
+    "neural",
+    "it",
+    "information",
+    "prompt",
+    "categories",
+    "topic",
+    "activation"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.163/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

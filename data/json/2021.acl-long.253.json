@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.253",
+  "title": "Answering Ambiguous Questions through Generative Evidence Fusion and Round-Trip Prediction",
+  "authors": [
+    "Gao, Yifan  and\nZhu, Henghui  and\nNg, Patrick  and\nNogueira dos Santos, Cicero  and\nWang, Zhiguo  and\nNan, Feng  and\nZhang, Dejiao  and\nNallapati, Ramesh  and\nArnold, Andrew O.  and\nXiang, Bing"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "In open-domain question answering, questions are highly likely to be ambiguous because users may not know the scope of relevant topics when formulating them. Therefore, a system needs to find possible interpretations of the question, and predict one or multiple plausible answers. When multiple plausible answers are found, the system should rewrite the question for each answer to resolve the ambiguity. In this paper, we present a model that aggregates and combines evidence from multiple passages to adaptively predict a single answer or a set of question-answer pairs for ambiguous questions. In addition, we propose a novel round-trip prediction approach to iteratively generate additional interpretations that our model fails to find in the first pass, and then verify and filter out the incorrect question-answer pairs to arrive at the final disambiguated output. Our model, named Refuel, achieves a new state-of-the-art performance on the AmbigQA dataset, and shows competitive performance on NQ-Open and TriviaQA. The proposed round-trip prediction is a model-agnostic general approach for answering ambiguous open-domain questions, which improves our Refuel as well as several baseline models. We release source code for our models and experiments athttps://github.com/amzn/refuel-open-domain-qa.",
+  "keywords": [
+    "code",
+    "generative evidence fusion",
+    "question",
+    "we",
+    "fusion",
+    "a model-agnostic general approach",
+    "open-domain question answering questions",
+    "answer",
+    "generative",
+    "general",
+    "triviaqa",
+    "model",
+    "the ambigqa dataset",
+    "ambigqa",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.253/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:02:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

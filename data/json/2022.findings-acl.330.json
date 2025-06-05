@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.330",
+  "title": "On Length Divergence Bias in Textual Matching Models",
+  "authors": [
+    "Jiang, Lan  and\nLyu, Tianshu  and\nLin, Yankai  and\nChong, Meng  and\nLyu, Xiaoyong  and\nYin, Dawei"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Despite the remarkable success deep models have achieved in Textual Matching (TM) tasks, it still remains unclear whether they truly understand language or measure the semantic similarity of texts by exploiting statistical bias in datasets. In this work, we provide a new perspective to study this issue — via the length divergence bias. We find the length divergence heuristic widely exists in prevalent TM datasets, providing direct cues for prediction. To determine whether TM models have adopted such heuristic, we introduce an adversarial evaluation scheme which invalidates the heuristic. In this adversarial setting, all TM models perform worse, indicating they have indeed adopted this heuristic. Through a well-designed probing experiment, we empirically validate that the bias of TM models can be attributed in part to extracting the text length information during training. To alleviate the length divergence bias, we propose an adversarial training method. The results demonstrate we successfully improve the robustness and generalization ability of models at the same time.",
+  "keywords": [
+    "deep",
+    "work",
+    "the bias",
+    "bias",
+    "language",
+    "the length divergence bias",
+    "statistical bias",
+    "an adversarial evaluation scheme",
+    "it",
+    "text",
+    "length divergence bias",
+    "information",
+    "generalization",
+    "semantic",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.330/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

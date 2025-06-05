@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.503",
+  "title": "Fine-grained Artificial Neurons in Audio-transformers for Disentangling Neural Auditory Encoding",
+  "authors": [
+    "Zhou, Mengyue  and\nLiu, Xu  and\nLiu, David  and\nWu, Zihao  and\nLiu, Zhengliang  and\nZhao, Lin  and\nZhu, Dajiang  and\nGuo, Lei  and\nHan, Junwei  and\nLiu, Tianming  and\nHu, Xintao"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "The Wav2Vec and its variants have achieved unprecedented success in computational auditory and speech processing. Meanwhile, neural encoding studies that integrate the superb representation capability of Wav2Vec and link those representations to brain activities have provided novel insights into a fundamental question of how auditory and speech processing unfold in the human brain. Without an explicit definition, most existing studies treat each transformer encoding layer in Wav2Vec as a single artificial neuron (AN). That is, the layer-level embeddings are used to predict neural responses. However, the comprehensive layer-level embedding aggregates multiple types of contextual attention captured by multi-head self-attention (MSA) modules. Thus, the layer-level ANs lack fine-granularity for neural encoding. To address this limitation, we define the elementary units, i.e., each hidden dimension, as neuron-level ANs in Wav2Vec2.0, quantify their temporal responses, and couple those ANs with their biological-neuron (BN) counterparts in the human brain. Our experimental results demonstrated that: 1) The proposed neuron-level ANs carry meaningful neurolinguistic information; 2) Those ANs anchor to their BN signatures; 3) The AN-BN anchoring patterns are interpretable from a neurolinguistic perspective. More importantly, our results suggest an intermediate stage in both the computational representation in Wav2Vec2.0 and the cortical representation in the brain. Our study validates the fine-grained ANs in Wav2Vec2.0, which may serve as a novel and general strategy to link transformer-based deep learning models to neural responses for probing the sensory processing in the brain.",
+  "keywords": [
+    "deep",
+    "transformers",
+    "most existing studies",
+    "question",
+    "layer",
+    "an",
+    "we",
+    "brain activities",
+    "the layer-level embeddings",
+    "neural",
+    "audio-transformers",
+    "self",
+    "information",
+    "learning",
+    "ans"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.503/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

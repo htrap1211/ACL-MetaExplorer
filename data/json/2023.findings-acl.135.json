@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.135",
+  "title": "Retrieving Relevant Context to Align Representations for Cross-lingual Event Detection",
+  "authors": [
+    "Nguyen, Chien  and\nNgo, Linh  and\nNguyen, Thien"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "We study the problem of cross-lingual transfer learning for event detection (ED) where models trained on a source language are expected to perform well on data for a new target language. Among a few recent works for this problem, the main approaches involve representation matching (e.g., adversarial training) that aims to eliminate language-specific features from the representations to achieve the language-invariant representations. However, due to the mix of language-specific features with event-discriminative context, representation matching methods might also remove important features for event prediction, thus hindering the performance for ED. To address this issue, we introduce a novel approach for cross-lingual ED where representations are augmented with additional context (i.e., not eliminating) to bridge the gap between languages while enriching the contextual information to facilitate ED. At the core of our method involves a retrieval model that retrieves relevant sentences in the target language for an input sentence to compute augmentation representations. Experiments on three languages demonstrate the state-of-the-art performance of our model for cross-lingual ED.",
+  "keywords": [
+    "cross-lingual transfer learning",
+    "we",
+    "a retrieval model",
+    "training",
+    "cross",
+    "retrieval",
+    "information",
+    "learning",
+    "transfer",
+    "core",
+    "i",
+    "ed",
+    "language",
+    "model",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.135/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

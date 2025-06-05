@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.431",
+  "title": "Modeling Structural Similarities between Documents for Coherence Assessment with Graph Convolutional Networks",
+  "authors": [
+    "Liu, Wei  and\nFu, Xiyan  and\nStrube, Michael"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Coherence is an important aspect of text quality, and various approaches have been applied to coherence modeling. However, existing methods solely focus on a single document’s coherence patterns, ignoring the underlying correlation between documents. We investigate a GCN-based coherence model that is capable of capturing structural similarities between documents. Our model first creates a graph structure for each document, from where we mine different subgraph patterns. We then construct a heterogeneous graph for the training corpus, connecting documents based on their shared subgraphs. Finally, a GCN is applied to the heterogeneous graph to model the connectivity relationships. We evaluate our method on two tasks, assessing discourse coherence and automated essay scoring. Results show that our GCN-based model outperforms all baselines, achieving a new state-of-the-art on both tasks.",
+  "keywords": [
+    "similarities",
+    "model",
+    "text",
+    "graph convolutional networks coherence",
+    "modeling",
+    "we",
+    "graph",
+    "convolutional",
+    "training",
+    "structural similarities",
+    "documents",
+    "that",
+    "two tasks",
+    "coherence modeling",
+    "coherence"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.431/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:41:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

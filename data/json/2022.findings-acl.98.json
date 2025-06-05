@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.98",
+  "title": "MDCS}pell: A Multi-task Detector-Corrector Framework for {C}hinese Spelling Correction",
+  "authors": [
+    "Zhu, Chenxi  and\nYing, Ziqiang  and\nZhang, Boyu  and\nMao, Feng"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Chinese Spelling Correction (CSC) is a task to detect and correct misspelled characters in Chinese texts. CSC is challenging since many Chinese characters are visually or phonologically similar but with quite different semantic meanings. Many recent works use BERT-based language models to directly correct each character of the input sentence. However, these methods can be sub-optimal since they correct every character of the sentence only by the context which is easily negatively affected by the misspelled characters. Some other works propose to use an error detector to guide the correction by masking the detected errors. Nevertheless, these methods dampen the visual or phonological features from the misspelled characters which could be critical for correction. In this work, we propose a novel general detector-corrector multi-task framework where the corrector uses BERT to capture the visual and phonological features from each character in the raw sentence and uses a late fusion strategy to fuse the hidden states of the corrector with that of the detector to minimize the negative impact from the misspelled characters. Comprehensive experiments on benchmarks demonstrate that our proposed method can significantly outperform the state-of-the-art methods in the CSC task.",
+  "keywords": [
+    "bert-based language models",
+    "semantic",
+    "we",
+    "fusion",
+    "visual",
+    "bert",
+    "work",
+    "late",
+    "general",
+    "language",
+    "quite different semantic meanings",
+    "states",
+    "characters",
+    "multi",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.98/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

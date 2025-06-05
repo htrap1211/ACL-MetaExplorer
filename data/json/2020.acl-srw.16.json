@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-srw.16",
+  "title": "Considering Likelihood in {NLP} Classification Explanations with Occlusion and Language Modeling",
+  "authors": [
+    "Harbecke, David  and\nAlt, Christoph"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "Recently, state-of-the-art NLP models gained an increasing syntactic and semantic understanding of language, and explanation methods are crucial to understand their decisions. Occlusion is a well established method that provides explanations on discrete language data, e.g. by removing a language unit from an input and measuring the impact on a model’s decision. We argue that current occlusion-based methods often produce invalid or syntactically incorrect language data, neglecting the improved abilities of recent NLP models. Furthermore, gradient-based explanation methods disregard the discrete distribution of data in NLP. Thus, we propose OLM: a novel explanation method that combines occlusion and language models to sample valid and syntactically correct replacements with high likelihood, given the context of the original input. We lay out a theoretical foundation that alleviates these weaknesses of other explanation methods in NLP and provide results that underline the importance of considering data likelihood in occlusion-based explanation.",
+  "keywords": [
+    "abilities",
+    "nlp classification explanations",
+    "occlusion and language modeling",
+    "gradient-based explanation methods",
+    "language",
+    "recent nlp models",
+    "nlp",
+    "model",
+    "modeling",
+    "occlusion and language models",
+    "semantic",
+    "we",
+    "valid",
+    "current",
+    "the improved abilities"
+  ],
+  "url": "https://aclanthology.org/2020.acl-srw.16/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:53:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

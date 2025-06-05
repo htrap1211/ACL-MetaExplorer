@@ -1,0 +1,33 @@
+{
+  "id": "W18-2307",
+  "title": "Sub-word information in pre-trained biomedical word representations: evaluation and hyper-parameter optimization",
+  "authors": [
+    "Galea, Dieter  and\nLaponogov, Ivan  and\nVeselkov, Kirill"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the {B}io{NLP} 2018 workshop",
+  "abstract": "Word2vec embeddings are limited to computing vectors for in-vocabulary terms and do not take into account sub-word information. Character-based representations, such as fastText, mitigate such limitations. We optimize and compare these representations for the biomedical domain. fastText was found to consistently outperform word2vec in named entity recognition tasks for entities such as chemicals and genes. This is likely due to gained information from computed out-of-vocabulary term vectors, as well as the word compositionality of such entities. Contrastingly, performance varied on intrinsic datasets. Optimal hyper-parameters were intrinsic dataset-dependent, likely due to differences in term types distributions. This indicates embeddings should be chosen based on the task at hand. We therefore provide a number of optimized hyper-parameter sets and pre-trained word2vec and fastText models, available onhttps://github.com/dterg/bionlp-embed.",
+  "keywords": [
+    "embeddings",
+    "varied",
+    "hyper",
+    "hyper-parameter optimization",
+    "such entities",
+    "entities",
+    "computed out-of-vocabulary term vectors",
+    "embed",
+    "vectors",
+    "bionlp",
+    "-",
+    "information",
+    "pre-trained word2vec",
+    "word2vec embeddings",
+    "optimization"
+  ],
+  "url": "https://aclanthology.org/W18-2307/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:21:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

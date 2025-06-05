@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.192",
+  "title": "Robustness Testing of Language Understanding in Task-Oriented Dialog",
+  "authors": [
+    "Liu, Jiexi  and\nTakanobu, Ryuichi  and\nWen, Jiaxin  and\nWan, Dazhen  and\nLi, Hongguang  and\nNie, Weiran  and\nLi, Cheng  and\nPeng, Wei  and\nHuang, Minlie"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Most language understanding models in task-oriented dialog systems are trained on a small amount of annotated training data, and evaluated in a small set from the same distribution. However, these models can lead to system failure or undesirable output when being exposed to natural language perturbation or variation in practice. In this paper, we conduct comprehensive evaluation and analysis with respect to the robustness of natural language understanding models, and introduce three important aspects related to language understanding in real-world dialog systems, namely, language variety, speech characteristics, and noise perturbation. We propose a model-agnostic toolkit LAUG to approximate natural language perturbations for testing the robustness issues in task-oriented dialog. Four data augmentation approaches covering the three aspects are assembled in LAUG, which reveals critical robustness issues in state-of-the-art models. The augmented dataset through LAUG can be used to facilitate future research on the robustness testing of language understanding in task-oriented dialog.",
+  "keywords": [
+    "variety",
+    "comprehensive evaluation",
+    "we",
+    "task-oriented dialog systems",
+    "training",
+    "natural",
+    "analysis",
+    "task-oriented dialog",
+    "language",
+    "model",
+    "dialog",
+    "evaluation",
+    "a model-agnostic toolkit laug",
+    "state",
+    "future research"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.192/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:01:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

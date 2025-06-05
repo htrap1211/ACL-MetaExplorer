@@ -1,0 +1,33 @@
+{
+  "id": "P19-1262",
+  "title": "Avoiding Reasoning Shortcuts: Adversarial Evaluation, Training, and Model Development for Multi-Hop {QA",
+  "authors": [
+    "Jiang, Yichen  and\nBansal, Mohit"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Multi-hop question answering requires a model to connect multiple pieces of evidence scattered in a long context to answer the question. In this paper, we show that in the multi-hop HotpotQA (Yang et al., 2018) dataset, the examples often contain reasoning shortcuts through which models can directly locate the answer by word-matching the question with a sentence in the context. We demonstrate this issue by constructing adversarial documents that create contradicting answers to the shortcut but do not affect the validity of the original answer. The performance of strong baseline models drops significantly on our adversarial test, indicating that they are indeed exploiting the shortcuts rather than performing multi-hop reasoning. After adversarial training, the baseline’s performance improves but is still limited on the adversarial test. Hence, we use a control unit that dynamically attends to the question at different reasoning hops to guide the model’s multi-hop reasoning. We show that our 2-hop model trained on the regular data is more robust to the adversaries than the baseline. After adversarial training, it not only achieves significant improvements over its counterpart trained on regular data, but also outperforms the adversarially-trained baseline significantly. Finally, we sanity-check that these improvements are not obtained by exploiting potential new shortcuts in the adversarial data, but indeed due to robust multi-hop reasoning skills of the models.",
+  "keywords": [
+    "adversaries",
+    "question",
+    "we",
+    "training",
+    "answer",
+    "it",
+    "hotpotqa",
+    "pieces",
+    "word",
+    "answering",
+    "the adversaries",
+    "adversarial evaluation training",
+    "model",
+    "regular",
+    "the multi-hop hotpotqa"
+  ],
+  "url": "https://aclanthology.org/P19-1262/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:36:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

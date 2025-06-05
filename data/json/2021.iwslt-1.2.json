@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwslt-1.2",
+  "title": "The {USTC}-{NELSLIP} Systems for Simultaneous Speech Translation Task at {IWSLT} 2021",
+  "authors": [
+    "Liu, Dan  and\nDu, Mengge  and\nLi, Xiaoxi  and\nHu, Yuchen  and\nDai, Lirong"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021)",
+  "abstract": "This paper describes USTC-NELSLIP’s submissions to the IWSLT2021 Simultaneous Speech Translation task. We proposed a novel simultaneous translation model, Cross-Attention Augmented Transducer (CAAT), which extends conventional RNN-T to sequence-to-sequence tasks without monotonic constraints, e.g., simultaneous translation. Experiments on speech-to-text (S2T) and text-to-text (T2T) simultaneous translation tasks shows CAAT achieves better quality-latency trade-offs compared towait-k, one of the previous state-of-the-art approaches. Based on CAAT architecture and data augmentation, we build S2T and T2T simultaneous translation systems in this evaluation campaign. Compared to last year’s optimal systems, our S2T simultaneous translation system improves by an average of 11.3 BLEU for all latency regimes, and our T2T simultaneous translation system improves by an average of 4.6 BLEU.",
+  "keywords": [
+    "cross",
+    "this evaluation campaign",
+    "conventional rnn-t",
+    "model",
+    "text",
+    "bleu",
+    "cross-attention augmented transducer caat",
+    "11 3 bleu",
+    "4 6 bleu",
+    "attention",
+    "we",
+    "sequence",
+    "rnn",
+    "evaluation",
+    "simultaneous speech translation task"
+  ],
+  "url": "https://aclanthology.org/2021.iwslt-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:18:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

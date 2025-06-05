@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.124",
+  "title": "Hexatagging: Projective Dependency Parsing as Tagging",
+  "authors": [
+    "Amini, Afra  and\nLiu, Tianyu  and\nCotterell, Ryan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "We introduce a novel dependency parser, the hexatagger, that constructs dependency trees by tagging the words in a sentence with elements from a finite set of possible tags. In contrast to many approaches to dependency parsing, our approach is fully parallelizable at training time, i.e., the structure-building actions needed to build a dependency parse can be predicted in parallel to each other. Additionally, exact decoding is linear in time and space complexity. Furthermore, we derive a probabilistic dependency parser that predicts hexatags using no more than a linear model with features from a pretrained language model, i.e., we forsake a bespoke architecture explicitly designed for the task. Despite the generality and simplicity of our approach, we achieve state-of-the-art performance of 96.4 LAS and 97.4 UAS on the Penn Treebank test set. Additionally, our parser’s linear time complexity and parallelism significantly improve computational efficiency, with a roughly 10-times speed-up over previous state-of-the-art models during decoding.",
+  "keywords": [
+    "parsing",
+    "dependency trees",
+    "efficiency",
+    "we",
+    "training",
+    "generality",
+    "a dependency parse",
+    "projective dependency parsing",
+    "las",
+    "i",
+    "a pretrained language model",
+    "the generality",
+    "a novel dependency parser",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.124/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:49:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.33",
+  "title": "M}ed{A}gents: Large Language Models as Collaborators for Zero-shot Medical Reasoning",
+  "authors": [
+    "Tang, Xiangru  and\nZou, Anni  and\nZhang, Zhuosheng  and\nLi, Ziming  and\nZhao, Yilun  and\nZhang, Xingyao  and\nCohan, Arman  and\nGerstein, Mark"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large language models (LLMs), despite their remarkable progress across various general domains, encounter significant barriers in medicine and healthcare. This field faces unique challenges such as domain-specific terminologies and reasoning over specialized knowledge. To address these issues, we propose MedAgents, a novel multi-disciplinary collaboration framework for the medical domain. MedAgents leverages LLM-based agents in a role-playing setting that participate in a collaborative multi-round discussion, thereby enhancing LLM proficiency and reasoning capabilities. This training-free framework encompasses five critical steps: gathering domain experts, proposing individual analyses, summarising these analyses into a report, iterating over discussions until a consensus is reached, and ultimately making a decision. Our work focuses on the zero-shot setting, which is applicable in real-world scenarios. Experimental results on nine datasets (MedQA, MedMCQA, PubMedQA, and six subtasks from MMLU) establish that our proposed MedAgents framework excels at mining and harnessing the medical expertise within LLMs, as well as extending its reasoning abilities. Our code can be found at https://github.com/gersteinlab/MedAgents.",
+  "keywords": [
+    "code",
+    "field",
+    "we",
+    "terminologies",
+    "llm",
+    "shot",
+    "training",
+    "llm proficiency",
+    "domain-specific terminologies",
+    "its reasoning abilities",
+    "medmcqa pubmedqa",
+    "significant barriers",
+    "llms",
+    "abilities",
+    "ed"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.33/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:49:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

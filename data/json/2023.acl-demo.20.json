@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-demo.20",
+  "title": "T}encent{P}retrain: A Scalable and Flexible Toolkit for Pre-training Models of Different Modalities",
+  "authors": [
+    "Zhao, Zhe  and\nLi, Yudong  and\nHou, Cheng  and\nZhao, Jing  and\nTian, Rong  and\nLiu, Weijie  and\nChen, Yiren  and\nSun, Ningyuan  and\nLiu, Haoyan  and\nMao, Weiquan  and\nGuo, Han  and\nGou, Weigang  and\nWu, Taiqiang  and\nZhu, Tao  and\nShi, Wenhang  and\nChen, Chen  and\nHuang, Shan  and\nChen, Sihong  and\nLiu, Liqun  and\nLi, Feifei  and\nChen, Xiaoshuai  and\nSun, Xingwu  and\nKang, Zhanhui  and\nDu, Xiaoyong  and\nShen, Linlin  and\nYan, Kimmo"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+  "abstract": "Recently, the success of pre-training in text domain has been fully extended to vision, audio, and cross-modal scenarios. The proposed pre-training models of different modalities are showing a rising trend of homogeneity in their model structures, which brings the opportunity to implement different pre-training models within a uniform framework. In this paper, we present TencentPretrain, a toolkit supporting pre-training models of different modalities. The core feature of TencentPretrain is the modular design. The toolkit uniformly divides pre-training models into 5 components: embedding, encoder, target embedding, decoder, and target. As almost all of common modules are provided in each component, users can choose the desired modules from different components to build a complete pre-training model. The modular design enables users to efficiently reproduce existing pre-training models or build brand-new one. We test the toolkit on text, vision, and audio benchmarks and show that it can match the performance of the original implementations.",
+  "keywords": [
+    "we",
+    "different pre-training models",
+    "training",
+    "cross",
+    "the proposed pre-training models",
+    "it",
+    "encoder target",
+    "decoder",
+    "pre-training models",
+    "different modalities",
+    "core",
+    "text",
+    "a complete pre-training model",
+    "existing pre-training models",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2023.acl-demo.20/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:50:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

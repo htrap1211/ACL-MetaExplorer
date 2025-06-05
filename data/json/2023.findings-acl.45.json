@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.45",
+  "title": "Can Language Models Be Specific? How?",
+  "authors": [
+    "Huang, Jie  and\nChang, Kevin Chen-Chuan  and\nXiong, Jinjun  and\nHwu, Wen-mei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "“He is a person”, “Paris is located on the earth”. Both statements are correct but meaningless - due to lack of specificity. In this paper, we propose to measure how specific the language of pre-trained language models (PLMs) is. To achieve this, we introduce a novel approach to build a benchmark for specificity testing by forming masked token prediction tasks with prompts. For instance, given “Toronto is located in [MASK].”, we want to test whether a more specific answer will be better filled in by PLMs, e.g., Ontario instead of Canada. From our evaluations, we show that existing PLMs have only a slight preference for more specific answers. We identify underlying factors affecting the specificity and design two prompt-based methods to improve the specificity. Results show that the specificity of the models can be improved by the proposed methods without additional training. We hope this work can bring to awareness the notion of specificity of language models and encourage the research community to further explore this important but understudied problem.",
+  "keywords": [
+    "work",
+    "prompts",
+    "answer",
+    "language",
+    "prompt",
+    "evaluations",
+    "language models",
+    "our evaluations",
+    "pre-trained language models plms",
+    "understudied",
+    "we",
+    "pre",
+    "he",
+    "two prompt-based methods",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.45/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

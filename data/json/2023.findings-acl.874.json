@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.874",
+  "title": "DP}-{BART} for Privatized Text Rewriting under Local Differential Privacy",
+  "authors": [
+    "Igamberdiev, Timour  and\nHabernal, Ivan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Privatized text rewriting with local differential privacy (LDP) is a recent approach that enables sharing of sensitive textual documents while formally guaranteeing privacy protection to individuals. However, existing systems face several issues, such as formal mathematical flaws, unrealistic privacy guarantees, privatization of only individual words, as well as a lack of transparency and reproducibility. In this paper, we propose a new system ‘DP-BART’ that largely outperforms existing LDP systems. Our approach uses a novel clipping method, iterative pruning, and further training of internal representations which drastically reduces the amount of noise required for DP guarantees. We run experiments on five textual datasets of varying sizes, rewriting them at different privacy guarantees and evaluating the rewritten texts on downstream text classification tasks. Finally, we thoroughly discuss the privatized text rewriting approach and its limitations, including the problem of the strict text adjacency constraint in the LDP paradigm that leads to the high noise requirement.",
+  "keywords": [
+    "downstream text classification tasks",
+    "we",
+    "training",
+    "classification",
+    "text",
+    "documents",
+    "approach",
+    "paradigm",
+    "local differential privacy ldp",
+    "privacy",
+    "dp",
+    "recent",
+    "unrealistic",
+    "a lack",
+    "sharing"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.874/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

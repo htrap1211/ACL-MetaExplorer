@@ -1,0 +1,33 @@
+{
+  "id": "2022.bionlp-1.35",
+  "title": "E}cho{G}en: Generating Conclusions from Echocardiogram Notes",
+  "authors": [
+    "Tang, Liyan  and\nKooragayalu, Shravan  and\nWang, Yanshan  and\nDing, Ying  and\nDurrett, Greg  and\nRousseau, Justin F.  and\nPeng, Yifan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 21st Workshop on Biomedical Language Processing",
+  "abstract": "Generating a summary from findings has been recently explored (Zhang et al., 2018, 2020) in note types such as radiology reports that typically have short length. In this work, we focus on echocardiogram notes that is longer and more complex compared to previous note types. We formally define the task of echocardiography conclusion generation (EchoGen) as generating a conclusion given the findings section, with emphasis on key cardiac findings. To promote the development of EchoGen methods, we present a new benchmark, which consists of two datasets collected from two hospitals. We further compare both standard and start-of-the-art methods on this new benchmark, with an emphasis on factual consistency. To accomplish this, we develop a tool to automatically extract concept-attribute tuples from the text. We then propose an evaluation metric, FactComp, to compare concept-attribute tuples between the human reference and generated conclusions. Both automatic and human evaluations show that there is still a significant gap between human-written and machine-generated conclusions on echo reports in terms of factuality and overall quality.",
+  "keywords": [
+    "an evaluation metric factcomp",
+    "we",
+    "echocardiography conclusion generation echogen",
+    "metric",
+    "text",
+    "human-written and machine-generated conclusions",
+    "work",
+    "reference",
+    "generation",
+    "machine",
+    "human",
+    "evaluations",
+    "evaluation",
+    "previous",
+    "reports"
+  ],
+  "url": "https://aclanthology.org/2022.bionlp-1.35/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:40:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

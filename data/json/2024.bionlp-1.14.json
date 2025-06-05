@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.14",
+  "title": "M}ed{E}x{QA}: Medical Question Answering Benchmark with Multiple Explanations",
+  "authors": [
+    "Kim, Yunsoo  and\nWu, Jinge  and\nAbdulle, Yusuf  and\nWu, Honghan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "This paper introduces MedExQA, a novel benchmark in medical question-answering, to evaluate large language models’ (LLMs) understanding of medical knowledge through explanations. By constructing datasets across five distinct medical specialties that are underrepresented in current datasets and further incorporating multiple explanations for each question-answer pair, we address a major gap in current medical QA benchmarks which is the absence of comprehensive assessments of LLMs’ ability to generate nuanced medical explanations. Our work highlights the importance of explainability in medical LLMs, proposes an effective methodology for evaluating models beyond classification accuracy, and sheds light on one specific domain, speech language pathology, where current LLMs including GPT4 lack good understanding. Our results show generation evaluation with multiple explanations aligns better with human assessment, highlighting an opportunity for a more robust automated comprehension assessment for LLMs. To diversify open-source medical LLMs (currently mostly based on Llama2), this work also proposes a new medical model, MedPhi-2, based on Phi-2 (2.7B). The model outperformed medical LLMs based on Llama2-70B in generating explanations, showing its effectiveness in the resource-constrained medical domain. We will share our benchmark datasets and the trained model.",
+  "keywords": [
+    "medexqa",
+    "question",
+    "medical llms",
+    "we",
+    "current",
+    "five distinct medical specialties",
+    "generation evaluation",
+    "current llms",
+    "classification",
+    "answer",
+    "specialties",
+    "generating explanations",
+    "open-source medical llms",
+    "llms",
+    "classification accuracy"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.14/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

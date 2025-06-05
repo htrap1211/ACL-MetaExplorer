@@ -1,0 +1,33 @@
+{
+  "id": "2023.nlrse-1.12",
+  "title": "Synthetic Dataset for Evaluating Complex Compositional Knowledge for Natural Language Inference",
+  "authors": [
+    "Akoju, Sushma Anand  and\nVacareanu, Robert  and\nBlanco, Eduardo  and\nRiaz, Haris  and\nSurdeanu, Mihai"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 1st Workshop on Natural Language Reasoning and Structured Explanations (NLRSE)",
+  "abstract": "We introduce a synthetic dataset called Sentences Involving Complex Compositional Knowledge (SICCK) and a novel analysis that investigates the performance of Natural Language Inference (NLI) models to understand compositionality in logic. We produce 1,304 sentence pairs by modifying 15 examples from the SICK dataset (Marelli et al., 2014). To this end, we modify the original texts using a set of phrases modifiers that correspond to universal quantifiers, existential quantifiers, negation, and other concept modifiers in Natural Logic (NL) (MacCartney, 2009). We use these phrases to modify the subject, verb, and object parts of the premise and hypothesis. Lastly, we annotate these modified texts with the corresponding entailment labels following NL rules. We conduct a preliminary verification of how well the change in the structural and semantic composition is captured by neural NLI models, in both zero-shot and fine-tuned scenarios. We found that the performance of NLI models under the zero-shot setting is poor, especially for modified sentences with negation and existential quantifiers. After fine-tuning this dataset, we observe that models continue to perform poorly over negation, existential and universal modifiers.",
+  "keywords": [
+    "end",
+    "semantic",
+    "we",
+    "phrases modifiers",
+    "shot",
+    "neural",
+    "natural",
+    "these modified texts",
+    "analysis",
+    "object",
+    "the zero-shot setting",
+    "modifiers",
+    "fine",
+    "quantifiers",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2023.nlrse-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

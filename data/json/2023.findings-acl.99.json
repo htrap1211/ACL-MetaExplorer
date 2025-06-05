@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.99",
+  "title": "A}ug{ESC}: Dialogue Augmentation with Large Language Models for Emotional Support Conversation",
+  "authors": [
+    "Zheng, Chujie  and\nSabour, Sahand  and\nWen, Jiaxin  and\nZhang, Zheng  and\nHuang, Minlie"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Crowdsourced dialogue corpora are usually limited in scale and topic coverage due to the expensive cost of data curation. This would hinder the generalization of downstream dialogue models to open-domain topics. In this work, we leverage large language models for dialogue augmentation in the task of emotional support conversation (ESC). By treating dialogue augmentation as a dialogue completion task, we prompt a fine-tuned language model to complete full dialogues from available dialogue posts of various topics, which are then postprocessed based on heuristics. Applying this approach, we construct AugESC, an augmented dataset for the ESC task, which largely extends the scale and topic coverage of the crowdsourced ESConv corpus. Through comprehensive human evaluation, we demonstrate that our approach is superior to strong baselines of dialogue augmentation and that AugESC has comparable dialogue quality to the crowdsourced corpus. We also conduct human interactive evaluation and prove that post-training on AugESC improves downstream dialogue models’ generalization ability to open-domain topics. These results suggest the utility of AugESC and highlight the potential of large language models in improving data-scarce dialogue generation tasks.",
+  "keywords": [
+    "support",
+    "emotional support conversation",
+    "we",
+    "dialogue",
+    "training",
+    "a dialogue completion task",
+    "emotional support conversation esc",
+    "human interactive evaluation",
+    "available dialogue posts",
+    "full dialogues",
+    "downstream dialogue models",
+    "dialogue augmentation",
+    "comprehensive human evaluation",
+    "a fine-tuned language model",
+    "topic"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.99/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

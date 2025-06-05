@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.325",
+  "title": "C}ode{P}rompt: Task-Agnostic Prefix Tuning for Program and Language Generation",
+  "authors": [
+    "Choi, YunSeok  and\nLee, Jee-Hyong"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In order to solve the inefficient parameter update and storage issues of fine-tuning in Natural Language Generation (NLG) tasks, prompt-tuning methods have emerged as lightweight alternatives. Furthermore, efforts to reduce the gap between pre-training and fine-tuning have shown successful results in low-resource settings. As large Pre-trained Language Models (PLMs) for Program and Language Generation (PLG) tasks are constantly being developed, prompt tuning methods are necessary for the tasks. However, due to the gap between pre-training and fine-tuning different from PLMs for natural language, a prompt tuning method that reflects the traits of PLM for program language is needed. In this paper, we propose a Task-Agnostic prompt tuning method for the PLG tasks, CodePrompt, that combines Input-Dependent Prompt Template (to bridge the gap between pre-training and fine-tuning of PLMs for program and language) and Corpus-Specific Prefix Tuning (to update the parameters of PLMs for program and language efficiently).Also, we propose a method to provide richer prefix word information for limited prefix lengths. We prove that our method is effective in three PLG tasks, not only in the full-data setting but also in the low-resource setting and cross-domain setting.",
+  "keywords": [
+    "inefficient",
+    "we",
+    "ode",
+    "parameter",
+    "training",
+    "fine-tuning",
+    "prompt-tuning methods",
+    "cross",
+    "natural",
+    "information",
+    "word",
+    "natural language generation",
+    "natural language",
+    "tuning",
+    "prompt"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.325/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.wassa-1.41",
+  "title": "E}mpathetic{FIG} at {WASSA} 2024 Empathy and Personality Shared Task: Predicting Empathy and Emotion in Conversations with Figurative Language",
+  "authors": [
+    "Lee, Gyeongeun  and\nWang, Zhu  and\nRavi, Sathya N.  and\nParde, Natalie"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 14th Workshop on Computational Approaches to Subjectivity, Sentiment, {\\&} Social Media Analysis",
+  "abstract": "Recent research highlights the importance of figurative language as a tool for amplifying emotional impact. In this paper, we dive deeper into this phenomenon and outline our methods forTrack 1, Empathy Prediction in Conversations(CONV-dialog) andTrack 2, Empathy and Emotion Prediction in Conversation Turns(CONV-turn) of the WASSA 2024 shared task. We leveraged transformer-based large language models augmented with figurative language prompts, specifically idioms, metaphors and hyperbole, that were selected and trained for each track to optimize system performance. For Track 1, we observed that a fine-tuned BERT with metaphor and hyperbole features outperformed other models on the development set. For Track 2, DeBERTa, with different combinations of figurative language prompts, performed well for different prediction tasks. Our method provides a novel framework for understanding how figurative language influences emotional perception in conversational contexts. Our system officially ranked 4th in the 1st track and 3rd in the 2nd track.",
+  "keywords": [
+    "deberta",
+    "conversations",
+    "we",
+    "a fine-tuned bert",
+    "bert",
+    "transformer",
+    "prompts",
+    "language",
+    "dialog",
+    "conversational",
+    "conversation",
+    "figurative language prompts",
+    "conv",
+    "the wassa",
+    "fig"
+  ],
+  "url": "https://aclanthology.org/2024.wassa-1.41/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:12:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

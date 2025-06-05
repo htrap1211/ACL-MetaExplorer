@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.761",
+  "title": "Quantifying Contamination in Evaluating Code Generation Capabilities of Language Models",
+  "authors": [
+    "Riddell, Martin  and\nNi, Ansong  and\nCohan, Arman"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "While large language models have achieved remarkable performance on various code generation benchmarks, there have been growing concerns regarding potential contamination of these benchmarks as they may be leaked into pretraining and finetuning data. While recent work has investigated contamination in natural language generation and understanding tasks, there has been less extensive research into how data contamination impacts the evaluation of code generation, which is critical for understanding the robustness and reliability of LLMs in programming contexts. In this work, we perform a comprehensive study of data contamination of popular code generation benchmarks, and precisely quantify their overlap with pretraining corpus through both surface-level and semantic-level matching. In our experiments, we show that there are substantial overlap between popular code generation benchmarks and open training corpus, and models perform significantly better on the subset of the benchmarks where similar solutions are seen during training. We also conduct extensive analysis on the factors that affect model memorization and generalization, such as model size, problem difficulty, and question length. We release all resulting files from our matching pipeline for future research.",
+  "keywords": [
+    "code",
+    "question",
+    "semantic",
+    "we",
+    "training",
+    "natural",
+    "natural language generation",
+    "code generation capabilities",
+    "analysis",
+    "llms",
+    "language models",
+    "generalization",
+    "work",
+    "generation",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.761/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:44:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

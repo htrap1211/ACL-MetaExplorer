@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.365",
+  "title": "Search from History and Reason for Future: Two-stage Reasoning on Temporal Knowledge Graphs",
+  "authors": [
+    "Li, Zixuan  and\nJin, Xiaolong  and\nGuan, Saiping  and\nLi, Wei  and\nGuo, Jiafeng  and\nWang, Yuanzhuo  and\nCheng, Xueqi"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Temporal Knowledge Graphs (TKGs) have been developed and used in many different areas. Reasoning on TKGs that predicts potential facts (events) in the future brings great challenges to existing models. When facing a prediction task, human beings usually search useful historical information (i.e., clues) in their memories and then reason for future meticulously. Inspired by this mechanism, we propose CluSTeR to predict future facts in a two-stage manner, Clue Searching and Temporal Reasoning, accordingly. Specifically, at the clue searching stage, CluSTeR learns a beam search policy via reinforcement learning (RL) to induce multiple clues from historical facts. At the temporal reasoning stage, it adopts a graph convolution network based sequence method to deduce answers from clues. Experiments on four datasets demonstrate the substantial advantages of CluSTeR compared with the state-of-the-art methods. Moreover, the clues found by CluSTeR further provide interpretability for the results.",
+  "keywords": [
+    "memories",
+    "we",
+    "graph",
+    "cluster",
+    "it",
+    "information",
+    "learning",
+    "sequence",
+    "manner",
+    "i",
+    "their memories",
+    "knowledge",
+    "reinforcement",
+    "temporal knowledge graphs",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.365/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

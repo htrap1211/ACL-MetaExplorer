@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.720",
+  "title": "Sources of Transfer in Multilingual Named Entity Recognition",
+  "authors": [
+    "Mueller, David  and\nAndrews, Nicholas  and\nDredze, Mark"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Named-entities are inherently multilingual, and annotations in any given language may be limited. This motivates us to considerpolyglotnamed-entity recognition (NER), where one model is trained using annotated data drawn from more than one language. However, a straightforward implementation of this simple idea does not always work in practice: naive training of NER models using annotated data drawn from multiple languages consistently underperforms models trained on monolingual data alone, despite having access to more training data. The starting point of this paper is a simple solution to this problem, in which polyglot models arefine-tunedon monolingual data to consistently and significantly outperform their monolingual counterparts. To explain this phenomena, we explore the sources of multilingual transfer in polyglot NER models and examine the weight structure of polyglot models compared to their monolingual counterparts. We find that polyglot models efficiently share many parameters across languages and that fine-tuning may utilize a large number of those parameters.",
+  "keywords": [
+    "ner",
+    "tuning",
+    "language",
+    "multilingual named entity recognition",
+    "considerpolyglotnamed-entity recognition ner",
+    "model",
+    "entities",
+    "that fine-tuning",
+    "ner models",
+    "us",
+    "fine",
+    "we",
+    "transfer",
+    "entity",
+    "polyglot ner models"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.720/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:51:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

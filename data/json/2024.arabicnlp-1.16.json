@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.16",
+  "title": "Out-of-Domain Dependency Parsing for Dialects of {A}rabic: A Case Study",
+  "authors": [
+    "Abo Mokh, Noor  and\nDakota, Daniel  and\nK{\\\"u}bler, Sandra"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "We study dependency parsing for four Arabic dialects (Gulf, Levantine, Egyptian, and Maghrebi). Since no syntactically annotated data exist for Arabic dialects, we train the parser on a Modern Standard Arabic (MSA) corpus, which creates an out-of-domain setting.We investigate methods to close the gap between the source (MSA) and target data (dialects), e.g., by training on syntactically similar sentences to the test data. For testing, we manually annotate a small data set from a dialectal corpus. We focus on parsing two linguistic phenomena, which are difficult to parse: Idafa and coordination. We find that we can improve results by adding in-domain MSA data while adding dialectal embeddings only results in minor improvements.",
+  "keywords": [
+    "embeddings",
+    "e g",
+    "dependency",
+    "we",
+    "dialectal embeddings",
+    "training",
+    "arabic dialects",
+    "dialectal",
+    "data dialects",
+    "the parser",
+    "the source",
+    "phenomena",
+    "arabic",
+    "improvements",
+    "data"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.16/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:02:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

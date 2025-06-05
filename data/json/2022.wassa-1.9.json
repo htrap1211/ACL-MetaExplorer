@@ -1,0 +1,33 @@
+{
+  "id": "2022.wassa-1.9",
+  "title": "Evaluating Contextual Embeddings and their Extraction Layers for Depression Assessment",
+  "authors": [
+    "Matero, Matthew  and\nHung, Albert  and\nSchwartz, H. Andrew"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 12th Workshop on Computational Approaches to Subjectivity, Sentiment {\\&} Social Media Analysis",
+  "abstract": "Many recent works in natural language processing have demonstrated ability to assess aspects of mental health from personal discourse. At the same time, pre-trained contextual word embedding models have grown to dominate much of NLP but little is known empirically on how to best apply them for mental health assessment. Using degree of depression as a case study, we do an empirical analysis on which off-the-shelf language model, individual layers, and combinations of layers seem most promising when applied to human-level NLP tasks. Notably, we find RoBERTa most effective and, despite the standard in past work suggesting the second-to-last or concatenation of the last 4 layers, we find layer 19 (sixth-to last) is at least as good as layer 23 when using 1 layer. Further, when using multiple layers, distributing them across the second half (i.e. Layers 12+), rather than last 4, of the 24 layers yielded the most accurate results.",
+  "keywords": [
+    "embeddings",
+    "work",
+    "roberta",
+    "processing",
+    "i",
+    "language",
+    "nlp",
+    "extraction",
+    "natural",
+    "model",
+    "human-level nlp tasks",
+    "human",
+    "contextual embeddings",
+    "layer",
+    "word"
+  ],
+  "url": "https://aclanthology.org/2022.wassa-1.9/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:46:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

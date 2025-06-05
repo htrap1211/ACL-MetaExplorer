@@ -1,0 +1,33 @@
+{
+  "id": "P19-1657",
+  "title": "Show, Describe and Conclude: On Exploiting the Structure Information of Chest {X}-ray Reports",
+  "authors": [
+    "Jing, Baoyu  and\nWang, Zeya  and\nXing, Eric"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Chest X-Ray (CXR) images are commonly used for clinical screening and diagnosis. Automatically writing reports for these images can considerably lighten the workload of radiologists for summarizing descriptive findings and conclusive impressions. The complex structures between and within sections of the reports pose a great challenge to the automatic report generation. Specifically, the section Impression is a diagnostic summarization over the section Findings; and the appearance of normality dominates each section over that of abnormality. Existing studies rarely explore and consider this fundamental structure information. In this work, we propose a novel framework which exploits the structure information between and within report sections for generating CXR imaging reports. First, we propose a two-stage strategy that explicitly models the relationship between Findings and Impression. Second, we design a novel co-operative multi-agent system that implicitly captures the imbalanced distribution between abnormality and normality. Experiments on two CXR report datasets show that our method achieves state-of-the-art performance in terms of various evaluation metrics. Our results expose that the proposed approach is able to generate high-quality medical reports through integrating the structure information.",
+  "keywords": [
+    "a diagnostic summarization",
+    "summarization",
+    "we",
+    "the automatic report generation",
+    "information",
+    "metrics",
+    "abnormality existing studies",
+    "work",
+    "generation",
+    "various evaluation metrics",
+    "studies",
+    "evaluation",
+    "great",
+    "multi",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/P19-1657/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:47:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.22",
+  "title": "Enforcing Consistency in Weakly Supervised Semantic Parsing",
+  "authors": [
+    "Gupta, Nitish  and\nSingh, Sameer  and\nGardner, Matt"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "The predominant challenge in weakly supervised semantic parsing is that of spurious programs that evaluate to correct answers for the wrong reasons. Prior work uses elaborate search strategies to mitigate the prevalence of spurious programs; however, they typically consider only one input at a time. In this work we explore the use of consistency between the output programs for related inputs to reduce the impact of spurious programs. We bias the program search (and thus the model’s training signal) towards programs that map the same phrase in related inputs to the same sub-parts in their respective programs. Additionally, we study the importance of designing logical formalisms that facilitate this kind of consistency-based training. We find that a more consistent formalism leads to improved model performance even without consistency-based training. When combined together, these two insights lead to a 10% absolute improvement over the best prior result on the Natural Language Visual Reasoning dataset.",
+  "keywords": [
+    "parsing",
+    "semantic",
+    "we",
+    "training",
+    "natural",
+    "visual",
+    "strategies",
+    "-",
+    "work",
+    "weakly supervised semantic parsing",
+    "elaborate search strategies",
+    "language",
+    "model",
+    "time",
+    "these two insights"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.22/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.ngt-1.24",
+  "title": "The {N}iu{T}rans System for {WNGT} 2020 Efficiency Task",
+  "authors": [
+    "Hu, Chi  and\nLi, Bei  and\nLi, Yinqiao  and\nLin, Ye  and\nLi, Yanyang  and\nWang, Chenglong  and\nXiao, Tong  and\nZhu, Jingbo"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the Fourth Workshop on Neural Generation and Translation",
+  "abstract": "This paper describes the submissions of the NiuTrans Team to the WNGT 2020 Efficiency Shared Task. We focus on the efficient implementation of deep Transformer models (Wang et al., 2019; Li et al., 2019) using NiuTensor, a flexible toolkit for NLP tasks. We explored the combination of deep encoder and shallow decoder in Transformer models via model compression and knowledge distillation. The neural machine translation decoding also benefits from FP16 inference, attention caching, dynamic batching, and batch pruning. Our systems achieve promising results in both translation quality and efficiency, e.g., our fastest system can translate more than 40,000 tokens per second with an RTX 2080 Ti while maintaining 42.9 BLEU on newstest2018.",
+  "keywords": [
+    "deep",
+    "t",
+    "transformer",
+    "deep transformer models",
+    "both translation quality",
+    "knowledge",
+    "transformer models",
+    "shallow decoder",
+    "nlp",
+    "neural",
+    "model",
+    "machine",
+    "efficient",
+    "bleu",
+    "encoder"
+  ],
+  "url": "https://aclanthology.org/2020.ngt-1.24/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:57:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

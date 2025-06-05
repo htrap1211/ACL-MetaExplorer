@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.340",
+  "title": "Exploring Robust Overfitting for Pre-trained Language Models",
+  "authors": [
+    "Zhu, Bin  and\nRao, Yanghui"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "We identify the robust overfitting issue for pre-trained language models by showing that the robust test loss increases as the epoch grows. Through comprehensive exploration of the robust loss on the training set, we attribute robust overfitting to the model’s memorization of the adversarial training data. We attempt to mitigate robust overfitting by combining regularization methods with adversarial training. Following the philosophy that prevents the model from memorizing the adversarial data, we find that flooding, a regularization method with loss scaling, can mitigate robust overfitting for pre-trained language models. Eventually, we investigate the effect of flooding levels and evaluate the models’ adversarial robustness under textual attacks. Extensive experiments demonstrate that our methods can mitigate robust overfitting upon three top adversarial training methods and further promote adversarial robustness.",
+  "keywords": [
+    "a regularization method",
+    "language",
+    "pre-trained language models",
+    "model",
+    "loss",
+    "regularization",
+    "robust overfitting",
+    "regularization methods",
+    "we",
+    "pre",
+    "training",
+    "the robust overfitting issue",
+    "overfitting",
+    "that",
+    "exploration"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.340/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:58:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

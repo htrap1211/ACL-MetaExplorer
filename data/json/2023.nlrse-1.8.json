@@ -1,0 +1,33 @@
+{
+  "id": "2023.nlrse-1.8",
+  "title": "Can In-context Learners Learn a Reasoning Concept from Demonstrations?",
+  "authors": [
+    "{\\v{S}}tef{\\'a}nik, Michal  and\nKadl{\\v{c}}{\\'i}k, Marek"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 1st Workshop on Natural Language Reasoning and Structured Explanations (NLRSE)",
+  "abstract": "Large language models show an emergent ability to learn a new task from a small number of input-output demonstrations. However, recent work shows that in-context learners largely rely on their pre-trained knowledge, such as the sentiment of the labels, instead of finding new associations in the input. However, the commonly-used few-shot evaluation settings using a random selection of in-context demonstrations can not disentangle models’ ability to learn a new skill from demonstrations, as most of the randomly-selected demonstrations do not present relations informative for prediction beyond exposing the new task distribution. To disentangle models’ in-context learning ability independent of models’ memory, we introduce a Conceptual few-shot learning method selecting the demonstrations sharing a possibly-informative concept with the predicted sample. We extract a set of such concepts from annotated explanations and measure how much can models benefit from presenting these concepts in few-shot demonstrations. We find that smaller models are more sensitive to the presented concepts. While some of the models are able to benefit from concept-presenting demonstrations for each assessed concept, we find that none of the assessed in-context learners can benefit from all presented reasoning concepts consistently, leaving the in-context concept learning an open challenge.",
+  "keywords": [
+    "we",
+    "few-shot demonstrations",
+    "shot",
+    "learning",
+    "sentiment",
+    "work",
+    "knowledge",
+    "random",
+    "language",
+    "learners",
+    "large language models",
+    "evaluation",
+    "pre",
+    "the sentiment",
+    "smaller models"
+  ],
+  "url": "https://aclanthology.org/2023.nlrse-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

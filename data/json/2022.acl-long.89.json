@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.89",
+  "title": "Flow-Adapter Architecture for Unsupervised Machine Translation",
+  "authors": [
+    "Liu, Yihong  and\nJabbar, Haris  and\nSchuetze, Hinrich"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this work, we propose a flow-adapter architecture for unsupervised NMT. It leverages normalizing flows to explicitly model the distributions of sentence-level latent representations, which are subsequently used in conjunction with the attention mechanism for the translation task. The primary novelties of our model are: (a) capturing language-specific sentence representations separately for each language using normalizing flows and (b) using a simple transformation of these latent representations for translating from one language to another. This architecture allows for unsupervised training of each language independently. While there is prior work on latent variables for supervised MT, to the best of our knowledge, this is the first work that uses latent variables and normalizing flows for unsupervised MT. We obtain competitive results on several unsupervised MT benchmarks.",
+  "keywords": [
+    "work",
+    "knowledge",
+    "language",
+    "translation",
+    "unsupervised machine translation",
+    "model",
+    "machine",
+    "it",
+    "latent",
+    "the primary novelties",
+    "novelties",
+    "attention",
+    "we",
+    "the translation task",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.89/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

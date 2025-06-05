@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.129",
+  "title": "M}ed{NLI} Is Not Immune: {N}atural Language Inference Artifacts in the Clinical Domain",
+  "authors": [
+    "Herlihy, Christine  and\nRudinger, Rachel"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Crowdworker-constructed natural language inference (NLI) datasets have been found to contain statistical artifacts associated with the annotation process that allow hypothesis-only classifiers to achieve better-than-random performance (CITATION). We investigate whether MedNLI, a physician-annotated dataset with premises extracted from clinical notes, contains such artifacts (CITATION). We find that entailed hypotheses contain generic versions of specific concepts in the premise, as well as modifiers related to responsiveness, duration, and probability. Neutral hypotheses feature conditions and behaviors that co-occur with, or cause, the condition(s) in the premise. Contradiction hypotheses feature explicit negation of the premise and implicit negation via assertion of good health. Adversarial filtering demonstrates that performance degrades when evaluated on thedifficultsubset. We provide partition information and recommendations for alternative dataset construction strategies for knowledge-intensive domains.",
+  "keywords": [
+    "classifiers",
+    "we",
+    "hypothesis-only classifiers",
+    "natural",
+    "information",
+    "generic versions",
+    "strategies",
+    "generic",
+    "modifiers",
+    "process",
+    "knowledge",
+    "language",
+    "random",
+    "atural",
+    "alternative dataset construction strategies"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.129/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:08:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

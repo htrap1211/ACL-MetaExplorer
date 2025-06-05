@@ -1,0 +1,33 @@
+{
+  "id": "2024.nlp4convai-1.3",
+  "title": "Revealing User Familiarity Bias in Task-Oriented Dialogue via Interactive Evaluation",
+  "authors": [
+    "Kim, Takyoung  and\nShin, Jamin  and\nKim, Young-Ho  and\nBae, Sanghwan  and\nKim, Sungdong"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 6th Workshop on NLP for Conversational AI (NLP4ConvAI 2024)",
+  "abstract": "Most task-oriented dialogue (TOD) benchmarks assume users that know exactly how to use the system by constraining the user behaviors within the system’s capabilities via strict user goals, namely “user familiarity” bias. This data bias deepens when it combines with data-driven TOD systems, as it is impossible to fathom the effect of it with existing static evaluations. Hence, we conduct an interactive user study to unveil how vulnerable TOD systems are against realistic scenarios. In particular, we compare users with 1) detailed goal instructions that conform to the system boundaries (closed-goal) and 2) vague goal instructions that are often unsupported but realistic (open-goal). Our study reveals that conversations in open-goal settings lead to catastrophic failures of the system, in which 92% of the dialogues had significant issues. Moreover, we conduct a thorough analysis to identify distinctive features between the two settings through error annotation. From this, we discover a novel “pretending” behavior, in which the system pretends to handle the user requests even though they are beyond the system’s capabilities. We discuss its characteristics and toxicity while showing recent large language models can also suffer from this behavior.",
+  "keywords": [
+    "bias",
+    "interactive evaluation",
+    "conversations",
+    "we",
+    "dialogue",
+    "task-oriented dialogue",
+    "this data bias deepens",
+    "namely user familiarity bias",
+    "it",
+    "vulnerable",
+    "recent large language models",
+    "analysis",
+    "the system s capabilities",
+    "the system boundaries",
+    "user familiarity bias"
+  ],
+  "url": "https://aclanthology.org/2024.nlp4convai-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

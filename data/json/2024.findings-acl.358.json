@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.358",
+  "title": "Zero-shot Cross-lingual Alignment for Embedding Initialization",
+  "authors": [
+    "Ai, Xi  and\nHuang, Zhiyong"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "For multilingual training, we present CrossInit, an initialization method that initializes embeddings into similar geometrical structures across languages in an unsupervised manner. CrossInit leverages a common cognitive linguistic mechanism, Zipf’s law, which indicates that similar concepts across languages have similar word ranks or frequencies in their monolingual corpora. Instead of considering point-to-point alignments based on ranks, CrossInit considers the same span of consecutive ranks in each language as the Positive pairs for alignment, while others out of the span are used as Negative pairs. CrossInit then employs Contrastive Learning to iteratively refine randomly initialized embeddings for similar geometrical structures across languages. Our experiments on Unsupervised NMT, XNLI, and MLQA showed significant gains in low-resource and dissimilar languages after applying CrossInit.",
+  "keywords": [
+    "embeddings",
+    "alignment",
+    "cross",
+    "mlqa",
+    "alignments",
+    "language",
+    "an unsupervised manner crossinit",
+    "frequencies",
+    "word",
+    "we",
+    "learning",
+    "randomly initialized embeddings",
+    "training",
+    "manner",
+    "zero-shot cross-lingual alignment"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.358/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:53:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.150",
+  "title": "Jack-Ryder at {S}em{E}val-2023 Task 5: Zero-Shot Clickbait Spoiling by Rephrasing Titles as Questions",
+  "authors": [
+    "Wangsadirdja, Dirk  and\nPfister, Jan  and\nKobs, Konstantin  and\nHotho, Andreas"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "In this paper, we describe our approach to the clickbait spoiling task of SemEval 2023.The core idea behind our system is to leverage pre-trained models capable of Question Answering (QA) to extract the spoiler from article texts based on the clickbait title without any task-specific training. Since oftentimes, these titles are not phrased as questions, we automatically rephrase the clickbait titles as questions in order to better suit the pretraining task of the QA-capable models. Also, to fit as much relevant context into the model’s limited input size as possible, we propose to reorder the sentences by their relevance using a semantic similarity model. Finally, we evaluate QA as well as text generation models (via prompting) to extract the spoiler from the text. Based on the validation data, our final model selects each of these components depending on the spoiler type and achieves satisfactory zero-shot results. The ideas described in this paper can easily be applied in fine-tuning settings.",
+  "keywords": [
+    "satisfactory zero-shot results",
+    "validation",
+    "question",
+    "semantic",
+    "we",
+    "a semantic similarity model",
+    "shot",
+    "training",
+    "core",
+    "fine-tuning settings",
+    "tuning",
+    "5 zero-shot clickbait",
+    "text",
+    "fine",
+    "text generation models"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.150/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:28:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

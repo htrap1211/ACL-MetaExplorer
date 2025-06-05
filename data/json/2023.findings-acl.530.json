@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.530",
+  "title": "GRACE}: Gradient-guided Controllable Retrieval for Augmenting Attribute-based Text Generation",
+  "authors": [
+    "Wen, Zhihua  and\nTian, Zhiliang  and\nHuang, Zhen  and\nYang, Yuxin  and\nJian, Zexin  and\nWang, Changjian  and\nLi, Dongsheng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Attribute-based generation methods are of growing significance in controlling the generation of large pre-trained language models (PLMs). Existing studies control the generation by (1) finetuning the model with attributes or (2) guiding the inference processing toward control signals while freezing the PLM. However, finetuning approaches infuse domain bias into generation, making it hard to generate out-of-domain texts. Besides, many methods guide the inference in its word-by-word generation, pushing the word probability to the target attributes, resulting in less fluent sentences. We argue that distilling controlling information from natural texts can produce fluent sentences while maintaining high controllability. In this paper, we proposeGRAdient-guidedControllable rEtrieval (GRACE), a retrieval-augmented generation framework to facilitate the generation of fluent sentences with high attribute relevance. GRACE memorizes the semantic and attribute information from unlabeled corpora and applies a controllable retrieval to obtain desired information. For the generation, we design techniques to eliminate the domain bias from the retrieval results and integrate it into the generation model. Additionally, we propose a gradient-guided generation scheme that iteratively steers generation toward higher attribute relevance. Experimental results and quantities of examples verify the effectiveness of our method.",
+  "keywords": [
+    "bias",
+    "the generation",
+    "semantic",
+    "we",
+    "quantities",
+    "a controllable retrieval",
+    "large pre-trained language models",
+    "natural",
+    "it",
+    "grace gradient-guided controllable retrieval",
+    "retrieval",
+    "information",
+    "word",
+    "existing studies",
+    "the retrieval results"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.530/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

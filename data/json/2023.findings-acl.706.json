@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.706",
+  "title": "Revisit Few-shot Intent Classification with {PLM}s: Direct Fine-tuning vs. Continual Pre-training",
+  "authors": [
+    "Zhang, Haode  and\nLiang, Haowen  and\nZhan, Liming  and\nLam, Albert Y.S.  and\nWu, Xiao-Ming"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "We consider the task of few-shot intent detection, which involves training a deep learning model to classify utterances based on their underlying intents using only a small amount of labeled data. The current approach to address this problem is through continual pre-training, i.e., fine-tuning pre-trained language models (PLMs) on external resources (e.g., conversational corpora, public intent detection datasets, or natural language understanding datasets) before using them as utterance encoders for training an intent classifier. In this paper, we show that continual pre-training may not be essential, since the overfitting problem of PLMs on this task may not be as serious as expected. Specifically, we find that directly fine-tuning PLMs on only a handful of labeled examples already yields decent results compared to methods that employ continual pre-training, and the performance gap diminishes rapidly as the number of labeled data increases. To maximize the utilization of the limited available data, we propose a context augmentation method and leverage sequential self-distillation to boost performance. Comprehensive experiments on real-world benchmarks show that given only two or more labeled samples per class, direct fine-tuning outperforms many strong baselines that utilize external data sources for continual pre-training. The code can be found athttps://github.com/hdzhang-code/DFTPlus.",
+  "keywords": [
+    "deep",
+    "code",
+    "few-shot intent detection",
+    "classifier",
+    "a deep learning model",
+    "we",
+    "current",
+    "shot",
+    "training",
+    "classification",
+    "natural",
+    "utterance encoders",
+    "self",
+    "revisit few-shot intent classification",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.706/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

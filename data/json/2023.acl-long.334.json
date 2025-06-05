@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.334",
+  "title": "R}obu{T}: A Systematic Study of Table {QA} Robustness Against Human-Annotated Adversarial Perturbations",
+  "authors": [
+    "Zhao, Yilun  and\nZhao, Chen  and\nNan, Linyong  and\nQi, Zhenting  and\nZhang, Wenlin  and\nTang, Xiangru  and\nMi, Boyu  and\nRadev, Dragomir"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Despite significant progress having been made in question answering on tabular data (Table QA), it’s unclear whether, and to what extent existing Table QA models are robust to task-specific perturbations, e.g., replacing key question entities or shuffling table columns. To systematically study the robustness of Table QA models, we propose a benchmark called RobuT, which builds upon existing Table QA datasets (WTQ, WikiSQL-Weak, and SQA) and includes human-annotated adversarial perturbations in terms of table header, table content, and question. Our results indicate that both state-of-the-art Table QA models and large language models (e.g., GPT-3) with few-shot learning falter in these adversarial sets. We propose to address this problem by using large language models to generate adversarial examples to enhance training, which significantly improves the robustness of Table QA models.",
+  "keywords": [
+    "e g",
+    "language",
+    "table qa models",
+    "entities",
+    "it",
+    "human",
+    "large language models",
+    "gpt-3",
+    "question",
+    "few-shot learning falter",
+    "sqa",
+    "we",
+    "shot",
+    "training",
+    "key question entities"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.334/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

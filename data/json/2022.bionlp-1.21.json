@@ -1,0 +1,33 @@
+{
+  "id": "2022.bionlp-1.21",
+  "title": "VPAI}{\\_}{L}ab at {M}ed{V}id{QA} 2022: A Two-Stage Cross-modal Fusion Method for Medical Instructional Video Classification",
+  "authors": [
+    "Li, Bin  and\nWeng, Yixuan  and\nXia, Fei  and\nSun, Bin  and\nLi, Shutao"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 21st Workshop on Biomedical Language Processing",
+  "abstract": "This paper introduces the approach of VPAI_Lab team’s experiments on BioNLP 2022 shared task 1 Medical Video Classification (MedVidCL). Given an input video, the MedVidCL task aims to correctly classify it into one of three following categories: Medical Instructional, Medical Non-instructional, and Non-medical. Inspired by its dataset construction process, we divide the classification process into two stages. The first stage is to classify videos into medical videos and non-medical videos. In the second stage, for those samples classified as medical videos, we further classify them into instructional videos and non-instructional videos. In addition, we also propose the cross-modal fusion method to solve the video classification, such as fusing the text features (question and subtitles) from the pre-training language models and visual features from image frames. Specifically, we use textual information to concatenate and query the visual information for obtaining better feature representation. Extensive experiments show that the proposed method significantly outperforms the official baseline method by 15.4% in the F1 score, which shows its effectiveness. Finally, the online results show that our method ranks the Top-1 on the online unseen test set. All the experimental codes are open-sourced athttps://github.com/Lireanstar/MedVidCL.",
+  "keywords": [
+    "bionlp 2022 shared task",
+    "question",
+    "we",
+    "fusion",
+    "training",
+    "classification",
+    "cross",
+    "it",
+    "information",
+    "visual",
+    "the classification process",
+    "m",
+    "i",
+    "1 medical video classification",
+    "the f1 score"
+  ],
+  "url": "https://aclanthology.org/2022.bionlp-1.21/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

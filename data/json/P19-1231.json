@@ -1,0 +1,33 @@
+{
+  "id": "P19-1231",
+  "title": "Distantly Supervised Named Entity Recognition using Positive-Unlabeled Learning",
+  "authors": [
+    "Peng, Minlong  and\nXing, Xiaoyu  and\nZhang, Qi  and\nFu, Jinlan  and\nHuang, Xuanjing"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "In this work, we explore the way to perform named entity recognition (NER) using only unlabeled data and named entity dictionaries. To this end, we formulate the task as a positive-unlabeled (PU) learning problem and accordingly propose a novel PU learning algorithm to perform the task. We prove that the proposed algorithm can unbiasedly and consistently estimate the task loss as if there is fully labeled data. A key feature of the proposed method is that it does not require the dictionaries to label every entity within a sentence, and it even does not require the dictionaries to label all of the words constituting an entity. This greatly reduces the requirement on the quality of the dictionaries and makes our method generalize well with quite simple dictionaries. Empirical studies on four public NER datasets demonstrate the effectiveness of our proposed method. We have published the source code athttps://github.com/v-mipeng/LexiconNER.",
+  "keywords": [
+    "four public ner datasets",
+    "work",
+    "code",
+    "ner",
+    "dictionaries",
+    "end",
+    "the dictionaries",
+    "lexiconner",
+    "studies",
+    "it",
+    "entity recognition ner",
+    "loss",
+    "all",
+    "we",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/P19-1231/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:35:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

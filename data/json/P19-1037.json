@@ -1,0 +1,33 @@
+{
+  "id": "P19-1037",
+  "title": "Neural Text Simplification of Clinical Letters with a Domain Specific Phrase Table",
+  "authors": [
+    "Shardlow, Matthew  and\nNawaz, Raheel"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Clinical letters are infamously impenetrable for the lay patient. This work uses neural text simplification methods to automatically improve the understandability of clinical letters for patients. We take existing neural text simplification software and augment it with a new phrase table that links complex medical terminology to simpler vocabulary by mining SNOMED-CT. In an evaluation task using crowdsourcing, we show that the results of our new system are ranked easier to understand (average rank 1.93) than using the original system (2.34) without our phrase table. We also show improvement against baselines including the original text (2.79) and using the phrase table without the neural text simplification software (2.94). Our methods can easily be transferred outside of the clinical domain by using domain-appropriate resources to provide effective neural text simplification for any domain without the need for costly annotation.",
+  "keywords": [
+    "work",
+    "an evaluation task",
+    "neural",
+    "text",
+    "it",
+    "patients",
+    "the lay patient",
+    "ct",
+    "patient",
+    "we",
+    "lay",
+    "evaluation",
+    "easier",
+    "that",
+    "complex medical terminology"
+  ],
+  "url": "https://aclanthology.org/P19-1037/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:29:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.101",
+  "title": "Towards Faithful Neural Table-to-Text Generation with Content-Matching Constraints",
+  "authors": [
+    "Wang, Zhenyi  and\nWang, Xiaoyang  and\nAn, Bang  and\nYu, Dong  and\nChen, Changyou"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Text generation from a knowledge base aims to translate knowledge triples to natural language descriptions. Most existing methods ignore the faithfulness between a generated text description and the original table, leading to generated information that goes beyond the content of the table. In this paper, for the first time, we propose a novel Transformer-based generation framework to achieve the goal. The core techniques in our method to enforce faithfulness include a new table-text optimal-transport matching loss and a table-text embedding similarity loss based on the Transformer model. Furthermore, to evaluate faithfulness, we propose a new automatic metric specialized to the table-to-text generation problem. We also provide detailed analysis on each component of our model in our experiments. Automatic and human evaluations show that our framework can significantly outperform state-of-the-art by a large margin.",
+  "keywords": [
+    "transformer",
+    "knowledge",
+    "the transformer model",
+    "generation",
+    "language",
+    "neural",
+    "natural",
+    "model",
+    "metric",
+    "text",
+    "human",
+    "a generated text description",
+    "evaluations",
+    "automatic and human evaluations",
+    "content-matching constraints text generation"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.101/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:43:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

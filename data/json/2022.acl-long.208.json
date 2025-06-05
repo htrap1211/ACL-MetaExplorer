@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.208",
+  "title": "Leveraging Relaxed Equilibrium by Lazy Transition for Sequence Modeling",
+  "authors": [
+    "Ai, Xi  and\nFang, Bin"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In sequence modeling, certain tokens are usually less ambiguous than others, and representations of these tokens require fewer refinements for disambiguation. However, given the nature of attention-based models like Transformer and UT (universal transformer), all tokens are equally processed towards depth. Inspired by the equilibrium phenomenon, we present a lazy transition, a mechanism to adjust the significance of iterative refinements for each token representation. Our lazy transition is deployed on top of UT to build LT (lazy transformer), where all tokens are processed unequally towards depth. Eventually, LT is encouraged to oscillate around arelaxedequilibrium. Our experiments show that LT outperforms baseline models on several tasks of machine translation, pre-training, Learning to Execute, and LAMBADA.",
+  "keywords": [
+    "top",
+    "transformer",
+    "ut",
+    "machine",
+    "lt lazy transformer",
+    "pre-training learning",
+    "token",
+    "modeling",
+    "machine translation",
+    "attention-based models",
+    "attention",
+    "sequence",
+    "we",
+    "learning",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.208/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:27:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.90",
+  "title": "Elaboration-Generating Commonsense Question Answering at Scale",
+  "authors": [
+    "Wang, Wenya  and\nSrikumar, Vivek  and\nHajishirzi, Hannaneh  and\nSmith, Noah A."
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In question answering requiring common sense, language models (e.g., GPT-3) have been used to generate text expressing background knowledge that helps improve performance. Yet the cost of working with such models is very high; in this work, we finetune smaller language models to generate useful intermediate context, referred to here as elaborations. Our framework alternates between updating two language models—an elaboration generator and an answer predictor—allowing each to influence the other. Using less than 0.5% of the parameters of GPT-3, our model outperforms alternatives with similar sizes and closes the gap with GPT-3 on four commonsense question answering benchmarks. Human evaluations show that the quality of the generated elaborations is high.",
+  "keywords": [
+    "work",
+    "knowledge",
+    "answer",
+    "language",
+    "background",
+    "model",
+    "smaller language models",
+    "text",
+    "human",
+    "evaluations",
+    "an elaboration generator",
+    "background knowledge",
+    "gpt-3",
+    "question",
+    "the generated elaborations"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.90/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:36:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

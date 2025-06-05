@@ -1,0 +1,33 @@
+{
+  "id": "2020.sigmorphon-1.29",
+  "title": "Multi-Tiered Strictly Local Functions",
+  "authors": [
+    "Burness, Phillip  and\nMcMullin, Kevin"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 17th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "Tier-based Strictly Local functions, as they have so far been defined, are equipped with just a single tier. In light of this fact, they are currently incapable of modelling simultaneous phonological processes that would require different tiers. In this paper we consider whether and how we can allow a single function to operate over more than one tier. We conclude that multiple tiers can and should be permitted, but that the relationships between them must be restricted in some way to avoid overgeneration. The particular restriction that we propose comes in two parts. First, each input element is associated with a set of tiers that on their own can fully determine what the element is mapped to. Second, the set of tiers associated to a given input element must form a strict superset-subset hierarchy. In this way, we can track multiple, related sources of information when deciding how to process a particular input element. We demonstrate that doing so enables simple and intuitive analyses to otherwise challenging phonological phenomena.",
+  "keywords": [
+    "more than one tier",
+    "different tiers",
+    "a strict superset-subset hierarchy",
+    "tiers",
+    "information",
+    "tier-based strictly local functions",
+    "tier",
+    "multiple tiers",
+    "hierarchy",
+    "we",
+    "multi-tiered strictly local functions",
+    "overgeneration",
+    "function",
+    "just a single tier",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2020.sigmorphon-1.29/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:58:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

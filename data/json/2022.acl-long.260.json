@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.260",
+  "title": "F}orm{N}et: Structural Encoding beyond Sequential Modeling in Form Document Information Extraction",
+  "authors": [
+    "Lee, Chen-Yu  and\nLi, Chun-Liang  and\nDozat, Timothy  and\nPerot, Vincent  and\nSu, Guolong  and\nHua, Nan  and\nAinslie, Joshua  and\nWang, Renshen  and\nFujii, Yasuhisa  and\nPfister, Tomas"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Sequence modeling has demonstrated state-of-the-art performance on natural language and document understanding tasks. However, it is challenging to correctly serialize tokens in form-like documents in practice due to their variety of layout patterns. We propose FormNet, a structure-aware sequence model to mitigate the suboptimal serialization of forms. First, we design Rich Attention that leverages the spatial relationship between tokens in a form for more precise attention score calculation. Second, we construct Super-Tokens for each word by embedding representations from their neighboring tokens through graph convolutions. FormNet therefore explicitly recovers local syntactic information that may have been lost during serialization. In experiments, FormNet outperforms existing methods with a more compact model size and less pre-training data, establishing new state-of-the-art performance on CORD, FUNSD and Payment benchmarks.",
+  "keywords": [
+    "variety",
+    "extraction",
+    "form",
+    "we",
+    "graph",
+    "training",
+    "natural",
+    "it",
+    "information",
+    "rich",
+    "rich attention",
+    "word",
+    "sequence",
+    "orm",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.260/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:27:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

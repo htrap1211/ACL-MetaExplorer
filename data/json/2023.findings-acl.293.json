@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.293",
+  "title": "A Set Prediction Network For Extractive Summarization",
+  "authors": [
+    "Cheng, Xiaoxia  and\nShen, Yongliang  and\nLu, Weiming"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Extractive summarization focuses on extracting salient sentences from the source document and incorporating them in the summary without changing their wording or structure. The naive approach for extractive summarization is sentence classification, which makes independent binary decisions for each sentence, resulting in the model cannot detect the dependencies between sentences in the summary. Recent approaches introduce an autoregressive decoder to detect redundancy relationship between sentences by step-by-step sentence selection, but bring train-inference gap. To address these issues, we formulate extractive summarization as a salient sentence set recognition task. To solve the sentence set recognition task, we propose a set prediction network (SetSum), which sets up a fixed set of learnable queries to extract the entire sentence set of the summary, while capturing the dependencies between them.Different from previous methods with an auto-regressive decoder, we employ a non-autoregressive decoder to predict the sentences within the summary in parallel during both the training and inference process, which eliminates the train-inference gap. Experimental results on both single-document and multi-document extracted summary datasets show that our approach outperforms previous state-of-the-art models.",
+  "keywords": [
+    "salient sentences",
+    "the dependencies",
+    "summarization",
+    "we",
+    "learnable queries",
+    "an autoregressive decoder",
+    "training",
+    "classification",
+    "sentence classification",
+    "queries",
+    "dependencies",
+    "decoder",
+    "a salient sentence",
+    "extractive summarization",
+    "process"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.293/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

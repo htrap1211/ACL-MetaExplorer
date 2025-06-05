@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.329",
+  "title": "Towards Few-shot Entity Recognition in Document Images: A Label-aware Sequence-to-Sequence Framework",
+  "authors": [
+    "Wang, Zilong  and\nShang, Jingbo"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Entity recognition is a fundamental task in understanding document images. Traditional sequence labeling frameworks treat the entity types as class IDs and rely on extensive data and high-quality annotations to learn semantics which are typically expensive in practice. In this paper, we aim to build an entity recognition model requiring only a few shots of annotated document images. To overcome the data limitation, we propose to leverage the label surface names to better inform the model of the target entity type semantics and also embed the labels into the spatial embedding space to capture the spatial correspondence between regions and labels. Specifically, we go beyond sequence labeling and develop a novel label-aware seq2seq framework, LASER. The proposed model follows a new labeling scheme that generates the label surface names word-by-word explicitly after generating the entities. During training, LASER refines the label semantics by updating the label surface name representations and also strengthens the label-region correlation. In this way, LASER recognizes the entities from document images through both semantic and layout correspondence. Extensive experiments on two benchmark datasets demonstrate the superiority of LASER under the few-shot setting.",
+  "keywords": [
+    "the spatial embedding space",
+    "semantic",
+    "we",
+    "shot",
+    "the entities",
+    "semantics",
+    "word",
+    "sequence",
+    "seq2seq",
+    "the few-shot setting",
+    "model",
+    "entities",
+    "class",
+    "few-shot entity recognition",
+    "the label semantics"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.329/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

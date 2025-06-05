@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.550",
+  "title": "RAW}-{C}: Relatedness of Ambiguous Words in Context (A New Lexical Resource for {E}nglish)",
+  "authors": [
+    "Trott, Sean  and\nBergen, Benjamin"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Most words are ambiguous—-i.e., they convey distinct meanings in different contexts—-and even the meanings of unambiguous words are context-dependent. Both phenomena present a challenge for NLP. Recently, the advent of contextualized word embeddings has led to success on tasks involving lexical ambiguity, such as Word Sense Disambiguation. However, there are few tasks that directly evaluate how well these contextualized embeddings accommodate the more continuous, dynamic nature of word meaning—-particularly in a way that matches human intuitions. We introduce RAW-C, a dataset of graded, human relatedness judgments for 112 ambiguous words in context (with 672 sentence pairs total), as well as human estimates of sense dominance. The average inter-annotator agreement (assessed using a leave-one-annotator-out method) was 0.79. We then show that a measure of cosine distance, computed using contextualized embeddings from BERT and ELMo, correlates with human judgments, but that cosine distance also systematically underestimates how similar humans find uses of the same sense of a word to be, and systematically overestimates how similar humans find uses of different-sense homonyms. Finally, we propose a synthesis between psycholinguistic theories of the mental lexicon and computational models of lexical semantics.",
+  "keywords": [
+    "elmo",
+    "theories",
+    "we",
+    "psycholinguistic theories",
+    "semantics",
+    "contextualized embeddings",
+    "word",
+    "contextualized word embeddings",
+    "bert",
+    "lexical semantics",
+    "embeddings",
+    "nlp",
+    "these contextualized embeddings",
+    "human",
+    "uses"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.550/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

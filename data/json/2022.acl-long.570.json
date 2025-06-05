@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.570",
+  "title": "Label Semantic Aware Pre-training for Few-shot Text Classification",
+  "authors": [
+    "Mueller, Aaron  and\nKrone, Jason  and\nRomeo, Salvatore  and\nMansour, Saab  and\nMansimov, Elman  and\nZhang, Yi  and\nRoth, Dan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In text classification tasks, useful information is encoded in the label names. Label semantic aware systems have leveraged this information for improved text classification performance during fine-tuning and prediction. However, use of label-semantics during pre-training has not been extensively explored. We therefore propose Label Semantic Aware Pre-training (LSAP) to improve the generalization and data efficiency of text classification systems. LSAP incorporates label semantics into pre-trained generative models (T5 in our case) by performing secondary pre-training on labeled sentences from a variety of domains. As domain-general pre-training requires large amounts of data, we develop a filtering and labeling pipeline to automatically create sentence-label pairs from unlabeled text. We perform experiments on intent (ATIS, Snips, TOPv2) and topic classification (AG News, Yahoo! Answers). LSAP obtains significant accuracy improvements over state-of-the-art models for few-shot text classification while maintaining performance comparable to state of the art in high-resource settings.",
+  "keywords": [
+    "variety",
+    "improved text classification performance",
+    "efficiency",
+    "semantic",
+    "we",
+    "text classification tasks",
+    "pre-training",
+    "shot",
+    "significant accuracy improvements",
+    "training",
+    "classification",
+    "domain-general pre-training",
+    "semantics",
+    "information",
+    "a variety"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.570/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

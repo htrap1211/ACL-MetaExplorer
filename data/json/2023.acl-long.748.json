@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.748",
+  "title": "Wukong-Reader: Multi-modal Pre-training for Fine-grained Visual Document Understanding",
+  "authors": [
+    "Bai, Haoli  and\nLiu, Zhiguang  and\nMeng, Xiaojun  and\nWentao, Li  and\nLiu, Shuang  and\nLuo, Yifeng  and\nXie, Nian  and\nZheng, Rongfu  and\nWang, Liangwei  and\nHou, Lu  and\nWei, Jiansheng  and\nJiang, Xin  and\nLiu, Qun"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Unsupervised pre-training on millions of digital-born or scanned documents has shown promising advances in visual document understanding (VDU). While various vision-language pre-training objectives are studied in existing solutions, the document textline, as an intrinsic granularity in VDU, has seldom been explored so far. A document textline usually contains words that are spatially and semantically correlated, which can be easily obtained from OCR engines. In this paper, we propose Wukong-Reader, trained with new pre-training objectives to leverage the structural knowledge nested in document textlines. We introduce textline-region contrastive learning to achieve fine-grained alignment between the visual regions and texts of document textlines. Furthermore, masked region modeling and textline-grid matching are also designed to enhance the visual and layout representations of textlines. Experiments show that Wukong-Reader brings superior performance on various VDU tasks in both English and Chinese. The fine-grained alignment over textlines also empowers Wukong-Reader with promising localization ability.",
+  "keywords": [
+    "objectives",
+    "new pre-training objectives",
+    "we",
+    "training",
+    "fine-grained alignment",
+    "learning",
+    "visual",
+    "the fine-grained alignment",
+    "various vision-language pre-training objectives",
+    "-",
+    "alignment",
+    "knowledge",
+    "language",
+    "modeling",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.748/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:45:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

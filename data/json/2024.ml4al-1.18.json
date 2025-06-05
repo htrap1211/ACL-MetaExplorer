@@ -1,0 +1,33 @@
+{
+  "id": "2024.ml4al-1.18",
+  "title": "A deep learning pipeline for the palaeographical dating of ancient {G}reek papyrus fragments",
+  "authors": [
+    "West, Graham  and\nSwindall, Matthew I.  and\nBrusuelas, James H.  and\nMaltomini, Francesca  and\nGerhardt, Marius  and\nD{'}Angelo, Marzia  and\nWallin, John F."
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Machine Learning for Ancient Languages (ML4AL 2024)",
+  "abstract": "In this paper we present a deep learning pipeline for automatically dating ancient Greek papyrus fragments based solely on fragment images. The overall pipeline consists of several stages, including handwritten text recognition (HTR) to detect and classify characters, filtering and grouping of detected characters, 24 character-level date prediction models, and a fragment-level date prediction model that utilizes the per-character predictions. A new dataset (containing approximately 7,000 fragment images and 778,000 character images) was created by scraping papyrus databases, extracting fragment images with known dates, and running them through our HTR models to obtain labeled character images. Transfer learning was then used to fine-tune separate ResNets to predict dates for individual characters which are then used, in aggregate, to train the fragment-level date prediction model. Experiments show that even though the average accuracies of character-level dating models is low, between 35%-45%, the fragment-level model can achieve up to 79% accuracy in predicting a broad, two-century date range for fragments with many characters. We then discuss the limitations of this approach and outline future work to improve temporal resolution and further testing on additional papyri. This image-based deep learning approach has great potential to assist scholars in the palaeographical analysis and dating of ancient Greek manuscripts.",
+  "keywords": [
+    "deep",
+    "ancient",
+    "the average accuracies",
+    "we",
+    "learning",
+    "transfer",
+    "ancient greek papyrus fragments",
+    "up to 79 accuracy",
+    "analysis",
+    "text",
+    "fine",
+    "accuracy",
+    "work",
+    "a deep learning pipeline",
+    "accuracies"
+  ],
+  "url": "https://aclanthology.org/2024.ml4al-1.18/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

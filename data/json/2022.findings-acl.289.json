@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.289",
+  "title": "Detection of Adversarial Examples in Text Classification: Benchmark and Baseline via Robust Density Estimation",
+  "authors": [
+    "Yoo, KiYoon  and\nKim, Jangho  and\nJang, Jiho  and\nKwak, Nojun"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Word-level adversarial attacks have shown success in NLP models, drastically decreasing the performance of transformer-based models in recent years. As a countermeasure, adversarial defense has been explored, but relatively few efforts have been made to detect adversarial examples. However, detecting adversarial examples may be crucial for automated tasks (e.g. review sentiment analysis) that wish to amass information about a certain population and additionally be a step towards a robust defense system. To this end, we release a dataset for four popular attack methods on four datasets and four models to encourage further research in this field. Along with it, we propose a competitive baseline based on density estimation that has the highest auc on 29 out of 30 dataset-attack-model combinations. The source code is released (https://github.com/bangawayoo/adversarial-examples-in-text-classification).",
+  "keywords": [
+    "code",
+    "end",
+    "the highest auc",
+    "field",
+    "we",
+    "classification",
+    "it",
+    "text classification benchmark",
+    "information",
+    "word",
+    "nlp models",
+    "analysis",
+    "text",
+    "transformer-based models",
+    "sentiment"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.289/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

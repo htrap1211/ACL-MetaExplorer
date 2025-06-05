@@ -1,0 +1,33 @@
+{
+  "id": "2022.fl4nlp-1.2",
+  "title": "Scaling Language Model Size in Cross-Device Federated Learning",
+  "authors": [
+    "Ro, Jae  and\nBreiner, Theresa  and\nMcConnaughey, Lara  and\nChen, Mingqing  and\nSuresh, Ananda  and\nKumar, Shankar  and\nMathews, Rajiv"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the First Workshop on Federated Learning for Natural Language Processing (FL4NLP 2022)",
+  "abstract": "Most studies in cross-device federated learning focus on small models, due to the server-client communication and on-device computation bottlenecks. In this work, we leverage various techniques for mitigating these bottlenecks to train larger language models in cross-device federated learning. With systematic applications of partial model training, quantization, efficient transfer learning, and communication-efficient optimizers, we are able to train a 21M parameter Transformer that achieves the same perplexity as that of a similarly sized LSTM with∼10×smaller client-to-server communication cost and 11% lower perplexity than smaller LSTMs commonly studied in literature.",
+  "keywords": [
+    "cross",
+    "work",
+    "transformer",
+    "client",
+    "language",
+    "smaller lstms",
+    "model",
+    "studies",
+    "efficient",
+    "11 lower perplexity",
+    "language model size",
+    "perplexity",
+    "the same perplexity",
+    "a 21m parameter transformer",
+    "larger language models"
+  ],
+  "url": "https://aclanthology.org/2022.fl4nlp-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:42:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

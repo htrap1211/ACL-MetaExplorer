@@ -1,0 +1,33 @@
+{
+  "id": "2022.deelio-1.2",
+  "title": "How Do Transformer-Architecture Models Address Polysemy of {K}orean Adverbial Postpositions?",
+  "authors": [
+    "Mun, Seongmin  and\nDesagulier, Guillaume"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of Deep Learning Inside Out (DeeLIO 2022): The 3rd Workshop on Knowledge Extraction and Integration for Deep Learning Architectures",
+  "abstract": "Postpositions, which are characterized as multiple form-function associations and thus polysemous, pose a challenge to automatic identification of their usage. Several studies have used contextualized word-embedding models to reveal the functions of Korean postpositions. Despite the superior classification performance of previous studies, the particular reason how these models resolve the polysemy of Korean postpositions is not enough clear. To add more interpretation, for this reason, we devised a classification model by employing two transformer-architecture models—BERT and GPT-2—and introduces a computational simulation that interactively demonstrates how these transformer-architecture models simulate human interpretation of word-level polysemy involving Korean adverbial postpositions -ey, -eyse, and -(u)lo. Results reveal that (i) the BERT model performs better than the GPT-2 model to classify the intended function of postpositions, (ii) there is an inverse relationship between the classification accuracy and the number of functions that each postposition manifests, (iii) model performance is affected by the corpus size of each function, (iv) the models’ performance gradually improves as the epoch proceeds, and (vi) the models are affected by the scarcity of input and/or semantic closeness between the items.",
+  "keywords": [
+    "form",
+    "semantic",
+    "we",
+    "two transformer-architecture models",
+    "classification",
+    "these transformer-architecture models",
+    "transformer-architecture models",
+    "a classification model",
+    "several studies",
+    "word",
+    "gpt-2",
+    "i",
+    "previous studies",
+    "bert",
+    "the superior classification performance"
+  ],
+  "url": "https://aclanthology.org/2022.deelio-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:41:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.305",
+  "title": "Interpretable Research Replication Prediction via Variational Contextual Consistency Sentence Masking",
+  "authors": [
+    "Luo, Tianyi  and\nMeng, Rui  and\nWang, Xin  and\nLiu, Yang"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Research Replication Prediction (RRP) is the task of predicting whether a published research result can be replicated or not. Building an interpretable neural text classifier for RRP promotes the understanding of why a research paper is predicted as replicable or non-replicable and therefore makes its real-world application more reliable and trustworthy. However, the prior works on model interpretation mainly focused on improving the model interpretability at the word/phrase level, which are insufficient especially for long research papers in RRP. Furthermore, the existing methods cannot utilize a large size of unlabeled dataset to further improve the model interpretability. To address these limitations, we aim to build an interpretable neural model which can provide sentence-level explanations and apply weakly supervised approach to further leverage the large corpus of unlabeled datasets to boost the interpretability in addition to improving prediction performance as existing works have done. In this work, we propose the Variational Contextual Consistency Sentence Masking (VCCSM) method to automatically extract key sentences based on the context in the classifier, using both labeled and unlabeled datasets. Results of our experiments on RRP along with European Convention of Human Rights (ECHR) datasets demonstrate that VCCSM is able to improve the model interpretability for the long document classification tasks using the area over the perturbation curve and post-hoc accuracy as evaluation metrics.",
+  "keywords": [
+    "classifier",
+    "we",
+    "classification",
+    "neural",
+    "the classifier",
+    "word",
+    "post-hoc accuracy",
+    "text",
+    "metrics",
+    "evaluation metrics",
+    "insufficient",
+    "accuracy",
+    "work",
+    "model",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.305/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

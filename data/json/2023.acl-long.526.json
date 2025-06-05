@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.526",
+  "title": "Learning to Imagine: Visually-Augmented Natural Language Generation",
+  "authors": [
+    "Tang, Tianyi  and\nChen, Yushuo  and\nDu, Yifan  and\nLi, Junyi  and\nZhao, Wayne Xin  and\nWen, Ji-Rong"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "People often imagine relevant scenes to aid in the writing process. In this work, we aim to utilize visual information for composition in the same manner as humans. We propose a method, LIVE, that makes pre-trained language models (PLMs) Learn to Imagine for Visually-augmented natural language gEneration. First, we imagine the scene based on the text: we use a diffusion model to synthesize high-quality images conditioned on the input texts. Second, we use CLIP to determine whether the text can evoke the imagination in a posterior way. Finally, our imagination is dynamic, and we conduct synthesis for each sentence rather than generate only one image for an entire paragraph. Technically, we propose a novel plug-and-play fusion layer to obtain visually-augmented representations for each text. Our vision-text fusion layer is compatible with Transformer-based architecture. We have conducted extensive experiments on four generation tasks using BART and T5, and the automatic results and human evaluation demonstrate the effectiveness of our proposed method. We will release the code, model, and data at the link:https://github.com/RUCAIBox/LIVE.",
+  "keywords": [
+    "code",
+    "four generation tasks",
+    "layer",
+    "we",
+    "fusion",
+    "transformer-based architecture",
+    "human evaluation",
+    "natural",
+    "visually-augmented natural language generation",
+    "information",
+    "pre-trained language models plms",
+    "visual",
+    "manner",
+    "text",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.526/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:42:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

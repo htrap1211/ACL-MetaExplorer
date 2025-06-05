@@ -1,0 +1,33 @@
+{
+  "id": "P17-1064",
+  "title": "Modeling Source Syntax for Neural Machine Translation",
+  "authors": [
+    "Li, Junhui  and\nXiong, Deyi  and\nTu, Zhaopeng  and\nZhu, Muhua  and\nZhang, Min  and\nZhou, Guodong"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Even though a linguistics-free sequence to sequence model in neural machine translation (NMT) has certain capability of implicitly learning syntactic information of source sentences, this paper shows that source syntax can be explicitly incorporated into NMT effectively to provide further improvements. Specifically, we linearize parse trees of source sentences to obtain structural label sequences. On the basis, we propose three different sorts of encoders to incorporate source syntax into NMT: 1) Parallel RNN encoder that learns word and label annotation vectors parallelly; 2) Hierarchical RNN encoder that learns word and label annotation vectors in a two-level hierarchy; and 3) Mixed RNN encoder that stitchingly learns word and label annotation vectors over sequences where words and labels are mixed. Experimentation on Chinese-to-English translation demonstrates that all the three proposed syntactic encoders are able to improve translation accuracy. It is interesting to note that the simplest RNN encoder, i.e., Mixed RNN encoder yields the best performance with an significant improvement of 1.4 BLEU points. Moreover, an in-depth analysis from several perspectives is provided to reveal how source syntax benefits NMT.",
+  "keywords": [
+    "neural machine translation",
+    "bleu",
+    "we",
+    "syntax",
+    "translation",
+    "neural",
+    "it",
+    "information",
+    "a two-level hierarchy",
+    "word",
+    "sequence",
+    "translation accuracy",
+    "analysis",
+    "3 mixed rnn encoder",
+    "i"
+  ],
+  "url": "https://aclanthology.org/P17-1064/",
+  "provenance": {
+    "collected_at": "2025-06-04 23:58:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

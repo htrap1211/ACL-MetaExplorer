@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.62",
+  "title": "Predicting Customer Satisfaction with Soft Labels for Ordinal Classification",
+  "authors": [
+    "Manderscheid, Etienne  and\nLee, Matthias"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "In a typical call center, only up to 8% of callersleave a Customer Satisfaction (CSAT) surveyresponse at the end of the call, and these tend tobe customers with strongly positive or negativeexperiences. To manage this data sparsity andresponse bias, we outline a predictive CSATdeep learning algorithm that infers CSAT onthe 1-5 scale on inbound calls to the call centerwith minimal latency. The key metric to maximize is the precision for CSAT = 1 (lowestCSAT). We maximize this metric in two ways. First, reframing the problemas a binary class, rather than five-class problem during model fine-tuning, and then mapping binary outcomes back to five classes usingtemperature-scaled model probabilities. Second, using soft labels to represent the classes. Theresult is a production model able to support keycustomer workflows with high accuracy overmillions of calls a month.",
+  "keywords": [
+    "bias",
+    "end",
+    "precision",
+    "we",
+    "usingtemperature-scaled model probabilities",
+    "classification",
+    "the precision",
+    "tuning",
+    "metric",
+    "fine",
+    "negativeexperiences",
+    "soft",
+    "accuracy",
+    "model fine-tuning",
+    "high accuracy overmillions"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.62/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

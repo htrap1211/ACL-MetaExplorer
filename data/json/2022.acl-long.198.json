@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.198",
+  "title": "Continual Few-shot Relation Learning via Embedding Space Regularization and Data Augmentation",
+  "authors": [
+    "Qin, Chengwei  and\nJoty, Shafiq"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Existing continual relation learning (CRL) methods rely on plenty of labeled training data for learning a new task, which can be hard to acquire in real scenario as getting large and representative labeled data is often expensive and time-consuming. It is therefore necessary for the model to learn novel relational patterns with very few labeled data while avoiding catastrophic forgetting of previous task knowledge. In this paper, we formulate this challenging yet practical problem as continual few-shot relation learning (CFRL). Based on the finding that learning for new emerging few-shot tasks often results in feature distributions that are incompatible with previous tasks’ learned distributions, we propose a novel method based on embedding space regularization and data augmentation. Our method generalizes to new few-shot tasks and avoids catastrophic forgetting of previous tasks by enforcing extra constraints on the relational embeddings and by adding extra relevant data in a self-supervised manner. With extensive experiments we demonstrate that our method can significantly outperform previous state-of-the-art methods in CFRL task settings.",
+  "keywords": [
+    "a self-supervised manner",
+    "new emerging few-shot tasks",
+    "extra",
+    "continual few-shot relation learning",
+    "we",
+    "shot",
+    "training",
+    "self",
+    "learning",
+    "manner",
+    "the relational embeddings",
+    "embedding space regularization",
+    "embeddings",
+    "knowledge",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.198/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

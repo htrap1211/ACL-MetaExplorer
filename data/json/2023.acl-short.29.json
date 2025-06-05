@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.29",
+  "title": "Abstractive Summarizers are Excellent Extractive Summarizers",
+  "authors": [
+    "Varab, Daniel  and\nXu, Yumo"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Extractive and abstractive summarization designs have historically been fragmented, limiting the benefits that often arise from compatible model architectures. In this paper, we explore the potential synergies of modeling extractive summarization with an abstractive summarization system and propose three novel inference algorithms using the sequence-to-sequence architecture. We evaluate them on the CNN & Dailymail dataset and show that recent advancements in abstractive system designs enable abstractive systems to not only compete, but even surpass the performance of extractive systems with custom architectures. To our surprise, abstractive systems achieve this without being exposed to extractive oracle summaries and, therefore, for the first time allow a single model to produce both abstractive and extractive summaries. This evidence questions our fundamental understanding of extractive system design, and the necessity for extractive labels while pathing the way for promising research directions in hybrid models.",
+  "keywords": [
+    "summaries",
+    "cnn",
+    "model",
+    "the potential synergies",
+    "modeling extractive summarization",
+    "synergies",
+    "extractive oracle summaries",
+    "summarization",
+    "we",
+    "sequence",
+    "time",
+    "an abstractive summarization system",
+    "that",
+    "our fundamental understanding",
+    "custom"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.29/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:48:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.1",
+  "title": "Controllable Data Augmentation for Few-Shot Text Mining with Chain-of-Thought Attribute Manipulation",
+  "authors": [
+    "Peng, Letian  and\nZhang, Yuwei  and\nShang, Jingbo"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Prompting large language models (LLMs) for data augmentation has recently become a common practice in few-shot NLP tasks. In this paper, we propose Chain-of-Thought Attribute Manipulation (CoTAM), a novel approach that generates new data from existing examples by only tweaking in the user-provided, task-specific attribute, e.g., sentiment polarity or topic in movie reviews. Instead of conventional latent representation controlling, we leverage the chain-of-thought prompting to directly edit the text in three steps, (1) attribute decomposition, (2) manipulation proposal, and (3) sentence reconstruction. Extensive results on various tasks, such as text (pair) classification and aspect-based sentiment analysis, verify the superiority of CoTAM over other LLM-based augmentation methods with the same number of training examples for both fine-tuning and in-context learning. Remarkably, the 2D visualization of the augmented dataset using principle component analysis revealed a human-recognizable decision boundary that is likely hinted by the attribute manipulation, demonstrating the potential of our proposed approach.",
+  "keywords": [
+    "few-shot text mining",
+    "chain",
+    "we",
+    "shot",
+    "training",
+    "classification",
+    "latent",
+    "learning",
+    "few-shot nlp tasks",
+    "analysis",
+    "reviews",
+    "tuning",
+    "text",
+    "topic",
+    "the 2d visualization"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:48:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

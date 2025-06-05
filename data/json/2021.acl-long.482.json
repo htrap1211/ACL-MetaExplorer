@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.482",
+  "title": "BERT}ifying the Hidden {M}arkov Model for Multi-Source Weakly Supervised Named Entity Recognition",
+  "authors": [
+    "Li, Yinghao  and\nShetty, Pranav  and\nLiu, Lucas  and\nZhang, Chao  and\nSong, Le"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "We study the problem of learning a named entity recognition (NER) tagger using noisy labels from multiple weak supervision sources. Though cheap to obtain, the labels from weak supervision sources are often incomplete, inaccurate, and contradictory, making it difficult to learn an accurate NER model. To address this challenge, we propose a conditional hidden Markov model (CHMM), which can effectively infer true labels from multi-source noisy labels in an unsupervised way. CHMM enhances the classic hidden Markov model with the contextual representation power of pre-trained language models. Specifically, CHMM learns token-wise transition and emission probabilities from the BERT embeddings of the input tokens to infer the latent true labels from noisy observations. We further refine CHMM with an alternate-training approach (CHMM-ALT). It fine-tunes a BERT-NER model with the labels inferred by CHMM, and this BERT-NER’s output is regarded as an additional weak source to train the CHMM in return. Experiments on four NER benchmarks from various domains show that our method outperforms state-of-the-art weakly supervised NER models by wide margins.",
+  "keywords": [
+    "the bert embeddings",
+    "we",
+    "training",
+    "pre-trained language models",
+    "it",
+    "token",
+    "latent",
+    "ner",
+    "bert",
+    "this bert-ner s output",
+    "fine",
+    "embeddings",
+    "language",
+    "model",
+    "four ner benchmarks"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.482/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.167",
+  "title": "I}r{E}ne: Interpretable Energy Prediction for Transformers",
+  "authors": [
+    "Cao, Qingqing  and\nLal, Yash Kumar  and\nTrivedi, Harsh  and\nBalasubramanian, Aruna  and\nBalasubramanian, Niranjan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Existing software-based energy measurements of NLP models are not accurate because they do not consider the complex interactions between energy consumption and model execution. We present IrEne, an interpretable and extensible energy prediction system that accurately predicts the inference energy consumption of a wide range of Transformer-based NLP models. IrEne constructs a model tree graph that breaks down the NLP model into modules that are further broken down into low-level machine learning (ML) primitives. IrEne predicts the inference energy consumption of the ML primitives as a function of generalizable features and fine-grained runtime resource usage. IrEne then aggregates these low-level predictions recursively to predict the energy of each module and finally of the entire model. Experiments across multiple Transformer models show IrEne predicts inference energy consumption of transformer models with an error of under 7% compared to the ground truth. In contrast, existing energy models see an error of over 50%. We also show how IrEne can be used to conduct energy bottleneck analysis and to easily evaluate the energy impact of different architectural choices. We release the code and data athttps://github.com/StonyBrookNLP/irene.",
+  "keywords": [
+    "code",
+    "transformers",
+    "multiple transformer models",
+    "the inference energy consumption",
+    "generalizable",
+    "energy bottleneck analysis",
+    "the energy impact",
+    "we",
+    "graph",
+    "generalizable features",
+    "learning",
+    "nlp models",
+    "the energy",
+    "energy consumption",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.167/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:01:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

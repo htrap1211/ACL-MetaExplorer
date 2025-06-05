@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.865",
+  "title": "Modeling Overregularization in Children with Small Language Models",
+  "authors": [
+    "Haga, Akari  and\nSugawara, Saku  and\nFukatsu, Akiyo  and\nOba, Miyu  and\nOuchi, Hiroki  and\nWatanabe, Taro  and\nOseki, Yohei"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "The imitation of the children’s language acquisition process has been explored to make language models (LMs) more efficient.In particular, errors caused by children’s regularization (so-called overregularization, e.g., using wroted for the past tense of write) have been widely studied to reveal the mechanisms of language acquisition. Existing research has analyzed regularization in language acquisition only by modeling word inflection directly, which is unnatural in light of human language acquisition. In this paper, we hypothesize that language models that imitate the errors children make during language acquisition have a learning process more similar to humans. To verify this hypothesis, we analyzed the learning curve and error preferences of verb inflections in small-scale LMs using acceptability judgments. We analyze the differences in results by model architecture, data, and tokenization. Our model shows child-like U-shaped learning curves clearly for certain verbs, but the preferences for types of overgeneralization did not fully match the observations in children.",
+  "keywords": [
+    "efficient",
+    "we",
+    "overregularization",
+    "word",
+    "learning",
+    "tokenization",
+    "language models",
+    "modeling overregularization",
+    "small language models",
+    "process",
+    "language",
+    "model",
+    "human",
+    "overgeneralization",
+    "regularization"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.865/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:00:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

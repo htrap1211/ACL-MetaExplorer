@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.495",
+  "title": "CAMERO}: Consistency Regularized Ensemble of Perturbed Language Models with Weight Sharing",
+  "authors": [
+    "Liang, Chen  and\nHe, Pengcheng  and\nShen, Yelong  and\nChen, Weizhu  and\nZhao, Tuo"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Model ensemble is a popular approach to produce a low-variance and well-generalized model. However, it induces large memory and inference costs, which is often not affordable for real-world deployment. Existing work has resorted to sharing weights among models. However, when increasing the proportion of the shared weights, the resulting models tend to be similar, and the benefits of using model ensemble diminish. To retain ensemble benefits while maintaining a low memory cost, we propose a consistency-regularized ensemble learning approach based on perturbed models, named CAMERO. Specifically, we share the weights of bottom layers across all models and apply different perturbations to the hidden representations for different models, which can effectively promote the model diversity. Meanwhile, we apply a prediction consistency regularizer across the perturbed models to control the variance due to the model diversity. Our experiments using large language models demonstrate that CAMERO significantly improves the generalization performance of the ensemble model. Specifically, CAMERO outperforms the standard ensemble of 8 BERT-base models on the GLUE benchmark by 0.7 with a significantly smaller model size (114.2M vs. 880.6M).",
+  "keywords": [
+    "we",
+    "variance",
+    "ensemble",
+    "8 bert-base models",
+    "it",
+    "perturbed language models",
+    "the standard ensemble",
+    "bert",
+    "generalization",
+    "the generalization performance",
+    "weight sharing model ensemble",
+    "the ensemble model",
+    "work",
+    "the variance",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.495/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:30:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

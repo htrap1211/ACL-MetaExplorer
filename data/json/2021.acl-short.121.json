@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.121",
+  "title": "Sequence to General Tree: Knowledge-Guided Geometry Word Problem Solving",
+  "authors": [
+    "Tsai, Shih-hung  and\nLiang, Chao-Chun  and\nWang, Hsin-Min  and\nSu, Keh-Yih"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "With the recent advancements in deep learning, neural solvers have gained promising results in solving math word problems. However, these SOTA solvers only generate binary expression trees that contain basic arithmetic operators and do not explicitly use the math formulas. As a result, the expression trees they produce are lengthy and uninterpretable because they need to use multiple operators and constants to represent one single formula. In this paper, we propose sequence-to-general tree (S2G) that learns to generate interpretable and executable operation trees where the nodes can be formulas with an arbitrary number of arguments. With nodes now allowed to be formulas, S2G can learn to incorporate mathematical domain knowledge into problem-solving, making the results more interpretable. Experiments show that S2G can achieve a better performance against strong baselines on problems that require domain knowledge.",
+  "keywords": [
+    "deep",
+    "general",
+    "knowledge",
+    "neural",
+    "deep learning",
+    "sequence-to-general tree s2",
+    "sequence",
+    "we",
+    "word",
+    "learning",
+    "g",
+    "that",
+    "neural solvers",
+    "promising",
+    "basic"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.121/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:08:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

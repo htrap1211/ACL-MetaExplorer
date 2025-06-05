@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.324",
+  "title": "Exploring the Capacity of a Large-scale Masked Language Model to Recognize Grammatical Errors",
+  "authors": [
+    "Nagata, Ryo  and\nKimura, Manabu  and\nHanawa, Kazuaki"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "In this paper, we explore the capacity of a language model-based method for grammatical error detection in detail. We first show that 5 to 10% of training data are enough for a BERT-based error detection method to achieve performance equivalent to what a non-language model-based method can achieve with the full training data; recall improves much faster with respect to training data size in the BERT-based method than in the non-language model method. This suggests that (i) the BERT-based method should have a good knowledge of the grammar required to recognize certain types of error and that (ii) it can transform the knowledge into error detection rules by fine-tuning with few training samples, which explains its high generalization ability in grammatical error detection. We further show with pseudo error data that it actually exhibits such nice properties in learning rules for recognizing various types of error. Finally, based on these findings, we discuss a cost-effective method for detecting grammatical errors with feedback comments explaining relevant grammatical rules to learners.",
+  "keywords": [
+    "recall",
+    "tuning",
+    "knowledge",
+    "i",
+    "language",
+    "learners",
+    "a non-language model-based method",
+    "model",
+    "bert",
+    "feedback",
+    "it",
+    "properties",
+    "the bert-based method",
+    "a language model-based method",
+    "such nice properties"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.324/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

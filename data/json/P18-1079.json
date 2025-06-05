@@ -1,0 +1,33 @@
+{
+  "id": "P18-1079",
+  "title": "Semantically Equivalent Adversarial Rules for Debugging {NLP} models",
+  "authors": [
+    "Ribeiro, Marco Tulio  and\nSingh, Sameer  and\nGuestrin, Carlos"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Complex machine learning models for NLP are often brittle, making different predictions for input instances that are extremely similar semantically. To automatically detect this behavior for individual instances, we present semantically equivalent adversaries (SEAs) – semantic-preserving perturbations that induce changes in the model’s predictions. We generalize these adversaries into semantically equivalent adversarial rules (SEARs) – simple, universal replacement rules that induce adversaries on many instances. We demonstrate the usefulness and flexibility of SEAs and SEARs by detecting bugs in black-box state-of-the-art models for three domains: machine comprehension, visual question-answering, and sentiment analysis. Via user studies, we demonstrate that we generate high-quality local adversaries for more instances than humans, and that SEARs induce four times as many mistakes as the bugs discovered by human experts. SEARs are also actionable: retraining models using data augmentation significantly reduces bugs, while maintaining accuracy.",
+  "keywords": [
+    "high-quality local adversaries",
+    "adversaries",
+    "semantically equivalent adversarial rules",
+    "question",
+    "semantic",
+    "we",
+    "semantic-preserving perturbations",
+    "learning",
+    "visual",
+    "analysis",
+    "these adversaries",
+    "accuracy",
+    "nlp",
+    "semantically equivalent adversaries",
+    "model"
+  ],
+  "url": "https://aclanthology.org/P18-1079/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:11:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

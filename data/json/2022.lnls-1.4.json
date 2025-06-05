@@ -1,0 +1,33 @@
+{
+  "id": "2022.lnls-1.4",
+  "title": "When Can Models Learn From Explanations? A Formal Framework for Understanding the Roles of Explanation Data",
+  "authors": [
+    "Hase, Peter  and\nBansal, Mohit"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the First Workshop on Learning with Natural Language Supervision",
+  "abstract": "Many methods now exist for conditioning models on task instructions and user-provided explanations for individual data points. These methods show great promise for improving task performance of language models beyond what can be achieved by learning from individual (x,y) pairs. In this paper, we (1) provide a formal framework for characterizing approaches to learning from explanation data, and (2) we propose a synthetic task for studying how models learn from explanation data. In the first direction, we give graphical models for the available modeling approaches, in which explanation data can be used as model inputs, as targets, or as a prior. In the second direction, we introduce a carefully designed synthetic task with several properties making it useful for studying a model’s ability to learn from explanation data. Each data point in this binary classification task is accompanied by a string that is essentially an answer to thewhyquestion: “why does data point x have label y?” We aim to encourage research into this area by identifying key considerations for the modeling problem and providing an empirical testbed for theories of how models can best learn from explanation data.",
+  "keywords": [
+    "theories",
+    "we",
+    "classification",
+    "this binary classification task",
+    "answer",
+    "it",
+    "properties",
+    "language models",
+    "several properties",
+    "language",
+    "model",
+    "modeling",
+    "y",
+    "area",
+    "great"
+  ],
+  "url": "https://aclanthology.org/2022.lnls-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:44:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

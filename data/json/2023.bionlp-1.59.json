@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.59",
+  "title": "KU}-{DMIS}-{MSRA} at {R}ad{S}um23: Pre-trained Vision-Language Model for Radiology Report Summarization",
+  "authors": [
+    "Kim, Gangwoo  and\nKim, Hajung  and\nJi, Lei  and\nBae, Seongsu  and\nKim, Chanhwi  and\nSung, Mujeen  and\nKim, Hyunjae  and\nYan, Kun  and\nChang, Eric  and\nKang, Jaewoo"
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "In this paper, we introduce CheXOFA, a new pre-trained vision-language model (VLM) for the chest X-ray domain. Our model is initially pre-trained on various multimodal datasets within the general domain before being transferred to the chest X-ray domain. Following a prominent VLM, we unify various domain-specific tasks into a simple sequence-to-sequence schema. It enables the model to effectively learn the required knowledge and skills from limited resources in the domain. Demonstrating superior performance on the benchmark datasets provided by the BioNLP shared task (Delbrouck et al., 2023), our model benefits from its training across multiple tasks and domains. With subtle techniques including ensemble and factual calibration, our system achieves first place on the RadSum23 leaderboard for the hidden test set.",
+  "keywords": [
+    "summarization",
+    "we",
+    "training",
+    "ensemble",
+    "it",
+    "the general domain",
+    "sequence",
+    "bionlp",
+    "radiology report summarization",
+    "ensemble and factual calibration",
+    "general",
+    "knowledge",
+    "language",
+    "model",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.59/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

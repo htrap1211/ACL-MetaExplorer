@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.267",
+  "title": "T}ext{V}erifier: Robustness Verification for Textual Classifiers with Certifiable Guarantees",
+  "authors": [
+    "Sun, Siqi  and\nRuan, Wenjie"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "When textual classifiers are deployed in safety-critical workflows, they must withstand the onslaught of AI-enabled model confusion caused by adversarial examples with minor alterations. In this paper, the main objective is to provide a formal verification framework, called TextVerifier, with certifiable guarantees on deep neural networks in natural language processing against word-level alteration attacks. We aim to provide an approximation of the maximal safe radius by deriving provable bounds both mathematically and automatically, where a minimum word-level L_0 distance is quantified as a guarantee for the classification invariance of victim models. Here, we illustrate three strengths of our strategy: i) certifiable guarantee: effective verification with convergence to ensure approximation of maximal safe radius with tight bounds ultimately; ii) high-efficiency: it yields an efficient speed edge by a novel parallelization strategy that can process a set of candidate texts simultaneously on GPUs; and iii) reliable anytime estimation: the verification can return intermediate bounds, and robustness estimates that are gradually, but strictly, improved as the computation proceeds. Furthermore, experiments are conducted on text classification on four datasets over three victim models to demonstrate the validity of tightening bounds. Our tool TextVerifier is available athttps://github.com/TrustAI/TextVerifer.",
+  "keywords": [
+    "deep",
+    "textual classifiers",
+    "ext",
+    "efficient",
+    "classifiers",
+    "deep neural networks",
+    "efficiency",
+    "we",
+    "confusion",
+    "classification",
+    "edge",
+    "neural",
+    "natural",
+    "it",
+    "an efficient speed edge"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.267/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

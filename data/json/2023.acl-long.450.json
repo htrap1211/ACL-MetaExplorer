@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.450",
+  "title": "HAHE}: Hierarchical Attention for Hyper-Relational Knowledge Graphs in Global and Local Level",
+  "authors": [
+    "Luo, Haoran  and\nE, Haihong  and\nYang, Yuhao  and\nGuo, Yikai  and\nSun, Mingzhi  and\nYao, Tianyu  and\nTang, Zichen  and\nWan, Kaiyang  and\nSong, Meina  and\nLin, Wei"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Link Prediction on Hyper-relational Knowledge Graphs (HKG) is a worthwhile endeavor. HKG consists of hyper-relational facts (H-Facts), composed of a main triple and several auxiliary attribute-value qualifiers, which can effectively represent factually comprehensive information. The internal structure of HKG can be represented as a hypergraph-based representation globally and a semantic sequence-based representation locally. However, existing research seldom simultaneously models the graphical and sequential structure of HKGs, limiting HKGs’ representation. To overcome this limitation, we propose a novel Hierarchical Attention model for HKG Embedding (HAHE), including global-level and local-level attention. The global-level attention can model the graphical structure of HKG using hypergraph dual-attention layers, while the local-level attention can learn the sequential structure inside H-Facts via heterogeneous self-attention layers. Experiment results indicate that HAHE achieves state-of-the-art performance in link prediction tasks on HKG standard datasets. In addition, HAHE addresses the issue of HKG multi-position prediction for the first time, increasing the applicability of the HKG link prediction task. Our code is publicly available.",
+  "keywords": [
+    "code",
+    "hierarchical attention",
+    "hkg",
+    "semantic",
+    "we",
+    "hypergraph dual-attention layers",
+    "hkgs representation",
+    "hyper",
+    "self",
+    "the local-level attention",
+    "information",
+    "global-level and local-level attention",
+    "sequence",
+    "a semantic sequence-based representation",
+    "qualifiers"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.450/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:41:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

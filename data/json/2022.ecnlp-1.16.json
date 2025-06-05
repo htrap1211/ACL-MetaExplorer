@@ -1,0 +1,33 @@
+{
+  "id": "2022.ecnlp-1.16",
+  "title": "Extreme Multi-Label Classification with Label Masking for Product Attribute Value Extraction",
+  "authors": [
+    "Chen, Wei-Te  and\nXia, Yandi  and\nShinzato, Keiji"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Fifth Workshop on e-Commerce and NLP (ECNLP 5)",
+  "abstract": "Although most studies have treated attribute value extraction (AVE) as named entity recognition, these approaches are not practical in real-world e-commerce platforms because they perform poorly, and require canonicalization of extracted values. Furthermore, since values needed for actual services is static in many attributes, extraction of new values is not always necessary. Given the above, we formalize AVE as extreme multi-label classification (XMC). A major problem in solving AVE as XMC is that the distribution between positive and negative labels for products is heavily imbalanced. To mitigate the negative impact derived from such biased distribution, we propose label masking, a simple and effective method to reduce the number of negative labels in training. We exploit attribute taxonomy designed for e-commerce platforms to determine which labels are negative for products. Experimental results using a dataset collected from a Japanese e-commerce platform demonstrate that the label masking improves micro and macro F1scores by 3.38 and 23.20 points, respectively.",
+  "keywords": [
+    "extraction",
+    "we",
+    "training",
+    "classification",
+    "micro and macro f1scores",
+    "f1scores",
+    "biased",
+    "most studies",
+    "such biased distribution",
+    "extreme multi-label classification",
+    "studies",
+    "entity",
+    "many attributes extraction",
+    "major",
+    "multi"
+  ],
+  "url": "https://aclanthology.org/2022.ecnlp-1.16/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:42:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

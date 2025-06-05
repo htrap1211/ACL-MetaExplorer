@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.277",
+  "title": "Revisiting the Negative Data of Distantly Supervised Relation Extraction",
+  "authors": [
+    "Xie, Chenhao  and\nLiang, Jiaqing  and\nLiu, Jingping  and\nHuang, Chengsong  and\nHuang, Wenhao  and\nXiao, Yanghua"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Distantly supervision automatically generates plenty of training samples for relation extraction. However, it also incurs two major problems: noisy labels and imbalanced training data. Previous works focus more on reducing wrongly labeled relations (false positives) while few explore the missing relations that are caused by incompleteness of knowledge base (false negatives). Furthermore, the quantity of negative labels overwhelmingly surpasses the positive ones in previous problem formulations. In this paper, we first provide a thorough analysis of the above challenges caused by negative data. Next, we formulate the problem of relation extraction into as a positive unlabeled learning task to alleviate false negative problem. Thirdly, we propose a pipeline approach, dubbed ReRe, that first performs sentence classification with relational labels and then extracts the subjects/objects. Experimental results show that the proposed method consistently outperforms existing approaches and remains excellent performance even learned with a large quantity of false positive samples. Source code is available online athttps://github.com/redreamality/RERE-relation-extraction.",
+  "keywords": [
+    "code",
+    "extraction",
+    "we",
+    "training",
+    "classification",
+    "sentence classification",
+    "it",
+    "analysis",
+    "knowledge",
+    "excellent performance",
+    "major",
+    "supervision",
+    "approach",
+    "the proposed method",
+    "quantity"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.277/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

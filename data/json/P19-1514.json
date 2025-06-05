@@ -1,0 +1,33 @@
+{
+  "id": "P19-1514",
+  "title": "Scaling up Open Tagging from Tens to Thousands: Comprehension Empowered Attribute Value Extraction from Product Title",
+  "authors": [
+    "Xu, Huimin  and\nWang, Wenting  and\nMao, Xin  and\nJiang, Xinyu  and\nLan, Man"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Supplementing product information by extracting attribute values from title is a crucial task in e-Commerce domain. Previous studies treat each attribute only as an entity type and build one set of NER tags (e.g., BIO) for each of them, leading to a scalability issue which unfits to the large sized attribute system in real world e-Commerce. In this work, we propose a novel approach to support value extraction scaling up to thousands of attributes without losing performance: (1) We propose to regard attribute as a query and adopt only one global set of BIO tags for any attributes to reduce the burden of attribute tag or model explosion; (2) We explicitly model the semantic representations for attribute and title, and develop an attention mechanism to capture the interactive semantic relations in-between to enforce our framework to be attribute comprehensive. We conduct extensive experiments in real-life datasets. The results show that our model not only outperforms existing state-of-the-art NER tagging models, but also is robust and generates promising results for up to 8,906 attributes.",
+  "keywords": [
+    "extraction",
+    "the semantic representations",
+    "semantic",
+    "we",
+    "an attention mechanism",
+    "the interactive semantic relations",
+    "information",
+    "tag",
+    "e",
+    "ner",
+    "previous studies",
+    "-",
+    "ner tags",
+    "work",
+    "model"
+  ],
+  "url": "https://aclanthology.org/P19-1514/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:43:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

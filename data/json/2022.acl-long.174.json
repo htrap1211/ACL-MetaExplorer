@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.174",
+  "title": "Adversarial Soft Prompt Tuning for Cross-Domain Sentiment Analysis",
+  "authors": [
+    "Wu, Hui  and\nShi, Xiaodong"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Cross-domain sentiment analysis has achieved promising results with the help of pre-trained language models. As GPT-3 appears, prompt tuning has been widely explored to enable better semantic modeling in many natural language processing tasks. However, directly using a fixed predefined template for cross-domain research cannot model different distributions of the [MASK] token in different domains, thus making underuse of the prompt tuning technique. In this paper, we propose a novelAdversarialSoftPromptTuning method (AdSPT) to better model cross-domain sentiment analysis. On the one hand, AdSPT adopts separate soft prompts instead of hard templates to learn different vectors for different domains, thus alleviating the domain discrepancy of the [MASK] token in the masked language modeling task. On the other hand, AdSPT uses a novel domain adversarial training strategy to learn domain-invariant representations between each source domain and the target domain. Experiments on a publicly available sentiment analysis dataset show that our model achieves the new state-of-the-art results for both single-source domain adaptation and multi-source domain adaptation.",
+  "keywords": [
+    "semantic",
+    "we",
+    "adversarial soft prompt tuning",
+    "training",
+    "cross",
+    "noveladversarialsoftprompttuning",
+    "better semantic modeling",
+    "cross-domain sentiment analysis",
+    "pre-trained language models",
+    "natural",
+    "gpt-3",
+    "analysis",
+    "tuning",
+    "a noveladversarialsoftprompttuning method",
+    "processing"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.174/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

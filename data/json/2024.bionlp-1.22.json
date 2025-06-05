@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.22",
+  "title": "K-{QA}: A Real-World Medical {Q}{\\&}{A} Benchmark",
+  "authors": [
+    "Manes, Itay  and\nRonn, Naama  and\nCohen, David  and\nIlan Ber, Ran  and\nHorowitz-Kugler, Zehavi  and\nStanovsky, Gabriel"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "Ensuring the accuracy of responses provided by large language models (LLMs) is crucial, particularly in clinical settings where incorrect information may directly impact patient health. To address this challenge, we construct K-QA, a dataset containing 1,212 patient questions originating from real-world conversations held on a popular clinical online platform. We employ a panel of in-house physicians to answer and manually decompose a subset of K-QA into self-contained statements. Additionally, we formulate two NLI-based evaluation metrics approximating recall and precision: (1) comprehensiveness, measuring the percentage of essential clinical information in the generated answer and (2) hallucination rate, measuring the number of statements from the physician-curated response contradicted by the LLM answer. Finally, we use K-QA along with these metrics to evaluate several state-of-the-art models, as well as the effect of in-context learning and medically-oriented augmented retrieval schemes developed by the authors. Our findings indicate that in-context learning improves the comprehensiveness of the models, and augmented retrieval is effective in reducing hallucinations. We will make K-QA available to to the community to spur research into medically accurate NLP applications.",
+  "keywords": [
+    "the accuracy",
+    "precision",
+    "rate",
+    "conversations",
+    "the generated answer",
+    "k",
+    "1 212 patient questions",
+    "we",
+    "llm",
+    "-qa",
+    "answer",
+    "the llm answer",
+    "self",
+    "medically-oriented augmented retrieval schemes",
+    "retrieval"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.22/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

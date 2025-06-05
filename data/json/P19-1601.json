@@ -1,0 +1,33 @@
+{
+  "id": "P19-1601",
+  "title": "Style Transformer: Unpaired Text Style Transfer without Disentangled Latent Representation",
+  "authors": [
+    "Dai, Ning  and\nLiang, Jianze  and\nQiu, Xipeng  and\nHuang, Xuanjing"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Disentangling the content and style in the latent space is prevalent in unpaired text style transfer. However, two major issues exist in most of the current neural models. 1) It is difficult to completely strip the style information from the semantics for a sentence. 2) The recurrent neural network (RNN) based encoder and decoder, mediated by the latent representation, cannot well deal with the issue of the long-term dependency, resulting in poor preservation of non-stylistic semantic content. In this paper, we propose the Style Transformer, which makes no assumption about the latent representation of source sentence and equips the power of attention mechanism in Transformer to achieve better style transfer and better content preservation.",
+  "keywords": [
+    "transformer",
+    "non-stylistic semantic content",
+    "neural",
+    "the style transformer",
+    "text",
+    "semantics",
+    "it",
+    "the semantics",
+    "attention mechanism",
+    "the recurrent neural network",
+    "encoder",
+    "decoder",
+    "based encoder",
+    "information",
+    "latent"
+  ],
+  "url": "https://aclanthology.org/P19-1601/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:46:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

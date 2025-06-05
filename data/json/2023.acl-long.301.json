@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.301",
+  "title": "Explaining How Transformers Use Context to Build Predictions",
+  "authors": [
+    "Ferrando, Javier  and\nG{\\'a}llego, Gerard I.  and\nTsiamas, Ioannis  and\nCosta-juss{\\`a}, Marta R."
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Language Generation Models produce words based on the previous context. Although existing methods offer input attributions as explanations for a model’s prediction, it is still unclear how prior words affect the model’s decision throughout the layers. In this work, we leverage recent advances in explainability of the Transformer and present a procedure to analyze models for language generation. Using contrastive examples, we compare the alignment of our explanations with evidence of the linguistic phenomena, and show that our method consistently aligns better than gradient-based and perturbation-based baselines. Then, we investigate the role of MLPs inside the Transformer and show that they learn features that help the model predict words that are grammatically acceptable. Lastly, we apply our method to Neural Machine Translation models, and demonstrate that they generate human-like source-target alignments for building predictions.",
+  "keywords": [
+    "work",
+    "alignment",
+    "transformer",
+    "transformers",
+    "alignments",
+    "language generation",
+    "language",
+    "generation",
+    "neural",
+    "translation",
+    "model",
+    "machine",
+    "it",
+    "human",
+    "predictions language generation models"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.301/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

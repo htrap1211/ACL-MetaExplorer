@@ -1,0 +1,33 @@
+{
+  "id": "2022.iwslt-1.20",
+  "title": "The {HW}-{TSC}{'}s Offline Speech Translation System for {IWSLT} 2022 Evaluation",
+  "authors": [
+    "Li, Yinglu  and\nWang, Minghan  and\nGuo, Jiaxin  and\nQiao, Xiaosong  and\nWang, Yuxia  and\nWei, Daimeng  and\nSu, Chang  and\nChen, Yimeng  and\nZhang, Min  and\nTao, Shimin  and\nYang, Hao  and\nQin, Ying"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022)",
+  "abstract": "This paper describes the HW-TSC’s designation of the Offline Speech Translation System submitted for IWSLT 2022 Evaluation. We explored both cascade and end-to-end system on three language tracks (en-de, en-zh and en-ja), and we chose the cascade one as our primary submission. For the automatic speech recognition (ASR) model of cascade system, there are three ASR models including Conformer, S2T-Transformer and U2 trained on the mixture of five datasets. During inference, transcripts are generated with the help of domain controlled generation strategy. Context-aware reranking and ensemble based anti-interference strategy are proposed to produce better ASR outputs. For machine translation part, we pretrained three translation models on WMT21 dataset and fine-tuned them on in-domain corpora. Our cascade system shows competitive performance than the known offline systems in the industry and academia.",
+  "keywords": [
+    "ensemble",
+    "transformer",
+    "three translation models",
+    "conformer s2t-transformer",
+    "end",
+    "language",
+    "generation",
+    "model",
+    "machine",
+    "ensemble based anti-interference strategy",
+    "machine translation part",
+    "en",
+    "we",
+    "iwslt 2022 evaluation",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/2022.iwslt-1.20/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

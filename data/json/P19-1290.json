@@ -1,0 +1,33 @@
+{
+  "id": "P19-1290",
+  "title": "Look Harder: A Neural Machine Translation Model with Hard Attention",
+  "authors": [
+    "Indurthi, Sathish Reddy  and\nChung, Insoo  and\nKim, Sangha"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Soft-attention based Neural Machine Translation (NMT) models have achieved promising results on several translation tasks. These models attend all the words in the source sequence for each target token, which makes them ineffective for long sequence translation. In this work, we propose a hard-attention based NMT model which selects a subset of source tokens for each target token to effectively handle long sequence translation. Due to the discrete nature of the hard-attention mechanism, we design a reinforcement learning algorithm coupled with reward shaping strategy to efficiently train it. Experimental results show that the proposed model performs better on long sequences and thereby achieves significant BLEU score improvement on English-German (EN-DE) and English-French (ENFR) translation tasks compared to the soft attention based NMT.",
+  "keywords": [
+    "work",
+    "the soft attention",
+    "reinforcement",
+    "neural",
+    "model",
+    "machine",
+    "it",
+    "token",
+    "bleu",
+    "a reinforcement learning algorithm",
+    "significant bleu score improvement",
+    "attention",
+    "we",
+    "sequence",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/P19-1290/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:37:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

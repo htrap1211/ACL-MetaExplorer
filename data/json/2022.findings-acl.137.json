@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.137",
+  "title": "Metadata Shaping: A Simple Approach for Knowledge-Enhanced Language Models",
+  "authors": [
+    "Arora, Simran  and\nWu, Sen  and\nLiu, Enci  and\nRe, Christopher"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Popular language models (LMs) struggle to capture knowledge about rare tail facts and entities. Since widely used systems such as search and personal-assistants must support the long tail of entities that users ask about, there has been significant effort towards enhancing these base LMs with factual knowledge. We observe proposed methods typically start with a base LM and data that has been annotated with entity metadata, then change the model, by modifying the architecture or introducing auxiliary loss terms to better capture entity knowledge. In this work, we question this typical process and ask to what extent can we match the quality of model modifications, with a simple alternative: using a base LM and only changing the data. We propose metadata shaping, a method which inserts substrings corresponding to the readily available entity metadata, e.g. types and descriptions, into examples at train and inference time based on mutual information. Despite its simplicity, metadata shaping is quite effective. On standard evaluation benchmarks for knowledge-enhanced LMs, the method exceeds the base-LM baseline by an average of 4.3 F1 points and achieves state-of-the-art results. We further show the gains are on average 4.4x larger for the slice of examples containing tail vs. popular entities.",
+  "keywords": [
+    "we",
+    "loss",
+    "information",
+    "popular entities",
+    "work",
+    "process",
+    "knowledge",
+    "language",
+    "knowledge-enhanced language models",
+    "model",
+    "entities",
+    "4 3 f1 points",
+    "standard evaluation benchmarks",
+    "train",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.137/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

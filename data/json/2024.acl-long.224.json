@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.224",
+  "title": "MAVEN}-{ARG}: Completing the Puzzle of All-in-One Event Understanding Dataset with Event Argument Annotation",
+  "authors": [
+    "Wang, Xiaozhi  and\nPeng, Hao  and\nGuan, Yong  and\nZeng, Kaisheng  and\nChen, Jianhui  and\nHou, Lei  and\nHan, Xu  and\nLin, Yankai  and\nLiu, Zhiyuan  and\nXie, Ruobing  and\nZhou, Jie  and\nLi, Juanzi"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Understanding events in texts is a core objective of natural language understanding, which requires detecting event occurrences, extracting event arguments, and analyzing inter-event relationships. However, due to the annotation challenges brought by task complexity, a large-scale dataset covering the full process of event understanding has long been absent. In this paper, we introduce MAVEN-Arg, which augments MAVEN datasets with event argument annotations, making the first all-in-one dataset supporting event detection, event argument extraction (EAE), and event relation extraction. As an EAE benchmark, MAVEN-Arg offers three main advantages: (1) a comprehensive schema covering 162 event types and 612 argument roles, all with expert-written definitions and examples; (2) a large data scale, containing 98,591 events and 290,613 arguments obtained with laborious human annotation; (3) the exhaustive annotation supporting all task variants of EAE, which annotates both entity and non-entity event arguments in document level. Experiments indicate that MAVEN-Arg is quite challenging for both fine-tuned EAE models and proprietary large language models (LLMs). Furthermore, to demonstrate the benefits of an all-in-one dataset, we preliminarily explore a potential application, future event prediction, with LLMs. MAVEN-Arg and codes can be obtained from https://github.com/THU-KEG/MAVEN-Argument.",
+  "keywords": [
+    "extraction",
+    "llms maven-arg",
+    "a core objective",
+    "all",
+    "we",
+    "natural",
+    "core",
+    "llms",
+    "objective",
+    "proprietary large language models",
+    "process",
+    "language",
+    "human",
+    "entity",
+    "proprietary"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.224/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

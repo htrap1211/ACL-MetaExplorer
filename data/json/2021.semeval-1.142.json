@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.142",
+  "title": "1213{L}i at {S}em{E}val-2021 Task 6: Detection of Propaganda with Multi-modal Attention and Pre-trained Models",
+  "authors": [
+    "Li, Peiguang  and\nLi, Xuan  and\nSun, Xian"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper presents the solution proposed by the 1213Li team for subtask 3 in SemEval-2021 Task 6: identifying the multiple persuasion techniques used in the multi-modal content of the meme. We explored various approaches in feature extraction and the detection of persuasion labels. Our final model employs pre-trained models including RoBERTa and ResNet-50 as a feature extractor for texts and images, respectively, and adopts a label embedding layer with multi-modal attention mechanism to measure the similarity of labels with the multi-modal information and fuse features for label prediction. Our proposed method outperforms the provided baseline method and achieves 3rd out of 16 participants with 0.54860/0.22830 for Micro/Macro F1 scores.",
+  "keywords": [
+    "roberta",
+    "a label embedding layer",
+    "i",
+    "em",
+    "multi-modal attention mechanism",
+    "extraction",
+    "model",
+    "micro macro f1 scores",
+    "information",
+    "e",
+    "layer",
+    "attention",
+    "we",
+    "pre",
+    "multi-modal attention"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.142/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

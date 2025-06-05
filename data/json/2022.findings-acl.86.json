@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.86",
+  "title": "What to Learn, and How: {T}oward Effective Learning from Rationales",
+  "authors": [
+    "Carton, Samuel  and\nKanoria, Surya  and\nTan, Chenhao"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Learning from rationales seeks to augment model prediction accuracy using human-annotated rationales (i.e. subsets of input tokens) that justify their chosen labels, often in the form of intermediate or multitask supervision. While intuitive, this idea has proven elusive in practice. We make two observations about human rationales via empirical analyses:1) maximizing rationale supervision accuracy is not necessarily the optimal objective for improving model accuracy; 2) human rationales vary in whether they provide sufficient information for the model to exploit for prediction. Building on these insights, we propose several novel loss functions and learning strategies, and evaluate their effectiveness on three datasets with human rationales. Our results demonstrate consistent improvements over baselines in both label and rationale accuracy, including a 3% accuracy improvement on MultiRC. Our work highlights the importance of understanding properties of human explanations and exploiting them accordingly in model training.",
+  "keywords": [
+    "t",
+    "model accuracy",
+    "form",
+    "we",
+    "rationale accuracy",
+    "the optimal objective",
+    "training",
+    "properties",
+    "loss",
+    "information",
+    "sufficient information",
+    "sufficient",
+    "several novel loss functions",
+    "i",
+    "objective"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.86/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

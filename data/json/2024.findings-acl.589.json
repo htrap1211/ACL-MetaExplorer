@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.589",
+  "title": "Recovering document annotations for sentence-level bitext",
+  "authors": [
+    "Wicks, Rachel  and\nPost, Matt  and\nKoehn, Philipp"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "In machine translation, historical models were incapable of handling longer contexts, so the lack of document-level datasets was less noticeable. Now, despite the emergence of long-sequence methods, we remain within a sentence-level paradigm and without data to adequately approach context-aware machine translation. Most large-scale datasets have been processed through a pipeline that discards document-level metadata. In this work, we reconstruct document-level information for three (ParaCrawl, News Commentary, and Europarl) large datasets in German, French, Spanish, Italian, Polish, and Portuguese (paired with English). We then introduce a document-level filtering technique as an alternative to traditional bitext filtering. We present this filtering with analysis to show that this method prefers context-consistent translations rather than those that may have been sentence-level machine translated. Last we train models on these longer contexts and demonstrate improvement in document-level translation without degradation of sentence-level translation. We release our dataset, ParaDocs, and resulting models as a resource to the community.",
+  "keywords": [
+    "sentence-level translation",
+    "context-consistent translations",
+    "we",
+    "translation",
+    "information",
+    "sequence",
+    "analysis",
+    "document-level translation",
+    "context-aware machine translation",
+    "work",
+    "machine",
+    "machine translation historical models",
+    "translations",
+    "this method",
+    "paradocs"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.589/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:56:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

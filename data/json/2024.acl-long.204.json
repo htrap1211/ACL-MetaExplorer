@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.204",
+  "title": "Crayon: Customized On-Device {LLM} via Instant Adapter Blending and Edge-Server Hybrid Inference",
+  "authors": [
+    "Bang, Jihwan  and\nLee, Juntae  and\nShim, Kyuhong  and\nYang, Seunghan  and\nChang, Simyung"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The customization of large language models (LLMs) for user-specified tasks gets important. However, maintaining all the customized LLMs on cloud servers incurs substantial memory and computational overheads, and uploading user data can also lead to privacy concerns. On-device LLMs can offer a promising solution by mitigating these issues. Yet, the performance of on-device LLMs is inherently constrained by the limitations of small-scaled models. To overcome these restrictions, we first propose Crayon, a novel approach for on-device LLM customization. Crayon begins by constructing a pool of diverse base adapters, and then we instantly blend them into a customized adapter without extra training. In addition, we develop a device-server hybrid inference strategy, which deftly allocates more demanding queries or non-customized tasks to a larger, more capable LLM on a server. This ensures optimal performance without sacrificing the benefits of on-device customization. We carefully craft a novel benchmark from multiple question-answer datasets, and show the efficacy of our method in the LLM customization.",
+  "keywords": [
+    "extra",
+    "question",
+    "all the customized llms",
+    "we",
+    "more demanding queries",
+    "llm",
+    "training",
+    "edge",
+    "answer",
+    "cloud",
+    "queries",
+    "the llm customization",
+    "llms",
+    "language",
+    "large language models"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.204/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

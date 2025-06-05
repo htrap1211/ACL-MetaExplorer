@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.457",
+  "title": "Exploiting Commonsense Knowledge about Objects for Visual Activity Recognition",
+  "authors": [
+    "Jiang, Tianyu  and\nRiloff, Ellen"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Situation recognition is the task of recognizing the activity depictedin an image, including the people and objects involved. Previousmodels for this task typically train a classifier to identify theactivity using a backbone image feature extractor. We propose thatcommonsense knowledge about the objects depicted in an image can alsobe a valuable source of information for activity identification. Previous NLP research has argued that knowledge about the prototypicalfunctions of physical objects is important for language understanding,and NLP techniques have been developed to acquire this knowledge. Our work investigates whether this prototypical function knowledgecan also be beneficial for visual situation recognition. Webuild a framework that incorporates this type of commonsense knowledgein a transformer-based model that is trained to predict the actionverb for situation recognition. Our experimental results show thatadding prototypical function knowledge about physical objects doesimprove performance for the visual activity recognition task.",
+  "keywords": [
+    "work",
+    "transformer",
+    "knowledge",
+    "language",
+    "nlp",
+    "classifier",
+    "model",
+    "nlp techniques",
+    "information",
+    "we",
+    "visual",
+    "a classifier",
+    "previous nlp research",
+    "function",
+    "a transformer-based model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.457/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.iwslt-1.26",
+  "title": "The {HW}-{TSC}{'}s Speech to Speech Translation System for {IWSLT} 2022 Evaluation",
+  "authors": [
+    "Guo, Jiaxin  and\nLi, Yinglu  and\nWang, Minghan  and\nQiao, Xiaosong  and\nWang, Yuxia  and\nShang, Hengchao  and\nSu, Chang  and\nChen, Yimeng  and\nZhang, Min  and\nTao, Shimin  and\nYang, Hao  and\nQin, Ying"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022)",
+  "abstract": "The paper presents the HW-TSC’s pipeline and results of Offline Speech to Speech Translation for IWSLT 2022. We design a cascade system consisted of an ASR model, machine translation model and TTS model to convert the speech from one language into another language(en-de). For the ASR part, we find that better performance can be obtained by ensembling multiple heterogeneous ASR models and performing reranking on beam candidates. And we find that the combination of context-aware reranking strategy and MT model fine-tuned on the in-domain dataset is helpful to improve the performance. Because it can mitigate the problem that the inconsistency in transcripts caused by the lack of context. Finally, we use VITS model provided officially to reproduce audio files from the translation hypothesis.",
+  "keywords": [
+    "the translation hypothesis",
+    "de",
+    "language",
+    "model",
+    "machine",
+    "it",
+    "speech translation system",
+    "we",
+    "iwslt 2022 evaluation",
+    "speech translation",
+    "evaluation",
+    "translation",
+    "speech",
+    "files",
+    "helpful"
+  ],
+  "url": "https://aclanthology.org/2022.iwslt-1.26/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.14",
+  "title": "A}lcla{M}: {A}rabic Dialect Language Model",
+  "authors": [
+    "Ahmed, Murtadha  and\nAlfasly, Saghir  and\nWen, Bo  and\nAddeen, Jamal  and\nAhmed, Mohammed  and\nLiu, Yunfeng"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "Pre-trained Language Models (PLMs) are integral to many modern natural language processing (NLP) systems. Although multilingual models cover a wide range of languages, they often grapple with challenges like high inference costs and a lack of diverse non-English training data. Arabic-specific PLMs are trained predominantly on modern standard Arabic, which compromises their performance on regional dialects. To tackle this, we construct an Arabic dialectal corpus comprising 3.4M sentences gathered from social media platforms. We utilize this corpus to expand the vocabulary and retrain a BERT-based model from scratch. Named AlcLaM, our model was trained using only 13GB of text, which represents a fraction of the data used by existing models such as CAMeL, MARBERT, and ArBERT, compared to 7.8%%, and 21.3%, respectively. Remarkably, AlcLaM demonstrates superior performance on a variety of Arabic NLP tasks despite the limited training data. AlcLaM is available at: https://github.com/amurtadha/Alclam.",
+  "keywords": [
+    "variety",
+    "we",
+    "training",
+    "natural",
+    "arbert",
+    "pre-trained language models plms",
+    "a variety",
+    "processing",
+    "bert",
+    "text",
+    "camel marbert",
+    "language",
+    "a bert-based model",
+    "nlp",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.14/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:02:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

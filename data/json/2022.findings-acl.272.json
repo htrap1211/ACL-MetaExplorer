@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.272",
+  "title": "Improving Controllable Text Generation with Position-Aware Weighted Decoding",
+  "authors": [
+    "Gu, Yuxuan  and\nFeng, Xiaocheng  and\nMa, Sicheng  and\nWu, Jiaming  and\nGong, Heng  and\nQin, Bing"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Weighted decoding methods composed of the pretrained language model (LM) and the controller have achieved promising results for controllable text generation. However, these models often suffer from a control strength/fluency trade-off problem as higher control strength is more likely to generate incoherent and repetitive text. In this paper, we illustrate this trade-off is arisen by the controller imposing the target attribute on the LM at improper positions. And we propose a novel framework based on existing weighted decoding methods called CAT-PAW, which introduces a lightweight regulator to adjust bias signals from the controller at different decoding positions. Experiments on positive sentiment control, topic control, and language detoxification show the effectiveness of our CAT-PAW upon 4 SOTA models.",
+  "keywords": [
+    "sentiment",
+    "bias",
+    "generation",
+    "language",
+    "the pretrained language model",
+    "model",
+    "text",
+    "controllable text generation",
+    "topic",
+    "bias signals",
+    "we",
+    "cat",
+    "promising",
+    "incoherent",
+    "the effectiveness"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.272/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

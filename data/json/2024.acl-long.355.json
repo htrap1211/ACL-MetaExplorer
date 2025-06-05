@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.355",
+  "title": "SIP}: Injecting a Structural Inductive Bias into a {S}eq2{S}eq Model by Simulation",
+  "authors": [
+    "Lindemann, Matthias  and\nKoller, Alexander  and\nTitov, Ivan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Strong inductive biases enable learning from little data and help generalization outside the training distribution. Popular neural architectures such as Transformers lack strong structural inductive biases for seq2seq NLP tasks on their own. Consequently, they struggle with systematic generalization beyond the training distribution, e.g. with extrapolating to longer inputs, even when pre-trained on large amounts of text.We show how a structural inductive bias can be efficiently injected into a seq2seq model by pre-training it to simulate structural transformations on synthetic data. Specifically, we inject an inductive bias towards Finite State Transducers (FSTs) into a Transformer by pre-training it to simulate FSTs given their descriptions. Our experiments show that our method imparts the desired inductive bias, resulting in improved systematic generalization and better few-shot learning for FST-like tasks. Our analysis shows that fine-tuned models accurately capture the state dynamics of the unseen underlying FSTs, suggesting that the simulation process is internalized by the fine-tuned model.",
+  "keywords": [
+    "seq2seq",
+    "improved systematic generalization",
+    "e g",
+    "better few-shot learning",
+    "transformer",
+    "transformers",
+    "bias",
+    "process",
+    "neural",
+    "nlp",
+    "a seq2seq model",
+    "strong inductive biases",
+    "model",
+    "a structural inductive bias",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.355/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

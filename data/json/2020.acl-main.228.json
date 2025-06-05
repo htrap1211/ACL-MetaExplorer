@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.228",
+  "title": "Simple and Effective Retrieve-Edit-Rerank Text Generation",
+  "authors": [
+    "Hossain, Nabil  and\nGhazvininejad, Marjan  and\nZettlemoyer, Luke"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Retrieve-and-edit seq2seq methods typically retrieve an output from the training set and learn a model to edit it to produce the final output. We propose to extend this framework with a simple and effective post-generation ranking approach. Our framework (i) retrieves several potentially relevant outputs for each input, (ii) edits each candidate independently, and (iii) re-ranks the edited candidates to select the final output. We use a standard editing model with simple task-specific re-ranking approaches, and we show empirically that this approach outperforms existing, significantly more complex methodologies. Experiments on two machine translation (MT) datasets show new state-of-art results. We also achieve near state-of-art performance on the Gigaword summarization dataset, where our analyses show that there is significant room for performance improvement with better candidate output selection in future work.",
+  "keywords": [
+    "work",
+    "seq2seq",
+    "two machine translation",
+    "i",
+    "generation",
+    "retrieve",
+    "methodologies",
+    "model",
+    "machine",
+    "text",
+    "it",
+    "summarization",
+    "we",
+    "the gigaword summarization",
+    "re"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.228/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:45:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

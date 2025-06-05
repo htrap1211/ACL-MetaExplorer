@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.239",
+  "title": "SANTA}: Separate Strategies for Inaccurate and Incomplete Annotation Noise in Distantly-Supervised Named Entity Recognition",
+  "authors": [
+    "Si, Shuzheng  and\nCai, Zefan  and\nZeng, Shuang  and\nFeng, Guoqiang  and\nLin, Jiaxing  and\nChang, Baobao"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Distantly-Supervised Named Entity Recognition effectively alleviates the burden of time-consuming and expensive annotation in the supervised setting. But the context-free matching process and the limited coverage of knowledge bases introduce inaccurate and incomplete annotation noise respectively. Previous studies either considered only incomplete one or indiscriminately handle two types of noise with the same strategy. In this paper, we argue that the different causes of two types of noise bring up the requirement of different strategies in model architecture. Therefore, we propose the SANTA to handle these two types of noise separately with (1) Memory-smoothed Focal Loss and Entity-aware KNN to relieve the entity ambiguity problem caused by inaccurate annotation, and (2) Boundary Mixup to alleviate decision boundary shifting problem caused by incomplete annotation and a noise-tolerant loss to improve the model’s robustness. Benefiting from our separate tailored strategies, we confirm in the experiment that the two types of noise are well mitigated.SANTA also achieves a new state-of-the-art on five public datasets.",
+  "keywords": [
+    "respectively previous studies",
+    "we",
+    "santa separate strategies",
+    "loss",
+    "different strategies",
+    "distantly-supervised named entity recognition",
+    "strategies",
+    "process",
+    "knowledge",
+    "our separate tailored strategies",
+    "model",
+    "studies",
+    "entity",
+    "time",
+    "the entity ambiguity problem"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.239/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

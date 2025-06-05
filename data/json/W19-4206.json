@@ -1,0 +1,33 @@
+{
+  "id": "W19-4206",
+  "title": "Multi-Team: A Multi-attention, Multi-decoder Approach to Morphological Analysis.",
+  "authors": [
+    "{\\\"U}st{\\\"u}n, Ahmet  and\nvan der Goot, Rob  and\nBouma, Gosse  and\nvan Noord, Gertjan"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 16th Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "This paper describes our submission to SIGMORPHON 2019 Task 2: Morphological analysis and lemmatization in context. Our model is a multi-task sequence to sequence neural network, which jointly learns morphological tagging and lemmatization. On the encoding side, we exploit character-level as well as contextual information. We introduce a multi-attention decoder to selectively focus on different parts of character and word sequences. To further improve the model, we train on multiple datasets simultaneously and use external embeddings for initialization. Our final model reaches an average morphological tagging F1 score of 94.54 and a lemma accuracy of 93.91 on the test data, ranking respectively 3rd and 6th out of 13 teams in the SIGMORPHON 2019 shared task.",
+  "keywords": [
+    "embeddings",
+    "accuracy",
+    "a lemma accuracy",
+    "neural",
+    "model",
+    "decoder",
+    "information",
+    "tagging",
+    "attention",
+    "network",
+    "we",
+    "external embeddings",
+    "sequence",
+    "word",
+    "a multi-attention multi-decoder approach"
+  ],
+  "url": "https://aclanthology.org/W19-4206/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:27:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

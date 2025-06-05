@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.468",
+  "title": "Bridging Subword Gaps in Pretrain-Finetune Paradigm for Natural Language Generation",
+  "authors": [
+    "Liu, Xin  and\nYang, Baosong  and\nLiu, Dayiheng  and\nZhang, Haibo  and\nLuo, Weihua  and\nZhang, Min  and\nZhang, Haiying  and\nSu, Jinsong"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "A well-known limitation in pretrain-finetune paradigm lies in its inflexibility caused by the one-size-fits-all vocabulary. This potentially weakens the effect when applying pretrained models into natural language generation (NLG) tasks, especially for the subword distributions between upstream and downstream tasks with significant discrepancy. Towards approaching this problem, we extend the vanilla pretrain-finetune pipeline with an extra embedding transfer step. Specifically, a plug-and-play embedding generator is introduced to produce the representation of any input token, according to pre-trained embeddings of its morphologically similar ones. Thus, embeddings of mismatch tokens in downstream tasks can also be efficiently initialized. We conduct experiments on a variety of NLG tasks under the pretrain-finetune fashion. Experimental results and extensive analyses show that the proposed strategy offers us opportunities to feel free to transfer the vocabulary, leading to more efficient and better performed downstream NLG models.",
+  "keywords": [
+    "embeddings",
+    "variety",
+    "language",
+    "generation",
+    "natural",
+    "opportunities",
+    "extra",
+    "efficient",
+    "thus embeddings",
+    "pre-trained embeddings",
+    "us",
+    "we",
+    "natural language generation",
+    "transfer",
+    "a variety"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.468/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

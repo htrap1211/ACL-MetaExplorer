@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.726",
+  "title": "Advancing Parameter Efficiency in Fine-tuning via Representation Editing",
+  "authors": [
+    "Wu, Muling  and\nLiu, Wenhao  and\nWang, Xiaohua  and\nLi, Tianlong  and\nLv, Changze  and\nLing, Zixuan  and\nJianHao, Zhu  and\nZhang, Cenyuan  and\nZheng, Xiaoqing  and\nHuang, Xuanjing"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Parameter Efficient Fine-Tuning (PEFT) has gained significant attention for its ability to achieve competitive results while updating only a small subset of trainable parameters. Despite the promising performance of current PEFT methods, they present challenges in hyperparameter selection, such as determining the rank of LoRA or Adapter, or specifying the length of soft prompts. In addressing these challenges, we propose a novel approach to fine-tuning neural models, termed Representation EDiting (RED), which scales and biases the representation produced at each layer. RED substantially reduces the number of trainable parameters by a factor of 25,700 compared to full parameter fine-tuning, and by a factor of 32 compared to LoRA. Remarkably, RED achieves comparable or superior results to full parameter fine-tuning and other PEFT methods. Extensive experiments were conducted across models of varying architectures and scales, including RoBERTa, GPT-2, T5, and Llama-2, and the results demonstrate the efficiency and efficacy of RED, positioning it as a promising PEFT approach for large neural models.",
+  "keywords": [
+    "roberta gpt-2 t5",
+    "roberta",
+    "efficient",
+    "layer",
+    "efficiency",
+    "we",
+    "full parameter fine-tuning",
+    "current",
+    "hyperparameter selection",
+    "parameter",
+    "fine-tuning",
+    "red",
+    "neural",
+    "it",
+    "the efficiency"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.726/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:44:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.412",
+  "title": "CTFN}: Hierarchical Learning for Multimodal Sentiment Analysis Using Coupled-Translation Fusion Network",
+  "authors": [
+    "Tang, Jiajia  and\nLi, Kang  and\nJin, Xuanyu  and\nCichocki, Andrzej  and\nZhao, Qibin  and\nKong, Wanzeng"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Multimodal sentiment analysis is the challenging research area that attends to the fusion of multiple heterogeneous modalities. The main challenge is the occurrence of some missing modalities during the multimodal fusion procedure. However, the existing techniques require all modalities as input, thus are sensitive to missing modalities at predicting time. In this work, the coupled-translation fusion network (CTFN) is firstly proposed to model bi-direction interplay via couple learning, ensuring the robustness in respect to missing modalities. Specifically, the cyclic consistency constraint is presented to improve the translation performance, allowing us directly to discard decoder and only embraces encoder of Transformer. This could contribute to a much lighter model. Due to the couple learning, CTFN is able to conduct bi-direction cross-modality intercorrelation parallelly. Based on CTFN, a hierarchical architecture is further established to exploit multiple bi-direction translations, leading to double multimodal fusing embeddings compared with traditional translation methods. Moreover, the convolution block is utilized to further highlight explicit interactions among those translations. For evaluation, CTFN was verified on two multimodal benchmarks with extensive ablation studies. The experiments demonstrate that the proposed framework achieves state-of-the-art or often competitive performance. Additionally, CTFN still maintains robustness when considering missing modality.",
+  "keywords": [
+    "all modalities",
+    "missing modalities",
+    "those translations",
+    "fusion",
+    "translation",
+    "double multimodal fusing embeddings",
+    "cross",
+    "multiple bi-direction translations",
+    "the translation performance",
+    "decoder",
+    "extensive ablation studies",
+    "learning",
+    "multimodal sentiment analysis",
+    "analysis",
+    "traditional translation methods"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.412/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

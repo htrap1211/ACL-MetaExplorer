@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.209",
+  "title": "Understanding and Addressing the Under-Translation Problem from the Perspective of Decoding Objective",
+  "authors": [
+    "Shao, Chenze  and\nMeng, Fandong  and\nZeng, Jiali  and\nZhou, Jie"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Neural Machine Translation (NMT) has made remarkable progress over the past years. However, under-translation and over-translation remain two challenging problems in state-of-the-art NMT systems. In this work, we conduct an in-depth analysis on the underlying cause of under-translation in NMT, providing an explanation from the perspective of decoding objective. To optimize the beam search objective, the model tends to overlook words it is less confident about, leading to the under-translation phenomenon. Correspondingly, the model’s confidence in predicting the End Of Sentence (EOS) diminishes when under-translation occurs, serving as a mild penalty for under-translated candidates. Building upon this analysis, we propose employing the confidence of predicting EOS as a detector for under-translation, and strengthening the confidence-based penalty to penalize candidates with a high risk of under-translation.Experiments on both synthetic and real-world data show that our method can accurately detect and rectify under-translated outputs, with minor impact on other correct translations.",
+  "keywords": [
+    "decoding objective",
+    "end",
+    "we",
+    "translation",
+    "under-translation experiments",
+    "neural",
+    "it",
+    "analysis",
+    "the under-translation problem",
+    "other correct translations",
+    "objective",
+    "work",
+    "the beam search objective",
+    "machine",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.209/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

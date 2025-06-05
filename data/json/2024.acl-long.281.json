@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.281",
+  "title": "Eliciting Better Multilingual Structured Reasoning from {LLM}s through Code",
+  "authors": [
+    "Li, Bryan  and\nAlkhouli, Tamer  and\nBonadiman, Daniele  and\nPappas, Nikolaos  and\nMansour, Saab"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The development of large language models (LLM) has shown progress on reasoning, though studies have largely considered either English or simple reasoning tasks. To address this, we introduce a multilingual structured reasoning and explanation dataset, termed xSTREET, that covers four tasks across six languages. xSTREET exposes a gap in base LLM performance between English and non-English reasoning tasks.We then propose two methods to remedy this gap, building on the insight that LLMs trained on code are better reasoners. First, at training time, we augment a code dataset with multilingual comments using machine translation while keeping program code as-is. Second, at inference time, we bridge the gap between training and inference by employing a prompt structure that incorporates step-by-step code primitives to derive new facts and find a solution. Our methods show improved multilingual performance on xSTREET, most notably on the scientific commonsense reasoning subtask. Furthermore, the models show no regression on non-reasoning tasks, thus demonstrating our techniques maintain general-purpose abilities.",
+  "keywords": [
+    "code",
+    "reasoners",
+    "general-purpose abilities",
+    "llm s",
+    "machine translation",
+    "we",
+    "llm",
+    "training",
+    "translation",
+    "scientific",
+    "abilities",
+    "a prompt structure",
+    "prompt",
+    "better reasoners",
+    "general"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.281/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

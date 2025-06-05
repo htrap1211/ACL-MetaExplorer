@@ -1,0 +1,33 @@
+{
+  "id": "2020.bionlp-1.21",
+  "title": "Global Locality in Biomedical Relation and Event Extraction",
+  "authors": [
+    "ShafieiBavani, Elaheh  and\nJimeno Yepes, Antonio  and\nZhong, Xu  and\nMartinez Iraola, David"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 19th SIGBioMed Workshop on Biomedical Language Processing",
+  "abstract": "Due to the exponential growth of biomedical literature, event and relation extraction are important tasks in biomedical text mining. Most work only focus on relation extraction, and detect a single entity pair mention on a short span of text, which is not ideal due to long sentences that appear in biomedical contexts. We propose an approach to both relation and event extraction, for simultaneously predicting relationships between all mention pairs in a text. We also perform an empirical study to discuss different network setups for this purpose. The best performing model includes a set of multi-head attentions and convolutions, an adaptation of the transformer architecture, which offers self-attention the ability to strengthen dependencies among related elements, and models the interaction between features extracted by multiple attention heads. Experiment results demonstrate that our approach outperforms the state of the art on a set of benchmark biomedical corpora including BioNLP 2009, 2011, 2013 and BioCreative 2017 shared tasks.",
+  "keywords": [
+    "extraction",
+    "multiple attention heads",
+    "attentions",
+    "self-attention",
+    "all",
+    "we",
+    "self",
+    "dependencies",
+    "multi-head attentions",
+    "text",
+    "bionlp",
+    "mining",
+    "biomedical text mining",
+    "work",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2020.bionlp-1.21/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:55:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.127",
+  "title": "Entity at {S}em{E}val-2021 Task 5: Weakly Supervised Token Labelling for Toxic Spans Detection",
+  "authors": [
+    "Jain, Vaibhav  and\nNaghshnejad, Mina"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "Detection of toxic spans - detecting toxicity of contents in the granularity of tokens - is crucial for effective moderation of online discussions. The baseline approach for this problem using the transformer model is to add a token classification head to the language model and fine-tune the layers with the token labeled dataset. One of the limitations of such a baseline approach is the scarcity of labeled data. To improve the results, We studied leveraging existing public datasets for a related but different task of entire comment/sentence classification. We propose two approaches: the first approach fine-tunes transformer models that are pre-trained on sentence classification samples. In the second approach, we perform weak supervision with soft attention to learn token level labels from sentence labels. Our experiments show improvements in the F1 score over the baseline approach. The implementation has been released publicly.",
+  "keywords": [
+    "we",
+    "entire comment sentence classification",
+    "classification",
+    "token",
+    "e",
+    "a token classification head",
+    "the language model",
+    "soft attention",
+    "the f1 score",
+    "fine",
+    "sentence classification samples",
+    "soft",
+    "transformer",
+    "the transformer model",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.127/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

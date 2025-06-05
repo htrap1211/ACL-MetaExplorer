@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.113",
+  "title": "Multi-Hypothesis Machine Translation Evaluation",
+  "authors": [
+    "Fomicheva, Marina  and\nSpecia, Lucia  and\nGuzm{\\'a}n, Francisco"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Reliably evaluating Machine Translation (MT) through automated metrics is a long-standing problem. One of the main challenges is the fact that multiple outputs can be equally valid. Attempts to minimise this issue include metrics that relax the matching of MT output and reference strings, and the use of multiple references. The latter has been shown to significantly improve the performance of evaluation metrics. However, collecting multiple references is expensive and in practice a single reference is generally used. In this paper, we propose an alternative approach: instead of modelling linguistic variation in human reference we exploit the MT model uncertainty to generate multiple diverse translations and use these: (i) as surrogates to reference translations; (ii) to obtain a quantification of translation variability to either complement existing metric scores or (iii) replace references altogether. We show that for a number of popular evaluation metrics our variability estimates lead to substantial improvements in correlation with human judgements of quality by up 15%.",
+  "keywords": [
+    "popular evaluation metrics",
+    "translation variability",
+    "machine translation",
+    "we",
+    "valid",
+    "translation",
+    "reference translations",
+    "automated metrics",
+    "i",
+    "metric",
+    "metrics",
+    "multiple diverse translations",
+    "evaluation metrics",
+    "reference",
+    "multi-hypothesis machine translation evaluation"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.113/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:43:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

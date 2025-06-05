@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.920",
+  "title": "Verifiable Generation with Subsentence-Level Fine-Grained Citations",
+  "authors": [
+    "Cao, Shuyang  and\nWang, Lu"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Verifiable generation requires large language models (LLMs) to cite source documents supporting their outputs, thereby improve output transparency and trustworthiness. Yet, previous work mainly targets the generation of sentence-level citations, lacking specificity about which parts of a sentence are backed by the cited sources. This work studies verifiable generation with subsentence-level fine-grained citations for more precise location of generated content supported by the cited sources. We first present a dataset, SCiFi, comprising 10K Wikipedia paragraphs with subsentence-level citations. Each paragraph is paired with a set of candidate source documents for citation and a query that triggers the generation of the paragraph content. On SCiFi, we evaluate the performance of state-of-the-art LLMs and strategies for processing long documents designed for these models. Our experiment results reveals key factors that could enhance the quality of citations, including the expansion of the source documents’ context accessible to the models and the implementation of specialized model tuning.",
+  "keywords": [
+    "the generation",
+    "we",
+    "verifiable generation",
+    "location",
+    "llms",
+    "tuning",
+    "strategies",
+    "generated content",
+    "work",
+    "generation",
+    "language",
+    "model",
+    "large language models",
+    "documents",
+    "a dataset scifi"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.920/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

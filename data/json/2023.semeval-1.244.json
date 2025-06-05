@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.244",
+  "title": "T}{\\\"u}bingen at {S}em{E}val-2023 Task 4: What Can Stance Tell? A Computational Study on Detecting Human Values behind Arguments",
+  "authors": [
+    "Can, Fidan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper describes the performance of a system which uses stance as an output instead of taking it as an input to identify 20 human values behind given arguments, based on two datasets for SemEval-2023 Task 4. The rationale was to draw a conclusion on whether predicting stance would help predict the given human values better. For this setup—predicting 21 labels—a pre-trained language model, RoBERTa-Large was used. The system had an F$_1$-score of 0.50 for predicting these human values for the main test set while this score was 0.35 on the secondary test set, and through further analysis, this paper aims to give insight into the problem of human value identification.",
+  "keywords": [
+    "roberta",
+    "language",
+    "model",
+    "it",
+    "human",
+    "pre",
+    "analysis",
+    "identification",
+    "secondary",
+    "20 human values",
+    "task",
+    "setup",
+    "insight",
+    "labels",
+    "an output"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.244/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.900",
+  "title": "Contrastive Learning with Generated Representations for Inductive Knowledge Graph Embedding",
+  "authors": [
+    "Li, Qian  and\nJoty, Shafiq  and\nWang, Daling  and\nFeng, Shi  and\nZhang, Yifei  and\nQin, Chengwei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "With the evolution of Knowledge Graphs (KGs), new entities emerge which are not seen before. Representation learning of KGs in such an inductive setting aims to capture and transfer the structural patterns from existing entities to new entities. However, the performance of existing methods in inductive KGs are limited by sparsity and implicit transfer. In this paper, we propose VMCL, a Contrastive Learning (CL) framework with graph guided Variational autoencoder on Meta-KGs in the inductive setting. We first propose representation generation to capture the encoded and generated representations of entities, where the generated variations can densify representations with complementary features. Then, we design two CL objectives that work across entities and meta-KGs to simulate the transfer mode. With extensive experiments we demonstrate that our proposed VMCL can significantly outperform previous state-of-the-art baselines.",
+  "keywords": [
+    "inductive knowledge graph",
+    "knowledge",
+    "objectives",
+    "graph guided variational autoencoder",
+    "generation",
+    "entities",
+    "representation generation",
+    "autoencoder",
+    "generated representations",
+    "new entities",
+    "knowledge graphs",
+    "inductive kgs",
+    "we",
+    "learning",
+    "transfer"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.900/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

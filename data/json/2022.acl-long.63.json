@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.63",
+  "title": "Nested Named Entity Recognition with Span-level Graphs",
+  "authors": [
+    "Wan, Juncheng  and\nRu, Dongyu  and\nZhang, Weinan  and\nYu, Yong"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Span-based methods with the neural networks backbone have great potential for the nested named entity recognition (NER) problem. However, they face problems such as degenerating when positive instances and negative instances largely overlap. Besides, the generalization ability matters a lot in nested NER, as a large proportion of entities in the test set hardly appear in the training set. In this work, we try to improve the span representation by utilizing retrieval-based span-level graphs, connecting spans and entities in the training data based onn-gram features. Specifically, we build the entity-entity graph and span-entity graph globally based onn-gram similarity to integrate the information of similar neighbor entities into the span representation. To evaluate our method, we conduct experiments on three common nested NER datasets, ACE2004, ACE2005, and GENIA datasets. Experimental results show that our method achieves general improvements on all three benchmarks (+0.30 ∼ 0.85micro-F1), and obtains special superiority on low frequency entities (+0.56 ∼ 2.08recall).",
+  "keywords": [
+    "the generalization ability",
+    "the neural networks backbone",
+    "we",
+    "graph",
+    "nested ner",
+    "training",
+    "neural",
+    "retrieval",
+    "general improvements",
+    "information",
+    "similar neighbor entities",
+    "ner",
+    "low frequency entities",
+    "generalization",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.63/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

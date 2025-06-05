@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.252",
+  "title": "Can Transformer be Too Compositional? Analysing Idiom Processing in Neural Machine Translation",
+  "authors": [
+    "Dankers, Verna  and\nLucas, Christopher  and\nTitov, Ivan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Unlike literal expressions, idioms’ meanings do not directly follow from their parts, posing a challenge for neural machine translation (NMT). NMT models are often unable to translate idioms accurately and over-generate compositional, literal translations. In this work, we investigate whether the non-compositionality of idioms is reflected in the mechanics of the dominant NMT model, Transformer, by analysing the hidden states and attention patterns for models with English as source language and one of seven European languages as target language. When Transformer emits a non-literal translation - i.e. identifies the expression as idiomatic - the encoder processes idioms more strongly as single lexical units compared to literal expressions. This manifests in idioms’ parts being grouped through attention and in reduced interaction between idioms and their context. In the decoder’s cross-attention, figurative inputs result in reduced attention on source-side tokens. These results suggest that Transformer’s tendency to process idioms as compositional expressions contributes to literal translations of idioms.",
+  "keywords": [
+    "a non-literal translation",
+    "neural machine translation",
+    "we",
+    "transformer s tendency",
+    "compositional literal translations",
+    "translation",
+    "cross",
+    "the encoder",
+    "neural",
+    "decoder",
+    "literal translations",
+    "e",
+    "attention patterns",
+    "processing",
+    "i"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.252/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:27:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

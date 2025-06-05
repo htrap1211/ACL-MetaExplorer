@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.117",
+  "title": "Two-Step Question Retrieval for Open-Domain {QA",
+  "authors": [
+    "Seonwoo, Yeon  and\nSon, Juhee  and\nJin, Jiho  and\nLee, Sang-Woo  and\nKim, Ji-Hoon  and\nHa, Jung-Woo  and\nOh, Alice"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "The retriever-reader pipeline has shown promising performance in open-domain QA but suffers from a very slow inference speed. Recently proposed question retrieval models tackle this problem by indexing question-answer pairs and searching for similar questions. These models have shown a significant increase in inference speed, but at the cost of lower QA performance compared to the retriever-reader models. This paper proposes a two-step question retrieval model, SQuID (Sequential Question-Indexed Dense retrieval) and distant supervision for training. SQuID uses two bi-encoders for question retrieval. The first-step retriever selects top-k similar questions, and the second-step retriever finds the most similar question from the top-k questions. We evaluate the performance and the computational efficiency of SQuID. The results show that SQuID significantly increases the performance of existing question retrieval models with a negligible loss on inference speed.",
+  "keywords": [
+    "answer",
+    "model",
+    "the retriever-reader models",
+    "the retriever-reader pipeline",
+    "-",
+    "question retrieval",
+    "retrieval",
+    "question",
+    "loss",
+    "existing question retrieval models",
+    "open-domain qa",
+    "efficiency",
+    "we",
+    "lower qa performance",
+    "the computational efficiency"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.117/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

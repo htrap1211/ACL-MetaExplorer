@@ -1,0 +1,33 @@
+{
+  "id": "P19-1304",
+  "title": "Cross-lingual Knowledge Graph Alignment via Graph Matching Neural Network",
+  "authors": [
+    "Xu, Kun  and\nWang, Liwei  and\nYu, Mo  and\nFeng, Yansong  and\nSong, Yan  and\nWang, Zhiguo  and\nYu, Dong"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Previous cross-lingual knowledge graph (KG) alignment studies rely on entity embeddings derived only from monolingual KG structural information, which may fail at matching entities that have different facts in two KGs. In this paper, we introduce the topic entity graph, a local sub-graph of an entity, to represent entities with their contextual information in KG. From this view, the KB-alignment task can be formulated as a graph matching problem; and we further propose a graph-attention based solution, which first matches all entities in two topic entity graphs, and then jointly model the local matching information to derive a graph-level matching vector. Experiments show that our model outperforms previous state-of-the-art methods by a large margin.",
+  "keywords": [
+    "cross",
+    "alignment",
+    "embeddings",
+    "knowledge",
+    "vector",
+    "kg",
+    "neural",
+    "model",
+    "studies",
+    "matching entities",
+    "entities",
+    "monolingual kg structural information",
+    "cross-lingual knowledge graph alignment",
+    "view",
+    "topic"
+  ],
+  "url": "https://aclanthology.org/P19-1304/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:37:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

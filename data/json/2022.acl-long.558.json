@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.558",
+  "title": "U}ni{TE}: Unified Translation Evaluation",
+  "authors": [
+    "Wan, Yu  and\nLiu, Dayiheng  and\nYang, Baosong  and\nZhang, Haibo  and\nChen, Boxing  and\nWong, Derek  and\nChao, Lidia"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Translation quality evaluation plays a crucial role in machine translation. According to the input format, it is mainly separated into three tasks,i.e., reference-only, source-only and source-reference-combined. Recent methods, despite their promising results, are specifically designed and optimized on one of them. This limits the convenience of these methods, and overlooks the commonalities among tasks. In this paper, we propose , which is the first unified framework engaged with abilities to handle all three evaluation tasks. Concretely, we propose monotonic regional attention to control the interaction among input segments, and unified pretraining to better adapt multi-task training. We testify our framework on WMT 2019 Metrics and WMT 2020 Quality Estimation benchmarks. Extensive analyses show that oursingle modelcan universally surpass various state-of-the-art or winner methods across tasks.Both source code and associated models are available athttps://github.com/NLP2CT/UniTE.",
+  "keywords": [
+    "code",
+    "monotonic regional attention",
+    "winner",
+    "machine translation",
+    "we",
+    "nlp2ct",
+    "all three evaluation tasks",
+    "training",
+    "translation",
+    "it",
+    "the convenience",
+    "the first unified framework",
+    "convenience",
+    "unified",
+    "u"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.558/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

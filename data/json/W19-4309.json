@@ -1,0 +1,33 @@
+{
+  "id": "W19-4309",
+  "title": "Learning Bilingual Sentence Embeddings via Autoencoding and Computing Similarities with a Multilayer Perceptron",
+  "authors": [
+    "Kim, Yunsu  and\nRosendahl, Hendrik  and\nRossenbach, Nick  and\nRosendahl, Jan  and\nKhadivi, Shahram  and\nNey, Hermann"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)",
+  "abstract": "We propose a novel model architecture and training algorithm to learn bilingual sentence embeddings from a combination of parallel and monolingual data. Our method connects autoencoding and neural machine translation to force the source and target sentence embeddings to share the same space without the help of a pivot language or an additional transformation. We train a multilayer perceptron on top of the sentence embeddings to extract good bilingual sentence pairs from nonparallel or noisy parallel data. Our approach shows promising performance on sentence alignment recovery and the WMT 2018 parallel corpus filtering tasks with only a single model.",
+  "keywords": [
+    "embeddings",
+    "alignment",
+    "top",
+    "similarities",
+    "bilingual sentence embeddings",
+    "language",
+    "neural",
+    "model",
+    "machine",
+    "neural machine translation",
+    "the sentence embeddings",
+    "sentence alignment recovery",
+    "we",
+    "sentence embeddings",
+    "training"
+  ],
+  "url": "https://aclanthology.org/W19-4309/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:02:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

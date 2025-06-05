@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.135",
+  "title": "University at Buffalo at {S}em{E}val-2023 Task 11: {MASDA}{--}Modelling Annotator Sensibilities through {D}is{A}ggregation",
+  "authors": [
+    "Sullivan, Michael  and\nYasin, Mohammed  and\nJacobs, Cassandra L."
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "Modeling the most likely label when an annotation task is perspective-dependent discards relevant sources of variation that come from the annotators themselves. We present three approaches to modeling the controversiality of a particular text. First, we explicitly represented annotators using annotator embeddings to predict the training signals of each annotator’s selections in addition to a majority class label. This method leads to reduction in error relative to models without these features, allowing the overall result to influence the weights of each annotator on the final prediction. In a second set of experiments, annotators were not modeled individually but instead annotator judgments were combined in a pairwise fashion that allowed us to implicitly combine annotators. Overall, we found that aggregating and explicitly comparing annotators’ responses to a static document representation produced high-quality predictions in all datasets, though some systems struggle to account for large or variable numbers of annotators.",
+  "keywords": [
+    "we",
+    "training",
+    "reduction",
+    "annotator embeddings",
+    "text",
+    "annotator sensibilities",
+    "d",
+    "embeddings",
+    "class",
+    "us",
+    "sensibilities",
+    "relevant sources",
+    "this method",
+    "error",
+    "annotator"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.135/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:28:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

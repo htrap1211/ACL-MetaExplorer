@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.730",
+  "title": "Revisiting Pathologies of Neural Models under Input Reduction",
+  "authors": [
+    "Kruengkrai, Canasai  and\nYamagishi, Junichi"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "We revisit the question of why neural models tend to produce high-confidence predictions on inputs that appear nonsensical to humans. Previous work has suggested that the models fail to assign low probabilities to such inputs due to model overconfidence. We evaluate various regularization methods on fact verification benchmarks and find that this problem persists even with well-calibrated or underconfident models, suggesting that overconfidence is not the only underlying cause. We also find that regularizing the models with reduced examples helps improve interpretability but comes with the cost of miscalibration. We show that although these reduced examples are incomprehensible to humans, they can contain valid statistical patterns in the dataset utilized by the model.",
+  "keywords": [
+    "work",
+    "pathologies",
+    "neural",
+    "various regularization methods",
+    "model",
+    "low probabilities",
+    "question",
+    "regularization",
+    "probabilities",
+    "we",
+    "valid",
+    "reduction",
+    "that",
+    "predictions",
+    "verification"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.730/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

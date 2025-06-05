@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.74",
+  "title": "E}asy{G}en: Easing Multimodal Generation with {B}i{D}iffuser and {LLM}s",
+  "authors": [
+    "Zhao, Xiangyu  and\nLiu, Bo  and\nLiu, Qijiong  and\nShi, Guangyuan  and\nWu, Xiao-Ming"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We present EasyGen, an efficient model designed to enhance multimodal understanding and generation by harnessing the capabilities of diffusion models and large language models (LLMs). Unlike existing multimodal models that predominately depend on encoders like CLIP or ImageBind and need ample amounts of training data to bridge modalities, EasyGen leverages BiDiffuser, a bidirectional conditional diffusion model, to foster more efficient modality interactions. EasyGen achieves text generation by training a projection layer linking BiDiffuser and an LLM, and facilities image generation by training an adapter to align the LLM’s text space with the BiDiffuser’s image space. Comprehensive quantitative and qualitative experiments show that EasyGen excels in data-efficient training, high-quality image generation, and extendibility, effectively addressing the challenges in multimodal generation.",
+  "keywords": [
+    "more efficient modality interactions",
+    "generation",
+    "easing multimodal generation",
+    "language",
+    "model",
+    "text",
+    "efficient",
+    "large language models",
+    "modalities",
+    "facilities",
+    "an efficient model",
+    "capabilities",
+    "layer",
+    "multimodal generation",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.74/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:35:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

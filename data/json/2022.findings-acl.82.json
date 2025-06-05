@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.82",
+  "title": "Answer Uncertainty and Unanswerability in Multiple-Choice Machine Reading Comprehension",
+  "authors": [
+    "Raina, Vatsal  and\nGales, Mark"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Machine reading comprehension (MRC) has drawn a lot of attention as an approach for assessing the ability of systems to understand natural language. Usually systems focus on selecting the correct answer to a question given a contextual paragraph. However, for many applications of multiple-choice MRC systems there are two additional considerations. For multiple-choice exams there is often a negative marking scheme; there is a penalty for an incorrect answer. In terms of an MRC system this means that the system is required to have an idea of the uncertainty in the predicted answer. The second consideration is that many multiple-choice questions have the option of none-of-the-above (NOA) indicating that none of the answers is applicable, rather than there always being the correct answer in the list of choices. This paper investigates both of these issues by making use of predictive uncertainty. Whether the system should propose an answer is a direct application of answer uncertainty. There are two possibilities when considering the NOA option. The simplest is to explicitly build a system on data that includes this option. Alternatively uncertainty can be applied to detect whether the other options include the correct answer. If the system is not sufficiently confident it will select NOA. As there is no standard corpus available to investigate these topics, the ReClor corpus is modified by removing the correct answer from a subset of possible answers. A high-performance MRC system is used to evaluate whether answer uncertainty can be applied in these situations. It is shown that uncertainty does allow questions that the system is not confident about to be detected. Additionally it is shown that uncertainty outperforms a system explicitly built with an NOA option.",
+  "keywords": [
+    "question",
+    "answer",
+    "natural",
+    "it",
+    "two possibilities",
+    "natural language",
+    "possibilities",
+    "language",
+    "machine",
+    "attention",
+    "approach",
+    "the answers",
+    "mrc",
+    "corpus",
+    "the second consideration"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.82/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

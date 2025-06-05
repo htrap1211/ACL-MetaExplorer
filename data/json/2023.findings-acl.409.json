@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.409",
+  "title": "TACR}: A Table Alignment-based Cell Selection Method for {H}ybrid{QA",
+  "authors": [
+    "Wu, Jian  and\nXu, Yicheng  and\nGao, Yan  and\nLou, Jian-Guang  and\nKarlsson, B{\\\"o}rje F.  and\nOkumura, Manabu"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Hybrid Question-Answering (HQA), which targets reasoning over tables and passages linked from table cells, has witnessed significant research in recent years. A common challenge in HQA and other passage-table QA datasets is that it is generally unrealistic to iterate over all table rows, columns, and linked passages to retrieve evidence. Such a challenge made it difficult for previous studies to show their reasoning ability in retrieving answers. To bridge this gap, we propose a novel Table-alignment-based Cell-selection and Reasoning model (TACR) for hybrid text and table QA, evaluated on the HybridQA and WikiTableQuestions datasets. In evidence retrieval, we design a table-question-alignment enhanced cell-selection method to retrieve fine-grained evidence. In answer reasoning, we incorporate a QA module that treats the row containing selected cells as context. Experimental results over the HybridQA and WikiTableQuestions (WTQ) datasets show that TACR achieves state-of-the-art results on cell selection and outperforms fine-grained evidence retrieval baselines on HybridQA, while achieving competitive performance on WTQ. We also conducted a detailed analysis to demonstrate that being able to align questions to tables in the cell-selection stage can result in important gains from experiments of over 90% table row and column selection accuracy, meanwhile also improving output explainability.",
+  "keywords": [
+    "table qa",
+    "question",
+    "we",
+    "answer",
+    "hybridqa",
+    "it",
+    "retrieval",
+    "hybrid question-answering hqa",
+    "a qa module",
+    "analysis",
+    "previous studies",
+    "text",
+    "hqa",
+    "other passage-table qa datasets",
+    "fine-grained evidence retrieval baselines"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.409/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

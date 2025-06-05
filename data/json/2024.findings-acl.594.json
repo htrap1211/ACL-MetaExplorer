@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.594",
+  "title": "More than Minorities and Majorities: Understanding Multilateral Bias in Language Generation",
+  "authors": [
+    "Zhao, Jiaxu  and\nShi, Zijing  and\nLi, Yitong  and\nPei, Yulong  and\nChen, Ling  and\nFang, Meng  and\nPechenizkiy, Mykola"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Pretrained models learned from real corpora can often capture undesirable features, leading to bias issues against different demographic groups. Most existing studies on bias dataset construction or bias mitigation methods only focus on one demographic group pair to study a certain bias, e.g.blackvs.whitefor racial bias. However, in real-world applications, there are more than two demographic groups that are at risk of the same bias. In this paper, we propose to analyze and reduce biases across multiple demographic groups. We collect and build a multi-demographic bias dataset including five commonly discussed bias dimensions. To mitigate multi-demographic bias, we adopt several novel debiasing methods, including regularisation-based and augmentation-based methods, as well as appropriate evaluation metrics for multi-demographic bias measurement. Experimental results on the proposed multi-demographic dataset show that a fairer model can be achieved using a multi-demographic debiasing approach. Also, the model debiased using the proposed multi-demographic debiasing methods can better transfer to unseen demographics without sacrificing the performance of the pretrained model.",
+  "keywords": [
+    "bias",
+    "bias dataset construction",
+    "bias mitigation methods",
+    "most existing studies",
+    "we",
+    "a certain bias",
+    "language generation",
+    "several novel debiasing methods",
+    "minorities",
+    "appropriate evaluation metrics",
+    "whitefor racial bias",
+    "multi-demographic bias",
+    "metrics",
+    "bias issues",
+    "majorities"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.594/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:56:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

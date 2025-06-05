@@ -1,0 +1,33 @@
+{
+  "id": "2021.sigmorphon-1.17",
+  "title": "CLUZH} at {SIGMORPHON} 2021 Shared Task on Multilingual Grapheme-to-Phoneme Conversion: Variations on a Baseline",
+  "authors": [
+    "Clematide, Simon  and\nMakarov, Peter"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 18th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "This paper describes the submission by the team from the Department of Computational Linguistics, Zurich University, to the Multilingual Grapheme-to-Phoneme Conversion (G2P) Task 1 of the SIGMORPHON 2021 challenge in the low and medium settings. The submission is a variation of our 2020 G2P system, which serves as the baseline for this year’s challenge. The system is a neural transducer that operates over explicit edit actions and is trained with imitation learning. For this challenge, we experimented with the following changes: a) emitting phoneme segments instead of single character phonemes, b) input character dropout, c) a mogrifier LSTM decoder (Melis et al., 2019), d) enriching the decoder input with the currently attended input character, e) parallel BiLSTM encoders, and f) an adaptive batch size scheduler. In the low setting, our best ensemble improved over the baseline, however, in the medium setting, the baseline was stronger on average, although for certain languages improvements could be observed.",
+  "keywords": [
+    "we",
+    "lstm",
+    "ensemble",
+    "neural",
+    "bilstm",
+    "decoder",
+    "mogrifier",
+    "the decoder input",
+    "scheduler",
+    "our best ensemble",
+    "encoders",
+    "e parallel bilstm encoders",
+    "batch",
+    "the team",
+    "phoneme"
+  ],
+  "url": "https://aclanthology.org/2021.sigmorphon-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:22:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

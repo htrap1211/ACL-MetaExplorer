@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.10",
+  "title": "Exploring Drug Switching in Patients: A Deep Learning-based Approach to Extract Drug Changes and Reasons from Social Media",
+  "authors": [
+    "Sarrouti, Mourad  and\nTao, Carson  and\nMamy Randriamihaja, Yoann"
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "Social media (SM) can provide valuable information about patients’ experiences with multiple drugs during treatments. Although information extraction from SM has been well-studied, drug switches detection and reasons behind these switches from SM have not been studied yet. Therefore, in this paper, we present a new SM listening approach for analyzing online patient conversations that contain information about drug switching, drug effectiveness, side effects, and adverse drug reactions. We describe a deep learning-based approach for identifying instances of drug switching in SM posts, as well as a method for extracting the reasons behind these switches. To train and test our models, we used annotated SM data from internal dataset which is automatically created using a rule-based method. We evaluated our models using Text-to-Text Transfer Transformer (T5) and found that our SM listening approach can extract medication change information and reasons with high accuracy, achieving an F1-score of 98% and a ROUGE-1 score of 93%, respectively. Overall, our results suggest that our SM listening approach has the potential to provide valuable insights into patients’ experiences with drug treatments, which can be used to improve patient outcomes and the effectiveness of drug treatments.",
+  "keywords": [
+    "deep",
+    "extraction",
+    "conversations",
+    "we",
+    "patients experiences",
+    "patients",
+    "high accuracy",
+    "information",
+    "learning",
+    "transfer",
+    "patient outcomes",
+    "an f1-score",
+    "text",
+    "online patient conversations",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

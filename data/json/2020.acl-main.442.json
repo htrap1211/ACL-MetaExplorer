@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.442",
+  "title": "Beyond Accuracy: Behavioral Testing of {NLP} Models with {C}heck{L}ist",
+  "authors": [
+    "Ribeiro, Marco Tulio  and\nWu, Tongshuang  and\nGuestrin, Carlos  and\nSingh, Sameer"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Although measuring held-out accuracy has been the primary approach to evaluate generalization, it often overestimates the performance of NLP models, while alternative approaches for evaluating models either focus on individual tasks or on specific behaviors. Inspired by principles of behavioral testing in software engineering, we introduce CheckList, a task-agnostic methodology for testing NLP models. CheckList includes a matrix of general linguistic capabilities and test types that facilitate comprehensive test ideation, as well as a software tool to generate a large and diverse number of test cases quickly. We illustrate the utility of CheckList with tests for three tasks, identifying critical failures in both commercial and state-of-art models. In a user study, a team responsible for a commercial sentiment analysis model found new and actionable bugs in an extensively tested model. In another user study, NLP practitioners with CheckList created twice as many tests, and found almost three times as many bugs as users without it.",
+  "keywords": [
+    "general linguistic capabilities",
+    "we",
+    "accuracy behavioral testing",
+    "it",
+    "nlp models",
+    "analysis",
+    "held-out accuracy",
+    "generalization",
+    "practitioners",
+    "accuracy",
+    "sentiment",
+    "general",
+    "nlp",
+    "model",
+    "capabilities"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.442/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:48:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

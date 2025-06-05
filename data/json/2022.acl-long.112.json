@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.112",
+  "title": "S}umm$^N$: A Multi-Stage Summarization Framework for Long Input Dialogues and Documents",
+  "authors": [
+    "Zhang, Yusen  and\nNi, Ansong  and\nMao, Ziming  and\nWu, Chen Henry  and\nZhu, Chenguang  and\nDeb, Budhaditya  and\nAwadallah, Ahmed  and\nRadev, Dragomir  and\nZhang, Rui"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Text summarization helps readers capture salient information from documents, news, interviews, and meetings. However, most state-of-the-art pretrained language models (LM) are unable to efficiently process long text for many summarization tasks. In this paper, we propose SummN, a simple, flexible, and effective multi-stage framework for input texts that are longer than the maximum context length of typical pretrained LMs. SummNfirst splits the data samples and generates a coarse summary in multiple stages and then produces the final fine-grained summary based on it. Our framework can process input text of arbitrary length by adjusting the number of stages while keeping the LM input size fixed. Moreover, it can deal with both single-source documents and dialogues, and it can be used on top of different backbone abstractive summarization models. To the best of our knowledge, SummNis the first multi-stage split-then-summarize framework for long input summarization. Our experiments demonstrate that SummNoutperforms previous state-of-the-art methods by improving ROUGE scores on three long meeting summarization datasets AMI, ICSI, and QMSum, two long TV series datasets from SummScreen, and a long document summarization dataset GovReport. Our data and code are available athttps://github.com/psunlpgroup/Summ-N.",
+  "keywords": [
+    "code",
+    "top",
+    "summ",
+    "series",
+    "summarization",
+    "we",
+    "interviews",
+    "rouge scores",
+    "salient information",
+    "it",
+    "com psunlpgroup summ",
+    "information",
+    "many summarization tasks",
+    "psunlpgroup",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.112/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

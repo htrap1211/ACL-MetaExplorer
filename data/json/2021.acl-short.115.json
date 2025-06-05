@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.115",
+  "title": "BERTT}une: Fine-Tuning Neural Machine Translation with {BERTS}core",
+  "authors": [
+    "Jauregi Unanue, Inigo  and\nParnell, Jacob  and\nPiccardi, Massimo"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Neural machine translation models are often biased toward the limited translation references seen during training. To amend this form of overfitting, in this paper we propose fine-tuning the models with a novel training objective based on the recently-proposed BERTScore evaluation metric. BERTScore is a scoring function based on contextual embeddings that overcomes the typical limitations of n-gram-based metrics (e.g. synonyms, paraphrases), allowing translations that are different from the references, yet close in the contextual embedding space, to be treated as substantially correct. To be able to use BERTScore as a training objective, we propose three approaches for generating soft predictions, allowing the network to remain completely differentiable end-to-end. Experiments carried out over four, diverse language pairs show improvements of up to 0.58 pp (3.28%) in BLEU score and up to 0.76 pp (0.98%) in BERTScore (F_BERT) when fine-tuning a strong baseline.",
+  "keywords": [
+    "embeddings",
+    "bertscore",
+    "end",
+    "language",
+    "translation",
+    "the contextual embedding space",
+    "neural",
+    "the limited translation references",
+    "a novel training objective",
+    "machine",
+    "metric",
+    "objective",
+    "metrics",
+    "bleu",
+    "contextual embeddings"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.115/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:08:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

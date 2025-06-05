@@ -1,0 +1,33 @@
+{
+  "id": "P18-1173",
+  "title": "Backpropagating through Structured Argmax using a {SPIGOT",
+  "authors": [
+    "Peng, Hao  and\nThomson, Sam  and\nSmith, Noah A."
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We introduce structured projection of intermediate gradients (SPIGOT), a new method for backpropagating through neural networks that include hard-decision structured predictions (e.g., parsing) in intermediate layers. SPIGOT requires no marginal inference, unlike structured attention networks and reinforcement learning-inspired solutions. Like so-called straight-through estimators, SPIGOT defines gradient-like quantities associated with intermediate nondifferentiable operations, allowing backpropagation before and after them; SPIGOT’s proxy aims to ensure that, after a parameter update, the intermediate structure will remain well-formed. We experiment on two structured NLP pipelines: syntactic-then-semantic dependency parsing, and semantic parsing followed by sentiment classification. We show that training with SPIGOT leads to a larger improvement on the downstream task than a modularly-trained pipeline, the straight-through estimator, and structured attention, reaching a new state of the art on semantic dependency parsing.",
+  "keywords": [
+    "reinforcement learning-inspired solutions",
+    "two structured nlp pipelines",
+    "parsing",
+    "semantic",
+    "we",
+    "quantities",
+    "parameter",
+    "training",
+    "classification",
+    "structured attention networks",
+    "neural",
+    "learning",
+    "gradient-like quantities",
+    "syntactic-then-semantic dependency parsing",
+    "backpropagation"
+  ],
+  "url": "https://aclanthology.org/P18-1173/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:13:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

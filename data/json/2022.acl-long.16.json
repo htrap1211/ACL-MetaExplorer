@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.16",
+  "title": "Sparse Progressive Distillation: Resolving Overfitting under Pretrain-and-Finetune Paradigm",
+  "authors": [
+    "Huang, Shaoyi  and\nXu, Dongkuan  and\nYen, Ian  and\nWang, Yijue  and\nChang, Sung-En  and\nLi, Bingbing  and\nChen, Shiyang  and\nXie, Mimi  and\nRajasekaran, Sanguthevar  and\nLiu, Hang  and\nDing, Caiwen"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Conventional wisdom in pruning Transformer-based language models is that pruning reduces the model expressiveness and thus is more likely to underfit rather than overfit. However, under the trending pretrain-and-finetune paradigm, we postulate a counter-traditional hypothesis, that is: pruning increases the risk of overfitting when performed at the fine-tuning phase. In this paper, we aim to address the overfitting problem and improve pruning performance via progressive knowledge distillation with error-bound properties. We show for the first time that reducing the risk of overfitting can help the effectiveness of pruning under the pretrain-and-finetune paradigm. Ablation studies and experiments on the GLUE benchmark show that our method outperforms the leading competitors across different tasks.",
+  "keywords": [
+    "transformer",
+    "error-bound properties",
+    "the overfitting problem",
+    "tuning",
+    "knowledge",
+    "language",
+    "model",
+    "studies",
+    "properties",
+    "the fine-tuning phase",
+    "transformer-based language models",
+    "we",
+    "time",
+    "that",
+    "the effectiveness"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.16/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:24:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

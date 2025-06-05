@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.442",
+  "title": "C}o{SQA}: 20,000+ Web Queries for Code Search and Question Answering",
+  "authors": [
+    "Huang, Junjie  and\nTang, Duyu  and\nShou, Linjun  and\nGong, Ming  and\nXu, Ke  and\nJiang, Daxin  and\nZhou, Ming  and\nDuan, Nan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Finding codes given natural language query is beneficial to the productivity of software developers. Future progress towards better semantic matching between query and code requires richer supervised training resources. To remedy this, we introduce CoSQA dataset. It includes 20,604 labels for pairs of natural language queries and codes, each annotated by at least 3 human annotators. We further introduce a contrastive learning method dubbed CoCLR to enhance text-code matching, which works as a data augmenter to bring more artificially generated training instances. We show that, evaluated on CodeXGLUE with the same CodeBERT model, training on CoSQA improves the accuracy of code question answering by 5.1% and incorporating CoCLR brings a further improvement of 10.5%.",
+  "keywords": [
+    "code",
+    "the accuracy",
+    "language",
+    "natural",
+    "model",
+    "text",
+    "natural language queries",
+    "it",
+    "human",
+    "queries",
+    "question",
+    "cosqa",
+    "codebert",
+    "semantic",
+    "sqa"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.442/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

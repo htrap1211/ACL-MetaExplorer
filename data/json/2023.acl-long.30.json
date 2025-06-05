@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.30",
+  "title": "Learning with Partial Annotations for Event Detection",
+  "authors": [
+    "Liu, Jian  and\nSui, Dianbo  and\nLiu, Kang  and\nLiu, Haoyan  and\nZhao, Zhe"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Event detection (ED) seeks to discover and classify event instances in plain texts. Previous methods for ED typically adopt supervised learning, requiring fully labeled and high-quality training data. However, in a real-world application, we may not obtain clean training data but only partially labeled one, which could substantially impede the learning process. In this work, we conduct a seminal study for learning with partial annotations for ED.We propose a new trigger localization formulation using contrastive learning to distinguish ground-truth triggers from contexts, showing a decent robustness for addressing partial annotation noise. Impressively, in an extreme scenario where more than 90% of events are unlabeled, our approach achieves an F1 score of over 60%.In addition, we re-annotate and make available two fully annotated subsets of ACE 2005 to serve as an unbiased benchmark for event detection. We hope our approach and data will inspire future studies on this vital yet understudied problem.",
+  "keywords": [
+    "unbiased",
+    "an unbiased benchmark",
+    "we",
+    "training",
+    "future studies",
+    "understudied",
+    "learning",
+    "ed",
+    "work",
+    "process",
+    "an f1 score",
+    "studies",
+    "approach",
+    "scenario",
+    "events"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.30/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:35:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

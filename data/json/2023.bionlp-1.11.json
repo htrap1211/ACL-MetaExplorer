@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.11",
+  "title": "Is the ranking of {P}ub{M}ed similar articles good enough? An evaluation of text similarity methods for three datasets",
+  "authors": [
+    "Neves, Mariana  and\nSchadock, Ines  and\nEusemann, Beryl  and\nSchnfelder, Gilbert  and\nBert, Bettina  and\nButzke, Daniel"
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "The use of seed articles in information retrieval provides many advantages, such as a longercontext and more details about the topic being searched for. Given a seed article (i.e., a PMID), PubMed provides a pre-compiled list of similar articles to support the user in finding equivalent papers in the biomedical literature. We aimed at performing a quantitative evaluation of the PubMed Similar Articles based on three existing biomedical text similarity datasets, namely, RELISH, TREC-COVID, and SMAFIRA-c. Further, we carried out a survey and an evaluation of various text similarity methods on these three datasets. Our experiments considered the original title and abstract from PubMed as well as automatically detected sections and manually annotated relevant sentences. We provide an overview about which methods better performfor each dataset and compare them to the ranking in PubMed similar articles. While resultsvaried considerably among the datasets, we were able to obtain a better performance thanPubMed for all of them. Datasets and source codes are available at:https://github.com/mariananeves/reranking",
+  "keywords": [
+    "overview",
+    "all",
+    "we",
+    "an overview",
+    "retrieval",
+    "information",
+    "an evaluation",
+    "i",
+    "text",
+    "information retrieval",
+    "topic",
+    "evaluation",
+    "pre",
+    "a quantitative evaluation",
+    "a pre-compiled list"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

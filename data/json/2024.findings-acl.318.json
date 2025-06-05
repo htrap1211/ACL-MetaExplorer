@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.318",
+  "title": "R}eact{XT}: Understanding Molecular ``Reaction-ship'' via Reaction-Contextualized Molecule-Text Pretraining",
+  "authors": [
+    "Liu, Zhiyuan  and\nShi, Yaorui  and\nZhang, An  and\nLi, Sihang  and\nZhang, Enzhi  and\nWang, Xiang  and\nKawaguchi, Kenji  and\nChua, Tat-Seng"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Molecule-text modeling, which aims to facilitate molecule-relevant tasks with a textual interface and textual knowledge, is an emerging research direction. Beyond single molecules, studying reaction-text modeling holds promise for helping the synthesis of new materials and drugs. However, previous works mostly neglect reaction-text modeling: they primarily focus on modeling individual molecule-text pairs or learning chemical reactions without texts in context. Additionally, one key task of reaction-text modeling – experimental procedure prediction – is less explored due to the absence of an open-source dataset. The task is to predict step-by-step actions of conducting chemical experiments and is crucial to automating chemical synthesis. To resolve the challenges above, we propose a new pretraining method, ReactXT, for reaction-text modeling, and a new dataset, OpenExp, for experimental procedure prediction. Specifically, ReactXT features three types of input contexts to incrementally pretrain LMs. Each of the three input contexts corresponds to a pretraining task to improve the text-based understanding of either reactions or single molecules. ReactXT demonstrates consistent improvements in experimental procedure prediction and molecule captioning and offers competitive results in retrosynthesis. Our code is available at https://github.com/syr-cn/ReactXT.",
+  "keywords": [
+    "code",
+    "we",
+    "text",
+    "knowledge",
+    "modeling",
+    "openexp",
+    "single molecules",
+    "corresponds",
+    "previous",
+    "molecule",
+    "single",
+    "pairs",
+    "reaction-text modeling",
+    "an open-source dataset",
+    "dataset"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.318/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

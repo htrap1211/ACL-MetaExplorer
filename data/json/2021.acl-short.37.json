@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.37",
+  "title": "MOLEMAN}: Mention-Only Linking of Entities with a Mention Annotation Network",
+  "authors": [
+    "FitzGerald, Nicholas  and\nBikel, Dan  and\nBotha, Jan  and\nGillick, Daniel  and\nKwiatkowski, Tom  and\nMcCallum, Andrew"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "We present an instance-based nearest neighbor approach to entity linking. In contrast to most prior entity retrieval systems which represent each entity with a single vector, we build a contextualized mention-encoder that learns to place similar mentions of the same entity closer in vector space than mentions of different entities. This approach allows all mentions of an entity to serve as “class prototypes” as inference involves retrieving from the full set of labeled entity mentions in the training set and applying the nearest mention neighbor’s entity label. Our model is trained on a large multilingual corpus of mention pairs derived from Wikipedia hyperlinks, and performs nearest neighbor inference on an index of 700 million mentions. It is simpler to train, gives more interpretable predictions, and outperforms all other systems on two multilingual entity linking benchmarks.",
+  "keywords": [
+    "vector space",
+    "a contextualized mention-encoder",
+    "vector",
+    "different entities",
+    "a single vector",
+    "model",
+    "entities",
+    "it",
+    "class",
+    "encoder",
+    "retrieval",
+    "network",
+    "we",
+    "entity",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.37/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

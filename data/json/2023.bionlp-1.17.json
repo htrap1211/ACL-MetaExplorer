@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.17",
+  "title": "ADEQA}: A Question Answer based approach for joint {ADE}-Suspect Extraction using Sequence-To-Sequence Transformers",
+  "authors": [
+    "Arannil, Vinayak  and\nDeb, Tomal  and\nRoy, Atanu"
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "Early identification of Adverse Drug Events (ADE) is critical for taking prompt actions while introducing new drugs into the market. These ADEs information are available through various unstructured data sources like clinical study reports, patient health records, social media posts, etc. Extracting ADEs and the related suspect drugs using machine learning is a challenging task due to the complex linguistic relations between drug ADE pairs in textual data and unavailability of large corpus of labelled datasets. This paper introduces ADEQA, a question- answer(QA) based approach using quasi supervised labelled data and sequence-to-sequence transformers to extract ADEs, drug suspects and the relationships between them. Unlike traditional QA models, natural language generation (NLG) based models don’t require extensive token level labelling and thereby reduces the adoption barrier significantly. On a public ADE corpus, we were able to achieve state-of-the-art results with an F1 score of 94% on establishing the relationships between ADEs and the respective suspects.",
+  "keywords": [
+    "transformers",
+    "extraction",
+    "question",
+    "we",
+    "barrier",
+    "answer",
+    "natural",
+    "token",
+    "adeqa",
+    "information",
+    "machine learning",
+    "sequence",
+    "learning",
+    "qa based approach",
+    "prompt"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

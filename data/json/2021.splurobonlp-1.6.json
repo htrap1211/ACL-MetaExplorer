@@ -1,0 +1,33 @@
+{
+  "id": "2021.splurobonlp-1.6",
+  "title": "Error-Aware Interactive Semantic Parsing of {O}pen{S}treet{M}ap",
+  "authors": [
+    "Staniek, Michael  and\nRiezler, Stefan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of Second International Combined Workshop on Spatial Language Understanding and Grounded Communication for Robotics",
+  "abstract": "In semantic parsing of geographical queries against real-world databases such as OpenStreetMap (OSM), unique correct answers do not necessarily exist. Instead, the truth might be lying in the eye of the user, who needs to enter an interactive setup where ambiguities can be resolved and parsing mistakes can be corrected. Our work presents an approach to interactive semantic parsing where an explicit error detection is performed, and a clarification question is generated that pinpoints the suspected source of ambiguity or error and communicates it to the human user. Our experimental results show that a combination of entropy-based uncertainty detection and beam search, together with multi-source training on clarification question, initial parse, and user answer, results in improvements of 1.2% F1 score on a parser that already performs at 90.26% on the NLMaps dataset for OSM semantic parsing.",
+  "keywords": [
+    "parsing",
+    "question",
+    "semantic",
+    "ambiguities",
+    "training",
+    "interactive semantic parsing",
+    "answer",
+    "error-aware interactive semantic parsing",
+    "it",
+    "queries",
+    "pen",
+    "1 2 f1 score",
+    "osm semantic parsing",
+    "work",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2021.splurobonlp-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:22:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

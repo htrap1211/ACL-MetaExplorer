@@ -1,0 +1,33 @@
+{
+  "id": "2023.nlp4convai-1.4",
+  "title": "Dialogue State Tracking with Sparse Local Slot Attention",
+  "authors": [
+    "Yang, Longfei  and\nLi, Jiyi  and\nLi, Sheng  and\nShinozaki, Takahiro"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 5th Workshop on NLP for Conversational AI (NLP4ConvAI 2023)",
+  "abstract": "Dialogue state tracking (DST) is designed to track the dialogue state during the conversations between users and systems, which is the core of task-oriented dialogue systems. Mainstream models predict the values for each slot with fully token-wise slot attention from dialogue history. However, such operations may result in overlooking the neighboring relationship. Moreover, it may lead the model to assign probability mass to irrelevant parts, while these parts contribute little. It becomes severe with the increase in dialogue length. Therefore, we investigate sparse local slot attention for DST in this work. Slot-specific local semantic information is obtained at a sub-sampled temporal resolution capturing local dependencies for each slot. Then these local representations are attended with sparse attention weights to guide the model to pay attention to relevant parts of local information for subsequent state value prediction. The experimental results on MultiWOZ 2.0 and 2.4 datasets show that the proposed approach effectively improves the performance of ontology-based dialogue state tracking, and performs better than token-wise attention for long dialogues.",
+  "keywords": [
+    "conversations",
+    "sparse attention weights",
+    "semantic",
+    "we",
+    "dialogue",
+    "the dialogue state",
+    "local dependencies",
+    "long dialogues",
+    "it",
+    "token",
+    "dependencies",
+    "information",
+    "core",
+    "ontology-based dialogue state tracking",
+    "dialogue length"
+  ],
+  "url": "https://aclanthology.org/2023.nlp4convai-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:25:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

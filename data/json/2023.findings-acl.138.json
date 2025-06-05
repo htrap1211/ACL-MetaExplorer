@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.138",
+  "title": "Adversarial Robustness of Prompt-based Few-Shot Learning for Natural Language Understanding",
+  "authors": [
+    "Nookala, Venkata Prabhakara Sarath  and\nVerma, Gaurav  and\nMukherjee, Subhabrata  and\nKumar, Srijan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "State-of-the-art few-shot learning (FSL) methods leverage prompt-based fine-tuning to obtain remarkable results for natural language understanding (NLU) tasks. While much of the prior FSL methods focus on improving downstream task performance, there is a limited understanding of the adversarial robustness of such methods. In this work, we conduct an extensive study of several state-of-the-art FSL methods to assess their robustness to adversarial perturbations. To better understand the impact of various factors towards robustness (or the lack of it), we evaluate prompt-based FSL methods against fully fine-tuned models for aspects such as the use of unlabeled data, multiple prompts, number of few-shot examples, model size and type. Our results on six GLUE tasks indicate that compared to fully fine-tuned models, vanilla FSL methods lead to a notable relative drop in task performance (i.e., are less robust) in the face of adversarial perturbations. However, using (i) unlabeled data for prompt-based FSL and (ii) multiple prompts flip the trend – the few-shot learning approaches demonstrate a lesser drop in task performance than fully fine-tuned models. We further demonstrate that increasing the number of few-shot examples and model size lead to increased adversarial robustness of vanilla FSL methods. Broadly, our work sheds light on the adversarial robustness evaluation of prompt-based FSL methods for NLU tasks.",
+  "keywords": [
+    "prompt-based fsl methods",
+    "we",
+    "the few-shot learning approaches",
+    "the adversarial robustness evaluation",
+    "shot",
+    "natural",
+    "it",
+    "prompt-based fine-tuning",
+    "learning",
+    "natural language",
+    "tuning",
+    "prompt",
+    "i",
+    "few-shot examples model size",
+    "few-shot examples"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.138/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "W19-5360",
+  "title": "Filtering Pseudo-References by Paraphrasing for Automatic Evaluation of Machine Translation",
+  "authors": [
+    "Yoshimura, Ryoma  and\nShimanaka, Hiroki  and\nMatsumura, Yukio  and\nYamagishi, Hayahide  and\nKomachi, Mamoru"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1)",
+  "abstract": "In this paper, we introduce our participation in the WMT 2019 Metric Shared Task. We propose an improved version of sentence BLEU using filtered pseudo-references. We propose a method to filter pseudo-references by paraphrasing for automatic evaluation of machine translation (MT). We use the outputs of off-the-shelf MT systems as pseudo-references filtered by paraphrasing in addition to a single human reference (gold reference). We use BERT fine-tuned with paraphrase corpus to filter pseudo-references by checking the paraphrasability with the gold reference. Our experimental results of the WMT 2016 and 2017 datasets show that our method achieved higher correlation with human evaluation than the sentence BLEU (SentBLEU) baselines with a single reference and with unfiltered pseudo-references.",
+  "keywords": [
+    "sentence bleu",
+    "reference",
+    "human evaluation",
+    "bert",
+    "machine",
+    "metric",
+    "human",
+    "bleu",
+    "-",
+    "machine translation",
+    "fine",
+    "we",
+    "automatic evaluation",
+    "evaluation",
+    "sentbleu"
+  ],
+  "url": "https://aclanthology.org/W19-5360/",
+  "provenance": {
+    "collected_at": "2025-06-05 02:08:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

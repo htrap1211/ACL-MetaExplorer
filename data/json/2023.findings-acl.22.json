@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.22",
+  "title": "Rethinking Round-Trip Translation for Machine Translation Evaluation",
+  "authors": [
+    "Zhuo, Terry Yue  and\nXu, Qiongkai  and\nHe, Xuanli  and\nCohn, Trevor"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Automatic evaluation methods for translation often require model training, and thus the availability of parallel corpora limits their applicability to low-resource settings. Round-trip translation is a potential workaround, which can reframe bilingual evaluation into a much simpler monolingual task. Early results from the era of statistical machine translation (SMT) raised fundamental concerns about the utility of this approach, based on poor correlation with human translation quality judgments. In this paper, we revisit this technique with modern neural translation (NMT) and show that round-trip translation does allow for accurate automatic evaluation without the need for reference translations. These opposite findings can be explained through the copy mechanism in SMT that is absent in NMT. We demonstrate that round-trip translation benefits multiple machine translation evaluation tasks: i) predicting forward translation scores; ii) improving the performance of a quality estimation model; and iii) identifying adversarial competitors in shared tasks via cross-system verification.",
+  "keywords": [
+    "era",
+    "we",
+    "training",
+    "translation",
+    "cross",
+    "neural",
+    "human translation quality judgments",
+    "statistical machine translation smt",
+    "reference translations",
+    "forward translation scores ii",
+    "accurate automatic evaluation",
+    "i",
+    "early",
+    "bilingual evaluation",
+    "reference"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.22/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

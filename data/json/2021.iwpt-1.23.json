@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwpt-1.23",
+  "title": "TGIF}: Tree-Graph Integrated-Format Parser for Enhanced {UD} with Two-Stage Generic- to Individual-Language Finetuning",
+  "authors": [
+    "Shi, Tianze  and\nLee, Lillian"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 17th International Conference on Parsing Technologies and the IWPT 2021 Shared Task on Parsing into Enhanced Universal Dependencies (IWPT 2021)",
+  "abstract": "We present our contribution to the IWPT 2021 shared task on parsing into enhanced Universal Dependencies. Our main system component is a hybrid tree-graph parser that integrates (a) predictions of spanning trees for the enhanced graphs with (b) additional graph edges not present in the spanning trees. We also adopt a finetuning strategy where we first train a language-generic parser on the concatenation of data from all available languages, and then, in a second step, finetune on each individual language separately. Additionally, we develop our own complete set of pre-processing modules relevant to the shared task, including tokenization, sentence segmentation, and multiword token expansion, based on pre-trained XLM-R models and our own pre-training of character-level language models. Our submission reaches a macro-average ELAS of 89.24 on the test set. It ranks top among all teams, with a margin of more than 2 absolute ELAS over the next best-performing submission, and best score on 16 out of 17 languages.",
+  "keywords": [
+    "enhanced universal dependencies",
+    "we",
+    "graph",
+    "training",
+    "a language-generic parser",
+    "it",
+    "token",
+    "dependencies",
+    "format",
+    "tokenization sentence segmentation",
+    "processing",
+    "tokenization",
+    "generic-",
+    "generic",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2021.iwpt-1.23/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

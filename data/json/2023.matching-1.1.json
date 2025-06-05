@@ -1,0 +1,33 @@
+{
+  "id": "2023.matching-1.1",
+  "title": "Text-To-{KG} Alignment: Comparing Current Methods on Classification Tasks",
+  "authors": [
+    "Wold, Sondre  and\n{\\O}vrelid, Lilja  and\nVelldal, Erik"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the First Workshop on Matching From Unstructured and Structured Data (MATCHING 2023)",
+  "abstract": "In contrast to large text corpora, knowledge graphs (KG) provide dense and structured representations of factual information. This makes them attractive for systems that supplement or ground the knowledge found in pre-trained language models with an external knowledge source. This has especially been the case for classification tasks, where recent work has focused on creating pipeline models that retrieve information from KGs like ConceptNet as additional context. Many of these models consist of multiple components, and although they differ in the number and nature of these parts, they all have in common that for some given text query, they attempt to identify and retrieve a relevant subgraph from the KG. Due to the noise and idiosyncrasies often found in KGs, it is not known how current methods compare to a scenario where the aligned subgraph is completely relevant to the query. In this work, we try to bridge this knowledge gap by reviewing current approaches to text-to-KG alignment and evaluating them on two datasets where manually created graphs are available, providing insights into the effectiveness of current methods. We release our code for reproducibility.",
+  "keywords": [
+    "code",
+    "all",
+    "we",
+    "current",
+    "classification",
+    "classification tasks",
+    "pre-trained language models",
+    "text-to-kg alignment",
+    "it",
+    "idiosyncrasies",
+    "information",
+    "kgs",
+    "text",
+    "work",
+    "alignment"
+  ],
+  "url": "https://aclanthology.org/2023.matching-1.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:25:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

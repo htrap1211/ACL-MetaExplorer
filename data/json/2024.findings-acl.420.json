@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.420",
+  "title": "Comments as Natural Logic Pivots: Improve Code Generation via Comment Perspective",
+  "authors": [
+    "Chen, Yijie  and\nLiu, Yijin  and\nMeng, Fandong  and\nChen, Yufeng  and\nXu, Jinan  and\nZhou, Jie"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Code generation aims to understand the problem description and generate corresponding code snippets, where existing works generally decompose such complex tasks into intermediate steps by prompting strategies, such as Chain-of-Thought and its variants. While these studies have achieved some success, their effectiveness is highly dependent on the capabilities of advanced Large Language Models (LLMs) such as GPT-4, particularly in terms of API calls, which significantly limits their practical applicability. Consequently, how to enhance the code generation capabilities of small and medium-scale code LLMs without significantly increasing training costs is an appealing challenge. In this paper, we suggest that code comments are the natural logic pivot between natural language and code language and propose using comments to boost the code generation ability of code LLMs. Concretely, we propose MANGO (comMents As Natural loGic pivOts), including a comment contrastive training strategy and a corresponding logical comment decoding strategy. Experiments are performed on HumanEval and MBPP, utilizing StarCoder and WizardCoder as backbone models, and encompassing model parameter sizes between 3B and 7B. The results indicate that MANGO significantly improves the code pass rate based on the strong baselines. Meanwhile, the robustness of the logical comment decoding strategy is notably higher than the Chain-of-thoughts prompting.",
+  "keywords": [
+    "code",
+    "chain",
+    "these studies",
+    "rate",
+    "the code generation ability",
+    "we",
+    "parameter",
+    "training",
+    "natural",
+    "code llms",
+    "the capabilities",
+    "natural language",
+    "comment perspective code generation",
+    "llms",
+    "strategies"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.420/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

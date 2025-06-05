@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.801",
+  "title": "Improving the robustness of {NLI} models with minimax training",
+  "authors": [
+    "Korakakis, Michalis  and\nVlachos, Andreas"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Natural language inference (NLI) models are susceptible to learning shortcuts, i.e. decision rules that spuriously correlate with the label. As a result, they achieve high in-distribution performance, but fail to generalize to out-of-distribution samples where such correlations do not hold. In this paper, we present a training method to reduce the reliance of NLI models on shortcuts and improve their out-of-distribution performance without assuming prior knowledge of the shortcuts being targeted. To this end, we propose a minimax objective between a learner model being trained for the NLI task, and an auxiliary model aiming to maximize the learner’s loss by up-weighting examples from regions of the input space where the learner incurs high losses. This process incentivizes the learner to focus on under-represented “hard” examples with patterns that contradict the shortcuts learned from the prevailing “easy” examples. Experimental results on three NLI datasets demonstrate that our method consistently outperforms other robustness enhancing techniques on out-of-distribution adversarial test sets, while maintaining high in-distribution accuracy.",
+  "keywords": [
+    "end",
+    "we",
+    "a learner model",
+    "a minimax objective",
+    "training",
+    "natural",
+    "loss",
+    "i",
+    "objective",
+    "the learner s loss",
+    "learner",
+    "accuracy",
+    "process",
+    "the learner",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.801/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:46:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

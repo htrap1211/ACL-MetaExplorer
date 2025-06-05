@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.554",
+  "title": "Softmax Bottleneck Makes Language Models Unable to Represent Multi-mode Word Distributions",
+  "authors": [
+    "Chang, Haw-Shiuan  and\nMcCallum, Andrew"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Neural language models (LMs) such as GPT-2 estimate the probability distribution over the next word by a softmax over the vocabulary. The softmax layer produces the distribution based on the dot products of a single hidden state and the embeddings of words in the vocabulary. However, we discover that this single hidden state cannot produce all probability distributions regardless of the LM size or training data size because the single hidden state embedding cannot be close to the embeddings of all the possible next words simultaneously when there are other interfering word embeddings between them. In this work, we demonstrate the importance of this limitation both theoretically and practically. Our work not only deepens our understanding of softmax bottleneck and mixture of softmax (MoS) but also inspires us to propose multi-facet softmax (MFS) to address the limitations of MoS. Extensive empirical analyses confirm our findings and show that against MoS, the proposed MFS achieves two-fold improvements in the perplexity of GPT-2 and BERT.",
+  "keywords": [
+    "embeddings",
+    "work",
+    "other interfering word embeddings",
+    "the embeddings",
+    "language",
+    "neural",
+    "bert",
+    "softmax mos",
+    "softmax bottleneck",
+    "language models",
+    "the softmax layer",
+    "perplexity",
+    "us",
+    "layer",
+    "the perplexity"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.554/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

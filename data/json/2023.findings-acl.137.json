@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.137",
+  "title": "Cross Encoding as Augmentation: Towards Effective Educational Text Classification",
+  "authors": [
+    "Lee, Hyun Seung  and\nChoi, Seungtaek  and\nLee, Yunsung  and\nMoon, Hyeongdon  and\nOh, Shinhyeok  and\nJeong, Myeongho  and\nGo, Hyojun  and\nWallraven, Christian"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Text classification in education, usually called auto-tagging, is the automated process of assigning relevant tags to educational content, such as questions and textbooks. However, auto-tagging suffers from a data scarcity problem, which stems from two major challenges: 1) it possesses a large tag space and 2) it is multi-label. Though a retrieval approach is reportedly good at low-resource scenarios, there have been fewer efforts to directly address the data scarcity problem. To mitigate these issues, here we propose a novel retrieval approach CEAA that provides effective learning in educational text classification. Our main contributions are as follows: 1) we leverage transfer learning from question-answering datasets, and 2) we propose a simple but effective data augmentation method introducing cross-encoder style texts to a bi-encoder architecture for more efficient inference. An extensive set of experiments shows that our proposed method is effective in multi-label scenarios and low-resource tags compared to state-of-the-art models.",
+  "keywords": [
+    "efficient",
+    "question",
+    "we",
+    "classification",
+    "cross",
+    "it",
+    "retrieval",
+    "tag",
+    "a bi-encoder architecture",
+    "educational text classification",
+    "learning",
+    "transfer",
+    "a retrieval approach",
+    "text",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.137/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

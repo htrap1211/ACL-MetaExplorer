@@ -1,0 +1,33 @@
+{
+  "id": "2022.ecnlp-1.28",
+  "title": "A Simple Baseline for Domain Adaptation in End to End {ASR} Systems Using Synthetic Data",
+  "authors": [
+    "Joshi, Raviraj  and\nSingh, Anupam"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Fifth Workshop on e-Commerce and NLP (ECNLP 5)",
+  "abstract": "Automatic Speech Recognition(ASR) has been dominated by deep learning-based end-to-end speech recognition models. These approaches require large amounts of labeled data in the form of audio-text pairs. Moreover, these models are more susceptible to domain shift as compared to traditional models. It is common practice to train generic ASR models and then adapt them to target domains using comparatively smaller data sets. We consider a more extreme case of domain adaptation where text-only corpus is available. In this work, we propose a simple baseline technique for domain adaptation in end-to-end speech recognition models. We convert the text-only corpus to audio data using single speaker Text to Speech (TTS) engine. The parallel data in the target domain is then used to fine-tune the final dense layer of generic ASR models. We show that single speaker synthetic TTS data coupled with final dense layer only fine-tuning provides reasonable improvements in word error rates. We use text data from address and e-commerce search domains to show the effectiveness of our low-cost baseline approach on CTC and attention-based models.",
+  "keywords": [
+    "deep",
+    "end",
+    "layer",
+    "form",
+    "we",
+    "it",
+    "attention-based models",
+    "word",
+    "learning",
+    "generic asr models",
+    "tuning",
+    "text",
+    "generic",
+    "fine",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2022.ecnlp-1.28/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:42:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

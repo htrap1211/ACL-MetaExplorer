@@ -1,0 +1,33 @@
+{
+  "id": "P19-1105",
+  "title": "Text Categorization by Learning Predominant Sense of Words as Auxiliary Task",
+  "authors": [
+    "Shimura, Kazuya  and\nLi, Jiyi  and\nFukumoto, Fumiyo"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Distributions of the senses of words are often highly skewed and give a strong influence of the domain of a document. This paper follows the assumption and presents a method for text categorization by leveraging the predominant sense of words depending on the domain, i.e., domain-specific senses. The key idea is that the features learned from predominant senses are possible to discriminate the domain of the document and thus improve the overall performance of text categorization. We propose multi-task learning framework based on the neural network model, transformer, which trains a model to simultaneously categorize documents and predicts a predominant sense for each word. The experimental results using four benchmark datasets show that our method is comparable to the state-of-the-art categorization approach, especially our model works well for categorization of multi-label documents.",
+  "keywords": [
+    "transformer",
+    "neural",
+    "model",
+    "text",
+    "network",
+    "word",
+    "we",
+    "documents",
+    "four benchmark datasets",
+    "the predominant sense",
+    "predominant senses",
+    "multi",
+    "approach",
+    "the document",
+    "text categorization"
+  ],
+  "url": "https://aclanthology.org/P19-1105/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:32:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

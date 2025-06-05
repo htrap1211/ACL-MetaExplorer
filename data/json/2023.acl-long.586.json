@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.586",
+  "title": "Multilingual Knowledge Graph Completion with Language-Sensitive Multi-Graph Attention",
+  "authors": [
+    "Tang, Rongchuan  and\nZhao, Yang  and\nZong, Chengqing  and\nZhou, Yu"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Multilingual Knowledge Graph Completion (KGC) aims to predict missing links with multilingual knowledge graphs. However, existing approaches suffer from two main drawbacks: (a) alignment dependency: the multilingual KGC is always realized with joint entity or relation alignment, which introduces additional alignment models and increases the complexity of the whole framework; (b) training inefficiency: the trained model will only be used for the completion of one target KG, although the data from all KGs are used simultaneously. To address these drawbacks, we propose a novel multilingual KGC framework with language-sensitive multi-graph attention such that the missing links on all given KGs can be inferred by a universal knowledge completion model. Specifically, we first build a relational graph neural network by sharing the embeddings of aligned nodes to transfer language-independent knowledge. Meanwhile, a language-sensitive multi-graph attention (LSMGA) is proposed to deal with the information inconsistency among different KGs. Experimental results show that our model achieves significant improvements on the DBP-5L and E-PKG datasets.",
+  "keywords": [
+    "multilingual knowledge graphs",
+    "alignment",
+    "embeddings",
+    "the embeddings",
+    "knowledge",
+    "all kgs",
+    "language",
+    "the multilingual kgc",
+    "neural",
+    "model",
+    "different kgs experimental results",
+    "language-sensitive multi-graph attention",
+    "information",
+    "inefficiency",
+    "pkg"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.586/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.802",
+  "title": "Aspect-aware Unsupervised Extractive Opinion Summarization",
+  "authors": [
+    "Li, Haoyuan  and\nBasu Roy Chowdhury, Somnath  and\nChaturvedi, Snigdha"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Extractive opinion summarization extracts sentences from users’ reviews to represent the prevalent opinions about a product or service. However, the extracted sentences can be redundant and may miss some important aspects, especially for centroid-based extractive summarization models (Radev et al., 2004). To alleviate these issues, we introduce TokenCluster– a method for unsupervised extractive opinion summarization that automatically identifies the aspects described in the review sentences and then extracts sentences based on their aspects. It identifies the underlying aspects of the review sentences using roots of noun phrases and adjectives appearing in them. Empirical evaluation shows that TokenCluster improves aspect coverage in summaries and achieves strong performance on multiple opinion summarization datasets, for both general and aspect-specific summarization. We also perform extensive ablation and human evaluation studies to validate the design choices of our method. The implementation of our work is available athttps://github.com/leehaoyuan/TokenCluster",
+  "keywords": [
+    "users reviews",
+    "work",
+    "general",
+    "summaries",
+    "studies",
+    "it",
+    "human",
+    "the review sentences",
+    "multiple opinion summarization datasets",
+    "summarization",
+    "we",
+    "unsupervised extractive opinion summarization",
+    "review",
+    "evaluation",
+    "human evaluation studies"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.802/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

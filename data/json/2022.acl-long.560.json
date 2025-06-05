@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.560",
+  "title": "EAG}: Extract and Generate Multi-way Aligned Corpus for Complete Multi-lingual Neural Machine Translation",
+  "authors": [
+    "Xu, Yulin  and\nYang, Zhen  and\nMeng, Fandong  and\nZhou, Jie"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Complete Multi-lingual Neural Machine Translation (C-MNMT) achieves superior performance against the conventional MNMT by constructing multi-way aligned corpus, i.e., aligning bilingual training examples from different language pairs when either their source or target sides are identical. However, since exactly identical sentences from different language pairs are scarce, the power of the multi-way aligned corpus is limited by its scale. To handle this problem, this paper proposes “Extract and Generate” (EAG), a two-step approach to construct large-scale and high-quality multi-way aligned corpus from bilingual data. Specifically, we first extract candidate aligned examples by pairing the bilingual examples from different language pairs with highly similar source or target sentences; and then generate the final aligned examples from the candidates with a well-trained generation model. With this two-step pipeline, EAG can construct a large-scale and multi-way aligned corpus whose diversity is almost identical to the original bilingual corpus. Experiments on two publicly available datasets i.e., WMT-5 and OPUS-100, show that the proposed method achieves significant improvements over strong baselines, with +1.1 and +1.4 BLEU points improvements on the two datasets respectively.",
+  "keywords": [
+    "bleu",
+    "we",
+    "training",
+    "translation",
+    "neural",
+    "c",
+    "i",
+    "language",
+    "generation",
+    "model",
+    "machine",
+    "extract",
+    "a well-trained generation model",
+    "multi",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.560/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

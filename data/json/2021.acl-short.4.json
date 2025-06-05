@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.4",
+  "title": "Enhancing Entity Boundary Detection for Better {C}hinese Named Entity Recognition",
+  "authors": [
+    "Chen, Chun  and\nKong, Fang"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "In comparison with English, due to the lack of explicit word boundary and tenses information, Chinese Named Entity Recognition (NER) is much more challenging. In this paper, we propose a boundary enhanced approach for better Chinese NER. In particular, our approach enhances the boundary information from two perspectives. On one hand, we enhance the representation of the internal dependency of phrases by an additional Graph Attention Network(GAT) layer. On the other hand, taking the entity head-tail prediction (i.e., boundaries) as an auxiliary task, we propose an unified framework to learn the boundary information and recognize the NE jointly. Experiments on both the OntoNotes and the Weibo corpora show the effectiveness of our approach.",
+  "keywords": [
+    "ner",
+    "an unified framework",
+    "the internal dependency",
+    "better chinese ner",
+    "boundaries",
+    "entity recognition ner",
+    "unified",
+    "information",
+    "layer",
+    "dependency",
+    "attention",
+    "word",
+    "we",
+    "network",
+    "i e boundaries"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

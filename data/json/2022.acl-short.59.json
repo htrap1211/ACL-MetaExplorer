@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.59",
+  "title": "Region-dependent temperature scaling for certainty calibration and application to class-imbalanced token classification",
+  "authors": [
+    "Dawkins, Hillary  and\nNejadgholi, Isar"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Certainty calibration is an important goal on the path to interpretability and trustworthy AI. Particularly in the context of human-in-the-loop systems, high-quality low to mid-range certainty estimates are essential. In the presence of a dominant high-certainty class, for instance the non-entity class in NER problems, existing calibration error measures are completely insensitive to potentially large errors in this certainty region of interest. We introduce a region-balanced calibration error metric that weights all certainty regions equally. When low and mid certainty estimates are taken into account, calibration error is typically larger than previously reported. We introduce a simple extension of temperature scaling, requiring no additional computation, that can reduce both traditional and region-balanced notions of calibration error over existing baselines.",
+  "keywords": [
+    "ner",
+    "metric",
+    "human",
+    "class",
+    "token",
+    "we",
+    "entity",
+    "ner problems",
+    "classification",
+    "that",
+    "the presence",
+    "traditional",
+    "measures",
+    "larger",
+    "presence"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.59/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:33:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

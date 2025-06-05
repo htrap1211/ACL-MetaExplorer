@@ -1,0 +1,33 @@
+{
+  "id": "P19-1499",
+  "title": "HIBERT}: Document Level Pre-training of Hierarchical Bidirectional Transformers for Document Summarization",
+  "authors": [
+    "Zhang, Xingxing  and\nWei, Furu  and\nZhou, Ming"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Neural extractive summarization models usually employ a hierarchical encoder for document encoding and they are trained using sentence-level labels, which are created heuristically using rule-based methods. Training the hierarchical encoder with theseinaccuratelabels is challenging. Inspired by the recent work on pre-training transformer sentence encoders (Devlin et al., 2018), we propose Hibert (as shorthand forHIerachicalBidirectionalEncoderRepresentations fromTransformers) for document encoding and a method to pre-train it using unlabeled data. We apply the pre-trained Hibert to our summarization model and it outperforms its randomly initialized counterpart by 1.25 ROUGE on the CNN/Dailymail dataset and by 2.0 ROUGE on a version of New York Times dataset. We also achieve the state-of-the-art performance on these two datasets.",
+  "keywords": [
+    "work",
+    "forhierachicalbidirectionalencoderrepresentations",
+    "transformer",
+    "hibert document level pre",
+    "hierarchical",
+    "our summarization model",
+    "transformers",
+    "a hierarchical encoder",
+    "neural",
+    "cnn",
+    "model",
+    "pre-training transformer sentence encoders",
+    "it",
+    "-",
+    "shorthand forhierachicalbidirectionalencoderrepresentations fromtransformers"
+  ],
+  "url": "https://aclanthology.org/P19-1499/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:43:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

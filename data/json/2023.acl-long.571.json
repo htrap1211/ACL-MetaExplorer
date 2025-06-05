@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.571",
+  "title": "LAIT}: Efficient Multi-Segment Encoding in Transformers with Layer-Adjustable Interaction",
+  "authors": [
+    "Milbauer, Jeremiah  and\nLouis, Annie  and\nHosseini, Mohammad Javad  and\nFabrikant, Alex  and\nMetzler, Donald  and\nSchuster, Tal"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Transformer encoders contextualize token representations by attending to all other tokens at each layer, leading to quadratic increase in compute effort with the input length. In practice, however, the input text of many NLP tasks can be seen as a sequence of related segments (e.g., the sequence of sentences within a passage, or the hypothesis and premise in NLI). While attending across these segments is highly beneficial for many tasks, we hypothesize that this interaction can be delayed until later encoding stages. To this end, we introduce Layer-Adjustable Interactions in Transformers (LAIT). Within LAIT, segmented inputs are first encoded independently, and then jointly. This partial two-tower architecture bridges the gap between a Dual Encoder’s ability to pre-compute representations for segments and a fully self-attentive Transformer’s capacity to model cross-segment attention. The LAIT framework effectively leverages existing pretrained Transformers and converts them into the hybrid of the two aforementioned architectures, allowing for easy and intuitive control over the performance-efficiency tradeoff. Experimenting on a wide range of NLP tasks, we find LAIT able to reduce 30-50% of the attention FLOPs on many tasks, while preserving high accuracy; in some practical settings, LAIT could reduce actual latency by orders of magnitude.",
+  "keywords": [
+    "transformers",
+    "end",
+    "efficient",
+    "cross-segment attention",
+    "layer",
+    "efficiency",
+    "we",
+    "cross",
+    "many nlp tasks",
+    "high accuracy",
+    "token",
+    "self",
+    "sequence",
+    "nlp tasks",
+    "existing pretrained transformers"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.571/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

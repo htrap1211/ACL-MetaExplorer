@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.70",
+  "title": "What Context Features Can Transformer Language Models Use?",
+  "authors": [
+    "O{'}Connor, Joe  and\nAndreas, Jacob"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Transformer-based language models benefit from conditioning on contexts of hundreds to thousands of previous tokens. What aspects of these contexts contribute to accurate model prediction? We describe a series of experiments that measure usable information by selectively ablating lexical and structural information in transformer language models trained on English Wikipedia. In both mid- and long-range contexts, we find that several extremely destructive context manipulations—including shuffling word order within sentences and deleting all words other than nouns—remove less than 15% of the usable information. Our results suggest that long contexts, but not their detailed syntactic and propositional content, are important for the low perplexity of current transformer language models.",
+  "keywords": [
+    "transformer",
+    "a series",
+    "the low perplexity",
+    "language",
+    "model",
+    "current transformer language models",
+    "transformer language models",
+    "language models",
+    "series",
+    "perplexity",
+    "information",
+    "transformer-based language models",
+    "word",
+    "we",
+    "current"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.70/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:00:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

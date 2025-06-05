@@ -1,0 +1,33 @@
+{
+  "id": "P19-1360",
+  "title": "Semantically Conditioned Dialog Response Generation via Hierarchical Disentangled Self-Attention",
+  "authors": [
+    "Chen, Wenhu  and\nChen, Jianshu  and\nQin, Pengda  and\nYan, Xifeng  and\nWang, William Yang"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Semantically controlled neural response generation on limited-domain has achieved great performance. However, moving towards multi-domain large-scale scenarios are shown to be difficult because the possible combinations of semantic inputs grow exponentially with the number of domains. To alleviate such scalability issue, we exploit the structure of dialog acts to build a multi-layer hierarchical graph, where each act is represented as a root-to-leaf route on the graph. Then, we incorporate such graph structure prior as an inductive bias to build a hierarchical disentangled self-attention network, where we disentangle attention heads to model designated nodes on the dialog act graph. By activating different (disentangled) heads at each layer, combinatorially many dialog act semantics can be modeled to control the neural response generation. On the large-scale Multi-Domain-WOZ dataset, our model can yield a significant improvement over the baselines on various automatic and human evaluation metrics.",
+  "keywords": [
+    "semantic inputs",
+    "many dialog act semantics",
+    "hierarchical",
+    "bias",
+    "generation",
+    "neural",
+    "attention heads",
+    "model",
+    "semantics",
+    "human",
+    "the neural response generation",
+    "metrics",
+    "self",
+    "dialog",
+    "an inductive bias"
+  ],
+  "url": "https://aclanthology.org/P19-1360/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:39:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

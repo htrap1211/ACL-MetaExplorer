@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.212",
+  "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+  "authors": [
+    "Dhuliawala, Shehzaad  and\nKomeili, Mojtaba  and\nXu, Jing  and\nRaileanu, Roberta  and\nLi, Xian  and\nCelikyilmaz, Asli  and\nWeston, Jason"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Generation of plausible yet incorrect factual information, termed hallucination, is an unsolved issue in large language models. We study the ability of language models to deliberate on the responses they give in order to correct their mistakes. We develop the Chain-of-Verification (CoVe) method whereby the model first (i) drafts an initial response; then (ii) plans verification questions to fact-check its draft; (iii) answers those questions independently so the answers are not biased by other responses; and (iv) generates its final verified response. In experiments, we show CoVe decreases hallucinations across a variety of tasks, from list-based questions from Wikidata, closed book MultiSpanQA and longform text generation.",
+  "keywords": [
+    "variety",
+    "multispanqa",
+    "longform text generation",
+    "i",
+    "language",
+    "generation",
+    "model",
+    "text",
+    "chain",
+    "large language models",
+    "language models",
+    "information",
+    "wikidata closed book multispanqa",
+    "we",
+    "large language models generation"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.212/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

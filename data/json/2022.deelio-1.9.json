@@ -1,0 +1,33 @@
+{
+  "id": "2022.deelio-1.9",
+  "title": "On Masked Language Models for Contextual Link Prediction",
+  "authors": [
+    "Brayne, Angus  and\nWiatrak, Maciej  and\nCorneil, Dane"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of Deep Learning Inside Out (DeeLIO 2022): The 3rd Workshop on Knowledge Extraction and Integration for Deep Learning Architectures",
+  "abstract": "In the real world, many relational facts require context; for instance, a politician holds a given elected position only for a particular timespan. This context (the timespan) is typically ignored in knowledge graph link prediction tasks, or is leveraged by models designed specifically to make use of it (i.e. n-ary link prediction models). Here, we show that the task of n-ary link prediction is easily performed using language models, applied with a basic method for constructing cloze-style query sentences. We introduce a pre-training methodology based around an auxiliary entity-linked corpus that outperforms other popular pre-trained models like BERT, even with a smaller model. This methodology also enables n-ary link prediction without access to any n-ary training set, which can be invaluable in circumstances where expensive and time-consuming curation of n-ary knowledge graphs is not feasible. We achieve state-of-the-art performance on the primary n-ary link prediction dataset WD50K and on WikiPeople facts that include literals - typically ignored by knowledge graph embedding methods.",
+  "keywords": [
+    "we",
+    "graph",
+    "training",
+    "masked language models",
+    "a pre-training methodology",
+    "it",
+    "n-ary knowledge graphs",
+    "bert",
+    "language models",
+    "knowledge",
+    "language",
+    "model",
+    "pre",
+    "entity",
+    "time"
+  ],
+  "url": "https://aclanthology.org/2022.deelio-1.9/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:41:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

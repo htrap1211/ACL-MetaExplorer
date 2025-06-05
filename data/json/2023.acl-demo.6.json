@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-demo.6",
+  "title": "Lingxi: A Diversity-aware {C}hinese Modern Poetry Generation System",
+  "authors": [
+    "Zhang, Xinran  and\nSun, Maosong  and\nLiu, Jiafeng  and\nLi, Xiaobing"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+  "abstract": "Chinese modern poetry generation has been a challenging task. One issue is the Chinese word segmentation (CWS) which is critical to comprehend the Chinese language but was not always considered in common tokenization methods. Another is the decoding (sampling) method which may induce repetition and boredom and severely lower the diversity of the generated poetry. To address these issues, we present Lingxi, a diversity-aware Chinese modern poetry generation system. For the CWS issue, we propose a novel framework that incorporates CWS in the tokenization process. The proposed method can achieve a high vocabulary coverage rate with a reasonable vocabulary size. For the decoding method and the diversity issue, we propose a novel sampling algorithm that flattens the high likelihood part of the predicted distribution of the language model to emphasize the comparatively low-likelihood words and increase the diversity of generated poetry. Empirical results show that even when the top 60% of cumulative probability mass of the predicted distribution is flattened, our method achieves comparable or even better performance than baseline sampling methods. Our system is available athttp://lingxi.website.",
+  "keywords": [
+    "rate",
+    "the generated poetry",
+    "common tokenization methods",
+    "we",
+    "word",
+    "the language model",
+    "the tokenization process",
+    "tokenization",
+    "chinese modern poetry generation",
+    "generated poetry empirical results",
+    "process",
+    "generation",
+    "language",
+    "model",
+    "repetition"
+  ],
+  "url": "https://aclanthology.org/2023.acl-demo.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:50:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

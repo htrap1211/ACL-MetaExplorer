@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.142",
+  "title": "Hey {AI}, Can You Solve Complex Tasks by Talking to Agents?",
+  "authors": [
+    "Khot, Tushar  and\nRichardson, Kyle  and\nKhashabi, Daniel  and\nSabharwal, Ashish"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Training giant models from scratch for each complex task is resource- and data-inefficient. To help develop models that can leverage existing systems, we propose a new challenge: Learning to solve complex tasks by communicating with existing agents (or models) in natural language. We design a synthetic benchmark, CommaQA, with three complex reasoning tasks (explicit, implicit, numeric) designed to be solved by communicating with existing QA agents. For instance, using text and table QA agents to answer questions such as “Who had the longest javelin throw from USA?”. We show that black-box models struggle to learn this task from scratch (accuracy under 50%) even with access to each agent’s knowledge and gold facts supervision. In contrast, models that learn to communicate with agents outperform black-box models, reaching scores of 100% when given gold decomposition supervision. However, we show that the challenge of learning to solve complex tasks by communicating with existing agentswithout relying on any auxiliary supervision or datastill remains highly elusive. We will release CommaQA, along with a compositional generalization test split, to advance research in this direction.",
+  "keywords": [
+    "a synthetic benchmark commaqa",
+    "inefficient",
+    "we",
+    "commaqa",
+    "natural",
+    "existing qa agents",
+    "natural language",
+    "table qa agents",
+    "scratch accuracy",
+    "text",
+    "generalization",
+    "accuracy",
+    "knowledge",
+    "language",
+    "supervision"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.142/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

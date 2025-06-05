@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.164",
+  "title": "CTRLE}val: An Unsupervised Reference-Free Metric for Evaluating Controlled Text Generation",
+  "authors": [
+    "Ke, Pei  and\nZhou, Hao  and\nLin, Yankai  and\nLi, Peng  and\nZhou, Jie  and\nZhu, Xiaoyan  and\nHuang, Minlie"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Existing reference-free metrics have obvious limitations for evaluating controlled text generation models. Unsupervised metrics can only provide a task-agnostic evaluation result which correlates weakly with human judgments, whereas supervised ones may overfit task-specific data with poor generalization ability to other datasets. In this paper, we propose an unsupervised reference-free metric called CTRLEval, which evaluates controlled text generation from different aspects by formulating each aspect into multiple text infilling tasks. On top of these tasks, the metric assembles the generation probabilities from a pre-trained language model without any model training. Experimental results show that our metric has higher correlations with human judgments than other baselines, while obtaining better generalization of evaluating generated texts from different models and with different qualities.",
+  "keywords": [
+    "reference",
+    "top",
+    "val",
+    "unsupervised metrics",
+    "generation",
+    "the generation probabilities",
+    "language",
+    "model",
+    "metric",
+    "generated texts",
+    "text",
+    "human",
+    "metrics",
+    "better generalization",
+    "controlled text generation"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.164/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

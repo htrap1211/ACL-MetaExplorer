@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.56",
+  "title": "Shimo Lab at ``Discharge Me!'': Discharge Summarization by Prompt-Driven Concatenation of Electronic Health Record Sections",
+  "authors": [
+    "He, Yunzhen  and\nYamagiwa, Hiroaki  and\nShimodaira, Hidetoshi"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "In this paper, we present our approach to the shared task “Discharge Me!” at the BioNLP Workshop 2024. The primary goal of this task is to reduce the time and effort clinicians spend on writing detailed notes in the electronic health record (EHR). Participants develop a pipeline to generate the “Brief Hospital Course” and “Discharge Instructions” sections from the EHR. Our approach involves a first step of extracting the relevant sections from the EHR. We then add explanatory prompts to these sections and concatenate them with separate tokens to create the input text. To train a text generation model, we perform LoRA fine-tuning on the ClinicalT5-large model. On the final test data, our approach achieved a ROUGE-1 of 0.394, which is comparable to the top solutions.",
+  "keywords": [
+    "summarization",
+    "we",
+    "prompt-driven concatenation",
+    "lora fine-tuning",
+    "tuning",
+    "prompt",
+    "text",
+    "bionlp",
+    "the brief hospital course",
+    "fine",
+    "me",
+    "prompts",
+    "generation",
+    "explanatory prompts",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.56/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

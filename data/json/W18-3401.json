@@ -1,0 +1,33 @@
+{
+  "id": "W18-3401",
+  "title": "Character-level Supervision for Low-resource {POS} Tagging",
+  "authors": [
+    "Kann, Katharina  and\nBjerva, Johannes  and\nAugenstein, Isabelle  and\nPlank, Barbara  and\nS{\\o}gaard, Anders"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the Workshop on Deep Learning Approaches for Low-Resource {NLP}",
+  "abstract": "Neural part-of-speech (POS) taggers are known to not perform well with little training data. As a step towards overcoming this problem, we present an architecture for learning more robust neural POS taggers by jointly training a hierarchical, recurrent model and a recurrent character-based sequence-to-sequence network supervised using an auxiliary objective. This way, we introduce stronger character-level supervision into the model, which enables better generalization to unseen words and provides regularization, making our encoding less prone to overfitting. We experiment with three auxiliary tasks: lemmatization, character-based word autoencoding, and character-based random string autoencoding. Experiments with minimal amounts of labeled data on 34 languages show that our new architecture outperforms a single-task baseline and, surprisingly, that, on average, raw text autoencoding can be as beneficial for low-resource POS tagging as using lemma information. Our neural POS tagger closes the gap to a state-of-the-art POS tagger (MarMoT) for low-resource scenarios by 43%, even outperforming it on languages with templatic morphology, e.g., Arabic, Hebrew, and Turkish, by some margin.",
+  "keywords": [
+    "an auxiliary objective",
+    "we",
+    "training",
+    "neural",
+    "it",
+    "information",
+    "word",
+    "sequence",
+    "recurrent",
+    "low-resource pos tagging",
+    "text",
+    "objective",
+    "pos",
+    "generalization",
+    "hierarchical"
+  ],
+  "url": "https://aclanthology.org/W18-3401/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:08:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

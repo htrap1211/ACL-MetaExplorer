@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.227",
+  "title": "Social-Group-Agnostic Bias Mitigation via the Stereotype Content Model",
+  "authors": [
+    "Omrani, Ali  and\nSalkhordeh Ziabari, Alireza  and\nYu, Charles  and\nGolazizian, Preni  and\nKennedy, Brendan  and\nAtari, Mohammad  and\nJi, Heng  and\nDehghani, Morteza"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Existing bias mitigation methods require social-group-specific word pairs (e.g., “man” – “woman”) for each social attribute (e.g., gender), restricting the bias mitigation to only one specified social attribute. Further, this constraint renders such methods impractical and costly for mitigating bias in understudied and/or unmarked social groups. We propose that the Stereotype Content Model (SCM) — a theoretical framework developed in social psychology for understanding the content of stereotyping — can help debiasing efforts to become social-group-agnostic by capturing the underlying connection between bias and stereotypes. SCM proposes that the content of stereotypes map to two psychological dimensions of warmth and competence. Using only pairs of terms for these two dimensions (e.g., warmth: “genuine” – “fake”; competence: “smart” – “stupid”), we perform debiasing with established methods on both pre-trained word embeddings and large language models. We demonstrate that our social-group-agnostic, SCM-based debiasing technique performs comparably to group-specific debiasing on multiple bias benchmarks, but has theoretical and practical advantages over existing approaches.",
+  "keywords": [
+    "bias",
+    "multiple bias benchmarks",
+    "man",
+    "we",
+    "understudied",
+    "debiasing",
+    "word",
+    "both pre-trained word embeddings",
+    "group-specific debiasing",
+    "the bias mitigation",
+    "social-group-agnostic bias mitigation",
+    "embeddings",
+    "e g",
+    "existing bias mitigation methods",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.227/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:38:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

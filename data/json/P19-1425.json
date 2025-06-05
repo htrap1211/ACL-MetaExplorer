@@ -1,0 +1,33 @@
+{
+  "id": "P19-1425",
+  "title": "Robust Neural Machine Translation with Doubly Adversarial Inputs",
+  "authors": [
+    "Cheng, Yong  and\nJiang, Lu  and\nMacherey, Wolfgang"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Neural machine translation (NMT) often suffers from the vulnerability to noisy perturbations in the input. We propose an approach to improving the robustness of NMT models, which consists of two parts: (1) attack the translation model with adversarial source examples; (2) defend the translation model with adversarial target inputs to improve its robustness against the adversarial source inputs. For the generation of adversarial inputs, we propose a gradient-based method to craft adversarial examples informed by the translation loss over the clean inputs. Experimental results on Chinese-English and English-German translation tasks demonstrate that our approach achieves significant improvements (2.8 and 1.6 BLEU points) over Transformer on standard clean benchmarks as well as exhibiting higher robustness on noisy data.",
+  "keywords": [
+    "transformer",
+    "a gradient-based method",
+    "generation",
+    "robust neural machine translation",
+    "neural",
+    "model",
+    "machine",
+    "bleu",
+    "the generation",
+    "loss",
+    "gradient",
+    "the translation loss",
+    "we",
+    "the translation model",
+    "vulnerability"
+  ],
+  "url": "https://aclanthology.org/P19-1425/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:41:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

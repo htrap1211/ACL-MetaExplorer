@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.570",
+  "title": "F}ourier Transformer: Fast Long Range Modeling by Removing Sequence Redundancy with {FFT} Operator",
+  "authors": [
+    "He, Ziwei  and\nYang, Meng  and\nFeng, Minwei  and\nYin, Jingcheng  and\nWang, Xinbing  and\nLeng, Jingwen  and\nLin, Zhouhan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "The transformer model is known to be computationally demanding, and prohibitively costly for long sequences, as the self-attention module uses a quadratic time and space complexity with respect to sequence length. Many researchers have focused on designing new forms of self-attention or introducing new parameters to overcome this limitation, however a large portion of them prohibits the model to inherit weights from large pretrained models. In this work, the transformer’s inefficiency has been taken care of from another perspective. We propose Fourier Transformer, a simple yet effective approach by progressively removing redundancies in hidden sequence using the ready-made Fast Fourier Transform (FFT) operator to perform Discrete Cosine Transformation (DCT). Fourier Transformer is able to significantly reduce computational costs while retain the ability to inherit from various large pretrained models. Experiments show that our model achieves state-of-the-art performances among all transformer-based models on the long-range modeling benchmark LRA with significant improvement in both speed and space. For generative seq-to-seq tasks including CNN/DailyMail and ELI5, by inheriting the BART weights our model outperforms the standard BART and other efficient models. Our code will be publicly available athttps://github.com/LUMIA-Group/FourierTransformer",
+  "keywords": [
+    "code",
+    "efficient",
+    "the transformer s inefficiency",
+    "generative seq-to-seq tasks",
+    "self-attention",
+    "we",
+    "fourier transformer",
+    "cnn",
+    "self",
+    "fourier",
+    "redundancies",
+    "fouriertransformer",
+    "sequence",
+    "all transformer-based models",
+    "generative"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.570/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

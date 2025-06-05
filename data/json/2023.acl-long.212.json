@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.212",
+  "title": "Small Pre-trained Language Models Can be Fine-tuned as Large Models via Over-Parameterization",
+  "authors": [
+    "Gao, Ze-Feng  and\nZhou, Kun  and\nLiu, Peiyu  and\nZhao, Wayne Xin  and\nWen, Ji-Rong"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "By scaling the model size, large pre-trained language models (PLMs) have shown remarkable performance in various natural language processing tasks, mostly outperforming small PLMs by a large margin. However, due to the high computational cost, the huge number of parameters also restricts the applicability of large PLMs in real-world systems. In this paper, we focus on scaling up the parameters of PLMsonly duringfine-tuning, to benefit from the over-parameterization, while without increasingthe inference latency. Given a relatively small PLM, we over-parameterize it by employing a matrix product operator, an efficient and almost lossless decomposition method to factorize its contained parameter matrices into a set of higher-dimensional tensors.Considering the efficiency, we further propose both static and dynamic strategies to select the most important parameter matrices for over-parameterization.Extensive experiments have demonstrated that our approach can significantly boost the fine-tuning performance of small PLMs and even help small PLMs outperform3×parameterized larger ones.Our code is publicly available athttps://github.com/zfgao66/OPF.",
+  "keywords": [
+    "code",
+    "efficient",
+    "efficiency",
+    "we",
+    "parameter",
+    "natural",
+    "it",
+    "the efficiency",
+    "the fine-tuning performance",
+    "tuning",
+    "processing",
+    "strategies",
+    "dimensional",
+    "small pre-trained language models",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.212/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:38:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

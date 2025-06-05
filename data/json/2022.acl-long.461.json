@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.461",
+  "title": "Leveraging Task Transferability to Meta-learning for Clinical Section Classification with Limited Data",
+  "authors": [
+    "Chen, Zhuohao  and\nKim, Jangwon  and\nBhakta, Ram  and\nSir, Mustafa"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Identifying sections is one of the critical components of understanding medical information from unstructured clinical notes and developing assistive technologies for clinical note-writing tasks. Most state-of-the-art text classification systems require thousands of in-domain text data to achieve high performance. However, collecting in-domain and recent clinical note data with section labels is challenging given the high level of privacy and sensitivity. The present paper proposes an algorithmic way to improve the task transferability of meta-learning-based text classification in order to address the issue of low-resource target data. Specifically, we explore how to make the best use of the source dataset and propose a unique task transferability measure named Normalized Negative Conditional Entropy (NNCE). Leveraging the NNCE, we develop strategies for selecting clinical categories and sections from source task data to boost cross-domain meta-learning accuracy. Experimental results show that our task selection strategies improve section classification accuracy significantly compared to meta-learning algorithms.",
+  "keywords": [
+    "clinical section classification",
+    "we",
+    "classification",
+    "cross",
+    "information",
+    "technologies",
+    "assistive technologies",
+    "learning",
+    "categories",
+    "text",
+    "meta-learning-based text classification",
+    "strategies",
+    "section classification accuracy",
+    "our task selection strategies",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.461/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:30:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

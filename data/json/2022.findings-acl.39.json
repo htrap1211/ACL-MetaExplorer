@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.39",
+  "title": "What Works and Doesn{'}t Work, A Deep Decoder for Neural Machine Translation",
+  "authors": [
+    "Li, Zuchao  and\nWang, Yiran  and\nUtiyama, Masao  and\nSumita, Eiichiro  and\nZhao, Hai  and\nWatanabe, Taro"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Deep learning has demonstrated performance advantages in a wide range of natural language processing tasks, including neural machine translation (NMT). Transformer NMT models are typically strengthened by deeper encoder layers, but deepening their decoder layers usually results in failure. In this paper, we first identify the cause of the failure of the deep decoder in the Transformer model. Inspired by this discovery, we then propose approaches to improving it, with respect to model structure and model training, to make the deep decoder practical in NMT. Specifically, with respect to model structure, we propose a cross-attention drop mechanism to allow the decoder layers to perform their own different roles, to reduce the difficulty of deep-decoder learning. For model training, we propose a collapse reducing training approach to improve the stability and effectiveness of deep-decoder training. We experimentally evaluated our proposed Transformer NMT model structure modification and novel training methods on several popular machine translation benchmarks. The results showed that deepening the NMT model by increasing the number of decoder layers successfully prevented the deepened decoder from degrading to an unconditional language model. In contrast to prior work on deepening an NMT model on the encoder, our method can deepen the model on both the encoder and decoder at the same time, resulting in a deeper model and improved performance.",
+  "keywords": [
+    "deep",
+    "deep-decoder training",
+    "natural language processing tasks",
+    "a cross-attention drop mechanism",
+    "neural machine translation",
+    "both the encoder",
+    "we",
+    "training",
+    "translation",
+    "decoder layers",
+    "cross",
+    "the encoder",
+    "deep-decoder learning",
+    "neural",
+    "natural"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.39/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

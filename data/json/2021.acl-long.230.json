@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.230",
+  "title": "E}ns{LM}: Ensemble Language Model for Data Diversity by Semantic Clustering",
+  "authors": [
+    "Duan, Zhibin  and\nZhang, Hao  and\nWang, Chaojie  and\nWang, Zhengjue  and\nChen, Bo  and\nZhou, Mingyuan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Natural language processing (NLP) often faces the problem of data diversity such as different domains, themes, styles, and so on. Therefore, a single language model (LM) is insufficient to learn all knowledge from diverse samples. To solve this problem, we firstly propose an autoencoding topic model with a mixture prior (mATM) to perform clustering for the data, where the clusters defined in semantic space describes the data diversity. Having obtained the clustering assignment for each sample, we develop the ensemble LM (EnsLM) with the technique of weight modulation. Specifically, EnsLM contains a backbone that is adjusted by a few modulated weights to fit for different sample clusters. As a result, the backbone learns the shared knowledge among all clusters while modulated weights extract the cluster-specific features. EnsLM can be trained jointly with mATM with a flexible LM backbone. We evaluate the effectiveness of both mATM and EnsLM on various tasks.",
+  "keywords": [
+    "ensemble",
+    "processing",
+    "a single language model",
+    "knowledge",
+    "language",
+    "semantic space",
+    "natural",
+    "model",
+    "topic",
+    "the ensemble lm enslm",
+    "clustering",
+    "semantic",
+    "we",
+    "cluster",
+    "the clustering assignment"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.230/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:02:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

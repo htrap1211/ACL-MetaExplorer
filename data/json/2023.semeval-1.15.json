@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.15",
+  "title": "S}amsung Research {C}hina - {B}eijing at {S}em{E}val-2023 Task 2: An {AL}-{R} Model for Multilingual Complex Named Entity Recognition",
+  "authors": [
+    "Zhang, Haojie  and\nLi, Xiao  and\nGu, Renhua  and\nQu, Xiaoyan  and\nMeng, Xiangfeng  and\nHu, Shuo  and\nLiu, Song"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper describes our system for SemEval-2023 Task 2 Multilingual Complex Named EntityRecognition (MultiCoNER II). Our teamSamsung Research China - Beijing proposesan AL-R (Adjustable Loss RoBERTa) model toboost the performance of recognizing short andcomplex entities with the challenges of longtaildata distribution, out of knowledge base andnoise scenarios. We first employ an adjustabledice loss optimization objective to overcomethe issue of long-tail data distribution, which isalso proved to be noise-robusted, especially incombatting the issue of fine-grained label confusing. Besides, we develop our own knowledgeenhancement tool to provide related contextsfor the short context setting and addressthe issue of out of knowledge base. Experimentshave verified the validation of our approaches.",
+  "keywords": [
+    "roberta",
+    "knowledge",
+    "validation",
+    "model",
+    "entities",
+    "longtaildata distribution",
+    "objective",
+    "longtaildata",
+    "loss",
+    "multiconer",
+    "optimization",
+    "short andcomplex entities",
+    "we",
+    "entity",
+    "long-tail data distribution"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.15/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

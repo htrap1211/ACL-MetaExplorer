@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.164",
+  "title": "BERTAC}: Enhancing Transformer-based Language Models with Adversarially Pretrained Convolutional Neural Networks",
+  "authors": [
+    "Oh, Jong-Hoon  and\nIida, Ryu  and\nKloetzer, Julien  and\nTorisawa, Kentaro"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Transformer-based language models (TLMs), such as BERT, ALBERT and GPT-3, have shown strong performance in a wide range of NLP tasks and currently dominate the field of NLP. However, many researchers wonder whether these models can maintain their dominance forever. Of course, we do not have answers now, but, as an attempt to find better neural architectures and training schemes, we pretrain a simple CNN using a GAN-style learning scheme and Wikipedia data, and then integrate it with standard TLMs. We show that on the GLUE tasks, the combination of our pretrained CNN with ALBERT outperforms the original ALBERT and achieves a similar performance to that of SOTA. Furthermore, on open-domain QA (Quasar-T and SearchQA), the combination of the CNN with ALBERT or RoBERTa achieved stronger performance than SOTA and the original TLMs. We hope that this work provides a hint for developing a novel strong network architecture along with its training scheme. Our source code and models are available athttps://github.com/nict-wisdom/bertac.",
+  "keywords": [
+    "the original albert",
+    "code",
+    "roberta",
+    "field",
+    "we",
+    "convolutional",
+    "training",
+    "neural",
+    "cnn",
+    "the field",
+    "it",
+    "albert",
+    "gpt-3",
+    "a simple cnn",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.164/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:01:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

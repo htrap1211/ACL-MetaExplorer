@@ -1,0 +1,33 @@
+{
+  "id": "P18-2006",
+  "title": "H}ot{F}lip: White-Box Adversarial Examples for Text Classification",
+  "authors": [
+    "Ebrahimi, Javid  and\nRao, Anyi  and\nLowd, Daniel  and\nDou, Dejing"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "We propose an efficient method to generate white-box adversarial examples to trick a character-level neural classifier. We find that only a few manipulations are needed to greatly decrease the accuracy. Our method relies on an atomic flip operation, which swaps one token for another, based on the gradients of the one-hot input vectors. Due to efficiency of our method, we can perform adversarial training which makes the model more robust to attacks at test time. With the use of a few semantics-preserving constraints, we demonstrate that HotFlip can be adapted to attack a word-level classifier as well.",
+  "keywords": [
+    "hot",
+    "the accuracy",
+    "neural",
+    "a word-level classifier",
+    "classifier",
+    "gradients",
+    "model",
+    "text",
+    "semantics",
+    "efficient",
+    "a character-level neural classifier",
+    "vectors",
+    "the gradients",
+    "efficiency",
+    "the one-hot input vectors"
+  ],
+  "url": "https://aclanthology.org/P18-2006/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:16:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

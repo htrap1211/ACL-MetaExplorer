@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.110",
+  "title": "NL}4{IA} at {S}em{E}val-2023 Task 3: A Comparison of Sequence Classification and Token Classification to Detect Persuasive Techniques",
+  "authors": [
+    "Pritzkau, Albert"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "The following system description presents our approach to the detection of persuasion techniques in online news. The given task has been framed as a multi-label classification problem. In a multi-label classification problem, each input chunkin this case paragraphis assigned one of several class labels. Span level annotations were also provided. In order to assign class labels to the given documents, we opted for RoBERTa (A Robustly Optimized BERT Pretraining Approach) for both approachessequence and token classification. Starting off with a pre-trained model for language representation, we fine-tuned this model on the given classification task with the provided annotated data in supervised training steps.",
+  "keywords": [
+    "a multi-label classification problem",
+    "the given classification task",
+    "roberta",
+    "language",
+    "bert",
+    "model",
+    "class",
+    "we",
+    "sequence",
+    "sequence classification",
+    "pre",
+    "training",
+    "classification",
+    "documents",
+    "news"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.110/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:28:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

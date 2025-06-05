@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.120",
+  "title": "Enhancing Text-to-{SQL} Parsing through Question Rewriting and Execution-Guided Refinement",
+  "authors": [
+    "Mao, Wenxin  and\nWang, Ruiqi  and\nGuo, Jiyu  and\nZeng, Jichuan  and\nGao, Cuiyun  and\nHan, Peiyi  and\nLiu, Chuanyi"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large Language Model (LLM)-based approach has become the mainstream for Text-to-SQL task and achieves remarkable performance. In this paper, we augment the existing prompt engineering methods by exploiting the database content and execution feedback. Specifically, we introduce DART-SQL, which comprises two key components: (1) Question Rewriting: DART-SQL rewrites natural language questions by leveraging database content information to eliminate ambiguity. (2) Execution-Guided Refinement: DART-SQL incorporates database content information and utilizes the execution results of the generated SQL to iteratively refine the SQL. We apply this framework to the two LLM-based approaches (DAIL-SQL and C3) and test it on four widely used benchmarks (Spider-dev, Spider-test, Realistic and DK). Experiments show that our framework for DAIL-SQL and C3 achieves an average improvement of 12.41% and 5.38%, respectively, in terms of execution accuracy(EX) metric.",
+  "keywords": [
+    "prompt",
+    "llm -based approach",
+    "language",
+    "feedback",
+    "natural",
+    "the two llm-based approaches",
+    "model",
+    "text",
+    "it",
+    "metric",
+    "question",
+    "information",
+    "we",
+    "execution accuracy ex metric",
+    "llm"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.120/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:50:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

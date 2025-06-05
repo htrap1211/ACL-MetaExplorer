@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.183",
+  "title": "An Accurate Unsupervised Method for Joint Entity Alignment and Dangling Entity Detection",
+  "authors": [
+    "Luo, Shengxuan  and\nYu, Sheng"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Knowledge graph integration typically suffers from the widely existing dangling entities that cannot find alignment cross knowledge graphs (KGs). The dangling entity set is unavailable in most real-world scenarios, and manually mining the entity pairs that consist of entities with the same meaning is labor-consuming. In this paper, we propose a novel accurate Unsupervised method for joint Entity alignment (EA) and Dangling entity detection (DED), called UED. The UED mines the literal semantic information to generate pseudo entity pairs and globally guided alignment information for EA and then utilizes the EA results to assist the DED. We construct a medical cross-lingual knowledge graph dataset, MedED, providing data for both the EA and DED tasks. Extensive experiments demonstrate that in the EA task, UED achieves EA results comparable to those of state-of-the-art supervised EA baselines and outperforms the current state-of-the-art EA methods by combining supervised EA data. For the DED task, UED obtains high-quality results without supervision.",
+  "keywords": [
+    "cross",
+    "alignment",
+    "knowledge",
+    "alignment cross knowledge graphs",
+    "joint entity alignment",
+    "entities",
+    "the literal semantic information",
+    "information",
+    "globally guided alignment information",
+    "ea",
+    "semantic",
+    "we",
+    "graph",
+    "entity",
+    "current"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.183/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

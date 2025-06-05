@@ -1,0 +1,33 @@
+{
+  "id": "2022.csrr-1.7",
+  "title": "CURIE}: An Iterative Querying Approach for Reasoning About Situations",
+  "authors": [
+    "Rajagopal, Dheeraj  and\nMadaan, Aman  and\nTandon, Niket  and\nYang, Yiming  and\nPrabhumoye, Shrimai  and\nRavichander, Abhilasha  and\nClark, Peter  and\nHovy, Eduard H"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the First Workshop on Commonsense Representation and Reasoning (CSRR 2022)",
+  "abstract": "Predicting the effects of unexpected situations is an important reasoning task, e.g., would cloudy skies help or hinder plant growth? Given a context, the goal of such situational reasoning is to elicit the consequences of a new situation (st) that arises in that context. We propose CURIE, a method to iteratively build a graph of relevant consequences explicitly in a structured situational graph (st graph) using natural language queries over a finetuned language model. Across multiple domains, CURIE generates st graphs that humans find relevant and meaningful in eliciting the consequences of a new situation (75% of the graphs were judged correct by humans). We present a case study of a situation reasoning end task (WIQA-QA), where simply augmenting their input with st graphs improves accuracy by 3 points. We show that these improvements mainly come from a hard subset of the data, that requires background knowledge and multi-hop reasoning.",
+  "keywords": [
+    "end",
+    "curie",
+    "natural language queries",
+    "background knowledge",
+    "wiqa",
+    "we",
+    "graph",
+    "skies",
+    "natural",
+    "queries",
+    "a finetuned language model",
+    "cloudy skies",
+    "st",
+    "background",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2022.csrr-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:40:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.76",
+  "title": "FTD} at {S}em{E}val-2023 Task 3: News Genre and Propaganda Detection by Comparing Mono- and Multilingual Models with Fine-tuning on Additional Data",
+  "authors": [
+    "Lepekhin, Mikhail  and\nSharoff, Serge"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "We report our participation in the SemEval-2023 shared task on propaganda detection and describe our solutions with pre-trained models and their ensembles. For Subtask 1 (News Genre Categorisation), we report the impact of several settings, such as the choice of the classification models (monolingual or multilingual or their ensembles), the choice of the training sets (base or additional sources), the impact of detection certainty in making a classification decision as well as the impact of other hyper-parameters. In particular, we fine-tune models on additional data for other genre classification tasks, such as FTD. We also try adding texts from genre-homogenous corpora, such as Panorama, Babylon Bee for satire and Giganews for for reporting texts. We also make prepared models for Subtasks 2 and 3 with finetuning the corresponding models first for Subtask 1.The code needed to reproduce the experiments is available.",
+  "keywords": [
+    "code",
+    "we",
+    "training",
+    "classification",
+    "fine-tuning",
+    "hyper",
+    "ensembles",
+    "tuning",
+    "a classification decision",
+    "-",
+    "the classification models",
+    "fine",
+    "their ensembles",
+    "other genre classification tasks",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.76/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:27:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

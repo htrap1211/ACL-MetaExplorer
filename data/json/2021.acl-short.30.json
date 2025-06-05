@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.30",
+  "title": "Anchor-based Bilingual Word Embeddings for Low-Resource Languages",
+  "authors": [
+    "Eder, Tobias  and\nHangya, Viktor  and\nFraser, Alexander"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Good quality monolingual word embeddings (MWEs) can be built for languages which have large amounts of unlabeled text. MWEs can be aligned to bilingual spaces using only a few thousand word translation pairs. For low resource languages training MWEs monolingually results in MWEs of poor quality, and thus poor bilingual word embeddings (BWEs) as well. This paper proposes a new approach for building BWEs in which the vector space of the high resource source language is used as a starting point for training an embedding space for the low resource target language. By using the source vectors as anchors the vector spaces are automatically aligned during training. We experiment on English-German, English-Hiligaynon and English-Macedonian. We show that our approach results not only in improved BWEs and bilingual lexicon induction performance, but also in improved target language MWE quality as measured using monolingual word similarity.",
+  "keywords": [
+    "embeddings",
+    "vector",
+    "the vector space",
+    "language",
+    "anchor-based bilingual word embeddings",
+    "text",
+    "vectors",
+    "the vector spaces",
+    "word",
+    "we",
+    "an embedding space",
+    "the source vectors",
+    "training",
+    "translation",
+    "anchor"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.30/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

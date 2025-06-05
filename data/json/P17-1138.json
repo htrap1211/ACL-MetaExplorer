@@ -1,0 +1,33 @@
+{
+  "id": "P17-1138",
+  "title": "Bandit Structured Prediction for Neural Sequence-to-Sequence Learning",
+  "authors": [
+    "Kreutzer, Julia  and\nSokolov, Artem  and\nRiezler, Stefan"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Bandit structured prediction describes a stochastic optimization framework where learning is performed from partial feedback. This feedback is received in the form of a task loss evaluation to a predicted output structure, without having access to gold standard structures. We advance this framework by lifting linear bandit learning to neural sequence-to-sequence learning problems using attention-based recurrent neural networks. Furthermore, we show how to incorporate control variates into our learning algorithms for variance reduction and improved generalization. We present an evaluation on a neural machine translation task that shows improvements of up to 5.89 BLEU points for domain adaptation from simulated bandit feedback.",
+  "keywords": [
+    "a stochastic optimization framework",
+    "translation",
+    "neural",
+    "feedback",
+    "machine",
+    "bleu",
+    "a task loss evaluation",
+    "loss",
+    "generalization",
+    "optimization",
+    "form",
+    "attention",
+    "learning",
+    "sequence",
+    "we"
+  ],
+  "url": "https://aclanthology.org/P17-1138/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:00:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

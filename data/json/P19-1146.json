@@ -1,0 +1,33 @@
+{
+  "id": "P19-1146",
+  "title": "Sparse Sequence-to-Sequence Models",
+  "authors": [
+    "Peters, Ben  and\nNiculae, Vlad  and\nMartins, Andr{\\'e} F. T."
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Sequence-to-sequence models are a powerful workhorse of NLP. Most variants employ a softmax transformation in both their attention mechanism and output layer, leading to dense alignments and strictly positive output probabilities. This density is wasteful, making models less interpretable and assigning probability mass to many implausible outputs. In this paper, we propose sparse sequence-to-sequence models, rooted in a new family of𝛼-entmax transformations, which includes softmax and sparsemax as particular cases, and is sparse for any𝛼 > 1. We provide fast algorithms to evaluate these transformations and their gradients, which scale well for large vocabulary sizes. Our models are able to produce sparse alignments and to assign nonzero probability to a short list of plausible outputs, sometimes rendering beam search exact. Experiments on morphological inflection and machine translation reveal consistent gains over dense models.",
+  "keywords": [
+    "alignments",
+    "sparse alignments",
+    "machine translation",
+    "layer",
+    "we",
+    "softmax",
+    "translation",
+    "their gradients",
+    "sequence",
+    "strictly positive output probabilities",
+    "both their attention mechanism",
+    "fast",
+    "nlp",
+    "gradients",
+    "machine"
+  ],
+  "url": "https://aclanthology.org/P19-1146/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:33:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

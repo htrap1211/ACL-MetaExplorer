@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.189",
+  "title": "Exploring the Relationship between Alignment and Cross-lingual Transfer in Multilingual Transformers",
+  "authors": [
+    "Gaschi, Felix  and\nCerda, Patricio  and\nRastin, Parisa  and\nToussaint, Yannick"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Without any explicit cross-lingual training data, multilingual language models can achieve cross-lingual transfer. One common way to improve this transfer is to perform realignment steps before fine-tuning, i.e., to train the model to build similar representations for pairs of words from translated sentences. But such realignment methods were found to not always improve results across languages and tasks, which raises the question of whether aligned representations are truly beneficial for cross-lingual transfer. We provide evidence that alignment is actually significantly correlated with cross-lingual transfer across languages, models and random seeds. We show that fine-tuning can have a significant impact on alignment, depending mainly on the downstream task and the model. Finally, we show that realignment can, in some instances, improve cross-lingual transfer, and we identify conditions in which realignment methods provide significant improvements. Namely, we find that realignment works better on tasks for which alignment is correlated with cross-lingual transfer when generalizing to a distant language and with smaller models, as well as when using a bilingual dictionary rather than FastAlign to extract realignment pairs. For example, for POS-tagging, between English and Arabic, realignment can bring a +15.8 accuracy improvement on distilmBERT, even outperforming XLM-R Large by 1.7. We thus advocate for further research on realignment methods for smaller multilingual models as an alternative to scaling.",
+  "keywords": [
+    "transformers",
+    "fine-tuning i e",
+    "question",
+    "that alignment",
+    "we",
+    "training",
+    "fine-tuning",
+    "cross",
+    "which alignment",
+    "realignment methods",
+    "transfer",
+    "tuning",
+    "arabic realignment",
+    "pos",
+    "realignment pairs"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.189/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

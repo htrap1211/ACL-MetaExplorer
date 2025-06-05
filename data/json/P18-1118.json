@@ -1,0 +1,33 @@
+{
+  "id": "P18-1118",
+  "title": "Document Context Neural Machine Translation with Memory Networks",
+  "authors": [
+    "Maruf, Sameen  and\nHaffari, Gholamreza"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We present a document-level neural machine translation model which takes both source and target document context into account using memory networks. We model the problem as a structured prediction problem with interdependencies among the observed and hidden variables, i.e., the source sentences and their unobserved target translations in the document. The resulting structured prediction problem is tackled with a neural translation model equipped with two memory components, one each for the source and target side, to capture the documental interdependencies. We train the model end-to-end, and propose an iterative decoding algorithm based on block coordinate descent. Experimental results of English translations from French, German, and Estonian documents show that our model is effective in exploiting both source and target document context, and statistically significantly outperforms the previous work in terms of BLEU and METEOR.",
+  "keywords": [
+    "work",
+    "interdependencies",
+    "end",
+    "i",
+    "neural",
+    "english translations",
+    "model",
+    "machine",
+    "their unobserved target translations",
+    "bleu",
+    "meteor",
+    "we",
+    "translations",
+    "the documental interdependencies",
+    "a neural translation model"
+  ],
+  "url": "https://aclanthology.org/P18-1118/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:12:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

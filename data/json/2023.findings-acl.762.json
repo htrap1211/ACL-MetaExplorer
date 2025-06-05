@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.762",
+  "title": "On the Strength of Sequence Labeling and Generative Models for Aspect Sentiment Triplet Extraction",
+  "authors": [
+    "Zhou, Shen  and\nQian, Tieyun"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Generative models have achieved great success in aspect sentiment triplet extraction tasks. However, existing methods ignore the mutual informative clues between aspect and opinion terms and may generate false paired triplets. Furthermore, the inherent limitations of generative models, i.e., the token-by-token decoding and the simple structured prompt, prevent models from handling complex structures especially multi-word terms and multi-triplet sentences. To address these issues, we propose a sequence labeling enhanced generative model. Firstly, we encode the dependency between aspect and opinion into two bidirectional templates to avoid false paired triplets. Secondly, we introduce a marker-oriented sequence labeling module to improve generative models’ ability of tackling complex structures. Specifically, this module enables the generative model to capture the boundary information of aspect/opinion spans and provides hints to decode multiple triplets with the shared marker. Experimental results on four datasets prove that our model yields a new state-of-art performance. Our code and data are available athttps://github.com/NLPWM-WHU/SLGM.",
+  "keywords": [
+    "code",
+    "enhanced generative model",
+    "generative models",
+    "extraction",
+    "nlpwm-whu",
+    "we",
+    "nlpwm",
+    "token",
+    "information",
+    "word",
+    "sequence",
+    "generative models ability",
+    "generative",
+    "prompt",
+    "i"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.762/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

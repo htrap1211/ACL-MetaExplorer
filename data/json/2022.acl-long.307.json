@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.307",
+  "title": "B}ench{IE}: A Framework for Multi-Faceted Fact-Based Open Information Extraction Evaluation",
+  "authors": [
+    "Gashteovski, Kiril  and\nYu, Mingying  and\nKotnis, Bhushan  and\nLawrence, Carolin  and\nNiepert, Mathias  and\nGlava{\\v{s}}, Goran"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Intrinsic evaluations of OIE systems are carried out either manually—with human evaluators judging the correctness of extractions—or automatically, on standardized benchmarks. The latter, while much more cost-effective, is less reliable, primarily because of the incompleteness of the existing OIE benchmarks: the ground truth extractions do not include all acceptable variants of the same fact, leading to unreliable assessment of the models’ performance. Moreover, the existing OIE benchmarks are available for English only. In this work, we introduce BenchIE: a benchmark and evaluation framework for comprehensive evaluation of OIE systems for English, Chinese, and German. In contrast to existing OIE benchmarks, BenchIE is fact-based, i.e., it takes into account informational equivalence of extractions: our gold standard consists offact synsets, clusters in which we exhaustively list all acceptable surface forms of the same fact. Moreover, having in mind common downstream applications for OIE, we make BenchIE multi-faceted; i.e., we create benchmark variants that focus on different facets of OIE evaluation, e.g., compactness or minimality of extractions. We benchmark several state-of-the-art OIE systems using BenchIE and demonstrate that these systems are significantly less effective than indicated by existing OIE benchmarks. We make BenchIE (data and evaluation code) publicly available.",
+  "keywords": [
+    "code",
+    "extraction",
+    "comprehensive evaluation",
+    "we",
+    "it",
+    "information",
+    "oie",
+    "oie systems",
+    "i",
+    "existing oie benchmarks",
+    "work",
+    "the existing oie benchmarks",
+    "benchie",
+    "evaluations",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.307/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:28:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

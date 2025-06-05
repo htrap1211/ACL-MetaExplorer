@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.47",
+  "title": "Creating Ontology-annotated Corpora from {W}ikipedia for Medical Named-entity Recognition",
+  "authors": [
+    "Frei, Johann  and\nKramer, Frank"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "Acquiring annotated corpora for medical NLP is challenging due to legal and privacy constraints and costly annotation efforts, and using annotated public datasets may do not align well to the desired target application in terms of annotation style or language. We investigate the approach of utilizing Wikipedia and WikiData jointly to acquire an unsupervised annotated corpus for named-entity recognition (NER). By controlling the annotation ruleset through WikiData’s ontology, we extract custom-defined annotations and dynamically impute weak annotations by an adaptive loss scaling. Our validation on German medication detection datasets yields competitive results. The entire pipeline only relies on open models and data resources, enabling reproducibility and open sharing of models and corpora. All relevant assets are shared on GitHub.",
+  "keywords": [
+    "ner",
+    "validation",
+    "language",
+    "nlp",
+    "loss",
+    "medical nlp",
+    "we",
+    "ontology-annotated corpora",
+    "entity",
+    "ontology",
+    "named-entity recognition ner",
+    "wikidata s ontology",
+    "medical",
+    "recognition",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.47/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

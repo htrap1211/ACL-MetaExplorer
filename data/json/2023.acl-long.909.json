@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.909",
+  "title": "A Neural Divide-and-Conquer Reasoning Framework for Image Retrieval from Linguistically Complex Text",
+  "authors": [
+    "Li, Yunxin  and\nHu, Baotian  and\nDing, Yuxin  and\nMa, Lin  and\nZhang, Min"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Pretrained Vision-Language Models (VLMs) have achieved remarkable performance in image retrieval from text. However, their performance drops drastically when confronted with linguistically complex texts that they struggle to comprehend. Inspired by the Divide-and-Conquer algorithm and dual-process theory, in this paper, we regard linguistically complex texts as compound proposition texts composed of multiple simple proposition sentences and propose an end-to-end Neural Divide-and-Conquer Reasoning framework, dubbed NDCR. It contains three main components: 1) Divide: a proposition generator divides the compound proposition text into simple proposition sentences and produces their corresponding representations, 2) Conquer: a pretrained VLMs-based visual-linguistic interactor achieves the interaction between decomposed proposition sentences and images, 3) Combine: a neural-symbolic reasoner combines the above reasoning states to obtain the final solution via a neural logic reasoning approach. According to the dual-process theory, the visual-linguistic interactor and neural-symbolic reasoner could be regarded as analogical reasoning System 1 and logical reasoning System 2. We conduct extensive experiments on a challenging image retrieval from contextual descriptions data set. Experimental results and analyses indicate NDCR significantly improves performance in the complex image-text reasoning problem.",
+  "keywords": [
+    "end",
+    "a challenging image retrieval",
+    "image retrieval",
+    "we",
+    "neural",
+    "it",
+    "a neural-symbolic reasoner",
+    "retrieval",
+    "visual",
+    "text",
+    "reasoner",
+    "a proposition generator",
+    "process",
+    "language",
+    "neural-symbolic reasoner"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.909/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:48:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

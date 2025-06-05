@@ -1,0 +1,33 @@
+{
+  "id": "2022.bionlp-1.9",
+  "title": "B}io{BART}: Pretraining and Evaluation of A Biomedical Generative Language Model",
+  "authors": [
+    "Yuan, Hongyi  and\nYuan, Zheng  and\nGan, Ruyi  and\nZhang, Jiaxing  and\nXie, Yutao  and\nYu, Sheng"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 21st Workshop on Biomedical Language Processing",
+  "abstract": "Pretrained language models have served as important backbones for natural language processing. Recently, in-domain pretraining has been shown to benefit various domain-specific downstream tasks. In the biomedical domain, natural language generation (NLG) tasks are of critical importance, while understudied. Approaching natural language understanding (NLU) tasks as NLG achieves satisfying performance in the general domain through constrained language generation or language prompting. We emphasize the lack of in-domain generative language models and the unsystematic generative downstream benchmarks in the biomedical domain, hindering the development of the research community. In this work, we introduce the generative language model BioBART that adapts BART to the biomedical domain. We collate various biomedical language generation tasks including dialogue, summarization, entity linking, and named entity recognition. BioBART pretrained on PubMed abstracts has enhanced performance compared to BART and set strong baselines on several tasks. Furthermore, we conduct ablation studies on the pretraining tasks for BioBART and find that sentence permutation has negative effects on downstream tasks.",
+  "keywords": [
+    "generative",
+    "work",
+    "constrained language generation",
+    "general",
+    "processing",
+    "language",
+    "generation",
+    "natural",
+    "model",
+    "studies",
+    "the general domain",
+    "ablation studies",
+    "understudied",
+    "summarization",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2022.bionlp-1.9/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

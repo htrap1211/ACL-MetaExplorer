@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.209",
+  "title": "FIT} {BUT} at {S}em{E}val-2023 Task 12: Sentiment Without Borders - Multilingual Domain Adaptation for Low-Resource Sentiment Classification",
+  "authors": [
+    "Aparovich, Maksim  and\nKesiraju, Santosh  and\nDufkova, Aneta  and\nSmrz, Pavel"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper presents our proposed method for SemEval-2023 Task 12, which focuses on sentiment analysis for low-resource African languages. Our method utilizes a language-centric domain adaptation approach which is based on adversarial training, where a small version of Afro-XLM-Roberta serves as a generator model and a feed-forward network as a discriminator. We participated in all three subtasks: monolingual (12 tracks), multilingual (1 track), and zero-shot (2 tracks). Our results show an improvement in weighted F1 for 13 out of 15 tracks with a maximum increase of 4.3 points for Moroccan Arabic compared to the baseline. We observed that using language family-based labels along with sequence-level input representations for the discriminator model improves the quality of the cross-lingual sentiment analysis for the languages unseen during the training. Additionally, our experimental results suggest that training the system on languages that are close in a language families tree enhances the quality of sentiment analysis for low-resource languages. Lastly, the computational complexity of the prediction step was kept at the same level which makes the approach to be interesting from a practical perspective. The code of the approach can be found in our repository.",
+  "keywords": [
+    "code",
+    "families",
+    "roberta",
+    "fit",
+    "a generator model",
+    "we",
+    "shot",
+    "training",
+    "classification",
+    "cross",
+    "the cross-lingual sentiment analysis",
+    "sequence",
+    "feed",
+    "analysis",
+    "a language families"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.209/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

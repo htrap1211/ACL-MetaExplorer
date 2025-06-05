@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.436",
+  "title": "To be Continuous, or to be Discrete, Those are Bits of Questions",
+  "authors": [
+    "Wang, Yiran  and\nUtiyama, Masao"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recently, binary representation has been proposed as a novel representation that lies between continuous and discrete representations. It exhibits considerable information-preserving capability when being used to replace continuous input vectors. In this paper, we investigate the feasibility of further introducing it to the output side, aiming to allow models to output binary labels instead. To preserve the structural information on the output side along with label information, we extend the previous contrastive hashing method as structured contrastive hashing. More specifically, we upgrade CKY from label-level to bit-level, define a new similarity function with span marginal probabilities, and introduce a novel contrastive loss function with a carefully designed instance selection strategy. Our model achieves competitive performance on various structured prediction tasks, and demonstrates that binary representation can be considered a novel representation that further bridges the gap between the continuous nature of deep learning and the discrete intrinsic property of natural languages.",
+  "keywords": [
+    "deep",
+    "span marginal probabilities",
+    "we",
+    "natural",
+    "it",
+    "loss",
+    "information",
+    "learning",
+    "continuous input vectors",
+    "function",
+    "model",
+    "deep learning",
+    "vectors",
+    "probabilities",
+    "binary representation"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.436/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:40:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

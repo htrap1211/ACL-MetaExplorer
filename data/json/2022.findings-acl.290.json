@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.290",
+  "title": "P}latt-Bin: Efficient Posterior Calibrated Training for {NLP} Classifiers",
+  "authors": [
+    "Singh, Rishabh  and\nGoshtasbpour, Shirin"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Modern NLP classifiers are known to return uncalibrated estimations of class posteriors. Existing methods for posterior calibration rescale the predicted probabilities but often have an adverse impact on final classification accuracy, thus leading to poorer generalization. We propose an end-to-end trained calibrator, Platt-Binning, that directly optimizes the objective while minimizing the difference between the predicted and empirical posterior probabilities. Our method leverages the sample efficiency of Platt scaling and the verification guarantees of histogram binning, thus not only reducing the calibration error but also improving task performance. In contrast to existing calibrators, we perform this efficient calibration during training. Empirical evaluation of benchmark NLP classification tasks echoes the efficacy of our proposal.",
+  "keywords": [
+    "final classification accuracy",
+    "end",
+    "the sample efficiency",
+    "poorer generalization",
+    "nlp",
+    "benchmark nlp classification tasks",
+    "class",
+    "efficient",
+    "objective",
+    "empirical evaluation",
+    "the objective",
+    "classifiers",
+    "generalization",
+    "probabilities",
+    "efficiency"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.290/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

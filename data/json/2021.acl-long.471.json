@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.471",
+  "title": "R}ep{S}um: Unsupervised Dialogue Summarization based on Replacement Strategy",
+  "authors": [
+    "Fu, Xiyan  and\nZhang, Yating  and\nWang, Tianyi  and\nLiu, Xiaozhong  and\nSun, Changlong  and\nYang, Zhenglu"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "In the field of dialogue summarization, due to the lack of training data, it is often difficult for supervised summary generation methods to learn vital information from dialogue context with limited data. Several attempts on unsupervised summarization for text by leveraging semantic information solely or auto-encoder strategy (i.e., sentence compression), it however cannot be adapted to the dialogue scene due to the limited words in utterances and huge gap between the dialogue and its summary. In this study, we propose a novel unsupervised strategy to address this challenge, which roots from the hypothetical foundation that a superior summary approximates a replacement of the original dialogue, and they are roughly equivalent for auxiliary (self-supervised) tasks, e.g., dialogue generation. The proposed strategy RepSum is applied to generate both extractive and abstractive summary with the guidance of the followed nˆth utterance generation and classification tasks. Extensive experiments on various datasets demonstrate the superiority of the proposed model compared with the state-of-the-art methods.",
+  "keywords": [
+    "the dialogue scene",
+    "the original dialogue",
+    "unsupervised summarization",
+    "supervised summary generation methods",
+    "field",
+    "semantic",
+    "summarization",
+    "we",
+    "dialogue",
+    "training",
+    "classification",
+    "the field",
+    "it",
+    "self",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.471/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

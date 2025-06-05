@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.132",
+  "title": "Lone Pine at {S}em{E}val-2021 Task 5: Fine-Grained Detection of Hate Speech Using {BERT}oxic",
+  "authors": [
+    "Khan, Yakoob  and\nMa, Weicheng  and\nVosoughi, Soroush"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper describes our approach to the Toxic Spans Detection problem (SemEval-2021 Task 5). We propose BERToxic, a system that fine-tunes a pre-trained BERT model to locate toxic text spans in a given text and utilizes additional post-processing steps to refine the boundaries. The post-processing steps involve (1) labeling character offsets between consecutive toxic tokens as toxic and (2) assigning a toxic label to words that have at least one token labeled as toxic. Through experiments, we show that these two post-processing steps improve the performance of our model by 4.16% on the test set. We also studied the effects of data augmentation and ensemble modeling strategies on our system. Our system significantly outperformed the provided baseline and achieved an F1-score of 0.683, placing Lone Pine in the 17th place out of 91 teams in the competition. Our code is made available athttps://github.com/Yakoob-Khan/Toxic-Spans-Detection",
+  "keywords": [
+    "code",
+    "we",
+    "ensemble",
+    "bert oxic",
+    "the boundaries",
+    "e",
+    "processing",
+    "an f1-score",
+    "bert",
+    "text",
+    "strategies",
+    "fine",
+    "model",
+    "boundaries",
+    "modeling"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.132/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

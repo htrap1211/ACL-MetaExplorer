@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.258",
+  "title": "Word-level Perturbation Considering Word Length and Compositional Subwords",
+  "authors": [
+    "Hiraoka, Tatsuya  and\nTakase, Sho  and\nUchiumi, Kei  and\nKeyaki, Atsushi  and\nOkazaki, Naoaki"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "We present two simple modifications for word-level perturbation: Word Replacement considering Length (WR-L) and Compositional Word Replacement (CWR).In conventional word replacement, a word in an input is replaced with a word sampled from the entire vocabulary, regardless of the length and context of the target word.WR-L considers the length of a target word by sampling words from the Poisson distribution.CWR considers the compositional candidates by restricting the source of sampling to related words that appear in subword regularization. Experimental results showed that the combination of WR-L and CWR improved the performance of text classification and machine translation.",
+  "keywords": [
+    "translation",
+    "machine",
+    "text",
+    "subword regularization experimental results",
+    "-",
+    "regularization",
+    "we",
+    "word",
+    "l",
+    "classification",
+    "that",
+    "related words",
+    "candidates",
+    "conventional",
+    "wr"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.258/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.958",
+  "title": "Selective Reflection-Tuning: Student-Selected Data Recycling for {LLM} Instruction-Tuning",
+  "authors": [
+    "Li, Ming  and\nChen, Lichang  and\nChen, Jiuhai  and\nHe, Shwai  and\nGu, Jiuxiang  and\nZhou, Tianyi"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Instruction tuning is critical to large language models (LLMs) for achieving better instruction following and task adaptation capabilities but its success heavily relies on the training data quality. Many recent methods focus on improving the data quality but often overlook the compatibility of the data with the student model being finetuned. This paper introduces Selective Reflection-Tuning, a novel paradigm that synergizes a teacher LLM’s reflection and introspection for improving existing data quality with the data selection capability of the student LLM, to automatically refine existing instruction-tuning data. This teacher-student collaboration produces high-quality and student-compatible instruction-response pairs, resulting in sample-efficient instruction tuning and LLMs of superior performance. Selective Reflection-Tuning is a data augmentation and synthesis that generally improves LLM finetuning and self-improvement without collecting brand-new data. We apply our method to Alpaca and WizardLM data and achieve much stronger and top-tier 7B and 13B LLMs.",
+  "keywords": [
+    "llm instruction-tuning instruction tuning",
+    "efficient",
+    "llm finetuning",
+    "tier",
+    "we",
+    "llm",
+    "training",
+    "instruction",
+    "self",
+    "sample-efficient instruction tuning",
+    "llms",
+    "llm s reflection",
+    "tuning",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.958/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

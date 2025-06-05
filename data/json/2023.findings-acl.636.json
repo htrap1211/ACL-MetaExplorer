@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.636",
+  "title": "PREADD}: Prefix-Adaptive Decoding for Controlled Text Generation",
+  "authors": [
+    "Pei, Jonathan  and\nYang, Kevin  and\nKlein, Dan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "We propose Prefix-Adaptive Decoding (PREADD), a flexible method for controlled text generation. Unlike existing methods that use auxiliary expert models to control for attributes, PREADD does not require an external model, instead relying on linearly combining output logits from multiple prompts. Specifically, PREADD contrasts the output logits generated using a raw prompt against those generated using a prefix-prepended prompt, enabling both positive and negative control with respect to any attribute encapsulated by the prefix. We evaluate PREADD on three tasks—toxic output mitigation, gender bias reduction, and sentiment control—and find that PREADD outperforms not only prompting baselines, but also an auxiliary-expert control method, by 12% or more in relative gain on our main metrics for each task.",
+  "keywords": [
+    "prompts",
+    "our main metrics",
+    "bias",
+    "prompt",
+    "generation",
+    "model",
+    "text",
+    "metrics",
+    "controlled text generation",
+    "a prefix-prepended prompt",
+    "we",
+    "multiple prompts",
+    "a raw prompt",
+    "sentiment",
+    "reduction"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.636/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

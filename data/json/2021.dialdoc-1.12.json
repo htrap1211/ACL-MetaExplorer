@@ -1,0 +1,33 @@
+{
+  "id": "2021.dialdoc-1.12",
+  "title": "Document-Grounded Goal-Oriented Dialogue Systems on Pre-Trained Language Model with Diverse Input Representation",
+  "authors": [
+    "Kim, Boeun  and\nLee, Dohaeng  and\nKim, Sihyung  and\nLee, Yejin  and\nHuang, Jin-Xia  and\nKwon, Oh-Woog  and\nKim, Harksoo"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Document-grounded Dialogue and Conversational Question Answering (DialDoc 2021)",
+  "abstract": "Document-grounded goal-oriented dialog system understands users’ utterances, and generates proper responses by using information obtained from documents. The Dialdoc21 shared task consists of two subtasks; subtask1, finding text spans associated with users’ utterances from documents, and subtask2, generating responses based on information obtained from subtask1. In this paper, we propose two models (i.e., a knowledge span prediction model and a response generation model) for the subtask1 and the subtask2. In the subtask1, dialogue act losses are used with RoBERTa, and title embeddings are added to input representation of RoBERTa. In the subtask2, various special tokens and embeddings are added to input representation of BART’s encoder. Then, we propose a method to assign different difficulty scores to leverage curriculum learning. In the subtask1, our span prediction model achieved F1-scores of 74.81 (ranked at top 7) and 73.41 (ranked at top 5) in test-dev phase and test phase, respectively. In the subtask2, our response generation model achieved sacreBLEUs of 37.50 (ranked at top 3) and 41.06 (ranked at top 1) in in test-dev phase and test phase, respectively.",
+  "keywords": [
+    "top",
+    "roberta",
+    "we",
+    "dialogue",
+    "information",
+    "sacrebleus",
+    "our response generation model",
+    "pre-trained language model",
+    "i",
+    "text",
+    "subtask2 generating responses",
+    "document-grounded goal-oriented dialogue systems",
+    "embeddings",
+    "knowledge",
+    "generating"
+  ],
+  "url": "https://aclanthology.org/2021.dialdoc-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

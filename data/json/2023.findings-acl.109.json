@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.109",
+  "title": "Cross-lingual {AMR} Aligner: Paying Attention to Cross-Attention",
+  "authors": [
+    "Mart{\\'i}nez Lorenzo, Abelardo Carlos  and\nHuguet Cabot, Pere Llu{\\'i}s  and\nNavigli, Roberto"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "This paper introduces a novel aligner for Abstract Meaning Representation (AMR) graphs that can scale cross-lingually, and is thus capable of aligning units and spans in sentences of different languages. Our approach leverages modern Transformer-based parsers, which inherently encode alignment information in their cross-attention weights, allowing us to extract this information during parsing. This eliminates the need for English-specific rules or the Expectation Maximization (EM) algorithm that have been used in previous approaches. In addition, we propose a guided supervised method using alignment to further enhance the performance of our aligner. We achieve state-of-the-art results in the benchmarks for AMR alignment and demonstrate our aligner’s ability to obtain them across multiple languages. Our code will be available at [https://www.github.com/babelscape/AMR-alignment](https://www.github.com/babelscape/AMR-alignment).",
+  "keywords": [
+    "code",
+    "em",
+    "encode",
+    "we",
+    "amr alignment",
+    "cross",
+    "aligner",
+    "information",
+    "our aligner s ability",
+    "their cross-attention weights",
+    "our aligner",
+    "-",
+    "modern transformer-based parsers",
+    "alignment",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.109/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

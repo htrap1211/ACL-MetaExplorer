@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.843",
+  "title": "I}ndic{LLMS}uite: A Blueprint for Creating Pre-training and Fine-Tuning Datasets for {I}ndian Languages",
+  "authors": [
+    "Khan, Mohammed Safi Ur Rahman  and\nMehta, Priyam  and\nSankar, Ananth  and\nKumaravelan, Umashankar  and\nDoddapaneni, Sumanth  and\nB, Suriyaprasaad  and\nG, Varun  and\nJain, Sparsh  and\nKunchukuttan, Anoop  and\nKumar, Pratyush  and\nDabre, Raj  and\nKhapra, Mitesh M."
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Despite the considerable advancements in English LLMs, the progress in building comparable models for other languages has been hindered due to the scarcity of tailored resources. Our work aims to bridge this divide by introducing an expansive suite of resources specifically designed for the development of Indic LLMs, covering 22 languages, containing a total of 251B tokens and 74.8M instruction-response pairs. Recognizing the importance of both data quality and quantity, our approach combines highly curated manually verified data, unverified yet valuable data, and synthetic data. We build a clean, open-source pipeline for curating pre-training data from diverse sources, including websites, PDFs, and videos, incorporating best practices for crawling, cleaning, flagging, and deduplication. For instruction-fine tuning, we amalgamate existing Indic datasets, translate/transliterate English datasets into Indian languages, and utilize LLaMa2 and Mixtral models to create conversations grounded in articles from Indian Wikipedia and Wikihow. Additionally, we address toxicity alignment by generating toxic prompts for multiple scenarios and then generate non-toxic responses by feeding these toxic prompts to an aligned LLaMa2 model. We hope that the datasets, tools, and resources released as a part of this work will not only propel the research and development of Indic LLMs but also establish an open-source blueprint for extending such efforts to other languages.",
+  "keywords": [
+    "english llms",
+    "conversations",
+    "we",
+    "pre-training data",
+    "these toxic prompts",
+    "training",
+    "instruction",
+    "toxicity alignment",
+    "llms",
+    "tuning",
+    "indic llms",
+    "toxic prompts",
+    "fine",
+    "pre-training and fine-tuning datasets",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.843/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:45:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

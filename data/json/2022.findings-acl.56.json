@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.56",
+  "title": "Domain Representative Keywords Selection: A Probabilistic Approach",
+  "authors": [
+    "Akash, Pritom Saha  and\nHuang, Jie  and\nChang, Kevin  and\nLi, Yunyao  and\nPopa, Lucian  and\nZhai, ChengXiang"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "We propose a probabilistic approach to select a subset of atarget domain representative keywordsfrom a candidate set, contrasting with a context domain. Such a task is crucial for many downstream tasks in natural language processing. To contrast the target domain and the context domain, we adapt thetwo-component mixture modelconcept to generate a distribution of candidate keywords. It provides more importance to thedistinctivekeywords of the target domain than common keywords contrasting with the context domain. To support therepresentativenessof the selected keywords towards the target domain, we introduce anoptimization algorithmfor selecting the subset from the generated candidate distribution. We have shown that the optimization algorithm can be efficiently implemented with a near-optimal approximation guarantee. Finally, extensive experiments on multiple domains demonstrate the superiority of our approach over other baselines for the tasks of keyword summary generation and trending keywords selection.",
+  "keywords": [
+    "processing",
+    "language",
+    "generation",
+    "natural",
+    "it",
+    "anoptimization",
+    "optimization",
+    "we",
+    "natural language processing",
+    "the optimization",
+    "the generated candidate distribution",
+    "keyword summary generation",
+    "such a task",
+    "a near-optimal approximation",
+    "thetwo-component mixture modelconcept"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.56/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

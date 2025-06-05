@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.509",
+  "title": "G}host{BERT}: Generate More Features with Cheap Operations for {BERT",
+  "authors": [
+    "Huang, Zhiqi  and\nHou, Lu  and\nShang, Lifeng  and\nJiang, Xin  and\nChen, Xiao  and\nLiu, Qun"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Transformer-based pre-trained language models like BERT, though powerful in many tasks, are expensive in both memory and computation, due to their large number of parameters. Previous works show that some parameters in these models can be pruned away without severe accuracy drop. However, these redundant features contribute to a comprehensive understanding of the training data and removing them weakens the model’s representation ability. In this paper, we propose GhostBERT, which generates more features with very cheap operations from the remaining features. In this way, GhostBERT has similar memory and computational cost as the pruned model, but enjoys much larger representation power. The proposed ghost module can also be applied to unpruned BERT models to enhance their performance with negligible additional parameters and computation. Empirical results on the GLUE benchmark on three backbone models (i.e., BERT, RoBERTa and ELECTRA) verify the efficacy of our proposed method.",
+  "keywords": [
+    "roberta",
+    "we",
+    "training",
+    "g host bert",
+    "i",
+    "bert",
+    "drop",
+    "unpruned bert models",
+    "accuracy",
+    "transformer",
+    "language",
+    "model",
+    "ghostbert",
+    "pre",
+    "severe accuracy drop"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.509/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

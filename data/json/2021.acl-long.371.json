@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.371",
+  "title": "De-biasing Distantly Supervised Named Entity Recognition via Causal Intervention",
+  "authors": [
+    "Zhang, Wenkai  and\nLin, Hongyu  and\nHan, Xianpei  and\nSun, Le"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Distant supervision tackles the data bottleneck in NER by automatically generating training instances via dictionary matching. Unfortunately, the learning of DS-NER is severely dictionary-biased, which suffers from spurious correlations and therefore undermines the effectiveness and the robustness of the learned models. In this paper, we fundamentally explain the dictionary bias via a Structural Causal Model (SCM), categorize the bias into intra-dictionary and inter-dictionary biases, and identify their causes. Based on the SCM, we learn de-biased DS-NER via causal interventions. For intra-dictionary bias, we conduct backdoor adjustment to remove the spurious correlations introduced by the dictionary confounder. For inter-dictionary bias, we propose a causal invariance regularizer which will make DS-NER models more robust to the perturbation of dictionaries. Experiments on four datasets and three DS-NER models show that our method can significantly improve the performance of DS-NER.",
+  "keywords": [
+    "the bias",
+    "bias",
+    "dictionaries experiments",
+    "we",
+    "inter-dictionary bias",
+    "training",
+    "three ds-ner models",
+    "ds-ner",
+    "-dictionary and inter-dictionary biases",
+    "learning",
+    "biased",
+    "ner",
+    "a causal invariance regularizer",
+    "de-biased ds-ner",
+    "biasing"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.371/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

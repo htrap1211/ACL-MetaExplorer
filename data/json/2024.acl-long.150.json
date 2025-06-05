@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.150",
+  "title": "I}t{D}: Large Language Models Can Teach Themselves Induction through Deduction",
+  "authors": [
+    "Sun, Wangtao  and\nXu, Haotian  and\nYu, Xuanqing  and\nChen, Pei  and\nHe, Shizhu  and\nZhao, Jun  and\nLiu, Kang"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Although Large Language Models (LLMs) are showing impressive performance on a wide range of Natural Language Processing tasks, researchers have found that they still have limited ability to conduct induction. Recent works mainly adopt “post processes” paradigms to improve the performance of LLMs on induction (e.g., the hypothesis search & refinement methods), but their performance is still constrained by the inherent inductive capability of the LLMs. In this paper, we propose a novel framework, Induction through Deduction (ItD), to enable the LLMs to teach themselves induction through deduction. The ItD framework is composed of two main components: a Deductive Data Generation module to generate induction data and a Naive Bayesian Induction module to optimize the fine-tuning and decoding of LLMs. Our empirical results showcase the effectiveness of ItD on two induction benchmarks, achieving relative performance improvement of 36% and 10% compared with previous state-of-the-art, respectively. Our ablation study verifies the effectiveness of two key modules of ItD. We also verify the effectiveness of ItD across different LLMs and deductors. The data and code of this paper can be found at https://github.com/forangel2014/ItD.",
+  "keywords": [
+    "code",
+    "natural language processing tasks",
+    "the llms",
+    "we",
+    "different llms",
+    "natural",
+    "it",
+    "llms",
+    "tuning",
+    "processing",
+    "i",
+    "large language models llms",
+    "d",
+    "the fine-tuning",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.150/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

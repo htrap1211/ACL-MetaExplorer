@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.495",
+  "title": "Multi-Label Few-Shot Learning for Aspect Category Detection",
+  "authors": [
+    "Hu, Mengting  and\nZhao, Shiwan  and\nGuo, Honglei  and\nXue, Chao  and\nGao, Hang  and\nGao, Tiegang  and\nCheng, Renhong  and\nSu, Zhong"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Aspect category detection (ACD) in sentiment analysis aims to identify the aspect categories mentioned in a sentence. In this paper, we formulate ACD in the few-shot learning scenario. However, existing few-shot learning approaches mainly focus on single-label predictions. These methods can not work well for the ACD task since a sentence may contain multiple aspect categories. Therefore, we propose a multi-label few-shot learning method based on the prototypical network. To alleviate the noise, we design two effective attention mechanisms. The support-set attention aims to extract better prototypes by removing irrelevant aspects. The query-set attention computes multiple prototype-specific representations for each query instance, which are then used to compute accurate distances with the corresponding prototypes. To achieve multi-label inference, we further learn a dynamic threshold per instance by a policy network. Extensive experimental results on three datasets demonstrate that the proposed method significantly outperforms strong baselines.",
+  "keywords": [
+    "support",
+    "the support-set attention",
+    "we",
+    "shot",
+    "multiple aspect categories",
+    "the query-set attention",
+    "learning",
+    "multi-label few-shot learning",
+    "analysis",
+    "categories",
+    "the aspect categories",
+    "sentiment",
+    "the few-shot learning scenario",
+    "two effective attention mechanisms",
+    "network"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.495/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.285",
+  "title": "Beyond Scaling: Predicting Patent Approval with Domain-specific Fine-grained Claim Dependency Graph",
+  "authors": [
+    "Gao, Xiaochen  and\nYao, Feng  and\nZhao, Kewen  and\nHe, Beilei  and\nKumar, Animesh  and\nKrishnan, Vish  and\nShang, Jingbo"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Model scaling is becoming the default choice for many language tasks due to the success of large language models (LLMs). However, it can fall short in specific scenarios where simple customized methods excel. In this paper, we delve into the patent approval prediction task and unveil that simple domain-specific graph methods outperform enlarging the model, using the intrinsic dependencies within the patent data. Specifically, we first extend the embedding-based state-of-the-art (SOTA) by scaling up its backbone model with various sizes of open-source LLMs, then explore prompt-based methods to harness proprietary LLMs’ potential, but find the best results close to random guessing, underlining the ineffectiveness of model scaling-up. Hence, we propose a novel Fine-grained cLAim depeNdency (FLAN) Graph through meticulous patent data analyses, capturing the inherent dependencies across segments of the patent text. As it is model-agnostic, we apply cost-effective graph models to our FLAN Graph to obtain representations for approval prediction. Extensive experiments and detailed analyses prove that incorporating FLAN Graph via various graph models consistently outperforms all LLM baselines significantly. We hope that our observations and analyses in this paper can bring more attention to this challenging task and prompt further research into the limitations of LLMs.",
+  "keywords": [
+    "we",
+    "graph",
+    "llm",
+    "the inherent dependencies",
+    "it",
+    "dependencies",
+    "prompt-based methods",
+    "more attention",
+    "llms",
+    "prompt",
+    "text",
+    "the intrinsic dependencies",
+    "language",
+    "random",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.285/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

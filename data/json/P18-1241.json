@@ -1,0 +1,33 @@
+{
+  "id": "P18-1241",
+  "title": "Attacking Visual Language Grounding with Adversarial Examples: A Case Study on Neural Image Captioning",
+  "authors": [
+    "Chen, Hongge  and\nZhang, Huan  and\nChen, Pin-Yu  and\nYi, Jinfeng  and\nHsieh, Cho-Jui"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Visual language grounding is widely studied in modern neural image captioning systems, which typically adopts an encoder-decoder framework consisting of two principal components: a convolutional neural network (CNN) for image feature extraction and a recurrent neural network (RNN) for language caption generation. To study the robustness of language grounding to adversarial perturbations in machine vision and perception, we propose Show-and-Fool, a novel algorithm for crafting adversarial examples in neural image captioning. The proposed algorithm provides two evaluation approaches, which check if we can mislead neural image captioning systems to output some randomly chosen captions or keywords. Our extensive experiments show that our algorithm can successfully craft visually-similar adversarial examples with randomly targeted captions or keywords, and the adversarial examples can be made highly transferable to other image captioning systems. Consequently, our approach leads to new robustness implications of neural image captioning and novel insights in visual language grounding.",
+  "keywords": [
+    "language",
+    "generation",
+    "neural",
+    "cnn",
+    "extraction",
+    "an encoder-decoder framework",
+    "machine",
+    "a recurrent neural network",
+    "two evaluation approaches",
+    "encoder",
+    "decoder",
+    "network",
+    "we",
+    "visual",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/P18-1241/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:15:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

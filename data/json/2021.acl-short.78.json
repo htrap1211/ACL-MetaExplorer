@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.78",
+  "title": "Cross-lingual Text Classification with Heterogeneous Graph Neural Network",
+  "authors": [
+    "Wang, Ziyun  and\nLiu, Xuan  and\nYang, Peiji  and\nLiu, Shixing  and\nWang, Zhisheng"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Cross-lingual text classification aims at training a classifier on the source language and transferring the knowledge to target languages, which is very useful for low-resource languages. Recent multilingual pretrained language models (mPLM) achieve impressive results in cross-lingual classification tasks, but rarely consider factors beyond semantic similarity, causing performance degradation between some language pairs. In this paper we propose a simple yet effective method to incorporate heterogeneous information within and across languages for cross-lingual text classification using graph convolutional networks (GCN). In particular, we construct a heterogeneous graph by treating documents and words as nodes, and linking nodes with different relations, which include part-of-speech roles, semantic similarity, and document translations. Extensive experiments show that our graph-based method significantly outperforms state-of-the-art models on all tasks, and also achieves consistent performance gain over baselines in low-resource settings where external tools like translators are unavailable.",
+  "keywords": [
+    "classifier",
+    "semantic",
+    "we",
+    "semantic similarity",
+    "graph",
+    "convolutional",
+    "classification",
+    "cross",
+    "neural",
+    "information",
+    "cross-lingual text classification",
+    "text",
+    "cross-lingual classification tasks",
+    "knowledge",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.78/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:08:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

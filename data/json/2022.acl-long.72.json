@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.72",
+  "title": "Auto-Debias: Debiasing Masked Language Models with Automated Biased Prompts",
+  "authors": [
+    "Guo, Yue  and\nYang, Yi  and\nAbbasi, Ahmed"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Human-like biases and undesired social stereotypes exist in large pretrained language models. Given the wide adoption of these models in real-world applications, mitigating such biases has become an emerging and important task. In this paper, we propose an automatic method to mitigate the biases in pretrained language models. Different from previous debiasing work that uses external corpora to fine-tune the pretrained models, we instead directly probe the biases encoded in pretrained models through prompts. Specifically, we propose a variant of the beam search method to automatically search forbiased promptssuch that the cloze-style completions are the most different with respect to different demographic groups. Given the identified biased prompts, we then propose a distribution alignment loss to mitigate the biases. Experiment results on standard datasets and metrics show that our proposedAuto-Debiasapproach can significantly reduce biases, including gender and racial bias, in pretrained language models such as BERT, RoBERTa and ALBERT. Moreover, the improvement in fairness does not decrease the language models’ understanding abilities, as shown using the GLUE benchmark.",
+  "keywords": [
+    "debiasapproach",
+    "bias",
+    "roberta",
+    "the identified biased prompts",
+    "bert roberta",
+    "we",
+    "albert",
+    "loss",
+    "debiasing",
+    "biased",
+    "abilities",
+    "bert",
+    "a distribution alignment loss",
+    "metrics",
+    "language models"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.72/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

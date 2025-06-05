@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.5",
+  "title": "R}elation{P}rompt: Leveraging Prompts to Generate Synthetic Data for Zero-Shot Relation Triplet Extraction",
+  "authors": [
+    "Chia, Yew Ken  and\nBing, Lidong  and\nPoria, Soujanya  and\nSi, Luo"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Despite the importance of relation extraction in building and representing knowledge, less research is focused on generalizing to unseen relations types. We introduce the task setting of Zero-Shot Relation Triplet Extraction (ZeroRTE) to encourage further research in low-resource relation extraction methods. Given an input sentence, each extracted triplet consists of the head entity, relation label, and tail entity where the relation label is not seen at the training stage. To solve ZeroRTE, we propose to synthesize relation examples by prompting language models to generate structured texts. Concretely, we unify language model prompts and structured text approaches to design a structured prompt template for generating synthetic relation samples when conditioning on relation label prompts (RelationPrompt). To overcome the limitation for extracting multiple relation triplets in a sentence, we design a novel Triplet Search Decoding method. Experiments on FewRel and Wiki-ZSL datasets show the efficacy of RelationPrompt for the ZeroRTE task and zero-shot relation classification. Our code and data are available at github.com/declare-lab/RelationPrompt.",
+  "keywords": [
+    "code",
+    "extraction",
+    "zero-shot relation classification",
+    "we",
+    "relation label prompts",
+    "zero-shot relation triplet extraction",
+    "shot",
+    "training",
+    "classification",
+    "a structured prompt template",
+    "rompt leveraging prompts",
+    "prompt",
+    "language model prompts",
+    "text",
+    "language models"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:34:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

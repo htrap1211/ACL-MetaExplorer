@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.505",
+  "title": "Hyperparameter-Free Approach for Faster Minimum {B}ayes Risk Decoding",
+  "authors": [
+    "Jinnai, Yuu  and\nAriu, Kaito"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Minimum Bayes-Risk (MBR) decoding is shown to be a powerful alternative to beam search decoding for a wide range of text generation tasks. However, MBR requires a huge amount of time for inference to compute the MBR objective, which makes the method infeasible in many situations where response time is critical. Confidence-based pruning (CBP) (Cheng and Vlachos, 2023) has recently been proposed to reduce the inference time in machine translation tasks. Although it is shown to significantly reduce the amount of computation, it requires hyperparameter tuning using a development set to be effective. To this end, we propose Adaptive Minimum Bayes-Risk (AMBR) decoding, a hyperparameter-free method to run MBR decoding efficiently. AMBR is derived from the observation that the problem of computing the sample-based MBR objective is the medoid identification problem. AMBR uses the Correlated Sequential Halving (CSH) algorithm (Baharav and Tse, 2019), the algorithm with the best performance guarantee to date for the medoid identification problem, to compute the sample-based MBR objective. We evaluate AMBR on machine translation, text summarization, and image captioning tasks. The results show that AMBR achieves on par with CBP, with CBP selecting hyperparameters through an Oracle for each given computation budget.",
+  "keywords": [
+    "the mbr objective",
+    "end",
+    "summarization",
+    "we",
+    "text generation tasks",
+    "machine translation tasks",
+    "hyperparameter-free approach",
+    "translation",
+    "hyperparameters",
+    "it",
+    "tuning",
+    "text",
+    "objective",
+    "par",
+    "hyperparameter tuning"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.505/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:55:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

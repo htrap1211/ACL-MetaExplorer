@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.25",
+  "title": "Extracting Drug-Drug and Protein-Protein Interactions from Text using a Continuous Update of Tree-Transformers",
+  "authors": [
+    "Singha Roy, Sudipta  and\nMercer, Robert E."
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "Understanding biological mechanisms requires determining mutual protein-protein interactions (PPI). Obtaining drug-drug interactions (DDI) from scientific articles provides important information about drugs. Extracting such medical entity interactions from biomedical articles is challenging due to complex sentence structures. To address this issue, our proposed model utilizes tree-transformers to generate the sentence representation first, and then a sentence-to-word update step to fine-tune the word embeddings which are again used by the tree-transformers to generate enriched sentence representations. Using the tree-transformers helps the model preserve syntactical information and provide semantic information. The fine-tuning provided by the continuous update step adds improved semantics to the representation of each sentence. Our model outperforms other prominent models with a significant performance boost on the five standard PPI corpora and a performance boost on the one benchmark DDI corpus that are used in our experiments.",
+  "keywords": [
+    "transformers",
+    "semantic",
+    "fine-tune the word embeddings",
+    "tree-transformers",
+    "semantics",
+    "information",
+    "boost",
+    "word",
+    "scientific",
+    "scientific articles",
+    "tuning",
+    "text",
+    "fine",
+    "embeddings",
+    "the fine-tuning"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.25/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

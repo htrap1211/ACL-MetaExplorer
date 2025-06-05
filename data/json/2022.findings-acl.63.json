@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.63",
+  "title": "MIMIC}ause: {R}epresentation and automatic extraction of causal relation types from clinical notes",
+  "authors": [
+    "Khetan, Vivek  and\nRizvi, Md Imbesat  and\nHuber, Jessica  and\nBartusiak, Paige  and\nSacaleanu, Bogdan  and\nFano, Andrew"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Understanding causal narratives communicated in clinical notes can help make strides towards personalized healthcare. Extracted causal information from clinical notes can be combined with structured EHR data such as patients’ demographics, diagnoses, and medications. This will enhance healthcare providers’ ability to identify aspects of a patient’s story communicated in the clinical notes and help make more informed decisions. In this work, we propose annotation guidelines, develop an annotated corpus and provide baseline scores to identify types and direction of causal relations between a pair of biomedical concepts in clinical notes; communicated implicitly or explicitly, identified either in a single sentence or across multiple sentences. We annotate a total of 2714 de-identified examples sampled from the 2018 n2c2 shared task dataset and train four different language model based architectures. Annotation based on our guidelines achieved a high inter-annotator agreement i.e. Fleiss’ kappa (𝜅) score of 0.72, and our model for identification of causal relations achieved a macro F1 score of 0.56 on the test data. The high inter-annotator agreement for clinical text shows the quality of our annotation guidelines while the provided baseline F1 score sets the direction for future research towards understanding narratives in clinical texts.",
+  "keywords": [
+    "extraction",
+    "2714 de-identified examples",
+    "we",
+    "patients",
+    "information",
+    "e",
+    "a macro f1 score",
+    "patients demographics diagnoses",
+    "i",
+    "text",
+    "work",
+    "language",
+    "model",
+    "four different language model",
+    "a patient s story"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.63/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

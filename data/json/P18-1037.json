@@ -1,0 +1,33 @@
+{
+  "id": "P18-1037",
+  "title": "AMR} Parsing as Graph Prediction with Latent Alignment",
+  "authors": [
+    "Lyu, Chunchuan  and\nTitov, Ivan"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Abstract meaning representations (AMRs) are broad-coverage sentence-level semantic representations. AMRs represent sentences as rooted labeled directed acyclic graphs. AMR parsing is challenging partly due to the lack of annotated alignments between nodes in the graphs and words in the corresponding sentences. We introduce a neural parser which treats alignments as latent variables within a joint probabilistic model of concepts, relations and alignments. As exact inference requires marginalizing over alignments and is infeasible, we use the variational autoencoding framework and a continuous relaxation of the discrete alignments. We show that joint modeling is preferable to using a pipeline of align and parse. The parser achieves the best reported results on the standard benchmark (74.4% on LDC2016E25).",
+  "keywords": [
+    "alignment",
+    "align",
+    "parsing",
+    "the discrete alignments",
+    "alignments",
+    "neural",
+    "model",
+    "annotated alignments",
+    "broad-coverage sentence-level semantic representations",
+    "modeling",
+    "latent",
+    "semantic",
+    "we",
+    "graph",
+    "latent alignment"
+  ],
+  "url": "https://aclanthology.org/P18-1037/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:09:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

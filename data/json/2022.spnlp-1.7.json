@@ -1,0 +1,33 @@
+{
+  "id": "2022.spnlp-1.7",
+  "title": "Predicting Attention Sparsity in Transformers",
+  "authors": [
+    "Treviso, Marcos  and\nG{\\'o}is, Ant{\\'o}nio  and\nFernandes, Patrick  and\nFonseca, Erick  and\nMartins, Andre"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Sixth Workshop on Structured Prediction for NLP",
+  "abstract": "Transformers’ quadratic complexity with respect to the input sequence length has motivated a body of work on efficient sparse approximations to softmax. An alternative path, used by entmax transformers, consists of having built-in exact sparse attention; however this approach still requires quadratic computation. In this paper, we propose Sparsefinder, a simple model trained to identify the sparsity pattern of entmax attention before computing it. We experiment with three variants of our method, based on distances, quantization, and clustering, on two tasks: machine translation (attention in the decoder) and masked language modeling (encoder-only). Our work provides a new angle to study model efficiency by doing extensive analysis of the tradeoff between the sparsity and recall of the predicted attention graph. This allows for detailed comparison between different models along their Pareto curves, important to guide future benchmarks for sparse attention models.",
+  "keywords": [
+    "transformers",
+    "attention sparsity",
+    "the decoder",
+    "sparse attention models",
+    "efficient",
+    "efficiency",
+    "we",
+    "graph",
+    "exact sparse attention",
+    "translation",
+    "it",
+    "decoder",
+    "efficient sparse approximations",
+    "sequence",
+    "entmax transformers"
+  ],
+  "url": "https://aclanthology.org/2022.spnlp-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:46:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

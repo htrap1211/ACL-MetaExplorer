@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.57",
+  "title": "K}now{G}raph@{IITK} at {S}em{E}val-2021 Task 11: Building Knowledge Graph for {NLP} Research",
+  "authors": [
+    "Shailabh, Shashank  and\nChaurasia, Sajal  and\nModi, Ashutosh"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "Research in Natural Language Processing is making rapid advances, resulting in the publication of a large number of research papers. Finding relevant research papers and their contribution to the domain is a challenging problem. In this paper, we address this challenge via the SemEval 2021 Task 11: NLPContributionGraph, by developing a system for a research paper contributions-focused knowledge graph over Natural Language Processing literature. The task is divided into three sub-tasks: extracting contribution sentences that show important contributions in the research article, extracting phrases from the contribution sentences, and predicting the information units in the research article together with triplet formation from the phrases. The proposed system is agnostic to the subject domain and can be applied for building a knowledge graph for any area. We found that transformer-based language models can significantly improve existing techniques and utilized the SciBERT-based model. Our first sub-task uses Bidirectional LSTM (BiLSTM) stacked on top of SciBERT model layers, while the second sub-task uses Conditional Random Field (CRF) on top of SciBERT with BiLSTM. The third sub-task uses a combined SciBERT based neural approach with heuristics for information unit prediction and triplet formation from the phrases. Our system achieved F1 score of 0.38, 0.63 and 0.76 in end-to-end pipeline testing, phrase extraction testing and triplet extraction testing respectively.",
+  "keywords": [
+    "top",
+    "conditional random field crf",
+    "end",
+    "scibert",
+    "nlp research research",
+    "extraction",
+    "field",
+    "natural language processing literature",
+    "we",
+    "nlpcontributiongraph",
+    "lstm",
+    "graph",
+    "neural",
+    "natural",
+    "bilstm"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.57/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:20:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

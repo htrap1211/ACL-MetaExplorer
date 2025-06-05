@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.402",
+  "title": "VISREAS}: Complex Visual Reasoning with Unanswerable Questions",
+  "authors": [
+    "Akter, Syeda Nahida  and\nLee, Sangwu  and\nChang, Yingshan  and\nBisk, Yonatan  and\nNyberg, Eric"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Verifying a question’s validity before answering is crucial in real-world applications, where users may provide imperfect instructions. In this scenario, an ideal model should address the discrepancies in the query and convey them to the users rather than generating the best possible answer. Addressing this requirement, we introduce a new compositional visual question-answering dataset, VisReas, that consists of answerable and unanswerable visual queries formulated by traversing and perturbing commonalities and differences among objects, attributes, and relations. VisReas contains 2.07M semantically diverse queries generated automatically using Visual Genome scene graphs. The unique feature of this task, validating question answerability with respect to an image before answering, and the poor performance of state-of-the-art models inspired the design of a new modular baseline, Logic2Vision that reasons by producing and executing pseudocode without any external modules to generate the answer. Logic2Vision outperforms generative models in VisReas (+4.82% over LLaVA-1.5; +12.23% over InstructBLIP) and achieves a significant gain in performance against the classification models.",
+  "keywords": [
+    "generative models",
+    "question",
+    "we",
+    "classification",
+    "answer",
+    "the discrepancies",
+    "queries",
+    "discrepancies",
+    "visual",
+    "commonalities",
+    "generative",
+    "the classification models",
+    "model",
+    "an ideal model",
+    "scenario"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.402/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.6",
+  "title": "Exploring Chain-of-Thought for Multi-modal Metaphor Detection",
+  "authors": [
+    "Xu, Yanzhi  and\nHua, Yueying  and\nLi, Shichen  and\nWang, Zhongqing"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Metaphors are commonly found in advertising and internet memes. However, the free form of internet memes often leads to a lack of high-quality textual data. Metaphor detection demands a deep interpretation of both textual and visual elements, requiring extensive common-sense knowledge, which poses a challenge to language models. To address these challenges, we propose a compact framework called C4MMD, which utilizes aChain-of-Thought(CoT) methodforMulti-modalMetaphorDetection. Specifically, our approach designs a three-step process inspired by CoT that extracts and integrates knowledge from Multi-modal Large Language Models(MLLMs) into smaller ones. We also developed a modality fusion architecture to transform knowledge from large models into metaphor features, supplemented by auxiliary tasks to improve model performance. Experimental results on the MET-MEME dataset demonstrate that our method not only effectively enhances the metaphor detection capabilities of small models but also outperforms existing models. To our knowledge, this is the first systematic study leveraging MLLMs in metaphor detection tasks. The code for our method is publicly available athttps://github.com/xyz189411yt/C4MMD.",
+  "keywords": [
+    "deep",
+    "code",
+    "chain",
+    "form",
+    "we",
+    "fusion",
+    "cot",
+    "visual",
+    "the metaphor detection capabilities",
+    "language models",
+    "-",
+    "mllms",
+    "process",
+    "knowledge",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:34:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

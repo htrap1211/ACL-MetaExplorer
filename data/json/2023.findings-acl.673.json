@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.673",
+  "title": "Disambiguated Lexically Constrained Neural Machine Translation",
+  "authors": [
+    "Zhang, Jinpeng  and\nXiao, Nini  and\nWang, Ke  and\nDong, Chuanqi  and\nDuan, Xiangyu  and\nZhang, Yuqi  and\nZhang, Min"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Lexically constrained neural machine translation (LCNMT), which controls the translation generation with pre-specified constraints, is important in many practical applications. Current approaches to LCNMT typically assume that the pre-specified lexicon constraints are contextually appropriate. This assumption limits their application to real-world scenarios where a source lexicon may have multiple target constraints, and disambiguation is needed to select the most suitable one. In this paper, we propose disambiguated LCNMT (D-LCNMT) to solve the problem. D-LCNMT is a robust and effective two-stage framework that disambiguates the constraints based on contexts at first, then integrates the disambiguated constraints into LCNMT. Experimental results show that our approach outperforms strong baselines including existing data argumentation based approaches on benchmark datasets, and comprehensive experiments in scenarios where a source lexicon corresponds to multiple target constraints demonstrate the constraint disambiguation superiority of our approach.",
+  "keywords": [
+    "pre-specified constraints",
+    "specified",
+    "generation",
+    "neural",
+    "machine",
+    "-",
+    "the translation generation",
+    "we",
+    "the pre-specified lexicon constraints",
+    "pre",
+    "current",
+    "translation",
+    "that",
+    "practical",
+    "applications"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.673/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

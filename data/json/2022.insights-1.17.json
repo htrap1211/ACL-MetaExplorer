@@ -1,0 +1,33 @@
+{
+  "id": "2022.insights-1.17",
+  "title": "The Document Vectors Using Cosine Similarity Revisited",
+  "authors": [
+    "Bingyu, Zhang  and\nArefyev, Nikolay"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Third Workshop on Insights from Negative Results in NLP",
+  "abstract": "The current state-of-the-art test accuracy (97.42%) on the IMDB movie reviews dataset was reported by Thongtan and Phienthrakul (2019) and achieved by the logistic regression classifier trained on the Document Vectors using Cosine Similarity (DV-ngrams-cosine) proposed in their paper and the Bag-of-N-grams (BON) vectors scaled by Naïve Bayesian weights. While large pre-trained Transformer-based models have shown SOTA results across many datasets and tasks, the aforementioned model has not been surpassed by them, despite being much simpler and pre-trained on the IMDB dataset only. In this paper, we describe an error in the evaluation procedure of this model, which was found when we were trying to analyze its excellent performance on the IMDB dataset. We further show that the previously reported test accuracy of 97.42% is invalid and should be corrected to 93.68%. We also analyze the model performance with different amounts of training data (subsets of the IMDB dataset) and compare it to the Transformer-based RoBERTa model. The results show that while RoBERTa has a clear advantage for larger training sets, the DV-ngrams-cosine performs better than RoBERTa when the labeled training set is very small (10 or 20 documents). Finally, we introduce a sub-sampling scheme based on Naïve Bayesian weights for the training process of the DV-ngrams-cosine, which leads to faster training and better quality.",
+  "keywords": [
+    "roberta",
+    "classifier",
+    "the document vectors",
+    "the transformer-based roberta model",
+    "we",
+    "current",
+    "training",
+    "bag",
+    "it",
+    "reviews",
+    "large pre-trained transformer-based models",
+    "accuracy",
+    "transformer",
+    "process",
+    "movie"
+  ],
+  "url": "https://aclanthology.org/2022.insights-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

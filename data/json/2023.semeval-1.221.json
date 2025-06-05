@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.221",
+  "title": "HW}-{TSC} at {S}em{E}val-2023 Task 7: Exploring the Natural Language Inference Capabilities of {C}hat{GPT} and Pre-trained Language Model for Clinical Trial",
+  "authors": [
+    "Zhao, Xiaofeng  and\nZhang, Min  and\nMa, Miaomiao  and\nSu, Chang  and\nLiu, Yilun  and\nWang, Minghan  and\nQiao, Xiaosong  and\nGuo, Jiaxin  and\nLi, Yinglu  and\nMa, Wenbing"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "In this paper, we describe the multi strategy system for SemEval-2022 Task 7, This task aims to determine whether a given statement is supported by one or two Clinical Trial reports, and to identify evidence that supports the statement. This is a task that requires high natural language inference capabilities. In Subtask 1, we compare our strategy based on prompt learning and ChatGPT with a baseline constructed using BERT in zero-shot setting, and validate the effectiveness of our strategy. In Subtask 2, we fine-tune DeBERTaV3 for classification without relying on the results from Subtask 1, and we observe that early stopping can effectively prevent model overfitting, which performs well in Subtask 2. In addition, we did not use any ensemble strategies. Ultimately, we achieved the 10th place in Subtask 1 and the 2nd place in Subtask 2.",
+  "keywords": [
+    "ensemble",
+    "model overfitting",
+    "prompt learning",
+    "prompt",
+    "language",
+    "natural",
+    "bert",
+    "model",
+    "early",
+    "c hat gpt",
+    "strategies",
+    "stopping",
+    "gpt",
+    "capabilities",
+    "zero-shot setting"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.221/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

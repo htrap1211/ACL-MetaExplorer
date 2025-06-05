@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.681",
+  "title": "Understanding Differential Search Index for Text Retrieval",
+  "authors": [
+    "Chen, Xiaoyang  and\nLiu, Yanjiang  and\nHe, Ben  and\nSun, Le  and\nSun, Yingfei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "The Differentiable Search Index (DSI) is a novel information retrieval (IR) framework that utilizes a differentiable function to generate a sorted list of document identifiers in response to a given query. However, due to the black-box nature of the end-to-end neural architecture, it remains to be understood to what extent DSI possesses the basic indexing and retrieval abilities. To mitigate this gap, in this study, we define and examine three important abilities that a functioning IR framework should possess, namely, exclusivity, completeness, and relevance ordering. Our analytical experimentation shows that while DSI demonstrates proficiency in memorizing the unidirectional mapping from pseudo queries to document identifiers, it falls short in distinguishing relevant documents from random ones, thereby negatively impacting its retrieval effectiveness. To address this issue, we propose a multi-task distillation approach to enhance the retrieval quality without altering the structure of the model and successfully endow it with improved indexing abilities. Through experiments conducted on various datasets, we demonstrate that our proposed method outperforms previous DSI baselinesThe code and data for this work can be found athttps://github.com/VerdureChen/Understang_DSI.",
+  "keywords": [
+    "code",
+    "end",
+    "we",
+    "the retrieval quality",
+    "neural",
+    "identifiers",
+    "it",
+    "queries",
+    "retrieval",
+    "information",
+    "abilities",
+    "text retrieval",
+    "text",
+    "improved indexing abilities",
+    "its retrieval effectiveness"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.681/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

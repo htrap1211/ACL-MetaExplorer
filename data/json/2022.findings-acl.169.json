@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.169",
+  "title": "TAB}i: {T}ype-Aware Bi-Encoders for Open-Domain Entity Retrieval",
+  "authors": [
+    "Leszczynski, Megan  and\nFu, Daniel  and\nChen, Mayee  and\nRe, Christopher"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Entity retrieval—retrieving information about entity mentions in a query—is a key step in open-domain tasks, such as question answering or fact checking. However, state-of-the-art entity retrievers struggle to retrieve rare entities for ambiguous mentions due to biases towards popular entities. Incorporating knowledge graph types during training could help overcome popularity biases, but there are several challenges: (1) existing type-based retrieval methods require mention boundaries as input, but open-domain tasks run on unstructured text, (2) type-based methods should not compromise overall performance, and (3) type-based methods should be robust to noisy and missing types. In this work, we introduce TABi, a method to jointly train bi-encoders on knowledge graph types and unstructured text for entity retrieval for open-domain tasks. TABi leverages a type-enforced contrastive loss to encourage entities and queries of similar types to be close in the embedding space. TABi improves retrieval of rare entities on the Ambiguous Entity Retrieval (AmbER) sets, while maintaining strong overall retrieval performance on open-domain tasks in the KILT benchmark compared to state-of-the-art retrievers. TABi is also robust to incomplete type systems, improving rare entity retrieval over baselines with only 5% type coverage of the training dataset. We make our code publicly available.",
+  "keywords": [
+    "code",
+    "knowledge graph types",
+    "question",
+    "we",
+    "graph",
+    "rare entity retrieval",
+    "training",
+    "queries",
+    "question answering",
+    "retrieval",
+    "loss",
+    "information",
+    "strong overall retrieval performance",
+    "popular entities",
+    "entity retrieval"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.169/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

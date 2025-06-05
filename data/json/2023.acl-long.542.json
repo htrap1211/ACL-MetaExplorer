@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.542",
+  "title": "Towards Better Entity Linking with Multi-View Enhanced Distillation",
+  "authors": [
+    "Liu, Yi  and\nTian, Yuan  and\nLian, Jianxun  and\nWang, Xinlong  and\nCao, Yanan  and\nFang, Fang  and\nZhang, Wen  and\nHuang, Haizhen  and\nDeng, Weiwei  and\nZhang, Qi"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Dense retrieval is widely used for entity linking to retrieve entities from large-scale knowledge bases. Mainstream techniques are based on a dual-encoder framework, which encodes mentions and entities independently and calculates their relevances via rough interaction metrics, resulting in difficulty in explicitly modeling multiple mention-relevant parts within entities to match divergent mentions. Aiming at learning entity representations that can match divergent mentions, this paper proposes a Multi-View Enhanced Distillation (MVD) framework, which can effectively transfer knowledge of multiple fine-grained and mention-relevant parts within entities from cross-encoders to dual-encoders. Each entity is split into multiple views to avoid irrelevant information being over-squashed into the mention-relevant view. We further design cross-alignment and self-alignment mechanisms for this framework to facilitate fine-grained knowledge distillation from the teacher model to the student model. Meanwhile, we reserve a global-view that embeds the entity as a whole to prevent dispersal of uniform information. Experiments show our method achieves state-of-the-art performance on several entity linking benchmarks.",
+  "keywords": [
+    "-alignment and self-alignment mechanisms",
+    "we",
+    "a dual-encoder framework",
+    "rough interaction metrics",
+    "cross",
+    "a global-view",
+    "the mention-relevant view",
+    "self",
+    "retrieval",
+    "information",
+    "views",
+    "dual-encoders",
+    "multiple views",
+    "metrics",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.542/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:42:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

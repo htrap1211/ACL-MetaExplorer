@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.292",
+  "title": "P}rom{DA}: Prompt-based Data Augmentation for Low-Resource {NLU} Tasks",
+  "authors": [
+    "Wang, Yufei  and\nXu, Can  and\nSun, Qingfeng  and\nHu, Huang  and\nTao, Chongyang  and\nGeng, Xiubo  and\nJiang, Daxin"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "This paper focuses on the Data Augmentation for low-resource Natural Language Understanding (NLU) tasks. We propose Prompt-based Data Augmentation model (PromDA) which only trains small-scale Soft Prompt (i.e., a set of trainable vectors) in the frozen Pre-trained Language Models (PLMs). This avoids human effort in collecting unlabeled in-domain data and maintains the quality of generated synthetic data. In addition, PromDA generates synthetic data via two different views and filters out the low-quality data using NLU models. Experiments on four benchmarks show that synthetic data produced by PromDA successfully boost up the performance of NLU models which consistently outperform several competitive baseline models, including a state-of-the-art semi-supervised model using unlabeled in-domain data. The synthetic data from PromDA are also complementary with unlabeled in-domain data. The NLU models can be further improved when they are combined for training.",
+  "keywords": [
+    "trainable vectors",
+    "prompt",
+    "language",
+    "natural",
+    "model",
+    "generated synthetic data",
+    "human",
+    "vectors",
+    "small-scale soft prompt",
+    "rom",
+    "views",
+    "we",
+    "two different views",
+    "pre",
+    "soft"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.292/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:28:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

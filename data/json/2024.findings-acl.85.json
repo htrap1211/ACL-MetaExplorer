@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.85",
+  "title": "RIFF}: Learning to Rephrase Inputs for Few-shot Fine-tuning of Language Models",
+  "authors": [
+    "Najafi, Saeed  and\nFyshe, Alona"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Pre-trained Language Models (PLMs) can be accurately fine-tuned for downstream text processing tasks. Recently, researchers have introduced several parameter-efficient fine-tuning methods that optimize input prompts or adjust a small number of model parameters (e.g LoRA). In this study, we explore the impact of altering the input text of the original task in conjunction with parameter-efficient fine-tuning methods. To most effectively rewrite the input text, we train a few-shot paraphrase model with a Maximum-Marginal Likelihood objective. Using six few-shot text classification datasets, we show that enriching data with paraphrases at train and test time enhances the performance beyond what can be achieved with parameter-efficient fine-tuning alone. The code used for our experiments can be found at https://github.com/SaeedNajafi/RIFF.",
+  "keywords": [
+    "prompts",
+    "code",
+    "tuning",
+    "processing",
+    "language",
+    "model",
+    "text",
+    "objective",
+    "efficient",
+    "language models",
+    "parameter-efficient fine-tuning",
+    "several parameter-efficient fine-tuning methods",
+    "a maximum-marginal likelihood objective",
+    "fine",
+    "train"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.85/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:49:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

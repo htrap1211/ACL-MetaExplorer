@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.429",
+  "title": "S}pike{V}oice: High-Quality Text-to-Speech Via Efficient Spiking Neural Network",
+  "authors": [
+    "Wang, Kexin  and\nZhang, Jiahong  and\nRen, Yong  and\nYao, Man  and\nShang, Di  and\nXu, Bo  and\nLi, Guoqi"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Brain-inspired Spiking Neural Network (SNN) has demonstrated its effectiveness and efficiency in vision, natural language, and speech understanding tasks, indicating their capacity to “see”, “listen”, and “read”. In this paper, we design SpikeVoice, which performs high-quality Text-To-Speech (TTS) via SNN, to explore the potential of SNN to “speak”. A major obstacle to using SNN for such generative tasks lies in the demand for models to grasp long-term dependencies. The serial nature of spiking neurons, however, leads to the invisibility of information at future spiking time steps, limiting SNN models to capture sequence dependencies solely within the same time step. We term this phenomenon “partial-time dependency”. To address this issue, we introduce Spiking Temporal-Sequential Attention (STSA) in the SpikeVoice. To the best of our knowledge, SpikeVoice is the first TTS work in the SNN field. We perform experiments using four well-established datasets that cover both Chinese and English languages, encompassing scenarios with both single-speaker and multi-speaker configurations. The results demonstrate that SpikeVoice can achieve results comparable to Artificial Neural Networks (ANN) with only 10.5% energy consumption of ANN. Both our demo and code are available as supplementary material.",
+  "keywords": [
+    "code",
+    "such generative tasks",
+    "efficient",
+    "artificial neural networks ann",
+    "field",
+    "efficiency",
+    "we",
+    "this phenomenon partial-time dependency",
+    "neural",
+    "the snn field",
+    "natural",
+    "dependencies",
+    "information",
+    "sequence dependencies",
+    "sequence"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.429/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:40:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

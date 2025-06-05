@@ -1,0 +1,33 @@
+{
+  "id": "2020.repl4nlp-1.2",
+  "title": "Encodings of Source Syntax: Similarities in {NMT} Representations Across Target Languages",
+  "authors": [
+    "Chang, Tyler A.  and\nRafferty, Anna"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 5th Workshop on Representation Learning for NLP",
+  "abstract": "We train neural machine translation (NMT) models from English to six target languages, using NMT encoder representations to predict ancestor constituent labels of source language words. We find that NMT encoders learn similar source syntax regardless of NMT target language, relying on explicit morphosyntactic cues to extract syntactic features from source sentences. Furthermore, the NMT encoders outperform RNNs trained directly on several of the constituent label prediction tasks, suggesting that NMT encoder representations can be used effectively for natural language tasks involving syntax. However, both the NMT encoders and the directly-trained RNNs learn substantially different syntactic information from a probabilistic context-free grammar (PCFG) parser. Despite lower overall accuracy scores, the PCFG often performs well on sentences for which the RNN-based models perform poorly, suggesting that RNN architectures are constrained in the types of syntax they can learn.",
+  "keywords": [
+    "the nmt encoders",
+    "nmt encoders",
+    "similarities",
+    "language",
+    "neural",
+    "natural",
+    "machine",
+    "the directly-trained rnns",
+    "the rnn-based models",
+    "rnns",
+    "similar source syntax",
+    "encoder",
+    "nmt encoder representations",
+    "information",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2020.repl4nlp-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:58:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "W18-3009",
+  "title": "Speeding up Context-based Sentence Representation Learning with Non-autoregressive Convolutional Decoding",
+  "authors": [
+    "Tang, Shuai  and\nJin, Hailin  and\nFang, Chen  and\nWang, Zhaowen  and\nde Sa, Virginia"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the Third Workshop on Representation Learning for {NLP}",
+  "abstract": "We propose an asymmetric encoder-decoder structure, which keeps an RNN as the encoder and has a CNN as the decoder, and the model only explores the subsequent context information as the supervision. The asymmetry in both model architecture and training pair reduces a large amount of the training time. The contribution of our work is summarized as 1. We design experiments to show that an autoregressive decoder or an RNN decoder is not necessary for the encoder-decoder type of models in terms of learning sentence representations, and based on our results, we present 2 findings. 2. The two interesting findings lead to our final model design, which has an RNN encoder and a CNN decoder, and it learns to encode the current sentence and decode the subsequent contiguous words all at once. 3. With a suite of techniques, our model performs good on downstream tasks and can be trained efficiently on a large unlabelled corpus.",
+  "keywords": [
+    "a cnn decoder",
+    "the decoder",
+    "an rnn encoder",
+    "we",
+    "an autoregressive decoder",
+    "convolutional",
+    "an rnn",
+    "an rnn decoder",
+    "current",
+    "training",
+    "the encoder",
+    "cnn",
+    "it",
+    "decoder",
+    "a cnn"
+  ],
+  "url": "https://aclanthology.org/W18-3009/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:24:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

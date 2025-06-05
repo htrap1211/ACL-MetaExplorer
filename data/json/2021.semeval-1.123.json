@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.123",
+  "title": "Sefamerve {ARGE} at {S}em{E}val-2021 Task 5: Toxic Spans Detection Using Segmentation Based 1-{D} Convolutional Neural Network Model",
+  "authors": [
+    "Delil, Selman  and\nKuyumcu, Birol  and\nAksakall{\\i}, C{\\\"u}neyt"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper describes our contribution to SemEval-2021 Task 5: Toxic Spans Detection. Our approach considers toxic spans detection as a segmentation problem. The system, Waw-unet, consists of a 1-D convolutional neural network adopted from U-Net architecture commonly applied for semantic segmentation. We customize existing architecture by adding a special network block considering for text segmentation, as an essential component of the model. We compared the model with two transformers-based systems RoBERTa and XLM-RoBERTa to see its performance against pre-trained language models. We obtained 0.6251 f1 score with Waw-unet while 0.6390 and 0.6601 with the compared models respectively.",
+  "keywords": [
+    "transformers",
+    "roberta",
+    "0 6251 f1 score",
+    "language",
+    "neural",
+    "pre-trained language models",
+    "net",
+    "model",
+    "text",
+    "two transformers-based systems roberta",
+    "network",
+    "semantic",
+    "we",
+    "semantic segmentation",
+    "xlm-roberta"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.123/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

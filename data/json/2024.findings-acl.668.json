@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.668",
+  "title": "Space Decomposition for Sentence Embedding",
+  "authors": [
+    "Ponwitayarat, Wuttikorn  and\nLimkonchotiwat, Peerat  and\nChuangsuwanich, Ekapol  and\nNutanong, Sarana"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Determining sentence pair similarity is crucial for various NLP tasks. A common technique to address this is typically evaluated on a continuous semantic textual similarity scale from 0 to 5. However, based on a linguistic observation in STS annotation guidelines, we found that the score in the range [4,5] indicates an upper-range sample, while the rest are lower-range samples. This necessitates a new approach to treating the upper-range and lower-range classes separately. In this paper, we introduce a novel embedding space decomposition method called MixSP utilizing a Mixture of Specialized Projectors, designed to distinguish and rank upper-range and lower-range samples accurately. The experimental results demonstrate that MixSP decreased the overlap representation between upper-range and lower-range classes significantly while outperforming competitors on STS and zero-shot benchmarks.",
+  "keywords": [
+    "rest",
+    "nlp",
+    "various nlp tasks",
+    "semantic",
+    "we",
+    "zero-shot benchmarks",
+    "shot",
+    "sample",
+    "the score",
+    "upper",
+    "approach",
+    "this",
+    "new",
+    "overlap",
+    "the experimental results"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.668/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

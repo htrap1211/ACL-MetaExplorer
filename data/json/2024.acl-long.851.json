@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.851",
+  "title": "MMT}o{M}-{QA}: Multimodal Theory of Mind Question Answering",
+  "authors": [
+    "Jin, Chuanyang  and\nWu, Yutong  and\nCao, Jing  and\nXiang, Jiannan  and\nKuo, Yen-Ling  and\nHu, Zhiting  and\nUllman, Tomer  and\nTorralba, Antonio  and\nTenenbaum, Joshua  and\nShu, Tianmin"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Theory of Mind (ToM), the ability to understand people’s mental states, is an essential ingredient for developing machines with human-level social intelligence. Recent machine learning models, particularly large language models, seem to show some aspects of ToM understanding. However, existing ToM benchmarks use unimodal datasets – either video or text. Human ToM, on the other hand, is more than video or text understanding. People can flexibly reason about another person’s mind based on conceptual representations (e.g., goals, beliefs, plans) extracted from any available data. To address this, we introduce a multimodal Theory of Mind question answering (MMToM-QA) benchmark. MMToM-QA comprehensively evaluates machine ToM both on multimodal data and on different kinds of unimodal data about a person’s activity in a household environment. To engineer multimodal ToM capacity, we propose a novel method, BIP-ALM (Bayesian Inverse Planning Accelerated by Language Models). BIP-ALM extracts unified representations from multimodal data and utilizes language models for scalable Bayesian inverse planning. We conducted a systematic comparison of human performance, BIP-ALM, and state-of-the-art models, including GPT-4. The experiments demonstrate that large language models and large multimodal models still lack robust ToM capacity. BIP-ALM, on the other hand, shows promising results, by leveraging the power of both model-based mental inference and language models.",
+  "keywords": [
+    "question",
+    "we",
+    "language models bip-alm",
+    "particularly large language models",
+    "mmtom-qa benchmark mmtom-qa",
+    "unified representations",
+    "unified",
+    "learning",
+    "ingredient",
+    "text",
+    "language models",
+    "beliefs",
+    "an essential ingredient",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.851/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:46:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

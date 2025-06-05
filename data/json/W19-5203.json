@@ -1,0 +1,33 @@
+{
+  "id": "W19-5203",
+  "title": "Incorporating Source Syntax into Transformer-Based Neural Machine Translation",
+  "authors": [
+    "Currey, Anna  and\nHeafield, Kenneth"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 1: Research Papers)",
+  "abstract": "Transformer-based neural machine translation (NMT) has recently achieved state-of-the-art performance on many machine translation tasks. However, recent work (Raganato and Tiedemann, 2018; Tang et al., 2018; Tran et al., 2018) has indicated that Transformer models may not learn syntactic structures as well as their recurrent neural network-based counterparts, particularly in low-resource cases. In this paper, we incorporate constituency parse information into a Transformer NMT model. We leverage linearized parses of the source training sentences in order to inject syntax into the Transformer architecture without modifying it. We introduce two methods: a multi-task machine translation and parsing model with a single encoder and decoder, and a mixed encoder model that learns to translate directly from parsed and unparsed source sentences. We evaluate our methods on low-resource translation from English into twenty target languages, showing consistent improvements of 1.3 BLEU on average across diverse target languages for the multi-task technique. We further evaluate the models on full-scale WMT tasks, finding that the multi-task model aids low- and medium-resource NMT but degenerates high-resource English-German translation.",
+  "keywords": [
+    "low-resource translation",
+    "incorporating source syntax",
+    "al",
+    "bleu",
+    "we",
+    "syntax",
+    "training",
+    "translation",
+    "1 3 bleu",
+    "neural",
+    "it",
+    "a single encoder",
+    "decoder",
+    "information",
+    "tiedemann 2018 tang"
+  ],
+  "url": "https://aclanthology.org/W19-5203/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:54:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

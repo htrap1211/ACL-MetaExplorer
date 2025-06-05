@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.366",
+  "title": "TAMS}: Translation-Assisted Morphological Segmentation",
+  "authors": [
+    "Rice, Enora  and\nMarashian, Ali  and\nGessler, Luke  and\nPalmer, Alexis  and\nvon der Wense, Katharina"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Canonical morphological segmentation is the process of analyzing words into the standard (akaunderlying) forms of their constituent morphemes.This is a core task in endangered language documentation, and NLP systems have the potential to dramatically speed up this process. In typical language documentation settings, training data for canonical morpheme segmentation is scarce, making it difficult to train high quality models. However, translation data is often much more abundant, and, in this work, we present a method that attempts to leverage translation data in the canonical segmentation task. We propose a character-level sequence-to-sequence model that incorporates representations of translations obtained from pretrained high-resource monolingual language models as an additional signal. Our model outperforms the baseline in a super-low resource setting but yields mixed results on training splits with more data. Additionally, we find that we can achieve strong performance even without needing difficult-to-obtain word level alignments. While further work is needed to make translations useful in higher-resource settings, our model shows promise in severely resource-constrained settings.",
+  "keywords": [
+    "alignments",
+    "we",
+    "training",
+    "translation",
+    "it",
+    "translation data",
+    "word",
+    "sequence",
+    "yields",
+    "core",
+    "difficult-to-obtain word level alignments",
+    "work",
+    "process",
+    "language",
+    "nlp"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.366/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

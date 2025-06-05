@@ -1,0 +1,33 @@
+{
+  "id": "2020.nlpmc-1.4",
+  "title": "Generating Medical Reports from Patient-Doctor Conversations Using Sequence-to-Sequence Models",
+  "authors": [
+    "Enarvi, Seppo  and\nAmoia, Marilisa  and\nDel-Agua Teba, Miguel  and\nDelaney, Brian  and\nDiehl, Frank  and\nHahn, Stefan  and\nHarris, Kristina  and\nMcGrath, Liam  and\nPan, Yue  and\nPinto, Joel  and\nRubini, Luca  and\nRuiz, Miguel  and\nSingh, Gagandeep  and\nStemmer, Fabian  and\nSun, Weiyi  and\nVozila, Paul  and\nLin, Thomas  and\nRamamurthy, Ranjani"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the First Workshop on Natural Language Processing for Medical Conversations",
+  "abstract": "We discuss automatic creation of medical reports from ASR-generated patient-doctor conversational transcripts using an end-to-end neural summarization approach. We explore both recurrent neural network (RNN) and Transformer-based sequence-to-sequence architectures for summarizing medical conversations. We have incorporated enhancements to these architectures, such as the pointer-generator network that facilitates copying parts of the conversations to the reports, and a hierarchical RNN encoder that makes RNN training three times faster with long inputs. A comparison of the relative improvements from the different model architectures over an oracle extractive baseline is provided on a dataset of 800k orthopedic encounters. Consistent with observations in literature for machine translation and related tasks, we find the Transformer models outperform RNN in accuracy, while taking less than half the time to train. Significantly large wins over a strong oracle baseline indicate that sequence-to-sequence modeling is a promising approach for automatic generation of medical reports, in the presence of data at scale.",
+  "keywords": [
+    "end",
+    "conversations",
+    "machine translation",
+    "generator",
+    "summarization",
+    "we",
+    "translation",
+    "neural",
+    "both recurrent neural network",
+    "a hierarchical rnn encoder",
+    "sequence",
+    "recurrent",
+    "medical conversations",
+    "patient-doctor conversations",
+    "the pointer-generator network"
+  ],
+  "url": "https://aclanthology.org/2020.nlpmc-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:57:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

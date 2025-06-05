@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.36",
+  "title": "Multilevel Analysis of Biomedical Domain Adaptation of Llama 2: What Matters the Most? A Case Study",
+  "authors": [
+    "Sanchez Carmona, Vicente Ivan  and\nJiang, Shanshan  and\nSuzuki, Takeshi  and\nDong, Bin"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "Domain adaptation of Large Language Models (LLMs) leads to models better suited for a particular domain by capturing patterns from domain text which leads to improvements in downstream tasks. To the naked eye, these improvements are visible; however, the patterns are not so. How can we know which patterns and how much they contribute to changes in downstream scores? Through a Multilevel Analysis we discover and quantify the effect of text patterns on downstream scores of domain-adapted Llama 2 for the task of sentence similarity (BIOSSES dataset). We show that text patterns from PubMed abstracts such as clear writing and simplicity, as well as the amount of biomedical information, are the key for improving downstream scores. Also, we show how another factor not usually quantified contributes equally to downstream scores: choice of hyperparameters for both domain adaptation and fine-tuning.",
+  "keywords": [
+    "tuning",
+    "hyperparameters",
+    "language",
+    "text",
+    "large language models",
+    "information",
+    "fine",
+    "we",
+    "analysis",
+    "llms",
+    "eye",
+    "both domain adaptation",
+    "the naked eye",
+    "writing",
+    "similarity"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.36/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

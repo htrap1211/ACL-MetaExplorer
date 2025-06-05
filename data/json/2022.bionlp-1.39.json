@@ -1,0 +1,33 @@
+{
+  "id": "2022.bionlp-1.39",
+  "title": "Horses to Zebras: Ontology-Guided Data Augmentation and Synthesis for {ICD}-9 Coding",
+  "authors": [
+    "Falis, Mat{\\'u}{\\v{s}}  and\nDong, Hang  and\nBirch, Alexandra  and\nAlex, Beatrice"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 21st Workshop on Biomedical Language Processing",
+  "abstract": "Medical document coding is the process of assigning labels from a structured label space (ontology – e.g., ICD-9) to medical documents. This process is laborious, costly, and error-prone. In recent years, efforts have been made to automate this process with neural models. The label spaces are large (in the order of thousands of labels) and follow a big-head long-tail label distribution, giving rise to few-shot and zero-shot scenarios. Previous efforts tried to address these scenarios within the model, leading to improvements on rare labels, but worse results on frequent ones. We propose data augmentation and synthesis techniques in order to address these scenarios. We further introduce an analysis technique for this setting inspired by confusion matrices. This analysis technique points to the positive impact of data augmentation and synthesis, but also highlights more general issues of confusion within families of codes, and underprediction.",
+  "keywords": [
+    "families",
+    "we",
+    "confusion",
+    "shot",
+    "neural",
+    "few-shot and zero-shot scenarios",
+    "analysis",
+    "more general issues",
+    "process",
+    "general",
+    "zebras ontology-guided data augmentation",
+    "model",
+    "ontology",
+    "documents",
+    "error"
+  ],
+  "url": "https://aclanthology.org/2022.bionlp-1.39/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:40:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

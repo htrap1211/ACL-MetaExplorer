@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.512",
+  "title": "Improving Large Language Models in Event Relation Logical Prediction",
+  "authors": [
+    "Chen, Meiqi  and\nMa, Yubo  and\nSong, Kaitao  and\nCao, Yixin  and\nZhang, Yan  and\nLi, Dongsheng"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Event relations are crucial for narrative understanding and reasoning. Governed by nuanced logic, event relation extraction (ERE) is a challenging task that demands thorough semantic understanding and rigorous logical reasoning. In this paper, we conduct an in-depth investigation to systematically explore the capability of LLMs in understanding and applying event relation logic. More in detail, we first investigate the deficiencies of LLMs in logical reasoning across different tasks. Our study reveals that LLMs are not logically consistent reasoners, which results in their suboptimal performance on tasks that need rigorous reasoning. To address this, we explore three different approaches to endow LLMs with event relation logic, and thus enable them to generate more coherent answers across various scenarios. Based on our approach, we also contribute a synthesized dataset (LLM-ERL) involving high-order reasoning for evaluation and fine-tuning. Extensive quantitative and qualitative analyses on different tasks also validate the effectiveness of our approach and provide insights for solving practical tasks with LLMs in future work. Codes are available at https://github.com/chenmeiqii/Teach-LLM-LR.",
+  "keywords": [
+    "consistent reasoners",
+    "extraction",
+    "reasoners",
+    "semantic",
+    "we",
+    "a synthesized dataset llm-erl",
+    "llm",
+    "fine-tuning",
+    "the deficiencies",
+    "thorough semantic understanding",
+    "llms",
+    "tuning",
+    "work",
+    "ere",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.512/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

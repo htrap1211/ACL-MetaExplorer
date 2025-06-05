@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.777",
+  "title": "A Unified One-Step Solution for Aspect Sentiment Quad Prediction",
+  "authors": [
+    "Zhou, Junxian  and\nYang, Haiqin  and\nHe, Yuxuan  and\nMou, Hao  and\nYang, JunBo"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Aspect sentiment quad prediction (ASQP) is a challenging yet significant subtask in aspectbased sentiment analysis as it provides a complete aspect-level sentiment structure. However, existing ASQP datasets are usually small and low-density, hindering technical advancement. To expand the capacity, in this paper, we release two new datasets for ASQP, which contain the following characteristics: larger size, more words per sample, and higher density. With such datasets, we unveil the shortcomings of existing strong ASQP baselines and therefore propose a unified one-step solution for ASQP, namely One-ASQP, to detect the aspect categories and to identify the aspectopinion-sentiment (AOS) triplets simultaneously. Our One-ASQP holds several unique advantages: (1) by separating ASQP into two subtasks and solving them independently and simultaneously, we can avoid error propagation in pipeline-based methods and overcome slow training and inference in generation-based methods; (2) by introducing sentiment-specific horns tagging schema in a token-pair-based two-dimensional matrix, we can exploit deeper interactions between sentiment elements and efficiently decode the AOS triplets; (3) we design \"[NULL]” token can help us effectively identify the implicit aspects or opinions. Experiments on two benchmark datasets and our released two datasets demonstrate the advantages of our One-ASQP. The two new datasets are publicly released athttps://www.github.com/Datastory-CN/ASQP-Datasets.",
+  "keywords": [
+    "generation-based methods",
+    "a unified one-step solution",
+    "we",
+    "training",
+    "it",
+    "token",
+    "unified",
+    "analysis",
+    "categories",
+    "the aspect categories",
+    "dimensional",
+    "sentiment",
+    "generation",
+    "aspectbased sentiment analysis",
+    "propagation"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.777/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

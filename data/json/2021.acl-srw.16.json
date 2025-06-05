@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-srw.16",
+  "title": "Semantics of the Unwritten: The Effect of End of Paragraph and Sequence Tokens on Text Generation with {GPT}2",
+  "authors": [
+    "Bai, He  and\nShi, Peng  and\nLin, Jimmy  and\nTan, Luchen  and\nXiong, Kun  and\nGao, Wen  and\nLiu, Jie  and\nLi, Ming"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: Student Research Workshop",
+  "abstract": "The semantics of a text is manifested not only by what is read but also by what is not read. In this article, we will study how those implicit “not read” information such as end-of-paragraph () and end-of-sequence () affect the quality of text generation. Specifically, we find that the pre-trained language model GPT2 can generate better continuations by learning to generate the in the fine-tuning stage. Experimental results on English story generation show that can lead to higher BLEU scores and lower perplexity. We also conduct experiments on a self-collected Chinese essay dataset with Chinese-GPT2, a character level LM without and during pre-training. Experimental results show that the Chinese GPT2 can generate better essay endings with .",
+  "keywords": [
+    "higher bleu scores",
+    "tuning",
+    "end",
+    "generation",
+    "language",
+    "the pre-trained language model",
+    "gpt2",
+    "chinese-gpt2 a character level",
+    "model",
+    "semantics",
+    "text",
+    "the semantics",
+    "self",
+    "bleu",
+    "perplexity"
+  ],
+  "url": "https://aclanthology.org/2021.acl-srw.16/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:09:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

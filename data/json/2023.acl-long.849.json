@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.849",
+  "title": "An Extensible Plug-and-Play Method for Multi-Aspect Controllable Text Generation",
+  "authors": [
+    "Huang, Xuancheng  and\nLiu, Zijun  and\nLi, Peng  and\nLi, Tao  and\nSun, Maosong  and\nLiu, Yang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recently, multi-aspect controllable text generation that controls the generated text in multiple aspects (e.g., sentiment, topic, and keywords) has attracted increasing attention. Although methods based on parameter efficient tuning like prefix-tuning could achieve multi-aspect controlling in a plug-and-play way, the mutual interference of multiple prefixes leads to significant degeneration of constraints and limits their extensibility to training-time unseen aspect combinations. In this work, we provide a theoretical lower bound for the interference and empirically found that the interference grows with the number of layers where prefixes are inserted. Based on these analyses, we propose using trainable gates to normalize the intervention of prefixes to restrain the growing interference. As a result, controlling training-time unseen combinations of aspects can be realized by simply concatenating corresponding plugins such that new constraints can be extended at a lower cost. In addition, we propose a unified way to process both categorical and free-form constraints. Experiments on text generation and machine translation demonstrate the superiority of our approach over baselines on constraint accuracy, text quality, and extensibility.",
+  "keywords": [
+    "significant degeneration",
+    "efficient",
+    "multi-aspect controllable text generation",
+    "form",
+    "we",
+    "degeneration",
+    "parameter efficient tuning",
+    "constraint accuracy text quality",
+    "parameter",
+    "training",
+    "translation",
+    "increasing attention",
+    "the generated text",
+    "unified",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.849/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:47:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "W19-5327",
+  "title": "Incorporating Word and Subword Units in Unsupervised Machine Translation Using Language Model Rescoring",
+  "authors": [
+    "Liu, Zihan  and\nXu, Yan  and\nWinata, Genta Indra  and\nFung, Pascale"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1)",
+  "abstract": "This paper describes CAiRE’s submission to the unsupervised machine translation track of the WMT’19 news shared task from German to Czech. We leverage a phrase-based statistical machine translation (PBSMT) model and a pre-trained language model to combine word-level neural machine translation (NMT) and subword-level NMT models without using any parallel data. We propose to solve the morphological richness problem of languages by training byte-pair encoding (BPE) embeddings for German and Czech separately, and they are aligned using MUSE (Conneau et al., 2018). To ensure the fluency and consistency of translations, a rescoring mechanism is proposed that reuses the pre-trained language model to select the translation candidates generated through beam search. Moreover, a series of pre-processing and post-processing approaches are applied to improve the quality of final translations.",
+  "keywords": [
+    "embeddings",
+    "a series",
+    "final translations",
+    "processing",
+    "language",
+    "translation",
+    "the pre-trained language model",
+    "neural",
+    "unsupervised machine translation",
+    "model",
+    "language model",
+    "machine",
+    "series",
+    "the translation candidates",
+    "bpe embeddings"
+  ],
+  "url": "https://aclanthology.org/W19-5327/",
+  "provenance": {
+    "collected_at": "2025-06-05 02:07:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

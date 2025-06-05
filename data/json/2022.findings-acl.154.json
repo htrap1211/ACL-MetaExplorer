@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.154",
+  "title": "Leveraging Expert Guided Adversarial Augmentation For Improving Generalization in Named Entity Recognition",
+  "authors": [
+    "Reich, Aaron  and\nChen, Jiaao  and\nAgrawal, Aastha  and\nZhang, Yanzhe  and\nYang, Diyi"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Named Entity Recognition (NER) systems often demonstrate great performance on in-distribution data, but perform poorly on examples drawn from a shifted distribution. One way to evaluate the generalization ability of NER models is to use adversarial examples, on which the specific variations associated with named entities are rarely considered. To this end, we propose leveraging expert-guided heuristics to change the entity tokens and their surrounding contexts thereby altering their entity types as adversarial attacks. Using expert-guided heuristics, we augmented the CoNLL 2003 test set and manually annotated it to construct a high-quality challenging set. We found that state-of-the-art NER systems trained on CoNLL 2003 training data drop performance dramatically on our challenging set. By training on adversarial augmented training examples and using mixup for regularization, we were able to significantly improve the performance on the challenging set as well as improve out-of-domain generalization which we evaluated by using OntoNotes data. We have publicly released our dataset and code athttps://github.com/GT-SALT/Guided-Adversarial-Augmentation.",
+  "keywords": [
+    "named entities",
+    "code",
+    "ner",
+    "the generalization ability",
+    "end",
+    "named entity recognition",
+    "it",
+    "entities",
+    "ner models",
+    "drop",
+    "entity recognition ner systems",
+    "regularization",
+    "generalization",
+    "we",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.154/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.770",
+  "title": "KIWI}: A Dataset of Knowledge-Intensive Writing Instructions for Answering Research Questions",
+  "authors": [
+    "Xu, Fangyuan  and\nLo, Kyle  and\nSoldaini, Luca  and\nKuehl, Bailey  and\nChoi, Eunsol  and\nWadden, David"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large language models (LLMs) adapted to follow user instructions are now widely deployed as conversational agents. In this work, we examine one increasingly common instruction-following task: providing writing assistance to compose a long-form answer. To evaluate the capabilities of current LLMs on this task, we construct KIWI, a dataset of knowledge-intensive writing instructions in the scientific domain. Given a research question, an initial model-generated answer and a set of relevant papers, an expert annotator iteratively issues instructions for the model to revise and improve its answer. We collect 1,260 interaction turns from 234 interaction sessions with three state-of-the-art LLMs. Each turn includes a user instruction, a model response, and a human evaluation of the model response. Through a detailed analysis of the collected responses, we find that all models struggle to incorporate new information into an existing answer, and to perform precise and unambiguous edits. Further, we find that models struggle to judge whether their outputs successfully followed user instructions, with accuracy at least 10 points short of human agreement. Our findings indicate that KIWI will be a valuable resource to measure progress and improve LLMs’ instruction-following capabilities for knowledge intensive writing tasks.",
+  "keywords": [
+    "a human evaluation",
+    "question",
+    "form",
+    "we",
+    "current",
+    "current llms",
+    "instruction",
+    "llms instruction-following capabilities",
+    "answer",
+    "an initial model-generated answer",
+    "information",
+    "the capabilities",
+    "scientific",
+    "analysis",
+    "llms"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.770/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:59:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.58",
+  "title": "Unified Contextual Query Rewriting",
+  "authors": [
+    "Zhou, Yingxue  and\nHao, Jie  and\nRungta, Mukund  and\nLiu, Yang  and\nCho, Eunah  and\nFan, Xing  and\nLu, Yanbin  and\nVasudevan, Vishal  and\nGillespie, Kellen  and\nRaeesy, Zeynab"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "Query rewriting (QR) is an important technique for user friction (i.e. recovering ASR error or system error) reduction and contextual carryover (i.e. ellipsis and co-reference) in conversational AI systems. Recently, generation-based QR models have achieved promising results on these two tasks separately. Although these two tasks have many similarities such as they both use the previous dialogue along with the current request as model input, there is no unified model to solve them jointly. To this end, we propose a unified contextual query rewriting model that unifies QR for both reducing friction and contextual carryover purpose. Moreover, we involve multiple auxiliary tasks such as trigger prediction and NLU interpretation tasks to boost the performance of the rewrite. We leverage the text-to-text unified framework which uses independent tasks with weighted loss to account for task importance. Then we propose new unified multitask learning strategies including a sequential model which outputs one sentence for multi-tasks, and a hybrid model where some tasks are independent and some tasks are sequentially generated. Our experimental results demonstrate the effectiveness of the proposed unified learning methods.",
+  "keywords": [
+    "end",
+    "we",
+    "dialogue",
+    "current",
+    "many similarities",
+    "unified",
+    "loss",
+    "learning",
+    "reduction",
+    "i",
+    "text",
+    "no unified model",
+    "strategies",
+    "-",
+    "the previous dialogue"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.58/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

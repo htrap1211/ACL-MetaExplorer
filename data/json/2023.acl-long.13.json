@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.13",
+  "title": "Open-ended Long Text Generation via Masked Language Modeling",
+  "authors": [
+    "Liang, Xiaobo  and\nTang, Zecheng  and\nLi, Juntao  and\nZhang, Min"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Pre-trained autoregressive (AR) language models such as BART and GPTs have dominated OPen-ended Long Text Generation (Open-LTG).However, the AR nature will decrease the inference efficiency along with the increase of generation length, which hinder their application in Open-LTG.To improve inference efficiency, we alternatively explore the potential of the pre-trained masked language models (MLMs) along with a representative iterative non-autoregressive (NAR) decoding strategy for Open-LTG.Our preliminary study shows that pre-trained MLMs can merely generate short text and will collapse for long text modeling. To enhance the long text generation capability of MLMs, we introduce two simple yet effective strategies for the iterative NAR model: dynamic sliding window attention (DSWA) and linear temperature decay (LTD). It can alleviate long-distance collapse problems and achieve longer text generation with a flexible trade-off between performance and inference speedup. Experiments on the storytelling and multi-paragraph opinionated article writing tasks show that pre-trained MLMs can achieve more than 3×→13×speedup with better performance than strong AR models.",
+  "keywords": [
+    "inference efficiency",
+    "efficiency",
+    "we",
+    "generation length",
+    "it",
+    "longer text generation",
+    "text",
+    "decay",
+    "strategies",
+    "temperature decay ltd",
+    "the inference efficiency",
+    "open-ended long text generation",
+    "language",
+    "generation",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:35:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

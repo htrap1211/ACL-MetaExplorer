@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.811",
+  "title": "On Search Strategies for Document-Level Neural Machine Translation",
+  "authors": [
+    "Herold, Christian  and\nNey, Hermann"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Compared to sentence-level systems, document-level neural machine translation (NMT) models produce a more consistent output across a document and are able to better resolve ambiguities within the input. There are many works on document-level NMT, mostly focusing on modifying the model architecture or training strategy to better accommodate the additional context-input. On the other hand, in most works, the question on how to perform search with the trained model is scarcely discussed, sometimes not mentioned at all. In this work, we aim to answer the question how to best utilize a context-aware translation model in decoding. We start with the most popular document-level NMT approach and compare different decoding schemes, some from the literature and others proposed by us. In the comparison, we are using both, standard automatic metrics, as well as specific linguistic phenomena on three standard document-level translation benchmarks. We find that most commonly used decoding strategies perform similar to each other and that higher quality context information has the potential to further improve the translation.",
+  "keywords": [
+    "work",
+    "the translation",
+    "search strategies",
+    "neural",
+    "model",
+    "machine",
+    "document-level neural machine translation",
+    "strategies",
+    "metrics",
+    "question",
+    "information",
+    "us",
+    "we",
+    "ambiguities",
+    "both standard automatic metrics"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.811/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

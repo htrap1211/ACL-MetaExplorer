@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.253",
+  "title": "VBD}{\\_}{NLP} at {S}em{E}val-2023 Task 2: Named Entity Recognition Systems Enhanced by {B}abel{N}et and {W}ikipedia",
+  "authors": [
+    "Hoang, Phu Gia  and\nThanh, Le  and\nTrieu, Hai-Long"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "We describe our systems participated in the SemEval-2023 shared task for Named Entity Recognition (NER) in English and Bangla. In order to address the challenges of the task, where a large number of fine-grained named entity types need to be detected with only a small amount of training data, we use a method to augment the training data based on BabelNet conceptsand Wikipedia redirections to automatically annotate named entities from Wikipedia articles. We build our NER systems based on the powerful mDeBERTa pretrained language model and trained on the augmented data. Our approach significantly enhances the performance of the fine-grained NER task in both English and Bangla subtracks, outperforming the baseline models. Specifically, our augmented systems achieve macro-f1 scores of 52.64% and 64.31%, representing improvements of 2.38% and 11.33% over the English and Bangla baselines, respectively.",
+  "keywords": [
+    "ner",
+    "the fine-grained ner task",
+    "macro-f1 scores",
+    "the powerful mdeberta",
+    "language",
+    "nlp",
+    "language model",
+    "our ner systems",
+    "entities",
+    "model",
+    "named entity types",
+    "named entity recognition ner",
+    "we",
+    "mdeberta",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.253/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:30:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

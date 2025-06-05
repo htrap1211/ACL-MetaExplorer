@@ -1,0 +1,33 @@
+{
+  "id": "P18-2020",
+  "title": "A Named Entity Recognition Shootout for {G}erman",
+  "authors": [
+    "Riedl, Martin  and\nPad{\\'o}, Sebastian"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "We ask how to practically build a model for German named entity recognition (NER) that performs at the state of the art for both contemporary and historical texts, i.e., a big-data and a small-data scenario. The two best-performing model families are pitted against each other (linear-chain CRFs and BiLSTM) to observe the trade-off between expressiveness and data requirements. BiLSTM outperforms the CRF when large datasets are available and performs inferior for the smallest dataset. BiLSTMs profit substantially from transfer learning, which enables them to be trained on multiple corpora, resulting in a new state-of-the-art model for German NER on two contemporary German corpora (CoNLL 2003 and GermEval 2014) and two historic corpora.",
+  "keywords": [
+    "ner",
+    "families",
+    "i",
+    "model",
+    "bilstm",
+    "chain",
+    "bilstms",
+    "entity recognition ner",
+    "we",
+    "learning",
+    "transfer",
+    "transfer learning",
+    "entity",
+    "german ner",
+    "that"
+  ],
+  "url": "https://aclanthology.org/P18-2020/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:16:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

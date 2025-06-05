@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.23",
+  "title": "QUESPA} Submission for the {IWSLT} 2023 Dialect and Low-resource Speech Translation Tasks",
+  "authors": [
+    "E. Ortega, John  and\nZevallos, Rodolfo  and\nChen, William"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "This article describes the QUESPA team speech translation (ST) submissions for the Quechua to Spanish (QUE–SPA) track featured in the Evaluation Campaign of IWSLT 2023: low-resource and dialect speech translation. Two main submission types were supported in the campaign: constrained and unconstrained. We submitted six total systems of which our best (primary) constrained system consisted of an ST model based on the Fairseq S2T framework where the audio representations were created using log mel-scale filter banks as features and the translations were performed using a transformer. The best (primary) unconstrained system used a pipeline approach which combined automatic speech recognition (ASR) with machine translation (MT). The ASR transcriptions for the best unconstrained system were computed using a pre-trained XLS-R-based model along with a fine-tuned language model. Transcriptions were translated using a MT system based on a fine-tuned, pre-trained language model (PLM). The four other submissions are presented in this article (2 constrained and 2 unconstrained) for comparison because they consist of various architectures. Our results show that direct ST (ASR and MT combined together) can be more effective than a PLM in a low-resource (constrained) setting for Quechua to Spanish. On the other hand, we show that fine-tuning of any type on both the ASR and MT system is worthwhile, resulting in nearly 16 BLEU for the unconstrained task.",
+  "keywords": [
+    "bleu",
+    "nearly 16 bleu",
+    "machine translation",
+    "we",
+    "a transformer",
+    "translation",
+    "fine-tuning",
+    "log",
+    "tuning",
+    "the translations",
+    "que",
+    "the evaluation campaign",
+    "fine",
+    "transformer",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.23/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:24:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

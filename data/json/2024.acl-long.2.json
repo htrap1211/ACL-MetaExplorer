@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.2",
+  "title": "Unsupervised Multimodal Clustering for Semantics Discovery in Multimodal Utterances",
+  "authors": [
+    "Zhang, Hanlei  and\nXu, Hua  and\nLong, Fei  and\nWang, Xin  and\nGao, Kai"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Discovering the semantics of multimodal utterances is essential for understanding human language and enhancing human-machine interactions. Existing methods manifest limitations in leveraging nonverbal information for discerning complex semantics in unsupervised scenarios. This paper introduces a novel unsupervised multimodal clustering method (UMC), making a pioneering contribution to this field. UMC introduces a unique approach to constructing augmentation views for multimodal data, which are then used to perform pre-training to establish well-initialized representations for subsequent clustering. An innovative strategy is proposed to dynamically select high-quality samples as guidance for representation learning, gauged by the density of each sample’s nearest neighbors. Besides, it is equipped to automatically determine the optimal value for the top-Kparameter in each cluster to refine sample selection. Finally, both high- and low-quality samples are used to learn representations conducive to effective clustering. We build baselines on benchmark multimodal intent and dialogue act datasets. UMC shows remarkable improvements of 2-6% scores in clustering metrics over state-of-the-art methods, marking the first successful endeavor in this domain. The complete code and data are available at https://github.com/thuiar/UMC.",
+  "keywords": [
+    "code",
+    "the semantics",
+    "field",
+    "we",
+    "augmentation views",
+    "dialogue",
+    "training",
+    "cluster",
+    "semantics",
+    "it",
+    "information",
+    "views",
+    "learning",
+    "metrics",
+    "semantics discovery"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:34:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

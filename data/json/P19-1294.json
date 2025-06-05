@@ -1,0 +1,33 @@
+{
+  "id": "P19-1294",
+  "title": "Training Neural Machine Translation to Apply Terminology Constraints",
+  "authors": [
+    "Dinu, Georgiana  and\nMathur, Prashant  and\nFederico, Marcello  and\nAl-Onaizan, Yaser"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "This paper proposes a novel method to inject custom terminology into neural machine translation at run time. Previous works have mainly proposed modifications to the decoding algorithm in order to constrain the output to include run-time-provided target terms. While being effective, these constrained decoding methods add, however, significant computational overhead to the inference step, and, as we show in this paper, can be brittle when tested in realistic conditions. In this paper we approach the problem by training a neural MT system to learn how to use custom terminology when provided with the input. Comparative experiments show that our method is not only more effective than a state-of-the-art implementation of constrained decoding, but is also as fast as constraint-free decoding.",
+  "keywords": [
+    "neural",
+    "machine",
+    "neural machine translation",
+    "we",
+    "time",
+    "fast",
+    "translation",
+    "a novel method",
+    "realistic conditions",
+    "custom",
+    "comparative",
+    "modifications",
+    "state",
+    "the-art",
+    "the problem"
+  ],
+  "url": "https://aclanthology.org/P19-1294/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:37:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

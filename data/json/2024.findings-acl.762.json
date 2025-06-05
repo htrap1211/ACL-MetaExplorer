@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.762",
+  "title": "O}pen{C}ode{I}nterpreter: Integrating Code Generation with Execution and Refinement",
+  "authors": [
+    "Zheng, Tianyu  and\nZhang, Ge  and\nShen, Tianhao  and\nLiu, Xueling  and\nLin, Bill Yuchen  and\nFu, Jie  and\nChen, Wenhu  and\nYue, Xiang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "The introduction of large language models has significantly advanced code generation. However, open-source models often lack the execution capabilities and iterative refinement of advanced systems like the GPT-4 Code Interpreter. To address this, we introduce OpenCodeInterpreter, a family of open-source code systems designed for generating, executing, and iteratively refining code. Supported by Code Feedback, a dataset featuring 68K multi-turn interactions, OpenCodeInterpreter integrates execution and human feedback for dynamic code refinement. Our comprehensive evaluation of OpenCodeInterpreter across key benchmarks such as HumanEval, MBPP, and their enhanced versions from EvalPlus reveals its exceptional performance. Notably, OpenCodeInterpreter-33B achieves an accuracy of 83.2 (76.4) on the average (and plus versions) of HumanEval and MBPP, closely rivaling GPT-4’s 84.2 (76.2) and further elevates to 91.6 (84.6) with synthesized human feedback from GPT-4. OpenCodeInterpreterbrings the gap between open-source code generation models and proprietary systems like GPT-4 Code Interpreter.",
+  "keywords": [
+    "code",
+    "feedback",
+    "we",
+    "synthesized human feedback",
+    "human feedback",
+    "ode",
+    "gpt-4 code interpreter",
+    "the gpt-4 code interpreter",
+    "pen",
+    "significantly advanced code generation",
+    "open-source code generation models",
+    "i",
+    "proprietary systems",
+    "an accuracy",
+    "gpt-4"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.762/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

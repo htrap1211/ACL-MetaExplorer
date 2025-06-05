@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.213",
+  "title": "Improved Speech Representations with Multi-Target Autoregressive Predictive Coding",
+  "authors": [
+    "Chung, Yu-An  and\nGlass, James"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Training objectives based on predictive coding have recently been shown to be very effective at learning meaningful representations from unlabeled speech. One example is Autoregressive Predictive Coding (Chung et al., 2019), which trains an autoregressive RNN to generate an unseen future frame given a context such as recent past frames. The basic hypothesis of these approaches is that hidden states that can accurately predict future frames are a useful representation for many downstream tasks. In this paper we extend this hypothesis and aim to enrich the information encoded in the hidden states by training the model to make more accurate future predictions. We propose an auxiliary objective that serves as a regularization to improve generalization of the future frame prediction task. Experimental results on phonetic classification, speech recognition, and speech translation not only support the hypothesis, but also demonstrate the effectiveness of our approach in learning representations that contain richer phonetic content.",
+  "keywords": [
+    "a regularization",
+    "objectives",
+    "an auxiliary objective",
+    "phonetic classification speech recognition",
+    "we",
+    "training",
+    "translation",
+    "classification",
+    "information",
+    "speech translation",
+    "an autoregressive rnn",
+    "objective",
+    "generalization",
+    "rnn",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.213/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:45:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

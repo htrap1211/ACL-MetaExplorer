@@ -1,0 +1,33 @@
+{
+  "id": "2023.codi-1.14",
+  "title": "SAE}-{NTM}: Sentence-Aware Encoder for Neural Topic Modeling",
+  "authors": [
+    "Liu, Hao  and\nGao, Jingsheng  and\nXiang, Suncheng  and\nLiu, Ting  and\nFu, Yuzhuo"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 4th Workshop on Computational Approaches to Discourse (CODI 2023)",
+  "abstract": "Incorporating external knowledge, such as pre-trained language models (PLMs), into neural topic modeling has achieved great success in recent years. However, employing PLMs for topic modeling generally ignores the maximum sequence length of PLMs and the interaction between external knowledge and bag-of-words (BOW). To this end, we propose a sentence-aware encoder for neural topic modeling, which adopts fine-grained sentence embeddings as external knowledge to entirely utilize the semantic information of input documents. We introduce sentence-aware attention for document representation, where BOW enables the model to attend on topical sentences that convey topic-related cues. Experiments on three benchmark datasets show that our framework outperforms other state-of-the-art neural topic models in topic coherence. Further, we demonstrate that the proposed approach can yield better latent document-topic features through improvement on the document classification.",
+  "keywords": [
+    "end",
+    "a sentence-aware encoder",
+    "topic modeling",
+    "fine-grained sentence embeddings",
+    "semantic",
+    "we",
+    "sentence-aware attention",
+    "classification",
+    "bag",
+    "neural",
+    "the semantic information",
+    "information",
+    "latent",
+    "pre-trained language models plms",
+    "sequence"
+  ],
+  "url": "https://aclanthology.org/2023.codi-1.14/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:24:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.408",
+  "title": "REI}nstruct: Building Instruction Data from Unlabeled Corpus",
+  "authors": [
+    "Chen, Shu  and\nGuan, Xinyan  and\nLu, Yaojie  and\nLin, Hongyu  and\nHan, Xianpei  and\nSun, Le"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Manually annotating instruction data for large language models is difficult, costly, and hard to scale. Meanwhile, current automatic annotation methods typically rely on distilling synthetic data from proprietary LLMs, which not only limits the upper bound of the quality of the instruction data but also raises potential copyright issues. In this paper, we propose REInstruct, a simple and scalable method to automatically build instruction data from an unlabeled corpus without heavy reliance on proprietary LLMs and human annotation.Specifically, REInstruct first selects a subset of unlabeled texts that potentially contain well-structured helpful and insightful content and then generates instructions for these texts. To generate accurate and relevant responses for effective and robust training, REInstruct further proposes a rewriting-based approach to improve the quality of the generated instruction data. By training Llama-7b on a combination of 3k seed data and 32k synthetic data from REInstruct, fine-tuned model achieves a 65.41% win rate on AlpacaEval leaderboard against text-davinci-003, outperforming other open-source, non-distilled instruction data construction methods. The code is publicly available athttps://github.com/cs32963/REInstruct.",
+  "keywords": [
+    "code",
+    "nstruct",
+    "rate",
+    "rei",
+    "we",
+    "current",
+    "training",
+    "instruction",
+    "llms",
+    "text",
+    "language",
+    "model",
+    "the generated instruction data",
+    "human",
+    "large language models"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.408/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

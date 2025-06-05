@@ -1,0 +1,33 @@
+{
+  "id": "2022.iwslt-1.29",
+  "title": "JHU} {IWSLT} 2022 Dialect Speech Translation System Description",
+  "authors": [
+    "Yang, Jinyi  and\nHussein, Amir  and\nWiesner, Matthew  and\nKhudanpur, Sanjeev"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022)",
+  "abstract": "This paper details the Johns Hopkins speech translation (ST) system used in the IWLST2022 dialect speech translation task. Our system uses a cascade of automatic speech recognition (ASR) and machine translation (MT). We use a Conformer model for ASR systems and a Transformer model for machine translation. Surprisingly, we found that while using additional ASR training data resulted in only a negligible change in performance as measured by BLEU or word error rate (WER), aggressive text normalization improved BLEU more significantly. We also describe an approach, similar to back-translation, for improving performance using synthetic dialectal source text produced from source sentences in mismatched dialects.",
+  "keywords": [
+    "transformer",
+    "normalization",
+    "model",
+    "machine",
+    "text",
+    "rate",
+    "wer",
+    "bleu",
+    "machine translation",
+    "back-translation",
+    "word",
+    "we",
+    "a transformer model",
+    "training",
+    "translation"
+  ],
+  "url": "https://aclanthology.org/2022.iwslt-1.29/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.237",
+  "title": "Strengthened Symbol Binding Makes Large Language Models Reliable Multiple-Choice Selectors",
+  "authors": [
+    "Xue, Mengge  and\nHu, Zhenyu  and\nLiu, Liqun  and\nLiao, Kuo  and\nLi, Shuang  and\nHan, Honglin  and\nZhao, Meng  and\nYin, Chengguo"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Multiple-Choice Questions (MCQs) constitute a critical area of research in the study of Large Language Models (LLMs). Previous works have investigated the selection bias problem in MCQs within few-shot scenarios, in which the LLM’s performance may be influenced by the presentation of answer choices, leaving the selection bias during Supervised Fine-Tuning (SFT) unexplored. In this paper, we reveal that selection bias persists in the SFT phase , primarily due to the LLM’s inadequate Multiple Choice Symbol Binding (MCSB) ability. This limitation implies that the model struggles to associate the answer options with their corresponding symbols (e.g., A/B/C/D) effectively. To enhance the model’s MCSB capability, we first incorporate option contents into the loss function and subsequently adjust the weights of the option symbols and contents, guiding the model to understand the option content of the current symbol. Based on this, we introduce an efficient SFT algorithm for MCQs, termed Point-wise Intelligent Feedback (PIF). PIF constructs negative instances by randomly combin- ing the incorrect option contents with all candidate symbols, and proposes a point-wise loss to provide feedback on these negative samples into LLMs. Our experimental results demonstrate that PIF significantly reduces the model’s selection bias by improving its MCSB capability. Remarkably, PIF exhibits a substantial enhancement in the accuracy for MCQs.",
+  "keywords": [
+    "the llm s performance",
+    "the accuracy",
+    "bias",
+    "feedback",
+    "efficient",
+    "we",
+    "selection bias",
+    "current",
+    "llm",
+    "shot",
+    "answer",
+    "loss",
+    "an efficient sft algorithm",
+    "llms",
+    "few-shot scenarios"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.237/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

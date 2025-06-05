@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.11",
+  "title": "How Helpful is Inverse Reinforcement Learning for Table-to-Text Generation?",
+  "authors": [
+    "Ghosh, Sayan  and\nQi, Zheng  and\nChaturvedi, Snigdha  and\nSrivastava, Shashank"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Existing approaches for the Table-to-Text task suffer from issues such as missing information, hallucination and repetition. Many approaches to this problem use Reinforcement Learning (RL), which maximizes a single manually defined reward, such as BLEU. In this work, we instead pose the Table-to-Text task as Inverse Reinforcement Learning (IRL) problem. We explore using multiple interpretable unsupervised reward components that are combined linearly to form a composite reward function. The composite reward function and the description generator are learned jointly. We find that IRL outperforms strong RL baselines marginally. We further study the generalization of learned IRL rewards in scenarios involving domain adaptation. Our experiments reveal significant challenges in using IRL for this task.",
+  "keywords": [
+    "work",
+    "reinforcement",
+    "generation",
+    "text",
+    "the generalization",
+    "inverse reinforcement learning",
+    "bleu",
+    "the description generator",
+    "information",
+    "generalization",
+    "we",
+    "learning",
+    "reinforcement learning",
+    "function",
+    "generator"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

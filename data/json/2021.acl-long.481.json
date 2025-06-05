@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.481",
+  "title": "Attend What You Need: Motion-Appearance Synergistic Networks for Video Question Answering",
+  "authors": [
+    "Seo, Ahjeong  and\nKang, Gi-Cheon  and\nPark, Joonhan  and\nZhang, Byoung-Tak"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Video Question Answering is a task which requires an AI agent to answer questions grounded in video. This task entails three key challenges: (1) understand the intention of various questions, (2) capturing various elements of the input video (e.g., object, action, causality), and (3) cross-modal grounding between language and vision information. We propose Motion-Appearance Synergistic Networks (MASN), which embed two cross-modal features grounded on motion and appearance information and selectively utilize them depending on the question’s intentions. MASN consists of a motion module, an appearance module, and a motion-appearance fusion module. The motion module computes the action-oriented cross-modal joint representations, while the appearance module focuses on the appearance aspect of the input video. Finally, the motion-appearance fusion module takes each output of the motion module and the appearance module as input, and performs question-guided fusion. As a result, MASN achieves new state-of-the-art performance on the TGIF-QA and MSVD-QA datasets. We also conduct qualitative analysis by visualizing the inference results of MASN.",
+  "keywords": [
+    "question",
+    "motion-appearance synergistic networks",
+    "we",
+    "fusion",
+    "cross",
+    "the tgif-qa",
+    "information",
+    "video question answering",
+    "msvd-qa datasets",
+    "analysis",
+    "motion-appearance synergistic networks masn",
+    "answering",
+    "object",
+    "synergistic",
+    "action"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.481/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

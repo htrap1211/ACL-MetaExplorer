@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.182",
+  "title": "Tree-Structured Topic Modeling with Nonparametric Neural Variational Inference",
+  "authors": [
+    "Chen, Ziye  and\nDing, Cheng  and\nZhang, Zusheng  and\nRao, Yanghui  and\nXie, Haoran"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Topic modeling has been widely used for discovering the latent semantic structure of documents, but most existing methods learn topics with a flat structure. Although probabilistic models can generate topic hierarchies by introducing nonparametric priors like Chinese restaurant process, such methods have data scalability issues. In this study, we develop a tree-structured topic model by leveraging nonparametric neural variational inference. Particularly, the latent components of the stick-breaking process are first learned for each document, then the affiliations of latent components are modeled by the dependency matrices between network layers. Utilizing this network structure, we can efficiently extract a tree-structured topic hierarchy with reasonable structure, low redundancy, and adaptable widths. Experiments on real-world datasets validate the effectiveness of our method.",
+  "keywords": [
+    "process",
+    "topic hierarchies",
+    "neural",
+    "model",
+    "topic",
+    "modeling",
+    "hierarchies",
+    "a tree-structured topic hierarchy",
+    "latent",
+    "the dependency matrices",
+    "hierarchy",
+    "semantic",
+    "dependency",
+    "network",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.182/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:01:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

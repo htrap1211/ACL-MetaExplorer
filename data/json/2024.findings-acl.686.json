@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.686",
+  "title": "Identifying and Mitigating Annotation Bias in Natural Language Understanding using Causal Mediation Analysis",
+  "authors": [
+    "Sae Lim, Sitiporn  and\nUdomcharoenchaikit, Can  and\nLimkonchotiwat, Peerat  and\nChuangsuwanich, Ekapol  and\nNutanong, Sarana"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "NLU models have achieved promising results on standard benchmarks. Despite state-of-the-art accuracy, analysis reveals that many models make predictions using annotation bias rather than the properties we intend the model to learn. Consequently, these models perform poorly on out-of-distribution datasets. Recent advances in bias mitigation show that annotation bias can be alleviated through fine-tuning debiasing objectives. In this paper, we apply causal mediation analysis to gauge how much each model component mediates annotation biases. Using the knowledge from the causal analysis, we improve the model’s robustness against annotation bias through two bias mitigation methods: causal-grounded masking and gradient unlearning. Causal analysis reveals that biases concentrated in specific components, even after employing other training-time debiasing techniques. Manipulating these components by masking out neurons’ activations or updating specific weight blocks both demonstrably improve robustness against annotation artifacts.",
+  "keywords": [
+    "annotation bias",
+    "other training-time debiasing techniques",
+    "neurons activations",
+    "bias",
+    "objectives",
+    "knowledge",
+    "language",
+    "two bias mitigation methods",
+    "natural",
+    "model",
+    "bias mitigation show",
+    "properties",
+    "gradient",
+    "fine-tuning debiasing objectives",
+    "the properties"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.686/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

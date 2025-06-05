@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.136",
+  "title": "N}orm{N}et: Normalize Noun Phrases for More Robust {NLP",
+  "authors": [
+    "Peng, Minlong  and\nSun, Mingming"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "A critical limitation of deep NLP models is their over-fitting over spurious features. Previous work has proposed several approaches to debunk such features and reduce their impact on the learned models. In this work, a normalization strategy is proposed to eliminate the false features caused by the textual surfaces of noun phrases. The motivation for this strategy is that noun phrases often play the role of slots in textual expressions and their exact forms are often not that important for performing the final task. As an intuitive example, consider the expression ”xlike eatingy\". There are a huge number of suitable instantiations forxandyin the locale. However, humans can already infer the sentiment polarity ofxtowardywithout knowing their exact forms.Based on this intuition, we introduce NormNet, a pretrained language model based network, to implement the normalization strategy. NormNet learns to replace as many noun phrases in the input sentence as possible with pre-defined base forms. The output of NormNet is then fed as input to a prompt-based learning model to perform label prediction. To evaluate the effectiveness of our strategy, we conducted experimental studies on several tasks, including aspect sentiment classification (ASC), semantic text similarity (STS), and natural language inference (NLI). The experimental results confirm the effectiveness of our strategy.",
+  "keywords": [
+    "deep",
+    "deep nlp models",
+    "semantic",
+    "we",
+    "a prompt-based learning model",
+    "experimental studies",
+    "classification",
+    "natural",
+    "learning",
+    "et",
+    "orm",
+    "normalization",
+    "prompt",
+    "a pretrained language model",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.136/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

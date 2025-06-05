@@ -1,0 +1,33 @@
+{
+  "id": "P19-1549",
+  "title": "Modeling Semantic Relationship in Multi-turn Conversations with Hierarchical Latent Variables",
+  "authors": [
+    "Shen, Lei  and\nFeng, Yang  and\nZhan, Haolan"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Multi-turn conversations consist of complex semantic structures, and it is still a challenge to generate coherent and diverse responses given previous utterances. It’s practical that a conversation takes place under a background, meanwhile, the query and response are usually most related and they are consistent in topic but also different in content. However, little work focuses on such hierarchical relationship among utterances. To address this problem, we propose a Conversational Semantic Relationship RNN (CSRR) model to construct the dependency explicitly. The model contains latent variables in three hierarchies. The discourse-level one captures the global background, the pair-level one stands for the common topic information between query and response, and the utterance-level ones try to represent differences in content. Experimental results show that our model significantly improves the quality of responses in terms of fluency, coherence, and diversity compared to baseline methods.",
+  "keywords": [
+    "a conversation",
+    "conversations",
+    "three hierarchies",
+    "semantic",
+    "we",
+    "it",
+    "complex semantic structures",
+    "information",
+    "latent",
+    "a background",
+    "multi-turn conversations",
+    "background",
+    "a conversational semantic relationship",
+    "topic",
+    "the global background"
+  ],
+  "url": "https://aclanthology.org/P19-1549/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:44:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

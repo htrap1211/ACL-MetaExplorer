@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.638",
+  "title": "Multi-Domain Dialogue Acts and Response Co-Generation",
+  "authors": [
+    "Wang, Kai  and\nTian, Junfeng  and\nWang, Rui  and\nQuan, Xiaojun  and\nYu, Jianxing"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Generating fluent and informative responses is of critical importance for task-oriented dialogue systems. Existing pipeline approaches generally predict multiple dialogue acts first and use them to assist response generation. There are at least two shortcomings with such approaches. First, the inherent structures of multi-domain dialogue acts are neglected. Second, the semantic associations between acts and responses are not taken into account for response generation. To address these issues, we propose a neural co-generation model that generates dialogue acts and responses concurrently. Unlike those pipeline approaches, our act generation module preserves the semantic structures of multi-domain dialogue acts and our response generation module dynamically attends to different acts as needed. We train the two modules jointly using an uncertainty loss to adjust their task weights adaptively. Extensive experiments are conducted on the large-scale MultiWOZ dataset and the results show that our model achieves very favorable improvement over several state-of-the-art models in both automatic and human evaluations.",
+  "keywords": [
+    "the semantic associations",
+    "a neural co-generation model",
+    "semantic",
+    "we",
+    "dialogue",
+    "the semantic structures",
+    "multi-domain dialogue acts",
+    "neural",
+    "our act generation module",
+    "loss",
+    "multiple dialogue acts",
+    "dialogue acts",
+    "response generation",
+    "our response generation module",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.638/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:50:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

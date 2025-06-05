@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-demo.53",
+  "title": "Disease Network Constructor: a Pathway Extraction and Visualization",
+  "authors": [
+    "Sohrab, Mohammad Golam  and\nDuong, Khoa  and\nTopi{\\'c}, Goran  and\nIkeda, Masami  and\nNagano, Nozomi  and\nNatsume-Kitatani, Yayoi  and\nKuroda, Masakata  and\nItoh, Mari  and\nTakamura, Hiroya"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+  "abstract": "We present Disease Network Constructor (DNC), a system that extracts and visualizes a disease network, in which nodes are entities such as diseases, proteins, and genes, and edges represent regulation relation. We focused on the disease network derived through regulation events found in scientific articles on idiopathic pulmonary fibrosis (IPF). The front-end web-base user interface of DNC includes two-dimensional (2D) and 3D visualizations of the constructed disease network. The back-end system of DNC includes several natural language processing (NLP) techniques to process biomedical text including BERT-based tokenization on the basis of Bidirectional Encoder Representations from Transformers (BERT), flat and nested named entity recognition (NER), candidate generation and candidate ranking for entity linking (EL) or, relation extraction (RE), and event extraction (EE) tasks. We evaluated the end-to-end EL and end-to-end nested EE systems to determine the DNC’s back-endimplementation performance. To the best of our knowledge, this is the first attempt that addresses neural NER, EL, RE, and EE tasks in an end-to-end manner that constructs a path-way visualization from events, which we name Disease Network Constructor. The demonstration video can be accessed fromhttps://youtu.be/rFhWwAgcXE8. We release an online system for end users and the source code is available athttps://github.com/aistairc/PRISM-APIs/.",
+  "keywords": [
+    "code",
+    "transformers",
+    "end",
+    "extraction",
+    "neural ner el re",
+    "bert-based tokenization",
+    "we",
+    "neural",
+    "natural",
+    "bidirectional encoder representations",
+    "scientific",
+    "a path-way visualization",
+    "scientific articles",
+    "manner",
+    "ner"
+  ],
+  "url": "https://aclanthology.org/2023.acl-demo.53/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:51:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

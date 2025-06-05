@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.140",
+  "title": "Sibylvariant Transformations for Robust Text Classification",
+  "authors": [
+    "Harel-Canada, Fabrice  and\nGulzar, Muhammad Ali  and\nPeng, Nanyun  and\nKim, Miryung"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "The vast majority of text transformation techniques in NLP are inherently limited in their ability to expand input space coverage due to an implicit constraint to preserve the original class label. In this work, we propose the notion of sibylvariance (SIB) to describe the broader set of transforms that relax the label-preserving constraint, knowably vary the expected class, and lead to significantly more diverse input distributions. We offer a unified framework to organize all data transformations, including two types of SIB: (1) Transmutations convert one discrete kind into another, (2) Mixture Mutations blend two or more classes together. To explore the role of sibylvariance within NLP, we implemented 41 text transformations, including several novel techniques like Concept2Sentence and SentMix. Sibylvariance also enables a unique form of adaptive training that generates new input mixtures for the most confused class pairs, challenging the learner to differentiate with greater nuance. Our experiments on six benchmark datasets strongly support the efficacy of sibylvariance for generalization performance, defect detection, and adversarial robustness.",
+  "keywords": [
+    "sentmix sibylvariance",
+    "form",
+    "we",
+    "training",
+    "classification",
+    "a unified framework",
+    "unified",
+    "text",
+    "robust text classification",
+    "generalization",
+    "learner",
+    "sibylvariance",
+    "generalization performance",
+    "work",
+    "the learner"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.140/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

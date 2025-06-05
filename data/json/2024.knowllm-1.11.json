@@ -1,0 +1,33 @@
+{
+  "id": "2024.knowllm-1.11",
+  "title": "P}rompt{RE}: Weakly-Supervised Document-Level Relation Extraction via Prompting-Based Data Programming",
+  "authors": [
+    "Gao, Chufan  and\nFan, Xulin  and\nSun, Jimeng  and\nWang, Xuan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Towards Knowledgeable Language Models (KnowLLM 2024)",
+  "abstract": "Relation extraction aims to classify the relationships between two entities into pre-defined categories. While previous research has mainly focused on sentence-level relation extraction, recent studies have expanded the scope to document-level relation extraction. Traditional relation extraction methods heavily rely on human-annotated training data, which is time-consuming and labor-intensive. To mitigate the need for manual annotation, recent weakly-supervised approaches have been developed for sentence-level relation extraction while limited work has been done on document-level relation extraction. Weakly-supervised document-level relation extraction faces significant challenges due to an imbalanced number “no relation” instances and the failure of directly probing pretrained large language models for document relation extraction. To address these challenges, we propose PromptRE, a novel weakly-supervised document-level relation extraction method that combines prompting-based techniques with data programming. Furthermore, PromptRE incorporates the label distribution and entity types as prior knowledge to improve the performance. By leveraging the strengths of both prompting and data programming, PromptRE achieves improved performance in relation classification and effectively handles the “no relation” problem. Experimental results on ReDocRED, a benchmark dataset for document-level relation extraction, demonstrate the superiority of PromptRE over baseline approaches.",
+  "keywords": [
+    "extraction",
+    "we",
+    "pre-defined categories",
+    "training",
+    "classification",
+    "two entities",
+    "promptre",
+    "relation classification",
+    "categories",
+    "rompt",
+    "work",
+    "knowledge",
+    "language",
+    "studies",
+    "entities"
+  ],
+  "url": "https://aclanthology.org/2024.knowllm-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:07:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

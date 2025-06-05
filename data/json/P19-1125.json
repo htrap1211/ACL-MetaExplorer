@@ -1,0 +1,33 @@
+{
+  "id": "P19-1125",
+  "title": "Imitation Learning for Non-Autoregressive Neural Machine Translation",
+  "authors": [
+    "Wei, Bingzhen  and\nWang, Mingxuan  and\nZhou, Hao  and\nLin, Junyang  and\nSun, Xu"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Non-autoregressive translation models (NAT) have achieved impressive inference speedup. A potential issue of the existing NAT algorithms, however, is that the decoding is conducted in parallel, without directly considering previous context. In this paper, we propose an imitation learning framework for non-autoregressive machine translation, which still enjoys the fast translation speed but gives comparable translation performance compared to its auto-regressive counterpart. We conduct experiments on the IWSLT16, WMT14 and WMT16 datasets. Our proposed model achieves a significant speedup over the autoregressive models, while keeping the translation quality comparable to the autoregressive models. By sampling sentence length in parallel at inference time, we achieve the performance of 31.85 BLEU on WMT16 Ro→En and 30.68 BLEU on IWSLT16 En→De.",
+  "keywords": [
+    "de",
+    "translation",
+    "neural",
+    "nat",
+    "machine",
+    "model",
+    "non-autoregressive machine translation",
+    "bleu",
+    "the fast translation speed",
+    "the translation quality",
+    "we",
+    "learning",
+    "31 85 bleu",
+    "30 68 bleu",
+    "time"
+  ],
+  "url": "https://aclanthology.org/P19-1125/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:32:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

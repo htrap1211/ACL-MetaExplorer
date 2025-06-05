@@ -1,0 +1,33 @@
+{
+  "id": "2022.cmcl-1.6",
+  "title": "Estimating word co-occurrence probabilities from pretrained static embeddings using a log-bilinear model",
+  "authors": [
+    "Futrell, Richard"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics",
+  "abstract": "We investigate how to use pretrained static word embeddings to deliver improved estimates of bilexical co-occurrence probabilities: conditional probabilities of one word given a single other word in a specific relationship. Such probabilities play important roles in psycholinguistics, corpus linguistics, and usage-based cognitive modeling of language more generally. We propose a log-bilinear model taking pretrained vector representations of the two words as input, enabling generalization based on the distributional information contained in both vectors. We show that this model outperforms baselines in estimating probabilities of adjectives given nouns that they attributively modify, and probabilities of nominal direct objects given their head verbs, given limited training data in Arabic, English, Korean, and Spanish.",
+  "keywords": [
+    "embeddings",
+    "pretrained vector representations",
+    "vector",
+    "language",
+    "model",
+    "vectors",
+    "bilexical co-occurrence probabilities",
+    "modeling",
+    "both vectors",
+    "pretrained static embeddings",
+    "such probabilities",
+    "information",
+    "generalization",
+    "probabilities",
+    "pretrained static word embeddings"
+  ],
+  "url": "https://aclanthology.org/2022.cmcl-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:40:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.237",
+  "title": "CRAS}pell: A Contextual Typo Robust Approach to Improve {C}hinese Spelling Correction",
+  "authors": [
+    "Liu, Shulin  and\nSong, Shengkang  and\nYue, Tianchi  and\nYang, Tao  and\nCai, Huihui  and\nYu, TingHao  and\nSun, Shengli"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Recently, Bert-based models have dominated the research of Chinese spelling correction (CSC). These methods have two limitations: (1) they have poor performance on multi-typo texts. In such texts, the context of each typo contains at least one misspelled character, which brings noise information. Such noisy context leads to the declining performance on multi-typo texts. (2) they tend to overcorrect valid expressions to more frequent expressions due to the masked token recovering task of Bert. We attempt to address these limitations in this paper. To make our model robust to contextual noise brought by typos, our approach first constructs a noisy context for each training sample. Then the correction model is forced to yield similar outputs based on the noisy and original contexts. Moreover, to address the overcorrection problem, copy mechanism is incorporated to encourage our model to prefer to choose the input character when the miscorrected and input character are both valid according to the given context. Experiments are conducted on widely used benchmarks. Our model achieves superior performance against state-of-the-art methods by a remarkable gain.",
+  "keywords": [
+    "we",
+    "valid",
+    "training",
+    "token",
+    "information",
+    "bert",
+    "model",
+    "recently bert-based models",
+    "multi",
+    "approach",
+    "original",
+    "state",
+    "typo",
+    "valid expressions",
+    "these limitations"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.237/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

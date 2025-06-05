@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwpt-1.2",
+  "title": "Proof Net Structure for Neural {L}ambek Categorial Parsing",
+  "authors": [
+    "Bhargava, Aditya  and\nPenn, Gerald"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 17th International Conference on Parsing Technologies and the IWPT 2021 Shared Task on Parsing into Enhanced Universal Dependencies (IWPT 2021)",
+  "abstract": "In this paper, we present the first statistical parser for Lambek categorial grammar (LCG), a grammatical formalism for which the graphical proof method known as *proof nets* is applicable. Our parser incorporates proof net structure and constraints into a system based on self-attention networks via novel model elements. Our experiments on an English LCG corpus show that incorporating term graph structure is helpful to the model, improving both parsing accuracy and coverage. Moreover, we derive novel loss functions by expressing proof net constraints as differentiable functions of our model output, enabling us to train our parser without ground-truth derivations.",
+  "keywords": [
+    "parsing",
+    "neural",
+    "net",
+    "model",
+    "self",
+    "loss",
+    "both parsing accuracy",
+    "us",
+    "attention",
+    "we",
+    "graph",
+    "novel loss functions",
+    "self-attention networks",
+    "accuracy",
+    "term"
+  ],
+  "url": "https://aclanthology.org/2021.iwpt-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

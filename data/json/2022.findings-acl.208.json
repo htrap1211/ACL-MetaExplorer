@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.208",
+  "title": "Lacking the Embedding of a Word? Look it up into a Traditional Dictionary",
+  "authors": [
+    "Ruzzetti, Elena Sofia  and\nRanaldi, Leonardo  and\nMastromattei, Michele  and\nFallucchi, Francesca  and\nScarpato, Noemi  and\nZanzotto, Fabio Massimo"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Word embeddings are powerful dictionaries, which may easily capture language variations. However, these dictionaries fail to give sense to rare words, which are surprisingly often covered by traditional dictionaries. In this paper, we propose to use definitions retrieved in traditional dictionaries to produce word embeddings for rare words. For this purpose, we introduce two methods: Definition Neural Network (DefiNNet) and Define BERT (DefBERT). In our experiments, DefiNNet and DefBERT significantly outperform state-of-the-art as well as baseline methods devised for producing embeddings of unknown words. In fact, DefiNNet significantly outperforms FastText, which implements a method for the same task-based on n-grams, and DefBERT significantly outperforms the BERT method for OOV words. Then, definitions in traditional dictionaries are useful to build word embeddings for rare words.",
+  "keywords": [
+    "embeddings",
+    "dictionaries",
+    "language",
+    "the embedding",
+    "neural",
+    "bert",
+    "it",
+    "these dictionaries",
+    "defbert",
+    "powerful dictionaries",
+    "traditional dictionaries",
+    "fasttext",
+    "the bert method",
+    "embedding",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.208/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

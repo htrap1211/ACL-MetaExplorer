@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.504",
+  "title": "Pretraining with Artificial Language: Studying Transferable Knowledge in Language Models",
+  "authors": [
+    "Ri, Ryokan  and\nTsuruoka, Yoshimasa"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We investigate what kind of structural knowledge learned in neural network encoders is transferable to processing natural language. We designartificial languageswith structural properties that mimic natural language, pretrain encoders on the data, and see how much performance the encoder exhibits on downstream tasks in natural language.Our experimental results show that pretraining with an artificial language with a nesting dependency structure provides some knowledge transferable to natural language.A follow-up probing analysis indicates that its success in the transfer is related to the amount of encoded contextual information and what is transferred is the knowledge ofposition-aware context dependenceof language.Our results provide insights into how neural network encoders process human languages and the source of cross-lingual transferability of recent multilingual language models.",
+  "keywords": [
+    "a nesting dependency structure",
+    "cross",
+    "the encoder",
+    "knowledge",
+    "language",
+    "neural",
+    "natural",
+    "network encoders",
+    "human",
+    "recent multilingual language models",
+    "neural network encoders",
+    "language models",
+    "encoder",
+    "properties",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.504/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

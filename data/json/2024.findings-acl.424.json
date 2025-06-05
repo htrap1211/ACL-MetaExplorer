@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.424",
+  "title": "S}o{FA}: Shielded On-the-fly Alignment via Priority Rule Following",
+  "authors": [
+    "Lu, Xinyu  and\nYu, Bowen  and\nLu, Yaojie  and\nLin, Hongyu  and\nYu, Haiyang  and\nSun, Le  and\nHan, Xianpei  and\nLi, Yongbin"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "The alignment problem in Large Language Models (LLMs) involves adapting them to the broad spectrum of human values. This requirement challenges existing alignment methods due to diversity of preferences and regulatory standards. This paper introduces a novel alignment paradigm, priority rule following, which defines rules as the primary control mechanism in each dialog, prioritizing them over user instructions. Our preliminary analysis reveals that even the advanced LLMs, such as GPT-4, exhibit shortcomings in understanding and prioritizing the rules. Therefore, we present PriorityDistill, a semi-automated approach for distilling priority following signals from LLM simulations to ensure robust rule integration and adherence. Our experiments show that this method not only effectively minimizes misalignments utilizing only one general rule but also adapts smoothly to various unseen rules, ensuring they are shielded from hijacking and that the model responds appropriately.",
+  "keywords": [
+    "we",
+    "existing alignment methods",
+    "llm",
+    "misalignments",
+    "analysis",
+    "llms",
+    "gpt-4 exhibit shortcomings",
+    "llm simulations",
+    "alignment",
+    "general",
+    "only one general rule",
+    "language",
+    "model",
+    "human",
+    "large language models"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.424/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

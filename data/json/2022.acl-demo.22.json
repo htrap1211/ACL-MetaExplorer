@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-demo.22",
+  "title": "BMI}nf: An Efficient Toolkit for Big Model Inference and Tuning",
+  "authors": [
+    "Han, Xu  and\nZeng, Guoyang  and\nZhao, Weilin  and\nLiu, Zhiyuan  and\nZhang, Zhengyan  and\nZhou, Jie  and\nZhang, Jun  and\nChao, Jia  and\nSun, Maosong"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: System Demonstrations",
+  "abstract": "In recent years, large-scale pre-trained language models (PLMs) containing billions of parameters have achieved promising results on various NLP tasks. Although we can pre-train these big models by stacking computing clusters at any cost, it is impractical to use such huge computing resources to apply big models for each downstream task. To address the computation bottleneck encountered in deploying big models in real-world scenarios, we introduce an open-source toolkit for big model inference and tuning (BMInf), which can support big model inference and tuning at extremely low computation cost. More specifically, at the algorithm level, we introduce model quantization and parameter-efficient tuning for efficient model inference and tuning. At the implementation level, we apply model offloading, model checkpointing, and CPU-GPU scheduling optimization to further reduce the computation and memory cost of big models. Based on above efforts, we can efficiently perform big model inference and tuning with a single GPU (even a consumer-level GPU like GTX 1060) instead of computing clusters, which is difficult for existing distributed learning toolkits for PLMs. BMInf is publicly released athttps://github.com/OpenBMB/BMInf.",
+  "keywords": [
+    "efficient",
+    "we",
+    "parameter",
+    "cpu-gpu scheduling optimization",
+    "it",
+    "an efficient toolkit",
+    "tuning",
+    "efficient model inference",
+    "parameter-efficient tuning",
+    "language",
+    "nlp",
+    "model",
+    "various nlp tasks",
+    "optimization",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2022.acl-demo.22/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:34:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

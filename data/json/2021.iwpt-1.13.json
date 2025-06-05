@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwpt-1.13",
+  "title": "Applying Occam{'}s Razor to Transformer-Based Dependency Parsing: What Works, What Doesn{'}t, and What is Really Necessary",
+  "authors": [
+    "Gr{\\\"u}newald, Stefan  and\nFriedrich, Annemarie  and\nKuhn, Jonas"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 17th International Conference on Parsing Technologies and the IWPT 2021 Shared Task on Parsing into Enhanced Universal Dependencies (IWPT 2021)",
+  "abstract": "The introduction of pre-trained transformer-based contextualized word embeddings has led to considerable improvements in the accuracy of graph-based parsers for frameworks such as Universal Dependencies (UD). However, previous works differ in various dimensions, including their choice of pre-trained language models and whether they use LSTM layers. With the aims of disentangling the effects of these choices and identifying a simple yet widely applicable architecture, we introduce STEPS, a new modular graph-based dependency parser. Using STEPS, we perform a series of analyses on the UD corpora of a diverse set of languages. We find that the choice of pre-trained embeddings has by far the greatest impact on parser performance and identify XLM-R as a robust choice across the languages in our study. Adding LSTM layers provides no benefits when using transformer-based embeddings. A multi-task training setup outputting additional UD features may contort results. Taking these insights together, we propose a simple but widely applicable parser architecture and configuration, achieving new state-of-the-art results (in terms of LAS) for 10 out of 12 diverse languages.",
+  "keywords": [
+    "the accuracy",
+    "series",
+    "we",
+    "lstm layers",
+    "lstm",
+    "graph",
+    "training",
+    "pre-trained language models",
+    "dependencies",
+    "word",
+    "transformer-based dependency",
+    "las",
+    "accuracy",
+    "embeddings",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2021.iwpt-1.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

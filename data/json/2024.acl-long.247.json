@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.247",
+  "title": "Exploiting Intrinsic Multilateral Logical Rules for Weakly Supervised Natural Language Video Localization",
+  "authors": [
+    "Xu, Zhe  and\nWei, Kun  and\nYang, Xu  and\nDeng, Cheng"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Weakly supervised natural language video localization (WS-NLVL) aims to retrieve the moment corresponding to a language query in a video with only video-language pairs utilized during training. Despite great success, existing WS-NLVL methods seldomly consider the complex temporal relations enclosing the language query (e.g., between the language query and sub-queries decomposed from it or its synonymous query), yielding illogical predictions. In this paper, we propose a novel plug-and-play method, Intrinsic Multilateral Logical Rules, namely IMLR, to exploit intrinsic temporal relations and logical rules for WS-NLVL. Specifically, we formalize queries derived from the original language query as the nodes of a directed graph, i.e., intrinsic temporal relation graph (ITRG), and the temporal relations between them as the edges. Instead of directly prompting a pre-trained language model, a relation-guided prompting method is introduced to generate ITRG in a hierarchical manner. We customize four types of multilateral temporal logical rules (i.e., identity, inclusion, synchronization, and succession) from ITRG and utilize them to train our model. Experiments demonstrate the effectiveness and superiority of our method on the Charades-STA and ActivityNet Captions datasets.",
+  "keywords": [
+    "a pre-trained language model",
+    "we",
+    "graph",
+    "training",
+    "a relation-guided prompting method",
+    "natural",
+    "it",
+    "queries",
+    "e",
+    "manner",
+    "-",
+    "moment",
+    "e g",
+    "hierarchical",
+    "a hierarchical manner"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.247/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

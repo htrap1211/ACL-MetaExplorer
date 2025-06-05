@@ -1,0 +1,33 @@
+{
+  "id": "P19-1414",
+  "title": "Open-Domain Why-Question Answering with Adversarial Learning to Encode Answer Texts",
+  "authors": [
+    "Oh, Jong-Hoon  and\nKadowaki, Kazuma  and\nKloetzer, Julien  and\nIida, Ryu  and\nTorisawa, Kentaro"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "In this paper, we propose a method for why-question answering (why-QA) that uses an adversarial learning framework. Existing why-QA methods retrieve “answer passages” that usually consist of several sentences. These multi-sentence passages contain not only the reason sought by a why-question and its connection to the why-question, but also redundant and/or unrelated parts. We use our proposed “Adversarial networks for Generating compact-answer Representation” (AGR) to generate from a passage a vector representation of the non-redundant reason sought by a why-question and exploit the representation for judging whether the passage actually answers the why-question. Through a series of experiments using Japanese why-QA datasets, we show that these representations improve the performance of our why-QA neural model as well as that of a BERT-based why-QA model. We show that they also improve a state-of-the-art distantly supervised open-domain QA (DS-QA) method on publicly available English datasets, even though the target task is not a why-QA.",
+  "keywords": [
+    "encode",
+    "series",
+    "question",
+    "we",
+    "open-domain qa ds-qa method",
+    "a bert-based why-qa model",
+    "answer",
+    "neural",
+    "japanese why-qa datasets",
+    "a vector representation",
+    "learning",
+    "why-qa",
+    "a",
+    "vector",
+    "bert"
+  ],
+  "url": "https://aclanthology.org/P19-1414/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:40:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

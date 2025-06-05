@@ -1,0 +1,33 @@
+{
+  "id": "P19-1148",
+  "title": "Exact Hard Monotonic Attention for Character-Level Transduction",
+  "authors": [
+    "Wu, Shijie  and\nCotterell, Ryan"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Many common character-level, string-to-string transduction tasks, e.g., grapheme-to-phoneme conversion and morphological inflection, consist almost exclusively of monotonic transduction. Neural sequence-to-sequence models with soft attention, non-monotonic models, outperform popular monotonic models. In this work, we ask the following question: Is monotonicity really a helpful inductive bias in these tasks? We develop a hard attention sequence-to-sequence model that enforces strict monotonicity and learns alignment jointly. With the help of dynamic programming, we are able to compute the exact marginalization over all alignments. Our models achieve state-of-the-art performance on morphological inflection. Furthermore, we find strong performance on two other character-level transduction tasks. Code is available athttps://github.com/shijie-wu/neural-transducer.",
+  "keywords": [
+    "work",
+    "alignment",
+    "code",
+    "bias",
+    "alignments",
+    "neural",
+    "model",
+    "exact hard monotonic attention",
+    "a helpful inductive bias",
+    "question",
+    "attention",
+    "soft attention non-monotonic models",
+    "sequence",
+    "we",
+    "soft"
+  ],
+  "url": "https://aclanthology.org/P19-1148/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:33:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.365",
+  "title": "Noisy Channel Language Model Prompting for Few-Shot Text Classification",
+  "authors": [
+    "Min, Sewon  and\nLewis, Mike  and\nHajishirzi, Hannaneh  and\nZettlemoyer, Luke"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We introduce a noisy channel approach for language model prompting in few-shot text classification. Instead of computing the likelihood of the label given the input (referred as direct models), channel models compute the conditional probability of the input given the label, and are thereby required to explain every word in the input. We use channel models for recently proposed few-shot learning methods with no or very limited updates to the language model parameters, via either in-context demonstration or prompt tuning. Our experiments show that, for both methods, channel models significantly outperform their direct counterparts, which we attribute to their stability, i.e., lower variance and higher worst-case accuracy. We also present extensive ablations that provide recommendations for when to use channel prompt tuning instead of other competitive models (e.g., direct head tuning): channel prompt tuning is preferred when the number of training examples is small, labels in the training data are imbalanced, or generalization to unseen labels is required.",
+  "keywords": [
+    "tuning",
+    "prompt",
+    "language",
+    "model",
+    "language model",
+    "text",
+    "few-shot text classification",
+    "noisy channel language model",
+    "the language model parameters",
+    "channel prompt tuning",
+    "generalization",
+    "word",
+    "we",
+    "classification",
+    "variance"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.365/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:29:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

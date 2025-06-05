@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.187",
+  "title": "ACCEPT} at {S}em{E}val-2023 Task 3: An Ensemble-based Approach to Multilingual Framing Detection",
+  "authors": [
+    "Heinisch, Philipp  and\nPlenz, Moritz  and\nFrank, Anette  and\nCimiano, Philipp"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper describes the system and experimental results of an ensemble-based approach tomultilingual framing detection for the submission of the ACCEPT team to the SemEval-2023 Task 3 on Framing Detection (Subtask 2). The approach is based on an ensemble that combines three different methods: a classifier based on large language models, a classifier based on static word embeddings, and an approach that uses external commonsense knowledge graphs, in particular, ConceptNet. The results of the three classification heads are aggregated into an overall prediction for each frame class. Our best submission yielded a micro F1-score of 50.69% (rank 10) and a macro F1-score of 50.20% (rank 3) for English articles. Our experimental results show that static word embeddings and knowledge graphs are useful components for frame detection, while the ensemble of all three methods combines the strengths of our three proposed methods. Through system ablations, we show that the commonsenseguided knowledge graphs are the outperforming method for many languages.",
+  "keywords": [
+    "a macro f1-score",
+    "classifier",
+    "the commonsenseguided knowledge graphs",
+    "we",
+    "classification",
+    "ensemble",
+    "knowledge graphs",
+    "word",
+    "the ensemble",
+    "an ensemble",
+    "external commonsense knowledge graphs",
+    "an ensemble-based approach",
+    "a micro f1-score",
+    "embeddings",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.187/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

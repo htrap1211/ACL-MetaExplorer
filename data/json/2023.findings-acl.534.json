@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.534",
+  "title": "Data Augmentation for Low-Resource Keyphrase Generation",
+  "authors": [
+    "Garg, Krishna  and\nRay Chowdhury, Jishnu  and\nCaragea, Cornelia"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Keyphrase generation is the task of summarizing the contents of any given article into a few salient phrases (or keyphrases). Existing works for the task mostly rely on large-scale annotated datasets, which are not easy to acquire. Very few works address the problem of keyphrase generation in low-resource settings, but they still rely on a lot of additional unlabeled data for pretraining and on automatic methods for pseudo-annotations. In this paper, we present data augmentation strategies specifically to address keyphrase generation in purely resource-constrained domains. We design techniques that use the full text of the articles to improve both present and absent keyphrase generation. We test our approach comprehensively on three datasets and show that the data augmentation strategies consistently improve the state-of-the-art performance. We release our source code athttps://github.com/kgarg8/kpgen-lowres-data-aug.",
+  "keywords": [
+    "code",
+    "the data augmentation strategies",
+    "generation",
+    "text",
+    "keyphrase generation",
+    "kgarg8 kpgen-lowres-data-aug",
+    "strategies",
+    "salient",
+    "-",
+    "kgarg8",
+    "a few salient phrases",
+    "we",
+    "data augmentation strategies",
+    "that",
+    "three datasets"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.534/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

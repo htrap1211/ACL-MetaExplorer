@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.419",
+  "title": "Revisiting Sample Size Determination in Natural Language Understanding",
+  "authors": [
+    "Chang, Ernie  and\nRashid, Muhammad Hassan  and\nLin, Pin-Jie  and\nZhao, Changsheng  and\nDemberg, Vera  and\nShi, Yangyang  and\nChandra, Vikas"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Knowing exactly how many data points need to be labeled to achieve a certain model performance is a hugely beneficial step towards reducing the overall budgets for annotation. It pertains to both active learning and traditional data annotation, and is particularly beneficial for low resource scenarios. Nevertheless, it remains a largely under-explored area of research in NLP. We therefore explored various techniques for estimating the training sample size necessary to achieve a targeted performance value. We derived a simple yet effective approach to predict the maximum achievable model performance based on small amount of training samples – which serves as an early indicator during data annotation for data quality and sample size determination. We performed ablation studies on four language understanding tasks, and showed that the proposed approach allows us to forecast model performance within a small margin of mean absolute error (~0.9%) with only 10% data.",
+  "keywords": [
+    "language",
+    "achievable",
+    "nlp",
+    "natural",
+    "model",
+    "early",
+    "studies",
+    "it",
+    "ablation studies",
+    "us",
+    "we",
+    "learning",
+    "mean",
+    "training",
+    "sample"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.419/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

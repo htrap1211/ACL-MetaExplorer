@@ -1,0 +1,33 @@
+{
+  "id": "W19-4213",
+  "title": "CUNI}{--}{M}alta system at {SIGMORPHON} 2019 Shared Task on Morphological Analysis and Lemmatization in context: Operation-based word formation",
+  "authors": [
+    "Cardenas, Ronald  and\nBorg, Claudia  and\nZeman, Daniel"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 16th Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "This paper presents the submission by the Charles University-University of Malta team to the SIGMORPHON 2019 Shared Task on Morphological Analysis and Lemmatization in context. We present a lemmatization model based on previous work on neural transducers (Makarov and Clematide, 2018b; Aharoni and Goldberg, 2016). The key difference is that our model transforms the whole word form in every step, instead of consuming it character by character. We propose a merging strategy inspired by Byte-Pair-Encoding that reduces the space of valid operations by merging frequent adjacent operations. The resulting operations not only encode the actions to be performed but the relative position in the word token and how characters need to be transformed. Our morphological tagger is a vanilla biLSTM tagger that operates over operation representations, encoding operations and words in a hierarchical manner. Even though relative performance according to metrics is below the baseline, experiments show that our models capture important associations between interpretable operation labels and fine-grained morpho-syntax labels.",
+  "keywords": [
+    "form",
+    "we",
+    "valid",
+    "syntax",
+    "a vanilla bilstm tagger",
+    "neural",
+    "bilstm",
+    "word",
+    "fine-grained morpho-syntax labels",
+    "analysis",
+    "manner",
+    "metrics",
+    "work",
+    "hierarchical",
+    "formation"
+  ],
+  "url": "https://aclanthology.org/W19-4213/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:27:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.633",
+  "title": "Evaluating Robustness of Generative Search Engine on Adversarial Factoid Questions",
+  "authors": [
+    "Hu, Xuming  and\nLi, Xiaochuan  and\nChen, Junzhe  and\nLi, Yinghui  and\nLi, Yangning  and\nLi, Xiaoguang  and\nWang, Yasheng  and\nLiu, Qun  and\nWen, Lijie  and\nYu, Philip  and\nGuo, Zhijiang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Generative search engines have the potential to transform how people seek information online, but generated responses from existing large language models (LLMs)-backed generative search engines may not always be accurate. Nonetheless, retrieval-augmented generation exacerbates safety concerns, since adversaries may successfully evade the entire system by subtly manipulating the most vulnerable part of a claim. To this end, we propose evaluating the robustness of generative search engines in the realistic and high-risk setting, where adversaries have only black-box system access and seek to deceive the model into returning incorrect responses. Through a comprehensive human evaluation of various generative search engines, such as Bing Chat, PerplexityAI, and YouChat across diverse queries, we demonstrate the effectiveness of adversarial factual questions in inducing incorrect responses. Moreover, retrieval-augmented generation exhibits a higher susceptibility to factual errors compared to LLMs without retrieval. These findings highlight the potential security risks of these systems and emphasize the need for rigorous evaluation before deployment. The dataset and code will be publicly available.",
+  "keywords": [
+    "code",
+    "end",
+    "adversaries",
+    "various generative search engines",
+    "we",
+    "existing large language models",
+    "diverse queries",
+    "queries",
+    "retrieval",
+    "information",
+    "vulnerable",
+    "a comprehensive human evaluation",
+    "llms",
+    "generative",
+    "bing chat perplexityai"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.633/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

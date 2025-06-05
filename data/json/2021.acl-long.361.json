@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.361",
+  "title": "Element Intervention for Open Relation Extraction",
+  "authors": [
+    "Liu, Fangchao  and\nYan, Lingyong  and\nLin, Hongyu  and\nHan, Xianpei  and\nSun, Le"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Open relation extraction aims to cluster relation instances referring to the same underlying relation, which is a critical step for general relation extraction. Current OpenRE models are commonly trained on the datasets generated from distant supervision, which often results in instability and makes the model easily collapsed. In this paper, we revisit the procedure of OpenRE from a causal view. By formulating OpenRE using a structural causal model, we identify that the above-mentioned problems stem from the spurious correlations from entities and context to the relation type. To address this issue, we conductElement Intervention, which intervene on the context and entities respectively to obtain the underlying causal effects of them. We also provide two specific implementations of the interventions based on entity ranking and context contrasting. Experimental results on unsupervised relation extraction datasets show our method to outperform previous state-of-the-art methods and is robust across different datasets.",
+  "keywords": [
+    "general",
+    "extraction",
+    "cluster",
+    "model",
+    "entities",
+    "view",
+    "a causal view",
+    "we",
+    "entity",
+    "current",
+    "distant",
+    "this issue",
+    "cluster relation instances",
+    "supervision",
+    "correlations"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.361/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

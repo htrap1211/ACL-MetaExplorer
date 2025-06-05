@@ -1,0 +1,33 @@
+{
+  "id": "W19-5319",
+  "title": "Evaluating the Supervised and Zero-shot Performance of Multi-lingual Translation Models",
+  "authors": [
+    "Hokamp, Chris  and\nGlover, John  and\nGholipour Ghalandari, Demian"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1)",
+  "abstract": "We study several methods for full or partial sharing of the decoder parameters of multi-lingual NMT models. Using only the WMT 2019 shared task parallel datasets for training, we evaluate both fully supervised and zero-shot translation performance in 110 unique translation directions. We use additional test sets and re-purpose evaluation methods recently used for unsupervised MT in order to evaluate zero-shot translation performance for language pairs where no gold-standard parallel data is available. To our knowledge, this is the largest evaluation of multi-lingual translation yet conducted in terms of the total size of the training data we use, and in terms of the number of zero-shot translation pairs we evaluate. We conduct an in-depth evaluation of the translation performance of different models, highlighting the trade-offs between methods of sharing decoder parameters. We find that models which have task-specific decoder parameters outperform models where decoder parameters are fully shared across all tasks.",
+  "keywords": [
+    "knowledge",
+    "multi-lingual translation",
+    "language",
+    "the translation performance",
+    "the largest evaluation",
+    "re-purpose evaluation methods",
+    "task-specific decoder parameters",
+    "decoder",
+    "decoder parameters",
+    "zero-shot translation performance",
+    "we",
+    "110 unique translation directions",
+    "zero-shot translation pairs",
+    "multi-lingual translation models",
+    "evaluation"
+  ],
+  "url": "https://aclanthology.org/W19-5319/",
+  "provenance": {
+    "collected_at": "2025-06-05 02:07:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

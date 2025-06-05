@@ -1,0 +1,33 @@
+{
+  "id": "2023.starsem-1.5",
+  "title": "Analyzing Syntactic Generalization Capacity of Pre-trained Language Models on {J}apanese Honorific Conversion",
+  "authors": [
+    "Sekizawa, Ryo  and\nYanaka, Hitomi"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 12th Joint Conference on Lexical and Computational Semantics (*SEM 2023)",
+  "abstract": "Using Japanese honorifics is challenging because it requires not only knowledge of the grammatical rules but also contextual information, such as social relationships. It remains unclear whether pre-trained large language models (LLMs) can flexibly handle Japanese honorifics like humans. To analyze this, we introduce an honorific conversion task that considers social relationships among people mentioned in a conversation. We construct a Japanese honorifics dataset from problem templates of various sentence structures to investigate the syntactic generalization capacity of GPT-3, one of the leading LLMs, on this task under two settings: fine-tuning and prompt learning. Our results showed that the fine-tuned GPT-3 performed better in a context-aware honorific conversion task than the prompt-based one. The fine-tuned model demonstrated overall syntactic generalizability towards compound honorific sentences, except when tested with the data involving direct speech.",
+  "keywords": [
+    "overall syntactic generalizability",
+    "tuning",
+    "knowledge",
+    "prompt",
+    "language",
+    "the syntactic generalization capacity",
+    "pre-trained language models",
+    "model",
+    "it",
+    "a conversation",
+    "llms",
+    "gpt-3",
+    "information",
+    "generalization",
+    "syntactic generalization capacity"
+  ],
+  "url": "https://aclanthology.org/2023.starsem-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:31:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

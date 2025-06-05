@@ -1,0 +1,33 @@
+{
+  "id": "2020.bionlp-1.19",
+  "title": "Extensive Error Analysis and a Learning-Based Evaluation of Medical Entity Recognition Systems to Approximate User Experience",
+  "authors": [
+    "Nejadgholi, Isar  and\nFraser, Kathleen C.  and\nde Bruijn, Berry"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 19th SIGBioMed Workshop on Biomedical Language Processing",
+  "abstract": "When comparing entities extracted by a medical entity recognition system with gold standard annotations over a test set, two types of mismatches might occur, label mismatch or span mismatch. Here we focus on span mismatch and show that its severity can vary from a serious error to a fully acceptable entity extraction due to the subjectivity of span annotations. For a domain-specific BERT-based NER system, we showed that 25% of the errors have the same labels and overlapping span with gold standard entities. We collected expert judgement which shows more than 90% of these mismatches are accepted or partially accepted by the user. Using the training set of the NER system, we built a fast and lightweight entity classifier to approximate the user experience of such mismatches through accepting or rejecting them. The decisions made by this classifier are used to calculate a learning-based F-score which is shown to be a better approximation of a forgiving user’s experience than the relaxed F-score. We demonstrated the results of applying the proposed evaluation metric for a variety of deep learning medical entity recognition models trained with two datasets.",
+  "keywords": [
+    "deep",
+    "variety",
+    "the ner system",
+    "extraction",
+    "classifier",
+    "we",
+    "a learning-based evaluation",
+    "training",
+    "learning",
+    "a variety",
+    "analysis",
+    "ner",
+    "the user experience",
+    "bert",
+    "metric"
+  ],
+  "url": "https://aclanthology.org/2020.bionlp-1.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:55:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

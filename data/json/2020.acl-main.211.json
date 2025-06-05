@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.211",
+  "title": "Interactive Machine Comprehension with Information Seeking Agents",
+  "authors": [
+    "Yuan, Xingdi  and\nFu, Jie  and\nC{\\^o}t{\\'e}, Marc-Alexandre  and\nTay, Yi  and\nPal, Chris  and\nTrischler, Adam"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Existing machine reading comprehension (MRC) models do not scale effectively to real-world applications like web-level information retrieval and question answering (QA). We argue that this stems from the nature of MRC datasets: most of these are static environments wherein the supporting documents and all necessary information are fully observed. In this paper, we propose a simple method that reframes existing MRC datasets as interactive, partially observable environments. Specifically, we “occlude” the majority of a document’s text and add context-sensitive commands that reveal “glimpses” of the hidden text to a model. We repurpose SQuAD and NewsQA as an initial case study, and then show how the interactive corpora can be used to train a model that seeks relevant information through sequential decision making. We believe that this setting can contribute in scaling models to web-level QA scenarios.",
+  "keywords": [
+    "web-level information retrieval",
+    "machine",
+    "model",
+    "text",
+    "qa",
+    "retrieval",
+    "web-level qa scenarios",
+    "question",
+    "information",
+    "we",
+    "newsqa",
+    "that",
+    "the supporting documents",
+    "applications",
+    "documents"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.211/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:45:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

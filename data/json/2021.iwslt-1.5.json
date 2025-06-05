@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwslt-1.5",
+  "title": "Without Further Ado: Direct and Simultaneous Speech Translation by {A}pp{T}ek in 2021",
+  "authors": [
+    "Bahar, Parnia  and\nWilken, Patrick  and\nDi Gangi, Mattia A.  and\nMatusov, Evgeny"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021)",
+  "abstract": "This paper describes the offline and simultaneous speech translation systems developed at AppTek for IWSLT 2021. Our offline ST submission includes the direct end-to-end system and the so-called posterior tight integrated model, which is akin to the cascade system but is trained in an end-to-end fashion, where all the cascaded modules are end-to-end models themselves. For simultaneous ST, we combine hybrid automatic speech recognition with a machine translation approach whose translation policy decisions are learned from statistical word alignments. Compared to last year, we improve general quality and provide a wider range of quality/latency trade-offs, both due to a data augmentation method making the MT model robust to varying chunk sizes. Finally, we present a method for ASR output segmentation into sentences that introduces a minimal additional delay.",
+  "keywords": [
+    "alignments",
+    "end",
+    "statistical word alignments",
+    "we",
+    "general quality",
+    "translation",
+    "word",
+    "speech translation",
+    "whose translation policy decisions",
+    "general",
+    "a machine translation approach",
+    "model",
+    "machine",
+    "approach",
+    "models"
+  ],
+  "url": "https://aclanthology.org/2021.iwslt-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:18:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

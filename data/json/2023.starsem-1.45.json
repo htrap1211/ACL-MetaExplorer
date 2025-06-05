@@ -1,0 +1,33 @@
+{
+  "id": "2023.starsem-1.45",
+  "title": "Can Sequence-to-Sequence Transformers Naturally Understand Sequential Instructions?",
+  "authors": [
+    "Zhou, Xiang  and\nGupta, Aditya  and\nUpadhyay, Shyam  and\nBansal, Mohit  and\nFaruqui, Manaal"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 12th Joint Conference on Lexical and Computational Semantics (*SEM 2023)",
+  "abstract": "While many real-life tasks require reasoning over multi-step sequential instructions, collecting fine-grained annotations for each intermediate step can be prohibitively expensive. In this work, we study how general pretrained sequence-to-sequence transformers perform under varying types of annotation for sequential instruction understanding. We conduct experiments using T5 (Raffel et al., 2020) on a commonly-used multi-step instruction understanding dataset SCONE (Long et al., 2016) that includes three sub-tasks. First, we show that with only gold supervision for the final step of a multi-step instruction sequence, depending on the sequential properties of different tasks, transformers may exhibit extremely bad performance on intermediate steps, in stark contrast with their performance on the final step. Next, we explore two directions to relieve this problem. We show that with the same limited annotation budget, using supervision uniformly distributed across different steps (instead of only final-step supervision), we can greatly improve the performance on intermediate steps with a drop in final-step performance. Further, we explore a contrastive learning approach to provide training signals on intermediate steps with zero intermediate gold supervision. This, however, achieves mixed results. It significantly improves the model’s bad intermediate-step performance on one subtask, but also shows decreased performance on another subtask.",
+  "keywords": [
+    "transformers",
+    "we",
+    "training",
+    "instruction",
+    "it",
+    "properties",
+    "sequence",
+    "learning",
+    "-",
+    "drop",
+    "the sequential properties",
+    "work",
+    "general",
+    "model",
+    "different tasks transformers"
+  ],
+  "url": "https://aclanthology.org/2023.starsem-1.45/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:32:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

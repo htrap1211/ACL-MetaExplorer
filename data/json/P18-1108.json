@@ -1,0 +1,33 @@
+{
+  "id": "P18-1108",
+  "title": "Straight to the Tree: Constituency Parsing with Neural Syntactic Distance",
+  "authors": [
+    "Shen, Yikang  and\nLin, Zhouhan  and\nJacob, Athul Paul  and\nSordoni, Alessandro  and\nCourville, Aaron  and\nBengio, Yoshua"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this work, we propose a novel constituency parsing scheme. The model first predicts a real-valued scalar, named syntactic distance, for each split position in the sentence. The topology of grammar tree is then determined by the values of syntactic distances. Compared to traditional shift-reduce parsing schemes, our approach is free from the potentially disastrous compounding error. It is also easier to parallelize and much faster. Our model achieves the state-of-the-art single model F1 score of 92.1 on PTB and 86.4 on CTB dataset, which surpasses the previous single model results by a large margin.",
+  "keywords": [
+    "work",
+    "parsing",
+    "neural",
+    "model",
+    "it",
+    "we",
+    "easier",
+    "traditional shift-reduce parsing schemes",
+    "grammar",
+    "split",
+    "this work",
+    "traditional",
+    "approach",
+    "distances",
+    "state"
+  ],
+  "url": "https://aclanthology.org/P18-1108/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:11:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

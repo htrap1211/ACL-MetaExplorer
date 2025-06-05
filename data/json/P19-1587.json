@@ -1,0 +1,33 @@
+{
+  "id": "P19-1587",
+  "title": "A Semi-{M}arkov Structured Support Vector Machine Model for High-Precision Named Entity Recognition",
+  "authors": [
+    "Arora, Ravneet  and\nTsai, Chen-Tse  and\nTsereteli, Ketevan  and\nKambadur, Prabhanjan  and\nYang, Yi"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Named entity recognition (NER) is the backbone of many NLP solutions. F1 score, the harmonic mean of precision and recall, is often used to select/evaluate the best models. However, when precision needs to be prioritized over recall, a state-of-the-art model might not be the best choice. There is little in literature that directly addresses training-time modifications to achieve higher precision information extraction. In this paper, we propose a neural semi-Markov structured support vector machine model that controls the precision-recall trade-off by assigning weights to different types of errors in the loss-augmented inference during training. The semi-Markov property provides more accurate phrase-level predictions, thereby improving performance. We empirically demonstrate the advantage of our model when high precision is required by comparing against strong baselines based on CRF. In our experiments with the CoNLL 2003 dataset, our model achieves a better precision-recall trade-off at various precision levels.",
+  "keywords": [
+    "precision",
+    "support",
+    "extraction",
+    "high precision",
+    "we",
+    "high-precision",
+    "training",
+    "neural",
+    "loss",
+    "information",
+    "many nlp solutions",
+    "ner",
+    "vector",
+    "higher precision information extraction",
+    "the precision-recall trade-off"
+  ],
+  "url": "https://aclanthology.org/P19-1587/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:45:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

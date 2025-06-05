@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.497",
+  "title": "C}ausal{C}ite: A Causal Formulation of Paper Citations",
+  "authors": [
+    "Agrawal, Ishan  and\nJin, Zhijing  and\nMokhtarian, Ehsan  and\nGuo, Siyuan  and\nChen, Yuen  and\nSachan, Mrinmaya  and\nSch{\\\"o}lkopf, Bernhard"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Citation count of a paper is a commonly used proxy for evaluating the significance of a paper in the scientific community. Yet citation measures are widely criticized for failing to accurately reflect the true impact of a paper. Thus, we propose CausalCite, a new way to measure the significance of a paper by assessing the causal impact of the paper on its follow-up papers. CausalCite is based on a novel causal inference method, TextMatch, which adapts the traditional matching framework to high-dimensional text embeddings. TextMatch encodes each paper using text embeddings from large language models (LLMs), extracts similar samples by cosine similarity, and synthesizes a counterfactual sample as the weighted average of similar papers according to their similarity values. We demonstrate the effectiveness of CausalCite on various criteria, such as high correlation with paper impact as reported by scientific experts on a previous dataset of 1K papers, (test-of-time) awards for past papers, and its stability across various subfields of AI. We also provide a set of findings that can serve as suggested ways for future researchers to use our metric for a better understanding of the quality of a paper. Our code is available at https://github.com/causalNLP/causal-cite.",
+  "keywords": [
+    "the scientific community",
+    "code",
+    "subfields",
+    "we",
+    "high-dimensional text embeddings",
+    "various subfields",
+    "scientific",
+    "llms",
+    "metric",
+    "text",
+    "dimensional",
+    "embeddings",
+    "language",
+    "text embeddings",
+    "ai"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.497/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:55:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

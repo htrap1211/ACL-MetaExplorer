@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.307",
+  "title": "Stock Embeddings Acquired from News Articles and Price History, and an Application to Portfolio Optimization",
+  "authors": [
+    "Du, Xin  and\nTanaka-Ishii, Kumiko"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Previous works that integrated news articles to better process stock prices used a variety of neural networks to predict price movements. The textual and price information were both encoded in the neural network, and it is therefore difficult to apply this approach in situations other than the original framework of the notoriously hard problem of price prediction. In contrast, this paper presents a method to encode the influence of news articles through a vector representation of stocks called astock embedding. The stock embedding is acquired with a deep learning framework using both news articles and price history. Because the embedding takes the operational form of a vector, it is applicable to other financial problems besides price prediction. As one example application, we show the results of portfolio optimization using Reuters & Bloomberg headlines, producing a capital gain 2.8 times larger than that obtained with a baseline method using only stock price data. This suggests that the proposed stock embedding can leverage textual financial semantics to solve financial prediction problems.",
+  "keywords": [
+    "deep",
+    "variety",
+    "a deep learning framework",
+    "portfolio optimization",
+    "form",
+    "we",
+    "neural",
+    "semantics",
+    "it",
+    "a vector representation",
+    "stock embeddings",
+    "the neural network",
+    "information",
+    "learning",
+    "a variety"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.307/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:46:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

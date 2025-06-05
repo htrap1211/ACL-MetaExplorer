@@ -1,0 +1,33 @@
+{
+  "id": "2022.dialdoc-1.6",
+  "title": "Conversation- and Tree-Structure Losses for Dialogue Disentanglement",
+  "authors": [
+    "Li, Tianda  and\nGu, Jia-Chen  and\nLing, Zhen-Hua  and\nLiu, Quan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Second DialDoc Workshop on Document-grounded Dialogue and Conversational Question Answering",
+  "abstract": "When multiple conversations occur simultaneously, a listener must decide which conversation each utterance is part of in order to interpret and respond to it appropriately. This task is referred as dialogue disentanglement. A significant drawback of previous studies on disentanglement lies in that they only focus on pair-wise relationships between utterances while neglecting the conversation structure which is important for conversation structure modeling. In this paper, we propose a hierarchical model, named Dialogue BERT (DIALBERT), which integrates the local and global semantics in the context range by using BERT to encode each message-pair and using BiLSTM to aggregate the chronological context information into the output of BERT. In order to integrate the conversation structure information into the model, two types of loss of conversation-structure loss and tree-structure loss are designed. In this way, our model can implicitly learn and leverage the conversation structures without being restricted to the lack of explicit access to such structures during the inference stage. Experimental results on two large datasets show that our method outperforms previous methods by substantial margins, achieving great performance on dialogue disentanglement.",
+  "keywords": [
+    "conversation-structure loss",
+    "lies",
+    "conversations",
+    "we",
+    "dialogue",
+    "listener",
+    "the conversation structures",
+    "semantics",
+    "it",
+    "bilstm",
+    "loss",
+    "information",
+    "conversation structure",
+    "dialogue disentanglement",
+    "previous studies"
+  ],
+  "url": "https://aclanthology.org/2022.dialdoc-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:41:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

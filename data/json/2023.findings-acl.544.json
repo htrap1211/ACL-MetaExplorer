@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.544",
+  "title": "Bi-level Finetuning with Task-dependent Similarity Structure for Low-resource Training",
+  "authors": [
+    "Somayajula, Sai Ashish  and\nJin, Lifeng  and\nSong, Linfeng  and\nMi, Haitao  and\nYu, Dong"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Training a large language model in low-resource settings is challenging since they are susceptible to overfitting with limited generalization abilities. Previous work addresses this issue by approaches such as tunable parameters reduction or data augmentation. However, they either limit the trained models’ expressiveness or rely on task-independent knowledge. In this paper, we propose the Bi-level Finetuning with Task-dependent Similarity Structure framework where all parameters, including the embeddings for unseen tokens, are finetuned with task-dependent information from the training data only. In this framework, a task-dependent similarity structure is learned in a data-driven fashion, which in turn is used to compose soft embeddings from conventional embeddings to be used in training to update all parameters. In order to learn the similarity structure and model parameters, we propose a bi-level optimization algorithm with two stages—search and finetune—to ensure successful learning. Results of experiments on several classification datasets in low-resource scenarios demonstrate that models trained with our method outperform strong baselines. Ablation experiments further support the effectiveness of different components in our framework. Code is available athttps://github.com/Sai-Ashish/BFTSS.",
+  "keywords": [
+    "code",
+    "we",
+    "training",
+    "classification",
+    "information",
+    "learning",
+    "conventional embeddings",
+    "soft embeddings",
+    "limited generalization abilities",
+    "reduction",
+    "abilities",
+    "the embeddings",
+    "a bi-level optimization",
+    "generalization",
+    "a large language model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.544/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

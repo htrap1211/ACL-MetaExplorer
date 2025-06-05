@@ -1,0 +1,33 @@
+{
+  "id": "2022.dialdoc-1.10",
+  "title": "Retrieval-Free Knowledge-Grounded Dialogue Response Generation with Adapters",
+  "authors": [
+    "Xu, Yan  and\nIshii, Etsuko  and\nCahyawijaya, Samuel  and\nLiu, Zihan  and\nWinata, Genta Indra  and\nMadotto, Andrea  and\nSu, Dan  and\nFung, Pascale"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Second DialDoc Workshop on Document-grounded Dialogue and Conversational Question Answering",
+  "abstract": "To diversify and enrich generated dialogue responses, knowledge-grounded dialogue has been investigated in recent years. The existing methods tackle the knowledge grounding challenge by retrieving the relevant sentences over a large corpus and augmenting the dialogues with explicit extra information. Despite their success, however, the existing works have drawbacks on the inference efficiency. This paper proposes KnowExpert, an end-to-end framework to bypass the explicit retrieval process and inject knowledge into the pre-trained language models with lightweight adapters and adapt to the knowledge-grounded dialogue task. To the best of our knowledge, this is the first attempt to tackle this challenge without retrieval in this task under an open-domain chit-chat scenario. The experimental results show that KnowExpert performs comparably with some retrieval-based baselines while being time-efficient in inference, demonstrating the effectiveness of our proposed method.",
+  "keywords": [
+    "process",
+    "knowledge",
+    "end",
+    "generation",
+    "language",
+    "dialogues",
+    "extra",
+    "the pre-trained language models",
+    "efficient",
+    "the explicit retrieval process",
+    "retrieval",
+    "information",
+    "efficiency",
+    "the dialogues",
+    "dialogue"
+  ],
+  "url": "https://aclanthology.org/2022.dialdoc-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:41:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

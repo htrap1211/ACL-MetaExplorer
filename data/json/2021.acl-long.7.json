@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.7",
+  "title": "PENS}: A Dataset and Generic Framework for Personalized News Headline Generation",
+  "authors": [
+    "Ao, Xiang  and\nWang, Xiting  and\nLuo, Ling  and\nQiao, Ying  and\nHe, Qing  and\nXie, Xing"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "In this paper, we formulate the personalized news headline generation problem whose goal is to output a user-specific title based on both a user’s reading interests and a candidate news body to be exposed to her. To build up a benchmark for this problem, we publicize a large-scale dataset named PENS (PErsonalized News headlineS). The training set is collected from user impressions logs of Microsoft News, and the test set is manually created by hundreds of native speakers to enable a fair testbed for evaluating models in an offline mode. We propose a generic framework as a preparatory solution to our problem. At its heart, user preference is learned by leveraging the user behavioral data, and three kinds of user preference injections are proposed to personalize a text generator and establish personalized headlines. We investigate our dataset by implementing several state-of-the-art user modeling methods in our framework to demonstrate a benchmark score for the proposed dataset. The dataset is available athttps://msnews.github.io/pens.html.",
+  "keywords": [
+    "we",
+    "training",
+    "text",
+    "generic",
+    "personalized news headline generation",
+    "mode",
+    "generation",
+    "modeling",
+    "a text generator",
+    "a generic framework",
+    "generator",
+    "user impressions logs",
+    "state",
+    "test",
+    "microsoft news"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:59:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

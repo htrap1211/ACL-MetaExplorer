@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.750",
+  "title": "Impacts of Misspelled Queries on Translation and Product Search",
+  "authors": [
+    "Hanneman, Greg  and\nMonaikul, Natawut  and\nNakatani, Taichi"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Machine translation is used in e-commerce to translate second-language queries into the primary language of the store, to be matched by the search system against the product catalog. However, many queries contain spelling mistakes. We first present an analysis of the spelling-robustness of a population of MT systems, quantifying how spelling variations affect MT output, the list of returned products, and ultimately user behavior. We then present two sets of practical experiments illustrating how spelling-robustness may be specifically improved. For MT, reducing the number of BPE operations significantly improves spelling-robustness in six language pairs. In end-to-end e-commerce, the inclusion of a dedicated spelling correction model, and the augmentation of that model’s training data with language-relevant phenomena, each improve robustness and consistency of search results.",
+  "keywords": [
+    "end",
+    "we",
+    "second-language queries",
+    "training",
+    "translation",
+    "queries",
+    "e",
+    "product search machine translation",
+    "many queries",
+    "analysis",
+    "misspelled queries",
+    "-",
+    "language",
+    "model",
+    "machine"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.750/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:44:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

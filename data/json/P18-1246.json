@@ -1,0 +1,33 @@
+{
+  "id": "P18-1246",
+  "title": "Morphosyntactic Tagging with a Meta-{B}i{LSTM} Model over Context Sensitive Token Encodings",
+  "authors": [
+    "Bohnet, Bernd  and\nMcDonald, Ryan  and\nSim{\\~o}es, Gon{\\c{c}}alo  and\nAndor, Daniel  and\nPitler, Emily  and\nMaynez, Joshua"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The rise of neural networks, and particularly recurrent neural networks, has produced significant advances in part-of-speech tagging accuracy. One characteristic common among these models is the presence of rich initial word encodings. These encodings typically are composed of a recurrent character-based representation with dynamically and pre-trained word embeddings. However, these encodings do not consider a context wider than a single word and it is only through subsequent recurrent layers that word or sub-word information interacts. In this paper, we investigate models that use recurrent neural networks with sentence-level context for initial character and word-based representations. In particular we show that optimal results are obtained by integrating these context sensitive representations through synchronized training with a meta-model that learns to combine their states.",
+  "keywords": [
+    "embeddings",
+    "neural",
+    "neural networks",
+    "model",
+    "it",
+    "token",
+    "tagging",
+    "information",
+    "rich",
+    "word",
+    "we",
+    "particularly recurrent neural networks",
+    "lstm",
+    "pre",
+    "recurrent"
+  ],
+  "url": "https://aclanthology.org/P18-1246/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:15:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.283",
+  "title": "Quantifying Uncertainty in Answers from any Language Model and Enhancing their Trustworthiness",
+  "authors": [
+    "Chen, Jiuhai  and\nMueller, Jonas"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We introduce BSDetector, a method for detecting bad and speculative answers from a pretrained Large Language Model by estimating a numeric confidence score for any output it generated. Our uncertainty quantification technique works for any LLM accessible only via a black-box API, whose training data remains unknown. By expending a bit of extra computation, users of any LLM API can now get the same response as they would ordinarily, as well as a confidence estimate that cautions when not to trust this response. Experiments on both closed and open-form Question-Answer benchmarks reveal that BSDetector more accurately identifies incorrect LLM responses than alternative uncertainty estimation procedures (for both GPT-3 and ChatGPT). By sampling multiple responses from the LLM and considering the one with the highest confidence score, we can additionally obtain more accurate responses from the same LLM, without extra training steps. In applications involving automated evaluation with LLMs, accounting for our confidence scores leads to more reliable evaluation in both human-in-the-loop and fully-automated settings (across both GPT 3.5 and 4).",
+  "keywords": [
+    "both gpt",
+    "extra",
+    "incorrect llm responses",
+    "the same llm",
+    "question",
+    "form",
+    "we",
+    "llm",
+    "training",
+    "answer",
+    "more reliable evaluation",
+    "it",
+    "gpt-3",
+    "chatgpt",
+    "llms"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.283/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

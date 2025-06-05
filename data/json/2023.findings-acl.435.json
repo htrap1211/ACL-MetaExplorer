@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.435",
+  "title": "CSS}: A Large-scale Cross-schema {C}hinese Text-to-{SQL} Medical Dataset",
+  "authors": [
+    "Zhang, Hanchong  and\nLi, Jieyu  and\nChen, Lu  and\nCao, Ruisheng  and\nZhang, Yunyan  and\nHuang, Yu  and\nZheng, Yefeng  and\nYu, Kai"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "The cross-domain text-to-SQL task aims to build a system that can parse user questions into SQL on complete unseen databases, and the single-domain text-to-SQL task evaluates the performance on identical databases. Both of these setups confront unavoidable difficulties in real-world applications. To this end, we introduce the cross-schema text-to-SQL task, where the databases of evaluation data are different from that in the training data but come from the same domain. Furthermore, we present CSS, a large-scale CrosS-Schema Chinese text-to-SQL dataset, to carry on corresponding studies. CSS originally consisted of 4,340 question/SQL pairs across 2 databases. In order to generalize models to different medical systems, we extend CSS and create 19 new databases along with 29,280 corresponding dataset examples. Moreover, CSS is also a large corpus for single-domain Chinese text-to-SQL studies. We present the data collection approach and a series of analyses of the data statistics. To show the potential and usefulness of CSS, benchmarking baselines have been conducted and reported. Our dataset is publicly available athttps://huggingface.co/datasets/zhanghanchong/css.",
+  "keywords": [
+    "end",
+    "series",
+    "question",
+    "we",
+    "training",
+    "cross",
+    "unavoidable difficulties",
+    "corresponding studies css",
+    "difficulties",
+    "text",
+    "-",
+    "evaluation data",
+    "a series",
+    "single-domain chinese text-to-sql studies",
+    "studies"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.435/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

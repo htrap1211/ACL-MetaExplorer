@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.192",
+  "title": "Improved Multi-label Classification under Temporal Concept Drift: Rethinking Group-Robust Algorithms in a Label-Wise Setting",
+  "authors": [
+    "Chalkidis, Ilias  and\nS{\\o}gaard, Anders"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "In document classification for, e.g., legal and biomedical text, we often deal with hundreds of classes, including very infrequent ones, as well as temporal concept drift caused by the influence of real world events, e.g., policy changes, conflicts, or pandemics. Class imbalance and drift can sometimes be mitigated by resampling the training data to simulate (or compensate for) a known target distribution, but what if the target distribution is determined by unknown future events? Instead of simply resampling uniformly to hedge our bets, we focus on the underlying optimization algorithms used to train such document classifiers and evaluate several group-robust optimization algorithms, initially proposed to mitigate group-level disparities. Reframing group-robust algorithms as adaptation algorithms under concept drift, we find that Invariant Risk Minimization and Spectral Decoupling outperform sampling-based approaches to class imbalance and concept drift, and lead to much better performance on minority classes. The effect is more pronounced the larger the label set.",
+  "keywords": [
+    "document classification",
+    "classifiers",
+    "disparities",
+    "we",
+    "training",
+    "classification",
+    "such document classifiers",
+    "multi-label classification",
+    "group-level disparities",
+    "several group-robust optimization algorithms",
+    "text",
+    "the underlying optimization algorithms",
+    "class",
+    "optimization",
+    "unknown future events"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.192/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.82",
+  "title": "Spelling Error Correction with Soft-Masked {BERT",
+  "authors": [
+    "Zhang, Shaohua  and\nHuang, Haoran  and\nLiu, Jicong  and\nLi, Hang"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Spelling error correction is an important yet challenging task because a satisfactory solution of it essentially needs human-level language understanding ability. Without loss of generality we consider Chinese spelling error correction (CSC) in this paper. A state-of-the-art method for the task selects a character from a list of candidates for correction (including non-correction) at each position of the sentence on the basis of BERT, the language representation model. The accuracy of the method can be sub-optimal, however, because BERT does not have sufficient capability to detect whether there is an error at each position, apparently due to the way of pre-training it using mask language modeling. In this work, we propose a novel neural architecture to address the aforementioned issue, which consists of a network for error detection and a network for error correction based on BERT, with the former being connected to the latter with what we call soft-masking technique. Our method of using ‘Soft-Masked BERT’ is general, and it may be employed in other language detection-correction problems. Experimental results on two datasets, including one large dataset which we create and plan to release, demonstrate that the performance of our proposed method is significantly better than the baselines including the one solely based on BERT.",
+  "keywords": [
+    "the accuracy",
+    "we",
+    "training",
+    "neural",
+    "it",
+    "generality",
+    "loss",
+    "sufficient",
+    "bert",
+    "-",
+    "sufficient capability",
+    "soft",
+    "accuracy",
+    "work",
+    "mask language modeling"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.82/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:43:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.repl4nlp-1.17",
+  "title": "MUX}-{PLM}s: Pre-training Language Models with Data Multiplexing",
+  "authors": [
+    "Murahari, Vishvak  and\nDeshpande, Ameet  and\nJimenez, Carlos  and\nShafran, Izhak  and\nWang, Mingqiu  and\nCao, Yuan  and\nNarasimhan, Karthik"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 8th Workshop on Representation Learning for NLP (RepL4NLP 2023)",
+  "abstract": "The widespread adoption of large language models such as ChatGPT and Bard has led to unprecedented demand for these technologies. The burgeoning cost of inference for ever-increasing model sizes coupled with hardware shortages has limited affordable access and poses a pressing need for efficiency approaches geared towards high throughput and performance. Multi-input multi-output (MIMO) algorithms such as data multiplexing, offer a promising solution with a many-fold increase in throughput by performing inference for multiple inputs at the cost of a single input. Yet these approaches are not currently performant enough to be deployed in modern systems. We change that by developing MUX-PLMs, a class of high throughput pre-trained language models (PLMs) trained with data multiplexing, that can be fine-tuned for any downstream task to yield high-throughput high-performance. Our novel multiplexing and demultiplexing modules proficiently entangle and disentangle inputs, and enable high-performance high throughput that are competitive with vanilla PLMs while achieving 2x/5x inference speedup with only a 1−4% drop on a broad suite of tasks.",
+  "keywords": [
+    "efficiency",
+    "we",
+    "training",
+    "these technologies",
+    "technologies",
+    "chatgpt",
+    "drop",
+    "language",
+    "efficiency approaches",
+    "model",
+    "class",
+    "large language models",
+    "pre",
+    "a pressing need",
+    "promising"
+  ],
+  "url": "https://aclanthology.org/2023.repl4nlp-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

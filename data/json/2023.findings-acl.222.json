@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.222",
+  "title": "Encoder and Decoder, Not One Less for Pre-trained Language Model Sponsored {NMT",
+  "authors": [
+    "Duan, Sufeng  and\nZhao, Hai"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Well pre-trained contextualized representations from pre-trained language model (PLM) have been shown helpful for enhancing various natural language processing tasks, surely including neural machine translation (NMT). However, existing methods either consider encoder-only enhancement or rely on specific multilingual PLMs, which leads to a much larger model or give up potentially helpful knowledge from target PLMs. In this paper, we propose a new monolingual PLM-sponsored NMT model to let both encoder and decoder enjoy PLM enhancement to alleviate such obvious inconvenience. Especially, incorporating a newly proposed frequency-weighted embedding transformation algorithm, PLM embeddings can be effectively exploited in terms of the representations of the NMT decoder. We evaluate our model on IWSLT14 En-De, De-En, WMT14 En-De, and En-Fr tasks, and the results show that our proposed PLM enhancement gives significant improvement and even helps achieve new state-of-the-art.",
+  "keywords": [
+    "embeddings",
+    "processing",
+    "knowledge",
+    "language",
+    "translation",
+    "neural",
+    "natural",
+    "such obvious inconvenience",
+    "model",
+    "machine",
+    "pre-trained language model plm",
+    "encoder",
+    "encoder-only enhancement",
+    "decoder",
+    "the nmt decoder"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.222/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

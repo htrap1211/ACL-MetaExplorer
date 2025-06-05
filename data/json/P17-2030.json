@@ -1,0 +1,33 @@
+{
+  "id": "P17-2030",
+  "title": "Error-repair Dependency Parsing for Ungrammatical Texts",
+  "authors": [
+    "Sakaguchi, Keisuke  and\nPost, Matt  and\nVan Durme, Benjamin"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "We propose a new dependency parsing scheme which jointly parses a sentence and repairs grammatical errors by extending the non-directional transition-based formalism of Goldberg and Elhadad (2010) with three additional actions: SUBSTITUTE, DELETE, INSERT. Because these actions may cause an infinite loop in derivation, we also introduce simple constraints that ensure the parser termination. We evaluate our model with respect to dependency accuracy and grammaticality improvements for ungrammatical sentences, demonstrating the robustness and applicability of our scheme.",
+  "keywords": [
+    "accuracy",
+    "model",
+    "dependency",
+    "we",
+    "that",
+    "ungrammatical sentences",
+    "grammaticality",
+    "transition",
+    "ungrammatical",
+    "new",
+    "error",
+    "improvements",
+    "errors",
+    "repairs",
+    "delete"
+  ],
+  "url": "https://aclanthology.org/P17-2030/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:02:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.306",
+  "title": "Question-Interlocutor Scope Realized Graph Modeling over Key Utterances for Dialogue Reading Comprehension",
+  "authors": [
+    "Li, Jiangnan  and\nYu, Mo  and\nMeng, Fandong  and\nLin, Zheng  and\nFu, Peng  and\nWang, Weiping  and\nZhou, Jie"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "We focus on dialogue reading comprehension (DRC) that extracts answers from dialogues. Compared to standard RC tasks, DRC has raised challenges because of the complex speaker information and noisy dialogue context. Essentially, the challenges come from the speaker-centric nature of dialogue utterances — an utterance is usually insufficient in its surface form, but requires to incorporate the role of its speaker and the dialogue context to fill the latent pragmatic and intention information. We propose to deal with these problems in two folds. First, we propose a new key-utterances-extracting method, which can realize more answer-contained utterances. Second, based on the extracted utterances, we then propose a Question-Interlocutor Scope Realized Graph (QuISG). QuISG involves the question and question-mentioning speaker as nodes. To realize interlocutor scopes, utterances are connected with corresponding speakers in the dialogue. Experiments on the benchmarks show that our method achieves state-of-the-art performance against previous works.",
+  "keywords": [
+    "the dialogue context",
+    "dialogue utterances",
+    "question",
+    "form",
+    "we",
+    "dialogue",
+    "dialogue reading comprehension drc",
+    "graph",
+    "the dialogue experiments",
+    "answer",
+    "information",
+    "latent",
+    "noisy dialogue context",
+    "insufficient",
+    "dialogues"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.306/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

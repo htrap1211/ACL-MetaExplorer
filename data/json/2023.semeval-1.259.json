@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.259",
+  "title": "Billy-Batson at {S}em{E}val-2023 Task 5: An Information Condensation based System for Clickbait Spoiling",
+  "authors": [
+    "Sharma, Anubhav  and\nJoshi, Sagar  and\nAbhishek, Tushar  and\nMamidi, Radhika  and\nVarma, Vasudeva"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "The Clickbait Challenge targets spoiling the clickbaits using short pieces of information known as spoilers to satisfy the curiosity induced by a clickbait post. The large context of the article associated with the clickbait and differences in the spoiler forms, make the task challenging. Hence, to tackle the large context, we propose an Information Condensation-based approach, which prunes down the unnecessary context. Given an article, our filtering module optimised with a contrastive learning objective first selects the parapraphs that are the most relevant to the corresponding clickbait.The resulting condensed article is then fed to the two downstream tasks of spoiler type classification and spoiler generation. We demonstrate and analyze the gains from this approach on both the tasks. Overall, we win the task of spoiler type classification and achieve competitive results on spoiler generation.",
+  "keywords": [
+    "generation",
+    "objective",
+    "spoiler type classification",
+    "information",
+    "pieces",
+    "spoiler generation",
+    "we",
+    "learning",
+    "short pieces",
+    "a contrastive learning objective",
+    "classification",
+    "that",
+    "clickbait",
+    "the corresponding clickbait",
+    "targets"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.259/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:30:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

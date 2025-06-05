@@ -1,0 +1,33 @@
+{
+  "id": "2023.repl4nlp-1.5",
+  "title": "Retrieval-Augmented Domain Adaptation of Language Models",
+  "authors": [
+    "Xu, Benfeng  and\nZhao, Chunxu  and\nJiang, Wenbin  and\nZhu, PengFei  and\nDai, Songtai  and\nPang, Chao  and\nSun, Zhuo  and\nWang, Shuohuan  and\nSun, Yu"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 8th Workshop on Representation Learning for NLP (RepL4NLP 2023)",
+  "abstract": "Language models pretrained on general domain corpora usually exhibit considerable degradation when generalizing to downstream tasks of specialized domains. Existing approaches try to construct PLMs for each specific domains either from scratch or through further pretraining, which not only costs substantial resources, but also fails to cover all target domains at various granularity. In this work, we propose RADA, a novel Retrieval-Augmented framework for Domain Adaptation. We first construct a textual corpora that covers the downstream task at flexible domain granularity and resource availability. We employ it as a pluggable datastore to retrieve informative background knowledge, and integrate them into the standard language model framework to augment representations. We then propose a two-level selection scheme to integrate the most relevant information while alleviating irrelevant noises. Specifically, we introduce a differentiable sampling module as well as an attention mechanism to achieve both passage-level and word-level selection. Such a retrieval-augmented framework enables domain adaptation of language models with flexible domain coverage and fine-grained domain knowledge integration. We conduct comprehensive experiments across biomedical, science and legal domains to demonstrate the effectiveness of the overall framework, and its advantage over existing solutions.",
+  "keywords": [
+    "biomedical science",
+    "we",
+    "an attention mechanism",
+    "a novel retrieval-augmented framework",
+    "it",
+    "retrieval-augmented domain adaptation",
+    "retrieval",
+    "information",
+    "science",
+    "general domain corpora",
+    "word",
+    "background",
+    "language models",
+    "language models language models",
+    "such a retrieval-augmented framework"
+  ],
+  "url": "https://aclanthology.org/2023.repl4nlp-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

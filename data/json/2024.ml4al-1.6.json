@@ -1,0 +1,33 @@
+{
+  "id": "2024.ml4al-1.6",
+  "title": "Long Unit Word Tokenization and Bunsetsu Segmentation of Historical {J}apanese",
+  "authors": [
+    "Ozaki, Hiroaki  and\nKomiya, Kanako  and\nAsahara, Masayuki  and\nOgiso, Toshinobu"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Machine Learning for Ancient Languages (ML4AL 2024)",
+  "abstract": "In Japanese, the natural minimal phrase of a sentence is the “bunsetsu” and it serves as a natural boundary of a sentence for native speakers rather than words, and thus grammatical analysis in Japanese linguistics commonly operates on the basis of bunsetsu units.In contrast, because Japanese does not have delimiters between words, there are two major categories of word definition, namely, Short Unit Words (SUWs) and Long Unit Words (LUWs).Though a SUW dictionary is available, LUW is not.Hence, this study focuses on providing deep learning-based (or LLM-based) bunsetsu and Long Unit Words analyzer for the Heian period (AD 794-1185) and evaluating its performances.We model the parser as transformer-based joint sequential labels model, which combine bunsetsu BI tag, LUW BI tag, and LUW Part-of-Speech (POS) tag for each SUW token.We train our models on corpora of each period including contemporary and historical Japanese.The results range from 0.976 to 0.996 in f1 value for both bunsetsu and LUW reconstruction indicating that our models achieve comparable performance with models for a contemporary Japanese corpus.Through the statistical analysis and diachronic case study, the estimation of bunsetsu could be influenced by the grammaticalization of morphemes.",
+  "keywords": [
+    "deep",
+    "f1 value",
+    "two major categories",
+    "we",
+    "ad",
+    "natural",
+    "it",
+    "tag",
+    "word",
+    "learning",
+    "analysis",
+    "tokenization",
+    "categories",
+    "pos",
+    "long unit word tokenization"
+  ],
+  "url": "https://aclanthology.org/2024.ml4al-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

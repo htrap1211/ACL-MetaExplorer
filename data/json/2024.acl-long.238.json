@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.238",
+  "title": "SAC}-{KG}: Exploiting Large Language Models as Skilled Automatic Constructors for Domain Knowledge Graph",
+  "authors": [
+    "Chen, Hanzhu  and\nShen, Xu  and\nLv, Qitan  and\nWang, Jie  and\nNi, Xiaoqi  and\nYe, Jieping"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Knowledge graphs (KGs) play a pivotal role in knowledge-intensive tasks across specialized domains, where the acquisition of precise and dependable knowledge is crucial. However, existing KG construction methods heavily rely on human intervention to attain qualified KGs, which severely hinders the practical applicability in real-world scenarios. To address this challenge, we propose a general KG construction framework, named **SAC-KG**, to exploit large language models (LLMs) as **S**killed **A**utomatic **C**onstructors for domain **K**nowledge **G**raph. SAC-KG effectively involves LLMs as domain experts to generate specialized and precise multi-level KGs. Specifically, SAC-KG consists of three components: Generator, Verifier, and Pruner. For a given entity, Generator produces its relations and tails from raw domain corpora, to construct a specialized single-level KG. Verifier and Pruner then work together to ensure precision by correcting generation errors and determining whether newly produced tails require further iteration for the next-level KG. Experiments demonstrate that SAC-KG automatically constructs a domain KG at the scale of over one million nodes and achieves a precision of 89.32%, leading to a superior performance with over 20% increase in precision rate compared to existing state-of-the-art methods for the KG construction task.",
+  "keywords": [
+    "precision",
+    "rate",
+    "verifier",
+    "pruner",
+    "we",
+    "graph",
+    "nowledge",
+    "g raph sac-kg",
+    "a precision",
+    "qualified",
+    "a domain kg",
+    "qualified kgs",
+    "precision rate",
+    "sac-kg",
+    "kgs"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.238/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:37:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

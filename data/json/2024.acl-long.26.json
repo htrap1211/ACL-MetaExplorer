@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.26",
+  "title": "TTM}-{RE}: Memory-Augmented Document-Level Relation Extraction",
+  "authors": [
+    "Gao, Chufan  and\nWang, Xuan  and\nSun, Jimeng"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Document-level relation extraction aims to categorize the association between any two entities within a document.We find that previous methods for document-level relation extraction are ineffective in exploiting the full potential of large amounts of training data with varied noise levels. For example, in the ReDocRED benchmark dataset, state-of-the-art methods trained on the large-scale, lower-quality, distantly supervised training data generally do not perform better than those trained solely on the smaller, high-quality, human-annotated training data. To unlock the full potential of large-scale noisy training data for document-level relation extraction, we propose TTM-RE, a novel approach that integrates a trainable memory module, known as the Token Turing Machine, with a noisy-robust loss function that accounts for the positive-unlabeled setting. The trainable memory module enhances knowledge extraction from the large-scale noisy training dataset through an explicit learning of the memory tokens and a soft integration of the learned memory tokens into the input representation, thereby improving the model’s effectiveness for the final relation classification. Extensive experiments on ReDocRED, a benchmark dataset for document-level relation extraction, reveal that TTM-RE achieves state-of-the-art performance (with an absolute F1 score improvement of over 3%). Ablation studies further illustrate the superiority of TTM-RE in other domains (the ChemDisGene dataset in the biomedical domain) and under highly unlabeled settings.",
+  "keywords": [
+    "varied",
+    "extraction",
+    "over 3 ablation studies",
+    "we",
+    "a noisy-robust loss function",
+    "training",
+    "classification",
+    "token",
+    "loss",
+    "learning",
+    "any two entities",
+    "soft",
+    "function",
+    "varied noise levels",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.26/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:34:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

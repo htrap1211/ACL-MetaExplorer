@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.73",
+  "title": "NUWA}-{XL}: Diffusion over Diffusion for e{X}tremely Long Video Generation",
+  "authors": [
+    "Yin, Shengming  and\nWu, Chenfei  and\nYang, Huan  and\nWang, Jianfeng  and\nWang, Xiaodong  and\nNi, Minheng  and\nYang, Zhengyuan  and\nLi, Linjie  and\nLiu, Shuguang  and\nYang, Fan  and\nFu, Jianlong  and\nGong, Ming  and\nWang, Lijuan  and\nLiu, Zicheng  and\nLi, Houqiang  and\nDuan, Nan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this paper, we propose NUWA-XL, a novel Diffusion over Diffusion architecture for eXtremely Long video generation. Most current work generates long videos segment by segment sequentially, which normally leads to the gap between training on short videos and inferring long videos, and the sequential generation is inefficient. Instead, our approach adopts a “coarse-to-fine” process, in which the video can be generated in parallel at the same granularity. A global diffusion model is applied to generate the keyframes across the entire time range, and then local diffusion models recursively fill in the content between nearby frames. This simple yet effective strategy allows us to directly train on long videos (3376 frames) to reduce the training-inference gap and makes it possible to generate all segments in parallel. To evaluate our model, we build FlintstonesHD dataset, a new benchmark for long video generation. Experiments show that our model not only generates high-quality long videos with both global and local coherence, but also decreases the average inference time from 7.55min to 26s (by 94.26%) at the same hardware setting when generating 1024 frames. The homepage link is [NUWA-XL](https://msra-nuwa.azurewebsites.net)",
+  "keywords": [
+    "inefficient",
+    "the sequential generation",
+    "we",
+    "current",
+    "training",
+    "long video generation experiments",
+    "net",
+    "it",
+    "fine",
+    "work",
+    "process",
+    "generation",
+    "model",
+    "extremely long video generation",
+    "us"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.73/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:36:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

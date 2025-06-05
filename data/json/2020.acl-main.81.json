@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.81",
+  "title": "S}pell{GCN}: Incorporating Phonological and Visual Similarities into Language Models for {C}hinese Spelling Check",
+  "authors": [
+    "Cheng, Xingyi  and\nXu, Weidi  and\nChen, Kunlong  and\nJiang, Shaohua  and\nWang, Feng  and\nWang, Taifeng  and\nChu, Wei  and\nQi, Yuan"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Chinese Spelling Check (CSC) is a task to detect and correct spelling errors in Chinese natural language. Existing methods have made attempts to incorporate the similarity knowledge between Chinese characters. However, they take the similarity knowledge as either an external input resource or just heuristic rules. This paper proposes to incorporate phonological and visual similarity knowledge into language models for CSC via a specialized graph convolutional network (SpellGCN). The model builds a graph over the characters, and SpellGCN is learned to map this graph into a set of inter-dependent character classifiers. These classifiers are applied to the representations extracted by another network, such as BERT, enabling the whole network to be end-to-end trainable. Experiments are conducted on three human-annotated datasets. Our method achieves superior performance against previous models by a large margin.",
+  "keywords": [
+    "these classifiers",
+    "similarities",
+    "knowledge",
+    "end",
+    "language",
+    "bert",
+    "natural",
+    "model",
+    "human",
+    "inter-dependent character classifiers",
+    "classifiers",
+    "language models",
+    "network",
+    "visual",
+    "graph"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.81/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:43:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

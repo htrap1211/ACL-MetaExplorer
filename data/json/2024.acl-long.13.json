@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.13",
+  "title": "Through the Lens of Split Vote: Exploring Disagreement, Difficulty and Calibration in Legal Case Outcome Classification",
+  "authors": [
+    "Xu, Shanshan  and\nT.y.s.s, Santosh  and\nIchim, Oana  and\nPlank, Barbara  and\nGrabmair, Matthias"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In legal decisions, split votes (SV) occur when judges cannot reach a unanimous decision, posing a difficulty for lawyers who must navigate diverse legal arguments and opinions. In high-stakes domains, %as human-AI interaction systems become increasingly important, understanding the alignment of perceived difficulty between humans and AI systems is crucial to build trust. However, existing NLP calibration methods focus on a classifier’s awareness of predictive performance, measured against the human majority class, overlooking inherent human label variation (HLV). This paper explores split votes as naturally observable human disagreement and value pluralism. We collect judges’ vote distributions from the European Court of Human Rights (ECHR), and present SV-ECHR, a case outcome classification (COC) dataset with SV information. We build a taxonomy of disagreement with SV-specific subcategories. We further assess the alignment of perceived difficulty between models and humans, as well as confidence- and human-calibration of COC models. We observe limited alignment with the judge vote distribution. To our knowledge, this is the first systematic exploration of calibration to human judgements in legal NLP. Our study underscores the necessity for further research on measuring and enhancing model calibration considering HLV in legal decision tasks.",
+  "keywords": [
+    "classifier",
+    "we",
+    "classification",
+    "sv-specific subcategories",
+    "classification coc dataset",
+    "a classifier s awareness",
+    "information",
+    "legal nlp",
+    "existing nlp calibration methods",
+    "limited alignment",
+    "alignment",
+    "knowledge",
+    "nlp",
+    "model",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:34:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

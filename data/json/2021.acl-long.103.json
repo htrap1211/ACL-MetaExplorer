@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.103",
+  "title": "Attention Calibration for Transformer in Neural Machine Translation",
+  "authors": [
+    "Lu, Yu  and\nZeng, Jiali  and\nZhang, Jiajun  and\nWu, Shuangzhi  and\nLi, Mu"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Attention mechanisms have achieved substantial improvements in neural machine translation by dynamically selecting relevant inputs for different predictions. However, recent studies have questioned the attention mechanisms’ capability for discovering decisive inputs. In this paper, we propose to calibrate the attention weights by introducing a mask perturbation model that automatically evaluates each input’s contribution to the model outputs. We increase the attention weights assigned to the indispensable tokens, whose removal leads to a dramatic performance decrease. The extensive experiments on the Transformer-based translation have demonstrated the effectiveness of our model. We further find that the calibrated attention weights are more uniform at lower layers to collect multiple information while more concentrated on the specific inputs at higher layers. Detailed analyses also show a great need for calibration in the attention weights with high entropy where the model is unconfident about its decision.",
+  "keywords": [
+    "neural machine translation",
+    "the calibrated attention weights",
+    "we",
+    "attention calibration",
+    "translation",
+    "neural",
+    "information",
+    "the transformer-based translation",
+    "recent studies",
+    "the attention mechanisms capability",
+    "transformer",
+    "model",
+    "machine",
+    "studies",
+    "attention"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.103/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:00:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

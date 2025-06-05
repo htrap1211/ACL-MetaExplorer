@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.44",
+  "title": "BIT}{'}s System for Multilingual Track",
+  "authors": [
+    "Wang, Zhipeng  and\nGuo, Yuhang  and\nChen, Shuoying"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "This paper describes the system we submitted to the IWSLT 2023 multilingual speech translation track, with input being English speech and output being text in 10 target languages. Our system consists of CNN and Transformer, convolutional neural networks downsample speech features and extract local information, while transformer extract global features and output the final results. In our system, we use speech recognition tasks to pre-train encoder parameters, and then use speech translation corpus to train the multilingual speech translation model. We have also adopted other methods to optimize the model, such as data augmentation, model ensemble, etc. Our system can obtain satisfactory results on test sets of 10 languages in the MUST-C corpus.",
+  "keywords": [
+    "ensemble",
+    "transformer",
+    "neural",
+    "cnn",
+    "model",
+    "text",
+    "data augmentation model ensemble",
+    "encoder",
+    "pre-train encoder parameters",
+    "information",
+    "train",
+    "we",
+    "speech translation corpus",
+    "pre",
+    "convolutional"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.44/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:25:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

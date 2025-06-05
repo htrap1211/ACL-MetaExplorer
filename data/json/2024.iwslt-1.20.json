@@ -1,0 +1,33 @@
+{
+  "id": "2024.iwslt-1.20",
+  "title": "CMU}{'}s {IWSLT} 2024 Simultaneous Speech Translation System",
+  "authors": [
+    "Xu, Xi  and\nOuyang, Siqi  and\nYan, Brian  and\nFernandes, Patrick  and\nChen, William  and\nLi, Lei  and\nNeubig, Graham  and\nWatanabe, Shinji"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 21st International Conference on Spoken Language Translation (IWSLT 2024)",
+  "abstract": "This paper describes CMU’s submission to the IWSLT 2024 Simultaneous Speech Translation (SST) task for translating English speech to German text in a streaming manner. Our end-to-end speech-to-text (ST) system integrates the WavLM speech encoder, a modality adapter, and the Llama2-7B-Base model as the decoder. We employ a two-stage training approach: initially, we align the representations of speech and text, followed by full fine-tuning. Both stages are trained on MuST-c v2 data with cross-entropy loss. We adapt our offline ST model for SST using a simple fixed hold-n policy. Experiments show that our model obtains an offline BLEU score of 31.1 and a BLEU score of 29.5 under 2 seconds latency on the MuST-C-v2 tst-COMMON.",
+  "keywords": [
+    "cross",
+    "tuning",
+    "end",
+    "a bleu score",
+    "the decoder",
+    "model",
+    "text",
+    "bleu",
+    "encoder",
+    "a streaming manner",
+    "decoder",
+    "loss",
+    "an offline bleu score",
+    "fine",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2024.iwslt-1.20/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:06:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

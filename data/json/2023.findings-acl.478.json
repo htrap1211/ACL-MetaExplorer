@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.478",
+  "title": "D}iffu{D}etox: A Mixed Diffusion Model for Text Detoxification",
+  "authors": [
+    "Floto, Griffin  and\nAbdollah Pour, Mohammad Mahdi  and\nFarinneya, Parsa  and\nTang, Zhenwei  and\nPesaranghader, Ali  and\nBharadwaj, Manasa  and\nSanner, Scott"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Text detoxification is a conditional text generation task aiming to remove offensive content from toxic text. It is highly useful for online forums and social media, where offensive content is frequently encountered. Intuitively, there are diverse ways to detoxify sentences while preserving their meanings, and we can select from detoxified sentences before displaying text to users. Conditional diffusion models are particularly suitable for this task given their demonstrated higher generative diversity than existing conditional text generation models based on language models. Nonetheless, text fluency declines when they are trained with insufficient data, which is the case for this task. In this work, we propose DiffuDetox, a mixed conditional and unconditional diffusion model for text detoxification. The conditional model takes toxic text as the condition and reduces its toxicity, yielding a diverse set of detoxified sentences. The unconditional model is trained to recover the input text, which allows the introduction of additional fluent text for training and thus ensures text fluency. Extensive experimental results and in-depth analysis demonstrate the effectiveness of our proposed DiffuDetox.",
+  "keywords": [
+    "detoxified sentences",
+    "we",
+    "training",
+    "it",
+    "analysis",
+    "generative",
+    "text",
+    "insufficient data",
+    "language models",
+    "insufficient",
+    "work",
+    "generation",
+    "language",
+    "model",
+    "detoxified"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.478/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.129",
+  "title": "Reducing Sensitivity on Speaker Names for Text Generation from Dialogues",
+  "authors": [
+    "Jia, Qi  and\nTang, Haifeng  and\nZhu, Kenny"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Changing speaker names consistently throughout a dialogue should not affect its meaning and corresponding outputs for text generation from dialogues. However, pre-trained language models, serving as the backbone for dialogue-processing tasks, have shown to be sensitive to nuances. This may result in unfairness in real-world applications. No comprehensive analysis of this problem has been done in the past. In this work, we propose to quantitatively measure a model’s sensitivity on speaker names, and comprehensively evaluate a number of known methods for reducing speaker name sensitivity, including a novel approach of our own. Extensive experiments on multiple datasets provide a benchmark for this problem and show the favorable performance of our approach in sensitivity reduction and quality of generation.",
+  "keywords": [
+    "work",
+    "processing",
+    "generation",
+    "language",
+    "pre-trained language models",
+    "model",
+    "dialogues",
+    "text",
+    "reduction",
+    "dialogue-processing tasks",
+    "a dialogue",
+    "we",
+    "dialogue",
+    "pre",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.129/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

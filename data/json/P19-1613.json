@@ -1,0 +1,33 @@
+{
+  "id": "P19-1613",
+  "title": "Multi-hop Reading Comprehension through Question Decomposition and Rescoring",
+  "authors": [
+    "Min, Sewon  and\nZhong, Victor  and\nZettlemoyer, Luke  and\nHajishirzi, Hannaneh"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Multi-hop Reading Comprehension (RC) requires reasoning and aggregation across several paragraphs. We propose a system for multi-hop RC that decomposes a compositional question into simpler sub-questions that can be answered by off-the-shelf single-hop RC models. Since annotations for such decomposition are expensive, we recast subquestion generation as a span prediction problem and show that our method, trained using only 400 labeled examples, generates sub-questions that are as effective as human-authored sub-questions. We also introduce a new global rescoring approach that considers each decomposition (i.e. the sub-questions and their answers) to select the best final answer, greatly improving overall performance. Our experiments on HotpotQA show that this approach achieves the state-of-the-art results, while providing explainable evidence for its decision making in the form of sub-questions.",
+  "keywords": [
+    "question",
+    "form",
+    "we",
+    "answer",
+    "hotpotqa",
+    "i",
+    "-",
+    "subquestion generation",
+    "generation",
+    "human",
+    "multi-hop reading comprehension",
+    "multi",
+    "approach",
+    "state",
+    "single"
+  ],
+  "url": "https://aclanthology.org/P19-1613/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:46:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

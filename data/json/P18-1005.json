@@ -1,0 +1,33 @@
+{
+  "id": "P18-1005",
+  "title": "Unsupervised Neural Machine Translation with Weight Sharing",
+  "authors": [
+    "Yang, Zhen  and\nChen, Wei  and\nWang, Feng  and\nXu, Bo"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Unsupervised neural machine translation (NMT) is a recently proposed approach for machine translation which aims to train the model without using any labeled data. The models proposed for unsupervised NMT often use only one shared encoder to map the pairs of sentences from different languages to a shared-latent space, which is weak in keeping the unique and internal characteristics of each language, such as the style, terminology, and sentence structure. To address this issue, we introduce an extension by utilizing two independent encoders but sharing some partial weights which are responsible for extracting high-level representations of the input sentences. Besides, two different generative adversarial networks (GANs), namely the local GAN and global GAN, are proposed to enhance the cross-language translation. With this new approach, we achieve significant improvements on English-German, English-French and Chinese-to-English translation tasks.",
+  "keywords": [
+    "machine translation",
+    "two independent encoders",
+    "we",
+    "translation",
+    "cross",
+    "neural",
+    "latent",
+    "generative",
+    "only one shared encoder",
+    "encoders",
+    "language",
+    "model",
+    "machine",
+    "the cross-language translation",
+    "encoder"
+  ],
+  "url": "https://aclanthology.org/P18-1005/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:09:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

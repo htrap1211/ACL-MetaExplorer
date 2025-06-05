@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.243",
+  "title": "CAME}: Confidence-guided Adaptive Memory Efficient Optimization",
+  "authors": [
+    "Luo, Yang  and\nRen, Xiaozhe  and\nZheng, Zangwei  and\nJiang, Zhuo  and\nJiang, Xin  and\nYou, Yang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Adaptive gradient methods, such as Adam and LAMB, have demonstrated excellent performance in the training of large language models. Nevertheless, the need for adaptivity requires maintaining second-moment estimates of the per-parameter gradients, which entails a high cost of extra memory overheads. To solve this problem, several memory-efficient optimizers (e.g., Adafactor) have been proposed to obtain a drastic reduction in auxiliary memory usage, but with a performance penalty. In this paper, we first study a confidence-guided strategy to reduce the instability of existing memory efficient optimizers. Based on this strategy, we propose CAME to simultaneously achieve two goals: fast convergence as in traditional adaptive methods, and low memory usage as in memory-efficient methods. Extensive experiments demonstrate the training stability and superior performance of CAME across various NLP tasks such as BERT and GPT-2 training. Notably, for BERT pre-training on the large batch size of 32,768, our proposed optimizer attains faster convergence and higher accuracy compared with the Adam optimizer. The implementation of CAME is publicly available.",
+  "keywords": [
+    "bert pre",
+    "extra",
+    "efficient",
+    "we",
+    "parameter",
+    "training",
+    "the adam optimizer",
+    "higher accuracy",
+    "batch",
+    "reduction",
+    "bert",
+    "-",
+    "adam",
+    "moment",
+    "memory-efficient methods extensive experiments"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.243/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:38:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

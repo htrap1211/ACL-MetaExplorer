@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.174",
+  "title": "S}eq2{P}ath: Generating Sentiment Tuples as Paths of a Tree",
+  "authors": [
+    "Mao, Yue  and\nShen, Yi  and\nYang, Jingchao  and\nZhu, Xiaoying  and\nCai, Longjun"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Aspect-based sentiment analysis (ABSA) tasks aim to extract sentiment tuples from a sentence. Recent generative methods such as Seq2Seq models have achieved good performance by formulating the output as a sequence of sentiment tuples. However, the orders between the sentiment tuples do not naturally exist and the generation of the current tuple should not condition on the previous ones. In this paper, we propose Seq2Path to generate sentiment tuples as paths of a tree. A tree can represent “1-to-n” relations (e.g., an aspect term may correspond to multiple opinion terms) and the paths of a tree are independent and do not have orders. For training, we treat each path as an independent target, and we calculate the average loss of the ordinary Seq2Seq model over paths. For inference, we apply beam search with constrained decoding. By introducing an additional discriminative token and applying a data augmentation technique, valid paths can be automatically selected. We conduct experiments on five tasks including AOPE, ASTE, TASD, UABSA, ACOS. We evaluate our method on four common benchmark datasets including Laptop14, Rest14, Rest15, Rest16. Our proposed method achieves state-of-the-art results in almost all cases.",
+  "keywords": [
+    "n",
+    "the generation",
+    "we",
+    "valid",
+    "current",
+    "training",
+    "the ordinary seq2seq model",
+    "loss",
+    "sequence",
+    "analysis",
+    "generative",
+    "seq2seq",
+    "s",
+    "eq2",
+    "sentiment"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.174/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

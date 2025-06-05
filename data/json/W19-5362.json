@@ -1,0 +1,33 @@
+{
+  "id": "W19-5362",
+  "title": "NICT}{'}s Supervised Neural Machine Translation Systems for the {WMT}19 Translation Robustness Task",
+  "authors": [
+    "Dabre, Raj  and\nSumita, Eiichiro"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1)",
+  "abstract": "In this paper we describe our neural machine translation (NMT) systems for Japanese↔English translation which we submitted to the translation robustness task. We focused on leveraging transfer learning via fine tuning to improve translation quality. We used a fairly well established domain adaptation technique called Mixed Fine Tuning (MFT) (Chu et. al., 2017) to improve translation quality for Japanese↔English. We also trained bi-directional NMT models instead of uni-directional ones as the former are known to be quite robust, especially in low-resource scenarios. However, given the noisy nature of the in-domain training data, the improvements we obtained are rather modest.",
+  "keywords": [
+    "tuning",
+    "japanese english translation",
+    "neural",
+    "s",
+    "uni",
+    "machine",
+    "translation quality",
+    "fine",
+    "we",
+    "transfer",
+    "the translation robustness task",
+    "training",
+    "translation",
+    "supervised",
+    "uni-directional ones"
+  ],
+  "url": "https://aclanthology.org/W19-5362/",
+  "provenance": {
+    "collected_at": "2025-06-05 02:08:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

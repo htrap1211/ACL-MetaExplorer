@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.78",
+  "title": "BPE} vs. Morphological Segmentation: A Case Study on Machine Translation of Four Polysynthetic Languages",
+  "authors": [
+    "Mager, Manuel  and\nOncevay, Arturo  and\nMager, Elisabeth  and\nKann, Katharina  and\nVu, Thang"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Morphologically-rich polysynthetic languages present a challenge for NLP systems due to data sparsity, and a common strategy to handle this issue is to apply subword segmentation. We investigate a wide variety of supervised and unsupervised morphological segmentation methods for four polysynthetic languages: Nahuatl, Raramuri, Shipibo-Konibo, and Wixarika. Then, we compare the morphologically inspired segmentation methods against Byte-Pair Encodings (BPEs) as inputs for machine translation (MT) when translating to and from Spanish. We show that for all language pairs except for Nahuatl, an unsupervised morphological segmentation algorithm outperforms BPEs consistently and that, although supervised methods achieve better segmentation scores, they under-perform in MT challenges. Finally, we contribute two new morphological segmentation datasets for Raramuri and Shipibo-Konibo, and a parallel corpus for Raramuri–Spanish.",
+  "keywords": [
+    "variety",
+    "language",
+    "nlp",
+    "machine",
+    "machine translation",
+    "rich",
+    "we",
+    "nlp systems",
+    "a wide variety",
+    "translation",
+    "this issue",
+    "shipibo-konibo",
+    "strategy",
+    "supervised",
+    "new"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.78/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

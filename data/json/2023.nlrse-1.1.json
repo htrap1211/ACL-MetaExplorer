@@ -1,0 +1,33 @@
+{
+  "id": "2023.nlrse-1.1",
+  "title": "Knowledge Graph-augmented Language Models for Complex Question Answering",
+  "authors": [
+    "Sen, Priyanka  and\nMavadia, Sandeep  and\nSaffari, Amir"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 1st Workshop on Natural Language Reasoning and Structured Explanations (NLRSE)",
+  "abstract": "Large language models have shown impressive abilities to reason over input text, however, they are prone to hallucinations. On the other hand, end-to-end knowledge graph question answering (KGQA) models output responses grounded in facts, but they still struggle with complex reasoning, such as comparison or ordinal questions. In this paper, we propose a new method for complex question answering where we combine a knowledge graph retriever based on an end-to-end KGQA model with a language model that reasons over the retrieved facts to return an answer. We observe that augmenting language model prompts with retrieved KG facts improves performance over using a language model alone by an average of 83%. In particular, we see improvements on complex questions requiring count, intersection, or multi-hop reasoning operations.",
+  "keywords": [
+    "abilities",
+    "prompts",
+    "kgqa models output responses",
+    "knowledge graph-augmented language models",
+    "knowledge",
+    "end",
+    "language model prompts",
+    "language",
+    "kgqa",
+    "answer",
+    "model",
+    "the retrieved facts",
+    "text",
+    "retrieved kg facts",
+    "large language models"
+  ],
+  "url": "https://aclanthology.org/2023.nlrse-1.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

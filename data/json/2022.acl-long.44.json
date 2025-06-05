@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.44",
+  "title": "Improving Meta-learning for Low-resource Text Classification and Generation via Memory Imitation",
+  "authors": [
+    "Zhao, Yingxiu  and\nTian, Zhiliang  and\nYao, Huaxiu  and\nZheng, Yinhe  and\nLee, Dongkyu  and\nSong, Yiping  and\nSun, Jian  and\nZhang, Nevin"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Building models of natural language processing (NLP) is challenging in low-resource scenarios where limited data are available. Optimization-based meta-learning algorithms achieve promising results in low-resource scenarios by adapting a well-generalized model initialization to handle new tasks. Nonetheless, these approaches suffer from the memorization overfitting issue, where the model tends to memorize the meta-training tasks while ignoring support sets when adapting to new tasks. To address this issue, we propose a memory imitation meta-learning (MemIML) method that enhances the model’s reliance on support sets for task adaptation. Specifically, we introduce a task-specific memory module to store support set information and construct an imitation module to force query sets to imitate the behaviors of support sets stored in the memory. A theoretical analysis is provided to prove the effectiveness of our method, and empirical results also demonstrate that our method outperforms competitive baselines on both text classification and generation tasks.",
+  "keywords": [
+    "support",
+    "available optimization-based meta-learning algorithms",
+    "we",
+    "training",
+    "classification",
+    "natural language processing nlp",
+    "natural",
+    "information",
+    "learning",
+    "analysis",
+    "processing",
+    "low-resource text classification",
+    "a well-generalized model initialization",
+    "text",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.44/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:24:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

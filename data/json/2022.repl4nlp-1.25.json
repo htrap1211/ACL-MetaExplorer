@@ -1,0 +1,33 @@
+{
+  "id": "2022.repl4nlp-1.25",
+  "title": "Zero-shot Cross-lingual Transfer is Under-specified Optimization",
+  "authors": [
+    "Wu, Shijie  and\nVan Durme, Benjamin  and\nDredze, Mark"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 7th Workshop on Representation Learning for NLP",
+  "abstract": "Pretrained multilingual encoders enable zero-shot cross-lingual transfer, but often produce unreliable models that exhibit high performance variance on the target language. We postulate that this high variance results from zero-shot cross-lingual transfer solving an under-specified optimization problem. We show that any linear-interpolated model between the source language monolingual model and source + target bilingual model has equally low source language generalization error, yet the target language generalization error reduces smoothly and linearly as we move from the monolingual to bilingual model, suggesting that the model struggles to identify good solutions for both source and target languages using the source language alone. Additionally, we show that zero-shot solution lies in non-flat region of target language error generalization surface, causing the high variance.",
+  "keywords": [
+    "cross",
+    "high performance variance",
+    "language",
+    "under-specified optimization",
+    "model",
+    "zero-shot cross-lingual transfer",
+    "multilingual encoders",
+    "this high variance results",
+    "generalization",
+    "optimization",
+    "we",
+    "transfer",
+    "an under-specified optimization problem",
+    "zero-shot solution",
+    "encoders"
+  ],
+  "url": "https://aclanthology.org/2022.repl4nlp-1.25/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:45:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

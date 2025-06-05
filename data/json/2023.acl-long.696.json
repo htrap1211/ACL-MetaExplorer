@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.696",
+  "title": "Improving Domain Generalization for Prompt-Aware Essay Scoring via Disentangled Representation Learning",
+  "authors": [
+    "Jiang, Zhiwei  and\nGao, Tianyi  and\nYin, Yafeng  and\nLiu, Meng  and\nYu, Hua  and\nCheng, Zifeng  and\nGu, Qing"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Automated Essay Scoring (AES) aims to score essays written in response to specific prompts. Many AES models have been proposed, but most of them are either prompt-specific or prompt-adaptive and cannot generalize well on “unseen” prompts. This work focuses on improving the generalization ability of AES models from the perspective of domain generalization, where the data of target prompts cannot be accessed during training. Specifically, we propose a prompt-aware neural AES model to extract comprehensive representation for essay scoring, including both prompt-invariant and prompt-specific features. To improve the generalization of representation, we further propose a novel disentangled representation learning framework. In this framework, a contrastive norm-angular alignment strategy and a counterfactual self-training strategy are designed to disentangle the prompt-invariant information and prompt-specific information in representation. Extensive experimental results on datasets of both ASAP and TOEFL11 demonstrate the effectiveness of our method under the domain generalization setting.",
+  "keywords": [
+    "work",
+    "domain generalization",
+    "prompt-aware essay scoring",
+    "prompts",
+    "specific prompts",
+    "the generalization ability",
+    "prompt",
+    "prompt-specific or prompt-adaptive",
+    "neural",
+    "the domain generalization setting",
+    "model",
+    "prompt-specific information",
+    "the generalization",
+    "self",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.696/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:45:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

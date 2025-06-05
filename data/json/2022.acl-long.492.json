@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.492",
+  "title": "Signal in Noise: Exploring Meaning Encoded in Random Character Sequences with Character-Aware Language Models",
+  "authors": [
+    "Chu, Mark  and\nSrinivasa Desikan, Bhargav  and\nNadler, Ethan  and\nLo Sardo, Donald Ruggiero  and\nDarragh-Ford, Elise  and\nGuilbeault, Douglas"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Natural language processing models learn word representations based on the distributional hypothesis, which asserts that word context (e.g., co-occurrence) correlates with meaning. We propose that n-grams composed of random character sequences, or garble, provide a novel context for studying word meaning both within and beyond extant language. In particular, randomly generated character n-grams lack meaning but contain primitive information based on the distribution of characters they contain. By studying the embeddings of a large corpus of garble, extant language, and pseudowords using CharacterBERT, we identify an axis in the model’s high-dimensional embedding space that separates these classes of n-grams. Furthermore, we show that this axis relates to structure within extant language, including word part-of-speech, morphology, and concept concreteness. Thus, in contrast to studies that are mainly limited to extant language, our work reveals that meaning and primitive information are intrinsically linked.",
+  "keywords": [
+    "embeddings",
+    "e g",
+    "work",
+    "the embeddings",
+    "processing",
+    "random",
+    "language",
+    "natural",
+    "co",
+    "model",
+    "studies",
+    "characterbert",
+    "-",
+    "information",
+    "dimensional"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.492/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:30:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

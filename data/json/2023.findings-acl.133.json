@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.133",
+  "title": "Pay More Attention to Relation Exploration for Knowledge Base Question Answering",
+  "authors": [
+    "Cao, Yong  and\nLi, Xianzhi  and\nLiu, Huiwen  and\nDai, Wen  and\nChen, Shuai  and\nWang, Bin  and\nChen, Min  and\nHershcovich, Daniel"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Knowledge base question answering (KBQA) is a challenging task that aims to retrieve correct answers from large-scale knowledge bases. Existing attempts primarily focus on entity representation and final answer reasoning, which results in limited supervision for this task. Moreover, the relations, which empirically determine the reasoning path selection, are not fully considered in recent advancements. In this study, we propose a novel framework, RE-KBQA, that utilizes relations in the knowledge base to enhance entity representation and introduce additional supervision. We explore guidance from relations in three aspects, including (1) distinguishing similar entities by employing a variational graph auto-encoder to learn relation importance; (2) exploring extra supervision by predicting relation distributions as soft labels with a multi-task scheme; (3) designing a relation-guided re-ranking algorithm for post-processing. Experimental results on two benchmark datasets demonstrate the effectiveness and superiority of our framework, improving the F1 score by 5.8% from 40.5 to 46.3 on CWQ and 5.7% from 62.8 to 68.5 on WebQSP, better or on par with state-of-the-art methods.",
+  "keywords": [
+    "extra",
+    "question",
+    "we",
+    "graph",
+    "kbqa",
+    "answer",
+    "similar entities",
+    "more attention",
+    "processing",
+    "the f1 score",
+    "par",
+    "-",
+    "soft",
+    "re",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.133/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

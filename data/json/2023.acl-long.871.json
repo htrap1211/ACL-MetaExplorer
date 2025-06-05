@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.871",
+  "title": "H}yper{M}ixer: An {MLP}-based Low Cost Alternative to Transformers",
+  "authors": [
+    "Mai, Florian  and\nPannatier, Arnaud  and\nFehr, Fabio  and\nChen, Haolin  and\nMarelli, Francois  and\nFleuret, Francois  and\nHenderson, James"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Transformer-based architectures are the model of choice for natural language understanding, but they come at a significant cost, as they have quadratic complexity in the input length, require a lot of training data, and can be difficult to tune. In the pursuit of lower costs, we investigate simple MLP-based architectures. We find that existing architectures such as MLPMixer, which achieves token mixing through a static MLP applied to each feature independently, are too detached from the inductive biases required for natural language understanding. In this paper, we propose a simple variant, HyperMixer, which forms the token mixing MLP dynamically using hypernetworks. Empirically, we demonstrate that our model performs better than alternative MLP-based models, and on par with Transformers. In contrast to Transformers, HyperMixer achieves these results at substantially lower costs in terms of processing time, training data, and hyperparameter tuning.",
+  "keywords": [
+    "transformers",
+    "we",
+    "training",
+    "natural",
+    "token",
+    "yper",
+    "tuning",
+    "processing",
+    "par",
+    "hyperparameter tuning",
+    "biases",
+    "transformer",
+    "language",
+    "model",
+    "the inductive biases"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.871/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:47:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.338",
+  "title": "An Interpretable Neuro-Symbolic Reasoning Framework for Task-Oriented Dialogue Generation",
+  "authors": [
+    "Yang, Shiquan  and\nZhang, Rui  and\nErfani, Sarah  and\nLau, Jey Han"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We study the interpretability issue of task-oriented dialogue systems in this paper. Previously, most neural-based task-oriented dialogue systems employ an implicit reasoning strategy that makes the model predictions uninterpretable to humans. To obtain a transparent reasoning process, we introduce neuro-symbolic to perform explicit reasoning that justifies model decisions by reasoning chains. Since deriving reasoning chains requires multi-hop reasoning for task-oriented dialogues, existing neuro-symbolic approaches would induce error propagation due to the one-phase design. To overcome this, we propose a two-phase approach that consists of a hypothesis generator and a reasoner. We first obtain multiple hypotheses, i.e., potential operations to perform the desired task, through the hypothesis generator. Each hypothesis is then verified by the reasoner, and the valid one is selected to conduct the final prediction. The whole system is trained by exploiting raw textual dialogues without using any reasoning chain annotations. Experimental studies on two public benchmark datasets demonstrate that the proposed approach not only achieves better results, but also introduces an interpretable decision process.",
+  "keywords": [
+    "chain",
+    "we",
+    "valid",
+    "dialogue",
+    "experimental studies",
+    "the hypothesis generator",
+    "a reasoner",
+    "task-oriented dialogues",
+    "i",
+    "raw textual dialogues",
+    "reasoner",
+    "process",
+    "generation",
+    "the reasoner",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.338/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:28:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

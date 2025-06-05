@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.360",
+  "title": "G}rounding{GPT}: Language Enhanced Multi-modal Grounding Model",
+  "authors": [
+    "Li, Zhaowei  and\nXu, Qi  and\nZhang, Dong  and\nSong, Hang  and\nCai, YiQing  and\nQi, Qi  and\nZhou, Ran  and\nPan, Junting  and\nLi, Zefeng  and\nTu, Vu  and\nHuang, Zhida  and\nWang, Tao"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Multi-modal large language models (MLLMs) have demonstrated remarkable performance across various tasks. However, these models often prioritize capturing global information and overlook the importance of perceiving local information. This limitation hinders their ability to effectively understand fine-grained details and handle grounding tasks that necessitate nuanced comprehension. Although some recent works have made strides in this, they have primarily focused on single-modality inputs. Therefore, we proposeGroundingGPT, an end-to-end language enhanced multi-modal grounding model. It is designed to perform fine-grained grounding tasks for three modalities: image, video and audio. To enhance the model’s performance, we adopt a coarse-to-fine training strategy, utilizing a three-stage training approach to progressively enhance the model’s semantic awareness and fine-grained understanding capabilities. Additionally, we employ a diversified stage-specific dataset construction pipeline, developing a multi-modal, multi-granularity dataset tailored for training the model in different stages. Extensive experiments conducted on multiple multi-modal benchmarks demonstrate that our model achieves impressive fine-grained understanding of multi-modal inputs on grounding tasks while maintaining or improving its global comprehension capabilities. Our code, model, and dataset are available at https://github.com/lzw-lzw/GroundingGPT.",
+  "keywords": [
+    "code",
+    "end",
+    "semantic",
+    "groundinggpt",
+    "we",
+    "training",
+    "it",
+    "information",
+    "three modalities image video",
+    "fine",
+    "diversified",
+    "mllms",
+    "fine-grained understanding capabilities",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.360/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

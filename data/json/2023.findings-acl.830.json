@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.830",
+  "title": "A Memory Model for Question Answering from Streaming Data Supported by Rehearsal and Anticipation of Coreference Information",
+  "authors": [
+    "Araujo, Vladimir  and\nSoto, Alvaro  and\nMoens, Marie-Francine"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Existing question answering methods often assume that the input content (e.g., documents or videos) is always accessible to solve the task. Alternatively, memory networks were introduced to mimic the human process of incremental comprehension and compression of the information in a fixed-capacity memory. However, these models only learn how to maintain memory by backpropagating errors in the answers through the entire network. Instead, it has been suggested that humans have effective mechanisms to boost their memorization capacities, such as rehearsal and anticipation. Drawing inspiration from these, we propose a memory model that performs rehearsal and anticipation while processing inputs to memorize important information for solving question answering tasks from streaming data. The proposed mechanisms are applied self-supervised during training through masked modeling tasks focused on coreference information. We validate our model on a short-sequence (bAbI) dataset as well as large-sequence textual (NarrativeQA) and video (ActivityNet-QA) question answering datasets, where it achieves substantial improvements over previous memory network approaches. Furthermore, our ablation study confirms the proposed mechanisms’ importance for memory models.",
+  "keywords": [
+    "coreference information",
+    "question",
+    "we",
+    "training",
+    "it",
+    "self",
+    "information",
+    "sequence",
+    "capacities",
+    "coreference",
+    "process",
+    "model",
+    "human",
+    "their memorization capacities",
+    "modeling"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.830/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

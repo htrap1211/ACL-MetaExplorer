@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.326",
+  "title": "Honey, {I} Shrunk the Language: Language Model Behavior at Reduced Scale.",
+  "authors": [
+    "Deshpande, Vijeta  and\nPechi, Dan  and\nThatte, Shree  and\nLialin, Vladislav  and\nRumshisky, Anna"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "In recent years, language models have drastically grown in size, and the abilities of these models have been shown to improve with scale. The majority of recent scaling laws studies focused on high-compute high-parameter count settings, leaving the question of when these abilities begin to emerge largely unanswered. In this paper, we investigate whether the effects of pre-training can be observed when the problem size is reduced, modeling a smaller, reduced-vocabulary language. We show the benefits of pre-training with masked language modeling (MLM) objective in models as small as 1.25M parameters, and establish a strong correlation between pre-training perplexity and downstream performance (GLUE benchmark). We examine downscaling effects, extending scaling laws to models as small as ~1M parameters. At this scale, we observe a break of the power law for compute-optimal models and show that the MLM loss does not scale smoothly with compute-cost (FLOPs) below2.2 × 1015FLOPs. We also find that adding layers does not always benefit downstream performance.Our filtered pre-training data, reduced English vocabulary, and code are available athttps://github.com/text-machine-lab/mini_bertgithub.com/text-machine-lab/mini_bert",
+  "keywords": [
+    "code",
+    "question",
+    "mini_bertgithub",
+    "we",
+    "pre-training",
+    "parameter",
+    "training",
+    "loss",
+    "pre-training perplexity",
+    "these abilities",
+    "abilities",
+    "recent scaling laws studies",
+    "i",
+    "text",
+    "objective"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.326/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.nlp4convai-1.7",
+  "title": "Chamain: Harmonizing Character Persona Integrity with Domain-Adaptive Knowledge in Dialogue Generation",
+  "authors": [
+    "Yang, Seung-Moo  and\nLee, Jeehyun  and\nCho, Won Ik"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 6th Workshop on NLP for Conversational AI (NLP4ConvAI 2024)",
+  "abstract": "Recent advances in large language models (LLMs) have shown their capacity for generating natural dialogues, leveraging extensive pre-trained knowledge. However, the seamless integration of domain-specific knowledge into dialogue agents, without undermining their personas or unique textual style, remains a challenging task. Traditional approaches, such as constructing knowledge-aware character dialogue datasets or training LLMs from the ground up, require considerable resources. Sequentially fine-tuning character chatbots across multiple datasets or applying existing merging techniques often leads to catastrophic forgetting, resulting in the loss of both knowledge and the character’s distinct persona. This compromises the model’s ability to consistently generate character-driven dialogues within a user-centric framework. In this context, we introduce a novel model merging method, Chamain, which effortlessly enhances the performance of character models, much like finding a “free lunch”. Chamain merges domain-specific knowledge into a character model by parameter-wise weight combination of instruction-tuned models and learns to reflect persona’s unique characteristics and style through Layer-wise merging. Our experiments demonstrate that Chamain effectively maintains style while also solving domain-specific problems to a certain extent compared to the baselines, even showing a higher style probability compared to the character model in legal QA.",
+  "keywords": [
+    "layer",
+    "we",
+    "dialogue",
+    "sequentially fine-tuning character chatbots",
+    "parameter",
+    "training",
+    "instruction",
+    "character-driven dialogues",
+    "natural",
+    "natural dialogues",
+    "dialogue generation",
+    "loss",
+    "dialogue agents",
+    "llms",
+    "chatbots"
+  ],
+  "url": "https://aclanthology.org/2024.nlp4convai-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

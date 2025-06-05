@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.797",
+  "title": "Focus-aware Response Generation in Inquiry Conversation",
+  "authors": [
+    "Wu, Yiquan  and\nLu, Weiming  and\nZhang, Yating  and\nJatowt, Adam  and\nFeng, Jun  and\nSun, Changlong  and\nWu, Fei  and\nKuang, Kun"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Inquiry conversation is a common form of conversation that aims to complete the investigation (e.g., court hearing, medical consultation and police interrogation) during which a series of focus shifts occurs. While many models have been proposed to generate a smooth response to a given conversation history, neglecting the focus can limit performance in inquiry conversation where the order of the focuses plays there a key role. In this paper, we investigate the problem of response generation in inquiry conversation by taking the focus into consideration. We propose a novel Focus-aware Response Generation (FRG) method by jointly optimizing a multi-level encoder and a set of focal decoders to generate several candidate responses that correspond to different focuses. Additionally, a focus ranking module is proposed to predict the next focus and rank the candidate responses. Experiments on two orthogonal inquiry conversation datasets (judicial, medical domain) demonstrate that our method generates results significantly better in automatic metrics and human evaluation compared to the state-of-the-art approaches.",
+  "keywords": [
+    "a given conversation history",
+    "series",
+    "form",
+    "inquiry conversation inquiry conversation",
+    "we",
+    "a multi-level encoder",
+    "two orthogonal inquiry conversation",
+    "human evaluation",
+    "decoders",
+    "metrics",
+    "focal decoders",
+    "response generation",
+    "a series",
+    "focus-aware response generation",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.797/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

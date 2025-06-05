@@ -1,0 +1,33 @@
+{
+  "id": "2021.ecnlp-1.7",
+  "title": "A Semi-supervised Multi-task Learning Approach to Classify Customer Contact Intents",
+  "authors": [
+    "Dong, Li  and\nSpencer, Matthew C.  and\nBiagi, Amir"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 4th Workshop on e-Commerce and NLP",
+  "abstract": "In the area of customer support, understanding customers’ intents is a crucial step. Machine learning plays a vital role in this type of intent classification. In reality, it is typical to collect confirmation from customer support representatives (CSRs) regarding the intent prediction, though it can unnecessarily incur prohibitive cost to ask CSRs to assign existing or new intents to the mis-classified cases. Apart from the confirmed cases with and without intent labels, there can be a number of cases with no human curation. This data composition (Positives + Unlabeled + multiclass Negatives) creates unique challenges for model development. In response to that, we propose a semi-supervised multi-task learning paradigm. In this manuscript, we share our experience in building text-based intent classification models for a customer support service on an E-commerce website. We improve the performance significantly by evolving the model from multiclass classification to semi-supervised multi-task learning by leveraging the negative cases, domain- and task-adaptively pretrained ALBERT on customer contact texts, and a number of un-curated data with no labels. In the evaluation, the final model boosts the average AUC ROC by almost 20 points compared to the baseline finetuned multiclass classification ALBERT model.",
+  "keywords": [
+    "support",
+    "the mis-classified cases",
+    "we",
+    "classification",
+    "text-based intent classification models",
+    "it",
+    "albert",
+    "learning",
+    "intent classification",
+    "multiclass classification albert model",
+    "text",
+    "experience",
+    "our experience",
+    "un",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2021.ecnlp-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.wit-1.3",
+  "title": "Bi-Directional Recurrent Neural Ordinary Differential Equations for Social Media Text Classification",
+  "authors": [
+    "Tamire, Maunika  and\nAnumasa, Srinivas  and\nSrijith, P. K."
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 2nd Workshop on Deriving Insights from User-Generated Text",
+  "abstract": "Classification of posts in social media such as Twitter is difficult due to the noisy and short nature of texts. Sequence classification models based on recurrent neural networks (RNN) are popular for classifying posts that are sequential in nature. RNNs assume the hidden representation dynamics to evolve in a discrete manner and do not consider the exact time of the posting. In this work, we propose to use recurrent neural ordinary differential equations (RNODE) for social media post classification which consider the time of posting and allow the computation of hidden representation to evolve in a time-sensitive continuous manner. In addition, we propose a novel model, Bi-directional RNODE (Bi-RNODE), which can consider the information flow in both the forward and backward directions of posting times to predict the post label. Our experiments demonstrate that RNODE and Bi-RNODE are effective for the problem of stance classification of rumours in social media.",
+  "keywords": [
+    "work",
+    "texts sequence classification models",
+    "neural",
+    "model",
+    "text",
+    "rnns",
+    "-",
+    "nature rnns",
+    "stance classification",
+    "a discrete manner",
+    "information",
+    "we",
+    "sequence",
+    "social media post classification",
+    "recurrent"
+  ],
+  "url": "https://aclanthology.org/2022.wit-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:46:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

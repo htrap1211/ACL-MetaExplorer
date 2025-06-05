@@ -1,0 +1,33 @@
+{
+  "id": "P18-1220",
+  "title": "Multi-Input Attention for Unsupervised {OCR} Correction",
+  "authors": [
+    "Dong, Rui  and\nSmith, David"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We propose a novel approach to OCR post-correction that exploits repeated texts in large corpora both as a source of noisy target outputs for unsupervised training and as a source of evidence when decoding. A sequence-to-sequence model with attention is applied for single-input correction, and a new decoder with multi-input attention averaging is developed to search for consensus among multiple sequences. We design two ways of training the correction model without human annotation, either training to match noisily observed textual variants or bootstrapping from a uniform error model. On two corpora of historical newspapers and books, we show that these unsupervised techniques cut the character and word error rates nearly in half on single inputs and, with the addition of multi-input decoding, can rival supervised methods.",
+  "keywords": [
+    "multi-input attention",
+    "we",
+    "training",
+    "multi-input attention averaging",
+    "decoder",
+    "word",
+    "sequence",
+    "a new decoder",
+    "-",
+    "model",
+    "human",
+    "attention",
+    "the addition",
+    "multi",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/P18-1220/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:15:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

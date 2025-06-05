@@ -1,0 +1,33 @@
+{
+  "id": "W19-3620",
+  "title": "Non-Monotonic Sequential Text Generation",
+  "authors": [
+    "Brantley, Kiante  and\nCho, Kyunghyun  and\nDaum{\\'e}, Hal  and\nWelleck, Sean"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 2019 Workshop on Widening NLP",
+  "abstract": "Standard sequential generation methods assume a pre-specified generation order, such as text generation methods which generate words from left to right. In this work, we propose a framework for training models of text generation that operate in non-monotonic orders; the model directly learns good orders, without any additional annotation. Our framework operates by generating a word at an arbitrary position, and then recursively generating words to its left and then words to its right, yielding a binary tree. Learning is framed as imitation learning, including a coaching method which moves from imitating an oracle to reinforcing the policy’s own preferences. Experimental results demonstrate that using the proposed method, it is possible to learn policies which generate text without pre-specifying a generation order while achieving competitive performance with conventional left-to-right generation.",
+  "keywords": [
+    "work",
+    "specified",
+    "a generation order",
+    "generation",
+    "model",
+    "text",
+    "it",
+    "policies",
+    "text generation methods",
+    "a pre-specified generation order",
+    "word",
+    "we",
+    "learning",
+    "pre",
+    "text generation"
+  ],
+  "url": "https://aclanthology.org/W19-3620/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:21:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

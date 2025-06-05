@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.200",
+  "title": "Identifying {C}hinese Opinion Expressions with Extremely-Noisy Crowdsourcing Annotations",
+  "authors": [
+    "Zhang, Xin  and\nXu, Guangwei  and\nSun, Yueheng  and\nZhang, Meishan  and\nWang, Xiaobin  and\nZhang, Min"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent works of opinion expression identification (OEI) rely heavily on the quality and scale of the manually-constructed training corpus, which could be extremely difficult to satisfy. Crowdsourcing is one practical solution for this problem, aiming to create a large-scale but quality-unguaranteed corpus. In this work, we investigate Chinese OEI with extremely-noisy crowdsourcing annotations, constructing a dataset at a very low cost. Following Zhang el al. (2021), we train the annotator-adapter model by regarding all annotations as gold-standard in terms of crowd annotators, and test the model by using a synthetic expert, which is a mixture of all annotators. As this annotator-mixture for testing is never modeled explicitly in the training phase, we propose to generate synthetic training samples by a pertinent mixup strategy to make the training and testing highly consistent. The simulation experiments on our constructed dataset show that crowdsourcing is highly promising for OEI, and our proposed annotator-mixup can further enhance the crowdsourcing modeling.",
+  "keywords": [
+    "we",
+    "training",
+    "work",
+    "model",
+    "modeling",
+    "crowd annotators",
+    "promising",
+    "the quality",
+    "expression",
+    "c hinese opinion expressions",
+    "extremely-noisy crowdsourcing annotations",
+    "low",
+    "annotator",
+    "corpus",
+    "recent"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.200/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:27:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

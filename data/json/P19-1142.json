@@ -1,0 +1,33 @@
+{
+  "id": "P19-1142",
+  "title": "Improved Language Modeling by Decoding the Past",
+  "authors": [
+    "Brahma, Siddhartha"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Highly regularized LSTMs achieve impressive results on several benchmark datasets in language modeling. We propose a new regularization method based on decoding the last token in the context using the predicted distribution of the next token. This biases the model towards retaining more contextual information, in turn improving its ability to predict the next token. With negligible overhead in the number of parameters and training time, our Past Decode Regularization (PDR) method improves perplexity on the Penn Treebank dataset by up to 1.8 points and by up to 2.3 points on the WikiText-2 dataset, over strong regularized baselines using a single softmax. With a mixture-of-softmax model, we show gains of up to 1.0 perplexity points on these datasets. In addition, our method achieves 1.169 bits-per-character on the Penn Treebank Character dataset for character level language modeling.",
+  "keywords": [
+    "a new regularization method",
+    "language",
+    "model",
+    "token",
+    "perplexity",
+    "modeling",
+    "decode",
+    "lstms",
+    "regularization",
+    "information",
+    "we",
+    "time",
+    "softmax",
+    "a single softmax",
+    "language modeling"
+  ],
+  "url": "https://aclanthology.org/P19-1142/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:33:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

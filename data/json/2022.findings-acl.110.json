@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.110",
+  "title": "A Novel Framework Based on Medical Concept Driven Attention for Explainable Medical Code Prediction via External Knowledge",
+  "authors": [
+    "Wang, Tao  and\nZhang, Linhai  and\nYe, Chenchen  and\nLiu, Junxi  and\nZhou, Deyu"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Medical code prediction from clinical notes aims at automatically associating medical codes with the clinical notes. Rare code problem, the medical codes with low occurrences, is prominent in medical code prediction. Recent studies employ deep neural networks and the external knowledge to tackle it. However, such approaches lack interpretability which is a vital issue in medical application. Moreover, due to the lengthy and noisy clinical notes, such approaches fail to achieve satisfactory results. Therefore, in this paper, we propose a novel framework based on medical concept driven attention to incorporate external knowledge for explainable medical code prediction. In specific, both the clinical notes and Wikipedia documents are aligned into topic space to extract medical concepts using topic modeling. Then, the medical concept-driven attention mechanism is applied to uncover the medical code related concepts which provide explanations for medical code prediction. Experimental results on the benchmark dataset show the superiority of the proposed framework over several state-of-the-art baselines.",
+  "keywords": [
+    "deep",
+    "code",
+    "topic modeling",
+    "deep neural networks",
+    "we",
+    "neural",
+    "it",
+    "topic",
+    "recent studies",
+    "knowledge",
+    "studies",
+    "modeling",
+    "attention",
+    "wikipedia documents",
+    "documents"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.110/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

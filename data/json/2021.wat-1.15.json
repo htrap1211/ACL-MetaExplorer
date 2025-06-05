@@ -1,0 +1,33 @@
+{
+  "id": "2021.wat-1.15",
+  "title": "Bering Lab{'}s Submissions on {WAT} 2021 Shared Task",
+  "authors": [
+    "Park, Heesoo  and\nLee, Dongjun"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 8th Workshop on Asian Translation (WAT2021)",
+  "abstract": "This paper presents the Bering Lab’s submission to the shared tasks of the 8th Workshop on Asian Translation (WAT 2021) on JPC2 and NICT-SAP. We participated in all tasks on JPC2 and IT domain tasks on NICT-SAP. Our approach for all tasks mainly focused on building NMT systems in domain-specific corpora. We crawled patent document pairs for English-Japanese, Chinese-Japanese, and Korean-Japanese. After cleaning noisy data, we built parallel corpus by aligning those sentences with the sentence-level similarity scores. Also, for SAP test data, we collected the OPUS dataset including three IT domain corpora. We then trained transformer on the collected dataset. Our submission ranked 1st in eight out of fourteen tasks, achieving up to an improvement of 2.87 for JPC2 and 8.79 for NICT-SAP in BLEU score .",
+  "keywords": [
+    "transformer",
+    "translation",
+    "it",
+    "bleu",
+    "we",
+    "bleu score",
+    "asian translation",
+    "approach",
+    "similarity",
+    "sap",
+    "task",
+    "noisy data",
+    "nict-sap",
+    "specific",
+    "data"
+  ],
+  "url": "https://aclanthology.org/2021.wat-1.15/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

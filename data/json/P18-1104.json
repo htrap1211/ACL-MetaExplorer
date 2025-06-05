@@ -1,0 +1,33 @@
+{
+  "id": "P18-1104",
+  "title": "M}oji{T}alk: Generating Emotional Responses at Scale",
+  "authors": [
+    "Zhou, Xianda  and\nWang, William Yang"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Generating emotional language is a key step towards building empathetic natural language processing agents. However, a major challenge for this line of research is the lack of large-scale labeled training data, and previous studies are limited to only small sets of human annotated sentiment labels. Additionally, explicitly controlling the emotion and sentiment of generated text is also difficult. In this paper, we take a more radical approach: we exploit the idea of leveraging Twitter data that are naturally labeled with emojis. We collect a large corpus of Twitter conversations that include emojis in the response and assume the emojis convey the underlying emotions of the sentence. We investigate several conditional variational autoencoders training on these conversations, which allow us to use emojis to control the emotion of the generated text. Experimentally, we show in our quantitative and qualitative analyses that the proposed models can successfully generate high-quality abstractive conversation responses in accordance with designated emotions.",
+  "keywords": [
+    "conversations",
+    "we",
+    "these conversations",
+    "training",
+    "autoencoders",
+    "the generated text",
+    "natural",
+    "twitter conversations",
+    "generated text",
+    "high-quality abstractive conversation responses",
+    "processing",
+    "previous studies",
+    "text",
+    "sentiment",
+    "generating"
+  ],
+  "url": "https://aclanthology.org/P18-1104/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:11:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

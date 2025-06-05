@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.281",
+  "title": "L}a{P}ra{D}o{R}: Unsupervised Pretrained Dense Retriever for Zero-Shot Text Retrieval",
+  "authors": [
+    "Xu, Canwen  and\nGuo, Daya  and\nDuan, Nan  and\nMcAuley, Julian"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "In this paper, we propose LaPraDoR, a pretrained dual-tower dense retriever that does not require any supervised data for training. Specifically, we first present Iterative Contrastive Learning (ICoL) that iteratively trains the query and document encoders with a cache mechanism. ICoL not only enlarges the number of negative instances but also keeps representations of cached examples in the same hidden space. We then propose Lexicon-Enhanced Dense Retrieval (LEDR) as a simple yet effective way to enhance dense retrieval with lexical matching. We evaluate LaPraDoR on the recently proposed BEIR benchmark, including 18 datasets of 9 zero-shot text retrieval tasks. Experimental results show that LaPraDoR achieves state-of-the-art performance compared with supervised dense retrieval models, and further analysis reveals the effectiveness of our training strategy and objectives. Compared to re-ranking, our lexicon-enhanced approach can be run in milliseconds (22.5x faster) while achieving superior performance.",
+  "keywords": [
+    "zero-shot text retrieval",
+    "lexicon-enhanced dense retrieval",
+    "objectives",
+    "text",
+    "supervised dense retrieval models",
+    "retrieval",
+    "we",
+    "learning",
+    "dense retrieval",
+    "encoders",
+    "retriever",
+    "shot",
+    "analysis",
+    "training",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.281/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

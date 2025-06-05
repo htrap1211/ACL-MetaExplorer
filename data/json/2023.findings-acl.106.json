@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.106",
+  "title": "Gradient-Boosted Decision Tree for Listwise Context Model in Multimodal Review Helpfulness Prediction",
+  "authors": [
+    "Nguyen, Thong  and\nWu, Xiaobao  and\nDong, Xinshuai  and\nNguyen, Cong-Duy  and\nHai, Zhen  and\nBing, Lidong  and\nLuu, Anh Tuan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Multimodal Review Helpfulness Prediction (MRHP) aims to rank product reviews based on predicted helpfulness scores and has been widely applied in e-commerce via presenting customers with useful reviews. Previous studies commonly employ fully-connected neural networks (FCNNs) as the final score predictor and pairwise loss as the training objective. However, FCNNs have been shown to perform inefficient splitting for review features, making the model difficult to clearly differentiate helpful from unhelpful reviews. Furthermore, pairwise objective, which works on review pairs, may not completely capture the MRHP goal to produce the ranking for the entire review list, and possibly induces low generalization during testing. To address these issues, we propose a listwise attention network that clearly captures the MRHP ranking context and a listwise optimization objective that enhances model generalization. We further propose gradient-boosted decision tree as the score predictor to efficaciously partition product reviews’ representations. Extensive experiments demonstrate that our method achieves state-of-the-art results and polished generalization performance on two large-scale MRHP benchmark datasets.",
+  "keywords": [
+    "inefficient",
+    "useful reviews",
+    "the training objective",
+    "model generalization",
+    "we",
+    "inefficient splitting",
+    "training",
+    "neural",
+    "fully-connected neural networks fcnns",
+    "loss",
+    "e",
+    "product reviews",
+    "reviews",
+    "a listwise optimization objective",
+    "previous studies"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.106/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.157",
+  "title": "Diffusion Theory as a Scalpel: Detecting and Purifying Poisonous Dimensions in Pre-trained Language Models Caused by Backdoor or Bias",
+  "authors": [
+    "Zhang, Zhiyuan  and\nChen, Deli  and\nZhou, Hao  and\nMeng, Fandong  and\nZhou, Jie  and\nSun, Xu"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Pre-trained Language Models (PLMs) may be poisonous with backdoors or bias injected by the suspicious attacker during the fine-tuning process. A core challenge of purifying potentially poisonous PLMs is precisely finding poisonous dimensions. To settle this issue, we propose the Fine-purifying approach, which utilizes the diffusion theory to study the dynamic process of fine-tuning for finding potentially poisonous dimensions. According to the relationship between parameter drifts and Hessians of different dimensions, we can detect poisonous dimensions with abnormal dynamics, purify them by resetting them to clean pre-trained weights, and then fine-tune the purified weights on a small clean dataset. To the best of our knowledge, we are the first to study the dynamics guided by the diffusion theory for safety or defense purposes. Experimental results validate the effectiveness of Fine-purifying even with a small clean dataset.",
+  "keywords": [
+    "tuning",
+    "process",
+    "bias",
+    "knowledge",
+    "language",
+    "pre-trained language models",
+    "the fine-tuning process",
+    "the purified weights",
+    "fine",
+    "we",
+    "pre",
+    "core",
+    "parameter",
+    "fine-tuning",
+    "this issue"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.157/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

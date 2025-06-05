@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.222",
+  "title": "Cutting Down on Prompts and Parameters: Simple Few-Shot Learning with Language Models",
+  "authors": [
+    "Logan IV, Robert  and\nBalazevic, Ivana  and\nWallace, Eric  and\nPetroni, Fabio  and\nSingh, Sameer  and\nRiedel, Sebastian"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Prompting language models (LMs) with training examples and task descriptions has been seen as critical to recent successes in few-shot learning. In this work, we show that finetuning LMs in the few-shot setting can considerably reduce the need for prompt engineering. In fact, one can use null prompts, prompts that contain neither task-specific templates nor training examples, and achieve competitive accuracy to manually-tuned prompts across a wide range of tasks. While finetuning LMs does introduce new parameters for each downstream task, we show that this memory overhead can be substantially reduced: finetuning only the bias terms can achieve comparable or better accuracy than standard finetuning while only updating 0.1% of the parameters. All in all, we recommend finetuning LMs for few-shot learning as it is more accurate, robust to different prompts, and can be made nearly as efficient as using frozen LMs.",
+  "keywords": [
+    "work",
+    "prompts",
+    "the few-shot setting",
+    "competitive accuracy",
+    "different prompts",
+    "bias",
+    "prompt",
+    "language",
+    "manually-tuned prompts",
+    "it",
+    "efficient",
+    "few-shot learning",
+    "language models",
+    "null prompts prompts",
+    "prompt engineering"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.222/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

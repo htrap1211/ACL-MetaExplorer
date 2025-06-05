@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.858",
+  "title": "Exploring the Effectiveness of Prompt Engineering for Legal Reasoning Tasks",
+  "authors": [
+    "Yu, Fangyi  and\nQuartey, Lee  and\nSchilder, Frank"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "The use of large language models (LLMs) for zero- or few-shot prompting in natural language processing has given rise to a new research area known as prompt engineering. Recent studies have demonstrated that Chain-of-Thought (CoT) prompts can lead to significant improvements in tasks such as arithmetic and common-sense reasoning. This paper explores the use of such approaches in legal reasoning tasks by conducting experiments on the COLIEE entailment task, which is based on the Japanese Bar exam. We evaluate zero-shot/few-shot and fine-tuning approaches with and without explanations, as well as various prompting strategies. Our results indicate that while CoT prompting and fine-tuning with explanations can improve performance, the best results are achieved with prompts derived from specific legal reasoning techniques, such as IRAC (Issue, Rule, Application, Conclusion). In addition, we observe that few-shot learning where the demonstrations are derived from clustering past training data consistently yields high performance on the COLIEE entailment task for both the years of the data that we tested. Through our experiments, we improve the previous best result on the 2021 COLIEE task from 0.7037 to 0.8025 and surpass the best system from 2022 with an accuracy of 0.789.",
+  "keywords": [
+    "chain",
+    "we",
+    "the 2021 coliee task",
+    "shot",
+    "training",
+    "natural",
+    "cot",
+    "learning",
+    "natural language processing",
+    "tuning",
+    "processing",
+    "prompt",
+    "strategies",
+    "an accuracy",
+    "fine"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.858/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P19-1623",
+  "title": "Reducing Word Omission Errors in Neural Machine Translation: A Contrastive Learning Approach",
+  "authors": [
+    "Yang, Zonghan  and\nCheng, Yong  and\nLiu, Yang  and\nSun, Maosong"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "While neural machine translation (NMT) has achieved remarkable success, NMT systems are prone to make word omission errors. In this work, we propose a contrastive learning approach to reducing word omission errors in NMT. The basic idea is to enable the NMT model to assign a higher probability to a ground-truth translation and a lower probability to an erroneous translation, which is automatically constructed from the ground-truth translation by omitting words. We design different types of negative examples depending on the number of omitted words, word frequency, and part of speech. Experiments on Chinese-to-English, German-to-English, and Russian-to-English translation tasks show that our approach is effective in reducing word omission errors and achieves better translation performance than three baseline methods.",
+  "keywords": [
+    "work",
+    "neural",
+    "an erroneous translation",
+    "a ground-truth translation",
+    "machine",
+    "model",
+    "neural machine translation",
+    "better translation performance",
+    "the ground-truth translation",
+    "word",
+    "we",
+    "learning",
+    "neural machine translation nmt",
+    "translation",
+    "speech"
+  ],
+  "url": "https://aclanthology.org/P19-1623/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:46:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

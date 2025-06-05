@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.107",
+  "title": "Extract and Attend: Improving Entity Translation in Neural Machine Translation",
+  "authors": [
+    "Zeng, Zixin  and\nWang, Rui  and\nLeng, Yichong  and\nGuo, Junliang  and\nXie, Shufang  and\nTan, Xu  and\nQin, Tao  and\nLiu, Tie-Yan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "While Neural Machine Translation (NMT) has achieved great progress in recent years, it still suffers from inaccurate translation of entities (e.g., person/organization name, location), due to the lack of entity training instances. When we humans encounter an unknown entity during translation, we usually first look up in a dictionary and then organize the entity translation together with the translations of other parts to form a smooth target sentence. Inspired by this translation process, we propose an Extract-and-Attend approach to enhance entity translation in NMT, where the translation candidates of source entities are first extracted from a dictionary and then attended to by the NMT model to generate the target sentence. Specifically, the translation candidates are extracted by first detecting the entities in a source sentence and then translating the entities through looking up in a dictionary. Then, the extracted candidates are added as a prefix of the decoder input to be attended to by the decoder when generating the target sentence through self-attention. Experiments conducted on En-Zh and En-Ru demonstrate that the proposed method is effective on improving both the translation accuracy of entities and the overall translation quality, with up to 35% reduction on entity error rate and 0.85 gain on BLEU and 13.8 gain on COMET.",
+  "keywords": [
+    "the decoder",
+    "rate",
+    "neural machine translation",
+    "bleu",
+    "inaccurate translation",
+    "we",
+    "training",
+    "translation",
+    "the entities",
+    "neural",
+    "it",
+    "the entity translation",
+    "self",
+    "decoder",
+    "location"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.107/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P17-1098",
+  "title": "Diversity driven attention model for query-based abstractive summarization",
+  "authors": [
+    "Nema, Preksha  and\nKhapra, Mitesh M.  and\nLaha, Anirban  and\nRavindran, Balaraman"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Abstractive summarization aims to generate a shorter version of the document covering all the salient points in a compact and coherent fashion. On the other hand, query-based summarization highlights those points that are relevant in the context of a given query. The encode-attend-decode paradigm has achieved notable success in machine translation, extractive summarization, dialog systems, etc. But it suffers from the drawback of generation of repeated phrases. In this work we propose a model for the query-based summarization task based on the encode-attend-decode paradigm with two key additions (i) a query attention model (in addition to document attention model) which learns to focus on different portions of the query at different time steps (instead of using a static representation for the query) and (ii) a new diversity based attention model which aims to alleviate the problem of repeating phrases in the summary. In order to enable the testing of this model we introduce a new query-based summarization dataset building on debatepedia. Our experiments show that with these two additions the proposed model clearly outperforms vanilla encode-attend-decode models with a gain of 28% (absolute) in ROUGE-L scores.",
+  "keywords": [
+    "all the salient points",
+    "encode",
+    "decode",
+    "summarization",
+    "we",
+    "translation",
+    "it",
+    "document attention model",
+    "i",
+    "rouge",
+    "attention model",
+    "based attention model",
+    "rouge-l scores",
+    "work",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/P17-1098/",
+  "provenance": {
+    "collected_at": "2025-06-04 23:59:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

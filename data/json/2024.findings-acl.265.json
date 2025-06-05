@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.265",
+  "title": "Evaluating the Elementary Multilingual Capabilities of Large Language Models with {M}ulti{Q",
+  "authors": [
+    "Holtermann, Carolin  and\nR{\\\"o}ttger, Paul  and\nDill, Timm  and\nLauscher, Anne"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large language models (LLMs) need to serve everyone, including a global majority of non-English speakers. However, most LLMs today, and open LLMs in particular, are often intended for use in just English (e.g. Llama2, Mistral) or a small handful of high-resource languages (e.g. Mixtral, Qwen). Recent research shows that, despite limits in their intended use, people prompt LLMs in many different languages.Therefore, in this paper, we investigate the basic multilingual capabilities of state-of-the-art open LLMs beyond their intended use.For this purpose, we introduce MultiQ, a new silver standard benchmark for basic open-ended question answering with 27.4k test questions across a typologically diverse set of 137 languages. With MultiQ, we evaluate language fidelity, i.e. whether models respond in the prompted language, and question answering accuracy. All LLMs we test respond faithfully and/or accurately for at least some languages beyond their intended use. Most models are more accurate when they respond faithfully. However, differences across models are large, and there is a long tail of languages where models are neither accurate nor faithful. We explore differences in tokenization as a potential explanation for our findings, identifying possible correlations that warrant further investigation.",
+  "keywords": [
+    "all llms",
+    "question",
+    "we",
+    "the prompted language",
+    "llms",
+    "i",
+    "answering accuracy",
+    "tokenization",
+    "the elementary multilingual capabilities",
+    "however most llms",
+    "accuracy",
+    "language",
+    "the basic multilingual capabilities",
+    "large language models",
+    "capabilities"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.265/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

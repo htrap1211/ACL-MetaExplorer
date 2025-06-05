@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.78",
+  "title": "Sartipi-Sedighin at {S}em{E}val-2023 Task 2: Fine-grained Named Entity Recognition with Pre-trained Contextual Language Models and Data Augmentation from {W}ikipedia",
+  "authors": [
+    "Sartipi, Amir  and\nSedighin, Amirreza  and\nFatemi, Afsaneh  and\nBaradaran Kashani, Hamidreza"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper presents the system developed by the Sartipi-Sedighin team for SemEval 2023 Task 2, which is a shared task focused on multilingual complex named entity recognition (NER), or MultiCoNER II. The goal of this task is to identify and classify complex named entities (NEs) in text across multiple languages. To tackle the MultiCoNER II task, we leveraged pre-trained language models (PLMs) fine-tuned for each language included in the dataset. In addition, we also applied a data augmentation technique to increase the amount of training data available to our models. Specifically, we searched for relevant NEs that already existed in the training data within Wikipedia, and we added new instances of these entities to our training corpus. Our team achieved an overall F1 score of 61.25% in the English track and 71.79% in the multilingual track across all 13 tracks of the shared task that we submitted to.",
+  "keywords": [
+    "multiconer",
+    "an overall f1 score",
+    "we",
+    "multiconer ii",
+    "training",
+    "these entities",
+    "ner",
+    "text",
+    "pre-trained contextual language models",
+    "language",
+    "entities",
+    "the multiconer ii task",
+    "pre",
+    "entity",
+    "complex named entities nes"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.78/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:27:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

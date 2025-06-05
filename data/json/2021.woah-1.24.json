@@ -1,0 +1,33 @@
+{
+  "id": "2021.woah-1.24",
+  "title": "Multimodal or Text? Retrieval or {BERT}? Benchmarking Classifiers for the Shared Task on Hateful Memes",
+  "authors": [
+    "Kougia, Vasiliki  and\nPavlopoulos, John"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 5th Workshop on Online Abuse and Harms (WOAH 2021)",
+  "abstract": "The Shared Task on Hateful Memes is a challenge that aims at the detection of hateful content in memes by inviting the implementation of systems that understand memes, potentially by combining image and textual information. The challenge consists of three detection tasks: hate, protected category and attack type. The first is a binary classification task, while the other two are multi-label classification tasks. Our participation included a text-based BERT baseline (TxtBERT), the same but adding information from the image (ImgBERT), and neural retrieval approaches. We also experimented with retrieval augmented classification models. We found that an ensemble of TxtBERT and ImgBERT achieves the best performance in terms of ROC AUC score in two out of the three tasks on our development set.",
+  "keywords": [
+    "ensemble",
+    "neural retrieval approaches",
+    "neural",
+    "bert",
+    "text",
+    "txtbert",
+    "the image imgbert",
+    "imgbert",
+    "classifiers",
+    "retrieval",
+    "multi-label classification tasks",
+    "information",
+    "auc",
+    "we",
+    "roc auc score"
+  ],
+  "url": "https://aclanthology.org/2021.woah-1.24/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:24:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

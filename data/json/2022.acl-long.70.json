@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.70",
+  "title": "Learning Disentangled Semantic Representations for Zero-Shot Cross-Lingual Transfer in Multilingual Machine Reading Comprehension",
+  "authors": [
+    "Wu, Linjuan  and\nWu, Shaojuan  and\nZhang, Xiaowang  and\nXiong, Deyi  and\nChen, Shizhan  and\nZhuang, Zhiqiang  and\nFeng, Zhiyong"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Multilingual pre-trained models are able to zero-shot transfer knowledge from rich-resource to low-resource languages in machine reading comprehension (MRC). However, inherent linguistic discrepancies in different languages could make answer spans predicted by zero-shot transfer violate syntactic constraints of the target language. In this paper, we propose a novel multilingual MRC framework equipped with a Siamese Semantic Disentanglement Model (S2DM) to disassociate semantics from syntax in representations learned by multilingual pre-trained models. To explicitly transfer only semantic knowledge to the target language, we propose two groups of losses tailored for semantic and syntactic encoding and disentanglement. Experimental results on three multilingual MRC datasets (i.e., XQuAD, MLQA, and TyDi QA) demonstrate the effectiveness of our proposed approach over models based on mBERT and XLM-100.",
+  "keywords": [
+    "semantic representations",
+    "cross",
+    "only semantic knowledge",
+    "knowledge",
+    "mbert",
+    "mlqa",
+    "i",
+    "answer",
+    "language",
+    "model",
+    "machine",
+    "semantics",
+    "zero-shot cross-lingual transfer",
+    "qa",
+    "semantic and syntactic encoding"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.70/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

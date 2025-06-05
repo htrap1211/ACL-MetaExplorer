@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.544",
+  "title": "The {R}-{U}-A-Robot Dataset: Helping Avoid Chatbot Deception by Detecting User Questions About Human or Non-Human Identity",
+  "authors": [
+    "Gros, David  and\nLi, Yu  and\nYu, Zhou"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Humans are increasingly interacting with machines through language, sometimes in contexts where the user may not know they are talking to a machine (like over the phone or a text chatbot). We aim to understand how system designers and researchers might allow their systems to confirm its non-human identity. We collect over 2,500 phrasings related to the intent of “Are you a robot?”. This is paired with over 2,500 adversarially selected utterances where only confirming the system is non-human would be insufficient or disfluent. We compare classifiers to recognize the intent and discuss the precision/recall and model complexity tradeoffs. Such classifiers could be integrated into dialog systems to avoid undesired deception. We then explore how both a generative research model (Blender) as well as two deployed systems (Amazon Alexa, Google Assistant) handle this intent, finding that systems often fail to confirm their non-human identity. Finally, we try to understand what a good response to the intent would be, and conduct a user study to compare the important aspects when responding to this intent.",
+  "keywords": [
+    "generative",
+    "recall",
+    "chatbot",
+    "precision",
+    "language",
+    "model",
+    "machine",
+    "text",
+    "human",
+    "chatbot deception",
+    "classifiers",
+    "the precision recall",
+    "dialog",
+    "system designers",
+    "a text chatbot"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.544/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.488",
+  "title": "D}u{NST}: Dual Noisy Self Training for Semi-Supervised Controllable Text Generation",
+  "authors": [
+    "Feng, Yuxi  and\nYi, Xiaoyuan  and\nWang, Xiting  and\nLakshmanan, V.S., Laks  and\nXie, Xing"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Self-training (ST) has prospered again in language understanding by augmenting the fine-tuning of big pre-trained models when labeled data is insufficient. However, it remains challenging to incorporate ST into attribute-controllable language generation. Augmented only by self-generated pseudo text, generation modelsover-exploitthe previously learned text space andfail to explorea larger one, suffering from a restricted generalization boundary and limited controllability. In this work, we propose DuNST, a novel ST framework to tackle these problems. DuNST jointly models text generation and classification as a dual process and further perturbs and escapes from the collapsed space by adding two kinds of flexible noise. In this way, our model could construct and utilize both pseudo text generated from given labels and pseudo labels predicted from available unlabeled text, which are gradually refined during the ST phase. We theoretically demonstrate that DuNST can be regarded as enhancing the exploration of the potentially larger real text space while maintaining exploitation, guaranteeing improved performance. Experiments on three controllable generation tasks show that DuNST significantly boosts control accuracy with comparable generation fluency and diversity against several strong baselines.",
+  "keywords": [
+    "comparable generation fluency",
+    "a restricted generalization boundary",
+    "we",
+    "attribute-controllable language generation",
+    "text generation",
+    "training",
+    "classification",
+    "it",
+    "self",
+    "u",
+    "st",
+    "tuning",
+    "text",
+    "generalization",
+    "fine"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.488/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:42:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.471",
+  "title": "AD}-{KD}: Attribution-Driven Knowledge Distillation for Language Model Compression",
+  "authors": [
+    "Wu, Siyue  and\nChen, Hongzhan  and\nQuan, Xiaojun  and\nWang, Qifan  and\nWang, Rui"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Knowledge distillation has attracted a great deal of interest recently to compress large language models. However, existing knowledge distillation methods suffer from two limitations. First, the student model simply imitates the teacher’s behavior while ignoring the reasoning behind it. Second, these methods usually focus on the transfer of sophisticated model-specific knowledge but overlook data-specific knowledge. In this paper, we present a novel attribution-driven knowledge distillation approach, which explores the token-level rationale behind the teacher model based on Integrated Gradients (IG) and transfers attribution knowledge to the student model. To enhance the knowledge transfer of model reasoning and generalization, we further explore multi-view attribution distillation on all potential decisions of the teacher. Comprehensive experiments are conducted with BERT on the GLUE benchmark. The experimental results demonstrate the superior performance of our approach to several state-of-the-art methods.",
+  "keywords": [
+    "knowledge",
+    "language",
+    "multi-view attribution distillation",
+    "bert",
+    "model",
+    "gradients",
+    "it",
+    "large language models",
+    "integrated gradients",
+    "token",
+    "view",
+    "generalization",
+    "we",
+    "transfer",
+    "model reasoning"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.471/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:41:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

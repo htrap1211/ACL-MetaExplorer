@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.381",
+  "title": "Pulling Out All The Full Stops: Punctuation Sensitivity in Neural Machine Translation and Evaluation",
+  "authors": [
+    "Jwalapuram, Prathyusha"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Much of the work testing machine translation systems for robustness and sensitivity has been adversarial or tended towards testing noisy input such as spelling errors, or non-standard input such as dialects. In this work, we take a step back to investigate a sensitivity problem that can seem trivial and is often overlooked: punctuation. We perform basic sentence-final insertion and deletion perturbation tests with full stops, exclamation and questions marks across source languages and demonstrate a concerning finding: commercial, production-level machine translation systems are vulnerable to mere single punctuation insertion or deletion, resulting in unreliable translations. Moreover, we demonstrate that both string-based and model-based evaluation metrics also suffer from this vulnerability, producing significantly different scores when translations only differ in a single punctuation, with model-based metrics penalizing each punctuation differently. Our work calls into question the reliability of machine translation systems and their evaluation metrics, particularly for real-world use cases, where inconsistent punctuation is often the most common and the least disruptive noise.",
+  "keywords": [
+    "neural machine translation",
+    "question",
+    "we",
+    "translation",
+    "neural",
+    "machine translation systems",
+    "vulnerable",
+    "model-based metrics",
+    "this vulnerability",
+    "metrics",
+    "translations",
+    "vulnerability",
+    "work",
+    "unreliable translations",
+    "their evaluation metrics"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.381/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

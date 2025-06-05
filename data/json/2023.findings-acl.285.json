@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.285",
+  "title": "A Two-Stage Decoder for Efficient {ICD} Coding",
+  "authors": [
+    "Nguyen, Thanh-Tung  and\nSchlegel, Viktor  and\nRamesh Kashyap, Abhinav  and\nWinkler, Stefan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Clinical notes in healthcare facilities are tagged with the International Classification of Diseases (ICD) code; a list of classification codes for medical diagnoses and procedures. ICD coding is a challenging multilabel text classification problem due to noisy clinical document inputs and long-tailed label distribution. Recent automated ICD coding efforts improve performance by encoding medical notes and codes with additional data and knowledge bases. However, most of them do not reflect how human coders generate the code: first, the coders select general code categories and then look for specific subcategories that are relevant to a patient’s condition. Inspired by this, we propose a two-stage decoding mechanism to predict ICD codes. Our model uses the hierarchical properties of the codes to split the prediction into two steps: At first, we predict the parent code and then predict the child code based on the previous prediction. Experiments on the public MIMIC-III data set have shown that our model performs well in single-model settings without external data or knowledge.",
+  "keywords": [
+    "code",
+    "efficient",
+    "facilities",
+    "general code categories",
+    "we",
+    "a patient s condition",
+    "classification",
+    "properties",
+    "decoder",
+    "categories",
+    "text",
+    "the international classification",
+    "healthcare facilities",
+    "a two-stage decoder",
+    "specific subcategories"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.285/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

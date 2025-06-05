@@ -1,0 +1,33 @@
+{
+  "id": "W19-4816",
+  "title": "Modeling Paths for Explainable Knowledge Base Completion",
+  "authors": [
+    "Stadelmaier, Josua  and\nPad{\\'o}, Sebastian"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
+  "abstract": "A common approach in knowledge base completion (KBC) is to learn representations for entities and relations in order to infer missing facts by generalizing existing ones. A shortcoming of standard models is that they do not explain their predictions to make them verifiable easily to human inspection. In this paper, we propose the Context Path Model (CPM) which generates explanations for new facts in KBC by providing sets ofcontext pathsas supporting evidence for these triples. For example, a new triple (Theresa May, nationality, Britain) may be explained by the path (Theresa May, born in, Eastbourne, contained in, Britain). The CPM is formulated as a wrapper that can be applied on top of various existing KBC models. We evaluate it for the well-established TransE model. We observe that its performance remains very close despite the added complexity, and that most of the paths proposed as explanations provide meaningful evidence to assess the correctness.",
+  "keywords": [
+    "top",
+    "we",
+    "it",
+    "knowledge",
+    "model",
+    "entities",
+    "human",
+    "modeling",
+    "a wrapper",
+    "approach",
+    "correctness",
+    "explanations",
+    "a shortcoming",
+    "standard",
+    "models"
+  ],
+  "url": "https://aclanthology.org/W19-4816/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:57:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

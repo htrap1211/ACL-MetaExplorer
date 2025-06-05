@@ -1,0 +1,33 @@
+{
+  "id": "P17-2008",
+  "title": "Incorporating Uncertainty into Deep Learning for Spoken Language Assessment",
+  "authors": [
+    "Malinin, Andrey  and\nRagni, Anton  and\nKnill, Kate  and\nGales, Mark"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "There is a growing demand for automatic assessment of spoken English proficiency. These systems need to handle large variations in input data owing to the wide range of candidate skill levels and L1s, and errors from ASR. Some candidates will be a poor match to the training data set, undermining the validity of the predicted grade. For high stakes tests it is essential for such systems not only to grade well, but also to provide a measure of their uncertainty in their predictions, enabling rejection to human graders. Previous work examined Gaussian Process (GP) graders which, though successful, do not scale well with large data sets. Deep Neural Network (DNN) may also be used to provide uncertainty using Monte-Carlo Dropout (MCD). This paper proposes a novel method to yield uncertainty and compares it to GPs and DNNs with MCD. The proposed approach explicitly teaches a DNN to have low uncertainty on training data and high uncertainty on generated artificial data. On experiments conducted on data from the Business Language Testing Service (BULATS), the proposed approach is found to outperform GPs and DNNs with MCD in uncertainty-based rejection whilst achieving comparable grading performance.",
+  "keywords": [
+    "deep",
+    "deep neural network dnn",
+    "training",
+    "neural",
+    "it",
+    "learning",
+    "generated artificial data",
+    "monte-carlo dropout mcd",
+    "spoken english proficiency",
+    "work",
+    "proficiency",
+    "process",
+    "language",
+    "human",
+    "deep learning"
+  ],
+  "url": "https://aclanthology.org/P17-2008/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:02:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

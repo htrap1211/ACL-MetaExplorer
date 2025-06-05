@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.161",
+  "title": "Towards Stable Natural Language Understanding via Information Entropy Guided Debiasing",
+  "authors": [
+    "Du, Li  and\nDing, Xiao  and\nSun, Zhouhao  and\nLiu, Ting  and\nQin, Bing  and\nLiu, Jingshuo"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Although achieving promising performance, current Natural Language Understanding models tend to utilize dataset biases instead of learning the intended task, which always leads to performance degradation on out-of-distribution (OOD) samples. Toincrease the performance stability, previous debiasing methodsempiricallycapture bias features from data to prevent the model from corresponding biases. However, our analyses show that the empirical debiasing methods may fail to capture part of the potential dataset biases and mistake semantic information of input text as biases, which limits the effectiveness of debiasing. To address these issues, we propose a debiasing framework IEGDB that comprehensively detects the dataset biases to induce a set of biased features, and then purifies the biased features with the guidance of information entropy. Experimental results show that IEGDB can consistently improve the stability of performance on OOD datasets for a set of widely adopted NLU models.",
+  "keywords": [
+    "the potential dataset biases",
+    "the empirical debiasing methods",
+    "bias",
+    "language",
+    "iegdb",
+    "natural",
+    "model",
+    "text",
+    "the dataset biases",
+    "information",
+    "biased features",
+    "semantic",
+    "we",
+    "semantic information",
+    "a debiasing framework iegdb"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.161/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

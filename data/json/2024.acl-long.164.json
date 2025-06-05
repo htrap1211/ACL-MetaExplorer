@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.164",
+  "title": "Synergetic Event Understanding: A Collaborative Approach to Cross-Document Event Coreference Resolution with Large Language Models",
+  "authors": [
+    "Min, Qingkai  and\nGuo, Qipeng  and\nHu, Xiangkun  and\nHuang, Songfang  and\nZhang, Zheng  and\nZhang, Yue"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Cross-document event coreference resolution (CDECR) involves clustering event mentions across multiple documents that refer to the same real-world events. Existing approaches utilize fine-tuning of small language models (SLMs) like BERT to address the compatibility among the contexts of event mentions. However, due to the complexity and diversity of contexts, these models are prone to learning simple co-occurrences. Recently, large language models (LLMs) like ChatGPT have demonstrated impressive contextual understanding, yet they encounter challenges in adapting to specific information extraction (IE) tasks. In this paper, we propose a collaborative approach for CDECR, leveraging the capabilities of both a universally capable LLM and a task-specific SLM. The collaborative strategy begins with the LLM accurately and comprehensively summarizing events through prompting. Then, the SLM refines its learning of event representations based on these insights during fine-tuning. Experimental results demonstrate that our approach surpasses the performance of both the large and small language models individually, forming a complementary advantage. Across various datasets, our approach achieves state-of-the-art performance, underscoring its effectiveness in diverse scenarios.",
+  "keywords": [
+    "fine-tuning experimental results",
+    "extraction",
+    "clustering event mentions",
+    "we",
+    "llm",
+    "fine-tuning",
+    "cross",
+    "information",
+    "chatgpt",
+    "learning",
+    "the capabilities",
+    "specific information extraction",
+    "llms",
+    "synergetic event",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.164/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

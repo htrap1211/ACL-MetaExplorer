@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.17",
+  "title": "The {N}iu{T}rans End-to-End Speech Translation System for {IWSLT}23 {E}nglish-to-{C}hinese Offline Task",
+  "authors": [
+    "Han, Yuchen  and\nLiu, Xiaoqian  and\nChen, Hao  and\nZhang, Yuhao  and\nXu, Chen  and\nXiao, Tong  and\nZhu, Jingbo"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "This paper describes the NiuTrans end-to-end speech translation system submitted for the IWSLT 2023 English-to-Chinese offline task. Our speech translation models are composed of pre-trained ASR and MT models under the SATE framework. Several pre-trained models with diverse architectures and input representations (e.g., log Mel-filterbank and waveform) were utilized. We proposed an IDA method to iteratively improve the performance of the MT models and generate the pseudo ST data through MT systems. We then trained ST models with different structures and data settings to enhance ensemble performance. Experimental results demonstrate that our NiuTrans system achieved a BLEU score of 29.22 on the MuST-C En-Zh tst-COMMON set, outperforming the previous year’s submission by 0.12 BLEU despite using less MT training data.",
+  "keywords": [
+    "ensemble",
+    "end",
+    "translation",
+    "a bleu score",
+    "bleu",
+    "our speech translation models",
+    "e",
+    "ida",
+    "rans",
+    "we",
+    "pre",
+    "ensemble performance experimental results",
+    "log",
+    "0 12 bleu",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:24:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

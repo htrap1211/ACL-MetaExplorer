@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.709",
+  "title": "When Phrases Meet Probabilities: Enabling Open Relation Extraction with Cooperating Large Language Models",
+  "authors": [
+    "Wang, Jiaxin  and\nZhang, Lingling  and\nLee, Wee Sun  and\nZhong, Yujie  and\nKang, Liwei  and\nLiu, Jun"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Current clustering-based open relation extraction (OpenRE) methods usually apply clustering algorithms on top of pre-trained language models. However, this practice has three drawbacks. First, embeddings from language models are high-dimensional and anisotropic, so using simple metrics to calculate distances between these embeddings may not accurately reflect the relational similarity. Second, there exists a gap between the pre-trained language models and downstream clustering for their different objective forms. Third, clustering with embeddings deviates from the primary aim of relation extraction, as it does not directly obtain relations. In this work, we propose a new idea for OpenRE in the era of LLMs, that is, extracting relational phrases and directly exploiting the knowledge in LLMs to assess the semantic similarity between phrases without relying on any additional metrics. Based on this idea, we developed a framework, oreLLM, that makes two LLMs work collaboratively to achieve clustering and address the above issues. Experimental results on different datasets show that oreLLM outperforms current baselines by1.4%∼ 3.13%in terms of clustering accuracy.",
+  "keywords": [
+    "top",
+    "extraction",
+    "three drawbacks first embeddings",
+    "clustering algorithms",
+    "semantic",
+    "era",
+    "we",
+    "current",
+    "embeddings deviates",
+    "pre-trained language models",
+    "two llms",
+    "it",
+    "these embeddings",
+    "the semantic similarity",
+    "clustering accuracy"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.709/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:44:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

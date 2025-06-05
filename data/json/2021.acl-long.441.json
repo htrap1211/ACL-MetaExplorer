@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.441",
+  "title": "D}yna{E}val: Unifying Turn and Dialogue Level Evaluation",
+  "authors": [
+    "Zhang, Chen  and\nChen, Yiming  and\nD{'}Haro, Luis Fernando  and\nZhang, Yan  and\nFriedrichs, Thomas  and\nLee, Grandee  and\nLi, Haizhou"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "A dialogue is essentially a multi-turn interaction among interlocutors. Effective evaluation metrics should reflect the dynamics of such interaction. Existing automatic metrics are focused very much on the turn-level quality, while ignoring such dynamics. To this end, we propose DynaEval, a unified automatic evaluation framework which is not only capable of performing turn-level evaluation, but also holistically considers the quality of the entire dialogue. In DynaEval, the graph convolutional network (GCN) is adopted to model a dialogue in totality, where the graph nodes denote each individual utterance and the edges represent the dependency between pairs of utterances. A contrastive loss is then applied to distinguish well-formed dialogues from carefully constructed negative samples. Experiments show that DynaEval significantly outperforms the state-of-the-art dialogue coherence model, and correlates strongly with human judgements across multiple dialogue evaluation aspects at both turn and dialogue level.",
+  "keywords": [
+    "val",
+    "well-formed dialogues",
+    "turn-level evaluation",
+    "end",
+    "multiple dialogue evaluation aspects",
+    "model",
+    "dialogues",
+    "human",
+    "metrics",
+    "a dialogue",
+    "unified",
+    "interlocutors effective evaluation metrics",
+    "loss",
+    "dependency",
+    "network"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.441/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

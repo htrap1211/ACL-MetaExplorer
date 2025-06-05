@@ -1,0 +1,33 @@
+{
+  "id": "P19-1401",
+  "title": "Learning How to Active Learn by Dreaming",
+  "authors": [
+    "Vu, Thuy-Trang  and\nLiu, Ming  and\nPhung, Dinh  and\nHaffari, Gholamreza"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Heuristic-based active learning (AL) methods are limited when the data distribution of the underlying learning problems vary. Recent data-driven AL policy learning methods are also restricted to learn from closely related domains. We introduce a new sample-efficient method that learns the AL policy directly on the target domain of interest by using wake and dream cycles. Our approach interleaves between querying the annotation of the selected datapoints to update the underlying student learner and improving AL policy using simulation where the current student learner acts as an imperfect annotator. We evaluate our method on cross-domain and cross-lingual text classification and named entity recognition tasks. Experimental results show that our dream-based AL policy training strategy is more effective than applying the pretrained policy without further fine-tuning and better than the existing strong baseline methods that use heuristics or reinforcement learning.",
+  "keywords": [
+    "cross",
+    "tuning",
+    "reinforcement",
+    "further fine-tuning",
+    "cross-lingual text classification",
+    "text",
+    "efficient",
+    "a new sample-efficient method",
+    "-",
+    "the underlying student learner",
+    "we",
+    "learning",
+    "learner",
+    "the current student learner",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/P19-1401/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:40:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

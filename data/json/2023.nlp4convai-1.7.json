@@ -1,0 +1,33 @@
+{
+  "id": "2023.nlp4convai-1.7",
+  "title": "IDAS}: Intent Discovery with Abstractive Summarization",
+  "authors": [
+    "De Raedt, Maarten  and\nGodin, Fr{\\'e}deric  and\nDemeester, Thomas  and\nDevelder, Chris"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 5th Workshop on NLP for Conversational AI (NLP4ConvAI 2023)",
+  "abstract": "Intent discovery is the task of inferring latent intents from a set of unlabeled utterances, and is a useful step towards the efficient creation of new conversational agents. We show that recent competitive methods in intent discovery can be outperformed by clustering utterances based on abstractive summaries, i.e., “labels”, that retain the core elements while removing non-essential information. We contribute the IDAS approach, which collects a set of descriptive utterance labels by prompting a Large Language Model, starting from a well-chosen seed set of prototypical utterances, to bootstrap an In-Context Learning procedure to generate labels for non-prototypical utterances. The utterances and their resulting noisy labels are then encoded by a frozen pre-trained encoder, and subsequently clustered to recover the latent intents. For the unsupervised task (without any intent labels) IDAS outperforms the state-of-the-art by up to +7.42% in standard cluster metrics for the Banking, StackOverflow, and Transport datasets. For the semi-supervised task (with labels for a subset of intents) IDAS surpasses 2 recent methods on the CLINC benchmark without even using labeled data.",
+  "keywords": [
+    "efficient",
+    "summarization",
+    "we",
+    "a frozen pre-trained encoder",
+    "standard cluster metrics",
+    "cluster",
+    "clustering utterances",
+    "information",
+    "latent",
+    "core",
+    "new conversational agents",
+    "i",
+    "metrics",
+    "a large language model",
+    "abstractive summaries"
+  ],
+  "url": "https://aclanthology.org/2023.nlp4convai-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:25:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

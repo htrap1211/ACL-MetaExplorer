@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.484",
+  "title": "P}eer{DA}: Data Augmentation via Modeling Peer Relation for Span Identification Tasks",
+  "authors": [
+    "Xu, Weiwen  and\nLi, Xin  and\nDeng, Yang  and\nLam, Wai  and\nBing, Lidong"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Span identification aims at identifying specific text spans from text input and classifying them into pre-defined categories. Different from previous works that merely leverage the Subordinate (SUB) relation (i.e. if a span is an instance of a certain category) to train models, this paper for the first time explores the Peer (PR) relation, which indicates that two spans are instances of the same category and share similar features. Specifically, a novel Peer Data Augmentation (PeerDA) approach is proposed which employs span pairs with the PR relation as the augmentation data for training. PeerDA has two unique advantages: (1) There are a large number of PR span pairs for augmenting the training data. (2) The augmented data can prevent the trained model from over-fitting the superficial span-category mapping by pushing the model to leverage the span semantics. Experimental results on ten datasets over four diverse tasks across seven domains demonstrate the effectiveness of PeerDA. Notably, PeerDA achieves state-of-the-art results on six of them.",
+  "keywords": [
+    "pre-defined categories",
+    "training",
+    "i",
+    "categories",
+    "text",
+    "model",
+    "pre",
+    "time",
+    "a large number",
+    "similar features",
+    "approach",
+    "state",
+    "the pr relation",
+    "two spans",
+    "effectiveness"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.484/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:41:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

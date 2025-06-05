@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.445",
+  "title": "Importance-based Neuron Allocation for Multilingual Neural Machine Translation",
+  "authors": [
+    "Xie, Wanying  and\nFeng, Yang  and\nGu, Shuhao  and\nYu, Dong"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Multilingual neural machine translation with a single model has drawn much attention due to its capability to deal with multiple languages. However, the current multilingual translation paradigm often makes the model tend to preserve the general knowledge, but ignore the language-specific knowledge. Some previous works try to solve this problem by adding various kinds of language-specific modules to the model, but they suffer from the parameter explosion problem and require specialized manual design. To solve these problems, we propose to divide the model neurons into general and language-specific parts based on their importance across languages. The general part is responsible for preserving the general knowledge and participating in the translation of all the languages, while the language-specific part is responsible for preserving the language-specific knowledge and participating in the translation of some specific languages. Experimental results on several language pairs, covering IWSLT and Europarl corpus datasets, demonstrate the effectiveness and universality of the proposed method.",
+  "keywords": [
+    "allocation",
+    "much attention",
+    "general",
+    "knowledge",
+    "the translation",
+    "language",
+    "neural",
+    "machine",
+    "model",
+    "general and language-specific parts",
+    "the general knowledge",
+    "attention",
+    "we",
+    "the general part",
+    "current"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.445/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.ecnlp-1.2",
+  "title": "Attribute Value Generation from Product Title using Language Models",
+  "authors": [
+    "Roy, Kalyani  and\nGoyal, Pawan  and\nPandey, Manish"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 4th Workshop on e-Commerce and NLP",
+  "abstract": "Identifying the value of product attribute is essential for many e-commerce functions such as product search and product recommendations. Therefore, identifying attribute values from unstructured product descriptions is a critical undertaking for any e-commerce retailer. What makes this problem challenging is the diversity of product types and their attributes and values. Existing methods have typically employed multiple types of machine learning models, each of which handles specific product types or attribute classes. This has limited their scalability and generalization for large scale real world e-commerce applications. Previous approaches for this task have formulated the attribute value extraction as a Named Entity Recognition (NER) task or a Question Answering (QA) task. In this paper we have presented a generative approach to the attribute value extraction problem using language models. We leverage the large-scale pretraining of the GPT-2 and the T5 text-to-text transformer to create fine-tuned models that can effectively perform this task. We show that a single general model is very effective for this task over a broad set of product attribute values with the open world assumption. Our approach achieves state-of-the-art performance for different attribute classes, which has previously required a diverse set of models.",
+  "keywords": [
+    "extraction",
+    "question",
+    "we",
+    "a single general model",
+    "machine learning models",
+    "learning",
+    "gpt-2",
+    "generative",
+    "ner",
+    "text",
+    "language models",
+    "the gpt-2",
+    "generalization",
+    "attribute value generation",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2021.ecnlp-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "W19-5211",
+  "title": "Widening the Representation Bottleneck in Neural Machine Translation with Lexical Shortcuts",
+  "authors": [
+    "Emelin, Denis  and\nTitov, Ivan  and\nSennrich, Rico"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 1: Research Papers)",
+  "abstract": "The transformer is a state-of-the-art neural translation model that uses attention to iteratively refine lexical representations with information drawn from the surrounding context. Lexical features are fed into the first layer and propagated through a deep network of hidden layers. We argue that the need to represent and propagate lexical features in each layer limits the model’s capacity for learning and representing other information relevant to the task. To alleviate this bottleneck, we introduce gated shortcut connections between the embedding layer and each subsequent layer within the encoder and decoder. This enables the model to access relevant lexical content dynamically, without expending limited resources on storing it within intermediate states. We show that the proposed modification yields consistent improvements over a baseline transformer on standard WMT translation tasks in 5 translation directions (0.9 BLEU on average) and reduces the amount of lexical information passed along the hidden layers. We furthermore evaluate different ways to integrate lexical connections into the transformer architecture and present ablation experiments exploring the effect of proposed shortcuts on model behavior.",
+  "keywords": [
+    "deep",
+    "neural machine translation",
+    "bleu",
+    "layer",
+    "we",
+    "standard wmt translation tasks",
+    "translation",
+    "the encoder",
+    "neural",
+    "it",
+    "decoder",
+    "information",
+    "5 translation directions",
+    "0 9 bleu",
+    "the transformer"
+  ],
+  "url": "https://aclanthology.org/W19-5211/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:54:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

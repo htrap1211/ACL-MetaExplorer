@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.246",
+  "title": "Exploiting Biased Models to De-bias Text: A Gender-Fair Rewriting Model",
+  "authors": [
+    "Amrhein, Chantal  and\nSchottmann, Florian  and\nSennrich, Rico  and\nL{\\\"a}ubli, Samuel"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Natural language generation models reproduce and often amplify the biases present in their training data. Previous research explored using sequence-to-sequence rewriting models to transform biased model outputs (or original texts) into more gender-fair language by creating pseudo training data through linguistic rules. However, this approach is not practical for languages with more complex morphology than English. We hypothesise that creating training data in the reverse direction, i.e. starting from gender-fair text, is easier for morphologically complex languages and show that it matches the performance of state-of-the-art rewriting models for English. To eliminate the rule-based nature of data creation, we instead propose using machine translation models to create gender-biased text from real gender-fair text via round-trip translation. Our approach allows us to train a rewriting model for German without the need for elaborate handcrafted rules. The outputs of this model increased gender-fairness as shown in a human evaluation study.",
+  "keywords": [
+    "bias",
+    "de-bias text",
+    "we",
+    "machine translation models",
+    "training",
+    "translation",
+    "natural",
+    "it",
+    "sequence",
+    "a human evaluation study",
+    "biased",
+    "i",
+    "text",
+    "easier",
+    "biases"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.246/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:38:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

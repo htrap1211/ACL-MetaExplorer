@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.229",
+  "title": "Gallagher at {S}em{E}val-2023 Task 5: Tackling Clickbait with {S}eq2{S}eq Models",
+  "authors": [
+    "Bilgis, Tugay  and\nBozdag, Nimet Beyza  and\nBethard, Steven"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper presents the systems and approaches of the Gallagher team for the SemEval-2023 Task 5: Clickbait Spoiling. We propose a method to classify the type of spoiler (phrase, passage, multi) and a question-answering method to generate spoilers that satisfy the curiosity caused by clickbait posts. We experiment with the state-of-the-art Seq2Seq model T5. To identify the spoiler types we used a fine-tuned T5 classifier (Subtask 1). A mixture of T5 and Flan-T5 was used to generate the spoilers for clickbait posts (Subtask 2). Our system officially ranks first in generating phrase type spoilers in Subtask 2, and achieves the highest precision score for passage type spoilers in Subtask 1.",
+  "keywords": [
+    "seq2seq",
+    "precision",
+    "s",
+    "a fine-tuned t5 classifier",
+    "classifier",
+    "the highest precision score",
+    "model",
+    "question",
+    "we",
+    "eq2",
+    "that",
+    "clickbait",
+    "the type",
+    "multi",
+    "spoilers"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.229/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

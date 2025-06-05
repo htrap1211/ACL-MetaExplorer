@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.385",
+  "title": "Better Synthetic Data by Retrieving and Transforming Existing Datasets",
+  "authors": [
+    "Gandhi, Saumya  and\nGala, Ritu  and\nViswanathan, Vijay  and\nWu, Tongshuang  and\nNeubig, Graham"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Despite recent advances in large language models, building dependable and deployable NLP models typically requires abundant, high-quality training data. However, task-specific data is not available for many use cases, and manually curating task-specific data is labor-intensive. Recent work has studied prompt-driven synthetic data generation using large language models, but these generated datasets tend to lack complexity and diversity. To address these limitations, we introduce a method, _DataTune_, to make better use of existing, publicly available datasets to improve automatic dataset generation. DataTune performs _dataset transformation_, enabling the repurposing of publicly available datasets into a format that is directly aligned with the specific requirements of target tasks. On a diverse set of language-based tasks from the BIG-Bench benchmark, we find that finetuning language models via DataTune improves over a few-shot prompting baseline by 49% and improves over existing methods that use synthetic or retrieved training data by 34%. We find that dataset transformation significantly increases the diversity and difficulty of generated data on many tasks. We release a Python package and open-source repository to make this method accessible to the community (URL will be added upon acceptance).",
+  "keywords": [
+    "these generated datasets",
+    "we",
+    "generated data",
+    "shot",
+    "training",
+    "format",
+    "prompt",
+    "language models",
+    "prompt-driven synthetic data generation",
+    "a few-shot prompting baseline",
+    "work",
+    "language",
+    "generation",
+    "nlp",
+    "large language models"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.385/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:53:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

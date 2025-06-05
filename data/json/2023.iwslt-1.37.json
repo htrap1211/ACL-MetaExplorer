@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.37",
+  "title": "Towards Efficient Simultaneous Speech Translation: {CUNI}-{KIT} System for Simultaneous Track at {IWSLT} 2023",
+  "authors": [
+    "Pol{\\'a}k, Peter  and\nLiu, Danni  and\nPham, Ngoc-Quan  and\nNiehues, Jan  and\nWaibel, Alexander  and\nBojar, Ond{\\v{r}}ej"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "In this paper, we describe our submission to the Simultaneous Track at IWSLT 2023. This year, we continue with the successful setup from the last year, however, we adopt the latest methods that further improve the translation quality. Additionally, we propose a novel online policy for attentional encoder-decoder models. The policy prevents the model to generate translation beyond the current speech input by using an auxiliary CTC output layer. We show that the proposed simultaneous policy can be applied to both streaming blockwise models and offline encoder-decoder models. We observe significant improvements in quality (up to 1.1 BLEU) and the computational footprint (up to 45% relative RTF).",
+  "keywords": [
+    "model",
+    "efficient",
+    "attentional encoder-decoder models",
+    "bleu",
+    "encoder",
+    "decoder",
+    "the translation quality",
+    "layer",
+    "we",
+    "attentional",
+    "current",
+    "offline encoder-decoder models",
+    "translation",
+    "that",
+    "speech"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.37/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:25:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

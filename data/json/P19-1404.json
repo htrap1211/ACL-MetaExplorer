@@ -1,0 +1,33 @@
+{
+  "id": "P19-1404",
+  "title": "Learning Transferable Feature Representations Using Neural Networks",
+  "authors": [
+    "Bhatt, Himanshu Sharad  and\nRoy, Shourya  and\nRajkumar, Arun  and\nRamakrishnan, Sriranjani"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Learning representations such that the source and target distributions appear as similar as possible has benefited transfer learning tasks across several applications. Generally it requires labeled data from the source and only unlabeled data from the target to learn such representations. While these representations act like a bridge to transfer knowledge learned in the source to the target; they may lead to negative transfer when the source specific characteristics detract their ability to represent the target data. We present a novel neural network architecture to simultaneously learn a two-part representation which is based on the principle of segregating source specific representation from the common representation. The first part captures the source specific characteristics while the second part captures the truly common representation. Our architecture optimizes an objective function which acts adversarial for the source specific part if it contributes towards the cross-domain learning. We empirically show that two parts of the representation, in different arrangements, outperforms existing learning algorithms on the source learning as well as cross-domain tasks on multiple datasets.",
+  "keywords": [
+    "cross",
+    "knowledge",
+    "neural",
+    "neural networks",
+    "it",
+    "transfer learning tasks",
+    "objective",
+    "network",
+    "we",
+    "transfer",
+    "learning",
+    "function",
+    "an objective function",
+    "applications",
+    "arrangements"
+  ],
+  "url": "https://aclanthology.org/P19-1404/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:40:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

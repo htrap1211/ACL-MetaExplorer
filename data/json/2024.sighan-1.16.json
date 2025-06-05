@@ -1,0 +1,33 @@
+{
+  "id": "2024.sighan-1.16",
+  "title": "Fine-tuning after Prompting: an Explainable Way for Classification",
+  "authors": [
+    "Wang, Zezhong  and\nYe, Luyao  and\nWang, Hongru  and\nXue, Boyang  and\nDu, Yiming  and\nLiang, Bin  and\nWong, Kam-Fai"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 10th SIGHAN Workshop on Chinese Language Processing (SIGHAN-10)",
+  "abstract": "Prompting is an alternative approach for utilizing pre-trained language models (PLMs) in classification tasks. In contrast to fine-tuning, prompting is more understandable for humans because it utilizes natural language to interact with the PLM, but it often falls short in terms of accuracy. While current research primarily focuses on enhancing the performance of prompting methods to compete with fine-tuning, we believe that these two approaches are not mutually exclusive, each having its strengths and weaknesses. In our study, we depart from the competitive view of prompting versus fine-tuning and instead combine them, introducing a novel method called F&P. This approach enables us to harness the advantages ofFine-tuning for accuracy and the explainability ofPrompting simultaneously. Specifically, we reformulate the sample into a prompt and subsequently fine-tune a linear classifier on top of the PLM. Following this, we extract verbalizers according to the weight of this classifier. During the inference phase, we reformulate the sample in the same way and query the PLM. The PLM generates a word, which is then subject to a dictionary lookup by the verbalizer to obtain the prediction. Experiments show that keeping only 30 keywords for each class can achieve comparable performance as fine-tuning. On the other hand, both the prompt and verbalizers are constructed in natural language, making them fully understandable to humans. Hence, the F&P method offers an effective and transparent way to employ a PLM for classification tasks.",
+  "keywords": [
+    "top",
+    "classifier",
+    "we",
+    "current",
+    "classification",
+    "fine-tuning",
+    "the competitive view",
+    "a linear classifier",
+    "classification tasks",
+    "natural",
+    "it",
+    "pre-trained language models plms",
+    "word",
+    "natural language",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2024.sighan-1.16/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:10:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.540",
+  "title": "FRVA}: Fact-Retrieval and Verification Augmented Entailment Tree Generation for Explainable Question Answering",
+  "authors": [
+    "Fan, Yue  and\nZhang, Hu  and\nLi, Ru  and\nWang, YuJie  and\nTan, Hongye  and\nLiang, Jiye"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Structured entailment tree can exhibit the reasoning chains from knowledge facts to predicted answers, which is important for constructing an explainable question answering system. Existing works mainly include directly generating the entire tree and stepwise generating the proof steps. The stepwise methods can exploit combinatoriality and generalize to longer steps, but they have large fact search spaces and error accumulation problems resulting in the generation of invalid steps. In this paper, inspired by the Dual Process Theory in cognitive science, we propose FRVA, a Fact-Retrieval and Verification Augmented bidirectional entailment tree generation method that contains two systems. Specifically, System 1 makes intuitive judgments through the fact retrieval module and filters irrelevant facts to reduce the search space. System 2 designs a deductive-abductive bidirectional reasoning module, and we construct cross-verification and multi-view contrastive learning to make the generated proof steps closer to the target hypothesis. We enhance the reliability of the stepwise proofs to mitigate error propagation. Experiment results on EntailmentBank show that FRVA outperforms previous models and achieves state-of-the-art performance in fact selection and structural correctness.",
+  "keywords": [
+    "the generation",
+    "question",
+    "we",
+    "cross",
+    "retrieval",
+    "science",
+    "the fact retrieval module",
+    "learning",
+    "the generated proof",
+    "fact-retrieval",
+    "entailment tree generation",
+    "process",
+    "knowledge",
+    "generation",
+    "view"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.540/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:55:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

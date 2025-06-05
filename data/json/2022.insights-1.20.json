@@ -1,0 +1,33 @@
+{
+  "id": "2022.insights-1.20",
+  "title": "Pathologies of Pre-trained Language Models in Few-shot Fine-tuning",
+  "authors": [
+    "Chen, Hanjie  and\nZheng, Guoqing  and\nAwadallah, Ahmed  and\nJi, Yangfeng"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Third Workshop on Insights from Negative Results in NLP",
+  "abstract": "Although adapting pre-trained language models with few examples has shown promising performance on text classification, there is a lack of understanding of where the performance gain comes from. In this work, we propose to answer this question by interpreting the adaptation behavior using post-hoc explanations from model predictions. By modeling feature statistics of explanations, we discover that (1) without fine-tuning, pre-trained models (e.g. BERT and RoBERTa) show strong prediction bias across labels; (2) although few-shot fine-tuning can mitigate the prediction bias and demonstrate promising prediction performance, our analysis shows models gain performance improvement by capturing non-task-related features (e.g. stop words) or shallow data patterns (e.g. lexical overlaps). These observations alert that pursuing model performance with fewer examples may incur pathological prediction behavior, which requires further sanity check on model predictions and careful design in model evaluations in few-shot fine-tuning.",
+  "keywords": [
+    "roberta",
+    "bias",
+    "model evaluations",
+    "question",
+    "we",
+    "classification",
+    "pathologies",
+    "pre-trained language models",
+    "few-shot fine-tuning",
+    "text classification",
+    "analysis",
+    "tuning",
+    "bert",
+    "text",
+    "the prediction bias"
+  ],
+  "url": "https://aclanthology.org/2022.insights-1.20/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

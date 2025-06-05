@@ -1,0 +1,33 @@
+{
+  "id": "W18-2602",
+  "title": "Systematic Error Analysis of the {S}tanford Question Answering Dataset",
+  "authors": [
+    "Rondeau, Marc-Antoine  and\nHazen, T. J."
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the Workshop on Machine Reading for Question Answering",
+  "abstract": "We analyzed the outputs of multiple question answering (QA) models applied to the Stanford Question Answering Dataset (SQuAD) to identify the core challenges for QA systems on this data set. Through an iterative process, challenging aspects were hypothesized through qualitative analysis of the common error cases. A classifier was then constructed to predict whether SQuAD test examples were likely to be difficult for systems to answer based on features associated with the hypothesized aspects. The classifier’s performance was used to accept or reject each aspect as an indicator of difficulty. With this approach, we ensured that our hypotheses were systematically tested and not simply accepted based on our pre-existing biases. Our explanations are not accepted based on human evaluation of individual examples. This process also enabled us to identify the primary QA strategy learned by the models, i.e., systems determined the acceptable answer type for a question and then selected the acceptable answer span of that type containing the highest density of words present in the question within its local vicinity in the passage.",
+  "keywords": [
+    "our pre-existing biases",
+    "qa models",
+    "classifier",
+    "question",
+    "we",
+    "human evaluation",
+    "answer",
+    "analysis",
+    "core",
+    "i",
+    "the classifier s performance",
+    "the primary qa strategy",
+    "biases",
+    "process",
+    "human"
+  ],
+  "url": "https://aclanthology.org/W18-2602/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:06:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

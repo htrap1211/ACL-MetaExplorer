@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.842",
+  "title": "Emulated Disalignment: Safety Alignment for Large Language Models May Backfire!",
+  "authors": [
+    "Zhou, Zhanhui  and\nLiu, Jie  and\nDong, Zhichen  and\nLiu, Jiaheng  and\nYang, Chao  and\nOuyang, Wanli  and\nQiao, Yu"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large language models (LLMs) undergo safety alignment to ensure safe conversations with humans. However, this paper introduces a training-free attack method capable of reversing safety alignment, converting the outcomes of stronger alignment into greater potential for harm by accessing only LLM output token distributions. Specifically, our method achieves this reversal by contrasting the output token distribution of a safety-aligned language model (e.g., Llama-2-chat) against its pre-trained version (e.g., Llama-2), so that the token predictions are shifted towards the opposite direction of safety alignment.We name this methodemulated disalignment(ED) because sampling from this contrastive distribution provably emulates the result of fine-tuning to minimize a safety reward.Our experiments with ED across three evaluation datasets and four model families (Llama-1, Llama-2, Mistral, and Alpaca) show that ED doubles the harmfulness of pre-trained models and outperforms strong baselines, achieving the highest harmful rates in 43 out of 48 evaluation subsets by a large margin.Eventually, given ED’s reliance on language model output token distributions, which particularly compromises open-source models, our findings highlight the need to reassess the open accessibility of language models, even if they have been safety-aligned.Code is available at https://github.com/ZHZisZZ/emulated-disalignment.",
+  "keywords": [
+    "code",
+    "families",
+    "stronger alignment",
+    "conversations",
+    "we",
+    "llm",
+    "training",
+    "fine-tuning",
+    "disalignment",
+    "token",
+    "safe conversations",
+    "tuning",
+    "safety alignment",
+    "ed",
+    "this methodemulated disalignment ed"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.842/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:45:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

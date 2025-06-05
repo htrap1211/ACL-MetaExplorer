@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.604",
+  "title": "CHEER}: Centrality-aware High-order Event Reasoning Network for Document-level Event Causality Identification",
+  "authors": [
+    "Chen, Meiqi  and\nCao, Yixin  and\nZhang, Yan  and\nLiu, Zhiwei"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Document-level Event Causality Identification (DECI) aims to recognize causal relations between events within a document. Recent studies focus on building a document-level graph for cross-sentence reasoning, but ignore important causal structures — there are one or two “central” events that prevail throughout the document, with most other events serving as either their cause or consequence. In this paper, we manually annotate central events for a systematical investigation and propose a novel DECI model, CHEER, which performs high-order reasoning while considering event centrality. First, we summarize a general GNN-based DECI model and provide a unified view for better understanding. Second, we design an Event Interaction Graph (EIG) involving the interactions among events (e.g., coreference) and event pairs, e.g., causal transitivity, cause(A, B) AND cause(B, C) → cause(A, C). Finally, we incorporate event centrality information into the EIG reasoning network via well-designed features and multi-task learning. We have conducted extensive experiments on two benchmark datasets. The results present great improvements (5.9% F1 gains on average) and demonstrate the effectiveness of each main component.",
+  "keywords": [
+    "5 9 f1 gains",
+    "we",
+    "graph",
+    "cross",
+    "unified",
+    "information",
+    "a unified view",
+    "learning",
+    "events e g coreference",
+    "a document recent studies",
+    "coreference",
+    "general",
+    "model",
+    "studies",
+    "view"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.604/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

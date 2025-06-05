@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.651",
+  "title": "GIFT}: Graph-Induced Fine-Tuning for Multi-Party Conversation Understanding",
+  "authors": [
+    "Gu, Jia-Chen  and\nLing, Zhenhua  and\nLiu, Quan  and\nLiu, Cong  and\nHu, Guoping"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Addressing the issues of who saying what to whom in multi-party conversations (MPCs) has recently attracted a lot of research attention. However, existing methods on MPC understanding typically embed interlocutors and utterances into sequential information flows, or utilize only the superficial of inherent graph structures in MPCs. To this end, we present a plug-and-play and lightweight method named graph-induced fine-tuning (GIFT) which can adapt various Transformer-based pre-trained language models (PLMs) for universal MPC understanding. In detail, the full and equivalent connections among utterances in regular Transformer ignore the sparse but distinctive dependency of an utterance on another in MPCs. To distinguish different relationships between utterances, four types of edges are designed to integrate graph-induced signals into attention mechanisms to refine PLMs originally designed for processing sequential texts. We evaluate GIFT by implementing it into three PLMs, and test the performance on three downstream tasks including addressee recognition, speaker identification and response selection. Experimental results show that GIFT can significantly improve the performance of three PLMs on three downstream tasks and two benchmarks with only 4 additional parameters per encoding layer, achieving new state-of-the-art performance on MPC understanding.",
+  "keywords": [
+    "end",
+    "multi-party conversation understanding",
+    "conversations",
+    "attention mechanisms",
+    "layer",
+    "we",
+    "graph",
+    "it",
+    "information",
+    "tuning",
+    "multi-party conversations mpcs",
+    "fine",
+    "regular transformer",
+    "transformer",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.651/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:44:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

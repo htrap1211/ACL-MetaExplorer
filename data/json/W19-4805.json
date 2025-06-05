@@ -1,0 +1,33 @@
+{
+  "id": "W19-4805",
+  "title": "Multi-Granular Text Encoding for Self-Explaining Categorization",
+  "authors": [
+    "Wang, Zhiguo  and\nZhang, Yue  and\nYu, Mo  and\nZhang, Wei  and\nPan, Lin  and\nSong, Linfeng  and\nXu, Kun  and\nEl-Kurdi, Yousef"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
+  "abstract": "Self-explaining text categorization requires a classifier to make a prediction along with supporting evidence. A popular type of evidence is sub-sequences extracted from the input text which are sufficient for the classifier to make the prediction. In this work, we define multi-granular ngrams as basic units for explanation, and organize all ngrams into a hierarchical structure, so that shorter ngrams can be reused while computing longer ngrams. We leverage the tree-structured LSTM to learn a context-independent representation for each unit via parameter sharing. Experiments on medical disease classification show that our model is more accurate, efficient and compact than the BiLSTM and CNN baselines. More importantly, our model can extract intuitive multi-granular evidence to support its predictions.",
+  "keywords": [
+    "work",
+    "hierarchical",
+    "a hierarchical structure",
+    "cnn",
+    "classifier",
+    "medical disease classification",
+    "model",
+    "text",
+    "the classifier",
+    "bilstm",
+    "efficient",
+    "self",
+    "the tree-structured lstm",
+    "-",
+    "sufficient"
+  ],
+  "url": "https://aclanthology.org/W19-4805/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:57:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

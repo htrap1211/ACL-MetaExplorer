@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.160",
+  "title": "Data Augmentation and Learned Layer Aggregation for Improved Multilingual Language Understanding in Dialogue",
+  "authors": [
+    "Razumovskaia, Evgeniia  and\nVuli{\\'c}, Ivan  and\nKorhonen, Anna"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Scaling dialogue systems to a multitude of domains, tasks and languages relies on costly and time-consuming data annotation for different domain-task-language configurations. The annotation efforts might be substantially reduced by the methods that generalise well in zero- and few-shot scenarios, and also effectively leverage external unannotated data sources (e.g., Web-scale corpora). We propose two methods to this aim, offering improved dialogue natural language understanding (NLU) across multiple languages: 1) Multi-SentAugment, and 2) LayerAgg. Multi-SentAugment is a self-training method which augments available (typically few-shot) training data with similar (automatically labelled) in-domain sentences from large monolingual Web-scale corpora. LayerAgg learns to select and combine useful semantic information scattered across different layers of a Transformer model (e.g., mBERT); it is especially suited for zero-shot scenarios as semantically richer representations should strengthen the model’s cross-lingual capabilities. Applying the two methods with state-of-the-art NLU models obtains consistent improvements across two standard multilingual NLU datasets covering 16 diverse languages. The gains are observed in zero-shot, few-shot, and even in full-data scenarios. The results also suggest that the two methods achieve a synergistic effect: the best overall performance in few-shot setups is attained when the methods are used together.",
+  "keywords": [
+    "mbert",
+    "few-shot setups",
+    "layer",
+    "zero-shot few-shot",
+    "semantic",
+    "we",
+    "dialogue",
+    "shot",
+    "training",
+    "cross",
+    "natural",
+    "it",
+    "dialogue systems",
+    "self",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.160/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

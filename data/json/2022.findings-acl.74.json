@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.74",
+  "title": "Learning Adaptive Axis Attentions in Fine-tuning: Beyond Fixed Sparse Attention Patterns",
+  "authors": [
+    "Wang, Zihan  and\nGu, Jiuxiang  and\nKuen, Jason  and\nZhao, Handong  and\nMorariu, Vlad  and\nZhang, Ruiyi  and\nNenkova, Ani  and\nSun, Tong  and\nShang, Jingbo"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "We present a comprehensive study of sparse attention patterns in Transformer models. We first question the need for pre-training with sparse attention and present experiments showing that an efficient fine-tuning only approach yields a slightly worse but still competitive model. Then we compare the widely used local attention pattern and the less-well-studied global attention pattern, demonstrating that global patterns have several unique advantages. We also demonstrate that a flexible approach to attention, with different patterns across different layers of the model, is beneficial for some tasks. Drawing on this insight, we propose a novel Adaptive Axis Attention method, which learns—during fine-tuning—different attention patterns for each Transformer layer depending on the downstream task. Rather than choosing a fixed attention pattern, the adaptive axis attention method identifies important tokens—for each task and model layer—and focuses attention on those. It does not require pre-training to accommodate the sparse patterns and demonstrates competitive and sometimes better performance against fixed sparse attention patterns that require resource-intensive pre-training.",
+  "keywords": [
+    "transformer",
+    "tuning",
+    "transformer models",
+    "a fixed attention pattern",
+    "sparse attention",
+    "model",
+    "it",
+    "efficient",
+    "fine-tuning different attention patterns",
+    "attentions",
+    "-",
+    "layer",
+    "fine",
+    "sparse attention patterns",
+    "attention"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.74/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

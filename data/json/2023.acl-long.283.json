@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.283",
+  "title": "SESCORE}2: Learning Text Generation Evaluation via Synthesizing Realistic Mistakes",
+  "authors": [
+    "Xu, Wenda  and\nQian, Xian  and\nWang, Mingxuan  and\nLi, Lei  and\nWang, William Yang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Is it possible to train a general metric for evaluating text generation quality without human-annotated ratings? Existing learned metrics either perform unsatisfactory across text generation tasks or require human ratings for training on specific tasks. In this paper, we propose SEScore2, a self-supervised approach for training a model-based metric for text generation evaluation. The key concept is to synthesize realistic model mistakes by perturbing sentences retrieved from a corpus. We evaluate SEScore2 and previous methods on four text generation tasks across three languages. SEScore2 outperforms all prior unsupervised metrics on four text generation evaluation benchmarks, with an average Kendall improvement of 0.158. Surprisingly, SEScore2 even outperforms the supervised BLEURT and COMET on multiple text generation tasks.",
+  "keywords": [
+    "a general metric",
+    "general",
+    "the supervised bleurt",
+    "generation",
+    "bleurt",
+    "model",
+    "metric",
+    "text",
+    "it",
+    "human",
+    "multiple text generation tasks",
+    "metrics",
+    "self",
+    "all prior unsupervised metrics",
+    "learned metrics"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.283/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.382",
+  "title": "Predicate-Argument Based Bi-Encoder for Paraphrase Identification",
+  "authors": [
+    "Peng, Qiwei  and\nWeir, David  and\nWeeds, Julie  and\nChai, Yekun"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Paraphrase identification involves identifying whether a pair of sentences express the same or similar meanings. While cross-encoders have achieved high performances across several benchmarks, bi-encoders such as SBERT have been widely applied to sentence pair tasks. They exhibit substantially lower computation complexity and are better suited to symmetric tasks. In this work, we adopt a bi-encoder approach to the paraphrase identification task, and investigate the impact of explicitly incorporating predicate-argument information into SBERT through weighted aggregation. Experiments on six paraphrase identification datasets demonstrate that, with a minimal increase in parameters, the proposed model is able to outperform SBERT/SRoBERTa significantly. Further, ablation studies reveal that the predicate-argument based component plays a significant role in the performance gain.",
+  "keywords": [
+    "work",
+    "cross",
+    "model",
+    "studies",
+    "-",
+    "encoder",
+    "information",
+    "sbert",
+    "we",
+    "sroberta",
+    "encoders",
+    "a bi-encoder approach",
+    "bi",
+    "identification",
+    "paraphrase identification paraphrase identification"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.382/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:29:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.10",
+  "title": "A Grounded Preference Model for {LLM} Alignment",
+  "authors": [
+    "Naseem, Tahira  and\nXu, Guangxuan  and\nSwaminathan, Sarathkrishna  and\nYehudai, Asaf  and\nChaudhury, Subhajit  and\nFlorian, Radu  and\nAstudillo, Ram{\\'o}n  and\nMunawar, Asim"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Despite LLMs’ recent advancements, they still suffer from factual inconsistency and hallucination. An often-opted remedy is retrieval-augmented generation – however, there is no guarantee that the model will strictly adhere to retrieved grounding. Fundamentally, LLMs need to be aligned to be more faithful to grounding, which will require high-quality preference annotations. This paper investigates whether we can create high-quality grounded preference data for model alignment without using annotations from humans or large proprietary models. We experimented with existing entailment data and proposed approaches to generate synthetic grounded preference data, with which we train a Grounded Preference Model(GPM). We demonstrate through Proximal Policy Optimization(PPO) training of Mistral-7B-Instruct that our GPM model can successfully align powerful LLMs to generate much better grounded responses as judged by GPT4. Moreover, we show that our GPM is also a great faithfulness classifier, achieving SoTA in dialogue sub-tasks of the TRUE faithfulness Benchmark. We will release our GPM under the Apache 2.0 license.",
+  "keywords": [
+    "llm alignment",
+    "powerful llms",
+    "dialogue sub",
+    "classifier",
+    "fundamentally llms",
+    "retrieval-augmented generation",
+    "we",
+    "dialogue",
+    "llm",
+    "a great faithfulness classifier",
+    "training",
+    "model alignment",
+    "retrieval",
+    "llms",
+    "ppo"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:48:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

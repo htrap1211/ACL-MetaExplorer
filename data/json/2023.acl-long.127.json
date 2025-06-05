@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.127",
+  "title": "Controlling Learned Effects to Reduce Spurious Correlations in Text Classifiers",
+  "authors": [
+    "Bansal, Parikshit  and\nSharma, Amit"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "To address the problem of NLP classifiers learning spurious correlations between training features and target labels, a common approach is to make the model’s predictions invariant to these features. However, this can be counter-productive when the features have a non-zero causal effect on the target label and thus are important for prediction. Therefore, using methods from the causal inference literature, we propose an algorithm to regularize the learnt effect of the features on the model’s prediction to the estimated effect of feature on label. This results in an automated augmentation method that leverages the estimated effect of a feature to appropriately change the labels for new augmented inputs. On toxicity and IMDB review datasets, the proposed algorithm minimises spurious correlations and improves the minority group (i.e., samples breaking spurious correlations) accuracy, while also improving the total accuracy compared to standard training.",
+  "keywords": [
+    "nlp classifiers",
+    "classifiers",
+    "we",
+    "training",
+    "text classifiers",
+    "text",
+    "spurious correlations accuracy",
+    "accuracy",
+    "zero",
+    "the total accuracy",
+    "nlp",
+    "model",
+    "review",
+    "the estimated effect",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.127/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

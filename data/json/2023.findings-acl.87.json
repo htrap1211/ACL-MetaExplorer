@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.87",
+  "title": "Exploring Schema Generalizability of Text-to-{SQL",
+  "authors": [
+    "Li, Jieyu  and\nChen, Lu  and\nCao, Ruisheng  and\nZhu, Su  and\nXu, Hongshen  and\nChen, Zhi  and\nZhang, Hanchong  and\nYu, Kai"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Exploring the generalizability of a text-to-SQL parser is essential for a system to automatically adapt the real-world databases. Previous investigation works mostly focus on lexical diversity, including the influence of the synonym and perturbations in both natural language questions and databases. However, the structural variability of database schema (DS), as a widely seen real-world scenario, is yet underexplored. Specifically, confronted with the same input question, the target SQL may be represented in different ways when the DS comes to a different structure. In this work, we provide in-depth discussions about the schema generalizability challenge of text-to-SQL tasks. We observe that current datasets are too templated to study schema generalization. To collect suitable test data, we propose a framework to generate novel text-to-SQL data via automatic and synchronous (DS, SQL) pair altering. When evaluating state-of-the-art text-to-SQL models on the synthetic samples, performance is significantly degraded, which demonstrates the limitation of current research regarding schema generalization.",
+  "keywords": [
+    "schema generalization",
+    "question",
+    "we",
+    "generalizability",
+    "current",
+    "the schema generalizability challenge",
+    "natural",
+    "the generalizability",
+    "text",
+    "schema generalizability",
+    "generalization",
+    "work",
+    "language",
+    "scenario",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.87/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

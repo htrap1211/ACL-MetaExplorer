@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.384",
+  "title": "Multi-Relational Probabilistic Event Representation Learning via Projected {G}aussian Embedding",
+  "authors": [
+    "Zhang, Linhai  and\nZhang, Congzhi  and\nZhou, Deyu"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Event representation learning has been shown beneficial in various downstream tasks. Current event representation learning methods, which mainly focus on capturing the semantics of events via deterministic vector embeddings, have made notable progress. However, they ignore two important properties: the multiple relations between events and the uncertainty within events. In this paper, we propose a novel approach to learning multi-relational probabilistic event embeddings based on contrastive learning. Specifically, the proposed method consists of three major modules, a multi-relational event generation module to automatically generate multi-relational training data, a probabilistic event encoding module to model uncertainty of events by Gaussian density embeddings, and a relation-aware projection module to adapt unseen relations by projecting Gaussian embeddings into relation-aware subspaces. Moreover, a novel contrastive learning loss is elaborately designed for learning the multi-relational probabilistic embeddings. Since the existing benchmarks for event representation learning ignore relations and uncertainty of events, a novel dataset named MRPES is constructed to investigate whether multiple relations between events and uncertainty within events are learned. Experimental results show that the proposed approach outperforms other state-of-the-art baselines on both existing and newly constructed datasets.",
+  "keywords": [
+    "the semantics",
+    "we",
+    "current",
+    "training",
+    "semantics",
+    "gaussian density embeddings",
+    "two important properties",
+    "properties",
+    "loss",
+    "multi-relational probabilistic event embeddings",
+    "gaussian embeddings",
+    "learning",
+    "vector",
+    "deterministic vector embeddings",
+    "embeddings"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.384/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:13:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

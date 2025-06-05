@@ -1,0 +1,33 @@
+{
+  "id": "2024.arabicnlp-1.105",
+  "title": "B}angor {U}niversity at {W}ojood{NER} 2024: Advancing {A}rabic Named Entity Recognition with {CAM}e{LBERT}-Mix",
+  "authors": [
+    "Alshammari, Norah"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Second Arabic Natural Language Processing Conference",
+  "abstract": "This paper describes the approach and results of Bangor University’s participation in the WojoodNER 2024 shared task, specifically for Subtask-1: Closed-Track Flat Fine-Grain NER. We present a system utilizing a transformer-based model called bert-base-arabic-camelbert-mix, fine-tuned on the Wojood-Fine corpus. A key enhancement to our approach involves adding a linear layer on top of the bert-base-arabic-camelbert-mix to classify each token into one of 51 different entity types and subtypes, as well as the ‘O’ label for non-entity tokens. This linear layer effectively maps the contextualized embeddings produced by BERT to the desired output labels, addressing the complex challenges of fine-grained Arabic NER. The system achieved competitive results in precision, recall, and F1 scores, thereby contributing significant insights into the application of transformers in Arabic NER tasks.",
+  "keywords": [
+    "top",
+    "transformers",
+    "precision",
+    "f1",
+    "arabic-camelbert-mix",
+    "layer",
+    "precision recall",
+    "we",
+    "a transformer-based model",
+    "w ojood ner",
+    "the wojoodner",
+    "bert-base",
+    "the contextualized embeddings",
+    "camelbert",
+    "ner"
+  ],
+  "url": "https://aclanthology.org/2024.arabicnlp-1.105/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:03:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

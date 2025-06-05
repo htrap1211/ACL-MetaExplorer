@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.420",
+  "title": "Information-Theoretic Probing for Linguistic Structure",
+  "authors": [
+    "Pimentel, Tiago  and\nValvoda, Josef  and\nMaudslay, Rowan Hall  and\nZmigrod, Ran  and\nWilliams, Adina  and\nCotterell, Ryan"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "The success of neural networks on a diverse set of NLP tasks has led researchers to question how much these networks actually “know” about natural language. Probes are a natural way of assessing this. When probing, a researcher chooses a linguistic task and trains a supervised model to predict annotations in that linguistic task from the network’s learned representations. If the probe does well, the researcher may conclude that the representations encode knowledge related to the task. A commonly held belief is that using simpler models as probes is better; the logic is that simpler models will identify linguistic structure, but not learn the task itself. We propose an information-theoretic operationalization of probing as estimating mutual information that contradicts this received wisdom: one should always select the highest performing probe one can, even if it is more complex, since it will result in a tighter estimate, and thus reveal more of the linguistic information inherent in the representation. The experimental portion of our paper focuses on empirically estimating the mutual information between a linguistic property and BERT, comparing these estimates to several baselines. We evaluate on a set of ten typologically diverse languages often underrepresented in NLP research—plus English—totalling eleven languages. Our implementation is available inhttps://github.com/rycolab/info-theoretic-probing.",
+  "keywords": [
+    "info",
+    "encode",
+    "we",
+    "belief",
+    "neural",
+    "natural",
+    "it",
+    "information",
+    "nlp tasks",
+    "neural networks",
+    "bert",
+    "knowledge",
+    "language",
+    "nlp",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.420/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:47:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.488",
+  "title": "Multilingual Knowledge Graph Completion from Pretrained Language Models with Knowledge Constraints",
+  "authors": [
+    "Song, Ran  and\nHe, Shizhu  and\nGao, Shengxiang  and\nCai, Li  and\nLiu, Kang  and\nYu, Zhengtao  and\nZhao, Jun"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Multilingual Knowledge Graph Completion (mKGC) aim at solving queries in different languages by reasoning a tail entity thus improving multilingual knowledge graphs. Previous studies leverage multilingual pretrained language models (PLMs) and the generative paradigm to achieve mKGC. Although multilingual pretrained language models contain extensive knowledge of different languages, its pretraining tasks cannot be directly aligned with the mKGC tasks. Moreover, the majority of KGs and PLMs currently available exhibit a pronounced English-centric bias. This makes it difficult for mKGC to achieve good results, particularly in the context of low-resource languages. To overcome previous problems, this paper introduces global and local knowledge constraints for mKGC. The former is used to constrain the reasoning of answer entities , while the latter is used to enhance the representation of query contexts. The proposed method makes the pretrained model better adapt to the mKGC task. Experimental results on public datasets demonstrate that our method outperforms the previous SOTA on Hits@1 and Hits@10 by an average of 12.32% and 16.03%, which indicates that our proposed method has significant enhancement on mKGC.",
+  "keywords": [
+    "bias",
+    "graph",
+    "mkgc",
+    "answer",
+    "it",
+    "queries",
+    "the generative paradigm",
+    "kgs",
+    "the mkgc tasks",
+    "multilingual knowledge graphs",
+    "generative",
+    "a pronounced english-centric bias",
+    "previous studies",
+    "multilingual pretrained language models",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.488/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

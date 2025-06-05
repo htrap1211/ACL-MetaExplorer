@@ -1,0 +1,33 @@
+{
+  "id": "2021.wat-1.2",
+  "title": "NHK}{'}s Lexically-Constrained Neural Machine Translation at {WAT} 2021",
+  "authors": [
+    "Mino, Hideya  and\nKinugawa, Kazutaka  and\nIto, Hitoshi  and\nGoto, Isao  and\nYamada, Ichiro  and\nTokunaga, Takenobu"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 8th Workshop on Asian Translation (WAT2021)",
+  "abstract": "This paper describes the system of our team (NHK) for the WAT 2021 Japanese-English restricted machine translation task. In this task, the aim is to improve quality while maintaining consistent terminology for scientific paper translation. This task has a unique feature, where some words in a target sentence are given in addition to a source sentence. In this paper, we use a lexically-constrained neural machine translation (NMT), which concatenates the source sentence and constrained words with a special token to input them into the encoder of NMT. The key to the successful lexically-constrained NMT is the way to extract constraints from a target sentence of training data. We propose two extraction methods: proper-noun constraint and mistranslated-word constraint. These two methods consider the importance of words and fallibility of NMT, respectively. The evaluation results demonstrate the effectiveness of our lexical-constraint method.",
+  "keywords": [
+    "the evaluation results",
+    "the encoder",
+    "evaluation",
+    "translation",
+    "neural",
+    "extraction",
+    "machine",
+    "token",
+    "encoder",
+    "word",
+    "we",
+    "scientific",
+    "scientific paper translation",
+    "training",
+    "a target sentence"
+  ],
+  "url": "https://aclanthology.org/2021.wat-1.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.262",
+  "title": "Token Dropping for Efficient {BERT} Pretraining",
+  "authors": [
+    "Hou, Le  and\nPang, Richard Yuanzhe  and\nZhou, Tianyi  and\nWu, Yuexin  and\nSong, Xinying  and\nSong, Xiaodan  and\nZhou, Denny"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Transformer-based models generally allocate the same amount of computation for each token in a given sequence. We develop a simple but effective “token dropping” method to accelerate the pretraining of transformer models, such as BERT, without degrading its performance on downstream tasks. In particular, we drop unimportant tokens starting from an intermediate layer in the model to make the model focus on important tokens more efficiently if with limited computational resource. The dropped tokens are later picked up by the last layer of the model so that the model still produces full-length sequences. We leverage the already built-in masked language modeling (MLM) loss to identify unimportant tokens with practically no computational overhead. In our experiments, this simple approach reduces the pretraining cost of BERT by 25% while achieving similar overall fine-tuning performance on standard downstream tasks.",
+  "keywords": [
+    "transformer",
+    "tuning",
+    "transformer models",
+    "language",
+    "bert",
+    "model",
+    "efficient bert",
+    "efficient",
+    "token",
+    "transformer-based models",
+    "loss",
+    "layer",
+    "fine",
+    "we",
+    "sequence"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.262/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:27:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

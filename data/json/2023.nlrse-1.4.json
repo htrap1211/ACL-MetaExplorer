@@ -1,0 +1,33 @@
+{
+  "id": "2023.nlrse-1.4",
+  "title": "Saliency Map Verbalization: Comparing Feature Importance Representations from Model-free and Instruction-based Methods",
+  "authors": [
+    "Feldhus, Nils  and\nHennig, Leonhard  and\nNasert, Maximilian Dustin  and\nEbert, Christopher  and\nSchwarzenberg, Robert  and\nM{\\\"o}ller, Sebastian"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 1st Workshop on Natural Language Reasoning and Structured Explanations (NLRSE)",
+  "abstract": "Saliency maps can explain a neural model’s predictions by identifying important input features. They are difficult to interpret for laypeople, especially for instances with many features. In order to make them more accessible, we formalize the underexplored task of translating saliency maps into natural language and compare methods that address two key challenges of this approach – what and how to verbalize. In both automatic and human evaluation setups, using token-level attributions from text classification tasks, we compare two novel methods (search-based and instruction-based verbalizations) against conventional feature importance representations (heatmap visualizations and extractive rationales), measuring simulatability, faithfulness, helpfulness and ease of understanding. Instructing GPT-3.5 to generate saliency map verbalizations yields plausible explanations which include associations, abstractive summarization and commonsense reasoning, achieving by far the highest human ratings, but they are not faithfully capturing numeric information and are inconsistent in their interpretation of the task. In comparison, our search-based, model-free verbalization approach efficiently completes templated verbalizations, is faithful by design, but falls short in helpfulness and simulatability. Our results suggest that saliency map verbalization makes feature attribution explanations more comprehensible and less cognitively challenging to humans than conventional representations.",
+  "keywords": [
+    "summarization",
+    "we",
+    "text classification tasks",
+    "saliency map verbalizations",
+    "classification",
+    "instruction",
+    "neural",
+    "natural",
+    "associations abstractive summarization",
+    "map",
+    "token",
+    "gpt-3",
+    "information",
+    "saliency maps",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2023.nlrse-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:26:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.nlp4convai-1.10",
+  "title": "Knowledge Distillation Meets Few-Shot Learning: An Approach for Few-Shot Intent Classification Within and Across Domains",
+  "authors": [
+    "Sauer, Anna  and\nAsaadi, Shima  and\nK{\\\"u}ch, Fabian"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 4th Workshop on NLP for Conversational AI",
+  "abstract": "Large Transformer-based natural language understanding models have achieved state-of-the-art performance in dialogue systems. However, scarce labeled data for training, the large model size, and low inference speed hinder their deployment in low-resource scenarios. Few-shot learning and knowledge distillation techniques have been introduced to reduce the need for labeled data and computational resources, respectively. However, these techniques are incompatible because few-shot learning trains models using few data, whereas, knowledge distillation requires sufficient data to train smaller, yet competitive models that run on limited computational resources. In this paper, we address the problem of distilling generalizable small models under the few-shot setting for the intent classification task. Considering in-domain and cross-domain few-shot learning scenarios, we introduce an approach for distilling small models that generalize to new intent classes and domains using only a handful of labeled examples. We conduct experiments on public intent classification benchmarks, and observe a slight performance gap between small models and large Transformer-based models. Overall, our results in both few-shot scenarios confirm the generalization ability of the small distilled models while having lower computational costs.",
+  "keywords": [
+    "the generalization ability",
+    "the intent classification task",
+    "few-shot learning",
+    "generalizable",
+    "large transformer-based models",
+    "we",
+    "dialogue",
+    "shot",
+    "generalizable small models",
+    "classification",
+    "cross",
+    "natural",
+    "dialogue systems",
+    "cross-domain few-shot learning scenarios",
+    "both few-shot scenarios"
+  ],
+  "url": "https://aclanthology.org/2022.nlp4convai-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:45:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.36",
+  "title": "Biomedical Document Classification with Literature Graph Representations of Bibliographies and Entities",
+  "authors": [
+    "Ida, Ryuki  and\nMiwa, Makoto  and\nSasaki, Yutaka"
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "This paper proposes a new document classification method that incorporates the representations of a literature graph created from bibliographic and entity information. Recently, document classification performance has been significantly improved with large pre-trained language models; however, there still remain documents that are difficult to classify. External information, such as bibliographic information, citation links, descriptions of entities, and medical taxonomies, has been considered one of the keys to dealing with such documents in document classification. Although several document classification methods using external information have been proposed, they only consider limited relationships, e.g., word co-occurrence and citation relationships. However, there are multiple types of external information. To overcome the limitation of the conventional use of external information, we propose a document classification model that simultaneously considers bibliographic and entity information to deeply model the relationships among documents using the representations of the literature graph. The experimental results show that our proposed method outperforms existing methods on two document classification datasets in the biomedical domain with the help of the literature graph.",
+  "keywords": [
+    "bibliographies",
+    "several document classification methods",
+    "language",
+    "large pre-trained language models",
+    "document classification",
+    "two document classification datasets",
+    "co",
+    "biomedical document classification",
+    "medical taxonomies",
+    "entities",
+    "model",
+    "taxonomies",
+    "-",
+    "information",
+    "a document classification model"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.36/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

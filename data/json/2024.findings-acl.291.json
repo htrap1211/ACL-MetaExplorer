@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.291",
+  "title": "Language Models can Evaluate Themselves via Probability Discrepancy",
+  "authors": [
+    "Xia, Tingyu  and\nYu, Bowen  and\nWu, Yuan  and\nChang, Yi  and\nZhou, Chang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "In this paper, we begin by illustrating that, when presented with a query, Large Language Models (LLMs) capable of providing accurate responses tend to exhibit a more uniform probability distribution compared to their less proficient counterparts. Building upon this observation, we introduce a novel self-assessment criterion termed ProbDiff for evaluating the performance of diverse LLMs. This method eliminates the need for training an additional evaluation model or relying on external proprietary models such as GPT-4 as a judger. Instead, it solely relies on the LLMs under evaluation to compute the probability discrepancy between the original response generation and its revised versions. A higher discrepancy in two LLMs for the same query suggests a relatively weaker ability. We discover that ProbDiff yields comparable results to mainstream GPT-4-based evaluations on various scenarios including NLG tasks like translation and summarization, as well as LLM evaluation benchmarks such as AlignBench, MT-Bench, and AlpacaEval, across LLMs of different sizes.",
+  "keywords": [
+    "their less proficient counterparts",
+    "the llms",
+    "the original response generation",
+    "summarization",
+    "we",
+    "llm",
+    "translation",
+    "two llms",
+    "it",
+    "self",
+    "yields",
+    "llms",
+    "llm evaluation benchmarks",
+    "language models",
+    "gpt-4"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.291/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

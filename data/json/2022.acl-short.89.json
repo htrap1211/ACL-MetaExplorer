@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.89",
+  "title": "A Flexible Multi-Task Model for {BERT} Serving",
+  "authors": [
+    "Wei, Tianwen  and\nQi, Jianwei  and\nHe, Shenghuan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "We present an efficient BERT-based multi-task (MT) framework that is particularly suitable for iterative and incremental development of the tasks. The proposed framework is based on the idea of partial fine-tuning, i.e. only fine-tune some top layers of BERT while keep the other layers frozen. For each task, we train independently a single-task (ST) model using partial fine-tuning. Then we compress the task-specific layers in each ST model using knowledge distillation. Those compressed ST models are finally merged into one MT model so that the frozen layers of the former are shared across the tasks. We exemplify our approach on eight GLUE tasks, demonstrating that it is able to achieve 99.6% of the performance of the full fine-tuning method, while reducing up to two thirds of its overhead.",
+  "keywords": [
+    "tuning",
+    "knowledge",
+    "i",
+    "bert",
+    "model",
+    "partial fine-tuning",
+    "it",
+    "efficient",
+    "fine",
+    "we",
+    "the full fine-tuning method",
+    "that",
+    "one mt model",
+    "multi",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.89/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:33:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

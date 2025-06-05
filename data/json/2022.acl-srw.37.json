@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-srw.37",
+  "title": "A Checkpoint on Multilingual Misogyny Identification",
+  "authors": [
+    "Muti, Arianna  and\nBarr{\\'o}n-Cede{\\~n}o, Alberto"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "We address the problem of identifying misogyny in tweets in mono and multilingual settings in three languages: English, Italian, and Spanish. We explore model variations considering single and multiple languages both in the pre-training of the transformer and in the training of the downstream taskto explore the feasibility of detecting misogyny through a transfer learning approach across multiple languages. That is, we train monolingual transformers with monolingual data, and multilingual transformers with both monolingual and multilingual data. Our models reach state-of-the-art performance on all three languages. The single-language BERT models perform the best, closely followed by different configurations of multilingual BERT models. The performance drops in zero-shot classification across languages. Our error analysis shows that multilingual and monolingual models tend to make the same mistakes.",
+  "keywords": [
+    "transformer",
+    "multilingual bert models",
+    "the single-language bert models",
+    "transformers",
+    "language",
+    "bert",
+    "model",
+    "monolingual transformers",
+    "a transfer learning approach",
+    "-",
+    "the transformer",
+    "we",
+    "multilingual transformers",
+    "transfer",
+    "zero-shot classification"
+  ],
+  "url": "https://aclanthology.org/2022.acl-srw.37/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:34:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

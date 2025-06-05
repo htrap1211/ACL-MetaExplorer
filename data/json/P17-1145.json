@@ -1,0 +1,33 @@
+{
+  "id": "P17-1145",
+  "title": "W}atset: Automatic Induction of Synsets from a Graph of Synonyms",
+  "authors": [
+    "Ustalov, Dmitry  and\nPanchenko, Alexander  and\nBiemann, Chris"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "This paper presents a new graph-based approach that induces synsets using synonymy dictionaries and word embeddings. First, we build a weighted graph of synonyms extracted from commonly available resources, such as Wiktionary. Second, we apply word sense induction to deal with ambiguous words. Finally, we cluster the disambiguated version of the ambiguous input graph into synsets. Our meta-clustering approach lets us use an efficient hard clustering algorithm to perform a fuzzy clustering of the graph. Despite its simplicity, our approach shows excellent results, outperforming five competitive state-of-the-art methods in terms of F-score on three gold standard datasets for English and Russian derived from large-scale manually constructed lexical resources.",
+  "keywords": [
+    "embeddings",
+    "dictionaries",
+    "w",
+    "synonymy dictionaries",
+    "efficient",
+    "our meta-clustering approach",
+    "a fuzzy clustering",
+    "us",
+    "clustering",
+    "word",
+    "we",
+    "graph",
+    "word embeddings",
+    "that",
+    "induction"
+  ],
+  "url": "https://aclanthology.org/P17-1145/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:00:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

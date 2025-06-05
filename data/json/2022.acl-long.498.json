@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.498",
+  "title": "Distantly Supervised Named Entity Recognition via Confidence-Based Multi-Class Positive and Unlabeled Learning",
+  "authors": [
+    "Zhou, Kang  and\nLi, Yuepei  and\nLi, Qi"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this paper, we study the named entity recognition (NER) problem under distant supervision. Due to the incompleteness of the external dictionaries and/or knowledge bases, such distantly annotated training data usually suffer from a high false negative rate. To this end, we formulate the Distantly Supervised NER (DS-NER) problem via Multi-class Positive and Unlabeled (MPU) learning and propose a theoretically and practically novel CONFidence-based MPU (Conf-MPU) approach. To handle the incomplete annotations, Conf-MPU consists of two steps. First, a confidence score is estimated for each token of being an entity token. Then, the proposed Conf-MPU risk estimation is applied to train a multi-class classifier for the NER task. Thorough experiments on two benchmark datasets labeled by various external knowledge demonstrate the superiority of the proposed Conf-MPU over existing DS-NER methods. Our code is available at Github.",
+  "keywords": [
+    "the external dictionaries",
+    "code",
+    "ner",
+    "knowledge",
+    "dictionaries",
+    "end",
+    "conf",
+    "classifier",
+    "class",
+    "rate",
+    "existing ds-ner methods",
+    "token",
+    "we",
+    "learning",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.498/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:31:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

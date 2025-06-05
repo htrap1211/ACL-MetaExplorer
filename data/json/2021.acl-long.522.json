@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.522",
+  "title": "DE}xperts: Decoding-Time Controlled Text Generation with Experts and Anti-Experts",
+  "authors": [
+    "Liu, Alisa  and\nSap, Maarten  and\nLu, Ximing  and\nSwayamdipta, Swabha  and\nBhagavatula, Chandra  and\nSmith, Noah A.  and\nChoi, Yejin"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Despite recent advances in natural language generation, it remains challenging to control attributes of generated text. We propose DExperts: Decoding-time Experts, a decoding-time method for controlled text generation that combines a pretrained language model with “expert” LMs and/or “anti-expert” LMs in a product of experts. Intuitively, under the ensemble, tokens only get high probability if they are considered likely by the experts, and unlikely by the anti-experts. We apply DExperts to language detoxification and sentiment-controlled generation, where we outperform existing controllable generation methods on both automatic and human evaluations. Moreover, because DExperts operates only on the output of the pretrained LM, it is effective with (anti-)experts of smaller size, including when operating on GPT-3. Our work highlights the promise of tuning small LMs on text with (un)desirable attributes for efficient decoding-time steering.",
+  "keywords": [
+    "ensemble",
+    "work",
+    "sentiment",
+    "existing controllable generation methods",
+    "generation",
+    "language",
+    "natural",
+    "model",
+    "the ensemble tokens",
+    "a pretrained language model",
+    "text",
+    "it",
+    "human",
+    "evaluations",
+    "efficient"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.522/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

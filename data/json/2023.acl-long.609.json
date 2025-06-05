@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.609",
+  "title": "M}asakha{POS}: Part-of-Speech Tagging for Typologically Diverse {A}frican languages",
+  "authors": [
+    "Dione, Cheikh M. Bamba  and\nAdelani, David Ifeoluwa  and\nNabende, Peter  and\nAlabi, Jesujoba  and\nSindane, Thapelo  and\nBuzaaba, Happy  and\nMuhammad, Shamsuddeen Hassan  and\nEmezue, Chris Chinenye  and\nOgayo, Perez  and\nAremu, Anuoluwapo  and\nGitau, Catherine  and\nMbaye, Derguene  and\nMukiibi, Jonathan  and\nSibanda, Blessing  and\nDossou, Bonaventure F. P.  and\nBukula, Andiswa  and\nMabuya, Rooweither  and\nTapo, Allahsera Auguste  and\nMunkoh-Buabeng, Edwin  and\nMemdjokam Koagne, Victoire  and\nOuoba Kabore, Fatoumata  and\nTaylor, Amelia  and\nKalipe, Godson  and\nMacucwa, Tebogo  and\nMarivate, Vukosi  and\nGwadabe, Tajuddeen  and\nElvis, Mboning Tchiaze  and\nOnyenwe, Ikechukwu  and\nAtindogbe, Gratien  and\nAdelani, Tolulope  and\nAkinade, Idris  and\nSamuel, Olanrewaju  and\nNahimana, Marien  and\nMusabeyezu, Th{\\'e}og{\\`e}ne  and\nNiyomutabazi, Emile  and\nChimhenga, Ester  and\nGotosa, Kudzai  and\nMizha, Patrick  and\nAgbolo, Apelete  and\nTraore, Seydou  and\nUchechukwu, Chinedu  and\nYusuf, Aliyu  and\nAbdullahi, Muhammad  and\nKlakow, Dietrich"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this paper, we present AfricaPOS, the largest part-of-speech (POS) dataset for 20 typologically diverse African languages. We discuss the challenges in annotating POS for these languages using the universal dependencies (UD) guidelines. We conducted extensive POS baseline experiments using both conditional random field and several multilingual pre-trained language models. We applied various cross-lingual transfer models trained with data available in the UD. Evaluating on the AfricaPOS dataset, we show that choosing the best transfer language(s) in both single-source and multi-source setups greatly improves the POS tagging performance of the target languages, in particular when combined with parameter-fine-tuning methods. Crucially, transferring knowledge from a language that matches the language family and morphosyntactic properties seems to be more effective for POS tagging in unseen languages.",
+  "keywords": [
+    "cross",
+    "both conditional random field",
+    "tuning",
+    "knowledge",
+    "random",
+    "language",
+    "pos",
+    "field",
+    "dependencies",
+    "parameter-fine-tuning methods",
+    "properties",
+    "tagging",
+    "fine",
+    "we",
+    "transfer"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.609/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

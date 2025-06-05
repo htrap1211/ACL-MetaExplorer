@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.738",
+  "title": "Moving Beyond Downstream Task Accuracy for Information Retrieval Benchmarking",
+  "authors": [
+    "Santhanam, Keshav  and\nSaad-Falcon, Jon  and\nFranz, Martin  and\nKhattab, Omar  and\nSil, Avi  and\nFlorian, Radu  and\nSultan, Md Arafat  and\nRoukos, Salim  and\nZaharia, Matei  and\nPotts, Christopher"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Neural information retrieval (IR) systems have progressed rapidly in recent years, in large part due to the release of publicly available benchmarking tasks. Unfortunately, some dimensions of this progress are illusory: the majority of the popular IR benchmarks today focus exclusively on downstream task accuracy and thus conceal the costs incurred by systems that trade away efficiency for quality. Latency, hardware cost, and other efficiency considerations are paramount to the deployment of IR systems in user-facing settings. We propose that IR benchmarks structure their evaluation methodology to include not only metrics of accuracy, but also efficiency considerations such as a query latency and the corresponding cost budget for a reproducible hardware setting. For the popular IR benchmarks MS MARCO and XOR-TyDi, we show how the best choice of IR system varies according to how these efficiency considerations are chosen and weighed. We hope that future benchmarks will adopt these guidelines toward more holistic IR evaluation.",
+  "keywords": [
+    "benchmarking neural information retrieval",
+    "other efficiency considerations",
+    "efficiency",
+    "we",
+    "neural",
+    "retrieval",
+    "information",
+    "more holistic ir evaluation",
+    "metrics",
+    "information retrieval",
+    "downstream task accuracy",
+    "accuracy",
+    "their evaluation methodology",
+    "evaluation",
+    "efficiency considerations"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.738/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

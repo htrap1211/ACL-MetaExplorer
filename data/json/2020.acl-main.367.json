@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.367",
+  "title": "Autoencoding Pixies: Amortised Variational Inference with Graph Convolutions for Functional Distributional Semantics",
+  "authors": [
+    "Emerson, Guy"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Functional Distributional Semantics provides a linguistically interpretable framework for distributional semantics, by representing the meaning of a word as a function (a binary classifier), instead of a vector. However, the large number of latent variables means that inference is computationally expensive, and training a model is therefore slow to converge. In this paper, I introduce the Pixie Autoencoder, which augments the generative model of Functional Distributional Semantics with a graph-convolutional neural network to perform amortised variational inference. This allows the model to be trained more effectively, achieving better results on two tasks (semantic similarity in context and semantic composition), and outperforming BERT, a large pre-trained language model.",
+  "keywords": [
+    "generative",
+    "vector",
+    "two tasks semantic similarity",
+    "i",
+    "language",
+    "functional distributional semantics",
+    "neural",
+    "bert",
+    "classifier",
+    "model",
+    "semantics",
+    "pixie",
+    "the pixie autoencoder",
+    "autoencoder",
+    "a binary classifier"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.367/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:47:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

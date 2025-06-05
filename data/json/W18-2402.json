@@ -1,0 +1,33 @@
+{
+  "id": "W18-2402",
+  "title": "Connecting Distant Entities with Induction through Conditional Random Fields for Named Entity Recognition: Precursor-Induced {CRF",
+  "authors": [
+    "Lee, Wangjin  and\nChoi, Jinwook"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the Seventh Named Entities Workshop",
+  "abstract": "This paper presents a method of designing specific high-order dependency factor on the linear chain conditional random fields (CRFs) for named entity recognition (NER). Named entities tend to be separated from each other by multiple outside tokens in a text, and thus the first-order CRF, as well as the second-order CRF, may innately lose transition information between distant named entities. The proposed design uses outside label in NER as a transmission medium of precedent entity information on the CRF. Then, empirical results apparently demonstrate that it is possible to exploit long-distance label dependency in the original first-order linear chain CRF structure upon NER while reducing computational loss rather than in the second-order CRF.",
+  "keywords": [
+    "conditional random fields",
+    "ner",
+    "random",
+    "entities",
+    "text",
+    "it",
+    "chain",
+    "loss",
+    "long-distance label dependency",
+    "conditional random fields crfs",
+    "information",
+    "dependency",
+    "fields",
+    "distant named entities",
+    "specific high-order dependency factor"
+  ],
+  "url": "https://aclanthology.org/W18-2402/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:22:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

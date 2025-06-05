@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.19",
+  "title": "The Larger they are, the Harder they Fail: Language Models do not Recognize Identifier Swaps in Python",
+  "authors": [
+    "Miceli Barone, Antonio Valerio  and\nBarez, Fazl  and\nCohen, Shay B.  and\nKonstas, Ioannis"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Large Language Models (LLMs) have successfully been applied to code generation tasks, raising the question of how well these models understand programming. Typical programming languages have invariances and equivariances in their semantics that human programmers intuitively understand and exploit, such as the (near) invariance to the renaming of identifiers. We show that LLMs not only fail to properly generate correct Python code when default function names are swapped, but some of them even become more confident in their incorrect predictions as the model size increases, an instance of the recently discovered phenomenon of Inverse Scaling, which runs contrary to the commonly observed trend of increasing prediction quality with increasing model size. Our findings indicate that, despite their astonishing typical-case performance, LLMs still lack a deep, abstract understanding of the content they manipulate, making them unsuitable for tasks that statistically deviate from their training data, and that mere scaling is not enough to achieve such capability.",
+  "keywords": [
+    "deep",
+    "code",
+    "code generation tasks",
+    "invariances",
+    "the near invariance",
+    "question",
+    "we",
+    "training",
+    "identifier swaps",
+    "identifiers",
+    "semantics",
+    "llms",
+    "equivariances",
+    "language models",
+    "identifier"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

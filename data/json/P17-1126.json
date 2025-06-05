@@ -1,0 +1,33 @@
+{
+  "id": "P17-1126",
+  "title": "Learning to Generate Market Comments from Stock Prices",
+  "authors": [
+    "Murakami, Soichiro  and\nWatanabe, Akihiko  and\nMiyazawa, Akira  and\nGoshima, Keiichi  and\nYanase, Toshihiko  and\nTakamura, Hiroya  and\nMiyao, Yusuke"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "This paper presents a novel encoder-decoder model for automatically generating market comments from stock prices. The model first encodes both short- and long-term series of stock prices so that it can mention short- and long-term changes in stock prices. In the decoding phase, our model can also generate a numerical value by selecting an appropriate arithmetic operation such as subtraction or rounding, and applying it to the input stock prices. Empirical experiments show that our best model generates market comments at the fluency and the informativeness approaching human-generated reference texts.",
+  "keywords": [
+    "reference",
+    "model",
+    "it",
+    "human",
+    "human-generated reference texts",
+    "encoder",
+    "series",
+    "decoder",
+    "a novel encoder-decoder model",
+    "automatically generating market comments",
+    "term",
+    "comments",
+    "market comments",
+    "empirical experiments",
+    "empirical"
+  ],
+  "url": "https://aclanthology.org/P17-1126/",
+  "provenance": {
+    "collected_at": "2025-06-04 23:59:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

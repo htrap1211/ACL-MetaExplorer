@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.28",
+  "title": "Fantastic Expressions and Where to Find Them: {C}hinese Simile Generation with Multiple Constraints",
+  "authors": [
+    "Yang, Kexin  and\nLiu, Dayiheng  and\nLei, Wenqiang  and\nYang, Baosong  and\nWei, Xiangpeng  and\nLiu, Zhengyuan  and\nXie, Jun"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Similes occur in the creative context of describing a concept (i.e., tenor) by making a literally false yet figuratively meaningful comparison to another (i.e., vehicle). Previous efforts form simile generation as a context-free generation task, focusing on simile-style transfer or writing a simile from a given prefix. However, generated texts under such settings might be undesirable, such as hardly meeting the simile definition (e.g., missing vehicle) or difficult to address certain preferences of content as humans wish (e.g., describe the color of apples through the simile). We believe that a simile could be more qualified and user-oriented if incorporated with pre-specified constraints. To this end, we introduce controllable simile generation (CSG), a new task that requires the model to generate a simile with multiple simile elements, e.g., context and vehicle. To facilitate this task, we present GraCe, including 61.3k simile-element annotated Chinese similes. Based on it, we propose a CSG model Similor to benchmark this task, including a vehicle retrieval module Scorer to obtain the explicable comparison for a given tenor in the vehicle-unknown situation. Both statistical and experimental analyses show that GraCe is of high quality beyond all other Chinese simile datasets, in terms of the number (8 vs. 3) of annotation elements, Is-Simile accuracy (98.9% vs. 78.7%), and increasing model-performance gains for both uncontrollable and controllable simile generation. Meanwhile, Similor can serve as a strong baseline for CSG, especially with Scorer, which beats model-based retrieval methods without any re-training.",
+  "keywords": [
+    "end",
+    "a context-free generation task",
+    "we",
+    "training",
+    "qualified",
+    "it",
+    "simile generation",
+    "simile accuracy",
+    "retrieval",
+    "transfer",
+    "model-based retrieval methods",
+    "i",
+    "however generated texts",
+    "-",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.28/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:35:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

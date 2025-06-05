@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.246",
+  "title": "Zemi: Learning Zero-Shot Semi-Parametric Language Models from Multiple Tasks",
+  "authors": [
+    "Wang, Zhenhailong  and\nPan, Xiaoman  and\nYu, Dian  and\nYu, Dong  and\nChen, Jianshu  and\nJi, Heng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Although large language models have exhibited impressive zero-shot ability, the huge model size generally incurs high cost. Recently, semi-parametric language models, which augment a smaller language model with retrieved related background knowledge, alleviate the need for storing everything into the model parameters. Although existing semi-parametric language models have demonstrated promising language modeling capabilities, it remains unclear whether they can exhibit competitive zero-shot abilities as their fully-parametric counterparts. In this work, we introduce Zemi, a semi-parametric language model for zero-shot task generalization. To our best knowledge, this is the first semi-parametric language model that can demonstrate strong zero-shot performance on a wide range of held-out unseen tasks. We train Zemi with semi-parametric multitask training, which shows significant improvement compared with the parametric multitask training as proposed by T0. Specifically, during both training and inference, Zemi is equipped with a retrieval system based on the unlabeled pretraining corpus of our backbone model. To address the unique challenges from large-scale retrieval, we further propose a novel retrieval-augmentation fusion module that can effectively incorporate noisy retrieved documents. Finally, we show detailed analysis and ablation studies on the key ingredients towards building effective zero-shot semi-parametric language models. Notably, our proposed Zemi_Large model outperforms T0-3B by 16% across seven diverse evaluation tasks while being 3.8x smaller in scale.",
+  "keywords": [
+    "competitive zero-shot abilities",
+    "ablation studies",
+    "the key ingredients",
+    "we",
+    "fusion",
+    "zero-shot semi-parametric language models",
+    "shot",
+    "language modeling capabilities",
+    "training",
+    "it",
+    "strong zero-shot performance",
+    "retrieval",
+    "retrieved related background knowledge",
+    "a semi-parametric language model",
+    "ingredients"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.246/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

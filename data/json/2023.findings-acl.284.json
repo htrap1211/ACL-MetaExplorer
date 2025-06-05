@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.284",
+  "title": "Large Language Models Can be Lazy Learners: Analyze Shortcuts in In-Context Learning",
+  "authors": [
+    "Tang, Ruixiang  and\nKong, Dehan  and\nHuang, Longtao  and\nXue, Hui"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Large language models (LLMs) have recently shown great potential for in-context learning, where LLMs learn a new task simply by conditioning on a few input-label pairs (prompts). Despite their potential, our understanding of the factors influencing end-task performance and the robustness of in-context learning remains limited. This paper aims to bridge this knowledge gap by investigating the reliance of LLMs on shortcuts or spurious correlations within prompts. Through comprehensive experiments on classification and extraction tasks, we reveal that LLMs are “lazy learners” that tend to exploit such shortcuts. Additionally, we uncover a surprising finding that larger models are more likely to utilize shortcuts in prompts during inference. Our findings provide a new perspective on evaluating robustness in in-context learning and pose new challenges for detecting and mitigating the use of shortcuts in prompts.",
+  "keywords": [
+    "prompts",
+    "knowledge",
+    "end",
+    "language",
+    "learners",
+    "extraction",
+    "large language models",
+    "large language models llms",
+    "lazy learners",
+    "classification and extraction tasks",
+    "we",
+    "learning",
+    "classification",
+    "llms",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.284/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.541",
+  "title": "Predicting Text Preference Via Structured Comparative Reasoning",
+  "authors": [
+    "Yan, Jing Nathan  and\nLiu, Tianqi  and\nChiu, Justin  and\nShen, Jiaming  and\nQin, Zhen  and\nYu, Yue  and\nLakshmanan, Charumathi  and\nKurzion, Yair  and\nRush, Alexander  and\nLiu, Jialu  and\nBendersky, Michael"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Comparative reasoning plays a crucial role in predicting text preferences; however, large language models (LLMs) often demonstrate inconsistencies in their reasoning, leading to incorrect preference predictions. While approaches like Chain-of-Thought improve accuracy in many settings, they struggle to consistently distinguish the similarities and differences of complex texts. We introduceSC2, a model that prompts LLMs to predict text preferences by generating structured intermediate comparisons.SC2begins by proposing aspects for comparison, followed by generating textual comparisons under each aspect. We select consistent comparisons with a pairwise comparator that ensures each comparison of a given aspect clearly distinguishes differences between texts, significantly reducing hallucination and improving consistency. Our empirical studies across various NLP tasks, including summarization, retrieval, and automatic rating, demonstrate thatSC2‘s enhanced performance in text preference prediction is significant.",
+  "keywords": [
+    "inconsistencies",
+    "similarities",
+    "language",
+    "thought",
+    "nlp",
+    "our empirical studies",
+    "model",
+    "text",
+    "studies",
+    "the similarities",
+    "chain",
+    "retrieval",
+    "various nlp tasks",
+    "summarization",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.541/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

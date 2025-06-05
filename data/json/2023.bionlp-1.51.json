@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.51",
+  "title": "CUED} at {P}rob{S}um 2023: Hierarchical Ensemble of Summarization Models",
+  "authors": [
+    "Manakul, Potsawee  and\nFathullah, Yassir  and\nLiusie, Adian  and\nRaina, Vyas  and\nRaina, Vatsal  and\nGales, Mark"
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "In this paper, we consider the challenge of summarizing patients medical progress notes in a limited data setting. For the Problem List Summarization (shared task 1A) at the BioNLP Workshop 2023, we demonstrate that ClinicalT5 fine-tuned to 765 medical clinic notes outperforms other extractive, abstractive and zero-shot baselines, yielding reasonable baseline systems for medical note summarization. Further, we introduce Hierarchical Ensemble of Summarization Models (HESM), consisting of token-level ensembles of diverse fine-tuned ClinicalT5 models, followed by Minimum Bayes Risk (MBR) decoding. Our HESM approach lead to a considerable summarization performance boost, and when evaluated on held-out challenge data achieved a ROUGE-L of 32.77, which was the best-performing system at the top of the shared task leaderboard.",
+  "keywords": [
+    "ensemble",
+    "ensembles",
+    "hierarchical",
+    "medical note summarization",
+    "hierarchical ensemble",
+    "patients",
+    "a rouge-l",
+    "token",
+    "bionlp",
+    "token-level ensembles",
+    "the bionlp workshop",
+    "boost",
+    "summarization models",
+    "fine",
+    "summarization"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.51/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

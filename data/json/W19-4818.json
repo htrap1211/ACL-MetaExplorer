@@ -1,0 +1,33 @@
+{
+  "id": "W19-4818",
+  "title": "Derivational Morphological Relations in Word Embeddings",
+  "authors": [
+    "Musil, Tom{\\'a}{\\v{s}}  and\nVidra, Jon{\\'a}{\\v{s}}  and\nMare{\\v{c}}ek, David"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
+  "abstract": "Derivation is a type of a word-formation process which creates new words from existing ones by adding, changing or deleting affixes. In this paper, we explore the potential of word embeddings to identify properties of word derivations in the morphologically rich Czech language. We extract derivational relations between pairs of words from DeriNet, a Czech lexical network, which organizes almost one million Czech lemmas into derivational trees. For each such pair, we compute the difference of the embeddings of the two words, and perform unsupervised clustering of the resulting vectors. Our results show that these clusters largely match manually annotated semantic categories of the derivational relations (e.g. the relation ‘bake–baker’ belongs to category ‘actor’, and a correct clustering puts it into the same cluster as ‘govern–governor’).",
+  "keywords": [
+    "embeddings",
+    "formation",
+    "process",
+    "the embeddings",
+    "language",
+    "categories",
+    "cluster",
+    "it",
+    "vectors",
+    "the resulting vectors",
+    "properties",
+    "manually annotated semantic categories",
+    "a correct clustering",
+    "unsupervised clustering",
+    "rich"
+  ],
+  "url": "https://aclanthology.org/W19-4818/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:57:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

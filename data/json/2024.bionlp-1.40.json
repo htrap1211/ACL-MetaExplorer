@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.40",
+  "title": "Efficient Biomedical Entity Linking: Clinical Text Standardization with Low-Resource Techniques",
+  "authors": [
+    "Achara, Akshit  and\nSasidharan, Sanand  and\nN, Gagan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "Clinical text is rich in information, with mentions of treatment, medication and anatomy among many other clinical terms. Multiple terms can refer to the same core concepts which can be referred as a clinical entity. Ontologies like the Unified Medical Language System (UMLS) are developed and maintained to store millions of clinical entities including the definitions, relations and other corresponding information. These ontologies are used for standardization of clinical text by normalizing varying surface forms of a clinical term through Biomedical entity linking. With the introduction of transformer-based language models, there has been significant progress in Biomedical entity linking. In this work, we focus on learning through synonym pairs associated with the entities. As compared to the existing approaches, our approach significantly reduces the training data and resource consumption. Moreover, we propose a suite of context-based and context-less reranking techniques for performing the entity disambiguation. Overall, we achieve similar performance to the state-of-the-art zero-shot and distant supervised entity linking techniques on the Medmentions dataset, the largest annotated dataset on UMLS, without any domain-based training. Finally, we show that retrieval performance alone might not be sufficient as an evaluation metric and introduce an article level quantitative and qualitative analysis to reveal further insights on the performance of entity linking methods.",
+  "keywords": [
+    "efficient biomedical entity",
+    "efficient",
+    "these ontologies",
+    "a clinical entity ontologies",
+    "we",
+    "shot",
+    "training",
+    "the entities",
+    "ontologies",
+    "unified",
+    "retrieval",
+    "information",
+    "sufficient",
+    "rich",
+    "an evaluation"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.40/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

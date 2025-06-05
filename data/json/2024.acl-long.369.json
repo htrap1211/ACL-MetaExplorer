@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.369",
+  "title": "A Glitch in the Matrix? Locating and Detecting Language Model Grounding with Fakepedia",
+  "authors": [
+    "Monea, Giovanni  and\nPeyrard, Maxime  and\nJosifoski, Martin  and\nChaudhary, Vishrav  and\nEisner, Jason  and\nKiciman, Emre  and\nPalangi, Hamid  and\nPatra, Barun  and\nWest, Robert"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large language models (LLMs) have an impressive ability to draw on novel information supplied in their context. Yet the mechanisms underlying this contextual grounding remain unknown, especially in situations where contextual information contradicts factual knowledge stored in the parameters, which LLMs also excel at recalling. Favoring the contextual information is critical for retrieval-augmented generation methods, which enrich the context with up-to-date information, hoping that grounding can rectify outdated or noisy stored knowledge. We present a novel method to study grounding abilities using Fakepedia, a novel dataset of counterfactual texts constructed to clash with a model’s internal parametric knowledge. In this study, we introduce Fakepedia, a counterfactual dataset designed to evaluate grounding abilities when the internal parametric knowledge clashes with the contextual information. We benchmark various LLMs with Fakepedia and conduct a causal mediation analysis of LLM components when answering Fakepedia queries, based on our Masked Grouped Causal Tracing (MGCT) method. Through this analysis, we identify distinct computational patterns between grounded and ungrounded responses. We finally demonstrate that distinguishing grounded from ungrounded responses is achievable through computational analysis alone. Our results, together with existing findings about factual recall mechanisms, provide a coherent narrative of how grounding and factual recall mechanisms interact within LLMs.",
+  "keywords": [
+    "achievable",
+    "we",
+    "llm",
+    "queries",
+    "retrieval",
+    "information",
+    "factual recall mechanisms",
+    "retrieval-augmented generation methods",
+    "analysis",
+    "llms",
+    "abilities",
+    "language model",
+    "various llms",
+    "recall",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.369/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

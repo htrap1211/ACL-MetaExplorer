@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.59",
+  "title": "AQE}: Argument Quadruplet Extraction via a Quad-Tagging Augmented Generative Approach",
+  "authors": [
+    "Guo, Jia  and\nCheng, Liying  and\nZhang, Wenxuan  and\nKok, Stanley  and\nLi, Xin  and\nBing, Lidong"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Argument mining involves multiple sub-tasks that automatically identify argumentative elements, such as claim detection, evidence extraction, stance classification, etc. However, each subtask alone is insufficient for a thorough understanding of the argumentative structure and reasoning process. To learn a complete view of an argument essay and capture the interdependence among argumentative components, we need to know what opinions people hold (i.e., claims), why those opinions are valid (i.e., supporting evidence), which source the evidence comes from (i.e., evidence type), and how those claims react to the debating topic (i.e., stance). In this work, we for the first time propose a challenging argument quadruplet extraction task (AQE), which can provide an all-in-one extraction of four argumentative components, i.e., claims, evidence, evidence types, and stances. To support this task, we construct a large-scale and challenging dataset. However, there is no existing method that can solve the argument quadruplet extraction. To fill this gap, we propose a novel quad-tagging augmented generative approach, which leverages a quadruplet tagging module to augment the training of the generative framework. The experimental results on our dataset demonstrate the empirical superiority of our proposed approach over several strong baselines.",
+  "keywords": [
+    "extraction",
+    "we",
+    "valid",
+    "training",
+    "classification",
+    "e",
+    "generative",
+    "i",
+    "a complete view",
+    "topic",
+    "-",
+    "insufficient",
+    "mining",
+    "work",
+    "process"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.59/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

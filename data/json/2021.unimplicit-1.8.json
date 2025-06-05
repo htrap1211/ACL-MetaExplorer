@@ -1,0 +1,33 @@
+{
+  "id": "2021.unimplicit-1.8",
+  "title": "TTCB} System Description to a Shared Task on Implicit and Underspecified Language 2021",
+  "authors": [
+    "Wiriyathammabhum, Peratham"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 1st Workshop on Understanding Implicit and Underspecified Language",
+  "abstract": "In this report, we describe our transformers for text classification baseline (TTCB) submissions to a shared task on implicit and underspecified language 2021. We cast the task of predicting revision requirements in collaboratively edited instructions as text classification. We considered transformer-based models which are the current state-of-the-art methods for text classification. We explored different training schemes, loss functions, and data augmentations. Our best result of68.45%test accuracy (68.84%validation accuracy), however, consists of an XLNet model with a linear annealing scheduler and a cross-entropy loss. We do not observe any significant gain on any validation metric based on our various design choices except the MiniLM which has a higher validation F1 score and is faster to train by a half but also a lower validation accuracy score.",
+  "keywords": [
+    "cross",
+    "transformer",
+    "transformers",
+    "validation",
+    "language",
+    "our transformers",
+    "a linear annealing scheduler",
+    "model",
+    "metric",
+    "underspecified",
+    "text",
+    "transformer-based models",
+    "loss",
+    "underspecified language",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2021.unimplicit-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

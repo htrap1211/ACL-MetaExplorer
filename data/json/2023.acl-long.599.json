@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.599",
+  "title": "Target-Side Augmentation for Document-Level Machine Translation",
+  "authors": [
+    "Bao, Guangsheng  and\nTeng, Zhiyang  and\nZhang, Yue"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Document-level machine translation faces the challenge of data sparsity due to its long input length and a small amount of training data, increasing the risk of learning spurious patterns. To address this challenge, we propose a target-side augmentation method, introducing a data augmentation (DA) model to generate many potential translations for each source document. Learning on these wider range translations, an MT model can learn a smoothed distribution, thereby reducing the risk of data sparsity. We demonstrate that the DA model, which estimates the posterior distribution, largely improves the MT performance, outperforming the previous best system by 2.30 s-BLEU on News and achieving new state-of-the-art on News and Europarl benchmarks.",
+  "keywords": [
+    "model",
+    "machine",
+    "bleu",
+    "-",
+    "many potential translations",
+    "we",
+    "these wider range translations",
+    "translations",
+    "training",
+    "translation",
+    "news",
+    "new",
+    "state",
+    "the-art",
+    "europarl"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.599/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

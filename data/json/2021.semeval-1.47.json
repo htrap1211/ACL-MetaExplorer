@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.47",
+  "title": "DPR} at {S}em{E}val-2021 Task 8: Dynamic Path Reasoning for Measurement Relation Extraction",
+  "authors": [
+    "Pouran Ben Veyseh, Amir  and\nDernoncourt, Franck  and\nNguyen, Thien Huu"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "Scientific documents are replete with measurements mentioned in various formats and styles. As such, in a document with multiple quantities and measured entities, the task of associating each quantity to its corresponding measured entity is challenging. Thus, it is necessary to have a method to efficiently extract all measurements and attributes related to them. To this end, in this paper, we propose a novel model for the task of measurement relation extraction (MRE) whose goal is to recognize the relation between measured entities, quantities, and conditions mentioned in a document. Our model employs a deep translation-based architecture to dynamically induce the important words in the document to classify the relation between a pair of entities. Furthermore, we introduce a novel regularization technique based on Information Bottleneck (IB) to filter out the noisy information from the induced set of important words. Our experiments on the recent SemEval 2021 Task 8 datasets reveal the effectiveness of the proposed model.",
+  "keywords": [
+    "deep",
+    "end",
+    "extraction",
+    "we",
+    "quantities",
+    "multiple quantities",
+    "translation",
+    "it",
+    "information",
+    "scientific",
+    "measured entities",
+    "a novel regularization technique",
+    "a deep translation-based architecture",
+    "model",
+    "entities"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.47/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:20:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

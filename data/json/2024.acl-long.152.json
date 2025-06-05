@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.152",
+  "title": "Rethinking Task-Oriented Dialogue Systems: From Complex Modularity to Zero-Shot Autonomous Agent",
+  "authors": [
+    "Xu, Heng-Da  and\nMao, Xian-Ling  and\nYang, Puhai  and\nSun, Fanshu  and\nHuang, Heyan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Task-oriented dialogue (TOD) systems are predominantly designed to be composed of several functional modules (e.g. dialogue state tracker, dialogue policy, natural language generation) whether they are pipeline or end-to-end architectures. However, this modular design not only heavily relies on massive fully-annotated data, but also suffers from many intrinsic drawbacks, such as serious error accumulation, poor generalization ability, high customization cost, and low fault tolerance rate. In this paper, we rethink the architecture of the task-oriented dialogue systems and propose a novel fully zero-shot autonomous TOD agent, named AutoTOD, where all the delicate modules in traditional TOD systems are deprecated and all it needs is a general-purpose instruction-following language model (e.g. GPT-4). AutoTOD only leverages a simple instruction schema consisting of the description of tasks and external APIs, and can autonomously decide what to do at each dialogue turn, including asking for information, calling APIs, summarizing API results, and correcting previous mistakes. Moreover, we propose a simulation-based evaluation framework to better validate the abilities of TOD models in real-life scenarios. Extensive experiments conducted on the MultiWOZ and SGD datasets show the superior task completion ability and flexible language skills of AutoTOD.",
+  "keywords": [
+    "end",
+    "rate",
+    "a simulation-based evaluation framework",
+    "all",
+    "we",
+    "dialogue",
+    "shot",
+    "instruction",
+    "natural",
+    "it",
+    "information",
+    "each dialogue turn",
+    "abilities",
+    "generalization",
+    "the task-oriented dialogue systems"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.152/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

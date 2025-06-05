@@ -1,0 +1,33 @@
+{
+  "id": "W18-3109",
+  "title": "Unsupervised Word Influencer Networks from News Streams",
+  "authors": [
+    "Balashankar, Ananth  and\nChakraborty, Sunandan  and\nSubramanian, Lakshminarayanan"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the First Workshop on Economics and Natural Language Processing",
+  "abstract": "In this paper, we propose a new unsupervised learning framework to use news events for predicting trends in stock prices. We present Word Influencer Networks (WIN), a graph framework to extract longitudinal temporal relationships between any pair of informative words from news streams. Using the temporal occurrence of words, WIN measures how the appearance of one word in a news stream influences the emergence of another set of words in the future. The latent word-word influencer relationships in WIN are the building blocks for causal reasoning and predictive modeling. We demonstrate the efficacy of WIN by using it for unsupervised extraction of latent features for stock price prediction and obtain 2 orders lower prediction error compared to a similar causal graph based method. WIN discovered influencer links from seemingly unrelated words from topics like politics to finance. WIN also validated 67% of the causal evidence found manually in the text through a direct edge and the rest 33% through a path of length 2.",
+  "keywords": [
+    "extraction",
+    "we",
+    "graph",
+    "edge",
+    "it",
+    "latent",
+    "word",
+    "text",
+    "rest",
+    "modeling",
+    "occurrence",
+    "politics",
+    "measures",
+    "influencer",
+    "error"
+  ],
+  "url": "https://aclanthology.org/W18-3109/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:07:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

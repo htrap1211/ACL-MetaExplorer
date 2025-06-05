@@ -1,0 +1,33 @@
+{
+  "id": "W19-4108",
+  "title": "End-to-End Neural Context Reconstruction in {C}hinese Dialogue",
+  "authors": [
+    "Yang, Wei  and\nQiao, Rui  and\nQin, Haocheng  and\nSun, Amy  and\nTan, Luchen  and\nXiong, Kun  and\nLi, Ming"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the First Workshop on NLP for Conversational AI",
+  "abstract": "We tackle the problem of context reconstruction in Chinese dialogue, where the task is to replace pronouns, zero pronouns, and other referring expressions with their referent nouns so that sentences can be processed in isolation without context. Following a standard decomposition of the context reconstruction task into referring expression detection and coreference resolution, we propose a novel end-to-end architecture for separately and jointly accomplishing this task. Key features of this model include POS and position encoding using CNNs and a novel pronoun masking mechanism. One perennial problem in building such models is the paucity of training data, which we address by augmenting previously-proposed methods to generate a large amount of realistic training data. The combination of more data and better models yields accuracy higher than the state-of-the-art method in coreference resolution and end-to-end context reconstruction.",
+  "keywords": [
+    "end",
+    "neural",
+    "paucity",
+    "model",
+    "cnns",
+    "pos",
+    "coreference resolution",
+    "c hinese dialogue",
+    "the paucity",
+    "we",
+    "dialogue",
+    "chinese dialogue",
+    "coreference",
+    "accuracy",
+    "training"
+  ],
+  "url": "https://aclanthology.org/W19-4108/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:26:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

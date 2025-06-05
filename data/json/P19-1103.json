@@ -1,0 +1,33 @@
+{
+  "id": "P19-1103",
+  "title": "Generating Natural Language Adversarial Examples through Probability Weighted Word Saliency",
+  "authors": [
+    "Ren, Shuhuai  and\nDeng, Yihe  and\nHe, Kun  and\nChe, Wanxiang"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We address the problem of adversarial attacks on text classification, which is rarely studied comparing to attacks on image classification. The challenge of this task is to generate adversarial examples that maintain lexical correctness, grammatical correctness and semantic similarity. Based on the synonyms substitution strategy, we introduce a new word replacement order determined by both the word saliency and the classification probability, and propose a greedy algorithm called probability weighted word saliency (PWWS) for text adversarial attack. Experiments on three popular datasets using convolutional as well as LSTM models show that PWWS reduces the classification accuracy to the most extent, and keeps a very low word substitution rate. A human evaluation study shows that our generated adversarial examples maintain the semantic similarity well and are hard for humans to perceive. Performing adversarial training using our perturbed datasets improves the robustness of the models. At last, our method also exhibits a good transferability on the generated adversarial examples.",
+  "keywords": [
+    "rate",
+    "lstm models",
+    "probability weighted word saliency",
+    "semantic",
+    "we",
+    "semantic similarity",
+    "lstm",
+    "convolutional",
+    "the classification probability",
+    "training",
+    "classification",
+    "the generated adversarial examples",
+    "natural",
+    "weighted word saliency pwws",
+    "word"
+  ],
+  "url": "https://aclanthology.org/P19-1103/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:32:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

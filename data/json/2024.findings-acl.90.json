@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.90",
+  "title": "CHARP}: Conversation History {A}wa{R}eness Probing for Knowledge-grounded Dialogue Systems",
+  "authors": [
+    "Ghaddar, Abbas  and\nAlfonso-Hermelo, David  and\nLanglais, Philippe  and\nRezagholizadeh, Mehdi  and\nChen, Boxing  and\nParthasarathi, Prasanna"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "In this work, we dive deep into one of the popular knowledge-grounded dialogue benchmarks that focus on faithfulness, FaithDial. We show that a significant portion of the FaithDial data contains annotation artifacts, which may bias models towards completely ignoring the conversation history. We therefore introduce CHARP, a testbed, designed for evaluating supposedly non-hallucinatory models trained on the FaithDial dataset. Our extensive analysis reveals that models primarily exhibit poor performance on CHARP due to their inability to effectively attend to and reason over the conversation history. Furthermore, the evaluation methods of FaithDial fail to capture these shortcomings, neglecting the conversational history. Our findings indicate that there is substantial room for contribution in both dataset creation and hallucination evaluation for knowledge-grounded dialogue, and that CHARP can serve as a tool for monitoring the progress in this particular research area. Data, models, and source code will be publicly available upon acceptance.",
+  "keywords": [
+    "the conversation history",
+    "work",
+    "code",
+    "knowledge",
+    "the conversational history",
+    "knowledge-grounded dialogue",
+    "conversational",
+    "knowledge-grounded dialogue systems",
+    "conversation",
+    "we",
+    "dialogue",
+    "evaluation",
+    "analysis",
+    "furthermore the evaluation methods",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.90/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:49:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

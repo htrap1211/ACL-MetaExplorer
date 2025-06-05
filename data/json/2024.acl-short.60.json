@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-short.60",
+  "title": "Cross-Modal Projection in Multimodal {LLM}s Doesn{'}t Really Project Visual Attributes to Textual Space",
+  "authors": [
+    "Verma, Gaurav  and\nChoi, Minje  and\nSharma, Kartik  and\nWatson-Daniels, Jamelle  and\nOh, Sejoon  and\nKumar, Srijan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Multimodal large language models (MLLMs) like LLaVA and GPT-4(V) enable general-purpose conversations about images with the language modality. As off-the-shelf MLLMs may have limited capabilities on images from domains like dermatology and agriculture, they must be fine-tuned to unlock domain-specific applications. The prevalent architecture of current open-source MLLMs comprises two major modules: an image-language (cross-modal) projection network and a large language model. It is desirable to understand the roles of these two modules in modeling domain-specific visual attributes to inform the design of future models and streamline the interpretability efforts on the current models. To this end, via experiments on 4 datasets and under 2 fine-tuning settings, we find that as the MLLM is fine-tuned, it indeed gains domain-specific visual capabilities, but the updates do not lead to the projection extracting relevant domain-specific visual attributes. Our results indicate that the domain-specific visual attributes are modeled by the LLM, even when only the projection is fine-tuned. Through this study, we offer a potential reinterpretation of the role of cross-modal projections in MLLM architectures.",
+  "keywords": [
+    "end",
+    "2 fine-tuning settings",
+    "conversations",
+    "the mllm",
+    "we",
+    "current",
+    "llm",
+    "cross",
+    "domain-specific visual capabilities",
+    "it",
+    "large language models mllms",
+    "current open-source mllms",
+    "visual",
+    "general-purpose conversations",
+    "mllm"
+  ],
+  "url": "https://aclanthology.org/2024.acl-short.60/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:47:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

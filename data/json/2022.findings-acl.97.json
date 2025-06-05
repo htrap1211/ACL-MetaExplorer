@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.97",
+  "title": "Multi-task Learning for Paraphrase Generation With Keyword and Part-of-Speech Reconstruction",
+  "authors": [
+    "Xie, Xuhang  and\nLu, Xuesong  and\nChen, Bei"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Paraphrase generation using deep learning has been a research hotspot of natural language processing in the past few years. While previous studies tackle the problem from different aspects, the essence of paraphrase generation is to retain the key semantics of the source sentence and rewrite the rest of the content. Inspired by this observation, we propose a novel two-stage model, PGKPR, for paraphrase generation with keyword and part-of-speech reconstruction. The rationale is to capture simultaneously the possible keywords of a source sentence and the relations between them to facilitate the rewriting. In the first stage, we identify the possible keywords using a prediction attribution technique, where the words obtaining higher attribution scores are more likely to be the keywords. In the second stage, we train a transformer-based model via multi-task learning for paraphrase generation. The novel learning task is the reconstruction of the keywords and part-of-speech tags, respectively, from a perturbed sequence of the source sentence. The learned encodings are then decoded to generate the paraphrase. We conduct the experiments on two commonly-used datasets, and demonstrate the superior performance of PGKPR over comparative models on multiple evaluation metrics.",
+  "keywords": [
+    "multiple evaluation metrics",
+    "deep",
+    "paraphrase generation",
+    "we",
+    "a transformer-based model",
+    "natural",
+    "semantics",
+    "learning",
+    "sequence",
+    "natural language processing",
+    "processing",
+    "previous studies",
+    "metrics",
+    "transformer",
+    "rest"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.97/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

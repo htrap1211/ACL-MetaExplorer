@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.157",
+  "title": "Control Image Captioning Spatially and Temporally",
+  "authors": [
+    "Yan, Kun  and\nJi, Lei  and\nLuo, Huaishao  and\nZhou, Ming  and\nDuan, Nan  and\nMa, Shuai"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Generating image captions with user intention is an emerging need. The recently published Localized Narratives dataset takes mouse traces as another input to the image captioning task, which is an intuitive and efficient way for a user to control what to describe in the image. However, how to effectively employ traces to improve generation quality and controllability is still under exploration. This paper aims to solve this problem by proposing a novel model called LoopCAG, which connects Contrastive constraints and Attention Guidance in a Loop manner, engaged explicit spatial and temporal constraints to the generating process. Precisely, each generated sentence is temporally aligned to the corresponding trace sequence through a contrastive learning strategy. Besides, each generated text token is supervised to attend to the correct visual objects under heuristic spatial attention guidance. Comprehensive experimental results demonstrate that our LoopCAG model learns better correspondence among the three modalities (vision, language, and traces) and achieves SOTA performance on trace-controlled image captioning task. Moreover, the controllability and explainability of LoopCAG are validated by analyzing spatial and temporal sensitivity during the generation process.",
+  "keywords": [
+    "each generated text",
+    "efficient",
+    "generation quality",
+    "sequence",
+    "learning",
+    "visual",
+    "our loopcag model",
+    "manner",
+    "text",
+    "the generating process",
+    "loopcag",
+    "process",
+    "generating",
+    "generation",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.157/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:01:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

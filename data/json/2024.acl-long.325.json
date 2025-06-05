@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.325",
+  "title": "KIE}val: A Knowledge-grounded Interactive Evaluation Framework for Large Language Models",
+  "authors": [
+    "Yu, Zhuohao  and\nGao, Chang  and\nYao, Wenjin  and\nWang, Yidong  and\nYe, Wei  and\nWang, Jindong  and\nXie, Xing  and\nZhang, Yue  and\nZhang, Shikun"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Automatic evaluation methods for large language models (LLMs) are hindered by data contamination, leading to inflated assessments of their effectiveness. Existing strategies, which aim to detect contaminated texts, focus on quantifying contamination status instead of accurately gauging model performance. In this paper, we introduce KIEval, a Knowledge-grounded Interactive Evaluation framework, which incorporates an LLM-powered “interactor” role for the first time to accomplish a dynamic contamination-resilient evaluation. Starting with a question in a conventional LLM benchmark involving domain-specific knowledge, KIEval utilizes dynamically generated, multi-round, and knowledge-focused dialogues to determine whether a model’s response is merely a recall of benchmark answers or demonstrates a deep comprehension to apply knowledge in more complex conversations. Extensive experiments on seven leading LLMs across five datasets validate KIEval’s effectiveness and generalization. We also reveal that data contamination brings no contribution or even negative effect to models’ real-world applicability and understanding, and existing contamination detection methods for LLMs can only identify contamination in pre-training but not during supervised fine-tuning.",
+  "keywords": [
+    "deep",
+    "conversations",
+    "a recall",
+    "question",
+    "a dynamic contamination-resilient evaluation",
+    "we",
+    "llm",
+    "training",
+    "resilient",
+    "val",
+    "an llm-powered interactor role",
+    "supervised fine-tuning",
+    "a conventional llm benchmark",
+    "llms",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.325/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

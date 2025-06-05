@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.422",
+  "title": "Continual Dialogue State Tracking via Reason-of-Select Distillation",
+  "authors": [
+    "Feng, Yujie  and\nLiu, Bo  and\nDong, Xiaoyu  and\nLu, Zexin  and\nZhan, Li-Ming  and\nWu, Xiao-Ming  and\nLam, Albert"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "An ideal dialogue system requires continuous skill acquisition and adaptation to new tasks while retaining prior knowledge. Dialogue State Tracking (DST), vital in these systems, often involves learning new services, confronting catastrophic forgetting and a critical capability loss termed the “Value Selection Quandary”. To address these challenges, we introduce the Reason-of-Select (RoS) distillation method by enhancing smaller models with a novel “meta-reasoning” capability. Meta-reasoning, employing an enhanced multi-domain perspective, combines fragments of meta-knowledge from domain-specific dialogues during continual learning, transcending traditional single-perspective reasoning. This domain bootstrapping process enhances the model’s ability to dissect intricate dialogues from multiple possible values, and its domain-agnostic property aligns data distribution across different domains, effectively mitigating forgetting. Besides, two novel improvements, “multi-value resolution” strategy and Semantic Contrastive Reasoning Selection method, significantly enhance RoS by generating DST-specific selection chains and mitigating hallucinations in teachers’ reasoning, ensuring effective and reliable knowledge transfer. Extensive experiments validate the exceptional performance and robust generalization capabilities of our method.",
+  "keywords": [
+    "continual dialogue state",
+    "semantic",
+    "we",
+    "dialogue",
+    "an ideal dialogue system",
+    "loss",
+    "domain-specific dialogues",
+    "learning",
+    "transfer",
+    "intricate dialogues",
+    "generalization",
+    "ros",
+    "process",
+    "knowledge",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.422/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

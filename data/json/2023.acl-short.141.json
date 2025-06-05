@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.141",
+  "title": "When to Use Efficient Self Attention? Profiling Text, Speech and Image Transformer Variants",
+  "authors": [
+    "Diwan, Anuj  and\nChoi, Eunsol  and\nHarwath, David"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "We present the first unified study of the efficiency of self-attention-based Transformer variants spanning text, speech and vision. We identify input length thresholds (tipping points) at which efficient Transformer variants become more efficient than vanilla models, using a variety of efficiency metrics (latency, throughput, and memory). To conduct this analysis for speech, we introduce L-HuBERT, a novel local-attention variant of a self-supervised speech model. We observe that these thresholds are (a) much higher than typical dataset sequence lengths and (b) dependent on the metric and modality, showing that choosing the right model depends on modality, task type (long-form vs. typical context) and resource constraints (time vs. memory). By visualising the breakdown of the computational costs for transformer components, we also show that non-self-attention components exhibit significant computational costs. We release our profiling toolkit athttps://github.com/ajd12342/profiling-transformers.",
+  "keywords": [
+    "variety",
+    "efficient self attention",
+    "transformers",
+    "transformer components",
+    "l-hubert",
+    "efficient",
+    "the first unified study",
+    "form",
+    "efficiency",
+    "we",
+    "a novel local-attention variant",
+    "self",
+    "the efficiency",
+    "unified",
+    "sequence"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.141/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:50:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

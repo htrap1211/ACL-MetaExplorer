@@ -1,0 +1,33 @@
+{
+  "id": "2021.starsem-1.28",
+  "title": "Denoising Word Embeddings by Averaging in a Shared Space",
+  "authors": [
+    "Caciularu, Avi  and\nDagan, Ido  and\nGoldberger, Jacob"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of *SEM 2021: The Tenth Joint Conference on Lexical and Computational Semantics",
+  "abstract": "We introduce a new approach for smoothing and improving the quality of word embeddings. We consider a method of fusing word embeddings that were trained on the same corpus but with different initializations. We project all the models to a shared vector space using an efficient implementation of the Generalized Procrustes Analysis (GPA) procedure, previously used in multilingual word translation. Our word representation demonstrates consistent improvements over the raw models as well as their simplistic average, on a range of tasks. As the new representations are more stable and reliable, there is a noticeable improvement in rare word evaluations.",
+  "keywords": [
+    "embeddings",
+    "a shared vector space",
+    "vector",
+    "an efficient implementation",
+    "evaluations",
+    "efficient",
+    "generalized",
+    "multilingual word translation",
+    "word",
+    "we",
+    "word embeddings",
+    "rare word evaluations",
+    "analysis",
+    "translation",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2021.starsem-1.28/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

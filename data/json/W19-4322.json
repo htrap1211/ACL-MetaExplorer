@@ -1,0 +1,33 @@
+{
+  "id": "W19-4322",
+  "title": "A Self-Training Approach for Short Text Clustering",
+  "authors": [
+    "Hadifar, Amir  and\nSterckx, Lucas  and\nDemeester, Thomas  and\nDevelder, Chris"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)",
+  "abstract": "Short text clustering is a challenging problem when adopting traditional bag-of-words or TF-IDF representations, since these lead to sparse vector representations of the short texts. Low-dimensional continuous representations or embeddings can counter that sparseness problem: their high representational power is exploited in deep clustering algorithms. While deep clustering has been studied extensively in computer vision, relatively little work has focused on NLP. The method we propose, learns discriminative features from both an autoencoder and a sentence embedding, then uses assignments from a clustering algorithm as supervision to update weights of the encoder network. Experiments on three short text datasets empirically validate the effectiveness of our method.",
+  "keywords": [
+    "embeddings",
+    "clustering short text clustering",
+    "deep",
+    "work",
+    "deep clustering algorithms",
+    "bag",
+    "vector",
+    "nlp",
+    "text",
+    "self",
+    "autoencoder",
+    "encoder",
+    "deep clustering",
+    "the encoder network experiments",
+    "both an autoencoder"
+  ],
+  "url": "https://aclanthology.org/W19-4322/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:03:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

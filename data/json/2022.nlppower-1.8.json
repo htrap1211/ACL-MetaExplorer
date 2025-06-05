@@ -1,0 +1,33 @@
+{
+  "id": "2022.nlppower-1.8",
+  "title": "Checking {H}ate{C}heck: a cross-functional analysis of behaviour-aware learning for hate speech detection",
+  "authors": [
+    "Henrique Luz de Araujo, Pedro  and\nRoth, Benjamin"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of NLP Power! The First Workshop on Efficient Benchmarking in NLP",
+  "abstract": "Behavioural testing—verifying system capabilities by validating human-designed input-output pairs—is an alternative evaluation method of natural language processing systems proposed to address the shortcomings of the standard approach: computing metrics on held-out data. While behavioural tests capture human prior knowledge and insights, there has been little exploration on how to leverage them for model training and development. With this in mind, we explore behaviour-aware learning by examining several fine-tuning schemes using HateCheck, a suite of functional tests for hate speech detection systems. To address potential pitfalls of training on data originally intended for evaluation, we train and evaluate models on different configurations of HateCheck by holding out categories of test cases, which enables us to estimate performance on potentially overlooked system properties. The fine-tuning procedure led to improvements in the classification accuracy of held-out functionalities and identity groups, suggesting that models can potentially generalise to overlooked functionalities. However, performance on held-out functionality classes and i.i.d. hate speech detection data decreased, which indicates that generalisation occurs mostly across functionalities from the same class and that the procedure led to overfitting to the HateCheck data distribution.",
+  "keywords": [
+    "natural language processing systems",
+    "functionalities",
+    "an alternative evaluation method",
+    "we",
+    "the fine-tuning procedure",
+    "training",
+    "classification",
+    "cross",
+    "natural",
+    "generalisation",
+    "potentially overlooked system properties",
+    "properties",
+    "learning",
+    "analysis",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2022.nlppower-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:45:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.136",
+  "title": "Augmentation-Adapted Retriever Improves Generalization of Language Models as Generic Plug-In",
+  "authors": [
+    "Yu, Zichun  and\nXiong, Chenyan  and\nYu, Shi  and\nLiu, Zhiyuan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Retrieval augmentation can aid language models (LMs) in knowledge-intensive tasks by supplying them with external information. Prior works on retrieval augmentation usually jointly fine-tune the retriever and the LM, making them closely coupled. In this paper, we explore the scheme of generic retrieval plug-in: the retriever is to assist target LMs that may not be known beforehand or are unable to be fine-tuned together. To retrieve useful documents for unseen target LMs, we propose augmentation-adapted retriever (AAR), which learns LM’s preferences obtained from a known source LM. Experiments on the MMLU and PopQA datasets demonstrate that our AAR trained with a small source LM is able to significantly improve the zero-shot generalization of larger target LMs ranging from 250M Flan-T5 to 175B InstructGPT. Further analysis indicates that the preferences of different LMs overlap, enabling AAR trained with a single source LM to serve as a generic plug-in for various target LMs. Our code is open-sourced athttps://github.com/OpenMatch/Augmentation-Adapted-Retriever.",
+  "keywords": [
+    "code",
+    "a generic plug-in",
+    "we",
+    "fine-tune the retriever",
+    "generic retrieval plug",
+    "shot",
+    "the zero-shot generalization",
+    "retrieval augmentation",
+    "augmentation-adapted retriever aar",
+    "retrieval",
+    "information",
+    "analysis",
+    "instructgpt",
+    "augmentation-adapted retriever",
+    "the retriever"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.136/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.316",
+  "title": "Zero-Shot Dense Retrieval with Momentum Adversarial Domain Invariant Representations",
+  "authors": [
+    "Xin, Ji  and\nXiong, Chenyan  and\nSrinivasan, Ashwin  and\nSharma, Ankita  and\nJose, Damien  and\nBennett, Paul"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Dense retrieval (DR) methods conduct text retrieval by first encoding texts in the embedding space and then matching them by nearest neighbor search. This requires strong locality properties from the representation space, e.g., close allocations of each small group of relevant texts, which are hard to generalize to domains without sufficient training data. In this paper, we aim to improve the generalization ability of DR models from source training domains with rich supervision signals to target domains without any relevance label, in the zero-shot setting. To achieve that, we propose Momentum adversarial Domain Invariant Representation learning (MoDIR), which introduces a momentum method to train a domain classifier that distinguishes source versus target domains, and then adversarially updates the DR encoder to learn domain invariant representations. Our experiments show that MoDIR robustly outperforms its baselines on 10+ ranking datasets collected in the BEIR benchmark in the zero-shot setup, with more than 10% relative gains on datasets with enough sensitivity for DR models’ evaluation. Source code is available athttps://github.com/ji-xin/modir.",
+  "keywords": [
+    "code",
+    "the generalization ability",
+    "the zero-shot setup",
+    "classifier",
+    "a domain classifier",
+    "we",
+    "shot",
+    "training",
+    "properties",
+    "retrieval",
+    "sufficient",
+    "rich",
+    "learning",
+    "momentum",
+    "text retrieval"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.316/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

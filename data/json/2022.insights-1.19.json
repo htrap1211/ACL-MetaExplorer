@@ -1,0 +1,33 @@
+{
+  "id": "2022.insights-1.19",
+  "title": "Label Errors in {BANKING}77",
+  "authors": [
+    "Ying, Cecilia  and\nThomas, Stephen"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Third Workshop on Insights from Negative Results in NLP",
+  "abstract": "We investigate potential label errors present in the popular BANKING77 dataset and the associated negative impacts on intent classification methods. Motivated by our own negative results when constructing an intent classifier, we applied two automated approaches to identify potential label errors in the dataset. We found that over 1,400 (14%) of the 10,003 training utterances may have been incorrectly labelled. In a simple experiment, we found that by removing the utterances with potential errors, our intent classifier saw an increase of 4.5% and 8% for the F1-Score and Adjusted Rand Index, respectively, in supervised and unsupervised classification. This paper serves as a warning of the potential of noisy labels in popular NLP datasets. Further study is needed to fully identify the breadth and depth of label errors in BANKING77 and other datasets.",
+  "keywords": [
+    "our intent classifier",
+    "intent classification methods",
+    "nlp",
+    "classifier",
+    "popular nlp datasets",
+    "rand",
+    "an intent classifier",
+    "we",
+    "training",
+    "classification",
+    "supervised",
+    "the utterances",
+    "potential label errors",
+    "other datasets",
+    "labels"
+  ],
+  "url": "https://aclanthology.org/2022.insights-1.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

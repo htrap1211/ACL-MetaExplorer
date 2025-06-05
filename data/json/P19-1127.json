@@ -1,0 +1,33 @@
+{
+  "id": "P19-1127",
+  "title": "Global Textual Relation Embedding for Relational Understanding",
+  "authors": [
+    "Chen, Zhiyu  and\nZha, Hanwen  and\nLiu, Honglei  and\nChen, Wenhu  and\nYan, Xifeng  and\nSu, Yu"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Pre-trained embeddings such as word embeddings and sentence embeddings are fundamental tools facilitating a wide range of downstream NLP tasks. In this work, we investigate how to learn a general-purpose embedding of textual relations, defined as the shortest dependency path between entities. Textual relation embedding provides a level of knowledge between word/phrase level and sentence level, and we show that it can facilitate downstream tasks requiring relational understanding of the text. To learn such an embedding, we create the largest distant supervision dataset by linking the entire English ClueWeb09 corpus to Freebase. We use global co-occurrence statistics between textual and knowledge base relations as the supervision signal to train the embedding. Evaluation on two relational understanding tasks demonstrates the usefulness of the learned textual relation embedding. The data and code can be found athttps://github.com/czyssrs/GloREPlus",
+  "keywords": [
+    "embeddings",
+    "work",
+    "the embedding evaluation",
+    "code",
+    "general",
+    "knowledge",
+    "nlp",
+    "entities",
+    "entities textual relation",
+    "text",
+    "it",
+    "pre-trained embeddings",
+    "dependency",
+    "word",
+    "we"
+  ],
+  "url": "https://aclanthology.org/P19-1127/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:32:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

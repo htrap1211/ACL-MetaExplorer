@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.546",
+  "title": "When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories",
+  "authors": [
+    "Mallen, Alex  and\nAsai, Akari  and\nZhong, Victor  and\nDas, Rajarshi  and\nKhashabi, Daniel  and\nHajishirzi, Hannaneh"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Despite their impressive performance on diverse tasks, large language models (LMs) still struggle with tasks requiring rich world knowledge, implying the difficulty of encoding a wealth of world knowledge in their parameters. This paper aims to understand LMs’ strengths and limitations in memorizing factual knowledge, by conducting large-scale knowledge probing experiments on two open-domain entity-centric QA datasets: PopQA, our new dataset with 14k questions about long-tail entities, and EntityQuestions, a widely used open-domain QA dataset. We find that LMs struggle with less popular factual knowledge, and that retrieval augmentation helps significantly in these cases. Scaling, on the other hand, mainly improves memorization of popular knowledge, and fails to appreciably improve memorization of factual knowledge in the tail. Based on those findings, we devise a new method for retrieval-augmentation that improves performance and reduces inference costs by only retrieving non-parametric memories when necessary.",
+  "keywords": [
+    "non-parametric memories",
+    "that retrieval augmentation",
+    "parametric and non-parametric memories",
+    "memories",
+    "we",
+    "long-tail entities",
+    "retrieval",
+    "rich",
+    "retrieval-augmentation",
+    "language models",
+    "large language models lms",
+    "knowledge",
+    "language",
+    "entities",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.546/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:42:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.191",
+  "title": "Dual-Alignment Pre-training for Cross-lingual Sentence Embedding",
+  "authors": [
+    "Li, Ziheng  and\nHuang, Shaohan  and\nZhang, Zihan  and\nDeng, Zhi-Hong  and\nLou, Qiang  and\nHuang, Haizhen  and\nJiao, Jian  and\nWei, Furu  and\nDeng, Weiwei  and\nZhang, Qi"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent studies have shown that dual encoder models trained with the sentence-level translation ranking task are effective methods for cross-lingual sentence embedding. However, our research indicates that token-level alignment is also crucial in multilingual scenarios, which has not been fully explored previously. Based on our findings, we propose a dual-alignment pre-training (DAP) framework for cross-lingual sentence embedding that incorporates both sentence-level and token-level alignment. To achieve this, we introduce a novel representation translation learning (RTL) task, where the model learns to use one-side contextualized token representation to reconstruct its translation counterpart. This reconstruction objective encourages the model to embed translation information into the token representation. Compared to other token-level alignment methods such as translation language modeling, RTL is more suitable for dual encoder architectures and is computationally efficient. Extensive experiments on three sentence-level cross-lingual benchmarks demonstrate that our approach can significantly improve sentence embedding. Our code is available athttps://github.com/ChillingDream/DAP.",
+  "keywords": [
+    "code",
+    "efficient",
+    "we",
+    "dual encoder architectures",
+    "training",
+    "translation",
+    "cross",
+    "this reconstruction objective",
+    "translation language modeling rtl",
+    "a novel representation translation",
+    "token",
+    "token-level alignment",
+    "information",
+    "its translation counterpart",
+    "objective"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.191/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:38:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

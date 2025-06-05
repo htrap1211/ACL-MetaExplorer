@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.770",
+  "title": "Inducing Character-level Structure in Subword-based Language Models with Type-level Interchange Intervention Training",
+  "authors": [
+    "Huang, Jing  and\nWu, Zhengxuan  and\nMahowald, Kyle  and\nPotts, Christopher"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Language tasks involving character-level manipulations (e.g., spelling corrections, arithmetic operations, word games) are challenging for models operating on subword units. To address this, we develop a causal intervention framework to learn robust and interpretable character representations inside subword-based language models. Our method treats each character as a typed variable in a causal model and learns such causal structures by adapting the interchange intervention training method of Geiger et al. (2021). We additionally introduce a suite of character-level tasks that systematically vary in their dependence on meaning and sequence-level context. While character-level models still perform best on purely form-based tasks like string reversal, our method outperforms character-level models on more complex tasks that blend form, meaning, and context, such as spelling correction in context and word search games. Compared with standard subword-based models, our approach also significantly improves robustness on unseen token sequences and leads to human-interpretable internal representations of characters.",
+  "keywords": [
+    "language",
+    "model",
+    "human",
+    "token",
+    "sequence",
+    "form",
+    "subword-based language models",
+    "word",
+    "we",
+    "training",
+    "that",
+    "characters",
+    "human-interpretable internal representations",
+    "approach",
+    "this"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.770/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

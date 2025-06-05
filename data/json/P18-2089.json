@@ -1,0 +1,33 @@
+{
+  "id": "P18-2089",
+  "title": "Addressing Noise in Multidialectal Word Embeddings",
+  "authors": [
+    "Erdmann, Alexander  and\nZalmout, Nasser  and\nHabash, Nizar"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Word embeddings are crucial to many natural language processing tasks. The quality of embeddings relies on large non-noisy corpora. Arabic dialects lack large corpora and are noisy, being linguistically disparate with no standardized spelling. We make three contributions to address this noise. First, we describe simple but effective adaptations to word embedding tools to maximize the informative content leveraged in each training sentence. Second, we analyze methods for representing disparate dialects in one embedding space, either by mapping individual dialects into a shared space or learning a joint model of all dialects. Finally, we evaluate via dictionary induction, showing that two metrics not typically reported in the task enable us to analyze our contributions’ effects on low and high frequency words. In addition to boosting performance between 2-53%, we specifically improve on noisy, low frequency forms without compromising accuracy on high frequency forms.",
+  "keywords": [
+    "embeddings",
+    "embedding tools",
+    "multidialectal word embeddings",
+    "processing",
+    "language",
+    "natural",
+    "two metrics",
+    "model",
+    "metrics",
+    "one embedding space",
+    "us",
+    "word",
+    "we",
+    "word embeddings",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/P18-2089/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:18:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

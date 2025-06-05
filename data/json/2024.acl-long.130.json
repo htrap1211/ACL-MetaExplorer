@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.130",
+  "title": "Surgical Feature-Space Decomposition of {LLM}s: Why, When and How?",
+  "authors": [
+    "Chavan, Arnav  and\nLele, Nahush  and\nGupta, Deepak"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Low-rank approximations, of the weight and feature space can enhance the performance of deep learning models, whether in terms of improving generalization or reducing the latency of inference. However, there is no clear consensus yet on how, when and why these approximations are helpful for large language models (LLMs). In this work, we empirically study the efficacy of weight and feature space decomposition in transformer-based LLMs. We demonstrate that surgical decomposition not only provides critical insights into the trade-off between compression and language modelling performance, but also sometimes enhances commonsense reasoning performance of LLMs. Our empirical analysis identifies specific network segments that intrinsically exhibit a low-rank structure. Furthermore, we extend our investigation to the implications of low-rank approximations on model bias. Overall, our findings offer a novel perspective on optimizing LLMs, presenting the low-rank approximation not only as a tool for performance enhancements, but also as a means to potentially rectify biases within these models.",
+  "keywords": [
+    "deep",
+    "bias",
+    "we",
+    "llm",
+    "means",
+    "model bias",
+    "learning",
+    "analysis",
+    "llms",
+    "language modelling performance",
+    "transformer-based llms",
+    "generalization",
+    "biases",
+    "work",
+    "deep learning models"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.130/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

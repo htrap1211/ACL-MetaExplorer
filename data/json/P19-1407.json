@@ -1,0 +1,33 @@
+{
+  "id": "P19-1407",
+  "title": "Keeping Notes: Conditional Natural Language Generation with a Scratchpad Encoder",
+  "authors": [
+    "Benmalek, Ryan  and\nKhabsa, Madian  and\nDesu, Suma  and\nCardie, Claire  and\nBanko, Michele"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We introduce the Scratchpad Mechanism, a novel addition to the sequence-to-sequence (seq2seq) neural network architecture and demonstrate its effectiveness in improving the overall fluency of seq2seq models for natural language generation tasks. By enabling the decoder at each time step to write to all of the encoder output layers, Scratchpad can employ the encoder as a “scratchpad” memory to keep track of what has been generated so far and thereby guide future generation. We evaluate Scratchpad in the context of three well-studied natural language generation tasks — Machine Translation, Question Generation, and Text Summarization — and obtain state-of-the-art or comparable performance on standard datasets for each task. Qualitative assessments in the form of human judgements (question generation), attention visualization (MT), and sample output (summarization) provide further evidence of the ability of Scratchpad to generate fluent and expressive output.",
+  "keywords": [
+    "the decoder",
+    "sample output summarization",
+    "question",
+    "form",
+    "all",
+    "we",
+    "summarization",
+    "translation",
+    "the encoder",
+    "neural",
+    "natural",
+    "decoder",
+    "sequence",
+    "a scratchpad encoder",
+    "seq2seq"
+  ],
+  "url": "https://aclanthology.org/P19-1407/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:40:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

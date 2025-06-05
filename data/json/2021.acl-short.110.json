@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.110",
+  "title": "Modeling Discriminative Representations for Out-of-Domain Detection with Supervised Contrastive Learning",
+  "authors": [
+    "Zeng, Zhiyuan  and\nHe, Keqing  and\nYan, Yuanmeng  and\nLiu, Zijun  and\nWu, Yanan  and\nXu, Hong  and\nJiang, Huixing  and\nXu, Weiran"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Detecting Out-of-Domain (OOD) or unknown intents from user queries is essential in a task-oriented dialog system. A key challenge of OOD detection is to learn discriminative semantic features. Traditional cross-entropy loss only focuses on whether a sample is correctly classified, and does not explicitly distinguish the margins between categories. In this paper, we propose a supervised contrastive learning objective to minimize intra-class variance by pulling together in-domain intents belonging to the same class and maximize inter-class variance by pushing apart samples from different classes. Besides, we employ an adversarial augmentation mechanism to obtain pseudo diverse views of a sample in the latent space. Experiments on two public datasets prove the effectiveness of our method capturing discriminative representations for OOD detection.",
+  "keywords": [
+    "cross",
+    "inter-class variance",
+    "categories",
+    "objective",
+    "class",
+    "queries",
+    "dialog",
+    "loss",
+    "latent",
+    "intra-class variance",
+    "semantic",
+    "we",
+    "learning",
+    "user queries",
+    "views"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.110/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:08:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

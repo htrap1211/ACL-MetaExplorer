@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.36",
+  "title": "Exclusive Supermask Subnetwork Training for Continual Learning",
+  "authors": [
+    "Yadav, Prateek  and\nBansal, Mohit"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Continual Learning (CL) methods focus on accumulating knowledge over time while avoiding catastrophic forgetting. Recently, Wortsman et al. (2020) proposed a CL method, SupSup, which uses a randomly initialized, fixed base network (model) and finds a supermask for each new task that selectively keeps or removes each weight to produce a subnetwork. They prevent forgetting as the network weights are not being updated. Although there is no forgetting, the performance of SupSup is sub-optimal because fixed weights restrict its representational power. Furthermore, there is no accumulation or transfer of knowledge inside the model when new tasks are learned. Hence, we propose ExSSNeT (Exclusive Supermask SubNetwork Training), that performs exclusive and non-overlapping subnetwork weight training. This avoids conflicting updates to the shared weights by subsequent tasks to improve performance while still preventing forgetting. Furthermore, we propose a novel KNN-based Knowledge Transfer (KKT) module that utilizes previously acquired knowledge to learn new tasks better and faster. We demonstrate that ExSSNeT outperforms strong previous methods on both NLP and Vision domains while preventing forgetting. Moreover, ExSSNeT is particularly advantageous for sparse masks that activate 2-10% of the model parameters, resulting in an average improvement of 8.3% over SupSup. Furthermore, ExSSNeT scales to a large number of tasks (100).",
+  "keywords": [
+    "al",
+    "we",
+    "training",
+    "learning",
+    "transfer",
+    "knowledge",
+    "nlp",
+    "model",
+    "network",
+    "both nlp",
+    "time",
+    "a large number",
+    "forgetting",
+    "optimal",
+    "previous"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.36/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

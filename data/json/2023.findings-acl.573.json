@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.573",
+  "title": "Pruning Pre-trained Language Models with Principled Importance and Self-regularization",
+  "authors": [
+    "Ren, Siyu  and\nZhu, Kenny"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Iterative pruning is one of the most effective compression methods for pre-trained language models. We discovered that finding the optimal pruning decision is an equality-constrained 0-1 Integer Linear Programming problem. The solution to this optimization problem leads to a principled importance criterion which we use to rank parameters during iterative model pruning. To mitigate the poor generalization at high sparsity levels, we propose a self-regularization scheme where model prediction is regularized by the latest checkpoint with increasing sparsity throughout pruning. Our experiments on natural language understanding, question answering, named entity recognition, and data-to-text generation with various Transformer-based PLMs show the effectiveness of the approach at various sparsity levels.",
+  "keywords": [
+    "transformer",
+    "various transformer-based plms",
+    "language",
+    "generation",
+    "pre-trained language models",
+    "natural",
+    "self-regularization iterative pruning",
+    "model",
+    "text",
+    "self",
+    "question",
+    "regularization",
+    "generalization",
+    "optimization",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.573/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

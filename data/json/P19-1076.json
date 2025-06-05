@@ -1,0 +1,33 @@
+{
+  "id": "P19-1076",
+  "title": "Automatic Evaluation of Local Topic Quality",
+  "authors": [
+    "Lund, Jeffrey  and\nArmstrong, Piper  and\nFearn, Wilson  and\nCowley, Stephen  and\nByun, Courtni  and\nBoyd-Graber, Jordan  and\nSeppi, Kevin"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Topic models are typically evaluated with respect to the global topic distributions that they generate, using metrics such as coherence, but without regard to local (token-level) topic assignments. Token-level assignments are important for downstream tasks such as classification. Even recent models, which aim to improve the quality of these token-level topic assignments, have been evaluated only with respect to global metrics. We propose a task designed to elicit human judgments of token-level topic assignments. We use a variety of topic model types and parameters and discover that global metrics agree poorly with human assignments. Since human evaluation is expensive we propose a variety of automated metrics to evaluate topic models at a local level. Finally, we correlate our proposed metrics with human judgments from the task on several datasets. We show that an evaluation based on the percent of topic switches correlates most strongly with human judgment of local topic quality. We suggest that this new metric, which we call consistency, be adopted alongside global metrics such as topic coherence when evaluating new topic models.",
+  "keywords": [
+    "variety",
+    "human evaluation",
+    "model",
+    "human",
+    "metric",
+    "metrics",
+    "token",
+    "topic",
+    "automatic evaluation",
+    "we",
+    "our proposed metrics",
+    "an evaluation",
+    "a variety",
+    "evaluation",
+    "automated metrics"
+  ],
+  "url": "https://aclanthology.org/P19-1076/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:30:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

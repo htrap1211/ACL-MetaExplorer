@@ -1,0 +1,33 @@
+{
+  "id": "2021.wat-1.27",
+  "title": "S}amsung {R}{\\&}{D} Institute {P}oland submission to {WAT} 2021 Indic Language Multilingual Task",
+  "authors": [
+    "Dobrowolski, Adam  and\nSzyma{\\'n}ski, Marcin  and\nChochowski, Marcin  and\nPrzybysz, Pawe{\\l}"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 8th Workshop on Asian Translation (WAT2021)",
+  "abstract": "This paper describes the submission to the WAT 2021 Indic Language Multilingual Task by Samsung R&D Institute Poland. The task covered translation between 10 Indic Languages (Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil and Telugu) and English. We combined a variety of techniques: transliteration, filtering, backtranslation, domain adaptation, knowledge-distillation and finally ensembling of NMT models. We applied an effective approach to low-resource training that consist of pretraining on backtranslations and tuning on parallel corpora. We experimented with two different domain-adaptation techniques which significantly improved translation quality when applied to monolingual corpora. We researched and applied a novel approach for finding the best hyperparameters for ensembling a number of translation models. All techniques combined gave significant improvement - up to +8 BLEU over baseline results. The quality of the models has been confirmed by the human evaluation where SRPOL models scored best for all 5 manually evaluated languages.",
+  "keywords": [
+    "variety",
+    "bleu",
+    "the task covered translation",
+    "we",
+    "backtranslations",
+    "the human evaluation",
+    "training",
+    "translation",
+    "hyperparameters",
+    "backtranslation",
+    "up to 8 bleu",
+    "a variety",
+    "translation models",
+    "translation quality",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2021.wat-1.27/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.449",
+  "title": "Hard Prompts Made Interpretable: Sparse Entropy Regularization for Prompt Tuning with {RL",
+  "authors": [
+    "Choi, Yunseon  and\nBae, Sangmin  and\nBan, Seonghyun  and\nJeong, Minchan  and\nZhang, Chuheng  and\nSong, Lei  and\nZhao, Li  and\nBian, Jiang  and\nKim, Kee-Eung"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "With the advent of foundation models, prompt tuning has positioned itself as an important technique for directing model behaviors and eliciting desired responses. Prompt tuning regards selecting appropriate keywords included into the input, thereby adapting to the downstream task without adjusting or fine-tuning the model parameters. There is a wide range of work in prompt tuning, from approaches that directly harness the backpropagated gradient signals from the model, to those employing black-box optimization such as reinforcement learning (RL) methods. Our primary focus is on RLPrompt, which aims to find optimal prompt tokens leveraging soft Q-learning. While the results show promise, we have observed that the prompts frequently appear unnatural, which impedes their interpretability. We address this limitation by using sparse Tsallis entropy regularization, a principled approach to filtering out unlikely tokens from consideration. We extensively evaluate our approach across various tasks, including few-shot text classification, unsupervised text style transfer, and textual inversion from images. The results indicate a notable improvement over baselines, highlighting the efficacy of our approach in addressing the challenges of prompt tuning. Moreover, we show that the prompts discovered using our method are more natural and interpretable compared to those from other baselines.",
+  "keywords": [
+    "the backpropagated gradient signals",
+    "we",
+    "rlprompt",
+    "shot",
+    "classification",
+    "natural",
+    "hard prompts",
+    "learning",
+    "transfer",
+    "the prompts",
+    "tuning",
+    "prompt",
+    "text",
+    "optimal prompt tokens",
+    "soft"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.449/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:40:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

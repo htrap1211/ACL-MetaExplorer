@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.119",
+  "title": "NLP}{\\_}{UIOWA} at {S}emeval-2021 Task 5: Transferring Toxic Sets to Tag Toxic Spans",
+  "authors": [
+    "Rusert, Jonathan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "We leverage a BLSTM with attention to identify toxic spans in texts. We explore different dimensions which affect the model’s performance. The first dimension explored is the toxic set the model is trained on. Besides the provided dataset, we explore the transferability of 5 different toxic related sets, including offensive, toxic, abusive, and hate sets. We find that the solely offensive set shows the highest promise of transferability. The second dimension we explore is methodology, including leveraging attention, employing a greedy remove method, using a frequency ratio, and examining hybrid combinations of multiple methods. We conduct an error analysis to examine which types of toxic spans were missed and which were wrongly inferred as toxic along with the main reasons why they occurred. Finally, we extend our method via ensembles, which achieves our highest F1 score of 55.1.",
+  "keywords": [
+    "ensembles",
+    "our highest f1 score",
+    "a blstm",
+    "nlp",
+    "model",
+    "tag",
+    "attention",
+    "we",
+    "ratio",
+    "blstm",
+    "dimension",
+    "analysis",
+    "the first dimension",
+    "frequency",
+    "task"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.119/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

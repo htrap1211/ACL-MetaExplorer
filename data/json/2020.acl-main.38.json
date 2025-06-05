@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.38",
+  "title": "Lipschitz Constrained Parameter Initialization for Deep Transformers",
+  "authors": [
+    "Xu, Hongfei  and\nLiu, Qiuhui  and\nvan Genabith, Josef  and\nXiong, Deyi  and\nZhang, Jingyi"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "The Transformer translation model employs residual connection and layer normalization to ease the optimization difficulties caused by its multi-layer encoder/decoder structure. Previous research shows that even with residual connection and layer normalization, deep Transformers still have difficulty in training, and particularly Transformer models with more than 12 encoder/decoder layers fail to converge. In this paper, we first empirically demonstrate that a simple modification made in the official implementation, which changes the computation order of residual connection and layer normalization, can significantly ease the optimization of deep Transformers. We then compare the subtle differences in computation order in considerable detail, and present a parameter initialization method that leverages the Lipschitz constraint on the initialization of Transformer parameters that effectively ensures training convergence. In contrast to findings in previous research we further demonstrate that with Lipschitz parameter initialization, deep Transformers with the original computation order can converge, and obtain significant BLEU improvements with up to 24 layers. In contrast to previous research which focuses on deep encoders, our approach additionally enables Transformers to also benefit from deep decoders.",
+  "keywords": [
+    "deep",
+    "transformers",
+    "transformer parameters",
+    "bleu",
+    "layer",
+    "we",
+    "the optimization",
+    "parameter",
+    "training",
+    "translation",
+    "deep transformers",
+    "decoder",
+    "decoders",
+    "difficulties",
+    "layer normalization"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.38/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:42:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

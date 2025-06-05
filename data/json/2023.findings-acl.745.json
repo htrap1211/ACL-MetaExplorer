@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.745",
+  "title": "Scale-Invariant Infinite Hierarchical Topic Model",
+  "authors": [
+    "Eshima, Shusei  and\nMochihashi, Daichi"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Hierarchical topic models have been employed to organize a large number of diverse topics from corpora into a latent tree structure. However, existing models yield fragmented topics with overlapping themes whose expected probability becomes exponentially smaller along the depth of the tree. To solve this intrinsic problem, we propose a scale-invariant infinite hierarchical topic model (ihLDA). The ihLDA adaptively adjusts the topic creation to make the expected topic probability decay considerably slower than that in existing models. Thus, it facilitates the estimation of deeper topic structures encompassing diverse topics in a corpus. Furthermore, the ihLDA extends a widely used tree-structured prior (Adams et al., 2010) in a hierarchical Bayesian way, which enables drawing an infinite topic tree from the base tree while efficiently sampling the topic assignments for the words. Experiments demonstrate that the ihLDA has better topic uniqueness and hierarchical diversity thanexisting approaches, including state-of-the-art neural models.",
+  "keywords": [
+    "hierarchical",
+    "neural",
+    "a hierarchical bayesian way",
+    "model",
+    "it",
+    "ihlda",
+    "decay",
+    "topic",
+    "latent",
+    "we",
+    "the ihlda",
+    "adams",
+    "a large number",
+    "the topic creation",
+    "that"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.745/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

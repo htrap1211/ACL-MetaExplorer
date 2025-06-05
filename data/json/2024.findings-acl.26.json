@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.26",
+  "title": "LLM}-{QAT}: Data-Free Quantization Aware Training for Large Language Models",
+  "authors": [
+    "Liu, Zechun  and\nOguz, Barlas  and\nZhao, Changsheng  and\nChang, Ernie  and\nStock, Pierre  and\nMehdad, Yashar  and\nShi, Yangyang  and\nKrishnamoorthi, Raghuraman  and\nChandra, Vikas"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Several post-training quantization methods have been applied to large language models (LLMs), and have been shown to perform well down to 8-bits. We find that these methods break down at lower bit precision, and investigate quantization-aware training for LLMs (LLM-QAT) to push quantization levels even further. We propose a data-free distillation method that leverages generations produced by the pre-trained model, which better preserves the original output distribution and allows quantizing any generative model independent of its training data, similar to post-training quantization methods. In addition to quantizing weights and activations, we also quantize the KV cache, which is critical for increasing throughput and supporting long sequence dependencies at current model sizes. We experiment with LLaMA models of sizes 7B, 13B, and 30B, at quantization levels down to 4-bits. We observe large improvements over training-free methods, especially in the low-bit settings.",
+  "keywords": [
+    "generative",
+    "precision",
+    "language",
+    "model",
+    "large language models",
+    "long sequence dependencies",
+    "dependencies",
+    "large language models llms",
+    "lower bit precision",
+    "generations",
+    "qat",
+    "any generative model",
+    "we",
+    "sequence",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.26/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:48:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

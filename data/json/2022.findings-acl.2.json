@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.2",
+  "title": "Compilable Neural Code Generation with Compiler Feedback",
+  "authors": [
+    "Wang, Xin  and\nWang, Yasheng  and\nWan, Yao  and\nMi, Fei  and\nLi, Yitong  and\nZhou, Pingyi  and\nLiu, Jin  and\nWu, Hao  and\nJiang, Xin  and\nLiu, Qun"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Automatically generating compilable programs with (or without) natural language descriptions has always been a touchstone problem for computational linguistics and automated software engineering. Existing deep-learning approaches model code generation as text generation, either constrained by grammar structures in decoder, or driven by pre-trained language models on large-scale code corpus (e.g., CodeGPT, PLBART, and CodeT5). However, few of them account for compilability of the generated programs. To improve compilability of the generated programs, this paper proposes COMPCODER, a three-stage pipeline utilizing compiler feedback for compilable code generation, including language model fine-tuning, compilability reinforcement, and compilability discrimination. Comprehensive experiments on two code generation tasks demonstrate the effectiveness of our proposed approach, improving the success rate of compilation from 44.18 to 89.18 in code completion on average and from 70.3 to 96.2 in text-to-code generation, respectively, when comparing with the state-of-the-art CodeGPT.",
+  "keywords": [
+    "deep",
+    "code",
+    "compilable neural code generation",
+    "reinforcement",
+    "generation",
+    "language",
+    "neural",
+    "pre-trained language models",
+    "the generated programs",
+    "feedback",
+    "natural",
+    "model",
+    "text",
+    "compilable code generation",
+    "rate"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.2/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:34:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

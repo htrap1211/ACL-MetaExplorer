@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.207",
+  "title": "BRIO}: Bringing Order to Abstractive Summarization",
+  "authors": [
+    "Liu, Yixin  and\nLiu, Pengfei  and\nRadev, Dragomir  and\nNeubig, Graham"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Abstractive summarization models are commonly trained using maximum likelihood estimation, which assumes a deterministic (one-point) target distribution in which an ideal model will assign all the probability mass to the reference summary. This assumption may lead to performance degradation during inference, where the model needs to compare several system-generated (candidate) summaries that have deviated from the reference summary. To address this problem, we propose a novel training paradigm which assumes a non-deterministic distribution so that different candidate summaries are assigned probability mass according to their quality. Our method achieves a new state-of-the-art result on the CNN/DailyMail (47.78 ROUGE-1) and XSum (49.07 ROUGE-1) datasets. Further analysis also shows that our model can estimate probabilities of candidate summaries that are more correlated with their level of quality.",
+  "keywords": [
+    "reference",
+    "summaries",
+    "cnn",
+    "model",
+    "different candidate summaries",
+    "candidate summaries",
+    "probabilities",
+    "summarization",
+    "we",
+    "several system-generated candidate summaries",
+    "the cnn dailymail",
+    "49 07 rouge-1 datasets",
+    "analysis",
+    "training",
+    "the reference summary"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.207/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:27:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

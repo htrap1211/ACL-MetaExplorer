@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.20",
+  "title": "Confidence Under the Hood: An Investigation into the Confidence-Probability Alignment in Large Language Models",
+  "authors": [
+    "Kumar, Abhishek  and\nMorabito, Robert  and\nUmbet, Sanzhar  and\nKabbara, Jad  and\nEmami, Ali"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "As the use of Large Language Models (LLMs) becomes more widespread, understanding their self-evaluation of confidence in generated responses becomes increasingly important as it is integral to the reliability of the output of these models. We introduce the concept of Confidence-Probability Alignment, that connects an LLM’s internal confidence, quantified by token probabilities, to the confidence conveyed in the model’s response when explicitly asked about its certainty. Using various datasets and prompting techniques that encourage model introspection, we probe the alignment between models’ internal and expressed confidence. These techniques encompass using structured evaluation scales to rate confidence, including answer options when prompting, and eliciting the model’s confidence level for outputs it does not recognize as its own. Notably, among the models analyzed, OpenAI’s GPT-4 showed the strongest confidence-probability alignment, with an average Spearman’ŝ𝜌of 0.42, across a wide range of tasks. Our work contributes to the ongoing efforts to facilitate risk assessment in the application of LLMs and to further our understanding of model trustworthiness.",
+  "keywords": [
+    "generated responses",
+    "token probabilities",
+    "we",
+    "llm",
+    "answer",
+    "it",
+    "self",
+    "token",
+    "llms",
+    "structured evaluation scales",
+    "the strongest confidence-probability alignment",
+    "confidence-probability alignment",
+    "gpt-4",
+    "work",
+    "alignment"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.20/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:34:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

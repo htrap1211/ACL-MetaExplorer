@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.594",
+  "title": "Plug-and-Play Knowledge Injection for Pre-trained Language Models",
+  "authors": [
+    "Zhang, Zhengyan  and\nZeng, Zhiyuan  and\nLin, Yankai  and\nWang, Huadong  and\nYe, Deming  and\nXiao, Chaojun  and\nHan, Xu  and\nLiu, Zhiyuan  and\nLi, Peng  and\nSun, Maosong  and\nZhou, Jie"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Injecting external knowledge can improve the performance of pre-trained language models (PLMs) on various downstream NLP tasks. However, massive retraining is required to deploy new knowledge injection methods or knowledge bases for downstream tasks. In this work, we are the first to study how to improve the flexibility and efficiency of knowledge injection by reusing existing downstream models. To this end, we explore a new paradigmplug-and-play knowledge injection, where knowledge bases are injected into frozen existing downstream models by aknowledge plugin. Correspondingly, we propose a plug-and-play injection methodmap-tuning, which trains a mapping of knowledge embeddings to enrich model inputs with mapped embeddings while keeping model parameters frozen. Experimental results on three knowledge-driven NLP tasks show that existing injection methods are not suitable for the new paradigm, while map-tuning effectively improves the performance of downstream models. Moreover, we show that a frozen downstream model can be well adapted to different domains with different mapping networks of domain knowledge. Our code and models are available athttps://github.com/THUNLP/Knowledge-Plugin.",
+  "keywords": [
+    "code",
+    "end",
+    "efficiency",
+    "we",
+    "three knowledge-driven nlp tasks",
+    "pre-trained language models",
+    "map",
+    "pre-trained language models plms",
+    "knowledge embeddings",
+    "tuning",
+    "mapped embeddings",
+    "work",
+    "embeddings",
+    "knowledge",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.594/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.4",
+  "title": "Input-specific Attention Subnetworks for Adversarial Detection",
+  "authors": [
+    "Biju, Emil  and\nSriram, Anirudh  and\nKumar, Pratyush  and\nKhapra, Mitesh"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Self-attention heads are characteristic of Transformer models and have been well studied for interpretability and pruning. In this work, we demonstrate an altogether different utility of attention heads, namely for adversarial detection. Specifically, we propose a method to construct input-specific attention subnetworks (IAS) from which we extract three features to discriminate between authentic and adversarial inputs. The resultant detector significantly improves (by over 7.5%) the state-of-the-art adversarial detection accuracy for the BERT encoder on 10 NLU datasets with 11 different adversarial attack types. We also demonstrate that our method (a) is more accurate for larger models which are likely to have more spurious correlations and thus vulnerable to adversarial attack, and (b) performs well even with modest training sets of adversarial examples.",
+  "keywords": [
+    "work",
+    "transformer",
+    "the bert encoder",
+    "transformer models",
+    "bert",
+    "attention heads",
+    "input-specific attention subnetworks",
+    "self",
+    "encoder",
+    "adversarial detection self-attention heads",
+    "b",
+    "attention",
+    "we",
+    "vulnerable",
+    "a"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:34:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

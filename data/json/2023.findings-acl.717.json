@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.717",
+  "title": "Detecting Adversarial Samples through Sharpness of Loss Landscape",
+  "authors": [
+    "Zheng, Rui  and\nDou, Shihan  and\nZhou, Yuhao  and\nLiu, Qin  and\nGui, Tao  and\nZhang, Qi  and\nWei, Zhongyu  and\nHuang, Xuanjing  and\nZhang, Menghan"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Deep neural networks (DNNs) have been proven to be sensitive towards perturbations on input samples, and previous works highlight that adversarial samples are even more vulnerable than normal ones. In this work, this phenomenon is illustrated frWe first show that adversarial samples locate in steep and narrow local minima of the loss landscape (high sharpness) while normal samples, which differs distinctly from adversarial ones, reside in the loss surface that is more flatter (low sharpness).om the perspective of sharpness via visualizing the input loss landscape of models. Based on this, we propose a simple and effective sharpness-based detector to distinct adversarial samples by maximizing the loss increment within the region where the inference sample is located. Considering that the notion of sharpness of a loss landscape is relative, we further propose an adaptive optimization strategy in an attempt to fairly compare the relative sharpness among different samples. Experimental results show that our approach can outperform previous detection methods by large margins (average +6.6 F1 score) for four advanced attack strategies considered in this paper across three text classification tasks.",
+  "keywords": [
+    "deep",
+    "we",
+    "classification",
+    "an adaptive optimization strategy",
+    "neural",
+    "loss",
+    "vulnerable",
+    "normal",
+    "text",
+    "strategies",
+    "deep neural networks dnns",
+    "three text classification tasks",
+    "four advanced attack strategies",
+    "work",
+    "optimization"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.717/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

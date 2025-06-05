@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.676",
+  "title": "Hybrid Alignment Training for Large Language Models",
+  "authors": [
+    "Wang, Chenglong  and\nZhou, Hang  and\nChang, Kaiyan  and\nLi, Bei  and\nMu, Yongyu  and\nXiao, Tong  and\nLiu, Tongran  and\nZhu, JingBo"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Alignment training is crucial for enabling large language models (LLMs) to cater to human intentions and preferences. It is typically performed based on two stages with different objectives: instruction-following alignment and human-preference alignment. However, aligning LLMs with these objectives in sequence suffers from an inherent problem: the objectives may conflict, and the LLMs cannot guarantee to simultaneously align with the instructions and human preferences well. To response to these, in this work, we propose a Hybrid Alignment Training (Hbat) approach, based on alternating alignment and modified elastic weight consolidation methods. The basic idea is to alternate between different objectives during alignment training, so that better collaboration can be achieved between the two alignment tasks. We experiment with Hbat on summarization and dialogue tasks. Experimental results show that the proposed Hbat can significantly outperform all baselines. Notably, Hbat yields consistent performance gains over the traditional two-stage alignment training when using both proximal policy optimization and direct preference optimization.",
+  "keywords": [
+    "work",
+    "alignment",
+    "instruction",
+    "objectives",
+    "language",
+    "hybrid alignment training",
+    "it",
+    "human",
+    "large language models",
+    "direct preference optimization",
+    "both proximal policy optimization",
+    "optimization",
+    "alignment training",
+    "summarization",
+    "sequence"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.676/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

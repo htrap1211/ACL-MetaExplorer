@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.924",
+  "title": "Small Language Models Need Strong Verifiers to Self-Correct Reasoning",
+  "authors": [
+    "Zhang, Yunxiang  and\nKhalifa, Muhammad  and\nLogeswaran, Lajanugen  and\nKim, Jaekyeom  and\nLee, Moontae  and\nLee, Honglak  and\nWang, Lu"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Self-correction has emerged as a promising solution to boost the reasoning performance of large language models (LLMs), where LLMs refine their solutions using self-generated critiques that pinpoint the errors. This work explores whether small (≤ 13B) language models (LMs) have the ability of self-correction on reasoning tasks with minimal inputs from stronger LMs. We propose a novel pipeline that prompts smaller LMs to collect self-correction data that supports the training of self-refinement abilities. First, we leverage correct solutions to guide the model in critiquing their incorrect responses. Second, the generated critiques, after filtering, are used for supervised fine-tuning of the self-correcting reasoner through solution refinement. Our experimental results show improved self-correction abilities of two models on five datasets spanning math and commonsense reasoning, with notable performance gains when paired with a strong GPT-4-based verifier, though limitations are identified when using a weak self-verifier for determining when to correct.",
+  "keywords": [
+    "verifier",
+    "strong verifiers",
+    "we",
+    "a weak self-verifier",
+    "training",
+    "self",
+    "a strong gpt-4-based verifier",
+    "supervised fine-tuning",
+    "verifiers",
+    "improved self-correction abilities",
+    "llms",
+    "abilities",
+    "tuning",
+    "self-generated critiques",
+    "reasoner"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.924/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

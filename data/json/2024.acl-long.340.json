@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.340",
+  "title": "F}ast{F}i{D}: Improve Inference Efficiency of Open Domain Question Answering via Sentence Selection",
+  "authors": [
+    "Huang, Yufei  and\nHan, Xu  and\nSun, Maosong"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Open Domain Question Answering (ODQA) has been advancing rapidly in recent times, driven by significant developments in dense passage retrieval and pretrained language models. State-of-the-art models typically incorporate the FiD framework, which is composed by a neural retriever alongside an encoder-decoder neural reader. In the answer generation process, the retriever will retrieve numerous passages (around 100 for instance), each of which is then individually encoded by the encoder. Subsequently, the decoder makes predictions based on these encoded passages. Nevertheless, this framework can be relatively time-consuming, particularly due to the extensive length of the gathered passages. To address this, we introduce FastFiD in this paper, a novel approach that executes sentence selection on the encoded passages. This aids in retaining valuable sentences while reducing the context length required for generating answers. Experiments on three commonly used datasets (Natural Questions, TriviaQA and ASQA) demonstrate that our method can enhance the inference speed by **2.3X-5.7X**, while simultaneously maintaining the model’s performance. Moreover, an in-depth analysis of the model’s attention reveals that the selected sentences indeed hold a substantial contribution towards the final answer. The codes are publicly available at https://github.com/thunlp/FastFiD.",
+  "keywords": [
+    "the decoder",
+    "inference efficiency",
+    "ast",
+    "question",
+    "efficiency",
+    "we",
+    "the encoder",
+    "asqa",
+    "answer",
+    "neural",
+    "natural",
+    "dense passage retrieval",
+    "the model s attention",
+    "decoder",
+    "retrieval"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.340/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

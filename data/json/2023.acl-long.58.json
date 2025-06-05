@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.58",
+  "title": "Does {GPT}-3 Grasp Metaphors? Identifying Metaphor Mappings with Generative Language Models",
+  "authors": [
+    "Wachowiak, Lennart  and\nGromann, Dagmar"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Conceptual metaphors present a powerful cognitive vehicle to transfer knowledge structures from a source to a target domain. Prior neural approaches focus on detecting whether natural language sequences are metaphoric or literal. We believe that to truly probe metaphoric knowledge in pre-trained language models, their capability to detect this transfer should be investigated. To this end, this paper proposes to probe the ability of GPT-3 to detect metaphoric language and predict the metaphor’s source domain without any pre-set domains. We experiment with different training sample configurations for fine-tuning and few-shot prompting on two distinct datasets. When provided 12 few-shot samples in the prompt, GPT-3 generates the correct source domain for a new sample with an accuracy of 65.15% in English and 34.65% in Spanish. GPT’s most common error is a hallucinated source domain for which no indicator is present in the sentence. Other common errors include identifying a sequence as literal even though a metaphor is present and predicting the wrong source domain based on specific words in the sequence that are not metaphorically related to the target domain.",
+  "keywords": [
+    "end",
+    "the prompt gpt-3",
+    "we",
+    "shot",
+    "training",
+    "fine-tuning",
+    "few-shot",
+    "neural",
+    "pre-trained language models",
+    "natural",
+    "gpt-3",
+    "generative language models",
+    "sequence",
+    "transfer",
+    "generative"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.58/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:36:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

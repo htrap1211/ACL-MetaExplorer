@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.133",
+  "title": "Injecting knowledge into language generation: a case study in auto-charting after-visit care instructions from medical dialogue",
+  "authors": [
+    "Eremeev, Maksim  and\nValmianski, Ilya  and\nAmatriain, Xavier  and\nKannan, Anitha"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Factual correctness is often the limiting factor in practical applications of natural language generation in high-stakes domains such as healthcare. An essential requirement for maintaining factuality is the ability to deal with rare tokens. This paper focuses on rare tokens that appear in both the source and the reference sequences, and which, when missed during generation, decrease the factual correctness of the output text. For high-stake domains that are also knowledge-rich, we show how to use knowledge to (a) identify which rare tokens that appear in both source and reference are important and (b) uplift their conditional probability. We introduce the “utilization rate” that encodes knowledge and serves as a regularizer by maximizing the marginal probability of selected tokens. We present a study in a knowledge-rich domain of healthcare, where we tackle the problem of generating after-visit care instructions based on patient-doctor dialogues. We verify that, in our dataset, specific medical concepts with high utilization rates are underestimated by conventionally trained sequence-to-sequence models. We observe that correcting this with our approach to knowledge injection reduces the uncertainty of the model as well as improves factuality and coherence without negatively impacting fluency.",
+  "keywords": [
+    "rate",
+    "we",
+    "dialogue",
+    "language generation",
+    "patient-doctor dialogues",
+    "natural",
+    "rich",
+    "medical dialogue factual correctness",
+    "natural language generation",
+    "sequence",
+    "text",
+    "reference",
+    "knowledge",
+    "generation",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.133/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

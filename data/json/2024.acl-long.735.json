@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.735",
+  "title": "H}i{R}o{PE}: Length Extrapolation for Code Models Using Hierarchical Position",
+  "authors": [
+    "Zhang, Kechi  and\nLi, Ge  and\nZhang, Huangzhao  and\nJin, Zhi"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Addressing the limitation of context length in large language models for code-related tasks is the primary focus of this paper. Existing LLMs are constrained by their pre-trained context lengths, leading to performance issues in handling long complex code sequences. Inspired by how human programmers navigate code, we introduce Hierarchical Rotary Position Embedding (HiRoPE), a novel approach that enhances the traditional rotary position embedding into a hierarchical format based on the hierarchical structure of source code. HiRoPE offers easy integration into existing LLMs without extra training costs. Our method is extensively evaluated with various LLMs, demonstrating stable performance in tasks such as language modeling and long code completion. We also introduce a new long code understanding task with real-world code projects, in hopes of promoting further development in this code-related field. Theoretically and experimentally, we find that HiRoPE also addresses the out-of-distribution issue in position encoding. Our HiRoPE significantly expands the context length capabilities of LLMs, enabling inference at lengths exponentially greater than the training length.",
+  "keywords": [
+    "code",
+    "this code-related field",
+    "extra",
+    "the hierarchical structure",
+    "field",
+    "we",
+    "hierarchical rotary position",
+    "language modeling",
+    "training",
+    "a hierarchical format",
+    "format",
+    "the context length capabilities",
+    "llms",
+    "i",
+    "hierarchical position"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.735/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:44:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

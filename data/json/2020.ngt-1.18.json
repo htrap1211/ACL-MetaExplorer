@@ -1,0 +1,33 @@
+{
+  "id": "2020.ngt-1.18",
+  "title": "Expand and Filter: {CUNI} and {LMU} Systems for the {WNGT} 2020 {D}uolingo Shared Task",
+  "authors": [
+    "Libovick{\\'y}, Jind{\\v{r}}ich  and\nKasner, Zden{\\v{e}}k  and\nHelcl, Jind{\\v{r}}ich  and\nDu{\\v{s}}ek, Ond{\\v{r}}ej"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the Fourth Workshop on Neural Generation and Translation",
+  "abstract": "We present our submission to the Simultaneous Translation And Paraphrase for Language Education (STAPLE) challenge. We used a standard Transformer model for translation, with a crosslingual classifier predicting correct translations on the output n-best list. To increase the diversity of the outputs, we used additional data to train the translation model, and we trained a paraphrasing model based on the Levenshtein Transformer architecture to generate further synonymous translations. The paraphrasing results were again filtered using our classifier. While the use of additional data and our classifier filter were able to improve results, the paraphrasing model produced too many invalid outputs to further improve the output quality. Our model without the paraphrasing component finished in the middle of the field for the shared task, improving over the best baseline by a margin of 10-22 % weighted F1 absolute.",
+  "keywords": [
+    "transformer",
+    "language",
+    "the field",
+    "classifier",
+    "model",
+    "further synonymous translations",
+    "the levenshtein transformer architecture",
+    "a crosslingual classifier",
+    "a standard transformer model",
+    "10-22 weighted f1",
+    "field",
+    "correct translations",
+    "the simultaneous translation",
+    "our classifier filter",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2020.ngt-1.18/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:57:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

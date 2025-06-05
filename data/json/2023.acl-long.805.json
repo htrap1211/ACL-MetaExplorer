@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.805",
+  "title": "Knowledge Unlearning for Mitigating Privacy Risks in Language Models",
+  "authors": [
+    "Jang, Joel  and\nYoon, Dongkeun  and\nYang, Sohee  and\nCha, Sungmin  and\nLee, Moontae  and\nLogeswaran, Lajanugen  and\nSeo, Minjoon"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Pretrained Language Models (LMs) memorize a vast amount of knowledge during initial pretraining, including information that may violate the privacy of personal lives and identities. Previous work addressing privacy issues for LMs has mostly focused on data preprocessing and differential privacy methods, both requiring re-training the underlying LM. We propose knowledge unlearning as an alternative method to reduce privacy risks for LMs post hoc. We show that simply performing gradient ascent on target token sequences is effective at forgetting them with little to no degradation of general language modeling performances for larger-sized LMs. We also find that sequential unlearning is better than trying to unlearn all the data at once and that unlearning is highly dependent on which kind of data (domain) is forgotten. By showing comparisons with previous methods known to mitigate privacy risks for LMs, we show that our approach can give a stronger empirical privacy guarantee in scenarios where the data vulnerable to extraction attacks are known a priori while being much more efficient and robust.",
+  "keywords": [
+    "extraction",
+    "efficient",
+    "we",
+    "information",
+    "vulnerable",
+    "language models",
+    "-",
+    "gradient ascent",
+    "re",
+    "work",
+    "general language modeling performances",
+    "general",
+    "knowledge",
+    "language",
+    "modeling"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.805/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:46:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

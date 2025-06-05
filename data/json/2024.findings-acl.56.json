@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.56",
+  "title": "Implanting {LLM}{'}s Knowledge via Reading Comprehension Tree for Toxicity Detection",
+  "authors": [
+    "Kang, Hankun  and\nQian, Tieyun"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Toxicity detection plays a crucial role in maintaining the peace of the society. Existing methods can be roughly categorized as small language model (SLM) based and large language model (LLM) based. However, due to the limitation of SLMs on general knowledge and the potential embedded bias in LLMs despite their large amount of knowledge, it is not a good idea to detect toxicity only with either SLM or LLM based method.In this work, we propose to implant LLM’s knowledge into SLM based methods such that we can stick to both types of models’ strengths. To this end, we develop a reading comprehension (RC) tree to transfer knowledge between two models. Specifically, we first construct the RC tree, from an extensive to intensive reading perspective, to capture the local and global information in the text. We then model samples encoded by SLM and knowledge extracted from LLM as two distributions using the constructed RT tree. We finally transfer knowledge via optimal transportation between two distributions. Extensive experiments prove the effectiveness of our method on real-world and machine-generated datasets.",
+  "keywords": [
+    "bias",
+    "end",
+    "large language model",
+    "we",
+    "llm s knowledge",
+    "llm",
+    "the potential embedded bias",
+    "it",
+    "implant llm s knowledge",
+    "information",
+    "llm based method",
+    "llms",
+    "text",
+    "general knowledge",
+    "the society existing methods"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.56/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:49:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

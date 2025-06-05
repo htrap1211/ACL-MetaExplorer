@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.76",
+  "title": "Sentence-aware Contrastive Learning for Open-Domain Passage Retrieval",
+  "authors": [
+    "Wu, Bohong  and\nZhang, Zhuosheng  and\nWang, Jinyuan  and\nZhao, Hai"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Training dense passage representations via contrastive learning has been shown effective for Open-Domain Passage Retrieval (ODPR). Existing studies focus on further optimizing by improving negative sampling strategy or extra pretraining. However, these studies keep unknown in capturing passage with internal representation conflicts from improper modeling granularity. Specifically, under our observation that a passage can be organized by multiple semantically different sentences, modeling such a passage as a unified dense vector is not optimal. This work thus presents a refined model on the basis of a smaller granularity, contextual sentences, to alleviate the concerned conflicts. In detail, we introduce an in-passage negative sampling strategy to encourage a diverse generation of sentence representations within the same passage. Experiments on three benchmark datasets verify the efficacy of our method, especially on datasets where conflicts are severe. Extensive experiments further present good transferability of our method across datasets.",
+  "keywords": [
+    "a unified dense vector",
+    "extra",
+    "these studies",
+    "we",
+    "training",
+    "multiple semantically different sentences",
+    "unified",
+    "retrieval",
+    "learning",
+    "vector",
+    "work",
+    "generation",
+    "a diverse generation",
+    "model",
+    "studies"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.76/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:25:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

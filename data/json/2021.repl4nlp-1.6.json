@@ -1,0 +1,33 @@
+{
+  "id": "2021.repl4nlp-1.6",
+  "title": "Temporal-aware Language Representation Learning From Crowdsourced Labels",
+  "authors": [
+    "Hao, Yang  and\nZhai, Xiao  and\nDing, Wenbiao  and\nLiu, Zitao"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 6th Workshop on Representation Learning for NLP (RepL4NLP-2021)",
+  "abstract": "Learning effective language representations from crowdsourced labels is crucial for many real-world machine learning tasks. A challenging aspect of this problem is that the quality of crowdsourced labels suffer high intra- and inter-observer variability. Since the high-capacity deep neural networks can easily memorize all disagreements among crowdsourced labels, directly applying existing supervised language representation learning algorithms may yield suboptimal solutions. In this paper, we proposeTACMA, a temporal-aware language representation learning heuristic for crowdsourced labels with multiple annotators. The proposed approach (1) explicitly models the intra-observer variability with attention mechanism; (2) computes and aggregates per-sample confidence scores from multiple workers to address the inter-observer disagreements. The proposed heuristic is extremely easy to implement in around 5 lines of code. The proposed heuristic is evaluated on four synthetic and four real-world data sets. The results show that our approach outperforms a wide range of state-of-the-art baselines in terms of prediction accuracy and AUC. To encourage the reproducible results, we make our code publicly available athttps://github.com/CrowdsourcingMining/TACMA.",
+  "keywords": [
+    "deep",
+    "code",
+    "prediction accuracy",
+    "we",
+    "neural",
+    "attention mechanism",
+    "learning",
+    "many real-world machine learning",
+    "accuracy",
+    "language",
+    "machine",
+    "attention",
+    "the quality",
+    "approach",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2021.repl4nlp-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:19:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

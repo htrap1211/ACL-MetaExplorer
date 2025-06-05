@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.18",
+  "title": "ON}-{TRAC} Consortium Systems for the {IWSLT} 2023 Dialectal and Low-resource Speech Translation Tasks",
+  "authors": [
+    "Laurent, Antoine  and\nGahbiche, Souhir  and\nNguyen, Ha  and\nElleuch, Haroun  and\nBougares, Fethi  and\nThiol, Antoine  and\nRiguidel, Hugo  and\nMdhaffar, Salima  and\nLaperri{\\`e}re, Ga{\\\"e}lle  and\nMaison, Lucas  and\nKhurana, Sameer  and\nEst{\\`e}ve, Yannick"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "This paper describes the ON-TRAC consortium speech translation systems developed for IWSLT 2023 evaluation campaign. Overall, we participated in three speech translation tracks featured in the low-resource and dialect speech translation shared tasks, namely; i) spoken Tamasheq to written French, ii) spoken Pashto to written French, and iii) spoken Tunisian to written English. All our primary submissions are based on the end-to-end speech-to-text neural architecture using a pretrained SAMU-XLSR model as a speech encoder and a mbart model as a decoder. The SAMU-XLSR model is built from the XLS-R 128 in order to generate language agnostic sentence-level embeddings. This building is driven by the LaBSE model trained on multilingual text dataset. This architecture allows us to improve the input speech representations and achieve significant improvements compared to conventional end-to-end speech translation systems.",
+  "keywords": [
+    "embeddings",
+    "end",
+    "i",
+    "language",
+    "neural",
+    "model",
+    "text",
+    "trac",
+    "encoder",
+    "decoder",
+    "a decoder",
+    "us",
+    "language agnostic sentence-level embeddings",
+    "we",
+    "iwslt 2023 evaluation campaign"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.18/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:24:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

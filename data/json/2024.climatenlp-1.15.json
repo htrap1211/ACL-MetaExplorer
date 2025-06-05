@@ -1,0 +1,33 @@
+{
+  "id": "2024.climatenlp-1.15",
+  "title": "Statements: Universal Information Extraction from Tables with Large Language Models for {ESG} {KPI}s",
+  "authors": [
+    "Mishra, Lokesh  and\nDhibi, Sohayl  and\nKim, Yusik  and\nBerrospi Ramis, Cesar  and\nGupta, Shubham  and\nDolfi, Michele  and\nStaar, Peter"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Natural Language Processing Meets Climate Change (ClimateNLP 2024)",
+  "abstract": "Environment, Social, and Governance (ESG) KPIs assess an organization’s performance on issues such as climate change, greenhouse gas emissions, water consumption, waste management, human rights, diversity, and policies. ESG reports convey this valuable quantitative information through tables. Unfortunately, extracting this information is difficult due to high variability in the table structure as well as content. We propose Statements, a novel domain agnostic data structure for extracting quantitative facts and related information. We propose translating tables to statements as a new supervised deep-learning universal information extraction task. We introduce SemTabNet - a dataset of over 100K annotated tables. Investigating a family of T5-based Statement Extraction Models, our best model generates statements which are 82% similar to the ground-truth (compared to baseline of 21%). We demonstrate the advantages of statements by applying our model to over 2700 tables from ESG reports. The homogeneous nature of statements permits exploratory data analysis on expansive information found in large collections of ESG reports.",
+  "keywords": [
+    "extraction",
+    "we",
+    "universal information extraction",
+    "policies",
+    "information",
+    "analysis",
+    "language",
+    "model",
+    "human",
+    "large language models",
+    "water",
+    "diversity",
+    "change",
+    "t5-based statement extraction models",
+    "models"
+  ],
+  "url": "https://aclanthology.org/2024.climatenlp-1.15/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:05:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

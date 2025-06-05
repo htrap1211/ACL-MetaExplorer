@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-srw.15",
+  "title": "Multi-Task Neural Model for Agglutinative Language Translation",
+  "authors": [
+    "Pan, Yirong  and\nLi, Xiao  and\nYang, Yating  and\nDong, Rui"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "Neural machine translation (NMT) has achieved impressive performance recently by using large-scale parallel corpora. However, it struggles in the low-resource and morphologically-rich scenarios of agglutinative language translation task. Inspired by the finding that monolingual data can greatly improve the NMT performance, we propose a multi-task neural model that jointly learns to perform bi-directional translation and agglutinative language stemming. Our approach employs the shared encoder and decoder to train a single model without changing the standard NMT architecture but instead adding a token before each source-side sentence to specify the desired target outputs of the two different tasks. Experimental results on Turkish-English and Uyghur-Chinese show that our proposed approach can significantly improve the translation performance on agglutinative languages by using a small amount of monolingual data.",
+  "keywords": [
+    "agglutinative language translation task",
+    "language",
+    "the translation performance",
+    "neural",
+    "model",
+    "machine",
+    "it",
+    "token",
+    "encoder",
+    "decoder",
+    "rich",
+    "we",
+    "bi-directional translation",
+    "the shared encoder",
+    "translation"
+  ],
+  "url": "https://aclanthology.org/2020.acl-srw.15/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:53:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

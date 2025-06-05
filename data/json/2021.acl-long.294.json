@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.294",
+  "title": "H}-Transformer-1{D}: Fast One-Dimensional Hierarchical Attention for Sequences",
+  "authors": [
+    "Zhu, Zhenhai  and\nSoricut, Radu"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "We describe an efficient hierarchical method to compute attention in the Transformer architecture. The proposed attention mechanism exploits a matrix structure similar to the Hierarchical Matrix (H-Matrix) developed by the numerical analysis community, and has linear run time and memory complexity. We perform extensive experiments to show that the inductive bias embodied by our hierarchical attention is effective in capturing the hierarchical structure in the sequences typical for natural language and vision tasks. Our method is superior to alternative sub-quadratic proposals by over +6 points on average on the Long Range Arena benchmark. It also sets a new SOTA test perplexity on One-Billion Word dataset with 5x fewer model parameters than that of the previous-best Transformer-based models.",
+  "keywords": [
+    "transformer",
+    "hierarchical",
+    "bias",
+    "language",
+    "natural",
+    "model",
+    "an efficient hierarchical method",
+    "it",
+    "efficient",
+    "the hierarchical structure",
+    "perplexity",
+    "our hierarchical attention",
+    "dimensional",
+    "attention",
+    "word"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.294/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

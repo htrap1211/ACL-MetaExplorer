@@ -1,0 +1,33 @@
+{
+  "id": "2024.gebnlp-1.12",
+  "title": "Dissecting Biases in Relation Extraction: A Cross-Dataset Analysis on People{'}s Gender and Origin",
+  "authors": [
+    "Stranisci, Marco  and\nHuguet Cabot, Pere-Llu{\\'i}s  and\nBassignana, Elisa  and\nNavigli, Roberto"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 5th Workshop on Gender Bias in Natural Language Processing (GeBNLP)",
+  "abstract": "Relation Extraction (RE) is at the core of many Natural Language Understanding tasks, including knowledge-base population and Question Answering. However, any Natural Language Processing system is exposed to biases, and the analysis of these has not received much attention in RE. We propose a new method for inspecting bias in the RE pipeline, which is completely transparent in terms of interpretability. Specifically, in this work we analyze biases related to gender and place of birth. Our methodology includes (i) obtaining semantic triplets (subject, object, semantic relation) involving ‘person’ entities from RE resources, (ii) collecting meta-information (‘gender’ and ‘place of birth’) using Entity Linking technologies, and then (iii) analyze the distribution of triplets across different groups (e.g., men versus women). We investigate bias at two levels: In the training data of three commonly used RE datasets (SREDFM, CrossRE, NYT), and in the predictions of a state-of-the-art RE approach (ReLiK). To enable cross-dataset analysis, we introduce a taxonomy of relation types mapping the label sets of different RE datasets to a unified label space. Our findings reveal that bias is a compounded issue affecting underrepresented groups within data and predictions for RE.",
+  "keywords": [
+    "much attention",
+    "bias",
+    "extraction",
+    "question",
+    "semantic",
+    "we",
+    "training",
+    "cross",
+    "natural",
+    "semantic triplets",
+    "person entities",
+    "unified",
+    "information",
+    "technologies",
+    "that bias"
+  ],
+  "url": "https://aclanthology.org/2024.gebnlp-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:06:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

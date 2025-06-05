@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.138",
+  "title": "LZ}1904 at {S}em{E}val-2021 Task 5: {B}i-{LSTM}-{CRF} for Toxic Span Detection using Pretrained Word Embedding",
+  "authors": [
+    "Zou, Liang  and\nLi, Wen"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "Recurrent Neural Networks (RNN) have been widely used in various Natural Language Processing (NLP) tasks such as text classification, sequence tagging, and machine translation. Long Short Term Memory (LSTM), a special unit of RNN, has the benefit of memorizing past and even future information in a sentence (especially for bidirectional LSTM). In the shared task of detecting spans which make texts toxic, we first apply pretrained word embedding (GloVe) to generate the word vectors after tokenization. And then we construct Bidirectional Long Short Term Memory-Conditional Random Field (Bi-LSTM-CRF) model by Baidu research to predict whether each word in the sentence is toxic or not. We tune hyperparameters of dropout rate, number of LSTM units, embedding size with 10 epochs and choose the best epoch with validation recall. Our model achieves an F1 score of 66.99 percent in test dataset.",
+  "keywords": [
+    "glove",
+    "validation",
+    "rate",
+    "field",
+    "we",
+    "lstm",
+    "the word vectors",
+    "translation",
+    "classification",
+    "recurrent neural networks",
+    "hyperparameters",
+    "lstm units",
+    "neural",
+    "natural",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.138/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

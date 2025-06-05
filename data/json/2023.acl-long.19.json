@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.19",
+  "title": "AMR}-based Network for Aspect-based Sentiment Analysis",
+  "authors": [
+    "Ma, Fukun  and\nHu, Xuming  and\nLiu, Aiwei  and\nYang, Yawen  and\nLi, Shuang  and\nYu, Philip S.  and\nWen, Lijie"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Aspect-based sentiment analysis (ABSA) is a fine-grained sentiment classification task. Many recent works have used dependency trees to extract the relation between aspects and contexts and have achieved significant improvements. However, further improvement is limited due to the potential mismatch between the dependency tree as a syntactic structure and the sentiment classification as a semantic task. To alleviate this gap, we replace the syntactic dependency tree with the semantic structure named Abstract Meaning Representation (AMR) and propose a model called AMR-based Path Aggregation Relational Network (APARN) to take full advantage of semantic structures. In particular, we design the path aggregator and the relation-enhanced self-attention mechanism that complement each other. The path aggregator extracts semantic features from AMRs under the guidance of sentence information, while the relation-enhanced self-attention mechanism in turn improves sentence features with refined semantic information. Experimental results on four public datasets demonstrate 1.13% average F1 improvement of APARN in ABSA when compared with state-of-the-art baselines.",
+  "keywords": [
+    "dependency trees",
+    "a semantic task",
+    "semantic",
+    "we",
+    "classification",
+    "the relation-enhanced self-attention mechanism",
+    "self",
+    "information",
+    "analysis",
+    "semantic structures",
+    "sentiment",
+    "model",
+    "the semantic structure",
+    "the syntactic dependency tree",
+    "dependency"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:35:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

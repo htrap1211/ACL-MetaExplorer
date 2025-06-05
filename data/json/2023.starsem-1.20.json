@@ -1,0 +1,33 @@
+{
+  "id": "2023.starsem-1.20",
+  "title": "KGLM}: Integrating Knowledge Graph Structure in Language Models for Link Prediction",
+  "authors": [
+    "Youn, Jason  and\nTagkopoulos, Ilias"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 12th Joint Conference on Lexical and Computational Semantics (*SEM 2023)",
+  "abstract": "The ability of knowledge graphs to represent complex relationships at scale has led to their adoption for various needs including knowledge representation, question-answering, and recommendation systems. Knowledge graphs are often incomplete in the information they represent, necessitating the need for knowledge graph completion tasks. Pre-trained and fine-tuned language models have shown promise in these tasks although these models ignore the intrinsic information encoded in the knowledge graph, namely the entity and relation types. In this work, we propose the Knowledge Graph Language Model (KGLM) architecture, where we introduce a new entity/relation embedding layer that learns to differentiate distinctive entity and relation types, therefore allowing the model to learn the structure of the knowledge graph. In this work, we show that further pre-training the language models with this additional embedding layer using the triples extracted from the knowledge graph, followed by the standard fine-tuning phase sets a new state-of-the-art performance for the link prediction task on the benchmark datasets.",
+  "keywords": [
+    "the knowledge graph",
+    "question",
+    "layer",
+    "we",
+    "graph",
+    "kglm",
+    "this additional embedding layer",
+    "information",
+    "knowledge graphs",
+    "knowledge graph structure",
+    "tuning",
+    "answering",
+    "knowledge graph completion tasks",
+    "language models",
+    "the language models"
+  ],
+  "url": "https://aclanthology.org/2023.starsem-1.20/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:31:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

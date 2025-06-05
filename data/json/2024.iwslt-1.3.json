@@ -1,0 +1,33 @@
+{
+  "id": "2024.iwslt-1.3",
+  "title": "NICT}{'}s Cascaded and End-To-End Speech Translation Systems using Whisper and {I}ndic{T}rans2 for the {I}ndic Task",
+  "authors": [
+    "Dabre, Raj  and\nSong, Haiyue"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 21st International Conference on Spoken Language Translation (IWSLT 2024)",
+  "abstract": "This paper presents the NICT’s submission for the IWSLT 2024 Indic track, focusing on three speech-to-text (ST) translation directions: English to Hindi, Bengali, and Tamil. We aim to enhance translation quality in this low-resource scenario by integrating state-of-the-art pre-trained automated speech recognition (ASR) and text-to-text machine translation (MT) models. Our cascade system incorporates a Whisper model fine-tuned for ASR and an IndicTrans2 model fine-tuned for MT. Additionally, we propose an end-to-end system that combines a Whisper model for speech-to-text conversion with knowledge distilled from an IndicTrans2 MT model. We first fine-tune the IndicTrans2 model to generate pseudo data in Indic languages. This pseudo data, along with the original English speech data, is then used to fine-tune the Whisper model. Experimental results show that the cascaded system achieved a BLEU score of 51.0, outperforming the end-to-end model, which scored 19.1 BLEU. Moreover, the analysis indicates that applying knowledge distillation from the IndicTrans2 model to the end-to-end ST model improves the translation quality by about 0.7 BLEU.",
+  "keywords": [
+    "19 1 bleu",
+    "end",
+    "st translation",
+    "bleu",
+    "we",
+    "translation",
+    "a bleu score",
+    "analysis",
+    "s",
+    "text",
+    "translation quality",
+    "fine",
+    "about 0 7 bleu",
+    "knowledge",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.iwslt-1.3/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:06:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

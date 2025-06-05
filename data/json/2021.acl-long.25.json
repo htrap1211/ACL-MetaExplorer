@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.25",
+  "title": "Learning Language Specific Sub-network for Multilingual Machine Translation",
+  "authors": [
+    "Lin, Zehui  and\nWu, Liwei  and\nWang, Mingxuan  and\nLi, Lei"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Multilingual neural machine translation aims at learning a single translation model for multiple languages. These jointly trained models often suffer from performance degradationon rich-resource language pairs. We attribute this degeneration to parameter interference. In this paper, we propose LaSS to jointly train a single unified multilingual MT model. LaSS learns Language Specific Sub-network (LaSS) for each language pair to counter parameter interference. Comprehensive experiments on IWSLT and WMT datasets with various Transformer architectures show that LaSS obtains gains on 36 language pairs by up to 1.2 BLEU. Besides, LaSS shows its strong generalization performance at easy adaptation to new language pairs and zero-shot translation. LaSS boosts zero-shot translation with an average of 8.3 BLEU on 30 language pairs. Codes and trained models are available athttps://github.com/NLP-Playground/LaSS.",
+  "keywords": [
+    "transformer",
+    "language",
+    "neural",
+    "nlp",
+    "8 3 bleu",
+    "machine",
+    "model",
+    "zero-shot translation lass",
+    "bleu",
+    "-",
+    "unified",
+    "its strong generalization performance",
+    "generalization",
+    "lass",
+    "various transformer architectures"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.25/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:59:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

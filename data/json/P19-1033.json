@@ -1,0 +1,33 @@
+{
+  "id": "P19-1033",
+  "title": "Neural News Recommendation with Long- and Short-term User Representations",
+  "authors": [
+    "An, Mingxiao  and\nWu, Fangzhao  and\nWu, Chuhan  and\nZhang, Kun  and\nLiu, Zheng  and\nXie, Xing"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Personalized news recommendation is important to help users find their interested news and improve reading experience. A key problem in news recommendation is learning accurate user representations to capture their interests. Users usually have both long-term preferences and short-term interests. However, existing news recommendation methods usually learn single representations of users, which may be insufficient. In this paper, we propose a neural news recommendation approach which can learn both long- and short-term user representations. The core of our approach is a news encoder and a user encoder. In the news encoder, we learn representations of news from their titles and topic categories, and use attention network to select important words. In the user encoder, we propose to learn long-term user representations from the embeddings of their IDs.In addition, we propose to learn short-term user representations from their recently browsed news via GRU network. Besides, we propose two methods to combine long-term and short-term user representations. The first one is using the long-term user representation to initialize the hidden state of the GRU network in short-term user representation. The second one is concatenating both long- and short-term user representations as a unified user vector. Extensive experiments on a real-world dataset show our approach can effectively improve the performance of neural news recommendation.",
+  "keywords": [
+    "attention network",
+    "the user encoder",
+    "the gru network",
+    "we",
+    "a news encoder",
+    "neural",
+    "topic categories",
+    "unified",
+    "gru",
+    "core",
+    "the embeddings",
+    "vector",
+    "categories",
+    "topic",
+    "experience"
+  ],
+  "url": "https://aclanthology.org/P19-1033/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:28:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.313",
+  "title": "Attention Mechanism with Energy-Friendly Operations",
+  "authors": [
+    "Wan, Yu  and\nYang, Baosong  and\nLiu, Dayiheng  and\nXiao, Rong  and\nWong, Derek  and\nZhang, Haibo  and\nChen, Boxing  and\nChao, Lidia"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Attention mechanism has become the dominant module in natural language processing models. It is computationally intensive and depends on massive power-hungry multiplications. In this paper, we rethink variants of attention mechanism from the energy consumption aspects. After reaching the conclusion that the energy costs of several energy-friendly operations are far less than their multiplication counterparts, we build a novel attention model by replacing multiplications with either selective operations or additions. Empirical results on three machine translation tasks demonstrate that the proposed model, against the vanilla one, achieves competitable accuracy while saving 99% and 66% energy during alignment calculation and the whole attention procedure. Our code will be released upon the acceptance.",
+  "keywords": [
+    "alignment",
+    "energy-friendly operations attention mechanism",
+    "code",
+    "friendly",
+    "processing",
+    "99 and 66 energy",
+    "language",
+    "natural",
+    "model",
+    "machine",
+    "competitable accuracy",
+    "it",
+    "a novel attention model",
+    "attention mechanism",
+    "natural language processing models"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.313/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

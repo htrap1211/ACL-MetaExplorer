@@ -1,0 +1,33 @@
+{
+  "id": "W19-4211",
+  "title": "Sigmorphon 2019 Task 2 system description paper: Morphological analysis in context for many languages, with supervision from only a few",
+  "authors": [
+    "Aiken, Brad  and\nKelly, Jared  and\nPalmer, Alexis  and\nPolat, Suleyman Olcay  and\nRama, Taraka  and\nNielsen, Rodney"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 16th Workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "This paper presents the UNT HiLT+Ling system for the Sigmorphon 2019 shared Task 2: Morphological Analysis and Lemmatization in Context. Our core approach focuses on the morphological tagging task; part-of-speech tagging and lemmatization are treated as secondary tasks. Given the highly multilingual nature of the task, we propose an approach which makes minimal use of the supplied training data, in order to be extensible to languages without labeled training data for the morphological inflection task. Specifically, we use a parallel Bible corpus to align contextual embeddings at the verse level. The aligned verses are used to build cross-language translation matrices, which in turn are used to map between embedding spaces for the various languages. Finally, we use sets of inflected forms, primarily from a high-resource language, to induce vector representations for individual UniMorph tags. Morphological analysis is performed by matching vector representations to embeddings for individual tokens. While our system results are dramatically below the average system submitted for the shared task evaluation campaign, our method is (we suspect) unique in its minimal reliance on labeled training data.",
+  "keywords": [
+    "we",
+    "training",
+    "translation",
+    "cross",
+    "ling",
+    "analysis",
+    "core",
+    "cross-language translation matrices",
+    "vector",
+    "contextual embeddings",
+    "vector representations",
+    "embeddings",
+    "the supplied training data",
+    "language",
+    "tagging"
+  ],
+  "url": "https://aclanthology.org/W19-4211/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:27:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.842",
+  "title": "Self-Para-Consistency: Improving Reasoning Tasks at Low Cost for Large Language Models",
+  "authors": [
+    "Chen, Wenqing  and\nWang, Weicheng  and\nChu, Zhixuan  and\nRen, Kui  and\nZheng, Zibin  and\nLu, Zhichao"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Recently, the self-consistency decoding strategy has shown the ability to improve performance for complex reasoning tasks with large language models (LLMs). However, the costs may be high because the sampling process of the strategy generates some low-probability text, resulting in low-quality reasoning paths. As a consequence, it requires a relatively large sampling number to obtain good aggregation performance. In this paper, we propose an alternative strategy,self-para-consistency. It first generates multiple paraphrases for each test question, then generates reasoning paths for the original and all the paraphrased questions based on greedy decoding, and finally selects the most consistent answer. Since all the candidate paths have relatively high probabilities, the sampling number could be much smaller than the self-consistency strategy. Extensive experiments on complex reasoning datasets demonstrate the effectiveness of our method in reducing the sampling number.",
+  "keywords": [
+    "process",
+    "para",
+    "language",
+    "answer",
+    "text",
+    "it",
+    "large language models",
+    "self",
+    "relatively high probabilities",
+    "question",
+    "probabilities",
+    "we",
+    "all the paraphrased questions",
+    "the effectiveness",
+    "good"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.842/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:00:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

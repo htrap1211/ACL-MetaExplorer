@@ -1,0 +1,33 @@
+{
+  "id": "2024.loresmt-1.5",
+  "title": "Linguistically Informed Transformers for Text to {A}merican {S}ign {L}anguage Translation",
+  "authors": [
+    "Varanasi, Abhishek Bharadwaj  and\nSinha, Manjira  and\nDasgupta, Tirthankar  and\nJadhav, Charudatta"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Seventh Workshop on Technologies for Machine Translation of Low-Resource Languages (LoResMT 2024)",
+  "abstract": "In this paper we propose a framework for automatic translation of English text to American Sign Language (ASL) which leverages a linguistically informed transformer model to translate English sentences into ASL gloss sequences. These glosses are then associated with respective ASL videos, effectively representing English text in ASL. To facilitate experimentation, we create an English-ASL parallel dataset on banking domain.Our preliminary results demonstrated that the linguistically informed transformer model achieves a 97.83% ROUGE-L score for text-to-gloss translation on the ASLG-PC12 dataset. Furthermore, fine-tuning the transformer model on the banking domain dataset yields an 89.47% ROUGE-L score when fine-tuned on ASLG-PC12 + banking domain dataset. These results demonstrate the effectiveness of the linguistically informed model for both general and domain-specific translations. To facilitate parallel dataset generation in banking-domain, we choose ASL despite having limited benchmarks and data corpus compared to some of the other sign languages.",
+  "keywords": [
+    "transformer",
+    "transformers",
+    "general",
+    "the transformer model",
+    "ign",
+    "language",
+    "generation",
+    "model",
+    "text",
+    "automatic translation",
+    "anguage",
+    "we",
+    "rouge",
+    "translations",
+    "translation"
+  ],
+  "url": "https://aclanthology.org/2024.loresmt-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

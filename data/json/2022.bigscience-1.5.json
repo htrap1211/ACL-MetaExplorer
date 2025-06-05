@@ -1,0 +1,33 @@
+{
+  "id": "2022.bigscience-1.5",
+  "title": "UNIREX}: A Unified Learning Framework for Language Model Rationale Extraction",
+  "authors": [
+    "Chan, Aaron  and\nSanjabi, Maziar  and\nMathias, Lambert  and\nTan, Liang  and\nNie, Shaoliang  and\nPeng, Xiaochang  and\nRen, Xiang  and\nFirooz, Hamed"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of BigScience Episode {\\#}5 -- Workshop on Challenges {\\&} Perspectives in Creating Large Language Models",
+  "abstract": "An extractive rationale explains a language model’s (LM’s) prediction on a given task instance by highlighting the text inputs that most influenced the prediction. Ideally, rationale extraction should be faithful (reflective of LM’s actual behavior) and plausible (convincing to humans), without compromising the LM’s (i.e., task model’s) task performance. Although attribution algorithms and select-predict pipelines are commonly used in rationale extraction, they both rely on certain heuristics that hinder them from satisfying all three desiderata. In light of this, we propose UNIREX, a flexible learning framework which generalizes rationale extractor optimization as follows: (1) specify architecture for a learned rationale extractor; (2) select explainability objectives (i.e., faithfulness and plausibility criteria); and (3) jointly the train task model and rationale extractor on the task using selected objectives. UNIREX enables replacing prior works’ heuristic design choices with a generic learned rationale extractor in (1) and optimizing it for all three desiderata in (2)-(3). To facilitate comparison between methods w.r.t. multiple desiderata, we introduce the Normalized Relative Gain (NRG) metric. Across five English text classification datasets, our best UNIREX configuration outperforms the strongest baselines by an average of 32.9% NRG. Plus, we find that UNIREX-trained rationale extractors’ faithfulness can even generalize to unseen datasets and tasks.",
+  "keywords": [
+    "objectives",
+    "extraction",
+    "selected objectives",
+    "we",
+    "five english text classification",
+    "classification",
+    "it",
+    "language model rationale extraction",
+    "unified",
+    "learning",
+    "i",
+    "s",
+    "metric",
+    "text",
+    "generic"
+  ],
+  "url": "https://aclanthology.org/2022.bigscience-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

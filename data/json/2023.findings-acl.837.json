@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.837",
+  "title": "SSP}: Self-Supervised Post-training for Conversational Search",
+  "authors": [
+    "Tu, Quan  and\nGao, Shen  and\nWu, Xiaolong  and\nCao, Zhao  and\nWen, Ji-Rong  and\nYan, Rui"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Conversational search has been regarded as the next-generation search paradigm. Constrained by data scarcity, most existing methods distill the well-trained ad-hoc retriever to the conversational retriever. However, these methods, which usually initialize parameters by query reformulation to discover contextualized dependency, have trouble in understanding the dialogue structure information and struggle with contextual semantic vanishing. In this paper, we propose {pasted macro ‘FULLMODEL’} ({pasted macro ‘MODEL’}) which is a new post-training paradigm with three self-supervised tasks to efficiently initialize the conversational search model to enhance the dialogue structure and contextual semantic understanding. Furthermore, the {pasted macro ‘MODEL’} can be plugged into most of the existing conversational models to boost their performance. To verify the effectiveness of our proposed method, we apply the conversational encoder post-trained by {pasted macro ‘MODEL’} on the conversational search task using two benchmark datasets: CAsT-19 and CAsT-20.Extensive experiments that our {pasted macro ‘MODEL’} can boost the performance of several existing conversational search methods. Our source code is available athttps://github.com/morecry/SSP.",
+  "keywords": [
+    "code",
+    "fullmodel",
+    "contextual semantic understanding",
+    "conversational search conversational search",
+    "semantic",
+    "we",
+    "dialogue",
+    "the next-generation search paradigm",
+    "contextual semantic vanishing",
+    "macro fullmodel",
+    "training",
+    "the dialogue structure",
+    "the existing conversational models",
+    "self",
+    "information"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.837/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

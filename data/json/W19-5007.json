@@ -1,0 +1,33 @@
+{
+  "id": "W19-5007",
+  "title": "Combining Structured and Free-text Electronic Medical Record Data for Real-time Clinical Decision Support",
+  "authors": [
+    "Apostolova, Emilia  and\nWang, Tony  and\nTschampel, Tim  and\nKoutroulis, Ioannis  and\nVelez, Tom"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 18th BioNLP Workshop and Shared Task",
+  "abstract": "The goal of this work is to utilize Electronic Medical Record (EMR) data for real-time Clinical Decision Support (CDS). We present a deep learning approach to combining in real time available diagnosis codes (ICD codes) and free-text notes: Patient Context Vectors. Patient Context Vectors are created by averaging ICD code embeddings, and by predicting the same from free-text notes via a Convolutional Neural Network. The Patient Context Vectors were then simply appended to available structured data (vital signs and lab results) to build prediction models for a specific condition. Experiments on predicting ARDS, a rare and complex condition, demonstrate the utility of Patient Context Vectors as a means of summarizing the patient history and overall condition, and improve significantly the prediction model results.",
+  "keywords": [
+    "work",
+    "deep",
+    "embeddings",
+    "code",
+    "means",
+    "support",
+    "neural",
+    "model",
+    "icd code embeddings",
+    "patient context vectors",
+    "text",
+    "vectors",
+    "the patient context vectors",
+    "a deep learning approach",
+    "the patient history"
+  ],
+  "url": "https://aclanthology.org/W19-5007/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:55:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

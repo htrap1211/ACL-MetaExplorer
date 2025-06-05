@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.183",
+  "title": "tmn at {S}em{E}val-2023 Task 9: Multilingual Tweet Intimacy Detection Using {XLM}-{T}, {G}oogle {T}ranslate, and Ensemble Learning",
+  "authors": [
+    "Glazkova, Anna"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "The paper describes a transformer-based system designed for SemEval-2023 Task 9: Multilingual Tweet Intimacy Analysis. The purpose of the task was to predict the intimacy of tweets in a range from 1 (not intimate at all) to 5 (very intimate). The official training set for the competition consisted of tweets in six languages (English, Spanish, Italian, Portuguese, French, and Chinese). The test set included the given six languages as well as external data with four languages not presented in the training set (Hindi, Arabic, Dutch, and Korean). We presented a solution based on an ensemble of XLM-T, a multilingual RoBERTa model adapted to the Twitter domain. To improve the performance on unseen languages, each tweet was supplemented by its English translation. We explored the effectiveness of translated data for the languages seen in fine-tuning compared to unseen languages and estimated strategies for using translated data in transformer-based models. Our solution ranked 4th on the leaderboard while achieving an overall Pearson’s r of 0.5989 over the test set. The proposed system improves up to 0.088 Pearson’s r over a score averaged across all 45 submissions.",
+  "keywords": [
+    "roberta",
+    "we",
+    "training",
+    "translation",
+    "fine-tuning",
+    "ensemble",
+    "a transformer-based system",
+    "an ensemble",
+    "analysis",
+    "tuning",
+    "strategies",
+    "transformer-based models",
+    "transformer",
+    "model",
+    "its english translation"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.183/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

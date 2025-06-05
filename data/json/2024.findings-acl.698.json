@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.698",
+  "title": "Knowledge Fusion By Evolving Weights of Language Models",
+  "authors": [
+    "Du, Guodong  and\nLi, Jing  and\nLiu, Hanting  and\nJiang, Runhua  and\nYu, Shuyang  and\nGuo, Yifei  and\nGoh, Sim Kuan  and\nTang, Ho-Kin"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Fine-tuning pre-trained language models, particularly large language models, demands extensive computing resources and can result in varying performance outcomes across different domains and datasets. This paper examines the approach of integrating multiple models from diverse training scenarios into a unified model. This unified model excels across various data domains and exhibits the ability to generalize well on out-of-domain data. We propose a knowledge fusion method named Evolver, inspired by evolutionary algorithms, which does not need further training or additional training data. Specifically, our method involves aggregating the weights of different language models into a population and subsequently generating offspring models through mutation and crossover operations. These offspring models are then evaluated against their parents, allowing for the preservation of those models that show enhanced performance on development datasets. Importantly, our model evolving strategy can be seamlessly integrated with existing model merging frameworks, offering a versatile tool for model enhancement. Experimental results on mainstream language models (i.e., encoder-only, decoder-only, encoder-decoder) reveal that Evolver outperforms previous state-of-the-art models by large margins.",
+  "keywords": [
+    "fine-tuning pre-trained language models",
+    "different language models",
+    "we",
+    "fusion",
+    "training",
+    "particularly large language models",
+    "unified",
+    "decoder",
+    "i",
+    "a unified model",
+    "language models",
+    "mainstream language models",
+    "knowledge",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.698/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

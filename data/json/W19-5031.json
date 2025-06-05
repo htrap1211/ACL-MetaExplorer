@@ -1,0 +1,33 @@
+{
+  "id": "W19-5031",
+  "title": "Transfer Learning for Causal Sentence Detection",
+  "authors": [
+    "Kyriakakis, Manolis  and\nAndroutsopoulos, Ion  and\nSaudabayev, Artur  and\nGin{\\'e}s i Ametll{\\'e}, Joan"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 18th BioNLP Workshop and Shared Task",
+  "abstract": "We consider the task of detecting sentences that express causality, as a step towards mining causal relations from texts. To bypass the scarcity of causal instances in relation extraction datasets, we exploit transfer learning, namely ELMO and BERT, using a bidirectional GRU with self-attention ( BIGRUATT ) as a baseline. We experiment with both generic public relation extraction datasets and a new biomedical causal sentence detection dataset, a subset of which we make publicly available. We find that transfer learning helps only in very small datasets. With larger datasets, BIGRUATT reaches a performance plateau, then larger datasets and transfer learning do not help.",
+  "keywords": [
+    "elmo",
+    "a bidirectional gru",
+    "extraction",
+    "bert",
+    "larger datasets bigruatt",
+    "self",
+    "generic",
+    "self-attention bigruatt",
+    "namely elmo",
+    "attention",
+    "we",
+    "transfer",
+    "learning",
+    "transfer learning",
+    "gru"
+  ],
+  "url": "https://aclanthology.org/W19-5031/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:56:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

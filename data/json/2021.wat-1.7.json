@@ -1,0 +1,33 @@
+{
+  "id": "2021.wat-1.7",
+  "title": "Hybrid Statistical Machine Translation for {E}nglish-{M}yanmar: {UTYCC} Submission to {WAT}-2021",
+  "authors": [
+    "Thu, Ye Kyaw  and\nOo, Thazin Myint  and\nNwe, Hlaing Myat  and\nMon, Khaing Zar  and\nKyaw, Nang Aeindray  and\nPhyo, Naing Linn  and\nKhun, Nann Hwan  and\nThant, Hnin Aye"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 8th Workshop on Asian Translation (WAT2021)",
+  "abstract": "In this paper we describe our submissions to WAT-2021 (Nakazawa et al., 2021) for English-to-Myanmar language (Burmese) task. Our team, ID: “YCC-MT1”, focused on bringing transliteration knowledge to the decoder without changing the model. We manually extracted the transliteration word/phrase pairs from the ALT corpus and applying XML markup feature of Moses decoder (i.e. -xml-input exclusive, -xml-input inclusive). We demonstrate that hybrid translation technique can significantly improve (around 6 BLEU scores) the baseline of three well-known “Phrase-based SMT”, “Operation Sequence Model” and “Hierarchical Phrase-based SMT”. Moreover, this simple hybrid method achieved the second highest results among the submitted MT systems for English-to-Myanmar WAT2021 translation share task according to BLEU (Papineni et al., 2002) and AMFM scores (Banchs et al., 2015).",
+  "keywords": [
+    "the decoder",
+    "bleu",
+    "we",
+    "hybrid statistical machine translation",
+    "translation",
+    "bleu papineni",
+    "decoder",
+    "hierarchical phrase-based smt",
+    "word",
+    "sequence",
+    "hybrid translation technique",
+    "m",
+    "i",
+    "moses decoder",
+    "hierarchical"
+  ],
+  "url": "https://aclanthology.org/2021.wat-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

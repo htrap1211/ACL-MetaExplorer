@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.304",
+  "title": "P}ing{A}n{L}ife{I}nsurance at {S}em{E}val-2023 Task 10: Using Multi-Task Learning to Better Detect Online Sexism",
+  "authors": [
+    "Zhou, Mengyuan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper describes our system used in the SemEval-2023 Task 10: Towards ExplainableDetection of Online Sexism (Kirk et al., 2023). The harmful effects of sexism on the internet have impacted both men and women, yet current research lacks a fine-grained classification of sexist content. The task involves three hierarchical sub-tasks, which we addressed by employing a multitask-learning framework. To further enhance our system’s performance, we pre-trained the roberta-large (Liu et al., 2019b) and deberta-v3-large (He et al., 2021) models on two million unlabeled data, resulting in significant improvements on sub-tasks A and C. In addition, the multitask-learning approach boosted the performance of our models on subtasks A and B. Our system exhibits promising results in achieving explainable detection of online sexism, attaining a test f1-score of 0.8746 on sub-task A (ranking 1st on the leaderboard), and ranking 5th on sub-tasks B and C.",
+  "keywords": [
+    "roberta",
+    "deberta",
+    "we",
+    "a test f1-score",
+    "current",
+    "three hierarchical sub",
+    "classification",
+    "c",
+    "learning",
+    "a",
+    "men",
+    "i",
+    "-",
+    "a fine-grained classification",
+    "hierarchical"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.304/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:30:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

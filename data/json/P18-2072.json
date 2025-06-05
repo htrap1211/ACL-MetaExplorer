@@ -1,0 +1,33 @@
+{
+  "id": "P18-2072",
+  "title": "Predicting accuracy on large datasets from smaller pilot data",
+  "authors": [
+    "Johnson, Mark  and\nAnderson, Peter  and\nDras, Mark  and\nSteedman, Mark"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Because obtaining training data is often the most difficult part of an NLP or ML project, we develop methods for predicting how much data is required to achieve a desired test accuracy by extrapolating results from models trained on a small pilot training dataset. We model how accuracy varies as a function of training size on subsets of the pilot data, and use that model to predict how much training data would be required to achieve the desired accuracy. We introduce a new performance extrapolation task to evaluate how well different extrapolations predict accuracy on larger training sets. We show that details of hyperparameter optimisation and the extrapolation models can have dramatic effects in a document classification task. We believe this is an important first step in developing methods for estimating the resources required to meet specific engineering performance targets.",
+  "keywords": [
+    "the desired accuracy",
+    "nlp",
+    "hyperparameter optimisation",
+    "model",
+    "a document classification task",
+    "a desired test accuracy",
+    "we",
+    "hyperparameter",
+    "function",
+    "training",
+    "classification",
+    "accuracy",
+    "targets",
+    "dramatic",
+    "this"
+  ],
+  "url": "https://aclanthology.org/P18-2072/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:18:10",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

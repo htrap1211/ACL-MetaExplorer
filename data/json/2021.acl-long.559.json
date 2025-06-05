@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.559",
+  "title": "S}truct{F}ormer: Joint Unsupervised Induction of Dependency and Constituency Structure from Masked Language Modeling",
+  "authors": [
+    "Shen, Yikang  and\nTay, Yi  and\nZheng, Che  and\nBahri, Dara  and\nMetzler, Donald  and\nCourville, Aaron"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "There are two major classes of natural language grammars — the dependency grammar that models one-to-one correspondences between words and the constituency grammar that models the assembly of one or several corresponded words. While previous unsupervised parsing methods mostly focus on only inducing one class of grammars, we introduce a novel model, StructFormer, that can induce dependency and constituency structure at the same time. To achieve this, we propose a new parsing framework that can jointly generate a constituency tree and dependency graph. Then we integrate the induced dependency relations into the transformer, in a differentiable manner, through a novel dependency-constrained self-attention mechanism. Experimental results show that our model can achieve strong results on unsupervised constituency parsing, unsupervised dependency parsing, and masked language modeling at the same time.",
+  "keywords": [
+    "transformer",
+    "ormer",
+    "unsupervised dependency parsing",
+    "parsing",
+    "language",
+    "a differentiable manner",
+    "natural",
+    "a new parsing framework",
+    "truct",
+    "model",
+    "class",
+    "masked language modeling",
+    "previous unsupervised parsing methods",
+    "self",
+    "the dependency grammar"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.559/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

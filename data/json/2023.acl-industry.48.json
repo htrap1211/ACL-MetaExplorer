@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.48",
+  "title": "BADGE}: Speeding Up {BERT} Inference after Deployment via Block-wise Bypasses and Divergence-based Early Exiting",
+  "authors": [
+    "Zhu, Wei  and\nWang, Peng  and\nNi, Yuan  and\nXie, Guotong  and\nWang, Xiaoling"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "Early exiting can reduce the average latency of pre-trained language models (PLMs) via its adaptive inference mechanism and work with other inference speed-up methods like model pruning, thus drawing much attention from the industry. In this work, we propose a novel framework, BADGE, which consists of two off-the-shelf methods for improving PLMs’ early exiting. We first address the issues of training a multi-exit PLM, the backbone model for early exiting. We propose the novel architecture of block-wise bypasses, which can alleviate the conflicts in jointly training multiple intermediate classifiers and thus improve the overall performances of multi-exit PLM while introducing negligible additional flops to the model. Second, we propose a novel divergence-based early exiting (DGE) mechanism, which obtains early exiting signals by comparing the predicted distributions of two adjacent layers’ exits. Extensive experiments on three proprietary datasets and three GLUE benchmark tasks demonstrate that our method can obtain a better speedup-performance trade-off than the existing baseline methods.\\footnote{Code will be made publicly available to the research community upon acceptance.}",
+  "keywords": [
+    "much attention",
+    "code",
+    "classifiers",
+    "we",
+    "exit",
+    "pre-trained language models plms",
+    "three proprietary datasets",
+    "multiple intermediate classifiers",
+    "bert",
+    "early",
+    "bert inference",
+    "dge",
+    "work",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.48/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

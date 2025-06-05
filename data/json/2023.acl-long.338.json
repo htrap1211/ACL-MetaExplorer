@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.338",
+  "title": "Similarity-weighted Construction of Contextualized Commonsense Knowledge Graphs for Knowledge-intense Argumentation Tasks",
+  "authors": [
+    "Plenz, Moritz  and\nOpitz, Juri  and\nHeinisch, Philipp  and\nCimiano, Philipp  and\nFrank, Anette"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Arguments often do not make explicit how a conclusion follows from its premises. To compensate for this lack, we enrich arguments with structured background knowledge to support knowledge-intense argumentation tasks. We present a new unsupervised method for constructing Contextualized Commonsense Knowledge Graphs (CCKGs) that selects contextually relevant knowledge from large knowledge graphs (KGs) efficiently and at high quality. Our work goes beyond context-insensitive knowledge extraction heuristics by computing semantic similarity between KG triplets and textual arguments. Using these triplet similarities as weights, we extract contextualized knowledge paths that connect a conclusion to its premise, while maximizing similarity to the argument. We combine multiple paths into a CCKG that we optionally prune to reduce noise and raise precision. Intrinsic evaluation of the quality of our graphs shows that our method is effective for (re)constructing human explanation graphs. Manual evaluations in a large-scale knowledge selection setup verify high recall and precision of implicit CSK in the CCKGs. Finally, we demonstrate the effectiveness of CCKGs in a knowledge-insensitive argument quality rating task, outperforming strong baselines and rivaling a GPT-3 based system.",
+  "keywords": [
+    "precision",
+    "contextualized commonsense knowledge graphs",
+    "extraction",
+    "large knowledge graphs",
+    "manual evaluations",
+    "semantic",
+    "we",
+    "semantic similarity",
+    "high recall",
+    "gpt-3",
+    "kgs",
+    "background",
+    "precision intrinsic evaluation",
+    "cckg",
+    "structured background knowledge"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.338/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:40:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

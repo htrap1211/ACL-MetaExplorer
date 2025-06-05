@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.575",
+  "title": "P}ol{CLIP}: A Unified Image-Text Word Sense Disambiguation Model via Generating Multimodal Complementary Representations",
+  "authors": [
+    "Yang, Qihao  and\nLi, Yong  and\nWang, Xuelin  and\nWang, Fu Lee  and\nHao, Tianyong"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Word sense disambiguation (WSD) can be viewed as two subtasks: textual word sense disambiguation (Textual-WSD) and visual word sense disambiguation (Visual-WSD). They aim to identify the most semantically relevant senses or images to a given context containing ambiguous target words. However, existing WSD models seldom address these two subtasks jointly due to lack of images in Textual-WSD datasets or lack of senses in Visual-WSD datasets. To bridge this gap, we propose PolCLIP, a unified image-text WSD model. By employing an image-text complementarity strategy, it not only simulates stable diffusion models to generate implicit visual representations for word senses but also simulates image captioning models to provide implicit textual representations for images. Additionally, a disambiguation-oriented image-sense dataset is constructed for the training objective of learning multimodal polysemy representations. To the best of our knowledge, PolCLIP is the first model that can cope with both Textual-WSD and Visual-WSD. Extensive experimental results on benchmarks demonstrate the effectiveness of our method, achieving a 2.53% F1-score increase over the state-of-the-art models on Textual-WSD and a 2.22% HR@1 improvement on Visual-WSD.",
+  "keywords": [
+    "the training objective",
+    "we",
+    "training",
+    "it",
+    "unified",
+    "word",
+    "visual",
+    "text",
+    "objective",
+    "knowledge",
+    "model",
+    "ambiguous target words",
+    "state",
+    "word senses",
+    "our knowledge polclip"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.575/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

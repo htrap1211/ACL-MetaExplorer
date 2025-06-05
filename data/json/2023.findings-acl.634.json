@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.634",
+  "title": "S}low{BERT}: Slow-down Attacks on Input-adaptive Multi-exit {BERT",
+  "authors": [
+    "Zhang, Shengyao  and\nPan, Xudong  and\nZhang, Mi  and\nYang, Min"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "For pretrained language models such as Google’s BERT, recent research designs several input-adaptive inference mechanisms to improve the efficiency on cloud and edge devices. In this paper, we reveal a new attack surface on input-adaptive multi-exit BERT, where the adversary imperceptibly modifies the input texts to drastically increase the average inference cost. Our proposed slow-down attack calledSlowBERTintegrates a new rank-and-substitute adversarial text generation algorithm to efficiently search for the perturbation which maximally delays the exiting time. With no direct access to the model internals, we further devise atime-based approximation algorithmto infer the exit position as the loss oracle. Our extensive evaluation on two popular instances of multi-exit BERT for GLUE classification tasks validates the effectiveness of SlowBERT. In the worst case, SlowBERT increases the inference cost by4.57×, which would strongly hurt the service quality of multi-exit BERT in practice, e.g., increasing the real-time cloud services’ response times for online users.",
+  "keywords": [
+    "efficiency",
+    "we",
+    "classification",
+    "edge",
+    "cloud",
+    "the efficiency",
+    "slowbert",
+    "loss",
+    "exit",
+    "bert",
+    "low bert slow-down attacks",
+    "text",
+    "multi-exit bert",
+    "our extensive evaluation",
+    "e g"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.634/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

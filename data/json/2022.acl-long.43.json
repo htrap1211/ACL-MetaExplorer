@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.43",
+  "title": "Few-Shot Class-Incremental Learning for Named Entity Recognition",
+  "authors": [
+    "Wang, Rui  and\nYu, Tong  and\nZhao, Handong  and\nKim, Sungchul  and\nMitra, Subrata  and\nZhang, Ruiyi  and\nHenao, Ricardo"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Previous work of class-incremental learning for Named Entity Recognition (NER) relies on the assumption that there exists abundance of labeled data for the training of new classes. In this work, we study a more challenging but practical problem,i.e., few-shot class-incremental learning for NER, where an NER model is trained with only few labeled samples of the new classes, without forgetting knowledge of the old ones. To alleviate the problem of catastrophic forgetting in few-shot class-incremental learning, we reconstruct synthetic training data of the old classes using the trained NER model, augmenting the training of new classes. We further develop a framework that distills from the existing model with both synthetic data, and real data from the current training set. Experimental results show that our approach achieves significant improvements over existing baselines.",
+  "keywords": [
+    "work",
+    "ner",
+    "knowledge",
+    "i",
+    "an ner model",
+    "model",
+    "named entity recognition",
+    "class",
+    "few-shot class-incremental learning",
+    "the trained ner model",
+    "we",
+    "learning",
+    "entity",
+    "current",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.43/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:24:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

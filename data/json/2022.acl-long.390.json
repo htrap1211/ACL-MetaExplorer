@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.390",
+  "title": "Neural Machine Translation with Phrase-Level Universal Visual Representations",
+  "authors": [
+    "Fang, Qingkai  and\nFeng, Yang"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Multimodal machine translation (MMT) aims to improve neural machine translation (NMT) with additional visual information, but most existing MMT methods require paired input of source sentence and image, which makes them suffer from shortage of sentence-image pairs. In this paper, we propose a phrase-level retrieval-based method for MMT to get visual information for the source input from existing sentence-image data sets so that MMT can break the limitation of paired sentence-image input. Our method performs retrieval at the phrase level and hence learns visual information from pairs of source phrase and grounded region, which can mitigate data sparsity. Furthermore, our method employs the conditional variational auto-encoder to learn visual representations which can filter redundant visual information and only retain visual information related to the phrase. Experiments show that the proposed method significantly outperforms strong baselines on multiple MMT datasets, especially when the textual context is limited.",
+  "keywords": [
+    "neural",
+    "machine",
+    "neural machine translation",
+    "a phrase-level retrieval-based method",
+    "encoder",
+    "retrieval",
+    "information",
+    "we",
+    "the conditional variational auto-encoder",
+    "visual",
+    "neural machine translation nmt",
+    "translation",
+    "the phrase level",
+    "most existing mmt methods",
+    "the proposed method"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.390/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:29:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

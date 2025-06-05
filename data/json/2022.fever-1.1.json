@@ -1,0 +1,33 @@
+{
+  "id": "2022.fever-1.1",
+  "title": "Retrieval Data Augmentation Informed by Downstream Question Answering Performance",
+  "authors": [
+    "Ferguson, James  and\nHajishirzi, Hannaneh  and\nDasigi, Pradeep  and\nKhot, Tushar"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Fifth Fact Extraction and VERification Workshop (FEVER)",
+  "abstract": "Training retrieval models to fetch contexts for Question Answering (QA) over large corpora requires labeling relevant passages in those corpora. Since obtaining exhaustive manual annotations of all relevant passages is not feasible, prior work uses text overlap heuristics to find passages that are likely to contain the answer, but this is not feasible when the task requires deeper reasoning and answers are not extractable spans (e.g.: multi-hop, discrete reasoning). We address this issue by identifying relevant passages based on whether they are useful for a trained QA model to arrive at the correct answers, and develop a search process guided by the QA model’s loss. Our experiments show that this approach enables identifying relevant context for unseen data greater than 90% of the time on the IIRC dataset and generalizes better to the end QA task than those trained on just the gold retrieval data on IIRC and QASC datasets.",
+  "keywords": [
+    "end",
+    "a trained qa model",
+    "question",
+    "we",
+    "training",
+    "answer",
+    "loss",
+    "retrieval",
+    "text",
+    "iirc and qasc datasets",
+    "work",
+    "process",
+    "model",
+    "qa",
+    "retrieval data augmentation"
+  ],
+  "url": "https://aclanthology.org/2022.fever-1.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:42:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

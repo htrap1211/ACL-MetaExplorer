@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.653",
+  "title": "BLOOM}+1: Adding Language Support to {BLOOM} for Zero-Shot Prompting",
+  "authors": [
+    "Yong, Zheng Xin  and\nSchoelkopf, Hailey  and\nMuennighoff, Niklas  and\nAji, Alham Fikri  and\nAdelani, David Ifeoluwa  and\nAlmubarak, Khalid  and\nBari, M Saiful  and\nSutawika, Lintang  and\nKasai, Jungo  and\nBaruwa, Ahmed  and\nWinata, Genta  and\nBiderman, Stella  and\nRaff, Edward  and\nRadev, Dragomir  and\nNikoulina, Vassilina"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The BLOOM model is a large publicly available multilingual language model, but its pretraining was limited to 46 languages. To extend the benefits of BLOOM to other languages without incurring prohibitively large costs, it is desirable to adapt BLOOM to new languages not seen during pretraining. In this work, we apply existing language adaptation strategies to BLOOM and benchmark its zero-shot prompting performance on eight new languages in a resource-constrained setting. We find language adaptation to be effective at improving zero-shot performance in new languages. Surprisingly, we find that adapter-based finetuning is more effective than continued pretraining for large models. In addition, we discover that prompting performance is not significantly affected by language specifics, such as the writing system. It is primarily determined by the size of the language adaptation data. We also add new languages to BLOOMZ, which is a multitask finetuned version of BLOOM capable of following task instructions zero-shot. We find including a new language in the multitask fine-tuning mixture to be the most effective method to teach BLOOMZ a new language. We conclude that with sufficient training data language adaptation can generalize well to diverse languages. Our code is available athttps://github.com/bigscience-workshop/multilingual-modeling.",
+  "keywords": [
+    "code",
+    "support",
+    "we",
+    "shot",
+    "training",
+    "zero-shot performance",
+    "it",
+    "sufficient",
+    "prompting performance",
+    "strategies",
+    "its zero-shot prompting performance",
+    "zero-shot",
+    "work",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.653/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:44:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.203",
+  "title": "Unsupervised Corpus Aware Language Model Pre-training for Dense Passage Retrieval",
+  "authors": [
+    "Gao, Luyu  and\nCallan, Jamie"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent research demonstrates the effectiveness of using fine-tuned language models (LM) for dense retrieval. However, dense retrievers are hard to train, typically requiring heavily engineered fine-tuning pipelines to realize their full potential. In this paper, we identify and address two underlying problems of dense retrievers: i) fragility to training data noise and ii) requiring large batches to robustly learn the embedding space. We use the recently proposed Condenser pre-training architecture, which learns to condense information into the dense vector through LM pre-training. On top of it, we propose coCondenser, which adds an unsupervised corpus-level contrastive loss to warm up the passage embedding space. Experiments on MS-MARCO, Natural Question, and Trivia QA datasets show that coCondenser removes the need for heavy data engineering such as augmentation, synthesis, or filtering, and the need for large batch training. It shows comparable performance to RocketQA, a state-of-the-art, heavily engineered system, using simple small batch fine-tuning.",
+  "keywords": [
+    "top",
+    "dense retrievers",
+    "question",
+    "we",
+    "training",
+    "however dense retrievers",
+    "natural",
+    "it",
+    "retrieval",
+    "loss",
+    "information",
+    "heavily engineered fine-tuning pipelines",
+    "the dense vector",
+    "vector",
+    "i"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.203/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:27:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

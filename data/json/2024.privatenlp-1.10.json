@@ -1,0 +1,33 @@
+{
+  "id": "2024.privatenlp-1.10",
+  "title": "P}ocket{LLM}: Enabling On-Device Fine-Tuning for Personalized {LLM}s",
+  "authors": [
+    "Peng, Dan  and\nFu, Zhihui  and\nWang, Jun"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Fifth Workshop on Privacy in Natural Language Processing",
+  "abstract": "Recent advancements in large language models (LLMs) have indeed showcased their impressive capabilities. On mobile devices, the wealth of valuable, non-public data generated daily holds great promise for locally fine-tuning personalized LLMs, while maintaining privacy through on-device processing. However, the constraints of mobile device resources pose challenges to direct on-device LLM fine-tuning, mainly due to the memory-intensive nature of derivative-based optimization required for saving gradients and optimizer states. To tackle this, we propose employing derivative-free optimization techniques to enable on-device fine-tuning of LLM, even on memory-limited mobile devices. Empirical results demonstrate that the RoBERTa-large model and OPT-1.3B can be fine-tuned locally on the OPPO Reno 6 smartphone using around 4GB and 6.5GB of memory respectively, using derivative-free optimization techniques. This highlights the feasibility of on-device LLM fine-tuning on mobile devices, paving the way for personalized LLMs on resource-constrained devices while safeguarding data privacy.",
+  "keywords": [
+    "llm fine-tuning",
+    "tuning",
+    "roberta",
+    "processing",
+    "language",
+    "model",
+    "gradients",
+    "locally fine-tuning personalized llms",
+    "large language models llms",
+    "capabilities",
+    "fine",
+    "optimization",
+    "we",
+    "their impressive capabilities",
+    "derivative-based optimization"
+  ],
+  "url": "https://aclanthology.org/2024.privatenlp-1.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

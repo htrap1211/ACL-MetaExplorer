@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.47",
+  "title": "Unsupervised Distractor Generation via Large Language Model Distilling and Counterfactual Contrastive Decoding",
+  "authors": [
+    "Qu, Fanyi  and\nSun, Hao  and\nWu, Yunfang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Within the context of reading comprehension, the task of Distractor Generation (DG) aims to generate several incorrect options to confuse readers. In recent years, the emergence of Large Language Models (LLMs) provides a potential for unsupervised DG without expensive human-annotated distractor labels. In this paper, we leverage LLMs as a cost-effective annotator to enhance the DG capability of smaller student models. To perform knowledge distilling, we propose a dual task training framework that integrates pseudo distractors from LLMs and answer information as the objective target with a two-stage training process. Moreover, we devise a counterfactual contrastive decoding mechanism for increasing the distracting capability of the DG model. Experiments show that our unsupervised generation method with Bart-base greatly surpasses GPT-3.5-turbo zero-shot performance with only 200×fewer model parameters. Our proposed unsupervised DG method offers a cost-effective framework for practical reading comprehension applications, without the need of laborious distractor annotation and costly large-size models.",
+  "keywords": [
+    "dg",
+    "our unsupervised generation method",
+    "we",
+    "distractor generation",
+    "shot",
+    "training",
+    "information",
+    "large language model distilling",
+    "llms",
+    "gpt-3 5-turbo zero-shot performance",
+    "objective",
+    "unsupervised distractor generation",
+    "process",
+    "knowledge",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.47/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:49:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

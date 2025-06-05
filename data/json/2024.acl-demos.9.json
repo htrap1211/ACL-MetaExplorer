@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-demos.9",
+  "title": "E}asy{E}dit: An Easy-to-use Knowledge Editing Framework for Large Language Models",
+  "authors": [
+    "Wang, Peng  and\nZhang, Ningyu  and\nTian, Bozhong  and\nXi, Zekun  and\nYao, Yunzhi  and\nXu, Ziwen  and\nWang, Mengru  and\nMao, Shengyu  and\nWang, Xiaohan  and\nCheng, Siyuan  and\nLiu, Kangwei  and\nNi, Yuansheng  and\nZheng, Guozhou  and\nChen, Huajun"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+  "abstract": "Large Language Models (LLMs) usually suffer from knowledge cutoff or fallacy issues, which means they are unaware of unseen events or generate text with incorrect facts owing to outdated/noisy data. To this end, many knowledge editing approaches for LLMs have emerged – aiming to subtly inject/edit updated knowledge or adjust undesired behavior while minimizing the impact on unrelated inputs. Nevertheless, due to significant differences among various knowledge editing methods and the variations in task setups, there is no standard implementation framework available for the community, which hinders practitioners from applying knowledge editing to applications. To address these issues, we propose EasyEdit, an easy-to-use knowledge editing framework for LLMs. It supports various cutting-edge knowledge editing approaches and can be readily applied to many well-known LLMs such as T5, GPT-J, LlaMA, etc. Empirically, we report the knowledge editing results on LlaMA-2 with EasyEdit, demonstrating that knowledge editing surpasses traditional fine-tuning in terms of reliability and generalization. We have released the source code on GitHub, along with Google Colab tutorials and comprehensive documentation for beginners to get started. Besides, we present an online system for real-time knowledge editing, and a demo video.",
+  "keywords": [
+    "code",
+    "end",
+    "we",
+    "edge",
+    "it",
+    "beginners",
+    "llms",
+    "traditional fine-tuning",
+    "t5 gpt-j llama",
+    "tuning",
+    "text",
+    "large language models llms",
+    "generalization",
+    "fine",
+    "practitioners"
+  ],
+  "url": "https://aclanthology.org/2024.acl-demos.9/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:47:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

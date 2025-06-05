@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.77",
+  "title": "Are Pre-trained Language Models Useful for Model Ensemble in {C}hinese Grammatical Error Correction?",
+  "authors": [
+    "Tang, Chenming  and\nWu, Xiuyu  and\nWu, Yunfang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Model ensemble has been in widespread use for Grammatical Error Correction (GEC), boosting model performance. We hypothesize that model ensemble based on the perplexity (PPL) computed by pre-trained language models (PLMs) should benefit the GEC system. To this end, we explore several ensemble strategies based on strong PLMs with four sophisticated single models. However, the performance does not improve but even gets worse after the PLM-based ensemble. This surprising result sets us doing a detailed analysis on the data and coming up with some insights on GEC. The human references of correct sentences is far from sufficient in the test data, and the gap between a correct sentence and an idiomatic one is worth our attention. Moreover, the PLM-based ensemble strategies provide an effective way to extend and improve GEC benchmark data. Our source code is available athttps://github.com/JamyDon/PLM-based-CGEC-Model-Ensemble.",
+  "keywords": [
+    "code",
+    "end",
+    "our attention",
+    "we",
+    "the plm-based ensemble",
+    "ensemble",
+    "pre-trained language models",
+    "sufficient",
+    "pre-trained language models plms",
+    "the plm-based ensemble strategies",
+    "analysis",
+    "several ensemble strategies",
+    "strategies",
+    "perplexity",
+    "that model ensemble"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.77/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:49:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

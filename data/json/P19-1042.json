@@ -1,0 +1,33 @@
+{
+  "id": "P19-1042",
+  "title": "Cross-Sentence Grammatical Error Correction",
+  "authors": [
+    "Chollampatt, Shamil  and\nWang, Weiqi  and\nNg, Hwee Tou"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Automatic grammatical error correction (GEC) research has made remarkable progress in the past decade. However, all existing approaches to GEC correct errors by considering a single sentence alone and ignoring crucial cross-sentence context. Some errors can only be corrected reliably using cross-sentence context and models can also benefit from the additional contextual information in correcting other errors. In this paper, we address this serious limitation of existing approaches and improve strong neural encoder-decoder models by appropriately modeling wider contexts. We employ an auxiliary encoder that encodes previous sentences and incorporate the encoding in the decoder via attention and gating mechanisms. Our approach results in statistically significant improvements in overall GEC performance over strong baselines across multiple test sets. Analysis of our cross-sentence GEC model on a synthetic dataset shows high performance in verb tense corrections that require cross-sentence context.",
+  "keywords": [
+    "the decoder",
+    "we",
+    "cross",
+    "neural",
+    "decoder",
+    "information",
+    "strong neural encoder-decoder models",
+    "analysis",
+    "an auxiliary encoder",
+    "model",
+    "encoder",
+    "attention",
+    "approach",
+    "statistically significant improvements",
+    "error"
+  ],
+  "url": "https://aclanthology.org/P19-1042/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:29:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

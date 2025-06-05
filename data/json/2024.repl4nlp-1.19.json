@@ -1,0 +1,33 @@
+{
+  "id": "2024.repl4nlp-1.19",
+  "title": "Mitigating Semantic Leakage in Cross-lingual Embeddings via Orthogonality Constraint",
+  "authors": [
+    "Ki, Dayeon  and\nPark, Cheonbok  and\nKim, Hyunjoong"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 9th Workshop on Representation Learning for NLP (RepL4NLP-2024)",
+  "abstract": "Accurately aligning contextual representations in cross-lingual sentence embeddings is key for effective parallel data mining. A common strategy for achieving this alignment involves disentangling semantics and language in sentence embeddings derived from multilingual pre-trained models. However, we discover that current disentangled representation learning methods suffer from semantic leakage—a term we introduce to describe when a substantial amount of language-specific information is unintentionally leaked into semantic representations. This hinders the effective disentanglement of semantic and language representations, making it difficult to retrieve embeddings that distinctively represent the meaning of the sentence. To address this challenge, we propose a novel training objective, ORthogonAlity Constraint LEarning (ORACLE), tailored to enforce orthogonality between semantic and language embeddings. ORACLE builds upon two components: intra-class clustering and inter-class separation. Through experiments on cross-lingual retrieval and semantic textual similarity tasks, we demonstrate that training with the ORACLE objective effectively reduces semantic leakage and enhances semantic alignment within the embedding space.",
+  "keywords": [
+    "this alignment",
+    "semantic",
+    "we",
+    "current",
+    "intra-class clustering",
+    "training",
+    "cross",
+    "cross-lingual sentence embeddings",
+    "semantics",
+    "it",
+    "retrieval",
+    "information",
+    "semantic textual similarity tasks",
+    "learning",
+    "semantic representations"
+  ],
+  "url": "https://aclanthology.org/2024.repl4nlp-1.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

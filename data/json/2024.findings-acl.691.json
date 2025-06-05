@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.691",
+  "title": "Addressing Entity Translation Problem via Translation Difficulty and Context Diversity",
+  "authors": [
+    "Liang, Tian  and\nWang, Xing  and\nYang, Mingming  and\nYang, Yujiu  and\nShi, Shuming  and\nTu, Zhaopeng"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Neural machine translation (NMT) systems often produce inadequate translations for named entities. In this study, we conducted preliminary experiments to examine the factors affecting the translation accuracy of named entities, specifically focusing on their translation difficulty and context diversity. Based on our observations, we propose a novel data augmentation strategy to enhance the accuracy of named entity translation. The main concept behind our approach is to increase both the context diversity and translation probability for the targeted named entity pair. To achieve this, we construct additional samples for named entities that exhibit high translation difficulty or low context diversity and use the augmented training data to re-train the final translation model. Furthermore, we propose an entity-aware machine translation metric that prefers the translation output to generate more accurate named entities. Our experimental results demonstrate significant improvements over the baseline in terms of general translation performance and named entity translation accuracy across various test sets, such as WMT news translation and terminology test sets.",
+  "keywords": [
+    "the accuracy",
+    "the translation output",
+    "high translation difficulty",
+    "wmt news translation",
+    "we",
+    "named entity translation",
+    "training",
+    "translation",
+    "neural",
+    "the final translation model",
+    "more accurate named entities",
+    "inadequate translations",
+    "metric",
+    "their translation difficulty",
+    "entity translation accuracy"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.691/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:58:02",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

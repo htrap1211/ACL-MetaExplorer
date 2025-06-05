@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.410",
+  "title": "Learning to Reason Deductively: Math Word Problem Solving as Complex Relation Extraction",
+  "authors": [
+    "Jie, Zhanming  and\nLi, Jierui  and\nLu, Wei"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Solving math word problems requires deductive reasoning over the quantities in the text. Various recent research efforts mostly relied on sequence-to-sequence or sequence-to-tree models to generate mathematical expressions without explicitly performing relational reasoning between quantities in the given context. While empirically effective, such approaches typically do not provide explanations for the generated expressions. In this work, we view the task as a complex relation extraction problem, proposing a novel approach that presents explainable deductive reasoning steps to iteratively construct target expressions, where each step involves a primitive operation over two quantities defining their relation. Through extensive experiments on four benchmark datasets, we show that the proposed model significantly outperforms existing strong baselines. We further demonstrate that the deductive procedure not only presents more explainable steps but also enables us to make more accurate predictions on questions that require more complex reasoning.",
+  "keywords": [
+    "the generated expressions",
+    "extraction",
+    "we",
+    "quantities",
+    "two quantities",
+    "word",
+    "sequence",
+    "text",
+    "work",
+    "model",
+    "the quantities",
+    "us",
+    "approach",
+    "explanations",
+    "recent"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.410/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:29:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

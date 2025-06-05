@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.478",
+  "title": "Mobile-Bench: An Evaluation Benchmark for {LLM}-based Mobile Agents",
+  "authors": [
+    "Deng, Shihan  and\nXu, Weikai  and\nSun, Hongda  and\nLiu, Wei  and\nTan, Tao  and\nLiujianfeng, Liujianfeng  and\nLi, Ang  and\nLuan, Jian  and\nWang, Bin  and\nYan, Rui  and\nShang, Shuo"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "With the remarkable advancements of large language models (LLMs), LLM-based agents have become a research hotspot in human-computer interaction.However, there is a scarcity of benchmarks available for LLM-based mobile agents.Benchmarking these agents generally faces three main challenges:(1) The inefficiency of UI-only operations imposes limitations to task evaluation.(2) Specific instructions within a singular application lack adequacy for assessing the multi-dimensional reasoning and decision-making capacities of LLM mobile agents.(3) Current evaluation metrics are insufficient to accurately assess the process of sequential actions. To this end, we propose Mobile-Bench, a novel benchmark for evaluating the capabilities of LLM-based mobile agents.First, we expand conventional UI operations by incorporating 103 collected APIs to accelerate the efficiency of task completion.Subsequently, we collect evaluation data by combining real user queries with augmentation from LLMs.To better evaluate different levels of planning capabilities for mobile agents, our data is categorized into three distinct groups: SAST, SAMT, and MAMT, reflecting varying levels of task complexity. Mobile-Bench comprises 832 data entries, with more than 200 tasks specifically designed to evaluate multi-APP collaboration scenarios.Furthermore, we introduce a more accurate evaluation metric, named CheckPoint, to assess whether LLM-based mobile agents reach essential points during their planning and reasoning steps. Dataset and platform will be released in the future.",
+  "keywords": [
+    "1 the inefficiency",
+    "end",
+    "llm-based mobile agents",
+    "entries",
+    "llm -based mobile agents",
+    "efficiency",
+    "mobile-bench an evaluation benchmark",
+    "we",
+    "current",
+    "llm",
+    "planning capabilities",
+    "the efficiency",
+    "the capabilities",
+    "llm mobile agents",
+    "llms"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.478/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:40:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

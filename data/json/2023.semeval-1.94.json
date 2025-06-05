@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.94",
+  "title": "IRIT}{\\_}{IRIS}{\\_}{C} at {S}em{E}val-2023 Task 6: A Multi-level Encoder-based Architecture for Judgement Prediction of Legal Cases and their Explanation",
+  "authors": [
+    "Prasad, Nishchal  and\nBoughanem, Mohand  and\nDkaki, Taoufiq"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper describes our system used for sub-task C (1 & 2) in Task 6: LegalEval: Understanding Legal Texts. We propose a three-level encoder-based classification architecture that works by fine-tuning a BERT-based pre-trained encoder, and post-processing the embeddings extracted from its last layers, using transformer encoder layers and RNNs. We run ablation studies on the same and analyze itsperformance. To extract the explanations for the predicted class we develop an explanation extraction algorithm, exploiting the idea of a model’s occlusion sensitivity. We explored some training strategies with a detailed analysis of the dataset. Our system ranks 2nd (macro-F1 metric) for its sub-task C-1 and 7th (ROUGE-2 metric) for sub-task C-2.",
+  "keywords": [
+    "em",
+    "extraction",
+    "ablation studies",
+    "rnns",
+    "some training strategies",
+    "we",
+    "2nd macro-f1 metric",
+    "training",
+    "classification",
+    "c",
+    "analysis",
+    "transformer encoder layers",
+    "the embeddings",
+    "bert",
+    "metric"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.94/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:27:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

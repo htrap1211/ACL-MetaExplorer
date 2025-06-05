@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.632",
+  "title": "F}ed{PET}uning: When Federated Learning Meets the Parameter-Efficient Tuning Methods of Pre-trained Language Models",
+  "authors": [
+    "Zhang, Zhuo  and\nYang, Yuanhang  and\nDai, Yong  and\nWang, Qifan  and\nYu, Yue  and\nQu, Lizhen  and\nXu, Zenglin"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "With increasing concerns about data privacy, there is an increasing necessity of fine-tuning pre-trained language models (PLMs) for adapting to downstream tasks located in end-user devices or local clients without transmitting data to the central server. This urgent necessity therefore calls the research of investigating federated learning (FL) for PLMs. However, large PLMs bring the curse of prohibitive communication overhead and local model adaptation costs for the FL system. To this end, we investigate the parameter-efficient tuning (PETuning) of PLMs and develop a corresponding federated benchmark for four representative PETuning methods, dubbed FedPETuning. Specifically, FedPETuning provides the first holistic empirical study of representative PLMs tuning methods in FL, covering privacy attacks, performance comparisons, and resource-constrained analysis. Intensive experimental results have indicated that FedPETuning can efficiently defend against privacy attacks and maintains acceptable performance with reducing heavy resource consumption. The open-source code and data are available athttps://github.com/SMILELab-FL/FedPETuning.",
+  "keywords": [
+    "local clients",
+    "code",
+    "end",
+    "efficient",
+    "clients",
+    "we",
+    "parameter",
+    "the parameter-efficient tuning methods",
+    "uning",
+    "pre-trained language models",
+    "learning",
+    "analysis",
+    "the parameter-efficient tuning petuning",
+    "tuning",
+    "fine"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.632/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:17:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.801",
+  "title": "Nonparametric Decoding for Generative Retrieval",
+  "authors": [
+    "Lee, Hyunji  and\nKim, JaeYoung  and\nChang, Hoyeon  and\nOh, Hanseok  and\nYang, Sohee  and\nKarpukhin, Vladimir  and\nLu, Yi  and\nSeo, Minjoon"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "The generative retrieval model depends solely on the information encoded in its model parameters without external memory, its information capacity is limited and fixed. To overcome the limitation, we propose Nonparametric Decoding (Np Decoding) which can be applied to existing generative retrieval models. Np Decoding uses nonparametric contextualized vocab embeddings (external memory) rather than vanilla vocab embeddings as decoder vocab embeddings. By leveraging the contextualized vocab embeddings, the generative retrieval model is able to utilize both the parametric and nonparametric space. Evaluation over 9 datasets (8 single-hop and 1 multi-hop) in the document retrieval task shows that applying Np Decoding to generative retrieval models significantly improves the performance. We also show that Np Decoding is data- and parameter-efficient, and shows high performance in the zero-shot setting.",
+  "keywords": [
+    "embeddings",
+    "generative",
+    "the document retrieval task",
+    "retrieval models",
+    "existing generative retrieval models",
+    "decoder vocab embeddings",
+    "model",
+    "the generative retrieval model",
+    "the contextualized vocab embeddings",
+    "efficient",
+    "the zero-shot setting",
+    "decoder",
+    "retrieval",
+    "information",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.801/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

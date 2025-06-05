@@ -1,0 +1,33 @@
+{
+  "id": "2022.lnls-1.1",
+  "title": "Finding Sub-task Structure with Natural Language Instruction",
+  "authors": [
+    "Ri, Ryokan  and\nHou, Yufang  and\nMarinescu, Radu  and\nKishimoto, Akihiro"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the First Workshop on Learning with Natural Language Supervision",
+  "abstract": "When mapping a natural language instruction to a sequence of actions, it is often useful toidentify sub-tasks in the instruction. Such sub-task segmentation, however, is not necessarily provided in the training data. We present the A2LCTC (Action-to-Language Connectionist Temporal Classification) algorithm to automatically discover a sub-task segmentation of an action sequence.A2LCTC does not require annotations of correct sub-task segments and learns to find them from pairs of instruction and action sequence in a weakly-supervised manner. We experiment with the ALFRED dataset and show that A2LCTC accurately finds the sub-task structures. With the discovered sub-tasks segments, we also train agents that work on the downstream task and empirically show that our algorithm improves the performance.",
+  "keywords": [
+    "instruction",
+    "language",
+    "natural",
+    "a weakly-supervised manner",
+    "it",
+    "-",
+    "we",
+    "sequence",
+    "action",
+    "training",
+    "manner",
+    "classification",
+    "that",
+    "correct sub-task segments",
+    "an action sequence"
+  ],
+  "url": "https://aclanthology.org/2022.lnls-1.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:44:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.123",
+  "title": "DUTIR} at {S}em{E}val-2023 Task 10: Semi-supervised Learning for Sexism Detection in {E}nglish",
+  "authors": [
+    "Yu, Bingjie  and\nBai, Zewen  and\nJi, Haoran  and\nLi, Shiyi  and\nZhang, Hao  and\nLin, Hongfei"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "Sexism is an injustice afflicting women and has become a common form of oppression in social media. In recent years, the automatic detection of sexist instances has been utilized to combat this oppression. The Subtask A of SemEval-2023 Task 10, Explainable Detection of Online Sexism, aims to detect whether an English-language post is sexist. In this paper, we describe our system for the competition. The structure of the classification model is based on RoBERTa, and we further pre-train it on the domain corpus. For fine-tuning, we adopt Unsupervised Data Augmentation (UDA), a semi-supervised learning approach, to improve the robustness of the system. Specifically, we employ Easy Data Augmentation (EDA) method as the noising operation for consistency training. We train multiple models based on different hyperparameter settings and adopt the majority voting method to predict the labels of test entries. Our proposed system achieves a Macro-F1 score of 0.8352 and a ranking of 41/84 on the leaderboard of Subtask A.",
+  "keywords": [
+    "roberta",
+    "a macro-f1 score",
+    "entries",
+    "test entries",
+    "form",
+    "we",
+    "the classification model",
+    "classification",
+    "training",
+    "fine-tuning",
+    "it",
+    "learning",
+    "a",
+    "tuning",
+    "fine"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.123/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:28:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

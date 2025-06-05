@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.35",
+  "title": "abcbpc at {S}em{E}val-2021 Task 7: {ERNIE}-based Multi-task Model for Detecting and Rating Humor and Offense",
+  "authors": [
+    "Pang, Chao  and\nFan, Xiaoran  and\nSu, Weiyue  and\nChen, Xuyi  and\nWang, Shuohuan  and\nLiu, Jiaxiang  and\nOuyang, Xuan  and\nFeng, Shikun  and\nSun, Yu"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper describes our system participated in Task 7 of SemEval-2021: Detecting and Rating Humor and Offense. The task is designed to detect and score humor and offense which are influenced by subjective factors. In order to obtain semantic information from a large amount of unlabeled data, we applied unsupervised pre-trained language models. By conducting research and experiments, we found that the ERNIE 2.0 and DeBERTa pre-trained models achieved impressive performance in various subtasks. Therefore, we applied the above pre-trained models to fine-tune the downstream neural network. In the process of fine-tuning the model, we adopted multi-task training strategy and ensemble learning method. Based on the above strategy and method, we achieved RMSE of 0.4959 for subtask 1b, and finally won the first place.",
+  "keywords": [
+    "ensemble",
+    "deberta pre-trained models",
+    "process",
+    "language",
+    "deberta",
+    "neural",
+    "model",
+    "unsupervised pre-trained language models",
+    "information",
+    "ernie",
+    "fine",
+    "semantic",
+    "network",
+    "we",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.35/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:20:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

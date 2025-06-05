@@ -1,0 +1,33 @@
+{
+  "id": "P19-1186",
+  "title": "Semi-supervised Stochastic Multi-Domain Learning using Variational Inference",
+  "authors": [
+    "Li, Yitong  and\nBaldwin, Timothy  and\nCohn, Trevor"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Supervised models of NLP rely on large collections of text which closely resemble the intended testing setting. Unfortunately matching text is often not available in sufficient quantity, and moreover, within any domain of text, data is often highly heterogenous. In this paper we propose a method to distill the important domain signal as part of a multi-domain learning system, using a latent variable model in which parts of a neural model are stochastically gated based on the inferred domain. We compare the use of discrete versus continuous latent variables, operating in a domain-supervised or a domain semi-supervised setting, where the domain is known only for a subset of training inputs. We show that our model leads to substantial performance improvements over competitive benchmark domain adaptation methods, including methods using adversarial learning.",
+  "keywords": [
+    "nlp",
+    "model",
+    "neural",
+    "text",
+    "sufficient",
+    "latent",
+    "we",
+    "learning",
+    "sufficient quantity",
+    "training",
+    "supervised",
+    "multi",
+    "heterogenous",
+    "a latent variable model",
+    "variable"
+  ],
+  "url": "https://aclanthology.org/P19-1186/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:34:29",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

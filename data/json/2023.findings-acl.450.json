@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.450",
+  "title": "Prediction and Calibration: Complex Reasoning over Knowledge Graph with Bi-directional Directed Acyclic Graph Neural Network",
+  "authors": [
+    "Xu, Yao  and\nHe, Shizhu  and\nCai, Li  and\nLiu, Kang  and\nZhao, Jun"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Answering complex logical queries is a challenging task for knowledge graph (KG) reasoning. Recently, query embedding (QE) has been proposed to encode queries and entities into the same vector space, and obtain answers based on numerical computation. However, such models obtain the node representations of a query only based on its predecessor nodes, which ignore the information contained in successor nodes. In this paper, we proposed a Bi-directional Directed Acyclic Graph neural network (BiDAG) that splits the reasoning process into prediction and calibration. The joint probability of all nodes is considered by applying a graph neural network (GNN) to the query graph in the calibration process. By the prediction in the first layer and the calibration in deep layers of GNN, BiDAG can outperform previous QE based methods on FB15k, FB15k-237, and NELL995.",
+  "keywords": [
+    "deep",
+    "process",
+    "knowledge",
+    "vector",
+    "complex logical queries",
+    "neural",
+    "encode queries",
+    "entities",
+    "encode",
+    "the same vector space",
+    "knowledge graph",
+    "queries",
+    "information",
+    "knowledge graph kg reasoning",
+    "layer"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.450/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

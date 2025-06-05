@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.207",
+  "title": "An Investigation of Noise in Morphological Inflection",
+  "authors": [
+    "Wiemerslage, Adam  and\nYang, Changbing  and\nNicolai, Garrett  and\nSilfverberg, Miikka  and\nKann, Katharina"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "With a growing focus on morphological inflection systems for languages where high-quality data is scarce, training data noise is a serious but so far largely ignored concern. We aim at closing this gap by investigating the types of noise encountered within a pipeline for truly unsupervised morphological paradigm completion and its impact on morphological inflection systems: First, we propose an error taxonomy and annotation pipeline for inflection training data. Then, we compare the effect of different types of noise on multiple state-of-the- art inflection models. Finally, we propose a novel character-level masked language modeling (CMLM) pretraining objective and explore its impact on the models’ resistance to noise. Our experiments show that various architectures are impacted differently by separate types of noise, but encoder-decoders tend to be more robust to noise than models trained with a copy bias. CMLM pretraining helps transformers, but has lower impact on LSTMs.",
+  "keywords": [
+    "transformers",
+    "bias",
+    "language",
+    "objective",
+    "modeling",
+    "encoder",
+    "lstms",
+    "we",
+    "decoders",
+    "encoder-decoders",
+    "training",
+    "pretraining",
+    "annotation pipeline",
+    "state",
+    "our experiments"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.207/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

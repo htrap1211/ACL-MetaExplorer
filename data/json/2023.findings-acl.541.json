@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.541",
+  "title": "Do transformer models do phonology like a linguist?",
+  "authors": [
+    "Muradoglu, Saliha  and\nHulden, Mans"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Neural sequence-to-sequence models have been very successful at tasks in phonology and morphology that seemingly require a capacity for intricate linguistic generalisations. In this paper, we perform a detailed breakdown of the power of such models to capture various phonological generalisations and to benefit from exposure to one phonological rule to infer the behaviour of another similar rule. We present two types of experiments, one of which establishes the efficacy of the transformer model on 29 different processes. The second experiment type follows a priming and held-out case split where our model is exposed to two (or more) phenomena; one which is used as a primer to make the model aware of a linguistic category (e.g. voiceless stops) and a second one which contains a rule with a withheld case that the model is expected to infer (e.g. word-final devoicing with a missing training example such as b→p) results show that the transformer model can successfully model all 29 phonological phenomena considered, regardless of perceived process difficulty. We also show that the model can generalise linguistic categories and structures, such as vowels and syllables, through priming processes.",
+  "keywords": [
+    "we",
+    "generalisations",
+    "training",
+    "neural",
+    "e",
+    "word",
+    "sequence",
+    "various phonological generalisations",
+    "transformer models",
+    "categories",
+    "intricate linguistic generalisations",
+    "transformer",
+    "process",
+    "the transformer model",
+    "linguistic categories"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.541/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.starsem-1.24",
+  "title": "Testing Paraphrase Models on Recognising Sentence Pairs at Different Degrees of Semantic Overlap",
+  "authors": [
+    "Peng, Qiwei  and\nWeir, David  and\nWeeds, Julie"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 12th Joint Conference on Lexical and Computational Semantics (*SEM 2023)",
+  "abstract": "Paraphrase detection is useful in many natural language understanding applications. Current works typically formulate this problem as a sentence pair binary classification task. However, this setup is not a good fit for many of the intended applications of paraphrase models. In particular, such applications often involve finding the closest paraphrases of the target sentence from a group of candidate sentences where they exhibit different degrees of semantic overlap with the target sentence. To apply models to this paraphrase retrieval scenario, the model must be sensitive to the degree to which two sentences are paraphrases of one another. However, many existing datasets ignore and fail to test models in this setup. In response, we propose adversarial paradigms to create evaluation datasets, which could examine the sensitivity to different degrees of semantic overlap. Empirical results show that, while paraphrase models and different sentence encoders appear successful on standard evaluations, measuring the degree of semantic overlap still remains a big challenge for them.",
+  "keywords": [
+    "fit",
+    "semantic",
+    "we",
+    "current",
+    "semantic overlap paraphrase detection",
+    "classification",
+    "natural",
+    "standard evaluations",
+    "retrieval",
+    "this paraphrase retrieval scenario",
+    "evaluation datasets",
+    "semantic overlap",
+    "encoders",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.starsem-1.24/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:31:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

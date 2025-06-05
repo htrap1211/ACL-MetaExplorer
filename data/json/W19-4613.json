@@ -1,0 +1,33 @@
+{
+  "id": "W19-4613",
+  "title": "Segmentation for Domain Adaptation in {A}rabic",
+  "authors": [
+    "Attia, Mohammed  and\nElkahky, Ali"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Arabic Natural Language Processing Workshop",
+  "abstract": "Segmentation serves as an integral part in many NLP applications including Machine Translation, Parsing, and Information Retrieval. When a model trained on the standard language is applied to dialects, the accuracy drops dramatically. However, there are more lexical items shared by the standard language and dialects than can be found by mere surface word matching. This shared lexicon is obscured by a lot of cliticization, gemination, and character repetition. In this paper, we prove that segmentation and base normalization of dialects can help in domain adaptation by reducing data sparseness. Segmentation will improve a system performance by reducing the number of OOVs, help isolate the differences and allow better utilization of the commonalities. We show that adding a small amount of dialectal segmentation training data reduced OOVs by 5% and remarkably improves POS tagging for dialects by 7.37% f-score, even though no dialect-specific POS training data is included.",
+  "keywords": [
+    "the accuracy",
+    "parsing",
+    "we",
+    "training",
+    "translation",
+    "machine translation parsing",
+    "retrieval",
+    "information",
+    "word",
+    "commonalities",
+    "normalization",
+    "pos",
+    "information retrieval",
+    "many nlp applications",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/W19-4613/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:04:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P18-1072",
+  "title": "On the Limitations of Unsupervised Bilingual Dictionary Induction",
+  "authors": [
+    "S{\\o}gaard, Anders  and\nRuder, Sebastian  and\nVuli{\\'c}, Ivan"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Unsupervised machine translation - i.e., not assuming any cross-lingual supervision signal, whether a dictionary, translations, or comparable corpora - seems impossible, but nevertheless, Lample et al. (2017) recently proposed a fully unsupervised machine translation (MT) model. The model relies heavily on an adversarial, unsupervised cross-lingual word embedding technique for bilingual dictionary induction (Conneau et al., 2017), which we examine here. Our results identify the limitations of current unsupervised MT: unsupervised bilingual dictionary induction performs much worse on morphologically rich languages that are not dependent marking, when monolingual corpora from different domains or different embedding algorithms are used. We show that a simple trick, exploiting a weak supervision signal from identical words, enables more robust induction and establish a near-perfect correlation between unsupervised bilingual dictionary induction performance and a previously unexplored graph similarity metric.",
+  "keywords": [
+    "cross",
+    "i",
+    "model",
+    "machine",
+    "metric",
+    "rich",
+    "word",
+    "we",
+    "graph",
+    "translations",
+    "et al",
+    "current",
+    "translation",
+    "a dictionary translations",
+    "that"
+  ],
+  "url": "https://aclanthology.org/P18-1072/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:10:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

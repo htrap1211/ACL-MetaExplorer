@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.883",
+  "title": "Context or Knowledge is Not Always Necessary: A Contrastive Learning Framework for Emotion Recognition in Conversations",
+  "authors": [
+    "Tu, Geng  and\nLiang, Bin  and\nMao, Ruibin  and\nYang, Min  and\nXu, Ruifeng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Emotion recognition in conversations (ERC) aims to detect the emotion of utterances in conversations. Existing efforts generally focus on modeling context- and knowledge-sensitive dependencies. However, it is observed that the emotions of many utterances can be correctly detected without context or external knowledge. In such cases, blindly leveraging the context and external knowledge may impede model training. Based on this, we propose a novel framework based on contrastive learning (CL), called CKCL (including the contrastive learning scenarios among Context and Knowledge), to distinguish the above utterances for better vector representations. The CKCL framework defines context- and knowledge-independent utterances, as the positive sample, whose predicted results are unchanged even masking context and knowledge representations, otherwise, the negative sample. This can obtain a latent feature reflecting the impact degree of context and external knowledge on predicted results, thus effectively denoising irrelevant context and knowledge during training. Experimental results on four datasets show the performance of CKCL-based models is significantly boosted and outperforms state-of-the-art methods.",
+  "keywords": [
+    "conversations",
+    "we",
+    "training",
+    "it",
+    "dependencies",
+    "latent",
+    "learning",
+    "vector",
+    "knowledge",
+    "model",
+    "conversations emotion recognition",
+    "modeling",
+    "better vector representations",
+    "external knowledge",
+    "the impact degree"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.883/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

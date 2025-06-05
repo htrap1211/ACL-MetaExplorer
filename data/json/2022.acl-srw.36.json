@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-srw.36",
+  "title": "Deep Neural Representations for Multiword Expressions Detection",
+  "authors": [
+    "Kanclerz, Kamil  and\nPiasecki, Maciej"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "Effective methods for multiword expressions detection are important for many technologies related to Natural Language Processing. Most contemporary methods are based on the sequence labeling scheme applied to an annotated corpus, while traditional methods use statistical measures. In our approach, we want to integrate the concepts of those two approaches. We present a novel weakly supervised multiword expressions extraction method which focuses on their behaviour in various contexts. Our method uses a lexicon of English multiword lexical units acquired from The Oxford Dictionary of English as a reference knowledge base and leverages neural language modelling with deep learning architectures. In our approach, we do not need a corpus annotated specifically for the task. The only required components are: a lexicon of multiword units, a large corpus, and a general contextual embeddings model. We propose a method for building a silver dataset by spotting multiword expression occurrences and acquiring statistical collocations as negative samples. Sample representation has been inspired by representations used in Natural Language Inference and relation recognition. Very good results (F1=0.8) were obtained with CNN network applied to individual occurrences followed by weighted voting used to combine results from the whole corpus. The proposed method can be quite easily applied to other languages.",
+  "keywords": [
+    "deep",
+    "extraction",
+    "we",
+    "neural",
+    "cnn",
+    "natural",
+    "technologies",
+    "sequence",
+    "learning",
+    "natural language",
+    "neural language modelling",
+    "cnn network",
+    "embeddings",
+    "reference",
+    "general"
+  ],
+  "url": "https://aclanthology.org/2022.acl-srw.36/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:34:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

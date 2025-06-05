@@ -1,0 +1,33 @@
+{
+  "id": "P19-1633",
+  "title": "Hierarchical Transfer Learning for Multi-label Text Classification",
+  "authors": [
+    "Banerjee, Siddhartha  and\nAkkaya, Cem  and\nPerez-Sorrosal, Francisco  and\nTsioutsiouliklis, Kostas"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Multi-Label Hierarchical Text Classification (MLHTC) is the task of categorizing documents into one or more topics organized in an hierarchical taxonomy. MLHTC can be formulated by combining multiple binary classification problems with an independent classifier for each category. We propose a novel transfer learning based strategy, HTrans, where binary classifiers at lower levels in the hierarchy are initialized using parameters of the parent classifier and fine-tuned on the child category classification task. In HTrans, we use a Gated Recurrent Unit (GRU)-based deep learning architecture coupled with attention. Compared to binary classifiers trained from scratch, our HTrans approach results in significant improvements of 1% on micro-F1 and 3% on macro-F1 on the RCV1 dataset. Our experiments also show that binary classifiers trained from scratch are significantly better than single multi-label models.",
+  "keywords": [
+    "deep",
+    "hierarchical",
+    "the parent classifier",
+    "f1",
+    "classifier",
+    "text",
+    "classifiers",
+    "an independent classifier",
+    "the hierarchy",
+    "hierarchical transfer learning",
+    "hierarchy",
+    "binary classifiers",
+    "attention",
+    "we",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/P19-1633/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:47:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

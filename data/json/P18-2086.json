@@ -1,0 +1,33 @@
+{
+  "id": "P18-2086",
+  "title": "End-Task Oriented Textual Entailment via Deep Explorations of Inter-Sentence Interactions",
+  "authors": [
+    "Yin, Wenpeng  and\nRoth, Dan  and\nSch{\\\"u}tze, Hinrich"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "This work deals with SciTail, a natural entailment challenge derived from a multi-choice question answering problem. The premises and hypotheses in SciTail were generated with no awareness of each other, and did not specifically aim at the entailment task. This makes it more challenging than other entailment data sets and more directly useful to the end-task – question answering. We propose DEISTE (deep explorations of inter-sentence interactions for textual entailment) for this entailment task. Given word-to-word interactions between the premise-hypothesis pair (P, H), DEISTE consists of: (i) a parameter-dynamic convolution to make important words in P and H play a dominant role in learnt representations; and (ii) a position-aware attentive convolution to encode the representation and position information of the aligned word pairs. Experiments show that DEISTE gets ≈5% improvement over prior state of the art and that the pretrained DEISTE on SciTail generalizes well on RTE-5.",
+  "keywords": [
+    "deep",
+    "end",
+    "question",
+    "we",
+    "parameter",
+    "natural",
+    "it",
+    "information",
+    "word",
+    "scitail generalizes",
+    "i",
+    "h",
+    "work",
+    "p",
+    "convolution"
+  ],
+  "url": "https://aclanthology.org/P18-2086/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:18:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

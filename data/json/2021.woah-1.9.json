@@ -1,0 +1,33 @@
+{
+  "id": "2021.woah-1.9",
+  "title": "Fine-Grained Fairness Analysis of Abusive Language Detection Systems with {C}heck{L}ist",
+  "authors": [
+    "Manerba, Marta Marchiori  and\nTonelli, Sara"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 5th Workshop on Online Abuse and Harms (WOAH 2021)",
+  "abstract": "Current abusive language detection systems have demonstrated unintended bias towards sensitive features such as nationality or gender. This is a crucial issue, which may harm minorities and underrepresented groups if such systems were integrated in real-world applications. In this paper, we create ad hoc tests through the CheckList tool (Ribeiro et al., 2020) to detect biases within abusive language classifiers for English. We compare the behaviour of two BERT-based models, one trained on a generic hate speech dataset and the other on a dataset for misogyny detection. Our evaluation shows that, although BERT-based classifiers achieve high accuracy levels on a variety of natural language processing tasks, they perform very poorly as regards fairness and bias, in particular on samples involving implicit stereotypes, expressions of hate towards minorities and protected attributes such as race or sexual orientation. We release both the notebooks implemented to extend the Fairness tests and the synthetic datasets usable to evaluate systems bias independently of CheckList.",
+  "keywords": [
+    "variety",
+    "bias",
+    "natural language processing tasks",
+    "classifiers",
+    "unintended bias",
+    "we",
+    "two bert-based models",
+    "current",
+    "bert-based classifiers",
+    "natural",
+    "minorities",
+    "a variety",
+    "sexual orientation",
+    "analysis",
+    "systems bias"
+  ],
+  "url": "https://aclanthology.org/2021.woah-1.9/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:24:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

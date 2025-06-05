@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.57",
+  "title": "A Simple but Effective Pluggable Entity Lookup Table for Pre-trained Language Models",
+  "authors": [
+    "Ye, Deming  and\nLin, Yankai  and\nLi, Peng  and\nSun, Maosong  and\nLiu, Zhiyuan"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Pre-trained language models (PLMs) cannot well recall rich factual knowledge of entities exhibited in large-scale corpora, especially those rare entities. In this paper, we propose to build a simple but effective Pluggable Entity Lookup Table (PELT) on demand by aggregating the entity’s output representations of multiple occurrences in the corpora. PELT can be compatibly plugged as inputs to infuse supplemental entity knowledge into PLMs. Compared to previous knowledge-enhanced PLMs, PELT only requires 0.2%-5% pre-computation with capability of acquiring knowledge from out-of-domain corpora for domain adaptation scenario. The experiments on knowledge-related tasks demonstrate that our method, PELT, can flexibly and effectively transfer entity knowledge from related corpora into PLMs with different architectures. Our code and models are publicly available athttps://github.com/thunlp/PELT",
+  "keywords": [
+    "code",
+    "knowledge",
+    "language",
+    "pre-trained language models",
+    "entities",
+    "-",
+    "thunlp",
+    "especially those rare entities",
+    "pre-trained language models plms",
+    "rich",
+    "we",
+    "pre",
+    "entity",
+    "rich factual knowledge",
+    "pelt"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.57/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:33:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

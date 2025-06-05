@@ -1,0 +1,33 @@
+{
+  "id": "2024.nlp4convai-1.6",
+  "title": "Efficient Dynamic Hard Negative Sampling for Dialogue Selection",
+  "authors": [
+    "Han, Janghoon  and\nLee, Dongkyu  and\nShin, Joongbo  and\nBae, Hyunkyung  and\nBang, Jeesoo  and\nKim, Seonghwan  and\nChoi, Stanley Jungkyu  and\nLee, Honglak"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 6th Workshop on NLP for Conversational AI (NLP4ConvAI 2024)",
+  "abstract": "Recent studies have demonstrated significant improvements in selection tasks, and a considerable portion of this success is attributed to incorporating informative negative samples during training. While traditional methods for constructing hard negatives provide meaningful supervision, they depend on static samples that do not evolve during training, leading to sub-optimal performance. Dynamic hard negative sampling addresses this limitation by continuously adapting to the model’s changing state throughout training. However, the high computational demands of this method restrict its applicability to certain model architectures. To overcome these challenges, we introduce an efficient dynamic hard negative sampling (EDHNS). EDHNS enhances efficiency by pre-filtering easily discriminable negatives, thereby reducing the number of candidates the model needs to compute during training. Additionally, it excludes question-candidate pairs where the model already exhibits high confidence from loss computations, further reducing training time. These approaches maintain learning quality while minimizing computation and streamlining the training process. Extensive experiments on DSTC9, DSTC10, Ubuntu, and E-commerce benchmarks demonstrate that EDHNS significantly outperforms baseline models, proving its effectiveness in dialogue selection tasks.",
+  "keywords": [
+    "efficient",
+    "question",
+    "efficiency",
+    "we",
+    "dialogue",
+    "training",
+    "it",
+    "loss",
+    "dialogue selection tasks",
+    "dialogue selection",
+    "recent studies",
+    "process",
+    "model",
+    "studies",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2024.nlp4convai-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

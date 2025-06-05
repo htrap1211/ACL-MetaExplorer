@@ -1,0 +1,33 @@
+{
+  "id": "2021.starsem-1.8",
+  "title": "Teach the Rules, Provide the Facts: Targeted Relational-knowledge Enhancement for Textual Inference",
+  "authors": [
+    "Rozen, Ohad  and\nAmar, Shmuel  and\nShwartz, Vered  and\nDagan, Ido"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of *SEM 2021: The Tenth Joint Conference on Lexical and Computational Semantics",
+  "abstract": "We present InferBert, a method to enhance transformer-based inference models with relevant relational knowledge. Our approach facilitates learning generic inference patterns requiring relational knowledge (e.g. inferences related to hypernymy) during training, while injecting on-demand the relevant relational facts (e.g. pangolin is an animal) at test time. We apply InferBERT to the NLI task over a diverse set of inference types (hypernymy, location, color, and country of origin), for which we collected challenge datasets. In this setting, InferBert succeeds to learn general inference patterns, from a relatively small number of training instances, while not hurting performance on the original NLI data and substantially outperforming prior knowledge enhancement models on the challenge data. It further applies its inferences successfully at test time to previously unobserved entities. InferBert is computationally more efficient than most prior methods, in terms of number of parameters, memory consumption and training time.",
+  "keywords": [
+    "efficient",
+    "we",
+    "transformer-based inference models",
+    "training",
+    "generic inference patterns",
+    "it",
+    "inferbert",
+    "location",
+    "generic",
+    "transformer",
+    "general",
+    "knowledge",
+    "general inference patterns",
+    "entities",
+    "this setting inferbert"
+  ],
+  "url": "https://aclanthology.org/2021.starsem-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:23:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-srw.29",
+  "title": "Building a Buzzer-quiz Answering System",
+  "authors": [
+    "Sugiura, Naoya  and\nYamada, Kosuke  and\nSasano, Ryohei  and\nTakeda, Koichi  and\nToyama, Katsuhiko"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "A buzzer quiz is a genre of quiz in which multiple players simultaneously listen to a quiz being read aloud and respond it by buzzing in as soon as they can predict the answer. Because incorrect answers often result in penalties, a buzzer-quiz answering system must not only predict the answer from only part of a question but also estimate the predicted answer’s accuracy. In this paper, we introduce two types of buzzer-quiz answering systems: (1) a system that directly generates an answer from part of a question by using an autoregressive language model; and (2) a system that first reconstructs the entire question by using an autoregressive language model and then determines the answer according to the reconstructed question. We then propose a method to estimate the accuracy of the answers for each system by using the internal scores of each model.",
+  "keywords": [
+    "penalties",
+    "the accuracy",
+    "answer",
+    "answering",
+    "language",
+    "model",
+    "it",
+    "question",
+    "we",
+    "an autoregressive language model",
+    "accuracy",
+    "that",
+    "quiz",
+    "the answers",
+    "the reconstructed question"
+  ],
+  "url": "https://aclanthology.org/2023.acl-srw.29/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:51:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

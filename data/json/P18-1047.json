@@ -1,0 +1,33 @@
+{
+  "id": "P18-1047",
+  "title": "Extracting Relational Facts by an End-to-End Neural Model with Copy Mechanism",
+  "authors": [
+    "Zeng, Xiangrong  and\nZeng, Daojian  and\nHe, Shizhu  and\nLiu, Kang  and\nZhao, Jun"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The relational facts in sentences are often complicated. Different relational triplets may have overlaps in a sentence. We divided the sentences into three types according to triplet overlap degree, including Normal, EntityPairOverlap and SingleEntiyOverlap. Existing methods mainly focus on Normal class and fail to extract relational triplets precisely. In this paper, we propose an end-to-end model based on sequence-to-sequence learning with copy mechanism, which can jointly extract relational facts from sentences of any of these classes. We adopt two different strategies in decoding process: employing only one united decoder or applying multiple separated decoders. We test our models in two public datasets and our model outperform the baseline method significantly.",
+  "keywords": [
+    "process",
+    "end",
+    "neural",
+    "model",
+    "class",
+    "strategies",
+    "decoder",
+    "multiple separated decoders",
+    "decoders",
+    "we",
+    "sequence",
+    "learning",
+    "only one united decoder",
+    "two different strategies",
+    "normal"
+  ],
+  "url": "https://aclanthology.org/P18-1047/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:10:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

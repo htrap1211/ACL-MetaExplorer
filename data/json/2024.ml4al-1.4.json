@@ -1,0 +1,33 @@
+{
+  "id": "2024.ml4al-1.4",
+  "title": "Classification of Paleographic Artifacts at Scale: Mitigating Confounds and Distribution Shift in Cuneiform Tablet Dating",
+  "authors": [
+    "Chen, Danlu  and\nTian, Jiahe  and\nWeng, Yufei  and\nBerg-Kirkpatrick, Taylor  and\nMyerston, Jacobo"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Machine Learning for Ancient Languages (ML4AL 2024)",
+  "abstract": "Cuneiform is the oldest writing system used for more than 3,000 years in ancient Mesopotamia. Cuneiform is written on clay tablets, which are hard to date because they often lack explicit references to time periods and their paleographic traits are not always reliable as a dating criterion. In this paper, we systematically analyse cuneiform dating problems using machine learning. We build baseline models for both visual and textual features and identify two major issues: confounds and distribution shift. We apply adversarial regularization and deep domain adaptation to mitigate these issues. On tablets from the same museum collections represented in the training set, we achieve accuracies as high as 84.42%. However, when test tablets are taken from held-out collections, models generalize more poorly. This is only partially mitigated by robust learning techniques, highlighting important challenges for future work.",
+  "keywords": [
+    "deep",
+    "ancient",
+    "we",
+    "adversarial regularization",
+    "training",
+    "classification",
+    "machine learning",
+    "learning",
+    "visual",
+    "work",
+    "ancient mesopotamia cuneiform",
+    "accuracies",
+    "machine",
+    "regularization",
+    "time"
+  ],
+  "url": "https://aclanthology.org/2024.ml4al-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

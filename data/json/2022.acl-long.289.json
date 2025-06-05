@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.289",
+  "title": "Improving Compositional Generalization with Self-Training for Data-to-Text Generation",
+  "authors": [
+    "Mehta, Sanket Vaibhav  and\nRao, Jinfeng  and\nTay, Yi  and\nKale, Mihir  and\nParikh, Ankur  and\nStrubell, Emma"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Data-to-text generation focuses on generating fluent natural language responses from structured meaning representations (MRs). Such representations are compositional and it is costly to collect responses for all possible combinations of atomic meaning schemata, thereby necessitating few-shot generalization to novel MRs. In this work, we systematically study the compositional generalization of the state-of-the-art T5 models in few-shot data-to-text tasks. We show that T5 models fail to generalize to unseen MRs, and we propose a template-based input representation that considerably improves the model’s generalization capability. To further improve the model’s performance, we propose an approach based on self-training using fine-tuned BLEURT for pseudo-response selection. On the commonly-used SGD and Weather benchmarks, the proposed self-training approach improves tree accuracy by46%+and reduces the slot error rates by73%+over the strong T5 baselines in few-shot settings.",
+  "keywords": [
+    "tree accuracy by46",
+    "bleurt",
+    "fine-tuned bleurt",
+    "we",
+    "shot",
+    "training",
+    "the commonly-used sgd",
+    "natural",
+    "it",
+    "self",
+    "the compositional generalization",
+    "sgd",
+    "text",
+    "generalization",
+    "compositional generalization"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.289/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:28:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

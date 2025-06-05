@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.107",
+  "title": "Towards Adaptive Prefix Tuning for Parameter-Efficient Language Model Fine-tuning",
+  "authors": [
+    "Zhang, Zhen-Ru  and\nTan, Chuanqi  and\nXu, Haiyang  and\nWang, Chengyu  and\nHuang, Jun  and\nHuang, Songfang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Fine-tuning large pre-trained language models on various downstream tasks with whole parameters is prohibitively expensive. Hence, Parameter-efficient fine-tuning has attracted attention that only optimizes a few task-specific parameters with the frozen pre-trained model. In this work, we focus on prefix tuning, which only optimizes continuous prefix vectors (i.e. pseudo tokens) inserted into Transformer layers. Based on the observation that the learned syntax and semantics representation varies a lot at different layers, we argue that the adaptive prefix will be further tailored to each layer than the fixed one, enabling the fine-tuning more effective and efficient. Thus, we propose Adaptive Prefix Tuning (APT) to adjust the prefix in terms of both fine-grained token level and coarse-grained layer level with a gate mechanism. Experiments on the SuperGLUE and NER datasets show the effectiveness of APT. In addition, taking the gate as a probing, we validate the efficiency and effectiveness of the variable prefix.",
+  "keywords": [
+    "efficient",
+    "layer",
+    "efficiency",
+    "we",
+    "syntax",
+    "parameter",
+    "parameter-efficient language model",
+    "semantics",
+    "token",
+    "the efficiency",
+    "ner",
+    "tuning",
+    "transformer layers",
+    "fine",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.107/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:49:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.526",
+  "title": "Towards Objectively Benchmarking Social Intelligence of Language Agents at the Action Level",
+  "authors": [
+    "Wang, Chenxu  and\nDai, Bin  and\nLiu, Huaping  and\nWang, Baoyuan"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Prominent large language models have exhibited human-level performance in many domains, even enabling the derived agents to simulate human and social interactions. While practical works have substantiated the practicability of grounding language agents in sandbox simulation or embodied simulators, current social intelligence benchmarks either stay at the language level or use subjective metrics. In pursuit of a more realistic and objective evaluation, we introduce the Social Tasks in Sandbox Simulation (STSS) benchmark, which assesses language agents objectively at the action level by scrutinizing the goal achievements within the multi-agent simulation.Additionally, we sample conversation scenarios to build a language-level benchmark to provide an economically prudent preliminary evaluation and align with prevailing benchmarks. To gauge the significance of agent architecture, we implement a target-driven planning (TDP) module as an adjunct to the existing agent. Our evaluative findings highlight that the STSS benchmark is challenging for state-of-the-art language agents. Furthermore, it effectively discriminates between distinct language agents, suggesting its usefulness as a benchmark for evaluating both language models and agent architectures. Our code is available at https://github.com/wcx21/Social-Tasks-in-Sandbox-Simulation.",
+  "keywords": [
+    "code",
+    "we",
+    "objectively benchmarking social intelligence",
+    "current",
+    "it",
+    "both language models",
+    "conversation scenarios",
+    "prominent large language models",
+    "align",
+    "objective",
+    "metrics",
+    "subjective metrics",
+    "action",
+    "language",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.526/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:55:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

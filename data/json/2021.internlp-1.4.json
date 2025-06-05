@@ -1,0 +1,33 @@
+{
+  "id": "2021.internlp-1.4",
+  "title": "A Proposal: Interactively Learning to Summarise Timelines by Reinforcement Learning",
+  "authors": [
+    "Ye, Yuxuan  and\nSimpson, Edwin"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the First Workshop on Interactive Learning for Natural Language Processing",
+  "abstract": "Timeline Summarisation (TLS) aims to generate a concise, time-ordered list of events described in sources such as news articles. However, current systems do not provide an adequate way to adapt to new domains nor to focus on the aspects of interest to a particular user. Therefore, we propose a method for interactively learning abstractive TLS using Reinforcement Learning (RL). We define a compound reward function and use RL to fine-tune an abstractive Multi-document Summarisation (MDS) model, which avoids the need to train using reference summaries. One of the sub-reward functions will be learned interactively from user feedback to ensure the consistency between users’ demands and the generated timeline. The other sub-reward functions contribute to topical coherence and linguistic fluency. We plan experiments to evaluate whether our approach could generate accurate and precise timelines tailored for each user.",
+  "keywords": [
+    "feedback",
+    "we",
+    "current",
+    "reference summaries",
+    "learning",
+    "the generated timeline",
+    "fine",
+    "function",
+    "reference",
+    "reinforcement",
+    "summaries",
+    "model",
+    "time",
+    "reinforcement learning",
+    "user feedback"
+  ],
+  "url": "https://aclanthology.org/2021.internlp-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:17:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

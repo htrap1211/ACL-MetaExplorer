@@ -1,0 +1,33 @@
+{
+  "id": "2024.sdp-1.26",
+  "title": "Researcher Representations Based on Aggregating Embeddings of Publication Titles: A Case Study in a {J}apanese Academic Database",
+  "authors": [
+    "Nagao, Hiroyoshi  and\nKatsurai, Marie"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024)",
+  "abstract": "Constructing researcher representations is crucial for search and recommendation in academic databases. While recent studies presented methods based on knowledge graph embeddings, obtaining a complete graph of academic entities might be sometimes challenging due to the lack of linked data.By contrast, the textual list of publications of each researcher, which represents their research interests and expertise, is usually easy to obtain.Therefore, this study focuses on creating researcher representations based on textual embeddings of their publication titles and assesses their practicality. We aggregate embeddings of each researcher’s multiple publications into a single vector and apply it to research field classification and similar researcher search tasks. We experimented with multiple language models and embedding aggregation methods to compare their performance.From the model perspective, we confirmed the effectiveness of using sentence embedding models and a simple averaging approach.",
+  "keywords": [
+    "sentence embedding models",
+    "field",
+    "we",
+    "graph",
+    "classification",
+    "it",
+    "textual embeddings",
+    "vector",
+    "field classification",
+    "recent studies",
+    "academic entities",
+    "embeddings",
+    "knowledge",
+    "language",
+    "a single vector"
+  ],
+  "url": "https://aclanthology.org/2024.sdp-1.26/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

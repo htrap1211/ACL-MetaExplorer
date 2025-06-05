@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.738",
+  "title": "Bridging the Gap between Decision and Logits in Decision-based Knowledge Distillation for Pre-trained Language Models",
+  "authors": [
+    "Zhou, Qinhong  and\nYang, Zonghan  and\nLi, Peng  and\nLiu, Yang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Conventional knowledge distillation (KD) methods require access to the internal information of teachers, e.g., logits. However, such information may not always be accessible for large pre-trained language models (PLMs). In this work, we focus on decision-based KD for PLMs, where only teacher decisions (i.e., top-1 labels) are accessible. Considering the information gap between logits and decisions, we propose a novel method to estimate logits from the decision distributions. Specifically, decision distributions can be both derived as a function of logits theoretically and estimated with test-time data augmentation empirically. By combining the theoretical and empirical estimations of the decision distributions together, the estimation of logits can be successfully reduced to a simple root-finding problem. Extensive experiments show that our method significantly outperforms strong baselines on both natural language understanding and machine reading comprehension datasets.",
+  "keywords": [
+    "work",
+    "knowledge",
+    "language",
+    "pre-trained language models",
+    "natural",
+    "machine",
+    "information",
+    "we",
+    "pre",
+    "time",
+    "function",
+    "a novel method",
+    "this work",
+    "conventional",
+    "baselines"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.738/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:45:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

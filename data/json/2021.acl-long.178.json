@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.178",
+  "title": "An Empirical Study on Hyperparameter Optimization for Fine-Tuning Pre-trained Language Models",
+  "authors": [
+    "Liu, Xueqing  and\nWang, Chi"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "The performance of fine-tuning pre-trained language models largely depends on the hyperparameter configuration. In this paper, we investigate the performance of modern hyperparameter optimization methods (HPO) on fine-tuning pre-trained language models. First, we study and report three HPO algorithms’ performances on fine-tuning two state-of-the-art language models on the GLUE dataset. We find that using the same time budget, HPO often fails to outperform grid search due to two reasons: insufficient time budget and overfitting. We propose two general strategies and an experimental procedure to systematically troubleshoot HPO’s failure cases. By applying the procedure, we observe that HPO can succeed with more appropriate settings in the search space and time budget; however, in certain cases overfitting remains. Finally, we make suggestions for future work. Our implementation can be found inhttps://github.com/microsoft/FLAML/tree/main/flaml/nlp/",
+  "keywords": [
+    "modern hyperparameter optimization",
+    "work",
+    "fine-tuning pre-trained language models",
+    "general",
+    "two general strategies",
+    "language",
+    "nlp",
+    "insufficient time budget",
+    "strategies",
+    "optimization",
+    "fine",
+    "we",
+    "pre",
+    "hyperparameter",
+    "hyperparameter optimization"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.178/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:01:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.16",
+  "title": "Event-independent temporal positioning: application to {F}rench clinical text",
+  "authors": [
+    "Bannour, Nesrine  and\nRance, Bastien  and\nTannier, Xavier  and\nNeveol, Aurelie"
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "Extracting temporal relations usually entails identifying and classifying the relation between two mentions. However, the definition of temporal mentions strongly depends on the text type and the application domain. Clinical text in particular is complex. It may describe events that occurred at different times, contain redundant information and a variety of domain-specific temporal expressions. In this paper, we propose a novel event-independent representation of temporal relations that is task-independent and, therefore, domain-independent. We are interested in identifying homogeneous text portions from a temporal standpoint and classifying the relation between each text portion and the document creation time. Temporal relation extraction is cast as a sequence labeling task and evaluated on oncology notes. We further evaluate our temporal representation by the temporal positioning of toxicity events of chemotherapy administrated to colon and lung cancer patients described in French clinical reports. An overall macro F-measure of 0.86 is obtained for temporal relation extraction by a neural token classification model trained on clinical texts written in French. Our results suggest that the toxicity event extraction task can be performed successfully by automatically identifying toxicity events and placing them within the patient timeline (F-measure .62). The proposed system has the potential to assist clinicians in the preparation of tumor board meetings.",
+  "keywords": [
+    "variety",
+    "extraction",
+    "we",
+    "the patient timeline",
+    "classification",
+    "neural",
+    "it",
+    "patients",
+    "token",
+    "information",
+    "sequence",
+    "a variety",
+    "text",
+    "model",
+    "patient"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.16/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

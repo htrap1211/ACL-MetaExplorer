@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.135",
+  "title": "MUSTIE}: Multimodal Structural Transformer for Web Information Extraction",
+  "authors": [
+    "Wang, Qifan  and\nWang, Jingang  and\nQuan, Xiaojun  and\nFeng, Fuli  and\nXu, Zenglin  and\nNie, Shaoliang  and\nWang, Sinong  and\nKhabsa, Madian  and\nFirooz, Hamed  and\nLiu, Dongfang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The task of web information extraction is to extract target fields of an object from web pages, such as extracting the name, genre and actor from a movie page. Recent sequential modeling approaches have achieved state-of-the-art results on web information extraction. However, most of these methods only focus on extracting information from textual sources while ignoring the rich information from other modalities such as image and web layout. In this work, we propose a novel MUltimodal Structural Transformer (MUST) that incorporates multiple modalities for web information extraction. Concretely, we develop a structural encoder that jointly encodes the multimodal information based on the HTML structure of the web layout, where high-level DOM nodes, and low-level text and image tokens are introduced to represent the entire page. Structural attention patterns are designed to learn effective cross-modal embeddings for all DOM nodes and low-level tokens. An extensive set of experiments are conducted on WebSRC and Common Crawl benchmarks. Experimental results demonstrate the superior performance of MUST over several state-of-the-art baselines.",
+  "keywords": [
+    "a movie page",
+    "mustie",
+    "extraction",
+    "effective cross-modal embeddings",
+    "we",
+    "fields",
+    "other modalities",
+    "cross",
+    "target fields",
+    "information",
+    "rich",
+    "object",
+    "multimodal structural transformer",
+    "text",
+    "multiple modalities"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.135/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:37:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

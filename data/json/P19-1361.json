@@ -1,0 +1,33 @@
+{
+  "id": "P19-1361",
+  "title": "Incremental Learning from Scratch for Task-Oriented Dialogue Systems",
+  "authors": [
+    "Wang, Weikang  and\nZhang, Jiajun  and\nLi, Qian  and\nHwang, Mei-Yuh  and\nZong, Chengqing  and\nLi, Zhifei"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Clarifying user needs is essential for existing task-oriented dialogue systems. However, in real-world applications, developers can never guarantee that all possible user demands are taken into account in the design phase. Consequently, existing systems will break down when encountering unconsidered user needs. To address this problem, we propose a novel incremental learning framework to design task-oriented dialogue systems, or for short Incremental Dialogue System (IDS), without pre-defining the exhaustive list of user needs. Specifically, we introduce an uncertainty estimation module to evaluate the confidence of giving correct responses. If there is high confidence, IDS will provide responses to users. Otherwise, humans will be involved in the dialogue process, and IDS can learn from human intervention through an online learning module. To evaluate our method, we propose a new dataset which simulates unanticipated user needs in the deployment stage. Experiments show that IDS is robust to unconsidered user actions, and can update itself online by smartly selecting only the most effective training data, and hence attains better performance with less annotation cost.",
+  "keywords": [
+    "we",
+    "dialogue",
+    "training",
+    "learning",
+    "existing task-oriented dialogue systems",
+    "process",
+    "human",
+    "the dialogue process",
+    "task-oriented dialogue systems",
+    "pre",
+    "high confidence ids",
+    "unconsidered",
+    "responses",
+    "framework",
+    "possible"
+  ],
+  "url": "https://aclanthology.org/P19-1361/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:39:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

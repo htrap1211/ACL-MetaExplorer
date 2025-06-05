@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.521",
+  "title": "Language Model Augmented Relevance Score",
+  "authors": [
+    "Liu, Ruibo  and\nWei, Jason  and\nVosoughi, Soroush"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Although automated metrics are commonly used to evaluate NLG systems, they often correlate poorly with human judgements. Newer metrics such as BERTScore have addressed many weaknesses in prior metrics such as BLEU and ROUGE, which rely on n-gram matching. These newer methods, however, are still limited in that they do not consider the generation context, so they cannot properly reward generated text that is correct but deviates from the given reference. In this paper, we propose Language Model Augmented Relevance Score (MARS), a new context-aware metric for NLG evaluation. MARS leverages off-the-shelf language models, guided by reinforcement learning, to create augmented references that consider both the generation context and available human references, which are then used as additional references to score generated text. Compared with seven existing metrics in three common NLG tasks, MARS not only achieves higher correlation with human reference judgements, but also differentiates well-formed candidates from adversarial samples to a larger degree.",
+  "keywords": [
+    "newer metrics",
+    "bleu",
+    "we",
+    "the generation context",
+    "bertscore",
+    "both the generation context",
+    "prior metrics",
+    "learning",
+    "generated text",
+    "automated metrics",
+    "language model",
+    "metric",
+    "text",
+    "metrics",
+    "nlg evaluation mars"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.521/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

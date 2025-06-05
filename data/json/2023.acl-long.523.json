@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.523",
+  "title": "Log-linear Guardedness and its Implications",
+  "authors": [
+    "Ravfogel, Shauli  and\nGoldberg, Yoav  and\nCotterell, Ryan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Methods for erasing human-interpretable concepts from neural representations that assume linearity have been found to be tractable and useful. However, the impact of this removal on the behavior of downstream classifiers trained on the modified representations is not fully understood. In this work, we formally define the notion of linear guardedness as the inability of an adversary to predict the concept directly from the representation, and study its implications. We show that, in the binary case, under certain assumptions, a downstream log-linear model cannot recover the erased concept. However, we constructively demonstrate that a multiclass log-linear modelcanbe constructed that indirectly recovers the concept in some cases, pointing to the inherent limitations of linear guardedness as a downstream bias mitigation technique.These findings shed light on the theoretical limitations of linear erasure methods and highlight the need for further research on the connections between intrinsic and extrinsic bias in neural models.",
+  "keywords": [
+    "bias",
+    "classifiers",
+    "we",
+    "neural",
+    "downstream classifiers",
+    "log",
+    "the modified representations",
+    "intrinsic and extrinsic bias",
+    "work",
+    "model",
+    "human",
+    "notion",
+    "implications",
+    "adversary",
+    "the behavior"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.523/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:42:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

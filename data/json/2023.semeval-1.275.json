@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.275",
+  "title": "S}heffield{V}era{AI} at {S}em{E}val-2023 Task 3: Mono and Multilingual Approaches for News Genre, Topic and Persuasion Technique Classification",
+  "authors": [
+    "Wu, Ben  and\nRazuvayevskaya, Olesya  and\nHeppell, Freddy  and\nLeite, Jo{\\~a}o A.  and\nScarton, Carolina  and\nBontcheva, Kalina  and\nSong, Xingyi"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper describes our approach for SemEval- 2023 Task 3: Detecting the category, the fram- ing, and the persuasion techniques in online news in a multilingual setup. For Subtask 1 (News Genre), we propose an ensemble of fully trained and adapter mBERT models which was ranked joint-first for German, and had the high- est mean rank of multi-language teams. For Subtask 2 (Framing), we achieved first place in 3 languages, and the best average rank across all the languages, by using two separate ensem- bles: a monolingual RoBERTa-MUPPETLARGE and an ensemble of XLM-RoBERTaLARGE with adapters and task adaptive pretraining. For Sub- task 3 (Persuasion Techniques), we trained a monolingual RoBERTa-Base model for English and a multilingual mBERT model for the re- maining languages, which achieved top 10 for all languages, including 2nd for English. For each subtask, we compared monolingual and multilingual approaches, and considered class imbalance techniques.",
+  "keywords": [
+    "heffield",
+    "top",
+    "roberta",
+    "mbert",
+    "era",
+    "we",
+    "robertalarge",
+    "classification",
+    "ing",
+    "ensemble",
+    "xlm-robertalarge",
+    "re-",
+    "a monolingual roberta-muppetlarge",
+    "an ensemble",
+    "topic"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.275/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:30:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.463",
+  "title": "C}hart{A}ssistant: A Universal Chart Multimodal Language Model via Chart-to-Table Pre-training and Multitask Instruction Tuning",
+  "authors": [
+    "Meng, Fanqing  and\nShao, Wenqi  and\nLu, Quanfeng  and\nGao, Peng  and\nZhang, Kaipeng  and\nQiao, Yu  and\nLuo, Ping"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Charts play a vital role in data visualization, understanding data patterns, and informed decision-making. However, their unique combination of graphical elements (e.g., bars, lines) and textual components (e.g., labels, legends) poses challenges for general-purpose multimodal models. While vision-language models trained on chart data excel in comprehension, they struggle with generalization. To address these challenges, we propose ChartAssistant, a chart-based vision-language model for universal chart comprehension and reasoning. ChartAssistant leverages ChartSFT, a comprehensive dataset covering diverse chart-related tasks with basic (e.g. bars and pies) and specialized (e.g. radars, and bubbles) chart types. It undergoes a two-stage training process, starting with pre-training on chart-to-table parsing to align chart and text, followed by multitask instruction-following fine-tuning. This approach enables ChartAssistant to achieve competitive performance across various chart tasks. Experimental results demonstrate significant performance gains over the state-of-the-art UniChart and ChartLlama methods, especially outperforming them on real-world chart data with zero-shot setting. The code and data are available at https://github.com/OpenGVLab/ChartAst.",
+  "keywords": [
+    "code",
+    "pies",
+    "we",
+    "shot",
+    "training",
+    "general-purpose multimodal models",
+    "instruction",
+    "it",
+    "tuning",
+    "multitask instruction tuning charts",
+    "text",
+    "-",
+    "zero-shot",
+    "generalization",
+    "a chart-based vision-language model"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.463/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.593",
+  "title": "A Cognitive Stimulation Dialogue System with Multi-source Knowledge Fusion for Elders with Cognitive Impairment",
+  "authors": [
+    "Jiang, Jiyue  and\nWang, Sheng  and\nLi, Qintong  and\nKong, Lingpeng  and\nWu, Chuan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "When communicating with elders with cognitive impairment, cognitive stimulation (CS) help to maintain the cognitive health of elders. Data sparsity is the main challenge in building CS-based dialogue systems, particularly in the Chinese language. To fill this gap, we construct a Chinese CS conversation (CSConv) dataset, which contains about 2.6K groups of dialogues with therapy principles and emotional support strategy labels. Making chit chat while providing emotional support is overlooked by the majority of existing cognitive dialogue systems. In this paper, we propose a multi-source knowledge fusion method for CS dialogue (CSD), to generate open-ended responses guided by the therapy principle and emotional support strategy. We first use a progressive mask method based on external knowledge to learn encoders as effective classifiers, which is the prerequisite to predict the therapy principle and emotional support strategy of the target response. Then a decoder interacts with the perceived therapy principle and emotional support strategy to generate responses. Extensive experiments conducted on the CSConv dataset demonstrate the effectiveness of the proposed method, while there is still a large space for improvement compared to human performance.",
+  "keywords": [
+    "support",
+    "classifiers",
+    "effective classifiers",
+    "we",
+    "dialogue",
+    "fusion",
+    "cs dialogue csd",
+    "decoder",
+    "cs-based dialogue systems",
+    "encoders",
+    "chat",
+    "knowledge",
+    "language",
+    "dialogues",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.593/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

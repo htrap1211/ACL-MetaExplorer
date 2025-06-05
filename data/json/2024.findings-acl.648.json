@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.648",
+  "title": "RECOST}: External Knowledge Guided Data-efficient Instruction Tuning",
+  "authors": [
+    "Zhang, Qi  and\nZhang, Yiming  and\nWang, Haobo  and\nZhao, Junbo"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "In the current landscape of large language models (LLMs), the process of instruction tuning serves as an essential step. Considering the high computing power overhead, data-efficient instruction tuning was proposed to reduce the training data size in this process, aiming at selecting high-quality instructional data. Nevertheless, we argue that most current data-efficient instruction-tuning methods are highly dependent on the quality of the original instruction-tuning dataset. When it comes to datasets synthesized by LLMs, a common scenario in this field, dirty samples will even be selected with a higher probability than other samples. To address these challenges, we utilized external knowledge (relevant examples or paragraphs) to evaluate those samples synthesized by LLMs with an in-context-based relative predictive entropy. Based on the new metric, we proposed a framework, dubbed asRECOST, which integrates external-knowledge-base re-ranking and diversity-consistent sampling into a single pipeline. Through extensive experiments on several synthetic datasets (Alpaca and Alpaca-gpt4), we demonstrate the effectiveness of our method and achieve even better results with only1%of the full dataset.",
+  "keywords": [
+    "efficient",
+    "field",
+    "we",
+    "current",
+    "training",
+    "instruction",
+    "it",
+    "llms",
+    "instruction tuning",
+    "tuning",
+    "metric",
+    "process",
+    "knowledge",
+    "language",
+    "large language models"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.648/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

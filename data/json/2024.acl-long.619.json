@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.619",
+  "title": "J}ump{C}oder: Go Beyond Autoregressive Coder via Online Modification",
+  "authors": [
+    "Chen, Mouxiang  and\nTian, Hao  and\nLiu, Zhongxin  and\nRen, Xiaoxue  and\nSun, Jianling"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "While existing code large language models (code LLMs) exhibit impressive capabilities in code generation, their autoregressive sequential generation inherently lacks reversibility. This limitation hinders them from timely correcting previous missing statements during coding as humans do, often leading to error propagation and suboptimal performance. We introduce JumpCoder, a novel model-agnostic framework that enables human-like online modification and non-sequential generation to augment code LLMs. The key idea behind JumpCoder is to insert new code into the currently generated code when necessary during generation, which is achieved through an auxiliary infilling model that works in tandem with the code LLM. Since identifying the best infill position beforehand is intractable, we adopt an infill-first, judge-later strategy, which experiments with filling at thekmost critical positions following the generation of each line, and uses an Abstract Syntax Tree (AST) parser alongside the Generation Model Scoring to effectively judge the validity of each potential infill. Extensive experiments using six state-of-the-art code LLMs across multiple and multilingual benchmarks consistently indicate significant improvements over all baselines. Our code is available in the uploaded attachment.",
+  "keywords": [
+    "code",
+    "the generation",
+    "ast",
+    "we",
+    "syntax",
+    "llm",
+    "non-sequential generation",
+    "code llms",
+    "impressive capabilities",
+    "llms",
+    "coder",
+    "an abstract syntax tree",
+    "the currently generated code",
+    "oder",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.619/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:50",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

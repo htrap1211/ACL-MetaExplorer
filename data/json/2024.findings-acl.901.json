@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.901",
+  "title": "N}ote{C}hat: A Dataset of Synthetic Patient-Physician Conversations Conditioned on Clinical Notes",
+  "authors": [
+    "Wang, Junda  and\nYao, Zonghai  and\nYang, Zhichao  and\nZhou, Huixue  and\nLi, Rumeng  and\nWang, Xun  and\nXu, Yucheng  and\nYu, Hong"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "We introduce NoteChat, a novel cooperative multi-agent framework leveraging Large Language Models (LLMs) to generate patient-physician dialogues. NoteChat embodies the principle that an ensemble of role-specific LLMs, through structured role-play and strategic prompting, can perform their assigned roles more effectively. The synergy among these role-playing LLMs results in a cohesive and efficient dialogue generation. Evaluation on MTS-dialogue, a benchmark dataset for patient-physician dialogues-note pairs, shows that models trained with the augmented synthetic patient-physician dialogues by NoteChat outperforms other state-of-the-art models for generating clinical notes. Our comprehensive automatic and human evaluation demonstrates that NoteChat substantially surpasses state-of-the-art models like ChatGPT and GPT-4 up to 22.78% by domain experts in generating superior synthetic patient-physician dialogues based on clinical notes. NoteChat has the potential to engage patients directly and help clinical documentation, a leading cause of physician burnout.",
+  "keywords": [
+    "synthetic patient-physician conversations",
+    "strategic prompting",
+    "role-specific llms",
+    "efficient",
+    "conversations",
+    "we",
+    "dialogue",
+    "ensemble",
+    "synergy",
+    "the synergy",
+    "patient-physician dialogues",
+    "patients",
+    "chatgpt",
+    "an ensemble",
+    "llms"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.901/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:00:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

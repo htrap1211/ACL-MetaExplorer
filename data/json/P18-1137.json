@@ -1,0 +1,33 @@
+{
+  "id": "P18-1137",
+  "title": "Tailored Sequence to Sequence Models to Different Conversation Scenarios",
+  "authors": [
+    "Zhang, Hainan  and\nLan, Yanyan  and\nGuo, Jiafeng  and\nXu, Jun  and\nCheng, Xueqi"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Sequence to sequence (Seq2Seq) models have been widely used for response generation in the area of conversation. However, the requirements for different conversation scenarios are distinct. For example, customer service requires the generated responses to be specific and accurate, while chatbot prefers diverse responses so as to attract different users. The current Seq2Seq model fails to meet these diverse requirements, by using a general average likelihood as the optimization criteria. As a result, it usually generates safe and commonplace responses, such as ‘I don’t know’. In this paper, we propose two tailored optimization criteria for Seq2Seq to different conversation scenarios, i.e., the maximum generated likelihood for specific-requirement scenario, and the conditional value-at-risk for diverse-requirement scenario. Experimental results on the Ubuntu dialogue corpus (Ubuntu service scenario) and Chinese Weibo dataset (social chatbot scenario) show that our proposed models not only satisfies diverse requirements for different scenarios, but also yields better performances against traditional Seq2Seq models in terms of both metric-based and human evaluations.",
+  "keywords": [
+    "traditional seq2seq models",
+    "two tailored optimization criteria",
+    "we",
+    "dialogue",
+    "current",
+    "chatbot",
+    "it",
+    "the current seq2seq model",
+    "a general average likelihood",
+    "the generated responses",
+    "sequence",
+    "different conversation scenarios sequence",
+    "seq2seq",
+    "i",
+    "metric"
+  ],
+  "url": "https://aclanthology.org/P18-1137/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:12:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

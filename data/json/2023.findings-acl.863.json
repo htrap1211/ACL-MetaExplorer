@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.863",
+  "title": "Adaptive Ordered Information Extraction with Deep Reinforcement Learning",
+  "authors": [
+    "Huang, Wenhao  and\nLiang, Jiaqing  and\nLi, Zhixu  and\nXiao, Yanghua  and\nJi, Chuanjun"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Information extraction (IE) has been studied extensively. The existing methods always follow a fixed extraction order for complex IE tasks with multiple elements to be extracted in one instance such as event extraction. However, we conduct experiments on several complex IE datasets and observe that different extraction orders can significantly affect the extraction results for a great portion of instances, and the ratio of sentences that are sensitive to extraction orders increases dramatically with the complexity of the IE task. Therefore, this paper proposes a novel adaptive ordered IE paradigm to find the optimal element extraction order for different instances, so as to achieve the best extraction results. We also propose an reinforcement learning (RL) based framework to generate optimal extraction order for each instance dynamically. Additionally, we propose a co-training framework adapted to RL to mitigate the exposure bias during the extractor training phase. Extensive experiments conducted on several public datasets demonstrate that our proposed method can beat previous methods and effectively improve the performance of various IE tasks, especially for complex ones.",
+  "keywords": [
+    "deep",
+    "bias",
+    "extraction",
+    "the ie task",
+    "we",
+    "training",
+    "complex ie tasks",
+    "information",
+    "learning",
+    "the exposure bias",
+    "ie paradigm",
+    "ratio",
+    "several complex ie datasets",
+    "an reinforcement learning",
+    "reinforcement"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.863/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:20:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

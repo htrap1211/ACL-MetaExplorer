@@ -1,0 +1,33 @@
+{
+  "id": "2021.repl4nlp-1.19",
+  "title": "Deriving Word Vectors from Contextualized Language Models using Topic-Aware Mention Selection",
+  "authors": [
+    "Wang, Yixiao  and\nBouraoui, Zied  and\nEspinosa Anke, Luis  and\nSchockaert, Steven"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 6th Workshop on Representation Learning for NLP (RepL4NLP-2021)",
+  "abstract": "One of the long-standing challenges in lexical semantics consists in learning representations of words which reflect their semantic properties. The remarkable success of word embeddings for this purpose suggests that high-quality representations can be obtained by summarizing the sentence contexts of word mentions. In this paper, we propose a method for learning word representations that follows this basic strategy, but differs from standard word embeddings in two important ways. First, we take advantage of contextualized language models (CLMs) rather than bags of word vectors to encode contexts. Second, rather than learning a word vector directly, we use a topic model to partition the contexts in which words appear, and then learn different topic-specific vectors for each word. Finally, we use a task-specific supervision signal to make a soft selection of the resulting vectors. We show that this simple strategy leads to high-quality word vectors, which are more predictive of semantic properties than word embeddings and existing CLM-based strategies.",
+  "keywords": [
+    "word vectors",
+    "encode",
+    "semantic",
+    "we",
+    "deriving word vectors",
+    "semantics",
+    "properties",
+    "different topic-specific vectors",
+    "word",
+    "standard word embeddings",
+    "a word vector",
+    "vector",
+    "the resulting vectors",
+    "strategies",
+    "topic"
+  ],
+  "url": "https://aclanthology.org/2021.repl4nlp-1.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:19:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

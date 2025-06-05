@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.573",
+  "title": "D}ata{F}inder: Scientific Dataset Recommendation from Natural Language Descriptions",
+  "authors": [
+    "Viswanathan, Vijay  and\nGao, Luyu  and\nWu, Tongshuang  and\nLiu, Pengfei  and\nNeubig, Graham"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Modern machine learning relies on datasets to develop and validate research ideas. Given the growth of publicly available data, finding the right dataset to use is increasingly difficult. Any research question imposes explicit and implicit constraints on how well a given dataset will enable researchers to answer this question, such as dataset size, modality, and domain. We operationalize the task of recommending datasets given a short natural language description of a research idea, to help people find relevant datasets for their needs. Dataset recommendation poses unique challenges as an information retrieval problem; datasets are hard to directly index for search and there are no corpora readily available for this task. To facilitate this task, we build the DataFinder Dataset which consists of a larger automatically-constructed training set (17.5K queries) and a smaller expert-annotated evaluation set (392 queries). Using this data, we compare various information retrieval algorithms on our test set and present a superior bi-encoder retriever for text-based dataset recommendation. This system, trained on the DataFinder Dataset, finds more relevant search results than existing third-party dataset search engines. To encourage progress on dataset recommendation, we release our dataset and models to the public.",
+  "keywords": [
+    "17 5k queries",
+    "question",
+    "an information retrieval problem",
+    "various information retrieval algorithms",
+    "we",
+    "training",
+    "natural",
+    "queries",
+    "retrieval",
+    "information",
+    "learning",
+    "392 queries",
+    "scientific",
+    "text",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.573/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

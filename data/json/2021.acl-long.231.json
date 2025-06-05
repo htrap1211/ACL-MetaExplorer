@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.231",
+  "title": "L}ee{BERT}: Learned Early Exit for {BERT} with cross-level optimization",
+  "authors": [
+    "Zhu, Wei"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Pre-trained language models like BERT are performant in a wide range of natural language tasks. However, they are resource exhaustive and computationally expensive for industrial scenarios. Thus, early exits are adopted at each layer of BERT to perform adaptive computation by predicting easier samples with the first few layers to speed up the inference. In this work, to improve efficiency without performance drop, we propose a novel training scheme called Learned Early Exit for BERT (LeeBERT). First, we ask each exit to learn from each other, rather than learning only from the last layer. Second, the weights of different loss terms are learned, thus balancing off different objectives. We formulate the optimization of LeeBERT as a bi-level optimization problem, and we propose a novel cross-level optimization (CLO) algorithm to improve the optimization results. Experiments on the GLUE benchmark show that our proposed methods improve the performance of the state-of-the-art (SOTA) early exit methods for pre-trained models.",
+  "keywords": [
+    "objectives",
+    "leebert",
+    "layer",
+    "efficiency",
+    "we",
+    "the optimization",
+    "training",
+    "cross",
+    "natural",
+    "bert leebert",
+    "loss",
+    "l ee bert",
+    "exit",
+    "bert",
+    "early"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.231/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:02:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "W19-3712",
+  "title": "Tuning Multilingual Transformers for Language-Specific Named Entity Recognition",
+  "authors": [
+    "Arkhipov, Mikhail  and\nTrofimova, Maria  and\nKuratov, Yuri  and\nSorokin, Alexey"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 7th Workshop on Balto-Slavic Natural Language Processing",
+  "abstract": "Our paper addresses the problem of multilingual named entity recognition on the material of 4 languages: Russian, Bulgarian, Czech and Polish. We solve this task using the BERT model. We use a hundred languages multilingual model as base for transfer to the mentioned Slavic languages. Unsupervised pre-training of the BERT model on these 4 languages allows to significantly outperform baseline neural approaches and multilingual BERT. Additional improvement is achieved by extending BERT with a word-level CRF layer. Our system was submitted to BSNLP 2019 Shared Task on Multilingual Named Entity Recognition and demonstrated top performance in multilingual setting for two competition metrics. We open-sourced NER models and BERT model pre-trained on the four Slavic languages.",
+  "keywords": [
+    "ner",
+    "transformers",
+    "bsnlp",
+    "multilingual named entity recognition",
+    "language",
+    "bert",
+    "neural",
+    "model",
+    "metrics",
+    "language-specific named entity recognition",
+    "-",
+    "layer",
+    "word",
+    "we",
+    "multilingual transformers"
+  ],
+  "url": "https://aclanthology.org/W19-3712/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:58:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

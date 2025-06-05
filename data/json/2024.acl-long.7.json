@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.7",
+  "title": "B}it{D}istiller: Unleashing the Potential of Sub-4-Bit {LLM}s via Self-Distillation",
+  "authors": [
+    "Du, DaYou  and\nZhang, Yijia  and\nCao, Shijie  and\nGuo, Jiaqi  and\nCao, Ting  and\nChu, Xiaowen  and\nXu, Ningyi"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The upscaling of Large Language Models (LLMs) has yielded impressive advances in natural language processing, yet it also poses significant deployment challenges. Weight quantization has emerged as a widely embraced solution to reduce memory and computational demands. This paper introduces BitDistiller, a framework that synergizes Quantization-Aware Training (QAT) with Knowledge Distillation (KD) to boost the performance of LLMs at ultra-low precisions (sub-4-bit). Specifically, BitDistiller first incorporates a tailored asymmetric quantization and clipping technique to maximally preserve the fidelity of quantized weights, and then proposes a novel Confidence-Aware Kullback-Leibler Divergence (CAKLD) objective, which is employed in a self-distillation manner to enable faster convergence and superior model performance. Empirical evaluations demonstrate that BitDistiller significantly surpasses existing methods in both 3-bit and 2-bit configurations on general language understanding and complex reasoning benchmarks. Notably, BitDistiller is shown to be more cost-effective, demanding fewer data and training resources. The code is available at https://github.com/DD-DuDa/BitDistiller.",
+  "keywords": [
+    "code",
+    "llm",
+    "training",
+    "a self-distillation manner",
+    "natural",
+    "it",
+    "self",
+    "qat",
+    "natural language processing",
+    "precisions",
+    "manner",
+    "llms",
+    "processing",
+    "objective",
+    "large language models llms"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:34:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

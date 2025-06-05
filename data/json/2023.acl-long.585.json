@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.585",
+  "title": "Robust Representation Learning with Reliable Pseudo-labels Generation via Self-Adaptive Optimal Transport for Short Text Clustering",
+  "authors": [
+    "Zheng, Xiaolin  and\nHu, Mengling  and\nLiu, Weiming  and\nChen, Chaochao  and\nLiao, Xinting"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Short text clustering is challenging since it takes imbalanced and noisy data as inputs. Existing approaches cannot solve this problem well, since (1) they are prone to obtain degenerate solutions especially on heavy imbalanced datasets, and (2) they are vulnerable to noises. To tackle the above issues, we propose a Robust Short Text Clustering (RSTC) model to improve robustness against imbalanced and noisy data. RSTC includes two modules, i.e., pseudo-label generation module and robust representation learning module. The former generates pseudo-labels to provide supervision for the later, which contributes to more robust representations and correctly separated clusters. To provide robustness against the imbalance in data, we propose self-adaptive optimal transport in the pseudo-label generation module. To improve robustness against the noise in data, we further introduce both class-wise and instance-wise contrastive learning in the robust representation learning module. Our empirical studies on eight short text clustering datasets demonstrate that RSTC significantly outperforms the state-of-the-art models.",
+  "keywords": [
+    "the pseudo-label generation module",
+    "i",
+    "generation",
+    "degenerate solutions",
+    "our empirical studies",
+    "text",
+    "it",
+    "model",
+    "class",
+    "reliable pseudo-labels generation",
+    "self",
+    "-",
+    "clustering",
+    "studies",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.585/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

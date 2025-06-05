@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.70",
+  "title": "Virtual Augmentation Supported Contrastive Learning of Sentence Representations",
+  "authors": [
+    "Zhang, Dejiao  and\nXiao, Wei  and\nZhu, Henghui  and\nMa, Xiaofei  and\nArnold, Andrew"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Despite profound successes, contrastive representation learning relies on carefully designed data augmentations using domain-specific knowledge. This challenge is magnified in natural language processing, where no general rules exist for data augmentation due to the discrete nature of natural language. We tackle this challenge by presenting a Virtual augmentation Supported Contrastive Learning of sentence representations (VaSCL). Originating from the interpretation that data augmentation essentially constructs the neighborhoods of each training instance, we, in turn, utilize the neighborhood to generate effective data augmentations. Leveraging the large training batch size of contrastive learning, we approximate the neighborhood of an instance via its K-nearest in-batch neighbors in the representation space. We then define an instance discrimination task regarding the neighborhood and generate the virtual augmentation in an adversarial training manner. We access the performance of VaSCL on a wide range of downstream tasks and set a new state-of-the-art for unsupervised sentence representation learning.",
+  "keywords": [
+    "we",
+    "training",
+    "natural",
+    "learning",
+    "natural language processing",
+    "natural language",
+    "manner",
+    "processing",
+    "general",
+    "knowledge",
+    "language",
+    "no general rules",
+    "an adversarial training manner",
+    "batch",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.70/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:35:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

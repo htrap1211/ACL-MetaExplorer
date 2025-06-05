@@ -1,0 +1,33 @@
+{
+  "id": "2022.repl4nlp-1.4",
+  "title": "When does {CLIP} generalize better than unimodal models? When judging human-centric concepts",
+  "authors": [
+    "Bielawski, Romain  and\nDevillers, Benjamin  and\nVan De Cruys, Tim  and\nVanrullen, Rufin"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 7th Workshop on Representation Learning for NLP",
+  "abstract": "CLIP, a vision-language network trained with a multimodal contrastive learning objective on a large dataset of images and captions, has demonstrated impressive zero-shot ability in various tasks. However, recent work showed that in comparison to unimodal (visual) networks, CLIP’s multimodal training does not benefit generalization (e.g. few-shot or transfer learning) for standard visual classification tasks such as object, street numbers or animal recognition. Here, we hypothesize that CLIP’s improved unimodal generalization abilities may be most prominent in domains that involve human-centric concepts (cultural, social, aesthetic, affective...); this is because CLIP’s training dataset is mainly composed of image annotations made by humans for other humans. To evaluate this, we use 3 tasks that require judging human-centric concepts”:” sentiment analysis on tweets, genre classification on books or movies. We introduce and publicly release a new multimodal dataset for movie genre classification. We compare CLIP’s visual stream against two visually trained networks and CLIP’s textual stream against two linguistically trained networks, as well as multimodal combinations of these networks. We show that CLIP generally outperforms other networks, whether using one or two modalities. We conclude that CLIP’s multimodal training is beneficial for both unimodal and multimodal tasks that require classification of human-centric concepts.",
+  "keywords": [
+    "we",
+    "shot",
+    "one or two modalities",
+    "training",
+    "classification",
+    "movie genre classification",
+    "learning",
+    "transfer",
+    "visual",
+    "analysis",
+    "abilities",
+    "object",
+    "objective",
+    "movies",
+    "generalization"
+  ],
+  "url": "https://aclanthology.org/2022.repl4nlp-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:45:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.974",
+  "title": "Concise and Precise Context Compression for Tool-Using Language Models",
+  "authors": [
+    "Xu, Yang  and\nFeng, Yunlong  and\nMu, Honglin  and\nHou, Yutai  and\nLi, Yitong  and\nWang, Xinghao  and\nZhong, Wanjun  and\nLi, Zhongyang  and\nTu, Dandan  and\nZhu, Qingfu  and\nZhang, Min  and\nChe, Wanxiang"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Through reading the documentation in the context, tool-using language models can dynamically extend their capability using external tools. The cost is that we have to input lengthy documentation every time the model needs to use the tool, occupying the input window as well as slowing down the decoding process.Given the progress in general-purpose compression, soft context compression is a suitable approach to alleviate the problem. However, when compressing tool documentation, existing methods suffer from the weaknesses of key information loss (specifically, tool/parameter name errors) and difficulty in adjusting the length of compressed sequences based on documentation lengths.To address these problems, we propose two strategies for compressing tool documentation into concise and precise summary sequences for tool-using language models. 1) Selective compression strategy mitigates key information loss by deliberately retaining key information as raw text tokens. 2) Block compression strategy involves dividing tool documentation into short chunks and then employing a fixed-length compression model to achieve variable-length compression. This strategy facilitates the flexible adjustment of the compression ratio.Results on API-Bank and APIBench show that our approach reaches a performance comparable to the upper-bound baseline under up to 16x compression ratio.",
+  "keywords": [
+    "we",
+    "parameter",
+    "tool-using language models",
+    "loss",
+    "information",
+    "text",
+    "two strategies",
+    "strategies",
+    "ratio",
+    "soft",
+    "process",
+    "general",
+    "language",
+    "model",
+    "time"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.974/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

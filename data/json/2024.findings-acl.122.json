@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.122",
+  "title": "C}hat{KBQA}: A Generate-then-Retrieve Framework for Knowledge Base Question Answering with Fine-tuned Large Language Models",
+  "authors": [
+    "Luo, Haoran  and\nE, Haihong  and\nTang, Zichen  and\nPeng, Shiyao  and\nGuo, Yikai  and\nZhang, Wentai  and\nMa, Chenghao  and\nDong, Guanting  and\nSong, Meina  and\nLin, Wei  and\nZhu, Yifan  and\nLuu, Anh Tuan"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Knowledge Base Question Answering (KBQA) aims to answer natural language questions over large-scale knowledge bases (KBs), which can be summarized into two crucial steps: knowledge retrieval and semantic parsing. However, three core challenges remain: inefficient knowledge retrieval, mistakes of retrieval adversely impacting semantic parsing, and the complexity of previous KBQA methods. To tackle these challenges, we introduce ChatKBQA, a novel and simple generate-then-retrieve KBQA framework, which proposes first generating the logical form with fine-tuned LLMs, then retrieving and replacing entities and relations with an unsupervised retrieval method, to improve both generation and retrieval more directly. Experimental results show that ChatKBQA achieves new state-of-the-art performance on standard KBQA datasets, WebQSP, and CWQ. This work can also be regarded as a new paradigm for combining LLMs with knowledge graphs (KGs) for interpretable and knowledge-required question answering.",
+  "keywords": [
+    "work",
+    "inefficient knowledge retrieval mistakes",
+    "knowledge",
+    "parsing",
+    "fine-tuned llms",
+    "language",
+    "generation",
+    "natural",
+    "retrieve",
+    "inefficient",
+    "entities",
+    "an unsupervised retrieval method",
+    "knowledge graphs kgs",
+    "standard kbqa datasets",
+    "both generation"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.122/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:50:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.114",
+  "title": "Harvesting Events from Multiple Sources: Towards a Cross-Document Event Extraction Paradigm",
+  "authors": [
+    "Gao, Qiang  and\nMeng, Zixiang  and\nLi, Bobo  and\nZhou, Jun  and\nLi, Fei  and\nTeng, Chong  and\nJi, Donghong"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Document-level event extraction aims to extract structured event information from unstructured text. However, a single document often contains limited event information and the roles of different event arguments may be biased due to the influence of the information source.This paper addresses the limitations of traditional document-level event extraction by proposing the task of cross-document event extraction (CDEE) to integrate event information from multiple documents and provide a comprehensive perspective on events. We construct a novel cross-document event extraction dataset, namely CLES, which contains 20,059 documents and 37,688 mention-level events, where over 70% of them are cross-document. To address the task, we propose a CDEE pipeline that includes 5 steps, namely event extraction, coreference resolution, entity normalization, role normalization and entity-role resolution. Our CDEE pipeline achieves about 72% F1 in end-to-end cross-document event extraction, suggesting the challenge of this task and setting up a benchmark for future research. Our work builds a new line of information extraction research and will attract new research attention.",
+  "keywords": [
+    "end",
+    "extraction",
+    "we",
+    "about 72 f1",
+    "cross",
+    "information",
+    "information extraction research",
+    "normalization",
+    "text",
+    "-",
+    "coreference",
+    "work",
+    "new research attention",
+    "attention",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.114/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:50:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

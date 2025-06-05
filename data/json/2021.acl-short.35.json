@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-short.35",
+  "title": "Neural Retrieval for Question Answering with Cross-Attention Supervised Data Augmentation",
+  "authors": [
+    "Yang, Yinfei  and\nJin, Ning  and\nLin, Kuo  and\nGuo, Mandy  and\nCer, Daniel"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+  "abstract": "Early fusion models with cross-attention have shown better-than-human performance on some question answer benchmarks, while it is a poor fit for retrieval since it prevents pre-computation of the answer representations. We present a supervised data mining method using an accurate early fusion model to improve the training of an efficient late fusion retrieval model. We first train an accurate classification model with cross-attention between questions and answers. The cross-attention model is then used to annotate additional passages in order to generate weighted training examples for a neural retrieval model. The resulting retrieval model with additional data significantly outperforms retrieval models directly trained with gold annotations on Precision at N (P@N) and Mean Reciprocal Rank (MRR).",
+  "keywords": [
+    "a neural retrieval model",
+    "cross",
+    "late",
+    "the cross-attention model",
+    "retrieval models",
+    "precision",
+    "answer",
+    "the resulting retrieval model",
+    "neural",
+    "neural retrieval",
+    "early",
+    "model",
+    "it",
+    "human",
+    "efficient"
+  ],
+  "url": "https://aclanthology.org/2021.acl-short.35/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:07:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

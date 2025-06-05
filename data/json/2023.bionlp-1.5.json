@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.5",
+  "title": "Using Bottleneck Adapters to Identify Cancer in Clinical Notes under Low-Resource Constraints",
+  "authors": [
+    "Rohanian, Omid  and\nJauncey, Hannah  and\nNouriborji, Mohammadmahdi  and\nKumar, Vinod  and\nGonalves, Bronner P.  and\nKartsonaki, Christiana  and\nClinical Characterisation Group, Isaric  and\nMerson, Laura  and\nClifton, David"
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "Processing information locked within clinical health records is a challenging task that remains an active area of research in biomedical NLP. In this work, we evaluate a broad set of machine learning techniques ranging from simple RNNs to specialised transformers such as BioBERT on a dataset containing clinical notes along with a set of annotations indicating whether a sample is cancer-related or not. Furthermore, we specifically employ efficient fine-tuning methods from NLP, namely, bottleneck adapters and prompt tuning, to adapt the models to our specialised task. Our evaluations suggest that fine-tuning a frozen BERT model pre-trained on natural language and with bottleneck adapters outperforms all other strategies, including full fine-tuning of the specialised BioBERT model. Based on our findings, we suggest that using bottleneck adapters in low-resource situations with limited access to labelled data or processing capacity could be a viable strategy in biomedical text mining.",
+  "keywords": [
+    "transformers",
+    "efficient",
+    "efficient fine-tuning methods",
+    "rnns",
+    "the specialised biobert model",
+    "we",
+    "biobert",
+    "full fine-tuning",
+    "simple rnns",
+    "biomedical nlp",
+    "natural",
+    "information",
+    "natural language",
+    "tuning",
+    "processing"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.5/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

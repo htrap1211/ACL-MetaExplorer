@@ -1,0 +1,33 @@
+{
+  "id": "W19-3204",
+  "title": "M}ed{N}orm: A Corpus and Embeddings for Cross-terminology Medical Concept Normalisation",
+  "authors": [
+    "Belousov, Maksim  and\nDixon, William G.  and\nNenadic, Goran"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Social Media Mining for Health Applications ({\\#}SMM4H) Workshop {\\&} Shared Task",
+  "abstract": "The medical concept normalisation task aims to map textual descriptions to standard terminologies such as SNOMED-CT or MedDRA. Existing publicly available datasets annotated using different terminologies cannot be simply merged and utilised, and therefore become less valuable when developing machine learning-based concept normalisation systems. To address that, we designed a data harmonisation pipeline and engineered a corpus of 27,979 textual descriptions simultaneously mapped to both MedDRA and SNOMED-CT, sourced from five publicly available datasets across biomedical and social media domains. The pipeline can be used in the future to integrate new datasets into the corpus and also could be applied in relevant data curation tasks. We also described a method to merge different terminologies into a single concept graph preserving their relations and demonstrated that representation learning approach based on random walks on a graph can efficiently encode both hierarchical and equivalent relations and capture semantic similarities not only between concepts inside a given terminology but also between concepts from different terminologies. We believe that making a corpus and embeddings for cross-terminology medical concept normalisation available to the research community would contribute to a better understanding of the task.",
+  "keywords": [
+    "semantic similarities",
+    "semantic",
+    "we",
+    "terminologies",
+    "standard terminologies",
+    "graph",
+    "cross",
+    "ct",
+    "learning",
+    "ed",
+    "different terminologies",
+    "embeddings",
+    "hierarchical",
+    "similarities",
+    "random"
+  ],
+  "url": "https://aclanthology.org/W19-3204/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:25:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

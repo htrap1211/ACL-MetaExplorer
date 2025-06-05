@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.102",
+  "title": "PAI} at {S}em{E}val-2023 Task 2: A Universal System for Named Entity Recognition with External Entity Information",
+  "authors": [
+    "Ma, Long  and\nLu, Kai  and\nChe, Tianbo  and\nHuang, Hailong  and\nGao, Weiguo  and\nLi, Xuan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "The MultiCoNER II task aims to detect complex, ambiguous, and fine-grained named entities in low-context situations and noisy scenarios like the presence of spelling mistakes and typos for multiple languages. The task poses significant challenges due to the scarcity of contextual information, the high granularity of the entities(up to 33 classes), and the interference of noisy data. To address these issues, our team PAI proposes a universal Named Entity Recognition (NER) system that integrates external entity information to improve performance. Specifically, our system retrieves entities with properties from the knowledge base (i.e. Wikipedia) for a given text, then concatenates entity information with the input sentence and feeds it into Transformer-based models. Finally, our system wins 2 first places, 4 second places, and 1 third place out of 13 tracks. The code is publicly available athttps://github.com/diqiuzhuanzhuan/semeval-2023.",
+  "keywords": [
+    "code",
+    "multiconer",
+    "the entities",
+    "it",
+    "properties",
+    "information",
+    "ner",
+    "named entity recognition",
+    "text",
+    "transformer-based models",
+    "transformer",
+    "knowledge",
+    "entities",
+    "the multiconer ii task",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.102/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:28:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

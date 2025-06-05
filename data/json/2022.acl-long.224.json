@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.224",
+  "title": "Achieving Conversational Goals with Unsupervised Post-hoc Knowledge Injection",
+  "authors": [
+    "Majumder, Bodhisattwa Prasad  and\nJhamtani, Harsh  and\nBerg-Kirkpatrick, Taylor  and\nMcAuley, Julian"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "A limitation of current neural dialog models is that they tend to suffer from a lack of specificity and informativeness in generated responses, primarily due to dependence on training data that covers a limited variety of scenarios and conveys limited knowledge. One way to alleviate this issue is to extract relevant knowledge from external sources at decoding time and incorporate it into the dialog response. In this paper, we propose a post-hoc knowledge-injection technique where we first retrieve a diverse set of relevant knowledge snippets conditioned on both the dialog history and an initial response from an existing dialog model. We construct multiple candidate responses, individually injecting each retrieved snippet into the initial response using a gradient-based decoding method, and then select the final response with an unsupervised ranking step. Our experiments in goal-oriented and knowledge-grounded dialog settings demonstrate that human annotators judge the outputs from the proposed method to be more engaging and informative compared to responses from prior dialog systems. We further show that knowledge-augmentation promotes success in achieving conversational goals in both experimental settings.",
+  "keywords": [
+    "generated responses",
+    "variety",
+    "each retrieved snippet",
+    "we",
+    "current",
+    "a limited variety",
+    "training",
+    "neural",
+    "it",
+    "conversational goals",
+    "a gradient-based decoding method",
+    "knowledge",
+    "model",
+    "human",
+    "dialog"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.224/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:27:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

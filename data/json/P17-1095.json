@@ -1,0 +1,33 @@
+{
+  "id": "P17-1095",
+  "title": "B}ayesian Modeling of Lexical Resources for Low-Resource Settings",
+  "authors": [
+    "Andrews, Nicholas  and\nDredze, Mark  and\nVan Durme, Benjamin  and\nEisner, Jason"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Lexical resources such as dictionaries and gazetteers are often used as auxiliary data for tasks such as part-of-speech induction and named-entity recognition. However, discriminative training with lexical features requires annotated data to reliably estimate the lexical feature weights and may result in overfitting the lexical features at the expense of features which generalize better. In this paper, we investigate a more robust approach: we stipulate that the lexicon is the result of an assumed generative process. Practically, this means that we may treat the lexical resources as observations under the proposed generative model. The lexical resources provide training data for the generative model without requiring separate data to estimate lexical feature weights. We evaluate the proposed approach in two settings: part-of-speech induction and low-resource named-entity recognition.",
+  "keywords": [
+    "generative",
+    "process",
+    "dictionaries",
+    "model",
+    "modeling",
+    "an assumed generative process",
+    "we",
+    "entity",
+    "the proposed generative model",
+    "training",
+    "the generative model",
+    "speech",
+    "named-entity recognition",
+    "recognition",
+    "induction"
+  ],
+  "url": "https://aclanthology.org/P17-1095/",
+  "provenance": {
+    "collected_at": "2025-06-04 23:59:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

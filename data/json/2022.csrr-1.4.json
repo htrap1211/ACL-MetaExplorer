@@ -1,0 +1,33 @@
+{
+  "id": "2022.csrr-1.4",
+  "title": "Bridging the Gap between Recognition-level Pre-training and Commonsensical Vision-language Tasks",
+  "authors": [
+    "Wan, Yue  and\nMa, Yueen  and\nYou, Haoxuan  and\nWang, Zhecan  and\nChang, Shih-Fu"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the First Workshop on Commonsense Representation and Reasoning (CSRR 2022)",
+  "abstract": "Large-scale visual-linguistic pre-training aims to capture the generic representations from multimodal features, which are essential for downstream vision-language tasks. Existing methods mostly focus on learning the semantic connections between visual objects and linguistic content, which tend to be recognitionlevel information and may not be sufficient for commonsensical reasoning tasks like VCR. In this paper, we propose a novel commonsensical vision-language pre-training framework to bridge the gap. We first augment the conventional image-caption pre-training datasets with commonsense inferences from a visuallinguistic GPT-2. To pre-train models on image, caption and commonsense inferences together, we propose two new tasks: masked commonsense modeling (MCM) and commonsense type prediction (CTP). To reduce the shortcut effect between captions and commonsense inferences, we further introduce the domain-wise adaptive masking that dynamically adjusts the masking ratio. Experimental results on downstream tasks, VCR and VQA, show the improvement of our pre-training strategy over previous methods. Human evaluation also validates the relevance, informativeness, and diversity of the generated commonsense inferences. Overall, we demonstrate the potential of incorporating commonsense knowledge into the conventional recognition-level visual-linguistic pre-training.",
+  "keywords": [
+    "semantic",
+    "we",
+    "training",
+    "human evaluation",
+    "pre-",
+    "information",
+    "sufficient",
+    "visual",
+    "gpt-2",
+    "the generated commonsense inferences",
+    "generic",
+    "the semantic connections",
+    "ratio",
+    "large-scale visual-linguistic pre-training aims",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2022.csrr-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:40:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

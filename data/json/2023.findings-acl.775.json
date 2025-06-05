@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.775",
+  "title": "U}ni{COQE}: Unified Comparative Opinion Quintuple Extraction As A Set",
+  "authors": [
+    "Yang, Zinong  and\nXu, Feng  and\nYu, Jianfei  and\nXia, Rui"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Comparative Opinion Quintuple Extraction (COQE) aims to identify comparative opinion sentences in product reviews, extract comparative opinion elements in the sentences, and then incorporate them into quintuples. Existing methods decompose the COQE task into multiple primary subtasks and then solve them in a pipeline manner. However, these approaches ignore the intrinsic connection between subtasks and the error propagation among stages. This paper proposes a unified generative model, UniCOQE, to solve the COQE task in one shot. We design a generative template where all the comparative tuples are concatenated as the target output sequence. However, the multiple tuples are inherently not an ordered sequence but an unordered set. The pre-defined order will force the generative model to learn a false order bias and hinge the model’s training. To alleviate this bias, we introduce a new “predict-and-assign” training paradigm that models the golden tuples as a set. Specifically, we utilize a set-matching strategy to find the optimal order of tuples. The experimental results on multiple benchmarks show that our unified generative model significantly outperforms the SOTA method, and ablation experiments prove the effectiveness of the set-matching strategy.",
+  "keywords": [
+    "bias",
+    "extraction",
+    "a pipeline manner",
+    "we",
+    "shot",
+    "training",
+    "unified",
+    "sequence",
+    "product reviews",
+    "reviews",
+    "manner",
+    "generative",
+    "our unified generative model",
+    "model",
+    "a generative template"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.775/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

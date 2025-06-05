@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.710",
+  "title": "Effects of diversity incentives on sample diversity and downstream model performance in {LLM}-based text augmentation",
+  "authors": [
+    "Cegin, Jan  and\nPecher, Branislav  and\nSimko, Jakub  and\nSrba, Ivan  and\nBielikova, Maria  and\nBrusilovsky, Peter"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The latest generative large language models (LLMs) have found their application in data augmentation tasks, where small numbers of text samples are LLM-paraphrased and then used to fine-tune downstream models. However, more research is needed to assess how different prompts, seed data selection strategies, filtering methods, or model settings affect the quality of paraphrased data (and downstream models). In this study, we investigate three text diversity incentive methods well established in crowdsourcing: taboo words, hints by previous outlier solutions, and chaining on previous outlier solutions. Using these incentive methods as part of instructions to LLMs augmenting text datasets, we measure their effects on generated texts’ lexical diversity and downstream model performance. We compare the effects over 5 different LLMs, 6 datasets and 2 downstream models. We show that diversity is most increased by taboo words, but downstream model performance is highest with hints.",
+  "keywords": [
+    "generative",
+    "previous outlier solutions",
+    "prompts",
+    "over 5 different llms",
+    "generated texts lexical diversity",
+    "language",
+    "model",
+    "text",
+    "outlier",
+    "strategies",
+    "llm -based text augmentation",
+    "fine",
+    "we",
+    "llms",
+    "sample"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.710/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:44:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.190",
+  "title": "Auxiliary tasks to boost Biaffine Semantic Dependency Parsing",
+  "authors": [
+    "Candito, Marie"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "The biaffine parser of (CITATION) was successfully extended to semantic dependency parsing (SDP) (CITATION). Its performance on graphs is surprisingly high given that, without the constraint of producing a tree, all arcs for a given sentence are predicted independently from each other (modulo a shared representation of tokens).To circumvent such an independence of decision, while retaining theO(n2)complexity and highly parallelizable architecture, we propose to use simple auxiliary tasks that introduce some form of interdependence between arcs. Experiments on the three English acyclic datasets of SemEval-2015 task 18 (CITATION), and on French deep syntactic cyclic graphs (CITATION) show modest but systematic performance gains on a near-state-of-the-art baseline using transformer-based contextualized representations. This provides a simple and robust method to boost SDP performance.",
+  "keywords": [
+    "deep",
+    "transformer",
+    "biaffine semantic dependency",
+    "transformer-based contextualized representations",
+    "form",
+    "dependency",
+    "semantic",
+    "we",
+    "that",
+    "modulo",
+    "its performance",
+    "arcs",
+    "this",
+    "state",
+    "some form"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.190/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

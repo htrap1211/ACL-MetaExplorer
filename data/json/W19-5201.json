@@ -1,0 +1,33 @@
+{
+  "id": "W19-5201",
+  "title": "Saliency-driven Word Alignment Interpretation for Neural Machine Translation",
+  "authors": [
+    "Ding, Shuoyang  and\nXu, Hainan  and\nKoehn, Philipp"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 1: Research Papers)",
+  "abstract": "Despite their original goal to jointly learn to align and translate, Neural Machine Translation (NMT) models, especially Transformer, are often perceived as not learning interpretable word alignments. In this paper, we show that NMT models do learn interpretable word alignments, which could only be revealed with proper interpretation methods. We propose a series of such methods that are model-agnostic, are able to be applied either offline or online, and do not require parameter update or architectural change. We show that under the force decoding setup, the alignments induced by our interpretation method are of better quality than fast-align for some systems, and when performing free decoding, they agree well with the alignments induced by automatic alignment tools.",
+  "keywords": [
+    "alignment",
+    "transformer",
+    "a series",
+    "interpretable word alignments",
+    "align",
+    "alignments",
+    "saliency-driven word alignment interpretation",
+    "neural",
+    "model",
+    "machine",
+    "neural machine translation",
+    "saliency",
+    "series",
+    "automatic alignment tools",
+    "especially transformer"
+  ],
+  "url": "https://aclanthology.org/W19-5201/",
+  "provenance": {
+    "collected_at": "2025-06-05 01:38:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

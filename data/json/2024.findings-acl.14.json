@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.14",
+  "title": "M}edi{S}wift: Efficient Sparse Pre-trained Biomedical Language Models",
+  "authors": [
+    "Thangarasa, Vithursan  and\nSalem, Mahmoud  and\nSaxena, Shreyas  and\nLeong, Chen-Yu  and\nHestness, Joel  and\nLie, Sean"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large language models (LLMs) are typically trained on general source data forvarious domains, but a recent surge in domain-specific LLMs has shown theirpotential to outperform general-purpose models in domain-specific tasks (e.g.,biomedicine). Although domain-specific pre-training enhances efficiency andleads to smaller models, the computational costs of training these LLMs remainhigh, posing budgeting challenges. We introduce MediSwift, a suite of biomedicalLMs that leverage sparse pre-training on domain-specific biomedical text data.By inducing up to 75% weight sparsity during the pre-training phase, MediSwiftachieves a 2-2.5x reduction in training FLOPs. Notably, all sparse pre-trainingwas performed on the Cerebras CS-2 system, which is specifically designed torealize the acceleration benefits from unstructured weight sparsity, therebysignificantly enhancing the efficiency of the MediSwift models. Throughsubsequent dense fine-tuning and strategic soft prompting, MediSwift modelsoutperform existing LLMs up to 7B parameters on biomedical tasks, setting newbenchmarks w.r.t efficiency-accuracy on tasks such as PubMedQA. Our results showthat sparse pre-training, along with dense fine-tuning and soft prompting,offers an effective method for creating high-performing, computationallyefficient models in specialized domains.",
+  "keywords": [
+    "efficient",
+    "efficiency",
+    "we",
+    "training",
+    "general-purpose models",
+    "high-performing computationallyefficient models",
+    "the efficiency",
+    "biomedicallms",
+    "the pre-training phase",
+    "reduction",
+    "llms",
+    "tuning",
+    "text",
+    "large language models llms",
+    "fine"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.14/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:48:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

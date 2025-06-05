@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.808",
+  "title": "Tree-Averaging Algorithms for Ensemble-Based Unsupervised Discontinuous Constituency Parsing",
+  "authors": [
+    "Shayegh, Behzad  and\nWen, Yuqiao  and\nMou, Lili"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We address unsupervised discontinuous constituency parsing, where we observe a high variance in the performance of the only previous model in the literature. We propose to build an ensemble of different runs of the existing discontinuous parser by averaging the predicted trees, to stabilize and boost performance. To begin with, we provide comprehensive computational complexity analysis (in terms of P and NP-complete) for tree averaging under different setups of binarity and continuity. We then develop an efficient exact algorithm to tackle the task, which runs in a reasonable time for all samples in our experiments. Results on three datasets show our method outperforms all baselines in all metrics; we also provide in-depth analyses of our approach.",
+  "keywords": [
+    "ensemble",
+    "p",
+    "an efficient exact algorithm",
+    "model",
+    "efficient",
+    "metrics",
+    "-",
+    "a high variance",
+    "we",
+    "time",
+    "an ensemble",
+    "variance",
+    "analysis",
+    "all metrics",
+    "tree-averaging algorithms"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.808/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:45:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

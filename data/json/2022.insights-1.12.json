@@ -1,0 +1,33 @@
+{
+  "id": "2022.insights-1.12",
+  "title": "On the Impact of Data Augmentation on Downstream Performance in Natural Language Processing",
+  "authors": [
+    "Okimura, Itsuki  and\nReid, Machel  and\nKawano, Makoto  and\nMatsuo, Yutaka"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Third Workshop on Insights from Negative Results in NLP",
+  "abstract": "With in the broader scope of machine learning, data augmentation is a common strategy to improve generalization and robustness of machine learning models. While data augmentation has been widely used within computer vision, its use in the NLP has been been comparably rather limited. The reason for this is that within NLP, the impact of proposed data augmentation methods on performance has not been evaluated in a unified manner, and effective data augmentation methods are unclear. In this paper, we look to tackle this by evaluating the impact of 12 data augmentation methods on multiple datasets when finetuning pre-trained language models. We find minimal improvements when data sizes are constrained to a few thousand, with performance degradation when data size is increased. We also use various methods to quantify the strength of data augmentations, and find that these values, though weakly correlated with downstream performance, correlate negatively or positively depending on the task. Furthermore, we find a glaring lack of consistently performant data augmentations. This all alludes to the difficulty of data augmentations for NLP tasks and we are inclined to believe that static data augmentations are not broadly applicable given these properties.",
+  "keywords": [
+    "all",
+    "we",
+    "these properties",
+    "pre-trained language models",
+    "natural",
+    "machine learning models",
+    "unified",
+    "properties",
+    "learning",
+    "natural language processing",
+    "nlp tasks",
+    "manner",
+    "the nlp",
+    "processing",
+    "a unified manner"
+  ],
+  "url": "https://aclanthology.org/2022.insights-1.12/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

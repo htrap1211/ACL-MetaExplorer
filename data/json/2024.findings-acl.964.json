@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.964",
+  "title": "V}illager{A}gent: A Graph-Based Multi-Agent Framework for Coordinating Complex Task Dependencies in {M}inecraft",
+  "authors": [
+    "Dong, Yubo  and\nZhu, Xukun  and\nPan, Zhengzhe  and\nZhu, Linchao  and\nYang, Yi"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "In this paper, we aim to evaluate multi-agent systems against complex dependencies, including spatial, causal, and temporal constraints. First, we construct a new benchmark, named VillagerBench, within the Minecraft environment. VillagerBench comprises diverse tasks crafted to test various aspects of multi-agent collaboration, from workload distribution to dynamic adaptation and synchronized task execution. Second, we introduce a Directed Acyclic Graph Multi-Agent Framework (VillagerAgent) to resolve complex inter-agent dependencies and enhance collaborative efficiency. This solution incorporates a task decomposer that creates a directed acyclic graph (DAG) for structured task management, an agent controller for task distribution, and a state manager for tracking environmental and agent data.Our empirical evaluation on VillagerBench demonstrates that VillagerAgentoutperforms the existing AgentVerse model, reducing hallucinations and improving task decomposition efficacy. The results underscore VillagerAgent’s potential in advancing multi-agent collaboration, offering a scalable and generalizable solution in dynamic environments. Source code is open-source on GitHub.",
+  "keywords": [
+    "code",
+    "complex task dependencies",
+    "generalizable",
+    "efficiency",
+    "we",
+    "graph",
+    "complex dependencies",
+    "dependencies",
+    "complex inter-agent dependencies",
+    "m",
+    "collaborative efficiency",
+    "our empirical evaluation",
+    "model",
+    "evaluation",
+    "multi"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.964/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

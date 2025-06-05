@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.300",
+  "title": "NICE}: To Optimize In-Context Examples or Not?",
+  "authors": [
+    "Srivastava, Pragya  and\nGolechha, Satvik  and\nDeshpande, Amit  and\nSharma, Amit"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Recent work shows that in-context learning and optimization of in-context examples (ICE) can significantly improve the accuracy of large language models (LLMs) on a wide range of tasks, leading to an apparent consensus that ICE optimization is crucial for better performance. However, most of these studies assume a fixed or no instruction provided in the prompt. We challenge this consensus by investigating the necessity of optimizing ICE when task-specific instructions are provided and find that there are many tasks for which it yields diminishing returns. In particular, using a diverse set of tasks and a systematically created instruction set with gradually added details, we find that as the prompt instruction becomes more detailed, the returns on ICE optimization diminish. To characterize this behavior, we introduce a task-specific metric called Normalized Invariability to Choice of Examples (NICE) that quantifies the learnability of tasks from a given instruction, and provides a heuristic to help decide whether to optimize instructions or ICE for a new task. Given a task, the proposed metric can reliably predict the utility of optimizing ICE compared to using random ICE. Our code is available at [https://github.com/microsoft/nice-icl](https://github.com/microsoft/nice-icl).",
+  "keywords": [
+    "code",
+    "the accuracy",
+    "these studies",
+    "ice optimization",
+    "we",
+    "instruction",
+    "it",
+    "learning",
+    "the prompt instruction",
+    "prompt",
+    "metric",
+    "accuracy",
+    "work",
+    "language",
+    "random"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.300/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

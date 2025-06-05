@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.562",
+  "title": "Beyond Noise: Mitigating the Impact of Fine-grained Semantic Divergences on Neural Machine Translation",
+  "authors": [
+    "Briakou, Eleftheria  and\nCarpuat, Marine"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "While it has been shown that Neural Machine Translation (NMT) is highly sensitive to noisy parallel training samples, prior work treats all types of mismatches between source and target as noise. As a result, it remains unclear how samples that are mostly equivalent but contain a small number of semantically divergent tokens impact NMT training. To close this gap, we analyze the impact of different types of fine-grained semantic divergences on Transformer models. We show that models trained on synthetic divergences output degenerated text more frequently and are less confident in their predictions. Based on these findings, we introduce a divergent-aware NMT framework that uses factors to help NMT recover from the degradation caused by naturally occurring divergences, improving both translation quality and model calibration on EN-FR tasks.",
+  "keywords": [
+    "work",
+    "transformer",
+    "both translation quality",
+    "transformer models",
+    "neural",
+    "model",
+    "machine",
+    "text",
+    "it",
+    "neural machine translation",
+    "semantically divergent tokens",
+    "semantic",
+    "we",
+    "fine-grained semantic divergences",
+    "neural machine translation nmt"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.562/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

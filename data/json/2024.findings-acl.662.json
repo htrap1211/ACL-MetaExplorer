@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.662",
+  "title": "Distillation Enhanced Generative Retrieval",
+  "authors": [
+    "Li, Yongqi  and\nZhang, Zhen  and\nWang, Wenjie  and\nNie, Liqiang  and\nLi, Wenjie  and\nChua, Tat-Seng"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Generative retrieval is a promising new paradigm in text retrieval that generates identifier strings of relevant passages as the retrieval target. This paradigm leverages powerful generative language models, distinct from traditional sparse or dense retrieval methods. In this work, we identify a viable direction to further enhance generative retrieval via distillation and propose a feasible framework, named DGR. DGR utilizes sophisticated ranking models, such as the cross-encoder, in a teacher role to supply a passage rank list, which captures the varying relevance degrees of passages instead of binary hard labels; subsequently, DGR employs a specially designed distilled RankNet loss to optimize the generative retrieval model, considering the passage rank order provided by the teacher model as labels. This framework only requires an additional distillation step to enhance current generative retrieval systems and does not add any burden to the inference stage. We conduct experiments on four public datasets, and the results indicate that DGR achieves state-of-the-art performance among the generative retrieval methods. Additionally, DGR demonstrates exceptional robustness and generalizability with various teacher models and distillation losses.",
+  "keywords": [
+    "powerful generative language models",
+    "we",
+    "generalizability",
+    "current",
+    "cross",
+    "retrieval",
+    "loss",
+    "identifier strings",
+    "generative",
+    "current generative retrieval systems",
+    "text retrieval",
+    "dense retrieval methods",
+    "text",
+    "-",
+    "identifier"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.662/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

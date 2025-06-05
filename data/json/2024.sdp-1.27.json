@@ -1,0 +1,33 @@
+{
+  "id": "2024.sdp-1.27",
+  "title": "C}o{SAE}mb: Contrastive Section-aware Aspect Embeddings for Scientific Articles",
+  "authors": [
+    "Singh, Shruti  and\nSingh, Mayank"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024)",
+  "abstract": "Research papers are long documents that contain information about various aspects such as background, prior work, methodology, and results. Existing works on scientific document representation learning only leverage the title and abstract of the paper. We present CoSAEmb, a model that learns representations from the full text of 97402 scientific papers from the S2ORC dataset. We present a novel supervised contrastive training framework for long documents using triplet loss and margin gradation. Our framework can be used to learn representations of long documents with any existing encoder-only transformer model without retraining it from scratch. CoSAEmb shows improved performance on information retrieval from the paper’s full text in comparison to models trained only on paper titles and abstracts. We also evaluate CoSAEmb on SciRepEval and CSFCube benchmarks, showing comparable performance with existing state-of-the-art models.",
+  "keywords": [
+    "scientific document representation",
+    "scientific articles research papers",
+    "background prior work methodology",
+    "we",
+    "training",
+    "it",
+    "loss",
+    "retrieval",
+    "information",
+    "scientific",
+    "background",
+    "text",
+    "information retrieval",
+    "embeddings",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2024.sdp-1.27/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

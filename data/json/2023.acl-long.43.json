@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.43",
+  "title": "CLCL}: Non-compositional Expression Detection with Contrastive Learning and Curriculum Learning",
+  "authors": [
+    "Zhou, Jianing  and\nZeng, Ziheng  and\nBhat, Suma"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Non-compositional expressions present a substantial challenge for natural language processing (NLP) systems, necessitating more intricate processing compared to general language tasks, even with large pre-trained language models. Their non-compositional nature and limited availability of data resources further compound the difficulties in accurately learning their representations. This paper addresses both of these challenges. By leveraging contrastive learning techniques to build improved representations it tackles the non-compositionality challenge. Additionally, we propose a dynamic curriculum learning framework specifically designed to take advantage of the scarce available data for modeling non-compositionality. Our framework employs an easy-to-hard learning strategy, progressively optimizing the model’s performance by effectively utilizing available training data. Moreover, we integrate contrastive learning into the curriculum learning approach to maximize its benefits. Experimental results demonstrate the gradual improvement in the model’s performance on idiom usage recognition and metaphor detection tasks. Our evaluation encompasses six datasets, consistently affirming the effectiveness of the proposed framework. Our models available athttps://github.com/zhjjn/CLCL.git.",
+  "keywords": [
+    "we",
+    "general language tasks",
+    "the difficulties",
+    "training",
+    "large pre-trained language models",
+    "natural",
+    "it",
+    "learning",
+    "difficulties",
+    "processing",
+    "-",
+    "our evaluation",
+    "general",
+    "language",
+    "nlp"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.43/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:35:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

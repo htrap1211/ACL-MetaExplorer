@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.416",
+  "title": "Label Augmentation for Zero-Shot Hierarchical Text Classification",
+  "authors": [
+    "Paletto, Lorenzo  and\nBasile, Valerio  and\nEsposito, Roberto"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Hierarchical Text Classification poses the difficult challenge of classifying documents into multiple labels organized in a hierarchy. The vast majority of works aimed to address this problem relies on supervised methods which are difficult to implement due to the scarcity of labeled data in many real world applications. This paper focuses on strict Zero-Shot Classification, the setting in which the system lacks both labeled instances and training data.We propose a novel approach that uses a Large Language Model to augment the deepest layer of the labels hierarchy in order to enhance its specificity. We achieve this by generating semantically relevant labels as children connected to the existing branches, creating a deeper taxonomy that better overlaps with the input texts. We leverage the enriched hierarchy to perform Zero-Shot Hierarchical Classification by using the Upward score Propagation technique. We test our method on four public datasets, obtaining new state-of-the art results on three of them. We introduce two cosine similarity-based metrics to quantify the density and granularity of a label taxonomy and we show a strong correlation between the metric values and the classification performance of our method on the datasets.",
+  "keywords": [
+    "layer",
+    "we",
+    "zero-shot hierarchical classification",
+    "shot",
+    "training",
+    "classification",
+    "two cosine similarity-based metrics",
+    "the enriched hierarchy",
+    "metric",
+    "text",
+    "strict zero-shot classification",
+    "the classification performance",
+    "metrics",
+    "a large language model",
+    "hierarchy"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.416/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:40:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

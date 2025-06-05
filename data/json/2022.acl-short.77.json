@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.77",
+  "title": "Adjusting the Precision-Recall Trade-Off with Align-and-Predict Decoding for Grammatical Error Correction",
+  "authors": [
+    "Sun, Xin  and\nWang, Houfeng"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Modern writing assistance applications are always equipped with a Grammatical Error Correction (GEC) model to correct errors in user-entered sentences. Different scenarios have varying requirements for correction behavior, e.g., performing more precise corrections (high precision) or providing more candidates for users (high recall). However, previous works adjust such trade-off only for sequence labeling approaches. In this paper, we propose a simple yet effective counterpart – Align-and-Predict Decoding (APD) for the most popular sequence-to-sequence models to offer more flexibility for the precision-recall trade-off. During inference, APD aligns the already generated sequence with input and adjusts scores of the following tokens. Experiments in both English and Chinese GEC benchmarks show that our approach not only adapts a single model to precision-oriented and recall-oriented inference, but also maximizes its potential to achieve state-of-the-art results. Our code is available athttps://github.com/AutoTemp/Align-and-Predict.",
+  "keywords": [
+    "code",
+    "precision",
+    "precision-oriented and recall-oriented inference",
+    "we",
+    "sequence",
+    "align",
+    "the precision-recall trade-off",
+    "recall",
+    "e g",
+    "model",
+    "the already generated sequence",
+    "approach",
+    "a single model",
+    "state",
+    "error"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.77/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:33:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

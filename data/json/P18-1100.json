@@ -1,0 +1,33 @@
+{
+  "id": "P18-1100",
+  "title": "TDNN}: A Two-stage Deep Neural Network for Prompt-independent Automated Essay Scoring",
+  "authors": [
+    "Jin, Cancan  and\nHe, Ben  and\nHui, Kai  and\nSun, Le"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Existing automated essay scoring (AES) models rely on rated essays for the target prompt as training data. Despite their successes in prompt-dependent AES, how to effectively predict essay ratings under a prompt-independent setting remains a challenge, where the rated essays for the target prompt are not available. To close this gap, a two-stage deep neural network (TDNN) is proposed. In particular, in the first stage, using the rated essays for non-target prompts as the training data, a shallow model is learned to select essays with an extreme quality for the target prompt, serving as pseudo training data; in the second stage, an end-to-end hybrid deep model is proposed to learn a prompt-dependent rating model consuming the pseudo training data from the first step. Evaluation of the proposed TDNN on the standard ASAP dataset demonstrates a promising improvement for the prompt-independent AES task.",
+  "keywords": [
+    "deep",
+    "prompts",
+    "end",
+    "a prompt-dependent rating model",
+    "prompt-dependent aes",
+    "neural",
+    "prompt",
+    "model",
+    "the first step evaluation",
+    "non-target prompts",
+    "a prompt-independent setting",
+    "prompt-independent automated essay",
+    "network",
+    "evaluation",
+    "the target prompt"
+  ],
+  "url": "https://aclanthology.org/P18-1100/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:11:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

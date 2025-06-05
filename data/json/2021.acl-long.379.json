@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.379",
+  "title": "R}2{D}2: Recursive Transformer based on Differentiable Tree for Interpretable Hierarchical Language Modeling",
+  "authors": [
+    "Hu, Xiang  and\nMi, Haitao  and\nWen, Zujie  and\nWang, Yafang  and\nSu, Yi  and\nZheng, Jing  and\nde Melo, Gerard"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Human language understanding operates at multiple levels of granularity (e.g., words, phrases, and sentences) with increasing levels of abstraction that can be hierarchically combined. However, existing deep models with stacked layers do not explicitly model any sort of hierarchical process. In this paper, we propose a recursive Transformer model based on differentiable CKY style binary trees to emulate this composition process, and we extend the bidirectional language model pre-training objective to this architecture, attempting to predict each word given its left and right abstraction nodes. To scale up our approach, we also introduce an efficient pruning and growing algorithm to reduce the time complexity and enable encoding in linear time. Experimental results on language modeling and unsupervised parsing show the effectiveness of our approach.",
+  "keywords": [
+    "deep",
+    "an efficient pruning",
+    "transformer",
+    "hierarchical",
+    "process",
+    "parsing",
+    "language",
+    "model",
+    "human",
+    "objective",
+    "efficient",
+    "modeling",
+    "word",
+    "we",
+    "interpretable hierarchical language"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.379/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

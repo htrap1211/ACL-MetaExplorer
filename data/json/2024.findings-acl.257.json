@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.257",
+  "title": "Multi-Objective Linguistic Control of Large Language Models",
+  "authors": [
+    "Nguyen, Dang  and\nChen, Jiuhai  and\nZhou, Tianyi"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large language models (LLMs), despite their breakthroughs on many challenging benchmark tasks, prefer to generate verbose responses and lack the controllability of output complexity, which is usually preferred by human users in practice. In this paper, we study how to precisely control multiple linguistic complexities of LLM output by finetuning using off-the-shelf data. To this end, we propose multi-control tuning (MCTune), which includes multiple linguistic complexity values of ground-truth responses as controls in the input for instruction tuning. We finetune LLaMA2-7B on Alpaca-GPT4 and WizardLM datasets. Evaluations on widely used benchmarks demonstrate that our method does not only improve LLMs’ multi-complexity controllability substantially but also retains or even enhances the quality of the responses as a side benefit.",
+  "keywords": [
+    "instruction",
+    "instruction tuning",
+    "tuning",
+    "multi-objective linguistic control",
+    "language",
+    "end",
+    "multiple linguistic complexities",
+    "objective",
+    "human",
+    "evaluations",
+    "large language models",
+    "llms multi-complexity controllability",
+    "we",
+    "complexities",
+    "llm"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.257/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:07",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.755",
+  "title": "SC}on{E}: Simplified Cone Embeddings with Symbolic Operators for Complex Logical Queries",
+  "authors": [
+    "Nguyen, Chau  and\nFrench, Tim  and\nLiu, Wei  and\nStewart, Michael"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Geometric representation of query embeddings (using points, particles, rectangles and cones) can effectively achieve the task of answering complex logical queries expressed in first-order logic (FOL) form over knowledge graphs, allowing intuitive encodings. However, current geometric-based methods depend on the neural approach to model FOL operators (conjunction, disjunction and negation), which are not easily explainable with considerable computation cost. We overcome this challenge by introducing a symbolic modeling approach for the FOL operators, emphasizing the direct calculation of the intersection between geometric shapes, particularly sector-cones in the embedding space, to model the conjunction operator. This approach reduces the computation cost as a non-neural approach is involved in the core logic operators. Moreover, we propose to accelerate the learning in the relation projection operator using the neural approach to emphasize the essential role of this operator in all query structures. Although empirical evidence for explainability is challenging, our approach demonstrates a significant improvement in answering complex logical queries (both non-negative and negative FOL forms) over previous geometric-based models.",
+  "keywords": [
+    "complex logical queries",
+    "we",
+    "current",
+    "neural",
+    "queries",
+    "knowledge graphs",
+    "learning",
+    "core",
+    "e simplified cone embeddings",
+    "embeddings",
+    "query embeddings",
+    "knowledge",
+    "the embedding space",
+    "modeling",
+    "geometric representation"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.755/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

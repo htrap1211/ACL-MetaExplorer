@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.100",
+  "title": "U}ni{TR}ec: A Unified Text-to-Text Transformer and Joint Contrastive Learning Framework for Text-based Recommendation",
+  "authors": [
+    "Mao, Zhiming  and\nWang, Huimin  and\nDu, Yiming  and\nWong, Kam-Fai"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Prior study has shown that pretrained language models (PLM) can boost the performance of text-based recommendation. In contrast to previous works that either use PLM to encode user history as a whole input text, or impose an additional aggregation network to fuse multi-turn history representations, we propose a unified local- and global-attention Transformer encoder to better model two-level contexts of user history. Moreover, conditioned on user history encoded by Transformer encoders, our framework leverages Transformer decoders to estimate the language perplexity of candidate text items, which can serve as a straightforward yet significant contrastive signal for user-item text matching. Based on this, our framework, UniTRec, unifies the contrastive objectives of discriminative matching scores and candidate text perplexity to jointly enhance text-based recommendation. Extensive evaluation shows that UniTRec delivers SOTA performance on three text-based recommendation tasks.",
+  "keywords": [
+    "ec",
+    "transformer decoders",
+    "objectives",
+    "the contrastive objectives",
+    "encode",
+    "we",
+    "unified",
+    "u",
+    "decoders",
+    "learning",
+    "candidate text perplexity",
+    "the language perplexity",
+    "text",
+    "perplexity",
+    "transformer encoders"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.100/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:49:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

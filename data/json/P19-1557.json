@@ -1,0 +1,33 @@
+{
+  "id": "P19-1557",
+  "title": "Towards Integration of Statistical Hypothesis Tests into Deep Neural Networks",
+  "authors": [
+    "Aghaebrahimian, Ahmad  and\nCieliebak, Mark"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We report our ongoing work about a new deep architecture working in tandem with a statistical test procedure for jointly training texts and their label descriptions for multi-label and multi-class classification tasks. A statistical hypothesis testing method is used to extract the most informative words for each given class. These words are used as a class description for more label-aware text classification. Intuition is to help the model to concentrate on more informative words rather than more frequent ones. The model leverages the use of label descriptions in addition to the input text to enhance text classification performance. Our method is entirely data-driven, has no dependency on other sources of information than the training data, and is adaptable to different classification problems by providing appropriate training data without major hyper-parameter tuning. We trained and tested our system on several publicly available datasets, where we managed to improve the state-of-the-art on one set with a high margin and to obtain competitive results on all other ones.",
+  "keywords": [
+    "deep",
+    "deep neural networks",
+    "we",
+    "parameter",
+    "training",
+    "classification",
+    "hyper",
+    "neural",
+    "different classification problems",
+    "information",
+    "text classification performance",
+    "tuning",
+    "text",
+    "-",
+    "work"
+  ],
+  "url": "https://aclanthology.org/P19-1557/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:44:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

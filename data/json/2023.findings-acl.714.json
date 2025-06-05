@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.714",
+  "title": "A Study on Knowledge Distillation from Weak Teacher for Scaling Up Pre-trained Language Models",
+  "authors": [
+    "Lee, Hayeon  and\nHou, Rui  and\nKim, Jongpil  and\nLiang, Davis  and\nHwang, Sung Ju  and\nMin, Alexander"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Distillation from Weak Teacher (DWT) is a method of transferring knowledge from a smaller, weaker teacher model to a larger student model to improve its performance. Previous studies have shown that DWT can be effective in the vision domain and natural language processing (NLP) pre-training stage. Specifically, DWT shows promise in practical scenarios, such as enhancing new generation or larger models using pre-trained yet older or smaller models and lacking a resource budget. However, the optimal conditions for using DWT have yet to be fully investigated in NLP pre-training. Therefore, this study examines three key factors to optimize DWT, distinct from those used in the vision domain or traditional knowledge distillation. These factors are:(i) the impact of teacher model quality on DWT effectiveness, (ii) guidelines for adjusting the weighting value for DWT loss, and (iii) the impact of parameter remapping as a student model initialization technique for DWT.",
+  "keywords": [
+    "parameter",
+    "training",
+    "pre-trained language models",
+    "natural",
+    "loss",
+    "processing",
+    "i",
+    "previous studies",
+    "-",
+    "new generation",
+    "knowledge",
+    "language",
+    "generation",
+    "nlp",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.714/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.291",
+  "title": "C}og{A}lign: Learning to Align Textual Neural Representations to Cognitive Language Processing Signals",
+  "authors": [
+    "Ren, Yuqi  and\nXiong, Deyi"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Most previous studies integrate cognitive language processing signals (e.g., eye-tracking or EEG data) into neural models of natural language processing (NLP) just by directly concatenating word embeddings with cognitive features, ignoring the gap between the two modalities (i.e., textual vs. cognitive) and noise in cognitive features. In this paper, we propose a CogAlign approach to these issues, which learns to align textual neural representations to cognitive features. In CogAlign, we use a shared encoder equipped with a modality discriminator to alternatively encode textual and cognitive inputs to capture their differences and commonalities. Additionally, a text-aware attention mechanism is proposed to detect task-related information and to avoid using noise in cognitive features. Experimental results on three NLP tasks, namely named entity recognition, sentiment analysis and relation extraction, show that CogAlign achieves significant improvements with multiple cognitive features over state-of-the-art models on public datasets. Moreover, our model is able to transfer cognitive information to other datasets that do not have any cognitive processing signals.",
+  "keywords": [
+    "extraction",
+    "a shared encoder",
+    "we",
+    "natural language processing nlp",
+    "neural",
+    "natural",
+    "information",
+    "word",
+    "learning",
+    "analysis",
+    "commonalities",
+    "processing",
+    "i",
+    "text",
+    "the two modalities"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.291/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

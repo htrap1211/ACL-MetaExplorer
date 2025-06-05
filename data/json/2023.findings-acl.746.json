@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.746",
+  "title": "RC}3: Regularized Contrastive Cross-lingual Cross-modal Pre-training",
+  "authors": [
+    "Zhou, Chulun  and\nLiang, Yunlong  and\nMeng, Fandong  and\nXu, Jinan  and\nSu, Jinsong  and\nZhou, Jie"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Multilingual vision-language (V&L) pre-training has achieved remarkable progress in learning universal representations across different modalities and languages. In spite of recent success, there still remain challenges limiting further improvements of V&L pre-trained models in multilingual settings. Particularly, current V&L pre-training methods rely heavily on strictly-aligned multilingual image-text pairs generated from English-centric datasets through machine translation. However, the cost of collecting and translating such strictly-aligned datasets is usually unbearable. In this paper, we propose Regularized Contrastive Cross-lingual Cross-modal (RC3) pre-training, which further exploits more abundant weakly-aligned multilingual image-text pairs. Specifically, we design a regularized cross-lingual visio-textual contrastive learning objective that constrains the representation proximity of weakly-aligned visio-textual inputs according to textual relevance. Besides, existing V&L pre-training approaches mainly deal with visual inputs by either region-of-interest (ROI) features or patch embeddings. We flexibly integrate the two forms of visual features into our model for pre-training and downstream multi-modal tasks. Extensive experiments on 5 downstream multi-modal tasks across 6 languages demonstrate the effectiveness of our proposed method over competitive contrast models with strong zero-shot capability.",
+  "keywords": [
+    "patch embeddings",
+    "v l pre-training approaches",
+    "machine translation",
+    "we",
+    "current",
+    "shot",
+    "training",
+    "translation",
+    "cross",
+    "learning",
+    "visual",
+    "different modalities",
+    "v l pre-training methods",
+    "text",
+    "objective"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.746/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:18:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

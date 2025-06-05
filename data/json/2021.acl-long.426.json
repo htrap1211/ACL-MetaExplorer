@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.426",
+  "title": "Defense against Synonym Substitution-based Adversarial Attacks via {D}irichlet Neighborhood Ensemble",
+  "authors": [
+    "Zhou, Yi  and\nZheng, Xiaoqing  and\nHsieh, Cho-Jui  and\nChang, Kai-Wei  and\nHuang, Xuanjing"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Although deep neural networks have achieved prominent performance on many NLP tasks, they are vulnerable to adversarial examples. We propose Dirichlet Neighborhood Ensemble (DNE), a randomized method for training a robust model to defense synonym substitution-based attacks. During training, DNE forms virtual sentences by sampling embedding vectors for each word in an input sentence from a convex hull spanned by the word and its synonyms, and it augments them with the training data. In such a way, the model is robust to adversarial attacks while maintaining the performance on the original clean data. DNE is agnostic to the network architectures and scales to large models (e.g., BERT) for NLP applications. Through extensive experimentation, we demonstrate that our method consistently outperforms recently proposed defense methods by a significant margin across different network architectures and multiple data sets.",
+  "keywords": [
+    "deep",
+    "e g bert",
+    "deep neural networks",
+    "d irichlet neighborhood ensemble",
+    "we",
+    "training",
+    "ensemble",
+    "neural",
+    "it",
+    "many nlp tasks",
+    "irichlet",
+    "word",
+    "vulnerable",
+    "nlp applications",
+    "embedding vectors"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.426/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

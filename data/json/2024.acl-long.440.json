@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.440",
+  "title": "Efficient {OCR} for Building a Diverse Digital History",
+  "authors": [
+    "Carlson, Jacob  and\nBryan, Tom  and\nDell, Melissa"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Many users consult digital archives daily, but the information they can access is unrepresentative of the diversity of documentary history. The sequence-to-sequence architecture typically used for optical character recognition (OCR) – which jointly learns a vision and language model – is poorly extensible to low-resource document collections, as learning a language-vision model requires extensive labeled sequences and compute. This study models OCR as a character level image retrieval problem, using a contrastively trained vision encoder. Because the model only learns characters’ visual features, it is more sample efficient and extensible than existing architectures, enabling accurate OCR in settings where existing solutions fail. Crucially, it opens new avenues for community engagement in making digital history more representative of documentary history.",
+  "keywords": [
+    "language",
+    "model",
+    "it",
+    "efficient",
+    "efficient ocr",
+    "encoder",
+    "retrieval",
+    "information",
+    "sequence",
+    "visual",
+    "sample",
+    "recognition",
+    "documentary history",
+    "a diverse digital history",
+    "characters"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.440/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:40:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

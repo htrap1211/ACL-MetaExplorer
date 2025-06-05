@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.261",
+  "title": "DH}-{FBK} at {S}em{E}val-2023 Task 10: Multi-Task Learning with Classifier Ensemble Agreement for Sexism Detection",
+  "authors": [
+    "Leonardelli, Elisa  and\nCasula, Camilla"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper presents the submissions of the DH-FBK team for the three tasks of Task 10 at SemEval 2023. The Explainable Detection of Online Sexism (EDOS) task aims at detecting sexism in English text in an accurate and explainable way, thanks to a fine-grained annotation that follows a three-level schema: sexist or not (Task A), category of sexism (Task B) and vector of sexism (Task C) exhibited. We use a multi-task learning approach in which models share representations from all three tasks, allowing for knowledge to be shared across them. Notably, with our approach a single model can solve all three tasks. In addition, motivated by the subjective nature of the task, we incorporate inter-annotator agreement information in our multi-task architecture. Although disaggregated annotations are not available, we artificially estimate them using a 5-classifier ensemble, and show that ensemble agreement can be a good approximation of crowd agreement. Our approach achieves competitive results, ranking 32nd out of 84, 24th out of 69 and 11th out of 63 for Tasks A, B and C respectively. We finally show that low inter-annotator agreement levels are associated with more challenging examples for models, making agreement information use ful for this kind of task.",
+  "keywords": [
+    "classifier",
+    "we",
+    "ensemble",
+    "c",
+    "information",
+    "learning",
+    "classifier ensemble agreement",
+    "vector",
+    "text",
+    "a 5-classifier ensemble",
+    "ensemble agreement",
+    "knowledge",
+    "model",
+    "multi",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.261/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:30:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

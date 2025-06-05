@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.538",
+  "title": "Learning to Rank Utterances for Query-Focused Meeting Summarization",
+  "authors": [
+    "Liu, Xingxian  and\nXu, Yajing"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Query-focused meeting summarization(QFMS) aims to generate a specific summary for the given query according to the meeting transcripts. Due to the conflict between long meetings and limited input size, previous works mainly adopt extract-then-summarize methods, which use extractors to simulate binary labels or ROUGE scores to extract utterances related to the query and then generate a summary. However, the previous approach fails to fully use the comparison between utterances. To the extractor, comparison orders are more important than specific scores. In this paper, we propose a Ranker-Generator framework. It learns to rank the utterances by comparing them in pairs and learning from the global orders, then uses top utterances as the generator’s input. We show that learning to rank utterances helps to select utterances related to the query effectively, and the summarizer can benefit from it. Experimental results on QMSum show that the proposed model outperforms all existing multi-stage models with fewer parameters.",
+  "keywords": [
+    "a ranker-generator framework",
+    "summarization",
+    "we",
+    "rouge scores",
+    "it",
+    "the generator s input",
+    "rouge",
+    "query-focused meeting summarization",
+    "model",
+    "query-focused meeting summarization qfms",
+    "generator",
+    "multi",
+    "approach",
+    "the conflict",
+    "previous"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.538/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

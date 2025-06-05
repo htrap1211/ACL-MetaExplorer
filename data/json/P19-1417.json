@@ -1,0 +1,33 @@
+{
+  "id": "P19-1417",
+  "title": "Improving Question Answering over Incomplete {KB}s with Knowledge-Aware Reader",
+  "authors": [
+    "Xiong, Wenhan  and\nYu, Mo  and\nChang, Shiyu  and\nGuo, Xiaoxiao  and\nWang, William Yang"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We propose a new end-to-end question answering model, which learns to aggregate answer evidence from an incomplete knowledge base (KB) and a set of retrieved text snippets. Under the assumptions that structured data is easier to query and the acquired knowledge can help the understanding of unstructured text, our model first accumulates knowledge ofKB entities from a question-related KB sub-graph; then reformulates the question in the latent space and reads the text with the accumulated entity knowledge at hand. The evidence from KB and text are finally aggregated to predict answers. On the widely-used KBQA benchmark WebQSP, our model achieves consistent improvements across settings with different extents of KB incompleteness.",
+  "keywords": [
+    "knowledge",
+    "end",
+    "answering",
+    "answer",
+    "model",
+    "retrieved text snippets",
+    "text",
+    "entities",
+    "-",
+    "question",
+    "latent",
+    "we",
+    "graph",
+    "knowledge ofkb entities",
+    "easier"
+  ],
+  "url": "https://aclanthology.org/P19-1417/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:40:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

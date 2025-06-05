@@ -1,0 +1,33 @@
+{
+  "id": "2022.iwslt-1.13",
+  "title": "Efficient yet Competitive Speech Translation: {FBK}@{IWSLT}2022",
+  "authors": [
+    "Gaido, Marco  and\nPapi, Sara  and\nFucci, Dennis  and\nFiameni, Giuseppe  and\nNegri, Matteo  and\nTurchi, Marco"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022)",
+  "abstract": "The primary goal of this FBK’s systems submission to the IWSLT 2022 offline and simultaneous speech translation tasks is to reduce model training costs without sacrificing translation quality. As such, we first question the need of ASR pre-training, showing that it is not essential to achieve competitive results. Second, we focus on data filtering, showing that a simple method that looks at the ratio between source and target characters yields a quality improvement of 1 BLEU. Third, we compare different methods to reduce the detrimental effect of the audio segmentation mismatch between training data manually segmented at sentence level and inference data that is automatically segmented. Towards the same goal of training cost reduction, we participate in the simultaneous task with the same model trained for offline ST. The effectiveness of our lightweight training strategy is shown by the high score obtained on the MuST-C en-de corpus (26.7 BLEU) and is confirmed in high-resource data conditions by a 1.6 BLEU improvement on the IWSLT2020 test set over last year’s winning system.",
+  "keywords": [
+    "efficient",
+    "bleu",
+    "we",
+    "training",
+    "translation",
+    "it",
+    "reduction",
+    "translation quality",
+    "asr pre-training showing",
+    "ratio",
+    "model",
+    "pre",
+    "characters",
+    "our lightweight training strategy",
+    "detrimental"
+  ],
+  "url": "https://aclanthology.org/2022.iwslt-1.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

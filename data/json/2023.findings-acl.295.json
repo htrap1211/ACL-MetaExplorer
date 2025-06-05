@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.295",
+  "title": "Predicting Numerals in Text Using Nearest Neighbor Language Models",
+  "authors": [
+    "Sakamoto, Taku  and\nAizawa, Akiko"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Commonsense about quantitative properties is essential for a deep understanding of texts containing numerals. However, naive language models (LMs) treat numerals as string tokens; therefore, they lack an understanding of the magnitudes of numerals, resulting in a difficulty in acquiring the commonsense. In this study, we apply thek-nearest neighbor LM (kNN-LM) to the masked numeral prediction (MNP) task, which measures the quantitative commonsense of LMs.kNN-LM extends pre-trained neural LMs with thek-nearest neighbor (kNN) search.Since it can utilize patterns that appear in the datastore for prediction, we expect an improvement in numeral prediction accuracy, which is associated with a high rate of occurrence of out-of-vocabulary (OOV) words.Through experiments, we verified that the retrieval-based method is effective for fine-grained predictions of numerals from context, especially for the OOV numerals.We also compared two different context spans for context representations to improve the accuracy ofkNN search by using only the words that are closely related to the masked numeral: the mask and its surrounding words, and the mask and its subsequent words.Our results reveal that using only the embeddings of mask tokens for numerals inkNN search is the most effective approach for realizing MNP tasks.",
+  "keywords": [
+    "deep",
+    "rate",
+    "we",
+    "only the embeddings",
+    "quantitative properties",
+    "neural",
+    "it",
+    "properties",
+    "retrieval",
+    "the retrieval-based method",
+    "text",
+    "accuracy",
+    "embeddings",
+    "language",
+    "nearest neighbor language models"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.295/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:21",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

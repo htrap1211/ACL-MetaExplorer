@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.345",
+  "title": "Evaluating Entity Disambiguation and the Role of Popularity in Retrieval-Based {NLP",
+  "authors": [
+    "Chen, Anthony  and\nGudipati, Pallavi  and\nLongpre, Shayne  and\nLing, Xiao  and\nSingh, Sameer"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Retrieval is a core component for open-domain NLP tasks. In open-domain tasks, multiple entities can share a name, making disambiguation an inherent yet under-explored problem. We propose an evaluation benchmark for assessing the entity disambiguation capabilities of these retrievers, which we call Ambiguous Entity Retrieval (AmbER) sets. We define an AmbER set as a collection of entities that share a name along with queries about those entities. By covering the set of entities for polysemous names, AmbER sets act as a challenging test of entity disambiguation. We create AmbER sets for three popular open-domain tasks: fact checking, slot filling, and question answering, and evaluate a diverse set of retrievers. We find that the retrievers exhibit popularity bias, significantly under-performing on rarer entities that share a name, e.g., they are twice as likely to retrieve erroneous documents on queries for the less popular entity under the same name. These experiments on AmbER sets show their utility as an evaluation tool and highlight the weaknesses of popular retrieval systems.",
+  "keywords": [
+    "bias",
+    "rarer entities",
+    "question",
+    "popularity bias",
+    "we",
+    "queries",
+    "popular retrieval systems",
+    "retrieval-based nlp retrieval",
+    "retrieval",
+    "an evaluation benchmark",
+    "the entity disambiguation capabilities",
+    "core",
+    "those entities",
+    "an evaluation tool",
+    "multiple entities"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.345/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

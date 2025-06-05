@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.509",
+  "title": "Duplex Diffusion Models Improve Speech-to-Speech Translation",
+  "authors": [
+    "Wu, Xianchao"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Speech-to-speech translation is a typical sequence-to-sequence learning task that naturally has two directions. How to effectively leverage bidirectional supervision signals to produce high-fidelity audio for both directions? Existing approaches either train two separate models or a multitask-learned model with low efficiency and inferior performance. In this paper, we propose a duplex diffusion model that applies diffusion probabilistic models to both sides of a reversible duplex Conformer, so that either end can simultaneously input and output a distinct language’s speech. Our model enables reversible speech translation by simply flipping the input and output ends. Experiments show that our model achieves the first success of reversible speech translation with significant improvements of ASR-BLEU scores compared with a list of state-of-the-art baselines.",
+  "keywords": [
+    "end",
+    "language",
+    "model",
+    "asr-bleu scores",
+    "bleu",
+    "low efficiency",
+    "efficiency",
+    "sequence",
+    "we",
+    "learning",
+    "reversible speech translation",
+    "translation",
+    "speech",
+    "that",
+    "two separate models"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.509/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.348",
+  "title": "S}em{F}ace: Pre-training Encoder and Decoder with a Semantic Interface for Neural Machine Translation",
+  "authors": [
+    "Ren, Shuo  and\nZhou, Long  and\nLiu, Shujie  and\nWei, Furu  and\nZhou, Ming  and\nMa, Shuai"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "While pre-training techniques are working very well in natural language processing, how to pre-train a decoder and effectively use it for neural machine translation (NMT) still remains a tricky issue. The main reason is that the cross-attention module between the encoder and decoder cannot be pre-trained, and the combined encoder-decoder model cannot work well in the fine-tuning stage because the inputs of the decoder cross-attention come from unknown encoder outputs. In this paper, we propose a better pre-training method for NMT by defining a semantic interface (SemFace) between the pre-trained encoder and the pre-trained decoder. Specifically, we propose two types of semantic interfaces, including CL-SemFace which regards cross-lingual embeddings as an interface, and VQ-SemFace which employs vector quantized embeddings to constrain the encoder outputs and decoder inputs in the same language-independent space. We conduct massive experiments on six supervised translation pairs and three unsupervised pairs. Experimental results demonstrate that our proposed SemFace can effectively connect the pre-trained encoder and decoder, and achieves significant improvement by 3.7 and 1.5 BLEU points on the two tasks respectively compared with previous pre-training-based NMT models.",
+  "keywords": [
+    "previous pre-training-based nmt models",
+    "semantic interfaces",
+    "em",
+    "neural machine translation",
+    "bleu",
+    "unknown encoder outputs",
+    "the cross-attention module",
+    "the combined encoder-decoder model",
+    "the fine-tuning stage",
+    "decoder inputs",
+    "semantic",
+    "we",
+    "training",
+    "translation",
+    "cross"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.348/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

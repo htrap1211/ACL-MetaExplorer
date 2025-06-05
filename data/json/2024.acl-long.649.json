@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.649",
+  "title": "m{C}o{T}: Multilingual Instruction Tuning for Reasoning Consistency in Language Models",
+  "authors": [
+    "Lai, Huiyuan  and\nNissim, Malvina"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large language models (LLMs) with Chain-of-thought (CoT) have recently emerged as a powerful technique for eliciting reasoning to improve various downstream tasks. As most research mainly focuses on English, with few explorations in a multilingual context, the question of how reliable this reasoning capability is in different languages is still open. To address it directly, we study multilingual reasoning consistency across multiple languages, using popular open-source LLMs. First, we compile the first large-scale multilingual math reasoning dataset, *mCoT-MATH*, covering eleven diverse languages. Then, we introduce multilingual CoT instruction tuning to boost reasoning capability across languages, thereby improving model consistency. While existing LLMs show substantial variation across the languages we consider, and especially low performance for lesser resourced languages, our 7B parameter model *mCoT* achieves impressive consistency across languages, and superior or comparable performance to close- and open-source models even of much larger sizes.",
+  "keywords": [
+    "instruction",
+    "tuning",
+    "language",
+    "thought",
+    "cot",
+    "model",
+    "it",
+    "chain",
+    "large language models",
+    "mcot",
+    "language models",
+    "question",
+    "multilingual cot instruction tuning",
+    "we",
+    "popular open-source llms"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.649/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:43:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

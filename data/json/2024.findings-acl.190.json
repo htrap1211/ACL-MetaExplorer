@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.190",
+  "title": "A Tale of Two Revisions: Summarizing Changes Across Document Versions",
+  "authors": [
+    "T.y.s.s, Santosh  and\nModani, Natwar  and\nSaxena, Apoorv"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Document revision is a crucial aspect of the writing process, particularly in collaborative environments where multiple authors contribute simultaneously. However, current tools lack an efficient way to provide a comprehensive overview of changes between versions, leading to difficulties in understanding revisions. To address this, we propose a novel task of providing thematic summary of changes between document versions, organizing individual edits based on shared themes. We assess capabilities of LLMs on this task and further introduce three strategies to tackle this task: (i) representing the input of two documents along with edits in the ‘diff’ format (ii) a two-stage task decomposition with individual edit description generation as an intermediate task and (iii) clustering based chunking and subsequent merging techniques for handling longer documents. Our experiments demonstrate the effectiveness of our approach in improving the model’s capacity to handle this complex task. Additionally, we introduce ChangeSumm, a curated dataset comprising human-written thematic summaries for pairs of document versions, to facilitate evaluation and further research in this direction.",
+  "keywords": [
+    "efficient",
+    "individual edit description generation",
+    "overview",
+    "we",
+    "current",
+    "an efficient way",
+    "format",
+    "difficulties",
+    "llms",
+    "i",
+    "strategies",
+    "human-written thematic summaries",
+    "process",
+    "a comprehensive overview",
+    "summaries"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.190/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P19-1354",
+  "title": "Assessing the Ability of Self-Attention Networks to Learn Word Order",
+  "authors": [
+    "Yang, Baosong  and\nWang, Longyue  and\nWong, Derek F.  and\nChao, Lidia S.  and\nTu, Zhaopeng"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Self-attention networks (SAN) have attracted a lot of interests due to their high parallelization and strong performance on a variety of NLP tasks, e.g. machine translation. Due to the lack of recurrence structure such as recurrent neural networks (RNN), SAN is ascribed to be weak at learning positional information of words for sequence modeling. However, neither this speculation has been empirically confirmed, nor explanations for their strong performances on machine translation tasks when “lacking positional information” have been explored. To this end, we propose a novel word reordering detection task to quantify how well the word order information learned by SAN and RNN. Specifically, we randomly move one word to another position, and examine whether a trained model can detect both the original and inserted positions. Experimental results reveal that: 1) SAN trained on word reordering detection indeed has difficulty learning the positional information even with the position embedding; and 2) SAN trained on machine translation learns better positional information than its RNN counterpart, in which position embedding plays a critical role. Although recurrence structure make the model more universally-effective on learning word order, learning objectives matter more in the downstream tasks such as machine translation.",
+  "keywords": [
+    "variety",
+    "its rnn counterpart",
+    "objectives",
+    "end",
+    "machine translation",
+    "we",
+    "machine translation tasks",
+    "translation",
+    "recurrent neural networks",
+    "neural",
+    "self",
+    "information",
+    "word",
+    "sequence",
+    "a variety"
+  ],
+  "url": "https://aclanthology.org/P19-1354/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:39:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

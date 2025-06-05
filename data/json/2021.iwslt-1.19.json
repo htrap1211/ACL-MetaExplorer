@@ -1,0 +1,33 @@
+{
+  "id": "2021.iwslt-1.19",
+  "title": "E}dinburgh{'}s End-to-End Multilingual Speech Translation System for {IWSLT} 2021",
+  "authors": [
+    "Zhang, Biao  and\nSennrich, Rico"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021)",
+  "abstract": "This paper describes Edinburgh’s submissions to the IWSLT2021 multilingual speech translation (ST) task. We aim at improving multilingual translation and zero-shot performance in the constrained setting (without using any extra training data) through methods that encourage transfer learning and larger capacity modeling with advanced neural components. We build our end-to-end multilingual ST model based on Transformer, integrating techniques including adaptive speech feature selection, language-specific modeling, multi-task learning, deep and big Transformer, sparsified linear attention and root mean square layer normalization. We adopt data augmentation using machine translation models for ST which converts the zero-shot problem into a zero-resource one. Experimental results show that these methods deliver substantial improvements, surpassing the official baseline by > 15 average BLEU and outperforming our cascading system by > 2 average BLEU. Our final submission achieves competitive performance (runner up).",
+  "keywords": [
+    "deep",
+    "end",
+    "extra",
+    "bleu",
+    "runner",
+    "layer",
+    "we",
+    "multilingual translation",
+    "machine translation models",
+    "shot",
+    "training",
+    "translation",
+    "15 average bleu",
+    "zero-shot performance",
+    "neural"
+  ],
+  "url": "https://aclanthology.org/2021.iwslt-1.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:18:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

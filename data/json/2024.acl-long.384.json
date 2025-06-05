@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.384",
+  "title": "Large Language Models Are No Longer Shallow Parsers",
+  "authors": [
+    "Tian, Yuanhe  and\nXia, Fei  and\nSong, Yan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The development of large language models (LLMs) brings significant changes to the field of natural language processing (NLP), enabling remarkable performance in various high-level tasks, such as machine translation, question-answering, dialogue generation, etc., under end-to-end settings without requiring much training data. Meanwhile, fundamental NLP tasks, particularly syntactic parsing, are also essential for language study as well as evaluating the capability of LLMs for instruction understanding and usage. In this paper, we focus on analyzing and improving the capability of current state-of-the-art LLMs on a classic fundamental task, namely constituency parsing, which is the representative syntactic task in both linguistics and natural language processing. We observe that these LLMs are effective in shallow parsing but struggle with creating correct full parse trees. To improve the performance of LLMs on deep syntactic parsing, we propose a three-step approach that firstly prompts LLMs for chunking, then filters out low-quality chunks, and finally adds the remaining chunks to prompts to instruct LLMs for parsing, with later enhancement by chain-of-thought prompting. Experimental results on English and Chinese benchmark datasets demonstrate the effectiveness of our approach on improving LLMs’ performance on constituency parsing.",
+  "keywords": [
+    "deep",
+    "shallow parsing",
+    "parsing",
+    "end",
+    "chain",
+    "field",
+    "question",
+    "we",
+    "dialogue",
+    "current",
+    "training",
+    "translation",
+    "natural language processing nlp",
+    "instruction",
+    "natural"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.384/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

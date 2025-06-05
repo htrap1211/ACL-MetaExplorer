@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.595",
+  "title": "Coupling Distant Annotation and Adversarial Training for Cross-Domain {C}hinese Word Segmentation",
+  "authors": [
+    "Ding, Ning  and\nLong, Dingkun  and\nXu, Guangwei  and\nZhu, Muhua  and\nXie, Pengjun  and\nWang, Xiaobin  and\nZheng, Haitao"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Fully supervised neural approaches have achieved significant progress in the task of Chinese word segmentation (CWS). Nevertheless, the performance of supervised models always drops gravely if the domain shifts due to the distribution gap across domains and the out of vocabulary (OOV) problem. In order to simultaneously alleviate the issues, this paper intuitively couples distant annotation and adversarial training for cross-domain CWS. 1) We rethink the essence of “Chinese words” and design an automatic distant annotation mechanism, which does not need any supervision or pre-defined dictionaries on the target domain. The method could effectively explore domain-specific words and distantly annotate the raw texts for the target domain. 2) We further develop a sentence-level adversarial training procedure to perform noise reduction and maximum utilization of the source domain information. Experiments on multiple real-world datasets across various domains show the superiority and robustness of our model, significantly outperforming previous state-of-the-arts cross-domain CWS methods.",
+  "keywords": [
+    "we",
+    "training",
+    "cross",
+    "neural",
+    "information",
+    "word",
+    "reduction",
+    "pre-defined dictionaries",
+    "dictionaries",
+    "model",
+    "pre",
+    "cross-domain cws",
+    "supervision",
+    "state",
+    "essence"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.595/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:50:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

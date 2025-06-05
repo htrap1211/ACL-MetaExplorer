@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.635",
+  "title": "Multi-source Semantic Graph-based Multimodal Sarcasm Explanation Generation",
+  "authors": [
+    "Jing, Liqiang  and\nSong, Xuemeng  and\nOuyang, Kun  and\nJia, Mengzhao  and\nNie, Liqiang"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Multimodal Sarcasm Explanation (MuSE) is a new yet challenging task, which aims to generate a natural language sentence for a multimodal social post (an image as well as its caption) to explain why it contains sarcasm. Although the existing pioneer study has achieved great success with the BART backbone, it overlooks the gap between the visual feature space and the decoder semantic space, the object-level metadata of the image, as well as the potential external knowledge. To solve these limitations, in this work, we propose a novel mulTi-source sEmantic grAph-based Multimodal sarcasm explanation scheme, named TEAM. In particular, TEAM extracts the object-level semantic meta-data instead of the traditional global visual features from the input image. Meanwhile, TEAM resorts to ConceptNet to obtain the external related knowledge concepts for the input text and the extracted object meta-data. Thereafter, TEAM introduces a multi-source semantic graph that comprehensively characterize the multi-source (i.e., caption, object meta-data, external knowledge) semantic relations to facilitate the sarcasm reasoning. Extensive experiments on a public released dataset MORE verify the superiority of our model over cutting-edge methods.",
+  "keywords": [
+    "the decoder semantic space",
+    "semantic",
+    "we",
+    "graph",
+    "the object-level semantic meta-data",
+    "edge",
+    "natural",
+    "it",
+    "decoder",
+    "a multi-source semantic graph",
+    "visual",
+    "i",
+    "object",
+    "text",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.635/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:44:11",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

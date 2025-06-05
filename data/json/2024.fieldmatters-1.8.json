@@ -1,0 +1,33 @@
+{
+  "id": "2024.fieldmatters-1.8",
+  "title": "Comparing {K}aldi-Based Pipeline Elpis and Whisper for {\\v{C}}akavian Transcription",
+  "authors": [
+    "Jones, Austin  and\nZhang, Shulin  and\nHale, John  and\nRenwick, Margaret  and\nVrzic, Zvjezdana  and\nLangston, Keith"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 3rd Workshop on NLP Applications to Field Linguistics (Field Matters 2024)",
+  "abstract": "Automatic speech recognition (ASR) has the potential to accelerate the documentation of endangered languages, but the dearth of resources poses a major obstacle. Čakavian, an endangered variety spoken primarily in Croatia, is a case in point, lacking transcription tools that could aid documentation efforts. We compare training a new ASR model on a limited dataset using the Kaldi-based ASR pipeline Elpis to using the same dataset to adapt the transformer-based pretrained multilingual model Whisper, to determine which is more practical in the documentation context. Results show that Whisper outperformed Elpis, achieving the lowest average Word Error Rate (WER) of 57.3% and median WER of 35.48%. While Elpis offers a less computationally expensive model and friendlier user experience, Whisper appears better at adapting to our collected Čakavian data.",
+  "keywords": [
+    "variety",
+    "transformer",
+    "an endangered variety",
+    "model",
+    "rate",
+    "wer",
+    "word",
+    "we",
+    "experience",
+    "friendlier",
+    "friendlier user experience whisper",
+    "that",
+    "speech",
+    "recognition",
+    "major"
+  ],
+  "url": "https://aclanthology.org/2024.fieldmatters-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:05:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

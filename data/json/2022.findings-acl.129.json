@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.129",
+  "title": "Learning Reasoning Patterns for Relational Triple Extraction with Mutual Generation of Text and Graph",
+  "authors": [
+    "Chen, Yubo  and\nZhang, Yunqi  and\nHuang, Yongfeng"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Relational triple extraction is a critical task for constructing knowledge graphs. Existing methods focused on learning text patterns from explicit relational mentions. However, they usually suffered from ignoring relational reasoning patterns, thus failed to extract the implicitly implied triples. Fortunately, the graph structure of a sentence’s relational triples can help find multi-hop reasoning paths. Moreover, the type inference logic through the paths can be captured with the sentence’s supplementary relational expressions that represent the real-world conceptual meanings of the paths’ composite relations. In this paper, we propose a unified framework to learn the relational reasoning patterns for this task. To identify multi-hop reasoning paths, we construct a relational graph from the sentence (text-to-graph generation) and apply multi-layer graph convolutions to it. To capture the relation type inference logic of the paths, we propose to understand the unlabeled conceptual expressions by reconstructing the sentence from the relational graph (graph-to-text generation) in a self-supervised manner. Experimental results on several benchmark datasets demonstrate the effectiveness of our method.",
+  "keywords": [
+    "extraction",
+    "the implicitly implied triples",
+    "layer",
+    "we",
+    "graph",
+    "it",
+    "self",
+    "a unified framework",
+    "unified",
+    "knowledge graphs",
+    "manner",
+    "text",
+    "knowledge",
+    "generation",
+    "mutual generation"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.129/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

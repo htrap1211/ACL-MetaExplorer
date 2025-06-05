@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.8",
+  "title": "C}oca{CLIP}: Exploring Distillation of Fully-Connected Knowledge Interaction Graph for Lightweight Text-Image Retrieval",
+  "authors": [
+    "Wang, Jiapeng  and\nWang, Chengyu  and\nWang, Xiaodan  and\nHuang, Jun  and\nJin, Lianwen"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "Large-scale pre-trained text-image models with dual-encoder architectures (such as CLIP) are typically adopted for various vision-language applications, including text-image retrieval. However, these models are still less practical on edge devices or for real-time situations, due to the substantial indexing and inference time and the large consumption of computational resources. Although knowledge distillation techniques have been widely utilized for uni-modal model compression, how to expand them to the situation when the numbers of modalities and teachers/students are doubled has been rarely studied. In this paper, we conduct comprehensive experiments on this topic and propose the fully-Connected knowledge interaction graph (Coca) technique for cross-modal pre-training distillation. Based on our findings, the resulting CocaCLIP achieves SOTA performances on the widely-used Flickr30K and MSCOCO benchmarks under the lightweight setting. An industry application of our method on an e-commercial platform further demonstrates the significant effectiveness of CocaCLIP.",
+  "keywords": [
+    "uni",
+    "modalities and teachers students",
+    "we",
+    "graph",
+    "oca",
+    "text-image retrieval",
+    "training",
+    "cross",
+    "cross-modal pre-training distillation",
+    "edge",
+    "retrieval",
+    "text",
+    "topic",
+    "dual-encoder architectures",
+    "knowledge"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

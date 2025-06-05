@@ -1,0 +1,33 @@
+{
+  "id": "2024.gebnlp-1.8",
+  "title": "Detecting Gender Discrimination on Actor Level Using Linguistic Discourse Analysis",
+  "authors": [
+    "Urchs, Stefanie  and\nThurner, Veronika  and\nA{\\ss}enmacher, Matthias  and\nHeumann, Christian  and\nThiemichen, Stephanie"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 5th Workshop on Gender Bias in Natural Language Processing (GeBNLP)",
+  "abstract": "With the usage of tremendous amounts of text data for training powerful large language models such as ChatGPT, the issue of analysing and securing data quality has become more pressing than ever. Any biases, stereotypes and discriminatory patterns that exist in the training data can be reproduced, reinforced or broadly disseminated by the models in production. Therefore, it is crucial to carefully select and monitor the text data that is used as input to train the model. Due to the vast amount of training data, this process needs to be (at least partially) automated. In this work, we introduce a novel approach for automatically detecting gender discrimination in text data on the actor level based on linguistic discourse analysis. Specifically, we combine existing information extraction (IE) techniques to partly automate the qualitative research done in linguistic discourse analysis. We focus on two important steps: Identifying the respectiveperson-named-entity (an actor) and all forms it is referred to (Nomination), and detecting the characteristics it is ascribed (Predication). Asa proof of concept, we integrate these two steps into a pipeline for automated text analysis. The separate building blocks of the pipeline could be flexibly adapted, extended, and scaled for bigger datasets to accommodate a wide range of usage scenarios and specific ML tasks or help social scientists with analysis tasks. We showcase and evaluate our approach on several real and simulated exemplary texts.",
+  "keywords": [
+    "extraction",
+    "we",
+    "ever any biases stereotypes",
+    "training",
+    "it",
+    "information",
+    "chatgpt",
+    "analysis",
+    "social scientists",
+    "text",
+    "powerful large language models",
+    "scientists",
+    "existing information extraction",
+    "biases",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2024.gebnlp-1.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:06:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

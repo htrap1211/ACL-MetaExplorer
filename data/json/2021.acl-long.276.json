@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.276",
+  "title": "L}earn{DA}: Learnable Knowledge-Guided Data Augmentation for Event Causality Identification",
+  "authors": [
+    "Zuo, Xinyu  and\nCao, Pengfei  and\nChen, Yubo  and\nLiu, Kang  and\nZhao, Jun  and\nPeng, Weihua  and\nChen, Yuguang"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Modern models for event causality identification (ECI) are mainly based on supervised learning, which are prone to the data lacking problem. Unfortunately, the existing NLP-related augmentation methods cannot directly produce available data required for this task. To solve the data lacking problem, we introduce a new approach to augment training data for event causality identification, by iteratively generating new examples and classifying event causality in a dual learning framework. On the one hand, our approach is knowledge guided, which can leverage existing knowledge bases to generate well-formed new sentences. On the other hand, our approach employs a dual mechanism, which is a learnable augmentation framework, and can interactively adjust the generation process to generate task-related sentences. Experimental results on two benchmarks EventStoryLine and Causal-TimeBank show that 1) our method can augment suitable task-related training data for ECI; 2) our method outperforms previous methods on EventStoryLine and Causal-TimeBank (+2.5 and +2.1 points on F1 value respectively).",
+  "keywords": [
+    "process",
+    "knowledge",
+    "generation",
+    "the generation process",
+    "nlp",
+    "eci",
+    "f1 value",
+    "we",
+    "learning",
+    "training",
+    "identification",
+    "approach",
+    "new",
+    "task",
+    "two benchmarks eventstoryline"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.276/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:03:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

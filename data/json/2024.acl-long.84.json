@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.84",
+  "title": "Dependency Transformer Grammars: Integrating Dependency Structures into Transformer Language Models",
+  "authors": [
+    "Zhao, Yida  and\nLou, Chao  and\nTu, Kewei"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Syntactic Transformer language models aim to achieve better generalization through simultaneously modeling syntax trees and sentences. While prior work has been focusing on adding constituency-based structures to Transformers, we introduce Dependency Transformer Grammars (DTGs), a new class of Transformer language model with explicit dependency-based inductive bias. DTGs simulate dependency transition systems with constrained attention patterns by modifying attention masks, incorporate the stack information through relative positional encoding, and augment dependency arc representation with a combination of token embeddings and operation embeddings. When trained on a dataset of sentences annotated with dependency trees, DTGs achieve better generalization while maintaining comparable perplexity with Transformer language model baselines. DTGs also outperform recent constituency-based models, showing that dependency can better guide Transformer language models. Our code is released at https://github.com/zhaoyd1/Dep_Transformer_Grammars.",
+  "keywords": [
+    "code",
+    "transformers",
+    "bias",
+    "dep_transformer_grammars",
+    "dependency trees dtgs",
+    "that dependency",
+    "we",
+    "simultaneously modeling syntax trees",
+    "augment dependency arc representation",
+    "syntax",
+    "comparable perplexity",
+    "dependency structures",
+    "token embeddings",
+    "transformer language models",
+    "token"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.84/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:35:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.497",
+  "title": "Text-like Encoding of Collaborative Information in Large Language Models for Recommendation",
+  "authors": [
+    "Zhang, Yang  and\nBao, Keqin  and\nYan, Ming  and\nWang, Wenjie  and\nFeng, Fuli  and\nHe, Xiangnan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "When adapting Large Language Models for Recommendation (LLMRec), it is crucial to integrate collaborative information. Existing methods achieve this by learning collaborative embeddings in LLMs’ latent space from scratch or by mapping from external models. However, they fail to represent the information in a text-like format, which may not align optimally with LLMs. To bridge this gap, we introduce BinLLM, a novel LLMRec method that seamlessly integrates collaborative information through text-like encoding. BinLLM converts collaborative embeddings from external models into binary sequences — a specific text format that LLMs can understand and operate on directly, facilitating the direct usage of collaborative information in text-like format by LLMs. Additionally, BinLLM provides options to compress the binary sequence using dot-decimal notation to avoid excessively long lengths. Extensive experiments validate that BinLLM introduces collaborative information in a manner better aligned with LLMs, resulting in enhanced performance. We release our code at https://github.com/zyang1580/BinLLM.",
+  "keywords": [
+    "code",
+    "llms latent space",
+    "recommendation llmrec",
+    "llmrec",
+    "we",
+    "binllm",
+    "it",
+    "information",
+    "latent",
+    "format",
+    "collaborative embeddings",
+    "sequence",
+    "manner",
+    "llms",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.497/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

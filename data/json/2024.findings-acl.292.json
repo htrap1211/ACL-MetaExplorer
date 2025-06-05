@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.292",
+  "title": "Evaluating the Validity of Word-level Adversarial Attacks with Large Language Models",
+  "authors": [
+    "Zhou, Huichi  and\nWang, Zhaoyang  and\nWang, Hongtao  and\nChen, Dongping  and\nMu, Wenhan  and\nZhang, Fangyuan"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Deep neural networks exhibit vulnerability to word-level adversarial attacks in natural language processing. Most of these attack methods adopt synonymous substitutions to perturb original samples for crafting adversarial examples while attempting to maintain semantic consistency with the originals. Some of them claim that they could achieve over 90% attack success rate, thereby raising serious safety concerns. However, our investigation reveals that many purportedly successful adversarial examples are actually invalid due to significant changes in semantic meanings compared to their originals. Even when equipped with semantic constraints such as BERTScore, existing attack methods can generate up to 87.9% invalid adversarial examples. Building on this insight, we first curate a 13K dataset for adversarial validity evaluation with the help of GPT-4. Then, an open-source large language model is fine-tuned to offer an interpretable validity score for assessing the semantic consistency between original and adversarial examples. Finally, this validity score can serve as a guide for existing adversarial attack methods to generate valid adversarial examples. Comprehensive experiments demonstrate the effectiveness of our method in evaluating and refining the quality of adversarial examples.",
+  "keywords": [
+    "deep",
+    "rate",
+    "semantic constraints",
+    "semantic",
+    "we",
+    "valid",
+    "bertscore",
+    "neural",
+    "natural",
+    "word",
+    "natural language processing",
+    "processing",
+    "neural networks",
+    "semantic consistency",
+    "gpt-4"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.292/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:52:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.law-1.6",
+  "title": "An Active Learning Pipeline for {NLU} Error Detection in Conversational Agents",
+  "authors": [
+    "Pascual, Damian  and\nBercher, Aritz  and\nBhardwaj, Akansha  and\nCui, Mingbo  and\nKohler, Dominic  and\nVan Der Poel, Liam  and\nRosso, Paolo"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th Linguistic Annotation Workshop (LAW-XVII)",
+  "abstract": "High-quality labeled data is paramount to the performance of modern machine learning models. However, annotating data is a time-consuming and costly process that requires human experts to examine large collections of raw data. For conversational agents in production settings with access to large amounts of user-agent conversations, the challenge is to decide what data should be annotated first. We consider the Natural Language Understanding (NLU) component of a conversational agent deployed in a real-world setup with limited resources. We present an active learning pipeline for offline detection of classification errors that leverages two strong classifiers. Then, we perform topic modeling on the potentially mis-classified samples to ease data analysis and to reveal error patterns. In our experiments, we show on a real-world dataset that by using our method to prioritize data annotation we reach 100% of the performance annotating only 36% of the data. Finally, we present an analysis of some of the error patterns revealed and argue that our pipeline is a valuable tool to detect critical errors and reduce the workload of annotators.",
+  "keywords": [
+    "two strong classifiers",
+    "topic modeling",
+    "user-agent conversations",
+    "conversations",
+    "classifiers",
+    "a conversational agent",
+    "we",
+    "classification",
+    "classification errors",
+    "natural",
+    "the potentially mis-classified samples",
+    "learning",
+    "analysis",
+    "topic",
+    "modern machine learning models"
+  ],
+  "url": "https://aclanthology.org/2023.law-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:25:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

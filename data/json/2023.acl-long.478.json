@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.478",
+  "title": "End-to-end Knowledge Retrieval with Multi-modal Queries",
+  "authors": [
+    "Luo, Man  and\nFang, Zhiyuan  and\nGokhale, Tejas  and\nYang, Yezhou  and\nBaral, Chitta"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We investigate knowledge retrieval with multi-modal queries, i.e. queries containing information split across image and text inputs, a challenging task that differs from previous work on cross-modal retrieval. We curate a new dataset called ReMuQ for benchmarking progress on this task. ReMuQ requires a system to retrieve knowledge from a large corpus by integrating contents from both text and image queries. We introduce a retriever model “ReViz” that can directly process input text and images to retrieve relevant knowledge in an end-to-end fashion without being dependent on intermediate modules such as object detectors or caption generators. We introduce a new pretraining task that is effective for learning knowledge retrieval with multimodal queries and also improves performance on downstream tasks. We demonstrate superior performance in retrieval on two datasets (ReMuQ and OK-VQA) under zero-shot settings as well as further improvements when finetuned on these datasets.",
+  "keywords": [
+    "end",
+    "multi-modal queries",
+    "we",
+    "generators",
+    "shot",
+    "cross",
+    "image queries",
+    "queries",
+    "retrieval",
+    "information",
+    "multimodal queries",
+    "a retriever model reviz",
+    "i",
+    "object",
+    "knowledge retrieval"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.478/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:41:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

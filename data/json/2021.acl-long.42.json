@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.42",
+  "title": "E}2{E}-{VLP}: End-to-End Vision-Language Pre-training Enhanced by Visual Learning",
+  "authors": [
+    "Xu, Haiyang  and\nYan, Ming  and\nLi, Chenliang  and\nBi, Bin  and\nHuang, Songfang  and\nXiao, Wenming  and\nHuang, Fei"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Vision-language pre-training (VLP) on large-scale image-text pairs has achieved huge success for the cross-modal downstream tasks. The most existing pre-training methods mainly adopt a two-step training procedure, which firstly employs a pre-trained object detector to extract region-based visual features, then concatenates the image representation and text embedding as the input of Transformer to train. However, these methods face problems of using task-specific visual representation of the specific object detector for generic cross-modal understanding, and the computation inefficiency of two-stage pipeline. In this paper, we propose the first end-to-end vision-language pre-trained model for both V+L understanding and generation, namely E2E-VLP, where we build a unified Transformer framework to jointly learn visual representation, and semantic alignments between image and text. We incorporate the tasks of object detection and image captioning into pre-training with a unified Transformer encoder-decoder architecture for enhancing visual learning. An extensive set of experiments have been conducted on well-established vision-language downstream tasks to demonstrate the effectiveness of this novel VLP paradigm.",
+  "keywords": [
+    "alignments",
+    "end",
+    "semantic",
+    "we",
+    "generic cross-modal understanding",
+    "training",
+    "cross",
+    "unified",
+    "decoder",
+    "learning",
+    "visual",
+    "semantic alignments",
+    "object",
+    "text",
+    "the computation inefficiency"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.42/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:00:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

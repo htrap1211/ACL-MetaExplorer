@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.602",
+  "title": "Layer-Condensed {KV} Cache for Efficient Inference of Large Language Models",
+  "authors": [
+    "Wu, Haoyi  and\nTu, Kewei"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Huge memory consumption has been a major bottleneck for deploying high-throughput large language models in real-world applications. In addition to the large number of parameters, the key-value (KV) cache for the attention mechanism in the transformer architecture consumes a significant amount of memory, especially when the number of layers is large for deep language models. In this paper, we propose a novel method that only computes and caches the KVs of a small number of layers, thus significantly saving memory consumption and improving inference throughput. Our experiments on large language models show that our method achieves up to 26×higher throughput than standard transformers and competitive performance in language modeling and downstream tasks. In addition, our method is orthogonal to existing transformer memory-saving techniques, so it is straightforward to integrate them with our model, achieving further improvement in inference efficiency. Our code is available at https://github.com/whyNLP/LCKV.",
+  "keywords": [
+    "deep",
+    "code",
+    "transformers",
+    "efficient",
+    "inference efficiency",
+    "layer",
+    "efficiency",
+    "we",
+    "efficient inference",
+    "whynlp",
+    "high-throughput large language models",
+    "it",
+    "deep language models",
+    "standard transformers",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.602/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:36",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

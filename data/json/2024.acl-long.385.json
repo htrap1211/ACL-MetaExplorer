@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.385",
+  "title": "Dialogue Summarization with Mixture of Experts based on Large Language Models",
+  "authors": [
+    "Tian, Yuanhe  and\nXia, Fei  and\nSong, Yan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Dialogue summarization is an important task that requires to generate highlights for a conversation from different aspects (e.g., content of various speakers). While several studies successfully employ large language models (LLMs) and achieve satisfying results, they are limited by using one model at a time or treat it as a black box, which makes it hard to discriminatively learn essential content in a dialogue from different aspects, therefore may lead to anticipation bias and potential loss of information in the produced summaries. In this paper, we propose an LLM-based approach with role-oriented routing and fusion generation to utilize mixture of experts (MoE) for dialogue summarization. Specifically, the role-oriented routing is an LLM-based module that selects appropriate experts to process different information; fusion generation is another LLM-based module to locate salient information and produce finalized dialogue summaries. The proposed approach offers an alternative solution to employing multiple LLMs for dialogue summarization by leveraging their capabilities of in-context processing and generation in an effective manner. We run experiments on widely used benchmark datasets for this task, where the results demonstrate the superiority of our approach in producing informative and accurate dialogue summarization.",
+  "keywords": [
+    "bias",
+    "a conversation",
+    "summarization",
+    "we",
+    "dialogue",
+    "fusion",
+    "salient information",
+    "it",
+    "loss",
+    "several studies",
+    "information",
+    "multiple llms",
+    "another llm-based module",
+    "manner",
+    "llms"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.385/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

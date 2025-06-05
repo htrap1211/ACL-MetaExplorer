@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.538",
+  "title": "Cross-Lingual Abstractive Summarization with Limited Parallel Resources",
+  "authors": [
+    "Bai, Yu  and\nGao, Yang  and\nHuang, Heyan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Parallel cross-lingual summarization data is scarce, requiring models to better use the limited available cross-lingual resources. Existing methods to do so often adopt sequence-to-sequence networks with multi-task frameworks. Such approaches apply multiple decoders, each of which is utilized for a specific task. However, these independent decoders share no parameters, hence fail to capture the relationships between the discrete phrases of summaries in different languages, breaking the connections in order to transfer the knowledge of the high-resource languages to low-resource languages. To bridge these connections, we propose a novel Multi-Task framework for Cross-Lingual Abstractive Summarization (MCLAS) in a low-resource setting. Employing one unified decoder to generate the sequential concatenation of monolingual and cross-lingual summaries, MCLAS makes the monolingual summarization task a prerequisite of the CLS task. In this way, the shared decoder learns interactions involving alignments and summary patterns across languages, which encourages attaining knowledge transfer. Experiments on two CLS datasets demonstrate that our model significantly outperforms three baseline models in both low-resource and full-dataset scenarios. Moreover, in-depth analysis on the generated summaries and attention heads verifies that interactions are learned well using MCLAS, which benefits the CLS task under limited parallel resources.",
+  "keywords": [
+    "alignments",
+    "summarization",
+    "we",
+    "cross",
+    "unified",
+    "decoder",
+    "the monolingual summarization",
+    "the generated summaries",
+    "decoders",
+    "sequence",
+    "transfer",
+    "analysis",
+    "multiple decoders",
+    "cross-lingual abstractive summarization",
+    "verifies"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.538/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:38",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

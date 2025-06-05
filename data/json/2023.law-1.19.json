@@ -1,0 +1,33 @@
+{
+  "id": "2023.law-1.19",
+  "title": "A Question Answering Benchmark Database for {H}ungarian",
+  "authors": [
+    "Nov{\\'a}k, Attila  and\nNov{\\'a}k, Borb{\\'a}la  and\nZombori, Tam{\\'a}s  and\nSzab{\\'o}, Gerg{\\H{o}}  and\nSz{\\'a}nt{\\'o}, Zsolt  and\nFarkas, Rich{\\'a}rd"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th Linguistic Annotation Workshop (LAW-XVII)",
+  "abstract": "Within the research presented in this article, we created a new question answering benchmark database for Hungarian called MILQA. When creating the dataset, we basically followed the principles of the English SQuAD 2.0, however, like in some more recent English question answering datasets, we introduced a number of innovations beyond SQuAD: e.g., yes/no-questions, list-like answers consisting of several text spans, long answers, questions requiring calculation and other question types where you cannot simply copy the answer from the text. For all these non-extractive question types, the pragmatically adequate form of the answer was also added to make the training of generative models possible. We implemented and evaluated a set of baseline retrieval and answer span extraction models on the dataset. BM25 performed better than any vector-based solution for retrieval. Cross-lingual transfer from English significantly improved span extraction models.",
+  "keywords": [
+    "milqa",
+    "generative",
+    "cross",
+    "generative models",
+    "vector",
+    "answer",
+    "extraction",
+    "text",
+    "retrieval cross-lingual transfer",
+    "retrieval",
+    "question",
+    "form",
+    "we",
+    "transfer",
+    "any vector-based solution"
+  ],
+  "url": "https://aclanthology.org/2023.law-1.19/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:25:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

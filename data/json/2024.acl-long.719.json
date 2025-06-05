@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.719",
+  "title": "Bridging Word-Pair and Token-Level Metaphor Detection with Explainable Domain Mining",
+  "authors": [
+    "Tian, Yuan  and\nZhang, Ruike  and\nXu, Nan  and\nMao, Wenji"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Metaphor detection aims to identify whether a linguistic expression in text is metaphorical or literal. Most existing research tackles this problem either using word-pair or token-level information as input, and thus treats word-pair and token-level metaphor detection as distinct subtasks. Benefited from the simplified structure of word pairs, recent methods for word-pair metaphor detection can provide intermediate explainable clues for the detection results, which remains a challenging issue for token-level metaphor detection. To mitigate this issue in token-level metaphor detection and take advantage of word pairs, in this paper, we make the first attempt to bridge word-pair and token-level metaphor detection via modeling word pairs within a sentence as explainable intermediate information. As the central role of verb in metaphorical expressions, we focus on token-level verb metaphor detection and propose a novel explainable Word Pair based Domain Mining (WPDM) method. Our work is inspired by conceptual metaphor theory (CMT). We first devise an approach for conceptual domain mining utilizing semantic role mapping and resources at cognitive, commonsense and lexical levels. We then leverage the inconsistency between source and target domains for core word pair modeling to facilitate the explainability. Experiments on four datasets verify the effectiveness of our method and demonstrate its capability to provide the core word pair and corresponding conceptual domains as explainable clues for metaphor detection.",
+  "keywords": [
+    "semantic",
+    "we",
+    "semantic role mapping",
+    "token",
+    "information",
+    "word",
+    "core",
+    "text",
+    "the simplified structure",
+    "simplified",
+    "mining",
+    "work",
+    "modeling",
+    "attempt",
+    "theory"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.719/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:44:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

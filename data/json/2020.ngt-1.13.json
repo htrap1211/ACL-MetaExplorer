@@ -1,0 +1,33 @@
+{
+  "id": "2020.ngt-1.13",
+  "title": "Training and Inference Methods for High-Coverage Neural Machine Translation",
+  "authors": [
+    "Yang, Michael  and\nLiu, Yixin  and\nMayuranath, Rahul"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the Fourth Workshop on Neural Generation and Translation",
+  "abstract": "In this paper, we introduce a system built for the Duolingo Simultaneous Translation And Paraphrase for Language Education (STAPLE) shared task at the 4th Workshop on Neural Generation and Translation (WNGT 2020). We participated in the English-to-Japanese track with a Transformer model pretrained on the JParaCrawl corpus and fine-tuned in two steps on the JESC corpus and then the (smaller) Duolingo training corpus. First, during training, we find it is essential to deliberately expose the model to higher-quality translations more often during training for optimal translation performance. For inference, encouraging a small amount of diversity with Diverse Beam Search to improve translation coverage yielded marginal improvement over regular Beam Search. Finally, using an auxiliary filtering model to filter out unlikely candidates from Beam Search improves performance further. We achieve a weighted F1 score of 27.56% on our own test set, outperforming the STAPLE AWS translations baseline score of 4.31%.",
+  "keywords": [
+    "optimal translation performance",
+    "we",
+    "training",
+    "translation",
+    "neural",
+    "it",
+    "a weighted f1 score",
+    "high-coverage neural machine translation",
+    "translation coverage",
+    "a transformer model",
+    "transformer",
+    "language",
+    "generation",
+    "model",
+    "machine"
+  ],
+  "url": "https://aclanthology.org/2020.ngt-1.13/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:57:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

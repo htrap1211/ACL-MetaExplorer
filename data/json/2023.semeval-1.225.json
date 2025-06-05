@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.225",
+  "title": "Mr-wallace at {S}em{E}val-2023 Task 5: Novel Clickbait Spoiling Algorithm Using Natural Language Processing",
+  "authors": [
+    "Saravanan, Vineet  and\nWilson, Steven"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "This paper presents a model for clickbait spoiling,which aims at generating short texts that satisfy thecuriosity induced by a clickbait post. The modelis split into two tasks: identifying the clickbaittype and spoiling the clickbait. The first task isto classify the spoiler type that the clickbait postwarrants, and the second task is to generate thespoiler for the clickbait post. The model utilizesthe Distilbert-base-uncased model for the first taskand the Bert-base-uncased model for the secondtask. The trained model is optimized through trialand error on different model selections, and hyper-parameters and results are presented in a confusionmatrix. The main reason we utilized Distilbert-base-uncased is that it analyzes words in the con-text of what’s around it. The objective of this modelis to save readers time and spoil the clickbait of dif-ferent articles they may see on different platformslike Twitter and Reddit",
+  "keywords": [
+    "we",
+    "hyper",
+    "natural",
+    "it",
+    "the objective",
+    "distilbert-base-uncased model",
+    "con",
+    "bert",
+    "text",
+    "objective",
+    "-",
+    "the bert-base-uncased model",
+    "language",
+    "model",
+    "distilbert"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.225/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:41",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

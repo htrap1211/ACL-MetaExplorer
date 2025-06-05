@@ -1,0 +1,33 @@
+{
+  "id": "2024.privatenlp-1.1",
+  "title": "Noisy Neighbors: Efficient membership inference attacks against {LLM}s",
+  "authors": [
+    "Galli, Filippo  and\nMelis, Luca  and\nCucinotta, Tommaso"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Fifth Workshop on Privacy in Natural Language Processing",
+  "abstract": "The potential of transformer-based LLMs risks being hindered by privacy concerns due to their reliance on extensive datasets, possibly including sensitive information. Regulatory measures like GDPR and CCPA call for using robust auditing tools to address potential privacy issues, with Membership Inference Attacks (MIA) being the primary method for assessing LLMs’ privacy risks. Differently from traditional MIA approaches, often requiring computationally intensive training of additional models, this paper introduces an efficient methodology that generates noisy neighbors for a target sample by adding stochastic noise in the embedding space, requiring operating the target model in inference mode only. Our findings demonstrate that this approach closely matches the effectiveness of employing shadow models, showing its usability in practical privacy auditing scenarios.",
+  "keywords": [
+    "efficient",
+    "llm",
+    "training",
+    "llms privacy risks",
+    "information",
+    "llms",
+    "an efficient methodology",
+    "mode",
+    "transformer",
+    "the embedding space",
+    "model",
+    "transformer-based llms risks",
+    "approach",
+    "measures",
+    "shadow"
+  ],
+  "url": "https://aclanthology.org/2024.privatenlp-1.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

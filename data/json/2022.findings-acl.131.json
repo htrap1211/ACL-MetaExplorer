@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.131",
+  "title": "N-Shot Learning for Augmenting Task-Oriented Dialogue State Tracking",
+  "authors": [
+    "Aksu, Taha  and\nLiu, Zhengyuan  and\nKan, Min-Yen  and\nChen, Nancy"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Augmentation of task-oriented dialogues has followed standard methods used for plain-text such as back-translation, word-level manipulation, and paraphrasing despite its richly annotated structure. In this work, we introduce an augmentation framework that utilizes belief state annotations to match turns from various dialogues and form new synthetic dialogues in a bottom-up manner. Unlike other augmentation strategies, it operates with as few as five examples. Our augmentation strategy yields significant improvements when both adapting a DST model to a new domain, and when adapting a language model to the DST task, on evaluations with TRADE and TOD-BERT models. Further analysis shows that our model performs better on seen values during training, and it is also more robust to unseen values. We conclude that exploiting belief state annotations enhances dialogue augmentation and results in improved models in n-shot training scenarios.",
+  "keywords": [
+    "various dialogues",
+    "back-translation word-level manipulation",
+    "new synthetic dialogues",
+    "we",
+    "dialogue",
+    "shot",
+    "training",
+    "translation",
+    "it",
+    "a bottom-up manner",
+    "word",
+    "learning",
+    "task-oriented dialogues",
+    "analysis",
+    "a language model"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.131/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:37",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

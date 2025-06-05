@@ -1,0 +1,33 @@
+{
+  "id": "P19-1418",
+  "title": "A}da{NSP}: Uncertainty-driven Adaptive Decoding in Neural Semantic Parsing",
+  "authors": [
+    "Zhang, Xiang  and\nHe, Shizhu  and\nLiu, Kang  and\nZhao, Jun"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Neural semantic parsers utilize the encoder-decoder framework to learn an end-to-end model for semantic parsing that transduces a natural language sentence to the formal semantic representation. To keep the model aware of the underlying grammar in target sequences, many constrained decoders were devised in a multi-stage paradigm, which decode to the sketches or abstract syntax trees first, and then decode to target semantic tokens. We instead to propose an adaptive decoding method to avoid such intermediate representations. The decoder is guided by model uncertainty and automatically uses deeper computations when necessary. Thus it can predict tokens adaptively. Our model outperforms the state-of-the-art neural models and does not need any expertise like predefined grammar or sketches in the meantime.",
+  "keywords": [
+    "parsing",
+    "end",
+    "language",
+    "neural",
+    "natural",
+    "the decoder",
+    "many constrained decoders",
+    "it",
+    "the encoder-decoder framework",
+    "model",
+    "encoder",
+    "decoder",
+    "abstract syntax trees",
+    "semantic tokens",
+    "the formal semantic representation"
+  ],
+  "url": "https://aclanthology.org/P19-1418/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:40:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

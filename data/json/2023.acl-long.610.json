@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.610",
+  "title": "Semantic Structure Enhanced Event Causality Identification",
+  "authors": [
+    "Hu, Zhilei  and\nLi, Zixuan  and\nJin, Xiaolong  and\nBai, Long  and\nGuan, Saiping  and\nGuo, Jiafeng  and\nCheng, Xueqi"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Event Causality Identification (ECI) aims to identify causal relations between events in unstructured texts. This is a very challenging task, because causal relations are usually expressed by implicit associations between events. Existing methods usually capture such associations by directly modeling the texts with pre-trained language models, which underestimate two kinds of semantic structures vital to the ECI task, namely, event-centric structure and event-associated structure. The former includes important semantic elements related to the events to describe them more precisely, while the latter contains semantic paths between two events to provide possible supports for ECI. In this paper, we study the implicit associations between events by modeling the above explicit semantic structures, and propose a Semantic Structure Integration model (SemSIn).It utilizes a GNN-based event aggregator to integrate the event-centric structure information, and employs an LSTM-based path aggregator to capture the event-associated structure information between two events. Experimental results on three widely used datasets show that SemSIn achieves significant improvements over baseline methods.",
+  "keywords": [
+    "semantic",
+    "semantic paths",
+    "we",
+    "lstm",
+    "pre-trained language models",
+    "it",
+    "eci",
+    "information",
+    "semantic structures",
+    "language",
+    "an lstm-based path aggregator",
+    "model",
+    "important semantic elements",
+    "semantic structure",
+    "pre"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.610/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:43:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

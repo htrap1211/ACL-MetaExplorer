@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.402",
+  "title": "Interpretable Automatic Fine-grained Inconsistency Detection in Text Summarization",
+  "authors": [
+    "Chan, Hou Pong  and\nZeng, Qi  and\nJi, Heng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Existing factual consistency evaluation approaches for text summarization provide binary predictions and limited insights into the weakness of summarization systems. Therefore, we propose the task of fine-grained inconsistency detection, the goal of which is to predict the fine-grained types of factual errors in a summary. Motivated by how humans inspect factual inconsistency in summaries, we propose an interpretable fine-grained inconsistency detection model, FineGrainFact, which explicitly represents the facts in the documents and summaries with semantic frames extracted by semantic role labeling, and highlights the related semantic frames to predict inconsistency. The highlighted semantic frames help verify predicted error types and correct inconsistent summaries. Experiment results demonstrate that our model outperforms strong baselines and provides evidence to support or refute the summary.",
+  "keywords": [
+    "summaries",
+    "the related semantic frames",
+    "semantic role labeling",
+    "model",
+    "text",
+    "the highlighted semantic frames",
+    "text summarization",
+    "semantic frames",
+    "semantic",
+    "summarization",
+    "we",
+    "evaluation",
+    "summarization systems",
+    "fine-grained inconsistency detection",
+    "documents"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.402/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:14:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

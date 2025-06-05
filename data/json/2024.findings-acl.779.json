@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.779",
+  "title": "Extracting Polymer Nanocomposite Samples from Full-Length Documents",
+  "authors": [
+    "Khalighinejad, Ghazal  and\nCirci, Defne  and\nBrinson, L.  and\nDhingra, Bhuwan"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "This paper investigates the use of large language models (LLMs) for extracting sample lists of polymer nanocomposites (PNCs) from full-length materials science research papers. The challenge lies in the complex nature of PNC samples, which have numerous attributes scattered throughout the text. The complexity of annotating detailed information on PNCs limits the availability of data, making conventional document-level relation extraction techniques impractical due to the challenge in creating comprehensive named entity span annotations.To address this, we introduce a new benchmark and an evaluation technique for this task and explore different prompting strategies in a zero-shot manner. We also incorporate self-consistency to improve the performance. Our findings show that even advanced LLMs struggle to extract all of the samples from an article. Finally, we analyze the errors encountered in this process, categorizing them into three main challenges, and discuss potential strategies for future research to overcome them.",
+  "keywords": [
+    "extraction",
+    "a zero-shot manner",
+    "different prompting strategies",
+    "all",
+    "we",
+    "shot",
+    "even advanced llms",
+    "self",
+    "an evaluation technique",
+    "information",
+    "potential strategies",
+    "science",
+    "manner",
+    "llms",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.779/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:59:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

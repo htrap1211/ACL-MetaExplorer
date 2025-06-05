@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.67",
+  "title": "D}eakin{NLP} at {B}io{L}ay{S}umm: Evaluating Fine-tuning Longformer and {GPT}-4 Prompting for Biomedical Lay Summarization",
+  "authors": [
+    "To, Huy Quoc  and\nLiu, Ming  and\nHuang, Guangyan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "This paper presents our approaches for the BioLaySumm 2024 Shared Task. We evaluate two methods for generating lay summaries based on biomedical articles: (1) fine-tuning the Longformer-Encoder-Decoder (LED) model, and (2) zero-shot and few-shot prompting on GPT-4. In the fine-tuning approach, we individually fine-tune the LED model using two datasets: PLOS and eLife. This process is conducted under two different settings: one utilizing 50% of the training dataset, and the other utilizing the entire 100% of the training dataset. We compare the results of both methods with GPT-4 in zero-shot and few-shot prompting. The experiment results demonstrate that fine-tuning with 100% of the training data achieves better performance than prompting with GPT-4. However, under data scarcity circumstances, prompting GPT-4 seems to be a better solution.",
+  "keywords": [
+    "tuning",
+    "process",
+    "summaries",
+    "few-shot",
+    "nlp",
+    "model",
+    "2 zero-shot",
+    "lay summaries",
+    "the longformer-encoder-decoder led model",
+    "encoder",
+    "umm",
+    "decoder",
+    "zero-shot",
+    "fine-tuning longformer",
+    "gpt-4"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.67/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

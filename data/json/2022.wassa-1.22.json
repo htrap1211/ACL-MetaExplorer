@@ -1,0 +1,33 @@
+{
+  "id": "2022.wassa-1.22",
+  "title": "Continuing Pre-trained Model with Multiple Training Strategies for Emotional Classification",
+  "authors": [
+    "Li, Bin  and\nWeng, Yixuan  and\nSong, Qiya  and\nSun, Bin  and\nLi, Shutao"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 12th Workshop on Computational Approaches to Subjectivity, Sentiment {\\&} Social Media Analysis",
+  "abstract": "Emotion is the essential attribute of human beings. Perceiving and understanding emotions in a human-like manner is the most central part of developing emotional intelligence. This paper describes the contribution of the LingJing team’s method to the Workshop on Computational Approaches to Subjectivity, Sentiment & Social Media Analysis (WASSA) 2022 shared task on Emotion Classification. The participants are required to predict seven emotions from empathic responses to news or stories that caused harm to individuals, groups, or others. This paper describes the continual pre-training method for the masked language model (MLM) to enhance the DeBERTa pre-trained language model. Several training strategies are designed to further improve the final downstream performance including the data augmentation with the supervised transfer, child-tuning training, and the late fusion method. Extensive experiments on the emotional classification dataset show that the proposed method outperforms other state-of-the-art methods, demonstrating our method’s effectiveness. Moreover, our submission ranked Top-1 with all metrics in the evaluation phase for the Emotion Classification task.",
+  "keywords": [
+    "deberta",
+    "fusion",
+    "the emotional classification dataset",
+    "training",
+    "classification",
+    "several training strategies",
+    "transfer",
+    "the emotion classification task",
+    "analysis",
+    "manner",
+    "the continual pre-training method",
+    "the evaluation phase",
+    "metrics",
+    "strategies",
+    "emotion classification"
+  ],
+  "url": "https://aclanthology.org/2022.wassa-1.22/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:46:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

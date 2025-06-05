@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.83",
+  "title": "A {DQN}-based Approach to Finding Precise Evidences for Fact Verification",
+  "authors": [
+    "Wan, Hai  and\nChen, Haicheng  and\nDu, Jianfeng  and\nLuo, Weilin  and\nYe, Rongzhen"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Computing precise evidences, namely minimal sets of sentences that support or refute a given claim, rather than larger evidences is crucial in fact verification (FV), since larger evidences may contain conflicting pieces some of which support the claim while the other refute, thereby misleading FV. Despite being important, precise evidences are rarely studied by existing methods for FV. It is challenging to find precise evidences due to a large search space with lots of local optimums. Inspired by the strong exploration ability of the deep Q-learning network (DQN), we propose a DQN-based approach to retrieval of precise evidences. In addition, to tackle the label bias on Q-values computed by DQN, we design a post-processing strategy which seeks best thresholds for determining the true labels of computed evidences. Experimental results confirm the effectiveness of DQN in computing precise evidences and demonstrate improvements in achieving accurate claim verification.",
+  "keywords": [
+    "deep",
+    "the label bias",
+    "bias",
+    "we",
+    "it",
+    "retrieval",
+    "pieces",
+    "processing",
+    "conflicting pieces",
+    "network",
+    "approach",
+    "larger",
+    "a dqn-based approach",
+    "effectiveness",
+    "fact verification fv"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.83/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:00:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

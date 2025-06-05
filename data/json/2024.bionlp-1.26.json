@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.26",
+  "title": "Generation and De-Identification of {I}ndian Clinical Discharge Summaries using {LLM}s",
+  "authors": [
+    "Singh, Sanjeet  and\nGupta, Shreya  and\nGupta, Niralee  and\nSharma, Naimish  and\nSrivastava, Lokesh  and\nAgarwal, Vibhu  and\nModi, Ashutosh"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "The consequences of a healthcare data breach can be devastating for the patients, providers, and payers. The average financial impact of a data breach in recent months has been estimated to be close to USD 10 million. This is especially significant for healthcare organizations in India that are managing rapid digitization while still establishing data governance procedures that align with the letter and spirit of the law. Computer-based systems for de-identification of personal information are vulnerable to data drift, often rendering them ineffective in cross-institution settings. Therefore, a rigorous assessment of existing de-identification against local health datasets is imperative to support the safe adoption of digital health initiatives in India. Using a small set of de-identified patient discharge summaries provided by an Indian healthcare institution, in this paper, we report the nominal performance of de-identification algorithms (based on language models) trained on publicly available non-Indian datasets, pointing towards a lack of cross-institutional generalization. Similarly, experimentation with off-the-shelf de-identification systems reveals potential risks associated with the approach. To overcome data scarcity, we explore generating synthetic clinical reports (using publicly available and Indian summaries) by performing in-context learning over Large Language Models (LLMs). Our experiments demonstrate the use of generated reports as an effective strategy for creating high-performing de-identification systems with good generalization capabilities.",
+  "keywords": [
+    "cross-institutional generalization",
+    "the patients providers",
+    "we",
+    "llm",
+    "cross",
+    "de",
+    "patients",
+    "information",
+    "learning",
+    "vulnerable",
+    "good generalization capabilities",
+    "language models",
+    "-",
+    "generalization",
+    "identified"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.26/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

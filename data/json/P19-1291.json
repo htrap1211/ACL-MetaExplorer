@@ -1,0 +1,33 @@
+{
+  "id": "P19-1291",
+  "title": "Robust Neural Machine Translation with Joint Textual and Phonetic Embedding",
+  "authors": [
+    "Liu, Hairong  and\nMa, Mingbo  and\nHuang, Liang  and\nXiong, Hao  and\nHe, Zhongjun"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Neural machine translation (NMT) is notoriously sensitive to noises, but noises are almost inevitable in practice. One special kind of noise is thehomophone noise, where words are replaced by other words with similar pronunciations. We propose to improve the robustness of NMT to homophone noises by 1) jointly embedding both textual and phonetic information of source sentences, and 2) augmenting the training dataset with homophone noises. Interestingly, to achieve better translation quality and more robustness, we found that most (though not all) weights should be put on the phonetic rather than textual information. Experiments show that our method not only significantly improves the robustness of NMT to homophone noises, but also surprisingly improves the translation quality on some clean test sets.",
+  "keywords": [
+    "better translation quality",
+    "robust neural machine translation",
+    "neural",
+    "machine",
+    "the translation quality",
+    "information",
+    "we",
+    "training",
+    "translation",
+    "the training dataset",
+    "phonetic",
+    "more robustness",
+    "weights",
+    "practice",
+    "words"
+  ],
+  "url": "https://aclanthology.org/P19-1291/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:37:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.143",
+  "title": "AVATAR}: A Parallel Corpus for {J}ava-Python Program Translation",
+  "authors": [
+    "Ahmad, Wasi Uddin  and\nTushar, Md Golam Rahman  and\nChakraborty, Saikat  and\nChang, Kai-Wei"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Program translation refers to migrating source code from one programming language to another. It has tremendous practical value in software development, as porting software across languages is time-consuming and costly. Automating program translation is of paramount importance in software migration, and recently researchers explored unsupervised approaches due to the unavailability of parallel corpora. However, the availability of pre-trained language models for programming languages enables supervised fine-tuning with a small number of labeled examples. Therefore, we present AVATAR, a collection of 9,515 programming problems and their solutions written in two popular languages, Java and Python. AVATAR is collected from competitive programming sites, online platforms, and open-source repositories. Furthermore, AVATAR includes unit tests for 250 examples to facilitate functional correctness evaluation. We benchmark several pre-trained language models fine-tuned on AVATAR. Experiment results show that the models lack in generating functionally accurate code.",
+  "keywords": [
+    "code",
+    "open-source repositories",
+    "we",
+    "translation",
+    "repositories",
+    "pre-trained language models",
+    "it",
+    "fine",
+    "functional correctness evaluation",
+    "language",
+    "several pre-trained language models",
+    "pre",
+    "evaluation",
+    "time",
+    "automating"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.143/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.512",
+  "title": "Synthetic Pre-Training Tasks for Neural Machine Translation",
+  "authors": [
+    "He, Zexue  and\nBlackwood, Graeme  and\nPanda, Rameswar  and\nMcAuley, Julian  and\nFeris, Rogerio"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Pre-training models with large crawled corpora can lead to issues such as toxicity and bias, as well as copyright and privacy concerns. A promising way of alleviating such concerns is to conduct pre-training with synthetic tasks and data, since no real-world information is ingested by the model. Our goal in this paper is to understand the factors that contribute to the effectiveness of pre-training models when using synthetic resources, particularly in the context of neural machine translation. We propose several novel approaches to pre-training translation models that involve different levels of lexical and structural knowledge, including: 1) generating obfuscated data from a large parallel corpus 2) concatenating phrase pairs extracted from a small word-aligned corpus, and 3) generating synthetic parallel data without real human language corpora. Our experiments on multiple language pairs reveal that pre-training benefits can be realized even with high levels of obfuscation or purely synthetic parallel data. We hope the findings from our comprehensive empirical analysis will shed light on understanding what matters for NMT pre-training, as well as pave the way for the development of more efficient and less toxic models.",
+  "keywords": [
+    "bias",
+    "efficient",
+    "neural machine translation",
+    "we",
+    "1 generating obfuscated data",
+    "pre-training benefits",
+    "translation",
+    "training",
+    "neural",
+    "information",
+    "pre-training models",
+    "word",
+    "analysis",
+    "synthetic pre-training tasks",
+    "-"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.512/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:15:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

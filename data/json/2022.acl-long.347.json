@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.347",
+  "title": "Pass off Fish Eyes for Pearls: Attacking Model Selection of Pre-trained Models",
+  "authors": [
+    "Zhu, Biru  and\nQin, Yujia  and\nQi, Fanchao  and\nDeng, Yangdong  and\nLiu, Zhiyuan  and\nSun, Maosong  and\nGu, Ming"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Selecting an appropriate pre-trained model (PTM) for a specific downstream task typically requires significant efforts of fine-tuning. To accelerate this process, researchers propose feature-based model selection (FMS) methods, which assess PTMs’ transferability to a specific task in a fast way without fine-tuning. In this work, we argue that current FMS methods are vulnerable, as the assessment mainly relies on the static features extracted from PTMs. However, such features are derived without training PTMs on downstream tasks, and are not necessarily reliable indicators for the PTM’s transferability. To validate our viewpoints, we design two methods to evaluate the robustness of FMS: (1) model disguise attack, which post-trains an inferior PTM with a contrastive objective, and (2) evaluation data selection, which selects a subset of the data points for FMS evaluation based on K-means clustering. Experimental results prove that both methods can successfully make FMS mistakenly judge the transferability of PTMs. Moreover, we find that these two methods can further be combined with the backdoor attack to misguide the FMS to select poisoned models. To the best of our knowledge, this is the first work to demonstrate the defects of current FMS algorithms and evaluate their potential security risks. By identifying previously unseen risks of FMS, our study indicates new directions for improving the robustness of FMS.",
+  "keywords": [
+    "we",
+    "current",
+    "means",
+    "fine-tuning",
+    "a contrastive objective",
+    "our viewpoints",
+    "2 evaluation data selection",
+    "vulnerable",
+    "tuning",
+    "objective",
+    "viewpoints",
+    "fine",
+    "k-means clustering experimental results",
+    "fast",
+    "work"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.347/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:28:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

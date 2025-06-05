@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.265",
+  "title": "CUE} Vectors: Modular Training of Language Models Conditioned on Diverse Contextual Signals",
+  "authors": [
+    "Novotney, Scott  and\nMukherjee, Sreeparna  and\nAhmed, Zeeshan  and\nStolcke, Andreas"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "We propose a framework to modularize the training of neural language models that use diverse forms of context by eliminating the need to jointly train context and within-sentence encoders. Our approach, contextual universal embeddings (CUE), trains LMs on one type of contextual data and adapts to novel context types. The model consists of a pretrained neural sentence LM, a BERT-based contextual encoder, and a masked transfomer decoder that estimates LM probabilities using sentence-internal and contextual evidence. When contextually annotated data is unavailable, our model learns to combine contextual and sentence-internal information using noisy oracle unigram embeddings as a proxy. Real context data can be introduced later and used to adapt a small number of parameters that map contextual data into the decoder’s embedding space. We validate the CUE framework on a NYTimes text corpus with multiple metadata types, for which the LM perplexity can be lowered from 36.6 to 27.4 by conditioning on context. Bootstrapping a contextual LM with only a subset of the metadata during training retains 85% of the achievable gain. Training the model initially with proxy context retains 67% of the perplexity gain after adapting to real context. Furthermore, we can swap one type of pretrained sentence LM for another without retraining the context encoders, by only adapting the decoder model. Overall, we obtain a modular framework that allows incremental, scalable training of context-enhanced LMs.",
+  "keywords": [
+    "a masked transfomer decoder",
+    "the lm perplexity",
+    "contextual universal embeddings",
+    "achievable",
+    "the decoder",
+    "we",
+    "neural language models",
+    "training",
+    "neural",
+    "noisy oracle unigram embeddings",
+    "decoder",
+    "information",
+    "the decoder model",
+    "the achievable gain",
+    "bert"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.265/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

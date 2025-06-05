@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.265",
+  "title": "An Ordinal Latent Variable Model of Conflict Intensity",
+  "authors": [
+    "Stoehr, Niklas  and\nTorroba Hennigen, Lucas  and\nValvoda, Josef  and\nWest, Robert  and\nCotterell, Ryan  and\nSchein, Aaron"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Measuring the intensity of events is crucial for monitoring and tracking armed conflict. Advances in automated event extraction have yielded massive data sets of “who did what to whom” micro-records that enable data-driven approaches to monitoring conflict. The Goldstein scale is a widely-used expert-based measure that scores events on a conflictual–cooperative scale. It is based only on the action category (“what”) and disregards the subject (“who”) and object (“to whom”) of an event, as well as contextual information, like associated casualty count, that should contribute to the perception of an event’s “intensity”. This paper takes a latent variable-based approach to measuring conflict intensity. We introduce a probabilistic generative model that assumes each observed event is associated with a latent intensity class. A novel aspect of this model is that it imposes an ordering on the classes, such that higher-valued classes denote higher levels of intensity. The ordinal nature of the latent variable is induced from naturally ordered aspects of the data (e.g., casualty counts) where higher values naturally indicate higher intensity. We evaluate the proposed model both intrinsically and extrinsically, showing that it obtains comparatively good held-out predictive performance.",
+  "keywords": [
+    "extraction",
+    "a probabilistic generative model",
+    "we",
+    "it",
+    "information",
+    "latent",
+    "generative",
+    "object",
+    "-",
+    "action",
+    "model",
+    "class",
+    "approach",
+    "probabilistic",
+    "massive data sets"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.265/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:39:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

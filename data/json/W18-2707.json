@@ -1,0 +1,33 @@
+{
+  "id": "W18-2707",
+  "title": "Enhancement of Encoder and Attention Using Target Monolingual Corpora in Neural Machine Translation",
+  "authors": [
+    "Imamura, Kenji  and\nFujita, Atsushi  and\nSumita, Eiichiro"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 2nd Workshop on Neural Machine Translation and Generation",
+  "abstract": "A large-scale parallel corpus is required to train encoder-decoder neural machine translation. The method of using synthetic parallel texts, in which target monolingual corpora are automatically translated into source sentences, is effective in improving the decoder, but is unreliable for enhancing the encoder. In this paper, we propose a method that enhances the encoder and attention using target monolingual corpora by generating multiple source sentences via sampling. By using multiple source sentences, diversity close to that of humans is achieved. Our experimental results show that the translation quality is improved by increasing the number of synthetic source sentences for each given target sentence, and quality close to that using a manually created parallel corpus was achieved.",
+  "keywords": [
+    "the encoder",
+    "neural",
+    "the decoder",
+    "machine",
+    "neural machine translation",
+    "encoder",
+    "decoder",
+    "the translation quality",
+    "attention",
+    "we",
+    "encoder-decoder neural machine translation",
+    "translation",
+    "that",
+    "unreliable",
+    "texts"
+  ],
+  "url": "https://aclanthology.org/W18-2707/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:23:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

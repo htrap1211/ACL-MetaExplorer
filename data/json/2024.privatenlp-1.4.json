@@ -1,0 +1,33 @@
+{
+  "id": "2024.privatenlp-1.4",
+  "title": "Protecting Privacy in Classifiers by Token Manipulation",
+  "authors": [
+    "Harel, Re{'}em  and\nElboher, Yair  and\nPinter, Yuval"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the Fifth Workshop on Privacy in Natural Language Processing",
+  "abstract": "Using language models as a remote service entails sending private information to an untrusted provider. In addition, potential eavesdroppers can intercept the messages, thereby exposing the information. In this work, we explore the prospects of avoiding such data exposure at the level of text manipulation. We focus on text classification models, examining various token mapping and contextualized manipulation functions in order to see whether classifier accuracy may be maintained while keeping the original text unrecoverable. We find that although some token mapping functions are easy and straightforward to implement, they heavily influence performance on the downstream task, and via a sophisticated attacker can be reconstructed. In comparison, the contextualized manipulation provides an improvement in performance.",
+  "keywords": [
+    "work",
+    "accuracy",
+    "language",
+    "classifier",
+    "text",
+    "text classification models",
+    "classifiers",
+    "language models",
+    "token",
+    "information",
+    "we",
+    "classifier accuracy",
+    "classification",
+    "manipulation",
+    "this work"
+  ],
+  "url": "https://aclanthology.org/2024.privatenlp-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:09:03",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

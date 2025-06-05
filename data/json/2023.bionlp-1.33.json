@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.33",
+  "title": "Distantly Supervised Document-Level Biomedical Relation Extraction with Neighborhood Knowledge Graphs",
+  "authors": [
+    "Matsubara, Takuma  and\nMiwa, Makoto  and\nSasaki, Yutaka"
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "We propose a novel distantly supervised document-level biomedical relation extraction model that uses partial knowledge graphs that include the graph neighborhood of the entities appearing in each input document. Most conventional distantly supervised relation extraction methods use only the entity relations automatically annotated by using knowledge base entries. They do not fully utilize the rich information in the knowledge base, such as entities other than the target entities and the network of heterogeneous entities defined in the knowledge base. To address this issue, our model integrates the representations of the entities acquired from the neighborhood knowledge graphs with the representations of the input document. We conducted experiments on the ChemDisGene dataset using Comparative Toxicogenomics Database (CTD) for document-level relation extraction with respect to interactions between drugs, diseases, and genes. Experimental results confirmed the performance improvement by integrating entities and their neighborhood biochemical information from the knowledge base.",
+  "keywords": [
+    "knowledge",
+    "extraction",
+    "model",
+    "entities",
+    "heterogeneous entities",
+    "entries",
+    "information",
+    "the neighborhood knowledge graphs",
+    "the target entities",
+    "rich",
+    "network",
+    "we",
+    "neighborhood knowledge graphs",
+    "graph",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.33/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

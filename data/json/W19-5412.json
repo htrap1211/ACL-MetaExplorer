@@ -1,0 +1,33 @@
+{
+  "id": "W19-5412",
+  "title": "Transformer-based Automatic Post-Editing Model with Joint Encoder and Multi-source Attention of Decoder",
+  "authors": [
+    "Lee, WonKee  and\nShin, Jaehun  and\nLee, Jong-Hyeok"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 3: Shared Task Papers, Day 2)",
+  "abstract": "This paper describes POSTECH’s submission to the WMT 2019 shared task on Automatic Post-Editing (APE). In this paper, we propose a new multi-source APE model by extending Transformer. The main contributions of our study are that we 1) reconstruct the encoder to generate a joint representation of translation (mt) and its src context, in addition to the conventional src encoding and 2) suggest two types of multi-source attention layers to compute attention between two outputs of the encoder and the decoder state in the decoder. Furthermore, we train our model by applying various teacher-forcing ratios to alleviate exposure bias. Finally, we adopt the ensemble technique across variations of our model. Experiments on the WMT19 English-German APE data set show improvements in terms of both TER and BLEU scores over the baseline. Our primary submission achieves -0.73 in TER and +1.49 in BLEU compare to the baseline.",
+  "keywords": [
+    "translation mt",
+    "bias",
+    "the ensemble technique",
+    "the decoder",
+    "the decoder state",
+    "bleu",
+    "we",
+    "translation",
+    "ensemble",
+    "the encoder",
+    "multi-source attention layers",
+    "decoder",
+    "ter",
+    "bleu scores",
+    "joint encoder"
+  ],
+  "url": "https://aclanthology.org/W19-5412/",
+  "provenance": {
+    "collected_at": "2025-06-05 02:09:04",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.americasnlp-1.7",
+  "title": "Fine-tuning Sentence-{R}o{BERT}a to Construct Word Embeddings for Low-resource Languages from Bilingual Dictionaries",
+  "authors": [
+    "Bear, Diego  and\nCook, Paul"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the Workshop on Natural Language Processing for Indigenous Languages of the Americas (AmericasNLP)",
+  "abstract": "Conventional approaches to learning word embeddings (Mikolov et al., 2013; Pennington et al., 2014) are limited to relatively few languages with sufficiently large training corpora. To address this limitation, we propose an alternative approach to deriving word embeddings for Wolastoqey and Mi’kmaq that leverages definitions from a bilingual dictionary. More specifically, following Bear and Cook (2022), we experiment with encoding English definitions of Wolastoqey and Mi’kmaq words into vector representations using English sequence representation models. For this, we consider using and finetuning sentence-RoBERTa models (Reimers and Gurevych, 2019). We evaluate our word embeddings using a similar methodology to that of Bear and Cook using evaluations based on word classification, clustering and reverse dictionary search. We additionally construct word embeddings for higher-resource languages English, German and Spanishusing our methods and evaluate our embeddings on existing word-similarity datasets. Our findings indicate that our word embedding methods can be used to produce meaningful vector representations for low-resource languages such as Wolastoqey and Mi’kmaq and for higher-resource languages.",
+  "keywords": [
+    "roberta",
+    "our embeddings",
+    "we",
+    "meaningful vector representations",
+    "embedding methods",
+    "our word embeddings",
+    "training",
+    "classification",
+    "word",
+    "sequence",
+    "tuning",
+    "vector",
+    "sufficiently large training corpora",
+    "bert",
+    "word embeddings"
+  ],
+  "url": "https://aclanthology.org/2023.americasnlp-1.7/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:21:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

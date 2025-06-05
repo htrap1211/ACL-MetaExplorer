@@ -1,0 +1,33 @@
+{
+  "id": "P19-1647",
+  "title": "Symbolic Inductive Bias for Visually Grounded Learning of Spoken Language",
+  "authors": [
+    "Chrupa{\\l}a, Grzegorz"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "A widespread approach to processing spoken language is to first automatically transcribe it into text. An alternative is to use an end-to-end approach: recent works have proposed to learn semantic embeddings of spoken language from images with spoken captions, without an intermediate transcription step. We propose to use multitask learning to exploit existing transcribed speech within the end-to-end setting. We describe a three-task architecture which combines the objectives of matching spoken captions with corresponding images, speech with text, and text with images. We show that the addition of the speech/text task leads to substantial performance improvements on image retrieval when compared to training the speech/image task in isolation. We conjecture that this is due to a strong inductive bias transcribed speech provides to the model, and offer supporting evidence for this.",
+  "keywords": [
+    "embeddings",
+    "processing",
+    "bias",
+    "end",
+    "language",
+    "objectives",
+    "model",
+    "semantic embeddings",
+    "text",
+    "it",
+    "retrieval",
+    "semantic",
+    "image retrieval",
+    "we",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/P19-1647/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:47:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

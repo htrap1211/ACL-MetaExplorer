@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.95",
+  "title": "Pseudo Outlier Exposure for Out-of-Distribution Detection using Pretrained Transformers",
+  "authors": [
+    "Kim, Jaeyoung  and\nJung, Kyuheon  and\nNa, Dongbin  and\nJang, Sion  and\nPark, Eunbin  and\nChoi, Sungchul"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "For real-world language applications, detecting an out-of-distribution (OOD) sample is helpful to alert users or reject such unreliable samples. However, modern over-parameterized language models often produce overconfident predictions for both in-distribution (ID) and OOD samples. In particular, language models suffer from OOD samples with a similar semantic representation to ID samples since these OOD samples lie near the ID manifold.A rejection network can be trained with ID and diverse outlier samples to detect test OOD samples, but explicitly collecting auxiliary OOD datasets brings an additional burden for data collection. In this paper, we propose a simple but effective method called Pseudo Outlier Exposure (POE) that constructs a surrogate OOD dataset by sequentially masking tokens related to ID classes. The surrogate OOD sample introduced by POE shows a similar representation to ID data, which is most effective in training a rejection network. Our method does not require any external OOD data and can be easily implemented within off-the-shelf Transformers.A comprehensive comparison with state-of-the-art algorithms demonstrates POE’s competitiveness on several text classification benchmarks.",
+  "keywords": [
+    "transformers",
+    "modern over-parameterized language models",
+    "semantic",
+    "we",
+    "classification",
+    "pretrained transformers",
+    "outlier",
+    "pseudo outlier exposure poe",
+    "a similar semantic representation",
+    "i",
+    "text",
+    "pseudo outlier exposure",
+    "d",
+    "diverse outlier samples",
+    "particular language models"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.95/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

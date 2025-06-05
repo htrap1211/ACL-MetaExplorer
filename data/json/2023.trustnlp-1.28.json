@@ -1,0 +1,33 @@
+{
+  "id": "2023.trustnlp-1.28",
+  "title": "Strength in Numbers: Estimating Confidence of Large Language Models by Prompt Agreement",
+  "authors": [
+    "Portillo Wightman, Gwenyth  and\nDelucia, Alexandra  and\nDredze, Mark"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 3rd Workshop on Trustworthy Natural Language Processing (TrustNLP 2023)",
+  "abstract": "Large language models have achieved impressive few-shot performance on a wide variety of tasks. However, in many settings, users require confidence estimates for model predictions. While traditional classifiers produce scores for each label, language models instead produce scores for the generation which may not be well calibrated. We compare generations across diverse prompts and show that these can be used to create confidence scores. By utilizing more prompts we can get more precise confidence estimates and use response diversity as a proxy for confidence. We evaluate this approach across ten multiple-choice question-answering datasets using three models: T0, FLAN-T5, and GPT-3. In addition to analyzing multiple human written prompts, we automatically generate more prompts using a language model in order to produce finer-grained confidence estimates. Our method produces more calibrated confidence estimates compared to the log probability of the answer to a single prompt. These improvements could benefit users who rely on prediction confidence for integration into a larger system or in decision-making processes.",
+  "keywords": [
+    "variety",
+    "finer",
+    "a single prompt",
+    "finer-grained confidence",
+    "classifiers",
+    "the generation",
+    "question",
+    "we",
+    "more prompts",
+    "a wide variety",
+    "shot",
+    "multiple human written prompts",
+    "answer",
+    "gpt-3",
+    "diverse prompts"
+  ],
+  "url": "https://aclanthology.org/2023.trustnlp-1.28/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:32:54",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

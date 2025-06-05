@@ -1,0 +1,33 @@
+{
+  "id": "2022.insights-1.24",
+  "title": "BPE} beyond Word Boundary: How {NOT} to use Multi Word Expressions in Neural Machine Translation",
+  "authors": [
+    "Kumar, Dipesh  and\nThawani, Avijit"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Third Workshop on Insights from Negative Results in NLP",
+  "abstract": "BPE tokenization merges characters into longer tokens by finding frequently occurringcontiguouspatternswithinthe word boundary. An intuitive relaxation would be to extend a BPE vocabulary with multi-word expressions (MWEs): bigrams (in_a), trigrams (out_of_the), and skip-grams (he . his). In the context of Neural Machine Translation (NMT), we replace the least frequent subword/whole-word tokens with the most frequent MWEs. We find that these modifications to BPE end up hurting the model, resulting in a net drop of BLEU and chrF scores across two language pairs. We observe that naively extending BPE beyond word boundaries results in incoherent tokens which are themselves better represented as individual words. Moreover, we find that Pointwise Mutual Information (PMI) instead of frequency finds better MWEs (e.g.,New_York,Statue_of_Liberty,neither . nor) which consistently improves translation performance.We release all code athttps://github.com/pegasus-lynx/mwe-bpe.",
+  "keywords": [
+    "code",
+    "bleu",
+    "we",
+    "translation",
+    "neural",
+    "net",
+    "information",
+    "word",
+    "tokenization",
+    "drop",
+    "word boundaries results",
+    "bleu and chrf scores",
+    "language",
+    "model",
+    "machine"
+  ],
+  "url": "https://aclanthology.org/2022.insights-1.24/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

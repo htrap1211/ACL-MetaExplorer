@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.320",
+  "title": "A Retrieve-and-Rewrite Initialization Method for Unsupervised Machine Translation",
+  "authors": [
+    "Ren, Shuo  and\nWu, Yu  and\nLiu, Shujie  and\nZhou, Ming  and\nMa, Shuai"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "The commonly used framework for unsupervised machine translation builds initial translation models of both translation directions, and then performs iterative back-translation to jointly boost their translation performance. The initialization stage is very important since bad initialization may wrongly squeeze the search space, and too much noise introduced in this stage may hurt the final performance. In this paper, we propose a novel retrieval and rewriting based method to better initialize unsupervised translation models. We first retrieve semantically comparable sentences from monolingual corpora of two languages and then rewrite the target side to minimize the semantic gap between the source and retrieved targets with a designed rewriting model. The rewritten sentence pairs are used to initialize SMT models which are used to generate pseudo data for two NMT models, followed by the iterative back-translation. Experiments show that our method can build better initial unsupervised translation models and improve the final translation performance by over 4 BLEU scores. Our code is released athttps://github.com/Imagist-Shuo/RRforUNMT.git.",
+  "keywords": [
+    "code",
+    "retrieve",
+    "bleu",
+    "initial translation models",
+    "a retrieve-and-rewrite initialization method",
+    "semantic",
+    "we",
+    "a novel retrieval",
+    "the final translation performance",
+    "translation",
+    "unsupervised machine translation",
+    "retrieval",
+    "back-translation",
+    "their translation performance",
+    "over 4 bleu"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.320/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:46:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.796",
+  "title": "Reinforcement Tuning for Detecting Stances and Debunking Rumors Jointly with Large Language Models",
+  "authors": [
+    "Yang, Ruichao  and\nGao, Wei  and\nMa, Jing  and\nLin, Hongzhan  and\nWang, Bo"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Learning multi-task models for jointly detecting stance and verifying rumors poses challenges due to the need for training data of stance at post level and rumor veracity at claim level, which are difficult to obtain. To address this issue, we leverage large language models (LLMs) as the foundation annotators for the joint stance detection (SD) and rumor verification (RV) tasks, dubbed as JSDRV. We introduce a novel reinforcement tuning framework to enhance the joint predictive capabilities of LLM-based SD and RV components. Specifically, we devise a policy for selecting LLM-annotated data at the two levels, employing a hybrid reward mechanism to choose high-quality labels for effective LLM fine-tuning on both tasks. Results demonstrate that JSDRV improves the capabilities of LLMs in the joint tasks, not only outperforming state-of-the-art methods but also generalizing to non-LLMs accommodated as task models.",
+  "keywords": [
+    "effective llm fine-tuning",
+    "tuning",
+    "reinforcement",
+    "language",
+    "large language models",
+    "-",
+    "the joint predictive capabilities",
+    "capabilities",
+    "fine",
+    "llm-annotated data",
+    "we",
+    "the capabilities",
+    "llm",
+    "training",
+    "llms"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.796/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:59:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

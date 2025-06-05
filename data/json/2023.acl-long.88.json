@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.88",
+  "title": "Vision Meets Definitions: Unsupervised Visual Word Sense Disambiguation Incorporating Gloss Information",
+  "authors": [
+    "Kwon, Sunjae  and\nGarodia, Rishabh  and\nLee, Minhwa  and\nYang, Zhichao  and\nYu, Hong"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Visual Word Sense Disambiguation (VWSD) is a task to find the image that most accurately depicts the correct sense of the target word for the given context. Previously, image-text matching models often suffered from recognizing polysemous words. This paper introduces an unsupervised VWSD approach that uses gloss information of an external lexical knowledge-base, especially the sense definitions. Specifically, we suggest employing Bayesian inference to incorporate the sense definitions when sense information of the answer is not provided. In addition, to ameliorate the out-of-dictionary (OOD) issue, we propose a context-aware definition generation with GPT-3. Experimental results show that the VWSD performance significantly increased with our Bayesian inference-based approach. In addition, our context-aware definition generation achieved prominent performance improvement in OOD examples exhibiting better performance than the existing definition generation method.",
+  "keywords": [
+    "knowledge",
+    "answer",
+    "our context-aware definition generation",
+    "generation",
+    "text",
+    "information",
+    "we",
+    "word",
+    "visual",
+    "a context-aware definition generation",
+    "that",
+    "the sense definitions",
+    "base",
+    "approach",
+    "disambiguation"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.88/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:36:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

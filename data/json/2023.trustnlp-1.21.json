@@ -1,0 +1,33 @@
+{
+  "id": "2023.trustnlp-1.21",
+  "title": "GPT}s Don{'}t Keep Secrets: Searching for Backdoor Watermark Triggers in Autoregressive Language Models",
+  "authors": [
+    "Lucas, Evan  and\nHavens, Timothy"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 3rd Workshop on Trustworthy Natural Language Processing (TrustNLP 2023)",
+  "abstract": "This work analyzes backdoor watermarks in an autoregressive transformer fine-tuned to perform a generative sequence-to-sequence task, specifically summarization. We propose and demonstrate an attack to identify trigger words or phrases by analyzing open ended generations from autoregressive models that have backdoor watermarks inserted. It is shown in our work that triggers based on random common words are easier to identify than those based on single, rare tokens. The attack proposed is easy to implement and only requires access to the model weights. Code used to create the backdoor watermarked models and analyze their outputs is shared at [github link to be inserted for camera ready version].",
+  "keywords": [
+    "work",
+    "transformer",
+    "generative",
+    "code",
+    "language",
+    "random",
+    "model",
+    "gpt s don t",
+    "it",
+    "an autoregressive transformer",
+    "autoregressive language models",
+    "gpt",
+    "generations",
+    "summarization",
+    "sequence"
+  ],
+  "url": "https://aclanthology.org/2023.trustnlp-1.21/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:32:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.ecnlp-1.9",
+  "title": "Identifying Hijacked Reviews",
+  "authors": [
+    "Daryani, Monika  and\nCaverlee, James"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 4th Workshop on e-Commerce and NLP",
+  "abstract": "Fake reviews and review manipulation are growing problems on online marketplaces globally. Review Hijacking is a new review manipulation tactic in which unethical sellers “hijack” an existing product page (usually one with many positive reviews), then update the product details like title, photo, and description with those of an entirely different product. With the earlier reviews still attached, the new item appears well-reviewed. So far, little knowledge about hijacked reviews has resulted in little academic research and an absence of labeled data. Hence, this paper proposes a three-part study: (i) we propose a framework to generate synthetically labeled data for review hijacking by swapping products and reviews; (ii) then, we evaluate the potential of both a Siamese LSTM network and BERT sequence pair classifier to distinguish legitimate reviews from hijacked ones using this data; and (iii) we then deploy the best performing model on a collection of 31K products (with 6.5 M reviews) in the original data, where we find 100s of previously unknown examples of review hijacking.",
+  "keywords": [
+    "classifier",
+    "we",
+    "lstm",
+    "6 5 m reviews",
+    "review manipulation",
+    "many positive reviews",
+    "review hijacking",
+    "sequence",
+    "reviews",
+    "legitimate reviews",
+    "i",
+    "bert",
+    "the earlier reviews",
+    "bert sequence pair",
+    "earlier"
+  ],
+  "url": "https://aclanthology.org/2021.ecnlp-1.9/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:16:57",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "W18-2604",
+  "title": "Tackling Adversarial Examples in {QA} via Answer Sentence Selection",
+  "authors": [
+    "Ren, Yuanhang  and\nDu, Ye  and\nWang, Di"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the Workshop on Machine Reading for Question Answering",
+  "abstract": "Question answering systems deteriorate dramatically in the presence of adversarial sentences in articles. According to Jia and Liang (2017), the single BiDAF system (Seo et al., 2016) only achieves an F1 score of 4.8 on the ADDANY adversarial dataset. In this paper, we present a method to tackle this problem via answer sentence selection. Given a paragraph of an article and a corresponding query, instead of directly feeding the whole paragraph to the single BiDAF system, a sentence that most likely contains the answer to the query is first selected, which is done via a deep neural network based on TreeLSTM (Tai et al., 2015). Experiments on ADDANY adversarial dataset validate the effectiveness of our method. The F1 score has been improved to 52.3.",
+  "keywords": [
+    "deep",
+    "the f1 score",
+    "answer",
+    "al",
+    "neural",
+    "an f1 score",
+    "qa",
+    "treelstm",
+    "question",
+    "network",
+    "we",
+    "treelstm tai",
+    "a deep neural network",
+    "that",
+    "liang"
+  ],
+  "url": "https://aclanthology.org/W18-2604/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:06:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

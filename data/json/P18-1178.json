@@ -1,0 +1,33 @@
+{
+  "id": "P18-1178",
+  "title": "Multi-Passage Machine Reading Comprehension with Cross-Passage Answer Verification",
+  "authors": [
+    "Wang, Yizhong  and\nLiu, Kai  and\nLiu, Jing  and\nHe, Wei  and\nLyu, Yajuan  and\nWu, Hua  and\nLi, Sujian  and\nWang, Haifeng"
+  ],
+  "year": "2018",
+  "venue": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Machine reading comprehension (MRC) on real web data usually requires the machine to answer a question by analyzing multiple passages retrieved by search engine. Compared with MRC on a single passage, multi-passage MRC is more challenging, since we are likely to get multiple confusing answer candidates from different passages. To address this problem, we propose an end-to-end neural model that enables those answer candidates from different passages to verify each other based on their content representations. Specifically, we jointly train three modules that can predict the final answer based on three factors: the answer boundary, the answer content and the cross-passage answer verification. The experimental results show that our method outperforms the baseline by a large margin and achieves the state-of-the-art performance on the English MS-MARCO dataset and the Chinese DuReader dataset, both of which are designed for MRC in real-world settings.",
+  "keywords": [
+    "end",
+    "question",
+    "we",
+    "cross",
+    "answer",
+    "neural",
+    "model",
+    "machine",
+    "multi",
+    "state",
+    "mrc",
+    "the cross-passage answer verification",
+    "settings",
+    "single",
+    "different"
+  ],
+  "url": "https://aclanthology.org/P18-1178/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:13:51",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

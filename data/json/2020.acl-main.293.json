@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.293",
+  "title": "Modelling Context and Syntactical Features for Aspect-based Sentiment Analysis",
+  "authors": [
+    "Phan, Minh Hieu  and\nOgunbona, Philip O."
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "The aspect-based sentiment analysis (ABSA) consists of two conceptual tasks, namely an aspect extraction and an aspect sentiment classification. Rather than considering the tasks separately, we build an end-to-end ABSA solution. Previous works in ABSA tasks did not fully leverage the importance of syntactical information. Hence, the aspect extraction model often failed to detect the boundaries of multi-word aspect terms. On the other hand, the aspect sentiment classifier was unable to account for the syntactical correlation between aspect terms and the context words. This paper explores the grammatical aspect of the sentence and employs the self-attention mechanism for syntactical learning. We combine part-of-speech embeddings, dependency-based embeddings and contextualized embeddings (e.g. BERT, RoBERTa) to enhance the performance of the aspect extractor. We also propose the syntactic relative distance to de-emphasize the adverse effects of unrelated words, having weak syntactic connection with the aspect terms. This increases the accuracy of the aspect sentiment classifier. Our solutions outperform the state-of-the-art models on SemEval-2014 dataset in both two subtasks.",
+  "keywords": [
+    "the accuracy",
+    "roberta",
+    "end",
+    "extraction",
+    "classifier",
+    "the self-attention mechanism",
+    "we",
+    "classification",
+    "self",
+    "the boundaries",
+    "the aspect sentiment classifier",
+    "contextualized embeddings",
+    "information",
+    "word",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.293/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:46:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

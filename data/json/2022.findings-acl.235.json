@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.235",
+  "title": "Synchronous Refinement for Neural Machine Translation",
+  "authors": [
+    "Chen, Kehai  and\nUtiyama, Masao  and\nSumita, Eiichiro  and\nWang, Rui  and\nZhang, Min"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Machine translation typically adopts an encoder-to-decoder framework, in which the decoder generates the target sentence word-by-word in an auto-regressive manner. However, the auto-regressive decoder faces a deep-rootedone-passissue whereby each generated word is considered as one element of the final output regardless of whether it is correct or not. These generated wrong words further constitute the target historical context to affect the generation of subsequent target words. This paper proposes a novel synchronous refinement method to revise potential errors in the generated words by considering part of the target future context. Particularly, the proposed approach allows the auto-regressive decoder to refine the previously generated target words and generate the next target word synchronously. The experimental results on three widely-used machine translation tasks demonstrated the effectiveness of the proposed approach.",
+  "keywords": [
+    "deep",
+    "the auto-regressive decoder",
+    "the generated words",
+    "an auto-regressive manner",
+    "generation",
+    "neural",
+    "the decoder",
+    "machine",
+    "it",
+    "encoder",
+    "the generation",
+    "decoder",
+    "each generated word",
+    "word",
+    "manner"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.235/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:01",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

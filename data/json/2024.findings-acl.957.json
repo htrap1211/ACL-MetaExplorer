@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.957",
+  "title": "Label-aware Hard Negative Sampling Strategies with Momentum Contrastive Learning for Implicit Hate Speech Detection",
+  "authors": [
+    "Kim, Jaehoon  and\nJin, Seungwan  and\nPark, Sohyun  and\nPark, Someen  and\nHan, Kyungsik"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Detecting implicit hate speech that is not directly hateful remains a challenge. Recent research has attempted to detect implicit hate speech by applying contrastive learning to pre-trained language models such as BERT and RoBERTa, but the proposed models still do not have a significant advantage over cross-entropy loss-based learning. We found that contrastive learning based on randomly sampled batch data does not encourage the model to learn hard negative samples. In this work, we propose Label-aware Hard Negative sampling strategies (LAHN) that encourage the model to learn detailed features from hard negative samples, instead of naive negative samples in random batch, using momentum-integrated contrastive learning. LAHN outperforms the existing models for implicit hate speech detection both in- and cross-datasets. The code is available at https://github.com/Hanyang-HCC-Lab/LAHN",
+  "keywords": [
+    "cross",
+    "work",
+    "code",
+    "roberta",
+    "language",
+    "random",
+    "pre-trained language models",
+    "bert",
+    "model",
+    "momentum contrastive learning",
+    "strategies",
+    "momentum-integrated contrastive learning lahn",
+    "loss",
+    "batch",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.957/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

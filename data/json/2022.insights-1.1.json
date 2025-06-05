@@ -1,0 +1,33 @@
+{
+  "id": "2022.insights-1.1",
+  "title": "On Isotropy Calibration of Transformer Models",
+  "authors": [
+    "Ding, Yue  and\nMartinkus, Karolis  and\nPascual, Damian  and\nClematide, Simon  and\nWattenhofer, Roger"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the Third Workshop on Insights from Negative Results in NLP",
+  "abstract": "Different studies of the embedding space of transformer models suggest that the distribution of contextual representations is highly anisotropic - the embeddings are distributed in a narrow cone. Meanwhile, static word representations (e.g., Word2Vec or GloVe) have been shown to benefit from isotropic spaces. Therefore, previous work has developed methods to calibrate the embedding space of transformers in order to ensure isotropy. However, a recent study (Cai et al. 2021) shows that the embedding space of transformers is locally isotropic, which suggests that these models are already capable of exploiting the expressive capacity of their embedding space. In this work, we conduct an empirical evaluation of state-of-the-art methods for isotropy calibration on transformers and find that they do not provide consistent improvements across models and tasks. These results support the thesis that, given the local isotropy, transformers do not benefit from additional isotropy calibration.",
+  "keywords": [
+    "embeddings",
+    "glove",
+    "work",
+    "transformer",
+    "e g",
+    "an empirical evaluation",
+    "transformers",
+    "the embeddings",
+    "transformer models",
+    "the embedding space",
+    "studies",
+    "the local isotropy transformers",
+    "we",
+    "their embedding space",
+    "word"
+  ],
+  "url": "https://aclanthology.org/2022.insights-1.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:43:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

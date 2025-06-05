@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.675",
+  "title": "Non-Linear Instance-Based Cross-Lingual Mapping for Non-Isomorphic Embedding Spaces",
+  "authors": [
+    "Glava{\\v{s}}, Goran  and\nVuli{\\'c}, Ivan"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "We present InstaMap, an instance-based method for learning projection-based cross-lingual word embeddings. Unlike prior work, it deviates from learning a single global linear projection. InstaMap is a non-parametric model that learns a non-linear projection by iteratively: (1) finding a globally optimal rotation of the source embedding space relying on the Kabsch algorithm, and then (2) moving each point along an instance-specific translation vector estimated from the translation vectors of the point’s nearest neighbours in the training dictionary. We report performance gains with InstaMap over four representative state-of-the-art projection-based models on bilingual lexicon induction across a set of 28 diverse language pairs. We note prominent improvements, especially for more distant language pairs (i.e., languages with non-isomorphic monolingual spaces).",
+  "keywords": [
+    "we",
+    "training",
+    "translation",
+    "cross",
+    "it",
+    "word",
+    "vector",
+    "i",
+    "non-isomorphic embedding spaces",
+    "embeddings",
+    "work",
+    "an instance-specific translation vector",
+    "language",
+    "model",
+    "vectors"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.675/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:51:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

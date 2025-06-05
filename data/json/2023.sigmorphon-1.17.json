@@ -1,0 +1,33 @@
+{
+  "id": "2023.sigmorphon-1.17",
+  "title": "T{\\\"u}-{CL} at {SIGMORPHON} 2023: Straight-Through Gradient Estimation for Hard Attention",
+  "authors": [
+    "Girrbach, Leander"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th SIGMORPHON workshop on Computational Research in Phonetics, Phonology, and Morphology",
+  "abstract": "This paper describes our systems participating in the 2023 SIGMORPHON Shared Task on Morphological Inflection and in the 2023 SIGMORPHON Shared Task on Interlinear Glossing. We propose methods to enrich predictions from neural models with discrete, i.e. interpretable, information. For morphological inflection, our models learn deterministic mappings from subsets of source lemma characters and morphological tags to individual target characters, which introduces interpretability. For interlinear glossing, our models learn a shallow morpheme segmentation in an unsupervised way jointly with predicting glossing lines. Estimated segmentation may be useful when no ground-truth segmentation is available. As both methods introduce discreteness into neural models, our technical contribution is to show that straight-through gradient estimators are effective to train hard attention models.",
+  "keywords": [
+    "neural",
+    "gradient",
+    "hard attention",
+    "information",
+    "straight-through gradient estimators",
+    "attention",
+    "we",
+    "hard attention models",
+    "2023 straight-through gradient estimation",
+    "lemma",
+    "characters",
+    "predictions",
+    "glossing lines",
+    "truth",
+    "an unsupervised way"
+  ],
+  "url": "https://aclanthology.org/2023.sigmorphon-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:31:22",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

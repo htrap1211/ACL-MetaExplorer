@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.52",
+  "title": "Regression-Free Model Updates for Spoken Language Understanding",
+  "authors": [
+    "Caciolai, Andrea  and\nWeber, Verena  and\nFalke, Tobias  and\nPedrani, Alessandro  and\nBernardi, Davide"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "In real-world systems, an important requirement for model updates is to avoid regressions in user experience caused by flips of previously correct classifications to incorrect ones. Multiple techniques for that have been proposed in the recent literature. In this paper, we apply one such technique, focal distillation, to model updates in a goal-oriented dialog system and assess its usefulness in practice. In particular, we evaluate its effectiveness for key language understanding tasks, including sentence classification and sequence labeling tasks, we further assess its effect when applied to repeated model updates over time, and test its compatibility with mislabeled data. Our experiments on a public benchmark and data from a deployed dialog system demonstrate that focal distillation can substantially reduce regressions, at only minor drops in accuracy, and that it further outperforms naive supervised training in challenging mislabeled data and label expansion settings.",
+  "keywords": [
+    "we",
+    "training",
+    "classification",
+    "it",
+    "sequence",
+    "previously correct classifications",
+    "experience",
+    "accuracy",
+    "a goal-oriented dialog system",
+    "language",
+    "model",
+    "dialog",
+    "time",
+    "user experience",
+    "classifications"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.52/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

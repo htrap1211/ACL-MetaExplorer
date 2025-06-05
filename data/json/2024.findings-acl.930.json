@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.930",
+  "title": "Rethinking Efficient Multilingual Text Summarization Meta-Evaluation",
+  "authors": [
+    "Han, Rilyn  and\nChen, Jiawen  and\nLiu, Yixin  and\nCohan, Arman"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Evaluating multilingual summarization evaluation metrics, i.e., meta-evaluation, is challenging because of the difficulty of human annotation collection. Therefore, we investigate an efficient multilingual meta-evaluation framework that uses machine translation systems to transform a monolingual meta-evaluation dataset into multilingual versions. To this end, we introduce a statistical test to verify the transformed dataset quality by checking the meta-evaluation result consistency on the original dataset and back-translated dataset. With this quality verification method, we transform an existing English summarization meta-evaluation dataset, RoSE, into 30 languages, and conduct a multilingual meta-evaluation of several representative automatic evaluation metrics. In our meta-evaluation, we find that metric performance varies in different languages and neural metrics generally outperform classical text-matching-based metrics in non-English languages. Moreover, we identify a two-stage evaluation method with superior performance, which first translates multilingual texts into English and then performs evaluation. We make the transformed datasets publicly available to facilitate future research.",
+  "keywords": [
+    "a monolingual meta-evaluation dataset",
+    "end",
+    "our meta-evaluation",
+    "neural",
+    "neural metrics",
+    "machine",
+    "metric",
+    "text",
+    "human",
+    "efficient",
+    "metrics",
+    "the meta-evaluation result consistency",
+    "a two-stage evaluation method",
+    "i e meta-evaluation",
+    "machine translation systems"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.930/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

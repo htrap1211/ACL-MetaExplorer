@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.167",
+  "title": "Virtual Compiler Is All You Need For Assembly Code Search",
+  "authors": [
+    "Gao, Zeyu  and\nWang, Hao  and\nWang, Yuanda  and\nZhang, Chao"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Assembly code search is vital for reducing the burden on reverse engineers, allowing them to quickly identify specific functions using natural language within vast binary programs.Despite its significance, this critical task is impeded by the complexities involved in building high-quality datasets. This paper explores training a Large Language Model (LLM) to emulate a general compiler. By leveraging Ubuntu packages to compile a dataset of 20 billion tokens, we further continue pre-train CodeLlama as a Virtual Compiler (ViC), capable of compiling any source code to assembly code. This approach allows for “virtual” compilation across a wide range of programming languages without the need for a real compiler, preserving semantic equivalency and expanding the possibilities for assembly code dataset construction. Furthermore, we use ViC to construct a sufficiently large dataset for assembly code search. Employing this extensive dataset, we achieve a substantial improvement in assembly code search performance, with our model surpassing the leading baseline by 26%.",
+  "keywords": [
+    "code",
+    "a sufficiently large dataset",
+    "semantic",
+    "all",
+    "we",
+    "complexities",
+    "natural",
+    "natural language",
+    "a general compiler",
+    "the complexities",
+    "a large language model",
+    "general",
+    "the possibilities",
+    "possibilities",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.167/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:34",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

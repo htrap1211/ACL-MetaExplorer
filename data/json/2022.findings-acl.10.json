@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.10",
+  "title": "Controlled Text Generation Using Dictionary Prior in Variational Autoencoders",
+  "authors": [
+    "Fang, Xianghong  and\nLi, Jian  and\nShang, Lifeng  and\nJiang, Xin  and\nLiu, Qun  and\nYeung, Dit-Yan"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "While variational autoencoders (VAEs) have been widely applied in text generation tasks, they are troubled by two challenges: insufficient representation capacity and poor controllability. The former results from the posterior collapse and restrictive assumption, which impede better representation learning. The latter arises as continuous latent variables in traditional formulations hinder VAEs from interpretability and controllability. In this paper, we propose Dictionary Prior (DPrior), a new data-driven prior that enjoys the merits of expressivity and controllability. To facilitate controlled text generation with DPrior, we propose to employ contrastive learning to separate the latent space into several parts. Extensive experiments on both language modeling and controlled text generation demonstrate the effectiveness of the proposed approach.",
+  "keywords": [
+    "both language modeling",
+    "generation",
+    "autoencoders",
+    "language",
+    "variational autoencoders vaes",
+    "text",
+    "insufficient representation capacity",
+    "modeling",
+    "controlled text generation",
+    "latent",
+    "we",
+    "learning",
+    "text generation tasks",
+    "variational autoencoders",
+    "insufficient"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.10/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:34:58",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

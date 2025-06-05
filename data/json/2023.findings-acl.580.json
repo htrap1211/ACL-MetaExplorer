@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.580",
+  "title": "A}uto{M}o{E}: Heterogeneous Mixture-of-Experts with Adaptive Computation for Efficient Neural Machine Translation",
+  "authors": [
+    "Jawahar, Ganesh  and\nMukherjee, Subhabrata  and\nLiu, Xiaodong  and\nKim, Young Jin  and\nAbdul-Mageed, Muhammad  and\nLakshmanan, V.S., Laks  and\nAwadallah, Ahmed Hassan  and\nBubeck, Sebastien  and\nGao, Jianfeng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Mixture-of-Expert (MoE) models have obtained state-of-the-art performance in Neural Machine Translation (NMT) tasks. Existing works in MoE mostly consider a homogeneous design where the same number of experts of the same size are placed uniformly throughout the network. Furthermore, existing MoE works do not consider computational constraints (e.g., FLOPs, latency) to guide their design. To this end, we develop AutoMoE – a framework for designing heterogeneous MoE’s under computational constraints. AutoMoE leverages Neural Architecture Search (NAS) to obtain efficient sparse MoE sub-transformers with 4x inference speedup (CPU) and FLOPs reduction over manually designed Transformers, with parity in BLEU score over dense Transformer and within 1 BLEU point of MoE SwitchTransformer, on aggregate over benchmark datasets for NMT.Heterogeneous search space with dense and sparsely activated Transformer modules (e.g., how many experts? where to place them? what should be their sizes?) allows for adaptive compute – where different amounts of computations are used for different tokens in the input. Adaptivity comes naturally from routing decisions which send tokens to experts of different sizes. AutoMoE code, data, and trained models are available athttps://aka.ms/AutoMoE.",
+  "keywords": [
+    "code",
+    "efficient sparse moe sub",
+    "transformers",
+    "end",
+    "efficient",
+    "bleu",
+    "we",
+    "translation",
+    "1 bleu point",
+    "moe switchtransformer",
+    "neural",
+    "manually designed transformers",
+    "a",
+    "bleu score",
+    "reduction"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.580/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.545",
+  "title": "P}rompt{R}ank: Unsupervised Keyphrase Extraction Using Prompt",
+  "authors": [
+    "Kong, Aobo  and\nZhao, Shiwan  and\nChen, Hao  and\nLi, Qicheng  and\nQin, Yong  and\nSun, Ruiqi  and\nBai, Xiaoyan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The keyphrase extraction task refers to the automatic selection of phrases from a given document to summarize its core content. State-of-the-art (SOTA) performance has recently been achieved by embedding-based algorithms, which rank candidates according to how similar their embeddings are to document embeddings. However, such solutions either struggle with the document and candidate length discrepancies or fail to fully utilize the pre-trained language model (PLM) without further fine-tuning. To this end, in this paper, we propose a simple yet effective unsupervised approach, PromptRank, based on the PLM with an encoder-decoder architecture. Specifically, PromptRank feeds the document into the encoder and calculates the probability of generating the candidate with a designed prompt by the decoder. We extensively evaluate the proposed PromptRank on six widely used benchmarks. PromptRank outperforms the SOTA approach MDERank, improving the F1 score relatively by 34.18%, 24.87%, and 17.57% for 5, 10, and 15 returned results, respectively. This demonstrates the great potential of using prompt for unsupervised keyphrase extraction. We release our code athttps://github.com/HLT-NLP/PromptRank.",
+  "keywords": [
+    "code",
+    "end",
+    "extraction",
+    "the decoder",
+    "we",
+    "a designed prompt",
+    "promptrank",
+    "the encoder",
+    "their embeddings",
+    "decoder",
+    "discrepancies",
+    "an encoder-decoder architecture",
+    "core",
+    "tuning",
+    "further fine-tuning"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.545/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:42:52",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

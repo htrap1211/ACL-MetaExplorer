@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.321",
+  "title": "SEER}: Facilitating Structured Reasoning and Explanation via Reinforcement Learning",
+  "authors": [
+    "Chen, Guoxin  and\nTang, Kexin  and\nYang, Chao  and\nYe, Fuying  and\nQiao, Yu  and\nQian, Yiming"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Elucidating the reasoning process with structured explanations from question to answer is crucial, as it significantly enhances the interpretability, traceability, and trustworthiness of question-answering (QA) systems. However, structured explanations demand models to perform intricately structured reasoning, which poses great challenges. Most existing methods focus on single-step reasoning through supervised learning, ignoring logical dependencies between steps. Moreover, existing reinforcement learning (RL) based methods overlook the structured relationships, underutilizing the potential of RL in structured reasoning. In this paper, we propose SEER, a novel method that maximizes a structure-based return to facilitate structured reasoning and explanation. Our proposed structure-based return precisely describes the hierarchical and branching structure inherent in structured reasoning, effectively capturing the intricate relationships between different reasoning steps. In addition, we introduce a fine-grained reward function to meticulously delineate diverse reasoning steps. Extensive experiments show that SEER significantly outperforms state-of-the-art methods, achieving an absolute improvement of 6.9% over RL-based methods on EntailmentBank, a 4.4% average improvement on STREET benchmark, and exhibiting outstanding efficiency and cross-dataset generalization performance.",
+  "keywords": [
+    "question",
+    "efficiency",
+    "we",
+    "cross",
+    "outstanding efficiency",
+    "moreover existing reinforcement learning",
+    "it",
+    "dependencies",
+    "learning",
+    "logical dependencies",
+    "generalization",
+    "function",
+    "cross-dataset generalization performance",
+    "hierarchical",
+    "process"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.321/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:38:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

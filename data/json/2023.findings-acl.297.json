@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.297",
+  "title": "Few Shot Rationale Generation using Self-Training with Dual Teachers",
+  "authors": [
+    "Veerubhotla, Aditya Srikanth  and\nPoddar, Lahari  and\nYin, Jun  and\nSzarvas, Gy{\\\"o}rgy  and\nEswaran, Sharanya"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Self-rationalizing models that also generate a free-text explanation for their predicted labels are an important tool to build trustworthy AI applications. Since generating explanations for annotated labels is a laborious and costly process, recent models rely on large pretrained language models (PLMs) as their backbone and few-shot learning. In this work we explore a self-training approach leveraging both labeled and unlabeled data to further improve few-shot models, under the assumption that neither human written rationales nor annotated task labels are available at scale. We introduce a novel dual-teacher learning framework, which learns two specialized teacher models for task prediction and rationalization using self-training and distills their knowledge into a multi-tasking student model that can jointly generate the task label and rationale. Furthermore, we formulate a new loss function, Masked Label Regularization(MLR) which promotes explanations to be strongly conditioned on predicted labels. Evaluation on three public datasets demonstrate that the proposed methods are effective in modeling task labels and generating faithful rationales.",
+  "keywords": [
+    "predicted labels evaluation",
+    "few-shot learning",
+    "we",
+    "shot",
+    "training",
+    "few-shot models",
+    "self",
+    "loss",
+    "learning",
+    "text",
+    "function",
+    "work",
+    "process",
+    "knowledge",
+    "label regularization mlr"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.297/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:23",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

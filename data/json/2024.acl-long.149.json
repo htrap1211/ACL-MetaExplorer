@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.149",
+  "title": "Generalizing Conversational Dense Retrieval via {LLM}-Cognition Data Augmentation",
+  "authors": [
+    "Chen, Haonan  and\nDou, Zhicheng  and\nMao, Kelong  and\nLiu, Jiongnan  and\nZhao, Ziliang"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Conversational search utilizes muli-turn natural language contexts to retrieve relevant passages. Existing conversational dense retrieval models mostly view a conversation as a fixed sequence of questions and responses, overlooking the severe data sparsity problem – that is, users can perform a conversation in various ways, and these alternate conversations are unrecorded. Consequently, they often struggle to generalize to diverse conversations in real-world scenarios. In this work, we propose a framework for generalizing Conversational dense retrieval via LLM-cognition data Augmentation (ConvAug). We first generate multi-level augmented conversations to capture the diverse nature of conversational contexts. Inspired by human cognition, we devise a cognition-aware prompting process to mitigate the generation of false positives, false negatives, and hallucinations. Moreover, we develop a difficulty-adaptive sample filter that selects challenging samples for complex conversations, thereby giving the model a larger learning space. A contrastive learning objective is then employed to train a better conversational context encoder. Extensive experiments conducted on four public datasets, under both normal and zero-shot settings, demonstrate the effectiveness, generalizability, and applicability of ConvAug. The code is released at https://github.com/haon-chen/ConvAug.",
+  "keywords": [
+    "code",
+    "the effectiveness generalizability",
+    "a conversation",
+    "conversations",
+    "the generation",
+    "we",
+    "llm-cognition data augmentation convaug",
+    "generalizability",
+    "llm",
+    "shot",
+    "natural",
+    "retrieval",
+    "these alternate conversations",
+    "sequence",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.149/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:19",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

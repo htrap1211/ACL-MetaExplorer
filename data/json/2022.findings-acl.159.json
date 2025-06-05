@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.159",
+  "title": "Unsupervised Natural Language Inference Using {PHL} Triplet Generation",
+  "authors": [
+    "Varshney, Neeraj  and\nBanerjee, Pratyay  and\nGokhale, Tejas  and\nBaral, Chitta"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Transformer-based models achieve impressive performance on numerous Natural Language Inference (NLI) benchmarks when trained on respective training datasets. However, in certain cases, training samples may not be available or collecting them could be time-consuming and resource-intensive. In this work, we address the above challenge and present an explorative study on unsupervised NLI, a paradigm in which no human-annotated training samples are available. We investigate it under three settings: PH, P, and NPH that differ in the extent of unlabeled data available for learning. As a solution, we propose a procedural data generation approach that leverages a set of sentence transformations to collect PHL (Premise, Hypothesis, Label) triplets for training NLI models, bypassing the need for human-annotated training data. Comprehensive experiments with several NLI datasets show that the proposed approach results in accuracies of up to 66.75%, 65.9%, 65.39% in PH, P, and NPH settings respectively, outperforming all existing unsupervised baselines. Furthermore, fine-tuning our model with as little as ~0.1% of the human-annotated training dataset (500 instances) leads to 12.2% higher accuracy than the model trained from scratch on the same 500 instances. Supported by this superior performance, we conclude with a recommendation for collecting high-quality task-specific data.",
+  "keywords": [
+    "we",
+    "training",
+    "natural",
+    "it",
+    "12 2 higher accuracy",
+    "accuracy",
+    "work",
+    "transformer",
+    "accuracies",
+    "language",
+    "generation",
+    "model",
+    "human",
+    "time",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.159/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:37:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

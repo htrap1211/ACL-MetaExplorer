@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.741",
+  "title": "U}ni{C}o{RN}: Unified Cognitive Signal {R}econstructio{N} bridging cognitive signals and human language",
+  "authors": [
+    "Xi, Nuwa  and\nZhao, Sendong  and\nWang, Haochun  and\nLiu, Chi  and\nQin, Bing  and\nLiu, Ting"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Decoding text stimuli from cognitive signals (e.g. fMRI) enhances our understanding of the human language system, paving the way for building versatile Brain-Computer Interface. However, existing studies largely focus on decoding individual word-level fMRI volumes from a restricted vocabulary, which is far too idealized for real-world application. In this paper, we propose fMRI2text, the first open-vocabulary task aiming to bridge fMRI time series and human language. Furthermore, to explore the potential of this new task, we present a baseline solution, UniCoRN: the Unified Cognitive Signal ReconstructioN for Brain Decoding. By reconstructing both individual time points and time series, UniCoRN establishes a robust encoder for cognitive signals (fMRI & EEG). Leveraging a pre-trained language model as decoder, UniCoRN proves its efficacy in decoding coherent text from fMRI series across various split settings. Our model achieves a 34.77% BLEU score on fMRI2text, and a 37.04% BLEU when generalized to EEG-to-text decoding, thereby surpassing the former baseline. Experimental results indicate the feasibility of decoding consecutive fMRI volumes, and the effectiveness of decoding different cognitive signals using a unified structure.",
+  "keywords": [
+    "bleu",
+    "series",
+    "a pre-trained language model",
+    "we",
+    "decoder unicorn",
+    "fmri series",
+    "c",
+    "unified",
+    "decoder",
+    "fmri time series",
+    "word",
+    "existing studies",
+    "text",
+    "a 37 04 bleu",
+    "a robust encoder"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.741/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:45:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.379",
+  "title": "PLUG}: Leveraging Pivot Language in Cross-Lingual Instruction Tuning",
+  "authors": [
+    "Zhang, Zhihan  and\nLee, Dong-Ho  and\nFang, Yuwei  and\nYu, Wenhao  and\nJia, Mengzhao  and\nJiang, Meng  and\nBarbieri, Francesco"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Instruction tuning has remarkably advanced large language models (LLMs) in understanding and responding to diverse human instructions. Despite the success in high-resource languages, its application in lower-resource ones faces challenges due to the imbalanced foundational abilities of LLMs across different languages, stemming from the uneven language distribution in their pre-training data. To tackle this issue, we propose pivot language guided generation (PLUG), an approach that utilizes a high-resource language, primarily English, as the pivot to enhance instruction tuning in lower-resource languages. It trains the model to first process instructions in the pivot language, and then produce responses in the target language. To evaluate our approach, we introduce a benchmark, X-AlpacaEval, of instructions in 4 languages (Chinese, Korean, Italian, and Spanish), each annotated by professional translators. Our approach demonstrates a significant improvement in the instruction-following abilities of LLMs by 29% on average, compared to directly responding in the target language alone. Further experiments validate the versatility of our approach by employing alternative pivot languages beyond English to assist languages where LLMs exhibit lower proficiency. Code and data are available at https://github.com/ytyz1307zzh/PLUG.",
+  "keywords": [
+    "code",
+    "we",
+    "their pre-training data",
+    "training",
+    "cross",
+    "instruction",
+    "it",
+    "llms",
+    "abilities",
+    "instruction tuning",
+    "tuning",
+    "-",
+    "lower proficiency code",
+    "the instruction-following abilities",
+    "proficiency"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.379/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

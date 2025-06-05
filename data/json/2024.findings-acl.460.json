@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.460",
+  "title": "I}ntact{KV}: Improving Large Language Model Quantization by Keeping Pivot Tokens Intact",
+  "authors": [
+    "Liu, Ruikang  and\nBai, Haoli  and\nLin, Haokun  and\nLi, Yuening  and\nGao, Han  and\nXu, Zhengzhuo  and\nHou, Lu  and\nYao, Jun  and\nYuan, Chun"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large language models (LLMs) excel in natural language processing but demand intensive computation. To mitigate this, various quantization methods have been explored, yet they compromise LLM performance. This paper unveils a previously overlooked type of outliers in LLMs. Such outliers are found to allocate most of the attention scores on initial tokens of input, termed as pivot tokens, which are crucial to the performance of quantized LLMs. Given that, we propose IntactKV to generate the KV cache of pivot tokens losslessly from the full-precision model. The approach is simple and easy to combine with existing quantization solutions with no extra inference overhead. Besides, IntactKV can be calibrated as additional LLM parameters to boost the quantized LLMs further with minimal training costs. Mathematical analysis also proves that IntactKV effectively reduces the upper bound of quantization error. Empirical results show that IntactKV brings consistent improvement over various quantization methods across different LLMs and downstream tasks, leading to the new state-of-the-art for LLM quantization. The codes are available at https://github.com/ruikangliu/IntactKV.",
+  "keywords": [
+    "precision",
+    "extra",
+    "we",
+    "the full-precision model",
+    "llm",
+    "training",
+    "additional llm parameters",
+    "different llms",
+    "natural",
+    "such outliers",
+    "the attention scores",
+    "natural language processing",
+    "quantized llms",
+    "analysis",
+    "llms"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.460/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:53",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

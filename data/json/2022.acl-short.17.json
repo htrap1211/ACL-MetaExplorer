@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-short.17",
+  "title": "The Power of Prompt Tuning for Low-Resource Semantic Parsing",
+  "authors": [
+    "Schucher, Nathan  and\nReddy, Siva  and\nde Vries, Harm"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "Prompt tuning has recently emerged as an effective method for adapting pre-trained language models to a number of language understanding and generation tasks. In this paper, we investigate prompt tuning for semantic parsing—the task of mapping natural language utterances onto formal meaning representations. On the low-resource splits of Overnight and TOPv2, we find that a prompt tuned T5-xl significantly outperforms its fine-tuned counterpart, as well as strong GPT-3 and BART baselines. We also conduct ablation studies across different model scales and target representations, finding that, with increasing model scale, prompt tuned T5 models improve at generating target representations that are far from the pre-training distribution.",
+  "keywords": [
+    "tuning",
+    "prompt",
+    "language",
+    "a prompt",
+    "generation",
+    "pre-trained language models",
+    "natural",
+    "studies",
+    "model",
+    "increasing model scale prompt",
+    "ablation studies",
+    "gpt-3",
+    "generation tasks",
+    "semantic",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2022.acl-short.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:32:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

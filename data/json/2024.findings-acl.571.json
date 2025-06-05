@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.571",
+  "title": "On the Effect of (Near) Duplicate Subwords in Language Modelling",
+  "authors": [
+    "Sch{\\\"a}fer, Anton  and\nHofmann, Thomas  and\nSchlag, Imanol  and\nPimentel, Tiago"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Tokenisation is a core part of language models (LMs). It involves splitting a character sequence into subwords which are assigned random indices before being served to the LM. However, this process—while typically lossless—may lead to less efficient LM training, because it removes character-level information, thereby making it more difficult to generalise across similar subwords, such as *now* and *Now*. We refer to such subwords as **near duplicates**. In this paper, we study the impact of near duplicate subwords on LM training efficiency. First, we design an experiment that gives us an upper bound to how much we should expect a model to improve if we could perfectly generalise across near duplicates. We do this, by duplicating each token in our LM’s vocabulary, creating perfectly equivalent classes of subwords. Experimentally, we find that LMs need roughly 17% more data when trained in a fully duplicated setting. Second, we investigate the impact of naturally occurring near duplicates on LMs. Here, we see that deduplicating them considerably hurts LM performance; but that this loss in performance can be easily mitigated.",
+  "keywords": [
+    "process",
+    "language",
+    "random",
+    "model",
+    "it",
+    "efficient",
+    "less efficient lm training",
+    "language models",
+    "token",
+    "loss",
+    "information",
+    "us",
+    "efficiency",
+    "we",
+    "sequence"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.571/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:56:24",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.182",
+  "title": "Masakhane-Afrisenti at {S}em{E}val-2023 Task 12: Sentiment Analysis using {A}fro-centric Language Models and Adapters for Low-resource {A}frican Languages",
+  "authors": [
+    "Azime, Israel Abebe  and\nAl-azzawi, Sana  and\nTonja, Atnafu Lambebo  and\nShode, Iyanuoluwa  and\nAlabi, Jesujoba  and\nAwokoya, Ayodele  and\nOduwole, Mardiyyah  and\nAdewumi, Tosin  and\nFanijo, Samuel  and\nOyinkansola, Awosan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "Detecting harmful content on social media plat-forms is crucial in preventing the negative ef-fects these posts can have on social media users. This paper presents our methodology for tack-ling task 10 from SemEval23, which focuseson detecting and classifying online sexism insocial media posts. We constructed our solu-tion using an ensemble of transformer-basedmodels (that have been fine-tuned; BERTweet,RoBERTa, and DeBERTa). To alleviate the var-ious issues caused by the class imbalance inthe dataset provided and improve the general-ization of our model, our framework employsdata augmentation and semi-supervised learn-ing. Specifically, we use back-translation fordata augmentation in two scenarios: augment-ing the underrepresented class and augment-ing all classes. In this study, we analyze theimpact of these different strategies on the sys-tem’s overall performance and determine whichtechnique is the most effective. Extensive ex-periments demonstrate the efficacy of our ap-proach. For sub-task A, the system achievedan F1-score of 0.8613. The source code to re-produce the proposed solutions is available onGithub",
+  "keywords": [
+    "code",
+    "these different strategies",
+    "roberta",
+    "deberta",
+    "transformer-basedmodels",
+    "a fro-centric language models",
+    "var",
+    "back-translation fordata augmentation",
+    "we",
+    "achievedan",
+    "translation",
+    "12 sentiment analysis",
+    "ensemble",
+    "ing",
+    "ling"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.182/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:29:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.148",
+  "title": "L}e{C}un at {S}em{E}val-2021 Task 6: Detecting Persuasion Techniques in Text Using Ensembled Pretrained Transformers and Data Augmentation",
+  "authors": [
+    "Abujaber, Dia  and\nQarqaz, Ahmed  and\nAbdullah, Malak A."
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "We developed a system for task 6 sub-task 1 for detecting propaganda in memes. An external dataset and augmentation data-set were used to extend the official competition data-set. Data augmentation techniques were applied on the external data-set and competition data-set to come up with the augmented data-set. We trained 5 transformers (DeBERTa, and 4 RoBERTa) and ensembled them to make the prediction. We trained 1 RoBERTa model initially on the augmented data-set for a few epochs and then fine-tuned it on the competition data-set which improved the f1-micro up to 0.1 scores. After that, another initial RoBERTa model was trained on the external data-set merged with the augmented data-set for few epochs and fine-tuned it on the competition data-set. Furthermore, we ensembled the initial models with the models after fine-tuning. For the final model in the ensemble, we trained a DeBERTa model on the augmented data-set without fine-tuning it on the competition data-set. Finally, we averaged the output of each model in the ensemble to make the prediction.",
+  "keywords": [
+    "ensemble",
+    "a deberta model",
+    "transformers",
+    "roberta",
+    "tuning",
+    "deberta",
+    "model",
+    "text",
+    "it",
+    "5 transformers deberta",
+    "ensembled pretrained transformers",
+    "-",
+    "4 roberta",
+    "fine",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.148/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

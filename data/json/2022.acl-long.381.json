@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.381",
+  "title": "Bridging the Generalization Gap in Text-to-{SQL} Parsing with Schema Expansion",
+  "authors": [
+    "Zhao, Chen  and\nSu, Yu  and\nPauls, Adam  and\nPlatanios, Emmanouil Antonios"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Text-to-SQL parsers map natural language questions to programs that are executable over tables to generate answers, and are typically evaluated on large-scale datasets like Spider (Yu et al., 2018). We argue that existing benchmarks fail to capture a certain out-of-domain generalization problem that is of significant practical importance: matching domain specific phrases to composite operation over columns. To study this problem, we first propose a synthetic dataset along with a re-purposed train/test split of the Squall dataset (Shi et al., 2020) as new benchmarks to quantify domain generalization over column operations, and find existing state-of-the-art parsers struggle in these benchmarks. We propose to address this problem by incorporating prior domain knowledge by preprocessing table schemas, and design a method that consists of two components: schema expansion and schema pruning. This method can be easily applied to multiple existing base parsers, and we show that it significantly outperforms baseline parsers on this domain generalization problem, boosting the underlying parsers’ overall performance by up to 13.8% relative accuracy gain (5.1% absolute) on the new Squall data split.",
+  "keywords": [
+    "we",
+    "domain generalization",
+    "natural",
+    "it",
+    "text",
+    "generalization",
+    "accuracy",
+    "knowledge",
+    "language",
+    "the generalization gap",
+    "train",
+    "this domain generalization problem",
+    "this method",
+    "existing benchmarks",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.381/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:29:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.137",
+  "title": "Dialogue Response Selection with Hierarchical Curriculum Learning",
+  "authors": [
+    "Su, Yixuan  and\nCai, Deng  and\nZhou, Qingyu  and\nLin, Zibo  and\nBaker, Simon  and\nCao, Yunbo  and\nShi, Shuming  and\nCollier, Nigel  and\nWang, Yan"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "We study the learning of a matching model for dialogue response selection. Motivated by the recent finding that models trained with random negative samples are not ideal in real-world scenarios, we propose a hierarchical curriculum learning framework that trains the matching model in an “easy-to-difficult” scheme. Our learning framework consists of two complementary curricula: (1) corpus-level curriculum (CC); and (2) instance-level curriculum (IC). In CC, the model gradually increases its ability in finding the matching clues between the dialogue context and a response candidate. As for IC, it progressively strengthens the model’s ability in identifying the mismatching information between the dialogue context and a response candidate. Empirical studies on three benchmark datasets with three state-of-the-art matching models demonstrate that the proposed learning framework significantly improves the model performance across various evaluation metrics.",
+  "keywords": [
+    "hierarchical",
+    "hierarchical curriculum",
+    "the dialogue context",
+    "random",
+    "various evaluation metrics",
+    "model",
+    "studies",
+    "it",
+    "metrics",
+    "cc",
+    "ic",
+    "information",
+    "we",
+    "learning",
+    "dialogue"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.137/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:01:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.250",
+  "title": "Emergent Modularity in Pre-trained Transformers",
+  "authors": [
+    "Zhang, Zhengyan  and\nZeng, Zhiyuan  and\nLin, Yankai  and\nXiao, Chaojun  and\nWang, Xiaozhi  and\nHan, Xu  and\nLiu, Zhiyuan  and\nXie, Ruobing  and\nSun, Maosong  and\nZhou, Jie"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "This work examines the presence of modularity in pre-trained Transformers, a feature commonly found in human brains and thought to be vital for general intelligence. In analogy to human brains, we consider two main characteristics of modularity: (1) functional specialization of neurons: we evaluate whether each neuron is mainly specialized in a certain function, and find that the answer is yes. (2) function-based neuron grouping: we explore to find a structure that groups neurons into modules by function, and each module works for its corresponding function. Given the enormous amount of possible structures, we focus on Mixture-of-Experts as a promising candidate, which partitions neurons into experts and usually activates different experts for different inputs. Experimental results show that there are functional experts, where clustered are the neurons specialized in a certain function. Moreover, perturbing the activations of functional experts significantly affects the corresponding function. Finally, we study how modularity emerges during pre-training, and find that the modular structure is stabilized at the early stage, which is faster than neuron stabilization. It suggests that Transformer first constructs the modular structure and then learns fine-grained neuron functions. Our code and data are available athttps://github.com/THUNLP/modularity-analysis.",
+  "keywords": [
+    "code",
+    "transformers",
+    "we",
+    "activations",
+    "training",
+    "answer",
+    "it",
+    "analysis",
+    "the activations",
+    "early",
+    "function",
+    "work",
+    "transformer",
+    "general",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.250/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:56:43",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

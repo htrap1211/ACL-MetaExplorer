@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.158",
+  "title": "Investigating Selective Prediction Approaches Across Several Tasks in {IID}, {OOD}, and Adversarial Settings",
+  "authors": [
+    "Varshney, Neeraj  and\nMishra, Swaroop  and\nBaral, Chitta"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "In order to equip NLP systems with ‘selective prediction’ capability, several task-specific approaches have been proposed. However, which approaches work best across tasks or even if they consistently outperform the simplest baseline MaxProb remains to be explored. To this end, we systematically study selective prediction in a large-scale setup of 17 datasets across several NLP tasks. Through comprehensive experiments under in-domain (IID), out-of-domain (OOD), and adversarial (ADV) settings, we show that despite leveraging additional resources (held-out data/computation), none of the existing approaches consistently and considerably outperforms MaxProb in all three settings. Furthermore, their performance does not translate well across tasks. For instance, Monte-Carlo Dropout outperforms all other approaches on Duplicate Detection datasets but does not fare well on NLI datasets, especially in the OOD setting. Thus, we recommend that future selective prediction approaches should be evaluated across tasks and settings for reliable estimation of their capabilities.",
+  "keywords": [
+    "end",
+    "nlp",
+    "capabilities",
+    "we",
+    "nlp systems",
+    "several nlp tasks",
+    "dropout",
+    "their capabilities",
+    "monte",
+    "carlo",
+    "reliable",
+    "task",
+    "setup",
+    "17 datasets",
+    "specific"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.158/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

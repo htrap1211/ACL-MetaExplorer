@@ -1,0 +1,33 @@
+{
+  "id": "P17-1007",
+  "title": "Skip-Gram {\\ensuremath{-}} {Z}ipf + Uniform = Vector Additivity",
+  "authors": [
+    "Gittens, Alex  and\nAchlioptas, Dimitris  and\nMahoney, Michael W."
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In recent years word-embedding models have gained great popularity due to their remarkable performance on several tasks, including word analogy questions and caption generation. An unexpected “side-effect” of such models is that their vectors often exhibit compositionality, i.e.,addingtwo word-vectors results in a vector that is only a small angle away from the vector of a word representing the semantic composite of the original words, e.g., “man” + “royal” = “king”. This work provides a theoretical justification for the presence of additive compositionality in word vectors learned using the Skip-Gram model. In particular, it shows that additive compositionality holds in an even stricter sense (small distance rather than small angle) under certain assumptions on the process generating the corpus. As a corollary, it explains the success of vector calculus in solving word analogies. When these assumptions do not hold, this work describes the correct non-linear composition operator. Finally, this work establishes a connection between the Skip-Gram model and the Sufficient Dimensionality Reduction (SDR) framework of Globerson and Tishby: the parameters of SDR models can be obtained from those of Skip-Gram models simply by adding information on symbol frequencies. This shows that Skip-Gram embeddings are optimal in the sense of Globerson and Tishby and, further, implies that the heuristics commonly used to approximately fit Skip-Gram models can be used to fit SDR models.",
+  "keywords": [
+    "word vectors",
+    "dimensionality",
+    "fit",
+    "man",
+    "semantic",
+    "analogies",
+    "it",
+    "their vectors",
+    "word-embedding models",
+    "information",
+    "symbol frequencies",
+    "sufficient",
+    "word",
+    "skip-gram embeddings",
+    "reduction"
+  ],
+  "url": "https://aclanthology.org/P17-1007/",
+  "provenance": {
+    "collected_at": "2025-06-04 23:56:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

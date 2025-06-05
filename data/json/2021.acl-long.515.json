@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.515",
+  "title": "Regression Bugs Are In Your Model! Measuring, Reducing and Analyzing Regressions In {NLP} Model Updates",
+  "authors": [
+    "Xie, Yuqing  and\nLai, Yi-An  and\nXiong, Yuanjun  and\nZhang, Yi  and\nSoatto, Stefano"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Behavior of deep neural networks can be inconsistent between different versions. Regressions during model update are a common cause of concern that often over-weigh the benefits in accuracy or efficiency gain. This work focuses on quantifying, reducing and analyzing regression errors in the NLP model updates. Using negative flip rate as regression measure, we show that regression has a prevalent presence across tasks in the GLUE benchmark. We formulate the regression-free model updates into a constrained optimization problem, and further reduce it into a relaxed form which can be approximately optimized through knowledge distillation training method. We empirically analyze how model ensemble reduces regression. Finally, we conduct CheckList behavioral testing to understand the distribution of regressions across linguistic phenomena, and the efficacy of ensemble and distillation methods.",
+  "keywords": [
+    "deep",
+    "rate",
+    "deep neural networks",
+    "form",
+    "efficiency",
+    "we",
+    "training",
+    "ensemble",
+    "neural",
+    "it",
+    "ensemble and distillation methods",
+    "how model ensemble",
+    "the nlp model",
+    "a constrained optimization problem",
+    "nlp model"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.515/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:06:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

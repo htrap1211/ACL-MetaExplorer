@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.179",
+  "title": "Grounding the Lexical Substitution Task in Entailment",
+  "authors": [
+    "Omarov, Talgat  and\nKondrak, Grzegorz"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Existing definitions of lexical substitutes are often vague or inconsistent with the gold annotations. We propose a new definition which is grounded in the relation of entailment; namely, that the sentence that results from the substitution should be in the relation of mutual entailment with the original sentence. We argue that the new definition is well-founded and supported by previous work on lexical entailment. We empirically validate our definition by verifying that it covers the majority of gold substitutes in existing datasets. Based on this definition, we create a new dataset from existing semantic resources. Finally, we propose a novel context augmentation method motivated by the definition, which relates the substitutes to the sense of the target word by incorporating glosses and synonyms directly into the context. Experimental results demonstrate that our augmentation approach improves the performance of lexical substitution systems on the existing benchmarks.",
+  "keywords": [
+    "work",
+    "it",
+    "word",
+    "existing semantic resources",
+    "semantic",
+    "we",
+    "that",
+    "the substitutes",
+    "a new dataset",
+    "approach",
+    "original",
+    "new",
+    "task",
+    "sense",
+    "glosses"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.179/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:55:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

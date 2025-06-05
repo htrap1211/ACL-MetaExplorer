@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.835",
+  "title": "Distinguish Before Answer: Generating Contrastive Explanation as Knowledge for Commonsense Question Answering",
+  "authors": [
+    "Chen, Qianglong  and\nXu, Guohai  and\nYan, Ming  and\nZhang, Ji  and\nHuang, Fei  and\nSi, Luo  and\nZhang, Yin"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Existing knowledge-enhanced methods have achieved remarkable results in certain Q&A tasks via obtaining diverse knowledge from different knowledge bases. However, limited by the properties of retrieved knowledge, they still have trouble benefiting from both the knowledge relevance and distinguishment simultaneously. To address the challenge, we proposeCPACE, aConcept-centricPrompt-bAsedContrastiveExplanation Generation model, which aims to convert obtained symbolic knowledge into the contrastive explanation for better distinguishing the differences among given candidates. Firstly, following previous works, we retrieve different types of symbolic knowledge with a concept-centric knowledge extraction module. After that, we generate corresponding contrastive explanation using acquired symbolic knowledge and prompt as guidance for better modeling the knowledge distinguishment and interpretability. Finally, we regard the generated contrastive explanation as external knowledge for downstream task enhancement. We conduct a series of experiments on three widely-used question-answering datasets: CSQA, QASC, and OBQA. Experimental results demonstrate that with the help of generated contrastive explanation, our CPACE model achieves new SOTA on CSQA (89.8% on the testing set, 0.9% higher than human performance), and gains impressive improvement on QASC and OBQA (4.2% and 3.5%, respectively).",
+  "keywords": [
+    "csqa",
+    "extraction",
+    "the generated contrastive explanation",
+    "series",
+    "question",
+    "we",
+    "obqa experimental results",
+    "answer",
+    "retrieved knowledge",
+    "generated contrastive explanation",
+    "properties",
+    "prompt",
+    "the properties",
+    "csqa qasc",
+    "obqa"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.835/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:19:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

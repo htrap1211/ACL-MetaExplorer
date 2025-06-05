@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.52",
+  "title": "Generative Zero-Shot Prompt Learning for Cross-Domain Slot Filling with Inverse Prompting",
+  "authors": [
+    "Li, Xuefeng  and\nWang, Liwen  and\nDong, Guanting  and\nHe, Keqing  and\nZhao, Jinzheng  and\nLei, Hao  and\nLiu, Jiachi  and\nXu, Weiran"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Zero-shot cross-domain slot filling aims to transfer knowledge from the labeled source domain to the unlabeled target domain. Existing models either encode slot descriptions and examples or design handcrafted question templates using heuristic rules, suffering from poor generalization capability or robustness. In this paper, we propose a generative zero-shot prompt learning framework for cross-domain slot filling, both improving generalization and robustness than previous work. Besides, we introduce a novel inverse prompting strategy to distinguish different slot types to avoid the multiple prediction problem, and an efficient prompt tuning strategy to boost higher performance only training fewer prompt parameters. Experiments and analysis demonstrate the effectiveness of our proposed framework, especially huge improvements (+13.44% F1) on the unseen slots.",
+  "keywords": [
+    "work",
+    "generative",
+    "cross",
+    "tuning",
+    "knowledge",
+    "prompt",
+    "zero-shot cross-domain slot filling",
+    "encode",
+    "efficient",
+    "13 44 f1",
+    "question",
+    "poor generalization capability",
+    "generalization",
+    "we",
+    "learning"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.52/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

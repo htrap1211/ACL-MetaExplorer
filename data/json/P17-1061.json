@@ -1,0 +1,33 @@
+{
+  "id": "P17-1061",
+  "title": "Learning Discourse-level Diversity for Neural Dialog Models using Conditional Variational Autoencoders",
+  "authors": [
+    "Zhao, Tiancheng  and\nZhao, Ran  and\nEskenazi, Maxine"
+  ],
+  "year": "2017",
+  "venue": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "While recent neural encoder-decoder models have shown great promise in modeling open-domain conversations, they often generate dull and generic responses. Unlike past work that has focused on diversifying the output of the decoder from word-level to alleviate this problem, we present a novel framework based on conditional variational autoencoders that capture the discourse-level diversity in the encoder. Our model uses latent variables to learn a distribution over potential conversational intents and generates diverse responses using only greedy decoders. We have further developed a novel variant that is integrated with linguistic prior knowledge for better performance. Finally, the training procedure is improved through introducing a bag-of-word loss. Our proposed models have been validated to generate significantly more diverse responses than baseline approaches and exhibit competence of discourse-level decision-making.",
+  "keywords": [
+    "modeling open-domain conversations",
+    "the decoder",
+    "conversations",
+    "we",
+    "training",
+    "the encoder",
+    "bag",
+    "autoencoders",
+    "neural",
+    "recent neural encoder-decoder models",
+    "decoder",
+    "loss",
+    "latent",
+    "decoders",
+    "word"
+  ],
+  "url": "https://aclanthology.org/P17-1061/",
+  "provenance": {
+    "collected_at": "2025-06-04 23:58:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

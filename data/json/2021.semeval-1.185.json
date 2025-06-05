@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.185",
+  "title": "ECNUICA} at {S}em{E}val-2021 Task 11: Rule based Information Extraction Pipeline",
+  "authors": [
+    "Lin, Jiaju  and\nLing, Jing  and\nWang, Zhiwei  and\nLiu, Jiawei  and\nChen, Qin  and\nHe, Liang"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper presents our endeavor for solving task11, NLPContributionGraph, of SemEval-2021. The purpose of the task was to extract triples from a paper in the Nature Language Processing field for constructing an Open Research Knowledge Graph. The task includes three sub-tasks: detecting the contribution sentences in papers, identifying scientific terms and predicate phrases from the contribution sentences; and inferring triples in the form of (subject, predicate, object) as statements for Knowledge Graph building. In this paper, we apply an ensemble of various fine-tuned pre-trained language models (PLM) for tasks one and two. In addition, self-training methods are adopted for tackling the shortage of annotated data. For the third task, rather than using classic neural open information extraction (OIE) architectures, we generate potential triples via manually designed rules and develop a binary classifier to differentiate positive ones from others. The quantitative results show that we obtain the 4th, 2nd, and 2nd rank in three evaluation phases.",
+  "keywords": [
+    "extraction",
+    "classifier",
+    "field",
+    "form",
+    "nlpcontributiongraph",
+    "we",
+    "graph",
+    "scientific terms",
+    "training",
+    "ensemble",
+    "neural",
+    "self",
+    "information",
+    "e",
+    "scientific"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.185/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:22:13",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2023.iwslt-1.6",
+  "title": "KIT}{'}s Multilingual Speech Translation System for {IWSLT} 2023",
+  "authors": [
+    "Liu, Danni  and\nBinh Nguyen, Thai  and\nKoneru, Sai  and\nYavuz Ugan, Enes  and\nPham, Ngoc-Quan  and\nNam Nguyen, Tuan  and\nAnh Dinh, Tu  and\nMullov, Carlos  and\nWaibel, Alexander  and\nNiehues, Jan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+  "abstract": "Many existing speech translation benchmarks focus on native-English speech in high-quality recording conditions, which often do not match the conditions in real-life use-cases. In this paper, we describe our speech translation system for the multilingual track of IWSLT 2023, which focuses on the translation of scientific conference talks. The test condition features accented input speech and terminology-dense contents. The tasks requires translation into 10 languages of varying amounts of resources. In absence of training data from the target domain, we use a retrieval-based approach (kNN-MT) for effective adaptation (+0.8BLEU for speech translation). We also use adapters to easily integrate incremental training data from data augmentation, and show that it matches the performance of re-training. We observe that cascaded systems are more easily adaptable towards specific target domains, due to their separate modules. Our cascaded speech system outperforms its end-to-end counterpart on scientific talk translation, although their performance remains similar on TED talks.",
+  "keywords": [
+    "end",
+    "our speech translation system",
+    "we",
+    "training",
+    "translation",
+    "scientific talk translation",
+    "it",
+    "retrieval",
+    "speech translation",
+    "scientific",
+    "the translation",
+    "many existing speech translation",
+    "-",
+    "re",
+    "scientific conference talks"
+  ],
+  "url": "https://aclanthology.org/2023.iwslt-1.6/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:24:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

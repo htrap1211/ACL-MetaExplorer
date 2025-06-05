@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.369",
+  "title": "RE}-Matching: A Fine-Grained Semantic Matching Method for Zero-Shot Relation Extraction",
+  "authors": [
+    "Zhao, Jun  and\nZhan, WenYu  and\nZhao, Xin  and\nZhang, Qi  and\nGui, Tao  and\nWei, Zhongyu  and\nWang, Junzhe  and\nPeng, Minlong  and\nSun, Mingming"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Semantic matching is a mainstream paradigm of zero-shot relation extraction, which matches a given input with a corresponding label description. The entities in the input should exactly match their hypernyms in the description, while the irrelevant contexts should be ignored when matching. However, general matching methods lack explicit modeling of the above matching pattern. In this work, we propose a fine-grained semantic matching method tailored for zero-shot relation extraction. Guided by the above matching pattern, we decompose the sentence-level similarity score into the entity matching score and context matching score. Considering that not all contextual words contribute equally to the relation semantics, we design a context distillation module to reduce the negative impact of irrelevant components on context matching. Experimental results show that our method achieves higher matching accuracy and more than 10 times faster inference speed, compared with the state-of-the-art methods.",
+  "keywords": [
+    "work",
+    "the entities",
+    "general",
+    "extraction",
+    "entities",
+    "semantics",
+    "modeling",
+    "higher matching accuracy",
+    "however general matching methods",
+    "zero-shot relation extraction",
+    "semantic",
+    "we",
+    "the relation semantics",
+    "entity",
+    "shot"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.369/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:40:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

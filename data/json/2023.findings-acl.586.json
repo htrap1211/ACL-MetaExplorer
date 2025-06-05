@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.586",
+  "title": "The Devil is in the Details: On the Pitfalls of Event Extraction Evaluation",
+  "authors": [
+    "Peng, Hao  and\nWang, Xiaozhi  and\nYao, Feng  and\nZeng, Kaisheng  and\nHou, Lei  and\nLi, Juanzi  and\nLiu, Zhiyuan  and\nShen, Weixing"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Event extraction (EE) is a crucial task aiming at extracting events from texts, which includes two subtasks: event detection (ED) and event argument extraction (EAE). In this paper, we check the reliability of EE evaluations and identify three major pitfalls: (1) The data preprocessing discrepancy makes the evaluation results on the same dataset not directly comparable, but the data preprocessing details are not widely noted and specified in papers. (2) The output space discrepancy of different model paradigms makes different-paradigm EE models lack grounds for comparison and also leads to unclear mapping issues between predictions and annotations. (3) The absence of pipeline evaluation of many EAE-only works makes them hard to be directly compared with EE works and may not well reflect the model performance in real-world pipeline scenarios. We demonstrate the significant influence of these pitfalls through comprehensive meta-analyses of recent papers and empirical experiments. To avoid these pitfalls, we suggest a series of remedies, including specifying data preprocessing, standardizing outputs, and providing pipeline evaluation results. To help implement these remedies, we develop a consistent evaluation framework OmniEvent, which can be obtained fromhttps://github.com/THU-KEG/OmniEvent.",
+  "keywords": [
+    "extraction",
+    "series",
+    "these remedies",
+    "we",
+    "ee evaluations",
+    "remedies",
+    "a series",
+    "model",
+    "evaluations",
+    "omnievent",
+    "ee",
+    "pipeline evaluation results",
+    "pipeline evaluation",
+    "evaluation",
+    "the evaluation"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.586/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

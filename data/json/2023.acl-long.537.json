@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.537",
+  "title": "Multi-Source Test-Time Adaptation as Dueling Bandits for Extractive Question Answering",
+  "authors": [
+    "Ye, Hai  and\nXie, Qizhe  and\nNg, Hwee Tou"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "In this work, we study multi-source test-time model adaptation from user feedback, whereKdistinct models are established for adaptation. To allow efficient adaptation, we cast the problem as a stochastic decision-making process, aiming to determine the best adapted model after adaptation. We discuss two frameworks: multi-armed bandit learning and multi-armed dueling bandits. Compared to multi-armed bandit learning, the dueling framework allows pairwise collaboration amongKmodels, which is solved by a novel method named Co-UCB proposed in this work. Experiments on six datasets of extractive question answering (QA) show that the dueling framework using Co-UCB is more effective than other strong baselines for our studied problem.",
+  "keywords": [
+    "work",
+    "process",
+    "efficient adaptation",
+    "co",
+    "feedback",
+    "model",
+    "our studied problem",
+    "efficient",
+    "-",
+    "question",
+    "qa show",
+    "we",
+    "learning",
+    "time",
+    "a novel method"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.537/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:42:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

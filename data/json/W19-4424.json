@@ -1,0 +1,33 @@
+{
+  "id": "W19-4424",
+  "title": "Neural and {FST}-based approaches to grammatical error correction",
+  "authors": [
+    "Yuan, Zheng  and\nStahlberg, Felix  and\nRei, Marek  and\nByrne, Bill  and\nYannakoudakis, Helen"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourteenth Workshop on Innovative Use of NLP for Building Educational Applications",
+  "abstract": "In this paper, we describe our submission to the BEA 2019 shared task on grammatical error correction. We present a system pipeline that utilises both error detection and correction models. The input text is first corrected by two complementary neural machine translation systems: one using convolutional networks and multi-task learning, and another using a neural Transformer-based system. Training is performed on publicly available data, along with artificial examples generated through back-translation. The n-best lists of these two machine translation systems are then combined and scored using a finite state transducer (FST). Finally, an unsupervised re-ranking system is applied to the n-best output of the FST. The re-ranker uses a number of error detection features to re-rank the FST n-best list and identify the final 1-best correction hypothesis. Our system achieves 66.75% F 0.5 on error correction (ranking 4th), and 82.52% F 0.5 on token-level error detection (ranking 2nd) in the restricted track of the shared task.",
+  "keywords": [
+    "we",
+    "convolutional",
+    "training",
+    "translation",
+    "neural",
+    "token",
+    "back-translation",
+    "learning",
+    "text",
+    "-",
+    "convolutional networks",
+    "transformer",
+    "machine",
+    "the n-best lists",
+    "2nd"
+  ],
+  "url": "https://aclanthology.org/W19-4424/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:54:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

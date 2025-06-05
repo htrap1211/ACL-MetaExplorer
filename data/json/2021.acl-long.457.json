@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.457",
+  "title": "SM}ed{BERT}: A Knowledge-Enhanced Pre-trained Language Model with Structured Semantics for Medical Text Mining",
+  "authors": [
+    "Zhang, Taolin  and\nCai, Zerui  and\nWang, Chengyu  and\nQiu, Minghui  and\nYang, Bite  and\nHe, Xiaofeng"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Recently, the performance of Pre-trained Language Models (PLMs) has been significantly improved by injecting knowledge facts to enhance their abilities of language understanding. For medical domains, the background knowledge sources are especially useful, due to the massive medical terms and their complicated relations are difficult to understand in text. In this work, we introduce SMedBERT, a medical PLM trained on large-scale medical corpora, incorporating deep structured semantic knowledge from neighbours of linked-entity. In SMedBERT, the mention-neighbour hybrid attention is proposed to learn heterogeneous-entity information, which infuses the semantic representations of entity types into the homogeneous neighbouring entity structure. Apart from knowledge integration as external features, we propose to employ the neighbors of linked-entities in the knowledge graph as additional global contexts of text mentions, allowing them to communicate via shared neighbors, thus enrich their semantic representations. Experiments demonstrate that SMedBERT significantly outperforms strong baselines in various knowledge-intensive Chinese medical tasks. It also improves the performance of other tasks such as question answering, question matching and natural language inference.",
+  "keywords": [
+    "deep",
+    "the semantic representations",
+    "the knowledge graph",
+    "question",
+    "semantic",
+    "we",
+    "graph",
+    "smedbert",
+    "natural",
+    "semantics",
+    "it",
+    "ed bert",
+    "information",
+    "their semantic representations experiments",
+    "pre-trained language models plms"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.457/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:05:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2022.bionlp-1.18",
+  "title": "Intra-Template Entity Compatibility based Slot-Filling for Clinical Trial Information Extraction",
+  "authors": [
+    "Witte, Christian  and\nCimiano, Philipp"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 21st Workshop on Biomedical Language Processing",
+  "abstract": "We present a deep learning based information extraction system that can extract the design and results of a published abstract describing a Randomized Controlled Trial (RCT). In contrast to other approaches, our system does not regard the PICO elements as flat objects or labels but as structured objects. We thus model the task as the one of filling a set of templates and slots; our two-step approach recognizes relevant slot candidates as a first step and assigns them to a corresponding template as second step, relying on a learned pairwise scoring function that models the compatibility of the different slot values. We evaluate the approach on a dataset of 211 manually annotated abstracts for type 2 Diabetes and Glaucoma, showing the positive impact of modelling intra-template entity compatibility. As main benefit, our approach yields a structured object for every RCT abstract that supports the aggregation and summarization of clinical trial results across published studies and can facilitate the task of creating a systematic review or meta-analysis.",
+  "keywords": [
+    "deep",
+    "a systematic review",
+    "extraction",
+    "summarization",
+    "we",
+    "information",
+    "learning",
+    "analysis",
+    "clinical trial information extraction",
+    "object",
+    "published studies",
+    "function",
+    "studies",
+    "glaucoma",
+    "review"
+  ],
+  "url": "https://aclanthology.org/2022.bionlp-1.18/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:39:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

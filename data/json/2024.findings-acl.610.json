@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.610",
+  "title": "imap{S}core: Medical Fact Evaluation Made Easy",
+  "authors": [
+    "Wang, Huimin  and\nZhao, Yutian  and\nWu, Xian  and\nZheng, Yefeng"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Automatic evaluation of natural language generation (NLG) tasks has gained extensive research interests, since it can rapidly assess the performance of large language models (LLMs). However, automatic NLG evaluation struggles with medical QA because it fails to focus on the crucial correctness of medical facts throughout the generated text. To address this, this paper introduces a new data structure,imap, designed to capture key information in questions and answers, enabling evaluators to focus on essential details. Theimapcomprises three components: Query, Constraint, and Inform, each of which is in the form of term-value pairs to represent medical facts in a structural manner. We then introduceimapScore, which compares the corresponding medical term-value pairs in theimapto score generated texts. We utilize GPT-4 to extractimapfrom questions, human-annotated answers, and generated responses. To mitigate the diversity in medical terminology for fair term-value pairs comparison, we use a medical knowledge graph to assist GPT-4 in determining matches. To compareimapScore with existing NLG metrics, we establish a new benchmark dataset. The experimental results show thatimapScore consistently outperforms state-of-the-art metrics, demonstrating an average improvement of 79.8% in correlation with human scores. Furthermore, incorporatingimapinto n-gram, embedding, and LLM metrics boosts the base versions, increasing correlation with human scores by averages of 89.9%, 81.7%, and 32.6%, respectively.",
+  "keywords": [
+    "form",
+    "we",
+    "graph",
+    "llm",
+    "existing nlg metrics",
+    "the generated text",
+    "natural",
+    "generated texts",
+    "it",
+    "information",
+    "core",
+    "manner",
+    "text",
+    "metrics",
+    "gpt-4"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.610/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:56:56",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

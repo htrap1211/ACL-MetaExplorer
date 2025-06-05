@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.216",
+  "title": "Aligning Speech Segments Beyond Pure Semantics",
+  "authors": [
+    "Heffernan, Kevin  and\nKozhevnikov, Artyom  and\nBarrault, Loic  and\nMourachko, Alexandre  and\nSchwenk, Holger"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Multilingual parallel data for speech-to-speech translation is scarce and expensive to create from scratch. This is all the more true for expressive speech translation, which aims at preserving not only the semantics, but also the overall prosody (e.g. style, emotion, rate-of-speech). Existing corpora contain speech utterances with the same meaning, yet the overall prosody is typically different, as human annotators are not tasked with reproducing these aspects, or crowed-sourced efforts do not specifically target this kind of alignment in priority. In this paper, we propose a novel alignment algorithm, which automatically forms pairs of speech segments aligned not only in meaning, but also in expressivity. In order to validate our approach, we train an expressive multilingual speech-to-speech translation system on the automatically aligned data. Our experiments show that in comparison to semantic-only approaches, expressively aligned data yields large improvements in source expressivity preservation (e.g. 43% uplift in speech rate preservation on average), while still maintaining content translation quality. In some scenarios, results also indicate that this alignment algorithm can outperform standard, semantic-focused approaches even on content translation quality.",
+  "keywords": [
+    "this alignment",
+    "not only the semantics",
+    "rate",
+    "semantic",
+    "we",
+    "expressive speech translation",
+    "translation",
+    "semantic-only approaches",
+    "semantics",
+    "yields",
+    "alignment",
+    "content translation quality",
+    "human",
+    "standard semantic-focused approaches",
+    "a novel alignment"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.216/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

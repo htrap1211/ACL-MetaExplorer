@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.141",
+  "title": "Ultra-Fine Entity Typing with Weak Supervision from a Masked Language Model",
+  "authors": [
+    "Dai, Hongliang  and\nSong, Yangqiu  and\nWang, Haixun"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Recently, there is an effort to extend fine-grained entity typing by using a richer and ultra-fine set of types, and labeling noun phrases including pronouns and nominal nouns instead of just named entity mentions. A key challenge for this ultra-fine entity typing task is that human annotated data are extremely scarce, and the annotation ability of existing distant or weak supervision approaches is very limited. To remedy this problem, in this paper, we propose to obtain training data for ultra-fine entity typing by using a BERT Masked Language Model (MLM). Given a mention in a sentence, our approach constructs an input for the BERT MLM so that it predicts context dependent hypernyms of the mention, which can be used as type labels. Experimental results demonstrate that, with the help of these automatically generated labels, the performance of an ultra-fine entity typing model can be improved substantially. We also show that our approach can be applied to improve traditional fine-grained entity typing after performing simple type mapping.",
+  "keywords": [
+    "masked language model mlm",
+    "these automatically generated labels",
+    "we",
+    "training",
+    "a bert",
+    "a masked language model",
+    "it",
+    "bert",
+    "the bert mlm",
+    "fine",
+    "language",
+    "model",
+    "human",
+    "entity",
+    "supervision"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.141/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:01:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

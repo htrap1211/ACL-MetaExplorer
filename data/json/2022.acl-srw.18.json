@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-srw.18",
+  "title": "Restricted or Not: A General Training Framework for Neural Machine Translation",
+  "authors": [
+    "Li, Zuchao  and\nUtiyama, Masao  and\nSumita, Eiichiro  and\nZhao, Hai"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+  "abstract": "Restricted machine translation incorporates human prior knowledge into translation. It restricts the flexibility of the translation to satisfy the demands of translation in specific scenarios. Existing work typically imposes constraints on beam search decoding. Although this can satisfy the requirements overall, it usually requires a larger beam size and far longer decoding time than unrestricted translation, which limits the concurrent processing ability of the translation model in deployment, and thus its practicality. In this paper, we propose a general training framework that allows a model to simultaneously support both unrestricted and restricted translation by adopting an additional auxiliary training process without constraining the decoding process. This maintains the benefits of restricted translation but greatly reduces the extra time overhead of constrained decoding, thus improving its practicality. The effectiveness of our proposed training framework is demonstrated by experiments on both original (WAT21 En↔Ja) and simulated (WMT14 En→De and En→Fr) restricted translation benchmarks.",
+  "keywords": [
+    "work",
+    "general",
+    "process",
+    "knowledge",
+    "processing",
+    "a general training framework",
+    "restricted translation",
+    "the translation",
+    "neural",
+    "unrestricted translation",
+    "model",
+    "machine",
+    "extra",
+    "it",
+    "human"
+  ],
+  "url": "https://aclanthology.org/2022.acl-srw.18/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:34:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

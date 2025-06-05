@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.254",
+  "title": "Stephen Colbert at {S}em{E}val-2023 Task 5: Using Markup for Classifying Clickbait",
+  "authors": [
+    "Spreitzer, Sabrina  and\nTran, Hoai Nam"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "For SemEval-2023 Task 5, we have submitted three DeBERTaV3[LARGE] models to tackle the first subtask, classifying spoiler types (passage, phrase, multi) of clickbait web articles. The choice of basic parameters like sequence length with BERT[BASE] uncased and further approaches were then tested with DeBERTaV3[BASE] only moving the most promising ones to DeBERTaV3[LARGE]. Our research showed that information-placement on webpages is often optimized regarding e.g. ad-placement Those informations are usually described within the webpages markup which is why we conducted an approach that takes this into account. Overall we could not manage to beat the baseline, which we lead down to three reasons: First we only crawled markup for Huffington Post articles, extracting only p- and a-tags which will not cover enough aspects of a webpages design. Second Huffington Post articles are overrepresented in the given dataset, which, third, shows an imbalance towards the spoiler tags. We highly suggest re-annotating the given dataset to use markup-optimized models like MarkupLM or TIE and to clear it from embedded articles like “Yahoo” or archives like “archive.is” or “web.archive” to avoid noise. Also, the imbalance should be tackled by adding articles from sources other than Huffington Post, considering that also multi-tagged entries should be balanced towards passage- and phrase-tagged ones.",
+  "keywords": [
+    "entries",
+    "we",
+    "colbert",
+    "debertav3",
+    "it",
+    "information",
+    "sequence",
+    "bert base",
+    "three debertav3 large models",
+    "also multi-tagged entries",
+    "bert",
+    "debertav3 base",
+    "stephen colbert",
+    "promising",
+    "multi"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.254/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:30:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

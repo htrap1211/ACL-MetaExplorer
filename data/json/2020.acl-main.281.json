@@ -1,0 +1,33 @@
+{
+  "id": "2020.acl-main.281",
+  "title": "Hiring Now: A Skill-Aware Multi-Attention Model for Job Posting Generation",
+  "authors": [
+    "Liu, Liting  and\nLiu, Jie  and\nZhang, Wenzheng  and\nChi, Ziming  and\nShi, Wenxuan  and\nHuang, Yalou"
+  ],
+  "year": "2020",
+  "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+  "abstract": "Writing a good job posting is a critical step in the recruiting process, but the task is often more difficult than many people think. It is challenging to specify the level of education, experience, relevant skills per the company information and job description. To this end, we propose a novel task of Job Posting Generation (JPG) which is cast as a conditional text generation problem to generate job requirements according to the job descriptions. To deal with this task, we devise a data-driven global Skill-Aware Multi-Attention generation model, named SAMA. Specifically, to model the complex mapping relationships between input and output, we design a hierarchical decoder that we first label the job description with multiple skills, then we generate a complete text guided by the skill labels. At the same time, to exploit the prior knowledge about the skills, we further construct a skill knowledge graph to capture the global prior knowledge of skills and refine the generated results. The proposed approach is evaluated on real-world job posting data. Experimental results clearly demonstrate the effectiveness of the proposed method.",
+  "keywords": [
+    "end",
+    "we",
+    "graph",
+    "a skill knowledge graph",
+    "it",
+    "decoder",
+    "information",
+    "the generated results",
+    "job posting generation",
+    "text",
+    "job posting generation jpg",
+    "experience",
+    "generated",
+    "a hierarchical decoder",
+    "a skill-aware multi-attention model"
+  ],
+  "url": "https://aclanthology.org/2020.acl-main.281/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:45:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

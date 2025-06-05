@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.666",
+  "title": "K}or{NAT}: {LLM} Alignment Benchmark for {K}orean Social Values and Common Knowledge",
+  "authors": [
+    "Lee, Jiyoung  and\nKim, Minwoo  and\nKim, Seungho  and\nKim, Junghwan  and\nWon, Seunghyun  and\nLee, Hwaran  and\nChoi, Edward"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "To reliably deploy Large Language Models (LLMs) in a specific country, they must possess an understanding of the nation’s culture and basic knowledge. To this end, we introduce National Alignment, which measures the alignment between an LLM and a targeted country from two aspects: social value alignment and common knowledge alignment. We constructed KorNAT, the first benchmark that measures national alignment between LLMs and South Korea. KorNat contains 4K and 6K multiple-choice questions for social value and common knowledge, respectively. To attain an appropriately aligned ground truth in the social value dataset, we conducted a large-scale public survey with 6,174 South Koreans. For common knowledge, we created the data based on the South Korea text books and GED exams. Our dataset creation process is meticulously designed based on statistical sampling theory, and we also introduce metrics to measure national alignment, including three variations of social value alignment. We tested seven LLMs and found that only few models passed our reference score, indicating there exists room for improvement. Our dataset has received government approval following an assessment by a government-affiliated organization dedicated to evaluating dataset quality.",
+  "keywords": [
+    "end",
+    "an llm",
+    "k",
+    "we",
+    "llm",
+    "common knowledge alignment",
+    "llms",
+    "nat",
+    "llm alignment benchmark",
+    "text",
+    "metrics",
+    "seven llms",
+    "social value alignment",
+    "alignment",
+    "reference"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.666/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

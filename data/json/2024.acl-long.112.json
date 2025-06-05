@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.112",
+  "title": "DM}-{BLI}: Dynamic Multiple Subspaces Alignment for Unsupervised Bilingual Lexicon Induction",
+  "authors": [
+    "Hu, Ling  and\nXu, Yuemei"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Unsupervised bilingual lexicon induction (BLI) task aims to find word translations between languages and has achieved great success in similar language pairs. However, related works mostly rely on a single linear mapping for language alignment and fail on distant or low-resource language pairs, achieving less than half the performance observed in rich-resource language pairs. In this paper, we introduce DM-BLI, a Dynamic Multiple subspaces alignment framework for unsupervised BLI. DM-BLI improves language alignment by utilizing multiple subspace alignments instead of a single mapping. We begin via unsupervised clustering to discover these subspaces in source embedding space. Then we identify and align corresponding subspaces in the target space using a rough global alignment. DM-BLI further employs intra-cluster and inter-cluster contrastive learning to refine precise alignment for each subspace pair. Experiments conducted on standard BLI datasets for 12 language pairs (6 rich-resource and 6 low-resource) demonstrate substantial gains achieved by our framework. We release our code at https://github.com/huling-2/DM-BLI.git.",
+  "keywords": [
+    "code",
+    "alignments",
+    "a rough global alignment",
+    "word translations",
+    "we",
+    "cluster",
+    "rich",
+    "word",
+    "learning",
+    "language alignment",
+    "multiple subspace alignments",
+    "alignment",
+    "language",
+    "precise alignment",
+    "unsupervised clustering"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.112/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:35:49",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.582",
+  "title": "Enhancing Numerical Reasoning with the Guidance of Reliable Reasoning Processes",
+  "authors": [
+    "Wang, Dingzirui  and\nDou, Longxu  and\nZhang, Xuanliang  and\nZhu, Qingfu  and\nChe, Wanxiang"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Numerical reasoning is an essential ability for NLP systems to handle numeric information. Recent research indicates that fine-tuning a small-scale model to learn generating reasoning processes alongside answers can significantly enhance performance. However, current methods have the limitation that most methods generate reasoning processes with large language models (LLMs), which are “unreliable” since such processes could contain information unrelated to the answer. To address this limitation, we introduce enhancing numerical reasoning with reliable processes (Encore), which derives the reliable reasoning process by decomposing the answer formula, ensuring which fully supports the answer. Nevertheless, models could lack enough data to learn the reasoning process generation adequately, since our method generates only one single reasoning process for one formula. To overcome this difficulty, we present a series of pre-training tasks to help models learn the reasoning process generation with synthesized data. The experiments show that Encore yields improvement on all five experimental datasets with an average of 1.8%, proving the effectiveness of our method.",
+  "keywords": [
+    "pre-training tasks",
+    "series",
+    "we",
+    "current",
+    "training",
+    "the reasoning process generation",
+    "answer",
+    "information",
+    "yields",
+    "llms",
+    "large language models llms",
+    "fine",
+    "encore yields",
+    "a series",
+    "process"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.582/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:42:20",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

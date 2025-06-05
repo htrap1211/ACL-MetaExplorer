@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.18",
+  "title": "S}ci{MON}: Scientific Inspiration Machines Optimized for Novelty",
+  "authors": [
+    "Wang, Qingyun  and\nDowney, Doug  and\nJi, Heng  and\nHope, Tom"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We explore and enhance the ability of neural language models to generate novel scientific directions grounded in literature. Work on literature-based hypothesis generation has traditionally focused on binary link prediction—severely limiting the expressivity of hypotheses. This line of work also does not focus on optimizing novelty. We take a dramatic departure with a novel setting in which models use as input background contexts (e.g., problems, experimental settings, goals), and output natural language ideas grounded in literature. We present SciMON, a modeling framework that uses retrieval of “inspirations” from past scientific papers, and explicitly optimizes for novelty by iteratively comparing to prior papers and updating idea suggestions until sufficient novelty is achieved. Comprehensive evaluations reveal that GPT-4 tends to generate ideas with overall low technical depth and novelty, while our methods partially mitigate this issue. Our work represents a first step toward evaluating and developing language models that generate new ideas derived from the scientific literature. Code, data, and resources are publicly available for research purposes: https://github.com/eaglew/clbd.",
+  "keywords": [
+    "code",
+    "sufficient novelty",
+    "we",
+    "neural language models",
+    "past scientific papers",
+    "neural",
+    "natural",
+    "literature-based hypothesis generation",
+    "input background",
+    "retrieval",
+    "sufficient",
+    "scientific",
+    "comprehensive evaluations",
+    "background",
+    "novel scientific directions"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.18/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:34:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

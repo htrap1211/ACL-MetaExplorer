@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.829",
+  "title": "E}con{A}gent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities",
+  "authors": [
+    "Li, Nian  and\nGao, Chen  and\nLi, Mingyu  and\nLi, Yong  and\nLiao, Qingmin"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The advent of artificial intelligence has led to a growing emphasis on data-driven modeling in macroeconomics, with agent-based modeling (ABM) emerging as a prominent bottom-up simulation paradigm. In ABM, agents (*e.g.*, households, firms) interact within a macroeconomic environment, collectively generating market dynamics. Existing agent modeling typically employs predetermined rules or learning-based neural networks for decision-making. However, customizing each agent presents significant challenges, complicating the modeling of agent heterogeneity. Additionally, the influence of multi-period market dynamics and multifaceted macroeconomic factors are often overlooked in decision-making processes.In this work, we introduce **EconAgent**, a large language model-empowered agent with human-like characteristics for macroeconomic simulation. We first construct a simulation environment that incorporates various market dynamics driven by agents’ decisions regarding work and consumption. Through the perception module, we create heterogeneous agents with distinct decision-making mechanisms. Furthermore, we model the impact of macroeconomic trends using a memory module, which allows agents to reflect on past individual experiences and market dynamics.Simulation experiments show that EconAgent can make realistic decisions, leading to more reasonable macroeconomic phenomena compared to existing rule-based or learning-based agents. Our codes are released at https://github.com/tsinghua-fib-lab/ACL24-EconAgent.",
+  "keywords": [
+    "we",
+    "learning-based neural networks",
+    "neural",
+    "learning",
+    "macroeconomic activities",
+    "activities",
+    "work",
+    "language",
+    "past individual experiences",
+    "model",
+    "experiences",
+    "human",
+    "modeling",
+    "multi",
+    "e g households firms"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.829/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:45:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

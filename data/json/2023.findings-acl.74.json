@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.74",
+  "title": "Language Models for {G}erman Text Simplification: Overcoming Parallel Data Scarcity through Style-specific Pre-training",
+  "authors": [
+    "Ansch{\\\"u}tz, Miriam  and\nOehms, Joshua  and\nWimmer, Thomas  and\nJezierski, Bart{\\l}omiej  and\nGroh, Georg"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Automatic text simplification systems help to reduce textual information barriers on the internet. However, for languages other than English, only few parallel data to train these systems exists. We propose a two-step approach to overcome this data scarcity issue. First, we fine-tuned language models on a corpus of German Easy Language, a specific style of German. Then, we used these models as decoders in a sequence-to-sequence simplification task. We show that the language models adapt to the style characteristics of Easy Language and output more accessible texts. Moreover, with the style-specific pre-training, we reduced the number of trainable parameters in text simplification models. Hence, less parallel data is sufficient for training. Our results indicate that pre-training on unaligned data can reduce the required parallel data while improving the performance on downstream tasks.",
+  "keywords": [
+    "language",
+    "text",
+    "language models",
+    "-",
+    "textual information barriers",
+    "information",
+    "barriers",
+    "sufficient",
+    "decoders",
+    "we",
+    "sequence",
+    "the language models",
+    "pre",
+    "the style-specific pre-training",
+    "training"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.74/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:54:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

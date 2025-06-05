@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-industry.34",
+  "title": "A Static Evaluation of Code Completion by Large Language Models",
+  "authors": [
+    "Ding, Hantian  and\nKumar, Varun  and\nTian, Yuchen  and\nWang, Zijian  and\nKwiatkowski, Rob  and\nLi, Xiaopeng  and\nRamanathan, Murali Krishna  and\nRay, Baishakhi  and\nBhatia, Parminder  and\nSengupta, Sudipta"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 5: Industry Track)",
+  "abstract": "Large language models trained on code have shown great potential to increase productivity of software developers. Several execution-based benchmarks have been proposed to evaluate functional correctness of model-generated code on simple programming problems. Nevertheless, it is expensive to perform the same evaluation on complex real-world projects considering the execution cost. On the other hand, static analysis tools such as linters, which can detect errors without running the program, haven’t been well explored for evaluating code generation models. In this work, we propose a static evaluation framework to quantify static errors in Python code completions, by leveraging Abstract Syntax Trees. Compared with execution-based evaluation, our method is not only more efficient, but also applicable to code in the wild. For experiments, we collect code context from open source repos to generate one million function bodies using public models. Our static analysis reveals that Undefined Name and Unused Variable are the most common errors among others made by language models. Through extensive studies, we also show the impact of sampling temperature, model size, and context on static errors in code completions.",
+  "keywords": [
+    "code",
+    "efficient",
+    "we",
+    "syntax",
+    "one million function bodies",
+    "it",
+    "the same evaluation",
+    "code generation models",
+    "a static evaluation framework",
+    "analysis",
+    "language models",
+    "function",
+    "work",
+    "language",
+    "generation"
+  ],
+  "url": "https://aclanthology.org/2023.acl-industry.34/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:52:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

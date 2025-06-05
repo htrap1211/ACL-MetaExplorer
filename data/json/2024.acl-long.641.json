@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.641",
+  "title": "Learning to Generate Answers with Citations via Factual Consistency Models",
+  "authors": [
+    "Aly, Rami  and\nTang, Zhiqiang  and\nTan, Samson  and\nKarypis, George"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large Language Models (LLMs) frequently hallucinate, impeding their reliability in mission-critical situations. One approach to address this issue is to provide citations to relevant sources alongside generated content, enhancing the verifiability of generations. However, citing passages accurately in answers remains a substantial challenge. This paper proposes a weakly-supervised fine-tuning method leveraging factual consistency models (FCMs). Our approach alternates between generating texts with citations and supervised fine-tuning with FCM-filtered citation data. Focused learning is integrated into the objective, directing the fine-tuning process to emphasise the factual unit tokens, as measured by an FCM. Results on the ALCE few-shot citation benchmark with various instruction-tuned LLMs demonstrate superior performance compared to in-context learning, vanilla supervised fine-tuning, and state-of-the-art methods, with an average improvement of 34.1, 15.5, and 10.5 citation F1points, respectively. Moreover, in a domain transfer setting we show that the obtained citation generation ability robustly transfers to unseen datasets. Notably, our citation improvements contribute to the lowest factual error rate across baselines.",
+  "keywords": [
+    "rate",
+    "we",
+    "shot",
+    "fine-tuning",
+    "instruction",
+    "the objective",
+    "the fine-tuning process",
+    "learning",
+    "transfer",
+    "f1points",
+    "llms",
+    "tuning",
+    "objective",
+    "generated content",
+    "various instruction-tuned llms"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.641/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:43:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

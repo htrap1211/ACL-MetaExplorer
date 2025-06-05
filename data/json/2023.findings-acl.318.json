@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.318",
+  "title": "Code-Switched Text Synthesis in Unseen Language Pairs",
+  "authors": [
+    "Hsu, I-Hung  and\nRay, Avik  and\nGarg, Shubham  and\nPeng, Nanyun  and\nHuang, Jing"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Existing efforts on text synthesis for code-switching mostly require training on code-switched texts in the target language pairs, limiting the deployment of the models to cases lacking code-switched data. In this work, we study the problem of synthesizing code-switched texts for language pairs absent from the training data. We introduce GLOSS, a model built on top of a pre-trained multilingual machine translation model (PMMTM) with an additional code-switching module. This module, either an adapter or extra prefixes, learns code-switching patterns from code-switched data during training, while the primary component of GLOSS, i.e., the PMMTM, is frozen. The design of only adjusting the code-switching module prevents our model from overfitting to the constrained training data for code-switching. Hence, GLOSS exhibits the ability to generalize and synthesize code-switched texts across a broader spectrum of language pairs. Additionally, we develop a self-training algorithm on target language pairs further to enhance the reliability of GLOSS. Automatic evaluations on four language pairs show that GLOSS achieves at least 55% relative BLEU and METEOR scores improvements compared to strong baselines. Human evaluations on two language pairs further validate the success of GLOSS.",
+  "keywords": [
+    "code",
+    "top",
+    "extra",
+    "bleu",
+    "we",
+    "automatic evaluations",
+    "training",
+    "translation",
+    "self",
+    "i",
+    "text",
+    "meteor scores improvements",
+    "meteor",
+    "work",
+    "language"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.318/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:57:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

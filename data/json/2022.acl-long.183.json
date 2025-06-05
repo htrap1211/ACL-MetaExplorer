@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.183",
+  "title": "C}lar{ET}: Pre-training a Correlation-Aware Context-To-Event Transformer for Event-Centric Generation and Classification",
+  "authors": [
+    "Zhou, Yucheng  and\nShen, Tao  and\nGeng, Xiubo  and\nLong, Guodong  and\nJiang, Daxin"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Generating new events given context with correlated ones plays a crucial role in many event-centric reasoning tasks. Existing works either limit their scope to specific scenarios or overlook event-level correlations. In this paper, we propose to pre-train a general Correlation-aware context-to-Event Transformer (ClarET) for event-centric reasoning. To achieve this, we propose three novel event-centric objectives, i.e., whole event recovering, contrastive event-correlation encoding and prompt-based event locating, which highlight event-level correlations with effective training. The proposed ClarET is applicable to a wide range of event-centric reasoning scenarios, considering its versatility of (i) event-correlation types (e.g., causal, temporal, contrast), (ii) application formulations (i.e., generation and classification), and (iii) reasoning types (e.g., abductive, counterfactual and ending reasoning). Empirical fine-tuning results, as well as zero- and few-shot learning, on 9 benchmarks (5 generation and 4 classification tasks covering 4 reasoning types with diverse event correlations), verify its effectiveness and generalization ability.",
+  "keywords": [
+    "4 classification tasks",
+    "objectives",
+    "5 generation",
+    "event-centric generation",
+    "we",
+    "shot",
+    "training",
+    "classification",
+    "prompt-based event",
+    "c",
+    "three novel event-centric objectives",
+    "learning",
+    "lar",
+    "et",
+    "tuning"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.183/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:46",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

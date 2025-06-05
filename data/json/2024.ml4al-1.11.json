@@ -1,0 +1,33 @@
+{
+  "id": "2024.ml4al-1.11",
+  "title": "UFCN}et: Unsupervised Network based on {F}ourier transform and Convolutional attention for Oracle Character Recognition",
+  "authors": [
+    "Zhou, Yanan  and\nLiu, Guoqi  and\nYang, Yiping  and\nRu, Linyuan  and\nLiu, Dong  and\nLi, Xueshan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 1st Workshop on Machine Learning for Ancient Languages (ML4AL 2024)",
+  "abstract": "Oracle bone script (OBS) is the earliest writing system in China, which is of great value in the improvement of archaeology and Chinese cultural history. However, there are some problems such as the lack of labels and the difficulty to distinguish the glyphs from the background of OBS, which makes the automatic recognition of OBS in the real world not achieve the satisfactory effect. In this paper, we propose a character recognition method based on an unsupervised domain adaptive network (UFCNet). Firstly, a convolutional attention fusion module (CAFM) is designed in the encoder to obtain more global features through multi-layer feature fusion. Second, we construct a Fourier transform (FT) module that focuses on the differences between glyphs and backgrounds. Finally, to further improve the network’s ability to recognize character edges, we introduce a kernel norm-constrained loss function. Extensive experiments perform on the Oracle-241 dataset show that the proposed method is superior to other adaptive methods. The code will be available at https://github.com/zhouynan/UFCNet.",
+  "keywords": [
+    "code",
+    "kernel",
+    "layer",
+    "convolutional attention",
+    "we",
+    "convolutional",
+    "fusion",
+    "norm",
+    "the earliest writing system",
+    "the encoder",
+    "backgrounds",
+    "fourier",
+    "loss",
+    "background",
+    "the background"
+  ],
+  "url": "https://aclanthology.org/2024.ml4al-1.11/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:08:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

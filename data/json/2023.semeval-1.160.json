@@ -1,0 +1,33 @@
+{
+  "id": "2023.semeval-1.160",
+  "title": "NITK}{\\_}{LEGAL} at {S}em{E}val-2023 Task 6: A Hierarchical based system for identification of Rhetorical Roles in legal judgements",
+  "authors": [
+    "Sindhu, Patchipulusu  and\nGupta, Diya  and\nMeghana, Sanjeevi  and\nKumar M, Anand"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  "abstract": "The ability to automatically recognise the rhetorical roles of sentences in a legal case judgement is a crucial challenge to tackle since it can be useful for a number of activities that come later, such as summarising legal judgements and doing legal searches. The task is exigent since legal case documents typically lack structure, and their rhetorical roles could be subjective. This paper describes SemEval-2023 Task 6: LegalEval: Understanding Legal Texts, Sub-task A: Rhetorical Roles Prediction (RR). We propose a system to automatically generate rhetorical roles of all the sentences in a legal case document using Hierarchical Bi-LSTM CRF model and RoBERTa transformer. We also showcase different techniques used to manipulate dataset to generate a set of varying embeddings and train the Hierarchical Bi-LSTM CRF model to achieve better performance. Among all, model trained with the sent2vec embeddings concatenated with the handcrafted features perform better with the micro f1-score of 0.74 on test data.",
+  "keywords": [
+    "roberta",
+    "we",
+    "lstm",
+    "it",
+    "the sent2vec embeddings",
+    "-",
+    "the micro f1-score",
+    "activities",
+    "varying embeddings",
+    "embeddings",
+    "transformer",
+    "hierarchical",
+    "hierarchical bi-lstm crf model",
+    "model",
+    "a hierarchical based system"
+  ],
+  "url": "https://aclanthology.org/2023.semeval-1.160/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:28:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

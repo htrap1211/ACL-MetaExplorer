@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.885",
+  "title": "Few-shot Reranking for Multi-hop {QA} via Language Model Prompting",
+  "authors": [
+    "Khalifa, Muhammad  and\nLogeswaran, Lajanugen  and\nLee, Moontae  and\nLee, Honglak  and\nWang, Lu"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "We study few-shot reranking for multi-hop QA (MQA) with open-domain questions. To alleviate the need for a large number of labeled question-document pairs for retriever training, we propose PromptRank, which relies on language model prompting for multi-hop path reranking. PromptRank first constructs an instruction-based prompt that includes a candidate document path and then computes the relevance score between a given question and the path based on the conditional likelihood of the question given the path prompt according to a language model. PromptRank yields strong retrieval performance on HotpotQA with only 128 training examples compared to state-of-the-art methods trained on thousands of examples — 73.6 recall@10 by PromptRank vs. 77.8 by PathRetriever and 77.5 by multi-hop dense retrieval.",
+  "keywords": [
+    "instruction",
+    "recall",
+    "multi-hop dense retrieval",
+    "mqa",
+    "prompt",
+    "the path prompt",
+    "language",
+    "-hop qa mqa",
+    "model",
+    "language model",
+    "hotpotqa",
+    "retriever training",
+    "strong retrieval performance",
+    "retrieval",
+    "question"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.885/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:47:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

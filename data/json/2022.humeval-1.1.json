@@ -1,0 +1,33 @@
+{
+  "id": "2022.humeval-1.1",
+  "title": "Vacillating Human Correlation of {S}acre{BLEU} in Unprotected Languages",
+  "authors": [
+    "Kim, Ahrii  and\nKim, Jinhyeon"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 2nd Workshop on Human Evaluation of NLP Systems (HumEval)",
+  "abstract": "SacreBLEU, by incorporating a text normalizing step in the pipeline, has become a rising automatic evaluation metric in recent MT studies. With agglutinative languages such as Korean, however, the lexical-level metric cannot provide a conceivable result without a customized pre-tokenization. This paper endeavors to ex- amine the influence of diversified tokenization schemes –word, morpheme, subword, character, and consonants & vowels (CV)– on the metric after its protective layer is peeled off. By performing meta-evaluation with manually- constructed into-Korean resources, our empirical study demonstrates that the human correlation of the surface-based metric and other homogeneous ones (as an extension) vacillates greatly by the token type. Moreover, the human correlation of the metric often deteriorates due to some tokenization, with CV one of its culprits. Guiding through the proper usage of tokenizers for the given metric, we discover i) the feasibility of the character tokens and ii) the deficit of CV in the Korean MT evaluation.",
+  "keywords": [
+    "bleu",
+    "layer",
+    "we",
+    "recent mt studies",
+    "token",
+    "word",
+    "s acre bleu",
+    "the korean mt evaluation",
+    "i",
+    "tokenization",
+    "metric",
+    "text",
+    "studies",
+    "human",
+    "some tokenization"
+  ],
+  "url": "https://aclanthology.org/2022.humeval-1.1/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:42:44",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

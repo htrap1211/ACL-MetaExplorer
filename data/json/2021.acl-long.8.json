@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.8",
+  "title": "Enhancing Content Preservation in Text Style Transfer Using Reverse Attention and Conditional Layer Normalization",
+  "authors": [
+    "Lee, Dongkyu  and\nTian, Zhiliang  and\nXue, Lanqing  and\nZhang, Nevin L."
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "Text style transfer aims to alter the style (e.g., sentiment) of a sentence while preserving its content. A common approach is to map a given sentence to content representation that is free of style, and the content representation is fed to a decoder with a target style. Previous methods in filtering style completely remove tokens with style at the token level, which incurs the loss of content information. In this paper, we propose to enhance content preservation by implicitly removing the style information of each token with reverse attention, and thereby retain the content. Furthermore, we fuse content information when building the target style representation, making it dynamic with respect to the content. Our method creates not only style-independent content representation, but also content-dependent style representation in transferring style. Empirical results show that our method outperforms the state-of-the-art baselines by a large margin in terms of content preservation. In addition, it is also competitive in terms of style transfer accuracy and fluency.",
+  "keywords": [
+    "normalization",
+    "style transfer accuracy",
+    "text",
+    "it",
+    "token",
+    "reverse attention",
+    "decoder",
+    "loss",
+    "information",
+    "a decoder",
+    "layer",
+    "attention",
+    "we",
+    "transfer",
+    "accuracy"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.8/",
+  "provenance": {
+    "collected_at": "2025-06-05 07:59:33",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "W19-5344",
+  "title": "The {LMU} {M}unich Unsupervised Machine Translation System for {WMT}19",
+  "authors": [
+    "Stojanovski, Dario  and\nHangya, Viktor  and\nHuck, Matthias  and\nFraser, Alexander"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1)",
+  "abstract": "We describe LMU Munich’s machine translation system for German→Czech translation which was used to participate in the WMT19 shared task on unsupervised news translation. We train our model using monolingual data only from both languages. The final model is an unsupervised neural model using established techniques for unsupervised translation such as denoising autoencoding and online back-translation. We bootstrap the model with masked language model pretraining and enhance it with back-translations from an unsupervised phrase-based system which is itself bootstrapped using unsupervised bilingual word embeddings.",
+  "keywords": [
+    "embeddings",
+    "language",
+    "unsupervised bilingual word embeddings",
+    "neural",
+    "unsupervised machine translation system",
+    "model",
+    "machine",
+    "it",
+    "online back-translation",
+    "unsupervised news translation",
+    "unsupervised translation",
+    "word",
+    "we",
+    "masked language model pretraining",
+    "translations"
+  ],
+  "url": "https://aclanthology.org/W19-5344/",
+  "provenance": {
+    "collected_at": "2025-06-05 02:07:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

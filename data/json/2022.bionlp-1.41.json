@@ -1,0 +1,33 @@
+{
+  "id": "2022.bionlp-1.41",
+  "title": "Model Distillation for Faithful Explanations of Medical Code Predictions",
+  "authors": [
+    "Wood-Doughty, Zach  and\nCachola, Isabel  and\nDredze, Mark"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 21st Workshop on Biomedical Language Processing",
+  "abstract": "Machine learning models that offer excellent predictive performance often lack the interpretability necessary to support integrated human machine decision-making. In clinical medicine and other high-risk settings, domain experts may be unwilling to trust model predictions without explanations. Work in explainable AI must balance competing objectives along two different axes: 1) Models should ideally be both accurate and simple. 2) Explanations must balance faithfulness to the model’s decision-making with their plausibility to a domain expert. We propose to use knowledge distillation, or training a student model that mimics the behavior of a trained teacher model, as a technique to generate faithful and plausible explanations. We evaluate our approach on the task of assigning ICD codes to clinical notes to demonstrate that the student model is faithful to the teacher model’s behavior and produces quality natural language explanations.",
+  "keywords": [
+    "code",
+    "objectives",
+    "competing objectives",
+    "we",
+    "natural",
+    "learning",
+    "work",
+    "knowledge",
+    "language",
+    "model",
+    "machine",
+    "human",
+    "a trained teacher model",
+    "their plausibility",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2022.bionlp-1.41/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:40:05",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

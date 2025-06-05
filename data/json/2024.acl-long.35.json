@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.35",
+  "title": "Leveraging Codebook Knowledge with {NLI} and {C}hat{GPT} for Zero-Shot Political Relation Classification",
+  "authors": [
+    "Hu, Yibo  and\nSkorupa Parolin, Erick  and\nKhan, Latifur  and\nBrandt, Patrick  and\nOsorio, Javier  and\nD{'}Orazio, Vito"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Is it possible accurately classify political relations within evolving event ontologies without extensive annotations? This study investigates zero-shot learning methods that use expert knowledge from existing annotation codebook, and evaluates the performance of advanced ChatGPT (GPT-3.5/4) and a natural language inference (NLI)-based model called ZSP. ChatGPT uses codebook’s labeled summaries as prompts, whereas ZSP breaks down the classification task into context, event mode, and class disambiguation to refine task-specific hypotheses. This decomposition enhances interpretability, efficiency, and adaptability to schema changes. The experiments reveal ChatGPT’s strengths and limitations, and crucially show ZSP’s outperformance of dictionary-based methods and its competitive edge over some supervised models. These findings affirm the value of ZSP for validating event records and advancing ontology development. Our study underscores the efficacy of leveraging transfer learning and existing domain expertise to enhance research efficiency and scalability.",
+  "keywords": [
+    "chatgpt s strengths",
+    "efficiency",
+    "codebook s labeled summaries",
+    "shot",
+    "classification",
+    "research efficiency",
+    "edge",
+    "natural",
+    "ontologies",
+    "it",
+    "zero-shot political relation classification",
+    "chatgpt",
+    "learning",
+    "transfer",
+    "event ontologies"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.35/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:34:45",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

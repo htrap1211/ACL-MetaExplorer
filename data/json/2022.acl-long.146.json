@@ -1,0 +1,33 @@
+{
+  "id": "2022.acl-long.146",
+  "title": "Investigating Non-local Features for Neural Constituency Parsing",
+  "authors": [
+    "Cui, Leyang  and\nYang, Sen  and\nZhang, Yue"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Thanks to the strong representation power of neural encoders, neural chart-based parsers have achieved highly competitive performance by using local features. Recently, it has been shown that non-local features in CRF structures lead to improvements. In this paper, we investigate injecting non-local features into the training process of a local span-based parser, by predicting constituentn-gram non-local patterns and ensuring consistency between non-local patterns and local constituents. Results show that our simple method gives better results than the self-attentive parser on both PTB and CTB. Besides, our method achieves state-of-the-art BERT-based performance on PTB (95.92 F1) and strong performance on CTB (92.31 F1). Our parser also outperforms the self-attentive parser in multi-lingual and zero-shot cross-domain settings.",
+  "keywords": [
+    "cross",
+    "process",
+    "neural encoders",
+    "neural",
+    "bert",
+    "it",
+    "self",
+    "92 31 f1",
+    "we",
+    "encoders",
+    "training",
+    "attentive",
+    "constituentn",
+    "multi",
+    "state"
+  ],
+  "url": "https://aclanthology.org/2022.acl-long.146/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:26:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

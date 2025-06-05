@@ -1,0 +1,33 @@
+{
+  "id": "W19-4811",
+  "title": "Character Eyes: Seeing Language through Character-Level Taggers",
+  "authors": [
+    "Pinter, Yuval  and\nMarone, Marc  and\nEisenstein, Jacob"
+  ],
+  "year": "2019",
+  "venue": "Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
+  "abstract": "Character-level models have been used extensively in recent years in NLP tasks as both supplements and replacements for closed-vocabulary token-level word representations. In one popular architecture, character-level LSTMs are used to feed token representations into a sequence tagger predicting token-level annotations such as part-of-speech (POS) tags. In this work, we examine the behavior of POS taggers across languages from the perspective of individual hidden units within the character LSTM. We aggregate the behavior of these units into language-level metrics which quantify the challenges that taggers face on languages with different morphological properties, and identify links between synthesis and affixation preference and emergent behavior of the hidden tagger layer. In a comparative experiment, we show how modifying the balance between forward and backward hidden units affects model arrangement and performance in these types of languages.",
+  "keywords": [
+    "layer",
+    "we",
+    "lstm",
+    "the character lstm",
+    "token",
+    "properties",
+    "word",
+    "sequence",
+    "nlp tasks",
+    "pos",
+    "metrics",
+    "lstms",
+    "language-level metrics",
+    "work",
+    "language"
+  ],
+  "url": "https://aclanthology.org/W19-4811/",
+  "provenance": {
+    "collected_at": "2025-06-05 00:57:39",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

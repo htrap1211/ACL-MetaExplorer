@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-short.145",
+  "title": "Diversity-Aware Coherence Loss for Improving Neural Topic Models",
+  "authors": [
+    "Li, Raymond  and\nGonzalez-Pizarro, Felipe  and\nXing, Linzi  and\nMurray, Gabriel  and\nCarenini, Giuseppe"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  "abstract": "The standard approach for neural topic modeling uses a variational autoencoder (VAE) framework that jointly minimizes the KL divergence between the estimated posterior and prior, in addition to the reconstruction loss. Since neural topic models are trained by recreating individual input documents, they do not explicitly capture the coherence between words on the corpus level. In this work, we propose a novel diversity-aware coherence loss that encourages the model to learn corpus-level coherence scores while maintaining high diversity between topics. Experimental results on multiple datasets show that our method significantly improves the performance of neural topic models without requiring any pretraining or additional parameters.",
+  "keywords": [
+    "work",
+    "neural",
+    "model",
+    "autoencoder",
+    "topic",
+    "modeling",
+    "loss",
+    "we",
+    "neural topic modeling",
+    "that",
+    "documents",
+    "the kl divergence",
+    "the coherence",
+    "this work",
+    "coherence"
+  ],
+  "url": "https://aclanthology.org/2023.acl-short.145/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:50:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

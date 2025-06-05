@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.160",
+  "title": "Stumbling Blocks: Stress Testing the Robustness of Machine-Generated Text Detectors Under Attacks",
+  "authors": [
+    "Wang, Yichen  and\nFeng, Shangbin  and\nHou, Abe  and\nPu, Xiao  and\nShen, Chao  and\nLiu, Xiaoming  and\nTsvetkov, Yulia  and\nHe, Tianxing"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "The widespread use of large language models (LLMs) is increasing the demand for methods that detect machine-generated text to prevent misuse. The goal of our study is to stress test the detectors’ robustness to malicious attacks under realistic scenarios. We comprehensively study the robustness of popular machine-generated text detectors under attacks from diverse categories: editing, paraphrasing, co-generating, and prompting. Our attacks assume limited access to the generator LLMs, and we compare the performance of detectors on different attacks under different budget levels. Our experiments reveal that almost none of the existing detectors remain robust under all the attacks, and all detectors exhibit different loopholes. Averaging all detectors, the performance drops by 35% across all attacks. Further, we investigate the reasons behind these defects and propose initial out-of-the-box patches.",
+  "keywords": [
+    "machine-generated text detectors",
+    "language",
+    "categories",
+    "co",
+    "machine",
+    "text",
+    "machine-generated text",
+    "llms",
+    "-",
+    "large language models llms",
+    "the generator llms",
+    "diverse categories",
+    "popular machine-generated text detectors",
+    "generator",
+    "we"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.160/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:28",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

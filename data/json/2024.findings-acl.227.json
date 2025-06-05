@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.227",
+  "title": "Knowledge-Driven Cross-Document Relation Extraction",
+  "authors": [
+    "Jain, Monika  and\nMutharaju, Raghava  and\nSingh, Kuldeep  and\nKavuluru, Ramakanth"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Relation extraction (RE) is a well-known NLP application often treated as a sentence or document-level task. However, a handful of recent efforts explore it across documents or in the cross-document setting (CrossDocRE). This is distinct from the single document case because different documents often focus on disparate themes, while text within a document tends to have a single goal.Current CrossDocRE efforts do not consider domain knowledge, which are often assumed to be known to the reader when documents are authored. Here, we propose a novel approach, KXDocRE, that embed domain knowledge of entities with input text for cross-document RE. Our proposed framework has three main benefits over baselines: 1) it incorporates domain knowledge of entities along with documents’ text; 2) it offers interpretability by producing explanatory text for predicted relations between entities 3) it improves performance over the prior methods. Code and models are available athttps://github.com/kracr/cross-doc-relation-extraction.",
+  "keywords": [
+    "cross",
+    "code",
+    "knowledge",
+    "nlp",
+    "extraction",
+    "entities",
+    "text",
+    "it",
+    "embed",
+    "-",
+    "a well-known nlp application",
+    "we",
+    "current",
+    "documents",
+    "distinct"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.227/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:51:42",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

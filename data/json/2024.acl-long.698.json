@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.698",
+  "title": "SOTOPIA}-{\\ensuremath{\\pi}}: Interactive Learning of Socially Intelligent Language Agents",
+  "authors": [
+    "Wang, Ruiyi  and\nYu, Haofei  and\nZhang, Wenxin  and\nQi, Zhengyang  and\nSap, Maarten  and\nBisk, Yonatan  and\nNeubig, Graham  and\nZhu, Hao"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Humans learn social skills through both imitation and social interaction. This social learning process is largely understudied by existing research on building language agents. Motivated by this gap, we propose an interactive learning method, SOTOPIA-π, that improves the social intelligence of language agents. This method leverages behavior cloning and self-reinforcement based training on filtered social interaction data according to large language model (LLM) rating. We show that our training method allows a 7B LLM to reach the social goal completion ability of an expert model (GPT-4-based agent) without the loss of more generic abilities, such as the ability to answer knowledge-based questions. We also demonstrate that this training paradigm uncovers some weaknesses in standard evaluation and safety training paradigms that (1) LLM-based evaluation of social intelligence overestimates the abilities of the language agents trained specifically for social interaction, and that (2) despite not training for better safety or question answering (QA) ability, our methods improve the safety of language agents and maintain general QA ability on the MMLU benchmark.",
+  "keywords": [
+    "1 llm-based evaluation",
+    "question",
+    "we",
+    "llm",
+    "training",
+    "qa ability",
+    "self",
+    "loss",
+    "understudied",
+    "learning",
+    "abilities",
+    "generic",
+    "a 7b llm",
+    "gpt-4",
+    "general qa ability"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.698/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:43:55",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

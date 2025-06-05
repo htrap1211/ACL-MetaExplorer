@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.560",
+  "title": "It is a Bird Therefore it is a Robin: On {BERT}{'}s Internal Consistency Between Hypernym Knowledge and Logical Words",
+  "authors": [
+    "Guerin, Nicolas  and\nChemla, Emmanuel"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "The lexical knowledge of NLP systems shouldbe tested (i) for their internal consistency(avoiding groundedness issues) and (ii) bothfor content words and logical words. In thispaper we propose a new method to test the understandingof the hypernymy relationship bymeasuring its antisymmetry according to themodels. Previous studies often rely only on thedirect question (e.g., A robin is a ...), where weargue a correct answer could only rely on collocationalcues, rather than hierarchical cues. We show how to control for this, and how it isimportant. We develop a method to ask similarquestions about logical words that encode anentailment-like relation (e.g., because or therefore).Our results show important weaknessesof BERT-like models on these semantic tasks.",
+  "keywords": [
+    "hierarchical",
+    "these semantic tasks",
+    "knowledge",
+    "i",
+    "previous studies",
+    "important weaknessesof bert-like models",
+    "nlp",
+    "answer",
+    "bert",
+    "bert s internal consistency",
+    "studies",
+    "it",
+    "hierarchical cues",
+    "question",
+    "nlp systems shouldbe"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.560/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:14",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

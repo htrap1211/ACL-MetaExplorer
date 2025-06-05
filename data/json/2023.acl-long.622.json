@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.622",
+  "title": "Distill or Annotate? Cost-Efficient Fine-Tuning of Compact Models",
+  "authors": [
+    "Kang, Junmo  and\nXu, Wei  and\nRitter, Alan"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Fine-tuning large models is highly effective, however, inference can be expensive and produces carbon emissions. Knowledge distillation has been shown to be a practical solution to reduce inference costs, but the distillation process itself requires significant computational resources. Rather than buying or renting GPUs to fine-tune, then distill a large model, an NLP practitioner might instead choose to allocate the available budget to hire annotators and manually label additional fine-tuning data. In this paper, we investigate how to most efficiently use a fixed budget to build a compact model. Through extensive experiments on six diverse tasks, we show that distilling from T5-XXL (11B) to T5-Small (60M) is almost always a cost-efficient strategy compared to annotating more data to directly train a compact model (T5-Small). We further investigate how the optimal budget allocated towards computation varies across scenarios. We will make our code, datasets, annotation cost estimates, and baseline models available as a benchmark to support further work on cost-efficient training of compact models.",
+  "keywords": [
+    "code",
+    "additional fine-tuning data",
+    "a cost-efficient strategy",
+    "efficient",
+    "we",
+    "training",
+    "cost-efficient fine-tuning",
+    "an nlp practitioner",
+    "cost-efficient training",
+    "fine-tuning large models",
+    "tuning",
+    "fine",
+    "work",
+    "practitioner",
+    "process"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.622/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:44:00",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

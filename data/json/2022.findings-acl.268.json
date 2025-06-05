@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.268",
+  "title": "Consistent Representation Learning for Continual Relation Extraction",
+  "authors": [
+    "Zhao, Kang  and\nXu, Hua  and\nYang, Jiangong  and\nGao, Kai"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Continual relation extraction (CRE) aims to continuously train a model on data with new relations while avoiding forgetting old ones. Some previous work has proved that storing a few typical samples of old relations and replaying them when learning new relations can effectively avoid forgetting. However, these memory-based methods tend to overfit the memory samples and perform poorly on imbalanced datasets. To solve these challenges, a consistent representation learning method is proposed, which maintains the stability of the relation embedding by adopting contrastive learning and knowledge distillation when replaying memory. Specifically, supervised contrastive learning based on a memory bank is first used to train each new task so that the model can effectively learn the relation representation. Then, contrastive replay is conducted of the samples in memory and makes the model retain the knowledge of historical relations through memory knowledge distillation to prevent the catastrophic forgetting of the old task. The proposed method can better learn consistent representations to alleviate forgetting effectively. Extensive experiments on FewRel and TACRED datasets show that our method significantly outperforms state-of-the-art baselines and yield strong robustness on the imbalanced dataset.",
+  "keywords": [
+    "extraction",
+    "learning",
+    "work",
+    "knowledge",
+    "model",
+    "the proposed method",
+    "state",
+    "forgetting",
+    "a few typical samples",
+    "memory",
+    "previous",
+    "some previous work",
+    "samples",
+    "strong robustness",
+    "a model"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.268/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:38:27",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

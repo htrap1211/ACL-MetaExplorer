@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.494",
+  "title": "Ex3: Automatic Novel Writing by Extracting, Excelsior and Expanding",
+  "authors": [
+    "Lei, Huang  and\nGuo, Jiaming  and\nHe, Guanhua  and\nZhang, Xishan  and\nZhang, Rui  and\nPeng, Shaohui  and\nLiu, Shaoli  and\nChen, Tianshi"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Generating long-term texts such as novels using artificial intelligence has always been a challenge. A common approach is to use large language models (LLMs) to construct a hierarchical framework that first plans and then writes. Despite the fact that the generated novels reach a sufficient length, they exhibit poor logical coherence and appeal in their plots and deficiencies in character and event depiction, ultimately compromising the overall narrative quality. In this paper, we propose a method named Extracting Excelsior and Expanding. Ex3 initially extract structural information by learning from raw novel data. By combining this structure information with the novel data, an instruction-following dataset is meticulously crafted. This dataset is then utilized to fine-tune the LLM, aiming for excelsior generation performance. In the final stage, a tree-like expansion method is deployed to facilitate the generation of arbitrarily long novels.Evaluation against previous methods showcases Ex3’s ability to produce higher-quality long-form novels.",
+  "keywords": [
+    "a hierarchical framework",
+    "the generation",
+    "arbitrarily long novels evaluation",
+    "a sufficient length",
+    "form",
+    "we",
+    "llm",
+    "instruction",
+    "information",
+    "sufficient",
+    "the llm",
+    "fine",
+    "excelsior generation performance",
+    "the generated novels",
+    "hierarchical"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.494/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:06",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

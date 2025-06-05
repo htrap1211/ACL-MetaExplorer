@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.156",
+  "title": "PR}o{L}o{RA}: Partial Rotation Empowers More Parameter-Efficient {L}o{RA",
+  "authors": [
+    "Wang, Sheng  and\nXue, Boyang  and\nYe, Jiacheng  and\nJiang, Jiyue  and\nChen, Liheng  and\nKong, Lingpeng  and\nWu, Chuan"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "With the rapid scaling of large language models (LLMs), serving numerouslow-rank adaptations (LoRAs) concurrently has become increasingly impractical,leading to unaffordable costs and necessitating more parameter-efficientfinetuning methods. In this work, we introducePartiallyRotation-enhancedLow-RankAdaptation (PRoLoRA), an intra-layer sharing mechanism comprising fouressential components: broadcast reduction, rotation enhancement,partially-sharing refinement, and rectified initialization strategy. As asuperset of LoRA, PRoLoRA retains its advantages, and effectively circumventthe drawbacks of peer parameter-sharing methods with superior model capacity,practical feasibility, and broad applicability. Empirical experimentsdemonstrate the remarkably higher parameter efficiency of PRoLoRA in bothspecific parameter budget and performance target scenarios, and its scalabilityto larger LLMs. Notably, with one time less trainable parameters, PRoLoRA stilloutperforms LoRA on multiple instruction tuning datasets. Subsequently, anablation study is conducted to validate the necessity of individual componentsand highlight the superiority of PRoLoRA over three potential variants.Hopefully, the conspicuously higher parameter efficiency can establish PRoLoRAas a resource-friendly alternative to LoRA.",
+  "keywords": [
+    "efficient",
+    "more parameter-efficientfinetuning methods",
+    "layer",
+    "efficiency",
+    "we",
+    "a resource-friendly alternative",
+    "parameter",
+    "instruction",
+    "friendly",
+    "reduction",
+    "llms",
+    "tuning",
+    "work",
+    "language",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.156/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:36:25",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

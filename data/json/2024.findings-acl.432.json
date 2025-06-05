@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.432",
+  "title": "MS}2{SL}: Multimodal Spoken Data-Driven Continuous Sign Language Production",
+  "authors": [
+    "Ma, Jian  and\nWang, Wenguan  and\nYang, Yi  and\nZheng, Feng"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Sign language understanding has made significant strides; however, there is still no viable solution for generating sign sequences directlyfrom entire spoken content, e.g., text or speech. In this paper, we propose a unified framework for continuous sign language production, easing communication between sign and non-sign language users. In particular, a sequence diffusion model, utilizing embeddings extracted from text or speech, is crafted to generate sign predictions step by step. Moreover, by creating a joint embedding space for text, audio, and sign, we bind these modalities and leverage the semantic consistency among them to provide informative feedback for the model training. This embedding-consistency learning strategy minimizes the reliance on sign triplets and ensures continuous model refinement, evenwith a missing audio modality. Experiments on How2Sign and PHOENIX14T datasets demonstrate that our model achieves competitive performance in sign language production.",
+  "keywords": [
+    "embeddings",
+    "this embedding-consistency learning strategy",
+    "language",
+    "feedback",
+    "model",
+    "text",
+    "the semantic consistency",
+    "modalities",
+    "a unified framework",
+    "unified",
+    "semantic",
+    "we",
+    "sequence",
+    "learning",
+    "a joint embedding space"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.432/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:54:30",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

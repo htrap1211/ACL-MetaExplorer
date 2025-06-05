@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.210",
+  "title": "M}ulti{TACRED}: A Multilingual Version of the {TAC} Relation Extraction Dataset",
+  "authors": [
+    "Hennig, Leonhard  and\nThomas, Philippe  and\nM{\\\"o}ller, Sebastian"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Relation extraction (RE) is a fundamental task in information extraction, whose extension to multilingual settings has been hindered by the lack of supervised resources comparable in size to large English datasets such as TACRED (Zhang et al., 2017). To address this gap, we introduce the MultiTACRED dataset, covering 12 typologically diverse languages from 9 language families, which is created by machine-translating TACRED instances and automatically projecting their entity annotations. We analyze translation and annotation projection quality, identify error categories, and experimentally evaluate fine-tuned pretrained mono- and multilingual language models in common transfer learning scenarios. Our analyses show that machine translation is a viable strategy to transfer RE instances, with native speakers judging more than 83% of the translated instances to be linguistically and semantically acceptable. We find monolingual RE model performance to be comparable to the English original for many of the target languages, and that multilingual models trained on a combination of English and target language data can outperform their monolingual counterparts. However, we also observe a variety of translation and annotation projection errors, both due to the MT systems and linguistic features of the target languages, such as pronoun-dropping, compounding and inflection, that degrade dataset quality and RE model performance.",
+  "keywords": [
+    "variety",
+    "families",
+    "extraction",
+    "9 language families",
+    "machine translation",
+    "we",
+    "translation",
+    "error categories",
+    "information",
+    "transfer",
+    "a variety",
+    "categories",
+    "language",
+    "model",
+    "machine"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.210/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:38:15",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

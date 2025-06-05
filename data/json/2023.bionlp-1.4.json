@@ -1,0 +1,33 @@
+{
+  "id": "2023.bionlp-1.4",
+  "title": "Boosting Radiology Report Generation by Infusing Comparison Prior",
+  "authors": [
+    "Kim, Sanghwan  and\nNooralahzadeh, Farhad  and\nRohanian, Morteza  and\nFujimoto, Koji  and\nNishio, Mizuho  and\nSakamoto, Ryo  and\nRinaldi, Fabio  and\nKrauthammer, Michael"
+  ],
+  "year": "2023",
+  "venue": "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+  "abstract": "Recent transformer-based models have made significant strides in generating radiology reports from chest X-ray images. However, a prominent challenge remains; these models often lack prior knowledge, resulting in the generation of synthetic reports that mistakenly reference non-existent prior exams. This discrepancy can be attributed to a knowledge gap between radiologists and the generation models. While radiologists possess patient-specific prior information, the models solely receive X-ray images at a specific time point. To tackle this issue, we propose a novel approach that leverages a rule-based labeler to extract comparison prior information from radiology reports. This extracted comparison prior is then seamlessly integrated into state-of-the-art transformer-based models, enabling them to produce more realistic and comprehensive reports. Our method is evaluated on English report datasets, such as IU X-ray and MIMIC-CXR. The results demonstrate that our approach surpasses baseline models in terms of natural language generation metrics. Notably, our model generates reports that are free from false references to non-existent prior exams, setting it apart from previous models. By addressing this limitation, our approach represents a significant step towards bridging the gap between radiologists and generation models in the domain of medical report generation.",
+  "keywords": [
+    "recent transformer-based models",
+    "patient-specific prior information",
+    "the generation",
+    "medical report generation",
+    "we",
+    "radiology report generation",
+    "natural",
+    "it",
+    "information",
+    "metrics",
+    "-",
+    "x",
+    "natural language generation metrics",
+    "generation models",
+    "transformer"
+  ],
+  "url": "https://aclanthology.org/2023.bionlp-1.4/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:22:12",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

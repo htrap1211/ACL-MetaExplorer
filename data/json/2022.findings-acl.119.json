@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.119",
+  "title": "Learning from Missing Relations: Contrastive Learning with Commonsense Knowledge Graphs for Commonsense Inference",
+  "authors": [
+    "Jung, Yong-Ho  and\nPark, Jun-Hyung  and\nChoi, Joon-Young  and\nLee, Mingyu  and\nKim, Junho  and\nKim, Kang-Min  and\nLee, SangKeun"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Commonsense inference poses a unique challenge to reason and generate the physical, social, and causal conditions of a given event. Existing approaches to commonsense inference utilize commonsense transformers, which are large-scale language models that learn commonsense knowledge graphs. However, they suffer from a lack of coverage and expressive diversity of the graphs, resulting in a degradation of the representation quality. In this paper, we focus on addressing missing relations in commonsense knowledge graphs, and propose a novel contrastive learning framework called SOLAR. Our framework contrasts sets of semantically similar and dissimilar events, learning richer inferential knowledge compared to existing approaches. Empirical results demonstrate the efficacy of SOLAR in commonsense inference of diverse commonsense knowledge graphs. Specifically, SOLAR outperforms the state-of-the-art commonsense transformer on commonsense inference with ConceptNet by 1.84% on average among 8 automatic evaluation metrics. In-depth analysis of SOLAR sheds light on the effects of the missing relations utilized in learning commonsense knowledge graphs.",
+  "keywords": [
+    "transformers",
+    "we",
+    "commonsense knowledge graphs",
+    "large-scale language models",
+    "learning",
+    "analysis",
+    "metrics",
+    "commonsense transformers",
+    "diverse commonsense knowledge graphs",
+    "transformer",
+    "knowledge",
+    "language",
+    "evaluation",
+    "state",
+    "graphs"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.119/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:26",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

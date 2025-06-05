@@ -1,0 +1,33 @@
+{
+  "id": "2022.findings-acl.124",
+  "title": "Decomposed Meta-Learning for Few-Shot Named Entity Recognition",
+  "authors": [
+    "Ma, Tingting  and\nJiang, Huiqiang  and\nWu, Qianhui  and\nZhao, Tiejun  and\nLin, Chin-Yew"
+  ],
+  "year": "2022",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "abstract": "Few-shot named entity recognition (NER) systems aim at recognizing novel-class named entities based on only a few labeled examples. In this paper, we present a decomposed meta-learning approach which addresses the problem of few-shot NER by sequentially tackling few-shot span detection and few-shot entity typing using meta-learning. In particular, we take the few-shot span detection as a sequence labeling problem and train the span detector by introducing the model-agnostic meta-learning (MAML) algorithm to find a good model parameter initialization that could fast adapt to new entity classes. For few-shot entity typing, we propose MAML-ProtoNet, i.e., MAML-enhanced prototypical networks to find a good embedding space that can better distinguish text span representations from different entity classes. Extensive experiments on various benchmarks show that our approach achieves superior performance over prior methods.",
+  "keywords": [
+    "ner",
+    "i",
+    "few-shot span detection",
+    "a good embedding space",
+    "model",
+    "entities",
+    "text",
+    "class",
+    "few-shot ner",
+    "the few-shot span detection",
+    "we",
+    "learning",
+    "sequence",
+    "few-shot entity",
+    "entity"
+  ],
+  "url": "https://aclanthology.org/2022.findings-acl.124/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:36:31",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

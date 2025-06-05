@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.496",
+  "title": "W}at{ME}: Towards Lossless Watermarking Through Lexical Redundancy",
+  "authors": [
+    "Chen, Liang  and\nBian, Yatao  and\nDeng, Yang  and\nCai, Deng  and\nLi, Shuaiyi  and\nZhao, Peilin  and\nWong, Kam-Fai"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Text watermarking has emerged as a pivotal technique for identifying machine-generated text. However, existing methods often rely on arbitrary vocabulary partitioning during decoding to embed watermarks, which compromises the availability of suitable tokens and significantly degrades the quality of responses. This study assesses the impact of watermarking on different capabilities of large language models (LLMs) from a cognitive science lens. Our finding highlights a significant disparity; knowledge recall and logical reasoning are more adversely affected than language generation. These results suggest a more profound effect of watermarking on LLMs than previously understood. To address these challenges, we introduce Watermarking with Mutual Exclusion (WatME), a novel approach leveraging linguistic prior knowledge of inherent lexical redundancy in LLM vocabularies to seamlessly integrate watermarks. Specifically, WatME dynamically optimizes token usage during the decoding process by applying a mutually exclusive rule to the identified lexical redundancies. This strategy effectively prevents the unavailability of appropriate tokens and preserves the expressive power of LLMs. We provide both theoretical analysis and empirical evidence showing that WatME effectively preserves the diverse capabilities of LLMs while ensuring watermark detectability.",
+  "keywords": [
+    "llm vocabularies",
+    "we",
+    "llm",
+    "language generation",
+    "a cognitive science lens",
+    "machine-generated text",
+    "token",
+    "redundancies",
+    "science",
+    "analysis",
+    "llms",
+    "the diverse capabilities",
+    "different capabilities",
+    "the identified lexical redundancies",
+    "text"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.496/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:41:08",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.932",
+  "title": "Language-Informed Beam Search Decoding for Multilingual Machine Translation",
+  "authors": [
+    "Yang, Yilin  and\nLee, Stefan  and\nTadepalli, Prasad"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Beam search decoding is the de-facto method for decoding auto-regressive Neural Machine Translation (NMT) models, including multilingual NMT where the target language is specified as an input. However, decoding multilingual NMT models commonly produces off-target translations – yielding translation outputs not in the intended language.In this paper, we first conduct an error analysis of off-target translations for a strong multilingual NMT model and identify how these decodings are produced during beam search. We then propose Language-informed Beam Search (LiBS), a general decoding algorithm incorporating an off-the-shelf Language Identification (LiD) model into beam search decoding to reduce off-target translations. LiBS is an inference-time procedure that is NMT-model agnostic and does not require any additional parallel data. Results show that our proposed LiBS algorithm on average improves +1.1 BLEU and +0.9 BLEU on WMT and OPUS datasets, and reduces off-target rates from 22.9% to 7.7% and 65.8% to 25.3% respectively.",
+  "keywords": [
+    "general",
+    "language",
+    "neural",
+    "model",
+    "machine",
+    "bleu",
+    "we",
+    "lid",
+    "off-target translations",
+    "0 9 bleu",
+    "translations",
+    "time",
+    "1 1 bleu",
+    "translation outputs",
+    "analysis"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.932/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:01:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

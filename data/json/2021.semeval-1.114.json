@@ -1,0 +1,33 @@
+{
+  "id": "2021.semeval-1.114",
+  "title": "GHOST} at {S}em{E}val-2021 Task 5: Is explanation all you need?",
+  "authors": [
+    "Pluci{\\'n}ski, Kamil  and\nKlimczak, Hanna"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+  "abstract": "This paper discusses different approaches to the Toxic Spans Detection task. The problem posed by the task was to determine which words contribute mostly to recognising a document as toxic. As opposed to binary classification of entire texts, word-level assessment could be of great use during comment moderation, also allowing for a more in-depth comprehension of the model’s predictions. As the main goal was to ensure transparency and understanding, this paper focuses on the current state-of-the-art approaches based on the explainable AI concepts and compares them to a supervised learning solution with word-level labels. The work consists of two xAI approaches that automatically provide the explanation for models trained for binary classification of toxic documents: an LSTM model with attention as a model-specific approach and the Shapley values for interpreting BERT predictions as a model-agnostic method. The competing approach considers this problem as supervised token classification, where models like BERT and its modifications were tested. The paper aims to explore, compare and assess the quality of predictions for different methods on the task. The advantages of each approach and further research direction are also discussed.",
+  "keywords": [
+    "binary classification",
+    "all",
+    "lstm",
+    "current",
+    "classification",
+    "token",
+    "e",
+    "word",
+    "learning",
+    "token classification",
+    "bert",
+    "work",
+    "model",
+    "an lstm model",
+    "attention"
+  ],
+  "url": "https://aclanthology.org/2021.semeval-1.114/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:21:17",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

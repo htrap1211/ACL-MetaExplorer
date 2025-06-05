@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-long.524",
+  "title": "Searching for Needles in a Haystack: On the Role of Incidental Bilingualism in {P}a{LM}{'}s Translation Capability",
+  "authors": [
+    "Briakou, Eleftheria  and\nCherry, Colin  and\nFoster, George"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Large, multilingual language models exhibit surprisingly good zero- or few-shot machine translation capabilities, despite having never seen the intentionally-included translation examples provided to typical neural translation systems. We investigate the role of incidental bilingualism—the unintentional consumption of bilingual signals, including translation examples—in explaining the translation capabilities of large language models, taking the Pathways Language Model (PaLM) as a case study. We introduce a mixed-method approach to measure and understand incidental bilingualism at scale. We show that PaLM is exposed to over 30 million translation pairs across at least 44 languages. Furthermore, the amount of incidental bilingual content is highly correlated with the amount of monolingual in-language content for non-English languages. We relate incidental bilingual content to zero-shot prompts and show that it can be used to mine new prompts to improve PaLM’s out-of-English zero-shot translation quality. Finally, in a series of small-scale ablations, we show that its presence has a substantial impact on translation capabilities, although this impact diminishes with model scale.",
+  "keywords": [
+    "series",
+    "we",
+    "shot",
+    "translation",
+    "neural",
+    "zero-",
+    "translation capabilities",
+    "it",
+    "new prompts",
+    "zero-shot prompts",
+    "language model palm",
+    "the intentionally-included translation examples",
+    "typical neural translation systems",
+    "the translation capabilities",
+    "prompts"
+  ],
+  "url": "https://aclanthology.org/2023.acl-long.524/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:42:32",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

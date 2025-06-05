@@ -1,0 +1,33 @@
+{
+  "id": "2021.acl-long.415",
+  "title": "Learning to Explain: Generating Stable Explanations Fast",
+  "authors": [
+    "Situ, Xuelin  and\nZukerman, Ingrid  and\nParis, Cecile  and\nMaruf, Sameen  and\nHaffari, Gholamreza"
+  ],
+  "year": "2021",
+  "venue": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+  "abstract": "The importance of explaining the outcome of a machine learning model, especially a black-box model, is widely acknowledged. Recent approaches explain an outcome by identifying the contributions of input features to this outcome. In environments involving large black-box models or complex inputs, this leads to computationally demanding algorithms. Further, these algorithms often suffer from low stability, with explanations varying significantly across similar examples. In this paper, we propose a Learning to Explain (L2E) approach that learns the behaviour of an underlying explanation algorithm simultaneously from all training examples. Once the explanation algorithm is distilled into an explainer network, it can be used to explain new instances. Our experiments on three classification tasks, which compare our approach to six explanation algorithms, show that L2E is between 5 and 7.5×10ˆ4 times faster than these algorithms, while generating more stable explanations, and having comparable faithfulness to the black-box model.",
+  "keywords": [
+    "a machine learning model",
+    "three classification tasks",
+    "model",
+    "an explainer network",
+    "machine",
+    "it",
+    "explainer",
+    "network",
+    "we",
+    "learning",
+    "training",
+    "classification",
+    "that",
+    "the explanation algorithm",
+    "approach"
+  ],
+  "url": "https://aclanthology.org/2021.acl-long.415/",
+  "provenance": {
+    "collected_at": "2025-06-05 08:04:59",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

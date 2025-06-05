@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.28",
+  "title": "Learning Joint Structural and Temporal Contextualized Knowledge Embeddings for Temporal Knowledge Graph Completion",
+  "authors": [
+    "Gao, Yifu  and\nHe, Yongquan  and\nKan, Zhigang  and\nHan, Yi  and\nQiao, Linbo  and\nLi, Dongsheng"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Temporal knowledge graph completion that predicts missing links for incomplete temporal knowledge graphs (TKG) is gaining increasing attention. Most existing works have achieved good results by incorporating time information into static knowledge graph embedding methods. However, they ignore the contextual nature of the TKG structure, i.e., query-specific subgraph contains both structural and temporal neighboring facts. This paper presents the SToKE, a novel method that employs the pre-trained language model (PLM) to learn joint Structural and Temporal Contextualized Knowledge Embeddings.Specifically, we first construct an event evolution tree (EET) for each query to enable PLMs to handle the TKG, which can be seen as a structured event sequence recording query-relevant structural and temporal contexts. We then propose a novel temporal embedding and structural matrix to learn the time information and structural dependencies of facts in EET.Finally, we formulate TKG completion as a mask prediction problem by masking the missing entity of the query to fine-tune pre-trained language models. Experimental results on three widely used datasets show the superiority of our model.",
+  "keywords": [
+    "we",
+    "tkg",
+    "graph",
+    "tkg completion",
+    "structural dependencies",
+    "increasing attention",
+    "the tkg structure",
+    "dependencies",
+    "information",
+    "the tkg",
+    "sequence",
+    "i",
+    "fine-tune pre-trained language models",
+    "fine",
+    "embedding"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.28/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:35",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

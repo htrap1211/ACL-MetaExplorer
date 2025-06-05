@@ -1,0 +1,33 @@
+{
+  "id": "2024.acl-long.364",
+  "title": "P}ix{T}3: Pixel-based Table-To-Text Generation",
+  "authors": [
+    "Alonso, I{\\~n}igo  and\nAgirre, Eneko  and\nLapata, Mirella"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "abstract": "Table-to-text generation involves generating appropriate textual descriptions given structured tabular data. It has attracted increasing attention in recent years thanks to the popularity of neural network models and the availability of large-scale datasets. A common feature across existing methods is their treatment of the input as a string, i.e., by employing linearization techniques that do not always preserve information in the table, are verbose, and lack space efficiency. We propose to rethink data-to-text generation as a visual recognition task, removing the need for rendering the input in a string format. We present PixT3, a multimodal table-to-text model that overcomes the challenges of linearization and input size limitations encountered by existing models. PixT3 is trained with a new self-supervised learning objective to reinforce table structure awareness and is applicable to open-ended and controlled generation settings. Experiments on the ToTTo and Logic2Text benchmarks show that PixT3 is competitive and, in some settings, superior to generators that operate solely on text.",
+  "keywords": [
+    "efficiency",
+    "we",
+    "generators",
+    "neural network models",
+    "increasing attention",
+    "neural",
+    "it",
+    "self",
+    "information",
+    "format",
+    "learning",
+    "visual",
+    "i",
+    "text",
+    "objective"
+  ],
+  "url": "https://aclanthology.org/2024.acl-long.364/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:39:18",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

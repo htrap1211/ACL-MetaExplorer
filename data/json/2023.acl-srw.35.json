@@ -1,0 +1,33 @@
+{
+  "id": "2023.acl-srw.35",
+  "title": "Choosing What to Mask: More Informed Masking for Multimodal Machine Translation",
+  "authors": [
+    "Sato, Julia  and\nCaseli, Helena  and\nSpecia, Lucia"
+  ],
+  "year": "2023",
+  "venue": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+  "abstract": "Pre-trained language models have achieved remarkable results on several NLP tasks. Most of them adopt masked language modeling to learn representations by randomly masking tokens and predicting them based on their context. However, this random selection of tokens to be masked is inefficient to learn some language patterns as it may not consider linguistic information that can be helpful for many NLP tasks, such as multimodal machine translation (MMT). Hence, we propose three novel masking strategies for cross-lingual visual pre-training - more informed visual masking, more informed textual masking, and more informed visual and textual masking - each one focusing on learning different linguistic patterns. We apply them to Vision Translation Language Modelling for video subtitles (Sato et al., 2022) and conduct extensive experiments on the Portuguese-English MMT task. The results show that our masking approaches yield significant improvements over the original random masking strategy for downstream MMT performance. Our models outperform the MMT baseline and we achieve state-of-the-art accuracy (52.70 in terms of BLEU score) on the How2 dataset, indicating that more informed masking helps in acquiring an understanding of specific language structures and has great potential for language understanding.",
+  "keywords": [
+    "inefficient",
+    "vision translation language modelling",
+    "bleu",
+    "we",
+    "multimodal machine translation mmt",
+    "several nlp tasks",
+    "language modeling",
+    "training",
+    "translation",
+    "cross",
+    "three novel masking strategies",
+    "it",
+    "many nlp tasks",
+    "information",
+    "visual"
+  ],
+  "url": "https://aclanthology.org/2023.acl-srw.35/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:51:47",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

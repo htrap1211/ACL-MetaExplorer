@@ -1,0 +1,33 @@
+{
+  "id": "2024.findings-acl.634",
+  "title": "Automatic Engineering of Long Prompts",
+  "authors": [
+    "Hsieh, Cho-Jui  and\nSi, Si  and\nYu, Felix  and\nDhillon, Inderjit"
+  ],
+  "year": "2024",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2024",
+  "abstract": "Large language models (LLMs) have demonstrated remarkable capabilities in solving complex open-domain tasks, guided by comprehensive instructions and demonstrations provided in the form of prompts. However, these prompts can be lengthy, often comprising hundreds of lines and thousands of tokens, and their design often requires considerable human effort. Recent research has explored automatic prompt engineering for short prompts, typically consisting of one or a few sentences. However, the automatic design of long prompts remains a challenging problem due to its immense search space. In this paper, we propose an algorithm named Automated Prompt Engineering Xpert (APEX), a novel algorithm that automatically improves long prompts. Leveraging a greedy algorithm with beam-search for efficiency, APEX utilizes search history to significantly enhance the effectiveness of LLM-based mutation in its search process. Our results show that APEX achieves an average of 9.2% accuracy gain on eight tasks in Big Bench Hard and a consistent improvements on GSM8K with various models, highlighting the significance of automating prompt designs to fully harness the capabilities of LLMs.",
+  "keywords": [
+    "9 2 accuracy gain",
+    "prompt designs",
+    "remarkable capabilities",
+    "form",
+    "efficiency",
+    "we",
+    "llm-based mutation",
+    "efficiency apex",
+    "the capabilities",
+    "automatic prompt engineering",
+    "llms",
+    "prompt",
+    "long prompts",
+    "short prompts",
+    "large language models llms"
+  ],
+  "url": "https://aclanthology.org/2024.findings-acl.634/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:57:16",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

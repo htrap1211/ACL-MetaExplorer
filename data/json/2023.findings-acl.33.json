@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.33",
+  "title": "M}o{NET}: Tackle State Momentum via Noise-Enhanced Training for Dialogue State Tracking",
+  "authors": [
+    "Zhang, Haoning  and\nBao, Junwei  and\nSun, Haipeng  and\nWu, Youzheng  and\nLi, Wenye  and\nCui, Shuguang  and\nHe, Xiaodong"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "Dialogue state tracking (DST) aims to convert the dialogue history into dialogue states which consist of slot-value pairs. As condensed structural information memorizes all history information, the dialogue state in the previous turn is typically adopted as the input for predicting the current state by DST models. However, these models tend to keep the predicted slot values unchanged, which is defined as state momentum in this paper. Specifically, the models struggle to update slot values that need to be changed and correct wrongly predicted slot values in the previous turn. To this end, we propose MoNET to tackle state momentum via noise-enhanced training. First, the previous state of each turn in the training data is noised via replacing some of its slot values. Then, the noised previous state is used as the input to learn to predict the current state, improving the model’s ability to update and correct slot values. Furthermore, a contrastive contextmatching framework is designed to narrow the representation distance between a state and itscorresponding noised variant, which reduces the impact of noised state and makes the model better understand the dialogue history. Experimental results on MultiWOZ datasets show that MoNET outperforms previous DST methods. Ablations and analysis verify the effectiveness of MoNET in alleviating state momentum issues and improving the anti-noise ability.",
+  "keywords": [
+    "end",
+    "we",
+    "dialogue",
+    "the dialogue history",
+    "the dialogue state",
+    "current",
+    "training",
+    "net",
+    "information",
+    "momentum",
+    "analysis",
+    "anti",
+    "dialogue states",
+    "state momentum issues",
+    "model"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.33/",
+  "provenance": {
+    "collected_at": "2025-06-05 09:53:40",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

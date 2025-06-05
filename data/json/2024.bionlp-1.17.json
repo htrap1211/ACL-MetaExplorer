@@ -1,0 +1,33 @@
+{
+  "id": "2024.bionlp-1.17",
+  "title": "Can Rule-Based Insights Enhance {LLM}s for Radiology Report Classification? Introducing the {R}ad{P}rompt Methodology.",
+  "authors": [
+    "Fytas, Panagiotis  and\nBreger, Anna  and\nSelby, Ian  and\nBaker, Simon  and\nShahipasand, Shahab  and\nKorhonen, Anna"
+  ],
+  "year": "2024",
+  "venue": "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+  "abstract": "Developing imaging models capable of detecting pathologies from chest X-rays can be cost and time-prohibitive for large datasets as it requires supervision to attain state-of-the-art performance. Instead, labels extracted from radiology reports may serve as distant supervision since these are routinely generated as part of clinical practice. Despite their widespread use, current rule-based methods for label extraction rely on extensive rule sets that are limited in their robustness to syntactic variability. To alleviate these limitations, we introduce RadPert, a rule-based system that integrates an uncertainty-aware information schema with a streamlined set of rules, enhancing performance. Additionally, we have developed RadPrompt, a multi-turn prompting strategy that leverages RadPert to bolster the zero-shot predictive capabilities of large language models, achieving a statistically significant improvement in weighted average F1 score over GPT-4 Turbo. Most notably, RadPrompt surpasses both its underlying models, showcasing the synergistic potential of LLMs with rule-based models. We have evaluated our methods on two English Corpora: the MIMIC-CXR gold-standard test set and a gold-standard dataset collected from the Cambridge University Hospitals.",
+  "keywords": [
+    "a multi-turn prompting strategy",
+    "extraction",
+    "llm s",
+    "we",
+    "current",
+    "llm",
+    "shot",
+    "the synergistic potential",
+    "classification",
+    "pathologies",
+    "weighted average f1 score",
+    "it",
+    "information",
+    "radprompt",
+    "llms"
+  ],
+  "url": "https://aclanthology.org/2024.bionlp-1.17/",
+  "provenance": {
+    "collected_at": "2025-06-05 11:04:09",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}

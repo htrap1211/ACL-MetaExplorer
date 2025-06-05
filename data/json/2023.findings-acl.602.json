@@ -1,0 +1,33 @@
+{
+  "id": "2023.findings-acl.602",
+  "title": "Controlled Text Generation with Hidden Representation Transformations",
+  "authors": [
+    "Kumar, Vaibhav  and\nKoorehdavoudi, Hana  and\nMoshtaghi, Masud  and\nMisra, Amita  and\nChadha, Ankit  and\nFerrara, Emilio"
+  ],
+  "year": "2023",
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2023",
+  "abstract": "We propose CHRT (Control HiddenRepresentation Transformation) – a con-trolled language generation framework thatsteers large language models to generatetext pertaining to certain attributes (such astoxicity). CHRT gains attribute control bymodifying the hidden representation of thebase model through learned transformations. We employ a contrastive-learning frameworkto learn these transformations that can becombined to gain multi-attribute control. Theeffectiveness of CHRT is experimentallyshown by comparing it with seven baselinesover three attributes. CHRT outperforms all thebaselines in the task of detoxification, positivesentiment steering, and text simplificationwhile minimizing the loss in linguistic qualities. Further, our approach has the lowest inferencelatency of only 0.01 seconds more than thebase model, making it the most suitable forhigh-performance production environments. We open-source our code and release two noveldatasets to further propel controlled languagegeneration research",
+  "keywords": [
+    "code",
+    "two noveldatasets",
+    "we",
+    "qualities",
+    "it",
+    "loss",
+    "linguistic qualities",
+    "con",
+    "text",
+    "noveldatasets",
+    "generation",
+    "language",
+    "model",
+    "large language models",
+    "generatetext"
+  ],
+  "url": "https://aclanthology.org/2023.findings-acl.602/",
+  "provenance": {
+    "collected_at": "2025-06-05 10:16:48",
+    "source": "ACL Anthology",
+    "version": "1.0"
+  }
+}
